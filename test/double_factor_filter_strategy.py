@@ -1,11 +1,9 @@
 # 克隆自聚宽文章：https://www.joinquant.com/post/1399
 # 标题：【量化课堂】多因子策略入门
 # 作者：JoinQuant量化课堂
-#
-# 本版参数：持仓 10 只；回测初始资金请在聚宽界面设为 ￥300000
-# （资金在平台回测设置里配置，策略代码无法直接改初始资金）
+
 #多因子策略入门
-# 建议回测：每天；初始资金 300000
+# 2015-01-01 到 2016-03-08, ￥2000000, 每天
 
 
 '''
@@ -19,18 +17,17 @@ def initialize(context):
     set_params()        #1设置策参数
     set_variables() #2设置中间变量
     set_backtest()   #3设置回测条件
-    log.info('策略参数: 持仓=%d只, 调仓间隔=%d日; 请确认回测初始资金为 300000' % (g.N, g.tc))
 
 
 #1
 #设置策参数
 def set_params():
-    g.tc = 15   # 调仓频率（交易日）
-    g.yb = 63   # 样本长度：近 N 日未停牌过滤
-    g.N = 10    # 持仓数目（30万资金约每只3万，可覆盖多数成分股价）
-    g.factors = ["market_cap", "roe"]  # 小市值 + 高ROE
-    # 因子方向：1 表示因子值越小越好，-1 表示越大越好
-    g.weights = [[1], [-1]]
+    g.tc=20  # 调仓频率
+    g.yb=63  # 样本长度
+    g.N=10   # 持仓数目
+    g.factors=["market_cap","roe"] # 用户选出来的因子
+    # 因子等权重里1表示因子值越小越好，-1表示因子值越大越好
+    g.weights=[[1],[-1]]
     
     
 #2
@@ -43,8 +40,7 @@ def set_variables():
 #3
 #设置回测条件
 def set_backtest():
-    set_option('use_real_price', True)  # 用真实价格交易
-    set_option('avoid_future_data', True)
+    set_option('use_real_price', True)#用真实价格交易
     log.set_level('order', 'error')
 
 
@@ -123,93 +119,52 @@ def set_slip_fee(context):
 '''
 
 def handle_data(context, data):
-    if g.if_trade == True:
-        todayStr = str(context.current_dt)[0:10]
-        a, b = getRankedFactors(g.factors, todayStr)
-        points = np.dot(a, g.weights)
-        stock_sort = b[:]
-        points, stock_sort = bubble(points, stock_sort)
+    if g.if_trade==True:
+    # 计算现在的总资产，以分配资金，这里是等额权重分配
+        g.everyStock=context.portfolio.portfolio_value/g.N
+        # 获得今天日期的字符串
+        todayStr=str(context.current_dt)[0:10]
+        # 获得因子排序
+        a,b=getRankedFactors(g.factors,todayStr)
+        # 计算每个股票的得分
+        points=np.dot(a,g.weights)
+        # 复制股票代码
+        stock_sort=b[:]
+        # 对股票的得分进行排名
+        points,stock_sort=bubble(points,stock_sort)
+        # 取前N名的股票
+        toBuy=stock_sort[0:g.N].values
+        # 对于不需要持仓的股票，全仓卖出
+        order_stock_sell(context,data,toBuy)
+        # 对于不需要持仓的股票，按分配到的份额买入
+        order_stock_buy(context,data,toBuy)
+    g.if_trade=False    
 
-        # 从排名中挑选能买满 1 手（100股）的标的，不足则向后顺延
-        ranked = list(stock_sort.values)
-        toBuy = pick_buyable_stocks(context, ranked, g.N)
-
-        # 先卖出不在目标中的持仓，释放现金
-        order_stock_sell(context, data, toBuy)
-
-        if len(toBuy) == 0:
-            log.info('无足够资金买入一手的候选股，今日跳过开仓')
-            g.if_trade = False
-            return
-
-        # 按实际可买数量等权，预留约 2% 防手续费导致资金不够
-        g.everyStock = context.portfolio.portfolio_value / len(toBuy) * 0.98
-        order_stock_buy(context, data, toBuy)
-    g.if_trade = False
 
 
 #6
 #获得卖出信号，并执行卖出操作
 #输入：context, data，toBuy-list
 #输出：none
-def order_stock_sell(context, data, toBuy):
+def order_stock_sell(context,data,toBuy):
     #如果现有持仓股票不在股票池，清空
-    list_position = list(context.portfolio.positions.keys())
+    list_position=context.portfolio.positions.keys()
     for stock in list_position:
         if stock not in toBuy:
             order_target(stock, 0)
 
 #7
-# 从因子排名中挑选可开仓（至少 100 股）的股票
-def pick_buyable_stocks(context, ranked_stocks, hold_num):
-    current_data = get_current_data()
-    # 先按目标持仓数估算单票资金
-    approx = context.portfolio.portfolio_value / max(hold_num, 1) * 0.98
-    selected = []
-
-    for stock in ranked_stocks:
-        if len(selected) >= hold_num:
-            break
-        cd = current_data[stock]
-        price = cd.last_price
-        if price is None or price != price or price <= 0:
-            continue
-        if cd.paused:
-            continue
-        # 涨停通常买不进
-        if price >= cd.high_limit * 0.997:
-            continue
-        # A股开仓至少 100 股：单票资金不够一手则跳过该高价股
-        if approx < price * 100:
-            continue
-        selected.append(stock)
-
-    if not selected:
-        return []
-
-    # 用实际入选数量再筛一遍，避免入选变少后资金估算偏差
-    value_per = context.portfolio.portfolio_value / len(selected) * 0.98
-    return [s for s in selected if value_per >= current_data[s].last_price * 100]
-
-
-#8
 #获得买入信号，并执行买入操作
 #输入：context, data，toBuy-list
 #输出：none
-def order_stock_buy(context, data, toBuy):
-    current_data = get_current_data()
-    for stock in toBuy:
-        price = current_data[stock].last_price
-        if price is None or price != price or price <= 0:
-            continue
-        # 二次校验：分配金额买不足一手则不下单，避免刷 ERROR
-        if g.everyStock < price * 100:
-            log.info('%s 现价=%.2f，分配=%.2f，不足一手，跳过' % (stock, price, g.everyStock))
-            continue
-        order_target_value(stock, g.everyStock)
+def order_stock_buy(context,data,toBuy):
+    # 对于不需要持仓的股票，按分配到的份额买入
+    for i in range(0,len(g.all_stocks)):
+        if indexOf(g.all_stocks[i],toBuy)>-1:
+            order_target_value(g.all_stocks[i], g.everyStock)
 
 
-#9
+#8
 #查找一个元素在数组里面的位置，如果不存在，则返回-1
 #输入：元素，对应数组
 #输出：-1
@@ -220,7 +175,7 @@ def indexOf(e,a):
     return -1
 
 
-#10
+#9
 #取因子数据
 #输入：f-全局通用的查询,d-str
 #输出：因子数据,股票的代码-dataframe
@@ -240,7 +195,7 @@ def getRankedFactors(f,d):
     # 返回因子数据和股票的代码（这个是因为沪深300指数成分股一直在变，如果用未来的沪深300指数成分股在之前可能有一些股票还没上市）
     return res,df['code']
 
-#11
+#10
 #把每列原始数据变成排序的数据
 #输入：r-list
 #输出：r-list
@@ -269,7 +224,7 @@ def getRank(r):
     # 因为Python是引用传递，所以其实这个可以不用返回值也行，当然如果你想用另外一个变量来存储排序结果的话可以考虑返回值的方法
     return r
 
-#12
+#11
 #用均值填充Nan
 #输入：m-list
 #输出：m-list
@@ -297,7 +252,7 @@ def fillNan(m):
                 m[i][j]=avg
     return m
 
-#13
+#12
 #定义一个冒泡排序的函数
 #输入：numbers是股票的综合得分-list
 #输出：indexes是股票列表-list
@@ -321,3 +276,9 @@ def bubble(numbers,indexes):
 # 每日收盘后要做的事情（本策略中不需要）
 def after_trading_end(context):
     return
+
+
+
+
+
+
