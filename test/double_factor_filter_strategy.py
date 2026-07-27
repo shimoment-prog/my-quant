@@ -62,8 +62,7 @@ def before_trading_start(context):
         set_slip_fee(context) 
         # 设置可行股票池：获得当前开盘的沪深300股票池并剔除当前或者计算样本期间停牌的股票
         g.all_stocks = set_feasible_stocks(get_index_stocks('000300.XSHG'),g.yb,context)
-        # 查询所有财务因子
-        g.q = query(valuation,balance,cash_flow,income,indicator).filter(valuation.code.in_(g.all_stocks))
+        # 不再把 query 对象存进 g（无法 pickle，回测结束会 WARNING）
     g.t+=1
     
 #4
@@ -95,7 +94,6 @@ def set_slip_fee(context):
     set_slippage(FixedSlippage(0)) 
     # 根据不同的时间段设置手续费
     dt=context.current_dt
-    log.info(type(context.current_dt))
     
     if dt>datetime.datetime(2013,1, 1):
         set_commission(PerTrade(buy_cost=0.0003, sell_cost=0.0013, min_cost=5)) 
@@ -119,52 +117,122 @@ def set_slip_fee(context):
 '''
 
 def handle_data(context, data):
-    if g.if_trade==True:
-    # 计算现在的总资产，以分配资金，这里是等额权重分配
-        g.everyStock=context.portfolio.portfolio_value/g.N
-        # 获得今天日期的字符串
-        todayStr=str(context.current_dt)[0:10]
-        # 获得因子排序
-        a,b=getRankedFactors(g.factors,todayStr)
-        # 计算每个股票的得分
-        points=np.dot(a,g.weights)
-        # 复制股票代码
-        stock_sort=b[:]
-        # 对股票的得分进行排名
-        points,stock_sort=bubble(points,stock_sort)
-        # 取前N名的股票
-        toBuy=stock_sort[0:g.N].values
-        # 对于不需要持仓的股票，全仓卖出
-        order_stock_sell(context,data,toBuy)
-        # 对于不需要持仓的股票，按分配到的份额买入
-        order_stock_buy(context,data,toBuy)
-    g.if_trade=False    
+    if g.if_trade == True:
+        todayStr = str(context.current_dt)[0:10]
+        a, b = getRankedFactors(g.factors, todayStr)
+        points = np.dot(a, g.weights)
+        stock_sort = b[:]
+        points, stock_sort = bubble(points, stock_sort)
 
+        # 从因子排名中挑选能新开至少 1 手的标的（高价股买不起则顺延）
+        ranked = list(stock_sort.values)
+        toBuy = pick_buyable_stocks(context, ranked, g.N)
+
+        # 不在目标池：整股清仓
+        order_stock_sell(context, data, toBuy)
+
+        if len(toBuy) == 0:
+            log.info('无可买满一手的候选股，今日跳过开仓')
+            g.if_trade = False
+            return
+
+        # 按实际入选数量等权，预留约 2% 防手续费占满
+        g.everyStock = context.portfolio.portfolio_value / len(toBuy) * 0.98
+        order_stock_buy(context, data, toBuy)
+    g.if_trade = False
 
 
 #6
 #获得卖出信号，并执行卖出操作
-#输入：context, data，toBuy-list
-#输出：none
-def order_stock_sell(context,data,toBuy):
-    #如果现有持仓股票不在股票池，清空
-    list_position=context.portfolio.positions.keys()
+def order_stock_sell(context, data, toBuy):
+    list_position = list(context.portfolio.positions.keys())
     for stock in list_position:
         if stock not in toBuy:
+            # 整仓卖出不受「平仓不足100股」微调问题影响
             order_target(stock, 0)
 
+
 #7
-#获得买入信号，并执行买入操作
-#输入：context, data，toBuy-list
-#输出：none
-def order_stock_buy(context,data,toBuy):
-    # 对于不需要持仓的股票，按分配到的份额买入
-    for i in range(0,len(g.all_stocks)):
-        if indexOf(g.all_stocks[i],toBuy)>-1:
-            order_target_value(g.all_stocks[i], g.everyStock)
+# 从排名中挑选可新开仓（目标资金至少够买 100 股）的股票
+def pick_buyable_stocks(context, ranked_stocks, hold_num):
+    current_data = get_current_data()
+    held = set(context.portfolio.positions.keys())
+    approx = context.portfolio.portfolio_value / max(hold_num, 1) * 0.98
+    selected = []
+
+    for stock in ranked_stocks:
+        if len(selected) >= hold_num:
+            break
+        cd = current_data[stock]
+        price = cd.last_price
+        if price is None or price != price or price <= 0:
+            continue
+        if cd.paused:
+            continue
+        if price >= cd.high_limit * 0.997:
+            continue
+
+        # 已持仓：可保留进目标池（后续用 safe 调仓）
+        if stock in held:
+            selected.append(stock)
+            continue
+
+        # 新开仓：单票资金必须够买至少 1 手
+        if approx < price * 100:
+            continue
+        selected.append(stock)
+
+    if not selected:
+        return []
+
+    value_per = context.portfolio.portfolio_value / len(selected) * 0.98
+    final = []
+    for stock in selected:
+        price = current_data[stock].last_price
+        if stock in held or value_per >= price * 100:
+            final.append(stock)
+    return final
 
 
 #8
+# 目标市值调仓：增减不足 100 股则跳过；下单按整手股数，避免开/平仓报错
+def safe_order_target_value(context, stock, target_value):
+    current_data = get_current_data()
+    cd = current_data[stock]
+    price = cd.last_price
+    if price is None or price != price or price <= 0:
+        return
+
+    held = set(context.portfolio.positions.keys())
+    if stock in held:
+        current_amount = context.portfolio.positions[stock].total_amount
+    else:
+        current_amount = 0
+
+    # 目标股数向下取整到 100（一手）
+    target_amount = int(target_value / price / 100) * 100
+
+    # 新开仓但目标不足一手
+    if current_amount == 0 and target_amount < 100:
+        log.info('%s 现价=%.2f 目标金额=%.2f，不足一手，跳过开仓' % (stock, price, target_value))
+        return
+
+    # 已有仓位，微调不足一手：保持现状
+    if abs(target_amount - current_amount) < 100:
+        return
+
+    # 按整手股数调仓，比按金额更稳
+    order_target(stock, target_amount)
+
+
+#9
+#获得买入/调仓信号并执行
+def order_stock_buy(context, data, toBuy):
+    for stock in toBuy:
+        safe_order_target_value(context, stock, g.everyStock)
+
+
+#10
 #查找一个元素在数组里面的位置，如果不存在，则返回-1
 #输入：元素，对应数组
 #输出：-1
@@ -175,13 +243,18 @@ def indexOf(e,a):
     return -1
 
 
-#9
+#11
 #取因子数据
 #输入：f-全局通用的查询,d-str
 #输出：因子数据,股票的代码-dataframe
 def getRankedFactors(f,d):
-    # 获得股票的基本面数据，这个API里面有，g.q是一个全局通用的查询
-    df = get_fundamentals(g.q,d)
+    # 每次现场构造 query，避免 g 上挂载不可序列化的 SQLAlchemy 对象
+    q = query(
+        valuation, balance, cash_flow, income, indicator
+    ).filter(
+        valuation.code.in_(g.all_stocks)
+    )
+    df = get_fundamentals(q, d)
     # 为了防止Python里面的浅复制现象，采用循环来定义二维数组
     res = [([0] * len(f)) for i in range(len(df))]
     # 把数据填充到刚才定义的数组里面
@@ -195,7 +268,7 @@ def getRankedFactors(f,d):
     # 返回因子数据和股票的代码（这个是因为沪深300指数成分股一直在变，如果用未来的沪深300指数成分股在之前可能有一些股票还没上市）
     return res,df['code']
 
-#10
+#12
 #把每列原始数据变成排序的数据
 #输入：r-list
 #输出：r-list
@@ -224,7 +297,7 @@ def getRank(r):
     # 因为Python是引用传递，所以其实这个可以不用返回值也行，当然如果你想用另外一个变量来存储排序结果的话可以考虑返回值的方法
     return r
 
-#11
+#13
 #用均值填充Nan
 #输入：m-list
 #输出：m-list
@@ -252,7 +325,7 @@ def fillNan(m):
                 m[i][j]=avg
     return m
 
-#12
+#14
 #定义一个冒泡排序的函数
 #输入：numbers是股票的综合得分-list
 #输出：indexes是股票列表-list
