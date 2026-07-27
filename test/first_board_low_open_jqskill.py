@@ -34,7 +34,7 @@ def initialize(context):
     # 先卖后买；尾盘清掉未盈利隔夜仓
     run_daily(morning_sell, time='09:31')
     run_daily(buy_stocks, time='09:32')
-    run_daily(close_sell, time='before_close')  # 约 14:50
+    run_daily(close_sell, time='14:50')  # 尾盘清仓（平台不支持 before_close）
 
 
 def is_limit_up(close_price, high_limit):
@@ -145,10 +145,12 @@ def buy_stocks(context):
     all_stocks = list(get_all_securities(['stock'], context.current_dt.date()).index)
     pool = filter_stock_pool(context, all_stocks)
 
+    # 只读 keys，勿对未持仓代码做 positions[code]/get，否则会刷空 Position 警告
+    held = set(context.portfolio.positions.keys())
+
     candidates = []
     for stock in pool:
-        pos = context.portfolio.positions.get(stock)
-        if pos is not None and pos.total_amount > 0:
+        if stock in held:
             continue
         try:
             if check_signal(context, stock):
