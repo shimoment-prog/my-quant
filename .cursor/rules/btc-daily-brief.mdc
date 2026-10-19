@@ -1,0 +1,15 @@
+---
+description: 比特币日报、BTC 日报、四层简报时，按固定四层模版取数填报，不编未公布的 ETF 和通胀。
+alwaysApply: false
+---
+
+# 比特币日报
+
+用户要「比特币日报」时，先读技能 `btc-daily-brief`（规范副本在 `/Users/richao11/myproject/my-work-skill/btc-daily-brief/`），对照最近一份 `report/btc-四层简报-*.md`，按四层现取数：
+
+1. 贴现率（财政部十年期日终、CME 下次会议概率、已公布通胀、布伦特合约收盘）
+2. 机械卖盘（Farside 美国现货比特币 ETF；横杠日不进图、不进合计）
+3. 叙事（只写已披露的囤币和法案）
+4. 流动性（利率与油的清算，还是信用冻住）
+
+产出 `report/btc-四层简报-YYYY-MM-DD.md` 和 canvas `btc-daily-YYYY-MM-DD.canvas.tsx`。Canvas 必须含完整交易日的 ETF 净流入柱，以及四层表。未要求则不 commit。不构成投资建议。
