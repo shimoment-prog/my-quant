@@ -1,0 +1,16 @@
+---
+description: 五粮液日报、普五日报、000858 日报时，按固定五段模版取数填报，不编未公布财务。
+alwaysApply: false
+---
+
+# 五粮液日报
+
+用户要「五粮液日报」时，先读技能 `wuliangye-daily-brief`（规范副本在 `/Users/richao11/myproject/my-work-skill/wuliangye-daily-brief/`），按五段现取数：
+
+1. 上年 1 月起的飞天一批、普五一批、一批利润、普五终端（四张图分开）
+2. 今年开瓶、动销
+3. 今年渠道库存
+4. 已公告归母；未出季报按动销和吨价桥接测算（必须标明测算）
+5. 今年回款和合同负债（现金与票据分开，合同负债与监管商品款项并列）
+
+产出 `report/wuliangye-日报-YYYY-MM-DD.md` 和 canvas `wuliangye-daily-YYYY-MM-DD.canvas.tsx`。Canvas 必须含：四张绝对价折线；今年各季归母对去年各季（测算季换色）；去年全年归母对今年已公告累计；销售回款绝对额对比和合同负债季末余额。未要求则不 commit。不构成投资建议。
