@@ -1,11 +1,11 @@
 ---
-description: 长江电力日报、长电日报、600900 日报时，按固定六段模版取数填报，不编未公布财务。
+description: 长江电力日报、长电日报、600900 日报时，按固定七段模版取数填报，不编未公布财务。76bp 息差不反推目标价。
 alwaysApply: false
 ---
 
 # 长江电力日报
 
-用户要「长江电力日报」时，先读技能 `cypc-daily-brief`（规范副本在 `/Users/richao11/myproject/my-work-skill/cypc-daily-brief/`），按六段现取数：
+用户要「长江电力日报」时，先读技能 `cypc-daily-brief`（规范副本在 `/Users/richao11/myproject/my-work-skill/cypc-daily-brief/`），按七段现取数：
 
 1. 日度水文 + 季度来水（只认乌东德、三峡）
 2. 电量季度同环比
@@ -13,5 +13,6 @@ alwaysApply: false
 4. 电价与财务费用
 5. 已公告季度归母
 6. 未出季报的电量桥接利润测算（必须标明测算）
+7. 未来走势：情景、股价带、对应什么、概率。股价带是区间，上下沿沿用 29–30、27–28、31–32、26–27。股价 = 上一完整年度 DPS /（十年期 + 息差）。76bp 不进情景、不算成价格
 
 产出 `report/cypc-日报-YYYY-MM-DD.md` 和 canvas `cypc-daily-YYYY-MM-DD.canvas.tsx`。Canvas 必须含：三峡/乌东德分开的来水绝对量对比（不要同比环比%图）；近五年十年期、股息率、息差（不要息差变化图）；今年各季归母对去年各季（测算季换色）；去年全年归母对今年已公告累计。未要求则不 commit。不构成投资建议。
