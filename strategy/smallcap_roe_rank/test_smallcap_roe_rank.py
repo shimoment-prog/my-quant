@@ -7,6 +7,7 @@ import sys
 import types
 import unittest
 
+import numpy as np
 import pandas as pd
 
 
@@ -52,6 +53,8 @@ class StrategyTests(unittest.TestCase):
         self.open_orders = {}
         self.fundamental_dates = []
         self.index_dates = []
+        self.messages = []
+        self.callbacks = {}
         self.codes = ['600001.XSHG', '600002.XSHG', '600003.XSHG']
         self.quotes = {code: self.quote() for code in self.codes}
         self.frame = pd.DataFrame({
@@ -59,8 +62,11 @@ class StrategyTests(unittest.TestCase):
         })
         s = self.s
         s.g = types.SimpleNamespace()
-        s.log = types.SimpleNamespace(info=lambda *_: None, warn=lambda *_: None,
-                                      set_level=lambda *_: None)
+        s.log = types.SimpleNamespace(
+            info=lambda message: self.messages.append(('info', message)),
+            warn=lambda message: self.messages.append(('warn', message)),
+            set_level=lambda *_: None,
+        )
         s.set_benchmark = lambda *_: None
         s.set_option = lambda *_: None
         s.set_slippage = lambda *_: None
@@ -68,7 +74,7 @@ class StrategyTests(unittest.TestCase):
         s.PriceRelatedSlippage = lambda value: value
         s.MarketOrderStyle = lambda value: ('market_protection', value)
         s.OrderCost = lambda **kwargs: kwargs
-        s.run_daily = lambda *_, **__: None
+        s.run_daily = lambda callback, time: self.callbacks.__setitem__(time, callback)
         s.get_current_data = lambda: self.quotes
         s.get_open_orders = lambda: self.open_orders
         s.order_target_value = self.submit_order
@@ -267,6 +273,64 @@ class StrategyTests(unittest.TestCase):
         self.plan([code], value=9500.)
         self.s.execute_buys(self.context)
         self.assertEqual(self.orders, [])
+
+    def test_registered_callbacks_buy_with_numpy_names_in_platform_globals(self):
+        # NumPy any treats an empty generator as truthy; an empty account must still buy.
+        for name in ('any', 'sum', 'min', 'max'):
+            setattr(self.s, name, getattr(np, name))
+        self.context.portfolio.total_value = 300000.
+        self.context.portfolio.available_cash = 300000.
+        for time in ('09:31', '09:32', '09:35'):
+            hour, minute = map(int, time.split(':'))
+            self.context.current_dt = self.context.current_dt.replace(hour=hour, minute=minute)
+            self.callbacks[time](self.context)
+        self.assertEqual(self.s.g.target_value, 14700.)
+        self.assertEqual(self.orders, [(code, 14700.) for code in self.codes])
+        self.assertEqual(self.s.g.buy_submit_count, 3)
+        self.assertIn('14:50', self.callbacks)
+        self.assertIn('15:10', self.callbacks)
+
+    def test_numpy_names_cannot_change_sellable_share_calculation(self):
+        for name in ('any', 'sum', 'min', 'max'):
+            setattr(self.s, name, getattr(np, name))
+        code = self.codes[0]
+        self.position(code, amount=400, sellable=100)
+        self.plan([self.codes[1]])
+        self.s.execute_reductions(self.context)
+        self.assertEqual(self.orders, [(code, 3000.)])
+
+    def test_invalid_held_quote_still_blocks_unsafe_buy_and_explains_why(self):
+        code = self.codes[0]
+        self.position(code)
+        self.quotes[code].last_price = None
+        self.plan([self.codes[1]])
+        self.s.execute_buys(self.context)
+        self.assertEqual(self.orders, [])
+        self.assertTrue(any(level == 'warn' and '持仓行情无效' in message and code in message
+                            for level, message in self.messages))
+
+    def test_uncreated_order_is_reported_and_not_counted_as_submitted(self):
+        self.plan([self.codes[0]])
+        self.s.order_target_value = lambda *_, **__: None
+        self.s.execute_buys(self.context)
+        self.assertEqual(self.s.g.buy_submit_count, 0)
+        self.assertTrue(any(level == 'warn' and '买入委托未创建' in message
+                            for level, message in self.messages))
+
+    def test_close_audit_detects_missing_buy_callback(self):
+        self.plan([self.codes[0]])
+        self.context.current_dt = self.context.current_dt.replace(hour=15, minute=10)
+        self.callbacks['15:10'](self.context)
+        self.assertTrue(any(level == 'warn' and '买入回调未执行' in message
+                            for level, message in self.messages))
+
+    def test_zero_available_cash_is_visible_in_buy_diagnostics(self):
+        self.plan([self.codes[0]])
+        self.context.portfolio.available_cash = 0.
+        self.s.execute_buys(self.context)
+        self.assertEqual(self.orders, [])
+        self.assertTrue(any('可用现金0.00' in message and '可买预算0.00' in message
+                            for _, message in self.messages))
 
 
 if __name__ == '__main__':

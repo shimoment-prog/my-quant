@@ -7,6 +7,7 @@
 """
 
 from jqdata import *
+import builtins as py_builtins
 import datetime as dt
 import math
 import pandas as pd
@@ -17,7 +18,8 @@ def initialize(context):
     set_option('use_real_price', True)
     set_option('avoid_future_data', True)
     set_slippage(PriceRelatedSlippage(0.00246))
-    log.set_level('order', 'error')
+    # 保留聚宽拒单、数量调整等信息，不能把未成交原因静默隐藏。
+    log.set_level('order', 'info')
 
     # 最早的本地克隆：15交易日、63日样本、20只；不声称对应42倍截图。
     g.index = '000300.XSHG'
@@ -31,6 +33,8 @@ def initialize(context):
     g.target_codes = []
     g.target_value = 0.0
     g.has_plan = False
+    g.last_buy_callback_date = None
+    g.buy_submit_count = 0
     set_costs(context)
 
     if context.run_params.frequency != 'minute':
@@ -40,6 +44,12 @@ def initialize(context):
     run_daily(execute_reductions, time='09:32')
     run_daily(execute_buys, time='09:35')
     run_daily(retry_plan, time='14:50')
+    run_daily(report_execution, time='15:10')
+    runtime_any = globals().get('any', py_builtins.any)
+    log.info('策略版本2026-11-04-builtin-fix；频率=%s；环境any来源=%s；'
+             '09:31选股/09:32减仓/09:35买入/14:50重试。' % (
+                 context.run_params.frequency,
+                 getattr(runtime_any, '__module__', 'unknown')))
 
 
 def set_costs(context):
@@ -165,6 +175,7 @@ def prepare_plan(context):
     if g.last_prepare_date == today:
         return
     g.last_prepare_date = today
+    g.buy_submit_count = 0
     set_costs(context)
     due = g.session_count % g.rebalance_days == 0
     g.session_count += 1
@@ -225,8 +236,8 @@ def execute_reductions(context):
         if value <= target:
             continue
         # 可卖数量是实际限制，不会在买入当天假设可以清仓。
-        unsellable = max(0, shares - position.closeable_amount)
-        target = max(target, unsellable * quote.last_price)
+        unsellable = py_builtins.max(0, shares - position.closeable_amount)
+        target = py_builtins.max(target, unsellable * quote.last_price)
         if target > 0 and value - target < quote.last_price * 100:
             continue
         result = submit_target(code, target, quote, is_buy=False)
@@ -236,7 +247,10 @@ def execute_reductions(context):
 
 def execute_buys(context):
     """只在调仓日加仓；保留旧仓也占持股名额和资金，不额外扩张组合。"""
+    g.last_buy_callback_date = context.current_dt.date()
     if not g.has_plan or g.plan_date != context.current_dt.date():
+        if not g.has_plan:
+            log.warn('买入回调已执行，但尚无有效调仓计划，跳过买入。')
         return
     portfolio = context.portfolio
     current = get_current_data()
@@ -246,40 +260,81 @@ def execute_buys(context):
     open_buys = [item for item in open_orders if item.is_buy]
     occupied = set(held) | {item.security for item in open_buys}
     # 预算、最小申报量和目标市值统一使用本次行情，避免账户估值滞后时反向下单。
-    if any(not valid_price(current[code].last_price) for code in held):
+    # 聚宽环境可能注入NumPy同名函数；np.any(生成器)对空仓也为真，不能用它做此判断。
+    invalid_codes = [code for code in held if not valid_price(current[code].last_price)]
+    if invalid_codes:
+        log.warn('买入跳过：持仓行情无效，无法核对仓位预算：%s' % ','.join(invalid_codes))
         return
-    gross = sum(position_value(position, current[code].last_price)
-                for code, position in held.items())
+    gross = py_builtins.sum(position_value(position, current[code].last_price)
+                            for code, position in held.items())
     # 未完成买单同样占用总仓位预算，不能靠重复委托绕过限制。
     for item in open_buys:
         price = current[item.security].last_price
         if not valid_price(price):
+            log.warn('买入跳过：未完成买单%s行情无效。' % item.security)
             return
-        gross += max(0, item.amount - item.filled) * price
-    room = max(0.0, portfolio.total_value * (1 - g.cash_buffer) - gross)
-    budget = min(portfolio.available_cash * 0.995, room)
+        gross += py_builtins.max(0, item.amount - item.filled) * price
+    room = py_builtins.max(0.0, portfolio.total_value * (1 - g.cash_buffer) - gross)
+    budget = py_builtins.min(portfolio.available_cash * 0.995, room)
+    log.info('买入回调：计划日=%s，目标%d只，可用现金%.2f，已占仓位%.2f，可买预算%.2f。' % (
+        g.plan_date, len(g.target_codes), portfolio.available_cash, gross, budget))
+    counts = dict(pending=0, slots=0, quote=0, limit=0, minimum=0, rejected=0, submitted=0)
     for code in g.target_codes:
-        if code in open_codes or (code not in occupied and len(occupied) >= g.hold_num):
+        if code in open_codes:
+            counts['pending'] += 1
+            continue
+        if code not in occupied and len(occupied) >= g.hold_num:
+            counts['slots'] += 1
             continue
         quote = current[code]
-        if quote.paused or not valid_price(quote.last_price) or at_price_limit(quote):
+        if quote.paused or not valid_price(quote.last_price):
+            counts['quote'] += 1
+            continue
+        if at_price_limit(quote):
+            counts['limit'] += 1
             continue
         old_value = position_value(held[code], quote.last_price) if code in held else 0.0
-        addition = min(g.target_value - old_value, budget)
+        addition = py_builtins.min(g.target_value - old_value, budget)
         # 科创板每笔买单均至少200股，已有仓位的追加买入也一样。
         minimum = min_buy_shares(code)
         if addition < quote.last_price * minimum * 1.003 + 5:
+            counts['minimum'] += 1
             continue
+        log.info('准备买入%s：现价%.2f，原持仓市值%.2f，本次增配%.2f。' % (
+            code, quote.last_price, old_value, addition))
         result = submit_target(code, old_value + addition, quote, is_buy=True)
         if result is None:
+            counts['rejected'] += 1
+            log.warn('买入委托未创建：%s，目标市值%.2f；请核对相邻聚宽order日志。' % (
+                code, old_value + addition))
             continue
         # 订单成功提交也先占预算；不把Order返回值记作已成交持仓。
-        budget = max(0.0, budget - addition - max(5.0, addition * 0.0003))
+        budget = py_builtins.max(
+            0.0, budget - addition - py_builtins.max(5.0, addition * 0.0003))
         occupied.add(code)
+        counts['submitted'] += 1
+        g.buy_submit_count += 1
         log.info('提交加仓 %s，目标市值%.2f；实际成交以持仓为准。' % (
             code, old_value + addition))
+    log.info('买入检查：已提交%d，未创建%d，待成交跳过%d，名额占满%d，行情/停牌%d，'
+             '涨跌停%d，增配不足最小申报金额%d。' % (
+                 counts['submitted'], counts['rejected'], counts['pending'], counts['slots'],
+                 counts['quote'], counts['limit'], counts['minimum']))
 
 
 def retry_plan(context):
     execute_reductions(context)
     execute_buys(context)
+
+
+def report_execution(context):
+    """调仓日盘后核对回调与真实持仓，委托提交不等于成交。"""
+    today = context.current_dt.date()
+    if g.plan_date != today:
+        return
+    callback_ran = g.last_buy_callback_date == today
+    log.info('调仓执行核对：买入回调=%s，今日买入委托提交%d次，实际持仓%d只，可用现金%.2f。' % (
+        callback_ran, g.buy_submit_count, len(held_positions(context)),
+        context.portfolio.available_cash))
+    if not callback_ran:
+        log.warn('调仓计划已生成，但今日买入回调未执行，请核对initialize中的run_daily注册。')
