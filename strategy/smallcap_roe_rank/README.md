@@ -1,6 +1,6 @@
 # 小市值＋ROE双因子策略
 
-脚本：`strategy/smallcap_roe_rank.py`，整份复制进聚宽Python3策略编辑器，选择**分钟**回测。
+脚本：`strategy/smallcap_roe_rank/smallcap_roe_rank.py`，整份复制进聚宽Python3策略编辑器，选择**分钟**回测。
 
 来源：[【量化课堂】多因子策略入门](https://www.joinquant.com/view/community/detail/fd9bf8d85320864d6718ed35e16d4c6a)，以及本项目`test/double_factor_filter_strategy.py`最早克隆版本（Git提交`9d99cb1`）。原文件保持不变。
 
@@ -45,7 +45,7 @@
 
 ## 验证范围
 
-2026-11-04本地语法、聚宽skill静态检查和19项模拟测试均通过。测试覆盖排名方向、均值填充、T-1查询、15交易日计数、T+1、未完成订单、旧仓占位、资金预算、科创板保护价，以及持仓估值滞后时不能反向下单。复查命令：`python3 -B -m unittest discover -s strategy -p test_smallcap_roe_rank.py -v`。模拟API不能代替聚宽平台实际回测；收益、胜率和回撤仍待平台验证。
+2026-11-04本地语法、聚宽skill静态检查和19项模拟测试均通过。测试覆盖排名方向、均值填充、T-1查询、15交易日计数、T+1、未完成订单、旧仓占位、资金预算、科创板保护价，以及持仓估值滞后时不能反向下单。复查命令：`python3 -B -m unittest discover -s strategy/smallcap_roe_rank -p test_smallcap_roe_rank.py -v`。模拟API不能代替聚宽平台实际回测；收益、胜率和回撤仍待平台验证。
 
 ## Skill工作进度
 
