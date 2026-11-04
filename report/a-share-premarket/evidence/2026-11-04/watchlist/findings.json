@@ -1,0 +1,98 @@
+{
+  "asof": "2026-11-04T00:47:53.726108+00:00",
+  "scope": "Nov3 afterclose-Nov4 premarket, six watchlist latest announcements",
+  "material_verified": [
+    {
+      "company": "Eoptolink",
+      "code": "300502",
+      "id": "AN202611031831373503",
+      "published_at_beijing": "2026-11-03 17:18:06",
+      "type": "company_disclosed_realized_buyback",
+      "facts": {
+        "period": [
+          "2026-11-02",
+          "2026-11-03"
+        ],
+        "repurchased_shares": 2139100,
+        "amount_cny_excluding_fees": 399950447.22,
+        "price_high": 199.75,
+        "price_low": 172.05,
+        "earlier_buyback_to_20261031_cny": 199951026.96
+      },
+      "caveat": "Combined two-day realized repurchase, not all onNov3. Original plan is800-1000millionCNY (8-10亿元); do not confuse planned and completed purchases. No guaranteed support price.",
+      "source_url": "https://data.eastmoney.com/notices/detail/300502/AN202611031831373503.html",
+      "original_company_pdf_mirror": "https://pdf.dfcfw.com/pdf/H2_AN202611031831373503_1.pdf?1793726366000.pdf",
+      "source_type": "company_disclosure_reproduced_by_Eastmoney",
+      "archived_text": "eoptolink_content.txt"
+    },
+    {
+      "company": "Innolight",
+      "code": "300308",
+      "id": "AN202611031831382786",
+      "published_at_beijing": "2026-11-03 23:37:12",
+      "meeting_at_beijing": "2026-11-03 21:00-22:00",
+      "type": "primary_company_IR_management_statement",
+      "facts": {
+        "demand_claim": "Most overseas customers have not cut demand/orders; a few have product-mix adjustments; some1.6T demand higher.2027 aggregate outlook remains within prior forecast range.",
+        "orders_claim": "Management says most2027 orders cover full year; at leastone key customer gives strong2028 demand guidance; other customer guidance still collected.",
+        "delivery_claim": "Current customer pickup normal, no slowdown or unusual unshipped inventory.",
+        "broker_rumor_claim": "Company says it checked with unnamed foreign broker, which maintained rating/target; no independent broker report verified.",
+        "materials_claim": "Core material supply gradually improving; more shipment growth expected, forward-looking.",
+        "NPO_claim": "Expected rampH2 2027 and larger demand2028; forward-looking."
+      },
+      "caveat": "These are company management statements, not independently validated customer purchase orders, fulfilled revenue or earnings forecasts. IR record says not company profit forecast/performance guidance.",
+      "source_url": "https://data.eastmoney.com/notices/detail/300308/AN202611031831382786.html",
+      "original_company_pdf_mirror": "https://pdf.dfcfw.com/pdf/H2_AN202611031831382786_1.pdf?1793748999000.pdf",
+      "source_type": "company_disclosure_reproduced_by_Eastmoney",
+      "archived_text": "innolight_content.txt"
+    },
+    {
+      "company": "Wuliangye",
+      "code": "000858",
+      "id": "AN202611031831367195",
+      "published_at_beijing": "2026-11-03 16:11:06",
+      "notice_date": "2026-11-04",
+      "type": "company_disclosed_realized_buyback",
+      "facts": {
+        "October2026_repurchased_shares": 8409685,
+        "October2026_amount_cny_excluding_fees": 600017967.88,
+        "cumulative_to20261031_shares": 24537438,
+        "cumulative_to20261031_amount_cny_excluding_fees": 1800737009.41,
+        "cumulative_share_ratio_pct": 0.63
+      },
+      "caveat": "Cumulative1.800737bnCNY equals18.01亿元, measured throughOct31, not newly purchasedNov3. October purchases were600.018millionCNY, about6亿元.",
+      "source_url": "https://data.eastmoney.com/notices/detail/000858/AN202611031831367195.html",
+      "original_company_pdf_mirror": "https://pdf.dfcfw.com/pdf/H2_AN202611031831367195_1.pdf?1793722364000.pdf",
+      "source_type": "company_disclosure_reproduced_by_Eastmoney",
+      "archived_text": "wuliangye_content.txt"
+    }
+  ],
+  "other_checked": [
+    {
+      "company": "GigaDevice",
+      "code": "603986",
+      "new_IR_record": "AN202611031831372854",
+      "published_at_beijing": "2026-11-03 17:04:36",
+      "meeting_date": "2026-10-29",
+      "note": "Published lastnight but meeting/content relates Oct29 Q3 results; not freshNov3 realized operating data. Management forecasts prices/margins not verified future outcome."
+    },
+    {
+      "company": "CATL",
+      "code": "300750",
+      "new_notice": "AN202611031831378795",
+      "published_at_beijing": "2026-11-03 19:47:00",
+      "note": "Employee ownership reservedshare grant notice, not quantified new sales/orders catalyst; full notice not inspected."
+    },
+    {
+      "company": "Moutai",
+      "code": "600519",
+      "latest_notice": "AN202611021831320924",
+      "published_at_beijing": "2026-11-02 16:59:12",
+      "note": "Latest5-list contained noNov3 afterclose announcement; limited provider feed check, not blanket absence of company news."
+    }
+  ],
+  "gaps": [
+    "Sources are issuer filings reproduced on public data feed; independent customer-order confirmation not obtained.",
+    "CATL routine notice content not read in full; no trade implication assigned."
+  ]
+}

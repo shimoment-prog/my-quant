@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "automation_id": "ai",
+  "run_at": "2026-11-04T00:35:00+00:00",
+  "timezone": "Asia/Shanghai",
+  "baseline": false,
+  "comparison_to_previous_observation": "observations/2026-11-03.json",
+  "assessment": "观察",
+  "summary": "Observation maintained. Meta newly priced USD15bn notes and Oracle USD10bn Nov2 pricing newly verified: material evidence of issuer market access, not verified settlement or proof sector risk has eased. No verified AI-specific loss transmission in reviewed new JPM/Apollo disclosures.",
+  "confidence": "High for primary pricing terms and filing dates; issuer CDS trends, secondary spread changes and broad transmission remain limited by missing data.",
+  "signals": [
+    {
+      "id": "credit_and_financing",
+      "assessment": "观察",
+      "change": "New primary Meta pricing after prior baseline; newly verified Nov2 Oracle financing fills a prior coverage gap. Current issuer credit trend still not measurable.",
+      "evidence_ids": [
+        "meta_pricing_20261103",
+        "oracle_pricing_20261102",
+        "meta_prospectus_20261103"
+      ],
+      "notes": "Priced senior USD debt is evidence financing is being arranged. Both main issues await expected US settlement dates. New-issue Treasury spreads are not CDS, secondary OAS or proof of daily widening/tightening; no prior matched curves, orderbook or concessions obtained."
+    },
+    {
+      "id": "cashflow_and_debt_service",
+      "assessment": "观察",
+      "change": "No new operating cash-flow reports verified for seven main companies; retain original report periods and baseline amounts. Newly verified Oracle Oct28 cash-flow targets are forward-looking, not fresh realized improvement.",
+      "evidence_ids": [
+        "financial_baseline_reference",
+        "oracle_investor_guidance_20261028"
+      ],
+      "notes": "Do not treat financing proceeds as operating cash flow. Planned capital raises and priced-but-unsettled notes are not available cash. Capex/FCF weakness in baseline not negated by issuance."
+    },
+    {
+      "id": "financing_chain_propagation",
+      "assessment": "观察",
+      "change": "New JPM Sep30 10Q and Apollo Q3 earnings reviewed; no verified new AI-attributed actual loss, backstop payout, default or funding interruption in reviewed materials.",
+      "evidence_ids": [
+        "jpm_10q_20260930",
+        "apollo_8k_20261103"
+      ],
+      "notes": "JPM broad provisions and TMT criticized exposures lack specific AI attribution; Apollo excerpts are not full10Q. Not finding a disclosed event does not prove absence of underlying risk."
+    }
+  ],
+  "new_events": [
+    {
+      "id": "meta_20261103_pricing",
+      "published_at": "2026-11-03T22:25:13.000Z",
+      "event_date": "2026-11-03",
+      "status": "priced_expected_settlement_not_completed",
+      "expected_settlement": "2026-11-05",
+      "principal_usd": 15000000000,
+      "currency": "USD",
+      "rank": "senior unsecured",
+      "maturities": [
+        2031,
+        2033,
+        2036,
+        2046,
+        2056
+      ],
+      "principal_usd_by_tranche": [
+        3250000000,
+        3250000000,
+        4000000000,
+        1750000000,
+        2750000000
+      ],
+      "coupon_pct": [
+        5.85,
+        6.25,
+        6.55,
+        7.35,
+        7.5
+      ],
+      "yield_pct": [
+        5.85,
+        6.289,
+        6.552,
+        7.359,
+        7.531
+      ],
+      "spread_to_benchmark_treasury_bp": [
+        110,
+        145,
+        160,
+        200,
+        220
+      ],
+      "ratings_as_stated_in_pricing_document": {
+        "Moodys": "Aa3/Stable",
+        "SP": "AA-/Negative"
+      },
+      "rating_change_independently_confirmed": false,
+      "use_of_proceeds": "general corporate purposes",
+      "subscription_orderbook": null,
+      "interpretation": "Large new issue pricing is evidence of market access for Meta, not completion or quantified improvement/worsening versus previous comparable curve; no evidence all proceeds finance AI.",
+      "source_id": "meta_pricing_20261103",
+      "evidence_type": "primary_SEC_final_pricing_term_sheet",
+      "new_since_previous_run": true
+    },
+    {
+      "id": "meta_concurrent_euro_proposal",
+      "source_id": "meta_prospectus_20261103",
+      "publication_at": "2026-11-03T13:29:28.000Z",
+      "status": "may_launch_not_verified_priced_or_completed",
+      "currency": "EUR",
+      "amount": null,
+      "notes": "Concurrent euro-denominated notes may be offered; not conditional on dollar-note settlement. Do not combine currencies or count proposed proceeds as cash."
+    },
+    {
+      "id": "meta_preferred_overallotment_completed_20261102",
+      "source_id": "meta_prospectus_20261103",
+      "publication_at": "2026-11-03T13:29:28.000Z",
+      "event_date": "2026-11-02",
+      "status": "issued_and_net_proceeds_received_per_prospectus",
+      "net_proceeds_usd": 1869000000,
+      "security": "Additional Series A depositary shares representing mandatory convertible preferred",
+      "notes": "37.5m additional depositary shares issued after full exercise of over-allotment option. Historical completion newly disclosed/verified; not part of15000m debt pricing."
+    }
+  ],
+  "newly_verified_historical_events": [
+    {
+      "id": "oracle_20261102_priced_bonds",
+      "publication_at": "2026-11-02T22:28:31Z",
+      "event_date": "2026-11-02",
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526443918/d87441dfwp.htm",
+      "status": "priced_not_verified_settled",
+      "expected_settlement_date": "2026-11-04",
+      "currency": "USD",
+      "total_principal": 10000000000,
+      "seniority": "senior unsecured",
+      "tranches": [
+        {
+          "principal": 2000000000,
+          "maturity": "2029-11-04",
+          "coupon_pct": 7,
+          "yield_to_maturity_pct": 7.062,
+          "treasury_spread_bp": 240,
+          "benchmark_yield_pct": 4.662
+        },
+        {
+          "principal": 1750000000,
+          "maturity": "2031-11-04",
+          "coupon_pct": 7.45,
+          "yield_to_maturity_pct": 7.464,
+          "treasury_spread_bp": 275,
+          "benchmark_yield_pct": 4.714
+        },
+        {
+          "principal": 2250000000,
+          "maturity": "2033-11-04",
+          "coupon_pct": 7.85,
+          "yield_to_maturity_pct": 7.851,
+          "treasury_spread_bp": 305,
+          "benchmark_yield_pct": 4.801
+        },
+        {
+          "principal": 2500000000,
+          "maturity": "2037-02-04",
+          "coupon_pct": 8,
+          "yield_to_maturity_pct": 8.015,
+          "treasury_spread_bp": 310,
+          "benchmark_yield_pct": 4.915
+        },
+        {
+          "principal": 1500000000,
+          "maturity": "2046-11-04",
+          "coupon_pct": 8.65,
+          "yield_to_maturity_pct": 8.667,
+          "treasury_spread_bp": 335,
+          "benchmark_yield_pct": 5.317
+        }
+      ],
+      "issuer_term_sheet_expected_ratings": {
+        "Moodys": "Baa2 negative",
+        "SP": "BBB- stable",
+        "Fitch": "BBB stable"
+      },
+      "caveats": [
+        "Pricing is not settlement. At Nov4 08:30Beijing, USNov4 settlement has not happened.",
+        "Treasury spread on new issuance is not CDS or spread widening vs prior issuance.",
+        "No matched prior issuance/secondary curve/orderbook or concession evidence acquired.",
+        "Expected ratings in issuer term sheet are not proof of a newly issued rating action."
+      ],
+      "new_since_previous_run": false,
+      "newly_verified_this_run": true,
+      "source_id": "oracle_pricing_20261102"
+    },
+    {
+      "id": "oracle_20261102_preliminary_equity",
+      "publication_at": "2026-11-02T13:16:06Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
+      "status": "preliminary_not_verified_priced_or_completed",
+      "planned_usd": 10000000000,
+      "use_of_proceeds": "General corporate purposes, potentially capex, debt repayment, investments/acquisitions, dividends/repurchases.",
+      "caveat": "Do not count planned equity as already available cash.",
+      "new_since_previous_run": false,
+      "newly_verified_this_run": true,
+      "source_id": "oracle_equity_preliminary_20261102"
+    },
+    {
+      "id": "oracle_20261028_guidance",
+      "publication_at": "2026-10-28T18:24:44Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+      "evidence_type": "management_forward_looking_guidance",
+      "positive_fcf_target": "second halfFY28; FY29FCF30bn+",
+      "additional_capital_markets_funding_through_FY30_usd": 20000000000,
+      "split": {
+        "equity": 10000000000,
+        "gross_debt": 10000000000
+      },
+      "refinancing_excluded": true,
+      "prior_atm_completed_FY27Q1_usd": 20000000000,
+      "operating_qualifier": "Vendor financing, customer hardware and prepayments expected to reduce upfront cash needs; these do not automatically erase ultimate obligations.",
+      "caveat": "Targets, not realized cash flow or evidence of overnight relief.",
+      "new_since_previous_run": false,
+      "newly_verified_this_run": true,
+      "source_id": "oracle_investor_guidance_20261028"
+    }
+  ],
+  "financing_chain_checks": [
+    {
+      "company": "JPMorgan",
+      "filing": "2026Q3 10-Q",
+      "report_period_end": "2026-09-30",
+      "published_at": "2026-11-03T21:17:12.000Z",
+      "provision_credit_losses_usd": 2743000000,
+      "net_chargeoffs_usd": 2204000000,
+      "allowance_net_additions_usd": 539000000,
+      "direct_AI_loss_identified": false,
+      "findings": "Broad firm credit metrics and TMT criticized exposures exist; TMT risk cannot be attributed specifically to AI. Filing has one data-center reference inside diversified real-estate category and no exact Oracle/CoreWeave mention. No verified direct AI counterparty default, special AI collateral charge, or backstop payout identified.",
+      "limitation": "Keyword-assisted targeted review, not proof no AI exposures or losses exist."
+    },
+    {
+      "company": "Apollo",
+      "filing": "2026Q3 earnings8-K and99.1/99.2",
+      "report_period_end": "2026-09-30",
+      "published_at": "2026-11-03T13:06:42.000Z",
+      "direct_AI_loss_identified": false,
+      "findings": "Earnings presentation reports broad Athene portfolio credit/impairment information; no exact AI, datacenter, Oracle, CoreWeave, nonaccrual or default item identified. No verified AI financing-chain impairment or disruption identified.",
+      "limitation": "Earnings materials are not full10Q; underlying private-loan coverage incomplete."
+    }
+  ],
+  "financial_baseline_reference": [
+    {
+      "company": "coreweave",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-06-30",
+      "source_id": "coreweave_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "oracle",
+      "report_period_start": "2026-06-01",
+      "report_period_end": "2026-08-31",
+      "source_id": "oracle_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "microsoft",
+      "report_period_start": "2026-07-01",
+      "report_period_end": "2026-09-30",
+      "source_id": "microsoft_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "alphabet",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-09-30",
+      "source_id": "alphabet_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "amazon",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-09-30",
+      "source_id": "amazon_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "meta",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-09-30",
+      "source_id": "meta_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "broadcom",
+      "report_period_start": "2025-11-03",
+      "report_period_end": "2026-08-02",
+      "source_id": "broadcom_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    }
+  ],
+  "market_proxies": [
+    {
+      "id": "BAMLC0A0CM",
+      "name": "US investment grade OAS",
+      "source_id": "fred_ig",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-10-30",
+      "value": 94.0,
+      "previous_date": "2026-10-29",
+      "previous_value": 89.0,
+      "change_bp": 5.0,
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-02",
+        "value": 85.0,
+        "change_bp": 9.0
+      },
+      "publication_at": null,
+      "retrieved_at": "2026-11-03T00:28:23+00:00",
+      "archived_csv": "evidence/2026-11-03/fred_ig.csv",
+      "carried_forward": true,
+      "new_observation_this_run": false,
+      "current_run_fetch_status": "timeout",
+      "trend_change_since_previous_run": null
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "name": "US high yield OAS",
+      "source_id": "fred_hy",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-10-30",
+      "value": 344.0,
+      "previous_date": "2026-10-29",
+      "previous_value": 326.0,
+      "change_bp": 18.0,
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-02",
+        "value": 310.0,
+        "change_bp": 34.0
+      },
+      "publication_at": null,
+      "retrieved_at": "2026-11-03T00:28:23+00:00",
+      "archived_csv": "evidence/2026-11-03/fred_hy.csv",
+      "carried_forward": true,
+      "new_observation_this_run": false,
+      "current_run_fetch_status": "timeout",
+      "trend_change_since_previous_run": null
+    }
+  ],
+  "new_market_proxy_observations": [],
+  "comparability": {
+    "issuer_cds_available": false,
+    "matched_secondary_cash_bond_spreads_available": false,
+    "CDX_IG_available": false,
+    "new_issue_pricing_available": true,
+    "new_issue_basis": "USD senior unsecured issuance pricing spread to designated benchmark US Treasury, with maturity and actual pricing dates recorded.",
+    "cross_issuer_context": "Oracle2031 maturityNov4 vs Meta2031Nov15; pricing datesNov2 vsNov3. Qualitative comparison only, not identical same-time bonds or a change in either issuer curve.",
+    "probability_model": null,
+    "crash_probability": null
+  },
+  "missing_data": [
+    "Current comparable5y issuer CDS and multi-day/20-trading-day histories; CDX.IG.",
+    "Same-issuer/same-tenor secondary bond history, new-issue concessions, orderbooks, subscriptions, and independent new rating actions.",
+    "Fresh FRED OAS: current requests and retries timed out. Last verifiedOct30 values carried forward as stale historical observations, no new day or20-session trend computed.",
+    "Full Barclays report; seed evidence remains historical secondary reporting.",
+    "Current GPU rental rates/utilization/customer collections/cancellations and comprehensive bank/private-credit impairment data.",
+    "Confirmed completion of OracleNov4 and MetaNov5 debt settlements; final pricing/completion of proposed Oracle equity and Meta euro note issuance."
+  ],
+  "source_coverage": {
+    "sec_submissions_checked": [
+      "Oracle",
+      "CoreWeave",
+      "Microsoft",
+      "Alphabet",
+      "Amazon",
+      "Meta",
+      "Broadcom",
+      "JPMorgan",
+      "Apollo",
+      "Blackstone",
+      "Ares"
+    ],
+    "no_new_priority_issuer_filings_after_baseline": {
+      "Oracle": [],
+      "CoreWeave": []
+    },
+    "operating_reports_unchanged_for_core_seven": true,
+    "overall_collection_failed": false,
+    "FRED_collection_failed_this_run": true,
+    "issuer_IR_failures": [
+      "Oracle403",
+      "CoreWeave429"
+    ],
+    "news_discovery": "Google News RSS used only as discovery. Paywalled headlines, analyst opinions and duplicate syndication not counted as confirmed events.",
+    "barclays_full_report_obtained": false
+  },
+  "next_confirmation_conditions": [
+    "Confirm actual settlement/payment of newly priced financing before counting proceeds in liquidity; note any material delay or withdrawal.",
+    "Obtain comparable issuer CDS and secondary cash-bond spread sequences: persistent joint widening plus concession/issuance difficulty would support escalation.",
+    "Fresh operating reports showing weaker collections and sustained cash deficits alongside liquidity/maturity deterioration, or verified AI-linked collateral losses/backstop payments/lender provisions."
+  ],
+  "sources": [
+    {
+      "id": "meta_pricing_20261103",
+      "type": "primary_SEC_final_pricing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526445646/d186765dfwp.htm",
+      "publication_at": "2026-11-03T22:25:13.000Z",
+      "market_time": "2026-11-03",
+      "retrieved_at": "2026-11-04T00:33:03.504170+00:00",
+      "archived": "evidence/2026-11-04/chain/meta_fwp.html"
+    },
+    {
+      "id": "meta_prospectus_20261103",
+      "type": "primary_SEC_preliminary_prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/d135326d424b5.htm",
+      "publication_at": "2026-11-03T13:29:28.000Z",
+      "market_time": null,
+      "retrieved_at": "2026-11-04T00:33:03.504170+00:00",
+      "archived": "evidence/2026-11-04/chain/meta_prospectus.html"
+    },
+    {
+      "id": "oracle_pricing_20261102",
+      "type": "primary_SEC_final_pricing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526443918/d87441dfwp.htm",
+      "publication_at": "2026-11-02T22:28:31Z",
+      "market_time": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:32:20.799817+00:00",
+      "archived": "evidence/2026-11-04/priority/oracle_fwp_20261102.html"
+    },
+    {
+      "id": "oracle_equity_preliminary_20261102",
+      "type": "primary_SEC_preliminary_prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
+      "publication_at": "2026-11-02T13:16:06Z",
+      "market_time": null,
+      "retrieved_at": "2026-11-04T00:32:20.799817+00:00"
+    },
+    {
+      "id": "oracle_investor_guidance_20261028",
+      "type": "primary_company_forward_looking_guidance",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+      "publication_at": "2026-10-28T18:24:44Z",
+      "market_time": null,
+      "retrieved_at": "2026-11-04T00:32:20.799817+00:00"
+    },
+    {
+      "id": "jpm_10q_20260930",
+      "type": "primary_SEC_filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+      "publication_at": "2026-11-03T21:17:12.000Z",
+      "report_period_end": "2026-09-30",
+      "market_time": null,
+      "retrieved_at": "2026-11-04T00:33:03.504170+00:00"
+    },
+    {
+      "id": "apollo_8k_20261103",
+      "type": "primary_SEC_earnings_filing_not_full_10Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000063/apo-20261103.htm",
+      "publication_at": "2026-11-03T13:06:42.000Z",
+      "report_period_end": "2026-09-30",
+      "market_time": null,
+      "retrieved_at": "2026-11-04T00:33:03.504170+00:00"
+    },
+    {
+      "id": "fred_ig",
+      "type": "official_series_licensed_market_index",
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "publication_at": null,
+      "market_time": "2026-10-30",
+      "retrieved_at": "2026-11-03T00:28:23+00:00",
+      "new_observation_obtained_this_run": false,
+      "current_run_fetch_status": "timeout"
+    },
+    {
+      "id": "fred_hy",
+      "type": "official_series_licensed_market_index",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "publication_at": null,
+      "market_time": "2026-10-30",
+      "retrieved_at": "2026-11-03T00:28:23+00:00",
+      "new_observation_obtained_this_run": false,
+      "current_run_fetch_status": "timeout"
+    }
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "reason": "Material new Meta15000m senior debt pricing plus newly verified OracleNov2 funding terms change financing-access evidence from missing to observed pricing; no overall risk-level change claimed.",
+    "material_evidence_change_vs_prior": true,
+    "overall_assessment_change": false,
+    "last_notified_assessment": "观察",
+    "notified_at": "2026-11-04T00:35:00+00:00"
+  },
+  "interpretation_limits": [
+    "No modeled collapse/default probability.",
+    "Priced financing does not equal completed financing or proven risk relief.",
+    "New-issue spread is not CDS; multiple tenors and currencies not merged.",
+    "No inference from bank hedges, share-price decline, notional or commitments to realized loss.",
+    "No direct A-share order/capex transmission asserted; no holdings assumed."
+  ]
+}

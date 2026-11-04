@@ -1,0 +1,142 @@
+{
+  "asof": "2026-11-04T00:33:03.504170+00:00",
+  "comparison_baseline": "2026-11-03T00:34:32Z",
+  "material_events": [
+    {
+      "id": "meta_20261103_pricing",
+      "published_at": "2026-11-03T22:25:13.000Z",
+      "event_date": "2026-11-03",
+      "status": "priced_expected_settlement_not_completed",
+      "expected_settlement": "2026-11-05",
+      "principal_usd": 15000000000,
+      "currency": "USD",
+      "rank": "senior unsecured",
+      "maturities": [
+        2031,
+        2033,
+        2036,
+        2046,
+        2056
+      ],
+      "principal_usd_by_tranche": [
+        3250000000,
+        3250000000,
+        4000000000,
+        1750000000,
+        2750000000
+      ],
+      "coupon_pct": [
+        5.85,
+        6.25,
+        6.55,
+        7.35,
+        7.5
+      ],
+      "yield_pct": [
+        5.85,
+        6.289,
+        6.552,
+        7.359,
+        7.531
+      ],
+      "spread_to_benchmark_treasury_bp": [
+        110,
+        145,
+        160,
+        200,
+        220
+      ],
+      "ratings_as_stated_in_pricing_document": {
+        "Moodys": "Aa3/Stable",
+        "SP": "AA-/Negative"
+      },
+      "rating_change_independently_confirmed": false,
+      "use_of_proceeds": "general corporate purposes",
+      "subscription_orderbook": null,
+      "interpretation": "Large new issue pricing is evidence of market access for Meta, not completion or quantified improvement/worsening versus previous comparable curve; no evidence all proceeds finance AI."
+    }
+  ],
+  "financing_chain_checks": [
+    {
+      "company": "JPMorgan",
+      "filing": "2026Q3 10-Q",
+      "report_period_end": "2026-09-30",
+      "published_at": "2026-11-03T21:17:12.000Z",
+      "provision_credit_losses_usd": 2743000000,
+      "net_chargeoffs_usd": 2204000000,
+      "allowance_net_additions_usd": 539000000,
+      "direct_AI_loss_identified": false,
+      "findings": "Broad firm credit metrics and TMT criticized exposures exist; TMT risk cannot be attributed specifically to AI. Filing has one data-center reference inside diversified real-estate category and no exact Oracle/CoreWeave mention. No verified direct AI counterparty default, special AI collateral charge, or backstop payout identified.",
+      "limitation": "Keyword-assisted targeted review, not proof no AI exposures or losses exist."
+    },
+    {
+      "company": "Apollo",
+      "filing": "2026Q3 earnings8-K and99.1/99.2",
+      "report_period_end": "2026-09-30",
+      "published_at": "2026-11-03T13:06:42.000Z",
+      "direct_AI_loss_identified": false,
+      "findings": "Earnings presentation reports broad Athene portfolio credit/impairment information; no exact AI, datacenter, Oracle, CoreWeave, nonaccrual or default item identified. No verified AI financing-chain impairment or disruption identified.",
+      "limitation": "Earnings materials are not full10Q; underlying private-loan coverage incomplete."
+    }
+  ],
+  "no_new_cashflow_10q": [
+    "Microsoft",
+    "Alphabet",
+    "Amazon",
+    "Meta",
+    "Broadcom"
+  ],
+  "new_nonfinancial_filing": {
+    "company": "Amazon",
+    "form": "13F-HR",
+    "published_at": "2026-11-03T21:17:05.000Z",
+    "interpretation": "Securities holdings disclosure, not new issuer operating cashflow report."
+  },
+  "sources": [
+    {
+      "company": "meta",
+      "form": "FWP",
+      "published_at": "2026-11-03T22:25:13.000Z",
+      "filed_date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526445646/d186765dfwp.htm"
+    },
+    {
+      "company": "meta",
+      "form": "424B5",
+      "published_at": "2026-11-03T13:29:28.000Z",
+      "filed_date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/d135326d424b5.htm"
+    },
+    {
+      "company": "jpmorgan",
+      "form": "10-Q",
+      "published_at": "2026-11-03T21:17:12.000Z",
+      "filed_date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm"
+    },
+    {
+      "company": "apollo",
+      "form": "8-K",
+      "published_at": "2026-11-03T13:06:42.000Z",
+      "filed_date": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000063/apo-20261103.htm"
+    },
+    {
+      "company": "Apollo",
+      "form": "8-K Exhibit99.1",
+      "published_at": "2026-11-03T13:06:42.000Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000063/erex9913q2026.htm"
+    },
+    {
+      "company": "Apollo",
+      "form": "8-K Exhibit99.2",
+      "published_at": "2026-11-03T13:06:42.000Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000063/agmearningsrelease3q2026.htm"
+    }
+  ],
+  "coverage_gaps": [
+    "No orderbook/subscription evidence or before/after comparable cash bond spread curve for Meta issue.",
+    "No independent rating-action release establishing timing of SP negative outlook.",
+    "No exhaustive loan-level private-credit losses or actual backstop payouts."
+  ]
+}

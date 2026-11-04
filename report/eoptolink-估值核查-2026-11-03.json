@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-03",
+  "prepared_at": "2026-11-03T02:17:40.560898+00:00",
+  "quote": {
+    "price": 189.03,
+    "change_pct": -1.28,
+    "timestamp_beijing": "2026-11-03 10:14:12",
+    "low": 179.83,
+    "high": 190.19,
+    "shares": 1394737276,
+    "market_cap_CNY": 263647187282.28
+  },
+  "financial_period_end": "2026-09-30",
+  "filing_date": "2026-10-30",
+  "ttm_profit_CNY": 14577160757.06,
+  "ttm_PE": 18.08631952930824,
+  "static_PE": 27.659391997356014,
+  "PB": 9.430230689167878,
+  "scenario_calculations": [
+    {
+      "q4_profit_billion_CNY": 3.0,
+      "full_year_profit_billion_CNY": 14.37233053473,
+      "computed_PE": 18.344080429070992,
+      "type": "illustrative_not_guidance"
+    },
+    {
+      "q4_profit_billion_CNY": 4.0,
+      "full_year_profit_billion_CNY": 15.37233053473,
+      "computed_PE": 17.150762318480858,
+      "type": "illustrative_not_guidance"
+    },
+    {
+      "q4_profit_billion_CNY": 5.0,
+      "full_year_profit_billion_CNY": 16.37233053473,
+      "computed_PE": 16.103216748709983,
+      "type": "illustrative_not_guidance"
+    },
+    {
+      "q4_profit_billion_CNY": 6.0,
+      "full_year_profit_billion_CNY": 17.37233053473,
+      "computed_PE": 15.176270492620901,
+      "type": "illustrative_not_guidance"
+    }
+  ],
+  "q3_revenue_CNY": 10940148779.029999,
+  "q3_parent_net_profit_CNY": 3843162495.339999,
+  "q3_adjusted_parent_net_profit_CNY": 3629746129.12,
+  "ytd_OCF_CNY": 1464429142.65,
+  "q3_OCF_CNY": -151979381.5,
+  "october_peak": {
+    "date": "2026-10-08",
+    "price": 407.33,
+    "adjustment": "provider qfq"
+  },
+  "drawdown_vs_october_peak_pct": -53.59290992561314,
+  "sources": {
+    "quote": "https://qt.gtimg.cn/q=sz300502",
+    "history": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,120,qfq",
+    "third_quarter": "https://data.eastmoney.com/notices/detail/300502/AN202610291831180453.html",
+    "IR": "https://data.eastmoney.com/notices/detail/300502/AN202610291831188725.html",
+    "first_buyback": "https://data.eastmoney.com/notices/detail/300502/AN202610301831234984.html",
+    "marvell": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
+  },
+  "evidence_grades": {
+    "financials": "Company filing reproduced by Eastmoney, figures crosschecked with structured financial API.",
+    "IR": "Company management statements dated October29; prospective volume/earnings views not independently confirmed realized profits.",
+    "buyback": "Company completed-buyback notice dated October30.",
+    "sector": "Marvell November2 primary transaction announcement; no established order loss for Eoptolink."
+  },
+  "conclusion": "估值较此前明显降低，基于全年约150至165亿元利润的情景可视为合理至偏低；现金流与利润兑现、行业估值压缩及未确认止跌限制安全边际。",
+  "short_term_levels": {
+    "intraday_low_not_confirmed_floor": 179.83,
+    "previous_close": 191.48,
+    "recent_supply_zone": [
+      196,
+      204
+    ],
+    "next_recent_high": 214.4
+  },
+  "previous_assessment_revision": "Previous 200–260 band was breached on October30 and November2 closes and is not retained as support. No uncalibrated win probabilities carried forward."
+}

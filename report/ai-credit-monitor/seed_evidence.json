@@ -1,0 +1,30 @@
+{
+  "recorded_on": "2026-11-02",
+  "evidence_type": "secondary_reporting",
+  "barclays_full_report_obtained": false,
+  "live_cds_verified": false,
+  "sources": [
+    {
+      "publisher": "Crypto Briefing",
+      "published_on": "2026-10-30",
+      "market_data_as_of": "2026-10-28",
+      "url": "https://cryptobriefing.com/barclays-ai-credit-default-swap-roadmap/",
+      "reported_facts": [
+        "转述巴克莱 AI 企业组合相对 CDX.IG 的利差从约六个月前的 10 个基点扩大至 76 个基点。",
+        "转述云计算企业和半导体企业 CDS 周成交额的四周均值分别约 60 亿和 30 亿美元，同比增加约 740% 和 1900%。"
+      ],
+      "limitation": "仅为已读取的二手报道，未独立核实原始报价、组合权重或统计口径；不能当作当前行情。"
+    },
+    {
+      "publisher": "格隆汇，经富途转载",
+      "published_on": "2026-10-31",
+      "barclays_report_date_reported": "2026-10-29",
+      "url": "https://news.futunn.com/post/1003022312/historic-2008-level-alerts-reappear-barclays-issues-major-report-anomalies",
+      "reported_facts": [
+        "转述 10 家 AI 企业占 CDX 投资级指数成分数量约 8%，贡献约 16% 的隐含信用风险。",
+        "转述部分企业 CDS 与现金债券的基差转正。"
+      ],
+      "limitation": "隐含风险贡献不是违约概率或损失比例；媒体的 2008 年类比不是已核实的研报原文结论。"
+    }
+  ]
+}

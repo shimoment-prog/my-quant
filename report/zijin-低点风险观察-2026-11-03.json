@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-03",
+  "prepared_at": "2026-11-03T06:14:07.514568+00:00",
+  "symbol": "601899.SH",
+  "forecast_event": {
+    "strict_price_below": 26.68,
+    "threshold_frozen_at_beijing": "2026-11-03 14:13:25",
+    "horizon_end_beijing": "2026-11-03 15:00:00",
+    "type": "intraday_trade_below_current_day_low_not_closing_below"
+  },
+  "quote": {
+    "price": 27.1,
+    "change_pct": 0.9687034277198192,
+    "day_high": 27.74,
+    "day_low": 26.68,
+    "vwap_derived": 27.307833910932942,
+    "day_amount_CNY": 5806149319.0,
+    "time_beijing": "2026-11-03 14:13:25"
+  },
+  "distance_to_low_pct": -1.5498154981549828,
+  "previous_day_low": 25.9,
+  "distance_to_previous_day_low_pct": -4.428044280442811,
+  "calibrated_probability": null,
+  "assessment": "中等风险，低点未确认稳固；无法给可靠百分比。",
+  "risk_factors": [
+    "COMEX gold and copper decline, copper near current daily low; Jiangxi Copper also at its daily low.",
+    "Zijin price below full-day VWAP and retraced from27.74 high."
+  ],
+  "offsets": [
+    "Zijin A-share remains positive while Shanghai Composite down1.38% at14:12.",
+    "Gold-miner peers remain positive, H-share Zijin nearflat positive; no sector-wide synchronized collapse verified.",
+    "Price still above current day low26.68;47minutes remain in A-share session."
+  ],
+  "conditions": {
+    "risk_increase": [
+      "Lose27 and previous close26.84 with sustained selling and no reclaim, concurrent commodity weakness."
+    ],
+    "risk_decrease": [
+      "Reclaim dynamic VWAP around27.31 and sustain, metals cease making lows."
+    ]
+  },
+  "metals": [
+    {
+      "name": "COMEX gold",
+      "price": 3930.308,
+      "unit": "USD/troy ounce",
+      "change_vs_provider_previous_settlement_pct": -0.9898226521563913,
+      "previous_settlement": 3969.6,
+      "quote_time_beijing": "2026-11-03 14:13:23",
+      "day_low": 3925.8,
+      "contract_note": "Provider continuous quote; specific maturity not verified, not issuer realized selling price."
+    },
+    {
+      "name": "COMEX copper",
+      "price": 6.3824000000000005,
+      "unit": "USD/lb",
+      "change_vs_provider_previous_settlement_pct": -2.81842405786068,
+      "previous_settlement": 6.5675,
+      "quote_time_beijing": "2026-11-03 14:13:27",
+      "day_low": 6.3755,
+      "contract_note": "Provider continuous quote; specific maturity not verified, not issuer realized selling price."
+    }
+  ],
+  "data_quality": [
+    "LatestAquote crosschecked acrossTencentandSina at slightly differenttimestamps.",
+    "Hshare Tencent quote was delayed; used Sina14:13 quote instead.",
+    "Minute lasttrade samples cannot replace full tick daylow.",
+    "No comprehensive new announcement scan: Eastmoney API567.",
+    "No fresh empirical intraday probability model, no invented percentages."
+  ],
+  "sources": [
+    "https://hq.sinajs.cn/list=sh601899,rt_hk02899,hf_GC,hf_HG,sh600547,sz000975,sh600362",
+    "https://qt.gtimg.cn/q=sh601899,hk02899,sh600547,sz000975,sh600489,sh600362,sh000001",
+    "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601899,day,,,100,qfq"
+  ],
+  "no_automation_created": true
+}

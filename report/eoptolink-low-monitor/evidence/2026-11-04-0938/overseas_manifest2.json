@@ -1,0 +1,36 @@
+[
+  {
+    "name": "fn_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000041/fn-20260925.htm",
+    "ok": true,
+    "length": 1453818,
+    "retrieved_at": "2026-11-04T01:36:35.115836+00:00"
+  },
+  {
+    "name": "lite_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite-20261102.htm",
+    "ok": true,
+    "length": 30619,
+    "retrieved_at": "2026-11-04T01:36:33.262106+00:00"
+  },
+  {
+    "name": "cohr_ir_correct",
+    "url": "https://investors.coherent.com/news-releases",
+    "ok": true,
+    "length": 150436,
+    "retrieved_at": "2026-11-04T01:36:35.197575+00:00"
+  },
+  {
+    "name": "aaoi_date",
+    "url": "https://investors.ao-inc.com/2026-10-15-Applied-Optoelectronics-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call",
+    "ok": true,
+    "length": 34703,
+    "retrieved_at": "2026-11-04T01:36:33.147485+00:00"
+  },
+  {
+    "name": "cien_press",
+    "url": "https://www.ciena.com/about/newsroom/press-releases",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

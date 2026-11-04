@@ -1,0 +1,155 @@
+[
+  {
+    "name": "sse_closed",
+    "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:14.022507+00:00",
+    "bytes": 27092
+  },
+  {
+    "name": "szse_home",
+    "url": "https://www.szse.cn/",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:14.048343+00:00",
+    "bytes": 86101
+  },
+  {
+    "name": "news_close",
+    "url": "https://news.google.com/rss/search?q=A%E8%82%A1+2026%E5%B9%B411%E6%9C%883%E6%97%A5+%E6%94%B6%E8%AF%84+%E8%B4%A2%E8%81%94%E7%A4%BE&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:14.131099+00:00",
+    "bytes": 6922,
+    "items": [
+      {
+        "title": "【每日收评】创业板指跌近3%，中际旭创重挫12%，多只宽基ETF放量破百亿 - 财联社",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9sNjdGczhBVzJZVkN4UUhnQWljZzNRRXJRcV9CQlBIVW93QUhPZi15Qmw0dm9CRFExaV9URUNObVFXbndtX280Sg?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 08:52:06 GMT",
+        "source": "财联社"
+      },
+      {
+        "title": "甲骨文拟股债齐发募资200亿美元 五天前刚设的四年融资上限或一次用满 - 新浪财经",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5DcnB2WGtQak9jWVFCN0k1ZVhXWFpoeFVkRGhBNF9laEZqR21nQVlhSmhwTUowbWYwWlNpZVdiemJsRWpNNG9Jak9oQ0xhRGZzWjQySl9fcXdDeVhsZ3d0MHVNLW9uY1h4dnIyM3pfNXZRMHJuOWdLZA?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 16:12:21 GMT",
+        "source": "新浪财经"
+      },
+      {
+        "title": "中一签最多赚6.6万元，A股再现“肉签” - 财联社",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5FVVlTblhhTTdJY2ZiWk5uSllCRnNxRGJNRzlzTEVCVkpUNWJ1RzBtRVhxb0s1dHZTaTlueUFTUl9KMWRHQnVBOQ?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 03:09:00 GMT",
+        "source": "财联社"
+      },
+      {
+        "title": "Anthropic三季度重回经营亏损 首次披露约8954亿美元算力承诺 - 新浪财经",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HbGZjcWtkWEVhcGIzU1VwTEpYM2FnNlRwWkFnNEJWSWdwV29HY1JyZkQwUVJpdk5yQklFZXJwSUlBbjR4V2FVdlM1ZGJyTHNpc2JnUjR4MnA5b2g2eEdyd2JWcGN4Qnp3YXVBanI2TGc1WDI4d0F5Qw?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 17:53:23 GMT",
+        "source": "新浪财经"
+      },
+      {
+        "title": "财联社汽车早报【11月3日】 - 财联社",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5taU1RSW9ESmFSWjQ4Mmxla2plZDMxc2YwZEhnU0R3ajhiUGRTMGlVbnBVRTNQNHcxWHhtcGVPb2VhQzhBQVUyMA?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 01:23:43 GMT",
+        "source": "财联社"
+      },
+      {
+        "title": "突发！450亿光模块概念股签订13亿元磷化铟衬底供货协议|盘后公告集锦 - 财联社",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE92Mms3WGFZclRXWHFNTWpmb2Z2OHdocDZqV3gwUUZ4Vml4MWl0OTc4blNpN1NxSVlBV0tvV3kxSElvTXhUVnp2Mw?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 12:01:00 GMT",
+        "source": "财联社"
+      },
+      {
+        "title": "临近2.3万亿元关口！A股融资余额继续回落，电子、通信仍遭减持，这些方向有所回升 - 财联社",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKUGI2WnRpYlprNVNyM2JoUzQybzEtLVQtenN5MWdyOUxEN1p4cGlDa2dlRl9xakpnSHhsMGFOYlltbWdTZXJJbQ?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 09:33:00 GMT",
+        "source": "财联社"
+      }
+    ]
+  },
+  {
+    "name": "news_policy",
+    "url": "https://news.google.com/rss/search?q=%E4%B8%AD%E5%9B%BD+2026%E5%B9%B411%E6%9C%883%E6%97%A5+%E5%A4%AE%E8%A1%8C+%E8%AF%81%E7%9B%91%E4%BC%9A+%E6%94%BF%E7%AD%96&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:14.125282+00:00",
+    "bytes": 16701,
+    "items": [
+      {
+        "title": "中国股市深陷低点 政府还会放大招？ - DW.com",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOd1M1N3JyLUstZzR6N0htS0JQaVhsZm4zUlRGdUVWOUF5cnczQzJsY2F0WEZBNHB4LUJiU2VwY1h2VDQzckJ6emRhMkhvZm1Cd096QlZMdHRQY01KWjA0akx4Y0ZsYmJ1SUZNTkVvNG9DX2NpbkJQOWF4elAwaWhYZldLU3VtcG5DTzBheGthTXdFZHhJUjhQVjhXUkNLNFdwX0VqMEtJYUNKSEFDbk9hTmUwbER6b2dGYWJuSVBySzgxVWZ6NU1qZWVvWGZGZWV2a0FkSHVsTTBpRi01RzlNSG9nUUtTYUsyZDZYT2Qwd1ZzT2J2UHJzZktPY21Dd9IB_gFBVV95cUxOd1M1N3JyLUstZzR6N0htS0JQaVhsZm4zUlRGdUVWOUF5cnczQzJsY2F0WEZBNHB4LUJiU2VwY1h2VDQzckJ6emRhMkhvZm1Cd096QlZMdHRQY01KWjA0akx4Y0ZsYmJ1SUZNTkVvNG9DX2NpbkJQOWF4elAwaWhYZldLU3VtcG5DTzBheGthTXdFZHhJUjhQVjhXUkNLNFdwX0VqMEtJYUNKSEFDbk9hTmUwbER6b2dGYWJuSVBySzgxVWZ6NU1qZWVvWGZGZWV2a0FkSHVsTTBpRi01RzlNSG9nUUtTYUsyZDZYT2Qwd1ZzT2J2UHJzZktPY21Ddw?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 12:17:02 GMT",
+        "source": "DW.com"
+      },
+      {
+        "title": "中国推千亿资金护股，专家:“国家队”护盘效果有限、且加剧短线投机操作 - 美国之音",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQnpJaUNIUGVjRWYzZFdJbUR6M1BGRk1wRU9MN0pMakVqZnJ4QW5EcUxmNWFVTmE0eDk2TFRsM2VPTDd2X01ZcXR0aUZQTTVDc0xUaUtXbHhaYnhEWHF3TXBFTnpLVV9qcGRjWl9FTjdhempNXzE5ZmJqWHlIYmlUZ3RjdG5nZk1Ga2laajhTMlRZSTFXRjlIRkFTVUVoWm82WWFzVDJRQTdUVjdpdVdEVWthRGo1U0FxbDBXbHVtWXcxd2lXLXfSAcgBQVVfeXFMTm5QVlB5X3U3YVpjZUY2N3pTb2ZTX1BGV0VYUzV0LXpLbnVBalFmM0V6R1NmOWhNclFXaURIYWdLeGZLbDZSaWxxbnE3Mi1JX0RVN1RvMG5MWmF6a0hWM1B6cUZKajVtX3pYMVoxOUFSaElVTm1tbFoyYnI5MEo2OG82MWZiaFpSZXU1cWJOTHBZXzVWeDVPcHNLRGJlcHF2bER6UmZNMGJQRE1qWEk4R0ROSHd0cG5pRWw4cGlzdTk3ZW0xd2tpVVg?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 15:38:44 GMT",
+        "source": "美国之音"
+      },
+      {
+        "title": "两大稳市工具同日部署，政策组合拳密集落地，券商如何解读这场座谈会？ - 财联社",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB4SWdEWm1KalNhenZCYl93V2RkTk1yY25ybkhmSHFwSk5FQ0RneVQ5ZVB0bnU0SWp3TlAxYmZ3d1hpajFvbUdBZg?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 11:05:00 GMT",
+        "source": "财联社"
+      },
+      {
+        "title": "华尔街见闻早餐FM-Radio | 2026年11月4日 - 华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sbVhQajVHMk9xLWRzNmxyMVB1YnlEX0F0ZXo2Mmx2LUQzRkMxMTNUUENocmxoZHdmX2I5ZnpuaEJsVDN2T0g2dTdhUzU4U1lMRFhZ?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 23:16:24 GMT",
+        "source": "华尔街见闻"
+      },
+      {
+        "title": "稳市资金来了！回购增持再贷款利率降低25BP，互换便利申报超千亿！ - 同花顺",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xLUE3eDFRQmFPUENTZGNUeFV1OXRjUXlaTkdDYUZSZERUSzdlbzNVaXo3Z2tYV0Iwb0VBazF0Y3FTODFRN0NwZ2FRRmFYVlJRLV9lRTN1ZXktdzRNRjFaeF9vYWkzVmlGbmpoS2FyeXVwQ1ZvaXlDSVlLLUxMQQ?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 04:41:03 GMT",
+        "source": "同花顺"
+      },
+      {
+        "title": "增量资金入市！央行1000亿元操作落地，大盘蓝筹风格领涨 - 东方财富",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uNmVxYTVEaHRPVkE3SndoVmJBYk93SDdUSnRCb3VwSTRzdFludTJMMnJaamxmeHZVckpnQ2I2XzMzNVI0cEF5M1QxQXM2b09icXB6b29Ra0dfLTQ3eGxtVEU4NV9GUQ?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 02:30:52 GMT",
+        "source": "东方财富"
+      },
+      {
+        "title": "中信证券、国泰海通、东吴证券等券商相继中标第三批互换便利 - 21财经",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQclNlb25GdGRJc3lVbHVrQXVRNy1WbFJWSk9zZ01McS1Xb2wxQXBxLU5FZ0QzSlhoZWpCVEkzY1F0Wkl2YjNPLUxzUTB3YmptRFBmZ0M5bV8wRXVQaUZIRXBWVE5XZWN3MlpVRFRURmlROUR6dmFGcWhqdXZNYUp3eUFfV0hGX0l5YTF4Qlp3?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 11:20:49 GMT",
+        "source": "21财经"
+      },
+      {
+        "title": "花旗余向荣：预计2027年实际GDP增速4.1% 政策应更多转向民生和消费 - 财新",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QYmZxcGJNR09kUFJCcFhVM1VNM1AtT0lONU1tUkRGaUhveFdVcll0dWVyRXFjVlJSZGZxZXN3dk1NdkFLcGJMb2ktYWpBZEdEcEJHVkJ0aEdJd0I3MHdNWUV3?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 04:05:00 GMT",
+        "source": "财新"
+      },
+      {
+        "title": "A股:央行、证监会发声，维护市场平稳运行，将会带来怎样的影响？ - 手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDWExYb0plU01xcE5oTXY5Y2huU1FmNnhVWmNVb2ZJeGlQdW1lZUw4dHJHNmtPRkozcU1EV2p5eEdiSV95WHhORzdYbzJsRkp1Umh4ZUNLMVJURGZjMi1NN2Zn?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 16:00:04 GMT",
+        "source": "手机网易网"
+      },
+      {
+        "title": "早读｜稳市举措“多箭齐发”，今开展SFISF操作引导增量资金入市 - 上观新闻",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WY2JxLV81WVlicEJiU3VTTGpOeHhJMU9TWUk1cDBjc0dLazRoVE95NXVzSTM2LXNEZjZROFB6WnZxa1F4WmMwaVRWbXZOTnRGNHFObTMwSXNQOElC?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 22:31:00 GMT",
+        "source": "上观新闻"
+      },
+      {
+        "title": "陆家嘴财经早餐2026年11月3日星期二 - 搜狐网",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYUVhNGlxenBkV2p1Z0I2SlFHMnZsdm51LWVVR2dvb25wYV9Bb2M1S1hhWGlHTHlHcmdFTGlOU2hSYUJ2V0tSYjJzV0J4Ri1OX04ya1YyRGlMWjEyUVBtUHc3cDRWS0tkQ2d0clJrVmdQRUdDV0I5cWhkTEx5VW9zcWpHMEZLVlVmb0h3?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 22:57:17 GMT",
+        "source": "搜狐网"
+      },
+      {
+        "title": "央行开展第三次互换便利操作，31家机构申报超1000亿元；三部门座谈会提出扩容降费，回购增持再贷款转长期并降至1% - 凤凰网",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FaGN0ZUU0NERuT21YREZmMGdCbFZ6c0RLdklsa0tJV0VDSTJudFVJVDNWUmlpbENtUHM5MmgxN3hYTHFHMlhVR1RXdmFVUGthdGc?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 02:12:43 GMT",
+        "source": "凤凰网"
+      }
+    ]
+  },
+  {
+    "name": "cls_home",
+    "url": "https://www.cls.cn/",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:14.235314+00:00",
+    "bytes": 163967
+  }
+]

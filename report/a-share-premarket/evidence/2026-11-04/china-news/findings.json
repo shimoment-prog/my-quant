@@ -1,0 +1,82 @@
+{
+  "task": "2026-11-04 A股盘前国内证据",
+  "captured_at_beijing": "2026-11-04T08:49:09.459288+08:00",
+  "calendar": {
+    "date": "2026-11-04",
+    "weekday": "Wednesday",
+    "status": "normal trading day under annual holiday calendar; no temporary closure identified",
+    "sources": [
+      {
+        "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+        "type": "official",
+        "finding": "2026年官方休市安排结束于10月1日至7日国庆休市，10月8日起照常开市；11月4日为周三，不在假期表内。"
+      },
+      {
+        "url": "https://www.szse.cn/",
+        "type": "official",
+        "finding": "已查看深交所主页，未识别临时休市公告；未单独取得深交所年度日历。"
+      }
+    ]
+  },
+  "domestic_policy": [
+    {
+      "title": "证券、基金、保险公司互换便利操作结果公告",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110313380716818/index.html",
+      "type": "primary",
+      "published_at_beijing": "2026-11-03T13:37:24+08:00",
+      "facts": {
+        "operation_amount_cny_billion": 100,
+        "bidders": 31,
+        "winning_fee_bp": 10
+      },
+      "interpretation_limit": "昨天盘中已经公布；操作金额不能等同于立即全部买入股票，不是11月4日新增利好。"
+    }
+  ],
+  "company_reports_secondary": [
+    {
+      "url": "https://www.cls.cn/detail/2524406",
+      "published_at_beijing": "2026-11-04T07:00:00+08:00",
+      "type": "reliable media announcement summary",
+      "eoptolink": {
+        "repurchased_shares_ten_thousand": 213.91,
+        "amount_cny_hundred_million": "约4",
+        "execution_date_range": "2026-11-02 through 2026-11-03",
+        "price_range": [
+          172.05,
+          199.75
+        ]
+      },
+      "wuliangye": {
+        "repurchased_shares_ten_thousand": 2453.74,
+        "cumulative_amount_cny_hundred_million": 18.01,
+        "limit": "累计回购，不是隔夜新增18亿元"
+      },
+      "guangxun": "公司澄清缺料停产传闻不实；非新易盛直接订单证据。"
+    },
+    {
+      "url": "https://www.cls.cn/detail/2524411",
+      "published_at_beijing": "2026-11-04T07:56:00+08:00",
+      "type": "reliable media company clarification summary",
+      "innolight": "称绝大部分客户未下修需求或订单，2027年绝大部分订单已覆盖全年；外资券商降评级传言被澄清。",
+      "limit": "是公司声明经媒体转述，不是独立审计的未来订单实现；应优先使用另一代理取得的一手公告。"
+    }
+  ],
+  "previous_close_news": {
+    "title": "【每日收评】创业板指跌近3%，中际旭创重挫12%，多只宽基ETF放量破百亿",
+    "provider": "财联社",
+    "published_at_beijing": "2026-11-03T16:52:06+08:00",
+    "retrieval": "Google News RSS title only; full body unresolved",
+    "limit": "无法验证完整涨跌家数和行业涨跌榜，不据此编造。"
+  },
+  "prior_forecast_review": {
+    "source": "parent message and parent-loaded 2026-11-03.json",
+    "assessment": "低开及科技弱于防御方向得到验证；创业板-2.73%、科创50-3.81%，跌幅超过原震荡整理主情景。",
+    "limit": "不是统计命中率，不臆测资金真实流向。"
+  },
+  "missing": [
+    "11月3日全市场准确涨跌家数",
+    "11月3日可靠完整板块领涨领跌榜",
+    "独立深交所2026年度交易日历",
+    "本代理未取得公司回购和订单澄清一手公告，已交由父代理另一子任务处理"
+  ]
+}

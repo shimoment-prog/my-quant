@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "automation_id": "automation",
+  "scheduled_at": "2026-11-03T14:30:00+08:00",
+  "observed_at": "2026-11-03T14:40:03+08:00",
+  "session": "intraday",
+  "trading_day": {
+    "date": "2026-11-03",
+    "normal_session": true,
+    "evidence": [
+      "sse_calendar",
+      "live_market_quotes"
+    ],
+    "temporary_closure_evidence_found": false
+  },
+  "quotes": {
+    "eoptolink": {
+      "symbol": "sz300502",
+      "name": "新易盛",
+      "price": 174.87,
+      "change_pct": -8.67,
+      "previous_close": 191.48,
+      "open": 185.0,
+      "high": 190.19,
+      "low": 171.6,
+      "volume_lots": 859173,
+      "turnover_cny": 15527139100.0,
+      "vwap_approx": 180.72,
+      "quote_time": "2026-11-03T14:39:03+08:00",
+      "source": "tencent_quotes",
+      "distance_down_to_low_pct": -1.8699605421170107,
+      "relative_to_fixed_line_pct": -2.7581604849024166
+    },
+    "innolight": {
+      "symbol": "sz300308",
+      "name": "中际旭创",
+      "price": 488.05,
+      "change_pct": -11.26,
+      "previous_close": 550.0,
+      "open": 539.0,
+      "high": 539.0,
+      "low": 480.11,
+      "volume_lots": 517092,
+      "turnover_cny": 26123510081.0,
+      "vwap_approx": 505.2,
+      "quote_time": "2026-11-03T14:39:03+08:00",
+      "source": "tencent_quotes"
+    },
+    "communications_etf": {
+      "symbol": "sh515880",
+      "name": "通信ETF国泰",
+      "price": 0.408,
+      "change_pct": -6.21,
+      "previous_close": 0.435,
+      "open": 0.424,
+      "high": 0.431,
+      "low": 0.401,
+      "volume_lots": 67892748,
+      "turnover_cny": 2822779437.0,
+      "vwap_approx": 0.416,
+      "quote_time": "2026-11-03T14:39:05+08:00",
+      "source": "tencent_quotes"
+    },
+    "chinext": {
+      "symbol": "sz399006",
+      "name": "创业板指",
+      "price": 2408.64,
+      "change_pct": -2.04,
+      "previous_close": 2458.7,
+      "open": 2429.77,
+      "high": 2471.9,
+      "low": 2376.39,
+      "volume_lots": 167316450,
+      "turnover_cny": 406804611607.0,
+      "vwap_approx": 2425.35,
+      "quote_time": "2026-11-03T14:39:03+08:00",
+      "source": "tencent_quotes"
+    }
+  },
+  "fixed_reference": {
+    "symbol": "300502.SZ",
+    "price": 179.83,
+    "formed_on": "2026-11-03",
+    "formed_during": "morning",
+    "status": "breached_not_recovered",
+    "last_verified_quote_time": "2026-11-03T14:39:03+08:00",
+    "last_verified_quote": 174.87,
+    "last_verified_day_low": 171.6,
+    "strict_breach_definition": "traded_price < 179.83",
+    "breached": true,
+    "below_fixed_line_now": true,
+    "first_observed_below_sample": {
+      "quote_time": "2026-11-03T13:14:00+08:00",
+      "price": 179.5,
+      "type": "sampled_minute_price"
+    },
+    "exact_first_tick_breach_time": null,
+    "exact_day_low_tick_time": null,
+    "note": "179.83 remains fixed. 13:14 is the earliest acquired minute sample below it, not exact first tick breach time."
+  },
+  "frozen_prediction": {
+    "id": "2026-11-03-1430-L17160",
+    "symbol": "300502.SZ",
+    "scheduled_check_at": "2026-11-03T14:30:00+08:00",
+    "created_at": "2026-11-03T14:40:03+08:00",
+    "forecast_start": "2026-11-03T14:40:03+08:00",
+    "snapshot_time": "2026-11-03T14:39:03+08:00",
+    "threshold": 171.6,
+    "event": "Any traded price strictly below171.60 after forecast_start and by deadline",
+    "comparison": "strictly_less_than",
+    "deadline": "2026-11-03T15:00:00+08:00",
+    "risk": "中等偏高",
+    "numeric_probability": null,
+    "model_validated": false,
+    "status": "pending",
+    "settled": false,
+    "note": "Forecast starts at actual assessment time; do not backdate to14:30 or14:33. Trade breach and closing breach are separate outcomes."
+  },
+  "risk_assessment": {
+    "risk": "中等偏高",
+    "numeric_probability": null,
+    "probability_label": "暂无可靠百分比",
+    "reasons": [
+      "Fixed179.83 breached; price below180.72 intraday VWAP.",
+      "Eoptolink-8.67%, Innolight-11.26%, communications ETF-6.21%, versus ChiNext-2.04%: sector remains relatively weak.",
+      "Rebound to176.04 at14:36:18 retreated to174.87 at14:39:03; distance down to171.60 is about1.87%.",
+      "Remaining horizon is about20 minutes; rebound from the low exists and a further low is not inevitable.",
+      "Overseas price pressure is mixed with positive fundamental evidence, not proof of Eoptolink order losses."
+    ],
+    "risk_increases_if": "Rebound highs fall, price drops below174.5 and approaches171.60 with heavier pullback trading and peers weakening.",
+    "risk_decreases_if": "Price reclaims176 and subsequent pullbacks form higher lows on lighter trading while communications peers recover.",
+    "comparison_with_previous_formal_check": null,
+    "intracheck_updates": [
+      {
+        "quote_time": "2026-11-03T14:33:33+08:00",
+        "price": 174.68
+      },
+      {
+        "quote_time": "2026-11-03T14:36:18+08:00",
+        "price": 176.04
+      },
+      {
+        "quote_time": "2026-11-03T14:39:03+08:00",
+        "price": 174.87
+      }
+    ],
+    "previous_commentary_note": "Intermediate assessment improved to medium at176.04; latest renewed retreat supports moderately high final conditional risk."
+  },
+  "overseas": {
+    "latest_completed_US_regular_session": "2026-11-02",
+    "new_regular_session_since_morning": false,
+    "regular_session_prices": [
+      {
+        "symbol": "LITE",
+        "close_usd": 684.4,
+        "change_pct": -18.59,
+        "date": "2026-11-02",
+        "session": "regular",
+        "source": "overseas_quotes"
+      },
+      {
+        "symbol": "MRVL",
+        "close_usd": 171.41,
+        "change_pct": -12.72,
+        "date": "2026-11-02",
+        "session": "regular",
+        "source": "overseas_quotes"
+      },
+      {
+        "symbol": "COHR",
+        "close_usd": 199.95,
+        "change_pct": -4.93,
+        "date": "2026-11-02",
+        "session": "regular",
+        "source": "overseas_quotes"
+      },
+      {
+        "symbol": "CIEN",
+        "close_usd": 284.34,
+        "change_pct": -11.34,
+        "date": "2026-11-02",
+        "session": "regular",
+        "source": "overseas_quotes"
+      },
+      {
+        "symbol": "AAOI",
+        "close_usd": 62.5,
+        "change_pct": -9.49,
+        "date": "2026-11-02",
+        "session": "regular",
+        "source": "overseas_quotes"
+      },
+      {
+        "symbol": "FN",
+        "close_usd": 314.7,
+        "change_pct": -3.85,
+        "date": "2026-11-02",
+        "session": "regular",
+        "source": "overseas_quotes"
+      },
+      {
+        "symbol": "NVDA",
+        "close_usd": 202.06,
+        "change_pct": -1.26,
+        "date": "2026-11-02",
+        "session": "regular",
+        "source": "overseas_quotes"
+      },
+      {
+        "symbol": "AVGO",
+        "close_usd": 322.23,
+        "change_pct": -1.18,
+        "date": "2026-11-02",
+        "session": "regular",
+        "source": "overseas_quotes"
+      }
+    ],
+    "SOX": {
+      "close": 10328.3287,
+      "change_pct": -3.37,
+      "session_date": "2026-11-02",
+      "source": "sina_sox_fn"
+    },
+    "FN_after_hours": {
+      "price_usd": 347.5,
+      "change_vs_regular_close_pct": 10.42,
+      "exchange_time_label": "Nov02 07:59PM EST",
+      "session": "after_hours",
+      "source": "sina_sox_fn",
+      "note": "Not normal-session close or current premarket quote."
+    },
+    "fundamentals": [
+      {
+        "company": "Fabrinet",
+        "published_date": "2026-11-02",
+        "period_ended": "2026-09-25",
+        "revenue_usd_million": 1474.5,
+        "previous_year_revenue_usd_million": 978.1,
+        "revenue_yoy_pct_approx": 51,
+        "next_quarter_guidance_usd_million": [
+          1600,
+          1650
+        ],
+        "source": "fabrinet_sec",
+        "interpretation": "Positive realized revenue plus management guidance; diversified business, not direct Eoptolink order evidence."
+      },
+      {
+        "company": "Marvell/Lumentum",
+        "published_date": "2026-11-02",
+        "consideration": "all-stock",
+        "Marvell_shares_per_Lumentum_share": 4.5,
+        "expected_close": "2028H1 subject to approvals",
+        "Marvell_preliminary_revenue": "previous midpoint maintained; range narrowed to plus/minus2%",
+        "source": "marvell_ir",
+        "interpretation": "Fixed-share merger links Lumentum price to acquirer and deal expectations; price drop cannot be equated with demand drop."
+      }
+    ],
+    "direct_Eoptolink_order_cancellation_verified": false,
+    "caveat": "No verified direct cancellation in acquired sources is not proof that risks do not exist."
+  },
+  "data_gaps": [
+    "No validated probability model applicable to this threshold and intraday horizon.",
+    "Exact tick times of fixed-line breach and day low unavailable.",
+    "Announcement API failed HTTP567: latest company disclosures not fully verified; cannot claim absence of new disclosures.",
+    "Minute series is sampled, not full tick-level highs/lows; no institutional-flow inference."
+  ],
+  "sources": [
+    {
+      "id": "tencent_quotes",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+      "kind": "public_market_api",
+      "market_time": "2026-11-03T14:39:03+08:00"
+    },
+    {
+      "id": "sina_crosscheck",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "market_time": "2026-11-03T14:36:21+08:00",
+      "note": "Confirmed171.60 low; asynchronous last prices differ."
+    },
+    {
+      "id": "tencent_minute",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+      "note": "Sampled minute observations; current minute bucket is not a completed tick record."
+    },
+    {
+      "id": "sse_calendar",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/"
+    },
+    {
+      "id": "overseas_quotes",
+      "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+      "regular_session_date": "2026-11-02"
+    },
+    {
+      "id": "sina_sox_fn",
+      "url": "https://hq.sinajs.cn/list=gb_sox,gb_fn"
+    },
+    {
+      "id": "fabrinet_sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001408710/000140871026000034/fn-20261102xex991q127.htm",
+      "published_date": "2026-11-02",
+      "period_ended": "2026-09-25",
+      "kind": "primary_filing"
+    },
+    {
+      "id": "marvell_ir",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+      "published_date": "2026-11-02",
+      "kind": "primary_company_announcement"
+    }
+  ],
+  "pending_predictions": [
+    {
+      "id": "2026-11-03-1430-L17160",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-03T14:30:00+08:00",
+      "created_at": "2026-11-03T14:40:03+08:00",
+      "forecast_start": "2026-11-03T14:40:03+08:00",
+      "snapshot_time": "2026-11-03T14:39:03+08:00",
+      "threshold": 171.6,
+      "event": "Any traded price strictly below171.60 after forecast_start and by deadline",
+      "comparison": "strictly_less_than",
+      "deadline": "2026-11-03T15:00:00+08:00",
+      "risk": "中等偏高",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "Forecast starts at actual assessment time; do not backdate to14:30 or14:33. Trade breach and closing breach are separate outcomes."
+    }
+  ],
+  "settled_predictions": [],
+  "prior_context": {
+    "manual_morning_file": "../eoptolink-低点风险观察-2026-11-03.json",
+    "morning_quote_time": "2026-11-03T10:32:54+08:00",
+    "morning_price": 185.61,
+    "morning_low": 179.83,
+    "formally_scored": false,
+    "note": "Automation created11:11; no immutable10:30 forecast exists. Do not invent a scored forecast or hit rate."
+  },
+  "notification": {
+    "decision": "NOTIFY",
+    "prepared_at": "2026-11-03T14:40:03+08:00",
+    "reason": "User explicitly requests each scheduled check; fixed-line breach is material."
+  },
+  "raw_evidence_directory": "evidence/2026-11-03-1430"
+}

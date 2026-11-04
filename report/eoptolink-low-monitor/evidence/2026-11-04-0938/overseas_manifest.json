@@ -1,0 +1,54 @@
+[
+  {
+    "name": "us_quotes",
+    "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+    "retrieved_at": "2026-11-04T01:35:38.031391+00:00",
+    "ok": true,
+    "length": 3079,
+    "preview": "v_usLITE=\"200~Lumentum~LITE.OQ~680.16~684.40~681.01~7164735~0~0~674.01~40~0~0~0~0~0~0~0~0~674.78~240~0~0~0~0~0~0~0~0~~2026-11-03 16:00:02~-4.24~-0.62~719.98~667.26~USD~7164735~4900"
+  },
+  {
+    "name": "us_sina",
+    "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+    "retrieved_at": "2026-11-04T01:35:38.031847+00:00",
+    "ok": true,
+    "length": 2991,
+    "preview": "var hq_str_gb_lite=\"Lumentum Holdings Inc.,680.1600,-0.62,2026-11-04 09:14:10,-4.2400,681.0100,719.9750,667.2600,1143.0000,184.2000,7164735,6653472,61610836017,6.22,109.350000,0.00"
+  },
+  {
+    "name": "fn_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "retrieved_at": "2026-11-04T01:35:39.309167+00:00",
+    "ok": true,
+    "length": 154968,
+    "preview": "{\"cik\":\"0001408710\",\"entityType\":\"operating\",\"sic\":\"3661\",\"sicDescription\":\"Telephone & Telegraph Apparatus\",\"ownerOrg\":\"04 Manufacturing\",\"insiderTransactionForOwnerExists\":0,\"ins"
+  },
+  {
+    "name": "lite_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "retrieved_at": "2026-11-04T01:35:39.335787+00:00",
+    "ok": true,
+    "length": 159389,
+    "preview": "{\"cik\":\"0001633978\",\"entityType\":\"operating\",\"sic\":\"3669\",\"sicDescription\":\"Communications Equipment, NEC\",\"ownerOrg\":\"04 Manufacturing\",\"insiderTransactionForOwnerExists\":0,\"insid"
+  },
+  {
+    "name": "cohr_ir",
+    "url": "https://investor.coherent.com/news-releases",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "name": "cien_ir",
+    "url": "https://investor.ciena.com/news-releases",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "aaoi_ir",
+    "url": "https://investors.ao-inc.com/news-releases",
+    "retrieved_at": "2026-11-04T01:35:39.613490+00:00",
+    "ok": true,
+    "length": 75082,
+    "preview": "\n<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n\n<head>\n<!-- begin spin_special_output(head_start) -->\n<script type=\"text/javascript\" src=\"js/jquery-webdrive"
+  }
+]

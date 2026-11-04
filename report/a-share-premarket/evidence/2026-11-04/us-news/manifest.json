@@ -1,0 +1,148 @@
+[
+  {
+    "name": "amd_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000002488.json",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:13.247854+00:00",
+    "chars": 162363,
+    "recent": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-03",
+        "acceptanceDateTime": "2026-11-03T21:16:27.000Z",
+        "accessionNumber": "0000002488-26-000188",
+        "primaryDocument": "amd-20261103.htm"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-19",
+        "acceptanceDateTime": "2026-10-19T20:16:44.000Z",
+        "accessionNumber": "0000002488-26-000184",
+        "primaryDocument": "xslF345X06/wk-form4_1792441001.xml"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-10-15",
+        "acceptanceDateTime": "2026-10-15T20:22:38.000Z",
+        "accessionNumber": "0001950047-26-010251",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-09-28",
+        "acceptanceDateTime": "2026-09-28T20:16:47.000Z",
+        "accessionNumber": "0000002488-26-000182",
+        "primaryDocument": "amd-20260926.htm"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-17",
+        "acceptanceDateTime": "2026-09-17T20:21:30.000Z",
+        "accessionNumber": "0000002488-26-000180",
+        "primaryDocument": "xslF345X06/wk-form4_1789676486.xml"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-09-15",
+        "acceptanceDateTime": "2026-09-15T20:21:07.000Z",
+        "accessionNumber": "0001950047-26-009483",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-14",
+        "acceptanceDateTime": "2026-09-14T20:19:52.000Z",
+        "accessionNumber": "0000002488-26-000178",
+        "primaryDocument": "xslF345X06/wk-form4_1789417189.xml"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-09-10",
+        "acceptanceDateTime": "2026-09-10T20:42:40.000Z",
+        "accessionNumber": "0001950047-26-009301",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-09-10",
+        "acceptanceDateTime": "2026-09-10T20:42:22.000Z",
+        "accessionNumber": "0001950047-26-009300",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-08-27",
+        "acceptanceDateTime": "2026-08-27T21:04:51.000Z",
+        "accessionNumber": "0001452385-26-000008",
+        "primaryDocument": "xslF345X06/wk-form4_1787864688.xml"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-08-26",
+        "acceptanceDateTime": "2026-08-26T20:42:02.000Z",
+        "accessionNumber": "0000002488-26-000176",
+        "primaryDocument": "xslF345X06/wk-form4_1787776918.xml"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-08-25",
+        "acceptanceDateTime": "2026-08-25T20:18:39.000Z",
+        "accessionNumber": "0001950047-26-008657",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-08-25",
+        "acceptanceDateTime": "2026-08-25T20:04:57.000Z",
+        "accessionNumber": "0001950047-26-008646",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-08-24",
+        "acceptanceDateTime": "2026-08-24T20:06:46.000Z",
+        "accessionNumber": "0001950047-26-008576",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-08-21",
+        "acceptanceDateTime": "2026-08-21T21:50:08.000Z",
+        "accessionNumber": "0000002488-26-000174",
+        "primaryDocument": "xslF345X06/wk-form4_1787349005.xml"
+      }
+    ]
+  },
+  {
+    "name": "cnbc_wrap",
+    "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:13.777456+00:00",
+    "chars": 1153980,
+    "clean_preview": "Stock market news for Nov. 3, 2026\nSkip Navigation\nMarkets\nPre-Markets\nU.S. Markets\nEurope Markets\nChina Markets\nAsia Markets\nWorld Markets\nCurrencies\nPrediction Markets\nCryptocurrency\nFutures & Commodities\nBonds\nFunds & ETFs\nBusiness\nEconomy\nFinance\nHealth & Science\nMedia\nReal Estate\nEnergy\nClimate\nTransportation\nInvestigations\nIndustrials\nRetail\nWealth\nSports\nLife\nSmall Business\nInvesting\nPersonal Finance\nFintech\nFinancial Advisors\nOptions Action\nETF Street\nBuffett Archive\nEarnings\nTrader Talk\nTech\nCybersecurity\nAI\nEnterprise\nInternet\nMedia\nMobile\nSocial Media\nCNBC Disruptor 50\nTech Guide\nPolitics & Policy\nWhite House\nPolicy\nDefense\nCongress\nExpanding Opportunity\nEurope Politics\nChina Politics\nAsia Politics\nWorld Politics\nVideo\nLatest Video\nFull Episodes\nLivestream\nTop Video\nLive Audio\nEurope TV\nAsia TV\nCNBC Podcasts\nCEO Interviews\nDigital Originals\nWatchlist\nInvesting Club\nTrust Portfolio\nAnalysis\nTrade Alerts\nMeeting Videos\nHomestretch\nJim's Columns\nEducation\nSubscribe\nPRO\nPro News\nJosh Brown\nMike Santoli\nCalls of the Day\nMy Portfolio\nLivestream\nFull Episodes\nStock Screener\nMarke"
+  },
+  {
+    "name": "cnbc_yields",
+    "url": "https://www.cnbc.com/2026/11/03/us-treasury-yields-bonds.html",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:13.882945+00:00",
+    "chars": 790272,
+    "clean_preview": "Treasury yields rise ahead of midterm vote and jobs data\nSkip Navigation\nMarkets\nPre-Markets\nU.S. Markets\nEurope Markets\nChina Markets\nAsia Markets\nWorld Markets\nCurrencies\nPrediction Markets\nCryptocurrency\nFutures & Commodities\nBonds\nFunds & ETFs\nBusiness\nEconomy\nFinance\nHealth & Science\nMedia\nReal Estate\nEnergy\nClimate\nTransportation\nInvestigations\nIndustrials\nRetail\nWealth\nSports\nLife\nSmall Business\nInvesting\nPersonal Finance\nFintech\nFinancial Advisors\nOptions Action\nETF Street\nBuffett Archive\nEarnings\nTrader Talk\nTech\nCybersecurity\nAI\nEnterprise\nInternet\nMedia\nMobile\nSocial Media\nCNBC Disruptor 50\nTech Guide\nPolitics & Policy\nWhite House\nPolicy\nDefense\nCongress\nExpanding Opportunity\nEurope Politics\nChina Politics\nAsia Politics\nWorld Politics\nVideo\nLatest Video\nFull Episodes\nLivestream\nTop Video\nLive Audio\nEurope TV\nAsia TV\nCNBC Podcasts\nCEO Interviews\nDigital Originals\nWatchlist\nInvesting Club\nTrust Portfolio\nAnalysis\nTrade Alerts\nMeeting Videos\nHomestretch\nJim's Columns\nEducation\nSubscribe\nPRO\nPro News\nJosh Brown\nMike Santoli\nCalls of the Day\nMy Portfolio\nLivestream\nFull Episode"
+  },
+  {
+    "name": "amd_ir",
+    "url": "https://ir.amd.com/news-events/press-releases",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:12.946763+00:00",
+    "chars": 63952,
+    "clean_preview": "Press Releases :: Advanced Micro Devices, Inc. (AMD)\nSkip to main content\nSkip to section navigation\nSkip to footer\nInvestor Relations\nIR Overview\nNews & Events\nPress Releases\nIR Calendar\nFinancial Analyst Day\nAnnual Meeting of Stockholders\nStock Data\nStock Data\nPrice History\nStock Split History\nAnalyst Coverage\nTransfer Agent\nFinancial Information\nFinancial Results\nSEC Filings\nGovernance\nBoard of Directors\nLeadership\nBoard Committees\nGovernance Documents\nCorporate Responsibility\nContacts & FAQ\nContacts\nEmail Alerts\nFAQ\nPress Releases\nNews & Events\nNews & Events\nPress Releases\nIR Calendar\nFinancial Analyst Day\nAnnual Meeting of Stockholders\nYear\nAll Years\n2026\n2025\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n2011\n2010\n2009\n2008\n2007\nCategory\nAll Releases\nFinancial Releases\nAMD Reports Third Quarter 2026 Financial Results\nNov 3, 2026 4:15 pm EST\nAMD and Meta Advance Strategic Partnership to Power Meta\u2019s Superintelligence Infrastructure\nOct 27, 2026 9:20 am EDT\nIntroducing AMD Helion, Agentic AI Compute at Rack Scale\nOct 12, 2026 9:00 am EDT\nAMD to Report Fiscal Th"
+  },
+  {
+    "name": "news",
+    "url": "https://news.google.com/rss/search?q=AMD+results+November+3+2026+revenue+data+center&hl=en-US&gl=US&ceid=US%3Aen",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:45:12.386796+00:00",
+    "chars": 74054,
+    "clean_preview": "NFE/5.0\n\"AMD results November 3 2026 revenue data center\" - Google News\nhttps://news.google.com/search?q=AMD+results+November+3+2026+revenue+data+center&hl=en-US&gl=US&ceid=US:en\nen-US\nnews-webmaster@google.com\nCopyright \u00a9 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.\nWed, 04 Nov 2026 00:45:12 GMT\nGoogle News\nhttps://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256\nhttps://news.google.com/\n256\n256\nGoogle News\nAMD stock jumps 8% on earnings as data center revenue nearly doubles - CNBC\nhttps://news.google.com/rss/articles/CBMieEFVX3lxTFBfVXVMaFFzOXpSSmhDS2xlZWZLZDk0V2w5MHpTSnZ3d2c5bkMzRDhwbzhURWpMMVcwX3ZiME8ybmU4UHR1ekdtVlUwRTYxcTI0T1dadVhheUQ0LVVpWnRqYjdmeDkxMGJKQXBkNUtpaEVKZVlXNEhYRdIBfkFVX3lxTFAwT0pLTUtFX3FhLU4tWFFuU3J"
+  }
+]

@@ -1,0 +1,647 @@
+{
+  "audit_time_basis": "2026-11-04 closing snapshots",
+  "n_stocks": 19,
+  "volatility_windows": [
+    20,
+    60
+  ],
+  "all_match": true,
+  "errors": [],
+  "descending_20d_order": true,
+  "checks": [
+    {
+      "code": "688008",
+      "name": "澜起科技",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 83.62729792338521,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 69.15174690689983,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 82.18547612957067,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 75.50493554039083,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "688012",
+      "name": "中微公司",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 78.99605972981072,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 65.1213425801159,
+          "result_difference_pctpoints": -1.4210854715202004e-14
+        }
+      }
+    },
+    {
+      "code": "688256",
+      "name": "寒武纪",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 74.56508721712713,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 62.41398102219681,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 73.24211434278834,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 64.62663493105988,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "688041",
+      "name": "海光信息",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 65.91611223034955,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 53.21332078677551,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "603259",
+      "name": "药明康德",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 52.45147852978748,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 46.99054587788342,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "688981",
+      "name": "中芯国际",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 51.61584560296569,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 42.80126552908117,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 48.769905062463316,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 37.31637675468762,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "601899",
+      "name": "紫金矿业",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 44.78154518771041,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 42.25496316504795,
+          "result_difference_pctpoints": -7.105427357601002e-15
+        }
+      }
+    },
+    {
+      "code": "603993",
+      "name": "洛阳钼业",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 41.99135505604009,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 43.001799587160264,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "600150",
+      "name": "中国船舶",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 40.794802075079545,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 37.99456120117426,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "600276",
+      "name": "恒瑞医药",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 33.25347593105209,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 33.69971416962421,
+          "result_difference_pctpoints": 7.105427357601002e-15
+        }
+      }
+    },
+    {
+      "code": "601211",
+      "name": "国泰海通",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 29.74641980553389,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 23.815705743889996,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "600030",
+      "name": "中信证券",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 28.726811605888624,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 21.090464326888732,
+          "result_difference_pctpoints": 3.552713678800501e-15
+        }
+      }
+    },
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 25.113647971763196,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 21.981476246511228,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "600036",
+      "name": "招商银行",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 20.99268440145668,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 17.30938405584383,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "601318",
+      "name": "中国平安",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 20.580209691160444,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 20.986107235244283,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    },
+    {
+      "code": "600900",
+      "name": "长江电力",
+      "checks": {
+        "20": {
+          "n_returns": 20,
+          "n_closes": 21,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 16.063056342250647,
+          "result_difference_pctpoints": 0.0
+        },
+        "60": {
+          "n_returns": 60,
+          "n_closes": 61,
+          "calendar_aligned": true,
+          "recalculated_volatility_pct": 13.789399489825053,
+          "result_difference_pctpoints": 0.0
+        }
+      }
+    }
+  ],
+  "turnover_audit": {
+    "all_match": true,
+    "errors": [],
+    "mean_formula": "Arithmetic mean of 19 THS native historical values + Nov 4 Tencent closing native value, total 20 sessions. No volume/share denominator estimate.",
+    "checks": [
+      {
+        "code": "688008",
+        "name": "澜起科技",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 2.97195,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 4.04,
+        "latest_vs_mean20": 1.3593768401218056
+      },
+      {
+        "code": "600183",
+        "name": "生益科技",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 2.6895000000000002,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 4.89,
+        "latest_vs_mean20": 1.818181818181818
+      },
+      {
+        "code": "688012",
+        "name": "中微公司",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 2.0665,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 4.03,
+        "latest_vs_mean20": 1.9501572707476411
+      },
+      {
+        "code": "688256",
+        "name": "寒武纪",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 1.63945,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 2.45,
+        "latest_vs_mean20": 1.4944036109670926
+      },
+      {
+        "code": "603986",
+        "name": "兆易创新",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 4.9484,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 6.51,
+        "latest_vs_mean20": 1.3155767520814807
+      },
+      {
+        "code": "688041",
+        "name": "海光信息",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.8733,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 1.19,
+        "latest_vs_mean20": 1.3626474292911943
+      },
+      {
+        "code": "603259",
+        "name": "药明康德",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 1.8295,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 2.3,
+        "latest_vs_mean20": 1.257174091281771
+      },
+      {
+        "code": "688981",
+        "name": "中芯国际",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 1.79995,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 2.9,
+        "latest_vs_mean20": 1.6111558654407068
+      },
+      {
+        "code": "600809",
+        "name": "山西汾酒",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.77495,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 1.13,
+        "latest_vs_mean20": 1.4581585908768306
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.94825,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 1.61,
+        "latest_vs_mean20": 1.6978644872132878
+      },
+      {
+        "code": "603993",
+        "name": "洛阳钼业",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.9346,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 1.76,
+        "latest_vs_mean20": 1.8831585705114489
+      },
+      {
+        "code": "600150",
+        "name": "中国船舶",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 1.18,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 1.02,
+        "latest_vs_mean20": 0.864406779661017
+      },
+      {
+        "code": "600276",
+        "name": "恒瑞医药",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.9865,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 1.09,
+        "latest_vs_mean20": 1.1049163710086163
+      },
+      {
+        "code": "601211",
+        "name": "国泰海通",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.63275,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 0.71,
+        "latest_vs_mean20": 1.1220861319636506
+      },
+      {
+        "code": "600030",
+        "name": "中信证券",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.9765,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 1.09,
+        "latest_vs_mean20": 1.116231438812084
+      },
+      {
+        "code": "600519",
+        "name": "贵州茅台",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.35585,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 0.52,
+        "latest_vs_mean20": 1.4612898693269636
+      },
+      {
+        "code": "600036",
+        "name": "招商银行",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.4723,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 0.65,
+        "latest_vs_mean20": 1.376243912767309
+      },
+      {
+        "code": "601318",
+        "name": "中国平安",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.7323000000000001,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 0.81,
+        "latest_vs_mean20": 1.106104055714871
+      },
+      {
+        "code": "600900",
+        "name": "长江电力",
+        "n_days": 20,
+        "first_date": "2026-10-08",
+        "last_date": "2026-11-04",
+        "native_raw_vs_parsed_match": true,
+        "dates_match_calendar": true,
+        "recalculated_mean20_pct": 0.51525,
+        "difference_pctpoints": 0.0,
+        "latest_pct": 0.62,
+        "latest_vs_mean20": 1.2032993692382339
+      }
+    ]
+  }
+}

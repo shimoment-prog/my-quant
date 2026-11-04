@@ -1,0 +1,215 @@
+{
+  "completed_at_asia_shanghai": "2026-11-04T15:03:28.663101+08:00",
+  "methodology": "同花顺v6历史日线字段7为原生换手率(%)，字段5为股数。样本只取至11月3日。",
+  "stocks": [
+    {
+      "code": "688256",
+      "name": "寒武纪",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 2.906,
+      "mean20_turnover_pct": 1.58525,
+      "path": "/tmp/fund-sse50-risk-20261104/688256-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_688256/01/2026.js"
+    },
+    {
+      "code": "603259",
+      "name": "药明康德",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 1.916,
+      "mean20_turnover_pct": 1.8054000000000001,
+      "path": "/tmp/fund-sse50-risk-20261104/603259-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_603259/01/2026.js"
+    },
+    {
+      "code": "688012",
+      "name": "中微公司",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 2.605,
+      "mean20_turnover_pct": 1.92825,
+      "path": "/tmp/fund-sse50-risk-20261104/688012-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_688012/01/2026.js"
+    },
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 0.593,
+      "mean20_turnover_pct": 0.3452,
+      "path": "/tmp/fund-sse50-risk-20261104/600519-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_600519/01/2026.js"
+    },
+    {
+      "code": "601899",
+      "name": "紫金矿业",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 1.288,
+      "mean20_turnover_pct": 0.8916,
+      "path": "/tmp/fund-sse50-risk-20261104/601899-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_601899/01/2026.js"
+    },
+    {
+      "code": "688041",
+      "name": "海光信息",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 1.239,
+      "mean20_turnover_pct": 0.85195,
+      "path": "/tmp/fund-sse50-risk-20261104/688041-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_688041/01/2026.js"
+    },
+    {
+      "code": "688008",
+      "name": "澜起科技",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 4.093,
+      "mean20_turnover_pct": 2.8858,
+      "path": "/tmp/fund-sse50-risk-20261104/688008-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_688008/01/2026.js"
+    },
+    {
+      "code": "688981",
+      "name": "中芯国际",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 2.596,
+      "mean20_turnover_pct": 1.7621,
+      "path": "/tmp/fund-sse50-risk-20261104/688981-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_688981/01/2026.js"
+    },
+    {
+      "code": "601318",
+      "name": "中国平安",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 1.072,
+      "mean20_turnover_pct": 0.718,
+      "path": "/tmp/fund-sse50-risk-20261104/601318-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_601318/01/2026.js"
+    },
+    {
+      "code": "600030",
+      "name": "中信证券",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 1.307,
+      "mean20_turnover_pct": 0.94465,
+      "path": "/tmp/fund-sse50-risk-20261104/600030-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_600030/01/2026.js"
+    },
+    {
+      "code": "600036",
+      "name": "招商银行",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 0.812,
+      "mean20_turnover_pct": 0.45675,
+      "path": "/tmp/fund-sse50-risk-20261104/600036-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_600036/01/2026.js"
+    },
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 4.182,
+      "mean20_turnover_pct": 2.51835,
+      "path": "/tmp/fund-sse50-risk-20261104/600183-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_600183/01/2026.js"
+    },
+    {
+      "code": "601211",
+      "name": "国泰海通",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 0.942,
+      "mean20_turnover_pct": 0.6134000000000001,
+      "path": "/tmp/fund-sse50-risk-20261104/601211-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_601211/01/2026.js"
+    },
+    {
+      "code": "600276",
+      "name": "恒瑞医药",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 1.071,
+      "mean20_turnover_pct": 1.0199,
+      "path": "/tmp/fund-sse50-risk-20261104/600276-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_600276/01/2026.js"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 5.417,
+      "mean20_turnover_pct": 4.8036,
+      "path": "/tmp/fund-sse50-risk-20261104/603986-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_603986/01/2026.js"
+    },
+    {
+      "code": "600900",
+      "name": "长江电力",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 0.57,
+      "mean20_turnover_pct": 0.49815,
+      "path": "/tmp/fund-sse50-risk-20261104/600900-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_600900/01/2026.js"
+    },
+    {
+      "code": "600809",
+      "name": "山西汾酒",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 0.999,
+      "mean20_turnover_pct": 0.74895,
+      "path": "/tmp/fund-sse50-risk-20261104/600809-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_600809/01/2026.js"
+    },
+    {
+      "code": "603993",
+      "name": "洛阳钼业",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 1.085,
+      "mean20_turnover_pct": 0.86895,
+      "path": "/tmp/fund-sse50-risk-20261104/603993-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_603993/01/2026.js"
+    },
+    {
+      "code": "600150",
+      "name": "中国船舶",
+      "ok": true,
+      "rows": 200,
+      "last_date": "2026-11-03",
+      "last_turnover_pct": 1.286,
+      "mean20_turnover_pct": 1.18435,
+      "path": "/tmp/fund-sse50-risk-20261104/600150-ths-historical.json",
+      "source_url": "https://d.10jqka.com.cn/v6/line/hs_600150/01/2026.js"
+    }
+  ]
+}

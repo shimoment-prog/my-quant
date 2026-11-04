@@ -1,0 +1,79 @@
+[
+  {
+    "name": "quotes",
+    "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006,sh000001",
+    "retrieved_at": "2026-11-04T06:33:28.753077+00:00",
+    "ok": true,
+    "bytes": 2574
+  },
+  {
+    "name": "sina",
+    "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "retrieved_at": "2026-11-04T06:33:28.753048+00:00",
+    "ok": true,
+    "bytes": 1020
+  },
+  {
+    "name": "minute",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+    "retrieved_at": "2026-11-04T06:33:28.741863+00:00",
+    "ok": true,
+    "bytes": 9307
+  },
+  {
+    "name": "minute_peer",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300308",
+    "retrieved_at": "2026-11-04T06:33:28.744619+00:00",
+    "ok": true,
+    "bytes": 9361
+  },
+  {
+    "name": "minute_etf",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh515880",
+    "retrieved_at": "2026-11-04T06:33:28.741692+00:00",
+    "ok": true,
+    "bytes": 9295
+  },
+  {
+    "name": "sse_calendar",
+    "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+    "retrieved_at": "2026-11-04T06:33:29.089988+00:00",
+    "ok": true,
+    "bytes": 29581
+  },
+  {
+    "name": "szse_home",
+    "url": "https://www.szse.cn/",
+    "retrieved_at": "2026-11-04T06:33:29.333431+00:00",
+    "ok": true,
+    "bytes": 88423
+  },
+  {
+    "name": "szse_notices",
+    "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+    "retrieved_at": "2026-11-04T06:33:29.229865+00:00",
+    "ok": true,
+    "bytes": 92769
+  },
+  {
+    "name": "m5_ohlc",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=80",
+    "retrieved_at": "2026-11-04T06:33:29.118155+00:00",
+    "ok": true,
+    "bytes": 11489
+  },
+  {
+    "name": "sina_announcements",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+    "retrieved_at": "2026-11-04T06:33:29.299317+00:00",
+    "ok": true,
+    "bytes": 55685
+  },
+  {
+    "name": "announcements",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=5&page_index=1&ann_type=A&client_source=web&stock_list=300502",
+    "retrieved_at": "2026-11-04T06:33:28.744633+00:00",
+    "ok": false,
+    "error": "HTTP Error 567: Unknown Status"
+  }
+]

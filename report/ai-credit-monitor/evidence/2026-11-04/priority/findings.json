@@ -1,0 +1,107 @@
+{
+  "checked_at": "2026-11-04T00:32:20.799817+00:00",
+  "comparison_cutoff": "2026-11-03T00:34:32+00:00",
+  "new_filings_after_cutoff": {
+    "Oracle": [],
+    "CoreWeave": []
+  },
+  "newly_verified_historical_evidence": [
+    {
+      "id": "oracle_20261102_priced_bonds",
+      "publication_at": "2026-11-02T22:28:31Z",
+      "event_date": "2026-11-02",
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526443918/d87441dfwp.htm",
+      "status": "priced_not_verified_settled",
+      "expected_settlement_date": "2026-11-04",
+      "currency": "USD",
+      "total_principal": 10000000000,
+      "seniority": "senior unsecured",
+      "tranches": [
+        {
+          "principal": 2000000000,
+          "maturity": "2029-11-04",
+          "coupon_pct": 7,
+          "yield_to_maturity_pct": 7.062,
+          "treasury_spread_bp": 240,
+          "benchmark_yield_pct": 4.662
+        },
+        {
+          "principal": 1750000000,
+          "maturity": "2031-11-04",
+          "coupon_pct": 7.45,
+          "yield_to_maturity_pct": 7.464,
+          "treasury_spread_bp": 275,
+          "benchmark_yield_pct": 4.714
+        },
+        {
+          "principal": 2250000000,
+          "maturity": "2033-11-04",
+          "coupon_pct": 7.85,
+          "yield_to_maturity_pct": 7.851,
+          "treasury_spread_bp": 305,
+          "benchmark_yield_pct": 4.801
+        },
+        {
+          "principal": 2500000000,
+          "maturity": "2037-02-04",
+          "coupon_pct": 8,
+          "yield_to_maturity_pct": 8.015,
+          "treasury_spread_bp": 310,
+          "benchmark_yield_pct": 4.915
+        },
+        {
+          "principal": 1500000000,
+          "maturity": "2046-11-04",
+          "coupon_pct": 8.65,
+          "yield_to_maturity_pct": 8.667,
+          "treasury_spread_bp": 335,
+          "benchmark_yield_pct": 5.317
+        }
+      ],
+      "issuer_term_sheet_expected_ratings": {
+        "Moodys": "Baa2 negative",
+        "SP": "BBB- stable",
+        "Fitch": "BBB stable"
+      },
+      "caveats": [
+        "Pricing is not settlement. At Nov4 08:30Beijing, USNov4 settlement has not happened.",
+        "Treasury spread on new issuance is not CDS or spread widening vs prior issuance.",
+        "No matched prior issuance/secondary curve/orderbook or concession evidence acquired.",
+        "Expected ratings in issuer term sheet are not proof of a newly issued rating action."
+      ]
+    },
+    {
+      "id": "oracle_20261102_preliminary_equity",
+      "publication_at": "2026-11-02T13:16:06Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
+      "status": "preliminary_not_verified_priced_or_completed",
+      "planned_usd": 10000000000,
+      "use_of_proceeds": "General corporate purposes, potentially capex, debt repayment, investments/acquisitions, dividends/repurchases.",
+      "caveat": "Do not count planned equity as already available cash."
+    },
+    {
+      "id": "oracle_20261028_guidance",
+      "publication_at": "2026-10-28T18:24:44Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+      "evidence_type": "management_forward_looking_guidance",
+      "positive_fcf_target": "second halfFY28; FY29FCF30bn+",
+      "additional_capital_markets_funding_through_FY30_usd": 20000000000,
+      "split": {
+        "equity": 10000000000,
+        "gross_debt": 10000000000
+      },
+      "refinancing_excluded": true,
+      "prior_atm_completed_FY27Q1_usd": 20000000000,
+      "operating_qualifier": "Vendor financing, customer hardware and prepayments expected to reduce upfront cash needs; these do not automatically erase ultimate obligations.",
+      "caveat": "Targets, not realized cash flow or evidence of overnight relief."
+    }
+  ],
+  "no_fresh_financial_baseline_update": true,
+  "gaps": [
+    "No current comparable issuer5yCDS or matched secondary bond spreads.",
+    "No rating-agency primary new action acquired.",
+    "Oracle IR403; CoreWeave IR429; SEC submissions available.",
+    "No comprehensive project/customer/lender searches, so no-proof-of-no-risk inference."
+  ],
+  "suggested_judgment": "Observation remains defensible. Material primary historical financing coverage newly added: financing channel demonstrably priced rather than frozen, at substantial Treasury spreads; no model-supported deterioration/relief trend. Notify only if newly filled baseline evidence judged material; explicitly dateNov2 and do not call overnight new."
+}

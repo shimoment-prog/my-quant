@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "record_type": "historical_financial_definition_supplement",
+  "verified_on": "2026-11-04",
+  "recorded_at": "2026-11-04T09:47:56+08:00",
+  "is_new_earnings_release": false,
+  "currency": "USD",
+  "amount_unit": "USD",
+  "balance_sheet_date": "2026-09-30",
+  "cashflow_period": {
+    "start": "2026-01-01",
+    "end": "2026-09-30"
+  },
+  "definitions": {
+    "common_cash_surplus": "Operating cash flow minus cash purchases of PP&E, before finance lease principal.",
+    "cash_surplus_after_finance_lease_principal": "Common cash surplus minus finance lease principal paid; not a claim to include every contractual obligation.",
+    "cash_and_debt_securities": "Cash and equivalents plus debt-type marketable securities, excluding equity securities; not a guarantee every position is instantly available.",
+    "bond_carrying_value": "Bond carrying value including current portion; not all lease liabilities or all next-twelve-month contractual cash obligations.",
+    "contingent_exposure": "Record nominal/max exposure, recognized liability and actual payments separately; none is interchangeable."
+  },
+  "issuers": {
+    "Alphabet": {
+      "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "filing_date": "2026-10-29",
+      "operating_cash_flow": 127149000000,
+      "prior_year_operating_cash_flow": 112311000000,
+      "cash_ppe_purchases": 131953000000,
+      "prior_year_cash_ppe_purchases": 63596000000,
+      "common_cash_surplus": -4804000000,
+      "prior_year_common_cash_surplus": 48715000000,
+      "finance_lease_principal_paid": 1950000000,
+      "cash_surplus_after_finance_lease_principal": -6754000000,
+      "cash_and_equivalents": 56334000000,
+      "short_term_marketable_securities": 208764000000,
+      "equity_securities_included_in_marketable": 90384000000,
+      "temporarily_sale_restricted_spacex_equity_included_in_equities": 75200000000,
+      "cash_and_debt_securities_excluding_equity": 174714000000,
+      "bond_carrying_value_including_current": 126118000000,
+      "bond_carrying_value_at_2025_12_31": 48543000000,
+      "current_bond_carrying_value": 1016000000,
+      "credit_support_derivative_gross_notional": 48012000000,
+      "credit_support_derivative_gross_notional_at_2025_12_31": 16940000000,
+      "credit_support_derivative_fair_value_liability": 606000000,
+      "credit_support_note": "Data-center lease and energy-payment support; notional is not realized loss. Record trigger terms and actual payments separately.",
+      "uncommenced_lease_commitments": 130500000000,
+      "purchase_commitments_multi_year": 924400000000,
+      "purchase_commitments_due_within_twelve_months": 213400000000,
+      "notes": [
+        "Do not describe all265.098bn cash plus securities as unrestricted cash-like liquidity.",
+        "Purchase commitments span long periods and include technical infrastructure, energy and content; avoid summing with forecast capex or other overlapping commitments.",
+        "Security valuation gains/losses are not AI operating cash returns."
+      ]
+    },
+    "Meta": {
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "filing_date": "2026-10-22",
+      "operating_cash_flow": 96873000000,
+      "prior_year_operating_cash_flow": 79586000000,
+      "cash_ppe_purchases": 83055000000,
+      "prior_year_cash_ppe_purchases": 48308000000,
+      "common_cash_surplus": 13818000000,
+      "prior_year_common_cash_surplus": 31278000000,
+      "finance_lease_principal_paid": 2769000000,
+      "cash_surplus_after_finance_lease_principal": 11049000000,
+      "prior_year_cash_surplus_after_finance_lease_principal": 29508000000,
+      "cash_and_equivalents": 11222000000,
+      "short_term_marketable_securities": 71227000000,
+      "equity_securities_included_in_marketable": 3125000000,
+      "cash_and_debt_securities_excluding_equity": 79324000000,
+      "restricted_cash_excluded_from_above_cash_and_securities": 13132000000,
+      "restricted_procurement_escrow_included_in_restricted_cash": 10800000000,
+      "bond_carrying_value_including_current": 83669000000,
+      "bond_carrying_value_at_2025_12_31": 58744000000,
+      "current_bond_carrying_value": 2747000000,
+      "datacenter_joint_venture_maximum_residual_value_guarantee": 41493000000,
+      "datacenter_joint_venture_maximum_residual_value_guarantee_at_2025_12_31": 28091000000,
+      "datacenter_joint_venture_total_maximum_exposure_including_guarantee": 68404000000,
+      "guarantee_note": "Conditional on lease termination/non-renewal and other terms including residual property value; no guarantee liability recorded because payment not considered probable, not proof of zero risk.",
+      "uncommenced_lease_commitments": 355730000000,
+      "noncancelable_commitments_multi_year": 454520000000,
+      "notes": [
+        "The82.449bn cash/securities excludes13.132bn restricted cash; do not subtract restricted cash again.",
+        "Do not add41.493bn guarantee again to68.404bn total JV exposure.",
+        "Long-duration leases and purchase commitments are not all one-year debt and can overlap future capex.",
+        "Q3 operating profit includes legal settlement expense; not all margin pressure represents weaker AI demand."
+      ]
+    }
+  },
+  "limitations": [
+    "Historical September30 baseline only; replace or compare when new primary disclosure arrives.",
+    "Complete comparable next-twelve-month debt, lease and interest payment schedules are not established here.",
+    "This definition supplement does not assert a new risk-level change, current CDS pricing, a guarantee payout or a realized credit loss."
+  ]
+}

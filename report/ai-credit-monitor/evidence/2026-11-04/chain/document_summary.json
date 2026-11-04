@@ -1,0 +1,257 @@
+[
+  {
+    "name": "meta_fwp",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526445646/d186765dfwp.htm",
+    "ok": true,
+    "chars": 6150,
+    "start": " FWP 1 d186765dfwp.htm FWP FWP Filed Pursuant to Rule 433 Registration No. 333-295425 Issuer Free Writing Prospectus dated November 3, 2026 Relating to Preliminary Prospectus Supplement dated November 3, 2026 PRICING TERM SHEET META PLATFORMS, INC. November 3, 2026 $3,250,000,000 5.850% Senior Notes due 2031 $3,250,000,000 6.250% Senior Notes due 2033 $4,000,000,000 6.550% Senior Notes due 2036 $1,750,000,000 7.350% Senior Notes due 2046 $2,750,000,000 7.500% Senior Notes due 2056 Summary of Terms Issuer: Meta Platforms, Inc. Format: SEC Registered Issue: Senior Notes Trade Date: November 3, 2026 Settlement Date (T+2):* November 5, 2026 Denominations: $2,000 x $1,000 Ratings:** Aa3/Stable (M",
+    "snippets": [
+      {
+        "term": "AI",
+        "count": 5,
+        "excerpts": [
+          " 2036 Notes : 30303MAP7 / US30303MAP77 2046 Notes : 30303MAQ5 / US30303MAQ50 2056 Notes : 30303MAR3 / US30303MAR34 3 * It is expected that the delivery of the notes will be made against payment therefor on or about November 5, 2026, which will be the second business day after the date of the prospectus supplement. Under Rule 15c6-1 of the Securities Exchange Act of 1934, as amended, trades in the secondary market generally are required to settle in one business day, unless the ",
+          "ate will be required, by virtue of the fact that the notes will settle in two business days, to specify an alternative settlement cycle at the time of any such trade to prevent a failed settlement. Such purchasers should consult their own advisors in this regard. ** Note: A securities rating is not a recommendation to buy, sell or hold securities and may be subject to revision or withdrawal at any time. The Issuer has filed a registration statement, including a prospectus and a",
+          "ll or the solicitation of an offer to buy any securities in any jurisdiction to any person to whom it is unlawful to make such offer or solicitation in such jurisdiction. ANY DISCLAIMERS OR OTHER NOTICES THAT MAY APPEAR BELOW ARE NOT APPLICABLE TO THIS COMMUNICATION AND SHOULD BE DISREGARDED. SUCH DISCLAIMERS OR OTHER NOTICES WERE AUTOMATICALLY GENERATED AS A RESULT OF THIS COMMUNICATION BEING SENT VIA BLOOMBERG OR ANOTHER EMAIL SYSTEM. 4 ",
+          "ch offer or solicitation in such jurisdiction. ANY DISCLAIMERS OR OTHER NOTICES THAT MAY APPEAR BELOW ARE NOT APPLICABLE TO THIS COMMUNICATION AND SHOULD BE DISREGARDED. SUCH DISCLAIMERS OR OTHER NOTICES WERE AUTOMATICALLY GENERATED AS A RESULT OF THIS COMMUNICATION BEING SENT VIA BLOOMBERG OR ANOTHER EMAIL SYSTEM. 4 "
+        ]
+      },
+      {
+        "term": "interest rate",
+        "count": 1,
+        "excerpts": [
+          "Notes: $1,750,000,000 2056 Notes: $2,750,000,000 Public Offering Price: 2031 Notes: 99.998% 2033 Notes: 99.778% 2036 Notes: 99.982% 2046 Notes: 99.903% 2056 Notes: 99.629% Coupon (Interest Rate): 2031 Notes: 5.850% 2033 Notes: 6.250% 2036 Notes: 6.550% 2046 Notes: 7.350% 2056 Notes: 7.500% Yield to Maturity: 2031 Notes: 5.850% 2033 Notes: 6.289% 2036 Notes: 6.552% 2046 Notes: 7.359% 2056 Notes: 7.531% Spread to Benchmark Treasury: 2031 Notes: T + 110 basis points 2033 Notes: T + 145 basis"
+        ]
+      },
+      {
+        "term": "Treasury",
+        "count": 8,
+        "excerpts": [
+          " 6.550% 2046 Notes: 7.350% 2056 Notes: 7.500% Yield to Maturity: 2031 Notes: 5.850% 2033 Notes: 6.289% 2036 Notes: 6.552% 2046 Notes: 7.359% 2056 Notes: 7.531% Spread to Benchmark Treasury: 2031 Notes: T + 110 basis points 2033 Notes: T + 145 basis points 2036 Notes: T + 160 basis points 2046 Notes: T + 200 basis points 2056 Notes: T + 220 basis points Benchmark Treasury: 2031 Notes: UST 4.750% due October 31, 2031 2033 Notes: UST 4.875% due October 31, 2033 2036 Notes: UST 4.625% du",
+          "ury: 2031 Notes: T + 110 basis points 2033 Notes: T + 145 basis points 2036 Notes: T + 160 basis points 2046 Notes: T + 200 basis points 2056 Notes: T + 220 basis points Benchmark Treasury: 2031 Notes: UST 4.750% due October 31, 2031 2033 Notes: UST 4.875% due October 31, 2033 2036 Notes: UST 4.625% due August 15, 2036 2046 Notes: UST 5.125% due August 15, 2046 2056 Notes: UST 5.000% due May 15, 2056 Benchmark Treasury Price/Yield: 2031 Notes: 100-00 and 4.750% 2033 Notes: 100-06 3 \u2044",
+          "2033 Notes: UST 4.875% due October 31, 2033 2036 Notes: UST 4.625% due August 15, 2036 2046 Notes: UST 5.125% due August 15, 2046 2056 Notes: UST 5.000% due May 15, 2056 Benchmark Treasury Price/Yield: 2031 Notes: 100-00 and 4.750% 2033 Notes: 100-06 3 \u2044 4 and 4.839% 2036 Notes: 97-15+ and 4.952% 2046 Notes: 97-05 and 5.359% 2056 Notes: 95-03+ and 5.331% Interest Payment Dates: May 15 and November 15, commencing on May 15, 2027 Optional Redemption: 2031 Notes: At any time prior to Oc",
+          "nd 5.331% Interest Payment Dates: May 15 and November 15, commencing on May 15, 2027 Optional Redemption: 2031 Notes: At any time prior to October 15, 2031, make-whole call at the Treasury Rate (as defined in the Preliminary Prospectus Supplement) plus 20 basis points; par call at any time on or after October 15, 2031. 2033 Notes: At any time prior to September 15, 2033, make-whole call at the Treasury Rate (as defined in the Preliminary Prospectus Supplement) plus 25 basis points; p"
+        ]
+      },
+      {
+        "term": "principal amount",
+        "count": 1,
+        "excerpts": [
+          "s Ratings Services) Maturity: 2031 Notes: November 15, 2031 2033 Notes: November 15, 2033 2036 Notes: November 15, 2036 2046 Notes: November 15, 2046 2056 Notes: November 15, 2056 Principal Amount: 2031 Notes: $3,250,000,000 2033 Notes: $3,250,000,000 2036 Notes: $4,000,000,000 2046 Notes: $1,750,000,000 2056 Notes: $2,750,000,000 Public Offering Price: 2031 Notes: 99.998% 2033 Notes: 99.778% 2036 Notes: 99.982% 2046 Notes: 99.903% 2056 Notes: 99.629% Coupon (Interest Rate): 2031 Notes: 5.85"
+        ]
+      },
+      {
+        "term": "notes due",
+        "count": 5,
+        "excerpts": [
+          "s dated November 3, 2026 Relating to Preliminary Prospectus Supplement dated November 3, 2026 PRICING TERM SHEET META PLATFORMS, INC. November 3, 2026 $3,250,000,000 5.850% Senior Notes due 2031 $3,250,000,000 6.250% Senior Notes due 2033 $4,000,000,000 6.550% Senior Notes due 2036 $1,750,000,000 7.350% Senior Notes due 2046 $2,750,000,000 7.500% Senior Notes due 2056 Summary of Terms Issuer: Meta Platforms, Inc. Format: SEC Registered Issue: Senior Notes Trade Date: November 3, 2026 ",
+          "nary Prospectus Supplement dated November 3, 2026 PRICING TERM SHEET META PLATFORMS, INC. November 3, 2026 $3,250,000,000 5.850% Senior Notes due 2031 $3,250,000,000 6.250% Senior Notes due 2033 $4,000,000,000 6.550% Senior Notes due 2036 $1,750,000,000 7.350% Senior Notes due 2046 $2,750,000,000 7.500% Senior Notes due 2056 Summary of Terms Issuer: Meta Platforms, Inc. Format: SEC Registered Issue: Senior Notes Trade Date: November 3, 2026 Settlement Date (T+2):* November 5, 2026 Den",
+          " 2026 PRICING TERM SHEET META PLATFORMS, INC. November 3, 2026 $3,250,000,000 5.850% Senior Notes due 2031 $3,250,000,000 6.250% Senior Notes due 2033 $4,000,000,000 6.550% Senior Notes due 2036 $1,750,000,000 7.350% Senior Notes due 2046 $2,750,000,000 7.500% Senior Notes due 2056 Summary of Terms Issuer: Meta Platforms, Inc. Format: SEC Registered Issue: Senior Notes Trade Date: November 3, 2026 Settlement Date (T+2):* November 5, 2026 Denominations: $2,000 x $1,000 Ratings:** Aa3/S",
+          ". November 3, 2026 $3,250,000,000 5.850% Senior Notes due 2031 $3,250,000,000 6.250% Senior Notes due 2033 $4,000,000,000 6.550% Senior Notes due 2036 $1,750,000,000 7.350% Senior Notes due 2046 $2,750,000,000 7.500% Senior Notes due 2056 Summary of Terms Issuer: Meta Platforms, Inc. Format: SEC Registered Issue: Senior Notes Trade Date: November 3, 2026 Settlement Date (T+2):* November 5, 2026 Denominations: $2,000 x $1,000 Ratings:** Aa3/Stable (Moody\u2019s Investors Service, Inc.) AA-/"
+        ]
+      }
+    ],
+    "links": []
+  },
+  {
+    "name": "meta_prospectus",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/d135326d424b5.htm",
+    "ok": true,
+    "chars": 172689,
+    "start": " 424B5 1 d135326d424b5.htm 424B5 424B5 Table of Contents \\ The information in this prospectus supplement and accompanying prospectus is not complete and may be changed. This prospectus supplement and the accompanying prospectus are not an offer to sell these securities, and we are not soliciting offers to buy these securities, in any jurisdiction where the offer or sale is not permitted. Filed Pursuant to Rule 424(b)(5) Registration No. 333-295425 SUBJECT TO COMPLETION, NOVEMBER 3, 2026 PROSPECTUS SUPPLEMENT TO PROSPECTUS DATED APRIL 30, 2026 $ Meta Platforms, Inc. $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 We are o",
+    "snippets": [
+      {
+        "term": "AI",
+        "count": 264,
+        "excerpts": [
+          "rning Forward-Looking Statements S-iv Summary S-1 Risk Factors S-6 Use of Proceeds S-8 Capitalization S-9 Description of Notes S-10 U.S. Federal Income Tax Considerations S-17 Certain Benefit Plan Investor Considerations S-20 Underwriting S-22 Incorporation of Certain Information by Reference S-28 Legal Matters S-29 Experts S-29 Prospectus Page About This Prospectus ii Where You Can Find More Information iii Forward-Looking Statements iv The Company 1 Risk Factors 2 Use of Proc",
+          "8 Capitalization S-9 Description of Notes S-10 U.S. Federal Income Tax Considerations S-17 Certain Benefit Plan Investor Considerations S-20 Underwriting S-22 Incorporation of Certain Information by Reference S-28 Legal Matters S-29 Experts S-29 Prospectus Page About This Prospectus ii Where You Can Find More Information iii Forward-Looking Statements iv The Company 1 Risk Factors 2 Use of Proceeds 3 Description of Debt Securities 4 Plan of Distribution 15 Legal Matters 17 Expe",
+          "perts 17 S-i Table of Contents NOTICE TO INVESTORS We have not, and the underwriters have not, authorized anyone to provide you with any information other than the information contained in or incorporated by reference into this prospectus supplement, the accompanying prospectus or in any free writing prospectus filed by us with the Securities and Exchange Commission (the \u201cSEC\u201d). Neither we nor the underwriters take responsibility for, and can provide no assurance as to the reli",
+          "hat others may give you. We and the underwriters are offering to sell the notes only in places where offers and sales are permitted. You should not assume that the information contained in this prospectus supplement, the accompanying prospectus, any free writing prospectus, or any document incorporated by reference into this prospectus supplement is accurate as of any date other than their respective dates. Our business, financial condition, results of operations, and prospects"
+        ]
+      },
+      {
+        "term": "artificial intelligence",
+        "count": 2,
+        "excerpts": [
+          "akes it possible. Our products enable people to connect and share through mobile devices, personal computers, virtual reality (\u201cVR\u201d) headsets, and AI glasses. We are innovating in artificial intelligence (\u201cAI\u201d) technologies to build transformative experiences and capabilities across our Family of Apps and new platforms, and to advance our vision to deliver personal superintelligence for everyone. We build technology that helps people connect and share, find and build communities, and grow businesse",
+          " makes it possible. Our products enable people to connect and share through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses. We are innovating in artificial intelligence (AI) technologies to build transformative experiences and capabilities across our Family of Apps and new platforms, and to advance our vision to deliver personal superintelligence for everyone. We build technology that helps people connect and share, find and build communities, and grow businesses."
+        ]
+      },
+      {
+        "term": "interest rate",
+        "count": 11,
+        "excerpts": [
+          " principal amount of % senior notes due 20 (the \u201c20 notes\u201d). Maturity Date The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: , 20 . Interest Rate The 20 notes: % per annum, from , 2026, payable semi-annually in arrears. The 20 notes: % per annum, from , 2026, payable semi-annually in arrears. The 20 notes: % per annum, from , 2026, payable semi-annually in arrears. The 20 notes: % per annum, from , 2026, payable semi-annually in arrears. The",
+          "r return on the notes. We have the right to redeem the notes of each series on the terms set forth in this prospectus supplement. We may redeem such notes at times when prevailing interest rates may be relatively low. Accordingly, you may not be able to reinvest the amount received upon a redemption in a comparable security at an effective interest rate as high as or substantially similar to that of the notes being redeemed. Public markets do not exist and may not develop for the notes wh",
+          "s when prevailing interest rates may be relatively low. Accordingly, you may not be able to reinvest the amount received upon a redemption in a comparable security at an effective interest rate as high as or substantially similar to that of the notes being redeemed. Public markets do not exist and may not develop for the notes which may limit your ability to resell the notes timely or require trading at substantial discount. The notes will be new issues of securities. Prior to the offerin",
+          "t ratings or the debt markets could adversely affect the market prices of the notes. The prices for the notes depend on many factors, including: \u2022 our credit ratings; \u2022 prevailing interest rates being paid by, or the market prices for notes issued by, other companies similar to us; \u2022 our results of operations, financial condition, and prospects; and \u2022 the overall conditions of the general economy and the financial markets. The conditions of the financial markets and prevailing interest ra"
+        ]
+      },
+      {
+        "term": "Treasury",
+        "count": 30,
+        "excerpts": [
+          "nted to the redemption date (assuming the notes matured on the applicable Par Call Date) on a semi-annual basis (assuming a 360-day year consisting of twelve 30-day months) at the Treasury Rate plus the applicable Spread for such notes (as set forth in the table below), less (b) interest accrued to the date of redemption, and (2) 100% of the principal amount of the notes to be redeemed, plus, in each case, accrued and unpaid interest, if any, to, but excluding, the date of redemption",
+          " basis points 20 notes , 20 ( months prior to maturity) basis points 20 notes , 20 ( months prior to maturity) basis points 20 notes , 20 ( months prior to maturity) basis points \u201cTreasury Rate\u201d means, with respect to any redemption date, the yield determined by us in accordance with the following two paragraphs: (1) The Treasury Rate shall be determined by the Company after 4:15 p.m., New York City time (or after such time as yields on U.S. government securities are posted daily by ",
+          "ths prior to maturity) basis points \u201cTreasury Rate\u201d means, with respect to any redemption date, the yield determined by us in accordance with the following two paragraphs: (1) The Treasury Rate shall be determined by the Company after 4:15 p.m., New York City time (or after such time as yields on U.S. government securities are posted daily by the Board of Governors of the Federal Reserve System), on the third business day preceding the redemption date based upon the yield or yields f",
+          "he Federal Reserve System designated as \u201cSelected Interest Rates (Daily)\u2014H.15\u201d (or any successor designation or publication) (\u201cH.15\u201d) under the caption \u201cU.S. government securities-Treasury constant maturities-Nominal\u201d (or any successor caption or heading) (\u201cH.15 TCM\u201d). In determining the Treasury Rate, the Company shall select, as applicable: (x) the yield for the Treasury constant maturity on H.15 exactly equal to the period from the redemption date to the applicable Par Call Date ("
+        ]
+      },
+      {
+        "term": "principal amount",
+        "count": 46,
+        "excerpts": [
+          " more complete understanding of the notes, please refer to the section of this prospectus supplement entitled \u201cDescription of Notes.\u201d Issuer Meta Platforms, Inc. Notes $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior",
+          "f this prospectus supplement entitled \u201cDescription of Notes.\u201d Issuer Meta Platforms, Inc. Notes $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). Maturity Date The 20 notes: , 20 . The 2",
+          "a Platforms, Inc. Notes $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). Maturity Date The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: ",
+          "ue 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). $ aggregate principal amount of % senior notes due 20 (the \u201c20 notes\u201d). Maturity Date The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: , 20 . The 20 notes: , 20 . Interest Rate The 20 notes: % per annum, from , 2026, payable sem"
+        ]
+      },
+      {
+        "term": "notes due",
+        "count": 20,
+        "excerpts": [
+          "nt to Rule 424(b)(5) Registration No. 333-295425 SUBJECT TO COMPLETION, NOVEMBER 3, 2026 PROSPECTUS SUPPLEMENT TO PROSPECTUS DATED APRIL 30, 2026 $ Meta Platforms, Inc. $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 We are offering $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c",
+          "istration No. 333-295425 SUBJECT TO COMPLETION, NOVEMBER 3, 2026 PROSPECTUS SUPPLEMENT TO PROSPECTUS DATED APRIL 30, 2026 $ Meta Platforms, Inc. $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 We are offering $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), and $ of our",
+          " SUBJECT TO COMPLETION, NOVEMBER 3, 2026 PROSPECTUS SUPPLEMENT TO PROSPECTUS DATED APRIL 30, 2026 $ Meta Platforms, Inc. $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 We are offering $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), and $ of our % senior notes due 20 (",
+          "NOVEMBER 3, 2026 PROSPECTUS SUPPLEMENT TO PROSPECTUS DATED APRIL 30, 2026 $ Meta Platforms, Inc. $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 $ % Senior Notes due 20 We are offering $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), $ of our % senior notes due 20 (the \u201c20 notes\u201d), and $ of our % senior notes due 20 (the \u201c20 notes\u201d and, toge"
+        ]
+      }
+    ],
+    "links": []
+  },
+  {
+    "name": "jpm_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+    "ok": true,
+    "chars": 850712,
+    "start": " jpm-20260930 0000019617 FALSE 2026 Q3 12/31 true false http://fasb.org/us-gaap/2026#NoninterestIncomeOther http://fasb.org/us-gaap/2026#NoninterestIncomeOther http://fasb.org/us-gaap/2026#NoninterestIncomeOther http://fasb.org/us-gaap/2026#NoninterestIncomeOther March 31, 2027 237 March 31, 2027 250 March 31, 2027 231 March 31, 2027 237 March 31, 2027 250 March 31, 2027 229 March 31, 2027 249 March 31, 2027 244 xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure iso4217:USD utr:bbl iso4217:USD utr:MMBTU jpm:loan_segment jpm:loan_payment jpm:fund jpm:segment 0000019617 2026-01-01 2026-09-30 0000019617 us-gaap:CommonStockMember 2026-01-01 2026-09-30 0000019617 jpm:DepositarySharesOne",
+    "snippets": [
+      {
+        "term": "AI",
+        "count": 2152,
+        "excerpts": [
+          "01-01 2026-09-30 0000019617 2026-09-30 0000019617 2026-07-01 2026-09-30 0000019617 2025-07-01 2025-09-30 0000019617 2025-01-01 2025-09-30 0000019617 2025-12-31 0000019617 us-gaap:FairValueMeasurementsRecurringMember 2026-09-30 0000019617 us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0000019617 us-gaap:AssetPledgedAsCollateralWithRightMember 2026-09-30 0000019617 us-gaap:AssetPledgedAsCollateralWithRightMember 2025-12-31 0000019617 jpm:AssetsOtherMember us-gaap:FairVal",
+          "9-30 0000019617 2025-07-01 2025-09-30 0000019617 2025-01-01 2025-09-30 0000019617 2025-12-31 0000019617 us-gaap:FairValueMeasurementsRecurringMember 2026-09-30 0000019617 us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0000019617 us-gaap:AssetPledgedAsCollateralWithRightMember 2026-09-30 0000019617 us-gaap:AssetPledgedAsCollateralWithRightMember 2025-12-31 0000019617 jpm:AssetsOtherMember us-gaap:FairValueMeasurementsRecurringMember 2026-09-30 0000019617 jpm:AssetsOther",
+          "00019617 us-gaap:AssetPledgedAsCollateralWithRightMember 2026-09-30 0000019617 us-gaap:AssetPledgedAsCollateralWithRightMember 2025-12-31 0000019617 jpm:AssetsOtherMember us-gaap:FairValueMeasurementsRecurringMember 2026-09-30 0000019617 jpm:AssetsOtherMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0000019617 us-gaap:VariableInterestEntityPrimaryBeneficiaryMember 2026-09-30 0000019617 us-gaap:VariableInterestEntityPrimaryBeneficiaryMember 2025-12-31 0000019617 u",
+          "setPledgedAsCollateralWithRightMember 2025-12-31 0000019617 jpm:AssetsOtherMember us-gaap:FairValueMeasurementsRecurringMember 2026-09-30 0000019617 jpm:AssetsOtherMember us-gaap:FairValueMeasurementsRecurringMember 2025-12-31 0000019617 us-gaap:VariableInterestEntityPrimaryBeneficiaryMember 2026-09-30 0000019617 us-gaap:VariableInterestEntityPrimaryBeneficiaryMember 2025-12-31 0000019617 us-gaap:PreferredStockIncludingAdditionalPaidInCapitalMember 2026-06-30 0000019617 us-gaap"
+        ]
+      },
+      {
+        "term": "data center",
+        "count": 1,
+        "excerpts": [
+          "orming. Multifamily exposure is largely in California. (b) Other Income Producing Properties consists of clients with diversified property types or other property types, including data centers, outside of categories listed in the table above. (c) Real Estate exposure is approximately 82% secured; unsecured exposure is largely investment-grade primarily to Real Estate Investment Trusts (\u201cREITs\u201d) and Real Estate Operating Companies (\u201cREOCs\u201d) whose underlying assets are generally diversifi"
+        ]
+      },
+      {
+        "term": "nonaccrual",
+        "count": 81,
+        "excerpts": [
+          "folioSegmentMember 2026-09-30 0000019617 jpm:CriticizedPerformingMember us-gaap:CommercialPortfolioSegmentMember 2025-12-31 0000019617 us-gaap:RealEstateSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2026-09-30 0000019617 us-gaap:RealEstateSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2025-12-31 0000019617 us-gaap:CommercialAndIndustrialSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSeg",
+          "000019617 us-gaap:RealEstateSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2026-09-30 0000019617 us-gaap:RealEstateSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2025-12-31 0000019617 us-gaap:CommercialAndIndustrialSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2026-09-30 0000019617 us-gaap:CommercialAndIndustrialSectorMember jpm:CriticizedNonaccrualMember us-gaap:Commercia",
+          "gaap:RealEstateSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2025-12-31 0000019617 us-gaap:CommercialAndIndustrialSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2026-09-30 0000019617 us-gaap:CommercialAndIndustrialSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2025-12-31 0000019617 jpm:WholesaleOtherMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMe",
+          "alAndIndustrialSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2026-09-30 0000019617 us-gaap:CommercialAndIndustrialSectorMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2025-12-31 0000019617 jpm:WholesaleOtherMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2026-09-30 0000019617 jpm:WholesaleOtherMember jpm:CriticizedNonaccrualMember us-gaap:CommercialPortfolioSegmentMember 2025-12-31 000"
+        ]
+      },
+      {
+        "term": "credit loss",
+        "count": 176,
+        "excerpts": [
+          "plans 132 Note 8 - Employee share-based incentives 132 Note 9 - Investment securities 133 Note 10 - Securities financing activities 138 Note 11 - Loans 140 Note 12 - Allowance for credit losses 159 Note 13 - Variable interest entities 162 Note 14 - Goodwill and mortgage servicing rights 169 Note 15 - Deposits 172 Note 16 - Leases 172 Note 17 - Preferred stock 173 Note 18 - Earnings per share 174 Note 19 - Accumulated other comprehensive income/(loss) 175 Note 20 - Restricted cash and ot",
+          "& Corporate Results 21 Firmwide Risk Management 44 Capital Risk Management 45 Liquidity Risk Management 53 Consumer Credit Portfolio 62 Wholesale Credit Portfolio 66 Allowance for Credit Losses 75 Investment Portfolio Risk Management 78 Market Risk Management 79 Country Risk Management 85 Critical Accounting Estimates Used by the Firm 86 Accounting and Reporting Developments 89 Forward-Looking Statements 91 Item 3. Quantitative and Qualitative Disclosures About Market Risk. 202 Item 4. ",
+          "55 (e) $ 136,649 Total noninterest expense 27,295 27,316 26,850 23,983 24,281 81,461 71,657 Pre-provision profit (a) 22,877 30,031 22,986 21,815 22,146 75,894 64,992 Provision for credit losses 2,743 2,515 2,507 4,655 (f) 3,403 7,765 9,557 Income before income tax expense 20,134 27,516 20,479 17,160 18,743 68,129 55,435 Income tax expense 4,829 6,361 3,985 4,135 4,350 15,175 11,412 Net income $ 15,305 $ 21,155 $ 16,494 $ 13,025 $ 14,393 $ 52,954 $ 44,023 Earnings per share data Net inco",
+          "8 Selected balance sheet data (period-end) Trading assets $ 1,093,352 $ 1,062,072 $ 1,069,335 $ 802,873 $ 952,777 $ 1,093,352 $ 952,777 Investment securities, net of allowance for credit losses 821,755 804,522 821,179 777,332 783,945 821,755 783,945 Loans 1,584,641 1,542,462 1,503,520 1,493,429 1,435,246 1,584,641 1,435,246 Total assets 5,091,545 5,015,069 4,900,475 4,424,900 4,560,205 5,091,545 4,560,205 Deposits 2,780,793 2,713,700 2,675,520 2,559,320 2,548,476 2,780,793 2,548,476 Lon"
+        ]
+      },
+      {
+        "term": "credit losses",
+        "count": 174,
+        "excerpts": [
+          "plans 132 Note 8 - Employee share-based incentives 132 Note 9 - Investment securities 133 Note 10 - Securities financing activities 138 Note 11 - Loans 140 Note 12 - Allowance for credit losses 159 Note 13 - Variable interest entities 162 Note 14 - Goodwill and mortgage servicing rights 169 Note 15 - Deposits 172 Note 16 - Leases 172 Note 17 - Preferred stock 173 Note 18 - Earnings per share 174 Note 19 - Accumulated other comprehensive income/(loss) 175 Note 20 - Restricted cash and othe",
+          "& Corporate Results 21 Firmwide Risk Management 44 Capital Risk Management 45 Liquidity Risk Management 53 Consumer Credit Portfolio 62 Wholesale Credit Portfolio 66 Allowance for Credit Losses 75 Investment Portfolio Risk Management 78 Market Risk Management 79 Country Risk Management 85 Critical Accounting Estimates Used by the Firm 86 Accounting and Reporting Developments 89 Forward-Looking Statements 91 Item 3. Quantitative and Qualitative Disclosures About Market Risk. 202 Item 4. Co",
+          "55 (e) $ 136,649 Total noninterest expense 27,295 27,316 26,850 23,983 24,281 81,461 71,657 Pre-provision profit (a) 22,877 30,031 22,986 21,815 22,146 75,894 64,992 Provision for credit losses 2,743 2,515 2,507 4,655 (f) 3,403 7,765 9,557 Income before income tax expense 20,134 27,516 20,479 17,160 18,743 68,129 55,435 Income tax expense 4,829 6,361 3,985 4,135 4,350 15,175 11,412 Net income $ 15,305 $ 21,155 $ 16,494 $ 13,025 $ 14,393 $ 52,954 $ 44,023 Earnings per share data Net income",
+          "8 Selected balance sheet data (period-end) Trading assets $ 1,093,352 $ 1,062,072 $ 1,069,335 $ 802,873 $ 952,777 $ 1,093,352 $ 952,777 Investment securities, net of allowance for credit losses 821,755 804,522 821,179 777,332 783,945 821,755 783,945 Loans 1,584,641 1,542,462 1,503,520 1,493,429 1,435,246 1,584,641 1,435,246 Total assets 5,091,545 5,015,069 4,900,475 4,424,900 4,560,205 5,091,545 4,560,205 Deposits 2,780,793 2,713,700 2,675,520 2,559,320 2,548,476 2,780,793 2,548,476 Long-"
+        ]
+      },
+      {
+        "term": "charge-off",
+        "count": 94,
+        "excerpts": [
+          "wance for loan losses to total retained loans 1.75 % 1.79 % 1.82 % 1.83 % 1.88 % 1.75 % 1.88 % Nonperforming assets $ 9,996 $ 9,849 $ 10,049 $ 10,359 $ 10,635 $ 9,996 $ 10,635 Net charge-offs 2,204 2,366 2,316 2,514 2,593 6,886 7,335 Net charge-off rate 0.59 % 0.66 % 0.67 % 0.72 % 0.76 % 0.64 % 0.74 % On January 7, 2026, JPMorganChase announced that Chase will become the new issuer of Apple Card. The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Ap",
+          "% 1.82 % 1.83 % 1.88 % 1.75 % 1.88 % Nonperforming assets $ 9,996 $ 9,849 $ 10,049 $ 10,359 $ 10,635 $ 9,996 $ 10,635 Net charge-offs 2,204 2,366 2,316 2,514 2,593 6,886 7,335 Net charge-off rate 0.59 % 0.66 % 0.67 % 0.72 % 0.76 % 0.64 % 0.74 % On January 7, 2026, JPMorganChase announced that Chase will become the new issuer of Apple Card. The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Apple credit card portfolio (the \u201cApple Card transaction\u201d), ",
+          "loyees, as well as higher 5 brokerage expense and distribution fees, and continued investments in technology and marketing. \u2022 The provision for credit losses was $2.7 billion. Net charge-offs were $2.2 billion, down $389 million, driven by wholesale. The net addition to the allowance for credit losses was $539 million, primarily in wholesale. In the prior year, the provision was $3.4 billion, net charge-offs were $2.6 billion and the net addition to the allowance for credit losses was ",
+          " million, driven by wholesale. The net addition to the allowance for credit losses was $539 million, primarily in wholesale. In the prior year, the provision was $3.4 billion, net charge-offs were $2.6 billion and the net addition to the allowance for credit losses was $810 million. \u2022 The total allowance for credit losses was $32.0 billion at September 30, 2026. The Firm had an allowance for loan losses to retained loans coverage ratio of 1.75%, compared with 1.88% in the prior year. R"
+        ]
+      },
+      {
+        "term": "interest rate",
+        "count": 130,
+        "excerpts": [
+          "actions, including net repurchases of common shares and dividend payments on common and preferred stock, and \u2022 higher net unrealized losses in AOCI, driven by the impact of higher interest rates on the AFS securities portfolio and cash flow hedges in Treasury and CIO. Refer to Consolidated statements of changes in stockholders\u2019 equity on page 95, Capital Actions on page 50, and Note 19 for additional information. 17 Consolidated cash flows analysis The following is a discussion of cash fl",
+          "ds transfer pricing Funds transfer pricing (\u201cFTP\u201d) is the process by which the Firm allocates interest income and expense to the LOBs and Other Corporate and transfers the primary interest rate risk and liquidity risk to Treasury and CIO. The funds transfer pricing process considers the interest rate and liquidity risk characteristics of assets and liabilities and off-balance sheet products. Periodically, the methodology and assumptions utilized in the FTP process are adjusted to reflect ",
+          "e and expense to the LOBs and Other Corporate and transfers the primary interest rate risk and liquidity risk to Treasury and CIO. The funds transfer pricing process considers the interest rate and liquidity risk characteristics of assets and liabilities and off-balance sheet products. Periodically, the methodology and assumptions utilized in the FTP process are adjusted to reflect economic conditions and other factors, which may impact the allocation of net interest income to the segment",
+          "ratings. Refer to Liquidity Risk Management on pages 53-59 for further information on liquidity and funding risk. Refer to Market Risk Management on pages 79-84 for information on interest rate and foreign exchange risks. Selected income statement and balance sheet data As of or for the three months ended September 30, As of or for the nine months ended September 30, (in millions) 2026 2025 Change 2026 2025 Change Investment securities gains/(losses) $ (658) $ 105 NM $ (993) $ 14 NM Avail"
+        ]
+      },
+      {
+        "term": "Treasury",
+        "count": 70,
+        "excerpts": [
+          "01-01 2025-09-30 0000019617 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2026-09-30 0000019617 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2026-06-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-06-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-12-31 0000019617 us-gaap:TreasuryStockCommonMember 2024-12-31 0000019617 us-gaap:TreasuryStockCommonMember 2026-07-01 2026-09-30 0000019617 us-gaap:TreasuryStockComm",
+          "rehensiveIncomeMember 2026-09-30 0000019617 us-gaap:AccumulatedOtherComprehensiveIncomeMember 2025-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2026-06-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-06-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-12-31 0000019617 us-gaap:TreasuryStockCommonMember 2024-12-31 0000019617 us-gaap:TreasuryStockCommonMember 2026-07-01 2026-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-07-01 2025-09-30 0000019617 us-gaap:Treasu",
+          "mulatedOtherComprehensiveIncomeMember 2025-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2026-06-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-06-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-12-31 0000019617 us-gaap:TreasuryStockCommonMember 2024-12-31 0000019617 us-gaap:TreasuryStockCommonMember 2026-07-01 2026-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-07-01 2025-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2026-01-01 2026-09-30 0000019617 us-",
+          "617 us-gaap:TreasuryStockCommonMember 2026-06-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-06-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-12-31 0000019617 us-gaap:TreasuryStockCommonMember 2024-12-31 0000019617 us-gaap:TreasuryStockCommonMember 2026-07-01 2026-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-07-01 2025-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2026-01-01 2026-09-30 0000019617 us-gaap:TreasuryStockCommonMember 2025-01-01 2025-09-30 000"
+        ]
+      },
+      {
+        "term": "principal amount",
+        "count": 5,
+        "excerpts": [
+          " involved, the Firm may act as the servicer of the loans and/or retain certain beneficial interests in the securitization trusts. 162 The following tables present the total unpaid principal amount of assets held in Firm-sponsored private-label securitization entities, including those in which the Firm has continuing involvement, and those that are consolidated by the Firm. Continuing involvement includes servicing the loans, holding senior interests or subordinated interests (including amoun",
+          "rchased interests is the carrying value of these interests. Refer to page 168 of this Note for information on the securitization-related loan delinquencies and liquidation losses. Principal amount outstanding JPMorganChase interest in securitized assets in nonconsolidated VIEs (c)(d)(e) September 30, 2026 (in millions) Total assets held by securitization VIEs Assets held in consolidated securitization VIEs Assets held in nonconsolidated securitization VIEs with continuing involvement Trading",
+          "498 $ 4,190 Subprime 16,403 \u2014 9,284 452 8 \u2014 460 Commercial and other (b) 225,265 110 144,231 811 4,834 1,868 7,513 Total $ 333,271 $ 614 $ 218,521 $ 1,992 $ 6,805 $ 3,366 $ 12,163 Principal amount outstanding JPMorganChase interest in securitized assets in nonconsolidated VIEs (c)(d)(e) December 31, 2025 (in millions) Total assets held by securitization VIEs Assets held in consolidated securitization VIEs Assets held in nonconsolidated securitization VIEs with continuing involvement Trading ",
+          "al mortgage loans, and engages in underwriting and trading activities involving the securities issued by securitization trusts. Re-securitizations The following table presents the principal amount of securities transferred to re-securitization VIEs. Three months ended September 30, Nine months ended September 30, (in millions) 2026 2025 2026 2025 Transfers of securities to VIEs U.S. GSEs and government agencies $ 4,099 $ 9,625 $ 11,344 $ 19,823 In addition, during the nine months ended Septe"
+        ]
+      },
+      {
+        "term": "notes due",
+        "count": 2,
+        "excerpts": [
+          "each representing a one-four hundredth interest in a share of 4.20% Non-Cumulative Preferred Stock, Series MM JPM PR M The New York Stock Exchange Guarantee of Callable Fixed Rate Notes due June 10, 2032 of JPMorgan Chase Financial Company LLC JPM/32 The New York Stock Exchange Guarantee of Alerian MLP Index ETNs due January 28, 2044 of JPMorgan Chase Financial Company LLC AMJB NYSE Arca, Inc. Guarantee of Inverse VIX Short-Term Futures ETNs due March 22, 2045 of JPMorgan Chase Financ",
+          "erivative hedges. (b) Includes deductions for certain deferred tax assets related to tax attribute carryforwards. (c) Includes issuances of a total of $6.0 billion of subordinated notes due 2037 and 2041. Refer to Long-term funding on page 58 of this Form 10-Q and Note 20 of JPMorganChase\u2019s 2025 Form 10-K for additional information on the Firm\u2019s subordinated debt. (d) As of December 31, 2025, included an incremental $468 million allowance for credit losses, on certain assets associate"
+        ]
+      }
+    ],
+    "links": []
+  },
+  {
+    "name": "apollo_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000063/apo-20261103.htm",
+    "ok": true,
+    "chars": 3989,
+    "start": " apo-20261103 0001858681 false 0001858681 2026-11-03 2026-11-03 0001858681 us-gaap:CommonStockMember 2026-11-03 2026-11-03 0001858681 apo:SubordinatedNotesMember 2026-11-03 2026-11-03 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT PURSUANT TO SECTION 13 OR 15(D) OF THE SECURITIES EXCHANGE ACT OF 1934 Date of Report (Date of earliest event reported): November 3, 2026 Apollo Global Management, Inc. (Exact name of registrant as specified in its charter) Delaware 001-41197 86-3155788 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) 9 West 57th Street , 42nd Floor New York , New York 10019 (A",
+    "snippets": [
+      {
+        "term": "AI",
+        "count": 1,
+        "excerpts": [
+          "the Exchange Act. \u2610 Item 2.02 Results of Operations and Financial Condition. On November 3, 2026, Apollo Global Management, Inc. (\u201cApollo\u201d) issued a summary press release and a detailed earnings presentation announcing its financial results for the third quarter ended September 30, 2026. A copy of the summary press release and the earnings presentation are attached hereto as Exhibit 99.1 and Exhibit 99.2, respectively, and incorporated herein by reference. Item 9.01 Financial S"
+        ]
+      },
+      {
+        "term": "notes due",
+        "count": 1,
+        "excerpts": [
+          " the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Stock APO New York Stock Exchange 7.625% Fixed-Rate Resettable Junior Subordinated Notes due 2053 APOS New York Stock Exchange Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (\u00a7230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (\u00a7240.12b-2 of this chapter). Emerging growth company \u2610 "
+        ]
+      }
+    ],
+    "links": [
+      "apo-20261103.xsd",
+      "erex9913q2026.htm",
+      "agmearningsrelease3q2026.htm"
+    ]
+  }
+]

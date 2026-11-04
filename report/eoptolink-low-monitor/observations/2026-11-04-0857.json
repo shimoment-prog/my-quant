@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "automation_id": "automation",
+  "triggered_at": "2026-11-04T08:57:22.957+08:00",
+  "observed_at": "2026-11-04T09:02:06+08:00",
+  "session": "preopen_schedule_guard",
+  "scheduled_check": false,
+  "trading_day": {
+    "date": "2026-11-04",
+    "normal_session": true,
+    "evidence": {
+      "weekday": "Wednesday",
+      "sse_official_annual_holiday_schedule": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "holiday_on_date": false,
+      "temporary_closure_found": false,
+      "coverage_note": "SSE2026 holiday calendar verified and SZSE homepage checked. No independent complete SZSE annual-calendar retrieval; no temporary closure notice found in reviewed sources."
+    },
+    "reused_from": "../a-share-premarket/2026-11-04.json"
+  },
+  "schedule_audit": {
+    "detected_at": "2026-11-04T09:02:06+08:00",
+    "expected_timezone": "Asia/Shanghai",
+    "previous_rrule": "RRULE:FREQ=WEEKLY;BYHOUR=9;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR",
+    "corrected_rrule": "RRULE:FREQ=WEEKLY;BYHOUR=10,14,15;BYMINUTE=30;BYDAY=MO,TU,WE,TH,FR",
+    "updated_with": "mcp__codex_app__automation_update",
+    "saved_config_verified": true,
+    "prompt_preserved": true,
+    "status_preserved": true,
+    "target_thread_preserved": true
+  },
+  "previous_completed_session_quote": {
+    "symbol": "300502.SZ",
+    "session_date": "2026-11-03",
+    "session": "previous_completed_session",
+    "close": 173.36,
+    "change_pct": -9.46,
+    "previous_close": 191.48,
+    "open": 185.0,
+    "high": 190.19,
+    "low": 171.6,
+    "turnover_cny": 17412910421.0,
+    "provider_time": "2026-11-03T16:14:30+08:00",
+    "retrieved_at": "2026-11-04T00:45:20.474788+00:00",
+    "source": "tencent_previous_close",
+    "note": "Previous-day quote only; not a live Nov4 quote."
+  },
+  "current_session_quote": null,
+  "fixed_reference": {
+    "symbol": "300502.SZ",
+    "price": 179.83,
+    "formed_on": "2026-11-03",
+    "formed_during": "morning",
+    "status": "breached_not_recovered_at_previous_close",
+    "last_verified_quote_time": "2026-11-03T16:14:30+08:00",
+    "last_verified_quote": 173.36,
+    "last_verified_day_low": 171.6,
+    "strict_breach_definition": "traded_price < 179.83",
+    "breached": true,
+    "below_fixed_line_now": null,
+    "first_observed_below_sample": {
+      "quote_time": "2026-11-03T13:14:00+08:00",
+      "price": 179.5,
+      "type": "sampled_minute_price"
+    },
+    "exact_first_tick_breach_time": null,
+    "exact_day_low_tick_time": null,
+    "note": "179.83 remains fixed. Earliest acquired below-line minute sample was Nov3 13:14, not exact first tick breach time. Nov4 has not opened; no current-day below-line status is asserted.",
+    "last_verified_session_date": "2026-11-03",
+    "below_fixed_line_at_last_verified_quote": true,
+    "previous_close_below_fixed_line": true
+  },
+  "frozen_prediction": null,
+  "risk_assessment": {
+    "risk": null,
+    "numeric_probability": null,
+    "probability_label": "暂无可靠百分比",
+    "reason": "Unscheduled preopen trigger. No Nov4 trading low exists, so no intraday forecast is created."
+  },
+  "settled_predictions": [
+    {
+      "id": "2026-11-03-1430-L17160",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-03T14:30:00+08:00",
+      "created_at": "2026-11-03T14:40:03+08:00",
+      "forecast_start": "2026-11-03T14:40:03+08:00",
+      "snapshot_time": "2026-11-03T14:39:03+08:00",
+      "threshold": 171.6,
+      "event": "Any traded price strictly below171.60 after forecast_start and by deadline",
+      "comparison": "strictly_less_than",
+      "deadline": "2026-11-03T15:00:00+08:00",
+      "risk": "中等偏高",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "settled",
+      "settled": true,
+      "note": "Forecast starts at actual assessment time; do not backdate to14:30 or14:33. Trade breach and closing breach are separate outcomes.",
+      "resolved_at": "2026-11-04T09:02:06+08:00",
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "result": "No trade strictly below171.60 in the forecast window.",
+      "resolution_evidence": {
+        "session_date": "2026-11-03",
+        "full_day_low": 171.6,
+        "closing_price": 173.36,
+        "source": "tencent_previous_close",
+        "logic": "The full-day minimum equals the frozen threshold. Therefore no subset of the day, including14:40:03-15:00, traded strictly below that threshold. Equality is not a breach."
+      }
+    }
+  ],
+  "pending_predictions": [],
+  "overseas": {
+    "fresh_assessment_performed": false,
+    "existing_evidence_file": "../a-share-premarket/2026-11-04.json",
+    "reason": "No scheduled intraday assessment before market open."
+  },
+  "data_gaps": [
+    "No current-day intraday low exists before open.",
+    "No immutable Nov3 post-close next-day prediction exists; none is backfilled.",
+    "No validated probability model for the event and forecast horizon."
+  ],
+  "sources": [
+    {
+      "id": "tencent_previous_close",
+      "url": "https://qt.gtimg.cn/q=sh000001,sz399001,sz399006,sh000688,sh000300,sh603986,sz300750,sz300502,sz300308,sz000858,sh600519",
+      "market_time": "2026-11-03T16:14:30+08:00",
+      "retrieved_at": "2026-11-04T00:45:20.474788+00:00",
+      "raw_evidence_file": "../a-share-premarket/evidence/2026-11-04/tencent_a.txt"
+    },
+    {
+      "id": "sse_calendar",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/"
+    }
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "prepared_at": "2026-11-04T09:02:06+08:00",
+    "reason": "Material scheduling correction to requested10:30,14:30,15:30 and one expired forecast resolved; no preopen intraday probability report."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-04",
+  "weekday": "Wednesday",
+  "normal_session": true,
+  "checked_at": "2026-11-04T09:37:23.867133+08:00",
+  "sources": [
+    {
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "type": "official_annual_calendar",
+      "finding": "2026休市表没有11月4日；国庆10月8日恢复交易。"
+    },
+    {
+      "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+      "type": "official_latest_mainland_holiday_notice",
+      "published_date": "2026-09-17",
+      "finding": "中秋9月25—27日休市、9月28日开市；国庆10月1—7日休市、10月8日开市；11月4日不在所列休市日期。"
+    },
+    {
+      "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+      "type": "official_notice_index",
+      "finding": "已核对最新通知标题，未识别11月4日临时休市通知；该检查不构成所有渠道公告完整性证明。",
+      "latest_titles": [
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-11-02",
+          "href": "./t20261102_623639.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-30",
+          "href": "./t20261030_623637.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-30",
+          "href": "./t20261030_623599.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-26",
+          "href": "./t20261026_623465.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-23",
+          "href": "./t20261023_623441.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "date": "2026-10-21",
+          "href": "./t20261021_623417.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "date": "2026-10-21",
+          "href": "./t20261021_623420.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-21",
+          "href": "./t20261021_623405.html"
+        }
+      ]
+    },
+    {
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006,sh000001",
+      "type": "live_market_confirmation",
+      "market_time": "2026-11-04T09:35:36+08:00",
+      "finding": "沪深指数与个股有今日连续竞价实时成交，辅助确认已正常开市。"
+    }
+  ],
+  "closure_on_date_found": false,
+  "limitations": [
+    "未独立取得深交所2026全年度休市通知全文；已取得其最近主要节假日官方通知、最新公告列表并结合今日正常交易行情确认。"
+  ]
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "name": "value",
+    "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28SECURITY_CODE%3D%22600519%22%29&pageNumber=1&pageSize=500&sortColumns=TRADE_DATE&sortTypes=-1&source=WEB&client=WEB",
+    "ok": true,
+    "bytes": 289944,
+    "retrieved_at": "2026-11-03T07:11:35.005178+00:00",
+    "meta": {
+      "version": "b927b052773354492bf848d99f2cdb56",
+      "success": true,
+      "message": "ok",
+      "code": 0
+    },
+    "result_meta": {
+      "pages": 5,
+      "count": 2141
+    },
+    "first_rows": [
+      {
+        "SECURITY_CODE": "600519",
+        "SECUCODE": "600519.SH",
+        "SECURITY_NAME_ABBR": "贵州茅台",
+        "ORG_CODE": "10002602",
+        "TRADE_MARKET": "069001001001",
+        "BOARD_CODE": "016165",
+        "BOARD_NAME": "白酒Ⅱ",
+        "ORIG_BOARD_CODE": "1277",
+        "TOTAL_MARKET_CAP": 1798992431999.1,
+        "NOTLIMITED_MARKETCAP_A": 1798992431999.1,
+        "CLOSE_PRICE": 1439.1,
+        "CHANGE_RATE": 3.379907330915,
+        "TOTAL_SHARES": 1250081601,
+        "FREE_SHARES_A": 1250081601,
+        "PE_TTM": 21.89600888,
+        "PE_LAR": 21.85363175,
+        "PB_MRQ": 6.63333697,
+        "PCF_OCF_LAR": 29.24135168,
+        "PCF_OCF_TTM": 16.75283116,
+        "PS_TTM": 10.31331681,
+        "PEG_CAR": -5.283471255733,
+        "TRADE_DATE": "2026-11-02 00:00:00"
+      },
+      {
+        "SECURITY_CODE": "600519",
+        "SECUCODE": "600519.SH",
+        "SECURITY_NAME_ABBR": "贵州茅台",
+        "ORG_CODE": "10002602",
+        "TRADE_MARKET": "069001001001",
+        "BOARD_CODE": "016165",
+        "BOARD_NAME": "白酒Ⅱ",
+        "ORIG_BOARD_CODE": "1277",
+        "TOTAL_MARKET_CAP": 1740176092672.05,
+        "NOTLIMITED_MARKETCAP_A": 1740176092672.05,
+        "CLOSE_PRICE": 1392.05,
+        "CHANGE_RATE": 2.810192023634,
+        "TOTAL_SHARES": 1250081601,
+        "FREE_SHARES_A": 1250081601,
+        "PE_TTM": 21.36916286,
+        "PE_LAR": 21.13914813,
+        "PB_MRQ": 6.41646635,
+        "PCF_OCF_LAR": 28.28533361,
+        "PCF_OCF_TTM": 14.61179942,
+        "PS_TTM": 10.04497429,
+        "PEG_CAR": -5.156344169782,
+        "TRADE_DATE": "2026-10-30 00:00:00"
+      }
+    ],
+    "last_rows": [
+      {
+        "SECURITY_CODE": "600519",
+        "SECUCODE": "600519.SH",
+        "SECURITY_NAME_ABBR": "贵州茅台",
+        "ORG_CODE": "10002602",
+        "TRADE_MARKET": "069001001001",
+        "BOARD_CODE": "016165",
+        "BOARD_NAME": "白酒Ⅱ",
+        "ORIG_BOARD_CODE": "1277",
+        "TOTAL_MARKET_CAP": 2016184907022,
+        "NOTLIMITED_MARKETCAP_A": 2016184907022,
+        "CLOSE_PRICE": 1604.99,
+        "CHANGE_RATE": -2.134756097561,
+        "TOTAL_SHARES": 1256197800,
+        "FREE_SHARES_A": 1256197800,
+        "PE_TTM": 25.0615695,
+        "PE_LAR": 26.9781221,
+        "PB_MRQ": 8.48171945,
+        "PCF_OCF_LAR": 30.27611621,
+        "PCF_OCF_TTM": 27.6842366,
+        "PS_TTM": 12.36738968,
+        "PEG_CAR": 1.52028822,
+        "TRADE_DATE": "2024-10-11 00:00:00"
+      }
+    ]
+  },
+  {
+    "name": "quote",
+    "url": "https://qt.gtimg.cn/q=sh600519",
+    "ok": true,
+    "bytes": 518,
+    "retrieved_at": "2026-11-03T07:11:34.788568+00:00",
+    "text": "v_sh600519=\"1~贵州茅台~600519~1480.00~1439.10~1450.00~74121~46430~27691~0.00~0~0.00~0~0.00~0~0.00~0~0.00~0~1480.00~11~0.00~0~0.00~0~0.00~0~0.00~0~~20261103151123~40.90~2.84~1480.00~1435.10~1480.00/74121/10825780463~74121~1082578~0.59~22.52~~1480.00~1435.10~3.12~18501.21~18501.21~6.82~1583.01~1295.19~1.41~-11~1460.56~21.52~22.47~~~0.02~1082578.0463~592.0000~40~   B~GP-A~9.70~9.15~3.52~30.29~26.74~1539.98~1151.01~11.12~19.78~8.91~1250081601~1250081601~-100.00~7.80~1250081601~~~7.01~0.07~~CNY~0~___D__F__N~0.00~0~\";\n"
+  },
+  {
+    "name": "akshare_source",
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock_feature/stock_a_indicator.py",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "legulegu_page",
+    "url": "https://legulegu.com/stockdata/600519",
+    "ok": false,
+    "error": "HTTP Error 404: "
+  }
+]

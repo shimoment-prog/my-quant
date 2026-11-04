@@ -1,0 +1,22 @@
+{
+  "symbol": "600900.SH",
+  "measure": "PE_TTM",
+  "history_start": "2021-11-03",
+  "history_end": "2026-11-03",
+  "sample_count": 1212,
+  "weighting": "Each valid daily closing PE has equal weight; compute median of1212 daily values, not average of annual medians.",
+  "filter": "2021-11-03<=TRADE_DATE<=2026-11-03; positive non-null PE_TTM; deduplicate trading date.",
+  "latest_close_cny": 29.86,
+  "latest_pe_ttm": 22.37478653,
+  "history_source": "https://data.eastmoney.com/gzfx/detail/600900.html",
+  "api_report": "RPT_VALUEANALYSIS_DET",
+  "quote_source": "https://qt.gtimg.cn/q=sh600900",
+  "quote_timestamp": "2026-11-03T16:14:50+08:00",
+  "crosscheck": "Eastmoney latest closing price29.86 matches Tencent; PE22.37478653 rounds to quoted22.37. Nov3 actual daily record is included in all historical statistics.",
+  "percentile_definition": "Share of1212 daily PE observations less than or equal to latest PE; valuation rank, not probability of return.",
+  "notes": [
+    "2021 and2026 calendar-year rows cover only dates within this window.",
+    "Use supplied PE_TTM, not forecast/static PE or adjusted prices divided by present EPS.",
+    "Historical data follow provider financial revision and corporate-action conventions; no point-in-time backtest."
+  ]
+}

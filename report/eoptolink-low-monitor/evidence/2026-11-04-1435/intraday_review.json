@@ -1,0 +1,184 @@
+{
+  "checked_at": "2026-11-04T14:35:00.835256+08:00",
+  "quote_time": "2026-11-04T14:33:24+08:00",
+  "session_date": "2026-11-04",
+  "latest_quote": {
+    "price": 197.73,
+    "change_pct": 14.0575,
+    "day_high": 199.45,
+    "day_low": 172.0,
+    "turnover_cny": 18752626549.52,
+    "volume_shares": 102687828,
+    "vwap_derived": 182.61781279004168,
+    "above_vwap_pct": 8.2753,
+    "above_fixed17983_pct": 9.9538,
+    "above_day_low_pct": 14.9593
+  },
+  "afternoon_structure": {
+    "low_evidence": {
+      "day": "2026-11-04 13:20:00",
+      "open": "173.380",
+      "high": "173.380",
+      "low": "172.000",
+      "close": "172.660",
+      "volume": "1393190",
+      "amount": "240659734.1367"
+    },
+    "swing_high_evidence": [
+      {
+        "day": "2026-11-04 13:55:00",
+        "open": "188.680",
+        "high": "188.880",
+        "low": "186.000",
+        "close": "186.310",
+        "volume": "2347228",
+        "amount": "440506162.6897"
+      },
+      {
+        "day": "2026-11-04 14:10:00",
+        "open": "193.060",
+        "high": "196.000",
+        "low": "192.250",
+        "close": "193.680",
+        "volume": "5304837",
+        "amount": "1031334235.1894"
+      },
+      {
+        "day": "2026-11-04 14:30:00",
+        "open": "196.610",
+        "high": "199.450",
+        "low": "195.800",
+        "close": "198.540",
+        "volume": "3579954",
+        "amount": "708395729.3847"
+      }
+    ],
+    "swing_support_evidence": [
+      {
+        "day": "2026-11-04 13:55:00",
+        "open": "188.680",
+        "high": "188.880",
+        "low": "186.000",
+        "close": "186.310",
+        "volume": "2347228",
+        "amount": "440506162.6897"
+      },
+      {
+        "day": "2026-11-04 14:15:00",
+        "open": "193.680",
+        "high": "194.670",
+        "low": "192.010",
+        "close": "192.250",
+        "volume": "2494316",
+        "amount": "481905834.3474"
+      },
+      {
+        "day": "2026-11-04 14:20:00",
+        "open": "192.250",
+        "high": "195.500",
+        "low": "192.010",
+        "close": "195.300",
+        "volume": "2292046",
+        "amount": "444195674.2247"
+      },
+      {
+        "day": "2026-11-04 14:30:00",
+        "open": "196.610",
+        "high": "199.450",
+        "low": "195.800",
+        "close": "198.540",
+        "volume": "3579954",
+        "amount": "708395729.3847"
+      }
+    ],
+    "interpretation": "13:20已完成bar低172.00后明显反转；主要高点188.88→196.00→199.45抬高，回踩区域186.00→192.01→195.80也抬高。但14:10至14:20局部低点192.25降至192.01并持平，不能说每根bar低点都单调上升。"
+  },
+  "completed_equal_length_turnover_comparisons": [
+    {
+      "bar_timestamp_convention": "5分钟bar标签为区间结束时刻；只选已完成bar",
+      "rise_bar": {
+        "day": "2026-11-04 13:50:00",
+        "open": "186.400",
+        "high": "188.800",
+        "low": "186.000",
+        "close": "188.750",
+        "volume": "3738836",
+        "amount": "700645199.3630"
+      },
+      "pullback_bar": {
+        "day": "2026-11-04 13:55:00",
+        "open": "188.680",
+        "high": "188.880",
+        "low": "186.000",
+        "close": "186.310",
+        "volume": "2347228",
+        "amount": "440506162.6897"
+      },
+      "pullback_turnover_to_rise_ratio": 0.628715,
+      "shrink_pct": 37.1285
+    },
+    {
+      "bar_timestamp_convention": "5分钟bar标签为区间结束时刻；只选已完成bar",
+      "rise_bar": {
+        "day": "2026-11-04 14:10:00",
+        "open": "193.060",
+        "high": "196.000",
+        "low": "192.250",
+        "close": "193.680",
+        "volume": "5304837",
+        "amount": "1031334235.1894"
+      },
+      "pullback_bar": {
+        "day": "2026-11-04 14:15:00",
+        "open": "193.680",
+        "high": "194.670",
+        "low": "192.010",
+        "close": "192.250",
+        "volume": "2494316",
+        "amount": "481905834.3474"
+      },
+      "pullback_turnover_to_rise_ratio": 0.467264,
+      "shrink_pct": 53.2736
+    }
+  ],
+  "morning_prediction_progress": {
+    "forecast_start": "2026-11-04T10:33:21+08:00",
+    "threshold": 173.47,
+    "strict_trade_breach_observed": true,
+    "proof_completed_bar": {
+      "day": "2026-11-04 10:40:00",
+      "open": "174.000",
+      "high": "175.000",
+      "low": "173.140",
+      "close": "173.270",
+      "volume": "1574816",
+      "amount": "273332402.1023"
+    },
+    "logic": "10:40结束的5分钟bar覆盖10:35之后，整个区间晚于10:33:21，最低173.14严格小于173.47，足以证明预测窗口内已经出现短暂跌破。",
+    "first_observed_minute_sample_below": {
+      "sample_label": "10:38",
+      "sample_price": 173.44
+    },
+    "exact_first_tick_breach_time": null,
+    "final_settlement_due_at": "2026-11-04T15:00:00+08:00",
+    "status": "尚未到期，只记录截至当前成交跌破进展，收盘跌破待15:00后核实。"
+  },
+  "calendar": {
+    "normal_session": true,
+    "same_day_official_validation": "/tmp/eoptolink-monitor-20261104-0934/calendar.json",
+    "refreshed_szse_notice_file": "szse_notice_refresh.json",
+    "temporary_closure_found": false,
+    "live_confirmation": "14:33:24沪深持续今日成交。"
+  },
+  "limitations": [
+    "14:35 bar尚未完成，已从趋势及成交比较中排除。",
+    "分时minute价格为采样；不能作为逐笔极值、首次触及或精确低点形成时间。",
+    "成交额仅比较当日相邻等长已完成bar，不推断机构流入。"
+  ],
+  "sources": [
+    "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+    "本地m5_ohlc.txt对应公开新浪5分钟OHLC接口",
+    "https://www.szse.cn/disclosure/notice/general/index.html"
+  ]
+}

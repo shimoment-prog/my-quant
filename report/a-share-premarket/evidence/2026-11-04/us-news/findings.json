@@ -1,0 +1,73 @@
+{
+  "asof": "2026-11-04T00:46:44.860134+00:00",
+  "US_normal_session": "2026-11-03",
+  "events": [
+    {
+      "id": "AMD_Q3_results",
+      "source_type": "primary_company_earnings",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "published_at": "2026-11-03T16:15:00-05:00",
+      "SEC_acceptance_at": "2026-11-03T21:16:27.000Z",
+      "market_session": "after_hours",
+      "period": "Q3 2026",
+      "reported_revenue_USD_million": 13377,
+      "revenue_yoy_pct": 45,
+      "DataCenter_revenue_USD_billion_rounded": 8.5,
+      "DataCenter_revenue_yoy_pct": 97,
+      "Q4_guidance_revenue_USD_billion": 17,
+      "guidance_range_pct": 3,
+      "guidance_midpoint_yoy_growth_pct": 66,
+      "guidance_nonGAAP_GM_pct": 55,
+      "interpretation": "Realized revenue plus forward guidance supports AI/datacenter demand sentiment. Not evidence of GigaDevice/Eoptolink/Innolight specific orders or CATL demand. Do not attribute AMD Nov3 normal-session price gain to earnings released after close."
+    }
+  ],
+  "macro": [
+    {
+      "name": "US10Y Treasury yield",
+      "value_pct": 4.96,
+      "day_change_bp_approximately": 6,
+      "market_date": "2026-11-03",
+      "exact_quote_time": null,
+      "source_article_updated_at": "2026-11-03T21:09:30Z",
+      "source": "https://www.cnbc.com/2026/11/03/us-treasury-yields-bonds.html",
+      "caveat": "Latest article quote; not liveNov4 quote."
+    },
+    {
+      "name": "Brent futures settlement",
+      "value_USD_per_barrel": 103.6,
+      "change_pct": -1.12,
+      "market_date": "2026-11-03",
+      "source": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "WTI futures settlement",
+      "value_USD_per_barrel": 96.09,
+      "change_pct": -0.38,
+      "market_date": "2026-11-03",
+      "source": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+    }
+  ],
+  "US_wrap": {
+    "source": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+    "updated_at": "2026-11-03T21:41:40Z",
+    "regular_close": {
+      "SP500_pct": 0.36,
+      "SP500": 7568.92,
+      "NasdaqComposite_pct": 0.83,
+      "NasdaqComposite": 25372.01,
+      "DJIA_pct": -0.38,
+      "DJIA": 51786.72
+    },
+    "notes": [
+      "Semiconductor names rebounded while Apple weak following margin guidance releasedMonday.",
+      "US midterm voting/result uncertainty remains; no verified final election outcome in this review.",
+      "FabrinetNov2 earnings and Marvell/LumentumNov2 merger are historical catalysts; do not call themNov3 fresh releases.",
+      "Sternlicht commentary is investor opinion about financing risk, not verified financing/default event."
+    ]
+  },
+  "transmission_notes": {
+    "GigaDevice": "Sector sentiment from US semiconductor rebound; AMD datacenter CPUs/GPUs not same product/customer proof.",
+    "Eoptolink_Innolight": "AI/datacenter growth and optical peer recovery can support risk appetite, not proof of new orders.",
+    "CATL": "No verified direct issuer or battery-industry event acquired in this US scan."
+  }
+}

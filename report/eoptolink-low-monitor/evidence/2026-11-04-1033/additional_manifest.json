@@ -1,0 +1,23 @@
+[
+  {
+    "name": "m1_ohlc",
+    "url": "https://ifzq.gtimg.cn/appstock/app/kline/mkline?param=sz300502,m1,,180",
+    "retrieved_at": "2026-11-04T02:30:39.036196+00:00",
+    "ok": true,
+    "bytes": 15009
+  },
+  {
+    "name": "m5_ohlc",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=30",
+    "retrieved_at": "2026-11-04T02:30:38.845113+00:00",
+    "ok": true,
+    "bytes": 4349
+  },
+  {
+    "name": "sina_announcements",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+    "retrieved_at": "2026-11-04T02:30:39.200294+00:00",
+    "ok": true,
+    "bytes": 55685
+  }
+]

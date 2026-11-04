@@ -1,0 +1,745 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+<!-- begin spin_special_output(head_start) -->
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg=="></script>
+<script type="text/javascript" wd_script_id="featurebox_financial_script" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+			var ir_featurebox = {
+				featureboxes: new Array,
+				ticker_data: new Array,
+
+				update: function(index, ticker, filer) {
+					var item_id = ticker || filer;
+					if (!this.featureboxes[index]) {
+						this.featureboxes[index] = {
+							ticker: ticker,
+							filer: filer,
+							chart: false,
+							size: false
+						};
+					}
+
+					if (!this.ticker_data[item_id])
+						this.ticker_data[item_id] = {};
+
+					if (ticker && webDriver.jQuery("#ir_featurebox_"+index+"-quote").length)
+						this.update_quote(index, ticker);
+
+					if (ticker && webDriver.jQuery("#ir_featurebox_"+index+"-chart").length)
+						this.update_chart(index, ticker);
+
+					if (ticker && webDriver.jQuery("#ir_featurebox_"+index+"-data").length)
+						this.update_data(index, ticker);
+
+					if (filer && webDriver.jQuery("#ir_featurebox_"+index+"-filings").length)
+						this.update_filings(index, filer);
+
+					if (webDriver.jQuery("#ir_featurebox_"+index+"-footer").length)
+						this.update_labels(index, ticker, filer);
+				},
+
+				update_labels: function(index, ticker, filer) {
+					var item_id = ticker || filer;
+					if (!this.ticker_data[item_id]["labels"]) {
+						webDriver.jQuery("#ir_featurebox_"+index+"-footer").html("");
+						webDriver.jQuery.getJSON(
+							"index.php",
+							{
+								ajax: "ir_featurebox",
+								ticker: ticker,
+								filer: filer,
+								data: "labels"
+							},
+							function(data) {
+								ir_featurebox.ticker_data[item_id]["labels"] = data;
+								ir_featurebox.update_labels(index, ticker, filer);
+							}
+						);
+					} else {
+						webDriver.jQuery("#ir_featurebox_"+index+"-footer").html(this.ticker_data[item_id]["labels"].footer);
+					}
+				}
+			};
+		</script>
+<style type="text/css" wd_script_id="ir_ticker_label_style" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+				div.wd_ticker_label {
+					text-align: right;
+					margin: 5px 0;
+				}
+				div.wd_ticker_label span.wd_exchange {
+					color: #999999;
+				}
+
+				div.wd_ticker_label span.wd_exchange:after {
+					content: ": ";
+				}
+			</style>
+<style type="text/css" wd_script_id="ir_featurebox_quote_style" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+				div.wd_quote-value {
+					margin: 5px 0 0 0;
+				}
+
+				div.wd_quote-price {
+					display: inline;
+					font-weight: bold;
+				}
+
+				div.wd_quote-change {
+					display: inline;
+					margin-left: 1ex;
+					padding-left: 15px;
+					font-weight: bold;
+				}
+
+				div.wd_quote-change:before {
+					content: "(";
+				}
+
+				div.wd_quote-change:after {
+					content: ")";
+				}
+
+				div.wd_quote-value-down div.wd_quote-change {
+					color: #cc0000;
+					background: url(images/webdriver/stockpricedown.gif) left center no-repeat;
+				}
+
+				div.wd_quote-value-up div.wd_quote-change {
+					color: #00cc00;
+					background: url(images/webdriver/stockpriceup.gif) left center no-repeat;
+				}
+			</style>
+<link href="css/wd_wcag.css" type="text/css" rel="stylesheet" wd_script_id="wd_wcag.css">
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<script type="text/javascript" wd_script_id="ir_featurebox_quote_script" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+				ir_featurebox.update_quote = function(index, ticker) {
+					if (!this.ticker_data[ticker]["quote"]) {
+						webDriver.jQuery("#ir_featurebox_"+index+"-quote").html('<center><span class="wd_loading_rotate" ><span class="fa-spin fa-fw fa fa-circle-o-notch" style="font-size: 3em;"></span><span class="wd_sr-only">Loading...</span></span></center>');
+						webDriver.jQuery.get(
+							"index.php",
+							{
+								ajax: "ir_featurebox",
+								ticker: ticker,
+								data: "quote"
+							},
+							function(data) {
+								ir_featurebox.ticker_data[ticker]["quote"] = data;
+								ir_featurebox.update_quote(index, ticker);
+							}
+						);
+					} else {
+						webDriver.jQuery("#ir_featurebox_"+index+"-quote").html(this.ticker_data[ticker]["quote"]);
+					}
+				}
+			</script>
+<style type="text/css" wd_script_id="featurebox_financial_style" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+			div.wd_chart-quote-footer {
+				margin: 5px 0 0 0;
+				font-size: .75em;
+				color: #999999;
+			}
+		</style>
+<style type="text/css" wd_script_id="featureboxes_style" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+		.wd_featurebox_icon {
+			display: inline;
+		}
+		.wd_featurebox_icon img {
+			vertical-align: middle;
+		}
+		div.wd_featurebox_group div.wd_tabs_wrapper {
+			border: none;
+			border-bottom: 1px solid #E1E1E1;
+			padding: 0 0 5px 0;
+		}
+		div.wd_featurebox_group div.wd_featurebox {
+			border: none;
+			padding: 8px 0 0 0;
+		}
+		div.wd_featurebox_group li.wd_tab {
+			float: none;
+			color: #666666;
+		}
+		div.wd_featurebox_group li.wd_tab-active {
+			border: none;
+			background-color: transparent;
+			color: #000000;
+			font-weight: bold;
+		}
+		div.wd_featurebox_group li.wd_tab-inactive {
+			cursor: auto;
+		}
+	</style>
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+	function view_printable() {
+		var loc = window.location;
+		var sep = (loc.search == "") ? "?" : "&";
+		var url = loc.protocol+"//"+loc.host+loc.pathname+loc.search+sep+"printable"+loc.hash;
+		window.open(url, "_blank", "");
+	}
+</script>
+<script type="text/javascript" src="js/wd_pdf_fallback.js" wd_script_id="wd_pdf_fallback.js" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg=="></script>
+<style type="text/css" wd_script_id="toolbar_style" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+			div.wd_toolbar {
+				border-top: 1px solid #cccccc;
+				border-bottom: 1px solid #cccccc;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				line-height: 1;
+			}
+			div.wd_toolbar-page {
+				clear: both;
+			}
+			div.wd_toolbar ul.wd_tools {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 5px 0;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool {
+				display: block;
+				list-style-type: none;
+				margin-right: 5px;
+				padding: 0;
+				float: right;
+			}
+			span.wd_tool_icon > a:link,
+			span.wd_tool_icon > a:visited {
+				border-radius: 2px;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				box-sizing: border-box;
+				margin: 0;
+				padding: 7px;
+				font-size: 16px;
+				line-height: 1;
+				text-align: center;
+				color: #ffffff;
+				background-color: #767676;
+			} 
+			span.wd_tool_icon > a:hover {
+				color: #ffffff;
+				background-color: #666666;
+				text-decoration: none;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool-addthis {
+				float: left;
+			}
+		</style>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg=="></script>
+<script type="text/javascript" wd_script_id="format_news_script" nonce="ZmQ4YjYxODUyODczNTY2MDkwNjY2ODFmN2M1ODRlN2VjMjExYzBjZg==">
+(function($) {
+	webDriver.formatNews = function() {
+		var $news = $(this);
+		var print_url = $news.attr("wd_print_url");
+		$news.find("table").each(function() {
+			var $table = $(this);
+			var $parent = $table.parent();
+			if ($parent.innerWidth() < $table.outerWidth()) {
+				if ($parent.hasClass("wd_news_table")) {
+					$parent.find(".fullscreen-button").show();
+				} else {
+					var $btn = $("<button>View News Release Full Screen</button>")
+						.addClass("fullscreen-button")
+						.on("click", function() {
+							if (print_url)
+								window.open(print_url, "_blank", "");
+							else
+								view_printable();
+						})
+					;
+
+					var $div = $("<div></div>)")
+						.addClass("wd_news_table")
+						.css("overflow-x", "auto")
+						.append($btn)
+					;
+
+					$table.replaceWith($div);
+					$div.append($table);
+				}
+			} else {
+				if ($parent.hasClass("wd_news_table"))
+					$parent.find(".fullscreen-button").hide();
+			}
+		});
+	}
+})(webDriver.jQuery);
+</script>
+
+<!-- end spin_special_output(head_start) -->
+
+	<title>Applied Optoelectronics Announces Date of Third Quarter 2026 Financial Results Conference Call - Oct 15, 2026</title>
+	
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="Applied Optoelectronics Announces Date of Third Quarter 2026 Financial Results Conference Call" />
+ <meta name="twitter:description" content="Applied Optoelectronics, Inc. (NASDAQ: AAOI) (&quot;AOI&quot;), a leading provider of advanced optical and HFC networking products that power AI, today announced that it will release financial results for..." />
+ <meta name="twitter:image" content="https://mmx.prnewswire.com/media/MS1995467/aoi-corp-full-color-rgb-900px-w-72ppi.jpg?id=OA3022438&amp;p=twitter" />
+ <meta property="og:site_name" content="Investor Relations | Applied Optoelectronics, Inc." />
+ <meta property="og:url" content="https://investors.ao-inc.com/2026-10-15-Applied-Optoelectronics-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call" />
+ <meta property="og:title" content="Applied Optoelectronics Announces Date of Third Quarter 2026 Financial Results Conference Call" />
+ <meta property="og:description" content="Applied Optoelectronics, Inc. (NASDAQ: AAOI) (&quot;AOI&quot;), a leading provider of advanced optical and HFC networking products that power AI, today announced that it will release financial results for..." />
+ <meta name="image" property="og:image" content="https://mmx.prnewswire.com/media/MS1995467/aoi-corp-full-color-rgb-900px-w-72ppi.jpg?id=OA3022438&amp;p=facebook" />
+	<link rel="alternate" href="https://investors.ao-inc.com/news-releases?pagetemplate=rss" type="application/rss+xml" title="Investor Relations | Applied Optoelectronics, Inc.">
+	<link rel="icon" type="image/png" href="images/faviconV2.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+	<script type="text/javascript">
+		//<![CDATA[
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MVTCW6QP');
+		//]]>
+	</script>
+	<script type="text/javascript">
+		//<![CDATA[
+		(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "j4ck49o88o");
+		//]]>
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/uog2afw.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/sharp.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bundle.css">
+	<script async="" src="js/js"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+		window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag("config","G-S6NTHWWXTJ");
+		//]]>
+	</script>
+
+	<link href="thirdparty/font-awesome/css/all.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+	<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+	<script type="text/javascript" src="thirdparty/font-awesome/v4-shims.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://investors.ao-inc.com/2026-10-15-Applied-Optoelectronics-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call" />
+<!-- end spin_special_output(head_end) -->
+</head>
+
+<body class="typography page element-page wd_pageid_43 wd_item_page wd_item_315">
+
+	<noscript><iframe src="js/ns.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+	<header id="Header" class="">
+		<div class="header-content inner">
+			<a href="https://ao-inc.com/home" class="logo"><span class="screen-reader-text">AOI</span></a>
+
+			<a class="button skip-link screen-reader-text" href="https://ao-inc.com/legal#Content">Skip to Content</a>
+
+			<div class="nav-social">
+				<div class="social-translate">
+
+					<nav class="top-nav" aria-label="Top Navigation">
+						<ul>
+
+							<li><a href="https://ao-inc.com/html-resources/" class="link">Resources</a></li>
+
+							<li><a href="https://newsroom.ao-inc.com/" class="" target="_blank">Newsroom</a></li>
+
+							<li><a href="https://investors.ao-inc.com/home" class="" target="_blank">Investors</a></li>
+
+						</ul>
+					</nav>
+
+					<nav class="social-follow" aria-label="Follow Us on Social Media">
+
+						<a href="https://x.com/AppliedOpto" target="_blank" title="Follow us on X" class="x-twitter"><i class="fa-brands fa-x-twitter"></i></a>
+
+						<a href="https://www.facebook.com/AppliedOpto" target="_blank" title="Like us on Facebook" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+
+						<a href="https://linkedin.com/company/appliedopto/" target="_blank" title="Follow us on LinkedIn" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+						<a href="https://www.youtube.com/@AOI_Videos" target="_blank" title="Subscribe to us on YouTube" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+
+					</nav>
+
+				</div>
+
+				<div class="menuwrapper">
+					<nav aria-label="Main Navigation" class="main-nav">
+						<ul class="menu-bar">
+
+							<li><a href="https://ao-inc.com/products/" class="link"><span>Products</span></a></li>
+
+							<li><a href="https://ao-inc.com/solutions/" class="link"><span>Solutions</span></a></li>
+
+							<li><a href="https://ao-inc.com/about-us/careers/" class="link"><span>Careers</span></a></li>
+
+							<li><a href="https://ao-inc.com/about-us/" class="link"><span>About Us</span></a></li>
+
+							<li><a href="https://ao-inc.com/contact-us/" class="link"><span>Contact Us</span></a></li>
+
+							<li class="mobile-only"><a href="https://ao-inc.com/html-resources/" class="link"><span>Resources</span></a></li>
+
+							<li class="mobile-only"><a href="https://newsroom.ao-inc.com/" class="" target="_blank"><span>Newsroom</span></a></li>
+
+							<li class="mobile-only"><a href="https://investors.ao-inc.com/home" class="" target="_blank"><span>Investors</span></a></li>
+
+							<li class="social-follow">
+
+								<a href="https://x.com/AppliedOpto" target="_blank" title="Follow us on X" class="x-twitter"><i class="fa-brands fa-x-twitter"></i></a>
+
+								<a href="https://www.facebook.com/AppliedOpto" target="_blank" title="Like us on Facebook" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+
+								<a href="https://linkedin.com/company/appliedopto/" target="_blank" title="Follow us on LinkedIn" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+								<a href="https://www.youtube.com/@AOI_Videos" target="_blank" title="Subscribe to us on YouTube" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+
+							</li>
+
+						</ul>
+					</nav>
+				</div>
+
+				<button id="mobile-menu-trigger" title="Menu"><i class="fa-solid fa-bars"></i><i class="fa-solid fa-xmark"></i></button>
+
+			</div>
+		</div>
+
+		
+		<div class="page-banner">
+			<div class="inner">
+				<div class="page-banner-content wd_moved-width">
+					<h1 class="page-title wd_moved-title"></h1>
+					<div class="wd_moved-content"></div>
+				</div>
+			</div>
+		</div>
+
+		
+	</header>
+
+	<div id="Content" class="wd_content-wrap" role="main">
+		
+		<div class="element no-title anchor-nav-element back-purple text-color-white no-caps sticky sticky" id="sticky-navigation" style="--offset-padding: 127px;">
+		<div class="sticky-trigger"></div>
+			<div class="fixed-wrap">
+				<button class="navbar-toggler collapsed wd_mobile-button" type="button" data-toggle="collapse" data-target="#wd_investor-nav">Investor Menu<span class="caret" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></span></button>
+				<nav id="wd_investor-nav" aria-label="Sticky Navigation" class="inner wd_investor wd_flex">
+						<ul id="wd_investor-nav">
+<li><a href="https://investors.ao-inc.com/home" target="_self">Overview</a></li>
+<li class="wd_has-children"><a class="current" href="#">News & Events</a>
+	<div class="element wd_dropdown">
+            	<ul class="wd_subnav">
+<li><a class="current" href="https://investors.ao-inc.com/news-releases" target="_self">News Releases</a></li>
+<li><a href="https://investors.ao-inc.com/events-and-presentations" target="_self">Events and Presentations</a></li>
+</ul>
+        </div>
+</li>
+<li class="wd_has-children"><a href="#">Stock Info</a>
+	<div class="element wd_dropdown">
+            	<ul class="wd_subnav">
+<li><a href="https://investors.ao-inc.com/stock-quote-and-chart" target="_self">Stock Quote & Chart</a></li>
+<li><a href="https://investors.ao-inc.com/analyst-coverage" target="_self">Analyst Coverage</a></li>
+</ul>
+        </div>
+</li>
+<li class="wd_has-children"><a href="#">Financial Info</a>
+	<div class="element wd_dropdown">
+            	<ul class="wd_subnav">
+<li><a href="https://investors.ao-inc.com/quarterly-results" target="_self">Quarterly Results</a></li>
+<li><a href="https://investors.ao-inc.com/sec-filings" target="_self">SEC Filings</a></li>
+<li><a href="https://investors.ao-inc.com/annual-reports" target="_self">Annual Reports</a></li>
+</ul>
+        </div>
+</li>
+<li class="wd_has-children"><a href="#">Governance</a>
+	<div class="element wd_dropdown">
+            	<ul class="wd_subnav">
+<li><a href="https://investors.ao-inc.com/documents-and-charters" target="_self">Documents & Charters</a></li>
+<li><a href="https://investors.ao-inc.com/management" target="_self">Management</a></li>
+<li><a href="https://investors.ao-inc.com/board-of-directors" target="_self">Board of Directors</a></li>
+<li><a href="https://investors.ao-inc.com/committee-composition" target="_self">Committee Composition</a></li>
+</ul>
+        </div>
+</li>
+<li class="wd_has-children"><a href="#">IR Services</a>
+	<div class="element wd_dropdown">
+            	<ul class="wd_subnav">
+<li><a href="https://investors.ao-inc.com/faqs" target="_self">FAQs</a></li>
+<li><a href="https://investors.ao-inc.com/contact-us" target="_self">Contact Us</a></li>
+<li><a href="https://investors.ao-inc.com/investor-alerts" target="_self">Investor Alerts</a></li>
+</ul>
+        </div>
+</li>
+</ul>
+					<div class="wd_featureboxes_stock wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-financial_5" class="wd_featurebox_container wd_featurebox-financial"><div class="wd_featurebox_title"></div><div class="wd_featurebox"><div class="wd_ticker_label"><span class="wd_exchange">NASDAQ</span><span class="wd_symbol">AAOI</span></div><div class="wd_quote-container" id="ir_featurebox_5-quote"></div><div class="wd_chart-quote-footer" id="ir_featurebox_5-footer"></div><script type="text/javascript">webDriver.jQuery(function() {ir_featurebox.update(5, "AAOI", false);});</script></div></div></div>
+				</nav>
+			</div>
+		</div>
+
+		
+		<div class="element wd_content">
+			<div class="inner">
+				<div class="element__content">
+					
+					<div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases-detail">
+<h1 class="page_header">Applied Optoelectronics Announces Date of Third Quarter 2026 Financial Results Conference Call</h1>
+<div class="wd_details-wrap">
+<div class="wd_date">Oct 15, 2026</div><div class="wd_toolbar wd_toolbar-detail"><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" aria-describedby="newwindow-note" href="#print" title="Open a printable version of this page"><span class="fa fa-print"></span><span class="wd_sr-only wd_sr-only-focusable">Open a printable version of this page</span></a></span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Applied%20Optoelectronics%20Announces%20Date%20of%20Third%20Quarter%202026%20Financial%20Results%20Conference%20Call%20-%20Oct%2015%2C%202026&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="Email the URL of this page to a friend"><span class="fa fa-envelope"></span><span class="wd_sr-only wd_sr-only-focusable">Email the URL of this page to a friend</span></a></span></li><li class="wd_tool wd_tool-rss"><span class="wd_tool_icon"><a href="https://investors.ao-inc.com/index.php?s=95&amp;rsspage=43" title="Get the RSS feed for this page"><span class="fa fa-rss"></span><span class="wd_sr-only wd_sr-only-focusable">Get the RSS feed for this page</span></a></span></li><li class="wd_tool wd_tool-pdf"><span class="wd_tool_icon"><a href="https://investors.ao-inc.com/2026-10-15-Applied-Optoelectronics-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call?asPDF=1" rel="nofollow" onclick="return wd_download_pdf(this);" title="Download a PDF version of this page"><span class="fa fa-file-pdf-o"></span><span class="wd_sr-only wd_sr-only-focusable">Download a PDF version of this page</span></a></span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
+                    <a href="https://twitter.com/share?url=https%3A%2F%2Finvestors.ao-inc.com%2Findex.php%3Fs%3D43%26item%3D315" target="_blank" title="Twitter Share" style="background-color:#000;">
+                    <span class="fa fa-twitter"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on Twitter</span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Finvestors.ao-inc.com%2Findex.php%3Fs%3D43%26item%3D315" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <span class="fa fa-linkedin"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on LinkedIn</span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finvestors.ao-inc.com%2Findex.php%3Fs%3D43%26item%3D315" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <span class="fa fa-facebook"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable">Share this page on Facebook</span>
+                    </a>
+                </span></li></ul></div>
+</div>
+
+			
+		
+
+
+			
+		
+
+
+
+<style type="text/css">
+
+
+/* Style Definitions */
+span.prnews_span
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+a.prnews_a
+{
+color:blue;
+}
+li.prnews_li
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+p.prnews_p
+{
+font-size:0.62em;
+font-family:"Arial";
+color:black;
+margin:0in;
+}
+
+
+					span.prnews_span{
+						font-size:inherit;
+						font-family:inherit;
+					}
+					li.prnews_li{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+					p.prnews_p{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+				
+					div.PRN_ImbeddedAssetReference{
+						display: none;
+					}
+					div[id^="prni_dvprne"]{
+						display: none;
+					}
+				</style>
+
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://investors.ao-inc.com/2026-10-15-Applied-Optoelectronics-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call?printable=1"><p><span class="legendSpanClass">SUGAR LAND, Texas</span>, <span class="legendSpanClass">Oct. 15, 2026</span> /<a href="http://www.prnewswire.com/" target="_blank">PRNewswire</a>/ -- <b>Applied Optoelectronics, Inc. </b>(NASDAQ: AAOI)<b> (&quot;AOI&quot;),</b>&nbsp;a leading provider of advanced optical and HFC networking products that power AI, today announced that it will release financial results for its third quarter ended September 30, 2026, on Thursday, November 5, 2026.&nbsp;</p>
+
+<div class="PRN_ImbeddedAssetReference" id="DivAssetPlaceHolder1">
+<p><img alt="Applied Optoelectronics, Inc." src="https://mmx.prnewswire.com/media/MS1995467/aoi-corp-full-color-rgb-900px-w-72ppi.jpg?id=OA3022438" title="Applied Optoelectronics, Inc." /></p>
+</div>
+
+<p>AOI will host a conference call and webcast for analysts and investors to discuss its third quarter 2026 financial results and outlook for its fourth quarter 2026 at 4:30 p.m. Eastern Time / 3:30 p.m. Central Time the same day. To participate in the call, please dial 888-880-3330 and ask to be joined to the AOI call.</p>
+
+<p>A live audio webcast of the conference call and supplemental financials will be accessible from the company&#39;s Investor Relations website at <a aria-invalid="true" href="http://investors.ao-inc.com/" rel="nofollow" target="_blank">investors.ao-inc.com</a>. Following the webcast, an archived version will be available on the website for one year. A telephonic replay of the call will be available one hour after the call and will be available until November 12, 2026, at 11:59 p.m. Eastern Time / 10:59 p.m. Central Time and may be accessed by dialing (800) 770-2030&nbsp;and entering passcode 4754976 #.</p>
+
+<p><b>About AOI</b> &nbsp;<br />
+Applied Optoelectronics, Inc. (AOI) is a leading developer and manufacturer of advanced optical and HFC networking products that serve as the critical building blocks for AI datacenters, CATV and broadband fiber access networks worldwide. AOI supplies these critical infrastructure products to tier-one customers across cloud computing, CATV broadband, telecommunications, and FTTH markets. The company has R&amp;D facilities in Atlanta, GA, and engineering and manufacturing facilities at its corporate headquarters in Sugar Land, TX, as well as in Taipei, Taiwan and Ningbo, China.&nbsp;For additional information, visit&nbsp;<a aria-invalid="true" href="https://www.globenewswire.com/Tracker?data=Zuv2cCxYhyEEudGiXn_XZtJRHkyFClVVyI2vCOEs4nVawRnLI3165angexqJXioyoZUiLBEulGOp5ZAyJNCAJg==" rel="nofollow" target="_blank">www.ao-inc.com</a>.&nbsp;&nbsp;</p>
+
+<p>SOURCE Applied Optoelectronics, Inc.</p>
+</div>
+<div class="wd_contact">For further information: Investor Relations Contacts: The Blueshirt Group, Lindsay Savarese, +1-212-331-8417, ir@ao-inc.com</div>
+
+
+ 
+				
+			
+
+<!-- ITEMDATE: 2026-10-15 16:10:00 EDT -->
+
+</div>
+</div>				</div>
+			</div>
+		</div>
+
+		
+		
+		
+		
+		
+	</div>
+
+	<footer id="Footer">
+		<div class="inner">
+			<div class="logo-social">
+				<a href="https://ao-inc.com/home" class="logo"><img src="images/logo-white.svg" alt="AOI" width="132" height="66"></a>
+
+				<ul class="social-share">
+
+					<li><a href="https://x.com/AppliedOpto" target="_blank" title="Follow us on X" class="x-twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+
+					<li><a href="https://www.facebook.com/AppliedOpto" target="_blank" title="Like us on Facebook" class="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+
+					<li><a href="https://linkedin.com/company/appliedopto/" target="_blank" title="Follow us on LinkedIn" class="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+
+					<li><a href="https://www.youtube.com/@AOI_Videos" target="_blank" title="Subscribe to us on YouTube" class="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+
+				</ul>
+			</div>
+
+			<nav class="footer-nav" aria-label="Footer Navigation">
+
+				<ul class="column">
+					<li>
+
+						<a href="https://ao-inc.com/products/">Products</a>
+
+						<ul>
+
+							<li><a href="https://ao-inc.com/products/lasers/">Semiconductors</a></li>
+
+							<li><a href="https://ao-inc.com/products/optical-components/">Laser Components</a></li>
+
+							<li><a href="https://ao-inc.com/products/optical-transceivers/">Optical Transceivers</a></li>
+
+							<li><a href="https://ao-inc.com/products/hfc-networking/">HFC Networking</a></li>
+
+						</ul>
+
+					</li>
+				</ul>
+
+				<ul class="column">
+					<li>
+
+						<a href="https://ao-inc.com/solutions/">Solutions</a>
+
+						<ul>
+
+							<li><a href="https://ao-inc.com/solutions/telecom/">Telecom</a></li>
+
+							<li><a href="https://ao-inc.com/solutions/ftth/">FTTH</a></li>
+
+							<li><a href="https://ao-inc.com/solutions/pon/">PON</a></li>
+
+							<li><a href="https://ao-inc.com/solutions/sensing/">Sensing</a></li>
+
+							<li><a href="https://ao-inc.com/solutions/datacenter/">Datacenter</a></li>
+
+							<li><a href="https://ao-inc.com/solutions/wireless/">Wireless</a></li>
+
+							<li><a href="https://ao-inc.com/solutions/cable-broadband/">Cable Broadband</a></li>
+
+						</ul>
+
+					</li>
+				</ul>
+
+				<ul class="column">
+					<li>
+
+						<a href="https://investors.ao-inc.com/home" target="_blank">Investor Relations</a>
+
+						<ul>
+
+							<li><a href="https://investors.ao-inc.com/news-releases" target="_blank">Press Releases</a></li>
+
+							<li><a href="https://investors.ao-inc.com/events-and-presentations" target="_blank">Events &amp; Presentations</a></li>
+
+							<li><a href="https://investors.ao-inc.com/stock-quote-and-chart" target="_blank">Stock Information</a></li>
+
+							<li><a href="https://investors.ao-inc.com/quarterly-results" target="_blank">Financial Information</a></li>
+
+							<li><a href="https://investors.ao-inc.com/documents-and-charters" target="_blank">Corporate Governance</a></li>
+
+							<li><a href="https://investors.ao-inc.com/faqs" target="_blank">Investor FAQs</a></li>
+
+						</ul>
+
+					</li>
+				</ul>
+
+				<ul class="column">
+					<li>
+
+						<a href="https://ao-inc.com/about-us/">About Us</a>
+
+						<ul>
+
+							<li><a href="https://ao-inc.com/about-us/our-leadership/">Leadership</a></li>
+
+							<li><a href="https://investors.ao-inc.com/news-events/press-releases">News</a></li>
+
+							<li><a href="https://ao-inc.com/about-us/careers/">Careers</a></li>
+
+							<li><a href="https://ao-inc.com/legal/">Legal</a></li>
+
+							<li><a href="https://ao-inc.com/patents/">Patents</a></li>
+
+						</ul>
+
+					</li>
+				</ul>
+
+				<ul class="column">
+					<li>
+
+						<a href="https://ao-inc.com/contact-us/">Contact Us</a>
+
+					</li>
+				</ul>
+
+			</nav>
+		</div>
+
+		<div class="copyright text-center">©2026 Applied Optoelectronics, Inc. All Rights Reserved </div>
+	</footer>
+
+	<script type="text/javascript"></script>
+	<script src="js/vendor.js"></script>
+	<script src="js/Page.js"></script>
+	<script>
+		//<![CDATA[
+		(function(){function _guaLt(e){if(typeof ga=='undefined'||(e.which!=1&&e.which!=2)){return;}var el=e.srcElement||e.target;while(el&&(typeof el.tagName=="undefined"||el.tagName.toLowerCase()!="a"||!el.href)){el=el.parentNode;}if(el&&el.href){var dl=document.location;var l=dl.pathname+dl.search;var h=el.href;var a=h;var c=!1;var t=(el.target&&!el.target.match(/^_(self|parent|top)$/i))?el.target:!1;if(e.ctrlKey||e.shiftKey||e.metaKey||e.which==2){t="_blank";}if(h.match(/^tel\:/i)){c="Phone Links";a=h.replace(/D/g,"");t=1;}else if(h.match(/^mailto\:/i)){c="Email Links";a=h.slice(7);t=1;}else if(h.indexOf(location.host)==-1&&!h.match(/^javascript\:/i)){c="Outgoing Links";}else if(h.match(/\/assets\//)&&!h.match(/\.(jpe?g|bmp|png|gif|tiff?)$/i)){c="Downloads";a=h.match(/\/assets\/(.*)/)[1];}if(c){if(t){gtag("event",a,{"event_category":c,"event_label":l});} else {e.preventDefault?e.preventDefault():e.returnValue=!1;var hbrun=false;var hb=function(){if(hbrun)return;hbrun=true;window.location.href=h;};gtag("event",a,{"event_category":c,"event_label":l,"event_callback":hb});setTimeout(hb,1000);}}}}var _w=window;var _gaLtEvt=("ontouchstart" in _w)?"click":"mousedown";_w.addEventListener?_w.addEventListener("load",function(){document.body.addEventListener(_gaLtEvt,_guaLt,!1)},!1):_w.attachEvent&&_w.attachEvent("onload",function(){document.body.attachEvent("on"+_gaLtEvt,_guaLt)});})(window);
+		//]]>
+	</script>
+	<script type="module" src="js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495.js" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;843a09abc0f94532901bb2c054dd7b0b&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+	<script src="js/wdscripts.js"></script>
+
+
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script><span id="newwindow-note" class="sr-only">(opens in a new window)</span>
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a54fe36d6d2c83d9',t:'MTc5Mzc1NjE5Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a54fe36d6d2c83d9',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

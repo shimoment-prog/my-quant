@@ -1,0 +1,109 @@
+[
+  {
+    "code": "688041",
+    "matched_days": 123,
+    "max_abs_difference_percentage_points": 0.0050000000000003375,
+    "latest_pairs": [
+      {
+        "date": "2026-10-30",
+        "eastmoney_pct": 0.98,
+        "ths_pct": 0.984,
+        "abs_delta_pp": 0.0040000000000000036
+      },
+      {
+        "date": "2026-11-02",
+        "eastmoney_pct": 0.94,
+        "ths_pct": 0.939,
+        "abs_delta_pp": 0.0010000000000000009
+      },
+      {
+        "date": "2026-11-03",
+        "eastmoney_pct": 1.24,
+        "ths_pct": 1.239,
+        "abs_delta_pp": 0.0009999999999998899
+      }
+    ]
+  },
+  {
+    "code": "600036",
+    "matched_days": 123,
+    "max_abs_difference_percentage_points": 0.0050000000000000044,
+    "latest_pairs": [
+      {
+        "date": "2026-10-30",
+        "eastmoney_pct": 0.5,
+        "ths_pct": 0.498,
+        "abs_delta_pp": 0.0020000000000000018
+      },
+      {
+        "date": "2026-11-02",
+        "eastmoney_pct": 0.62,
+        "ths_pct": 0.623,
+        "abs_delta_pp": 0.0030000000000000027
+      },
+      {
+        "date": "2026-11-03",
+        "eastmoney_pct": 0.81,
+        "ths_pct": 0.812,
+        "abs_delta_pp": 0.0020000000000000018
+      }
+    ]
+  },
+  {
+    "code": "688256",
+    "matched_days": 2,
+    "max_abs_difference_percentage_points": 0.0040000000000000036,
+    "latest_pairs": [
+      {
+        "date": "2026-11-02",
+        "eastmoney_pct": 1.94,
+        "ths_pct": 1.939,
+        "abs_delta_pp": 0.0009999999999998899
+      },
+      {
+        "date": "2026-11-03",
+        "eastmoney_pct": 2.91,
+        "ths_pct": 2.906,
+        "abs_delta_pp": 0.0040000000000000036
+      }
+    ]
+  },
+  {
+    "code": "600519",
+    "matched_days": 2,
+    "max_abs_difference_percentage_points": 0.0030000000000000027,
+    "latest_pairs": [
+      {
+        "date": "2026-11-02",
+        "eastmoney_pct": 0.66,
+        "ths_pct": 0.662,
+        "abs_delta_pp": 0.0020000000000000018
+      },
+      {
+        "date": "2026-11-03",
+        "eastmoney_pct": 0.59,
+        "ths_pct": 0.593,
+        "abs_delta_pp": 0.0030000000000000027
+      }
+    ]
+  },
+  {
+    "code": "603986",
+    "matched_days": 2,
+    "max_abs_difference_percentage_points": 0.0030000000000001137,
+    "latest_pairs": [
+      {
+        "date": "2026-11-02",
+        "eastmoney_pct": 5.15,
+        "ths_pct": 5.147,
+        "abs_delta_pp": 0.0030000000000001137
+      },
+      {
+        "date": "2026-11-03",
+        "eastmoney_pct": 5.42,
+        "ths_pct": 5.417,
+        "abs_delta_pp": 0.0030000000000001137
+      }
+    ]
+  }
+]

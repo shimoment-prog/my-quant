@@ -1,0 +1,205 @@
+{
+  "prepared_at": "2026-11-04T01:38:03.886974+00:00",
+  "last_completed_us_normal_session": "2026-11-03",
+  "regular_close_quotes": [
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "regular_close_usd": 680.16,
+      "regular_change_pct": -0.62,
+      "previous_regular_close_usd": 684.4,
+      "provider_timestamp_exchange": "2026-11-03 16:00:02",
+      "session_date": "2026-11-03",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usLITE",
+      "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+    },
+    {
+      "symbol": "MRVL",
+      "name": "迈威尔科技",
+      "regular_close_usd": 171.97,
+      "regular_change_pct": 0.33,
+      "previous_regular_close_usd": 171.41,
+      "provider_timestamp_exchange": "2026-11-03 16:00:02",
+      "session_date": "2026-11-03",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usMRVL",
+      "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "regular_close_usd": 207.49,
+      "regular_change_pct": 3.77,
+      "previous_regular_close_usd": 199.95,
+      "provider_timestamp_exchange": "2026-11-03 16:04:39",
+      "session_date": "2026-11-03",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usCOHR",
+      "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena科技",
+      "regular_close_usd": 300.08,
+      "regular_change_pct": 5.54,
+      "previous_regular_close_usd": 284.34,
+      "provider_timestamp_exchange": "2026-11-03 16:04:39",
+      "session_date": "2026-11-03",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usCIEN",
+      "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+    },
+    {
+      "symbol": "AAOI",
+      "name": "应用光电",
+      "regular_close_usd": 63.97,
+      "regular_change_pct": 2.35,
+      "previous_regular_close_usd": 62.5,
+      "provider_timestamp_exchange": "2026-11-03 16:00:02",
+      "session_date": "2026-11-03",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usAAOI",
+      "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+    },
+    {
+      "symbol": "FN",
+      "name": "Fabrinet",
+      "regular_close_usd": 363.33,
+      "regular_change_pct": 15.45,
+      "previous_regular_close_usd": 314.7,
+      "provider_timestamp_exchange": "2026-11-03 16:04:39",
+      "session_date": "2026-11-03",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usFN",
+      "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "英伟达",
+      "regular_close_usd": 206.69,
+      "regular_change_pct": 2.29,
+      "previous_regular_close_usd": 202.06,
+      "provider_timestamp_exchange": "2026-11-03 16:00:02",
+      "session_date": "2026-11-03",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usNVDA",
+      "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "博通",
+      "regular_close_usd": 332.13,
+      "regular_change_pct": 3.07,
+      "previous_regular_close_usd": 322.23,
+      "provider_timestamp_exchange": "2026-11-03 16:00:02",
+      "session_date": "2026-11-03",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usAVGO",
+      "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+    }
+  ],
+  "sox": {
+    "regular_close": 10600.3962,
+    "change_pct": 2.63,
+    "session_date": "2026-11-03",
+    "provider_time_beijing": "2026-11-04T06:16:01+08:00",
+    "source": "https://hq.sinajs.cn/list=gb_sox",
+    "note": "Normal-session index closing value; provider timestamp after session not aftermarket index trading."
+  },
+  "interpretation_zh": "海外光通信在11月3日呈分化修复，六家中五涨一跌，不能称为持续普跌。FN业绩增长和LITE已披露采购承诺与此前订单全面取消的叙事不一致；但单家公司业绩与管理层承诺不能证明新易盛订单、利润或股价底部。",
+  "industry_evidence": [
+    {
+      "id": "FN_FY27Q1",
+      "event_date": "2026-11-02",
+      "asof_check": "2026-11-04",
+      "new_today": false,
+      "source_type": "primary_SEC_earnings_release",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001408710/000140871026000034/fn-20261102xex991q127.htm",
+      "facts": {
+        "revenue_usd_million": 1474.5,
+        "revenue_yoy_pct_rounded": 51,
+        "next_quarter_revenue_guidance_usd_billion": [
+          1.6,
+          1.65
+        ]
+      },
+      "realized_vs_guidance": "Reported quarter revenue realized; next quarter range is management guidance, not realized revenue.",
+      "interpretation_zh": "FN最新业绩与指引支持制造交付需求仍强，11月3日正常收盘涨15.45%；不可等同新易盛获单。",
+      "evidence_file": "/tmp/eoptolink-risk-20261103/fabrinet_results_clean.txt"
+    },
+    {
+      "id": "LITE_FY27Q1",
+      "event_date": "2026-11-02",
+      "new_today": false,
+      "source_type": "primary_SEC_earnings_release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm",
+      "retrieved_at": "2026-11-04T01:37:16.635862+00:00",
+      "facts": {
+        "revenue_usd_million": 1262.6,
+        "revenue_yoy_pct": 136.5,
+        "next_quarter_revenue_guidance_usd_billion": [
+          1.575,
+          1.625
+        ],
+        "management_disclosed_NPO_CPO_purchase_commitments_over_usd_billion": 5
+      },
+      "interpretation_zh": "公司披露第二个主要NPO/CPO项目、采购承诺超过50亿美元；是管理层披露的承诺及未来交付，非已实现收入，亦非新易盛订单。技术路线变化需跟踪，不能据此认定可插拔产品立即被替代。",
+      "evidence_file": "/tmp/eoptolink-monitor-20261104-0934/lite_results_clean.txt"
+    },
+    {
+      "id": "MRVL_LITE_merger",
+      "event_date": "2026-11-02",
+      "new_today": false,
+      "source_type": "primary_company_release",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+      "facts": {
+        "all_stock_exchange_ratio_MRVL_per_LITE": 4.5,
+        "marvell_preliminary_revenue_guidance_midpoint": "maintained; range narrowed to+/-2% from+/-5%"
+      },
+      "interpretation_zh": "全换股并购会影响两股价差、套利与估值，LITE下跌不能直接推断光模块需求或新易盛丢单。并购尚有股东与监管等条件。",
+      "evidence_file": "/tmp/eoptolink-risk-20261103/marvell_ir_clean.txt"
+    },
+    {
+      "id": "AAOI_earnings_date",
+      "event_date": "2026-10-15",
+      "new_today": false,
+      "url": "https://investors.ao-inc.com/2026-10-15-Applied-Optoelectronics-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call",
+      "facts": {
+        "scheduled_results_date": "2026-11-05",
+        "scheduled_call_ET": "16:30"
+      },
+      "interpretation_zh": "三季报安排美东11月5日发布；本次未将其尚未发布的三季报当成既成事实。"
+    }
+  ],
+  "freshness": {
+    "equity_prices_refreshed": true,
+    "not_claiming_Nov4_US_regular_session": true,
+    "new_earnings_since_Nov3_previous_monitor": "FN and LITE reports were releasedNov2 and are dated evidence, not newNov4 releases. FN10Q filedNov3 verified through SEC submissions.",
+    "after_hours_quotes_used": false
+  },
+  "coverage_gaps": [
+    "Ciena IR and actual Coherent IR listing returned403; no claim of exhaustive new-disclosure coverage.",
+    "No independently verified new cancellation/delivery or supplier constraint announcement specific to Eoptolink was found within reviewed sources. Absence in reviewed sources is not proof of absence.",
+    "No new primary hyperscaler-capex announcement or trade-rule change was verified in this short check.",
+    "No probability model derived from overseas price moves."
+  ],
+  "sources": [
+    {
+      "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+      "raw_file": "/tmp/eoptolink-monitor-20261104-0934/us_quotes.txt"
+    },
+    {
+      "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+      "raw_file": "/tmp/eoptolink-monitor-20261104-0934/us_sina.txt"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+      "raw_file": "/tmp/eoptolink-monitor-20261104-0934/fn_submissions.txt"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+      "raw_file": "/tmp/eoptolink-monitor-20261104-0934/lite_submissions.txt"
+    }
+  ]
+}

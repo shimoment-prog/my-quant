@@ -1,0 +1,15 @@
+[
+  {
+    "name": "lite_results",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm",
+    "ok": true,
+    "length": 359227,
+    "retrieved_at": "2026-11-04T01:37:16.635862+00:00"
+  },
+  {
+    "name": "cohr_ir_actual",
+    "url": "https://ir.coherent.com/news-releases",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

@@ -1,0 +1,687 @@
+{
+  "schema_version": 1,
+  "automation_id": "10-30",
+  "triggered_at": "2026-11-04T09:34:24.902+08:00",
+  "observed_at": "2026-11-04T09:38:38+08:00",
+  "session": "intraday",
+  "scheduled_check": false,
+  "schedule_exception": "Triggered early at09:34; this observation is not labelled as10:30. No automation configuration changed.",
+  "trading_day": {
+    "date": "2026-11-04",
+    "weekday": "Wednesday",
+    "normal_session": true,
+    "checked_at": "2026-11-04T09:37:23.867133+08:00",
+    "sources": [
+      {
+        "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+        "type": "official_annual_calendar",
+        "finding": "2026休市表没有11月4日；国庆10月8日恢复交易。"
+      },
+      {
+        "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+        "type": "official_latest_mainland_holiday_notice",
+        "published_date": "2026-09-17",
+        "finding": "中秋9月25—27日休市、9月28日开市；国庆10月1—7日休市、10月8日开市；11月4日不在所列休市日期。"
+      },
+      {
+        "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+        "type": "official_notice_index",
+        "finding": "已核对最新通知标题，未识别11月4日临时休市通知；该检查不构成所有渠道公告完整性证明。",
+        "latest_titles": [
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "date": "2026-11-02",
+            "href": "./t20261102_623639.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "date": "2026-10-30",
+            "href": "./t20261030_623637.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "date": "2026-10-30",
+            "href": "./t20261030_623599.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "date": "2026-10-26",
+            "href": "./t20261026_623465.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "date": "2026-10-23",
+            "href": "./t20261023_623441.html"
+          },
+          {
+            "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+            "date": "2026-10-21",
+            "href": "./t20261021_623417.html"
+          },
+          {
+            "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+            "date": "2026-10-21",
+            "href": "./t20261021_623420.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "date": "2026-10-21",
+            "href": "./t20261021_623405.html"
+          }
+        ]
+      },
+      {
+        "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006,sh000001",
+        "type": "live_market_confirmation",
+        "market_time": "2026-11-04T09:35:36+08:00",
+        "finding": "沪深指数与个股有今日连续竞价实时成交，辅助确认已正常开市。"
+      }
+    ],
+    "closure_on_date_found": false,
+    "limitations": [
+      "未独立取得深交所2026全年度休市通知全文；已取得其最近主要节假日官方通知、最新公告列表并结合今日正常交易行情确认。"
+    ]
+  },
+  "quotes": {
+    "sz300502": {
+      "symbol": "sz300502",
+      "name": "新易盛",
+      "price": 178.49,
+      "previous_close": 173.36,
+      "change_pct": 2.9592,
+      "open": 176.0,
+      "high": 180.4,
+      "low": 174.15,
+      "volume_shares": 12906025.0,
+      "turnover_cny": 2286716225.7,
+      "quote_time": "2026-11-04T09:37:54+08:00",
+      "field_asof": {
+        "price": "2026-11-04T09:37:54+08:00",
+        "change_pct": "2026-11-04T09:37:54+08:00",
+        "high": "2026-11-04T09:37:54+08:00",
+        "low": "2026-11-04T09:37:54+08:00",
+        "turnover_cny": "2026-11-04T09:37:54+08:00",
+        "volume_shares": "2026-11-04T09:37:54+08:00",
+        "vwap": "2026-11-04T09:37:54+08:00"
+      },
+      "source": "sina_final",
+      "vwap": 177.18207,
+      "vwap_definition": "cumulative traded CNY / cumulative shares",
+      "relative_to_fixed_line_pct": -0.7451,
+      "above_day_low_pct": 2.4921,
+      "fall_to_day_low_pct": -2.4315,
+      "quote_age_seconds_at_prediction": 44.0
+    },
+    "sz300308": {
+      "symbol": "sz300308",
+      "name": "中际旭创",
+      "price": 489.98,
+      "previous_close": 480.2,
+      "change_pct": 2.0367,
+      "open": 489.89,
+      "high": 493.8,
+      "low": 484.58,
+      "volume_shares": 7049698.0,
+      "turnover_cny": 3447797594.78,
+      "quote_time": "2026-11-04T09:37:54+08:00",
+      "field_asof": {
+        "price": "2026-11-04T09:37:54+08:00",
+        "change_pct": "2026-11-04T09:37:54+08:00",
+        "high": "2026-11-04T09:37:54+08:00",
+        "low": "2026-11-04T09:37:54+08:00",
+        "turnover_cny": "2026-11-04T09:37:54+08:00",
+        "volume_shares": "2026-11-04T09:37:54+08:00",
+        "vwap": "2026-11-04T09:37:54+08:00"
+      },
+      "source": "sina_final",
+      "vwap": 489.070254,
+      "vwap_definition": "cumulative traded CNY / cumulative shares"
+    },
+    "sh515880": {
+      "symbol": "sh515880",
+      "name": "通信ETF国泰",
+      "price": 0.407,
+      "previous_close": 0.403,
+      "change_pct": 0.9926,
+      "open": 0.403,
+      "high": 0.411,
+      "low": 0.403,
+      "volume_shares": 594087361.0,
+      "turnover_cny": 241604383.0,
+      "quote_time": "2026-11-04T09:37:53+08:00",
+      "field_asof": {
+        "price": "2026-11-04T09:37:53+08:00",
+        "change_pct": "2026-11-04T09:37:53+08:00",
+        "high": "2026-11-04T09:37:53+08:00",
+        "low": "2026-11-04T09:37:53+08:00",
+        "turnover_cny": "2026-11-04T09:37:53+08:00",
+        "volume_shares": "2026-11-04T09:37:53+08:00",
+        "vwap": "2026-11-04T09:37:53+08:00"
+      },
+      "source": "sina_final",
+      "vwap": 0.406682,
+      "vwap_definition": "cumulative traded CNY / cumulative shares"
+    },
+    "sz399006": {
+      "symbol": "sz399006",
+      "name": "创业板指",
+      "price": 2413.618,
+      "previous_close": 2391.652,
+      "change_pct": 0.9184,
+      "open": 2399.46,
+      "high": 2423.754,
+      "low": 2390.285,
+      "volume_shares": 2336325607.0,
+      "turnover_cny": 54422525817.57,
+      "quote_time": "2026-11-04T09:37:54+08:00",
+      "field_asof": {
+        "price": "2026-11-04T09:37:54+08:00",
+        "change_pct": "2026-11-04T09:37:54+08:00",
+        "high": "2026-11-04T09:37:54+08:00",
+        "low": "2026-11-04T09:37:54+08:00",
+        "turnover_cny": "2026-11-04T09:37:54+08:00",
+        "volume_shares": "2026-11-04T09:37:54+08:00"
+      },
+      "source": "sina_final",
+      "vwap": null,
+      "vwap_note": "Index amount divided by constituent share counts is not an index VWAP; omitted."
+    }
+  },
+  "fixed_reference": {
+    "symbol": "300502.SZ",
+    "price": 179.83,
+    "formed_on": "2026-11-03",
+    "formed_during": "morning",
+    "status": "breached_reclaimed_intraday_but_below_at_latest_quote",
+    "last_verified_quote_time": "2026-11-04T09:37:54+08:00",
+    "last_verified_quote": 178.49,
+    "last_verified_day_low": 174.15,
+    "strict_breach_definition": "traded_price < 179.83",
+    "breached": true,
+    "below_fixed_line_now": true,
+    "first_observed_below_sample": {
+      "quote_time": "2026-11-03T13:14:00+08:00",
+      "price": 179.5,
+      "type": "sampled_minute_price"
+    },
+    "exact_first_tick_breach_time": null,
+    "exact_day_low_tick_time": null,
+    "note": "179.83 remains unchanged; breached Nov3. First acquired below-line minute sample Nov3 13:14 is not exact first tick. Latest-quote recovery alone would not prove sustained support.",
+    "last_verified_session_date": "2026-11-04",
+    "below_fixed_line_at_last_verified_quote": true,
+    "previous_close_below_fixed_line": true,
+    "reclaimed_intraday_today": true,
+    "exact_today_reclaim_tick_time": null
+  },
+  "frozen_prediction": {
+    "id": "2026-11-04-0938-L17415",
+    "symbol": "300502.SZ",
+    "scheduled_check_at": null,
+    "triggered_at": "2026-11-04T09:34:24.902+08:00",
+    "created_at": "2026-11-04T09:38:38+08:00",
+    "forecast_start": "2026-11-04T09:38:38+08:00",
+    "snapshot_time": "2026-11-04T09:37:54+08:00",
+    "threshold": 174.15,
+    "event": "Any traded price strictly below 174.15 after forecast_start and by deadline",
+    "comparison": "strictly_less_than",
+    "deadline": "2026-11-04T15:00:00+08:00",
+    "risk": "中等",
+    "numeric_probability": null,
+    "model_validated": false,
+    "status": "pending",
+    "settled": false,
+    "note": "Unscheduled09:34 intraday trigger, not10:30. Forecast starts at actual creation time. Threshold and deadline immutable. Trade breach and closing breach resolved separately only after expiry."
+  },
+  "risk_assessment": {
+    "risk": "中等",
+    "numeric_probability": null,
+    "probability_label": "暂无可靠百分比",
+    "reasons": [
+      "New low threshold frozen at 174.15, 178.49 last price; early-session remaining horizon is long.",
+      "Price above VWAP 177.18; fixed179.83 not reclaimed.",
+      "Eoptolink +2.96%, Innolight +2.04%, communications ETF +0.99%, ChiNext +0.92%.",
+      "USNov3 optics recovered unevenly; stock returns are sentiment evidence, not verified Eoptolink procurement or order changes.",
+      "Intraday high 180.40 shows179.83was briefly reclaimed, but latest quote is back below it; exact high/reclaim tick time unavailable.",
+      "Only opening minutes available; no robust lower-highs or contracting-pullback pattern established."
+    ],
+    "risk_increases_if": "跌回成交均价177.18下方且回踩成交加快、反弹高点降低，同业和通信ETF同步转弱；接近174.15时风险升高。",
+    "risk_decreases_if": "收回179.83后回踩不破、低点抬高且回踩成交减少，并维持强于创业板及通信ETF，风险降低；单次越线不算确认。",
+    "comparison_with_previous_formal_check": "Previous Nov3 afternoon qualitative risk was moderately high; today opening-price and overseas recovery evidence reduce immediate pressure, but horizons differ and this is not model calibration.",
+    "minute_samples": [
+      {
+        "provider_bucket": "0930",
+        "sample_price": 176.0,
+        "cumulative_volume_lots": 6187,
+        "cumulative_turnover_cny": 108891200.0
+      },
+      {
+        "provider_bucket": "0931",
+        "sample_price": 175.05,
+        "cumulative_volume_lots": 35668,
+        "cumulative_turnover_cny": 626709112.47
+      },
+      {
+        "provider_bucket": "0932",
+        "sample_price": 176.0,
+        "cumulative_volume_lots": 51202,
+        "cumulative_turnover_cny": 900258563.15
+      },
+      {
+        "provider_bucket": "0933",
+        "sample_price": 176.95,
+        "cumulative_volume_lots": 67268,
+        "cumulative_turnover_cny": 1184969026.91
+      },
+      {
+        "provider_bucket": "0934",
+        "sample_price": 177.0,
+        "cumulative_volume_lots": 79968,
+        "cumulative_turnover_cny": 1409802088.64
+      },
+      {
+        "provider_bucket": "0935",
+        "sample_price": 177.54,
+        "cumulative_volume_lots": 90944,
+        "cumulative_turnover_cny": 1604897239.38
+      },
+      {
+        "provider_bucket": "0936",
+        "sample_price": 178.09,
+        "cumulative_volume_lots": 101262,
+        "cumulative_turnover_cny": 1788385518.44
+      },
+      {
+        "provider_bucket": "0937",
+        "sample_price": 179.9,
+        "cumulative_volume_lots": 114672,
+        "cumulative_turnover_cny": 2028291644.02
+      },
+      {
+        "provider_bucket": "0938",
+        "sample_price": 178.49,
+        "cumulative_volume_lots": 128828,
+        "cumulative_turnover_cny": 2282575159.0
+      }
+    ],
+    "minute_caveat": "Provider minute buckets are sampled prices; current bucket may be incomplete or labelled ahead of quote second. Not exact first tick, high/low time, or complete minute OHLC. Pullback-volume confirmation unavailable in short opening sample."
+  },
+  "overseas": {
+    "prepared_at": "2026-11-04T01:38:03.886974+00:00",
+    "last_completed_us_normal_session": "2026-11-03",
+    "regular_close_quotes": [
+      {
+        "symbol": "LITE",
+        "name": "Lumentum",
+        "regular_close_usd": 680.16,
+        "regular_change_pct": -0.62,
+        "previous_regular_close_usd": 684.4,
+        "provider_timestamp_exchange": "2026-11-03 16:00:02",
+        "session_date": "2026-11-03",
+        "session": "regular_close",
+        "source": "https://qt.gtimg.cn/q=usLITE",
+        "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "迈威尔科技",
+        "regular_close_usd": 171.97,
+        "regular_change_pct": 0.33,
+        "previous_regular_close_usd": 171.41,
+        "provider_timestamp_exchange": "2026-11-03 16:00:02",
+        "session_date": "2026-11-03",
+        "session": "regular_close",
+        "source": "https://qt.gtimg.cn/q=usMRVL",
+        "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "regular_close_usd": 207.49,
+        "regular_change_pct": 3.77,
+        "previous_regular_close_usd": 199.95,
+        "provider_timestamp_exchange": "2026-11-03 16:04:39",
+        "session_date": "2026-11-03",
+        "session": "regular_close",
+        "source": "https://qt.gtimg.cn/q=usCOHR",
+        "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+      },
+      {
+        "symbol": "CIEN",
+        "name": "Ciena科技",
+        "regular_close_usd": 300.08,
+        "regular_change_pct": 5.54,
+        "previous_regular_close_usd": 284.34,
+        "provider_timestamp_exchange": "2026-11-03 16:04:39",
+        "session_date": "2026-11-03",
+        "session": "regular_close",
+        "source": "https://qt.gtimg.cn/q=usCIEN",
+        "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+      },
+      {
+        "symbol": "AAOI",
+        "name": "应用光电",
+        "regular_close_usd": 63.97,
+        "regular_change_pct": 2.35,
+        "previous_regular_close_usd": 62.5,
+        "provider_timestamp_exchange": "2026-11-03 16:00:02",
+        "session_date": "2026-11-03",
+        "session": "regular_close",
+        "source": "https://qt.gtimg.cn/q=usAAOI",
+        "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+      },
+      {
+        "symbol": "FN",
+        "name": "Fabrinet",
+        "regular_close_usd": 363.33,
+        "regular_change_pct": 15.45,
+        "previous_regular_close_usd": 314.7,
+        "provider_timestamp_exchange": "2026-11-03 16:04:39",
+        "session_date": "2026-11-03",
+        "session": "regular_close",
+        "source": "https://qt.gtimg.cn/q=usFN",
+        "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "英伟达",
+        "regular_close_usd": 206.69,
+        "regular_change_pct": 2.29,
+        "previous_regular_close_usd": 202.06,
+        "provider_timestamp_exchange": "2026-11-03 16:00:02",
+        "session_date": "2026-11-03",
+        "session": "regular_close",
+        "source": "https://qt.gtimg.cn/q=usNVDA",
+        "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+      },
+      {
+        "symbol": "AVGO",
+        "name": "博通",
+        "regular_close_usd": 332.13,
+        "regular_change_pct": 3.07,
+        "previous_regular_close_usd": 322.23,
+        "provider_timestamp_exchange": "2026-11-03 16:00:02",
+        "session_date": "2026-11-03",
+        "session": "regular_close",
+        "source": "https://qt.gtimg.cn/q=usAVGO",
+        "retrieved_at": "2026-11-04T01:35:38.031391+00:00"
+      }
+    ],
+    "sox": {
+      "regular_close": 10600.3962,
+      "change_pct": 2.63,
+      "session_date": "2026-11-03",
+      "provider_time_beijing": "2026-11-04T06:16:01+08:00",
+      "source": "https://hq.sinajs.cn/list=gb_sox",
+      "note": "Normal-session index closing value; provider timestamp after session not aftermarket index trading."
+    },
+    "interpretation_zh": "海外光通信在11月3日呈分化修复，六家中五涨一跌，不能称为持续普跌。FN业绩增长和LITE已披露采购承诺与此前订单全面取消的叙事不一致；但单家公司业绩与管理层承诺不能证明新易盛订单、利润或股价底部。",
+    "industry_evidence": [
+      {
+        "id": "FN_FY27Q1",
+        "event_date": "2026-11-02",
+        "asof_check": "2026-11-04",
+        "new_today": false,
+        "source_type": "primary_SEC_earnings_release",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001408710/000140871026000034/fn-20261102xex991q127.htm",
+        "facts": {
+          "revenue_usd_million": 1474.5,
+          "revenue_yoy_pct_rounded": 51,
+          "next_quarter_revenue_guidance_usd_billion": [
+            1.6,
+            1.65
+          ]
+        },
+        "realized_vs_guidance": "Reported quarter revenue realized; next quarter range is management guidance, not realized revenue.",
+        "interpretation_zh": "FN最新业绩与指引支持制造交付需求仍强，11月3日正常收盘涨15.45%；不可等同新易盛获单。",
+        "evidence_file": "/tmp/eoptolink-risk-20261103/fabrinet_results_clean.txt"
+      },
+      {
+        "id": "LITE_FY27Q1",
+        "event_date": "2026-11-02",
+        "new_today": false,
+        "source_type": "primary_SEC_earnings_release",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm",
+        "retrieved_at": "2026-11-04T01:37:16.635862+00:00",
+        "facts": {
+          "revenue_usd_million": 1262.6,
+          "revenue_yoy_pct": 136.5,
+          "next_quarter_revenue_guidance_usd_billion": [
+            1.575,
+            1.625
+          ],
+          "management_disclosed_NPO_CPO_purchase_commitments_over_usd_billion": 5
+        },
+        "interpretation_zh": "公司披露第二个主要NPO/CPO项目、采购承诺超过50亿美元；是管理层披露的承诺及未来交付，非已实现收入，亦非新易盛订单。技术路线变化需跟踪，不能据此认定可插拔产品立即被替代。",
+        "evidence_file": "/tmp/eoptolink-monitor-20261104-0934/lite_results_clean.txt"
+      },
+      {
+        "id": "MRVL_LITE_merger",
+        "event_date": "2026-11-02",
+        "new_today": false,
+        "source_type": "primary_company_release",
+        "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+        "facts": {
+          "all_stock_exchange_ratio_MRVL_per_LITE": 4.5,
+          "marvell_preliminary_revenue_guidance_midpoint": "maintained; range narrowed to+/-2% from+/-5%"
+        },
+        "interpretation_zh": "全换股并购会影响两股价差、套利与估值，LITE下跌不能直接推断光模块需求或新易盛丢单。并购尚有股东与监管等条件。",
+        "evidence_file": "/tmp/eoptolink-risk-20261103/marvell_ir_clean.txt"
+      },
+      {
+        "id": "AAOI_earnings_date",
+        "event_date": "2026-10-15",
+        "new_today": false,
+        "url": "https://investors.ao-inc.com/2026-10-15-Applied-Optoelectronics-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call",
+        "facts": {
+          "scheduled_results_date": "2026-11-05",
+          "scheduled_call_ET": "16:30"
+        },
+        "interpretation_zh": "三季报安排美东11月5日发布；本次未将其尚未发布的三季报当成既成事实。"
+      }
+    ],
+    "freshness": {
+      "equity_prices_refreshed": true,
+      "not_claiming_Nov4_US_regular_session": true,
+      "new_earnings_since_Nov3_previous_monitor": "FN and LITE reports were releasedNov2 and are dated evidence, not newNov4 releases. FN10Q filedNov3 verified through SEC submissions.",
+      "after_hours_quotes_used": false
+    },
+    "coverage_gaps": [
+      "Ciena IR and actual Coherent IR listing returned403; no claim of exhaustive new-disclosure coverage.",
+      "No independently verified new cancellation/delivery or supplier constraint announcement specific to Eoptolink was found within reviewed sources. Absence in reviewed sources is not proof of absence.",
+      "No new primary hyperscaler-capex announcement or trade-rule change was verified in this short check.",
+      "No probability model derived from overseas price moves."
+    ],
+    "sources": [
+      {
+        "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+        "raw_file": "/tmp/eoptolink-monitor-20261104-0934/us_quotes.txt"
+      },
+      {
+        "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+        "raw_file": "/tmp/eoptolink-monitor-20261104-0934/us_sina.txt"
+      },
+      {
+        "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+        "raw_file": "/tmp/eoptolink-monitor-20261104-0934/fn_submissions.txt"
+      },
+      {
+        "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+        "raw_file": "/tmp/eoptolink-monitor-20261104-0934/lite_submissions.txt"
+      }
+    ]
+  },
+  "company_disclosures": [
+    {
+      "company": "Eoptolink",
+      "code": "300502",
+      "id": "AN202611031831373503",
+      "published_at_beijing": "2026-11-03 17:18:06",
+      "type": "company_disclosed_realized_buyback",
+      "facts": {
+        "period": [
+          "2026-11-02",
+          "2026-11-03"
+        ],
+        "repurchased_shares": 2139100,
+        "amount_cny_excluding_fees": 399950447.22,
+        "price_high": 199.75,
+        "price_low": 172.05,
+        "earlier_buyback_to_20261031_cny": 199951026.96
+      },
+      "caveat": "Combined two-day realized repurchase, not all onNov3. Original plan is800-1000millionCNY (8-10亿元); do not confuse planned and completed purchases. No guaranteed support price.",
+      "source_url": "https://data.eastmoney.com/notices/detail/300502/AN202611031831373503.html",
+      "original_company_pdf_mirror": "https://pdf.dfcfw.com/pdf/H2_AN202611031831373503_1.pdf?1793726366000.pdf",
+      "source_type": "company_disclosure_reproduced_by_Eastmoney",
+      "archived_text": "eoptolink_content.txt"
+    },
+    {
+      "company": "Innolight",
+      "code": "300308",
+      "id": "AN202611031831382786",
+      "published_at_beijing": "2026-11-03 23:37:12",
+      "meeting_at_beijing": "2026-11-03 21:00-22:00",
+      "type": "primary_company_IR_management_statement",
+      "facts": {
+        "demand_claim": "Most overseas customers have not cut demand/orders; a few have product-mix adjustments; some1.6T demand higher.2027 aggregate outlook remains within prior forecast range.",
+        "orders_claim": "Management says most2027 orders cover full year; at leastone key customer gives strong2028 demand guidance; other customer guidance still collected.",
+        "delivery_claim": "Current customer pickup normal, no slowdown or unusual unshipped inventory.",
+        "broker_rumor_claim": "Company says it checked with unnamed foreign broker, which maintained rating/target; no independent broker report verified.",
+        "materials_claim": "Core material supply gradually improving; more shipment growth expected, forward-looking.",
+        "NPO_claim": "Expected rampH2 2027 and larger demand2028; forward-looking."
+      },
+      "caveat": "These are company management statements, not independently validated customer purchase orders, fulfilled revenue or earnings forecasts. IR record says not company profit forecast/performance guidance.",
+      "source_url": "https://data.eastmoney.com/notices/detail/300308/AN202611031831382786.html",
+      "original_company_pdf_mirror": "https://pdf.dfcfw.com/pdf/H2_AN202611031831382786_1.pdf?1793748999000.pdf",
+      "source_type": "company_disclosure_reproduced_by_Eastmoney",
+      "archived_text": "innolight_content.txt"
+    }
+  ],
+  "settled_predictions": [],
+  "settlement_audit": {
+    "checked_at": "2026-11-04T09:38:38+08:00",
+    "newly_expired_unsettled_count": 0,
+    "previously_completed_count": 1,
+    "previous_completed_id": "2026-11-03-1430-L17160",
+    "note": "Nov3 forecast already settled Nov4 09:02:06, result no strict break; not settled or counted twice. No outcome for current forecast before15:00."
+  },
+  "pending_predictions": [
+    {
+      "id": "2026-11-04-0938-L17415",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": null,
+      "triggered_at": "2026-11-04T09:34:24.902+08:00",
+      "created_at": "2026-11-04T09:38:38+08:00",
+      "forecast_start": "2026-11-04T09:38:38+08:00",
+      "snapshot_time": "2026-11-04T09:37:54+08:00",
+      "threshold": 174.15,
+      "event": "Any traded price strictly below 174.15 after forecast_start and by deadline",
+      "comparison": "strictly_less_than",
+      "deadline": "2026-11-04T15:00:00+08:00",
+      "risk": "中等",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "Unscheduled09:34 intraday trigger, not10:30. Forecast starts at actual creation time. Threshold and deadline immutable. Trade breach and closing breach resolved separately only after expiry."
+    }
+  ],
+  "data_gaps": [
+    "No validated statistical model applicable to event, time and remaining horizon.",
+    "Exact first tick of179.83breach and exact intraday high/low timestamps unavailable.",
+    "New announcement feed request returnedHTTP567; overnight issuer disclosures reused from verified morning records.",
+    "Opening minutes insufficient for reliable rebound-high and pullback-volume pattern confirmation."
+  ],
+  "sources": [
+    {
+      "id": "quotes",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006,sh000001",
+      "retrieved_at": "2026-11-04T01:35:40.437750+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/quotes.txt"
+    },
+    {
+      "id": "sina",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "retrieved_at": "2026-11-04T01:35:40.437470+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/sina.txt"
+    },
+    {
+      "id": "minute",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+      "retrieved_at": "2026-11-04T01:35:40.479954+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/minute.txt"
+    },
+    {
+      "id": "minute_peer",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300308",
+      "retrieved_at": "2026-11-04T01:35:40.478008+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/minute_peer.txt"
+    },
+    {
+      "id": "minute_etf",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh515880",
+      "retrieved_at": "2026-11-04T01:35:40.475148+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/minute_etf.txt"
+    },
+    {
+      "id": "sse_calendar",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "retrieved_at": "2026-11-04T01:35:40.710539+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/sse_calendar.txt"
+    },
+    {
+      "id": "szse_home",
+      "url": "https://www.szse.cn/",
+      "retrieved_at": "2026-11-04T01:35:40.722063+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/szse_home.txt"
+    },
+    {
+      "id": "announcements",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=5&page_index=1&ann_type=A&client_source=web&stock_list=300502",
+      "retrieved_at": "2026-11-04T01:35:40.334598+00:00",
+      "ok": false,
+      "raw_evidence_file": "evidence/2026-11-04-0938/announcements.txt"
+    },
+    {
+      "id": "quotes_final",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006,sh000001",
+      "retrieved_at": "2026-11-04T01:37:56.441454+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/quotes_final.txt"
+    },
+    {
+      "id": "sina_final",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "retrieved_at": "2026-11-04T01:37:56.441823+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/sina_final.txt"
+    },
+    {
+      "id": "minute_final",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+      "retrieved_at": "2026-11-04T01:37:56.471754+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/minute_final.txt"
+    },
+    {
+      "id": "minute_peer_final",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300308",
+      "retrieved_at": "2026-11-04T01:37:56.476842+00:00",
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-04-0938/minute_peer_final.txt"
+    }
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "prepared_at": "2026-11-04T09:38:38+08:00",
+    "delivery_status": "prepared_for_final_response",
+    "reason": "User requests a report on normal sessions and actual intraday assessment is actionable; early trigger disclosed, not backdated."
+  },
+  "raw_evidence_directory": "evidence/2026-11-04-0938"
+}

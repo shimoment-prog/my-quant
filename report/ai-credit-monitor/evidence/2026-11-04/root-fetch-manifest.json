@@ -1,0 +1,253 @@
+[
+  {
+    "name": "fred_ig",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM&cosd=2026-08-01",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "fred_hy",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2026-08-01",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "news_credit",
+    "url": "https://news.google.com/rss/search?q=%28Oracle+OR+CoreWeave%29+%28CDS+OR+%22credit+default%22+OR+bonds+OR+financing+OR+rating%29+after%3A2026-11-02+before%3A2026-11-05&hl=en-US&gl=US&ceid=US%3Aen",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:30:49.783427+00:00",
+    "bytes": 88045,
+    "archived": "/Users/richao11/myproject/my-quant/report/ai-credit-monitor/evidence/2026-11-04/news_credit.xml",
+    "items": [
+      {
+        "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd3QtV0VLODFaSmgzODZpOG05M1RUMEpZZTY2Y2lfc2RKUW96SmlCZ3l6NUVab3dJYzV3Q281WWV5WmJyYWNJRDA1OERtaTEzejI2cW9hN3dkX0lXRXZDQnZ4T3BSalNuNXlUOEZIRVdPc0lHcnllOWxMTFRNOG0tczFzT1hhaTlYMTViQXIzSUVHZDNhRTBhcUZpVHVhZUNIZWUzMlVpcEtTLWR3WnpR0gG0AUFVX3lxTE1TaVFyZXRhRUJfR3NJbVgxdFJZMkdkSWJqQXpSd0UwTmRVQTZPeHNmelVwanJvZ2hkRmp2Mjh0S0w0Q2hiZVBkZXc3OHp2aWFRUzcza3dGekduZ09IWDRPY2lwMVZzR1R6ZW9mS2h4V2N6c2JfZmlMcDl3MXVwRFdEand2LUdLQ1AzeGpxUzBMc2t0Vld5c25saXM3MXQteVFQMWt2X25mS0lvb2RBU3RoUTVYTA?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 14:03:44 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPd3QtV0VLODFaSmgzODZpOG05M1RUMEpZZTY2Y2lfc2RKUW96SmlCZ3l6NUVab3dJYzV3Q281WWV5WmJyYWNJRDA1OERtaTEzejI2cW9hN3dkX0lXRXZDQnZ4T3BSalNuNXlUOEZIRVdPc0lHcnllOWxMTFRNOG0tczFzT1hhaTlYMTViQXIzSUVHZDNhRTBhcUZpVHVhZUNIZWUzMlVpcEtTLWR3WnpR0gG0AUFVX3lxTE1TaVFyZXRhRUJfR3NJbVgxdFJZMkdkSWJqQXpSd0UwTmRVQTZPeHNmelVwanJvZ2hkRmp2Mjh0S0w0Q2hiZVBkZXc3OHp2aWFRUzcza3dGekduZ09IWDRPY2lwMVZzR1R6ZW9mS2h4V2N6c2JfZmlMcDl3MXVwRFdEand2LUdLQ1AzeGpxUzBMc2t0Vld5c25saXM3MXQteVFQMWt2X25mS0lvb2RBU3RoUTVYTA?oc=5\" target=\"_blank\">Oracle files to sell $20 billion in new stock, bonds to finance AI buildout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+        "source": "CNBC"
+      },
+      {
+        "title": "Oracle taps investors for $20 billion to finance AI expansion - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OVGUyeXVqQlVYMEx3TEhEVHY5ekZLX3paamdqNUF1ek80VE9RZVhuSFl2d3dsVkF6T2JyVFdJdF8xR1FuWU5EdU9OWG03SmRoLUloaEFCc3pGLXFxN0FyOUNnVkM3T3prb1NMYXBOanNGT2RMYjNxcTZsdUEwbGs?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 13:22:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9OVGUyeXVqQlVYMEx3TEhEVHY5ekZLX3paamdqNUF1ek80VE9RZVhuSFl2d3dsVkF6T2JyVFdJdF8xR1FuWU5EdU9OWG03SmRoLUloaEFCc3pGLXFxN0FyOUNnVkM3T3prb1NMYXBOanNGT2RMYjNxcTZsdUEwbGs?oc=5\" target=\"_blank\">Oracle taps investors for $20 billion to finance AI expansion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+        "source": "Reuters"
+      },
+      {
+        "title": "Oracle Is Offering $10 Billion of High-Grade Dollar Bonds - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMjVKRTIxUnozRUZmdmwyaWM1bWR2c1F2MjM1RE1qUVFMaEpoNndrSUNydGI2SmRpWS0tRGVxWHQ2OUxNYTZiaUttQWZ3RllpOGdwdnc1b3RoLTlSYkxlRVlyQzJrMDFkSUMtOHcwTlMxUEJ5RDAwdHc1MUY1TGQ2ZzYwVUtoZk5NbXZlUFJQMVRRRFdIdzJNQkNZc3JTM2twNXFTbjdTUUVrUFk?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 21:53:17 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMjVKRTIxUnozRUZmdmwyaWM1bWR2c1F2MjM1RE1qUVFMaEpoNndrSUNydGI2SmRpWS0tRGVxWHQ2OUxNYTZiaUttQWZ3RllpOGdwdnc1b3RoLTlSYkxlRVlyQzJrMDFkSUMtOHcwTlMxUEJ5RDAwdHc1MUY1TGQ2ZzYwVUtoZk5NbXZlUFJQMVRRRFdIdzJNQkNZc3JTM2twNXFTbjdTUUVrUFk?oc=5\" target=\"_blank\">Oracle Is Offering $10 Billion of High-Grade Dollar Bonds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "Oracle stock slides as it borrows another $10 billion for AI spending - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcEkwTHNGRGN0eXhLdTFjTU9GaDlPVXFqQm9yek9vVGRUU3NYRTcyQ0dlZ09ydWNfVW9uOFp2SUZxRlNJSTR5bXNHOFlZMUtrSThmZEw3TlJYbWZ3WG4zcDlSME5KcW9hQjdadUIteUh1VWp2c2VrOHJlamFNNDhSV0pxY2gxd3g3bnVoaGxlLTgxWVhxV3JudzR4Q3N1TWhwVFAxZHdHd1NMSEpWUnZlMGhSSWtjUjZIeUxpMUVydEw5NzA?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 22:03:49 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcEkwTHNGRGN0eXhLdTFjTU9GaDlPVXFqQm9yek9vVGRUU3NYRTcyQ0dlZ09ydWNfVW9uOFp2SUZxRlNJSTR5bXNHOFlZMUtrSThmZEw3TlJYbWZ3WG4zcDlSME5KcW9hQjdadUIteUh1VWp2c2VrOHJlamFNNDhSV0pxY2gxd3g3bnVoaGxlLTgxWVhxV3JudzR4Q3N1TWhwVFAxZHdHd1NMSEpWUnZlMGhSSWtjUjZIeUxpMUVydEw5NzA?oc=5\" target=\"_blank\">Oracle stock slides as it borrows another $10 billion for AI spending</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "AI is making CDS great again - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYcWpuaTdlV1ZGdkVrbnY3eTI3cUtVSzFmYmg5OWxRSlFCNUdmc0xYV0VwQk9OSHo4WHFwN2R6Sl81T0hiUDY2T0NwUkZfdmQwbFViWHQxSi1oMVNPSWNZbUl1Njh1bEhGaVlBTGZ3cjc?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 06:00:47 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBYcWpuaTdlV1ZGdkVrbnY3eTI3cUtVSzFmYmg5OWxRSlFCNUdmc0xYV0VwQk9OSHo4WHFwN2R6Sl81T0hiUDY2T0NwUkZfdmQwbFViWHQxSi1oMVNPSWNZbUl1Njh1bEhGaVlBTGZ3cjc?oc=5\" target=\"_blank\">AI is making CDS great again</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Oracle: Recovery Is Overdue (Rating Upgrade) (NYSE:ORCL) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNlFpa1pGdXhSay1HekZ2SXVGZ2R5TVRFSllYblA0VTBFRnN0V2dKbThkN0dSUFFmdjltTkNzNnRIUkN3QWdvZGVOOFVtckVDTHNuYmNLNGVRNVZVT1NaeWplNjlIZVNrdFFyUXRySEVkSC1lb3htSXR0TC14c0pER1dCOEloVVg3Nmc?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 18:52:45 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNNlFpa1pGdXhSay1HekZ2SXVGZ2R5TVRFSllYblA0VTBFRnN0V2dKbThkN0dSUFFmdjltTkNzNnRIUkN3QWdvZGVOOFVtckVDTHNuYmNLNGVRNVZVT1NaeWplNjlIZVNrdFFyUXRySEVkSC1lb3htSXR0TC14c0pER1dCOEloVVg3Nmc?oc=5\" target=\"_blank\">Oracle: Recovery Is Overdue (Rating Upgrade) (NYSE:ORCL)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>",
+        "source": "Seeking Alpha"
+      },
+      {
+        "title": "AI Infra Financing [2026]: Oracle $50B Tops NVIDIA $25B - shattered.io",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFFNeUg0eEdKWkhEQloyMVQ5ZnBTdWZyLVVPa1psLWlNZ2lOYk0xZDJmMVNGam5IdGtpWkpNOV90aG5NUnZFVEw1WHlMLVRxZUd6ZGZxaHNpMFVJUG1EVlY0dHVPRTMya0I0TDJkcXFLOTM1andxRWg5SjlyZDZVVVhiUHdRemxwVEIxS3dTNE9HdWVINXZj?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 15:17:44 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFFNeUg0eEdKWkhEQloyMVQ5ZnBTdWZyLVVPa1psLWlNZ2lOYk0xZDJmMVNGam5IdGtpWkpNOV90aG5NUnZFVEw1WHlMLVRxZUd6ZGZxaHNpMFVJUG1EVlY0dHVPRTMya0I0TDJkcXFLOTM1andxRWg5SjlyZDZVVVhiUHdRemxwVEIxS3dTNE9HdWVINXZj?oc=5\" target=\"_blank\">AI Infra Financing [2026]: Oracle $50B Tops NVIDIA $25B</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>",
+        "source": "shattered.io"
+      },
+      {
+        "title": "Oracle is raising $20 billion in bonds and stock for AI buildout - Quartz",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TdGk5UWduQndyZWR4U2g0aWtSVjYxV2NOZFFmRWUxNVQwTGxVRFRqeTFJQUxkeXJobkxrLWFNSWJURy0wcExUUUdnR2ViQ1phTF9TUG1jY0R6b1N5TVV5VkpzM3M1WTg5a1E?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 19:17:35 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9TdGk5UWduQndyZWR4U2g0aWtSVjYxV2NOZFFmRWUxNVQwTGxVRFRqeTFJQUxkeXJobkxrLWFNSWJURy0wcExUUUdnR2ViQ1phTF9TUG1jY0R6b1N5TVV5VkpzM3M1WTg5a1E?oc=5\" target=\"_blank\">Oracle is raising $20 billion in bonds and stock for AI buildout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Quartz</font>",
+        "source": "Quartz"
+      },
+      {
+        "title": "5 Days After Promising to Limit Fundraising, Oracle Hit the Limit - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS1VERnJaY3dwWWFnSEljSlprWUlpaENORGdORm9Rckdrd3dqVlhUMmt5OUdqajFhQzdlbjZucFJBRGlrbW5fTlcxSzZmU3JDSU9seVQ3Z2d5SlJsb0dVTjA1NXlTSVVDOFp5TDdsRzZyTThYZHJ4NWFFak8zSktRbEh5SV9heEhFNkRWNUNmZ29VVTY2aUVlX20zNU5jbE1hVDJUQThkZHRHWUVp?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 12:19:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQS1VERnJaY3dwWWFnSEljSlprWUlpaENORGdORm9Rckdrd3dqVlhUMmt5OUdqajFhQzdlbjZucFJBRGlrbW5fTlcxSzZmU3JDSU9seVQ3Z2d5SlJsb0dVTjA1NXlTSVVDOFp5TDdsRzZyTThYZHJ4NWFFak8zSktRbEh5SV9heEhFNkRWNUNmZ29VVTY2aUVlX20zNU5jbE1hVDJUQThkZHRHWUVp?oc=5\" target=\"_blank\">5 Days After Promising to Limit Fundraising, Oracle Hit the Limit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+        "source": "24/7 Wall St."
+      },
+      {
+        "title": "Oracle Stocks Gain 4.31% With $20 Billion Financing Package in F - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR1hPOEIyTnZNaFN1aGlzOXNPcXAxZGNlUm5vVFd2TmNUTkdZY3ZIQXNYNXY5S014Z2F5WFBTME9hWFhTbVdJX2JPd1RWYTNibkowQU1nSEFwOHpIVzBZRVJwZmZYTHUzZHc2azh1ODR3WG42UUYydEg5bi1Ya3JxT0ppXzZMa05NeEFoVGtPd0pPSERVZXo0d2dFV2FpdmtqXzhZaGZqaw?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 18:21:10 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOR1hPOEIyTnZNaFN1aGlzOXNPcXAxZGNlUm5vVFd2TmNUTkdZY3ZIQXNYNXY5S014Z2F5WFBTME9hWFhTbVdJX2JPd1RWYTNibkowQU1nSEFwOHpIVzBZRVJwZmZYTHUzZHc2azh1ODR3WG42UUYydEg5bi1Ya3JxT0ppXzZMa05NeEFoVGtPd0pPSERVZXo0d2dFV2FpdmtqXzhZaGZqaw?oc=5\" target=\"_blank\">Oracle Stocks Gain 4.31% With $20 Billion Financing Package in F</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>",
+        "source": "GuruFocus"
+      },
+      {
+        "title": "Bond Market Signals Distress About CoreWeave. Here's How To Profit From It. - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYWtMOElIQzBrSzBMMkFtV0ZtdDVsQm1RQlRrX1BLbjdMMTVOWUtpTXYxUk04VGMzNGtTemlmcnpPV2x5RDFtWFhxVmZSc1p4OFlkQ1hpaGlpNjZ0WTBKbnlTRTEtcDZDVDdHSlpmcmkyMjhGMk9hcy1HZGJNMHpDVkRIMzIwSE9Mc2hXWTlxWXh5dw?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 19:34:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPYWtMOElIQzBrSzBMMkFtV0ZtdDVsQm1RQlRrX1BLbjdMMTVOWUtpTXYxUk04VGMzNGtTemlmcnpPV2x5RDFtWFhxVmZSc1p4OFlkQ1hpaGlpNjZ0WTBKbnlTRTEtcDZDVDdHSlpmcmkyMjhGMk9hcy1HZGJNMHpDVkRIMzIwSE9Mc2hXWTlxWXh5dw?oc=5\" target=\"_blank\">Bond Market Signals Distress About CoreWeave. Here's How To Profit From It.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investor's Business Daily</font>",
+        "source": "Investor's Business Daily"
+      },
+      {
+        "title": "Oracle Looks to Raise $20 Billion to Fund AI Ambitions - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOHhRVEJlYlluMGRWVGJtdDdjRTRwYjJWNVFDanFIYnVsd1hCYy11R0V6Uks3bEtYY0tHX051Z2pwdnNIaDNsREE4Q1Byb1h1YkZLQzlVY0Jva3lPbXA2TXpjMG9RVmxGUmswT0piZzF2TXdBaWxwcWFJRi11MWMzdTAxSnRTM2xuYVIxeVZicW5ndWk2?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 15:00:16 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNOHhRVEJlYlluMGRWVGJtdDdjRTRwYjJWNVFDanFIYnVsd1hCYy11R0V6Uks3bEtYY0tHX051Z2pwdnNIaDNsREE4Q1Byb1h1YkZLQzlVY0Jva3lPbXA2TXpjMG9RVmxGUmswT0piZzF2TXdBaWxwcWFJRi11MWMzdTAxSnRTM2xuYVIxeVZicW5ndWk2?oc=5\" target=\"_blank\">Oracle Looks to Raise $20 Billion to Fund AI Ambitions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+        "source": "WSJ"
+      },
+      {
+        "title": "Oracle Stock Forecast: ORCL Breaks $123.47 Support as a $20 Billion Raise Puts Its Credit Rating in Focus - TradingKey",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQTGdDbjNCQjhxazRXNlZXYm0tZzk2QjQ2TWdwcndMM2FoWHlfZ0xMODBybUZTYWk2RDV5TmNPYXdjM1ZRcUJzTlVlYlFNcXBfZW5jT19SSElTMW05cDZvMWR2Nldqa2ZwaDZQX3Z6clZNN1VXbDNTUm1OVFo4dk40QUJuYW5FdGRTSGxmb0NoczNUaUVUSl9yMVplckJScm8tLVBUS3dGTkRpNkVuNlhKVnFCTDNoZzhLS1o4MHFfd2NKbVFKZEtaZnkwZDRjOTQ0NUFrRnd1RjdJbFpQT2NnZ0FXZHZlaDlfOHdxaUpNSVU?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 12:34:59 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxQTGdDbjNCQjhxazRXNlZXYm0tZzk2QjQ2TWdwcndMM2FoWHlfZ0xMODBybUZTYWk2RDV5TmNPYXdjM1ZRcUJzTlVlYlFNcXBfZW5jT19SSElTMW05cDZvMWR2Nldqa2ZwaDZQX3Z6clZNN1VXbDNTUm1OVFo4dk40QUJuYW5FdGRTSGxmb0NoczNUaUVUSl9yMVplckJScm8tLVBUS3dGTkRpNkVuNlhKVnFCTDNoZzhLS1o4MHFfd2NKbVFKZEtaZnkwZDRjOTQ0NUFrRnd1RjdJbFpQT2NnZ0FXZHZlaDlfOHdxaUpNSVU?oc=5\" target=\"_blank\">Oracle Stock Forecast: ORCL Breaks $123.47 Support as a $20 Billion Raise Puts Its Credit Rating in Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>",
+        "source": "TradingKey"
+      },
+      {
+        "title": "Oracle Makes Massive $20 Billion AI Funding Move - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcFJQTHVOUWFUU255V2RfaUMtZFNodEFMYnVYVk14TlJfMkIzLUk0dG9fOFV3RENqYkRQX3lNMTF5Vl9OTjR0X1lCdlZ3ajlTZEhNb2hEcjctRGpBOHJLdW5qX09nRlhNMTBObEpQR2Z5ajBpeG03ZHhzeW1zMG1hcHl5TUI5NnE3UENIaGxLajEyTUxCRHgwempzdw?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 15:26:30 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQcFJQTHVOUWFUU255V2RfaUMtZFNodEFMYnVYVk14TlJfMkIzLUk0dG9fOFV3RENqYkRQX3lNMTF5Vl9OTjR0X1lCdlZ3ajlTZEhNb2hEcjctRGpBOHJLdW5qX09nRlhNMTBObEpQR2Z5ajBpeG03ZHhzeW1zMG1hcHl5TUI5NnE3UENIaGxLajEyTUxCRHgwempzdw?oc=5\" target=\"_blank\">Oracle Makes Massive $20 Billion AI Funding Move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "Applied Digital Slumps 8% as CEO Says 800 MW Still Needs Financing; Nebius and CoreWeave Fall 6% - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjhpZ2xHMjNKb1FjUER0b3NQQUZxZ3kyMXh6MTFxRi1RV0VXMFRCTjU4Uk9MaURBMHNhNzVYZWFnQjZWR05XVHhNVnVhdVhxNkJRNjVlbG9peTR2SWlta284MU5xaWlBTUJFdEFHYmhGV1FWM1g4LXQwWk9sTXF5b0RWd09OTldCNm1qa2tIb1ZSNklGZHM1aQ?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 19:54:03 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjhpZ2xHMjNKb1FjUER0b3NQQUZxZ3kyMXh6MTFxRi1RV0VXMFRCTjU4Uk9MaURBMHNhNzVYZWFnQjZWR05XVHhNVnVhdVhxNkJRNjVlbG9peTR2SWlta284MU5xaWlBTUJFdEFHYmhGV1FWM1g4LXQwWk9sTXF5b0RWd09OTldCNm1qa2tIb1ZSNklGZHM1aQ?oc=5\" target=\"_blank\">Applied Digital Slumps 8% as CEO Says 800 MW Still Needs Financing; Nebius and CoreWeave Fall 6%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+        "source": "Yahoo Finance"
+      }
+    ]
+  },
+  {
+    "name": "news_chain",
+    "url": "https://news.google.com/rss/search?q=%22AI%22+%28%22private+credit%22+OR+default+OR+%22data+center%22+OR+%22data+centre%22%29+%28debt+OR+delay+OR+impairment+OR+financing%29+after%3A2026-11-02+before%3A2026-11-05&hl=en-US&gl=US&ceid=US%3Aen",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:30:49.871273+00:00",
+    "bytes": 32000,
+    "archived": "/Users/richao11/myproject/my-quant/report/ai-credit-monitor/evidence/2026-11-04/news_chain.xml",
+    "items": [
+      {
+        "title": "Applied Digital Surges 9% as AI Data Center Stocks Rebound From Financing Jitters; IREN Jumps 9%, Nebius Climbs 7% - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUXBfVXNJeU9idHFIOXVmcjdXVUhwenZSQWwxb05hN0FJYTkxOVZRUk80UVV2UnNOeVl1bHZVbU8xcFFrakQ3c0xaOXZCUTZteTVGN0FkeFl3N25WZ0dmVGtXcTU1eTFyS1U1NEF0Yl9pZ1Bya0VJTmk3Zm5sWW1wclRhdkRIbHUzMGN2WkZ2azlOa0lZRXMweS1mc3B2S0FwMW5HVUtyaG1nYTgxa2xDdWc4emo5NnNNb1B3Qk8ydUxHT1RLeE9NUkxxUHdnSlllaldrZklpc2dHU0FRZjZVVHhIeC1leHgw?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 17:53:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUXBfVXNJeU9idHFIOXVmcjdXVUhwenZSQWwxb05hN0FJYTkxOVZRUk80UVV2UnNOeVl1bHZVbU8xcFFrakQ3c0xaOXZCUTZteTVGN0FkeFl3N25WZ0dmVGtXcTU1eTFyS1U1NEF0Yl9pZ1Bya0VJTmk3Zm5sWW1wclRhdkRIbHUzMGN2WkZ2azlOa0lZRXMweS1mc3B2S0FwMW5HVUtyaG1nYTgxa2xDdWc4emo5NnNNb1B3Qk8ydUxHT1RLeE9NUkxxUHdnSlllaldrZklpc2dHU0FRZjZVVHhIeC1leHgw?oc=5\" target=\"_blank\">Applied Digital Surges 9% as AI Data Center Stocks Rebound From Financing Jitters; IREN Jumps 9%, Nebius Climbs 7%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>",
+        "source": "24/7 Wall St."
+      },
+      {
+        "title": "US tech giants' hidden AI debt swells 90% to $3.2tn in 6 months - Nikkei Asia",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2ZaWEJmWkg2SkRXRVB0Y3VReEpxb0FWYlFIT3ZoMllPSWRPNjlpcGdrTjdET19TUjdXXzhIdzZpcnFucXB1dUNmZGpmSlBwYXRxR0dZNXRPMk5XeVlKTTUtb2ZaODlJYUh4WlA3NFp5MmswdEhnanFsRF95dlVYNDBJUWxTOWdWSmp6eWxPNE1tNUJXdU1iZVQxaDRpdEVYMG9XdEpQS1U4aFo3aFdXUHduZjlRMlFJelhwMEJLSTZ0cWx0NGFF?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 20:02:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2ZaWEJmWkg2SkRXRVB0Y3VReEpxb0FWYlFIT3ZoMllPSWRPNjlpcGdrTjdET19TUjdXXzhIdzZpcnFucXB1dUNmZGpmSlBwYXRxR0dZNXRPMk5XeVlKTTUtb2ZaODlJYUh4WlA3NFp5MmswdEhnanFsRF95dlVYNDBJUWxTOWdWSmp6eWxPNE1tNUJXdU1iZVQxaDRpdEVYMG9XdEpQS1U4aFo3aFdXUHduZjlRMlFJelhwMEJLSTZ0cWx0NGFF?oc=5\" target=\"_blank\">US tech giants' hidden AI debt swells 90% to $3.2tn in 6 months</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+        "source": "Nikkei Asia"
+      },
+      {
+        "title": "Exclusive / Blackstone-backed data center operator tests AI debt fears - Semafor",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3RPYVJTQ0tRT3JxNXhaTkZFODVZSDNpOHB1T0lPMUpLT3RHSG12eW8ycVZPY1hIRm5CcTh0UEYxZmVrYlZKMm4xOTBGWkJ4TlZsUUpzRGluS1pMYV8tdC1US3M0Q2t0dkUwZzJibGxQLXgyaVA4eEhWcVRuU2lXZ21CdFladjZLZ0QwWkZoNnVVRGp4ZFFfYWctUFRIcHFKRzdZ?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 12:44:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3RPYVJTQ0tRT3JxNXhaTkZFODVZSDNpOHB1T0lPMUpLT3RHSG12eW8ycVZPY1hIRm5CcTh0UEYxZmVrYlZKMm4xOTBGWkJ4TlZsUUpzRGluS1pMYV8tdC1US3M0Q2t0dkUwZzJibGxQLXgyaVA4eEhWcVRuU2lXZ21CdFladjZLZ0QwWkZoNnVVRGp4ZFFfYWctUFRIcHFKRzdZ?oc=5\" target=\"_blank\">Exclusive / Blackstone-backed data center operator tests AI debt fears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Semafor</font>",
+        "source": "Semafor"
+      },
+      {
+        "title": "Stock Sell-Off, Bond Market Jitters Signal Financing Trouble For AI Data Centers - Bisnow",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUlZyaFFFcjBvMG5RZHE4aV9sdTBqYlk0T3haTV9CbXlLcW9yNTBpeDU5Wk1RNm5QZmZZeF9lQ2N6dTFQSFM1ekdyZTdpTkQxdlVNem9qak5zQjVMSE91WVJOR0F0NFVNRk9tWXlMbmFIaV9aNHZKN3lpRXczbmFDV19fSndUSC13NUNjNFg5eFA0TG9hOWZQQWdBNHpMWktUREFBQmR3WHNXTnNod0pLaHZkTWRJRVdlcnc?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 21:36:24 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNUlZyaFFFcjBvMG5RZHE4aV9sdTBqYlk0T3haTV9CbXlLcW9yNTBpeDU5Wk1RNm5QZmZZeF9lQ2N6dTFQSFM1ekdyZTdpTkQxdlVNem9qak5zQjVMSE91WVJOR0F0NFVNRk9tWXlMbmFIaV9aNHZKN3lpRXczbmFDV19fSndUSC13NUNjNFg5eFA0TG9hOWZQQWdBNHpMWktUREFBQmR3WHNXTnNod0pLaHZkTWRJRVdlcnc?oc=5\" target=\"_blank\">Stock Sell-Off, Bond Market Jitters Signal Financing Trouble For AI Data Centers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bisnow</font>",
+        "source": "Bisnow"
+      },
+      {
+        "title": "Adani Group Said to Seek $1.5 Billion for Data Center Financing - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnZhSzFITk9tTW9WQXhYaGtxRDRvemJVMktJOGR4TG1VQkxSZWhicVhyT3p5bHdLeF8tNFV5Tmd5cFMydEtOWUllTHRSb1VraEg4SUl2blpKRlpRY3hVdVdJZEJnODBITEpvYVQ3VDFhMThzZXpYYWRoNnA2aF9DS09sRG5vVk9Ya2JRUXJISkRPUUUwUXRWMkVDVjdCajFGbUVySzFWVEc4UlJZdjUxZkl4cw?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 02:31:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnZhSzFITk9tTW9WQXhYaGtxRDRvemJVMktJOGR4TG1VQkxSZWhicVhyT3p5bHdLeF8tNFV5Tmd5cFMydEtOWUllTHRSb1VraEg4SUl2blpKRlpRY3hVdVdJZEJnODBITEpvYVQ3VDFhMThzZXpYYWRoNnA2aF9DS09sRG5vVk9Ya2JRUXJISkRPUUUwUXRWMkVDVjdCajFGbUVySzFWVEc4UlJZdjUxZkl4cw?oc=5\" target=\"_blank\">Adani Group Said to Seek $1.5 Billion for Data Center Financing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "Oracle stock slides as it borrows another $10 billion for AI spending - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcEkwTHNGRGN0eXhLdTFjTU9GaDlPVXFqQm9yek9vVGRUU3NYRTcyQ0dlZ09ydWNfVW9uOFp2SUZxRlNJSTR5bXNHOFlZMUtrSThmZEw3TlJYbWZ3WG4zcDlSME5KcW9hQjdadUIteUh1VWp2c2VrOHJlamFNNDhSV0pxY2gxd3g3bnVoaGxlLTgxWVhxV3JudzR4Q3N1TWhwVFAxZHdHd1NMSEpWUnZlMGhSSWtjUjZIeUxpMUVydEw5NzA?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 22:03:49 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcEkwTHNGRGN0eXhLdTFjTU9GaDlPVXFqQm9yek9vVGRUU3NYRTcyQ0dlZ09ydWNfVW9uOFp2SUZxRlNJSTR5bXNHOFlZMUtrSThmZEw3TlJYbWZ3WG4zcDlSME5KcW9hQjdadUIteUh1VWp2c2VrOHJlamFNNDhSV0pxY2gxd3g3bnVoaGxlLTgxWVhxV3JudzR4Q3N1TWhwVFAxZHdHd1NMSEpWUnZlMGhSSWtjUjZIeUxpMUVydEw5NzA?oc=5\" target=\"_blank\">Oracle stock slides as it borrows another $10 billion for AI spending</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "AI is making CDS great again - Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYcWpuaTdlV1ZGdkVrbnY3eTI3cUtVSzFmYmg5OWxRSlFCNUdmc0xYV0VwQk9OSHo4WHFwN2R6Sl81T0hiUDY2T0NwUkZfdmQwbFViWHQxSi1oMVNPSWNZbUl1Njh1bEhGaVlBTGZ3cjc?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 06:00:47 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBYcWpuaTdlV1ZGdkVrbnY3eTI3cUtVSzFmYmg5OWxRSlFCNUdmc0xYV0VwQk9OSHo4WHFwN2R6Sl81T0hiUDY2T0NwUkZfdmQwbFViWHQxSi1oMVNPSWNZbUl1Njh1bEhGaVlBTGZ3cjc?oc=5\" target=\"_blank\">AI is making CDS great again</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+        "source": "Financial Times"
+      },
+      {
+        "title": "Marvell doubles down on AI boom with costly $115 billion Lumentum deal - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 20:21:51 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5\" target=\"_blank\">Marvell doubles down on AI boom with costly $115 billion Lumentum deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+        "source": "Reuters"
+      },
+      {
+        "title": "Billionaire Investor Bets on Ares Management as It Eyes AI Data Center, Power Financing - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOXVaRnZZWG5RTk1CY1JzWWlaMVRfbnhxY00wSlJGMGRvZGx0dlpnbzZvUjREeWpWUlhqOVRXdVd6akJRRmY3aEVPa3MwV3U0VEVyMTJJaGZ4N1FLT1cxMmUwOHItT2U5bXBOYzkzRUxLY29lRHBSdGR1RHdTX0hLNHo4aVA2eVJVYllSLUpVOU03dlFZUm9GcHZwYWFsUHpGeTQ5bkNHcXRnNHpsN1NHWm9OS2VIbGtmQWlObHBJZDgtaXJRMHI2VXJ4Q2NIUlgzRzBlbEcwSWlGcGo0?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 19:05:10 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOXVaRnZZWG5RTk1CY1JzWWlaMVRfbnhxY00wSlJGMGRvZGx0dlpnbzZvUjREeWpWUlhqOVRXdVd6akJRRmY3aEVPa3MwV3U0VEVyMTJJaGZ4N1FLT1cxMmUwOHItT2U5bXBOYzkzRUxLY29lRHBSdGR1RHdTX0hLNHo4aVA2eVJVYllSLUpVOU03dlFZUm9GcHZwYWFsUHpGeTQ5bkNHcXRnNHpsN1NHWm9OS2VIbGtmQWlObHBJZDgtaXJRMHI2VXJ4Q2NIUlgzRzBlbEcwSWlGcGo0?oc=5\" target=\"_blank\">Billionaire Investor Bets on Ares Management as It Eyes AI Data Center, Power Financing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>",
+        "source": "Benzinga"
+      },
+      {
+        "title": "Elliott Warns Debt-Funded AI Spending Adds to Bear-Market Risks - TOKENPOST",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XdVhsUkRSb0VvbVN6TnY0QWZBQWJXZmJEMUFtck9jQzRWQThCc0VERW1uR2ZJZEEzRS1fYUZlWTIwMVQyd3Nyb2c5Z2g2M1VwZGtrRU9zUUpoUQ?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 06:11:17 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XdVhsUkRSb0VvbVN6TnY0QWZBQWJXZmJEMUFtck9jQzRWQThCc0VERW1uR2ZJZEEzRS1fYUZlWTIwMVQyd3Nyb2c5Z2g2M1VwZGtrRU9zUUpoUQ?oc=5\" target=\"_blank\">Elliott Warns Debt-Funded AI Spending Adds to Bear-Market Risks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TOKENPOST</font>",
+        "source": "TOKENPOST"
+      },
+      {
+        "title": "AI Stocks Face Possible Ballot-Box Backlash As Financing Fears Mount - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQck1JWkRIMEljUUdKUTBnTnduWmJGUS1KWENHZ2FRbFFLMGlvUFYtRHkwMWxobzFySTFPWFRhU202eU5FRVgya2p2RlRLYTNNVlpWUGdCcXcxR3pmSG1XVlZmYkN6Q1VoblhiaDZkclg3cW1xN29Zei10YVZ6bGVnQjljclMxamU5b3R3RHJaeGRSWmZHTDVtcGk4dWNTS3BTNHhNVg?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 13:42:00 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQck1JWkRIMEljUUdKUTBnTnduWmJGUS1KWENHZ2FRbFFLMGlvUFYtRHkwMWxobzFySTFPWFRhU202eU5FRVgya2p2RlRLYTNNVlpWUGdCcXcxR3pmSG1XVlZmYkN6Q1VoblhiaDZkclg3cW1xN29Zei10YVZ6bGVnQjljclMxamU5b3R3RHJaeGRSWmZHTDVtcGk4dWNTS3BTNHhNVg?oc=5\" target=\"_blank\">AI Stocks Face Possible Ballot-Box Backlash As Financing Fears Mount</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investor's Business Daily</font>",
+        "source": "Investor's Business Daily"
+      },
+      {
+        "title": "Oracle Expects Capex To Fall In FY29 - I’m Bullish, But The Debt Warrants Patience (ORCL) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPal9zLXMzcnNBWklVSHR2TU1HZmw5S0hMaXFfeURDel9xREV4Vm1sSzFmVk4tUHpnMGQ4dHZ5cE56R3ZIaUh4TUpNNzFlMFV6ZEx0VkNvdFNuRU1TeXp1M29HeFJTeU9mbTVWR25MOUNwdlpza2wtZXBhSU5PbzlqZzdGNjZYRnlmYXNWNzluR2xyVXhhRElKOC1hTGY1Vk9aMEdtaUNJalFNbHFuNUVQTHlmcmhiWV9TMVU4cw?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 17:47:55 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPal9zLXMzcnNBWklVSHR2TU1HZmw5S0hMaXFfeURDel9xREV4Vm1sSzFmVk4tUHpnMGQ4dHZ5cE56R3ZIaUh4TUpNNzFlMFV6ZEx0VkNvdFNuRU1TeXp1M29HeFJTeU9mbTVWR25MOUNwdlpza2wtZXBhSU5PbzlqZzdGNjZYRnlmYXNWNzluR2xyVXhhRElKOC1hTGY1Vk9aMEdtaUNJalFNbHFuNUVQTHlmcmhiWV9TMVU4cw?oc=5\" target=\"_blank\">Oracle Expects Capex To Fall In FY29 - I’m Bullish, But The Debt Warrants Patience (ORCL)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>",
+        "source": "Seeking Alpha"
+      },
+      {
+        "title": "AMD stock jumps 8% as Q3 earnings beat estimates on AI demand, data center revenue surged 97% - Beinsure",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ04zUE16ekxGajV5QTZpc3lFOEtaY3FJbWNfVUhEb2pPWWtHOUdxcUVfdmgySXRDdlR6Qi13S0tfZ3ZXSjJyR1RYNDdEOERvYmlVcTR1SGR2aWhlUG9hOFVOWFZTYlFKaWNIY0YzeWxfam5XTmZ2STNza0lPdUJRQzhENUNMcTlxNVRvbzZldVA?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 22:31:34 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ04zUE16ekxGajV5QTZpc3lFOEtaY3FJbWNfVUhEb2pPWWtHOUdxcUVfdmgySXRDdlR6Qi13S0tfZ3ZXSjJyR1RYNDdEOERvYmlVcTR1SGR2aWhlUG9hOFVOWFZTYlFKaWNIY0YzeWxfam5XTmZ2STNza0lPdUJRQzhENUNMcTlxNVRvbzZldVA?oc=5\" target=\"_blank\">AMD stock jumps 8% as Q3 earnings beat estimates on AI demand, data center revenue surged 97%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Beinsure</font>",
+        "source": "Beinsure"
+      },
+      {
+        "title": "LS Cable Debt Jumps 1 Trillion Won as AI Boom Drives Spending - Seoul Economic Daily",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc0hmRmNhUjlUT0F3V2Z6NWNOdjY1UXF0MDhhVm1qeDRHRG01TThidG1oYnRvZFY4bE5MMVYwMGFTbW1PMUdnZkxreWFXZXBUQmVWTk82VlNoYXBKWUxfck9POGc5WklWaWxNa3JVSmpsSkM4dXRwT01WTmVmNTYxclV5djBHdmd4dmNXazN2dzhiT2FkQXBJTFZB?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 08:45:13 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOc0hmRmNhUjlUT0F3V2Z6NWNOdjY1UXF0MDhhVm1qeDRHRG01TThidG1oYnRvZFY4bE5MMVYwMGFTbW1PMUdnZkxreWFXZXBUQmVWTk82VlNoYXBKWUxfck9POGc5WklWaWxNa3JVSmpsSkM4dXRwT01WTmVmNTYxclV5djBHdmd4dmNXazN2dzhiT2FkQXBJTFZB?oc=5\" target=\"_blank\">LS Cable Debt Jumps 1 Trillion Won as AI Boom Drives Spending</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>",
+        "source": "Seoul Economic Daily"
+      },
+      {
+        "title": "Private Credit Lenders Disagree on Debt Price for 12% of Firms - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX3d0ZmVJV2FwU0NhQzBBWXk5VXlOLTZIMUZiX0dCTmVCLVJ6Q19YZnMxYW9yQVFHWXRuMk1QNnJEOW1Fek5VOFJTdnFuQi1HaEU1VkFxY2p1bl9ZNlM3NDlZR2ZTSTY2Z0dxajZnUWY3LUZUel81RTEwM3VBWl9PTEtmUDRvSUR2anZ5NndiLXJKelV5WVU1a0Zxd0ZwaVJpUjg5Tm9Lb05WMmZWSlRZWnpn?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 12:53:41 GMT",
+        "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQX3d0ZmVJV2FwU0NhQzBBWXk5VXlOLTZIMUZiX0dCTmVCLVJ6Q19YZnMxYW9yQVFHWXRuMk1QNnJEOW1Fek5VOFJTdnFuQi1HaEU1VkFxY2p1bl9ZNlM3NDlZR2ZTSTY2Z0dxajZnUWY3LUZUel81RTEwM3VBWl9PTEtmUDRvSUR2anZ5NndiLXJKelV5WVU1a0Zxd0ZwaVJpUjg5Tm9Lb05WMmZWSlRZWnpn?oc=5\" target=\"_blank\">Private Credit Lenders Disagree on Debt Price for 12% of Firms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+        "source": "Bloomberg.com"
+      }
+    ]
+  },
+  {
+    "name": "news_cds",
+    "url": "https://www.google.com/search?q=Oracle+CoreWeave+CDS+credit+spread+November+3+2026",
+    "ok": true,
+    "retrieved_at": "2026-11-04T00:30:49.707777+00:00",
+    "bytes": 92841,
+    "archived": "/Users/richao11/myproject/my-quant/report/ai-credit-monitor/evidence/2026-11-04/news_cds.html",
+    "text_preview": "<!DOCTYPE html><html lang=\"en\"><head><title>Google Search</title><style>body{background-color:#fff}<"
+  }
+]

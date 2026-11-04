@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-03T03:10:45+00:00",
+  "automation_id": "10-30",
+  "automation_status": "ACTIVE",
+  "timezone": "Asia/Shanghai",
+  "schedule_local": [
+    "10:30 trading days",
+    "14:30 trading days"
+  ],
+  "initialized": true,
+  "fixed_reference": {
+    "symbol": "300502.SZ",
+    "price": 179.83,
+    "formed_on": "2026-11-03",
+    "formed_during": "morning",
+    "status": "breached_recovered_at_latest_quote",
+    "last_verified_quote_time": "2026-11-04T14:35:51+08:00",
+    "last_verified_quote": 199.8,
+    "last_verified_day_low": 172.0,
+    "strict_breach_definition": "traded_price < 179.83",
+    "breached": true,
+    "below_fixed_line_now": false,
+    "first_observed_below_sample": {
+      "quote_time": "2026-11-03T13:14:00+08:00",
+      "price": 179.5,
+      "type": "sampled_minute_price"
+    },
+    "exact_first_tick_breach_time": null,
+    "exact_day_low_tick_time": null,
+    "note": "179.83 remains fixed and was breached Nov3. Current quote has recovered it. Exact initial breach and reclaim tick times unavailable; sampled minute labels are not first ticks.",
+    "last_verified_session_date": "2026-11-04",
+    "below_fixed_line_at_last_verified_quote": false,
+    "previous_close_below_fixed_line": true,
+    "reclaimed_intraday_today": true,
+    "exact_today_reclaim_tick_time": null
+  },
+  "last_run_at": "2026-11-04T14:35:53+08:00",
+  "last_observation_file": "observations/2026-11-04-1435.json",
+  "pending_predictions": [
+    {
+      "id": "2026-11-04-0938-L17415",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": null,
+      "triggered_at": "2026-11-04T09:34:24.902+08:00",
+      "created_at": "2026-11-04T09:38:38+08:00",
+      "forecast_start": "2026-11-04T09:38:38+08:00",
+      "snapshot_time": "2026-11-04T09:37:54+08:00",
+      "threshold": 174.15,
+      "event": "Any traded price strictly below 174.15 after forecast_start and by deadline",
+      "comparison": "strictly_less_than",
+      "deadline": "2026-11-04T15:00:00+08:00",
+      "risk": "中等",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "Unscheduled09:34 intraday trigger, not10:30. Forecast starts at actual creation time. Threshold and deadline immutable. Trade breach and closing breach resolved separately only after expiry.",
+      "progress": {
+        "prediction_id": "2026-11-04-0938-L17415",
+        "checked_at": "2026-11-04T14:35:53+08:00",
+        "status": "pending_until_deadline",
+        "trade_breach_observed": true,
+        "trade_breach_evidence": {
+          "source": "m5_ohlc",
+          "bar_end": "2026-11-04T10:30:00+08:00",
+          "bar_low": 174.1,
+          "threshold": 174.15,
+          "interval_note": "Completed five-minute interval wholly after original forecast start and before current check. Exact first tick unknown.",
+          "exact_first_tick_time": null
+        },
+        "price_back_above_threshold_now": true,
+        "closing_breach_occurred": null,
+        "final_settlement_performed": false,
+        "note": "Progress only. Original threshold, start time, risk and15:00deadline retained; final trade/close settlement deferred until deadline has expired."
+      },
+      "progress_history": [
+        {
+          "prediction_id": "2026-11-04-0938-L17415",
+          "checked_at": "2026-11-04T10:33:21+08:00",
+          "status": "pending_until_deadline",
+          "trade_breach_observed": true,
+          "trade_breach_evidence": {
+            "source": "m5_ohlc",
+            "bar_end": "2026-11-04T10:30:00+08:00",
+            "interval_note": "Completed five-minute bar ending10:30, wholly after09:38:38 forecast_start. Exact first tick unknown.",
+            "bar_low": 174.1,
+            "threshold": 174.15,
+            "exact_first_tick_time": null
+          },
+          "closing_breach_occurred": null,
+          "final_settlement_performed": false,
+          "note": "Intraday event progress only; retain original threshold, start time and15:00deadline."
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-1033-L17347",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-04T10:30:00+08:00",
+      "triggered_at": "2026-11-04T10:28:53.971+08:00",
+      "created_at": "2026-11-04T10:33:21+08:00",
+      "forecast_start": "2026-11-04T10:33:21+08:00",
+      "snapshot_time": "2026-11-04T10:33:18+08:00",
+      "threshold": 173.47,
+      "comparison": "strictly_less_than",
+      "event": "Any traded price strictly below173.47 after forecast_start and by deadline",
+      "deadline": "2026-11-04T15:00:00+08:00",
+      "risk": "偏高",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "New independent10:30scheduled check. Actual start time retained; not backdated to10:30. Original09:38forecast unchanged.",
+      "progress": {
+        "prediction_id": "2026-11-04-1033-L17347",
+        "checked_at": "2026-11-04T14:35:53+08:00",
+        "status": "pending_until_deadline",
+        "trade_breach_observed": true,
+        "trade_breach_evidence": {
+          "source": "m5_ohlc",
+          "bar_end": "2026-11-04T10:40:00+08:00",
+          "bar_low": 173.14,
+          "threshold": 173.47,
+          "interval_note": "Completed five-minute interval wholly after original forecast start and before current check. Exact first tick unknown.",
+          "exact_first_tick_time": null
+        },
+        "price_back_above_threshold_now": true,
+        "closing_breach_occurred": null,
+        "final_settlement_performed": false,
+        "note": "Progress only. Original threshold, start time, risk and15:00deadline retained; final trade/close settlement deferred until deadline has expired."
+      }
+    },
+    {
+      "id": "2026-11-04-1435-L17200",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-04T14:30:00+08:00",
+      "triggered_at": "2026-11-04T14:32:40.729+08:00",
+      "created_at": "2026-11-04T14:35:53+08:00",
+      "forecast_start": "2026-11-04T14:35:53+08:00",
+      "snapshot_time": "2026-11-04T14:35:51+08:00",
+      "threshold": 172.0,
+      "comparison": "strictly_less_than",
+      "event": "Any traded price strictly below172.00 after forecast_start and by deadline",
+      "deadline": "2026-11-04T15:00:00+08:00",
+      "risk": "低",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "New independent14:30scheduled check. Actual creation time retained; not backdated to14:30. Prior forecasts remain unchanged until15:00deadline."
+    }
+  ],
+  "completed_prediction_count": 1,
+  "last_notified_at": "2026-11-04T14:35:53+08:00",
+  "last_notified_risk": "低",
+  "probability_model": {
+    "validated": false,
+    "probability": null,
+    "output": "暂无可靠百分比；按可核实证据进行条件风险判断"
+  },
+  "prior_research_files": [
+    "../eoptolink-低点风险观察-2026-11-03.json",
+    "../eoptolink-估值核查-2026-11-03.json"
+  ],
+  "notification_intent": "Deliver reports at10:30 and14:30 Beijing time on each normal Shanghai/Shenzhen trading day; skip closures. Keep each intraday forecast immutable through its15:00 deadline and resolve expired forecasts at the next scheduled run.",
+  "automation_created_at": "2026-11-04T09:25:00.458000+08:00",
+  "last_notification_status": "NOTIFY",
+  "last_market_assessment_at": "2026-11-04T14:35:53+08:00",
+  "last_settled_predictions": [
+    {
+      "id": "2026-11-03-1430-L17160",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-03T14:30:00+08:00",
+      "created_at": "2026-11-03T14:40:03+08:00",
+      "forecast_start": "2026-11-03T14:40:03+08:00",
+      "snapshot_time": "2026-11-03T14:39:03+08:00",
+      "threshold": 171.6,
+      "event": "Any traded price strictly below171.60 after forecast_start and by deadline",
+      "comparison": "strictly_less_than",
+      "deadline": "2026-11-03T15:00:00+08:00",
+      "risk": "中等偏高",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "settled",
+      "settled": true,
+      "note": "Forecast starts at actual assessment time; do not backdate to14:30 or14:33. Trade breach and closing breach are separate outcomes.",
+      "resolved_at": "2026-11-04T09:02:06+08:00",
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "result": "No trade strictly below171.60 in the forecast window.",
+      "resolution_evidence": {
+        "session_date": "2026-11-03",
+        "full_day_low": 171.6,
+        "closing_price": 173.36,
+        "source": "tencent_previous_close",
+        "logic": "The full-day minimum equals the frozen threshold. Therefore no subset of the day, including14:40:03-15:00, traded strictly below that threshold. Equality is not a breach."
+      }
+    }
+  ],
+  "schedule_audit": {
+    "detected_at": "2026-11-04T09:02:06+08:00",
+    "expected_timezone": "Asia/Shanghai",
+    "previous_rrule": "RRULE:FREQ=WEEKLY;BYHOUR=9;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR",
+    "corrected_rrule": "RRULE:FREQ=WEEKLY;BYHOUR=10,14,15;BYMINUTE=30;BYDAY=MO,TU,WE,TH,FR",
+    "updated_with": "mcp__codex_app__automation_update",
+    "saved_config_verified": true,
+    "prompt_preserved": true,
+    "status_preserved": true,
+    "target_thread_preserved": true
+  },
+  "last_notification_type": "scheduled_intraday_risk_report",
+  "automation_reconfiguration_history": [
+    {
+      "changed_at": "2026-11-04T09:26:03+08:00",
+      "previous_automation_id": "automation",
+      "previous_automation_deleted_by_user": true,
+      "previous_schedule_local": [
+        "10:30 trading days",
+        "14:30 trading days",
+        "15:30 trading days"
+      ],
+      "previous_automation_created_at": "2026-11-03T03:11:46+00:00",
+      "new_automation_id": "10-30",
+      "new_schedule_local": [
+        "10:30 trading days"
+      ],
+      "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;BYHOUR=10;BYMINUTE=30;BYSECOND=0",
+      "timezone": "Asia/Shanghai",
+      "saved_config_verified": true
+    },
+    {
+      "changed_at": "2026-11-04T09:29:29+08:00",
+      "reason": "User requested adding14:30 while retaining10:30.",
+      "automation_id": "10-30",
+      "previous_schedule_local": [
+        "10:30 trading days"
+      ],
+      "new_schedule_local": [
+        "10:30 trading days",
+        "14:30 trading days"
+      ],
+      "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;BYHOUR=10,14;BYMINUTE=30;BYSECOND=0",
+      "timezone": "Asia/Shanghai",
+      "saved_config_verified": true
+    }
+  ],
+  "schedule_configured_at": "2026-11-04T09:29:29+08:00",
+  "last_notification_delivery_status": "prepared_for_final_response"
+}

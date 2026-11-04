@@ -1,0 +1,21 @@
+{
+  "symbol": "600519.SH",
+  "measure": "PE_TTM",
+  "history_start": "2021-11-03",
+  "history_end": "2026-11-02",
+  "sample_count": 1211,
+  "weighting": "Each valid daily closing PE has equal weight. Median is calculated on all1211 daily values, not annual medians.",
+  "filters": "2021-11-03<=TRADE_DATE<=2026-11-03; PE_TTM positive and non-null; dates deduplicated. Latest supplied historical date is2026-11-02.",
+  "history_source": "https://data.eastmoney.com/gzfx/detail/600519.html",
+  "history_api_report": "RPT_VALUEANALYSIS_DET",
+  "current_quote_source": "https://qt.gtimg.cn/q=sh600519",
+  "current_quote_timestamp": "2026-11-03T15:11:23+08:00",
+  "current_pe_method": "Tencent quotedPE22.52 corroborated by2026-11-02 PE21.89600888 multiplied by1480/1439.1=22.51830529. Assumes latest trailing earnings denominator and share count remain unchanged. Current Nov3 point is shown separately and excluded from historical median, percentile sample and annual table.",
+  "percentile_definition": "Share of1211 daily PE observations less than or equal to current price-scaled PE. This is an empirical valuation percentile, not a return probability.",
+  "notes": [
+    "No forecast PE mixed with trailing PE.",
+    "No forward-adjusted closing prices used to reconstruct historical PE.",
+    "2021 and2026 annual rows cover partial years within the window.",
+    "Historical provider values may reflect its financial-report revision conventions; point-in-time backtesting was not performed."
+  ]
+}

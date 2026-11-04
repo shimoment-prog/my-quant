@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<!--   <title>深交所主页</title>   -->
+<script>
+    var title = '<a href="./" class="CurrChnlCls">首页</a> ';
+    title = title.substring(title.indexOf('>')+1,title.indexOf('</'));
+    document.write('<title>深圳证券交易所-'+ title +'</title>')
+</script>
+<script>
+  if(location.protocol == 'https:'){
+    document.write('<link href="https://res.szse.cn/common/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />');
+  }else{
+    document.write('<link href="http://res.static.szse.cn/common/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />');
+  }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta http-equiv="cache-control" content="max-age=0">
+<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="expires" content="Web, 26 Feb 1997 08:21:57 GMT">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="author" content="www.szse.cn">
+<meta name="description" content="深交所官网">
+<meta name="keywords" content="深交所,深交所官网,深圳证券交易所,交易所,交易所官网,深圳证券交易所官网">
+<meta name="renderer" content=webkit>
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google" value="notranslate"> 
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="screen-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta name="browermode" content="application">
+<meta name="x5-orientation" content="portrait">
+<meta name="HandheldFriendly" content="true">
+<script type="text/javascript">
+	var u = navigator.userAgent;
+	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;//android终端
+
+	function addElementMeta(name,  content) {
+		var head = document.getElementsByTagName('head')[0];
+		var meta = document.createElement('meta');
+
+		meta.setAttribute('name', name);
+		meta.setAttribute('content', content);
+		head.appendChild(meta);
+	}
+	if(isAndroid) {
+		addElementMeta('x5-fullscreen', 'true');
+		addElementMeta('x5-page-mode', 'app');
+	}
+</script> 
+    <script>
+  (function () {
+    var _versionDate = new Date().getTime();
+    if (location.protocol == 'https:') {
+      var _path = 'https://res.szse.cn';
+    } else {
+      var _path = 'http://res.static.szse.cn';
+    }
+    // _path = _path.replace(".static.", ".");
+    //var _path = 'http://res.szse.cn';
+    //document.write( " <script src='" + _path + "/common/js/first.js?random=" + _versionDate + "'> <\/script> ");
+    var _host = 'http://www.szse.cn';
+    if (location.protocol == 'https:') {
+      _host = 'https://www.szse.cn';
+    }
+
+
+    var backDomain = 'http://www.sse.org.cn'
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    if (backDomain && window.location.host.match(reg)[2] === backDomain.match(reg)[2]) {
+      _host = 'http://www.sse.org.cn';
+      _path = 'http://res.static.sse.org.cn';
+      if (location.protocol == 'https:') {
+        _host = 'https://www.sse.org.cn';
+        _path = 'https://res.static.sse.org.cn';
+      }
+
+    }
+
+    _path = _path.replace(".static.", ".");
+
+    document.write(" <script src='" + _host + "/szsePath.js?random=" + _versionDate + "'> <\/script> "
+      + " <script src='" + _path + "/common/js/concatversion.js?random=" + _versionDate + "'> <\/script> ");
+  }());
+</script>
+
+<script>
+
+  function backDomainLinkSwitch(value, type) {
+    var _port = location.port ? (":" + location.port) : "";
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    var urlRegx = /(.*)(http:|https:)(\/\/)(([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+))\.?(:\d+)?(.*)/;
+
+    // html字符串替换
+    if (type == 'str') {
+      var strArr = value.split("=");
+      strArr = strArr.map(function (v) {
+        var host = reg.test(v) ? v.match(reg)[0] : null;
+        if (pathObj.szseHosts.indexOf(host) > -1) {
+          if (window.location.protocol == 'https:' && urlRegx.test(v)) {
+            v = v.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+          };
+          if (pathObj.current_host === pathObj.back_host) {
+            v = v.replace(pathObj.main_host, pathObj.back_host);
+          }
+        }
+        return v
+      });
+      value = strArr.join("=");
+      return value;
+    }
+
+    // a标签地址替换
+    if (type === 'A') {
+      var eleA = document.querySelectorAll(value);
+      for (var i = 0; i < eleA.length; i++) {
+        var href = eleA[i].getAttribute("href");
+        var host = reg.test(href) ? href.match(reg)[0] : null;
+        if (href && pathObj.szseHosts.indexOf(host) > -1) {
+          if (window.location.protocol == 'https:') {
+            href = href.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+          };
+          if (pathObj.current_host === pathObj.back_host) {
+            href = href.replace(pathObj.main_host, pathObj.back_host);
+          }
+          eleA[i].setAttribute('href', href);
+        }
+      }
+    }
+
+    // 单链接替换
+    if (type === "link") {
+      if (window.location.protocol == 'https:' && !!value) {
+        value = value.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+      };
+      if (pathObj.current_host === pathObj.back_host) {
+        var host = reg.test(value) ? value.match(reg)[0] : null;
+        if (value && pathObj.szseHosts.indexOf(host) > -1) {
+          value = value.replace(pathObj.main_host, pathObj.back_host);
+        }
+      }
+      return value;
+    }
+
+    // 背景图地址更换
+    if (type === "background") {
+      var eleBg = document.querySelectorAll(value);
+      for (var i = 0; i < eleBg.length; i++) {
+        var href = eleBg[i].style.backgroundImage;
+        if (window.location.protocol == 'https:' && !!href) {
+          href = href.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+        };
+        var host = reg.test(href) ? href.match(reg)[0] : null;
+        if (href && pathObj.szseHosts.indexOf(host) > -1) {
+          if (pathObj.current_host === pathObj.back_host) {
+            href = href.replace(pathObj.main_host, pathObj.back_host);
+          }
+          eleBg[i].style.backgroundImage = href;
+        }
+      }
+    }
+
+  }
+
+</script>
+
+<script>
+   if(document.cookie.indexOf('ft_language=1')>-1){
+    var style = document.createElement('style');
+    style.textContent='body{visibility:hidden;}';
+    document.head.appendChild(style);
+  }
+</script>
+<script>
+    addComCssFile()
+</script>
+    <script>
+        changeVertion('/modules/index/css/index.css', 'css');
+        changeVertion('/lib/Swiper-2.7.6/idangerous.swiper.css', 'css');
+        var broadcaseCount=0;
+    </script>
+</head>
+<body class="szseindex-body">
+<!-- 置灰 -->
+<script>
+  (function () {
+    var _versionDate = new Date().getTime();
+
+    var _host = 'http://www.szse.cn';
+    if (location.protocol == 'https:') {
+      _host = 'https://www.szse.cn';
+    }
+
+    var backDomain = 'http://www.sse.org.cn'
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    if (backDomain && window.location.host.match(reg)[2] === backDomain.match(reg)[2]) {
+      _host = 'http://www.sse.org.cn';
+      if (location.protocol == 'https:') {
+        _host = 'https://www.sse.org.cn';
+      }
+
+    }
+    document.write(" <script src='" + _host + "/dynamicmodule/index/sysconfig.js?random=" + _versionDate + "'> <\/script> ");
+
+  }());
+</script>
+
+<script>
+  if (typeof sysconfig !== 'undefined' && sysconfig.gray) {
+    document.documentElement.className += ' ' + "grayscale";
+
+    var isGrayscaleEvent = document.createEvent('HTMLEvents');
+    isGrayscaleEvent.initEvent("grayscaleEvent", true, true);
+  };
+</script>
+<!-- 宣传大图 -->
+<div>
+  
+
+  
+
+</div>
+
+<script>
+  navMenuAJAX('/application/publicindex/header/index.html', '/application/publicindex/header/index.html', 'header', 'www');
+</script>
+<div class="g-locationnav">
+    <div class="banner-wrap">
+      <img src="http://res.static.szse.cn/common/images/legalrules-banner.jpg" />
+    </div>
+    <div class="g-container">
+      <div class="g-banner-txt">
+            <h2 class="hidden-xs">首页</h2>
+            <p>
+              <img src="http://res.static.szse.cn/common/icon/er-banneradr.png" />位置：<a href="./" class="CurrChnlCls">首页</a>
+            </p>
+          </div>
+    </div>
+</div>
+<script>
+  /*
+   * url:json地址
+   * length：文章条数
+   */
+  var getRelatedColumnJson = function (option) {
+    var obj = {
+      url: option.url + '?random=' + Math.random(),
+      success: function (data) {
+        var jsonData = {};
+        jsonData.data = data.data.length > option.length ? data.data.splice(0, option.length) : data.data;
+        var htmlStr = "";
+        for (var i = 0; i < jsonData.data.length; i++) {
+          var item = jsonData.data[i];
+          var curHref = item.url;
+          var curTitle = item.title;
+          var curCmsDocType = item.type;
+          var pubTime = dateFormatFn(new Date(item.pubTime), "yyyy-MM-dd");
+          var curTarget = '';
+          var pointIndex = curHref.lastIndexOf('.');
+          var docType = curHref.substring(pointIndex + 1).toLocaleLowerCase();
+          if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+            curTarget = '_self';
+          } else {
+            curTarget = '_blank';
+          };
+
+          htmlStr += '<li>' +
+            '<div class="title ">' +
+            '<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>' +
+            '</div>' +
+            '<span class="time">' + pubTime + '</span>' +
+            '</li>';
+        }
+        document.write(htmlStr);
+      }
+    }
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          var response;
+          var type = xhr.getResponseHeader('Content-Type');
+          if (type.indexOf('application/json') > -1) {
+            response = JSON.parse(xhr.responseText);
+          } else {
+            response = xhr.responseText;
+          }
+          obj.success && obj.success(response);
+        }
+      }
+    }
+    xhr.open('GET', obj.url, false);
+    xhr.send();
+  }
+
+  function dateFormatFn(date, fmt) {
+    var o = {
+      "M+": date.getMonth() + 1, //月份 
+      "d+": date.getDate(), //日 
+      "H+": date.getHours(), //小时 
+      "m+": date.getMinutes(), //分 
+      "s+": date.getSeconds(), //秒 
+      "q+": Math.floor((date.getMonth() + 3) / 3), //季度 
+      "S": date.getMilliseconds() //毫秒 
+    };
+    if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (date.getFullYear() + "").substr(4 - RegExp.$1.length));
+    for (var k in o)
+      if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+    return fmt;
+  }
+
+
+
+
+</script>
+<div class="indexbanner-wrap index-banner">
+    
+        <script>  
+            var hreflink = "http://docs.static.szse.cn/www/index/slide/W020251025650011594715.png";
+            hreflink = backDomainLinkSwitch(hreflink,'link');
+            // 解决swiper初始化前轮播空白，给div个默认背景图
+            function setSwiperBgStyle(){
+              var _swiperBgWidth="";
+              if (document.body.offsetWidth > 1180) {
+                _swiperBgWidth = 1180;
+              } else {
+                _swiperBgWidth = document.body.offsetWidth;
+              }
+              var _swiperBgHeight =  (530 / 1180) * _swiperBgWidth;
+              document.querySelector('.indexbanner-wrap').style.height = _swiperBgHeight + 'px';
+            }
+            setSwiperBgStyle();
+            document.querySelector('.indexbanner-wrap').style.backgroundImage = "url(" + hreflink + ")";
+        </script>
+    
+    <div class="swiper-device">
+        <a class="arrow-left" href="#"></a> 
+        <a class="arrow-right" href="#"></a>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                
+                    <div class="swiper-slide">
+                        <script>  
+                            var hrefType = "http://www.szse.cn/application/cc/";
+                            var hrefCon = 'href="/index/http://www.szse.cn/application/cc/" target="_blank"';
+                            if(hrefType == "#"){
+                                hrefCon = '';
+                            }else if(hrefType.indexOf('http')>-1){
+                                                              hrefCon = 'href="http://www.szse.cn/application/cc/" target="_blank"';
+                                                        }
+                            var hreflink = "http://docs.static.szse.cn/www/index/slide/W020251025650011594715.png";
+                            hreflink = backDomainLinkSwitch(hreflink,'link');
+                            if(~[10,11].indexOf(document.documentMode)&&!~hreflink.indexOf('big5')&&document.documentElement.className.indexOf('grayscale')>-1) {
+                              hreflink = hreflink.split('//')[1];
+                              hreflink = hreflink.substring(hreflink.indexOf('/'));                              
+                            };
+                            document.write("<a style='background-image: url("+hreflink+");' "+hrefCon+"></a>");
+                        </script>
+                    </div>
+                
+                    <div class="swiper-slide">
+                        <script>  
+                            var hrefType = "http://www.szse.cn/sustainablefinance/index/index.html";
+                            var hrefCon = 'href="/index/http://www.szse.cn/sustainablefinance/index/index.html" target="_blank"';
+                            if(hrefType == "#"){
+                                hrefCon = '';
+                            }else if(hrefType.indexOf('http')>-1){
+                                                              hrefCon = 'href="http://www.szse.cn/sustainablefinance/index/index.html" target="_blank"';
+                                                        }
+                            var hreflink = "http://docs.static.szse.cn/www/index/slide/W020241009354696512488.png";
+                            hreflink = backDomainLinkSwitch(hreflink,'link');
+                            if(~[10,11].indexOf(document.documentMode)&&!~hreflink.indexOf('big5')&&document.documentElement.className.indexOf('grayscale')>-1) {
+                              hreflink = hreflink.split('//')[1];
+                              hreflink = hreflink.substring(hreflink.indexOf('/'));                              
+                            };
+                            document.write("<a style='background-image: url("+hreflink+");' "+hrefCon+"></a>");
+                        </script>
+                    </div>
+                
+                    <div class="swiper-slide">
+                        <script>  
+                            var hrefType = "http://bond.szse.cn/bayarea/index/index.html";
+                            var hrefCon = 'href="/index/http://bond.szse.cn/bayarea/index/index.html" target="_blank"';
+                            if(hrefType == "#"){
+                                hrefCon = '';
+                            }else if(hrefType.indexOf('http')>-1){
+                                                              hrefCon = 'href="http://bond.szse.cn/bayarea/index/index.html" target="_blank"';
+                                                        }
+                            var hreflink = "http://docs.static.szse.cn/www/index/slide/W020221224566486725127.jpg";
+                            hreflink = backDomainLinkSwitch(hreflink,'link');
+                            if(~[10,11].indexOf(document.documentMode)&&!~hreflink.indexOf('big5')&&document.documentElement.className.indexOf('grayscale')>-1) {
+                              hreflink = hreflink.split('//')[1];
+                              hreflink = hreflink.substring(hreflink.indexOf('/'));                              
+                            };
+                            document.write("<a style='background-image: url("+hreflink+");' "+hrefCon+"></a>");
+                        </script>
+                    </div>
+                
+                    <div class="swiper-slide">
+                        <script>  
+                            var hrefType = "http://reits.szse.cn";
+                            var hrefCon = 'href="/index/http://reits.szse.cn" target="_blank"';
+                            if(hrefType == "#"){
+                                hrefCon = '';
+                            }else if(hrefType.indexOf('http')>-1){
+                                                              hrefCon = 'href="http://reits.szse.cn" target="_blank"';
+                                                        }
+                            var hreflink = "http://docs.static.szse.cn/www/index/slide/W020210301556636602582.png";
+                            hreflink = backDomainLinkSwitch(hreflink,'link');
+                            if(~[10,11].indexOf(document.documentMode)&&!~hreflink.indexOf('big5')&&document.documentElement.className.indexOf('grayscale')>-1) {
+                              hreflink = hreflink.split('//')[1];
+                              hreflink = hreflink.substring(hreflink.indexOf('/'));                              
+                            };
+                            document.write("<a style='background-image: url("+hreflink+");' "+hrefCon+"></a>");
+                        </script>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="pagination"></div>
+    </div> 
+</div>
+
+
+<script>
+    
+    broadcaseCount=1
+    
+    
+    
+    
+    
+</script>
+<div class="home-entrance-wrap">
+    <div class="g-container">
+        <script type="text/javascript">
+            if(broadcaseCount==1){
+                document.write('<div class="news-broadcast clearfix">');
+            }else{
+                document.write('<div class="news-broadcast clearfix" style="display:none;">');
+            }
+        </script>
+        <span class="tip pull-left">重要更新:</span>
+        <div class="roll-part">
+            <ul>
+                
+
+                    <li>
+                        <div class="title">
+                            <script>
+                                var curHref = './important/t20260828_622572.html';
+                                var curTitle = '关于发布证券期货业金融科技研究发展中心（深圳）2026年度立项研究课题的公告';
+                                var curCmsDocType = '20'
+                                var curTarget = '';
+                                var pointIndex = curHref.lastIndexOf('.');
+                                var docType = curHref.substring(pointIndex+1);
+                                if (curHref.indexOf('http') == -1) {
+                                    curHref='/index/'+curHref;
+                                }
+                                if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'PDF' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+                                    curTarget = '_self';
+                                } else {
+                                    curTarget = '_blank';
+                                }
+
+                                document.write('<a class="title ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');
+
+                            </script>
+                        </div>
+                    </li>
+                
+
+                    <li>
+                        <div class="title">
+                            <script>
+                                var curHref = './important/t20260403_619836.html';
+                                var curTitle = '关于证券期货业金融科技研究发展中心（深圳）2026年研究课题征集的通知';
+                                var curCmsDocType = '20'
+                                var curTarget = '';
+                                var pointIndex = curHref.lastIndexOf('.');
+                                var docType = curHref.substring(pointIndex+1);
+                                if (curHref.indexOf('http') == -1) {
+                                    curHref='/index/'+curHref;
+                                }
+                                if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'PDF' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+                                    curTarget = '_self';
+                                } else {
+                                    curTarget = '_blank';
+                                }
+
+                                document.write('<a class="title ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');
+
+                            </script>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="entrance-container mt15 clearfix">
+      <div class="title visible-xs">
+        <h2>
+          用户入口
+        </h2>
+      </div>
+      <div class="entrance-user clearfix">
+        <div class="title hidden-xs">
+            <h2>
+                用户入口
+            </h2>
+        </div>
+        <div class="entrance-r">
+          <ul class="list clearfix">
+            <li>
+              <a target="_blank" href="../application/users/investor/">
+                <i class="quick-icon icon1"></i>
+                <div>投资者</div>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="../application/users/ipo/">
+                <i class="quick-icon icon2"></i>
+                <div>上市公司</div>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="../application/users/complanning/">
+                <i class="quick-icon icon3"></i>
+                <div>拟上市企业</div>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="../application/users/member/">
+                <i class="quick-icon icon4"></i>
+                <div>会员机构</div>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="../application/users/fundcom/">
+                <i class="quick-icon icon6"></i>
+                <div>基金公司</div>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="../application/users/agency/">
+                <i class="quick-icon icon7"></i>
+                <div>固收承销</div>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="../application/users/sponsor/">
+                <i class="quick-icon icon8"></i>
+                <div>保荐人</div>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="../application/users/government/">
+                <i class="quick-icon icon9"></i>
+                <div>政府机构</div>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="../application/users/media/">
+                <i class="quick-icon icon5"></i>
+                <div>媒体单位</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<div class="home-entrance-wrap buss">
+  <div class="g-container">
+    <div class="entrance-container clearfix">
+      <div class="title visible-xs">
+        <h2>
+          产品中心
+        </h2>
+      </div>
+      <div class="entrance-buss clearfix">
+        
+        <div class="title hidden-xs">
+          <h2>
+            产品中心
+          </h2>
+        </div>
+        <div class="entrance-r">
+          <ul class="list clearfix">
+            <li>
+              <a href="../certificate/" target="_blank">
+                <span class="icon gp-icon"></span>
+                <span class="tit">股票</span>
+              </a>
+            </li>
+            <li>
+              <a href="http://fund.szse.cn" target="_blank" class="lefu_path">
+                <span class="icon jj-icon"></span>
+                <span class="tit">基金</span>
+              </a>
+            </li>
+            <li>
+              <a href="http://reits.szse.cn" target="_blank" class="reits_path">
+                <span class="icon reits-icon"></span>
+                <span class="tit">公募REITs</span>
+              </a>
+            </li>
+            <li>
+              <a href="http://bond.szse.cn" target="_blank" class="bond_path">
+                <span class="icon gs-icon"></span>
+                <span class="tit">固收产品</span>
+              </a>
+            </li>
+            <li>
+              <a href="../option/" target="_blank">
+                <span class="icon qq-icon"></span>
+                <span class="tit">股票期权</span>
+              </a>
+            </li>
+            <li>
+              <a href="../application/mpe/" target="_blank">
+                <span class="icon hy-icon"></span>
+                <span class="tit">会员产品</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 时政要闻 开始 -->
+
+  <div class="homem-news-wrap currentAffairs">
+    <div class="g-container">
+      <h2 class="news-tit clearfix">时政要闻<a href="/index/news/index.html" target="_blank">更多<span class="glyphicon glyphicon-menu-right"></span></a></h2>
+      <div class="article-list clearfix currentAffairs">
+        
+          <ul class="newslist date-left news visitsNum">
+            
+              <li>
+                <div class="title ">
+                  <script>
+                    var curHref = 'https://www.gov.cn/yaowen/liebiao/202611/content_7084727.htm';
+                    var curTitle = '以习近平党建思想为根本遵循 持之以恒推进全面从严治党——深入学习贯彻党的二十届五中全会精神系列述评之一';
+                    var curCmsDocType = '30'
+                    var curTarget = '';
+                    var pointIndex = curHref.lastIndexOf('.');
+                    var docType = curHref.substring(pointIndex+1);
+                    if (curHref.indexOf('http') == -1) {
+                        curHref='/index/'+curHref;
+                    }
+                    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'PDF' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+                        curTarget = '_self';
+                    } else {
+                        curTarget = '_blank';
+                    }
+
+                    document.write('<a class="title ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');
+
+                  </script>
+                </div>
+                <span class="time">
+                  2026-11-02
+                </span>
+              </li>
+            
+              <li>
+                <div class="title ">
+                  <script>
+                    var curHref = 'https://www.gov.cn/yaowen/liebiao/202611/content_7084688.htm';
+                    var curTitle = '中共中央关于持之以恒推进全面从严治党若干重大问题的决定';
+                    var curCmsDocType = '30'
+                    var curTarget = '';
+                    var pointIndex = curHref.lastIndexOf('.');
+                    var docType = curHref.substring(pointIndex+1);
+                    if (curHref.indexOf('http') == -1) {
+                        curHref='/index/'+curHref;
+                    }
+                    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'PDF' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+                        curTarget = '_self';
+                    } else {
+                        curTarget = '_blank';
+                    }
+
+                    document.write('<a class="title ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');
+
+                  </script>
+                </div>
+                <span class="time">
+                  2026-11-01
+                </span>
+              </li>
+            
+              <li>
+                <div class="title ">
+                  <script>
+                    var curHref = 'https://www.gov.cn/yaowen/liebiao/202610/content_7084647.htm';
+                    var curTitle = '不断开创新时代管党治党、兴党强党新局面——论学习贯彻党的二十届五中全会精神';
+                    var curCmsDocType = '30'
+                    var curTarget = '';
+                    var pointIndex = curHref.lastIndexOf('.');
+                    var docType = curHref.substring(pointIndex+1);
+                    if (curHref.indexOf('http') == -1) {
+                        curHref='/index/'+curHref;
+                    }
+                    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'PDF' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+                        curTarget = '_self';
+                    } else {
+                        curTarget = '_blank';
+                    }
+
+                    document.write('<a class="title ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');
+
+                  </script>
+                </div>
+                <span class="time">
+                  2026-10-31
+                </span>
+              </li>
+            
+          </ul>
+        
+          <ul class="newslist date-left news visitsNum">
+            
+              <li>
+                <div class="title ">
+                  <script>
+                    var curHref = 'https://www.gov.cn/yaowen/liebiao/202610/content_7084542.htm';
+                    var curTitle = '征求对中共中央关于持之以恒推进全面从严治党若干重大问题的决定的意见 中共中央召开党外人士座谈会 习近平主持并发表重要讲话';
+                    var curCmsDocType = '30'
+                    var curTarget = '';
+                    var pointIndex = curHref.lastIndexOf('.');
+                    var docType = curHref.substring(pointIndex+1);
+                    if (curHref.indexOf('http') == -1) {
+                        curHref='/index/'+curHref;
+                    }
+                    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'PDF' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+                        curTarget = '_self';
+                    } else {
+                        curTarget = '_blank';
+                    }
+
+                    document.write('<a class="title ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');
+
+                  </script>
+                </div>
+                <span class="time">
+                  2026-10-30
+                </span>
+              </li>
+            
+              <li>
+                <div class="title ">
+                  <script>
+                    var curHref = 'https://www.gov.cn/yaowen/liebiao/202610/content_7084515.htm';
+                    var curTitle = '人民日报社论：把我们党建设得更好、更强';
+                    var curCmsDocType = '30'
+                    var curTarget = '';
+                    var pointIndex = curHref.lastIndexOf('.');
+                    var docType = curHref.substring(pointIndex+1);
+                    if (curHref.indexOf('http') == -1) {
+                        curHref='/index/'+curHref;
+                    }
+                    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'PDF' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+                        curTarget = '_self';
+                    } else {
+                        curTarget = '_blank';
+                    }
+
+                    document.write('<a class="title ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');
+
+                  </script>
+                </div>
+                <span class="time">
+                  2026-10-30
+                </span>
+              </li>
+            
+              <li>
+                <div class="title ">
+                  <script>
+                    var curHref = 'https://www.gov.cn/yaowen/liebiao/202610/content_7084430.htm';
+                    var curTitle = '总书记的人民情怀 | “更加清醒坚定地推进反腐败斗争”';
+                    var curCmsDocType = '30'
+                    var curTarget = '';
+                    var pointIndex = curHref.lastIndexOf('.');
+                    var docType = curHref.substring(pointIndex+1);
+                    if (curHref.indexOf('http') == -1) {
+                        curHref='/index/'+curHref;
+                    }
+                    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'PDF' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+                        curTarget = '_self';
+                    } else {
+                        curTarget = '_blank';
+                    }
+
+                    document.write('<a class="title ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');
+
+                  </script>
+                </div>
+                <span class="time">
+                  2026-10-29
+                </span>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+<!-- 时政要闻 结束 -->
+
+<!-- 本所要闻 开始 -->
+<div class="homem-news-wrap">
+    <div class="g-container">
+        <h2 class="news-tit clearfix">深交所要闻<a href="../aboutus/trends/news/" target="_blank">更多<span class="glyphicon glyphicon-menu-right"></span></a></h2>
+        <div class="list-wrap article-list">
+            <ul class="list clearfix">
+                
+                    <li>
+                       <div class="thumb">
+                           <a class="art-list-link" href="../aboutus/trends/news/t20261103_623679.html" target="_blank">
+                              <script>  
+                                  var imgSrc = 'http://docs.static.szse.cn/www/aboutus/trends/news/W020261103306636924011.jpg';
+                                  imgSrc = backDomainLinkSwitch(imgSrc,'link');
+                                  document.write('<img src="'+imgSrc+'" onerror="onImageError(this)" />');
+                              </script>
+                           </a>
+                       </div>
+                       <h3 class="title ellipsis" title="皇冠新材在深交所上市">
+                       <a href="../aboutus/trends/news/t20261103_623679.html" target="_blank">
+                           皇冠新材在深交所上市
+                       </a>
+                       </h3>
+                       <div class="summary">
+                           
+                       </div>
+                       <div class="go-more">
+                           <a href="../aboutus/trends/news/t20261103_623679.html" target="_blank"></a>
+                         <!--  <strong>查看详细</strong><i class="glyphicon glyphicon-menu-right"></i> -->
+                       </div>
+                    </li>
+                
+                    <li>
+                       <div class="thumb">
+                           <a class="art-list-link" href="../aboutus/trends/news/t20261030_623636.html" target="_blank">
+                              <script>  
+                                  var imgSrc = 'http://docs.static.szse.cn/www/aboutus/trends/news/W020261030590018264307.jpg';
+                                  imgSrc = backDomainLinkSwitch(imgSrc,'link');
+                                  document.write('<img src="'+imgSrc+'" onerror="onImageError(this)" />');
+                              </script>
+                           </a>
+                       </div>
+                       <h3 class="title ellipsis" title="感受中国创新活力 共享开放合作机遇 ——境外央行和金融机构走进深交所">
+                       <a href="../aboutus/trends/news/t20261030_623636.html" target="_blank">
+                           感受中国创新活力 共享开放合作机遇 ——境外央行和金融机构走进深交所
+                       </a>
+                       </h3>
+                       <div class="summary">
+                           
+                       </div>
+                       <div class="go-more">
+                           <a href="../aboutus/trends/news/t20261030_623636.html" target="_blank"></a>
+                         <!--  <strong>查看详细</strong><i class="glyphicon glyphicon-menu-right"></i> -->
+                       </div>
+                    </li>
+                
+                    <li>
+                       <div class="thumb">
+                           <a class="art-list-link" href="../aboutus/trends/news/t20261030_623600.html" target="_blank">
+                              <script>  
+                                  var imgSrc = 'http://docs.static.szse.cn/www/aboutus/trends/news/W020261030334465056474.jpg';
+                                  imgSrc = backDomainLinkSwitch(imgSrc,'link');
+                                  document.write('<img src="'+imgSrc+'" onerror="onImageError(this)" />');
+                              </script>
+                           </a>
+                       </div>
+                       <h3 class="title ellipsis" title="中金菜鸟REIT在深交所上市">
+                       <a href="../aboutus/trends/news/t20261030_623600.html" target="_blank">
+                           中金菜鸟REIT在深交所上市
+                       </a>
+                       </h3>
+                       <div class="summary">
+                           
+                       </div>
+                       <div class="go-more">
+                           <a href="../aboutus/trends/news/t20261030_623600.html" target="_blank"></a>
+                         <!--  <strong>查看详细</strong><i class="glyphicon glyphicon-menu-right"></i> -->
+                       </div>
+                    </li>
+                
+                <script type="text/javascript">
+                    function onImageError(obj){
+                        obj.style="height:auto";
+                        obj.src = "/modules/index/images/mainnewsbg01.jpg";
+                        obj.onerror=null;
+                    }
+                </script>
+            </ul>
+        </div>
+        <!-- <p class="homem-news-more">
+             <a href="../aboutus/trends/news/" target="_blank">更多&nbsp&nbsp<span class="glyphicon glyphicon-menu-right"></span></a>
+         </p> -->
+    </div>
+</div>
+<!-- 本所要闻 结束 -->
+<!-- 本所公告 开始-->
+
+<div class="homem-notice-wrap">
+    <div class="g-container clearfix">
+        <div class="g-conbox-colleft">
+            <div class="homem-title-wrap">
+                <a class="more" href="../disclosure/notice/" target="_blank">更多<span class="glyphicon glyphicon-menu-right"></span></a>
+                <h2 class="homem-title">深交所公告</h2>
+            </div>
+            <div class="g-conbox">
+
+                <div class="article-list h282">
+                  <ul class="newslist date-left">
+                    <script>
+                      var jsonUrl="/disclosure/notice/index.html";
+                      getRelatedColumnJson({
+                        url: mainDomainPath() + jsonUrl.replace(/.html/,'.json'),
+                        length: 6
+                      });
+                    </script>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="g-conbox-colright">
+            <div class="homem-title-wrap">
+                <a class="more" href="../disclosure/listed/notice/" target="_blank">更多<span class="glyphicon glyphicon-menu-right"></span></a>
+                <h2 class="homem-title">上市公司公告</h2>
+            </div>
+            <div class="g-conbox">
+
+                <div class="article-list h282 loadwait_disc">
+                    <ul class="notice-list newslist date-left"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 本所公告 结束-->
+
+<div class="homem-eduentrance-container">
+    <div class="g-container clearfix">
+        <div class="edu-lbox">
+            <div class="index-publicadvice index-consult">
+                <a  href="../application/cc/" target="_blank">
+                <div class="content">
+                       <span class="glyphicon glyphicon-menu-right"></span>
+                       <span class="name">咨询沟通预约</h2>
+                   </div>
+                </a>
+            </div>
+        </div>
+        <div class="edu-rbox">
+            <div class="index-educon">
+                <a href="http://investor.szse.cn" target="_blank">
+                    <img src="http://res.static.szse.cn/modules/index/images/indexedubgnew.jpg" />
+                    <div class="indexad1-txt">
+                        <div class="content">
+                            <h2>投资者教育</h2>
+                            <p>Investor education zone</p>
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="edu-lbox">
+            <div class="index-publicadvice">
+                <a  href="../lawrules/publicadvice/" target="_blank" class="index-publicadvice-link">
+                    <div class="index-publicadvice-con">
+                        <img src="http://res.static.szse.cn/modules/index/images/index_iconmsg.png" />
+                        <span>公开征求意见</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="edu-lbox">
+          <div class="index-publicadvice tran">
+            <a href="../transparency/index/" target="_blank" class="index-publicadvice-link">
+              <div class="index-publicadvice-con">
+                <img src="http://res.static.szse.cn/modules/index/images/tran_icon.png" />
+                <span>阳光监管 透明服务</span>
+              </div>
+            </a>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="homem-hangqing-wrap">
+    <div class="g-container">
+        <div class="homem-hangqing clearfix">
+            <div class="hangqing-chart pull-left">
+                <a class="more " href="../market/overview/?tabkey=tab2" target="_blank ">更多<span class="glyphicon glyphicon-menu-right"></span></a>
+                <div class="stock-list-wrap pull-right">
+                    <span class="stock-list"></span>
+                </div>
+                <div class="home-trend-tabs">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a href="javascript:void(0)">指数行情</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">地区成交统计</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-panells active">
+                        <div class="trend-detail-wrap">
+                            <div class="detail-info">
+                                <script id="trendTemplate" type="text/html">
+                                    <span class="newest <%= newIsDown ? 'new-down' : null %>"><%= now === null ? '--' : now %></span>
+                                    <ul class="item-right">
+                                        <li>
+                                            <span>成交量(<%= volumeUnit %>手)</span>
+                                            <span class="blue"><%= volume === null ? '--' : volume %></span>
+                                            <br/>
+                                            <span>成交额(<%= amountUnit %>元)</span>
+                                            <span class="blue"><%= amount === null ? '--' : amount %></span>
+                                        </li>
+                                        <li class="<%= newIsDown ? 'new-down' : null %>">
+                                            <span>涨跌</span>
+                                            <span class="value"><%= delta === null ? '--' : delta %></span>
+                                            <br/>
+                                            <span>涨幅</span>
+                                            <span class="value"><%= deltaPercent === null ? '--' : deltaPercent + '%' %></span>
+                                        </li>
+                                        <li class="<%= openIsDown ? 'open-down' : null %>">
+                                            <span>今开</span>
+                                            <span class="value"><%= open === null ? '--' : open %></span>
+                                            <br/>
+                                            <span>昨收</span>
+                                            <span class="blue"><%= close === null ? '--' : close %></span>
+                                        </li>
+                                        <li>
+            <span class="<%= highIsDown ? 'high-down' : null %>">
+                <span>最高</span>
+                <span class="value"><%= high === null ? '--' : high %></span>
+            </span>
+                                            <br/>
+            <span class="<%= lowIsDown ? 'low-down' : null %>">
+                <span>最低</span>
+                <span class="value"><%= low === null ? '--' : low %></span>
+            </span>
+                                        </li>
+                                    </ul>
+                                </script>
+                            </div>
+                        </div>
+                        <ul class="pic-tabs clearfix">
+                            <li class="active">
+                                <a href="javascript: void(0);">分时</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">日线</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">周线</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">月线</a>
+                            </li>
+                        </ul>
+                        <div class="tabs-content">
+                            <div id="minutely" class="tab-panel active"></div>
+                            <div id="daily" class="tab-panel"></div>
+                            <div id="weekly" class="tab-panel"></div>
+                            <div id="monthly" class="tab-panel"></div>
+                        </div>
+                    </div>
+                    <div class="tab-panells pt20">
+                        <div class="map-wrap">
+                            <div class="map-content"></div>
+                        </div>
+                        <div class="notes">数据统计范围包含存托凭证。</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="sep-line"></div>
+            <div class="hangqing-tabs pull-right">
+                <ul class="nav nav-tabs" style="display:none;">
+                    <li class="active overall">
+                        <a href="javascript: void(0);" class="tab">市场总貌</a>
+                    </li>
+                    <li class="mainboard"> 
+                        <a href="javascript: void(0);" class="tab">主板</a>
+                    </li>
+                    <li class="sme" style="display:none;">
+                        <a href="javascript: void(0);" class="tab">中小企业板</a>
+                    </li>
+                    <li class="chinext">
+                        <a href="javascript: void(0);" class="tab">创业板</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <script id="basicIndexTemplate" type="text/html">
+                        <div class="tab-pane fade in <%- i == 0 ? 'active' : null %>">
+                            <a href="<%= url %>" target="blank">
+                                <ul class="list clearfix">
+                                    <% _.forEach(data, function(item, i) { %>
+                                    <li>
+                                        <i class="hqicon hqicon-<%= item.type %> hqicon<%= i+1 %>"></i>
+                                        <div class="tit">
+                                            <%= item.name %>    
+                                        </div>
+                                        <div class="val">
+                                            <%= item.value %>
+                                        </div>
+                                    </li>
+                                    <% }) %>
+                                </ul>
+                                <div class="notes" style="display:<%- isShowNote===true ? 'block;' : 'none;' %>">数据统计范围包含存托凭证。</div>
+                            </a>
+                        </div>
+                    </script>
+                    <!--  <div id="" class="tab-pane fade in active">
+                        <div class="tabcon">
+                            <div class="tip">
+                                截止到2017年09月10日收市时
+                            </div>
+                            <ul class="list clearfix">
+                                <li>
+                                    <i class="hqicon hqicon1"></i>
+                                    <div class="tit">总市值（亿元）</div>
+                                    <div class="val">228,653</div>
+                                </li>
+                                <li>
+                                    <i class="hqicon hqicon2"></i>
+                                    <div class="tit">流通市值（亿元）</div>
+                                    <div class="val">228,653</div>
+                                </li>
+                                <li>
+                                    <i class="hqicon hqicon3"></i>
+                                    <div class="tit">上市公司（家）</div>
+                                    <div class="val">228,653</div>
+                                </li>
+                                <li>
+                                    <i class="hqicon hqicon4"></i>
+                                    <div class="tit">上市证券（只）</div>
+                                    <div class="val">228,653</div>
+                                </li>
+                                <li>
+                                    <i class="hqicon hqicon5"></i>
+                                    <div class="tit">平均盈利率（倍）</div>
+                                    <div class="val">228,653</div>
+                                </li>
+                                <li>
+                                    <i class="hqicon hqicon6"></i>
+                                    <div class="tit">股票成交金额（亿元）</div>
+                                    <div class="val">228,653</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="szsehelpbg-wrap">
+    <div class="g-container">
+        <div class="homem-quickentrance">
+            <div class="homem-title-wrap">
+                <h2 class="homem-title">快速入口</h2>
+            </div>
+            <div class="homem-entrance-list hidden-xs homem-entrancelist-pc">
+                <div class="morebuttons">
+                    <a class="arrow-left disabled"><span class="glyphicon glyphicon-menu-left"></span></a>
+                    <a class="arrow-right"><span class="glyphicon glyphicon-menu-right"></span></a>
+                </div>
+                <div class="homequickentrance-slide">
+                    <div class="swiper-device">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <ul class="list clearfix">
+                                        <li>
+                                            <a href="http://www.szse.cn/szhk/index.html" target="_blank">
+                                                    <div class="sicon-wrap"><div class="sicon sicon_szhk"></div></div>
+                                                    <div class="tit">深港通</div>
+                                                    <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.cninfo.com.cn/eipo/index.jsp" target="_blank">
+                                                  <div class="sicon-wrap"><div class="sicon sicon_ipo"></div></div>
+                                                  <div class="tit">IPO信息查询</div>
+                                                  <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                          <a href="../marketServices/technicalservice/" target="_blank">
+                                                  <div class="sicon-wrap"><div class="sicon sicon_it"></div></div>
+                                                  <div class="tit">技术服务</div>
+                                                  <i class="sbtn"></i>
+                                          </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ebs.szse.cn/" target="_blank">
+                                                 <div class="sicon-wrap"><div class="sicon sicon_ebs"></div></div>
+                                                  <div class="tit">采购信息</div>
+                                                  <i class="sbtn"></i>
+                                              </a>
+                                        </li> 
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="list clearfix">
+                                        <li>
+                                            <a class="itemlink-ydyl" href="#" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_ydyl"></div></div>
+                                                <div class="tit">一带一路</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                             <a class="itemlink-eipo" href="#" target="_blank">
+                                                 <div class="sicon-wrap"><div class="sicon sicon_eipo"></div></div>
+                                                 <div class="tit">网下发行平台</div>
+                                                 <i class="sbtn"></i>
+                                             </a>
+                                        </li>
+                                        <li>
+                                          <a href="http://dr.szse.cn" target="_blank">
+                                               <div class="sicon-wrap"><div class="sicon_gdr"></div></div>
+                                               <div class="tit">互联互通存托凭证</div>
+                                               <i class="sbtn"></i>
+                                          </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.chinahtz.com/park/home" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon_krt"></div></div>
+                                                <div class="tit">科融通V-Next</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="list clearfix">
+                                        <li>
+                                            <a href="../option/" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_option"></div></div>
+                                                <div class="tit">股票期权</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                          <a href="../marketServices/training/introduce/" target="_blank">
+                                               <div class="sicon-wrap"><div class="sicon sicon_train"></div></div>
+                                               <div class="tit">培训服务</div>
+                                               <i class="sbtn"></i>
+                                          </a>
+                                        </li>
+                                        <li>
+                                              <a href="http://www.cninfo.com.cn/fwsq/hq/yw-2.htm" target="_blank">
+                                                  <div class="sicon-wrap"><div class="sicon sicon_hq"></div></div>
+                                                  <div class="tit">行情信息授权</div>
+                                                  <i class="sbtn"></i>
+                                              </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.szte.com" target="_blank">
+                                                    <div class="sicon-wrap"><div class="sicon sicon_kjzx"></div></div>
+                                                    <div class="tit">科交中心</div>
+                                                    <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="list clearfix">
+                                        <li>
+                                            <a href="https://smehome.szse.cn/" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_smehome"></div></div>
+                                                <div class="tit">中小企业之家</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.preipo.org.cn" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_preipo"></div></div>
+                                                <div class="tit">后备企业培育</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                          <a href="../aboutus/online/" target="_blank">
+                                                  <div class="sicon-wrap"><div class="sicon sicon_online"></div></div>
+                                                  <div class="tit">在线招聘</div>
+                                                  <i class="sbtn"></i>
+                                          </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="list clearfix">
+                                        <li>
+                                            <a href="https://czxy.homeforsmes.com.cn" target="_blank">
+                                                 <div class="sicon-wrap"><div class="sicon sicon_homeforsmes"></div></div>
+                                                 <div class="tit">成长学院</div>
+                                                 <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../marketServices/message/ca/" target="_blank">
+                                                 <div class="sicon-wrap"><div class="sicon sicon_ca"></div></div>
+                                                 <div class="tit">CA证书服务</div>
+                                                 <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../sustainablefinance/" target="_blank">
+                                                 <div class="sicon-wrap"><div class="sicon sicon_sf"></div></div>
+                                                 <div class="tit">可持续金融</div>
+                                                 <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+
+              
+            </div>
+            <div class="homem-entrance-list visible-xs">
+                <div class="homem-entrance-mobile">
+                    <div class="swiper-device">
+                        <a class="arrow-left"></a>
+                        <a class="arrow-right"></a>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <ul class="list clearfix">
+                                        <li>
+                                            <a href="http://www.szse.cn/szhk/index.html" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_szhk"></div></div>
+                                                <div class="tit">深港通</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.cninfo.com.cn/fwsq/hq/yw-2.htm" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_hq"></div></div>
+                                                <div class="tit">行情信息授权</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.cninfo.com.cn/eipo/index.jsp" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_ipo"></div></div>
+                                                <div class="tit">IPO信息查询</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="itemlink-eipo" href="#" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_eipo"></div></div>
+                                                <div class="tit">网下发行平台</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../marketServices/technicalservice/" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_it"></div></div>
+                                                <div class="tit">技术服务</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://dr.szse.cn" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon_gdr"></div></div>
+                                                <div class="tit">互联互通存托凭证</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="itemlink-ydyl" href="#" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_ydyl"></div></div>
+                                                <div class="tit">一带一路</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../option/" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_option"></div></div>
+                                                <div class="tit">股票期权</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../marketServices/training/introduce/" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_train"></div></div>
+                                                <div class="tit">培训服务</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.preipo.org.cn" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_preipo"></div></div>
+                                                <div class="tit">后备企业培育</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="list clearfix">
+                                        <li>
+                                            <a href="../aboutus/online/" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_online"></div></div>
+                                                <div class="tit">在线招聘</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ebs.szse.cn/" target="_blank">
+                                               <div class="sicon-wrap"><div class="sicon sicon_ebs"></div></div>
+                                                <div class="tit">采购信息</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smehome.szse.cn/" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_smehome"></div></div>
+                                                <div class="tit">中小企业之家</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="https://czxy.homeforsmes.com.cn" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_homeforsmes"></div></div>
+                                                <div class="tit">成长学院</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.chinahtz.com/park/home" target="_blank">
+                                              <div class="sicon-wrap"><div class="sicon_krt"></div></div>
+                                              <div class="tit">科融通V-Next</div>
+                                              <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../marketServices/message/ca/" target="_blank">
+                                                <div class="sicon-wrap"><div class="sicon sicon_ca"></div></div>
+                                                <div class="tit">CA证书服务</div>
+                                                <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="../sustainablefinance/" target="_blank">
+                                              <div class="sicon-wrap"><div class="sicon sicon_sf"></div></div>
+                                              <div class="tit">可持续金融</div>
+                                              <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.szte.com" target="_blank">
+                                              <div class="sicon-wrap"><div class="sicon_kjzx"></div></div>
+                                              <div class="tit">科交中心</div>
+                                              <i class="sbtn"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+       <div class="homem-buss-wrap">
+           <div class="homem-title-wrap">
+               <h2 class="homem-title">业务专区</h2>
+           </div>
+           <div class="hidden-xs homem-busslist-pc">
+               <div class="morebuttons">
+                   <a class="arrow-left disabled"><span class="glyphicon glyphicon-menu-left"></span></a>
+                   <a class="arrow-right"><span class="glyphicon glyphicon-menu-right"></span></a>
+               </div>
+               <div class="homem-buss-area">
+                   <div class="homebuss-slide ">
+                       <div class="swiper-device">
+                           <div class="swiper-container">
+                               <div class="swiper-wrapper">
+                                   <div class="swiper-slide">
+                                       <ul class="list clearfix">
+                                            <li>
+                                                <a href="https://biz.szse.cn/ras" target="_blank">
+                                                    <span class="tit">发行上市审核专区</span>
+                                                </a>
+                                            </li>
+                                           <li>
+                                               <a href="https://biz.szse.cn/media/login.html" target="_blank">
+                                                    <span class="tit">媒体业务专区</span>
+                                                </a>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="swiper-slide">
+                                       <ul class="list clearfix">
+                                            <li>
+                                                <a class="itemlink-szsePLE" href="#" target="_blank">
+                                                        <span class="tit">拟上市企业服务专区</span>
+                                                    </a>
+                                            </li>
+                                           <li>
+                                               <a href="https://biz.szse.cn/mbr/index.html" target="_blank">
+                                                    <span class="tit">会员业务专区</span>
+                                                </a>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="swiper-slide">
+                                       <ul class="list clearfix">
+                                            <li>
+                                                <a href="https://biz.szse.cn/lsd/index.html?usepassword=true" target="_blank">
+                                                    <span class="tit">主板业务专区</span>
+                                                </a>
+                                            </li>
+                                           <li>
+                                               <a href="https://biz.szse.cn/fund/index.html" target="_blank">
+                                                    <span class="tit">基金业务专区</span>
+                                                </a>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="swiper-slide">
+                                       <ul class="list clearfix">
+                                            <li>
+                                                <a href="https://biz.szse.cn/nmk/index.html?usepassword=true" target="_blank">
+                                                        <span class="tit">创业板业务专区</span>
+                                                </a>
+                                            </li>
+                                           <li>
+                                               <a href="https://biz.szse.cn/mbr" target="_blank">
+                                                  <span class="tit">托管人业务专区</span>
+                                              </a>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="swiper-slide">
+                                       <ul class="list clearfix">
+                                            <li>
+                                                <a href="https://biz.szse.cn/msh/login.html" target="_blank">
+                                                <span class="tit">股东业务专区</span>
+                                            </a>
+                                            </li>
+                                           <li>
+                                               <a href="https://biz.szse.cn/fic" target="_blank">
+                                                  <span class="tit">固定收益品种业务专区</span>
+                                              </a>
+                                           </li>
+                                       </ul>
+                                   </div>
+                                   <div class="swiper-slide">
+                                       <ul class="list clearfix">
+                                            <li>
+                                                <a href="https://biz.szse.cn/sponsor/slogin" target="_blank">
+                                                    <span class="tit">保荐业务专区</span>
+                                                </a>
+                                            </li>
+                                           <li>
+                                               <a href="https://sso.szse.cn/sso/login?loa=40&auth=40&service=https%3A%2F%2Fbiz.szse.cn%2Foption%2Findex.html" target="_blank">
+                                                    <span class="tit">股票期权专区</span>
+                                                </a>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="pagination"></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="visible-xs homem-busslist-mobile">
+               <div class="homem-buss-area">
+                   <ul class="list clearfix">
+                        <li>
+                            <a href="https://biz.szse.cn/ras" target="_blank">
+                                                                <span class="tit">发行上市审核专区</span>
+                                                            </a>
+                        </li>
+                       <li>
+                           <a class="itemlink-szsePLE" href="#" target="_blank">
+                                                             <span class="tit">拟上市企业服务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/lsd/index.html?usepassword=true" target="_blank">
+                                                             <span class="tit">主板业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/nmk/index.html?usepassword=true" target="_blank">
+                                                             <span class="tit">创业板业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/msh/login.html" target="_blank">
+                                                             <span class="tit">股东业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/media/login.html" target="_blank">
+                                                             <span class="tit">媒体业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/mbr/index.html" target="_blank">
+                                                             <span class="tit">会员业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/fund/index.html" target="_blank">
+                                                             <span class="tit">基金业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/mbr" target="_blank">
+                                                             <span class="tit">托管人业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/fic" target="_blank">
+                                                             <span class="tit">固定收益品种业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://biz.szse.cn/sponsor/slogin" target="_blank">
+                                                             <span class="tit">保荐业务专区</span>
+                                                         </a>
+                       </li>
+                       <li>
+                           <a href="https://sso.szse.cn/sso/login?loa=40&auth=40&service=https%3A%2F%2Fbiz.szse.cn%2Foption%2Findex.html" target="_blank">
+                                <span class="tit">股票期权专区</span>
+                            </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+        
+    </div>
+</div>
+<script>
+  changeVertion('/common/js/toggleBig5.js', 'js');
+  navMenuAJAX('/application/publicindex/footer/index.html','/application/publicindex/footer/index.html', 'footer','www');
+  addComJsFile();
+</script>
+<script>
+ if(!isDevModel){
+        changeVertion('/lib/echarts/3.x/echarts.js', 'js');
+        changeVertion('/lib/echarts/china.js', 'js');
+        changeVertion('/modules/marketdata/trend/js/kMap.min.js', 'js');
+    }else {
+        changeVertion('/lib/echarts/3.x/echarts.js', 'js');
+        changeVertion('/lib/echarts/china.js', 'js');
+        changeVertion('/modules/marketdata/trend/js/mLineChart.js', 'js');
+        changeVertion('/modules/marketdata/trend/js/kLineChart.js', 'js');
+        changeVertion('/modules/marketdata/trend/js/map.js', 'js');
+    }
+
+</script>
+<script>
+  (function () {
+    if (!window.location.origin) {
+      window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+    }
+
+    var reg = /^http(s)?:\/\/([a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+\.?)/;
+    var channelCode = 'index';
+    var domainArr = [];
+    $.each(pathObj, function (i, v) {
+      domainArr.push(v);
+    });
+    domainArr.push.apply(domainArr, ["http://lefu.szse.cn", "https://lefu.szse.cn", "http://res.szse.cn"]);
+    $('.visitsNum a').each(function (index) {
+      var domain = $(this).attr('href').match(reg) ? $(this).attr('href').match(reg)[0] : '';
+      if (domain && $.inArray(domain, domainArr) < 0) {
+        $(this).click(function () {
+          $.when(ajaxRequest({
+            url: window.location.origin + '/index/visits/index.html?url=' + $(this).attr('href') + '&channel=' + channelCode
+          })).done(function (data) {
+          });
+        })
+      }
+
+    });
+
+
+
+  })();
+
+</script>
+<script>
+    changeVertion('/lib/Swiper-2.7.6/idangerous.swiper.min.js','js');
+    changeVertion('/modules/index/js/index.js','js');
+</script>
+<script>
+  changeVertion('/common/js/grayscale.js', 'js');
+</script>
+
+<script>
+  (function () {
+    if (~[10, 11].indexOf(document.documentMode) && !~location.host.indexOf('big5') && document.documentElement.className.indexOf('grayscale') > -1) {
+      var imgsList = document.querySelectorAll('img[src*="//docs"],img[src*="//res"]')
+
+      for (var i = 0; i < imgsList.length; i++) {
+        var src = imgsList[i].src;
+
+        src = src.split('//')[1];
+        src = src.substring(src.indexOf('/'));
+        imgsList[i].src = src;
+      }
+    }
+  })();
+
+  if (~[10, 11].indexOf(document.documentMode) && !~location.host.indexOf('big5') && document.documentElement.className.indexOf('grayscale') > -1) {
+    window.addEventListener('load', function () {
+      if (typeof isShowCoverImgFlag !== 'undefined') {
+        window.addEventListener('grayscaleEvent', function (e) {
+          setTimeout(function () {
+            grayscale(document.documentElement);
+          }, 1500)
+        })
+      } else {
+        grayscale(document.documentElement);
+      }
+
+    });
+
+  }
+
+
+</script>
+</body>

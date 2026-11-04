@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-02",
+  "automation_id": "ai",
+  "automation_status": "ACTIVE",
+  "timezone": "Asia/Shanghai",
+  "schedule_local": "08:30 daily",
+  "initialized": true,
+  "last_run_at": "2026-11-04T00:35:00+00:00",
+  "last_observation_file": "observations/2026-11-04.json",
+  "last_notified_at": "2026-11-04T00:35:00+00:00",
+  "last_notified_assessment": "观察",
+  "assessment": "观察",
+  "reason": "Observation maintained. Meta newly priced USD15bn notes and Oracle USD10bn Nov2 pricing newly verified: material evidence of issuer market access, not verified settlement or proof sector risk has eased. No verified AI-specific loss transmission in reviewed new JPM/Apollo disclosures.",
+  "consecutive_overall_collection_failures": 0,
+  "last_notification_reason": "Material new Meta15000m senior debt pricing plus newly verified OracleNov2 funding terms change financing-access evidence from missing to observed pricing; no overall risk-level change claimed.",
+  "latest_market_proxy_date": "2026-10-30",
+  "current_issuer_cds_available": false,
+  "last_notification_decision": "NOTIFY",
+  "new_issue_pricing_available": true,
+  "last_fred_collection_status": "timeout",
+  "seen_event_ids": [
+    "broadcom_residual_value_backstop",
+    "coreweave_completed_convertible",
+    "meta_20261103_pricing",
+    "meta_concurrent_euro_proposal",
+    "meta_preferred_overallotment_completed_20261102",
+    "oracle_20261028_guidance",
+    "oracle_20261102_preliminary_equity",
+    "oracle_20261102_priced_bonds"
+  ],
+  "pending_settlement_checks": [
+    {
+      "event_id": "oracle_20261102_priced_bonds",
+      "expected_US_settlement_date": "2026-11-04",
+      "status": "priced_not_verified_settled"
+    },
+    {
+      "event_id": "meta_20261103_pricing",
+      "expected_US_settlement_date": "2026-11-05",
+      "status": "priced_not_verified_settled"
+    }
+  ],
+  "supplemental_financial_baseline_file": "reference-baselines/2026Q3-alphabet-meta.json",
+  "monitoring_framework": {
+    "version": 2,
+    "configured_at": "2026-11-04T09:47:56+08:00",
+    "timezone": "Asia/Shanghai",
+    "check_schedule_local": "08:30 daily",
+    "weekly_review": "Friday within the same08:30run",
+    "evidence_lines": [
+      "real_demand_collections_and_cashflow",
+      "credit_funding_and_liquidity",
+      "realized_losses_and_cross_entity_propagation"
+    ],
+    "notification_policy": "Material verified changes only; routine daily/weekly checks are silent.",
+    "realtime_monitoring": false,
+    "automation_config_verified": true
+  },
+  "configuration_history": [
+    {
+      "changed_at": "2026-11-04T09:47:56+08:00",
+      "reason": "User requested adding the three cascade-evidence lines to existing AI credit monitor.",
+      "automation_id": "ai",
+      "rrule": "FREQ=DAILY;BYHOUR=8;BYMINUTE=30;BYSECOND=0",
+      "added_duplicate_task": false
+    }
+  ]
+}

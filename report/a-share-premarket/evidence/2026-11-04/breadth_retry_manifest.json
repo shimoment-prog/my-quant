@@ -1,0 +1,14 @@
+[
+  {
+    "name": "eastmoney_breadth_retry",
+    "url": "https://82.push2.eastmoney.com/api/qt/ulist.np/get?secids=1.000001,0.399001&fields=f12,f14,f2,f3,f6,f104,f105,f106&fltt=2&invt=2",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "name": "sina_breadth",
+    "url": "https://hq.sinajs.cn/list=s_sh000001,s_sz399001",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

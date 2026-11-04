@@ -1,0 +1,55 @@
+[
+  {
+    "name": "apollo_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000063/erex9913q2026.htm",
+    "ok": true,
+    "chars": 6769,
+    "snippets": []
+  },
+  {
+    "name": "apollo_earnings",
+    "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000063/agmearningsrelease3q2026.htm",
+    "ok": true,
+    "chars": 85132,
+    "snippets": [
+      {
+        "term": "impairment",
+        "count": 3,
+        "excerpts": [
+          ", 2026, 98% of $240 billion of available-for-sale securities designated NAIC 1 or 2. 2. Athene\u2019s statutory fixed income impairments adjusted to include changes in mortgage loan specific reserves in relation to average invested assets of regulated entities in the U.S. and Bermuda. 3. Industry average represents U.S. statutory impairments adjusted to include changes in mortgage loan specific reserves per SNL Financial. Industry average includes AEL, AMP, BHF, CRBG, EQH, FG, LNC",
+          "to average invested assets of regulated entities in the U.S. and Bermuda. 3. Industry average represents U.S. statutory impairments adjusted to include changes in mortgage loan specific reserves per SNL Financial. Industry average includes AEL, AMP, BHF, CRBG, EQH, FG, LNC, MET, PFG, PRU, VOYA and Transamerica. Trailing five-year average (2021-2025). 4. Floating rate assets at notional were approximately $67 billion, or approximately 21% of Athene\u2019s net invested assets, as of",
+          "ncipal Investing segment. 2. In 2Q'25, unrealized net (gains) losses from investment activities includes a $257 million impairment related to an equity investment. 3. Transaction-related costs, restructuring and other non-operating expenses includes: a) contingent consideration, certain equity-based charges, amortization of intangible assets and certain other expenses associated with acquisitions; b) gains (losses) from changes in the tax receivable agreement liability; c) me"
+        ]
+      },
+      {
+        "term": "credit losses",
+        "count": 3,
+        "excerpts": [
+          "d, senior secured loans where control of origination results in better risk-adjusted return \u2022 Historical average annual credit losses across total portfolio of 11 basis points2 over the past five years compared to 12 basis points for the industry3 \u2022 Floating Rate Investments and Cash: Combined total of 1% or $3 billion composed of floating rate assets, net of floating rate liabilities,4 including $8 billion of cash5 1. As of September 30, 2026, 98% of $240 billion of available-f",
+          "9 Unrealized (gains) losses 24,075 Ceded policy loans (152) Net investment receivables (payables) (6,256) Allowance for credit losses 768 Other investments (48) Total adjustments to arrive at gross invested assets 39,609 Gross invested assets $ 423,695 ACRA non-controlling interests (101,204) Net invested assets $ 322,491 Year ended December 31, ($ in millions) 2017 2018 2019 2020 2021 Net income available to Athene Holding Ltd. common stockholders $ 1,358 $ 1,053 $ 2,136 $ 1,44",
+          "icy loans ceded (which offset the direct policy loans in total investments) and (h) an adjustment for the allowance for credit losses. Net invested assets exclude the derivative collateral offsetting the related cash positions. Athene includes the underlying investments supporting its assumed funds withheld and modco agreements and excludes the underlying investments related to ceded reinsurance transactions in its net invested assets calculation to match the assets with the inc"
+        ]
+      },
+      {
+        "term": "provision",
+        "count": 9,
+        "excerpts": [
+          "ther income (loss), net 33 17 4 (172) 51 Total Other Income (Loss) 146 73 4 (130) (20) Income (loss) before income tax (provision) benefit 2,899 2,485 (1,466) 4,925 1,302 Income tax (provision) benefit1 (438) (396) 344 (684) (1,746) Net income (loss) 2,461 2,089 (1,122) 4,241 (444) Net (income) loss attributable to non-controlling interests (725) (728) 65 (1,433) (1,158) Net income (loss) attributable to Apollo Global Management, Inc. 1,736 1,361 (1,057) 2,808 (1,602) Prefer",
+          "ss) 146 73 4 (130) (20) Income (loss) before income tax (provision) benefit 2,899 2,485 (1,466) 4,925 1,302 Income tax (provision) benefit1 (438) (396) 344 (684) (1,746) Net income (loss) 2,461 2,089 (1,122) 4,241 (444) Net (income) loss attributable to non-controlling interests (725) (728) 65 (1,433) (1,158) Net income (loss) attributable to Apollo Global Management, Inc. 1,736 1,361 (1,057) 2,808 (1,602) Preferred stock dividends (24) (25) \u2014 (73) (49) Net income (loss) att",
+          "725 476 495 728 (65) 1,433 1,158 GAAP Net income (loss) $2,461 $1,160 $(1,411) $2,089 $(1,122) $4,241 $(444) Income tax provision (benefit) 438 592 1,694 396 (344) 684 1,746 GAAP Income (loss) before Income tax provision (benefit) $2,899 $1,752 $283 $2,485 $(1,466) $4,925 $1,302 Asset Management Adjustments: Equity-based profit sharing expense1 35 108 52 71 40 103 163 Equity-based compensation 112 126 156 129 145 313 430 Net (income) loss attributable to non-controlling inte",
+          "22) $4,241 $(444) Income tax provision (benefit) 438 592 1,694 396 (344) 684 1,746 GAAP Income (loss) before Income tax provision (benefit) $2,899 $1,752 $283 $2,485 $(1,466) $4,925 $1,302 Asset Management Adjustments: Equity-based profit sharing expense1 35 108 52 71 40 103 163 Equity-based compensation 112 126 156 129 145 313 430 Net (income) loss attributable to non-controlling interests in consolidated entities (783) (559) (255) (698) 200 (1,598) (753) Unrealized perform"
+        ]
+      },
+      {
+        "term": "financing",
+        "count": 18,
+        "excerpts": [
+          "AAP earnings metric, Adjusted Net Income, which represents the sum of FRE, SRE, and PII, less HoldCo interest and other financing costs and taxes, totaled $1.3 billion, or $2.07 per share, for the third quarter Note: This presentation contains non-GAAP financial information and defined terms which are described on pages 29 to 34. The non-GAAP financial information contained herein is reconciled to GAAP financial information on pages 26 to 28. Per share calculations are based",
+          "vestment spread 1,118 1,129 1,098 3,226 3,217 Other operating expenses (107) (111) (105) (328) (334) Interest and other financing costs (140) (141) (149) (402) (443) Spread Related Earnings $871 $877 $844 $2,496 $2,440 Fee and Spread Related Earnings $1,523 $1,662 $1,646 $4,334 $4,755 Principal Investing Income $50 $16 $52 $111 $143 Segment Income $1,573 $1,678 $1,698 $4,445 $4,898 HoldCo interest and other financing costs1 (33) (53) (49) (103) (147) Taxes and related payabl",
+          "ipal Investing Income $50 $16 $52 $111 $143 Segment Income $1,573 $1,678 $1,698 $4,445 $4,898 HoldCo interest and other financing costs1 (33) (53) (49) (103) (147) Taxes and related payables (183) (311) (356) (687) (936) Adjusted Net Income $1,357 $1,314 $1,293 $3,655 $3,815 ANI per share $2.17 $2.11 $2.07 $5.91 $6.12 1. Represents interest and other financing costs related to Apollo Global Management, Inc. not attributable to any specific segment. Total Segment Earnings 4 (",
+          " Income $1,357 $1,314 $1,293 $3,655 $3,815 ANI per share $2.17 $2.11 $2.07 $5.91 $6.12 1. Represents interest and other financing costs related to Apollo Global Management, Inc. not attributable to any specific segment. Total Segment Earnings 4 ($ in millions, except per share amounts) 3Q'25 2Q'26 3Q'26 YTD'25 YTD'26 Management fees $863 $1,001 $1,017 $2,449 $2,970 Capital solutions fees and other, net 212 277 290 582 813 Fee-related performance fees 73 65 67 190 196 Fee-rel"
+        ]
+      }
+    ]
+  }
+]

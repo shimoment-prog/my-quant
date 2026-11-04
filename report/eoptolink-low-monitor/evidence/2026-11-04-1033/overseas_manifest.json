@@ -1,0 +1,65 @@
+[
+  {
+    "name": "us_quotes",
+    "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:05.884470+00:00",
+    "length": 3079
+  },
+  {
+    "name": "us_sina",
+    "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:05.884432+00:00",
+    "length": 2991
+  },
+  {
+    "name": "live_news",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:06.455239+00:00",
+    "length": 229342
+  },
+  {
+    "name": "lite_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:07.636063+00:00",
+    "length": 159389
+  },
+  {
+    "name": "mrvl_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:07.216802+00:00",
+    "length": 136419
+  },
+  {
+    "name": "cohr_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:07.635985+00:00",
+    "length": 160104
+  },
+  {
+    "name": "cien_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:07.636113+00:00",
+    "length": 158733
+  },
+  {
+    "name": "aaoi_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:07.504047+00:00",
+    "length": 154560
+  },
+  {
+    "name": "fn_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "ok": true,
+    "retrieved_at": "2026-11-04T02:30:07.634197+00:00",
+    "length": 154968
+  }
+]

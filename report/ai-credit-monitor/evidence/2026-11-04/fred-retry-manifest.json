@@ -1,0 +1,26 @@
+[
+  {
+    "name": "fred_ig_retry",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "fred_hy_retry",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "fred_ig_page",
+    "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "fred_hy_page",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "ok": false,
+    "error": "The read operation timed out"
+  }
+]

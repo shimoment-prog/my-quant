@@ -1,0 +1,160 @@
+[
+  {
+    "code": "688256",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688256,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.277295+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "603259",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603259,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.290218+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "688012",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688012,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.284115+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "600519",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600519,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.287233+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "601899",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601899,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.277429+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "688041",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688041,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.259470+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "688008",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688008,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.349264+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "688981",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688981,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.364897+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "601318",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601318,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.367964+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "600030",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600030,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.372139+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "600036",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600036,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.386797+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "600183",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600183,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.382816+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "601211",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601211,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.477423+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "600276",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600276,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.477603+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "603986",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603986,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.480625+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "600900",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600900,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.482402+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "600809",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600809,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.482554+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "603993",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603993,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.509800+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "code": "600150",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600150,day,,,100,qfq",
+    "fetched_at": "2026-11-04T07:01:07.583037+00:00",
+    "ok": true,
+    "rows": 101,
+    "last_date": "2026-11-04"
+  },
+  {
+    "file": "quotes.txt",
+    "url": "https://qt.gtimg.cn/q=sh688256,sh603259,sh688012,sh600519,sh601899,sh688041,sh688008,sh688981,sh601318,sh600030,sh600036,sh600183,sh601211,sh600276,sh603986,sh600900,sh600809,sh603993,sh600150",
+    "fetched_at": "2026-11-04T07:01:07.638322+00:00",
+    "ok": true
+  }
+]
