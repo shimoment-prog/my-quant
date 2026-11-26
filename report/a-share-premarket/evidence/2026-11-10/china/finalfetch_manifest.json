@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ce_close",
+    "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261109_3288584.shtml",
+    "retrieved_at": "2026-11-10T00:47:24.548216+00:00",
+    "ok": true,
+    "bytes": 23361
+  },
+  {
+    "name": "mofcom",
+    "url": "https://www.mofcom.gov.cn/",
+    "retrieved_at": "2026-11-10T00:47:24.548578+00:00",
+    "ok": true,
+    "bytes": 42208
+  },
+  {
+    "name": "chinanews_search",
+    "url": "https://www.chinanews.com.cn/cj/",
+    "retrieved_at": "2026-11-10T00:47:24.548754+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

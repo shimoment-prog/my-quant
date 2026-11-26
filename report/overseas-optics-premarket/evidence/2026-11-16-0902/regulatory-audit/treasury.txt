@@ -1,0 +1,398 @@
+Press Releases | U.S. Department of the Treasury
+!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="M33KD-YMV8Y-625W4-V96WF-R28AJ",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"M33KD-YMV8Y-625W4-V96WF-R28AJ";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="tq5rcpaxjxm7c2x2kodq-f-2c32350f9-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"590367","ak.ai":parseInt("384319",10),"ak.ol":"0","ak.cr":99,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"765d3d9","ak.r":39899,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":57788,"ak.gh":"23.77.217.172","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1794790279","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==QYXrcYcndmR96H0ATwnyM8X3kpObubRt8ZENqMkaj3XMDyq8FlEWgSZ2DZ9UfUnXP2sgeHHKr+35Yzwyfh3E77M8JdZAsWUGR7fyuJAnmPwaV90OknKj+lQ/pwiOtlfchs3gdkExhksSm0J+JPA9l0DAxPsvCXOUqrB/CEO0ard0am9jOGsZzzIfvxLdUrVqpb9vIxQn4NnwH0hXnLmyysYU/A+R1dbLCtlQyjoSzTT45MPuyVMf/nrEqWUUQHRDbR6krNCGDsLbAlGmSUI1qmwFiyTs7AgSlXK924TwKAmEzY0ZMml4aztXtBonezdcC6kjdDW09VCn74hfmjAwnwUq/PdRGuFLwvFJoxfGgsvtUQCk8qvkx2GlG5zrJ/Rmdlbh2VEEN1zTk0uVRsZvM8/KS/bT2mDEEj7tx7vuP1g=","ak.pv":"184","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+MENU
+MENU
+U.S. Department of the Treasury
+Enter Search Term(s):
+Advanced Search
+About Treasury
+About Treasury
+GENERAL INFORMATION
+Role of the Treasury
+Officials
+Organizational Chart
+Orders and Directives
+OFFICES
+Domestic Finance
+Economic Policy
+General Counsel
+International Affairs
+Management
+Public Affairs
+Tax Policy
+Terrorism and Financial Intelligence
+Tribal and Native Affairs
+Inspectors General
+BUREAUS
+Alcohol and Tobacco Tax and Trade Bureau (TTB)
+Bureau of Engraving & Printing (BEP)
+Financial Crimes Enforcement Network (FinCEN)
+Bureau of the Fiscal Service (BFS)
+Internal Revenue Service (IRS)
+Office of the Comptroller of the Currency (OCC)
+U.S. Mint
+Office of Inspector General (OIG)
+Treasury Inspector General for Tax Administration (TIGTA)
+Special Inspector General for Pandemic Recovery (SIGPR)
+BUDGET, FINANCIAL REPORTING, PLANNING AND PERFORMANCE
+Strategic Plan
+Budget Request/Annual Performance Plan and Reports
+Agency Financial Report
+Inspector General Audits and Investigative Reports
+IRS Strategic Operating Plan
+HISTORY
+Curator
+History Overview
+Prior Secretaries
+Prior Treasurers
+The Treasury Building
+Collections
+Freedman's Bank Building
+CAREERS
+At Headquarters
+At Our Bureaus
+Top 10 Reasons to Work Here
+Benefits and Growth
+Workforce
+Veterans Employment
+Pathways
+How to Apply
+Search Jobs
+The Fair Chance to Compete Act
+Policy Issues
+Policy Issues
+TAX POLICY
+Data Transparency
+Revenue Proposals
+Tax Expenditures
+International Tax
+Treaties and Related Documents
+Foreign Account Tax Compliance Act (FATCA)
+Reports
+Tax Analysis
+Tax Regulatory Process
+ECONOMIC POLICY
+Treasury Coupon Issues
+Corporate Bond Yield Curve
+Economic Policy Reports
+Social Security and Medicare
+Total Taxable Resources
+TERRORISM AND ILLICIT FINANCE
+Sanctions
+Asset Forfeiture
+311 Actions
+Terrorist Finance Tracking Program
+Money Laundering
+Financial Action Task Force
+Protecting Charitable Organizations
+FINANCING THE GOVERNMENT
+Treasury Quarterly Refunding
+Interest Rate Statistics
+Treasury Securities
+Treasury Investor Data
+Debt Management Research
+FINANCIAL MARKETS, FINANCIAL INSTITUTIONS, AND FISCAL SERVICE
+Cash and Debt Forecasting
+Debt Limit
+Financial Stability Oversight Council
+Federal Insurance Office
+RESTORE Act
+1603 Program
+The Community Development Financial Institution (CDFI) Fund
+Office of Capital Access
+FINANCIAL SANCTIONS
+Specially Designated Nationals List (SDN List)
+Consolidated Sanctions List
+Search OFAC's Sanctions Lists
+Additional Sanctions Lists
+OFAC Recent Actions
+Sanctions Programs and Country Information
+Frequently Asked Questions
+OFAC Civil Penalties and Enforcement
+Contact OFAC
+CONSUMER POLICY
+Financial Literacy and Education Commission
+Mymoney.gov
+Innovations in Financial Services
+Featured Research
+Student Loans
+INTERNATIONAL
+The Committee on Foreign Investment in the United States (CFIUS)
+Outbound Investment Security Program
+Exchange Stabilization Fund
+G-7 and G-20
+International Monetary Fund
+Multilateral Development Banks
+Macroeconomic and Foreign Exchange Policies of Major Trading Partners
+Exchange Rate Analysis
+U.S.-China Comprehensive Strategic Economic Dialogue (CED)
+SMALL BUSINESS PROGRAMS
+Small and Disadvantaged Business Utilization
+Small Business Lending Fund
+State Small Business Credit Initiative
+TRIBAL AFFAIRS
+Data
+Data
+INTEREST RATES
+Daily Treasury Par Yield Curve Rates
+Daily Treasury Par Real Yield Curve Rates
+Daily Treasury Bill Rates
+Daily Treasury Long-Term Rates
+Daily Treasury Real Long-Term Rates
+TREASURY COUPON-ISSUE AND CORPORATE BOND YIELD CURVE
+Treasury Coupon Issues
+Corporate Bond Yield Curve
+FEDERAL FINANCIAL DATA
+Your Guide to America’s Finances
+Monthly Treasury Statement
+Daily Treasury Statement
+HOW YOUR MONEY IS SPENT
+USAspending.gov
+NATIONAL DEBT
+National Debt to the Penny
+Historical Debt Outstanding
+Monthly Statement of the Public Debt
+QUARTERLY REFUNDING
+Debt Management Overview and Quarterly Refunding Process
+Most Recent Documents
+Archives
+Webcasts
+INVESTOR CLASS AUCTION ALLOTMENTS
+OTHER PROGRAMS
+TREASURY INTERNATIONAL CAPITAL (TIC) SYSTEM
+U.S International Portfolio Investment Statistics
+Release Dates
+Forms and Instructions
+TIC Press Releases
+U.S. INTERNATIONAL RESERVE POSITION
+TROUBLED ASSETS RELIEF PROGRAM
+Reports
+OFFICE OF THE CHIEF DATA OFFICER
+Federal CDO Council
+Data.gov
+Treasury Open Data
+Evidence Act H.R.4174
+Datafoundation.org
+Services
+Services
+REPORT FRAUD, WASTE & ABUSE
+Report COVID-19 Scam Attempts
+Report Scam Attempts
+Report Fraud Related to Government Contracts
+Inspectors General
+BONDS AND SECURITIES
+Buy, Manage, and Redeem
+Treasury Hunt - Search for Matured Bonds
+Cashing Savings Bonds in Disaster-Declared Areas
+Frequently Asked Questions
+GRANT PROGRAMS
+Pay for Results (SIPPRA)
+RESTORE Act
+Community Development Financial Institution (CDFI) Fund
+TREASURY PAYMENTS
+Where is my Refund?
+Lost or Expired Check
+Direct Express Card
+Non-Benefit Federal Payments
+Electronic Federal Benefit Payments - GoDirect
+CURRENCY AND COINS
+Shop for Coin Products
+Shop for Currency Products
+Redeem Damaged Currency
+Bureau of Engraving and Printing
+U.S Mint
+AUCTIONS
+IRS Auctions
+Real Estate
+General Property, Vehicles, Vessels & Aircraft
+KLINE-MILLER MULTIEMPLOYER PENSION REFORM ACT OF 2014
+Applications
+Frequently Asked Questions
+EDUCATION
+WHISTLEBLOWING AND FINANCIAL INTEGRITY
+Whistleblower Resources
+TAXES
+Internal Revenue Service (IRS)
+IRS Forms, Instructions & Publications
+Refund Status
+Foreign Account Tax Compliance Act
+FORMS
+IRS Forms and Instructions
+Savings Bonds - Treasury Securities
+Bank Secrecy Act - Fincen 114 and more
+OFAC License Application
+OFAC Reporting
+Treasury International Capital (TIC)
+GOVERNMENT SHARED SERVICES
+Treasury Franchise Fund (TFF)
+Center for Financial Management (CFM)
+Shared Services Program (SSP)
+Financial Management (FM) Marketplace Catalog
+TreasuryDirect
+Invoice Processing Platform
+TOURS AND LIBRARY
+Historic Treasury Building
+Library
+Curator
+Bureau of Engraving and Printing
+U.S. Mint
+News
+News
+Featured Stories
+View all
+Featured Stories
+Press Releases
+View All
+Press Releases
+Remarks and Statements
+View All
+Remarks and Statements
+Press Information
+Press Contacts
+Weekly Public Schedule Archive
+Webcasts
+Media Advisories Archive
+Subscribe to Press Releases
+Stay Connected
+X
+Facebook
+LinkedIn
+…
+Whistleblower Resources
+Working Families Tax Cuts
+Whistleblower Resources
+Working Families Tax Cuts
+Search
+Enter Search Term(s):
+Advanced Search
+Search
+The Public
+Auctions
+Report Scam Attempts
+Savings Bonds
+Businesses
+Government Contracting Small Business Contacts
+Form 941, employer's quarterly federal tax return
+Employer Identification Number (EIN)
+Financial Institutions
+Specially Designated Nationals list
+Interest rate statistics
+Quarterly refunding information
+Government
+Budget, Financial Reporting, Planning and Performance
+Shared Services
+TreasuryDirect for Government
+Breadcrumb
+Home
+News
+Press Releases
+News
+Press Releases
+Statements & Remarks
+Readouts
+Testimonies
+Featured Stories
+Webcasts
+Press Contacts
+Press Releases
+November 13, 2026
+Treasury Sanctions Guatemalan Drug Trafficking Organizations Supporting Mexican Narco-Terrorist Cartels
+November 11, 2026
+Statements & Remarks
+Remarks from Secretary of the Treasury Scott Bessent at the National Committee on U.S.-China Relations Gala
+November 6, 2026
+FATF Recognizes Effectiveness of U.S. AML/CFT System, Advances Key Illicit Finance Initiatives
+November 6, 2026
+Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime
+November 6, 2026
+Operation Economic Outcast Severs MEXC Global’s Access to the U.S. Financial System
+November 6, 2026
+Readouts
+READOUT: Secretary of the Treasury Scott Bessent’s Call with China’s Vice Premier He Lifeng
+November 5, 2026
+Treasury Targets Global Scam Networks and the Corporate Infrastructure That Enables Them
+November 5, 2026
+Treasury, IRS Announce Opportunity Zones Designations for Over 6,500 Communities Across America
+November 4, 2026
+Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime
+November 4, 2026
+Quarterly Refunding Statement of Assistant Secretary for Financial Markets Hunter McMaster
+Pagination
+Current page
+1
+Page
+2
+Page
+3
+…
+Skipped pages
+Next page
+Keyword Search
+Start date
+End date
+Subscribe to Press Releases
+Bureaus
+Alcohol and Tobacco Tax and Trade (TTB)
+Bureau of Engraving and Printing (BEP)
+Bureau of the Fiscal Service (BFS)
+Financial Crimes Enforcement Network (FinCEN)
+Internal Revenue Service (IRS)
+Office of the Comptroller of the Currency (OCC)
+U.S. Mint
+Inspector General Sites
+Office of Inspector General (OIG)
+Treasury Inspector General for Tax Administration (TIGTA)
+Report Scams, Fraud, Waste & Abuse
+Special Inspector General for Pandemic Recovery (SIGPR)
+U.S. Government Shared Services
+Administrative Resource Center (ARC)- Bureau of the Fiscal Service
+Treasury Direct Services for Governments
+Financial Management (FM) Marketplace Catalog
+Additional Resources
+Privacy Act
+Small Business Contacts
+Budget and Performance
+TreasuryDirect.gov Securities/Bonds
+Freedom of Information Act (FOIA)
+No FEAR Act Data
+Whistleblower Protection
+Other Government Sites
+USA.gov
+USAJOBS.gov
+OPM.gov
+MyMoney.gov
+Data.gov
+Forms.gov
+Regulations.gov
+PaymentAccuracy.gov
+my Social Security
+Vote.gov
+Privacy Policy
+Google Privacy
+Site Policies and Notices
+FAQs
+Feedback
+Careers
+Accessibility
+Contact
+Required Plug-ins
+Adobe® Reader®
+Twitter
+Facebook

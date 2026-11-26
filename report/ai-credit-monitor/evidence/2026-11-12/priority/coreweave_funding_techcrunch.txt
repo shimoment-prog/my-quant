@@ -1,0 +1,115 @@
+CoreWeave turns to customer prepayments, shorter contracts to fund AI growth | TechCrunch
+TechCrunch Desktop Logo
+TechCrunch Mobile Logo
+Latest Startups Venture Apple Security AI Apps Disrupt 2026
+Events Podcasts Newsletters
+Search Submit
+Site Search Toggle
+Mega Menu Toggle
+Topics
+Latest
+AI
+Amazon
+Apps
+Biotech & Health
+Climate
+Cloud Computing
+Commerce
+Crypto
+Enterprise
+EVs
+Fintech
+Fundraising
+Gadgets
+Gaming
+Google
+Government & Policy
+Hardware
+Instagram
+Layoffs
+Media & Entertainment
+Meta
+Microsoft
+Privacy
+Robotics
+Security
+Social
+Space
+Startups
+TikTok
+Transportation
+Venture
+More from TechCrunch
+Staff
+Events
+Startup Battlefield
+StrictlyVC
+Newsletters
+Podcasts
+Videos
+Partner Content
+TechCrunch Brand Studio
+Contact Us
+Image Credits: Getty Images
+AI
+CoreWeave turns to customer prepayments, shorter contracts to fund AI growth
+Rebecca Bellan
+11:54 AM PST · November 11, 2026
+CoreWeave is rewriting how it pays for the AI boom, according to the company’s third-quarter earnings , reported on Tuesday. CoreWeave, a neocloud that rents out the computing power behind AI, said it’s increasingly asking customers to pay up front, borrowing against specific contracts, and even pursuing short-term deals that could lead to higher prices.
+The new strategies could help CoreWeave finance its growth more efficiently while squeezing more cash from existing infrastructure. But these bets only hold if today’s demand and pricing power continue.
+CoreWeave reported $3.66 billion in revenue, up 168% from the year prior, but it also posted a $709 million net loss and $846 million in quarterly interest expense.
+“We will not use the unsecured debt market to fund our business at current yields, nor do we need to,” CoreWeave CEO Michael Intrator said during Tuesday’s earnings call.
+Instead, CoreWeave’s plan is to rely on loans backed by specific customer contracts, drawing on funds as needed to finance most of infrastructure it still has to build to deliver on its significant backlog of $132.5 billion.
+CoreWeave also said it expects about $9 billion in customer prepayments and deposits over the next three months, including more than $3 billion tied to signing new customer contracts for capacity it has already built, which requires no additional spending on hardware.
+Rivals Nebius and IREN have also relied on hefty Microsoft prepayments to pay for computing capacity, signaling that the industry is moving toward asking Big Tech to pay up for their buildouts.
+Upfront payments could alleviate CoreWeave’s immediate borrowing needs, but they also commit the company to providing services at a price that might be less attractive down the road if compute demand continues to surge.
+CoreWeave is also looking to capitalize on that growing demand by signing more shorter-term contracts that can command much higher prices.
+The company raised prices across its offerings by about 25% in July and by another 10% later in the quarter. Prices are still climbing this quarter, in a way that “more than offset[s] cost increases,” said Intrator.
+“We are also allocating more capacity to short-term opportunities, where the pricing justifies it, selling capacity at more than $40 million per megawatt annually, while pricing for new infrastructure on four and five-year contracts is moving to $20 million to $25 million per megawatt,” the chief executive said.
+CoreWeave’s financing strategy now revolves around those opportunities. In August, the company closed a $2.6 billion loan, its first designed specifically for shorter-term customer contracts. Known as DDTL 5.5, it lets CoreWeave borrow in installments as it needs the money.
+While short-term deals let CoreWeave charge higher prices and change them more frequently, it’s a tradeoff. Lenders give more weight to longer-term contracts, even if they’re priced lower, because they value predictable cash flow and consistency to repay the loan above all.
+Even though Wall Street reacted positively to CoreWeave’s earnings, bond investors are much less sanguine. Last month, yields on some of the company’s bonds hit above 15%, highlighting that investors are concerned about the debt needed to fund data center buildouts before those investments see a return.
+In short, CoreWeave is finding new ways to expand without relying on unsecured debt. The strategy it has chosen could boost profits, but it also carries greater risk around contract renewals and pricing — and it just goes to show how dependent the AI infrastructure boom is on sustained, and as yet unproven, demand.
+TechCrunch has reached out to CoreWeave for more information about its loan facility.
+Topics
+AI , ai infrastructure , Cloud Computing , CoreWeave
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Rebecca Bellan
+Senior Reporter
+Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.
+You can contact or verify outreach from Rebecca by emailing [email protected] or via encrypted message at rebeccabellan.491 on Signal.
+View Bio
+2027
+San Francisco
+Get an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our waitlist
+Register Now
+Most Popular
+Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks
+Aisha Malik
+Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes
+Dominic-Madori Davis
+Lucas Ropek
+The race is on to sue Nvidia
+Connie Loizos
+Waymo robotaxis kept illegally passing school buses after software fix, feds say
+Kirsten Korosec
+Musk says Tesla will refund some Cybertruck deposits, defends decision to end production
+Kirsten Korosec
+Tesla will stop making the Cybertruck in 2027
+Sean O'Kane
+Claude can now analyze your spending with its new Personal Finance tool
+Aisha Malik
+Loading the next article
+Error loading the next article
+X
+LinkedIn
+Facebook
+Instagram
+youTube
+Mastodon
+Threads
+Bluesky
+TechCrunch Staff Contact Us Advertise Site Map
+Terms of Service Privacy Policy RSS Terms of Use Code of Conduct
+Voice AI Anthropic Flock Startup Battlefield Disrupt 2026 Tech Layoffs ChatGPT
+© 2026 TechCrunch Media LLC.

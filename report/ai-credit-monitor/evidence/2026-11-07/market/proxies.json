@@ -1,0 +1,48 @@
+[
+  {
+    "id": "BAMLC0A0CM",
+    "source_id": "fred_ig",
+    "name": "US investment grade OAS",
+    "evidence_type": "broad_market_proxy_not_AI_CDS",
+    "unit": "basis_points",
+    "observation_date": "2026-11-05",
+    "value": 93.0,
+    "previous_date": "2026-11-04",
+    "previous_value": 91.0,
+    "change_bp": 2.0,
+    "comparison_20_observations_earlier": {
+      "date": "2026-10-08",
+      "value": 82.0,
+      "change_bp": 11.0
+    },
+    "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+    "publication_at": null,
+    "retrieved_at": "2026-11-07T00:27:37.110479+00:00",
+    "archived_csv": "evidence/2026-11-07/market/fred_ig.csv",
+    "note": "Latest actual date Nov5. Not Nov6close or Nov7live. Market proxy, not AIcompany CDS. Single-day widening does not establish issuer funding closure."
+  },
+  {
+    "id": "BAMLH0A0HYM2",
+    "source_id": "fred_hy",
+    "name": "US high yield OAS",
+    "evidence_type": "broad_market_proxy_not_AI_CDS",
+    "unit": "basis_points",
+    "observation_date": "2026-11-05",
+    "value": 348.0,
+    "previous_date": "2026-11-04",
+    "previous_value": 332.0,
+    "change_bp": 16.0,
+    "comparison_20_observations_earlier": {
+      "date": "2026-10-08",
+      "value": 315.0,
+      "change_bp": 33.0
+    },
+    "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "publication_at": null,
+    "retrieved_at": "2026-11-07T00:27:37.110891+00:00",
+    "archived_csv": "evidence/2026-11-07/market/fred_hy.csv",
+    "note": "Latest actual date Nov5. Not Nov6close or Nov7live. Market proxy, not AIcompany CDS. Single-day widening does not establish issuer funding closure."
+  }
+]

@@ -1,0 +1,2807 @@
+  
+  
+      中国人民银行  
+     
+ 
+ 
+ var _speedMark = new Date(); 
+ 
+ 
+  
+  
+  
+  
+   
+
+  
+   
+   
+    
+  
+  
+     
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+			 
+	 
+     
+     
+     
+     
+     
+    
+/*导航css*/
+body{margin:0;padding:0;}
+a{ text-decoration:none; color:#333333;font-size: 12px;}
+.header{ width:950px; height:auto; clear:both; margin:0 auto;font-size: 12px;font-family: "宋体";}
+#logo{ width:950px; margin:auto; text-align:center; font-size:13px;font-weight:bold; }
+#logo .logo1{ width:950px; height:25px;background-color:#f0f0f0;}
+#biaotou{font-size:18px; width:119px;font-style:italic; font-weight:bold text-align:center; color:#ffffff; }
+#logo .logo1 font{ float:right; padding-right:20px; color:#ffffff}
+#logo .logo2 { width:950px; height:48px; color:#ffffff;}
+#logo .logo3{  margin-top:1px;}
+.cs td{ border-right:1px solid #ffffff;}
+.cs a{color:#ffffff;text-decoration:none;}
+.cs a:hover{color:#0f4a82;text-decoration:underline}
+/*导航css*/
+ 
+  
+ 
+   
+     
+       　    术语表  　   常见问题  --> 
+           网站地图 　 
+           更新日志  --> 
+           	 
+	var wa=' RSS订阅 ';
+document.write(wa);
+	 　 
+           	 
+	var wa=' 手机用户 ';
+document.write(wa);
+	   --> 
+         无障碍浏览    English Version  
+     
+   
+   
+     
+         
+     
+   
+   
+ 	
+	 
+		 
+         
+           信息公开 
+            
+               
+                  新闻发布  
+                  法律法规  
+                  货币政策  
+                  宏观审慎  
+                  信贷政策  
+                  金融市场  
+                  金融稳定  
+                  调查统计  
+                  银行会计  
+                  支付体系  
+                
+               
+               
+                  
+               
+               
+                  金融科技  
+                  人民币  
+                  经理国库  
+                  国际交往  
+                  人员招录  
+                  学术交流  
+                  征信管理  
+                  反洗钱  
+                  党建工作  
+                  
+                
+               
+              
+         
+       
+	 
+ 
+		 
+         
+           服务互动 
+            
+               
+                  政务公开  
+                  政策解读  
+                  公告信息  
+                  图文直播  
+                  央行研究  
+                  音频视频  
+                  市场动态  
+                  网上展厅  
+                  报告下载  
+                  报刊年鉴  
+               
+               
+                  
+               
+               
+                  网送文告  
+                  办事大厅  
+                  在线申报  
+                  下载中心  
+                  网上调查  
+                  意见征集  
+                  金融知识  
+                  关于我们  
+                   
+                   
+               
+              
+         
+       
+	 
+ 
+     
+     
+      
+       
+         
+          
+       最新更新：  
+         
+.sqBorder {width:460px; height:28px;line-height:28px; vertical-align:middle; overflow:hidden;}
+.scroll_div {width:460px; height:28px;line-height:28px; vertical-align:middle;margin:0 auto; overflow: hidden; white-space: nowrap;}
+.scroll_div li{ padding-right:40px;}
+#scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li{display:inline;}
+
+   
+function ScrollImgLeft(){
+var speed=20 
+var scroll_begin = document.getElementById("scroll_begin");
+var scroll_end = document.getElementById("scroll_end");
+var scroll_div = document.getElementById("scroll_div");
+scroll_end.innerHTML=scroll_begin.innerHTML
+function Marquee(){
+if(scroll_end.offsetWidth-scroll_div.scrollLeft  
+        
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+     
+      中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德  
+      中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会  
+      中国人民银行与印度尼西亚银行举行联合工作机制工作会议  
+      国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上  
+      中国人民银行加力实施股票回购增持再贷款政策  
+      中国人民银行行长潘功胜会见阿曼中央银行行长艾哈迈德·穆萨米  
+      证券、基金、保险公司互换便利（SFISF）操作结果公告 〔2026〕第1号  
+      中国人民银行决定上调金融机构外汇存款准备金率  
+      中国人民银行 金融监管总局 中国证监会召开支持资本市场两项工具座谈会  
+      中国人民银行党委召开会议 传达学习党的二十届五中全会精神   
+     
+    
+     
+   
+ 
+
+   
+             ScrollImgLeft();    
+        
+         
+          
+          
+          
+          
+          
+           
+            
+                  
+var day=""; 
+var month=""; 
+var ampm=""; 
+var ampmhour=""; 
+var myweekday=""; 
+var year=""; 
+mydate=new Date(); 
+myweekday=mydate.getDay(); 
+mymonth=mydate.getMonth()+1; 
+myday= mydate.getDate(); 
+myyear= mydate.getYear(); 
+year=(myyear > 200) ? myyear : 1900 + myyear; 
+if(myweekday == 0) 
+weekday=" 星期日 "; 
+else if(myweekday == 1) 
+weekday=" 星期一 "; 
+else if(myweekday == 2) 
+weekday=" 星期二 "; 
+else if(myweekday == 3) 
+weekday=" 星期三 "; 
+else if(myweekday == 4) 
+weekday=" 星期四 "; 
+else if(myweekday == 5) 
+weekday=" 星期五 "; 
+else if(myweekday == 6) 
+weekday=" 星期六 "; 
+document.write(year+"年"+mymonth+"月"+myday+"日 "+weekday); 
+                  
+                 
+                   
+              高级搜索   
+              
+            
+           
+          
+           
+       
+      
+     
+     
+      
+       
+        
+        
+    
+  
+    
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+         
+              
+         
+        
+        
+     
+    
+   
+   
+   
+    
+     
+      
+       
+        
+         
+           潘功胜    
+         
+         
+          朱鹤新  曲吉山  宣昌能   
+         
+         
+          陆　磊  陶　玲  邹　澜   
+         
+         
+           
+         
+         
+           
+         
+        
+       
+       
+        
+         
+            
+         
+        
+       
+       
+        
+         
+           
+         
+         
+            
+         
+        
+       
+       
+        
+         
+           
+         
+         
+         
+
+
+  
+   
+    
+     
+      中国人民银行行长潘功胜会见摩...   
+     
+    
+  
+   
+    
+     
+      中国人民银行与印度尼西亚银行...   
+     
+    
+   
+  
+ 
+$(function(){
+$(".hangld").prev("table").find("a").attr("href","/hanglingdao/128697/index.html");
+})
+ 
+  
+         
+         
+           
+         
+        
+        
+     
+    
+   
+   
+    
+     
+       
+     
+    
+   
+  
+ 
+.xldT a{ width:62px; height:12px; display:inline-block;}
+            
+         
+          
+           
+             
+           
+          
+         
+        
+    
+  
+    
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+             
+        
+       
+       
+    
+   
+  
+  
+   
+    
+    
+
+
+  
+   
+    
+     
+       
+       中国人民银行货币政策委员会...    
+     
+    
+  
+   
+    
+     
+       
+       中国人民银行货币政策委员会...    
+     
+    
+   
+  
+ 
+$(function(){
+ $(".huobizcwyh").parents("table:first").prev("table").find("a").attr("href","/zhengcehuobisi/125207/3870933/index.html");
+});
+ 
+  
+    
+   
+  
+  
+   
+    
+      
+    
+   
+            
+         
+          
+           
+             
+           
+          
+         
+         
+         
+          
+           
+            
+             
+              
+               
+                    
+               
+              
+              
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+        
+    
+ 
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+         
+          
+           
+            
+             
+                  
+             
+            
+            
+         
+        
+       
+       
+        
+         
+          
+           
+            
+             
+               
+               
+               
+             
+            
+           
+           
+           
+            
+             
+               
+             
+             
+                  
+             
+            
+           
+           
+            
+             
+               
+               
+               
+             
+             
+              办公厅(党委办公室)   
+              条法司   
+             
+             
+              研究局（参事室）   
+              货币政策司   
+             
+             
+              宏观审慎管理局   
+              金融市场司   
+             
+             
+              信贷市场司   
+              金融稳定局   
+             
+             
+              调查统计司   
+              支付结算司   
+             
+             
+              
+               
+                
+                 
+                  科技司   
+                  货币金银局(保卫局)   
+                 
+                
+                
+             
+             
+              
+               
+                
+                 
+                  国库局   
+                  国际司(港澳台办公室)   
+                 
+                
+                
+             
+             
+              
+               
+                
+                 
+                  征信管理局   
+                  反洗钱局   
+                 
+                
+                
+             
+             
+              
+               
+                
+                 
+                  会计财务司   
+                   
+                 
+                
+                
+             
+             
+              
+               
+                
+                 
+                  内审司 (党委巡视工作领导小组办公室)   
+                 
+                
+                
+             
+             
+              
+               
+                
+                 
+                  人事司(党委组织部)   
+                   
+                 
+                
+                
+             
+             
+              
+               
+                
+                 
+                  党委宣传部(党委群工部)   
+                  机关党委   
+                 
+                
+                
+             
+             
+              离退休干部局   
+               
+             
+             
+                
+             
+             
+                  
+             
+             
+                
+             
+            
+           
+           
+           
+           
+            
+             
+               
+             
+             
+                  
+             
+            
+           
+           
+            
+             
+               
+               
+               
+             
+             
+              中国外汇交易中心(全国银行间同业拆借中心)   
+             
+             
+              中国人民银行机关服务中心   
+             
+             
+              中共中国人民银行委员会党校   
+             
+             
+              中国人民银行金融研究所   
+             
+             
+              金融时报社   
+             
+             
+              中国人民银行征信中心   
+             
+             
+              中国人民银行清算总中心   
+             
+             
+             中国人民银行清算总中心上海中心  
+             
+             
+              中国钱币博物馆   
+             
+             
+             中国人民银行社会保险事业管理局  
+             
+             
+              中国金融培训中心   
+             
+             
+             中国人民银行数字货币研究所  
+             
+             
+              中国人民银行金融信息中心   
+             
+             
+             中国人民银行金融基础数据中心  
+             
+             
+              中国人民银行郑州培训学院    
+             
+             
+              中国反洗钱监测分析中心   
+             
+             
+              中国人民银行集中采购中心   
+             
+             
+              更多   
+             
+             
+                
+             
+            
+           
+           
+           
+           
+            
+             
+               
+             
+             
+                  
+             
+            
+           
+           
+            
+             
+               
+             
+             
+              上海市分行   
+              北京市分行   
+             
+             
+              天津市分行   
+              河北省分行   
+             
+             
+              山西省分行   
+              内蒙古自治区分行   
+             
+             
+              辽宁省分行   
+              吉林省分行   
+             
+             
+              黑龙江省分行   
+              江苏省分行   
+             
+             
+              浙江省分行   
+              安徽省分行   
+             
+             
+              福建省分行   
+              江西省分行   
+             
+             
+               
+              更多   
+             
+             
+               
+             
+            
+           
+            
+         
+        
+       
+        
+    
+   
+            
+         
+          
+           
+             
+           
+          
+         
+         
+         政府信息公开  
+          
+           政府信息公开指南   
+           政府信息公开制度   
+           法定主动公开内容   
+           政府信息公开年报   
+          
+         
+         
+          
+           
+            
+             相关链接   
+            
+            
+              
+            
+            
+                                       
+            
+           
+          
+           
+         
+        
+         
+          
+           
+            
+             
+              
+               
+                   |      
+                
+                更多>> -->  
+               
+              
+              
+           
+           
+              
+           
+          
+         
+         
+          
+           
+            
+              
+            
+            
+            
+             
+             
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+     中国人民银行行长潘功胜会见摩根士丹利集团董事长彭...   
+    
+   
+ 
+
+   
+                  
+            
+            
+            
+             
+              
+               
+                 
+                
+                  
+                function SlideShow(c) {
+    var a = document.getElementById("slideContainer"), f = document.getElementById("slidesImgs").getElementsByTagName("li"), h = document.getElementById("slideBar"), n = h.getElementsByTagName("li"), d = f.length, c = c || 3000, e = lastI = 0, j, m;
+    function b() {
+        m = setInterval(function () {
+            e = e + 1 >= d ? e + 1 - d : e + 1;
+            g()
+        }, c)
+    }
+    function k() {
+        clearInterval(m)
+    }
+    function g() {
+        f[lastI].style.display = "none";
+        n[lastI].className = "";
+        f[e].style.display = "block";
+        n[e].className = "on";
+        lastI = e
+    }
+    f[e].style.display = "block";
+    a.onmouseover = k;
+    a.onmouseout = b;
+    h.onmouseover = function (i) {
+        j = i ? i.target : window.event.srcElement;
+        if (j.nodeName === "LI") {
+            e = parseInt(j.innerHTML, 10) - 1;
+            g()
+        }
+    };
+    b()
+};
+                  
+                 
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+     
+        
+     
+     
+     中国人民银行行长潘功胜会...  
+      
+    
+     
+        
+     
+     
+     中国人民银行行长潘功胜会...  
+      
+    
+     
+        
+     
+     
+     中国人民银行行长潘功胜会...  
+      
+    
+     
+        
+     
+     
+     中国人民银行行长潘功胜会...  
+      
+    
+     
+        
+     
+     
+     中国人民银行行长潘功胜在...  
+       
+   
+   
+    
+    1  
+    2  
+    3  
+    4  
+    5  
+    
+   
+ 
+
+   
+                      
+					SlideShow(5000);
+				    
+                
+               
+               
+              
+             
+             
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+  中国人民银行行长潘功胜会见摩根士...  
+  
+  
+   
+    
+     中国人民银行副行长邹澜出席第五届...   
+    
+   
+ 
+  
+   
+    
+     中国人民银行与印度尼西亚银行举行...   
+    
+   
+ 
+  
+   
+    
+     国务院关于金融工作情况的报告——...   
+    
+   
+ 
+  
+   
+    
+     中国人民银行加力实施股票回购增持...   
+    
+   
+ 
+  
+   
+    
+     中国人民银行行长潘功胜会见阿曼中...   
+    
+   
+ 
+  
+   
+    
+     证券、基金、保险公司互换便利（SF...   
+    
+   
+ 
+  
+   
+    
+     中国人民银行决定上调金融机构外汇...   
+    
+   
+ 
+
+   
+                  
+            
+           
+          
+          
+           
+            
+              
+            
+            
+                
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+    •  [视频]习近平同志《论减贫脱贫》出版发行   
+    
+   
+ 
+  
+   
+    
+    •  李强签署国务院令 公布修订后的《基金会管理条例》   
+    
+   
+ 
+  
+   
+    
+    •  习近平同志《论减贫脱贫》出版发行   
+    
+   
+ 
+  
+   
+    
+    •  [视频]习近平致电祝贺约托娃当选保加利亚总统   
+    
+   
+ 
+  
+   
+    
+    •  [视频]李强签署国务院令 公布《中医药传统知识保护条例》   
+    
+   
+ 
+  
+   
+    
+    •  李强签署国务院令 公布《中医药传统知识保护条例》   
+    
+   
+  
+ 
+.f14 a{ font-size:14px;}
+ 
+
+   
+      
+            
+           
+          
+         
+         
+          
+           
+            
+            
+    
+  
+    
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+           
+         更多>>   
+        
+       
+       
+    
+   
+  
+
+
+  
+   
+    
+     
+      
+      
+     
+     
+       
+      2026年统计数据  
+     
+     
+       
+      2025年统计数据  
+     
+     
+       
+      2024年统计数据  
+     
+     
+       
+      2023年统计数据  
+     
+     
+       
+      2022年统计数据  
+     
+   
+  
+  
+ 
+$(function(){
+ $(".tongjsjybz").prev("table").find("a").attr("href","/diaochatongjisi/116219/index.html");
+})
+ 
+                 
+             
+            
+            
+    
+  
+    
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+           
+         更多>>   
+        
+       
+       
+    
+   
+  
+
+
+  
+   
+    
+     
+       
+     
+     
+     
+       
+        
+         
+           
+          中国人民银行公告〔2026〕第25...   
+         
+        
+      
+       
+        
+         
+           
+          中国人民银行公告〔2026〕第24...   
+         
+        
+      
+       
+        
+         
+           
+          中国人民银行 国家金融监督管理...   
+         
+        
+      
+       
+        
+         
+           
+          中国人民银行 市场监管总局公告...   
+         
+        
+      
+       
+        
+         
+           
+          中国人民银行 国家外汇管理局关...   
+         
+        
+        
+     
+    
+   
+  
+ 
+$(function(){
+$(".zhengcfg").prev("table").find("a").attr("href","/tiaofasi/144941/index.html");
+})
+ 
+                
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+         
+          
+           
+             
+                
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                
+                 
+                  
+                   
+                      
+                    更多>>   
+                   
+                  
+                  
+               
+              
+             
+            
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+     
+      
+       
+        
+          
+        
+        
+        
+          
+           
+            
+              
+             财政部、中国人民银行、金融...   
+            
+           
+         
+          
+           
+            
+              
+             国新办举行“开局起步‘十五...   
+            
+           
+         
+          
+           
+            
+              
+             中国人民银行有关部门负责人...   
+            
+           
+         
+          
+           
+            
+              
+             国新办举行新闻发布会 介绍2...   
+            
+           
+         
+          
+           
+            
+              
+             中国人民银行、中国证监会有...   
+            
+           
+           
+        
+       
+        
+    
+   
+  
+ 
+.image9274 img{ width:92px; height:74px;}
+ 
+
+   
+                 
+             
+            
+             
+              
+               
+                
+                 
+                  
+                   
+                      
+                    更多>>   
+                   
+                  
+                  
+               
+              
+             
+            
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+     
+      
+       
+        
+          
+        
+        
+         
+          
+           
+            
+                 
+            
+           
+           
+          
+         【总台央视】前三季度科技、...   
+        
+       
+      
+      
+       
+        
+          
+        
+        
+        
+          
+           
+            
+               【新闻联播】中国人民银行加...    
+            
+           
+         
+          
+           
+            
+               【新闻联播】永葆清醒坚定 持...    
+            
+           
+           
+        
+       
+       
+    
+   
+ 
+
+   
+                 
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+         
+          
+           
+             
+                
+           
+          
+         
+         
+         
+          
+           
+             
+           
+          
+         
+         
+          
+           
+            
+            
+    
+  
+    
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+           
+         更多>>   
+        
+       
+       
+    
+   
+  
+
+
+  
+   
+    
+     
+       
+     
+     
+     
+       
+        
+         
+           
+          2026年中央国库现金管理商业银行定期存款（...   
+         
+        
+      
+       
+        
+         
+           
+          公开市场业务交易公告 [2026]第217号   
+         
+        
+      
+       
+        
+         
+           
+          公开市场业务交易公告 [2026]第216号   
+         
+        
+        
+     
+    
+   
+  
+ 
+$(function(){
+$(".gongkscyw").prev("table").find("a").attr("href","/zhengcehuobisi/125207/125213/125431/index.html");
+})
+ 
+                
+             
+            
+            
+    
+  
+    
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+           
+         更多>>   
+        
+       
+       
+    
+   
+  
+
+
+  
+   
+    
+     
+       
+     
+     
+     
+       
+        
+         
+           
+          2026年11月10日中国外汇交易中心...   
+         
+        
+      
+       
+        
+         
+           
+          2026年11月9日中国外汇交易中心受...   
+         
+        
+      
+       
+        
+         
+           
+          2026年11月6日中国外汇交易中心受...   
+         
+        
+        
+     
+    
+   
+  
+ 
+$(function(){
+  $(".renmbhl").prev("table").find("a").attr("href","/zhengcehuobisi/125207/125217/index.html");
+})
+ 
+                
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+         
+          
+           
+             
+                
+           
+          
+         
+         
+         
+          
+           
+            
+             
+              
+               
+                  
+                更多>>   
+               
+              
+              
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                 
+               
+               
+                
+                
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+      
+    
+   
+  
+  
+   
+    
+       2026年10月20日全国银行间同业拆借中心受权公布贷款市场报价...    
+    
+   
+ 
+  
+   
+    
+       2026年9月20日全国银行间同业拆借中心受权公布贷款市场报价利...    
+    
+   
+ 
+  
+   
+    
+       2026年8月20日全国银行间同业拆借中心受权公布贷款市场报价利...    
+    
+   
+ 
+
+   
+                      
+               
+               
+                 
+               
+              
+              
+           
+          
+         
+         
+         
+          
+           
+             
+           
+          
+         
+         
+         
+          
+           
+             
+                
+           
+          
+         
+         
+         
+          
+           
+             
+           
+          
+         
+         
+          
+           
+            
+            
+    
+  
+    
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+           
+         更多>>   
+        
+       
+       
+    
+   
+  
+
+
+  
+   
+    
+     
+       
+     
+     
+     
+       
+        
+         
+           
+          中国人民银行 国家外汇管理局关于...   
+         
+        
+      
+       
+        
+         
+           
+          中南（非）两国央行续签双边本币...   
+         
+        
+      
+       
+        
+         
+           
+          中智（利）两国央行续签双边本币...   
+         
+        
+      
+       
+        
+         
+           
+          2026年人民币国际化报告   
+         
+        
+        
+     
+    
+   
+  
+ 
+$(function(){
+$(".kuajrmbfw").prev("table").find("a").attr("href","/huobizhengceersi/214481/3871864/index.html");
+})
+ 
+                
+             
+            
+            
+    
+  
+    
+   
+   
+    
+   
+  
+  
+   
+    
+     
+      
+       
+        
+           
+         更多>>   
+        
+       
+       
+    
+   
+  
+
+
+  
+   
+    
+     
+       
+     
+     
+     
+       
+        
+         
+           
+          金融网络安全知识手册   
+         
+        
+      
+       
+        
+         
+           
+          金融知识普及读本   
+         
+        
+      
+       
+        
+         
+           
+          支付密码及支票圈存业务知识介绍   
+         
+        
+      
+       
+        
+         
+           
+          银行卡系列知识之一：怎样保管银...   
+         
+        
+        
+     
+    
+   
+  
+ 
+$(function(){
+$(".jinrzs").prev("table").find("a").attr("href","/goutongjiaoliu/113456/113466/index.html");
+})
+ 
+                
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+         
+          
+           
+                
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                
+                   
+                     
+                
+               
+               
+            
+           
+          
+          
+           
+            
+             
+              
+               
+                
+                  
+                  
+                
+                
+                  国别信息    
+                  境外机构    
+                
+                
+                  走出去金融政策支持    
+                  金融市场    
+                
+                
+                  经济人物    
+                  国际组织    
+                
+                
+                  港澳台信息    
+                  境外开发区    
+                
+                
+                  
+                  
+                
+               
+               
+            
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+         
+          
+           
+                
+           
+          
+         
+         
+          
+           
+             
+           
+          
+           
+         
+        
+         
+          
+           
+            
+             
+              
+               
+                  
+                更多>>   
+               
+              
+              
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                 
+               
+               
+                
+                
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+       中国人民银行金融研究所-清华大学202...    
+    
+   
+ 
+  
+   
+    
+       中国人民银行公告﹝2026﹞第23号    
+    
+   
+ 
+  
+   
+    
+       非银行支付机构《支付业务许可证》续...    
+    
+   
+ 
+
+   
+                      
+               
+               
+                 
+               
+              
+              
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                  
+                更多>>   
+               
+              
+              
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                 
+               
+               
+                
+                
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+       中国人民银行关于《银行间债券市场债...    
+    
+   
+ 
+  
+   
+    
+       关于《中国人民银行公告（修改〈企业...    
+    
+   
+ 
+  
+   
+    
+       中国人民银行关于《金融信用信息基础...    
+    
+   
+ 
+
+   
+                      
+               
+               
+                 
+               
+              
+              
+           
+          
+         
+         
+          
+           
+            
+            热点栏目  
+               
+            
+           
+          
+          
+           
+            
+             
+              
+               
+                
+                 货币政策委员会   
+                 利率   
+                
+                
+                 存款准备金   
+                 人民币汇率   
+                
+                
+                 公开市场业务   
+                 在线访谈   
+                
+                
+                 统计数据   
+                 银行卡   
+                
+                
+                 中国钱币博物馆   
+                
+                
+                 行政执法信息   
+                 纪念币发行   
+                   
+                
+                
+                 政府网站工作年度报表   
+                  
+                
+               
+               
+            
+           
+          
+         
+         
+         
+          
+           
+            
+             
+              
+               
+                  
+                更多>>   
+               
+              
+              
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                 
+               
+               
+                
+                
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+       人民银行云南省分行：系统谋划 突出特...    
+    
+   
+ 
+  
+   
+    
+       人民银行吉林省分行多措并举 精准发力...    
+    
+   
+ 
+  
+   
+    
+       湖南：深耕金融“五篇大文章” 助力经...    
+    
+   
+ 
+  
+   
+    
+       金融执笔绘养老新卷 暖心服务守护银龄...    
+    
+   
+ 
+  
+   
+    
+       甘肃：金融精准赋能助力乡村全面振兴    
+    
+   
+ 
+  
+   
+    
+       海南：风雨过后见担当，金融有义助复...    
+    
+   
+ 
+  
+   
+    
+       新疆：金融不遗“余粒”助秋收 守护“...    
+    
+   
+ 
+
+   
+                      
+               
+               
+                 
+               
+              
+              
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+         
+         
+          
+           
+            
+             
+              
+               
+                
+                  
+                
+                
+                人民币兑美元汇率中间价  
+                 更多>>   
+                
+                
+                  
+                
+                
+                  
+                
+                
+                 
+                  
+                   
+                    
+                        
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+ 
+
+   
+      
+                    
+                   
+                   
+                
+                
+                  
+                
+               
+               
+            
+           
+          
+         
+         
+         
+          
+           
+            
+              
+            
+            
+            贷款市场报价利率（LPR）  
+             更多>>   
+            
+            
+              
+            
+            
+             
+              
+               
+                
+                   
+                 浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。   
+                
+               
+                
+            
+            
+              
+            
+           
+          
+         
+         
+         
+          
+           
+            
+             
+              
+               
+                
+                  
+                
+                
+                存款准备金率  
+                 更多>>   
+                
+                
+                  
+                
+                
+                  
+                
+                
+                 
+                  
+                   
+                    
+                       
+                    
+                   
+                   
+                
+                
+                  
+                
+               
+               
+            
+           
+          
+         
+         
+         
+         
+          
+           
+            
+             
+              
+               
+                
+                 浏览器不支持嵌入式框架，或被配置为不显示嵌入式框架。   
+                
+               
+                
+            
+           
+          
+         
+         
+         
+          
+           
+             
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                    
+               
+              
+             
+             
+              
+               
+                 
+               
+               
+                
+                
+   
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+         
+    
+   
+ 
+  
+   
+    
+         
+    
+   
+ 
+  
+   
+    
+         
+    
+   
+ 
+  
+   
+    
+         
+    
+   
+ 
+  
+   
+    
+         
+    
+   
+ 
+  
+   
+    
+         
+    
+   
+ 
+  
+   
+    
+         
+    
+   
+ 
+  
+   
+    
+         
+    
+   
+  
+ 
+.wimg200 img{ width:200px; height:50px;}
+ 
+
+   
+                     
+               
+               
+                 
+               
+              
+              
+           
+          
+         
+         
+          
+           
+             
+           
+          
+         
+         
+         
+          
+           
+            
+             
+              
+                 
+                
+              
+             
+            
+           
+          
+          
+           
+            
+             
+              
+               
+                 
+                 
+               
+               
+                股市动态   
+                债券市场   
+               
+               
+                 外汇行情   
+                期货市场   
+               
+               
+                  黄金市场    
+                  票据市场   
+               
+               
+                 
+               
+              
+             
+            
+             
+           
+           
+            
+             
+              
+               
+                 
+                 
+               
+               
+                 道琼斯指数   
+               
+               
+                 纳斯达克指数   
+               
+               
+                 恒生指数   
+               
+               
+                 
+               
+              
+             
+            
+           
+           
+            
+             
+             更多>>   
+               
+           
+          
+          
+/*更换显示样式*/
+function setTab(name,cursel,n){
+for(i=1;i  
+         
+         
+          
+           
+             
+           
+          
+         
+         
+          
+           
+            
+             	
+	-->  
+           
+          
+         
+        
+           
+              
+           
+          -->   
+       
+      
+     
+    
+    
+        
+        
+   
+  --> 
+     
+      
+       
+         
+       
+      
+     
+     
+
+ /*设为主页*/
+function setHome(obj){
+ obj.style.behavior='url(#default#homepage)'; 
+ obj.setHomePage('https://www.pbc.gov.cn');
+ 
+ return false;
+}
+
+/*加入收藏*/
+function bookmarkit(){
+	switch(getOs()){
+		case 1:
+			window.external.addFavorite('https://www.pbc.gov.cn','中国人民银行');
+				break;
+		case 2:
+			window.sidebar.addPanel('中国人民银行', 'https://www.pbc.gov.cn', "");
+				break;
+		case 0:
+			alert("加入收藏失败，您使用的浏览器不支持这个功能");
+				break;
+	}
+}
+
+function getOs() { 
+	if(navigator.userAgent.indexOf("MSIE")>0)return 1; 
+	if(navigator.userAgent.indexOf("Firefox")>0)return 2; 
+	return 0; 
+} 
+
+ 
+ 
+ 
+.footer{ width:950px; height:auto; margin:0 auto;color: #666666; font-size:12px;}
+.footer a{color: #666666;text-decoration: none;}
+ 
+
+ 
+   
+     
+        
+           
+  document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/33/000/0000/40672588/CA330000000406725880001.js' type='text/javascript'%3E%3C/script%3E"));    
+      
+ 
+ 
+ 
+              法律声明  |  联系我们  |  设为首页  |  加入收藏  |  网站地图  
+           
+         
+           
+              京ICP备05073439号  网站标识码：bm25000001   京公网安备 11010202000016号  
+
+ 
+             网站主办单位：中国人民银行办公厅　最佳分辨率：1024*768 
+  
+ 
+ 
+    微信  
+     微博  
+           
+          
+
+     
+   
+    
+$('.tabtitlexw img').eq(0).mouseover(function(){
+	$('.tabszyw').show()
+	$('.tabxw').hide()	
+})
+$('.tabtitlexw img').eq(1).mouseover(function(){
+	$('.tabxw').show()
+	$('.tabszyw').hide()	
+})
+  
+   
+$(function () {
+$('#c_xwone .f16hs a,#c_xwlist a').find('br').remove();
+$('#c_xwone .f16hs a,#c_xwlist a,#slidesImgs .title a').each(function (index, e) {
+var oldtitle = $(e).attr('title');
+var newtitle = oldtitle.replace(new RegExp(' | | ', 'g'),"");
+$(e).attr('title',newtitle);
+});
+});
+  
+	 
+	 
+	 
+		  
+	  
+	  
+ 
+  
+ 

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "cien_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026074023/cien-20261116.htm",
+    "retrieved_at": "2026-11-17T01:41:40.274958+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 26311
+  },
+  {
+    "name": "mrvl_penguin",
+    "url": "https://investor.marvell.com/news-events/press-releases/detail/1044/marvell-and-penguin-solutions-collaborate-to-address-data-center-ai-memory-and-accelerate-inference-at-scale",
+    "retrieved_at": "2026-11-17T01:41:40.275358+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 95509
+  },
+  {
+    "name": "nvda_rubin_hpc",
+    "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+    "retrieved_at": "2026-11-17T01:41:40.275534+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 112686
+  },
+  {
+    "name": "nvda_vera_cpu",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+    "retrieved_at": "2026-11-17T01:41:40.275688+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 75589
+  },
+  {
+    "name": "nvda_nemotron",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+    "retrieved_at": "2026-11-17T01:41:40.275830+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 79360
+  },
+  {
+    "name": "cohr_press",
+    "url": "https://www.coherent.com/news/press-releases",
+    "retrieved_at": "2026-11-17T01:41:40.276005+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 135711
+  },
+  {
+    "name": "blackstone_news",
+    "url": "https://www.blackstone.com/news/press/",
+    "retrieved_at": "2026-11-17T01:41:40.276140+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "nvda_13f",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000084/xslForm13F_X02/primary_doc.xml",
+    "retrieved_at": "2026-11-17T01:41:40.276317+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 10420
+  }
+]

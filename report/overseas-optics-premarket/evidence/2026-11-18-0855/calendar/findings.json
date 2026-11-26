@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-18",
+  "weekday": "Wednesday",
+  "normal_session": true,
+  "checked_at": "2026-11-18T08:48:38.501423+08:00",
+  "temporary_closure_notice_found": false,
+  "conclusion": "2026-11-18 Wednesday is outside the refreshed official SSE 2026 holiday closures; latest visible SSE/SZSE general notices reviewed and no exchange-wide temporary closure announcement found.",
+  "us_session": {
+    "date_et": "2026-11-17",
+    "weekday_et": "Tuesday",
+    "scheduled_normal_equity_session": true,
+    "scheduled_early_close": false,
+    "open_et": "2026-11-17T09:30:00-05:00",
+    "close_et": "2026-11-17T16:00:00-05:00",
+    "close_china": "2026-11-18T05:00:00+08:00",
+    "already_ended_at_check": true,
+    "timezone_name": "EST",
+    "utc_offset_hours": -5.0,
+    "calendar_basis": "Refreshed NYSE/Nasdaq official calendar and trading-hour pages: Thanksgiving closure Nov26; early close Nov27, neither Nov17."
+  },
+  "limitations": [
+    "Official visible SSE/SZSE notice indexes and holiday calendars are finite coverage; no claim of every possible channel.",
+    "Individual security/fund suspensions are distinct from exchange-wide closure.",
+    "US quote timestamps and actual close values require independent verification.",
+    "Shenzhen independent annual calendar not separately obtained; latest official holiday arrangement original (Mid-Autumn/National Day) confirms normal reopening Oct8, combined with full SSE annual schedule and fresh SZSE general notices."
+  ],
+  "sources": [
+    {
+      "id": "sse_calendar",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "started_at": "2026-11-18T08:47:51.654734+08:00",
+      "http_status": 200,
+      "response_date": "Wed, 18 Nov 2026 00:47:51 GMT",
+      "last_modified": null,
+      "final_url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "ok": true,
+      "retrieved_at": "2026-11-18T08:47:51.917355+08:00",
+      "bytes": 29581,
+      "sha256": "4511d76abb438945008cd8b91df2c6a1e94e744c01a826f8e17d53feedb32b5f",
+      "raw_file": "/private/tmp/optics-nov18-calendar/sse_calendar.html",
+      "excerpt": "2026年休市安排 元旦： 1月1日（星期四）至1月3日（星期六）休市，1月5日（星期一）起照常开市。另外，1月4日（星期日）为周末休市。 春节： 2月15日（星期日）至2月23日（星期一）休市，2月24日（星期二）起照常开市。另外，2月14日（星期六）、2月28日（星期六）为周末休市。 清明节： 4月4日（星期六）至4月6日（星期一）休市，4月7日（星期二）起照常开市。 劳动节： 5月1日（星期五）至5月5日（星期二）休市，5月6日（星期三）起照常开市。另外，5月9日（星期六）为周末休市。 端午节： 6月19日（星期五）至6月21日（星期日）休市，6月22日（星期一）起照常开市。 中秋节： 9月25日（星期五）至9月27日（星期日）休市，9月28日（星期一）起照常开市。 国庆节： 10月1日（星期四）至10月7日（星期三）休市，10月8日（星期四）起照常开市。另外，9月20日（星期日）、10月10日（星期六）为周末休市。 相关公告 关于2026年中秋节、国庆节休市安排的公告 2026-09-17 关于2026年端午节休市安排的公告 2026-06-11 关于2026年劳动节休市安排的公告 2026-04-23 关于2026年清明节休市安排的公告 2026-03-31 关于2026年春节休市安排的公告 2026-02-05 相关链接 联系我们 网站地图 相关链接 法律声明 注册商标 个人信息保护告知书 官方微博 官方微信 APP下载 党建 党建动态 学习园地 图文播报 发行上市 审核公告通知 审核信息披露 审核项目动态 关于上市审核中心 科创战略 披露 交易提示 上交所公告 上市公司信息 融资融券信息 基金信息 公募REITs信息 交易信息披露 债券信息 股票期权信息 监管 上市公司监管 发行上市审核监管 债券监管 交易监管 会员及其他交易参与人监管 自律管理复核 自律监管与市场服务事项 诉求受理中心 数据 股票数据 债券数据 基金数据 公募REITs数据 其他数据 行情信息 上证系列指数 中证系列指数 中华系列指数 产品 股票与存托凭证 基金 债券 股票期权 公募REITs 服务 企业上市服务 IPO业务专栏 沪港通 绿色证券专栏 交易服务 交易技术支持专区 收费及代收税费 投资者服务 上市公司服务 路演服务 技术服务 信息服务 培训服务 司法服务 规则 法律法规 部门规章 本所业务规则 本所业务指南与流程 公开征求意见 制度规则汇编 关于 本所介绍 媒体中心 国际交流与合作 招聘信息 联系我们 研究 社会责任 公益慈善 中国证券博物馆 刊物 400投资者服务热线： 400-8888-400 上海证券交易所官网现已支持 IPV 6 ©上海证券交易所版权所有 2020 沪ICP备05004045号-2 沪公网安备 31011502016333号 "
+    },
+    {
+      "id": "sse_general",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/",
+      "started_at": "2026-11-18T08:47:51.655597+08:00",
+      "http_status": 200,
+      "response_date": "Wed, 18 Nov 2026 00:47:52 GMT",
+      "last_modified": null,
+      "final_url": "https://www.sse.com.cn/disclosure/announcement/general/",
+      "ok": true,
+      "retrieved_at": "2026-11-18T08:47:52.134270+08:00",
+      "bytes": 34980,
+      "sha256": "badf11297d4813aee900ae74e76a0130a6a0c98c47022203dca76524c2fba5b8",
+      "raw_file": "/private/tmp/optics-nov18-calendar/sse_general.html",
+      "visible_notices": [
+        {
+          "title": "关于兴业证券股份有限公司为广发中证军工交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838000.shtml"
+        },
+        {
+          "title": "关于华泰证券股份有限公司终止为天弘上证180交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838002.shtml"
+        },
+        {
+          "title": "关于国投证券股份有限公司为华安沪深300交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838004.shtml"
+        },
+        {
+          "title": "关于中信建投证券股份有限公司为兴业上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837886.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司为兴业上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837889.shtml"
+        },
+        {
+          "title": "关于中国银河证券股份有限公司为华夏保利发展封闭式商业不动产证券投资基金提供一般做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837891.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为国泰上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837673.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为华夏中证人工智能主题交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837675.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为银华上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837677.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为国泰中证科创创业50交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837679.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为广发中证科创创业50增强策略交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837681.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为博时中证科创创业50交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837683.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为嘉实上证科创板综合增强策略交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837685.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为华安中证科创创业人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837687.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为易方达中证芯片产业交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837689.shtml"
+        }
+      ],
+      "closure_candidates": []
+    },
+    {
+      "id": "szse_notice",
+      "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+      "started_at": "2026-11-18T08:47:51.655453+08:00",
+      "http_status": 200,
+      "response_date": "Wed, 18 Nov 2026 00:47:51 GMT",
+      "last_modified": "Wed, 18 Nov 2026 00:22:07 GMT",
+      "final_url": "https://www.szse.cn/disclosure/notice/general/index.html",
+      "ok": true,
+      "retrieved_at": "2026-11-18T08:47:51.839306+08:00",
+      "bytes": 92763,
+      "sha256": "394995da9d87c368f80e04d171e8c9ff0481509679f4d63035465cf2e84831af",
+      "raw_file": "/private/tmp/optics-nov18-calendar/szse_notice.html",
+      "visible_notices": [],
+      "closure_candidates": []
+    },
+    {
+      "id": "nyse_hours",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "started_at": "2026-11-18T08:47:51.655297+08:00",
+      "http_status": 200,
+      "response_date": "Wed, 18 Nov 2026 00:47:55 GMT",
+      "last_modified": null,
+      "final_url": "https://www.nyse.com/trade/hours-calendars",
+      "ok": true,
+      "retrieved_at": "2026-11-18T08:47:56.705315+08:00",
+      "bytes": 132025,
+      "sha256": "d7741bc3339e7d188ba219beef2799f4df8e44f8c4d7029b6c1709214726f2fd",
+      "raw_file": "/private/tmp/optics-nov18-calendar/nyse_hours.html",
+      "excerpts": [
+        "** Labor Day Monday, September 7 Monday, September 6 Monday, September 4 Thanksgiving Day Thursday, November 26*** Thursday, November 25*** Thursday, November 23*** Christmas Day Friday, December 25**** Friday, December 24 (Christmas Day observed) Monday, December 25 * Because the holiday falls on Saturday, January 1, 2028, no New Year’s Day holiday is observed. ** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Monday, July 3, 2028. NYSE American Equities, NYSE Arca Equities, NYSE National, and",
+        "ern Time. *** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Friday, November 27, 2026, Friday, November 26, 2027, and Friday, November 24, 2028 (the day after Thanksgiving). NYSE American Equities, NYSE Arca Equities, NYSE National, and NYSE Texas late trading sessions will close at 5:00 p.m. All times are Eastern Time. **** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Thursday, December 24, 2026. NYSE American Equities, NYSE Arca Equities, NYSE National, and N",
+        "Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until the Opening Auction at 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET 9:30 a.m. ET - Core Open Auction 3:50 p.m. to 4:00 p.m. ET - Closing Imbalance Period 4:00 p.m. ET - Closing Auction Tapes B & C Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until 7:00 a.m. ET Early Trading Session: 7:00 a.m. to 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET NYSE American Pre-Opening Session: 6:30 a.m. ET O",
+        "red and will be queued until the Opening Auction at 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET 9:30 a.m. ET - Core Open Auction 3:50 p.m. to 4:00 p.m. ET - Closing Imbalance Period 4:00 p.m. ET - Closing Auction Tapes B & C Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until 7:00 a.m. ET Early Trading Session: 7:00 a.m. to 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET NYSE American Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until th"
+      ]
+    },
+    {
+      "id": "nasdaq_schedule",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "started_at": "2026-11-18T08:47:51.655864+08:00",
+      "http_status": 200,
+      "response_date": "Wed, 18 Nov 2026 00:47:55 GMT",
+      "last_modified": null,
+      "final_url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "ok": true,
+      "retrieved_at": "2026-11-18T08:47:56.501346+08:00",
+      "bytes": 174361,
+      "sha256": "525dffed8f82a9e385c9b8380175c54994dc57d7cc46f588c19013e044caf2c9",
+      "raw_file": "/private/tmp/optics-nov18-calendar/nasdaq_schedule.html",
+      "excerpts": [
+        "Independence Day (Observed) July 3, 2026 Closed Labor Day September 7, 2026 Closed Thanksgiving Day November 26, 2026 Closed Early Close November 27, 2026 1:00 p.m. Early Close December 24, 2026 1:00 p.m. Christmas Day December 25, 2026 Closed Download Calendars Download the 2026 Trading Calendar Download the U.S. Holiday & Trading Hours Canada & Nordic Schedules Visit Nordic Exchange Holiday Schedule & Trading Hours Visit Nasdaq Canada Holiday Schedule & Trading Hours Trading Hours for the Nasdaq Stock Markets Nasdaq tradin",
+        "026 Closed Labor Day September 7, 2026 Closed Thanksgiving Day November 26, 2026 Closed Early Close November 27, 2026 1:00 p.m. Early Close December 24, 2026 1:00 p.m. Christmas Day December 25, 2026 Closed Download Calendars Download the 2026 Trading Calendar Download the U.S. Holiday & Trading Hours Canada & Nordic Schedules Visit Nordic Exchange Holiday Schedule & Trading Hours Visit Nasdaq Canada Holiday Schedule & Trading Hours Trading Hours for the Nasdaq Stock Markets Nasdaq trading hours are as follows, Monday throug",
+        " Markets Nasdaq trading hours are as follows, Monday through Friday: The Nasdaq Stock Market Opens: 9:30 am Eastern Time Zone; Closes: 4:00 pm Eastern Time Zone Extended Hours Trading There are also pre-market and after hours trading sessions available, also known as Extended Markets. For Nasdaq, pre-market trading hours are 4:00 am to 9:30 am, Eastern Time Zone. After hours runs from 4:00 pm to 8:00 pm, Eastern Time Zone. Certain brokers have different pre-market and after hours trading times. Some online brokers do allow y",
+        "s follows, Monday through Friday: The Nasdaq Stock Market Opens: 9:30 am Eastern Time Zone; Closes: 4:00 pm Eastern Time Zone Extended Hours Trading There are also pre-market and after hours trading sessions available, also known as Extended Markets. For Nasdaq, pre-market trading hours are 4:00 am to 9:30 am, Eastern Time Zone. After hours runs from 4:00 pm to 8:00 pm, Eastern Time Zone. Certain brokers have different pre-market and after hours trading times. Some online brokers do allow you to trade during those hours; che"
+      ]
+    },
+    {
+      "id": "szse_latest_holiday_original",
+      "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+      "started_at": "2026-11-18T08:48:38.386376+08:00",
+      "http_status": 200,
+      "ok": true,
+      "retrieved_at": "2026-11-18T08:48:38.500520+08:00",
+      "bytes": 24292,
+      "sha256": "7b0c4264d27f4ba14a1904ab31cb3b2b870e4e68d6b8d8c0f6cf4254c1a045a4",
+      "raw_file": "/private/tmp/optics-nov18-calendar/szse_latest_holiday_original.html",
+      "excerpt": "关于2026年中秋节、国庆节休市安排的通知 通知公告 位置： 信息披露 / 本所公告 / 通知公告 关于2026年中秋节、国庆节休市安排的通知 时间： 2026-09-17 字体： 大 中 小 各市场参与人： 根据《关于 202 6 年部分节假日放假和休市安排的通知》（证监办发〔 202 5 〕 1 30 号） ，现将 202 6 年中秋节、国庆节 休市有关安排通知如下。 一、休市安排 9 月 25 日（星期 五 ）至 9 月 27 日（星期 日 ）休市， 9 月 28 日（星期 一 ）起照常开市。 10月1日（ 星期四 ）至 10月 7日（ 星期三 ） 休市， 10月8日（星期四）起照常开市。 另外， 9 月 20 日（星期 日 ）、 10 月 10 日（星期六）为周末休市。 二、清算交收 节假日期间清算交收事宜，按照中国证券登记结算有限责任公司的有关安排进行。 请各市场参与人据此安排好有关工作。 深圳证券交易所 202 6 年 9 月 17 日 打印 收藏 关闭 "
+    }
+  ],
+  "szse_latest_holiday_notice_original_url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+  "szse_holiday_original_verified": true
+}

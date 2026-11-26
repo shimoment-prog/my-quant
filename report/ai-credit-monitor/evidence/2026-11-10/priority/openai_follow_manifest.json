@@ -1,0 +1,218 @@
+[
+  {
+    "name": "bing_latimes",
+    "url": "https://www.bing.com/search?format=rss&q=site%3Alatimes.com%20%22OpenAI%20closes%20latest%20funding%20round%22",
+    "retrieved_at": "2026-11-10T00:35:30.673453+00:00",
+    "status": 200,
+    "bytes": 4788,
+    "items": [
+      {
+        "title": "OpenAI",
+        "pubDate": "\u5468\u4e00, 09 11\u6708 2026 16:04:00 GMT",
+        "link": "https://openai.smapply.org/",
+        "description": "OpenAI\u2019s mission is to ensure that artificial general intelligence (AGI) benefits all of humanity. In service of that mission, we sometimes provide grants (in the form of monetary compensation or API credits, depending on the program) to support strategic initiatives and research."
+      },
+      {
+        "title": "OpenAI_\u767e\u5ea6\u767e\u79d1",
+        "pubDate": "\u5468\u65e5, 08 11\u6708 2026 05:28:00 GMT",
+        "link": "https://baike.baidu.com/item/OpenAI/19758408",
+        "description": "[99]3\u67088\u65e5\uff08\u5f53\u5730\u65f6\u95f4\uff09\uff0cOpenAI\u516c\u5e03\u201c\u5bab\u6597\u201d\u8c03\u67e5\u7ed3\u679c\u7684\u540c\u65f6\uff0c\u5ba3\u5e03\u6b64\u6b21\u9664\u4e86\u8428\u59c6\u00b7\u5965\u5c14\u7279\u66fc\u91cd\u56deOpenAI\u8463\u4e8b\u4f1a\u5916\uff0c\u8fd8\u5c06\u4efb\u547d\u4e09\u4f4d\u65b0\u8463\u4e8b\uff0c\u5176\u4e2d\u5305\u62ec\u6bd4\u5c14\u548c\u6885\u7433\u8fbe\u00b7\u76d6\u8328\u57fa\u91d1\u4f1a\u524d\u9996\u5e2d\u6267\u884c\u5b98Sue Desmond-Hellmann\u3001\u7d22\u5c3c\u5a31\u4e50\u516c\u53f8\u524d\u603b\u88c1Nicole Seligman\u548cInstacart\u516c\u53f8\u9996\u5e2d\u6267\u884c\u5b98Fidji ..."
+      },
+      {
+        "title": "OpenAI - GitHub",
+        "pubDate": "\u5468\u65e5, 08 11\u6708 2026 14:18:00 GMT",
+        "link": "https://github.com/openai/",
+        "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
+      },
+      {
+        "title": "OpenAI \u5b98\u7f51\u5165\u53e3\u5730\u5740\uff1a\u5982\u4f55\u8f7b\u677e\u627e\u5230",
+        "pubDate": "\u5468\u56db, 05 11\u6708 2026 22:14:00 GMT",
+        "link": "https://apifox.com/apiskills/openai-official-portal/",
+        "description": "OpenAI OpenAI\u662f\u4e00\u4e2a\u5f3a\u5927\u7684\u5f00\u653e\u4eba\u5de5\u667a\u80fd\u7814\u7a76\u5e73\u53f0\uff0c\u5176\u63d0\u4f9b\u4e86\u4e00\u7cfb\u5217\u6df1\u5ea6\u5b66\u4e60\u548c\u81ea\u7136\u8bed\u8a00\u5904\u7406\u7684\u5de5\u5177\u548c\u6280\u672f\u3002 \u4f7f\u7528OpenAI\u53ef\u4ee5\u83b7\u5f97\u4ee5\u4e0b\u4f18\u70b9\uff1a \u66f4\u51c6\u786e\u7684\u9884\u6d4b\u6216\u63a8\u8350\uff1aOpenAI \u7684\u6a21\u578b\u53ef\u4ee5\u8bad\u7ec3\u548c\u9884\u6d4b\u7279\u5b9a\u95ee\u9898\u6216\u4efb\u52a1\u7684\u51c6\u786e\u7387\u66f4\u9ad8\u3002"
+      },
+      {
+        "title": "OpenAI Developers",
+        "pubDate": "\u5468\u4e00, 02 11\u6708 2026 03:19:00 GMT",
+        "link": "https://developers.openai.ac.cn/",
+        "description": "OpenAI SDK OpenAI CLI \u66f4\u65b0\u65e5\u5fd7 \u5f03\u7528\u8bf4\u660e \u652f\u6301\u7684\u56fd\u5bb6/\u5730\u533a OpenAI \u722c\u866b \u6982\u8ff0 \u8fc1\u79fb\u6307\u5357 \u8282\u70b9\u53c2\u8003 \u6784\u5efa Agent \u7684\u5b89\u5168\u6027 \u5f00\u59cb\u4f7f\u7528 \u4f7f\u7528 evals \u63d0\u793a\u8bcd\u4f18\u5316\u5668 \u5916\u90e8\u6a21\u578b \u6700\u4f73\u5b9e\u8df5 \u8bc4\u5206\u5668 \u4f18\u5316\u5468\u671f \u76d1\u7763\u5fae\u8c03 \u89c6\u89c9\u5fae\u8c03 \u76f4\u63a5\u504f\u597d\u4f18\u5316 \u5f3a\u5316\u5fae\u8c03 RFT \u4f7f\u7528\u6848\u4f8b \u6700\u4f73\u5b9e\u8df5 \u8fc1\u79fb\u6307\u5357 \u6a21\u578b ..."
+      },
+      {
+        "title": "ChatGPT\u4e2d\u6587\u5b98\u7f51\u5165\u53e3\u5728\u54ea\uff1f2026\u56fd\u5185\u8bbf\u95ee ChatGPT \u4e0e GPT ...",
+        "pubDate": "\u5468\u4e00, 09 11\u6708 2026 17:59:00 GMT",
+        "link": "https://www.codex-chinese.com/chatgpt/guides/chatgpt-cn-official",
+        "description": "\u672c\u6587\u6838\u5bf9 ChatGPT \u5b98\u7f51\u5165\u53e3\u4e0e\u5b98\u65b9\u57df\u540d\uff0c\u66f4\u65b0 2026 \u5e74 ChatGPT \u6a21\u578b\u77e9\u9635\uff0c\u8bf4\u660e\u4e2d\u6587\u754c\u9762\u3001\u8d26\u53f7\u4e0e\u5957\u9910\u6838\u9a8c\u6b65\u9aa4\uff0c\u5e76\u6574\u7406\u56fd\u5185\u7528\u6237\u5e38\u89c1\u8bbf\u95ee\u9650\u5236\u3001\u7b2c\u4e09\u65b9\u5e73\u53f0\u8fa8\u522b\u548c\u8d26\u53f7\u5b89\u5168\u5efa\u8bae\u3002\u6a21\u578b\u3001\u4ef7\u683c\u3001\u652f\u6301\u5730\u533a\u548c\u529f\u80fd\u4ee5 OpenAI \u5f53\u524d\u9875\u9762\u4e3a\u51c6\u3002"
+      },
+      {
+        "title": "OpenAI ChatGPT \u5b98\u65b9\u6307\u5357\uff1a2026 \u56fd\u5185\u63a5\u5165 GPT-5 \u4e0e\u4f01\u4e1a\u7ea7 ...",
+        "pubDate": "\u5468\u4e00, 09 11\u6708 2026 20:22:00 GMT",
+        "link": "https://www.gpt-chinese-guide.com/guides/chatgpt/openai-chatgpt-guide",
+        "description": "2026 \u5e74\u6700\u65b0 OpenAI ChatGPT Guide\u3002\u6df1\u5ea6\u89e3\u6790 OpenAI \u5b98\u7f51\u7684\u4f7f\u7528\u95e8\u69db\u4e0e\u98ce\u63a7\u73b0\u72b6\u3002\u63a8\u8350\u56fd\u5185\u6700\u4f73\u63a5\u5165\u65b9\u6848\uff1a\u57fa\u4e8e OpenAI Enterprise API \u7684\u5168\u80fd\u805a\u5408\u5e73\u53f0 SnakeGPT\uff0c\u00a5138 \u89e3\u9501 GPT-5/Claude/Gemini \u5168\u7403\u7b97\u529b\u3002"
+      },
+      {
+        "title": "Developer quickstart | OpenAI API",
+        "pubDate": "\u5468\u4e00, 02 11\u6708 2026 05:50:00 GMT",
+        "link": "https://developers.openai.ac.cn/api/docs/quickstart",
+        "description": "\u5728 ChatGPT \u548c Codex \u4e2d\u4f7f\u7528 OpenAI API \u8fdb\u884c\u5f00\u53d1 OpenAI Developers \u63d2\u4ef6\u53ef\u5c06 ChatGPT \u548c Codex \u8fde\u63a5\u5230 OpenAI \u5e73\u53f0\uff0c\u9075\u5faa OpenAI API \u8bbe\u7f6e\u6307\u5357\uff0c\u5e76\u5728\u60a8\u7684\u5e94\u7528\u7a0b\u5e8f\u9700\u8981\u65f6\u521b\u5efa\u9879\u76ee API \u5bc6\u94a5\u3002"
+      }
+    ]
+  },
+  {
+    "name": "latimes_rss",
+    "url": "https://www.latimes.com/business/rss2.0.xml",
+    "retrieved_at": "2026-11-10T00:35:30.673811+00:00",
+    "status": 200,
+    "bytes": 101635,
+    "items": [
+      {
+        "title": "Lawmakers briefed on Nvidia affair as security concerns mount",
+        "pubDate": "Mon, 9 Nov 2026 21:51:18 GMT",
+        "link": "https://www.latimes.com/politics/story/2026-11-09/lawmakers-briefed-on-nvidia-affair-as-security-concerns-mount",
+        "description": "<p>Congressional Republicans have called on Huang himself to provide an update, warning the incident raised 'significant national security concerns.'</p>"
+      },
+      {
+        "title": "Skydance looks to cut more than $6 billion as it integrates Warner Bros. operations",
+        "pubDate": "Mon, 9 Nov 2026 21:17:48 GMT",
+        "link": "https://www.latimes.com/entertainment-arts/business/story/2026-11-09/skydance-looks-to-cut-more-than-6-billion-as-it-integrates-warner-bros-operations",
+        "description": "<p>Executives warned that the Warner Bros. film slate would be disappointing in the fourth quarter.</p>"
+      },
+      {
+        "title": "James Gunn and Peter Safran are replaced as heads of DC Studios",
+        "pubDate": "Mon, 9 Nov 2026 17:44:59 GMT",
+        "link": "https://www.latimes.com/entertainment-arts/business/story/2026-11-09/james-gunn-peter-safran-are-replaced-as-heads-of-dc-studios",
+        "description": "<p>Skydance made the announcement Monday. Gunn and Safran will be replaced by Marvel veteran Jeremy Latcham.</p>"
+      },
+      {
+        "title": "Nvidia CEO Jensen Huang's image tarnished by board investigation and affair, analysts say",
+        "pubDate": "Mon, 9 Nov 2026 00:07:37 GMT",
+        "link": "https://www.latimes.com/entertainment-arts/business/story/2026-11-08/nvidia-ceo-jensen-huangs-image-tarnished-by-board-investigation-affair-analysts-say",
+        "description": "<p>Nvidia's board of directors said Sunday it will launch an investigation into its CEO Jensen Huang, after he revealed he had an affair with a former Chinese executive.</p>"
+      },
+      {
+        "title": "Great America, the Bay Area's premier theme park, is closing for good. Here's when",
+        "pubDate": "Sat, 7 Nov 2026 13:00:00 GMT",
+        "link": "https://www.latimes.com/california/story/2026-11-07/californias-great-america-theme-park-is-closing-for-good",
+        "description": "<p>Great America, the beloved hometown theme park for generations of Northern Californians, has announced there will be one more season of roller coasters and funnel cakes before the gates close for good.</p>"
+      },
+      {
+        "title": "El Pollo Loco says fans flocked to its chicken during the cyclosporiasis outbreak",
+        "pubDate": "Sat, 7 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-07/el-pollo-loco-earnings-executive-interview",
+        "description": "<p>El Pollo Loco posted positive third quarter earnings on Thursday and has seen its shares rise nearly 50% so far this year.</p>"
+      },
+      {
+        "title": "California's 'billionaire tax' is still undecided. Here's where Proposition 40 stands",
+        "pubDate": "Sat, 7 Nov 2026 00:56:46 GMT",
+        "link": "https://www.latimes.com/politics/story/2026-11-06/2026-midterm-election-live-results-how-did-state-vote-for-proposition-40",
+        "description": "<p>How each county in California voted for the billionaires tax Proposition 40 and its two counter ballot measures, Proposition 41 and 42.</p>"
+      },
+      {
+        "title": "California picks a new insurance commissioner and she's a San Francisco progressive",
+        "pubDate": "Fri, 6 Nov 2026 22:49:25 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-06/jane-kim-wins-race-to-be-californias-next-insurance-commissioner",
+        "description": "<p>Former San Francisco Supervisor Jane Kim declared victory Friday in the race to be California's next insurance commissioner, with veteran legislator Ben Allen conceding.</p>"
+      },
+      {
+        "title": "Tesla will phase out Cybertruck production next year, Musk says",
+        "pubDate": "Fri, 6 Nov 2026 21:32:54 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-06/tesla-will-phase-out-cybertruck-production-next-year-musk-says",
+        "description": "<p>Tesla Chief Executive Elon Musk said that the company will be winding down production of the Cybertruck at its Texas factory next year.</p>"
+      },
+      {
+        "title": "No one wanted this Long Beach home until waves crashed into its living room",
+        "pubDate": "Fri, 6 Nov 2026 21:00:26 GMT",
+        "link": "https://www.latimes.com/california/story/2026-11-06/long-beach-home-damaged-waves-for-sale",
+        "description": "<p>An oceanfront home on the Long Beach Peninsula couldn't find a buyer at $4.95 million. But after it was damaged by massive waves, its price dropped and it's getting plenty of interest.</p>"
+      },
+      {
+        "title": "Clifton's quietly reopens with plans to become an immersive, Meow Wolf-inspired megaspace",
+        "pubDate": "Fri, 6 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/travel/story/2026-11-06/cliftons-downtown-los-angeles-reopening-sanctuary",
+        "description": "<p>The new operators have grand dreams for the famed downtown venue, including a long-running, never-ending, 'Dungeons & Dragons'-inspired game.</p>"
+      },
+      {
+        "title": "Hiltzik: CVS unwinds its big mergers, ending a dream of healthcare dominance",
+        "pubDate": "Fri, 6 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-06/cvs-healthcare-dominance-wrecked-unwinds-big-mergers",
+        "description": "<p>CVS thought bigness would be better, but it turned out to be wrong.</p>"
+      },
+      {
+        "title": "Social media companies sue California over new law restricting use for children",
+        "pubDate": "Thu, 5 Nov 2026 21:03:44 GMT",
+        "link": "https://www.latimes.com/california/story/2026-11-05/meta-social-media-companies-sue-california-over-new-restrictions",
+        "description": "<p>Technology giants are pushing back against efforts to block teens from endless scrolling.</p>"
+      },
+      {
+        "title": "New Culver City development will add hundreds of apartments, two parks and restaurants",
+        "pubDate": "Thu, 5 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-05/new-culver-city-development-will-add-hundreds-of-apartments-two-parks-restaurants",
+        "description": "<p>Construction has begun on a $200-million apartment complex in Culver City at a time when housing development in much of Los Angeles County has slowed in spite of strong demand. </p>"
+      },
+      {
+        "title": "SoCal Berry Growers to close six farm locations, lay off hundreds of workers",
+        "pubDate": "Thu, 5 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-05/socal-berry-growers-to-close-six-farm-locations-lay-off-hundreds-of-workers",
+        "description": "<p>The closures come months after SoCal Berry Growers employees voted to join the United Farm Workers. The company hasn't said why it is shutting down.</p>"
+      },
+      {
+        "title": "Billionaire tax continues to trail as many Californians vote to spare the state's ultra-rich stars",
+        "pubDate": "Thu, 5 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-05/why-californias-billionaire-tax-failed-to-get-support-many-had-anticipated",
+        "description": "<p>In one of the most expensive ballot fights in California history, opponents heavily outspent supporters of a billionaire tax to mostly fund healthcare. On Wednesday, the wealth tax appeared headed for defeat though results on Proposition 40 were too close to call.</p>"
+      },
+      {
+        "title": "Hiltzik: With Trump and GOP on the run, Democrats have a chance to make a new New Deal",
+        "pubDate": "Thu, 5 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-05/democrats-election-victory-trump-new-deal",
+        "description": "<p>Trump and the Republicans worked hard to dismantle the New Deal. Let the rebuilding begin.</p>"
+      },
+      {
+        "title": "What the Democratic landslide means for GOP booster Elon Musk and his businesses",
+        "pubDate": "Thu, 5 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-05/what-democratic-landslide-means-for-gop-booster-elon-musk-his-businesses",
+        "description": "<p>Elon Musk reportedly spent close to $450 million backing Republican candidates. His companies could have challenging times ahead.</p>"
+      },
+      {
+        "title": "SoCal Outback Steakhouse franchisee files for bankruptcy, citing California's labor costs",
+        "pubDate": "Wed, 4 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-04/outback-franchisee-files-for-bankruptcy-citing-california-labor-costs",
+        "description": "<p>San Diego-based Cerca Trova Restaurant Group, which once operated nearly 100 Outback Steakhouse restaurants, filed for Chapter 11 bankruptcy on Monday.</p>"
+      },
+      {
+        "title": "Disney has fought AI firms over copyright. Now it's testing AI lyric videos",
+        "pubDate": "Tue, 3 Nov 2026 22:32:04 GMT",
+        "link": "https://www.latimes.com/entertainment-arts/business/story/2026-11-03/disney-openart-ai-lyric-videos-hercules",
+        "description": "<p>Disney is working with AI startup OpenArt to conceptualize lyric videos, starting with 'Go the Distance' from 'Hercules.'</p>"
+      },
+      {
+        "title": "Waymo expands to Torrance, Manhattan Beach and other corners of L.A. County",
+        "pubDate": "Tue, 3 Nov 2026 17:00:02 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-03/waymo-expands-to-torrance-manhattan-beach-other-corners-of-la-county",
+        "description": "<p>The robotaxi company Waymo is expanding its Los Angeles service area into South Bay and adding popular destinations such as Universal Studios.</p>"
+      },
+      {
+        "title": "Utilities lobby for shield from wildfire costs",
+        "pubDate": "Tue, 3 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-03/utilities-lobby-for-shield-from-wildfire-costs",
+        "description": "<p>As a criminal investigation into Southern California Edison actions before last year's deadly Eaton fire continues, the state's for-profit utilities are lobbying for legislation that would protect their shareholders from paying for future catastrophic fires they cause.</p>"
+      },
+      {
+        "title": "Hiltzik: Can AI bots become conscious? Why Microsoft's AI boss says that's the wrong question",
+        "pubDate": "Tue, 3 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-03/ai-bots-conscious-microsoft-ai-boss-anthropic-suleyman-intelligence",
+        "description": "<p>Some AI researchers think their software can become conscious. But they're fooling themselves.</p>"
+      },
+      {
+        "title": "Newsom proposes $1-billion cap for film and TV tax incentive",
+        "pubDate": "Mon, 2 Nov 2026 17:16:22 GMT",
+        "link": "https://www.latimes.com/entertainment-arts/business/story/2026-11-02/governor-newsom-proposes-1-billion-cap-for-film-tv-tax-incentive",
+        "description": "<p>In an effort to maintain California's role in the film and TV industry, Governor Newsom is asking to expand the state's tax credit program again.</p>"
+      },
+      {
+        "title": "Hiltzik: Trump's diesel deal with Putin benefits no one except Putin",
+        "pubDate": "Mon, 2 Nov 2026 11:00:00 GMT",
+        "link": "https://www.latimes.com/business/story/2026-11-02/trumps-diesel-deal-with-putin-benefits-no-one-except-putin",
+        "description": "<p>Trump's diesel deal hasn't brought down U.S. prices, but it has been a boon for Russia.</p>"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "quotes.txt",
+    "url": "https://qt.gtimg.cn/q=hk01530,hkHSI,hkHSTECH,hk01177,hk01801,hk06160,hk01877",
+    "ok": true,
+    "bytes": 2889,
+    "retrieved_at": "2026-11-06T03:21:23.327581+00:00"
+  },
+  {
+    "name": "history_tencent.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get?param=hk01530,day,,,320,qfq",
+    "ok": true,
+    "bytes": 32683,
+    "retrieved_at": "2026-11-06T03:21:23.328058+00:00"
+  },
+  {
+    "name": "history_eastmoney.json",
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=116.01530&fields1=f1,f2,f3,f4,f5,f6&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61&klt=101&fqt=0&beg=20250101&end=20261106&lmt=600",
+    "ok": true,
+    "bytes": 39218,
+    "retrieved_at": "2026-11-06T03:21:23.328258+00:00"
+  },
+  {
+    "name": "ir_home.html",
+    "url": "https://www.3sbio.com/en/",
+    "ok": true,
+    "bytes": 23670,
+    "retrieved_at": "2026-11-06T03:21:23.328443+00:00"
+  }
+]

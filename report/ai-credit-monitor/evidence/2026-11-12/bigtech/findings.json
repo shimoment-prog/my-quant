@@ -1,0 +1,245 @@
+{
+  "run_date": "2026-11-12",
+  "prepared_at": "2026-11-12T00:33:24.949510+00:00",
+  "baseline_cutoff": "2026-11-11T01:14:46.549646+00:00",
+  "scope": [
+    "Alphabet/Google",
+    "Meta",
+    "Microsoft",
+    "Amazon",
+    "Broadcom",
+    "Anthropic financing followup"
+  ],
+  "recommendation": "DONT_NOTIFY",
+  "material_new_verified_evidence": false,
+  "assessment": "retain_existing_localized_risk_warming_no_new_bigtech_trigger",
+  "summary": "六家SEC增量查询成功，无新增申报；五大公司未核实正式资本开支/收入指引下修、实际融资中断或担保赔付。Anthropic仍拟IPO路演及附条件配售，未核实定价交割。光模块拟限制取得新增完整行业转述，仍为政策方案及游说，非落地限制或实际取消。Alphabet亚洲债计划有Reuters新报道，待核具体定价交割。",
+  "SEC_checks": [
+    {
+      "company": "alphabet",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "retrieved_at": "2026-11-12T00:28:50.422087+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001652044-26-000084",
+          "filingDate": "2026-10-29",
+          "primaryDocument": "goog-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "meta",
+      "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "retrieved_at": "2026-11-12T00:28:50.422478+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001628280-26-066773",
+          "filingDate": "2026-10-22",
+          "primaryDocument": "meta-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "microsoft",
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "retrieved_at": "2026-11-12T00:28:50.422669+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001193125-26-436133",
+          "filingDate": "2026-10-28",
+          "primaryDocument": "msft-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "amazon",
+      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "retrieved_at": "2026-11-12T00:28:50.422822+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001018724-26-000040",
+          "filingDate": "2026-10-30",
+          "primaryDocument": "amzn-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "broadcom",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "retrieved_at": "2026-11-12T00:28:50.422978+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001730168-26-000080",
+          "filingDate": "2026-09-10",
+          "primaryDocument": "avgo-20260802.htm"
+        }
+      ]
+    },
+    {
+      "company": "anthropic",
+      "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "retrieved_at": "2026-11-12T00:28:51.311514+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": []
+    }
+  ],
+  "new_events": [],
+  "fixed_checks": {
+    "customer_capex_cuts": {
+      "status": "no_new_formal_cut_verified_in_reviewed_sources",
+      "new_cut_records": [],
+      "absence_not_proof_of_demand_stability": true
+    },
+    "supplier_consecutive_revenue_guidance_cuts": {
+      "status": "no_new_formal_cut_verified",
+      "scope": "Broadcom",
+      "new_revision_count": 0,
+      "consecutive_threshold": 2
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "status": "no_new_actual_cancellation_or_major_funding_interruption_verified",
+      "records": []
+    }
+  },
+  "financing_followups": [
+    {
+      "event_id": "meta_eur_20261104_pricing",
+      "currency": "EUR",
+      "principal": 9000000000,
+      "expected_settlement_date": "2026-11-12",
+      "stage": "priced_not_verified_settled_expected_european_US_day_still_ahead",
+      "checked_at": "2026-11-12T00:33:24.949510+00:00",
+      "note": "北京时间早晨11月12日不等于欧洲/美国11月12日交割时段已结束，不判逾期；旧USD交割保持完成。"
+    },
+    {
+      "event_id": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+      "stage": "roadshow_preliminary_range_no_new_pricing_or_effectiveness_or_closing_verified",
+      "company_news_checked_at": "2026-11-12T00:33:24.949510+00:00",
+      "SEC_no_new_since_prior_check": true,
+      "company_source": "https://www.anthropic.com/news/roadshow-launch",
+      "SEC_source": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "prior_terms_reference": "evidence/2026-11-11/bigtech/findings.json#new_events",
+      "private_placement_USD": 26000000000,
+      "cash_receipt_verified": false,
+      "media_context": "Bloomberg/FT-attributed bookcoverage and possible higherpricing reported; no company/SEC priceconfirmation. This is not completed funding relief.",
+      "Google_AMD_prior_commitment_overlap_preserved": true
+    }
+  ],
+  "evidence_enrichment": [
+    {
+      "id": "microsoft_20261110_expected_chinese_optical_transceiver_ban",
+      "underlying_event_date": "2026-11-10",
+      "enrichment_publication_date": "2026-11-11",
+      "source": "https://www.trendforce.com/news/2026/11/11/news-microsoft-reportedly-urges-u-s-to-drop-proposed-chinese-optical-transceiver-ban-amid-ai-supply-concerns/",
+      "evidence_grade": "reliable_industry_media_full_text_primary_research_capacity_estimates_plus_Reuters_secondary_policy_report",
+      "same_underlying_event_as_prior_run": true,
+      "facts": [
+        "Microsoft and tech/industrygroups reportedly urgedabandoningplannedrestriction; reportedWhiteHouseOSTP/NSCmeetingswereSeptember.",
+        "Administration reportedlyconsideringnewerChineseopticaltransceivers; narrower3.2Tbpsscopeand65%USbill-of-materialsexemptionmentionedaspossibleoptions,notfinalrules.",
+        "TrendForceestimatesChinesesuppliers56%of2026globalcontractmanufacturingcapacity,andInnolight/Eoptolink/CIGcombined46%; estimatesnotorders/receipts."
+      ],
+      "stage": "reported_proposed_policy_and_lobbying_not_final_rule",
+      "final_rule_verified": false,
+      "actual_order_cancellation_verified": false,
+      "funding_interruption_verified": false,
+      "direct_supplier_relation_scope": "IndustrymanufacturingexposureexplicitlynamesEoptolinkandInnolight;nodirectcustomercontractororderchangeverified.",
+      "interpretation": "Policy/supplychainriskcontext only; multipleNov11repostsnotindependentAIcreditlosslines. Do notinfersectororderscancelled."
+    }
+  ],
+  "news_discoveries": [
+    {
+      "id": "alphabet_20261111_asian_bond_plan_followup",
+      "earliest_RSS_publication_at": "2026-11-11T08:43:40Z",
+      "source": "https://www.reuters.com/world/china/alphabet-eyes-3-billion-hong-kong-singapore-bond-sale-sources-say-2026-11-11/",
+      "evidence_grade": "reliable_media_headline_original_body_pending",
+      "reported_amount_USD": 3000000000,
+      "currencies_reported": [
+        "HKD",
+        "SGD"
+      ],
+      "stage": "reported_planning_not_verified_priced_or_settled",
+      "same_prior_plan_as_Nov9_possible": true,
+      "items": [
+        {
+          "published_at": "Wed, 11 Nov 2026 17:09:22 GMT",
+          "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekxJWlNsQXlpSG80TzJHMDNiREl6ZC0zWEQ0S0FWVWZPXzJpQk5maC1NTFhXQjIyRmk5QlU1QnFxZ2VHZUNkVUNjOWo4azhLVzlHelE3dFk1UUU3UHllNUdiVzVaODFKSHJEZHQ4Q1d2a0FrLUJiYjM3bUlwZ01wODltVlYyY2YyM3dZV1piYjFmTFRlaVZNcVp3V0RMSlM2SHdPbllBTnQzNllPbGw5YWRERQ?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 12:03:26 GMT",
+          "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - The Mighty 790 KFGO",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONGJpYVZRX0pQWGxTc1dQcmxhSktPVlF4QWhld3lBdnJaRkIzREZUZUgweU9YbjFXaGxFY1Jrc29paG50TC1IQUljSnBMaHBGQzN0Z1NncFgtckU2QXhsZGZLbkZrYWQycU4xWTZ1VGhPcDI1SDdQWGd0OWZqdHVmWHhxU1BDSTlnN1VyQU1taUR2Qk5WQUhBTXln?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 15:30:00 GMT",
+          "title": "Alphabet explores first Hong Kong and Singapore dollar bond sales worth up to $3 billion - Proactive financial news",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRW4xTW5HeG1XNER6Z2ZHYzNLcGg3cW9TYVplb3JkTWZ5a3VIV2R2cXNIcTJ6Z2IzNGgzYWVSWGlxamw0YWRXMGtseWdxdGVpTkNZM3FqMzYtYmxwYlY2VWhBcDVGR3Vza2Q2dkpWVkI2V09xY1hxd3NmRDZpV0gzM2ZNcjFiUlFRS0lNdklDOFI0WEk0cjV3eFpxOF9HUjhuYl82VjA4ZFZwNWN0QUdDeXhpN3ZaQlZteDJhOThWSHpncFF3ZXkyVHhlV2N5RWkzU2Z0S0V0eGdxd1RiZzZJVEJqUU9Xa18yS3RscFJSVQ?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 08:58:08 GMT",
+          "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say By Reuters - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQei04V3B1bUFGLURyVE4xZnEwSVlhSkdkdXB1MHdjREp2WVFDalVqejNORFRod0VoUXFQejRUS1FrU0RJemtfYVdOX3hmb3NDZmZZUmJZZkh0d1A4cmhxV0o0Mlc3VUxZYnBvNnRIZDF2cWg5VzhPVDVtSlNpZHdGeXNtUTV5M0FhVVd4Ym5aV0FsUElvWV9IQmkzeEE0SDF6R2JVRnYzdmZjNjlDY2NTRHZ4QTl0Mzhjdjh2dXZ6WQ?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 08:43:40 GMT",
+          "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVHVFS3Bha2dtUUZtajRIanFxY2Q4RWJCZ2o5QUVveURZdjV3UXNmQTY2cEltWTM2N20yS1h4R2Rwb052MmctRGVfRGpjajdrOUZaSDhyMzFmOGtqYnY0YnBHU093VER2S1J1S05WVW1pYTBzWHRZT2NpYkpPblZHcGRMMWVaZ0Uyckp3NWp3TmNFQ280cGVRQ05VYTJqeGZuMFBaeDN1TFhmcVk5Z0FhczFyYzdNTTJtWVhOUWN1ckRuMkl1US1zb015WlYxLVpt?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 18:14:33 GMT",
+          "title": "Alphabet climbs on plans for Hong Kong and Singapore bonds following AI-linked global market swings - Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOS1KSEFWUEg2Wld6RHZyVTVyVElxVHZ1MGx3R3RXMmd2YUt4YmpsQlF3b0h3ZTFldEdkdzh2WmwxRk1ya2l2aUxqY09qTzFnNnU4VWt2SnNyMUhaWENmNG9SaFZyZ1lwYWRaV0lHYnBuN0VSS182Q1JxUHhfM0FlMUZ3?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 11:54:04 GMT",
+          "title": "Alphabet Tests Asian Demand With HK$ And S$ Bond Sale - Finimize",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSHFTLXNuVndVckVpVHZmejdrU0psSGE0OTBwa3RsRUN4MlZNQ1A3cUNNM19RNnFla0JQYjdBaVNfdVRLQm05dW1Zc0JhaHN1RXRuS3hRVlFjUFlRdm5PS1FlZGl5T2lvWjVYdmVWOTRWR3Vmb0p2dE9oaTlUM1FhcDlLeHFyN3c?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 10:14:43 GMT",
+          "title": "Alphabet Prepares Dual-Currency Bond Sale in Hong Kong, Singapore - marketscreener.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdWdQcGRpWDVIR1ltdkJLU1hmVFRVMnB5ZVNCSVVtajAzaDlGWW16YmlhNTZyR1FNamxVa0lNR0JsdDFqZkEtSUdwdDdvNWhzUEJwVXFMbXJtdmVCV3JPN2NaVFAtQjlZSzVyR185ZkhlUjlxcjJUb215VXBLU1Q1YThSNTZTSE1QZEVHRHdVVElDWWQ0b0lxeGw4eVo0VU1xbWFmN3F0Rjh2Mjdwek9pRm0zTlF4ZlJZ?oc=5"
+        }
+      ],
+      "material_assessment_change": false
+    }
+  ],
+  "collection_limits": [
+    {
+      "surface": "MetaIR/AmazonIR",
+      "error": "HTTP429",
+      "SEC_alternative_success": true
+    },
+    {
+      "surface": "BroadcomIR/Microsoftblog",
+      "error": "HTTP403",
+      "SEC_alternative_success": true
+    },
+    {
+      "surface": "Reutersoriginal/KFGOsyndication",
+      "error": "timeout",
+      "stage_terms_not_invented": true
+    },
+    {
+      "surface": "individualCDS/directcashbondquotes",
+      "status": "notobtained"
+    }
+  ]
+}

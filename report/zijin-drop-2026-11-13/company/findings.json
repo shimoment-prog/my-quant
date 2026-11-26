@@ -1,0 +1,335 @@
+{
+  "security": "601899.SH / 02899.HK",
+  "name": "紫金矿业",
+  "task": "核查2026-11-11至11-13截至14:10公司特有冲击，不处理行情或行业宏观归因",
+  "checked_at": "2026-11-13T14:11:18.206435+08:00",
+  "headline": "截至本次核查，未发现过去两日新增、可核实的公司事故停产、产量成本预警、重大并购融资、解禁减持或除权公告，足以直接解释今日跌幅；这不等于证明不存在尚未披露或未覆盖消息。",
+  "confidence": "公司官网可访问披露页和原文核验中等；交易所与新闻检索覆盖有限，负面不存在的结论不能作确定判断。",
+  "fresh_disclosures": {
+    "official_a_latest": [
+      {
+        "title": "关于2026年员工持股计划第一次持有人会议决议公告",
+        "url": "https://www.zjky.cn/upload/file/2026/11/05/532bbf1aeb62447ca68e29a9bc7ac626.pdf",
+        "website_date_from_path": "2026-11-05"
+      },
+      {
+        "title": "关于2026年员工持股计划非交易过户完成的公告",
+        "url": "https://www.zjky.cn/upload/file/2026/10/29/f16e4d75a55b429085d433223ecec760.pdf",
+        "website_date_from_path": "2026-10-29"
+      },
+      {
+        "title": "关于向西藏那曲市巴青县地震灾区捐赠的公告",
+        "url": "https://www.zjky.cn/upload/file/2026/10/23/480946edf4fd4ef7aafd8ccdf5d06101.pdf",
+        "website_date_from_path": "2026-10-23"
+      },
+      {
+        "title": "第九届董事会第五次会议决议公告",
+        "url": "https://www.zjky.cn/upload/file/2026/10/23/ab02a59393194673a53d44bb5faec024.pdf",
+        "website_date_from_path": "2026-10-23"
+      },
+      {
+        "title": "2026年第三季度报告",
+        "url": "https://www.zjky.cn/upload/file/2026/10/23/6d85a06e7c1b45f5b843eea9db9447e3.pdf",
+        "website_date_from_path": "2026-10-23"
+      },
+      {
+        "title": "关于协议受让赤峰吉隆黄金矿业集团股份有限公司A股及认购其定向增发H股完成交割的公告",
+        "url": "https://www.zjky.cn/upload/file/2026/10/22/1c583fcec3bb4fb1b3a7ce11ac610a71.pdf",
+        "website_date_from_path": "2026-10-22"
+      }
+    ],
+    "official_h_latest": [
+      {
+        "title": "（H股）关于2026年员工持股计划第一次持有人会议决议公告",
+        "url": "https://www.zjky.cn/upload/file/2026/11/05/dcf0cb9e34714bd9b5da8d5a9a94b7b6.pdf",
+        "website_date_from_path": "2026-11-05"
+      },
+      {
+        "title": "（H股）截至2026年10月31日止之股份发行人的证券变动月报表",
+        "url": "https://www.zjky.cn/upload/file/2026/11/03/ca6fdb9b7e91489cbd8c9ff18a6db645.pdf",
+        "website_date_from_path": "2026-11-03"
+      },
+      {
+        "title": "（H股）翌日披露报表",
+        "url": "https://www.zjky.cn/upload/file/2026/10/29/87234437faa64a0caadd662b5155cf2f.pdf",
+        "website_date_from_path": "2026-10-29"
+      },
+      {
+        "title": "（H股）关于2026年员工持股计划非交易过户完成的公告",
+        "url": "https://www.zjky.cn/upload/file/2026/10/29/6f70435ae1df418faf61d62833ec6f37.pdf",
+        "website_date_from_path": "2026-10-29"
+      },
+      {
+        "title": "（H股）2026年第三季度报告",
+        "url": "https://www.zjky.cn/upload/file/2026/10/23/4107e439d8674e119db19bdd034e7b61.pdf",
+        "website_date_from_path": "2026-10-23"
+      }
+    ],
+    "latest_esop_checked": {
+      "source": "https://www.zjky.cn/upload/file/2026/11/05/532bbf1aeb62447ca68e29a9bc7ac626.pdf",
+      "website_list_date": "2026-11-05",
+      "pdf_board_signature_date": "2026-11-06",
+      "number": "临2026-058",
+      "meeting_date": "2026-11-04",
+      "content": "持有人会议设立及选举管理委员会，并授权日常管理和股东权利等；对应7293.68万股。授权职责中出现负责减持安排，但原文未公告当前两日减持数量、时间表或解禁生效。不能把职责授权本身当作今日新增减持冲击。",
+      "is_past_two_days_new": false
+    },
+    "official_news_latest": {
+      "website_date": "2026-11-12",
+      "title": "说图04 | 一场面向社区儿童的暑期守护",
+      "source": "https://www.zjky.cn/news/news-detail-123026.htm",
+      "classification": "社区公益稿；未包含新生产事故或盈利预警。"
+    }
+  },
+  "company_specific_risk_check": [
+    {
+      "topic": "生产事故、停产、监管处罚",
+      "result": "未在可访问官网最新A/H披露及公司新闻发现11/11—11/13新增相关披露",
+      "confirmed_new_shock": false,
+      "limit": "未穷尽全球项目当地所有媒体及监管机关披露，不能等同无风险。"
+    },
+    {
+      "topic": "产量、成本和盈利",
+      "result": "未核实近两日新增下修；三季报铜产量和成本压力是10/23已披露的旧背景。10/26美银研报报道也不是今日新消息。",
+      "confirmed_new_shock": false
+    },
+    {
+      "topic": "并购与融资",
+      "result": "官网所列赤峰黄金受让A股及认购定增H股完成交割公告为10/22旧公告，未核实11/11—11/13新增重大融资或交易失败。",
+      "confirmed_new_shock": false
+    },
+    {
+      "topic": "解禁、减持、除权除息",
+      "result": "未在可访问官网最新A/H披露发现11/11—11/13新实施或新公告；11/5官网列示持有人会议属管理授权。",
+      "confirmed_new_shock": false,
+      "limit": "未独立取得全量公司行动日历，因此仅报告未核实，不绝对排除。"
+    }
+  ],
+  "recent_relevant_news": [
+    {
+      "date": "2026-11-11 17:21:50",
+      "title": "大宗交易：紫金矿业成交1309.42万元（11-11）",
+      "publisher": "东方财富Choice数据",
+      "url": "http://stock.eastmoney.com/a/202611113928471946.html",
+      "excerpt": "2026年11月11日，紫金矿业发生2笔大宗交易，共成交47.00万股，成交金额1309.42万元。 2笔大宗交易成交均价27.86元，较该股当日收盘价27.86元持平。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议，据此操作风险自担。"
+    },
+    {
+      "date": "2026-11-11 21:01:00",
+      "title": "紫金矿业现2笔大宗交易 合计成交47.00万股",
+      "publisher": "证券时报网",
+      "url": "http://finance.eastmoney.com/a/202611113928658024.html",
+      "excerpt": "紫金矿业11月11日大宗交易平台共发生2笔成交，合计成交量47.00万股，成交金额1309.42万元。成交价格均为27.86元。 　　进一步统计，近3个月内该股累计发生54笔大宗交易，合计成交金额为11.46亿元。"
+    },
+    {
+      "date": "2026-11-12 17:06:00",
+      "title": "有色金属行业资金流出榜：紫金矿业等13股净流出资金超亿元",
+      "publisher": "证券时报网",
+      "url": "http://finance.eastmoney.com/a/202611123929691131.html",
+      "excerpt": "有色金属行业资金净流出个股中，资金净流出超亿元的有13只，净流出资金居前的有紫金矿业、洛阳钼业、云南锗业，净流出资金分别为11.57亿元、4.10亿元、3.38亿元。"
+    }
+  ],
+  "news_interpretation": [
+    {
+      "fact": "11/11两笔大宗交易共47万股、1309.42万元，价格27.86元，等于当日收盘价。",
+      "source": "https://finance.eastmoney.com/a/202611113928658024.html",
+      "implication": "有交易不等于已确认大股东减持、机构净撤或今日下跌原因；卖方营业部也不识别最终持有人。"
+    },
+    {
+      "fact": "11/12证券时报统计有色板块多股下跌、资金流出榜出现紫金。",
+      "source": "https://finance.eastmoney.com/a/202611123929691131.html",
+      "implication": "所谓主力净流出是行情分类指标，不能直接证明真实机构净赎回或独立因果，属于价格量的事后统计。"
+    }
+  ],
+  "historical_background_not_new": [
+    {
+      "disclosure_date": "2026-10-23",
+      "source": "https://www.zjky.cn/upload/file/2026/10/23/6d85a06e7c1b45f5b843eea9db9447e3.pdf",
+      "local_original": "/Users/richao11/myproject/my-quant/report/zijin-valuation-2026-11-11/fundamentals/official_2026q3.txt",
+      "facts": "前三季归母575.26亿元同比+51.93%，第三季183.56亿元同比+25.97%；前三季矿产金70.13吨，矿产铜约81.57万吨，铜同比-1.71%，卡莫阿权益铜产量84,509吨对比去年140,614吨。",
+      "use": "可解释市场为何对铜产量恢复和盈利高位持续性敏感，不能冒充过去两日新增利空。"
+    },
+    {
+      "date": "2026-10-26 17:20",
+      "source": "https://finance.eastmoney.com/a/202610263908104169.html",
+      "publisher": "财联社转述美银证券",
+      "fact": "研报称第三季纯利逊预期、产量偏软和成本上升，并认为金铜年度产量目标存在下行风险；仍维持买入及43港元目标。",
+      "use": "分析师旧观点，非公司新增盈利预警或实际年度结果。"
+    }
+  ],
+  "causal_boundary": "仅从没有核实公司新利空，不能自动证明跌幅由金铜、美元、利率、基金流向等造成。若同期金铜和同业一起下跌，可把共同商品/风险偏好冲击列为更符合证据的解释，仍应由另行取得的同步行情证明。",
+  "data_quality_limits": [
+    "SSE接口近11/9—11/13返回0，但扩大到包含官网已知11/5公告仍为空，控制核验未通过；不把空结果当作无公告证据。",
+    "CNINFO近两日查询返回0，未取得可用阳性控制，不能独立证明完整覆盖。",
+    "Eastmoney公告API本次HTTP567失败。",
+    "Eastmoney新闻索引default可检出11/11—11/12相关报道；sort=latest不按时间返回、多词事故搜索混入他司，不能声称完整检索。",
+    "官网可能存在更新滞后，未穷尽全球项目当地来源。",
+    "本次仅写临时目录，未改盘中监测或任何主state。"
+  ],
+  "sources": [
+    {
+      "file": "official_A.html",
+      "url": "https://www.zjky.cn/investor/Agu.jsp",
+      "requested_at": "2026-11-13T06:08:27.817345+00:00",
+      "ok": true,
+      "bytes": 51731,
+      "retrieved_at": "2026-11-13T06:08:28.280693+00:00"
+    },
+    {
+      "file": "official_H.html",
+      "url": "https://www.zjky.cn/investor/Hgu.jsp",
+      "requested_at": "2026-11-13T06:08:27.817746+00:00",
+      "ok": true,
+      "bytes": 51953,
+      "retrieved_at": "2026-11-13T06:08:28.280550+00:00"
+    },
+    {
+      "file": "official_news.html",
+      "url": "https://www.zjky.cn/news/news_list.jsp",
+      "requested_at": "2026-11-13T06:08:27.817915+00:00",
+      "ok": true,
+      "bytes": 52879,
+      "retrieved_at": "2026-11-13T06:08:28.280798+00:00"
+    },
+    {
+      "file": "sse.json",
+      "url": "https://query.sse.com.cn/security/stock/queryCompanyBulletin.do?isPagination=true&productId=601899&keyWord=&securityType=0101%2C120100%2C020100%2C020200%2C120200&reportType2=&reportType=ALL&beginDate=2026-11-09&endDate=2026-11-13&pageHelp.pageSize=100&pageHelp.pageCount=50&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5",
+      "requested_at": "2026-11-13T06:08:27.818080+00:00",
+      "ok": true,
+      "bytes": 580,
+      "retrieved_at": "2026-11-13T06:08:28.127692+00:00"
+    },
+    {
+      "file": "eastmoney_ann.json",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=601899",
+      "requested_at": "2026-11-13T06:08:27.818221+00:00",
+      "ok": false,
+      "error": "HTTP Error 567: Unknown Status"
+    },
+    {
+      "file": "news_search.json",
+      "url": "https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=%7B%22uid%22%3A+%22%22%2C+%22keyword%22%3A+%22%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%22%2C+%22type%22%3A+%5B%22cmsArticleWebOld%22%5D%2C+%22client%22%3A+%22web%22%2C+%22clientType%22%3A+%22web%22%2C+%22clientVersion%22%3A+%22curr%22%2C+%22param%22%3A+%7B%22cmsArticleWebOld%22%3A+%7B%22searchScope%22%3A+%22default%22%2C+%22sort%22%3A+%22default%22%2C+%22pageIndex%22%3A+1%2C+%22pageSize%22%3A+30%7D%7D%7D",
+      "requested_at": "2026-11-13T06:08:27.818362+00:00",
+      "ok": true,
+      "bytes": 16252,
+      "retrieved_at": "2026-11-13T06:08:28.168501+00:00"
+    },
+    {
+      "file": "official_news_1112.html",
+      "url": "https://www.zjky.cn/news/news-detail-123026.htm",
+      "requested_at": "2026-11-13T06:09:09.383607+00:00",
+      "ok": true,
+      "bytes": 50741,
+      "retrieved_at": "2026-11-13T06:09:09.757346+00:00"
+    },
+    {
+      "file": "sse_control.json",
+      "url": "https://query.sse.com.cn/security/stock/queryCompanyBulletin.do?isPagination=true&productId=601899&reportType=ALL&beginDate=2026-11-01&endDate=2026-11-13&pageHelp.pageSize=100&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5",
+      "requested_at": "2026-11-13T06:09:09.384155+00:00",
+      "ok": true,
+      "bytes": 556,
+      "retrieved_at": "2026-11-13T06:09:09.564397+00:00"
+    },
+    {
+      "file": "sse_wider.json",
+      "url": "https://query.sse.com.cn/security/stock/queryCompanyBulletin.do?isPagination=true&productId=601899&reportType=ALL&beginDate=2026-10-20&endDate=2026-11-13&pageHelp.pageSize=100&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5",
+      "requested_at": "2026-11-13T06:09:09.384329+00:00",
+      "ok": true,
+      "bytes": 556,
+      "retrieved_at": "2026-11-13T06:09:09.559596+00:00"
+    },
+    {
+      "file": "news_recent.json",
+      "url": "https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=%7B%22uid%22%3A+%22%22%2C+%22keyword%22%3A+%22%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%22%2C+%22type%22%3A+%5B%22cmsArticleWebOld%22%5D%2C+%22client%22%3A+%22web%22%2C+%22clientType%22%3A+%22web%22%2C+%22clientVersion%22%3A+%22curr%22%2C+%22param%22%3A+%7B%22cmsArticleWebOld%22%3A+%7B%22searchScope%22%3A+%22default%22%2C+%22sort%22%3A+%22latest%22%2C+%22pageIndex%22%3A+1%2C+%22pageSize%22%3A+30%7D%7D%7D",
+      "requested_at": "2026-11-13T06:09:09.384502+00:00",
+      "ok": true,
+      "bytes": 15780,
+      "retrieved_at": "2026-11-13T06:09:09.615144+00:00"
+    },
+    {
+      "file": "news_accident.json",
+      "url": "https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=%7B%22uid%22%3A+%22%22%2C+%22keyword%22%3A+%22%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A+%E4%BA%8B%E6%95%85%22%2C+%22type%22%3A+%5B%22cmsArticleWebOld%22%5D%2C+%22client%22%3A+%22web%22%2C+%22clientType%22%3A+%22web%22%2C+%22clientVersion%22%3A+%22curr%22%2C+%22param%22%3A+%7B%22cmsArticleWebOld%22%3A+%7B%22searchScope%22%3A+%22default%22%2C+%22sort%22%3A+%22latest%22%2C+%22pageIndex%22%3A+1%2C+%22pageSize%22%3A+30%7D%7D%7D",
+      "requested_at": "2026-11-13T06:09:09.384646+00:00",
+      "ok": true,
+      "bytes": 16309,
+      "retrieved_at": "2026-11-13T06:09:09.615233+00:00"
+    },
+    {
+      "file": "news_cost.json",
+      "url": "https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=%7B%22uid%22%3A+%22%22%2C+%22keyword%22%3A+%22%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A+%E4%BA%A7%E9%87%8F+%E6%88%90%E6%9C%AC%22%2C+%22type%22%3A+%5B%22cmsArticleWebOld%22%5D%2C+%22client%22%3A+%22web%22%2C+%22clientType%22%3A+%22web%22%2C+%22clientVersion%22%3A+%22curr%22%2C+%22param%22%3A+%7B%22cmsArticleWebOld%22%3A+%7B%22searchScope%22%3A+%22default%22%2C+%22sort%22%3A+%22latest%22%2C+%22pageIndex%22%3A+1%2C+%22pageSize%22%3A+30%7D%7D%7D",
+      "requested_at": "2026-11-13T06:09:09.384787+00:00",
+      "ok": true,
+      "bytes": 18718,
+      "retrieved_at": "2026-11-13T06:09:09.654156+00:00"
+    },
+    {
+      "file": "old_cost_article.html",
+      "url": "https://finance.eastmoney.com/a/202610263908104169.html",
+      "requested_at": "2026-11-13T06:09:56.214138+00:00",
+      "ok": true,
+      "bytes": 60143,
+      "retrieved_at": "2026-11-13T06:09:56.483506+00:00"
+    },
+    {
+      "file": "recent_block_trade.html",
+      "url": "https://finance.eastmoney.com/a/202611113928658024.html",
+      "requested_at": "2026-11-13T06:09:56.214590+00:00",
+      "ok": true,
+      "bytes": 59720,
+      "retrieved_at": "2026-11-13T06:09:56.447628+00:00"
+    },
+    {
+      "file": "recent_sector_flow.html",
+      "url": "https://finance.eastmoney.com/a/202611123929691131.html",
+      "requested_at": "2026-11-13T06:09:56.214763+00:00",
+      "ok": true,
+      "bytes": 73877,
+      "retrieved_at": "2026-11-13T06:09:56.447552+00:00"
+    },
+    {
+      "file": "latest_official_esop.pdf",
+      "url": "https://www.zjky.cn/upload/file/2026/11/05/532bbf1aeb62447ca68e29a9bc7ac626.pdf",
+      "requested_at": "2026-11-13T06:09:56.214907+00:00",
+      "ok": true,
+      "bytes": 83195,
+      "retrieved_at": "2026-11-13T06:09:56.457153+00:00"
+    },
+    {
+      "file": "cninfo_recent.json",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "requested_at": "2026-11-13T06:09:56.215047+00:00",
+      "ok": true,
+      "bytes": 165,
+      "retrieved_at": "2026-11-13T06:09:56.407813+00:00"
+    }
+  ],
+  "file_sha256": {
+    "fetch.py": "9433faab6606633f64414daa8ec64e09b9a4ebf69ddd8853ad90465c9fada2f3",
+    "news_recent.json": "bfcf4f458656f606e46b5d68e1980ab58487860cfd7770c9d3e9cea19f775378",
+    "fetch_verify.py": "398546685fc3882f47cb619edbd38bfb01ecbcfb513eef3ac9532f63d428d099",
+    "sse.json": "44091947b4efb571eb2c1b5809d491fb2554f8d42344cdaacd232f9b5f996fe1",
+    "build_findings.py": "cecd1084ab9f5cddc72c0caf60ec67291fe87620450da9eae7a56b0ded44be73",
+    "latest_official_esop.pdf": "d823c388834edc5de262570dfc6f11c1c6c148c3596524cee2c4f3ad57ae0fdd",
+    "verify_manifest.json": "ade0f1a49b14df7cc9d2e9ed8e18a1855eea124e62c2427482cb5ef6769a6868",
+    "sse_control.json": "c1af40777ddf7dc60a09c0d3d667172abae0725888d10f8cc99a3cea065b5766",
+    "old_cost_article.txt": "a5bae548bba397fd98370a7aea645495f17ee96c93d419bdcb0fe6ac7394b175",
+    "recent_sector_flow.txt": "e0b1a41cf6ce653b87560ad4df743398bede837757f960c9042a50201c258427",
+    "news_accident.json": "438d9d68d1edee9533aafbd83f1d739b970e6e41aec1824f8ef89d098313e898",
+    "latest_official_esop.txt": "41df3648f0058064c58459d22aecd2b5865b38f51c88af89b19699f975b915c5",
+    "old_cost_article.html": "46ad71a8e113a41f4284934623e4e156a26706f681b9686ec746404741fdd7e6",
+    "official_H.html": "7e6abc2e05d058518ed129574bd79843d221eefda5a55c104cccaa8f83193b2f",
+    "cninfo_recent.json": "c2a890bbf3a6a53ab02ddc6c1794bf1c72ba45799fe9f59dcc5ba2cc18467114",
+    "sse_wider.json": "5fd9c622c9790b96c677723dfcd1eb74373c9e62e1de5e01c619788ab9467aad",
+    "news_search.json": "b9e8d57381358b3b095dc23d8522ab317fd5801630af85cd99e3f0cfb1d8196e",
+    "recent_block_trade.html": "c66eb0f2a7f51dae2d6da09aacc8161e0ddc3866edb2039d2f342f892944d682",
+    "fetch_extra.py": "c20cb910986a129fbd4a96ea3423ecbd49e1b65a0deb3089579c7e8605390c03",
+    "manifest.json": "a4a30e9906e5fbe063abb39218d26164c0c77b5b5d43808857913e309834b720",
+    "official_news.html": "5384663c1d438db2f22fd0a37596a7bd0cb2e4f9ea0c0f582bbd4ad6042c2bb6",
+    "recent_block_trade.txt": "7db27e3f0e47bc2dfa0b968b5e145f228166e0a57ac3b91a6709e5a72f90a354",
+    "official_A.html": "0f3c085eeabab44c8eb8b6c9f11bd2d39d984b20f0721b3831a4e6c514bcfd87",
+    "recent_sector_flow.html": "71414205b629ef1da0ad7e7b8db66215173d556518f7ff41fec5944c0f3b1df6",
+    "news_cost.json": "3c12ca0484ce63054f089a70a47013545403a1997efcc4439bbb369f1f4e217e",
+    "extra_manifest.json": "71051c751793a76ac39daf6b5340eee0b5fdab83f51bb4c9565fafa47419970a",
+    "official_news_1112.html": "a7f9e9f25f441c2e8bd96446bbe310d360b78391cab5768f72e51622a1b48a40",
+    "official_news_1112.txt": "52bbaf4218754a461c44a2ab4086bc84668fd39834cd787e360032a1da8683f3"
+  }
+}

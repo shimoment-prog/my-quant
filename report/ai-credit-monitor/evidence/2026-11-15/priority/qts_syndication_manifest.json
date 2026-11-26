@@ -1,0 +1,22 @@
+[
+  {
+    "name": "qts_futu",
+    "url": "https://news.futunn.com/en/post/1004634752/market-chatter-blackstone-backed-qts-cuts-private-debt-sale-to",
+    "retrieved_at": "2026-11-15T00:30:01.210733+00:00",
+    "status": 200,
+    "final_url": "https://news.futunn.com/en/post/1004634752/market-chatter-blackstone-backed-qts-cuts-private-debt-sale-to",
+    "bytes": 958657,
+    "canonical": [
+      "<link data-n-head=\"ssr\" rel=\"canonical\" href=\"https://news.futunn.com/en/post/1004634752/market-chatter-blackstone-backed-qts-cuts-private-debt-sale-to\">"
+    ],
+    "jsonld": [],
+    "links": [],
+    "text": "News not found"
+  },
+  {
+    "name": "qts_moomoo_hk",
+    "url": "https://www.moomoo.com/hans/news/post/1004634752/market-chatter-blackstone-backed-qts-cuts-private-debt-sale-to",
+    "retrieved_at": "2026-11-15T00:30:01.211138+00:00",
+    "error": "<urlopen error [Errno 54] Connection reset by peer>"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sina",
+    "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+    "started_at": "2026-11-13T06:36:49.198390+00:00",
+    "ok": true,
+    "status": 200,
+    "date": null,
+    "bytes": 3020,
+    "retrieved_at": "2026-11-13T06:36:49.510120+00:00"
+  },
+  {
+    "id": "tencent",
+    "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+    "started_at": "2026-11-13T06:36:49.198795+00:00",
+    "ok": true,
+    "status": 200,
+    "date": "Fri, 13 Nov 2026 06:36:49 GMT",
+    "bytes": 3097,
+    "retrieved_at": "2026-11-13T06:36:49.510252+00:00"
+  }
+]

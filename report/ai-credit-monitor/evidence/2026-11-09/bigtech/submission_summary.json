@@ -1,0 +1,77 @@
+[
+  {
+    "company": "alphabet",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "retrieved_at": "2026-11-09T00:29:42.912448+00:00",
+    "ok": true,
+    "all_new": [],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001652044-26-000084",
+        "filingDate": "2026-10-29",
+        "primaryDocument": "goog-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "meta",
+    "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+    "retrieved_at": "2026-11-09T00:29:42.912850+00:00",
+    "ok": true,
+    "all_new": [],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-066773",
+        "filingDate": "2026-10-22",
+        "primaryDocument": "meta-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "microsoft",
+    "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "retrieved_at": "2026-11-09T00:29:42.913020+00:00",
+    "ok": true,
+    "all_new": [],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001193125-26-436133",
+        "filingDate": "2026-10-28",
+        "primaryDocument": "msft-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "amazon",
+    "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+    "retrieved_at": "2026-11-09T00:29:42.913180+00:00",
+    "ok": true,
+    "all_new": [],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001018724-26-000040",
+        "filingDate": "2026-10-30",
+        "primaryDocument": "amzn-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "broadcom",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-09T00:29:42.913318+00:00",
+    "ok": true,
+    "all_new": [],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001730168-26-000080",
+        "filingDate": "2026-09-10",
+        "primaryDocument": "avgo-20260802.htm"
+      }
+    ]
+  }
+]

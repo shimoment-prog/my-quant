@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sector_today",
+    "url": "https://cj.sina.cn/articles/view/5115326071/130e5ae770200342au",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:55:51.702981+00:00"
+  },
+  {
+    "id": "price_detail",
+    "url": "https://cj.sina.cn/articles/view/6192937794/17120bb4202002w5pc",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:55:51.664168+00:00"
+  },
+  {
+    "id": "price_yesterday",
+    "url": "https://finance.sina.com.cn/jjxw/2026-11-04/doc-inixqaau9423838.shtml",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:55:51.512439+00:00"
+  },
+  {
+    "id": "beijing_policy",
+    "url": "https://finance.sina.com.cn/jjxw/2026-11-04/doc-inixqaaw6136060.shtml",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:55:51.393749+00:00"
+  },
+  {
+    "id": "uk_delivery",
+    "url": "https://wap.cj.sina.cn/pc/7x24/5193344",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:55:51.372551+00:00"
+  },
+  {
+    "id": "company_home",
+    "url": "https://www.sungrowpower.com/",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:55:51.617199+00:00"
+  }
+]

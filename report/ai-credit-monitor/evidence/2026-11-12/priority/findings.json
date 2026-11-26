@@ -1,0 +1,247 @@
+{
+  "checked_at": "2026-11-12T00:32:23.347204+00:00",
+  "comparison_cutoff": "2026-11-11T01:14:46.549646+00:00",
+  "scope": [
+    "CoreWeave",
+    "Oracle",
+    "OpenAI"
+  ],
+  "recommendation": "DONT_NOTIFY",
+  "recommendation_reason": "No new primary operating filing or verified financing interruption. CoreWeave media recap enriches the already knownNov10call; OpenAI publicpreview repeats priorRSSdiscovery and registrationgatedbody details excluded. Do not repeat yesterday notification.",
+  "new_material_verified_event": false,
+  "new_events": [],
+  "assessment": "风险升温",
+  "assessment_scope": "Preserve Nov11 localized risk warming; no newly verified risk easing or further material escalation in this scope.",
+  "SEC_checks": [
+    {
+      "name": "oracle_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001341439.json",
+      "retrieved_at": "2026-11-12T00:28:32.509375+00:00",
+      "status": 200,
+      "new_filings": [],
+      "latest_operating_filings": [
+        {
+          "accessionNumber": "0001193125-26-447507",
+          "filingDate": "2026-11-04",
+          "reportDate": "2026-11-02",
+          "acceptanceDateTime": "2026-11-04T21:49:48.000Z",
+          "act": "34",
+          "form": "8-K",
+          "fileNumber": "001-35992",
+          "filmNumber": "261523413",
+          "items": "8.01,9.01",
+          "core_type": "XBRL",
+          "size": 665620,
+          "isXBRL": 1,
+          "isInlineXBRL": 1,
+          "isXBRLNumeric": 0,
+          "primaryDocument": "d131790d8k.htm",
+          "primaryDocDescription": "8-K"
+        },
+        {
+          "accessionNumber": "0001193125-26-435853",
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-10-28",
+          "acceptanceDateTime": "2026-10-28T18:24:44.000Z",
+          "act": "34",
+          "form": "8-K",
+          "fileNumber": "001-35992",
+          "filmNumber": "261495067",
+          "items": "7.01,9.01",
+          "core_type": "XBRL",
+          "size": 261445,
+          "isXBRL": 1,
+          "isInlineXBRL": 1,
+          "isXBRLNumeric": 0,
+          "primaryDocument": "d75538d8k.htm",
+          "primaryDocDescription": "8-K"
+        }
+      ]
+    },
+    {
+      "name": "coreweave_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001769628.json",
+      "retrieved_at": "2026-11-12T00:28:32.509780+00:00",
+      "status": 200,
+      "new_filings": [],
+      "latest_operating_filings": [
+        {
+          "accessionNumber": "0001769628-26-000461",
+          "filingDate": "2026-11-10",
+          "reportDate": "2026-11-10",
+          "acceptanceDateTime": "2026-11-10T21:05:53.000Z",
+          "act": "34",
+          "form": "8-K",
+          "fileNumber": "001-42563",
+          "filmNumber": "261540295",
+          "items": "2.02,9.01",
+          "core_type": "XBRL",
+          "size": 543742,
+          "isXBRL": 1,
+          "isInlineXBRL": 1,
+          "isXBRLNumeric": 0,
+          "primaryDocument": "crwv-20261110.htm",
+          "primaryDocDescription": "8-K"
+        },
+        {
+          "accessionNumber": "0001769628-26-000432",
+          "filingDate": "2026-09-22",
+          "reportDate": "2026-09-17",
+          "acceptanceDateTime": "2026-09-22T20:17:14.000Z",
+          "act": "34",
+          "form": "8-K",
+          "fileNumber": "001-42563",
+          "filmNumber": "261397063",
+          "items": "1.01,3.02,8.01,9.01",
+          "core_type": "XBRL",
+          "size": 2073009,
+          "isXBRL": 1,
+          "isInlineXBRL": 1,
+          "isXBRLNumeric": 0,
+          "primaryDocument": "crwv-20260917.htm",
+          "primaryDocDescription": "8-K"
+        }
+      ]
+    }
+  ],
+  "CoreWeave_Q3_10Q_followup": {
+    "source": "https://data.sec.gov/submissions/CIK0001769628.json",
+    "asof": "2026-11-12T00:28:32.509780+00:00",
+    "Q3_10Q_available": false,
+    "new_filing_after_previous_run": false,
+    "latest_operating_filing": "8K2026-11-10accession0001769628-26-000461",
+    "companyfacts_latest_period_end": "2026-06-30",
+    "companyfacts_source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001769628.json",
+    "same_Q3_release_reference": "../2026-11-11/priority/findings.json#new_events",
+    "do_not_repeat_same_financial_release": true,
+    "missing_Q3_fields": [
+      "customer concentration and receivable aging",
+      "finance lease principal cash payments",
+      "cash interest paid",
+      "actual available undrawn facility amounts",
+      "actual next12mo contractual principal and cashinterest schedules",
+      "noncash addedleases",
+      "unpaidcapitalspend",
+      "futurepurchase and uncommencedlease commitments",
+      "detailed covenant compliance and securitymix"
+    ],
+    "DDTL5_5_stage_preserved": "closed_facility_not_full_draw_or_cash_receipt_verified",
+    "expected9bn_prepayment_stage_preserved": "management_expected_next3months_not_actual_received"
+  },
+  "Oracle": {
+    "new_SEC_filings_after_cutoff": [],
+    "new_formal_capexcut_or_projectcancellation_verified": false,
+    "prior_completed_equity_notes_not_regressed": true,
+    "IR_access": "HTTP429"
+  },
+  "new_nonmaterial_context": [
+    {
+      "id": "coreweave_20261111_techcrunch_earningscall_recap",
+      "same_underlying_event_as": "coreweave_20261110_q3_earnings_cashflow_guidance",
+      "source": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "published_at": "2026-11-11T19:54:00Z",
+      "modified_at": "2026-11-11T19:54:04Z",
+      "evidence_grade": "reliable_media_direct_management_earningscall_quotes",
+      "stage": "existing_earningscall_context_not_new_funding",
+      "details": {
+        "customer_prepayments_deposits_expected_next3months_USDbn": 9,
+        "subset_related_to_newcontracts_on_already_builtcapacity_USDbn_morethan": 3,
+        "subset_requires_no_additionalhardware_company_view": true,
+        "actual_cash_receipts_verified": false,
+        "reported_company_price_increase_July_pct": 25,
+        "reported_additional_price_increase_laterQ3_pct": 10,
+        "pricing_definition": "management statements, not verified realized industrywide rental benchmark",
+        "shortterm_capacity_pricing_USDm_per_MW_annual_morethan": 40,
+        "new4to5yr_infrastructure_contract_pricing_USDm_per_MW_annual": [
+          20,
+          25
+        ],
+        "contracts_pricing_not_same_term_comparable": true,
+        "DDTL5_5_closed_month_reported": "2026-08",
+        "DDTL5_5_closed_primarydate_independently_verified_today": false,
+        "DDTL5_5_drawamount": null
+      },
+      "interpretation": "Funding design and quoted pricing details enrich known call; no fresh receipt, issuance, full draw, cancellation or default established."
+    },
+    {
+      "id": "openai_20261111_pymnts_q3_preview_only",
+      "same_underlying_event": "OpenAI2026Q3Nov10investorpresentation_previousRSSdiscovery",
+      "source": "https://www.pymnts.com/earnings/2026/openai-revenue-hits-10-billion-as-losses-mount/",
+      "published_at": "2026-11-11T18:32:57Z",
+      "modified_at": "2026-11-11T18:33:32Z",
+      "evidence_grade": "secondary_media_public_title_and_first_paragraph_only",
+      "public_title": "OpenAI Revenue Hits$10BillionAsLossesMount",
+      "public_preview": "OpenAI is reportedly saddled with heavy operating losses amid a surge in revenue.",
+      "full_article_access": "registration_gated_detail_excluded",
+      "access_note": "StandardHTTP200page acquired; HTML contains article-paywall-hidden-content/pymnts-article-gated and free-registration prompt. Gated body details are excluded from verified evidence and assessment. No form/account submitted or furtherbypass attempted.",
+      "OCF": null,
+      "cash_receipts": null,
+      "cash_PPandE": null,
+      "current_usable_liquidity": null,
+      "company_confirmation": false,
+      "original_investorpresentation_obtained": false,
+      "interpretation": "Public preview adds no material detail beyond earlier RSS discovery. Do not use hiddenbody figures as verified financial updates, independent evidence or notification basis."
+    }
+  ],
+  "OpenAI_official_RSS": {
+    "url": "https://openai.com/news/rss.xml",
+    "retrieved_at": "2026-11-12T00:29:03.069014+00:00",
+    "status": 200,
+    "new_funding_round_or_financialstatement_confirmation": false,
+    "new_entries": [
+      "ChatGPT Plus for veterans and servicemembers",
+      "Gilbert + Tobin rethinks the business of law withAI"
+    ],
+    "interpretation": "Product/customerusage stories do not establish receipts or financing.",
+    "prior_round_stage_preserved": "media_reported_initial11bn_wired_byNov6_whole_round_open",
+    "company_cashreceipt_independently_verified": false
+  },
+  "focused_checks": {
+    "new_formal_customer_capex_cut_verified": false,
+    "new_supplier_formal_revenue_guidance_cut_verified": false,
+    "same_project_delay_to_cancellation_or_fundinginterruption_verified": false
+  },
+  "coverage_gaps": [
+    {
+      "source": "https://investor.oracle.com/investor-news/default.aspx",
+      "status": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "https://investors.coreweave.com/news-and-events/news-releases",
+      "status": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "https://www.reuters.com/business/openai-posts-steep-losses-even-quarterly-revenue-rises-10-billion-wsj-reports-2026-11-10/",
+      "status": "<urlopen error timed out>"
+    },
+    {
+      "source": "https://www.straitstimes.com/business/openai-q3-revenue-soars-nearly-50-to-us10-billion",
+      "status": "<urlopen error timed out>"
+    },
+    {
+      "source": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/openais-third-quarter-revenue-soars-nearly-50-us10-billion",
+      "status": "<urlopen error timed out>"
+    },
+    {
+      "source": "https://www.euronews.com/business/2026/11/11/openai-reports-steep-losses-despite-quarterly-revenue-rise",
+      "status": "<urlopen error timed out>"
+    },
+    {
+      "source": "https://qz.com/openai-q3-revenue-operating-loss-10-billion",
+      "status": "<urlopen error timed out>"
+    }
+  ],
+  "missing": [
+    "CoreWeaveQ3 10Q schedules listed above",
+    "FulloriginalOpenAIinvestorpresentation/financialstatements and cashflow",
+    "Directcurrent comparableissuerCDS/bondsecurityseries"
+  ],
+  "source_manifests": [
+    "manifest.json",
+    "follow_manifest.json",
+    "openai_follow_manifest.json",
+    "finalfetch_manifest.json"
+  ],
+  "missing_not_risk_relief": true,
+  "no_stock_price_inference": true
+}

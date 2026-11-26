@@ -1,0 +1,16 @@
+[
+  {
+    "name": "ce_close",
+    "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261111_3291261.shtml",
+    "retrieved_at": "2026-11-12T00:49:44.288003+00:00",
+    "ok": true,
+    "bytes": 22344
+  },
+  {
+    "name": "pbc_2026",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2026nhbzczxbg/index.html",
+    "retrieved_at": "2026-11-12T00:49:44.288345+00:00",
+    "ok": true,
+    "bytes": 28497
+  }
+]

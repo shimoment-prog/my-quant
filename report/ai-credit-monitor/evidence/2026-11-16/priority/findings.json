@@ -1,0 +1,288 @@
+{
+  "checked_at": "2026-11-16T00:31:25.486041+00:00",
+  "run_date_bjt": "2026-11-16",
+  "incremental_window_start": "2026-11-15T00:37:11.438315Z",
+  "scope": [
+    "CoreWeave",
+    "OpenAI",
+    "ING",
+    "QTS",
+    "SMFG duplicate control"
+  ],
+  "recommendation": {
+    "assessment": "风险升温",
+    "scope": "carry_forward_localized_cash_and_funding_risk",
+    "notification": "DONT_NOTIFY_FOR_THIS_PRIORITY_SCOPE",
+    "reason": "本次无已核实重要经营、正式指引、融资交割、重大融资中断或订单取消变化；QTS周末全文系同一事件补源，SMFG已通知背景不重复计数。Dealroom85亿美元标题保留待核实，不能据标题判断融资缓解。"
+  },
+  "coreweave": {
+    "SEC_source": "https://data.sec.gov/submissions/CIK0001769628.json",
+    "SEC_checked_at": "2026-11-16T00:27:28.813217+00:00",
+    "new_filings_since_cutoff": [],
+    "latest_operating_filings": [
+      {
+        "accessionNumber": "0001769628-26-000465",
+        "filingDate": "2026-11-12",
+        "reportDate": "2026-09-30",
+        "acceptanceDateTime": "2026-11-12T12:20:41.000Z",
+        "act": "34",
+        "form": "10-Q",
+        "fileNumber": "001-42563",
+        "filmNumber": "261543178",
+        "items": "",
+        "core_type": "XBRL",
+        "size": 13558216,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 1,
+        "primaryDocument": "crwv-20260930.htm",
+        "primaryDocDescription": "10-Q"
+      },
+      {
+        "accessionNumber": "0001769628-26-000461",
+        "filingDate": "2026-11-10",
+        "reportDate": "2026-11-10",
+        "acceptanceDateTime": "2026-11-10T21:05:53.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-42563",
+        "filmNumber": "261540295",
+        "items": "2.02,9.01",
+        "core_type": "XBRL",
+        "size": 543742,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "crwv-20261110.htm",
+        "primaryDocDescription": "8-K"
+      }
+    ],
+    "no_new_operating_disclosure_in_submissions": true,
+    "IR_access": "429; SEC submissions succeeded",
+    "financial_figures_unchanged": "HistoricalSept30Q3, sameperioddetails alreadyreviewedNov13; not daily updated",
+    "cashflow_definition": "Operating cash flow minus cash PP&E including capitalized software, then show finance-lease principal separately. Cash interest in OCF not deducted again. September30 financials do not change daily.",
+    "financial_reference": "evidence/2026-11-13/priority/findings.json#coreweave",
+    "proposed_4bn_loan": {
+      "event_id": "coreweave_20261112_reported_4bn_loan_plan_followup",
+      "new_evidence_id": "coreweave_20261113_4bn_loan_media_followup",
+      "reported_amount_USD_at_least": 4000000000,
+      "stage": "media_reported_plan_not_verified_priced_closed_or_drawn",
+      "source_outlet": "Semafor, Bloomberg; subsequent relays same financing event",
+      "new_report_publication_at": "2026-11-13T13:54:00Z",
+      "source": "https://www.semafor.com/article/11/13/2026/coreweave-tunes-out-nvidia-noise-looks-to-raise-4b",
+      "evidence_grade": "reliable_media_RSS_headline_original_full_body_not_obtained",
+      "reported_contract_link": "Media relay says backed by Meta contracts and equipment; not independently verified loan documents or actual contract terms",
+      "pricing_spread_coupon_covenants_security_and_recourse": null,
+      "actual_closing_verified": false,
+      "drawn_cash_verified": false,
+      "access": "Semafor timed out, MLQ403, IR429; no paywall bypass attempted",
+      "interpretation": "寻求贷款不等于融资失败或资金已到账，也不把拟贷款的high-grade描述当CoreWeave主体评级。",
+      "last_checked_at": "2026-11-16T00:31:25.486041+00:00",
+      "new_verified_stage_change": false
+    },
+    "new_actual_cancellation_default_or_failed_draw_verified": false,
+    "new_formal_capex_or_revenue_cut_verified": false,
+    "media_context": "Weekend earnings, share-price and financing commentary not counted as new operating or actual closing evidence.",
+    "missing": [
+      "40亿美元贷款实际条款、定价、交割和提款",
+      "客户90亿美元预付款实际到账及履约义务",
+      "滚动12个月债务本金/利息/租赁现金到期明细",
+      "可比企业5YCDS及匹配债券约20日序列",
+      "9月30日之后客户付款逾期、契约触发或取消独立证据"
+    ],
+    "new_media_lead": {
+      "event_id": "coreweave_20261115_dealroom_85bn_title_unverified",
+      "title": "CoreWeave lands $8.5B debt deal, cementing a trillion-dollar AI lending playbook",
+      "outlet": "Dealroom",
+      "published_at": "2026-11-15T20:29:14Z",
+      "url": "https://app.dealroom.co/news/note/coreweave-lands-8-5b-debt-deal-cementing-a-trillion-dollar-ai-lending-playbook",
+      "access": "403",
+      "evidence_grade": "RSS_headline_only_original_body_unavailable",
+      "reported_amount_USD": 8500000000,
+      "instrument_date_terms_pricing_closing_and_draws": null,
+      "historical_or_new_transaction_not_resolved": true,
+      "underlying_event_count_for_verified_change": 0,
+      "interpretation": "新标题不直接代表新融资；原文403且未核实对应交易日期/条款，公开定向检索与SEC未获得独立交割确认。既不认定新85亿美元到账，也不武断认定历史融资回顾。",
+      "followup": "发行人/SEC/可靠完整原文核实交易日期、金额、是否承诺/定价/交割/提款，并与既有贷款去重。"
+    }
+  },
+  "openai": {
+    "official_feed_source": "https://openai.com/news/rss.xml",
+    "official_feed_checked_at": "2026-11-16T00:27:28.813775+00:00",
+    "new_official_items_since_cutoff": [
+      {
+        "title": "A step toward defining the Standard Model on a lattice",
+        "pubDate": "Sun, 15 Nov 2026 22:00:01 GMT",
+        "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+      },
+      {
+        "title": "Our new blog for science",
+        "pubDate": "Sun, 15 Nov 2026 22:00:00 GMT",
+        "link": "https://openai.com/index/our-new-blog-for-science",
+        "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery."
+      }
+    ],
+    "new_financing_company_confirmation_or_actual_receipt_verified": false,
+    "funding_followup": {
+      "event_id": "openai_20261106_reported_partial_round_historical_context",
+      "new_evidence_id": "openai_20261112_CNBC_15bn_video_source_verified_20261114",
+      "underlying_publication_at": "2026-11-12T17:47:10Z",
+      "current_novelty": "original_source_page_verification_of_previous_unverified_media_lead_not_new_separate_round",
+      "source": "https://www.cnbc.com/video/2026/11/12/openai-raises-15b-at-a-1-point-25t-valuation-what-it-means-for-the-ipo.html",
+      "page_title": "OpenAI raises $15B at a $1.25T valuation, sources say. What it means for the IPO",
+      "page_description": "CNBC Kate Rooney reports sources saying OpenAI raised $15 billion at a $1.25 trillion valuation",
+      "evidence_grade": "reliable_media_original_video_page_title_description_and_timestamp_verified_anonymous_sources; full_video_transcript_not_obtained",
+      "claimed_raise_USD": 15000000000,
+      "claimed_valuation_USD": 1250000000000,
+      "original_video_page_verified": true,
+      "full_video_transcript_obtained": false,
+      "company_confirmation_or_bank_cash_receipt_verified": false,
+      "stage": "media_reported_raised_not_independently_verified_issuer_cash_receipt",
+      "secondary_full_text": "https://techfundingnews.com/openai-reportedly-raises-15b-at-1-25t-valuation-as-anthropic-ipo-approaches/",
+      "secondary_publication_at": "2026-11-13T11:52:12Z",
+      "secondary_context": "TFN full text cites CNBC and explicitly notes BloombergNov6 about11bn of same round already came in. CNBC described1.25trillion as premoney per TFN; direct original video transcript unavailable.",
+      "reported_original_target_USD": 30000000000,
+      "reported_prior_target_valuation_USD": 1400000000000,
+      "do_not_add_to_prior_11bn": true,
+      "do_not_infer_funding_failure_from_target_gap": true,
+      "interpretation": "150亿与110亿可能同轮累计更新，不能相加为260亿；媒体募资规模低于最初目标不自动证明融资渠道关闭，媒体raised也不是独立验证现金到帐。此来源升级不单独触发风险缓解。",
+      "last_checked_at": "2026-11-16T00:31:25.486041+00:00",
+      "new_stage_change_verified": false
+    },
+    "financial_reporting_leads": {
+      "reported_Q3_2026_revenue_USD_approx": 10000000000,
+      "reported_QoQ_growth_approx": 0.5,
+      "reported_Q3_loss_USD_approx": 10900000000,
+      "earliest_headlines_seen": "2026-11-12 or earlier; not new Nov14 earnings announcement",
+      "source_chain": "The Information cited by public relays; TFN verifies only media context, not full original investor statement",
+      "original_investor_financials_or_cashflow_statement_obtained": false,
+      "OCF_cashcapex_receipts_balance_sheet_verified": false,
+      "accepted_financial_baseline_updated": false,
+      "stage": "media_financial_lead_not_reconciled_primary_cashflow_data",
+      "interpretation": "净亏损不等于经营现金流或现金消耗，不据收入/亏损比率推算融资寿命；多家转载不能增加独立证据条数。"
+    },
+    "new_media_reposts_independent_new_round": false,
+    "do_not_add_15bn_to_prior_11bn": true,
+    "accepted_financial_baseline_updated": false,
+    "official_incremental_interpretation": "两篇新官方科学博客与融资确认、经营回款或项目合同无直接关联，不作为信用或风险缓解证据。"
+  },
+  "ING": {
+    "event_id": "ing_20261106_reported_500m_loan_BWIC_identified",
+    "reported_bid_deadline": "2026-11-19",
+    "stage": "media_reported_bid_solicitation_not_verified_sale",
+    "new_sale_or_realized_loss_confirmation_found": false,
+    "media_search_window_days": 7,
+    "excluded_relay": "Nov7 BigGo headline calls fire-sale/discount; not verified executed trade or realized loan loss",
+    "interpretation": "尚未到11月19日询价截止；无可核实成交价格、交割或损失，不能将BWIC当坏账或退出所有AI贷款。",
+    "last_checked_at": "2026-11-16T00:31:25.486041+00:00",
+    "not_yet_bid_deadline": true
+  },
+  "evidence_enrichment": [
+    {
+      "event_id": "qts_20261113_private_debt_sale_reduction_media_lead",
+      "new_evidence_id": "qts_20261115_investingLive_fulltext_verified_20261116",
+      "same_underlying_event_as_prior_run": true,
+      "independent_event_count": 1,
+      "incremental_independent_event_count": 0,
+      "issuer": "QTS Data Centers",
+      "sponsor": "Blackstone",
+      "original_event_date_reported": "2026-11-13",
+      "source": "https://investinglive.com/stocks/weekend-blackstone-s-qts-cuts-ai-data-center-debt-sale-60-as-investors-push-back-on-pricing/",
+      "outlet": "investingLive",
+      "author": "Eamonn Sheridan",
+      "publication_at": "2026-11-15T22:28:27Z",
+      "retrieved_at": "2026-11-16T00:29:57.151960+00:00",
+      "evidence_grade": "complete_public_secondary_media_relay_explicitly_attributed_to_Bloomberg_anonymous_transaction_sources",
+      "original_Bloomberg_report_obtained": false,
+      "prior_offering_target_USD_approx": 800000000,
+      "revised_offering_target_USD_approx": 300000000,
+      "target_reduction_USD_approx": 500000000,
+      "reported_reduction_pct_approx": 60,
+      "source_rounding": "原新金额均约数，使用报道约60%；不把62.5%算术精度写成正式发行条款。",
+      "reported_reason": [
+        "Some investors objected to offered pricing",
+        "Some investors constrained by repeat QTS placement exposure",
+        "QTS/Blackstone declined much higher yields, concerned about benchmark impact on other borrowing"
+      ],
+      "stage": "media_reported_downsizing_of_planned_private_placement_final_pricing_closing_and_receipts_unverified",
+      "final_coupon_yield_benchmark_spread": null,
+      "actual_closed_principal_or_receipts_verified": false,
+      "offering_withdrawal_or_failed_closing_verified": false,
+      "alternate_financing_verified": false,
+      "specific_customer_contract_or_project_site": null,
+      "actual_order_cancellation_payment_default_construction_halt_or_guarantee_payout_verified": false,
+      "project_or_parent_recourse_terms": null,
+      "new_terms_or_stage_change_since_previous_run_verified": false,
+      "previous_source_detail_reference": "evidence/2026-11-15/priority/qts_followup.json; SPV/maturity/arrangers there remain secondary-source details, not newly corroborated by current article",
+      "interpretation": "补强相同11月13日融资缩量事件的公开二手全文，并非第二笔融资失败或11月16日进一步缩量。未披露最终收益率/交割/项目后果；不把约5亿美元目标缩减当已证实现金缺口，也不认定全面融资中断。",
+      "excluded_commentary": [
+        "sector-wide financing cost extrapolations without matched instrument terms",
+        "headline wording raising as proof of cash received",
+        "stock/share-price references as actual credit losses"
+      ],
+      "next_confirmation": [
+        "原始Bloomberg/发行人/承销方确认修订规模与日期",
+        "最终收益率/利差、认购/交割与实际到账",
+        "具体项目、备用资金及是否发生订单取消/停工"
+      ]
+    }
+  ],
+  "carried_context": [
+    {
+      "event_id": "smfg_20261113_data_center_credit_policy_media_lead",
+      "source": "https://theedgemalaysia.com/node/825630",
+      "publication_at": "2026-11-13T14:52:19+08:00",
+      "status": "carry_forward_already_notified_context_no_new_independent_policy_change",
+      "policy_period": "this year 2026, exact adoption date undisclosed",
+      "interpretation": "既有Reuters直接引述仅作沿用背景，不把今年收严重复写成今日新收紧；未验证具体授信撤回或AI实际损失。",
+      "reference": "evidence/2026-11-15/priority/smfg_followup.json"
+    }
+  ],
+  "focused_checks": {
+    "customer_capex_cuts": {
+      "new_formal_comparable_cut_verified": false,
+      "historical_guidance_dates_retained": true,
+      "reference": "CoreWeave Nov10 FY2026 capex37–39bn guidance retained, not a fresh daily update"
+    },
+    "supplier_consecutive_guidance_cuts": {
+      "outside_priority_scope": "chain agent",
+      "no_inference_from_stock_or_analyst_actions": true
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "new_verified_major_interruption": false,
+      "CoreWeave_4bn_loan": "plan_not_verified_priced_closed_or_drawn",
+      "QTS": "same_reported_target_downsize_not_proven_closed_or_withdrawn",
+      "ING": "BWIC_pre_Nov19_bid_deadline_no_executed_sale_verified"
+    }
+  },
+  "cross_subject_links": [
+    {
+      "chain": "Blackstone→QTS→reportedQTS_ThunderSPV→placementarrangers/insurers",
+      "specific_customers_or_contracts_for_thisissue": "notverified",
+      "parent_unconditional_recourse": "notverified"
+    },
+    {
+      "chain": "SMFG→high_credit_hyperscalers/data_centerlending",
+      "specific_rejected_or_cancelledloan": "notverified"
+    }
+  ],
+  "financial_baseline_changed": false,
+  "cashflow_definition": "OCF minus cash PP&E, financing lease principal separate. Historical reporting dates retained; no loan proceeds or noncash gains treated as AI operating cash return.",
+  "source_limits": [
+    "CoreWeave IR429, SEC successful alternative",
+    "Dealroom85bn original403; underlying transaction remains unverified",
+    "QTS original Bloomberg and issuer/placement term sheet unavailable; current public text is secondary relay",
+    "No current matched 5YissuerCDS/cashbond20day series in this scope",
+    "Private project payment/default and actual customer-prepayment receipts not fully available",
+    "No evidence found does not prove risk absent"
+  ],
+  "raw_manifests": [
+    "manifest.json",
+    "decode_manifest.json",
+    "fulltext_manifest.json",
+    "coreweave_85_search_manifest.json",
+    "openai_incremental_items.json"
+  ],
+  "prior_findings_reference": "evidence/2026-11-15/priority/findings.json"
+}

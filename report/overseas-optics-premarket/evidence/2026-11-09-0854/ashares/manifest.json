@@ -1,0 +1,100 @@
+[
+  {
+    "file": "quotes.txt",
+    "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+    "started_utc": "2026-11-09T00:50:34.314533+00:00",
+    "ok": true,
+    "bytes": 2130,
+    "retrieved_utc": "2026-11-09T00:50:34.393609+00:00"
+  },
+  {
+    "file": "sina.txt",
+    "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "started_utc": "2026-11-09T00:50:34.314865+00:00",
+    "ok": true,
+    "bytes": 1089,
+    "retrieved_utc": "2026-11-09T00:50:34.389391+00:00"
+  },
+  {
+    "file": "sz300502-daily.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+    "started_utc": "2026-11-09T00:50:34.315046+00:00",
+    "ok": true,
+    "bytes": 3729,
+    "retrieved_utc": "2026-11-09T00:50:34.415490+00:00"
+  },
+  {
+    "file": "sz300502-m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+    "started_utc": "2026-11-09T00:50:34.315186+00:00",
+    "ok": true,
+    "bytes": 14342,
+    "retrieved_utc": "2026-11-09T00:50:34.553502+00:00"
+  },
+  {
+    "file": "sz300308-daily.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300308,day,,,30,qfq",
+    "started_utc": "2026-11-09T00:50:34.315329+00:00",
+    "ok": true,
+    "bytes": 3822,
+    "retrieved_utc": "2026-11-09T00:50:34.420319+00:00"
+  },
+  {
+    "file": "sz300308-m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300308&scale=5&ma=no&datalen=100",
+    "started_utc": "2026-11-09T00:50:34.315487+00:00",
+    "ok": true,
+    "bytes": 14308,
+    "retrieved_utc": "2026-11-09T00:50:34.541898+00:00"
+  },
+  {
+    "file": "sh515880-daily.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,30,qfq",
+    "started_utc": "2026-11-09T00:50:34.315631+00:00",
+    "ok": true,
+    "bytes": 3570,
+    "retrieved_utc": "2026-11-09T00:50:34.420257+00:00"
+  },
+  {
+    "file": "sh515880-m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sh515880&scale=5&ma=no&datalen=100",
+    "started_utc": "2026-11-09T00:50:34.315794+00:00",
+    "ok": true,
+    "bytes": 13640,
+    "retrieved_utc": "2026-11-09T00:50:34.540307+00:00"
+  },
+  {
+    "file": "sz399006-daily.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,30,qfq",
+    "started_utc": "2026-11-09T00:50:34.389446+00:00",
+    "ok": true,
+    "bytes": 3889,
+    "retrieved_utc": "2026-11-09T00:50:34.465015+00:00"
+  },
+  {
+    "file": "sz399006-m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz399006&scale=5&ma=no&datalen=100",
+    "started_utc": "2026-11-09T00:50:34.393625+00:00",
+    "ok": true,
+    "bytes": 15102,
+    "retrieved_utc": "2026-11-09T00:50:34.596825+00:00"
+  },
+  {
+    "file": "xys_20261106.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660606.PDF",
+    "started_utc": "2026-11-09T00:50:34.415505+00:00",
+    "ok": true,
+    "bytes": 97506,
+    "retrieved_utc": "2026-11-09T00:50:34.517707+00:00",
+    "valid_pdf": true
+  },
+  {
+    "file": "zj_20261106.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660601.PDF",
+    "started_utc": "2026-11-09T00:50:34.420273+00:00",
+    "ok": true,
+    "bytes": 152570,
+    "retrieved_utc": "2026-11-09T00:50:34.535375+00:00",
+    "valid_pdf": true
+  }
+]

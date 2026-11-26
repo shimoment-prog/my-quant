@@ -1,0 +1,971 @@
+{
+  "schema_version": 3,
+  "date": "2026-11-07",
+  "automation_id": "ai",
+  "triggered_at": "2026-11-07T00:26:28.834Z",
+  "run_at": "2026-11-07T00:33:27.770774+00:00",
+  "timezone": "Asia/Shanghai",
+  "baseline": false,
+  "comparison_to_previous_observation": "observations/2026-11-06.json",
+  "assessment": "观察",
+  "summary": "新增公开证据更清楚地显示CoreWeave信用定价压力，微软伙伴调整带来客户集中度风险，TeraWulf新季报显示扩建期现金需求扩大，同时HPC收入和履约进展增长。总体维持观察；未核实大客户正式资本开支下修、供应商连续收入指引下修、重大融资中断或AI信用损失扩散。",
+  "confidence": "High for primary cashflow and filing stages; limited for dealer-sourced media quotes, anonymous contract reporting and private credit coverage.",
+  "signals": [
+    {
+      "id": "real_demand_collections_and_cashflow",
+      "assessment": "观察",
+      "change": "New TeraWulf report shows larger nine-month operating-plus-equipment/deposit cash deficit while realized HPC lease revenue grows and delivery milestones are maintained. Microsoft supplier consolidation is reported, without formal capex cut or quantified confirmed order cancellation.",
+      "evidence_ids": [
+        "terawulf_20261106_q3_earnings_cashflow",
+        "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+        "google_crusoe_wyoming_site_acquired_20261106"
+      ],
+      "notes": "Wulf cash measure includes equipment deposits, not standardized FCF. Historical report periods are not daily changes; no current customer-payment aging or industry utilization series."
+    },
+    {
+      "id": "credit_funding_and_liquidity",
+      "assessment": "风险升温",
+      "scope": "Localized pricing stress; not a claim of new day-over-day deterioration on Nov6 or financing closure.",
+      "change": "First reliable full media report obtained for CoreWeave 2032 9.625% coupon bond yield above16% and dated5YCDS. Reported Nov6CDS eased from Nov5peak, so do not call uninterrupted daily widening. Broad FRED IG/HY OAS Nov5 widened2/16bp, respectively.",
+      "evidence_ids": [
+        "coreweave_20261106_media_bond_cds_quotes",
+        "fred_ig",
+        "fred_hy",
+        "terawulf_20261106_q3_earnings_cashflow"
+      ],
+      "notes": "Same-issuer bond/CDS are one evidence line. Media quotes lack full contract metadata and matched history. Secondary yield is not existing coupon reset or completed new financing cost. MetaEURNov12 settlement remains not due."
+    },
+    {
+      "id": "realized_losses_and_cross_entity_propagation",
+      "assessment": "观察",
+      "change": "No verified new project cancellation, payment default, failed financing, guarantee payout or AI-attributed lender loss in reviewed primary filings. ING reported loan auction is future bid solicitation; Microsoft Oracle nonrenewal is anonymous reporting without quantified contract terms.",
+      "evidence_ids": [
+        "ing_20261106_reported_500m_loan_BWIC_identified",
+        "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+        "blackstone_20261106_10q",
+        "ares_20261106_10q"
+      ],
+      "notes": "No verified contract-level chain from Microsoft partner review to CoreWeave default or specific lender loss. Fund redemptions are not AI loan losses; lack of public evidence is not proof of absence."
+    }
+  ],
+  "new_events": [
+    {
+      "id": "coreweave_20261106_media_bond_cds_quotes",
+      "issuer": "CoreWeave",
+      "publication_at": "2026-11-06T17:02:24Z",
+      "updated_at": "2026-11-06T17:09:53Z",
+      "source": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "evidence_grade": "reliable_media_reporting_on_bank_research_not_terminal_or_direct_trading_data",
+      "cash_bond": {
+        "maturity_year": 2032,
+        "coupon_pct": 9.625,
+        "reported_yield_pct_greater_than": 16,
+        "quote_asof": "ReportedNov6; exact market observation timestamp and closing/intraday status not disclosed",
+        "quote_type": "secondary-market yield as described by article; coupon distinct",
+        "currency": null,
+        "seniority": null,
+        "CUSIP_or_ISIN": null,
+        "quote_price": null,
+        "yield_methodology": null,
+        "matched_prior_same_bond_yield": null,
+        "benchmark_treasury_spread": null,
+        "interpretation": "Financing repricing pressure; yield not CDS, default probability or actual new-issue funding cost. Report does not verify a failed issue or default. Do not turn prior unverified price76 headline into verified current transaction price."
+      },
+      "CDS": [
+        {
+          "issuer": "CoreWeave",
+          "tenor_years": 5,
+          "market_date": "2026-11-05",
+          "reported_bp_greater_than": 1289,
+          "attributed_original_source": "Deutsche Bank viaCNBC",
+          "currency": null,
+          "rank": null,
+          "contract_restructuring_and_quote_convention": null,
+          "timestamp_or_closing_status": null,
+          "comparison": "Article says aboveOctoberpeak but numericOctoberpeak not supplied."
+        },
+        {
+          "issuer": "CoreWeave",
+          "tenor_years": 5,
+          "market_date": "2026-11-06",
+          "reported_bp_approx": 1155,
+          "attributed_original_source": "Deutsche Bank viaCNBC",
+          "currency": null,
+          "rank": null,
+          "contract_restructuring_and_quote_convention": null,
+          "timestamp_or_closing_status": null,
+          "comparison": "Article says eased8%Friday; rounded Nov5>1289 and Nov6~1155 are not a consistent exact percentage pair. Preserve raw dated figures without recomputing or presenting precise change."
+        }
+      ],
+      "additional_media_quotes_not_full_comparable": {
+        "Oracle_bp_approx": 298,
+        "Nvidia_bp_approx": 139,
+        "CoreWeave_bp_approx_in_separate_rounding": 1100,
+        "Nvidia_monthly_pct": 76,
+        "Broadcom_monthly_pct": 49,
+        "Amazon_monthly_pct": 44,
+        "note": "Later paragraph lacks issuer-specific exact tenor/date/convention. These are quoted media context, not an independently verified5Yseries. Do not combine1155and1100as separate observations."
+      },
+      "prior_coverage_change": "First retrieved reliable fullarticle for actual recent CoreWeave5Y quote, as distinct from previous FourWeekMBA76headline. Still no direct comparableCDS terminal/historicalseries.",
+      "new_independent_rating_action_verified": false
+    },
+    {
+      "id": "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+      "publication_at": "2026-11-06T18:31:32Z",
+      "updated_at": "2026-11-06T18:40:58Z",
+      "source": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "evidence_grade": "reliable_media_with_anonymous_sources_plus_named_company_statement",
+      "reported_by_anonymous_sources": [
+        "Microsoft evaluating smaller partner roster, prioritizing selected suppliers and own datacenters. No decision yet which neoclouds to stop using.",
+        "Two people say Microsoft opted not to renew a deal withOracle."
+      ],
+      "company_statement": "Microsoft spokesperson says infrastructure uses owned/leased/third-party capacity, regularly reviews investments against customer demand and adjusts delivery/plans; no specific Oracle contract amount/date/nonrenewal confirmation in statement.",
+      "formal_customer_capex_guidance_cut": false,
+      "formal_supplier_revenue_guidance_cut": false,
+      "specific_Oracle_contract_confirmed_by_company": false,
+      "contract_amount": null,
+      "contract_original_expiry": null,
+      "contract_renewal_option_or_committed_backlog": null,
+      "same_project_delay_upgraded_to_cancellation_verified": false,
+      "CoreWeave_cancellation_verified": false,
+      "IREN_cancellation_verified": false,
+      "interpretation": "New material customer-concentration/reallocation signal. Do not call it confirmed broad AI demand contraction, existing committed-order cancellation, same-project financing interruption or official capex reduction. Historic NscaleEnglandpowerissue and IRENNov5redesign not newtoday."
+    },
+    {
+      "id": "ing_20261106_reported_500m_loan_BWIC_identified",
+      "publication_at": "2026-11-06T11:24:52Z",
+      "source": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+      "evidence_grade": "CNBC_relaying_Bloomberg_sources_plus_spokesperson_declinedcomment",
+      "seller_reported": "ING",
+      "portfolio_loan_count": 12,
+      "loan_face_amount_USD_approx": 500000000,
+      "reported_stargate_NewMexico_piece_USD": 25000000,
+      "other_borrower_names_reported": [
+        "Vantage Data Centers",
+        "CyrusOne"
+      ],
+      "auction_type": "BWIC bids-wanted-in-competition",
+      "bid_deadline": "2026-11-19",
+      "minimum_bid_USD": 10000000,
+      "stage": "reportedly_seeking_bids_not_verified_completed_sale",
+      "company_confirmation": "INGspokespersondeclinedcomment",
+      "winning_price_or_discount": null,
+      "realized_loss": null,
+      "interpretation": "Upgrades prior mystery-seller headline coverage to accessible reliablemedia report identifying ING and process. Still same underlyingBloombergstory, not an independent2ndloss evidence. Normal lend-to-distribute possible; cannot infer forcedsale/fundingclosure/default."
+    },
+    {
+      "id": "google_crusoe_wyoming_site_acquired_20261106",
+      "company": "Google/Crusoe",
+      "event_date": "2026-11-06",
+      "publication_date_primary": "2026-11-06",
+      "exact_primary_publication_time": null,
+      "first_RSS_discovery_at": "2026-11-06T18:59:47Z",
+      "RSS_time_is_not_primary_page_time": true,
+      "source": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "evidence_grade": "primary_counterparty_company_announcement",
+      "stage": "site_acquired_per_seller_announcement",
+      "supporting_quote": "Google has acquired Crusoe’s data center site in southeast Wyoming, completing Crusoe’s pre-development work on site selection, governmental approvals, and a hybrid power strategy developed with Tallgrass Energy.",
+      "contract_relationship": {
+        "buyer": "Google",
+        "seller_or_predeveloper": "Crusoe",
+        "power_partner": "Tallgrass Energy",
+        "location": "southeast Wyoming"
+      },
+      "price": null,
+      "actual_proceeds": null,
+      "assumed_debt": null,
+      "guarantees_or_covenants": null,
+      "project_operating_or_revenue_stage": "Predevelopmentcompleted; constructionandeventualoperationarefuture, noenergizedcapacityverified.",
+      "change_from_prior": "Newconfirmationofsiteownershiptransfer/developerhandoff; noverifiedcancelledproject/fundinginterruption/creditloss.",
+      "potential_overlap": {
+        "previous_event_id": "google_20261105_wyoming_longterm_investment",
+        "status": "LikelyrelatedbasedonWyoming/Tallgrassandadjacentdates; officialCrusoenotexplicitlystates17bnorLaramieCounty. Reutersbodyunavailableforindependentconfirmation.",
+        "de_duplication_rule": "Do not countanother17bninvestment, addprojectamountsordescribeasnewindependentdemandordertotal."
+      },
+      "other_contracts_and_pipeline_claims": {
+        "company_says_contracted_capacity_GW": "morethan6",
+        "company_says_pipeline_GW": "over40",
+        "classification": "Managementcompanypipelineandcontractclaims, notnewNov6sales/energizedcapacity/operatingrevenue.",
+        "Texas_Amarillo_note": "SeparatepreviouslyannouncedArmstrongCountycampusreferenced; do notconflatewithWyoming."
+      },
+      "interpretation": "Projecthandoffcontinuationcanberecorded, butdoesnotbyitselfestablishindustryriskrelief, financingfailureornewcustomerAIpaidrevenue."
+    },
+    {
+      "id": "terawulf_20261106_q3_earnings_cashflow",
+      "issuer": "TeraWulf",
+      "evidence_grade": "primary_SEC_8K_release_and_10Q",
+      "published_at": "2026-11-06T12:02:23Z",
+      "10q_published_at": "2026-11-06T21:07:00Z",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/a_wulfearningsreleaseq32026.htm",
+        "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm"
+      ],
+      "report_periods": {
+        "income_quarter": {
+          "start": "2026-07-01",
+          "end": "2026-09-30"
+        },
+        "cashflow_nine_months": {
+          "start": "2026-01-01",
+          "end": "2026-09-30"
+        },
+        "balance_sheet_date": "2026-09-30"
+      },
+      "currency": "USD",
+      "amount_unit": "USD",
+      "realized_operations": {
+        "HPC_lease_revenue_q3": 62986000,
+        "HPC_lease_revenue_prior_year_q3": 7203000,
+        "HPC_lease_revenue_9m": 115940000,
+        "HPC_lease_revenue_prior_year_9m": 7203000,
+        "total_revenue_q3": 76230000,
+        "total_revenue_prior_year_q3": 50578000,
+        "operating_critical_IT_MW_Sept30": 102,
+        "HPC_revenue_customer_count": 2,
+        "HPC_revenue_includes_gross_pass_through_electricity": true,
+        "accounts_receivable_Sept30": 17000000,
+        "accounts_receivable_Dec31_2025": 1212000,
+        "receivable_overdue_not_verified": true
+      },
+      "cashflow": {
+        "operating_cash_flow_9m": -178948000,
+        "prior_year_operating_cash_flow_9m": -35009000,
+        "purchase_and_deposits_on_plant_equipment_9m": 2230788000,
+        "prior_year_purchase_and_deposits_on_plant_equipment_9m": 445199000,
+        "derived_surplus_after_purchase_and_deposits_9m": -2409736000,
+        "prior_year_derived_surplus_after_purchase_and_deposits_9m": -480208000,
+        "finance_lease_principal_paid_9m": 0,
+        "prior_year_finance_lease_principal_paid_9m": 9158000,
+        "cash_paid_asset_acquisitions_9m": 234653000,
+        "investee_equity_sale_cash_receipts_9m": 250000000,
+        "notes": [
+          "Derived cash measure includes plant/equipment deposits under the issuer combined line; exact deposits-excluded common PP&E purchase surplus is unavailable. Label this expanded measure, not a silently equivalent standardizedFCF.",
+          "Cashflows include nonAI/mining/corporate activities and cannot all be assigned toAI.",
+          "Bitcoin sales37.011m are in investing cashflow per issuer accounting; avoid comparing totaloperatingcoverage across different mining/cloud issuers without qualification.",
+          "Do not net stock/debt proceeds or one-offinvestee equitysale proceeds into operatingcashreturns.",
+          "Cashflow is nine-month cumulative, revenuequarter is singlequarter."
+        ],
+        "common_cash_surplus": null,
+        "common_cash_surplus_missing_reason": "Issuercombinedcashlineincludesplant/equipmentdeposits;deposits-excludedcashpurchasesnotseparatelyestablished.",
+        "cash_surplus_after_ppe_and_deposits": -2409736000,
+        "prior_year_cash_surplus_after_ppe_and_deposits": -480208000
+      },
+      "liquidity": {
+        "cash_and_equivalents_Sept30": 1602127000,
+        "cash_and_equivalents_Dec31_2025": 3266389000,
+        "restricted_cash_current_Sept30": 486702000,
+        "restricted_cash_noncurrent_Sept30": 266491000,
+        "restricted_cash_total_Sept30": 753193000,
+        "cash_plus_restricted_Sept30": 2355320000,
+        "company_reported_2_4bn_includes_restricted_cash": true,
+        "current_longtermdebt_carrying_value": 81330000,
+        "shortterm_convertiblenotes_carrying_value": 491544000,
+        "current_debt_carrying_not_exact_contract_principal_due": true,
+        "exact_next12months_debt_principal_interest": null,
+        "revolving_facility_amendment_date": "2026-10-23",
+        "revolving_commitment_prior": 250000000,
+        "revolving_commitment_new": 400000000,
+        "uncommitted_accordion": 150000000,
+        "pre_firstcommencement_borrowing_LC_limit_prior": 75000000,
+        "pre_firstcommencement_borrowing_LC_limit_new": 150000000,
+        "revolver_cash_borrowings_Sept30": 0,
+        "revolver_LC_Sept30": 74200000,
+        "availability_of_entire400m_not_established": true,
+        "revolver_covenants_compliant_as_of_Sept30": true
+      },
+      "project_delivery": {
+        "LakeMariner_CB4": "Still phased delivery and rent commencementQ42026.",
+        "LakeMariner_CB5": "Still phased deliveryearly2027.",
+        "Justified_Anthropic_Google": "Nov4backstopalreadyrecorded; financingstillanticipated ratherthan confirmedclosing.",
+        "Justified_ready_for_service": "late2027to2028Q2",
+        "Muskie_power_expansion": "500MWto1000MWamendedutilityagreements,subjecttoKentuckyregulatorapproval;second500MWtarget2029.",
+        "new_cancelled_order_verified": false,
+        "new_customer_prepayment_refund_verified": false,
+        "new_financing_interruption_verified": false,
+        "new_guarantee_payout_verified": false,
+        "no_evidence_does_not_prove_absence": true
+      },
+      "earnings_and_impairment_caveats": {
+        "net_income_attributable_q3": 709912000,
+        "noncash_warrant_fairvalue_gain_q3": 728442000,
+        "equity_sale_gain_q3": 94995000,
+        "adjusted_EBITDA_q3": -12801000,
+        "PPE_impairment_q3": 9724000,
+        "PPE_impairment_9m": 35421000,
+        "impairment_context": "Q3minerslowerrecoverablevalues;9mminingfacilityshutdown/transitionandacquisitionassetretirementcosts. No AIloanloss,covenanttriggeroractualguaranteepayoutidentified.",
+        "net_income_not_AI_operating_cash_return": true
+      }
+    },
+    {
+      "id": "blackstone_20261106_10q",
+      "issuer": "Blackstone",
+      "published_at": "2026-11-06T21:02:22Z",
+      "period_end": "2026-09-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/d179995d10q.htm",
+      "finding": "ManagementdescribesstrongdigitalinfrastructuredemandandmonitorsAIdisruptionofsoftwarevaluations;BCREDredemptionsremainhighandsubscriptionsdeclined,resultinginQ3netoutflows. No reviewed evidence attributing theseoutflows toAI projectdefaults, AIloanimpairments,stoppingAIloansorrealizedguaranteeloss.",
+      "limits": "Fundflows/valuationcommentaryarenotAI-specificcreditloss;selectedfairvalue-optionloanstatementofnopastdue/nonaccrualdoesnotcoverallunderlyingfundloans."
+    },
+    {
+      "id": "ares_20261106_10q",
+      "issuer": "Ares",
+      "published_at": "2026-11-06T20:52:04Z",
+      "period_end": "2026-09-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026071628/ares-20260930.htm",
+      "finding": "Managementstatesdigitalinfrastructuredemandremainedstrong.Somefundperformancefeesrelatedtodatacenterappreciation.NotreviewedevidenceofAI-specificloanloss/stoplending/default.Guaranteeorcreditcashlossnotidentified.",
+      "limits": "Datacenterassetvaluationappreciationandmanagementdemandviewsarenotcomputeutilizationorendusercashpayments;noexhaustiveprivatecreditloanlevelcoverage."
+    }
+  ],
+  "new_documents_on_old_events": [
+    {
+      "id": "meta_eur_20261106_final_prospectus",
+      "issuer": "Meta",
+      "published_at": "2026-11-06T12:35:49.000Z",
+      "document_date": "2026-11-04",
+      "related_event_id": "meta_eur_20261104_pricing",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+      "stage": "final_prospectus_for_prior_pricing_not_settlement",
+      "currency": "EUR",
+      "principal": 9000000000,
+      "estimated_net_proceeds": 8960000000,
+      "estimated_net_proceeds_is_cash_received": false,
+      "expected_settlement_date": "2026-11-12",
+      "settled_verified": false,
+      "terms_changed_from_pricing": false,
+      "coupon_pct": [
+        4.3,
+        4.65,
+        4.9,
+        5.4,
+        6.05,
+        6.4
+      ],
+      "maturity_years": [
+        2031,
+        2033,
+        2035,
+        2038,
+        2044,
+        2065
+      ],
+      "use_of_proceeds": "generalcorporatepurposes",
+      "notes": [
+        "Noverifiednewfinancingtransactionorstagechange; expectedNov12notdueyet.",
+        "ProspectusdatedNov4stillusesthenprospectivetenseforconcurrentUSD15bnoffering; Nov5later8KconfirmedUSDcompletionandmustnotbeoverriddenbyearlierdocumentdate.",
+        "Do notrepeatNov5MetaUSD15bn/AlphabetEUR6bncompletionasnewtoday.",
+        "No new capex guidance or current operating financial update."
+      ]
+    }
+  ],
+  "market_proxies": [
+    {
+      "id": "BAMLC0A0CM",
+      "source_id": "fred_ig",
+      "name": "US investment grade OAS",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-05",
+      "value": 93.0,
+      "previous_date": "2026-11-04",
+      "previous_value": 91.0,
+      "change_bp": 2.0,
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-08",
+        "value": 82.0,
+        "change_bp": 11.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "publication_at": null,
+      "retrieved_at": "2026-11-07T00:27:37.110479+00:00",
+      "archived_csv": "evidence/2026-11-07/market/fred_ig.csv",
+      "note": "Latest actual date Nov5. Not Nov6close or Nov7live. Market proxy, not AIcompany CDS. Single-day widening does not establish issuer funding closure."
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "source_id": "fred_hy",
+      "name": "US high yield OAS",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-05",
+      "value": 348.0,
+      "previous_date": "2026-11-04",
+      "previous_value": 332.0,
+      "change_bp": 16.0,
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-08",
+        "value": 315.0,
+        "change_bp": 33.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "publication_at": null,
+      "retrieved_at": "2026-11-07T00:27:37.110891+00:00",
+      "archived_csv": "evidence/2026-11-07/market/fred_hy.csv",
+      "note": "Latest actual date Nov5. Not Nov6close or Nov7live. Market proxy, not AIcompany CDS. Single-day widening does not establish issuer funding closure."
+    }
+  ],
+  "cashflow_definition": {
+    "standard": "Operating cash flow minus cash purchases of PP&E; finance lease principal separately reported.",
+    "TeraWulf_exception": "Combined plant/equipment purchases and deposits prevent exact standardized measure; expanded cash measure is separately labeled, with common_cash_surplus=null."
+  },
+  "historical_financial_baseline_reference": {
+    "file": "reference-baselines/2026Q3-alphabet-meta.json",
+    "is_new_release": false,
+    "prior_IREN_report": "observations/2026-11-06.json#latest_new_financial_report"
+  },
+  "latest_new_financial_report": {
+    "id": "terawulf_20261106_q3_earnings_cashflow",
+    "issuer": "TeraWulf",
+    "evidence_grade": "primary_SEC_8K_release_and_10Q",
+    "published_at": "2026-11-06T12:02:23Z",
+    "10q_published_at": "2026-11-06T21:07:00Z",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/a_wulfearningsreleaseq32026.htm",
+      "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm"
+    ],
+    "report_periods": {
+      "income_quarter": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      },
+      "cashflow_nine_months": {
+        "start": "2026-01-01",
+        "end": "2026-09-30"
+      },
+      "balance_sheet_date": "2026-09-30"
+    },
+    "currency": "USD",
+    "amount_unit": "USD",
+    "realized_operations": {
+      "HPC_lease_revenue_q3": 62986000,
+      "HPC_lease_revenue_prior_year_q3": 7203000,
+      "HPC_lease_revenue_9m": 115940000,
+      "HPC_lease_revenue_prior_year_9m": 7203000,
+      "total_revenue_q3": 76230000,
+      "total_revenue_prior_year_q3": 50578000,
+      "operating_critical_IT_MW_Sept30": 102,
+      "HPC_revenue_customer_count": 2,
+      "HPC_revenue_includes_gross_pass_through_electricity": true,
+      "accounts_receivable_Sept30": 17000000,
+      "accounts_receivable_Dec31_2025": 1212000,
+      "receivable_overdue_not_verified": true
+    },
+    "cashflow": {
+      "operating_cash_flow_9m": -178948000,
+      "prior_year_operating_cash_flow_9m": -35009000,
+      "purchase_and_deposits_on_plant_equipment_9m": 2230788000,
+      "prior_year_purchase_and_deposits_on_plant_equipment_9m": 445199000,
+      "derived_surplus_after_purchase_and_deposits_9m": -2409736000,
+      "prior_year_derived_surplus_after_purchase_and_deposits_9m": -480208000,
+      "finance_lease_principal_paid_9m": 0,
+      "prior_year_finance_lease_principal_paid_9m": 9158000,
+      "cash_paid_asset_acquisitions_9m": 234653000,
+      "investee_equity_sale_cash_receipts_9m": 250000000,
+      "notes": [
+        "Derived cash measure includes plant/equipment deposits under the issuer combined line; exact deposits-excluded common PP&E purchase surplus is unavailable. Label this expanded measure, not a silently equivalent standardizedFCF.",
+        "Cashflows include nonAI/mining/corporate activities and cannot all be assigned toAI.",
+        "Bitcoin sales37.011m are in investing cashflow per issuer accounting; avoid comparing totaloperatingcoverage across different mining/cloud issuers without qualification.",
+        "Do not net stock/debt proceeds or one-offinvestee equitysale proceeds into operatingcashreturns.",
+        "Cashflow is nine-month cumulative, revenuequarter is singlequarter."
+      ],
+      "common_cash_surplus": null,
+      "common_cash_surplus_missing_reason": "Issuercombinedcashlineincludesplant/equipmentdeposits;deposits-excludedcashpurchasesnotseparatelyestablished.",
+      "cash_surplus_after_ppe_and_deposits": -2409736000,
+      "prior_year_cash_surplus_after_ppe_and_deposits": -480208000
+    },
+    "liquidity": {
+      "cash_and_equivalents_Sept30": 1602127000,
+      "cash_and_equivalents_Dec31_2025": 3266389000,
+      "restricted_cash_current_Sept30": 486702000,
+      "restricted_cash_noncurrent_Sept30": 266491000,
+      "restricted_cash_total_Sept30": 753193000,
+      "cash_plus_restricted_Sept30": 2355320000,
+      "company_reported_2_4bn_includes_restricted_cash": true,
+      "current_longtermdebt_carrying_value": 81330000,
+      "shortterm_convertiblenotes_carrying_value": 491544000,
+      "current_debt_carrying_not_exact_contract_principal_due": true,
+      "exact_next12months_debt_principal_interest": null,
+      "revolving_facility_amendment_date": "2026-10-23",
+      "revolving_commitment_prior": 250000000,
+      "revolving_commitment_new": 400000000,
+      "uncommitted_accordion": 150000000,
+      "pre_firstcommencement_borrowing_LC_limit_prior": 75000000,
+      "pre_firstcommencement_borrowing_LC_limit_new": 150000000,
+      "revolver_cash_borrowings_Sept30": 0,
+      "revolver_LC_Sept30": 74200000,
+      "availability_of_entire400m_not_established": true,
+      "revolver_covenants_compliant_as_of_Sept30": true
+    },
+    "project_delivery": {
+      "LakeMariner_CB4": "Still phased delivery and rent commencementQ42026.",
+      "LakeMariner_CB5": "Still phased deliveryearly2027.",
+      "Justified_Anthropic_Google": "Nov4backstopalreadyrecorded; financingstillanticipated ratherthan confirmedclosing.",
+      "Justified_ready_for_service": "late2027to2028Q2",
+      "Muskie_power_expansion": "500MWto1000MWamendedutilityagreements,subjecttoKentuckyregulatorapproval;second500MWtarget2029.",
+      "new_cancelled_order_verified": false,
+      "new_customer_prepayment_refund_verified": false,
+      "new_financing_interruption_verified": false,
+      "new_guarantee_payout_verified": false,
+      "no_evidence_does_not_prove_absence": true
+    },
+    "earnings_and_impairment_caveats": {
+      "net_income_attributable_q3": 709912000,
+      "noncash_warrant_fairvalue_gain_q3": 728442000,
+      "equity_sale_gain_q3": 94995000,
+      "adjusted_EBITDA_q3": -12801000,
+      "PPE_impairment_q3": 9724000,
+      "PPE_impairment_9m": 35421000,
+      "impairment_context": "Q3minerslowerrecoverablevalues;9mminingfacilityshutdown/transitionandacquisitionassetretirementcosts. No AIloanloss,covenanttriggeroractualguaranteepayoutidentified.",
+      "net_income_not_AI_operating_cash_return": true
+    }
+  },
+  "focused_checks": {
+    "customer_capex_cuts": {
+      "status": "No new formal cut verified within reviewed coverage",
+      "new_formal_cut_records": [],
+      "historical_baseline_unchanged": true,
+      "reported_customer_strategy_event": "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+      "notes": "Do not convert partner roster consolidation or contract nonrenewal reporting into company-wide capex cut. No new guidance date/value to invent."
+    },
+    "supplier_consecutive_revenue_guidance_cuts": {
+      "status": "No new formal cut or two-cut sequence verified",
+      "new_comparable_revision_count_observed": 0,
+      "scope_and_limit": {
+        "SEC_companies_checked": [
+          "NVIDIA",
+          "AMD",
+          "Marvell",
+          "Lumentum",
+          "Coherent",
+          "AppliedOptoelectronics",
+          "Fabrinet",
+          "Ciena"
+        ],
+        "new_relevant_8K_10Q_10K_since_cutoff": [],
+        "new_formal_same_period_revenue_guidance_cut_verified": false,
+        "consecutive_independent_same_period_cuts_verified": false,
+        "revision_count_observed_since_cutoff": 0,
+        "limits": "AbsenceofnewSECfilingsisnotexhaustiveIR/transcriptcoverageorproofdemandstable.Unverifiedheadlinesandanalystpricetargetchangesarenotissuerrevenueguidancecuts.",
+        "historical_baseline_AAOI": {
+          "record_type": "previouslypublished_before_prior_run_not_new_market_event",
+          "published_at": "2026-11-05T21:10:28Z",
+          "source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008351/aaoi_ex9901.htm",
+          "Q3_2026_revenue": 269875000,
+          "Q3_2025_revenue": 118630000,
+          "Q2_2026_revenue_rounded": 191900000,
+          "Q4_2026_revenue_guidance_low": 385000000,
+          "Q4_2026_revenue_guidance_high": 420000000,
+          "guidance_period": "2026-10-01/2026-12-31",
+          "prior_comparable_same_period_guidance": null,
+          "not_compared_to_previous_quarter_as_revision": true,
+          "capacity_delay": "US2027expansiontakeslongerduepoweraccessandconstruction;currentequipmentcapacityapproaches330kunits/month,targetover500kat2026yearendandover1mat2027yearend.",
+          "capacity_delay_not_formal_revenue_guidance_cut": true,
+          "no_new_Nov6_restatement_found": true
+        }
+      },
+      "notes": "Count is new observed revisions since cutoff, not an assertion that no historical cuts exist. AAOI prior same-period guidance unavailable; quarter-to-quarter growth is not revision."
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "status": "No verified same-project escalation",
+      "project_checks": {
+        "IREN_Microsoft": "No newSECdisclosuresafterNov5earnings;repeatedheadlinesdescribealreadynotifieddesign/suppliertimingdelay. No verified cancellation/refund/financingbreak.",
+        "TeraWulf_Anthropic_Google": "NewquarterreportrepeatsNov4conditionalbackstopandanticipatedfinancing. No completionorfailureassumedfromwordanticipated;noactualpayout.",
+        "TeraWulf_Fluidstack_LakeMariner": "MaintainedCB4Q4/CB5early2027schedule;oneFluidstackleasealreadycommencedasofSept30."
+      },
+      "reported_unconfirmed_contract_event": "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+      "project_identity_amount_expiry_missing": true
+    }
+  },
+  "financing_stage_review": {
+    "pending_previous_events": [
+      {
+        "event_id": "meta_eur_20261104_pricing",
+        "currency": "EUR",
+        "principal": 9000000000,
+        "expected_settlement_date": "2026-11-12",
+        "status": "priced_not_verified_settled_not_due_yet",
+        "last_checked_at": "2026-11-07T00:31:00.018659+00:00"
+      }
+    ],
+    "previous_completions_carried_forward": [
+      {
+        "event_id": "oracle_20261102_priced_bonds",
+        "expected_US_settlement_date": "2026-11-04",
+        "status": "completed_confirmed_by_8k",
+        "completed_date": "2026-11-04",
+        "verified_at": "2026-11-05T00:35:16.315922+00:00",
+        "source_id": "oracle_20261104_completion"
+      },
+      {
+        "event_id": "meta_20261103_pricing",
+        "expected_US_settlement_date": "2026-11-05",
+        "status": "completed_confirmed_by_company_8k",
+        "last_checked_at": "2026-11-05T00:35:16.315922+00:00",
+        "currency": "USD",
+        "note": "Nov5US settlement lies later than Nov5morningBeijing; not evidence of delay.",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "meta_20261105_usd_notes_completed"
+      },
+      {
+        "event_id": "alphabet_20261102_eur_notes",
+        "expected_settlement_date": "2026-11-05",
+        "currency": "EUR",
+        "status": "completed_confirmed_by_company_8k",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "alphabet_20261105_eur_notes_completed"
+      }
+    ],
+    "new_loan_auction": {
+      "id": "ing_20261106_reported_500m_loan_BWIC_identified",
+      "publication_at": "2026-11-06T11:24:52Z",
+      "source": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+      "evidence_grade": "CNBC_relaying_Bloomberg_sources_plus_spokesperson_declinedcomment",
+      "seller_reported": "ING",
+      "portfolio_loan_count": 12,
+      "loan_face_amount_USD_approx": 500000000,
+      "reported_stargate_NewMexico_piece_USD": 25000000,
+      "other_borrower_names_reported": [
+        "Vantage Data Centers",
+        "CyrusOne"
+      ],
+      "auction_type": "BWIC bids-wanted-in-competition",
+      "bid_deadline": "2026-11-19",
+      "minimum_bid_USD": 10000000,
+      "stage": "reportedly_seeking_bids_not_verified_completed_sale",
+      "company_confirmation": "INGspokespersondeclinedcomment",
+      "winning_price_or_discount": null,
+      "realized_loss": null,
+      "interpretation": "Upgrades prior mystery-seller headline coverage to accessible reliablemedia report identifying ING and process. Still same underlyingBloombergstory, not an independent2ndloss evidence. Normal lend-to-distribute possible; cannot infer forcedsale/fundingclosure/default."
+    },
+    "notes": "MetaEURfinalprospectus document datedNov4 does not reverse later Nov5USD completion. INGNov19bidprocess not settlement or confirmed sale."
+  },
+  "weekly_review": {
+    "due_today": false,
+    "last_completed_date": "2026-11-06",
+    "previous_review_reference": "observations/2026-11-06.json#weekly_review",
+    "no_extra_weekend_review_notification": true
+  },
+  "source_coverage": {
+    "primary_bigtech": {
+      "SEC_checks": [
+        {
+          "company": "alphabet",
+          "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+          "retrieved_at": "2026-11-07T00:27:26.387788+00:00",
+          "ok": true,
+          "new": [],
+          "latest10q": [
+            {
+              "accessionNumber": "0001652044-26-000084",
+              "filingDate": "2026-10-29",
+              "primaryDocument": "goog-20260930.htm"
+            }
+          ]
+        },
+        {
+          "company": "meta",
+          "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+          "retrieved_at": "2026-11-07T00:27:26.388646+00:00",
+          "ok": true,
+          "new": [
+            {
+              "accessionNumber": "0001193125-26-450754",
+              "form": "424B5",
+              "filingDate": "2026-11-06",
+              "acceptanceDateTime": "2026-11-06T12:35:49.000Z",
+              "primaryDocument": "d44678d424b5.htm"
+            }
+          ],
+          "latest10q": [
+            {
+              "accessionNumber": "0001628280-26-066773",
+              "filingDate": "2026-10-22",
+              "primaryDocument": "meta-20260930.htm"
+            }
+          ]
+        },
+        {
+          "company": "microsoft",
+          "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+          "retrieved_at": "2026-11-07T00:27:26.388867+00:00",
+          "ok": true,
+          "new": [],
+          "latest10q": [
+            {
+              "accessionNumber": "0001193125-26-436133",
+              "filingDate": "2026-10-28",
+              "primaryDocument": "msft-20260930.htm"
+            }
+          ]
+        },
+        {
+          "company": "amazon",
+          "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+          "retrieved_at": "2026-11-07T00:27:26.389041+00:00",
+          "ok": true,
+          "new": [],
+          "latest10q": [
+            {
+              "accessionNumber": "0001018724-26-000040",
+              "filingDate": "2026-10-30",
+              "primaryDocument": "amzn-20260930.htm"
+            }
+          ]
+        },
+        {
+          "company": "broadcom",
+          "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "retrieved_at": "2026-11-07T00:27:26.389234+00:00",
+          "ok": true,
+          "new": [],
+          "latest10q": [
+            {
+              "accessionNumber": "0001730168-26-000080",
+              "filingDate": "2026-09-10",
+              "primaryDocument": "avgo-20260802.htm"
+            }
+          ]
+        }
+      ],
+      "IR_and_final_prospectus_attempts": [
+        {
+          "name": "meta_final_eur",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+          "actual_url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+          "retrieved_at": "2026-11-07T00:27:52.292819+00:00",
+          "ok": true,
+          "characters": 230132
+        },
+        {
+          "name": "google_rss",
+          "url": "https://blog.google/rss/",
+          "actual_url": "https://blog.google/rss/",
+          "retrieved_at": "2026-11-07T00:27:52.293185+00:00",
+          "ok": true,
+          "characters": 18169
+        },
+        {
+          "name": "alphabet_ir",
+          "url": "https://abc.xyz/investor/news/",
+          "retrieved_at": "2026-11-07T00:27:52.293350+00:00",
+          "ok": false,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "name": "meta_ir",
+          "url": "https://investor.atmeta.com/investor-news/default.aspx",
+          "retrieved_at": "2026-11-07T00:27:52.293485+00:00",
+          "ok": false,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "name": "microsoft_ir",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+          "retrieved_at": "2026-11-07T00:27:52.293660+00:00",
+          "ok": false,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "name": "amazon_ir",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/default.aspx",
+          "retrieved_at": "2026-11-07T00:27:52.293782+00:00",
+          "ok": false,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "name": "broadcom_ir",
+          "url": "https://investors.broadcom.com/news-events/press-releases",
+          "retrieved_at": "2026-11-07T00:27:52.867229+00:00",
+          "ok": false,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "Google_official_RSS_latest_publication": "2026-11-05T20:00:00+00:00",
+      "Google_RSS_not_comprehensive_Nov6_news": true,
+      "Crusoe_official_announcement_obtained": true,
+      "IR_access_limits": [
+        "Alphabet/Meta/AmazonIRHTTP429",
+        "Microsoft/BroadcomIRHTTP403"
+      ],
+      "full_barclays_or_current_issuer_CDS_obtained": false,
+      "missing": [
+        "Current5yissuerCDSandmatchedsecondarycurves",
+        "Privatecustomercollectionsandcontractamendments",
+        "ExactGoogleCrusoesaleprice/netproceeds/debtassumption/guarantees",
+        "IndependentprimaryQualcommholdingperiodandcashtransactiondetails",
+        "ComprehensiveIRcoveragebecausewebsiteerrors"
+      ],
+      "absence_limits": "No material cut/defaultverifiedwithinreviewedsourcesdoesnotproveunderlyingriskabsent."
+    },
+    "priority_findings": "evidence/2026-11-07/priority/findings.json",
+    "chain_findings": "evidence/2026-11-07/chain/findings.json",
+    "supplier_SEC_companies_checked": [
+      "NVIDIA",
+      "AMD",
+      "Marvell",
+      "Lumentum",
+      "Coherent",
+      "AppliedOptoelectronics",
+      "Fabrinet",
+      "Ciena"
+    ],
+    "new_lender_reports": [
+      "Blackstone",
+      "Ares"
+    ],
+    "overall_collection_status": "success_with_partial_IR_and_market_metadata_gaps",
+    "root_independent_verification": [
+      "CNBC two material articles reread",
+      "Wulf10Q key cashflows and cash checked",
+      "FRED actual date and arithmetic checked"
+    ]
+  },
+  "missing_data": [
+    "Direct comparable issuer5YCDS/CDX.IG series, full currency/rank/contract/quote metadata; no20day issuer history or underlying bank report.",
+    "CoreWeave same-bond identifier, exact trade time, price, currency, rank, YTM convention and matched benchmark spread; reported76price remains unverified.",
+    "Microsoft Oracle contract amount, dates, remaining commitments, company confirmation and actual revenue/backlog impact; no cancellation confirmed for CoreWeave or IREN.",
+    "Private loan-level AI exposures, customer aging, compute rental/utilization series and comprehensive next12month actual contractual obligations.",
+    "TeraWulf deposits-excluded cashPP&E, current freely available total liquidity and full near-term principal/interest schedules; Sept30cash is historical.",
+    "IREN final delivery/credits and prospective funding execution; Google/TeraWulf guarantee maximum/overlap and actual payment triggers remain incomplete.",
+    "MetaEUR9bnNov12 settlement not due; INGNov19auction result/price not yet available.",
+    "Some companyIR pages403/429; comprehensive disclosure coverage unavailable. Historical Barclaysfullreport remains missing."
+  ],
+  "unverified_discovery": [
+    {
+      "headline": "Alphabet takes $548million stake in partner Qualcomm in data center push",
+      "reported_by": "ReutersviaGoogleNewsRSS",
+      "published_at_RSS": "2026-11-06T16:44:46Z",
+      "primary_document_obtained": false,
+      "event_date_or_holding_period_verified": false,
+      "classification": "Discoveryonly; do not treat548mholdingvalueasNov6newcashinvested, directissuanceproceedsorrealizedAIorder.",
+      "research_limits": "Reuters/SRNoriginalbodytimedoutandMobileWorldLive403. SECAlphabetrecentsubmissionsshownonewforms; general13Ffulltextsearchreturnedmanyfundsholdingbothnames, nottheAlphabetfiling. Searchresultsnotprimaryconfirmation."
+    },
+    {
+      "headline": "Microsoft Amsterdam data center protests",
+      "status": "RSS discovery only; direct Reuters timeout/DCD403. No verified project cancellation or funding interruption; not counted as material financial evidence."
+    }
+  ],
+  "comparability": {
+    "issuer_CDS_direct_available": false,
+    "issuer_CDS_dated_media_quotes_available": true,
+    "matched_secondary_spread_history_available": false,
+    "new_issue_terms_available": true,
+    "FX_currencies_combined": false,
+    "probability_model": null,
+    "crash_probability": null
+  },
+  "assessment_reason": "Pricing stress is now documented more concretely and a new operator financial report expands evidence of funding dependence. However, no sufficient independent primary-confirmed demand-and-funding collapse or loss transmission; overall remains observation.",
+  "next_confirmation_conditions": [
+    "Company confirmation/size of Microsoft Oracle contract change, other partner selection decisions and formal capex or supplier revenue-guidance cuts.",
+    "Comparable CoreWeave bond/CDS series and actual funding terms or execution; distinguish Nov6partial CDS easing from sustained recovery.",
+    "TeraWulf/IREN delivery acceptance, actual collections and financing execution; quantify cancellations, refund or shortfall if formally disclosed.",
+    "INGNov19bids/results and MetaEURNov12closing; verify actual discounted sale/loss or funding withdrawal rather than ordinary risk distribution.",
+    "Verified default, covenant trigger, guarantee payout or AI-attributed lender loss with size and direct contract links."
+  ],
+  "sources": [
+    {
+      "id": "coreweave_credit",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "type": "reliable_media_reporting_on_bank_research_not_terminal_or_direct_trading_data",
+      "archived": "evidence/2026-11-07/priority/coreweave_bond_cnbc.html",
+      "publication_at": "2026-11-06T17:02:24Z",
+      "market_time": null
+    },
+    {
+      "id": "microsoft_partners",
+      "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "type": "reliable_media_with_anonymous_sources_plus_named_company_statement",
+      "archived": "evidence/2026-11-07/priority/microsoft_oracle_cnbc.html",
+      "publication_at": "2026-11-06T18:31:32Z",
+      "market_time": null
+    },
+    {
+      "id": "ing_loan_auction",
+      "url": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+      "type": "CNBC_relaying_Bloomberg_sources_plus_spokesperson_declinedcomment",
+      "archived": "evidence/2026-11-07/priority/ing_cnbc.html",
+      "publication_at": "2026-11-06T11:24:52Z",
+      "market_time": null
+    },
+    {
+      "id": "wulf_release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/a_wulfearningsreleaseq32026.htm",
+      "type": "primary_SEC_earnings_release",
+      "archived": "evidence/2026-11-07/chain/wulf_release.html",
+      "publication_at": "2026-11-06T12:02:23Z",
+      "market_time": null
+    },
+    {
+      "id": "wulf_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm",
+      "type": "primary_SEC_10Q",
+      "archived": "evidence/2026-11-07/chain/wulf_10q.html",
+      "publication_at": "2026-11-06T21:07:00Z",
+      "market_time": null
+    },
+    {
+      "id": "blackstone_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/d179995d10q.htm",
+      "type": "primary_SEC_10Q",
+      "archived": "evidence/2026-11-07/chain/blackstone_10q.html",
+      "publication_at": "2026-11-06T21:02:22Z",
+      "market_time": null
+    },
+    {
+      "id": "ares_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026071628/ares-20260930.htm",
+      "type": "primary_SEC_10Q",
+      "archived": "evidence/2026-11-07/chain/ares_10q.html",
+      "publication_at": "2026-11-06T20:52:04Z",
+      "market_time": null
+    },
+    {
+      "id": "crusoe_site_transfer",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "type": "primary_counterparty_company_announcement",
+      "archived": "evidence/2026-11-07/bigtech/crusoe_wyoming.html",
+      "publication_at": "2026-11-06",
+      "market_time": null
+    },
+    {
+      "id": "meta_final_eur",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+      "type": "primary_SEC_424B5_old_pricing_final_document",
+      "archived": "evidence/2026-11-07/bigtech/meta_final_eur.html",
+      "publication_at": "2026-11-06T12:35:49.000Z",
+      "market_time": null
+    },
+    {
+      "id": "fred_ig",
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "type": "broad_market_proxy_not_AI_CDS",
+      "archived": "evidence/2026-11-07/market/fred_ig.csv",
+      "publication_at": null,
+      "market_time": "2026-11-05"
+    },
+    {
+      "id": "fred_hy",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "type": "broad_market_proxy_not_AI_CDS",
+      "archived": "evidence/2026-11-07/market/fred_hy.csv",
+      "publication_at": null,
+      "market_time": "2026-11-05"
+    }
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "prepared_at": "2026-11-07T00:33:27.770774+00:00",
+    "reason": "New dated public CoreWeave bond/CDS reporting and material Microsoft partner-allocation reporting, plus new primary TeraWulf earnings/cash requirements; material evidence changed while overall assessment remains observation.",
+    "overall_assessment_changed": false,
+    "material_evidence_changed": true
+  },
+  "interpretation_limits": [
+    "No stock-drop-to-default inference, no invented crash probability.",
+    "Anonymous nonrenewal reporting is not verified broad order cancellation or capex cut.",
+    "Public media CDS/bond quotes are distinct from current terminal data and actual financing failure.",
+    "No user holding assumptions or A-share supplier order transmission without direct evidence."
+  ],
+  "raw_evidence_directory": "evidence/2026-11-07"
+}

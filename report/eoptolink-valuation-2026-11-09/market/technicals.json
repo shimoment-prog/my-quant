@@ -1,0 +1,460 @@
+{
+  "symbol": "300502.SZ",
+  "analysis_at": "2026-11-09T10:29:55.063945+08:00",
+  "source_manifest": [
+    {
+      "id": "quotes",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+      "started_at": "2026-11-09T02:27:57.885543+00:00",
+      "ok": true,
+      "bytes": 2089,
+      "retrieved_at": "2026-11-09T02:27:58.022319+00:00"
+    },
+    {
+      "id": "sina",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "started_at": "2026-11-09T02:27:57.886720+00:00",
+      "ok": true,
+      "bytes": 1016,
+      "retrieved_at": "2026-11-09T02:27:58.015575+00:00"
+    },
+    {
+      "id": "daily",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,180,qfq",
+      "started_at": "2026-11-09T02:27:57.887153+00:00",
+      "ok": true,
+      "bytes": 14082,
+      "retrieved_at": "2026-11-09T02:27:58.082163+00:00"
+    },
+    {
+      "id": "five_min",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+      "started_at": "2026-11-09T02:27:57.887576+00:00",
+      "ok": true,
+      "bytes": 14339,
+      "retrieved_at": "2026-11-09T02:27:58.186045+00:00"
+    },
+    {
+      "id": "peer_daily",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300308,day,,,60,qfq",
+      "started_at": "2026-11-09T02:27:57.888066+00:00",
+      "ok": true,
+      "bytes": 5919,
+      "retrieved_at": "2026-11-09T02:27:58.077600+00:00"
+    }
+  ],
+  "latest_completed_daily_session": "2026-11-06",
+  "daily_adjustment": "Tencent qfq forward-adjusted as fetched; not total shareholder return. Recent November levels match current quote scale.",
+  "daily_rows_complete": 180,
+  "daily_rows_excluded_as_unfinished": [
+    [
+      "2026-11-09",
+      "175.00",
+      "180.71",
+      "184.12",
+      "169.01",
+      "471493"
+    ]
+  ],
+  "moving_averages": {
+    "5": {
+      "value": 183.81,
+      "previous_session_value": 188.59,
+      "direction": "falling",
+      "as_of_completed_session": "2026-11-06",
+      "today_excluded": true
+    },
+    "10": {
+      "value": 208.952,
+      "previous_session_value": 217.842,
+      "direction": "falling",
+      "as_of_completed_session": "2026-11-06",
+      "today_excluded": true
+    },
+    "20": {
+      "value": 257.572,
+      "previous_session_value": 267.47700000000003,
+      "direction": "falling",
+      "as_of_completed_session": "2026-11-06",
+      "today_excluded": true
+    },
+    "60": {
+      "value": 362.7375,
+      "previous_session_value": 366.9003333333333,
+      "direction": "falling",
+      "as_of_completed_session": "2026-11-06",
+      "today_excluded": true
+    }
+  },
+  "last20_completed": {
+    "start": "2026-10-12",
+    "end": "2026-11-06",
+    "n_sessions": 20,
+    "high": 373.98,
+    "low": 161.16,
+    "return_20_close_to_close_pct": -53.511615343057805,
+    "return_start_close_date": "2026-10-09",
+    "return_end_close_date": "2026-11-06",
+    "daily_log_return_sample_std_pct": 6.723053440787013,
+    "daily_log_return_samples": 20,
+    "annualized_realized_vol_pct_sqrt252": 106.72516473191729,
+    "annualized_vol_is_not_forecast": true,
+    "simple_average_true_range_14_CNY": 23.985000000000003,
+    "ATR14_pct_of_last_completed_close": 13.936664729808253
+  },
+  "recent_daily_rows": [
+    {
+      "date": "2026-10-26",
+      "open": 254.23,
+      "close": 251.69,
+      "high": 256.66,
+      "low": 238.64,
+      "volume_lots": 593686.0
+    },
+    {
+      "date": "2026-10-27",
+      "open": 257.0,
+      "close": 237.59,
+      "high": 260.21,
+      "low": 237.22,
+      "volume_lots": 459060.0
+    },
+    {
+      "date": "2026-10-28",
+      "open": 247.75,
+      "close": 256.79,
+      "high": 257.5,
+      "low": 243.26,
+      "volume_lots": 603517.0
+    },
+    {
+      "date": "2026-10-29",
+      "open": 249.0,
+      "close": 228.4,
+      "high": 249.98,
+      "low": 228.07,
+      "volume_lots": 588043.0
+    },
+    {
+      "date": "2026-10-30",
+      "open": 200.0,
+      "close": 196.0,
+      "high": 214.4,
+      "low": 194.0,
+      "volume_lots": 1060301.0
+    },
+    {
+      "date": "2026-11-02",
+      "open": 203.0,
+      "close": 191.48,
+      "high": 203.8,
+      "low": 189.58,
+      "volume_lots": 832914.0
+    },
+    {
+      "date": "2026-11-03",
+      "open": 185.0,
+      "close": 173.36,
+      "high": 190.19,
+      "low": 171.6,
+      "volume_lots": 968171.0
+    },
+    {
+      "date": "2026-11-04",
+      "open": 176.0,
+      "close": 196.5,
+      "high": 199.98,
+      "low": 172.0,
+      "volume_lots": 1142215.0
+    },
+    {
+      "date": "2026-11-05",
+      "open": 184.0,
+      "close": 185.61,
+      "high": 192.4,
+      "low": 177.64,
+      "volume_lots": 1178576.0
+    },
+    {
+      "date": "2026-11-06",
+      "open": 166.0,
+      "close": 172.1,
+      "high": 178.0,
+      "low": 161.16,
+      "volume_lots": 904489.0
+    }
+  ],
+  "latest_quotes": {
+    "sz300502": {
+      "name": "新易盛",
+      "price": 180.85,
+      "previous_close": 172.1,
+      "quote_time": "20261109102751",
+      "change_pct": 5.08,
+      "high": 184.12,
+      "low": 169.01,
+      "vwap": 177.65
+    },
+    "sz300308": {
+      "name": "中际旭创",
+      "price": 465.78,
+      "previous_close": 448.0,
+      "quote_time": "20261109102751",
+      "change_pct": 3.97,
+      "high": 475.71,
+      "low": 430.1,
+      "vwap": 454.77
+    },
+    "sh515880": {
+      "name": "通信ETF国泰",
+      "price": 0.422,
+      "previous_close": 0.405,
+      "quote_time": "20261109102755",
+      "change_pct": 4.2,
+      "high": 0.426,
+      "low": 0.406,
+      "vwap": 0.417
+    },
+    "sz399006": {
+      "name": "创业板指",
+      "price": 2486.41,
+      "previous_close": 2465.23,
+      "quote_time": "20261109102751",
+      "change_pct": 0.86,
+      "high": 2511.71,
+      "low": 2469.21,
+      "vwap": 2491.09
+    }
+  },
+  "sina_crosscheck": {
+    "price": 180.71,
+    "quote_time_beijing": "2026-11-09T10:27:54+08:00",
+    "high": 184.12,
+    "low": 169.01,
+    "turnover_CNY": 8376061179.11,
+    "volume_shares": 47149281,
+    "vwap_derived": 177.6498178012513,
+    "note": "Tencent 180.85 at10:27:51 vs Sina180.71 at10:27:54: separate snapshots, no conflation with completed bars."
+  },
+  "five_minute": {
+    "timestamp_interpretation": "Bar-end labels; endpoints strictly after retrieval cutoff excluded as unfinished. Minute bars only bound the occurrence interval, not exact first trade.",
+    "cutoff": "2026-11-09T10:27:58.186045+08:00",
+    "complete_bar_count": 11,
+    "complete_bars": [
+      {
+        "day": "2026-11-09 09:35:00",
+        "open": 175.0,
+        "high": 175.82,
+        "low": 171.62,
+        "close": 172.22,
+        "volume": 8458827.0,
+        "amount": 1467631313.5743
+      },
+      {
+        "day": "2026-11-09 09:40:00",
+        "open": 172.22,
+        "high": 172.8,
+        "low": 169.01,
+        "close": 171.48,
+        "volume": 4543394.0,
+        "amount": 775373379.1638
+      },
+      {
+        "day": "2026-11-09 09:45:00",
+        "open": 171.43,
+        "high": 177.37,
+        "low": 171.3,
+        "close": 177.18,
+        "volume": 4130185.0,
+        "amount": 719967280.5372
+      },
+      {
+        "day": "2026-11-09 09:50:00",
+        "open": 177.06,
+        "high": 178.99,
+        "low": 175.9,
+        "close": 178.84,
+        "volume": 5242093.0,
+        "amount": 929175198.1205
+      },
+      {
+        "day": "2026-11-09 09:55:00",
+        "open": 178.81,
+        "high": 180.27,
+        "low": 177.99,
+        "close": 178.59,
+        "volume": 4814381.0,
+        "amount": 863446102.7936
+      },
+      {
+        "day": "2026-11-09 10:00:00",
+        "open": 178.62,
+        "high": 179.65,
+        "low": 177.5,
+        "close": 179.01,
+        "volume": 2705930.0,
+        "amount": 482738551.8855
+      },
+      {
+        "day": "2026-11-09 10:05:00",
+        "open": 179.0,
+        "high": 181.72,
+        "low": 179.0,
+        "close": 181.68,
+        "volume": 3621882.0,
+        "amount": 653998234.8611
+      },
+      {
+        "day": "2026-11-09 10:10:00",
+        "open": 181.68,
+        "high": 183.18,
+        "low": 181.29,
+        "close": 182.4,
+        "volume": 4222012.0,
+        "amount": 769594751.0219
+      },
+      {
+        "day": "2026-11-09 10:15:00",
+        "open": 182.4,
+        "high": 183.31,
+        "low": 181.2,
+        "close": 182.94,
+        "volume": 3000320.0,
+        "amount": 546306222.9623
+      },
+      {
+        "day": "2026-11-09 10:20:00",
+        "open": 182.94,
+        "high": 184.12,
+        "low": 182.0,
+        "close": 183.6,
+        "volume": 3500027.0,
+        "amount": 640689185.1458
+      },
+      {
+        "day": "2026-11-09 10:25:00",
+        "open": 183.6,
+        "high": 183.71,
+        "low": 180.29,
+        "close": 181.0,
+        "volume": 2058146.0,
+        "amount": 373243043.9087
+      }
+    ],
+    "excluded_incomplete_future_endpoint_bars": [
+      {
+        "day": "2026-11-09 10:30:00",
+        "open": 181.0,
+        "high": 181.08,
+        "low": 180.2,
+        "close": 180.77,
+        "volume": 812984.0,
+        "amount": 146830062.6617
+      }
+    ],
+    "lowest_completed_bar": {
+      "day": "2026-11-09 09:40:00",
+      "open": 172.22,
+      "high": 172.8,
+      "low": 169.01,
+      "close": 171.48,
+      "volume": 4543394.0,
+      "amount": 775373379.1638
+    },
+    "highest_completed_bar": {
+      "day": "2026-11-09 10:20:00",
+      "open": 182.94,
+      "high": 184.12,
+      "low": 182.0,
+      "close": 183.6,
+      "volume": 3500027.0,
+      "amount": 640689185.1458
+    },
+    "last_completed_bar": {
+      "day": "2026-11-09 10:25:00",
+      "open": 183.6,
+      "high": 183.71,
+      "low": 180.29,
+      "close": 181.0,
+      "volume": 2058146.0,
+      "amount": 373243043.9087
+    },
+    "observed_structure": "Early decline to169.01 within bar ending09:40, recovery to184.12 within bar ending10:20, then pullback to181.00 close within10:25 completed bar. Recovery included a177.50 low in10:00 bar below09:55 low177.99, so lows did not rise monotonically. Later181.20-182.00 lows gave way to180.29 in10:25 bar. Intraday recovery is not a daily trend reversal.",
+    "pullback_10_25_volume_vs_10_20": 0.5880371779989125,
+    "volume_note": "One lower-volume pullback bar does not establish durable demand; incomplete10:30 volume excluded, no comparison of partial-day volume with prior full day."
+  },
+  "levels": [
+    {
+      "price_or_range": [
+        177.5,
+        179.0
+      ],
+      "kind": "intraday recovery/retest observation",
+      "basis": "Completed09:50-10:05 bars plus current VWAP near177.65; losing this cluster would weaken repair.",
+      "guaranteed_support": false
+    },
+    {
+      "price_or_range": 179.83,
+      "kind": "fixed historical observation only",
+      "basis": "November3 early low recorded by monitoring task; already broken historically, current recovery is a fact, not new support guarantee.",
+      "guaranteed_support": false
+    },
+    {
+      "price_or_range": [
+        183.81,
+        185.61
+      ],
+      "kind": "initial repair confirmation area",
+      "basis": "Prior-session MA5=183.81, today completed-bar high184.12 and Nov5 close185.61. Need actual reclaim and sustained retest; intraday touch not daily close.",
+      "guaranteed_support": false
+    },
+    {
+      "price_or_range": [
+        189.58,
+        192.4
+      ],
+      "kind": "recent traded overhead observation",
+      "basis": "Nov2 low189.58, Nov2 close191.48, Nov5 high192.40.",
+      "guaranteed_support": false
+    },
+    {
+      "price_or_range": [
+        196.5,
+        203.8
+      ],
+      "kind": "larger recent rebound structure",
+      "basis": "Nov4 close196.50/high199.98 and Nov2 high203.80; sequential higher lows and reclaim would be stronger evidence than a one-day bounce.",
+      "guaranteed_support": false
+    },
+    {
+      "price_or_range": 208.952,
+      "kind": "prior-session MA10 observation",
+      "basis": "Falling average is moving, not fixed price target; sustained reclaim plus flattening needed to strengthen reversal case.",
+      "guaranteed_support": false
+    },
+    {
+      "price_or_range": [
+        169.01,
+        161.16
+      ],
+      "kind": "downside observation levels",
+      "basis": "Today actual low169.01 versus Nov6 low161.16; losing former weakens intraday repair, losing latter extends observed lower-low structure.",
+      "guaranteed_support": false
+    }
+  ],
+  "judgment": {
+    "current": "Oversold intraday recovery inside an unconfirmed daily downtrend.",
+    "weak_repair_evidence": "Price recovered prior close172.10, Nov6 high178.00 and VWAP; stronger than same-time ChiNext and peers, yet below prior MA5 and below recent larger rebound highs.",
+    "trend_reversal_evidence_needed": [
+      "Sustained reclaim of near-term highs/MA5 followed by higher lows rather than next-day rejection.",
+      "Reclaim progressively relevant189-192 then196.5-203.8 area and moving MA10, with repeated closing confirmation and averages flattening.",
+      "Relative strength and healthy turnover on retests across several sessions, not one hour."
+    ],
+    "no_validated_event_probability": "No reliable percentage; qualitative technical conditions only.",
+    "critical_cautions": [
+      "MAs are as of November6 completed close, not November9 close or live closing forecast.",
+      "Twenty-day realized volatility describes past returns; cannot be transformed into a precise rebound win rate.",
+      "All quoted levels are observations/conditional evidence, not promised support, price targets or automatic trade instructions."
+    ]
+  }
+}

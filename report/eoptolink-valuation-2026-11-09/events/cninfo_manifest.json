@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+    "params": {
+      "pageNum": "1",
+      "pageSize": "30",
+      "column": "szse",
+      "tabName": "fulltext",
+      "stock": "",
+      "searchkey": "新易盛",
+      "secid": "",
+      "plate": "",
+      "category": "",
+      "trade": "",
+      "seDate": "2026-11-06~2026-11-09",
+      "sortName": "time",
+      "sortType": "desc",
+      "isHLtitle": "true"
+    },
+    "retrieved_at": "2026-11-09T02:28:47.202337+00:00",
+    "ok": true,
+    "total": 1
+  }
+]

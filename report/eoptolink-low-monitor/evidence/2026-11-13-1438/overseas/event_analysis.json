@@ -1,0 +1,413 @@
+{
+  "cutoff": "2026-11-13T10:36:43+08:00",
+  "SEC_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-10T21:07:33.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T14:11:22.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "COHR",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T11:02:52.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-04T21:41:34.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T21:05:45.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "FN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-05T18:16:20.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "NVDA",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T13:52:41.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "AVGO",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-10-27T20:23:36.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "NBIS",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T21:10:13.000Z",
+      "same_raw_as_premarket": true
+    }
+  ],
+  "IR_comparisons": [
+    {
+      "name": "aaoi_ir",
+      "same_raw_as_premarket": false,
+      "same_cleaned_as_premarket": true,
+      "length": 2693
+    },
+    {
+      "name": "mrvl_ir",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 4949
+    },
+    {
+      "name": "cohr_ir",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 15385
+    },
+    {
+      "name": "nvda_news",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 5166
+    },
+    {
+      "name": "cn_300502",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3876
+    },
+    {
+      "name": "cn_300308",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3424
+    },
+    {
+      "name": "cn_603083",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3676
+    }
+  ],
+  "news_feed": {
+    "fetched_unique_rows": 800,
+    "range": [
+      "2026-11-13 02:03:16",
+      "2026-11-13 14:36:33"
+    ],
+    "post_cutoff_count": 257,
+    "matches": [
+      {
+        "time": "2026-11-13 10:39:24",
+        "text": "【英伟达临时CEO，曾被黄仁勋轻视】今年夏天，黄仁勋把一众核心财务高管召集到办公室。依靠英伟达不断加码的激进兜底交易支撑起来的AI经济，已经摇摇欲坠，黄仁勋要确认团队处理得当。 在这场会议上，他当众严厉批评了现在接替他执掌英伟达的科莱特·克雷斯。 一名知情人士转述当时的场景：克雷斯正在做汇报，黄仁勋打断她，说她像“车灯前受惊的鹿”，手足无措。他召集克雷斯和财务高管团队，是为了研判一个越滚越大的麻烦：英伟达当时正在洽谈，为一批买不起芯片的企业提供数十亿美元担保。其中不少交易由黄仁勋的女婿尼科·卡普雷兹主导，他向新兴云厂商、数据中心开发商提供融资，希望把它们变成长期客户。 知情人士称，黄仁勋此前开启一轮疯狂的交易扩张，而这时他自己也开始怀疑，步子是不是迈得太大了。 在8月的这场会上，黄仁勋评价克雷斯只是一名“只管报账的CFO”，没办法帮他定义战略、做出关键决策。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypzqk8108054.d.html",
+        "id": 5212177,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniypzqk8108054.shtml\",\"docid\":\"niypzqk8108054\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypzqk8108054.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 10:40:03",
+        "text": "【主力资金：中际旭创净卖出超15亿】截至目前，今日主力资金净流出207.75亿；净流入半导体设备、超节点、网络安全等板块，其中半导体设备板块净流入10.26亿；净流出融资融券、转融券标的、深股通等板块，其中融资融券板块净流出179.73亿。 个股方面，华胜天成净买入7.12亿元位居首位，文投控股、长川科技、旋极信息主力资金净流入居前；中际旭创净卖出15.80亿元位居首位，蓝色光标、天孚通信、生益科技净流出额居前。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypzqm3753534.d.html",
+        "id": 5212179,
+        "raw_fields": {
+          "ext": "{\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniypzqm3753534.shtml\",\"docid\":\"niypzqm3753534\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypzqm3753534.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 10:46:42",
+        "text": "【多名投资者：没了黄仁勋 AI热潮仍将支撑英伟达】多名核心投资者表示，尽管联合创始人黄仁勋突然辞职引发这家芯片巨头股价大跌，但英伟达作为AI浪潮最大受益者之一的基本面前景并未受损。黄仁勋因婚外情相关丑闻卸任，周四英伟达市值蒸发1820亿美元，不过主要投资者依然看好公司潜力。 惠灵顿管理公司私募后期增长投资负责人马特·维特海勒称：“这家公司市值能到4万亿美元，并不是因为黄仁勋是CEO，而是它上个季度营收达到1000亿美元，同比增速100%。” 由亿万富翁彼得·哈格里夫斯支持的蓝鲸基金经理姚耀（Stephen Yiu）补充：“投资者必须考量公司的竞争地位”，他认为英伟达和客户、供应商之间稳固的合作关系依旧完好。 部分英伟达股东担忧黄仁勋离任会带来沉重冲击，一名前十大股东认为，黄仁勋属于典型的“关键人风险”。但另一些投资者认为，英伟达的成功并不依赖他一人把控，本次事件对整个AI行业的连锁影响有限。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypzqi1338917.d.html",
+        "id": 5212183,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"cn\",\"symbol\":\"sz000977\",\"key\":\"\\u6d6a\\u6f6e\",\"hot\":8896},{\"market\":\"cn\",\"symbol\":\"sh600756\",\"key\":\"\\u6d6a\\u6f6e\",\"hot\":1017},{\"market\":\"hk\",\"symbol\":\"00596\",\"key\":\"\\u6d6a\\u6f6e\",\"hot\":174}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniypzqi1338917.shtml\",\"docid\":\"niypzqi1338917\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypzqi1338917.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 11:09:03",
+        "text": "【CPO板块持续下跌，联讯仪器跌超10%】CPO板块持续下跌，联讯仪器跌超10%，天孚通信跌超9%，中石科技、中际旭创、新易盛纷纷下挫。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypzqc1119401.d.html",
+        "id": 5212203,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"CPO\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sh688808\",\"key\":\"\\u8054\\u8baf\\u4eea\\u5668\"},{\"market\":\"cn\",\"symbol\":\"sz300394\",\"key\":\"\\u5929\\u5b5a\\u901a\\u4fe1\"},{\"market\":\"cn\",\"symbol\":\"sz300684\",\"key\":\"\\u4e2d\\u77f3\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sz300308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":96882},{\"market\":\"hk\",\"symbol\":\"03308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":24131},{\"market\":\"cn\",\"symbol\":\"sz300502\",\"key\":\"\\u65b0\\u6613\\u76db\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniypzqc1119401.shtml\",\"docid\":\"niypzqc1119401\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniypzqc1119401.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 11:13:35",
+        "text": "【美民主党议员夫妇在英伟达高位减持】一名民主党议员在这场英伟达风波中，交易时机恰好站在了有利一侧。追踪国会议员股票交易的平台数据显示，加州民主党众议员罗·坎纳及其配偶，在英伟达股价接近高点时减持了英伟达股票。 据Capitol Trades交易记录，坎纳的配偶分别在9月4日、10月7日完成两笔卖出，单笔交易金额区间均为1000–15000美元。英伟达股价在10月6日创下历史新高；而本周，英伟达CEO黄仁勋承认婚外情，公司陷入空前危机，股价大幅下挫。 坎纳是加州第17选区联邦众议员，一直倡导立法禁止国会议员在任职期间交易个股。 今年5月初、5月末，坎纳本人也曾分两批卖出英伟达股票，单笔金额同样在1000–15000美元区间；英伟达股价5月14日触及次高点。值得说明的是，坎纳也曾在6月至9月期间买入英伟达股票。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfvz0992581.d.html",
+        "id": 5212211,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfvz0992581.shtml\",\"docid\":\"niyqfvz0992581\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfvz0992581.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 11:15:40",
+        "text": "【英伟达更新黄仁勋简介】英伟达官网现已更新管理层介绍页面，临时 CEO 科莱特 · 克雷斯被列在了第一位，黄仁勋则被放在了“创始人”一栏中。 黄仁勋的个人简介页面也进行了更新，提到“黄仁勋于 1993 创立了 NVIDIA，此前曾担任 NVIDIA 总裁兼首席执行官，以及董事会成员”。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfvz0994364.d.html",
+        "id": 5212212,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfvz0994364.shtml\",\"docid\":\"niyqfvz0994364\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfvz0994364.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 11:29:00",
+        "text": "【联建光电等在东莞成立供应链管理公司】企查查APP显示，近日，东莞联丰盛供应链管理有限公司成立，经营范围包含：供应链管理服务；电子专用材料销售；电子产品销售；集成电路销售；光电子器件销售等。企查查股权穿透显示，该公司由联建光电全资子公司广东联建光电有限公司等共同持股。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfvz1005650.d.html",
+        "id": 5212229,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz300269\",\"key\":\"\\u8054\\u5efa\\u5149\\u7535\"},{\"market\":\"cn\",\"symbol\":\"si932087\",\"key\":\"\\u96c6\\u6210\\u7535\\u8def\",\"hot\":253},{\"market\":\"fund\",\"symbol\":\"159558\",\"key\":\"\\u96c6\\u6210\\u7535\\u8def\",\"sym_party_status\":\"1\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfvz1005650.shtml\",\"docid\":\"niyqfvz1005650\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfvz1005650.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 11:31:03",
+        "text": "【午评：创业板指震荡走低跌1.47%，影视院线、猪肉、白酒板块涨幅居前】A股三大指数早盘涨跌不一，截至午盘，上证指数涨0.22%，深证成指跌0.56%，创业板指跌1.47%，北证50跌1.53%，科创50指数跌0.48%。全市场成交额9862亿元，较上日缩量2444亿元，全市场超2900只个股下跌。板块题材上，影视院线、猪肉、白酒、银行、文化传媒板块涨幅居前；元件、中船系、光伏设备、CPO、PCB概念板块跌幅居前。盘面上，影视院线板块持续走高，幸福蓝海、北京文化、文投控股、横店股份、中国电影、博纳影业等多股触及涨停，华智数媒、无线传媒、中视传媒涨幅居前。猪肉板块低开高走，金新农、天邦食品涨停，巨星农牧、大禹生物、新五丰涨幅居前。白酒板块亦低开高走，古井贡酒、顺鑫农业、皇台酒业涨幅居前。元件板块高开低走，科翔股份、沪电股份、景旺电子、生益科技、胜宏科技跌幅居前。光伏设备板块表现低迷，永臻股份跌停，贝特利、协鑫科技、金刚光伏跌幅居前。",
+        "url": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz399006\",\"key\":\"创业板指\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"指数\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sh000001\",\"key\":\"上证指数\",\"hot\":371765},{\"market\":\"cn\",\"symbol\":\"si000001\",\"key\":\"上证指数\",\"hot\":1378},{\"market\":\"cn\",\"symbol\":\"sz399001\",\"key\":\"深证成指\"},{\"market\":\"cn\",\"symbol\":\"bj899050\",\"key\":\"北证50\",\"hot\":35437},{\"market\":\"cn\",\"symbol\":\"si899050\",\"key\":\"北证50\",\"hot\":1944},{\"market\":\"cn\",\"symbol\":\"sh000688\",\"key\":\"科创50指数\"},{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"CPO\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sz300528\",\"key\":\"幸福蓝海\"},{\"market\":\"cn\",\"symbol\":\"sz000802\",\"key\":\"北京文化\"},{\"market\":\"cn\",\"symbol\":\"sh600715\",\"key\":\"文投控股\"},{\"market\":\"cn\",\"symbol\":\"sh600977\",\"key\":\"中国电影\"},{\"market\":\"cn\",\"symbol\":\"sz001330\",\"key\":\"博纳影业\"},{\"market\":\"cn\",\"symbol\":\"sz300426\",\"key\":\"华智数媒\"},{\"market\":\"cn\",\"symbol\":\"sz301551\",\"key\":\"无线传媒\"},{\"market\":\"cn\",\"symbol\":\"sh600088\",\"key\":\"中视传媒\"},{\"market\":\"cn\",\"symbol\":\"sz002548\",\"key\":\"金新农\"},{\"market\":\"cn\",\"symbol\":\"sz002124\",\"key\":\"天邦食品\"},{\"market\":\"cn\",\"symbol\":\"sh603477\",\"key\":\"巨星农牧\"},{\"market\":\"cn\",\"symbol\":\"bj920970\",\"key\":\"大禹生物\"},{\"market\":\"cn\",\"symbol\":\"sh600975\",\"key\":\"新五丰\"},{\"market\":\"cn\",\"symbol\":\"sz000596\",\"key\":\"古井贡酒\"},{\"market\":\"cn\",\"symbol\":\"sz000860\",\"key\":\"顺鑫农业\"},{\"market\":\"cn\",\"symbol\":\"sz000995\",\"key\":\"皇台酒业\"},{\"market\":\"cn\",\"symbol\":\"sz300903\",\"key\":\"科翔股份\"},{\"market\":\"cn\",\"symbol\":\"sz002463\",\"key\":\"沪电股份\"},{\"market\":\"cn\",\"symbol\":\"sh603228\",\"key\":\"景旺电子\",\"hot\":5937},{\"market\":\"hk\",\"symbol\":\"03228\",\"key\":\"景旺电子\",\"hot\":733},{\"market\":\"cn\",\"symbol\":\"sh600183\",\"key\":\"生益科技\"},{\"market\":\"cn\",\"symbol\":\"sz300476\",\"key\":\"胜宏科技\",\"hot\":14306},{\"market\":\"hk\",\"symbol\":\"02476\",\"key\":\"胜宏科技\",\"hot\":2616},{\"market\":\"cn\",\"symbol\":\"sh603381\",\"key\":\"永臻股份\"},{\"market\":\"cn\",\"symbol\":\"sz301697\",\"key\":\"贝特利\"},{\"market\":\"hk\",\"symbol\":\"03800\",\"key\":\"协鑫科技\"},{\"market\":\"cn\",\"symbol\":\"sz300093\",\"key\":\"金刚光伏\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212234,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz399006\",\"key\":\"创业板指\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"指数\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sh000001\",\"key\":\"上证指数\",\"hot\":371765},{\"market\":\"cn\",\"symbol\":\"si000001\",\"key\":\"上证指数\",\"hot\":1378},{\"market\":\"cn\",\"symbol\":\"sz399001\",\"key\":\"深证成指\"},{\"market\":\"cn\",\"symbol\":\"bj899050\",\"key\":\"北证50\",\"hot\":35437},{\"market\":\"cn\",\"symbol\":\"si899050\",\"key\":\"北证50\",\"hot\":1944},{\"market\":\"cn\",\"symbol\":\"sh000688\",\"key\":\"科创50指数\"},{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"CPO\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sz300528\",\"key\":\"幸福蓝海\"},{\"market\":\"cn\",\"symbol\":\"sz000802\",\"key\":\"北京文化\"},{\"market\":\"cn\",\"symbol\":\"sh600715\",\"key\":\"文投控股\"},{\"market\":\"cn\",\"symbol\":\"sh600977\",\"key\":\"中国电影\"},{\"market\":\"cn\",\"symbol\":\"sz001330\",\"key\":\"博纳影业\"},{\"market\":\"cn\",\"symbol\":\"sz300426\",\"key\":\"华智数媒\"},{\"market\":\"cn\",\"symbol\":\"sz301551\",\"key\":\"无线传媒\"},{\"market\":\"cn\",\"symbol\":\"sh600088\",\"key\":\"中视传媒\"},{\"market\":\"cn\",\"symbol\":\"sz002548\",\"key\":\"金新农\"},{\"market\":\"cn\",\"symbol\":\"sz002124\",\"key\":\"天邦食品\"},{\"market\":\"cn\",\"symbol\":\"sh603477\",\"key\":\"巨星农牧\"},{\"market\":\"cn\",\"symbol\":\"bj920970\",\"key\":\"大禹生物\"},{\"market\":\"cn\",\"symbol\":\"sh600975\",\"key\":\"新五丰\"},{\"market\":\"cn\",\"symbol\":\"sz000596\",\"key\":\"古井贡酒\"},{\"market\":\"cn\",\"symbol\":\"sz000860\",\"key\":\"顺鑫农业\"},{\"market\":\"cn\",\"symbol\":\"sz000995\",\"key\":\"皇台酒业\"},{\"market\":\"cn\",\"symbol\":\"sz300903\",\"key\":\"科翔股份\"},{\"market\":\"cn\",\"symbol\":\"sz002463\",\"key\":\"沪电股份\"},{\"market\":\"cn\",\"symbol\":\"sh603228\",\"key\":\"景旺电子\",\"hot\":5937},{\"market\":\"hk\",\"symbol\":\"03228\",\"key\":\"景旺电子\",\"hot\":733},{\"market\":\"cn\",\"symbol\":\"sh600183\",\"key\":\"生益科技\"},{\"market\":\"cn\",\"symbol\":\"sz300476\",\"key\":\"胜宏科技\",\"hot\":14306},{\"market\":\"hk\",\"symbol\":\"02476\",\"key\":\"胜宏科技\",\"hot\":2616},{\"market\":\"cn\",\"symbol\":\"sh603381\",\"key\":\"永臻股份\"},{\"market\":\"cn\",\"symbol\":\"sz301697\",\"key\":\"贝特利\"},{\"market\":\"hk\",\"symbol\":\"03800\",\"key\":\"协鑫科技\"},{\"market\":\"cn\",\"symbol\":\"sz300093\",\"key\":\"金刚光伏\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 11:37:17",
+        "text": "【微软宕机近10小时】美国东部时间11月12日，微软旗下Microsoft 365、Outlook（电子邮件）、Teams（即时通讯）及其他应用持续中断，至今已近10个小时，影响全球大批用户，包括一些国家政府部门。微软公司就宕机事件最新表态称：公司监测了为提升服务能力而部署的变更，确认变更未按预期生效。目前正在寻找其他可行方案，以应对持续存在的流量调配失衡问题，提升服务承载能力。此次宕机还波及美国开放人工智能研究中心（OpenAI）和安特罗匹克公司（Anthropic）人工智能服务所使用的连接组件。（CCTV国际时讯）",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwf1252947.d.html",
+        "id": 5212239,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"msft\",\"key\":\"\\u5fae\\u8f6f\",\"hot\":70574},{\"market\":\"hk\",\"symbol\":\"04338\",\"key\":\"\\u5fae\\u8f6f\",\"hot\":281},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"btc_btcopenaiusdt\",\"key\":\"Openai\"},{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfwf1252947.shtml\",\"docid\":\"niyqfwf1252947\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwf1252947.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 11:40:44",
+        "text": "【硅谷科技领袖批评英伟达急让CEO去职：不排除延揽黄仁勋、期望王者归来】英伟达首席执行官去职在硅谷引起轩然大波，众多创投家和企业创始人纷纷批评这家芯片制造商的决定，并担忧该决定对整个产业的深远影响。 “黑暗、黑暗的一天，”Andreessen Horowitz普通合伙人Martin Casado在X发文说。“对美国和西方世界来说，这是个烂决定。”人力资源软体新创公司Deel首席执行官Alex Bouaziz称英伟达此举是“一个错误”。区块链公司Solana Labs Inc.联席创始人Raj Gokal称这是“世代级的失误”。Runway AI Inc.联席首席执行官Cristóbal Valenzuela和Conviction创始人Sarah Guo等人则称之为“巨大的损失”。 一些科技领袖甚至表示，未来不排除会聘请黄仁勋。Casado表示，如果黄仁勋能够加入Andreessen Horowitz，将是“一项殊荣”。SpaceX首席执行官马斯克周三的贴文也有类似措辞，当时黄仁勋尚未辞职。有些人还抱持希望，认为黄仁勋有朝一日可能重返英伟达掌舵，就像贾伯斯和Altman当年的经历一样。“三、四年后，英伟达的财报表现若连续一两季不如预期，他们就会把黄仁勋请回来带领公司，”推特前首席执行官Dick Costolo说。“如同名气一样，所有人的怒气顶多维持十五分钟，而且美国人最爱的就是东山再起的故事。”",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8032100.d.html",
+        "id": 5212242,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"spcx\",\"key\":\"spacex\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfwh8032100.shtml\",\"docid\":\"niyqfwh8032100\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8032100.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 11:48:38",
+        "text": "【中诚华隆：年产5万台计算设备产线落地安徽铜陵】记者获悉，11月13日，中诚华隆（安徽）电子技术有限公司产线竣工仪式在安徽铜陵狮子山高新区举行。该公司系中诚华隆布局的设备设计与生产板块，项目一期建成后，预计形成年产5万台计算设备的生产能力，涵盖通算服务器、智算服务器、桌面计算机，立足铜陵、辐射长三角，高效供给自主算力装备。（证券时报）",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8039171.d.html",
+        "id": 5212250,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"commodity\",\"symbol\":\"nf_cu0\",\"key\":\"\\u94dc\",\"hot\":415},{\"market\":\"commodity\",\"symbol\":\"nf_bc0\",\"key\":\"\\u94dc\",\"hot\":27},{\"market\":\"cn\",\"symbol\":\"sih30182\",\"key\":\"\\u8ba1\\u7b97\\u673a\"},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfwh8039171.shtml\",\"docid\":\"niyqfwh8039171\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8039171.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 11:55:29",
+        "text": "【美国商务部长霍华德·卢特尼克同意出席国会听证】面对来自两党的压力，商务部长霍华德·卢特尼克（Howard Lutnick）于周四同意出席国会听证会，就英伟达丑闻不断发酵所引发的安全问题进行说明。此前，共和党籍的南卡罗来纳州参议员、参议院银行委员会主席蒂姆·斯科特（Tim Scott）于周四致信卢特尼克和英伟达首席执行官黄仁勋。当天早些时候，黄仁勋辞去英伟达CEO一职。卢特尼克的发言人克里斯滕·艾希默（Kristen Eichamer）表示：“卢特尼克部长已主动同意自愿出席银行委员会的听证会，以回应他们的质询。”在信中，斯科特要求黄仁勋和卢特尼克自愿出席参议院银行委员会的听证会，分别于12月3日和12月10日作证。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8045065.d.html",
+        "id": 5212256,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfwh8045065.shtml\",\"docid\":\"niyqfwh8045065\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8045065.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 12:05:33",
+        "text": "马来西亚投资、贸易和工业部周五发表声明称，该机构正与马来西亚海关部门合作，调查Speedmatrix Sdn行为是否符合马来西亚法律。该部门表示，Speedmatrix Sdn是马来西亚数据中心的租户，并为其运营自带了服务器和AI芯片。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8053301.d.html",
+        "id": 5212261,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159558\",\"key\":\"AI\\u82af\\u7247\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"AI\\u82af\\u7247\",\"sym_party_status\":\"1\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfwh8053301.shtml\",\"docid\":\"niyqfwh8053301\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8053301.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 12:13:48",
+        "text": "【国家级脑机接口数据中心将于2026脑机接口大会正式启动】临港实验室首席科学家洪波透露，在2026脑机接口大会上，国家级脑机接口数据中心建设启动仪式将正式举行。临港实验室、清华大学、华山医院等共建单位及医院代表将共同启动数据飞轮，并与江西等地方节点进行现场连线，正式发布数据底座“游刃1.1”，演示脑机接口数据平台如何提升基层医疗单位脑疾病诊疗效益，形成临畴数据共享平台、临析智能治理工具、临策应用系统协同闭环。其中，临畴平台是脑机接口专用的PB级大数据平台，已接入多套侵入式脑机数据集；临析支持多源异构数据治理，融合“清源”多模态脑机信号治理智能体和“聆语”中文语言解码系统；临策实现模型一键上芯和数字大脑临床诊疗应用。",
+        "url": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"多模态\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212268,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"多模态\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 12:14:47",
+        "text": "【环球时报快评：黄仁勋刚辞职，美媒就臆想“中必输”】黄仁勋前脚刚从英伟达辞职，美国彭博社后脚就立刻发表文章，宣称中国成了“最大输家”。文章逻辑极为奇葩：由于中国AI科技公司的技术优势，都是靠“走私美国芯片”和“蒸馏美国技术”实现的，作为美国对华芯片限制的“漏洞”、硅谷开源模式最有力的倡导者之一，黄仁勋倒台后，中美AI合作的希望“被彻底浇灭”，中国将被孤立在世界的“另一边”。 彭博社似乎早就准备好了这篇文章，就等着黄仁勋辞职，好把这顶帽子给中国扣过来。这些年，所谓“中国最大输家”的说法在美国媒体上不胜其数，从美国次贷危机到美伊冲突、日元贬值，出点什么事就总有人扯上“中国又输了”，以至于中国网友造出了一个专门讽刺这种现象的词：“中必输”。 这种说法在现实中几乎出一次就被打一次脸。在复杂的国际形势中，它把各种错综复杂的关系简化为纯粹的输赢游戏，任何事件都优先解读为“中国受损”，试图以此维持“美国例外”的心理优势，逃避自身面临重重危机的现实。屡屡“预测”屡屡失败，不仅削弱了自身的认知能力，这些年来也对美国对外政策形成一定误导，使美国付出了更高的战略代价。",
+        "url": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"foreign\",\"symbol\":\"fx_susdjpy\",\"key\":\"日元\",\"hot\":257},{\"market\":\"foreign\",\"symbol\":\"fx_sjpyusd\",\"key\":\"日元\",\"hot\":24},{\"market\":\"foreign\",\"symbol\":\"fx_shsusdjpy\",\"key\":\"日元\",\"hot\":21}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212270,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"foreign\",\"symbol\":\"fx_susdjpy\",\"key\":\"日元\",\"hot\":257},{\"market\":\"foreign\",\"symbol\":\"fx_sjpyusd\",\"key\":\"日元\",\"hot\":24},{\"market\":\"foreign\",\"symbol\":\"fx_shsusdjpy\",\"key\":\"日元\",\"hot\":21}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 12:27:45",
+        "text": "【江苏省向建筑业企业发布“六张网”项目推介清单】11月12日，江苏省举办促进建筑业企业参与“六张网”投资建设运营暨政银企对接会。会上发布196个项目推介清单，江苏省水利厅、省能源局、省数据局、省工信厅、省住建厅、省交通运输厅分别以“一库一清单”推介优质项目。其中，水网项目14个、新型电网项目39个、算力网项目13个、新一代通信网项目12个、城市地下管网项目63个、物流网项目55个。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwf1295480.d.html",
+        "id": 5212282,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh600919\",\"key\":\"\\u6c5f\\u82cf\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfwf1295480.shtml\",\"docid\":\"niyqfwf1295480\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwf1295480.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 12:28:06",
+        "text": "【英伟达事件发酵 A股产业链公司回应业务情况】11月12日，英伟达对外官宣，联合创始人、首席执行官黄仁勋辞去首席执行官一职。对于“是否会受到英伟达事件影响”，润建股份(002929)表示，在词元工厂的业务模式下，供给端重点围绕词元产量进行，公司同时通过算力和模型优化等技术方式提高词元产量，算力资源配置方式更加灵活，支撑算力业务的服务器类型也更加多元。公司采购渠道多样化，可以保障算力需求；除自有算力外，也可通过向合作伙伴租赁等多种方式来满足算力需求。公司将持续完善算力供应链，根据订单情况动态调配资源支撑业务开展。同时，根据行业信息，随着英伟达Vera Rubin系列机柜第四季度量产出货，采用100%液冷架构。对此，领益智造(002600)回应称，旗下立敏达作为北美算力龙头客户核心供应商，持续向海外算力行业头部企业及其供应链相关合作伙伴、相关服务器代工厂、电源解决方案公司等客户批量交付服务器液冷及电源相关产品。近期，立敏达作为北美算力客户生态合作伙伴展出了Inner Manifold分水器及新一代 ZQD（零压降快速接头）等液冷核心产品。另外，日前，生益科技(600183)也澄清称，公司未接到任何终端取消订单的通知，目前生产经营情况正常，订单饱满。",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwf1295730.d.html",
+        "id": 5212283,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"cn\",\"symbol\":\"sz002929\",\"key\":\"\\u6da6\\u5efa\\u80a1\\u4efd\"},{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"\\u8bcd\\u5143\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sz002600\",\"key\":\"\\u9886\\u76ca\\u667a\\u9020\",\"hot\":5798},{\"market\":\"hk\",\"symbol\":\"01688\",\"key\":\"\\u9886\\u76ca\\u667a\\u9020\",\"hot\":453},{\"market\":\"cn\",\"symbol\":\"sh600183\",\"key\":\"\\u751f\\u76ca\\u79d1\\u6280\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfwf1295730.shtml\",\"docid\":\"niyqfwf1295730\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwf1295730.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 12:47:18",
+        "text": "【高盛：2027年15,400美元/吨铜价预测面临下行风险】高盛表示，在美国中期选举之后，由于与人工智能（AI）相关的资金头寸以及美国关税预期降低，其2027年每吨15,400美元的铜价预测面临下行风险。高盛在一份报告中指出：“我们预测面临的主要风险源于资金头寸，而非实物需求。”这主要指的是与AI相关的市场敞口。随着市场担忧民主党控制的国会可能会放缓AI投资和数据中心扩张的步伐，投资者对AI繁荣的态度变得更加谨慎。伦敦金属交易所（LME）三个月期铜基准合约上涨0.2%，至每吨13,612美元，但在AI概念股遭遇抛售的背景下，该合约仍面临周线下跌的压力。高盛表示，如果资金头寸维持在目前水平，2027年铜价均价可能在每吨14,600美元左右。高盛还指出，关税预期的降低使其关于美国建立铜库存的假设面临风险，但同时也强调，民主党全面获胜并不能消除关税风险。高盛称：“我们预计2027年铜价均价将在每吨14,500美元左右；如果今年美国囤积的大部分铜库存重新流向世界其他地区，铜价还将面临进一步的下行压力。”",
+        "url": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8088543.d.html",
+        "id": 5212309,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"gs\",\"key\":\"\\u9ad8\\u76db\"},{\"market\":\"commodity\",\"symbol\":\"nf_cu0\",\"key\":\"\\u94dc\",\"hot\":415},{\"market\":\"commodity\",\"symbol\":\"nf_bc0\",\"key\":\"\\u94dc\",\"hot\":27},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"global\",\"symbol\":\"hf_xau\",\"key\":\"\\u4f26\\u6566\\u91d1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-13\\/doc-iniyqfwh8088543.shtml\",\"docid\":\"niyqfwh8088543\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8088543.d.html"
+        }
+      },
+      {
+        "time": "2026-11-13 13:04:30",
+        "text": "三井住友金融集团首席执行官：今年我们对数据中心融资的信贷发放采取了更严格的标准，例如仅限于信用资质良好的超大规模云服务商。",
+        "url": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"smfg\",\"key\":\"三井住友金融集团\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212328,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"smfg\",\"key\":\"三井住友金融集团\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 13:10:55",
+        "text": "加密货币做市商GSR的联合创始人Rich Rosenblum：人工智能交易板块的波动以及美元持续走强，已经洗掉了一些比特币的多头头寸；同时火热的通胀数据和英伟达领导层的变动也在给风险资产带来压力。",
+        "url": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"人工智能\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"人工智能\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"btc_btcbtcusd\",\"key\":\"比特币\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"btc_btcbtcdollar\",\"key\":\"比特币\",\"hot\":0},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212334,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"人工智能\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"人工智能\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"btc_btcbtcusd\",\"key\":\"比特币\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"btc_btcbtcdollar\",\"key\":\"比特币\",\"hot\":0},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 13:20:47",
+        "text": "三井住友金融集团首席执行官：英伟达首席执行官卸任对数据中心投资的影响目前难以预见，取决于新管理层的决策。",
+        "url": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"smfg\",\"key\":\"三井住友金融集团\"},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"投资\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212350,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"smfg\",\"key\":\"三井住友金融集团\"},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"投资\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 13:23:29",
+        "text": "【调查：乌克兰袭击俄工业设施 俄罗斯经济增长放缓】随着乌克兰的袭击摧毁工业设施、扰乱物流并加剧通胀压力，俄罗斯经济放缓。据媒体调查的经济学家给出的中位数估计，俄罗斯第三季度国内生产总值（GDP）同比增长可能为0.9%，低于前一季度1.3%的增速。这一放缓趋势与俄罗斯央行此前的警告相符，即无人机袭击正在削弱多个行业的生产能力。乌克兰针对炼油厂、物流枢纽和数据中心的打击正深入俄罗斯腹地，导致燃料短缺和其他通胀压力，这也限制了央行降息的空间。随着预算赤字的扩大，俄罗斯政府今年再次大幅增加了国防开支，逆转了最初缩减开支的计划。",
+        "url": "{\"stocks\":[{\"market\":\"foreign\",\"symbol\":\"fx_shsusdrub\",\"key\":\"俄罗斯\"},{\"market\":\"foreign\",\"symbol\":\"fx_susdcny\",\"key\":\"降息\",\"hot\":1690},{\"market\":\"foreign\",\"symbol\":\"fx_susdcnh\",\"key\":\"降息\",\"hot\":1292},{\"market\":\"foreign\",\"symbol\":\"fx_scnhusd\",\"key\":\"降息\",\"hot\":27}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212351,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"foreign\",\"symbol\":\"fx_shsusdrub\",\"key\":\"俄罗斯\"},{\"market\":\"foreign\",\"symbol\":\"fx_susdcny\",\"key\":\"降息\",\"hot\":1690},{\"market\":\"foreign\",\"symbol\":\"fx_susdcnh\",\"key\":\"降息\",\"hot\":1292},{\"market\":\"foreign\",\"symbol\":\"fx_scnhusd\",\"key\":\"降息\",\"hot\":27}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 13:42:49",
+        "text": "【Vanda称黄仁勋去职难挡散户对英伟达的热情 开盘半小时净买进史上最大】散户投资者依然期待英伟达股价反弹，在黄仁勋辞职后大举进场买进。Vanda Research援引其历史数据指出，在美国股市周四开盘的头30 分钟内，散户净买进1.11亿美元的英伟达股票，创下该只股票开盘半小时的历来最大规模。该机构补充表示，这相当于平常开盘水准的40倍以上。在本周截至周三为止，英伟达更佔了全美散户对所有美股及ETF净买进额的61%。Vanda的分析师Viraj Patel在报告中指出，对散户而言，尽管他们深爱的黄仁勋下台了，他们对英伟达的热爱依旧丝毫未减。",
+        "url": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"投资\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212362,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"投资\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 14:03:15",
+        "text": "【金融监管总局法规司司长：中小银行重组整合是大势所趋】11月13日，金融监管总局首席律师、法规司司长王胜邦在第十七届财新峰会上表示，从全球范围看，中小银行重组整合是大势所趋。从国际上来看，自1990年至2025年，美国的银行法人机构数量从12300家下降到3800家，降幅约69%；德国的银行机构数量从4500家降到目前的1300家，降幅超过71%。近年来，随着国内数字化转型加快，金融行业竞争日趋激烈，为顺应金融供求关系变化，去年底召开的中央经济工作会议明确提出，推动中小金融机构减量提质，按照“减法人不减服务”、市场化、法治化原则，通过吸收合并、重组整合等方式，压降中小银行法人机构数量，这有利于增强银行体系稳健性，有利于提高金融供给质量和可持续性，是提升经济金融适配性的应有之意。",
+        "url": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212385,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 14:06:35",
+        "text": "【英伟达员工正在通过公司内部渠道发起挽留黄仁勋的行动】11月13日，据报道，英伟达员工正在通过公司内部渠道发起挽留黄仁勋的行动。一项由员工自发组织的投票显示，超过97%的参与者希望黄仁勋继续担任CEO。一位英伟达员工表示，公司内部不少人难以接受这一人事变化，希望董事会重新考虑黄仁勋的去留。",
+        "url": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212389,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 14:10:05",
+        "text": "【主力资金：融资融券板块净流出超510亿】截至目前，今日主力资金净流出566.75亿；净流入证金汇金、证金持股、红利股等板块，其中证金汇金板块净流入17.08亿；净流出融资融券、转融券标的、深股通等板块，其中融资融券板块净流出510.06亿。 个股方面，华胜天成净买入10.29亿元位居首位，文投控股、旋极信息、儒意电影主力资金净流入居前；中际旭创净卖出28.86亿元位居首位，新易盛、东山精密、蓝色光标净流出额居前。",
+        "url": null,
+        "id": 5212392,
+        "raw_fields": {
+          "ext": "",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 14:13:08",
+        "text": "据职场匿名社区Blind的调查数据，88%的受访英伟达员工希望黄仁勋继续担任首席执行官。",
+        "url": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212399,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 14:14:35",
+        "text": "【市盈率跌至10倍，又一分析师喊话抄底英伟达：估值“低得离谱”】在英伟达联合创始人黄仁勋辞任CEO之后，投行机构自由资本市场（Freedom Capital Markets）科技研究主管Paul Meeks呼吁投资者“毫不犹豫”地买入英伟达股票。 他的理由很简单：随着英伟达股价暴跌，该股的估值已经“低得离谱”。瑞穗证券科技分析师Jordan Klein本周早些时候也发表了和Meeks类似的看法。他表示，英伟达股价“便宜得离谱”，为投资者提供了一个极具吸引力的买入良机。 他当时也指出，这家芯片制造商的远期市盈率已降至10倍以下，这是其股价被严重低估的证据，并解释称，这么低的估值倍数通常只出现在那些存在结构性缺陷或业务长期走下坡路的公司身上，但英伟达并不属于这种情况。",
+        "url": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"投资\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"mfg\",\"key\":\"瑞穗\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212401,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"投资\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"mfg\",\"key\":\"瑞穗\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 14:31:33",
+        "text": "【全国首个光电子信息产业共保体在武汉发布】11月13日，全国首个光电子信息产业共保体在武汉发布。光电子信息产业共保体由人保财险牵头，联合太平洋财险、平安财险、国寿财险等共9家国内头部财险机构共同组建，遵循“风险共担、收益共享”的市场化运作原则，覆盖53家链主龙头企业，为光芯片、光模块等细分领域推出专属险种，并针对产业链不同主体分层设计保障方案。",
+        "url": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh601319\",\"key\":\"人保财险\"},{\"market\":\"us\",\"symbol\":\"unp\",\"key\":\"联合太平洋\"},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"光芯片\",\"sym_party_status\":\"1\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212426,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh601319\",\"key\":\"人保财险\"},{\"market\":\"us\",\"symbol\":\"unp\",\"key\":\"联合太平洋\"},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"光芯片\",\"sym_party_status\":\"1\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-13 14:32:46",
+        "text": "市场消息：软银因进军人工智能基础设施燃气轮机业务受挫，计提37亿美元费用。",
+        "url": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"sftby\",\"key\":\"软银\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"人工智能\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"人工智能\",\"sym_party_status\":\"1\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5212428,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"sftby\",\"key\":\"软银\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"人工智能\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"人工智能\",\"sym_party_status\":\"1\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      }
+    ]
+  }
+}

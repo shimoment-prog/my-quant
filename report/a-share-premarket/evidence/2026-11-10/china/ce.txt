@@ -1,0 +1,298 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 股市滚动新闻 中国经济网 
+ 
+ 
+ 
+ 
+body {	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	}
+table{text-align:left; }
+
+
+.cebottom{line-height:23px; text-align:center; padding-top:20px; padding-bottom:14px; color:#424242; width:1000px;  margin:0 auto;  font-size:12px;}
+.cebottom a:link{color:#424242;}
+.cebottom a:visited{color:#424242;}
+.cebottom a:hover{color:#424242;}
+.rzgl_bg1 { background:url(http://finance.ce.cn/images/rzgl_bg1.jpg) repeat-x; border:#E3E3E3 1px solid; margin:5px auto 5px;}
+	
+ 
+ 
+
+ 
+ 
+     
+           
+        金融证券  
+         
+     
+   
+  
+   
+     
+        
+         股市滚动新闻 
+       
+     
+   
+ 
+   
+  
+      
+          
+       
+	   
+
+       	   
+           
+         · 把好股权入口关 激活治理全链条 中证协披露104家券商股权“底数”    [2026/11/10  07:25]  
+       
+	         
+         · A股上市公司积极回购 机构称市场底部构筑相对充分    [2026/11/10  07:22]  
+       
+	         
+         · 莫被伪财经“大V”迷住眼    [2026/11/10  07:20]  
+       
+	         
+         · 物价总水平保持平稳运行    [2026/11/10  07:16]  
+       
+	         
+         · 中证协“摸底”104家券商股权结构    [2026/11/10  07:15]  
+       
+       
+           
+       
+	   
+           
+       
+	
+        
+           
+         · 中上协多措并举建设上市公司治理促进中心    [2026/11/10  07:14]  
+       
+	         
+         · A股科技企业“独立叙事”路径清晰    [2026/11/10  07:11]  
+       
+	         
+         · 10月份物价运行继续回暖    [2026/11/10  07:11]  
+       
+	         
+         · 北交所多家公司以实际行动稳定市场预期    [2026/11/10  07:10]  
+       
+	         
+         · “A+H”公司跨市场市值管理升温    [2026/11/10  07:08]  
+       
+       
+           
+       
+	   
+           
+       
+	
+        
+           
+         · 佰维存储、德明利等净利润创新高 A股存储行业高景气或将延续    [2026/11/10  07:03]  
+       
+	         
+         · 10月CPI同比温和上涨 PPI创近52个月新高    [2026/11/10  07:03]  
+       
+	         
+         · 水泥块砸坏雨棚650块赔偿要了一圈  记者协调有了着落    [2026/11/09  17:05]  
+       
+	         
+         · OPPO商店搜闲鱼先跳出仿冒APP 客服：建议仔细甄别    [2026/11/09  17:04]  
+       
+	         
+         · H股破发股中际旭创创新低 基石高瓴淡马锡等浮亏44.39%    [2026/11/09  17:03]  
+       
+       
+           
+       
+	   
+           
+       
+	
+        
+           
+         · 中国人寿跌0.9% 领跌保险板块    [2026/11/09  16:59]  
+       
+	         
+         · 恺英网络股价较去年高点跌45% 申银万国在高点喊买入    [2026/11/09  16:59]  
+       
+	         
+         · 掌趣科技跌2.66% 最新研报来自近3年前浙商证券    [2026/11/09  16:58]  
+       
+	         
+         · 帝尔激光跌3.46% 浙商证券在其历史大顶喊买入    [2026/11/09  16:55]  
+       
+	         
+         · 国城矿业较高点跌61.88% 某券商在其高位给予买入评级    [2026/11/09  16:49]  
+       
+       
+           
+       
+	   
+           
+       
+	
+        
+         
+	     
+	    
+           
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 共( ");
+	  document.write(_nPageCount);
+	  document.write(" )页  ");
+	  //var fyn;
+	 var nStep=5
+	  var nCurrIndex = _nCurrIndex || 0;
+	  	if(nCurrIndex   0)
+	  	document.write(" 首 页  ");
+	  else
+	    document.write(" 首 页   ");
+		
+	  if(nCurrIndex > 0){
+	      if(nCurrIndex == 1){
+		  document.write(" 上一页   ");
+		  }else{document.write(" 上一页   ");}
+	    }
+	  else{
+	    document.write(" 上一页   ");
+	    }
+	    /*if(nCurrIndex == 0)
+		document.write("1 ");
+	else
+		document.write(" 1  ");*/
+
+//首页和上一页以及第一页的代码
+
+
+
+
+	if(_nPageCount 1  ");
+	for(var i=1; i "+(i+1)+"  ");
+		}
+
+
+	}else{//_nPageCount小于等于4的情况end
+	//下面这个IF是判断是小于步长的一半的情况的;
+	if(nCurrIndex  [1]   ");
+	    	  }
+			    if(i == 0 && nCurrIndex!=0){
+					document.write(" [1]   ");}
+		  if(i > 0 && i  "+(i+1)+" ]  ");
+			  else
+	    			document.write("[ "+(i+1)+" ]  ");
+		  	}
+	  			}
+	  	var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时候;
+       //alert("nCurrIndex: "+nCurrIndex);
+	   if(nCurrIndex  下一页   ");	 
+	  	else if (nextOver  末 页   ");	
+	     else
+	     document.write("末 页");
+	  return false;
+	
+	    	}
+	
+	  for(i=Math.ceil(nCurrIndex-nStep/2);i  0 && i   0 && i  "+(i+1)+" ]  ");
+			  else
+	    		document.write("[ "+(i+1)+" ]  ");
+		  }
+		  
+	  }	  
+	 } 
+	 
+
+	 //下一页和末页的设置
+	   var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时候;
+	   if(nCurrIndex  下一页   ");	 
+	  	else if (nextOver  末 页   ");	
+		else
+	    document.write("末 页");
+	  //下一页和末页的设置	
+
+
+
+}//函数结束符
+//WCM置标
+createPageHTML(10, 0, "index", "shtml");	
+//-->
+ 
+		
+           
+
+   
+       
+	   
+	  
+   
+   
+
+  
+ 
+ 
+ document.write(unescape("%3Cscript src='http://cl3.webterren.com/webdig.js?z=32' type='text/javascript'%3E%3C/script%3E")); 
+ wd_paramtracker("_wdxid=000000000000000000000000000000000000000000") 
+ 
+
+ 
+  
+
+ 
+ 
+(function(a,b,c,d){a[b] = a[b] || {};a[b][d] = a[b][d] || function(){(a[c] = a[c] || []).push(arguments);};}(window,"TA17Obj","TAQueueArr","track"));
+ 
+ 
+    TA17Obj.track({
+        "eventKey": "e_cecn",
+        "trackInfos":[
+            {
+            "eventItem":"channelName",
+            "eventItemName":"股市滚动新闻",
+            "eventItemType":"cecn.channelName"
+            },
+            {
+            "eventItem":"channelId",
+            "eventItemName":"216720",
+            "eventItemType":"cecn.channelId"
+            },
+            {
+            "eventItem":"siteName",
+            "eventItemName":"财经频道",
+            "eventItemType":"cecn.siteName"
+            }
+        ]
+    });
+ 
+ 
+ 

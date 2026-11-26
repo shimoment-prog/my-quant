@@ -1,0 +1,132 @@
+[
+  {
+    "id": "BAMLC0A0CM",
+    "source_id": "fred_ig",
+    "evidence_type": "broad_market_proxy_not_AI_CDS",
+    "unit": "basis_points",
+    "observation_date": "2026-11-11",
+    "value": 90.0,
+    "previous_market_observation": {
+      "date": "2026-11-09",
+      "value": 91.0
+    },
+    "change_bp_vs_previous_market_observation": -1.0,
+    "comparison_to_previous_monitor_run": {
+      "date": "2026-11-11",
+      "value": 90.0,
+      "new_market_observation": null,
+      "value_change_bp": null,
+      "reason": "Current FRED downloads timed out; no assumption of unchanged market or no source update."
+    },
+    "comparison_20_observations_earlier": {
+      "date": "2026-10-13",
+      "value": 83.0,
+      "change_bp": 7.0
+    },
+    "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+    "publication_at": null,
+    "retrieved_at": "2026-11-13T00:27:08.513872+00:00",
+    "archived_csv": "evidence/2026-11-13/market/fred_ig.csv",
+    "recent_valid_observations": [
+      {
+        "date": "2026-11-03",
+        "value": 93.0
+      },
+      {
+        "date": "2026-11-04",
+        "value": 91.0
+      },
+      {
+        "date": "2026-11-05",
+        "value": 93.0
+      },
+      {
+        "date": "2026-11-06",
+        "value": 93.0
+      },
+      {
+        "date": "2026-11-09",
+        "value": 91.0
+      },
+      {
+        "date": "2026-11-11",
+        "value": 90.0
+      }
+    ],
+    "notes": [
+      "Latest data date from source, not currentNov13quote; broad ICE BofA index proxy, not issuer CDS or CDX.IG.",
+      "Nov11series label does not mean ordinary UScashbond holiday trading or matched security transactions. No interpolation for missingdates.",
+      "About20 comparable published nonmissing observations; holiday/date gaps retained.",
+      "Carried historical observation only. No currentNov14proxy price or verified latest-publication claim; collection failure is not risk relief."
+    ],
+    "current_run_collection_status": "failed_FRED_timeout_carry_prior_verified_observation",
+    "carried_forward_from": "observations/2026-11-13.json#market_proxies",
+    "reviewed_at": "2026-11-14T00:35:09.100143+00:00"
+  },
+  {
+    "id": "BAMLH0A0HYM2",
+    "source_id": "fred_hy",
+    "evidence_type": "broad_market_proxy_not_AI_CDS",
+    "unit": "basis_points",
+    "observation_date": "2026-11-11",
+    "value": 330.0,
+    "previous_market_observation": {
+      "date": "2026-11-09",
+      "value": 334.0
+    },
+    "change_bp_vs_previous_market_observation": -4.0,
+    "comparison_to_previous_monitor_run": {
+      "date": "2026-11-11",
+      "value": 330.0,
+      "new_market_observation": null,
+      "value_change_bp": null,
+      "reason": "Current FRED downloads timed out; no assumption of unchanged market or no source update."
+    },
+    "comparison_20_observations_earlier": {
+      "date": "2026-10-13",
+      "value": 316.0,
+      "change_bp": 14.0
+    },
+    "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "publication_at": null,
+    "retrieved_at": "2026-11-13T00:27:08.514212+00:00",
+    "archived_csv": "evidence/2026-11-13/market/fred_hy.csv",
+    "recent_valid_observations": [
+      {
+        "date": "2026-11-03",
+        "value": 340.0
+      },
+      {
+        "date": "2026-11-04",
+        "value": 332.0
+      },
+      {
+        "date": "2026-11-05",
+        "value": 348.0
+      },
+      {
+        "date": "2026-11-06",
+        "value": 342.0
+      },
+      {
+        "date": "2026-11-09",
+        "value": 334.0
+      },
+      {
+        "date": "2026-11-11",
+        "value": 330.0
+      }
+    ],
+    "notes": [
+      "Latest data date from source, not currentNov13quote; broad ICE BofA index proxy, not issuer CDS or CDX.IG.",
+      "Nov11series label does not mean ordinary UScashbond holiday trading or matched security transactions. No interpolation for missingdates.",
+      "About20 comparable published nonmissing observations; holiday/date gaps retained.",
+      "Carried historical observation only. No currentNov14proxy price or verified latest-publication claim; collection failure is not risk relief."
+    ],
+    "current_run_collection_status": "failed_FRED_timeout_carry_prior_verified_observation",
+    "carried_forward_from": "observations/2026-11-13.json#market_proxies",
+    "reviewed_at": "2026-11-14T00:35:09.100143+00:00"
+  }
+]

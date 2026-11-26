@@ -1,0 +1,140 @@
+{
+  "keySummary": "#2 做空判定 · 关键 K 11/10 02:20—11/10 02:25 · 阴线：开 2,119.04 → 收 2,117.75 · 最高 2,119.36 < 两线最低 2,122.68100 · 收盘成交 11/10 02:25",
+  "artifact": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/eth-nov10-15-review.html",
+  "artifact_sha256": "326beb0ebc9dac19093f1e4a6bab5e5685d7992434648cde2684b0bd6b057d06",
+  "errors": [],
+  "externalRequests": [],
+  "samples": [
+    {
+      "name": "chart-desktop-dark",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 1818,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 1548,
+        "body": 1545.421875,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-desktop-light",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 1818,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 1548,
+        "body": 1545.421875,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "report-desktop-light",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 2833,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 2563,
+        "body": 2560.65625,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "report-mobile-dark",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 5178,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 4833,
+        "body": 4830.6875,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-mobile-dark",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 2278,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 1933,
+        "body": 1930.375,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-mobile-light",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 2278,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 1933,
+        "body": 1930.375,
+        "theme": "light"
+      }
+    }
+  ],
+  "checkedTrades": 30,
+  "state": {
+    "selectedTrade": 21,
+    "visibleRange": {
+      "from": 71.49999999999977,
+      "to": 1799.5
+    },
+    "candleCount": 1800,
+    "tradeCount": 30,
+    "overlayShapes": 7
+  },
+  "mobileState": {
+    "selectedTrade": 2,
+    "visibleRange": {
+      "from": 80,
+      "to": 128
+    },
+    "candleCount": 1800,
+    "tradeCount": 30,
+    "overlayShapes": 7
+  },
+  "perceptual_review": {
+    "status": "passed",
+    "inspected": [
+      "trade-2-key-candle.png",
+      "trade-3-long-key.png",
+      "chart-mobile-dark.png"
+    ],
+    "notes": [
+      "Second short key candle is bearish and outlined separately from the close-entry point.",
+      "Long key candle uses the symmetric bullish/full-lower-wick condition.",
+      "Selected key summary stays fixed when hovering another candle."
+    ]
+  },
+  "result_files_unchanged": true
+}

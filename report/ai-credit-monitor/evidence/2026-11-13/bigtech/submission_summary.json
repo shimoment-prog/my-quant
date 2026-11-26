@@ -1,0 +1,212 @@
+[
+  {
+    "company": "alphabet",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "retrieved_at": "2026-11-13T00:26:53.762368+00:00",
+    "ok": true,
+    "all_new": [
+      {
+        "accessionNumber": "0001968582-26-001139",
+        "form": "144",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T21:25:07.000Z",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "accessionNumber": "0001968582-26-001138",
+        "form": "144",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T21:23:39.000Z",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "accessionNumber": "0001968582-26-001137",
+        "form": "144",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T21:22:08.000Z",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "accessionNumber": "0001969223-26-001174",
+        "form": "144",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T21:03:19.000Z",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      }
+    ],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001652044-26-000084",
+        "filingDate": "2026-10-29",
+        "primaryDocument": "goog-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "meta",
+    "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+    "retrieved_at": "2026-11-13T00:26:53.762745+00:00",
+    "ok": true,
+    "all_new": [
+      {
+        "accessionNumber": "0000950103-26-017401",
+        "form": "4",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T23:43:22.000Z",
+        "primaryDocument": "xslF345X06/ownership.xml"
+      },
+      {
+        "accessionNumber": "0000950103-26-017398",
+        "form": "4",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T23:40:07.000Z",
+        "primaryDocument": "xslF345X06/ownership.xml"
+      },
+      {
+        "accessionNumber": "0001354457-26-001064",
+        "form": "CERT",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T22:07:01.000Z",
+        "primaryDocument": "META_8A_Cert_1326801.pdf"
+      },
+      {
+        "accessionNumber": "0001193125-26-458695",
+        "form": "8-A12B",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T22:04:23.000Z",
+        "primaryDocument": "d193866d8a12b.htm"
+      },
+      {
+        "accessionNumber": "0001193125-26-458525",
+        "form": "8-K",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T21:27:49.000Z",
+        "primaryDocument": "d177728d8k.htm"
+      }
+    ],
+    "new_relevant": [
+      {
+        "accessionNumber": "0001193125-26-458525",
+        "form": "8-K",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T21:27:49.000Z",
+        "primaryDocument": "d177728d8k.htm"
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-066773",
+        "filingDate": "2026-10-22",
+        "primaryDocument": "meta-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "microsoft",
+    "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "retrieved_at": "2026-11-13T00:26:53.762973+00:00",
+    "ok": true,
+    "all_new": [
+      {
+        "accessionNumber": "0000789019-26-000234",
+        "form": "4",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T23:08:34.000Z",
+        "primaryDocument": "xslF345X06/form4.xml"
+      }
+    ],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001193125-26-436133",
+        "filingDate": "2026-10-28",
+        "primaryDocument": "msft-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "amazon",
+    "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+    "retrieved_at": "2026-11-13T00:26:53.763121+00:00",
+    "ok": true,
+    "all_new": [
+      {
+        "accessionNumber": "0001018724-26-000042",
+        "form": "4",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T23:27:54.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794526071.xml"
+      },
+      {
+        "accessionNumber": "0001104659-26-126255",
+        "form": "SCHEDULE 13G",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T21:16:44.000Z",
+        "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+      }
+    ],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001018724-26-000040",
+        "filingDate": "2026-10-30",
+        "primaryDocument": "amzn-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "broadcom",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-13T00:26:53.763266+00:00",
+    "ok": true,
+    "all_new": [],
+    "new_relevant": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001730168-26-000080",
+        "filingDate": "2026-09-10",
+        "primaryDocument": "avgo-20260802.htm"
+      }
+    ]
+  },
+  {
+    "company": "anthropic",
+    "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+    "retrieved_at": "2026-11-13T00:26:55.132831+00:00",
+    "ok": true,
+    "all_new": [
+      {
+        "accessionNumber": "0001628280-26-073045",
+        "form": "FWP",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T11:08:43.000Z",
+        "primaryDocument": "anthropicpbc-fwpjapanamend.htm"
+      },
+      {
+        "accessionNumber": "0001628280-26-073040",
+        "form": "FWP",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T11:06:37.000Z",
+        "primaryDocument": "anthropicpbc-fwpxeeaprospea.htm"
+      }
+    ],
+    "new_relevant": [
+      {
+        "accessionNumber": "0001628280-26-073045",
+        "form": "FWP",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T11:08:43.000Z",
+        "primaryDocument": "anthropicpbc-fwpjapanamend.htm"
+      },
+      {
+        "accessionNumber": "0001628280-26-073040",
+        "form": "FWP",
+        "filingDate": "2026-11-12",
+        "acceptanceDateTime": "2026-11-12T11:06:37.000Z",
+        "primaryDocument": "anthropicpbc-fwpxeeaprospea.htm"
+      }
+    ],
+    "latest10q": []
+  }
+]

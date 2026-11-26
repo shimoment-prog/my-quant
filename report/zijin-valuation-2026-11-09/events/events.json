@@ -1,0 +1,414 @@
+{
+  "prepared_at": "2026-11-09T11:21:14+08:00",
+  "price_actual_cutoff_beijing": "2026-11-09T11:17:58+08:00",
+  "scope": "黄金铜价、宏观及11月以来紫金公告/官网运营增量；股价技术与财务由主任务处理，未写state。",
+  "commodities": [
+    {
+      "name": "伦敦金/现货黄金",
+      "symbol": "hf_XAU",
+      "instrument": "spot_gold_vendor_quote",
+      "price": 4119.05,
+      "unit": "USD/troy_ounce",
+      "quote_time": "2026-11-09T11:17:00+08:00",
+      "reference_price": 4070.75,
+      "change_vs_vendor_reference_pct": 1.1865135417306494,
+      "source": "https://hq.sinajs.cn/list=hf_XAU",
+      "limit": "公开行情供应商现货报价，非COMEX期货，非紫金实际销售价；源日内参考价口径保留。"
+    },
+    {
+      "name": "沪铜连续",
+      "symbol": "nf_CU0",
+      "instrument": "SHFE_continuous_futures_vendor_series",
+      "price": 105710,
+      "unit": "CNY/tonne",
+      "quote_time": "2026-11-09T11:17:58+08:00",
+      "previous_settlement": 105110,
+      "change_vs_previous_settlement_pct": 0.570830558462565,
+      "source": "https://hq.sinajs.cn/list=nf_CU0",
+      "limit": "供应商连续合约，未核实具体到期月份，不冒充某指定合约或现货铜价。"
+    },
+    {
+      "name": "沪金连续",
+      "symbol": "nf_AU0",
+      "instrument": "SHFE_continuous_futures_vendor_series",
+      "price": 885.68,
+      "unit": "CNY/gram",
+      "quote_time": "2026-11-09T11:17:58+08:00",
+      "previous_settlement": 879.22,
+      "change_vs_previous_settlement_pct": 0.7347421578216995,
+      "source": "https://hq.sinajs.cn/list=nf_AU0",
+      "limit": "供应商连续合约未核到期月；不同于美元现货金，不用两者涨幅强行相等。"
+    },
+    {
+      "name": "伦铜供应商CFD",
+      "symbol": "hf_CAD",
+      "instrument": "vendor_CFD_not_exchange_futures",
+      "price": 13858.2,
+      "unit": "USD/tonne",
+      "quote_time": "2026-11-09T11:17:47+08:00",
+      "vendor_previous_reference": 13768,
+      "change_vs_vendor_reference_pct": 0.6551423590935634,
+      "source": "https://hq.sinajs.cn/list=hf_CAD",
+      "instrument_definition_source": "https://finance.sina.com.cn/futures/quotes/CAD.shtml",
+      "limit": "源页面明确写伦敦铜(CFD差价合约并非期货)。不能写成LME官方三个月期货/实际成交确认，建议主报告优先用沪铜。"
+    }
+  ],
+  "other_raw_commodity_quotes": {
+    "hf_GC": {
+      "price": 4129.559,
+      "time": "2026-11-09T11:17:57+08:00",
+      "vendor_label": "纽约黄金",
+      "adopted_in_main_report": false,
+      "reason": "未核合约月份及CFD/期货定义；不冒充COMEX指定期货。"
+    },
+    "hf_HG": {
+      "price": 633.638,
+      "time": "2026-11-09T11:17:54+08:00",
+      "vendor_label": "美铜",
+      "adopted_in_main_report": false,
+      "reason": "未核合约月份、报价单位及CFD定义，不采用为确定COMEX铜期货价格。"
+    }
+  },
+  "macro": {
+    "DXY": {
+      "price": 102.165,
+      "reference": 102.2864,
+      "change_vs_vendor_reference_pct": -0.11868635517526815,
+      "quote_time": "2026-11-09T11:17:55+08:00",
+      "source": "https://hq.sinajs.cn/list=DINIW"
+    },
+    "USDCNH": {
+      "price": 6.673,
+      "quote_time": "2026-11-09T11:17:49+08:00",
+      "source": "https://hq.sinajs.cn/list=fx_susdcnh"
+    },
+    "US_treasury_yield_now": null,
+    "Fed_current_probability": null,
+    "interpretation": "当前美元指数略弱、金价回升给黄金矿企盈利预期提供边际支持，但真实利率与后续政策仍重要。媒体/券商称强就业增加加息预期，本轮未独立核CME模型概率及最新美债收益率，故不引用80%等数作事实。"
+  },
+  "company_official_incremental_check": {
+    "source": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+    "searchkey": "紫金矿业",
+    "query_dates": "2026-11-01~2026-11-09",
+    "retrieved_at": "2026-11-09T11:17:59+08:00",
+    "total_announcements": 2,
+    "announcements": [
+      {
+        "published_on": "2026-11-06",
+        "title": "关于2026年员工持股计划第一次持有人会议决议公告",
+        "official_url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659993.PDF",
+        "document_number": "临2026-058",
+        "underlying_meeting_date": "2026-11-04",
+        "facts": "员工持股计划设管理委员会、选举委员及授权；对应72936800股既有股份。",
+        "effect": "非新矿投产、矿山中断、并购或利润预测，不作为基本面重大催化。"
+      },
+      {
+        "published_on": "2026-11-04",
+        "title": "H股市场公告",
+        "official_url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225656111.PDF",
+        "underlying_report_date": "2026-10-31",
+        "submitted_on": "2026-11-03",
+        "facts": "截至10/31证券变动月报。已发行A股20601793140、H股5989005101，合计26590798241；A股库存股4537792。10/28库存股份72936800股转入员工持股计划，已发行总股数未因该转让减少。",
+        "effect": "库存转持股计划不是注销；注册股本表与已发行股本表口径有差异，估值使用已发行总股本，不将库存转让重复减股。"
+      }
+    ],
+    "finding": "所查巨潮A股/H股月报及公告索引范围内，11月以来未发现新重大并购、投产或矿山中断公告；不是证明全球每个矿山没有任何运营事件。"
+  },
+  "company_website_news_check": {
+    "source": "https://www.zjky.cn/news/news_list.jsp",
+    "retrieved_at": "2026-11-09T11:19:13+08:00",
+    "latest_items": [
+      {
+        "date": "2026-11-06",
+        "headline": "说图01 | 当阳光成为水源",
+        "meaning": "马诺诺社区水井项目/公益，底层照片2025年3月，不是11月新矿投产。"
+      },
+      {
+        "date": "2026-11-03",
+        "headline": "新质紫金01 | 矿卡无人驾驶 矿区提智增安",
+        "meaning": "巨龙知不拉无人矿卡与数智化运营报道，项目始于2024年；技术/降本能力证据，不是新增矿产量承诺。"
+      },
+      {
+        "date": "2026-10-28",
+        "headline": "巨龙铜业:探索高海拔矿山数智转型 多项智能化应用落地见效",
+        "meaning": "旧背景；不能当今天投产新消息。"
+      },
+      {
+        "date": "2026-10-23",
+        "headline": "紫金矿业正式取得赤峰黄金控制权",
+        "meaning": "交易10/22完成，旧背景；并表产量与利润按实际持股和购买会计核，不把全部赤峰利润算进紫金。"
+      }
+    ]
+  },
+  "main_drivers": [
+    {
+      "driver": "黄金售价与美元/利率",
+      "current_evidence": "现货金当前较日内参考涨约1.19%、DXY约跌0.12%。",
+      "effect": "金价持续回升可支持单位毛利，但公司结算、汇率、品位及成本不同，不能把现货涨1%等同利润涨1%。"
+    },
+    {
+      "driver": "铜价与需求预期",
+      "current_evidence": "沪铜连续较前结约+0.57%；铜兼具电网/新能源/AI电力基础设施需求和传统工业周期属性。",
+      "effect": "铜价回升支持盈利预期；若全球工业/数据中心投资推迟、库存累积或美元反弹，铜价及矿企估值可再承压。未用单条AI融资消息推导紫金当日跌因。"
+    },
+    {
+      "driver": "矿山产量与运营恢复",
+      "current_evidence": "11月官方查询未见新增重大停产披露；本轮未重新取得卡莫阿最新运营原始通报。",
+      "effect": "铜矿恢复、扩产爬坡、品位、回收率及成本能否兑现，比单纯金价叙事重要。卡莫阿等旧事故不能复述为11月刚发生。"
+    },
+    {
+      "driver": "资本配置与海外经营",
+      "current_evidence": "赤峰控制权取得为10月旧事，11月公告为持股计划治理与月报。",
+      "effect": "并购有资源/产量增量，也有整合、现金支出、归属权益和地缘/税费风险；不能只按资源量抬估值。"
+    }
+  ],
+  "news_matches": {
+    "range": [
+      "2026-11-09 01:56:01",
+      "2026-11-09 11:16:21"
+    ],
+    "matches": [
+      {
+        "time": "2026-11-09 05:55:31",
+        "text": "暗盘金价跌破4050美元/盎司，日内跌幅0.5%。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyaqqn3511588.shtml"
+      },
+      {
+        "time": "2026-11-09 06:50:38",
+        "text": "【周一重要财经信息提醒（以下均为北京时间）】 \n① 09:30 中国10月CPI、PPI；\n② 15:00 德国9月贸易帐；\n③ 17:30 欧元区11月Sentix投资者信心指数；\n④ 23:00 美国9月批发销售，2027年FOMC票委、芝加哥联储主席古尔斯比发表讲话；\n⑤ 次日00:00 美国10月纽约联储1年通胀预期；\n⑥ 次日01:15 2027年FOMC票委、里士满联储主席巴尔金发表讲话；\n⑦ 次日01:25 英国央行行长贝利就央行独立性发表讲话。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyaqqn3524782.shtml"
+      },
+      {
+        "time": "2026-11-09 06:56:32",
+        "text": "澳大利亚联储助理行长亨特：人工智能对生产率的影响将需要数年时间。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyaqqn3526521.shtml"
+      },
+      {
+        "time": "2026-11-09 06:56:37",
+        "text": "澳大利亚联储助理行长亨特：人工智能需求对消费者价格指数的拉动作用相对有限。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyaqqn3526550.shtml"
+      },
+      {
+        "time": "2026-11-09 07:08:28",
+        "text": "现货黄金突破4070美元/盎司，日内持平。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwa6422219.shtml"
+      },
+      {
+        "time": "2026-11-09 07:12:50",
+        "text": "【机构：美国非农超预期反弹 12月加息预期升温】国泰海通发布研报称，非农超预期反弹，主因专业服务与医疗保健走强。失业率回落而参与率走高，劳动需求仍较稳健。10月非农数据削弱了美联储因就业放缓而维持观望的理由。在10月议息会议上，已有两位票委支持加息；9月点阵图显示，18位官员中有16位预计年内至少还将加息一次；9月核心PCE同比仍为3.1%，高于2%的目标。数据公布后，根据CME数据，市场预期美联储12月加息的概率由66.9%升至76.8%。该行判断美联储12月或将加息25个基点，10月CPI若超预期回落会降低加息的紧迫性，但难以改变方向。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwh6629238.shtml"
+      },
+      {
+        "time": "2026-11-09 07:15:26",
+        "text": "【标普500指数与纳斯达克期货走势震荡，英伟达CEO面临调查引发市场担忧】周一早盘，美国股指期货走势震荡，投资者对英伟达首席执行官黄仁勋面临调查一事感到担忧。纳斯达克100指数期货在周一开盘后一度下跌1%，随后回升至上涨0.1%。10年期美国国债期货走势平稳，各原油合约价格走低。黄金价格疲软，比特币在跌破7.4万美元后小幅反弹走强。在新西兰周末大选中，执政的国家党找到了重返执政的道路，新西兰元（NZD）表现优于G10其他货币。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwh6630230.shtml"
+      },
+      {
+        "time": "2026-11-09 07:58:17",
+        "text": "【澳联储助理主席亨特：AI热潮将在短期内给CPI带来上行压力】澳大利亚央行一位高级官员表示，在决策者已大幅加息以应对通胀之际，人工智能相关领域投资的激增将进一步刺激经济需求。在周一关于AI潜在影响的演讲中，澳大利亚储备银行助理主席莎拉·亨特称，AI是“我们这个时代最重要的技术发展之一”，并且已经开始重塑经济。她表示：“短期内，总需求受到的正向冲击叠加经济当前的供给能力，将对通胀造成一定的上行压力。”她还指出：“一些联络企业反映，数据中心的建设正在加剧部分本就紧缺的建筑技术工种的需求压力。”在演讲后的问答环节中，亨特表示，不断上涨的建筑成本是AI需求传导至消费者价格指数（CPI）的一个渠道。她补充说，在较小程度上，新款手机和游戏机的价格上涨也在推高CPI。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwk3419907.shtml"
+      },
+      {
+        "time": "2026-11-09 08:19:40",
+        "text": "【中信证券：科技股估值已至低位，把握技术破局与应用扩散新机遇】中信证券研报称，尽管AI投资回报争议、高利率与融资环境、交易拥挤度等因素持续压制科技股估值，但当前创业板的估值均已回到2017-2018年、2023-2024年前几轮美联储加息周期低点水平，科创50亦处于924行情以来低位。考虑到算力供需仍偏紧、科技股EPS高增等强现实因子，一旦2027年加息预期发生逆转、融资成本下行、模型能力突破与新应用驱动下一轮ARR等事件发生，A股科技板块将有巨大的修复弹性。节奏上，我们认为，27Q1将成为重要的观察窗口，一方面基于Rubin训练的下一代模型有望推出并验证能力提升，春节前后国模也将进入大版本迭代窗口期，国产HBM则有望进入量产爬坡阶段，另一方面2028年算力需求前景有望更加清晰，且美债高利率、FCC人选与地缘扰动等前期压制因素也有望在Q1得以明确，A股科技整体走势或前低后高。结构上，我们认为AI应用确定性正在提升，AI影视、AI4S、企业AI等应用正在酝酿新的方向，物理AI迎来落地元年，此外国产算力进入放量收获期、国产存储扩产带动设备高景气，关注技术升级与业绩高确定性等α机会。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwa6449759.shtml"
+      },
+      {
+        "time": "2026-11-09 08:20:30",
+        "text": "【中信证券：科技股估值已至低位，把握技术破局与应用扩散新机遇】中信证券研报称，尽管AI投资回报争议、高利率与融资环境、交易拥挤度等因素压制科技股估值，但创业板估值已回到2017-2018年、2023-2024年前几轮美联储加息周期低点水平，科创50处于924行情以来低位。若2027年加息预期逆转、融资成本下行、模型能力突破与新应用驱动下一轮ARR等事件发生，A股科技板块将有巨大修复弹性；27Q1为重要观察窗口，国产HBM有望进入量产爬坡阶段，国产算力进入放量收获期、国产存储扩产带动设备高景气，关注技术升级与业绩高确定性等α机会",
+        "url": null
+      },
+      {
+        "time": "2026-11-09 08:32:36",
+        "text": "现货黄金突破4080美元/盎司，日内涨0.23%。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwe3104827.shtml"
+      },
+      {
+        "time": "2026-11-09 08:35:08",
+        "text": "现货黄金突破4090美元/盎司，日内涨0.47%。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwe3106322.shtml"
+      },
+      {
+        "time": "2026-11-09 08:38:43",
+        "text": "【中信证券2027年科技股投资策略：科技股估值已至低位 把握技术破局与应用扩散新机遇】中信证券发布2027年科技股投资策略，尽管AI投资回报争议、高利率与融资环境、交易拥挤度等因素持续压制科技股估值，但当前创业板的估值均已回到2017年—2018年、2023年—2024年前几轮美联储加息周期低点水平。考虑到算力供需仍偏紧、科技股EPS高增等强现实因子，一旦2027年加息预期发生逆转、融资成本下行、模型能力突破与新应用驱动下一轮ARR等事件发生，A股科技板块将有巨大的修复弹性。节奏上，中信证券认为，2027年一季度将成为重要的观察窗口，一方面基于Rubin训练的下一代模型有望推出并验证能力提升，春节前后国模也将进入大版本迭代窗口期，国产HBM则有望进入量产爬坡阶段，另一方面2028年算力需求前景有望更加清晰，A股科技整体走势或前低后高。结构上，中信证券认为AI应用确定性正在提升，AI影视、AI4S、企业AI等应用正在酝酿新的方向，物理AI迎来落地元年，此外国产算力进入放量收获期、国产存储扩产带动设备高景气，关注技术升级与业绩高确定性等α机会。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwa6459879.shtml"
+      },
+      {
+        "time": "2026-11-09 08:44:15",
+        "text": "现货黄金突破4100美元/盎司，日内涨0.73%。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwe3110366.shtml"
+      },
+      {
+        "time": "2026-11-09 09:12:19",
+        "text": "现货黄金突破4110美元/盎司，日内涨0.99%。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwa6480298.shtml"
+      },
+      {
+        "time": "2026-11-09 09:25:11",
+        "text": "现货黄金日内涨1%，现报4111.89美元/盎司。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyazea3005076.shtml"
+      },
+      {
+        "time": "2026-11-09 09:41:48",
+        "text": "现货黄金日内大涨50.00美元，现报4120.66美元/盎司，涨幅1.23%。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyazeh3363753.shtml"
+      },
+      {
+        "time": "2026-11-09 10:06:23",
+        "text": "现货黄金突破4130美元/盎司，日内涨1.49%。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyazee6607383.shtml"
+      },
+      {
+        "time": "2026-11-09 10:42:52",
+        "text": "【金价在美国就业数据出炉后上涨 凸显需求持续稳固】自美国中期选举以来，黄金ETF持仓量反弹，这表明散户需求强劲，而这正是推动金价持续上涨所必需的。尽管10月份美国就业增长出人意料地强劲，增强了美联储下月加息的可能性，但周一黄金价格仍上涨超过1%。目前看起来似乎是第四个月出现这样的走势：在经历了前一个月末的停滞或下滑之后，黄金ETF持仓在次月伊始开始攀升。10月份的情况是，在增至2022年7月以来最高水平之后，持仓量先是在早些时候削减，之后幅度更大。部分原因可能是，随着AI交易在股市遭到解除，加之美国中期选举的避险情绪来袭，投资者减持盈利的黄金多头头寸以弥补其他领域的损失。如果持仓反弹力度足以重现8月至10月的走势，这将在央行持续需求的基础上增添动力。4000美元左右的价格看起来像是金价潜在的长期低点，尤其是在人工智能前景的不确定性持续存在或加剧的情况下。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyazee6634434.shtml"
+      },
+      {
+        "time": "2026-11-09 10:53:19",
+        "text": "【光大期货：非农强化加息预期，黄金低位震荡】黄金先扬后抑走势揭示了当前定价机制中两组力量的角力。上行力量来自中期选举政治出清，民主党横扫两院意味着财政扩张空间收窄、美伊冲突升级风险下降，美元与美债收益率同步回落，为黄金提供了利率敏感型买盘的回归窗口。但下行压制来自非农带来的“加息叙事重升”，超预期的就业数据使“劳动力市场正在降温”的叙事被彻底推翻，12月加息概率升至80%意味着黄金在12月FOMC前将持续面临美联储鹰派叙事的压制。另外，更深层的矛盾在于，中期选举使得沃什获得更大的政策自主权，强化美联储12月加息决心的同时，未来鹰派叙事有望延续更久，这使得黄金持续上行并打开上行空间充满很大变数。因此综合来看，资金持续押注金价单边上行的可能性低，年尾行情或非一帆风顺，价格更多表现为亦步亦趋的缓步震荡上行。（光大期货）",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyazee6642278.shtml"
+      },
+      {
+        "time": "2026-11-09 11:00:48",
+        "text": "【国泰基金梁杏：AI硬件进入“鱼尾行情”，2027年更需做好配置】国泰基金首席量化官、量化投资部总监梁杏回顾2026年市场表现，并对2027年作出展望。梁杏判断，2027年AI上游硬件类资产或将进入“鱼尾”行情，收益收窄，波动放大。相较更易受海外风吹草动影响的通信板块，她更看好国产算力对应的半导体设备板块。此外，AI应用端的港股互联网、软件板块也值得关注。同时地缘冲突与美联储政策扰动增多，黄金具备较强配置价值，债市机会犹存但波动加大。梁杏认为，明年确定性机会变少，投资者应当做好多元资产配置，抵御各类不确定性，这样相对胜率会更高。在风险承受能力及资金安排匹配的前提下，梁杏建议，2027年大类资产配置的比例或可参考：债券50%、黄金10%、各类权益资产不超过40%。（每经网）",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyazcy6420543.shtml"
+      }
+    ]
+  },
+  "valuation_and_trend_boundaries": [
+    "资源股低PE可能来自金铜价格高位的高利润分母；需要商品价格/成本/产量的正常化情景，不直接照搬峰值利润长期年化。",
+    "目前金铜报价回升不保证股价趋势反转；短期需技术和成交验证，根任务核股价。",
+    "没有经验证的走势概率模型，不给主观上涨百分比。",
+    "上次11/2日报含未验证主观概率，本次不复用为统计胜率或强制沿用价位。"
+  ],
+  "sources": [
+    {
+      "name": "commodity_sina",
+      "url": "https://hq.sinajs.cn/list=hf_GC,hf_HG,hf_CAD,hf_XAU,nf_AU0,nf_CU0,fx_susdcnh,DINIW",
+      "retrieved_at": "2026-11-09T03:17:58.417873+00:00",
+      "ok": true,
+      "length": 1324
+    },
+    {
+      "name": "zijin_home",
+      "url": "https://www.zijinmining.com/",
+      "retrieved_at": "2026-11-09T03:17:58.418358+00:00",
+      "ok": true,
+      "length": 72272
+    },
+    {
+      "name": "zijin_cn",
+      "url": "https://www.zjky.cn/",
+      "retrieved_at": "2026-11-09T03:17:58.418534+00:00",
+      "ok": true,
+      "length": 77913
+    },
+    {
+      "name": "zijin_sina_index",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/601899.phtml",
+      "retrieved_at": "2026-11-09T03:17:58.418670+00:00",
+      "ok": true,
+      "length": 55504
+    },
+    {
+      "name": "live_news_2",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T03:17:58.418946+00:00",
+      "ok": true,
+      "length": 221478
+    },
+    {
+      "name": "live_news_1",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T03:17:58.418817+00:00",
+      "ok": true,
+      "length": 221236
+    },
+    {
+      "name": "live_news_3",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T03:17:58.419082+00:00",
+      "ok": true,
+      "length": 231275
+    },
+    {
+      "name": "live_news_4",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T03:17:58.419262+00:00",
+      "ok": true,
+      "length": 269825
+    },
+    {
+      "name": "live_news_5",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T03:17:58.557075+00:00",
+      "ok": true,
+      "length": 268717
+    },
+    {
+      "name": "cninfo",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "params": {
+        "pageNum": "1",
+        "pageSize": "50",
+        "column": "sse",
+        "tabName": "fulltext",
+        "stock": "",
+        "searchkey": "紫金矿业",
+        "secid": "",
+        "plate": "",
+        "category": "",
+        "trade": "",
+        "seDate": "2026-11-01~2026-11-09",
+        "sortName": "time",
+        "sortType": "desc",
+        "isHLtitle": "true"
+      },
+      "retrieved_at": "2026-11-09T03:17:59.001827+00:00",
+      "ok": true,
+      "total": 2
+    },
+    {
+      "name": "employee_pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659993.PDF",
+      "retrieved_at": "2026-11-09T03:18:39.821359+00:00",
+      "ok": true,
+      "length": 83195
+    },
+    {
+      "name": "hshare_pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225656111.PDF",
+      "retrieved_at": "2026-11-09T03:18:39.821877+00:00",
+      "ok": true,
+      "length": 159600
+    },
+    {
+      "name": "spot_gold_page",
+      "url": "https://finance.sina.com.cn/money/nmetal/hf.html?symbol=XAU",
+      "retrieved_at": "2026-11-09T03:18:39.822044+00:00",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "copper_page",
+      "url": "https://finance.sina.com.cn/futures/quotes/CAD.shtml",
+      "retrieved_at": "2026-11-09T03:18:39.822209+00:00",
+      "ok": true,
+      "length": 131923
+    },
+    {
+      "name": "zijin_news",
+      "url": "https://www.zjky.cn/news/news_list.jsp",
+      "retrieved_at": "2026-11-09T03:18:58.637860+00:00",
+      "ok": true,
+      "length": 52816
+    }
+  ],
+  "limitations": [
+    "四分钟有界核查，未穷尽每个海外子公司/合资矿公告。",
+    "商品主要为公开供应商API，非交易所付费逐笔；保留具体品种、定义与报价时间。",
+    "美债实时收益率、CME概率、金ETF持仓及LME库存未独立重新核，不用媒体评论作确定数据。",
+    "正式PDF用系统PDFKit读原文，文本与原档均已保存。"
+  ],
+  "short_report_zh": "11:17现货黄金4119.05美元/盎司，较日内参考约+1.19%；沪铜连续105710元/吨，较前结约+0.57%，美元指数约102.165略弱，金铜短线回升支持盈利预期。11月巨潮仅查到员工持股计划治理及H股证券月报，未见所查范围内新增重大并购/投产/停产。赤峰黄金控制权取得是10月旧事，不能重复当新利好；库存股份转员工计划非注销。中期仍取决于金铜价格、产量恢复/扩产、成本与并购整合兑现，低PE须防高利润分母回落。"
+}

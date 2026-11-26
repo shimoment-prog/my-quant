@@ -1,0 +1,404 @@
+{
+  "retrieved_at_utc": "2026-11-05T01:57:32.702283+00:00",
+  "methodology": {
+    "bars": "normal US trading sessions only; latest normal session 2026-11-04; Tencent qfq request",
+    "return": "close_t/close_(t-n)-1, n=5 or20 completed sessions",
+    "drawdown": "latest normal close / max intraday high over latest60 sessions -1; this is60-session drawdown, not all-time drawdown",
+    "volume": "latest normal session shares / average prior20 completed sessions shares",
+    "new_low": "strictly lower than prior20/60 intraday lows; equality excluded",
+    "latest_bar_supplement": "CIEN/MRVL daily history ended11/3, supplemented11/4 normal session summary from qt quote fields3,5,6,33,34; quote f30 16:05/16:00 are source summary timestamps, not first last trade or separate postmarket prices",
+    "limitations": "not a validated timing model; no calendar duration or bottom probability can be derived from returns alone"
+  },
+  "stocks": [
+    {
+      "symbol": "LITE",
+      "asof_normal_session": "2026-11-04",
+      "close_usd": 626.75,
+      "session_change_pct": -7.852564102564097,
+      "change_5_sessions_pct": -31.424038514141916,
+      "reference_5_session_date": "2026-10-28",
+      "change_20_sessions_pct": -43.590412845275274,
+      "reference_20_session_date": "2026-10-07",
+      "high_60_sessions_usd": 1143.0,
+      "high_60_sessions_date": "2026-10-09",
+      "drawdown_from_60_session_intraday_high_pct": -45.16622922134733,
+      "peak_close_60_sessions_usd": 1133.4,
+      "peak_close_60_sessions_date": "2026-10-06",
+      "drawdown_from_60_session_peak_close_pct": -44.70178224810306,
+      "last_low_usd": 598.7,
+      "prior_20_sessions_min_low_usd": 667.26,
+      "strict_new_20d_intraday_low": true,
+      "prior_60_sessions_min_low_usd": 667.26,
+      "strict_new_60d_intraday_low": true,
+      "strict_new_20d_closing_low": true,
+      "last_volume_shares": 9546926.0,
+      "volume_vs_prior_20_sessions_mean": 1.5991550392576594,
+      "last_5_sessions_low_check": [
+        {
+          "date": "2026-10-29",
+          "low": 899.38,
+          "close": 919.53,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-10-30",
+          "low": 805.29,
+          "close": 840.7,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-02",
+          "low": 679.0,
+          "close": 684.4,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-11-03",
+          "low": 667.26,
+          "close": 680.16,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-11-04",
+          "low": 598.7,
+          "close": 626.75,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        }
+      ],
+      "source_url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=us.LITE.OQ,day,,,100,qfq",
+      "rows": 101,
+      "latest_row_source": "daily_history",
+      "history_file": "/tmp/overseas-optics-outlook-20261105/history/us.LITE.OQ-tencent.json"
+    },
+    {
+      "symbol": "MRVL",
+      "asof_normal_session": "2026-11-04",
+      "close_usd": 159.8,
+      "session_change_pct": -7.076815723672725,
+      "change_5_sessions_pct": -36.49910590105304,
+      "reference_5_session_date": "2026-10-28",
+      "change_20_sessions_pct": -43.854964514088955,
+      "reference_20_session_date": "2026-10-07",
+      "high_60_sessions_usd": 301.21,
+      "high_60_sessions_date": "2026-10-06",
+      "drawdown_from_60_session_intraday_high_pct": -46.94731250622488,
+      "peak_close_60_sessions_usd": 286.95,
+      "peak_close_60_sessions_date": "2026-10-06",
+      "drawdown_from_60_session_peak_close_pct": -44.310855549747345,
+      "last_low_usd": 154.78,
+      "prior_20_sessions_min_low_usd": 167.4,
+      "strict_new_20d_intraday_low": true,
+      "prior_60_sessions_min_low_usd": 167.4,
+      "strict_new_60d_intraday_low": true,
+      "strict_new_20d_closing_low": true,
+      "last_volume_shares": 46568123.0,
+      "volume_vs_prior_20_sessions_mean": 1.875001484721206,
+      "last_5_sessions_low_check": [
+        {
+          "date": "2026-10-29",
+          "low": 214.56,
+          "close": 218.34,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-10-30",
+          "low": 190.15,
+          "close": 196.4,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-11-02",
+          "low": 168.52,
+          "close": 171.41,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-11-03",
+          "low": 167.4,
+          "close": 171.97,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-04",
+          "low": 154.78,
+          "close": 159.8,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        }
+      ],
+      "source_url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=us.MRVL.OQ,day,,,100,qfq",
+      "rows": 101,
+      "latest_row_source": "normal_session_summary_from_quote_api",
+      "history_file": "/tmp/overseas-optics-outlook-20261105/history/us.MRVL.OQ-tencent.json"
+    },
+    {
+      "symbol": "COHR",
+      "asof_normal_session": "2026-11-04",
+      "close_usd": 195.09,
+      "session_change_pct": -5.976191623692706,
+      "change_5_sessions_pct": -18.573396218540005,
+      "reference_5_session_date": "2026-10-28",
+      "change_20_sessions_pct": -41.68758967001435,
+      "reference_20_session_date": "2026-10-07",
+      "high_60_sessions_usd": 362.32,
+      "high_60_sessions_date": "2026-08-17",
+      "drawdown_from_60_session_intraday_high_pct": -46.15533230293663,
+      "peak_close_60_sessions_usd": 355.64,
+      "peak_close_60_sessions_date": "2026-08-12",
+      "drawdown_from_60_session_peak_close_pct": -45.14396580812057,
+      "last_low_usd": 187.16,
+      "prior_20_sessions_min_low_usd": 198.63,
+      "strict_new_20d_intraday_low": true,
+      "prior_60_sessions_min_low_usd": 198.63,
+      "strict_new_60d_intraday_low": true,
+      "strict_new_20d_closing_low": true,
+      "last_volume_shares": 11769528.0,
+      "volume_vs_prior_20_sessions_mean": 1.5284982393448652,
+      "last_5_sessions_low_check": [
+        {
+          "date": "2026-10-29",
+          "low": 229.85,
+          "close": 237.22,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-10-30",
+          "low": 203.87,
+          "close": 210.32,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-02",
+          "low": 198.63,
+          "close": 199.95,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-11-03",
+          "low": 201.25,
+          "close": 207.49,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-04",
+          "low": 187.16,
+          "close": 195.09,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        }
+      ],
+      "source_url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=us.COHR.N,day,,,100,qfq",
+      "rows": 101,
+      "latest_row_source": "daily_history",
+      "history_file": "/tmp/overseas-optics-outlook-20261105/history/us.COHR.N-tencent-test.json"
+    },
+    {
+      "symbol": "CIEN",
+      "asof_normal_session": "2026-11-04",
+      "close_usd": 272.24,
+      "session_change_pct": -9.277525993068503,
+      "change_5_sessions_pct": -25.046116571680287,
+      "reference_5_session_date": "2026-10-28",
+      "change_20_sessions_pct": -39.02116698398477,
+      "reference_20_session_date": "2026-10-07",
+      "high_60_sessions_usd": 462.69,
+      "high_60_sessions_date": "2026-08-13",
+      "drawdown_from_60_session_intraday_high_pct": -41.161468802005665,
+      "peak_close_60_sessions_usd": 449.77,
+      "peak_close_60_sessions_date": "2026-10-09",
+      "drawdown_from_60_session_peak_close_pct": -39.47128532360984,
+      "last_low_usd": 268.67,
+      "prior_20_sessions_min_low_usd": 282.67,
+      "strict_new_20d_intraday_low": true,
+      "prior_60_sessions_min_low_usd": 282.67,
+      "strict_new_60d_intraday_low": true,
+      "strict_new_20d_closing_low": true,
+      "last_volume_shares": 3881981.0,
+      "volume_vs_prior_20_sessions_mean": 1.239667510732581,
+      "last_5_sessions_low_check": [
+        {
+          "date": "2026-10-29",
+          "low": 340.01,
+          "close": 349.45,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-10-30",
+          "low": 313.27,
+          "close": 320.72,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-02",
+          "low": 282.67,
+          "close": 284.34,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-11-03",
+          "low": 288.35,
+          "close": 300.08,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-04",
+          "low": 268.67,
+          "close": 272.24,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        }
+      ],
+      "source_url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=us.CIEN.N,day,,,100,qfq",
+      "rows": 101,
+      "latest_row_source": "normal_session_summary_from_quote_api",
+      "history_file": "/tmp/overseas-optics-outlook-20261105/history/us.CIEN.N-tencent.json"
+    },
+    {
+      "symbol": "AAOI",
+      "asof_normal_session": "2026-11-04",
+      "close_usd": 59.27,
+      "session_change_pct": -7.347193997186174,
+      "change_5_sessions_pct": -27.912916565312575,
+      "reference_5_session_date": "2026-10-28",
+      "change_20_sessions_pct": -51.63212012404112,
+      "reference_20_session_date": "2026-10-07",
+      "high_60_sessions_usd": 160.99,
+      "high_60_sessions_date": "2026-08-17",
+      "drawdown_from_60_session_intraday_high_pct": -63.18404869867693,
+      "peak_close_60_sessions_usd": 154.89,
+      "peak_close_60_sessions_date": "2026-08-17",
+      "drawdown_from_60_session_peak_close_pct": -61.73413390147846,
+      "last_low_usd": 57.24,
+      "prior_20_sessions_min_low_usd": 61.88,
+      "strict_new_20d_intraday_low": true,
+      "prior_60_sessions_min_low_usd": 61.88,
+      "strict_new_60d_intraday_low": true,
+      "strict_new_20d_closing_low": true,
+      "last_volume_shares": 16088626.0,
+      "volume_vs_prior_20_sessions_mean": 1.279363476865457,
+      "last_5_sessions_low_check": [
+        {
+          "date": "2026-10-29",
+          "low": 76.98,
+          "close": 79.19,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-10-30",
+          "low": 65.77,
+          "close": 69.05,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-02",
+          "low": 61.88,
+          "close": 62.5,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-11-03",
+          "low": 62.3,
+          "close": 63.97,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-04",
+          "low": 57.24,
+          "close": 59.27,
+          "strict_new_20d_intraday_low": true,
+          "strict_new_20d_closing_low": true
+        }
+      ],
+      "source_url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=us.AAOI.OQ,day,,,100,qfq",
+      "rows": 101,
+      "latest_row_source": "daily_history",
+      "history_file": "/tmp/overseas-optics-outlook-20261105/history/us.AAOI.OQ-tencent.json"
+    },
+    {
+      "symbol": "FN",
+      "asof_normal_session": "2026-11-04",
+      "close_usd": 341.64,
+      "session_change_pct": -5.9697795392618325,
+      "change_5_sessions_pct": -6.986114892458484,
+      "reference_5_session_date": "2026-10-28",
+      "change_20_sessions_pct": -31.396212775356936,
+      "reference_20_session_date": "2026-10-07",
+      "high_60_sessions_usd": 603.09,
+      "high_60_sessions_date": "2026-08-17",
+      "drawdown_from_60_session_intraday_high_pct": -43.351738546485606,
+      "peak_close_60_sessions_usd": 598.58,
+      "peak_close_60_sessions_date": "2026-08-17",
+      "drawdown_from_60_session_peak_close_pct": -42.924922316148226,
+      "last_low_usd": 328.0,
+      "prior_20_sessions_min_low_usd": 305.63,
+      "strict_new_20d_intraday_low": false,
+      "prior_60_sessions_min_low_usd": 305.63,
+      "strict_new_60d_intraday_low": false,
+      "strict_new_20d_closing_low": false,
+      "last_volume_shares": 1592666.0,
+      "volume_vs_prior_20_sessions_mean": 1.4907142627157544,
+      "last_5_sessions_low_check": [
+        {
+          "date": "2026-10-29",
+          "low": 348.28,
+          "close": 348.68,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-10-30",
+          "low": 316.78,
+          "close": 327.29,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-02",
+          "low": 312.2,
+          "close": 314.7,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": true
+        },
+        {
+          "date": "2026-11-03",
+          "low": 329.36,
+          "close": 363.33,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        },
+        {
+          "date": "2026-11-04",
+          "low": 328.0,
+          "close": 341.64,
+          "strict_new_20d_intraday_low": false,
+          "strict_new_20d_closing_low": false
+        }
+      ],
+      "source_url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=us.FN.N,day,,,100,qfq",
+      "rows": 101,
+      "latest_row_source": "daily_history",
+      "history_file": "/tmp/overseas-optics-outlook-20261105/history/us.FN.N-tencent-test.json"
+    }
+  ]
+}

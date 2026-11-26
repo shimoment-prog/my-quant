@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ce_close",
+    "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261106_3286124.shtml",
+    "retrieved_at": "2026-11-09T00:51:16.535515+00:00",
+    "ok": true,
+    "bytes": 22365
+  },
+  {
+    "name": "ce_stable",
+    "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261109_3287514.shtml",
+    "retrieved_at": "2026-11-09T00:51:16.535862+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "cls_tele",
+    "url": "https://www.cls.cn/telegraph",
+    "retrieved_at": "2026-11-09T00:51:16.536040+00:00",
+    "ok": true,
+    "bytes": 17889
+  }
+]

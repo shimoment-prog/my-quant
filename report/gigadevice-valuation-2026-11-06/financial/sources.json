@@ -1,0 +1,38 @@
+{
+  "sources": {
+    "q3_2026_official_SSE": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-10-30/603986_20261030_IKA7.pdf",
+    "q3_2026_original_pdf_mirror": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-10/2026-10-30/12677209.PDF",
+    "q3_2026_html": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603986&id=12677209",
+    "fy2025_official_SSE": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-03-31/603986_20260331_A60L.pdf",
+    "fy2025_original_html": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603986&id=12044980",
+    "q3_2025_original_html": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603986&id=11551919",
+    "IR2026_004_original_docx": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-11/2026-11-03/12689666.DOCX",
+    "IR2026_004_index": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603986&id=12689666"
+  },
+  "disclosure": {
+    "q3_2026_first_SSE_adddate": "2026-10-29 17:08:01 Asia/Shanghai",
+    "q3_2026_nominal_date": "2026-10-30",
+    "fy2025_first_SSE_adddate": "2026-03-30 20:33:21 Asia/Shanghai",
+    "fy2025_nominal_date": "2026-03-31",
+    "IR2026_004_exchange_date": "2026-10-29 21:00-22:00",
+    "IR2026_004_release_date": "2026-11-03"
+  },
+  "manifests": [
+    "manifest.json",
+    "details_manifest.json",
+    "pdf_manifest.json",
+    "additional_manifest.json",
+    "prior_html_manifest.json"
+  ],
+  "financial_api": "RPT_F10_FINANCE_MAINFINADATA; API values in CNY; original reports corroborate profit inputs.",
+  "raw_files": [
+    "q3_2026.pdf",
+    "q3_2026_pages.json",
+    "annual_2025.html",
+    "annual_2025_clean.txt",
+    "q3_2025.html",
+    "q3_2025_clean.txt",
+    "ir_2026_004.docx",
+    "ir_2026_004_docx.txt"
+  ]
+}

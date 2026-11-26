@@ -1,0 +1,20 @@
+[
+  {
+    "name": "2027_2q_e03",
+    "url": "https://www.smfg.co.jp/english/investor/financial/latest_statement/2027_3/2027_2q_e03.pdf",
+    "ok": true,
+    "bytes": 2367732
+  },
+  {
+    "name": "2027_2q_e_summary",
+    "url": "https://www.smfg.co.jp/english/investor/financial/latest_statement/2027_3/2027_2q_e_summary.pdf",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "2027_2q_e_faq",
+    "url": "https://www.smfg.co.jp/english/investor/financial/latest_statement/2027_3/2027_2q_e_faq.pdf",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+]

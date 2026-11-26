@@ -1,0 +1,138 @@
+[
+  {
+    "name": "nvda_successor_media",
+    "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzi1350029.d.html",
+    "retrieved_at": "2026-11-12T00:48:29.037469+00:00",
+    "ok": true,
+    "length": 28730,
+    "final_url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzi1350029.d.html"
+  },
+  {
+    "name": "anthropic_cloud_media",
+    "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9105281.d.html",
+    "retrieved_at": "2026-11-12T00:48:29.037761+00:00",
+    "ok": true,
+    "length": 29027,
+    "final_url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkqa9105281.d.html"
+  },
+  {
+    "name": "coreweave_loan_media",
+    "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzq8691773.d.html",
+    "retrieved_at": "2026-11-12T00:48:29.037626+00:00",
+    "ok": true,
+    "length": 28624,
+    "final_url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzq8691773.d.html"
+  },
+  {
+    "name": "nvda_board",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "retrieved_at": "2026-11-12T00:48:29.036966+00:00",
+    "ok": true,
+    "length": 59621,
+    "final_url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+  },
+  {
+    "name": "meta_leadership_media",
+    "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzp1917089.d.html",
+    "retrieved_at": "2026-11-12T00:48:29.257308+00:00",
+    "ok": true,
+    "length": 28512,
+    "final_url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzp1917089.d.html"
+  },
+  {
+    "name": "nvda_independent",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+    "retrieved_at": "2026-11-12T00:48:29.037304+00:00",
+    "ok": true,
+    "length": 59324,
+    "final_url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+  },
+  {
+    "name": "supplier_denial_media",
+    "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkpv1756904.d.html",
+    "retrieved_at": "2026-11-12T00:48:29.300793+00:00",
+    "ok": true,
+    "length": 28493,
+    "final_url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniykkpv1756904.d.html"
+  },
+  {
+    "name": "white_house_media",
+    "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymsif1250815.d.html",
+    "retrieved_at": "2026-11-12T00:48:29.351119+00:00",
+    "ok": true,
+    "length": 27307,
+    "final_url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymsif1250815.d.html"
+  },
+  {
+    "name": "anthropic_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+    "retrieved_at": "2026-11-12T00:48:29.038034+00:00",
+    "ok": true,
+    "length": 2655,
+    "final_url": "https://data.sec.gov/submissions/CIK0002130357.json"
+  },
+  {
+    "name": "live_news_14",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=14&page_size=100&type=0",
+    "retrieved_at": "2026-11-12T00:48:29.488793+00:00",
+    "ok": true,
+    "length": 228647,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=14&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_13",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=13&page_size=100&type=0",
+    "retrieved_at": "2026-11-12T00:48:29.472275+00:00",
+    "ok": true,
+    "length": 259557,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=13&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_15",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=15&page_size=100&type=0",
+    "retrieved_at": "2026-11-12T00:48:29.497769+00:00",
+    "ok": true,
+    "length": 242541,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=15&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_17",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=17&page_size=100&type=0",
+    "retrieved_at": "2026-11-12T00:48:29.618540+00:00",
+    "ok": true,
+    "length": 271870,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=17&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_16",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=16&page_size=100&type=0",
+    "retrieved_at": "2026-11-12T00:48:29.611588+00:00",
+    "ok": true,
+    "length": 235825,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=16&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_18",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=18&page_size=100&type=0",
+    "retrieved_at": "2026-11-12T00:48:30.262599+00:00",
+    "ok": true,
+    "length": 221171,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=18&page_size=100&type=0"
+  },
+  {
+    "name": "coreweave_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001769628.json",
+    "retrieved_at": "2026-11-12T00:48:29.038190+00:00",
+    "ok": true,
+    "length": 157089,
+    "final_url": "https://data.sec.gov/submissions/CIK0001769628.json"
+  },
+  {
+    "name": "anthropic_s1a",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "retrieved_at": "2026-11-12T00:48:29.037902+00:00",
+    "ok": true,
+    "length": 14798492,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
+  }
+]

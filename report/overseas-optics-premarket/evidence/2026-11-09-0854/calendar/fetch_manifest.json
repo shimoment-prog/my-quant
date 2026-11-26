@@ -1,0 +1,34 @@
+[
+  {
+    "id": "sse_calendar",
+    "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 29581,
+    "retrieved_at": "2026-11-09T08:50:01.413873+08:00"
+  },
+  {
+    "id": "szse_notice",
+    "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 92739,
+    "retrieved_at": "2026-11-09T08:50:01.039941+08:00"
+  },
+  {
+    "id": "nyse_hours",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 125160,
+    "retrieved_at": "2026-11-09T08:50:06.702355+08:00"
+  },
+  {
+    "id": "nasdaq_schedule",
+    "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+    "http_status": 200,
+    "ok": true,
+    "bytes": 174900,
+    "retrieved_at": "2026-11-09T08:50:03.541810+08:00"
+  }
+]

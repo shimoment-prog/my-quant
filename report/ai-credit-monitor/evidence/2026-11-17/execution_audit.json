@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-17",
+  "reason": "User identified missing daily AI check",
+  "last_completed_before_makeup": "2026-11-16T00:32:08.760704+00:00",
+  "today_observation_existed_at_start": false,
+  "configured_status": "ACTIVE",
+  "configured_local_schedule": "08:30 daily Asia/Shanghai",
+  "native_automation_view_called": true,
+  "root_cause_established": false,
+  "interpretation": "No completed November17 local observation found before user request; cannot characterize omission as legitimate quiet result. Configuration active does not prove scheduled execution happened.",
+  "duplicate_automation_created": false,
+  "schedule_changed": false,
+  "run_type": "user_requested_makeup_actual_time_after10:00Beijing"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "power_rowan",
+    "url": "https://www.powermag.com/rowan-digital-infrastructure-secures-1-5-billion-in-financing-for-hyperscale-development-platform/",
+    "links": [
+      {
+        "url": "https://rowan.com/",
+        "text": "Rowan\u2019s"
+      },
+      {
+        "url": "https://rowan.com/",
+        "text": " Rowan Digital Infrastructure "
+      },
+      {
+        "url": "https://www.powermag.com/tag/rowan-digital-infrastructure/",
+        "text": "Rowan Digital Infrastructure"
+      }
+    ],
+    "ok": true,
+    "chars": 11641
+  },
+  {
+    "name": "citybiz_search",
+    "url": "https://www.citybiz.co/?s=Rowan+Digital+Infrastructure",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "blackstone_ir",
+    "url": "https://ir.blackstone.com/news-events/press-releases/default.aspx",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

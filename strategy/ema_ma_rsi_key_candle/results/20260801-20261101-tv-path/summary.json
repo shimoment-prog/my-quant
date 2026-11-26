@@ -1,0 +1,103 @@
+{
+  "config": {
+    "start_ms": 1785542400000,
+    "end_ms": 1793491200000,
+    "interval": "5m",
+    "ema_length": 10,
+    "ma_length": 10,
+    "rsi_length": 14,
+    "long_rsi_min": 50,
+    "long_rsi_max": 70,
+    "short_rsi_min": 30,
+    "short_rsi_max": 50,
+    "direction": "both",
+    "method": "both",
+    "reward_risk": 1.5,
+    "initial_capital": 10000,
+    "position_percent": 10,
+    "fee_percent": 0.05,
+    "slippage_ticks": 0,
+    "tick_size": 0.01,
+    "qty_step": 0.001,
+    "intrabar": "tv-path"
+  },
+  "entry_close_start_utc_inclusive": "2026-08-01T00:00:00+00:00",
+  "entry_close_end_utc_inclusive": "2026-11-01T00:00:00+00:00",
+  "data_first_open_utc": "2026-07-28T00:00:00+00:00",
+  "data_last_close_utc": "2026-11-01T00:00:00+00:00",
+  "data_bars": 27648,
+  "warmup_bars_before_entry_start": 1151,
+  "closed_trades": 592,
+  "winning_trades": 163,
+  "losing_trades": 429,
+  "breakeven_trades": 0,
+  "win_rate_percent": 27.533783783783782,
+  "profit_factor_net": 0.28603570220187213,
+  "closed_net_pnl": -513.0176102399998,
+  "total_fees_paid": 575.0441102400001,
+  "final_equity_mark_to_market": 9486.98238976001,
+  "total_return_percent_mark_to_market": -5.130176102399897,
+  "max_drawdown_percent_at_bar_close": 5.130176102399892,
+  "max_drawdown_amount_at_bar_close": 513.0176102399892,
+  "ambiguous_exit_bars": 20,
+  "rejected_signals": {},
+  "open_position": null,
+  "method_counts": {
+    "L1": 287,
+    "S1": 283,
+    "S2": 9,
+    "L2": 13
+  },
+  "funding_included": false,
+  "liquidation_modelled": false,
+  "limitations": [
+    "Independent OHLC simulator; not verified for exact TradingView trade parity.",
+    "Funding payments, mark-price triggers and Binance liquidation tiers are excluded.",
+    "Drawdown is measured at bar closes, not intrabar equity extremes.",
+    "Intrabar exit timestamps are unknown; CSV reports their enclosing candle.",
+    "Final open position is marked to market, not forcibly closed or included in win rate.",
+    "Tick and quantity steps are user parameters, not historical exchange-rule verification.",
+    "RSI uses Wilder smoothing; on all-flat prices its explicit zero-loss guard returns 100."
+  ],
+  "data_file": "/Users/richao11/myproject/my-quant/strategy/ema_ma_rsi_key_candle/data/ETHUSDT-5m-20260728-20261101.csv",
+  "data_sha256": "639beb73e0e7163013db53ba82e49887d476e8bb8460d05d70b75d934ab2f52a",
+  "data_source_metadata": {
+    "market": "Binance USD-M perpetual",
+    "symbol": "ETHUSDT",
+    "interval": "5m",
+    "timezone": "UTC",
+    "start_inclusive": "2026-07-28",
+    "end_exclusive": "2026-11-01",
+    "rows": 27648,
+    "first_open_time_ms": 1785196800000,
+    "last_close_time_ms": 1793491199999,
+    "downloaded_at_utc": "2026-11-18T02:03:00.631776+00:00",
+    "output_sha256": "639beb73e0e7163013db53ba82e49887d476e8bb8460d05d70b75d934ab2f52a",
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-07.zip",
+        "sha256": "2e9ba157f21fbcb97f108dd263d572cd0b4d6cc1db7cd54446f762f4ce3e6dda",
+        "bytes": 410874,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-08.zip",
+        "sha256": "c7ac44cb1ac58dd231b1a94c9d68907e2b3a8079dbf2dd8a5e744a6234766d47",
+        "bytes": 407196,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-09.zip",
+        "sha256": "143312487ffcc01c174156343fbf05ea48cbfa4e4602937caafb3e0ad3dbca9a",
+        "bytes": 400722,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10.zip",
+        "sha256": "10d747c6a14da77843520e78bbce65f9c2b685f6512cb8cea7fb2de5d3cc3908",
+        "bytes": 410425,
+        "official_sha256_verified": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "run_date": "2026-11-14",
+  "generated_at": "2026-11-14T00:36:49.496405+00:00",
+  "scope": [
+    "Alphabet/Google",
+    "Meta",
+    "Microsoft",
+    "Amazon",
+    "Oracle",
+    "Broadcom",
+    "Anthropic"
+  ],
+  "manifests": [
+    "submission_summary.json",
+    "news_manifest.json",
+    "focused_manifest.json",
+    "asia_decode_manifest.json",
+    "primary_manifest.json"
+  ],
+  "files": [
+    {
+      "file": "alphabet_submissions.json",
+      "bytes": 152277,
+      "sha256": "1f4d73b4ffdc3cd7fd33dc4c31a26c1e67d39ea5d9c03772a15c326d08c3a644"
+    },
+    {
+      "file": "amazon_submissions.json",
+      "bytes": 160388,
+      "sha256": "c2c36f85c91b5d57c0808db46c216d089401d3ad0c5b813ac828b8830481fd80"
+    },
+    {
+      "file": "anthropic_inkl_link.html",
+      "bytes": 589920,
+      "sha256": "ed625dc375e3e96604d8fbb44d36b10c50a9ec23187d7fef2b3a89a35570db8b"
+    },
+    {
+      "file": "anthropic_inkl_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "anthropic_inkl_link_decoded.txt",
+      "bytes": 311,
+      "sha256": "7f142a9affb908d0e4a9b7e83988b1f84699dd260a116b5aed96c2ad11855462"
+    },
+    {
+      "file": "anthropic_news.html",
+      "bytes": 344559,
+      "sha256": "30b8eae716e13361a1d8fbc07d2ad5713eb6dced8e32227234d6f6cc008d2d62"
+    },
+    {
+      "file": "anthropic_news.txt",
+      "bytes": 15361,
+      "sha256": "1ff03633df348085437c9a11e7bf8e00c72cdd39b8e79574bcb1f91c0d890ec6"
+    },
+    {
+      "file": "anthropic_pricing.html",
+      "bytes": 36985,
+      "sha256": "e0c82f421229eaa03354a8806fc7224708cbe8478b6415beeb352caeb470115b"
+    },
+    {
+      "file": "anthropic_pricing.txt",
+      "bytes": 31323,
+      "sha256": "bc2900c1a944386b1f593f900f4129cdbc8f44343fed2e27eefcef46ac2ded81"
+    },
+    {
+      "file": "anthropic_roadshow.html",
+      "bytes": 134025,
+      "sha256": "337b76e4be1dfadd859f13e805c39608bf7c3965a9711bcfe4ca8cc74b194bc6"
+    },
+    {
+      "file": "anthropic_roadshow.txt",
+      "bytes": 2544,
+      "sha256": "904c089c715eb5cdbde12f47d6e14ce28d3a5ff273c3990a7c1d066e7b3dc2ad"
+    },
+    {
+      "file": "anthropic_submissions.json",
+      "bytes": 3480,
+      "sha256": "defb9d209765f1b5020d861df148b3549fc54debd72b03bfebe23feb240c2983"
+    },
+    {
+      "file": "asia_aol.html",
+      "bytes": 616978,
+      "sha256": "fabbb836e8f832d48edf44b37818fde437051d90f01237e926f48b4ed7a97bf9"
+    },
+    {
+      "file": "asia_aol.txt",
+      "bytes": 5955,
+      "sha256": "8d77d16dcae61d8b49aa05951b220bf5ee031b661dde5cff6218c941c8a57e9f"
+    },
+    {
+      "file": "asia_aol_link.html",
+      "bytes": 585872,
+      "sha256": "0b320b90f7e6636e969b9c3b436d8113a1cd495b984579b6df9ec0c03d70f0c3"
+    },
+    {
+      "file": "asia_aol_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "asia_aol_link_decoded.txt",
+      "bytes": 210,
+      "sha256": "9608862e81caa9677dbb8ceacc46f77904afe4bc6219f58c857e703b94b26557"
+    },
+    {
+      "file": "asia_channel.html",
+      "bytes": 427326,
+      "sha256": "db50550d88c20888493e080b522642ce5be65e674fe0a4458105441e0b28e5e6"
+    },
+    {
+      "file": "asia_channel.txt",
+      "bytes": 28964,
+      "sha256": "2a8f1557eef34a5e689a37e0e88c1ab53e610ab9479a6f90786eef0349eed08e"
+    },
+    {
+      "file": "asia_channel_link.html",
+      "bytes": 586937,
+      "sha256": "b5b08031e343de584c7fb40a3dca19ad16787f7a0986f8f2ad4961d7c52d347c"
+    },
+    {
+      "file": "asia_channel_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "asia_channel_link_decoded.txt",
+      "bytes": 238,
+      "sha256": "5ae33d7e0e37206409a5682c933c5cffc7ef466d1b094c852650f431e4652d4b"
+    },
+    {
+      "file": "asia_decode_manifest.json",
+      "bytes": 2039,
+      "sha256": "e95d05b60a5962650555d565012ce359363e9279096b61c253aaca085bde5df9"
+    },
+    {
+      "file": "asia_primary.html",
+      "bytes": 1295,
+      "sha256": "9533cf12173bcdcee2b8c0a237fbf9ce2929a554f320588d42410ff34e51975c"
+    },
+    {
+      "file": "asia_primary.txt",
+      "bytes": 892,
+      "sha256": "79d65789925c307395702edcc4296eb29433a34424802ba7b21cd2040f5507f9"
+    },
+    {
+      "file": "asia_standard_link.html",
+      "bytes": 587642,
+      "sha256": "91208b42a355ec902f5575ff315c49558f86d069d0c54881f7447a23cbf8a704"
+    },
+    {
+      "file": "asia_standard_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "asia_standard_link_decoded.txt",
+      "bytes": 254,
+      "sha256": "8cc71667633b409cc7bf1fb649456165df8d31e02e2d1c6bd86ff0cde6b19cc3"
+    },
+    {
+      "file": "asia_straits_link.html",
+      "bytes": 587994,
+      "sha256": "7e3f6634868a3b7ebe2c0599564d0feccb658cb0e6474088ad74feae7e66bc8a"
+    },
+    {
+      "file": "asia_straits_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "asia_straits_link_decoded.txt",
+      "bytes": 264,
+      "sha256": "066caafcd47236d63a7fc2ca7f7baef686c35daecd69dbfbaed2580f19270b85"
+    },
+    {
+      "file": "broadcom_redburn_link.html",
+      "bytes": 587807,
+      "sha256": "3236a4c27daf28a725fede1e81f4112a4e056cf956e98a5567331365cd15fb83"
+    },
+    {
+      "file": "broadcom_redburn_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "broadcom_redburn_link_decoded.txt",
+      "bytes": 259,
+      "sha256": "071aece9290724abc2c762d7c8aad7a5638b3facb9689fcbdb8eae642ae648d2"
+    },
+    {
+      "file": "broadcom_submissions.json",
+      "bytes": 160094,
+      "sha256": "41ec85346d2b5ffbd8358ab2d3ef9400598660be94281edacf784da984097866"
+    },
+    {
+      "file": "customer_cuts.html",
+      "bytes": 2929,
+      "sha256": "32649b6f903463fa84a13b62510b59b7971d8a9ce6dd98553347e4fdfbd28345"
+    },
+    {
+      "file": "customer_cuts.txt",
+      "bytes": 2329,
+      "sha256": "cb04b3fdb9fc07c053a38b22f34608f8e3401f4e71fc8c6585b2e3fd757cb5b8"
+    },
+    {
+      "file": "decode.py",
+      "bytes": 1356,
+      "sha256": "6f5adaed53539bef8a16d670424eefcca9da5a1b6eee249c582a9ef368979536"
+    },
+    {
+      "file": "fetch.py",
+      "bytes": 1494,
+      "sha256": "66ebe0add67fabba402155564081033c3cf412f4c8407a62f14aac3a1bc5170e"
+    },
+    {
+      "file": "findings.json",
+      "bytes": 15159,
+      "sha256": "e03032ef9706ded11b61f886f57ddbcea59b8d6cfc6fb9e4ae6ec0d6bdc3628d"
+    },
+    {
+      "file": "focused.py",
+      "bytes": 1965,
+      "sha256": "524b20f26e8a8384b3e021bcf4653a4f9edc6af69899f622cb6f7f761546f749"
+    },
+    {
+      "file": "focused_manifest.json",
+      "bytes": 11744,
+      "sha256": "30f04ba21de6d3f29161a7b62f08921198a016d8a1cd281528241ed17b1fab79"
+    },
+    {
+      "file": "google_rss.html",
+      "bytes": 28955,
+      "sha256": "b316f588f7c56c274479627792fa684368d666dd4f1fb8819e506994f6c818c8"
+    },
+    {
+      "file": "google_rss.txt",
+      "bytes": 17537,
+      "sha256": "8196a2f272764374406bd17ebee607d03d38c3687d22ad4d22b28d5fb9adb115"
+    },
+    {
+      "file": "meta_submissions.json",
+      "bytes": 158003,
+      "sha256": "c6f435b91227397aea548f475753739fa829761573328bc3df1f250931f10c75"
+    },
+    {
+      "file": "microsoft_submissions.json",
+      "bytes": 186640,
+      "sha256": "4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e"
+    },
+    {
+      "file": "news.py",
+      "bytes": 2294,
+      "sha256": "a5f24837f43aec0097eb4a1e891a9c670151ea4840514b594d1b25e4d7430103"
+    },
+    {
+      "file": "news_anthropic.html",
+      "bytes": 36108,
+      "sha256": "5237c593a44c45035c695cb1b90881887b89cf83e83b4c844088bf3ee1a42842"
+    },
+    {
+      "file": "news_anthropic.txt",
+      "bytes": 30476,
+      "sha256": "b871825ac7ec4bb2cc76566e67a9479c75e5bbbcd3d8c531cd7ffd0de221f053"
+    },
+    {
+      "file": "news_asia.html",
+      "bytes": 36412,
+      "sha256": "085154d8f8bb5138fab042176bc51bd5c9a5c30f72fbe68ddeb3060dd5c1577e"
+    },
+    {
+      "file": "news_asia.txt",
+      "bytes": 30925,
+      "sha256": "4aef62c8c5d432b384eab64acdbf0f81db1a135770b71f0db978857b47ac917c"
+    },
+    {
+      "file": "news_broadcom.html",
+      "bytes": 20824,
+      "sha256": "66d5fb3ab37bf8985c5664eb85e7031ce442085dab4021999b02d23f4aaad4f7"
+    },
+    {
+      "file": "news_broadcom.txt",
+      "bytes": 17521,
+      "sha256": "c7578435a860d20ceb999d489617e405d60e58be4c2c80af74f927fe9e10fa00"
+    },
+    {
+      "file": "news_buyer_cuts.html",
+      "bytes": 32248,
+      "sha256": "98d2f17aeeedd6f0aa24df8c3922df5b6b3b7cf80775ca66b571a7699a040cca"
+    },
+    {
+      "file": "news_buyer_cuts.txt",
+      "bytes": 27542,
+      "sha256": "a21c2c8820aecadabacaa20c4b17b69b967091da98e9ad52d1928afe473e1519"
+    },
+    {
+      "file": "news_manifest.json",
+      "bytes": 71404,
+      "sha256": "69787c9434cbc7506a87b36f180eeab51a34ea3b14ab1463bb5a3da20e2433ca"
+    },
+    {
+      "file": "news_msft_oracle.html",
+      "bytes": 14427,
+      "sha256": "4392d1f80a32cc5c67b6076807f1ac8f989705f9e4a1352df52dbc8f58ecdad1"
+    },
+    {
+      "file": "news_msft_oracle.txt",
+      "bytes": 12256,
+      "sha256": "9cbf06f45a0924dea6c90069d8952085605803e24cbcc9df6db545f229435699"
+    },
+    {
+      "file": "news_oracle.html",
+      "bytes": 35257,
+      "sha256": "cf2d1b8f5ce5452de69e7f11cdfd35b16ac29ce7ed86d425a7e72f964c473564"
+    },
+    {
+      "file": "news_oracle.txt",
+      "bytes": 29640,
+      "sha256": "6ab73784595c406cf20405d86bd3764b98afb23018f48c775f26440567f83a85"
+    },
+    {
+      "file": "oracle_submissions.json",
+      "bytes": 158530,
+      "sha256": "5364c4ec08e6aca1823b81257780b0b69290fe38e98ab9f48ca7268d0b4d14dc"
+    },
+    {
+      "file": "primary.py",
+      "bytes": 2350,
+      "sha256": "ef6fbe2f5d195d83f4a726b01460c7071a9853aea6e9ffaa234ebceb314ea93a"
+    },
+    {
+      "file": "primary_manifest.json",
+      "bytes": 2296,
+      "sha256": "2e319db8bbc94835e50735dd22b95b555dfb1ebda39b631a313514740adf454d"
+    },
+    {
+      "file": "sources_to_fetch.json",
+      "bytes": 1123,
+      "sha256": "93185b6a53cb6cc0fb3d5fb337deea65764db5fec5fc784c0ec29e170d04159a"
+    },
+    {
+      "file": "submission_summary.json",
+      "bytes": 2585,
+      "sha256": "b85f96743e1fd9220eeb779c6b794481d5a2ce76f815e052810d1ad12ee082ad"
+    }
+  ]
+}

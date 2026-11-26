@@ -1,0 +1,62 @@
+{
+  "assessment": {
+    "a_share_sector": "光通信／光模块",
+    "opening_bias": "盘后冲击使开盘承压；正常盘强反弹提供反证，方向确定性低",
+    "full_day_base_case": "高波动震荡分化，警惕冲高回落",
+    "opening_confidence": "中等偏低",
+    "full_day_confidence": "中等偏低",
+    "numeric_probability": null,
+    "model_validated": false,
+    "probability_label": "暂无可靠百分比",
+    "supporting_evidence": [
+      "六家海外光通信11/11正常盘全涨且均跑赢费半，但最近盘后均回落；NVDA盘后跌8.65%，AVGO盘后涨2.18%，显示分化。",
+      "新易盛、中际昨日分别大涨16.97%、15.07%，已显著强于通信ETF及创业板；短期波动放大，不能机械照搬海外正常盘涨幅。",
+      "NVDA管理层继任相关新增媒体报道未有官方决定确认；重大人事不确定性可影响风险偏好，但未核实需求订单取消。"
+    ],
+    "counterevidence": [
+      "六家正常盘涨5.88%至15.60%，费半涨5.66%；海外正常盘修复广泛。",
+      "两只A股龙头昨日高开走强且收于高位；博通盘后继续上涨，对全面产业链需求塌陷判断构成反证。"
+    ],
+    "alternative_scenarios": [
+      {
+        "scenario": "修复延续",
+        "conditions": "开盘后两股同步站稳成交均价，相对通信ETF和创业板持续走强，回踩量缩且局部低点抬高。"
+      },
+      {
+        "scenario": "冲高回落或承压扩大",
+        "conditions": "两股与通信ETF同步转弱，完整等长时段成交放大且失守开盘后已形成的回踩低点。"
+      }
+    ],
+    "opening_validation_signals": [
+      "新易盛、中际是否同时跑赢通信ETF与创业板；避免只看单股。",
+      "开盘后形成的成交均价及第一次回踩：是否守住、是否有更高低点。",
+      "等长完整时段比较回踩成交；放量失守后反弹不回均价则下调情景。"
+    ],
+    "medium_term": "治理或融资风险与真实需求分开；继续关注800G/1.6T交付、毛利、回款及客户实际资本开支，不以媒体人事消息或融资计划推算模块订单。"
+  },
+  "limitations": [
+    "No validated numerical probability model or hit-rate claim.",
+    "US normal closes crosschecked between Tencent and Sina for stocks and Nasdaq; SOX sourced from Sina, not confused with SOXX ETF.",
+    "Extended-hours quotations are separate snapshots at08:47-08:49Beijing, relative to normal close, not final afterhours close; next US premarket has not begun.",
+    "US history API returned only1-2sparse rows;5/20session returns and time-ordered intraday paths unverified.",
+    "Bounded official SEC/IR review with some IR sources inaccessible; no proof of all worldwide updates.",
+    "NVIDIA successor and CoreWeave financing reports remain attributed anonymous-source media; no official decision or completed financing verified.",
+    "Prior-day A-share prices are completeNov11session data, not today prices.",
+    "No writes to intraday monitoring state,179.83line or existing predictions; protected-file hashes verified.",
+    "Newsfeed1800rows startsNov11 09:37:53, leaving09:06:53-09:37:53coveragegap; independentSECchecks cover filings.",
+    "FourIRsites inaccessible; absence in bounded sources is not proof no event exists.",
+    "NewCEO/successor and financing reports cite unnamed sources; no officialdecisionorcompletedfinancingverified.",
+    "Anthropicdocumentisold;mediaUSD10bnincrementnotindependentlyversion-diffed.",
+    "Companyoutlooksarenotrealizedfutureperformanceorquantifiedmoduleorders.",
+    "No historical rumor inferred as fresh confirmed capex/order event."
+  ],
+  "previous_forecast_review": {
+    "prior_date": "2026-11-11",
+    "prior_direction": "开盘偏弱、全天震荡分化",
+    "actual_opening": "新易盛高开1.90%，中际旭创高开2.00%。",
+    "actual_full_session": "新易盛收215.00元涨16.97%，中际旭创收542.00元涨15.07%；均明显强于通信ETF+8.00%和创业板+3.11%。",
+    "assessment_zh": "主情景明显偏弱，低估本地板块承接与上行动量。原判断较重视11/10美股正常盘回吐及A股前日冲高回落。11/11午间公司经营回复为预测后新增信息，不能回填成盘前已知；仅凭行情不能确认实际上涨的单一消息或资金原因。",
+    "no_hit_rate": true,
+    "source_analysis": "ashares/analysis.json"
+  }
+}

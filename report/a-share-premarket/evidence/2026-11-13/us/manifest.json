@@ -1,0 +1,37 @@
+[
+  {
+    "name": "cnbc_close",
+    "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html",
+    "retrieved_at": "2026-11-13T00:41:28.093596+00:00",
+    "ok": true,
+    "len": 1147639
+  },
+  {
+    "name": "cnbc_close_alt",
+    "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+    "retrieved_at": "2026-11-13T00:41:28.094055+00:00",
+    "ok": true,
+    "len": 896327
+  },
+  {
+    "name": "news_market",
+    "url": "https://news.google.com/rss/search?q=US%20stock%20market%20November%2012%202026%20S%26P%20Nasdaq%20Dow%20Reuters%20CNBC&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-13T00:41:28.094233+00:00",
+    "ok": true,
+    "len": 14235
+  },
+  {
+    "name": "news_optical",
+    "url": "https://news.google.com/rss/search?q=Cisco%20CoreWeave%20Lumentum%20Coherent%20Marvell%20November%2012%202026%20earnings&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-13T00:41:28.094437+00:00",
+    "ok": true,
+    "len": 14089
+  },
+  {
+    "name": "news_macro",
+    "url": "https://news.google.com/rss/search?q=Treasury%20yields%20dollar%20oil%20November%2012%202026%20Reuters%20CNBC&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-13T00:41:28.094585+00:00",
+    "ok": true,
+    "len": 43074
+  }
+]

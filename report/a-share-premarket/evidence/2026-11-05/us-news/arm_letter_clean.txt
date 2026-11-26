@@ -1,0 +1,797 @@
+
+EX-99.2
+3
+exhibit992fye27q230-sepx26.htm
+EX-99.2
+
+
+
+
+Document
+
+
+
+
+
+
+
+
+Exhibit 99.2
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+Arm will be hosting a conference call via an audio webcast to discuss earnings at 14:00 Pacific Time (17:00 Eastern Time, 22:00 GMT) on Wednesday, November 4, 2026. A replay of and a transcript of the call will be available the following day.
+The webcast and replay can be accessed at: https://edge.media-server.com/mmc/p/zyzi4u5w
+
+
+Dear Shareholder, 
+
+
+Arm delivered a record second quarter, reflecting strong execution and growing demand for the Arm compute platform. Revenue reached $1.44 billion, up 27% year over year, marking our fifth consecutive quarter of year over year growth exceeding 20%. License and other revenue grew 50% to $773 million, while royalty revenue grew 8% to $670 million, with data center royalties doubling year over year. Non-GAAP earnings per share reached $0.52, up 33% year over year, while we continued to increase investment in R&D.
+
+
+AI is driving unprecedented demand for compute across the cloud, devices and autonomous systems, with Arm being the compute platform of choice. Our business is now driven by two areas, both of which are showing rapid growth: The IP business, where partners increase their investment in Arm technology and deploy record numbers of Arm-based silicon, and our new silicon business, where demand for Arm AGI CPU is extremely strong. Both are built on the same Arm compute platform, leveraging a common software ecosystem. 
+
+
+As customers integrate increasingly powerful CPUs, GPUs and NPUs, into their designs, they face both growing system complexity and increasingly demanding power constraints. This is driving greater investment in Arm technology by our customers, contributing to 50% growth in license and other revenue. Strong licensing momentum is an important leading indicator of future royalty growth as these new designs enter production where we expect royalty revenue to accelerate.
+
+
+Arm Is Gaining Share Across the Data Center 
+
+
+Arm continues to gain share across the data center, driven by growing demand for performance and power efficiency as AI infrastructure scales. Data center royalties doubled year over year, and Arm-based server market share at the top hyperscalers more than tripled—from 15% in calendar 2024 to more than 50% in calendar 2025. Based on current ramps across Google Axion, AWS Graviton, Microsoft Cobalt, and NVIDIA platforms, we expect that share to exceed 60% by the end of calendar 2026.
+
+
+As AI moves from prompt-driven applications to persistent agents, power efficient CPUs are becoming increasingly critical to data center performance. Agents execute software, call tools and coordinate work between accelerator invocations, increasing demand for both Arm-based processors developed by our partners and Arm AGI CPU. 
+
+
+Our partners continue to expand their deployment of Arm-based infrastructure. Amazon recently reported that Graviton revenue commitments increased more than 20x year over year, Microsoft highlighted strong adoption of Arm-based Cobalt CPUs, and Google identified Arm-based Axion as a critical component of its AI infrastructure. NVIDIA continues to expand its Arm-based Vera CPU platform for agentic AI, now generally available on Oracle Cloud Infrastructure (OCI) and deployed in production with OpenAI. 
+
+
+During the quarter, we introduced Neoverse CSS N4 enabling partners to develop differentiated silicon for CPUs, networking, infrastructure management, and security. Delivering up to 2x performance per socket and 25% better performance per watt than the prior generation, CSS N4 enables more compute within constrained data centers. 
+
+
+Alongside our growing IP business, Arm AGI CPU expands our opportunity by delivering Arm-designed silicon directly to customers. Since launching in March, demand has continued to strengthen, with purchase orders secured from multiple customers extending through calendar 2027 and first commercial deliveries on track for fiscal Q4’27. Oracle Cloud Infrastructure plans to offer Arm AGI CPU instances in 2027, bringing Arm-designed and partner-designed processors together on a common platform and software ecosystem. 
+
+
+
+
+
+
+2
+
+
+
+
+
+Our confidence in achieving up to $2 billion in Arm AGI CPU revenue over FY27–28 has increased over the last 90 days, supported by additional supply and customer mix. We remain focused on expanding capacity to meet growing customer demand. 
+
+
+Power availability is becoming a critical constraint on data center growth, with Morgan Stanley recently projecting a 38GW global power shortfall through 2028. Arm is helping customers address this constraint by delivering more useful compute from the power already available. At the Open Compute Project summit, independent testing by Signal65 showed Arm AGI CPU delivering approximately 2x the performance per rack versus AMD EPYC 9755, which could reduce the projected global power shortfall by half. 
+
+
+As agentic AI scales, infrastructure must also become more secure. NVIDIA's recently announced OpenShell architecture uses Arm-based CPUs to execute AI workloads and Arm-based BlueField-4 Data Processing Units (DPUs) to independently enforce security and isolation. With Arm compute on both sides of the trust boundary, this demonstrates the expanding role of the Arm platform in enabling agentic AI at scale. 
+
+
+Arm Is Enabling the Next Generation of Edge AI 
+
+
+AI is transforming personal computing, bringing more intelligence directly to PCs and smartphones while increasing demand for compute performance, power efficiency and security. As AI agents become more capable and persistent, Arm provides a common platform and software foundation spanning devices and the cloud. 
+
+
+Arm-based PCs have now reached approximately 20% of global shipments, reflecting growing adoption of Arm in personal computing. Google introduced Googlebook, a new category of AI-native laptops built for Gemini Intelligence, with Arm serving as a primary compute platform for many models. NVIDIA’s RTX Spark, built on Arm further expands our reach into local AI, content creation and gaming. 
+
+
+In smartphones, AI is driving demand for more capable on-device processing without compromising battery life. Arm CSS for Mobile 2 drives the performance of agentic AI workloads up by 70% through SME2, already adopted by major smartphone vendors like OPPO and vivo. Arm’s first AI-native Mali GPU, G2-Ultra NX, delivers up to 4x the frame rate at the same sustained power, with Xiaomi adopting the technology and leading gaming developers integrating Arm Neural Technology. 
+
+
+As AI agents access more personal information and act on users’ behalf, Armv9 security technologies help protect sensitive workloads and system resources. By enabling more AI compute within the power constraints of personal devices, Arm is expanding both its market opportunity and the value of its technology in every chip. 
+
+
+Physical AI Is Scaling on Arm
+
+
+Physical AI royalty revenue grew 50% year over year, driven by increased adoption of advanced driver-assistance and in-vehicle infotainment systems. As vehicles become more intelligent and autonomous, demand for compute performance, real-time control, safety and security continues to increase. Armv9 and Zena CSS provide the foundation for this transition, with Tensor’s Level 4 personal Robocar integrating more than 400 Arm CPU cores to support autonomy, safety and vehicle control.
+
+
+As automotive architectures evolve toward more centralized computing and higher levels of autonomy, Arm is positioned to capture increasing compute content per vehicle. Beyond automotive, increasingly capable robots and autonomous machines are creating new demand for energy-efficient compute and real-time processing. 
+
+
+To accelerate adoption, we launched Arm Total Design for Physical AI, bringing together more than 80 companies across compute, software, AI models and system integration to accelerate the development and deployment of Physical AI systems. This initiative extends Arm’s compute platform into new markets as AI moves beyond digital applications into the physical world.
+
+
+More Compute, More Value for Arm
+
+
+For the first time, our partners reported more than 10 billion Arm-based chips shipped during the quarter, an increase of 1.5 billion chips year over year. This adds to the scale of a platform already used by more than 30 million developers. 
+
+
+3
+
+
+
+
+
+
+
+
+
+The opportunity ahead is significant. AI is increasing the amount and complexity of compute required across every market, driving greater investment in Arm technology and expanding demand for Arm-based silicon. With growing adoption of our IP, increasing demand for Arm AGI CPU and an unmatched software ecosystem, Arm is positioned to capture a greater share of the value created as AI transforms computing. 
+
+
+
+
+
+
+“Arm delivered its fifth consecutive quarter of revenue growth above 20%, reflecting the strength of our business as AI drives increasing demand for compute. Our IP business continues to grow, with 50% licensing growth  demonstrating the increasing investment in the power efficient Arm compute platform which will drive even higher royalty growth in the future. Additionally, demand for our silicon business continues to accelerate, with growing customer commitments giving us even greater confidence in achieving up to $2 billion in Arm AGI CPU revenue across fiscal 2027 and 2028. Arm is becoming the compute platform of choice as AI transforms every market.”- Rene Haas, CEO, Arm 
+
+
+Sincerely,
+
+
+
+
+Rene Haas, 
+Chief Executive OfficerJason Child, 
+Chief Financial Officer
+
+Investor Contact
+Investor.Relations@arm.com
+Media Contact 
+Global-PRteam@arm.com
+
+
+4
+
+
+
+
+
+
+
+
+
+Q2 FYE27 Financial Overview
+•Arm's Q2 results demonstrated strong year-over-year revenue growth. Total revenue increased 27% year-over-year to $1,443 million, representing our best ever second-quarter revenue.
+•Royalty revenue increased 8% year-over-year to $670 million, driven by the continued adoption of Arm technology with higher royalty rates per chip, such as Armv9 architecture and Arm CSS, and increased deployment of Arm-based chips in data centers. This was partially offset by the impact of memory pricing on the smartphone market.
+•License and other revenue increased 50% year-over-year to $773 million driven by continued strong demand for Arm IP, as well as fluctuation in the timing and size of multiple high-value license agreements and contributions from backlog.
+•Annualized contract value (ACV), a metric for normalized license and other revenue, increased 12% year-over-year to $1,790 million.
+•GAAP gross profit was $1,401 million, which equates to a GAAP gross margin of 97.1%. Non-GAAP gross profit was $1,412 million, which equates to a non-GAAP gross margin of 97.9%.
+•GAAP operating expenses were $1,200 million. Non-GAAP operating expenses were $774 million and increased 19% year-over-year.
+•GAAP research and development was $857 million. Non-GAAP research and development was $547 million and increased 17% year-over-year driven primarily by investment in engineering headcount and other expenses.
+•GAAP selling, general and administrative was $343 million. Non-GAAP selling, general and administrative was $227 million and increased 25% year-over-year.
+•GAAP operating income was $201 million. Non-GAAP operating income was $638 million.
+•GAAP operating margin decreased to 13.9% from 14.4% in the prior year period. Non-GAAP operating margin increased to 44.2% from 41.1% in the same period a year ago.
+•GAAP net income was $130 million and GAAP fully diluted earnings per share ("EPS") was $0.12 compared with $0.22 in the same period a year ago. Non-GAAP net income was $566 million and non-GAAP fully diluted EPS was $0.52 compared with $0.39 in the same period a year ago.
+•Non-GAAP free cash flow (FCF) for the trailing twelve months was $1,096 million.
+•Cash and cash equivalents and short-term investments totaled $3,621 million.
+
+Guidance and Results
+
+
+
+
+ Quarterly Guidance & Results
+Q2 FYE27
+Guidance
+Q2 FYE27
+ResultsQ3 FYE27
+Guidance
+Revenue$1.38bn +/- $50m
+$1.443bn$1.54bn +/- $50m
+
+Non-GAAP operating expense (1)~$780m
+$774m~$825m
+
+Non-GAAP fully diluted earnings per share (1)$0.47 +/- $0.04$0.52$0.56 +/- $0.04
+
+
+
+
+
+
+(1)  For more information and definitions of the non-GAAP measures see the “Key Financial and Operating Metrics” section below. A reconciliation of each of the projected non-GAAP operating expense and non-GAAP fully diluted earnings per share, which are forward-looking non-GAAP financial measures, to the most directly comparable GAAP financial measure, is not provided because Arm is unable to provide such reconciliation without unreasonable effort. The inability to provide each reconciliation is due to the unpredictability of the amounts and timing of events affecting the items we exclude from the non-GAAP measure, which could potentially have a significant impact on our corresponding GAAP results.
+
+
+5
+
+
+
+
+
+
+
+
+Key Financial and Operating Metrics
+
+
+We use the following key performance indicators and non-GAAP financial measures to analyze our business performance and financial forecasts and to develop strategic plans, which we believe provide useful information to investors to aid in understanding and evaluating our results of operations in the same manner as our management team. Certain judgments and estimates are inherent in our processes to calculate these metrics. These key performance indicators and non-GAAP financial measures are presented for supplemental informational purposes only, should not be considered a substitute for financial information presented in accordance with GAAP, and may differ from similarly titled metrics or measures presented by other companies.
+
+
+The following table sets forth a summary of the key financial and operating metrics for the three months ended September 30, 2026 (for year-to-date key financial metrics, see the "Condensed Consolidated Income Statements" and "GAAP to Non‑GAAP Reconciliation" sections below):
+
+
+(in millions, except where indicated)
+GAAP
+Non-GAAP (1)
+Q2 FYE27Q2 FYE26
+Y/Y%Q2 FYE27Q2 FYE26Y/Y%
+
+Total revenue (2)$1,443$1,13527%$1,443$1,13527%
+
+License and other revenue77351550%77351550%
+Royalty revenue6706208%6706208%
+Cost of sales(42)(29)45%(31)(20)55%
+Gross profit1,4011,10627%1,4121,11527%
+Gross margin (%)97.1%97.4%97.9%98.2%
+Operating expenses$(1,200)$(943)27%$(774)$(648)19%
+Research and development(857)(691)24%(547)(466)17%
+Selling, general and administrative(343)(252)36%(227)(182)25%
+
+
+Operating income (loss)20116323%63846737%
+Operating margin (%)13.9%14.4%44.2%41.1%
+Net income (loss)130238(45)%56641736%
+Diluted earnings (loss) per share ($)$0.12$0.22(45)%$0.52$0.3933%
+Net cash provided by (used for) operating activities207567
+(63)%
+
+Non-GAAP free cash flow110411(73)%
+
+Non-GAAP free cash flow trailing twelve months (TTM)1,0961,0732%
+
+
+
+Operating metrics (3):Q2 FYE27Q2 FYE26Y/Y%
+Annualized contract value (in millions)$1,790$1,60012%
+
+
+
+
+
+
+
+(1)    Non-GAAP cost of sales, Non-GAAP gross profit, Non-GAAP gross margin, Non-GAAP operating expenses, Non-GAAP research and development operating expenses, Non-GAAP selling, general and administrative operating expenses, Non-GAAP operating income (loss), Non-GAAP operating margin, Non-GAAP net income (loss), Non-GAAP diluted earnings (loss) per share, Non-GAAP free cash flow, and Non-GAAP free cash flow TTM are non-GAAP financial measures. For more information regarding our use of these measures and a reconciliation of these measures to the most directly comparable GAAP financial measures, see “—GAAP to Non-GAAP Reconciliation” below.
+(2)    Total revenue, license and other revenue, and royalty revenue are presented in accordance with GAAP only.
+(3)    Operating metrics are as of the last day of the applicable period. We continually review our key operating metrics to ensure that they provide useful information to investors in understanding and evaluating our results of operations. The quarterly remaining performance obligations and the number of extant Arm Total Access and Arm Flexible Access licenses has become less relevant to our growth with the extension of our business into production silicon. As such, beginning with Q1 FYE27, we are no longer reporting the remaining performance obligations and the number of extant Arm Total Access and Arm Flexible Access licenses in our shareholder letter.
+
+
+
+
+6
+
+
+
+
+
+
+
+Total revenue
+Our major product offerings consist of the following:
+License and other revenue
+•Intellectual property license — We generally license IP under non-exclusive license agreements that provide usage rights for specific applications for a finite or perpetual term. These licenses are made available electronically to address the customer-specific business requirements. These arrangements generally have distinct performance obligations that consist of transferring the licensed IPs, version extensions of architecture IP or releases of specified IPs, and support services. Support services consist of a stand-ready obligation to provide technical support, patches, and bug fixes over the support term. Where arrangements include royalty buy-downs or upfront minimum royalty commitments, the Company treats them as fixed contract consideration under licensing revenue. Revenue allocated to the IP license is recognized at a point in time upon the delivery or beginning of the license term, whichever is later. Revenue allocated to distinct version extensions of architecture IP or releases of specified IP, excluding when-and-if-available minor updates over the support term, are recognized at a point in time upon the delivery or beginning of license term, whichever is later.
+Certain license agreements provide customers with the right to access a library of current and future IPs on an unlimited basis over the contractual period depending on the terms of the applicable contract. These licensing arrangements represent stand-ready obligations in that the timing of the delivery of the underlying IPs is within the control of the customer and the extent of use in any given period does not diminish the remaining performance obligation. The contract consideration related to these arrangements is recognized ratably over the term of the contract in line with when the control of the performance obligations is transferred. 
+Certain subscription license agreements include unspecified future IPs that are provided on a when-and-if-available basis, representing a stand-ready obligation. The contract consideration allocated to the stand-ready obligation is recognized on a ratable basis over the term of the contract, commencing upon the later of the effective date of the agreement and the transfer of the initial available IP license.
+•Software sales, including development systems — Sales of software, including development systems, which are not specifically designed for a given license (such as off-the-shelf software), are recognized upon delivery when control has been transferred and the customer can begin to use and benefit from the license.
+•Professional services — Services (such as training, professional and design services) that we provide, which are not essential to the functionality of the IP, are separately stated and priced in the contract and accounted for separately. Training revenue is recognized as services are performed. In certain arrangements, we also provide customers with professional and design services, as a stand-ready obligation, that are recognized on a ratable basis over the term of the contract.
+•Support and maintenance — Support and maintenance is a stand-ready obligation to the customer that is both provided and consumed simultaneously. Revenue is recognized on a straight-line basis over the period for which support and maintenance is contractually agreed pursuant to the license.
+•Third-party arrangements — In certain arrangements, the Company arranges for third parties to provide products or services to customers. Revenue is recognized on a gross basis when the Company controls the product or service, and on a net margin basis when it acts as an agent. In agent arrangements, control passes directly from the third party to the customer, and the Company bears no inventory or performance risk. For product-related agent arrangements, revenue is recognized at a point in time when the customer obtains control of the underlying products.
+Royalty revenue
+For most IP license agreements, royalties are collected on products that incorporate our IP. Royalties are recognized on an accrual basis in the quarter in which the customer ships their products, based on our technology that it contains. This estimation process for the royalty revenue accrual is based on a combination of methodologies, including the use of historical sales trends and macroeconomic factors for predictive analysis, the analysis of customer royalty reports and their sales trends and forecasts, as well as data and forecasts from third-party industry research providers. Data considered includes revenue, unit shipments, average selling price, product mix, market share and market penetration. Adjustments to revenue are required in subsequent periods to reflect changes in estimates as new information becomes available, primarily 
+
+
+7
+
+
+
+
+
+
+
+resulting from actual amounts subsequently reported by the licensees in the period following the accrual, including royalty audit resolutions. 
+Annualized contract value ("ACV")
+Each quarter, we track the ACV relating to licensing agreements signed with our customers and those contracted through Arm China per the aggregate license fee as shared under the Intellectual Property License Agreement with Arm China. We define ACV as the total annualized committed fees, excluding any potential future royalty revenue, for all signed agreements deemed to be active through the last day of each applicable reporting period. Arm Total Access agreements and Architecture License Agreements are deemed to be active for, and annualized over, the number of years in the contract. Any other license agreements, including single use and limited use licenses issued under an Arm Flexible Access agreement or Technology License Agreement, are deemed to be active for, and annualized over, three years based on the historical licensing patterns of our customers. The aggregate license fee shared by Arm China is also deemed to be active for, and annualized over, three years.
+ACV is an operational metric based on committed fees, excluding royalties, not recognized revenue, and therefore is not reconcilable to, nor a substitute for, revenue reported under GAAP. However, we consider ACV to be a key operational metric that we use to track existing licensing commitments with our customers. Bookings of new licenses and recognized revenue may fluctuate materially from quarter to quarter due to customer buying patterns, timing of subscription renewals and as a function of contract duration. As a result, we believe ACV provides an additional understanding of our business performance and long-term trends.
+Non-GAAP financial measures
+In addition to our results determined in accordance with GAAP, we utilize and present financial measures that are not calculated and presented in accordance with GAAP. Our non-GAAP financial measures include non-GAAP cost of sales, non-GAAP gross profit (loss), non-GAAP gross margin, non-GAAP research and development operating expenses, non-GAAP selling, general and administrative operating expenses, non-GAAP disposal, restructuring and other operating expenses, net, non-GAAP operating expenses, non-GAAP operating income (loss), non-GAAP operating margin, non-GAAP income (loss) from equity investments, net, non-GAAP interest income, net, non-GAAP other non-operating income (loss), net, non-GAAP income (loss) before income taxes, non-GAAP income tax benefit (expense), non-GAAP net income (loss), non-GAAP basic and diluted net income per share, or earnings per share, attributable to ordinary shareholders, non-GAAP free cash flow, and non-GAAP free cash flow TTM. We believe these non-GAAP financial measures provide useful information to investors and others in understanding and evaluating our results of operations, as well as provide a useful measure for period-to-period comparisons of our business performance. Moreover, we have included these non-GAAP financial measures because they are key measurements used by our management internally to make operating decisions, including those related to analyzing operating expenses, evaluating performance, and performing strategic planning and annual budgeting. We believe that the presentation of our non-GAAP financial measures, when viewed holistically, is helpful to investors in assessing the consistency and comparability of our performance in relation to prior periods and facilitates comparisons of our financial performance relative to our competitors, particularly with respect to competitors that present similar non-GAAP financial measures in addition to their GAAP results.
+Non-GAAP financial measures are presented for supplemental information purposes only, should not be considered a substitute for financial information presented in accordance with GAAP, and may not align with similar financial measures presented by our competitors, which may limit the ability of investors to assess our performance relative to certain peer companies.
+Non-GAAP financial measures (other than non-GAAP free cash flow and non-GAAP free cash flow TTM) presented herein exclude acquisition related expenses, share-based compensation ("SBC") cost associated with equity-classified awards where our intent is to issue equity upon vesting (in lieu of cash settlement), employer taxes related to SBC equity-classified awards, net of the research and development ("R&D") tax incentives associated with these taxes, other operating income (expenses), net, costs associated with disposal activities, gain on disposal of business, (income) loss from equity investments, net, and income tax effect on non-GAAP adjustments. Non-GAAP free cash flow and non-GAAP free cash flow TTM exclude purchases of property and equipment, purchases of intangible assets, and payment of intangible asset obligations. We exclude these items from our non-GAAP financial measures because they are non-cash or non-recurring in nature, or because the amount and timing of these items is unpredictable and not driven by core results of operations, which renders comparisons with prior periods and competitors less meaningful.
+
+
+8
+
+
+
+
+
+
+
+Investors should consider non-GAAP financial measures alongside other financial performance measures, including operating income, net income and our other GAAP results. For more information regarding our use of these measures and a reconciliation to the most directly comparable GAAP financial measure, see “—GAAP to Non-GAAP Reconciliation.”
+
+
+9
+
+
+
+
+
+
+Arm Holdings plc
+Condensed Consolidated Income Statements
+(in millions, except per share amounts)
+(Unaudited)
+
+
+
+
+
+
+
+
+
+
+
+Three Months Ended
+September 30,Six Months Ended
+September 30,
+2026202520262025
+Revenue:
+Revenue from external customers$1,019 $713 $1,920 $1,438 
+Revenue from related parties424 422 812 750 
+Total revenue1,443 1,135 2,732 2,188 
+Cost of sales(42)(29)(78)(59)
+Gross profit (loss)1,401 1,106 2,654 2,129 
+Operating expenses:
+Research and development(857)(691)(1,695)(1,341)
+Selling, general and administrative(343)(252)(660)(511)
+
+Disposal, restructuring and other operating expenses, net— — (7)— 
+Total operating expenses (1,200)(943)(2,362)(1,852)
+Operating income (loss)201 163 292 277 
+Income (loss) from equity investments, net(20)(16)108 (12)
+Interest income, net29 27 60 54 
+Other non-operating income (loss), net(2)128 1 129 
+Income (loss) before income taxes 208 302 461 448 
+Income tax benefit (expense)(78)(64)(61)(80)
+
+
+
+
+
+Net income (loss)$130 $238 $400 $368 
+
+Net income (loss) per share attributable to ordinary shareholders
+Basic$0.12 $0.22 $0.37 $0.35 
+Diluted$0.12 $0.22 $0.37 $0.34 
+
+Weighted average ordinary shares outstanding
+Basic1,0691,0601,0681,059
+Diluted1,0791,0691,0791,067
+
+
+
+
+
+
+10
+
+
+
+
+
+
+Arm Holdings plc
+Condensed Consolidated Balance Sheets
+(in millions, except par value)
+(Unaudited)
+
+
+
+
+
+
+
+
+As of
+September 30, 2026March 31, 2026
+Assets:
+Current assets:
+Cash and cash equivalents$3,251 $2,751 
+Short-term investments370 850 
+
+Accounts receivable, net (including receivables from related parties of $285 and $270 as of September 30, 2026 and March 31, 2026, respectively)1,086 1,300 
+
+Contract assets (including contract assets from related parties of $617 and $646 as of September 30, 2026 and March 31, 2026, respectively)1,014 977 
+Prepaid expenses and other current assets457 358 
+
+Total current assets6,178 6,236 
+Non-current assets:
+Property and equipment, net941 772 
+Operating lease right-of-use assets420 379 
+Finance lease right-of-use assets56 69 
+
+Equity investments (including investments held under fair value option of $157 and $148 as of September 30, 2026 and March 31, 2026, respectively)599 387 
+Goodwill1,715 1,623 
+Intangible assets, net385 230 
+Deferred tax assets410 375 
+Non-current portion of contract assets436 320 
+Other non-current assets274 312 
+
+Total non-current assets5,236 4,467 
+Total assets$11,414 $10,703 
+Liabilities:
+Current liabilities:
+Accrued compensation and benefits$142 $154 
+Tax liabilities114 106 
+
+Contract liabilities (including contract liabilities from related parties of $24 and $36 as of September 30, 2026 and March 31, 2026, respectively)195 294 
+Operating lease liabilities45 39 
+
+Other current liabilities (including payables to related parties of $12 and $20 as of September 30, 2026 and March 31, 2026, respectively)477 447 
+
+Total current liabilities973 1,040 
+Non-current liabilities:
+Non-current portion of accrued compensation33 32 
+Deferred tax liabilities70 39 
+
+Non-current portion of contract liabilities (including non-current portion of contract liabilities from related parties of $23 and $23 as of September 30, 2026 and March 31, 2026, respectively)680 752 
+Non-current portion of operating lease liabilities435 393 
+Other non-current liabilities135 161 
+
+Total non-current liabilities1,353 1,377 
+Total liabilities2,326 2,417 
+Shareholders’ equity:
+
+Ordinary shares, $0.001 par value; 1,111 shares authorized, 1,070 shares issued and outstanding as of September 30, 2026; and 1,097 shares authorized, 1,064 shares issued and outstanding as of March 31, 20262 2 
+Additional paid-in capital3,868 3,467 
+Accumulated other comprehensive income (loss)371 370 
+Retained earnings4,847 4,447 
+Total shareholders’ equity9,088 8,286 
+Total liabilities and shareholders’ equity$11,414 $10,703 
+
+
+
+
+11
+
+
+
+
+
+
+Arm Holdings plc
+Condensed Consolidated Statements of Cash Flows
+(in millions) 
+(Unaudited)
+
+
+
+
+
+
+Three Months Ended
+September 30,Six Months Ended
+September 30,
+2026202520262025
+Cash flows provided by (used for) operating activities:
+Net income (loss)$130 $238 $400 $368 
+Adjustments to reconcile net income (loss) to net cash provided by (used for) operating activities:
+Depreciation and amortization81 55 156 115 
+Deferred income taxes42 (12)(24)(26)
+(Income) loss from equity investments, net20 16 (108)12 
+
+Share-based compensation cost376 265 719 506 
+Operating lease expense16 14 32 27 
+Gain on business divestiture— (131)— (131)
+Other non-cash operating activities, net3 (13)6 (18)
+Changes in assets and liabilities:
+Accounts receivable, net (including receivables from related parties)33 196 214 (12)
+Contract assets, net (including contract assets from related parties)(203)(30)(153)93 
+Prepaid expenses and other assets(14)(34)(23)4 
+Accrued compensation and benefits(15)(17)(12)(21)
+Contract liabilities (including contract liabilities from related parties)(64)29 (171)119 
+Tax liabilities(35)12 (38)(22)
+Operating lease liabilities(14)(13)(25)(22)
+Other liabilities (including payables to related parties)(149)(8)136 (93)
+Net cash provided by (used for) operating activities $207 $567 $1,109 $899 
+
+Cash flows provided by (used for) investing activities:
+Purchases of short-term investments(50)(50)(465)(405)
+Proceeds from maturity of short-term investments510 260 945 405 
+Purchases of equity investments(31)(1)(105)(3)
+Purchases of intangible assets(5)(2)(16)(9)
+Proceeds from business divestiture— 127 — 127 
+
+Proceeds from sale or liquidation of equity investments— — 1 — 
+Purchases of property and equipment(72)(138)(269)(292)
+Payments for acquisitions, net of cash acquired(249)— (249)— 
+Other investing activities, net, including investments in convertible loans— — (6)1 
+Net cash provided by (used for) investing activities$103 $196 $(164)$(176)
+
+Cash flows provided by (used for) financing activities:
+
+
+
+Payments of intangible asset obligations(20)(16)(49)(37)
+Proceeds from Employee Stock Purchase Plan40 35 40 35 
+Other financing activities, net(4)(7)(23)(24)
+Payments of withholding tax on vested shares(129)(202)(407)(287)
+Net cash provided by (used for) financing activities $(113)$(190)$(439)$(313)
+
+Effect of foreign exchange rate changes on cash and cash equivalents(4)(11)(6)23 
+Net increase (decrease) in cash and cash equivalents193 562 500 433 
+Cash and cash equivalents at the beginning of the period3,058 1,956 2,751 2,085 
+
+
+
+Cash and cash equivalents from continuing operations, end of the period$3,251 $2,518 $3,251 $2,518 
+
+
+
+12
+
+
+
+
+
+
+Arm Holdings plc
+GAAP to Non-GAAP Reconciliation
+(Unaudited)
+The following is a reconciliation of GAAP to Non-GAAP results:
+
+
+Three Months Ended September 30, 2026
+(in millions, except per share amounts)GAAP ResultsAcquisition-related expensesShare-based compensation cost (equity settled)
+Employer taxes related to SBC, net of R&D tax incentives(1)(Income) loss from equity investments, net Income tax effect on non-GAAP adjustmentsNon-GAAP Results
+Total revenue$1,443$—$—$—$—$—$1,443
+Cost of sales(42)—92——(31)
+Gross profit (loss)1,401—92——1,412
+Gross margin97.1%97.9%
+Operating expenses:
+Research and development(857)726736——(547)
+Selling, general and administrative(343)510110——(227)
+
+
+Total operating expenses (1,200)1236846——(774)
+Operating income (loss)2011237748——638
+Operating margin13.9%44.2%
+Income (loss) from equity investments, net(20)———20——
+Interest income, net29—————29
+Other non-operating income (loss), net(2)—————(2)
+Income (loss) before income taxes 208123774820—665
+Income tax benefit (expense)(78)————(21)(99)
+Net income (loss)$130$12$377$48$20$(21)$566
+Net income (loss) per share attributable to ordinary shareholders
+Basic$0.12$0.53
+Diluted$0.12$0.52
+Weighted average ordinary shares outstanding
+Basic1,0691,069
+Diluted1,0791,079
+
+
+(1)     Represents employer taxes related to SBC for equity-classified awards, net of the R&D tax incentives associated with these taxes.
+
+
+
+
+
+
+
+
+
+
+13
+
+
+
+
+
+Arm Holdings plc
+GAAP to Non-GAAP Reconciliation (continued)
+(Unaudited)
+
+
+Three Months Ended September 30, 2025
+(in millions, except per share amounts)GAAP ResultsShare-based compensation cost (equity settled)
+Employer taxes related to SBC, net of R&D tax incentives(1)Gain on disposal of business(Income) loss from equity investments, net Income tax effect on non-GAAP adjustmentsNon-GAAP Results
+Total revenue$1,135$—$—$—$—$—$1,135
+Cost of sales(29)72———(20)
+Gross profit (loss)1,10672———1,115
+Gross margin97.4%98.2%
+Operating expenses:
+Research and development(691)19728———(466)
+Selling, general and administrative(252)619———(182)
+
+
+Total operating expense(943)25837———(648)
+Operating income (loss)16326539———467
+Operating margin14.4%41.1%
+Income (loss) from equity investments, net(16)———16——
+Interest income, net27—————27
+Other non-operating income (loss), net128——(131)——(3)
+Income (loss) before income taxes30226539(131)16—491
+Income tax (expense) benefit(64)————(10)(74)
+Net income (loss)$238$265$39$(131)$16$(10)$417
+Net income (loss) per share attributable to ordinary shareholders
+Basic$0.22$0.39
+Diluted$0.22$0.39
+Weighted average ordinary shares outstanding
+Basic1,0601,060
+Diluted1,0691,069
+(1)     Represents employer taxes related to SBC for equity-classified awards, net of the R&D tax incentives associated with these taxes.                                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14
+
+
+
+
+
+
+Arm Holdings plc
+GAAP to Non-GAAP Reconciliation (continued)
+(Unaudited)
+
+
+Six Months Ended September 30, 2026
+(in millions, except per share amounts)GAAP ResultsAcquisition-related expensesShare-based compensation cost (equity settled)
+Employer taxes related to SBC, net of R&D tax incentives(1)Other operating income (expenses), net(Income) loss from equity investments, net Income tax effect on non-GAAP adjustmentsNon-GAAP Results
+Total revenue$2,732$—$—$—$—$—$—$2,732
+Cost of sales(78)—184———(56)
+Gross profit (loss)2,654—184———2,676
+Gross margin97.1%98.0%
+Operating expenses:
+Research and development(1,695)751497———(1,077)
+Selling, general and administrative(660)518837——(430)
+
+Disposal, restructuring and other operating expenses, net(7)———7———
+Total operating expenses (2,362)127021347——(1,507)
+Operating income (loss)292127201387——1,169
+Operating margin10.7%42.8%
+Income (loss) from equity investments, net108————(108)——
+Interest income, net60——————60
+Other non-operating income (loss), net1——————1
+Income (loss) before income taxes 461127201387(108)—1,230
+Income tax benefit (expense)(61)—————(123)(184)
+Net income (loss)$400$12$720$138$7$(108)$(123)$1,046
+Net income (loss) per share attributable to ordinary shareholders
+Basic$0.37$0.98
+Diluted$0.37$0.97
+Weighted average ordinary shares outstanding
+Basic1,0681,068
+Diluted1,0791,079
+(1)     Represents employer taxes related to SBC for equity-classified awards, net of the R&D tax incentives associated with these taxes.
+
+
+
+
+
+
+15
+
+
+
+
+
+Arm Holdings plc
+GAAP to Non-GAAP Reconciliation (continued)
+(Unaudited)
+
+
+Six Months Ended September 30, 2025
+(in millions, except share and per share amounts)GAAP ResultsShare-based compensation cost (equity settled)
+Employer taxes related to SBC, net of R&D tax incentives(1)Other operating income (expenses), netCosts associated with disposal activitiesGain on disposal of business(Income) loss from equity investments, net Income tax effect on non-GAAP adjustmentsNon-GAAP Results
+Total revenue$2,188$—$—$—$—$—$—$—$2,188
+Cost of sales(59)143—————(42)
+Gross profit (loss)2,129143—————2,146
+Gross margin97.3%98.1%
+Operating expenses:
+Research and development(1,341)37164—————(906)
+Selling, general and administrative(511)1212621———(361)
+
+
+Total operating expense(1,852)4929021———(1,267)
+Operating income (loss)2775069321———879
+Operating margin12.7%40.2%
+Income (loss) from equity investments, net(12)—————12——
+Interest income, net54———————54
+Other non-operating income (loss), net129————(131)——(2)
+Income (loss) before income taxes4485069321(131)12—931
+Income tax (expense) benefit(80)——————(60)(140)
+Net income (loss)$368$506$93$2$1$(131)$12$(60)$791
+Net income (loss) per share attributable to ordinary shareholders
+Basic$0.35$0.75
+Diluted$0.34$0.74
+Weighted average ordinary shares outstanding
+Basic1,0591,059
+Diluted1,0671,067
+(1)     Represents employer taxes related to SBC for equity-classified awards, net of the R&D tax incentives associated with these taxes.
+
+
+16
+
+
+
+
+
+
+Arm Holdings plc
+GAAP to Non-GAAP Reconciliation (continued)
+(Unaudited)
+The following are reconciliations of Net cash provided by (used for) operating activities to Non-GAAP free cash flow and Non-GAAP free cash flow TTM:
+
+
+Three Months Ended
+September 30,Six Months Ended
+September 30,
+(in millions)2026202520262025
+Net cash provided by (used for) operating activities$207 $567 $1,109 $899 
+Adjusted for:
+Purchases of property and equipment(72)(138)(269)(292)
+Purchases of intangible assets(5)(2)(16)(9)
+Payment of intangible asset obligations(20)(16)(49)(37)
+Non-GAAP free cash flow$110 $411 $775 $561 
+
+
+Trailing Twelve Months Ended September 30,
+(in millions)20262025
+Net cash provided by (used for) operating activities$1,734 $1,580 
+Adjusted for:
+Purchases of property and equipment(522)(429)
+Purchases of intangible assets(37)(13)
+Payment of intangible asset obligations(79)(65)
+Non-GAAP free cash flow TTM$1,096 $1,073 
+
+
+
+
+
+
+17
+
+
+
+
+
+
+
+
+Forward-Looking Statements
+This shareholder letter contains forward-looking statements that reflect our plans, beliefs, expectations and current views with respect to, among other things, future events and financial performance. These statements involve known and unknown risks, uncertainties and other important factors that may cause our actual results, levels of activity, performance or achievements to be materially different from the information expressed or implied by these forward-looking statements. There are many factors that could cause or contribute to such differences, including, but not limited to, any of the following: our dependence on the semiconductor and electronics industries and the demand for the products of our customers and customers' customers; our dependence on the compatibility of our products with the manufacturing and design processes of our customers; our ability to forecast demand for new products; intense competition; our development of production silicon products, such as the Arm AGI CPU, compute subsystems, chiplets, complete chip solutions, and other more integrated compute products; changes in our pricing or our business terms or business model; our ability to adequately fund our research and development efforts; our dependence on a limited number of customers for a significant portion of our revenue; our reliance on third parties to market and sell chips and end products incorporating our products and to enhance the value of our licensed products; our ability to attract new customers and sell additional products to our existing customers; the loss of any of our senior management personnel or one or more key employees or our inability to attract and retain qualified personnel; our ability to develop new products in response to, or in anticipation of, rapid technological changes; risks related to the availability of development tools, systems software, electronic design automation tools and operating systems compatible with our architecture; our ability to protect our proprietary products and our brand, and the costs of protecting such intellectual property rights, particularly as a result of litigation; fluctuation and unpredictability of our results; our ability to verify royalty amounts owed to us under our licensing agreements; risks related to foreign exchange fluctuations; changes in our effective tax rate; risks associated with organic growth or growth from strategic investments or acquisitions we make, and the risk of failing to effectively manage our growth; risks associated with the slow development of the market for our connectivity, device and data management platform; the possibility of cyberattacks, breaches of our security controls and unauthorized access to our data or a customer’s data; our ability to satisfy data protection, security, privacy or other government- and industry-specific requirements; risks associated with the interests of SoftBank Group Corp., our controlling shareholder, conflicting with the interests of other holders of our ordinary shares and American depositary shares; and effects of global general economic conditions, political factors, war or hostility, pandemics and other events outside of our control. Refer to “Item 3. Key Information—D. Risk Factors” in our Annual Report on Form 20-F for the fiscal year ended March 31, 2026, filed with the SEC on May 26, 2026, for additional risks and uncertainties that may cause our actual results, levels of activity, performance or achievements to be materially different from the information expressed or implied by forward-looking statements included herein.
+This shareholder letter contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, and as defined in the Private Securities Litigation Reform Act of 1995. All statements other than statements of historical fact could be deemed forward-looking statements, including without limitation, statements relating to our future operations, results of operations and other matters that are based on our current expectations, estimates, assumptions and projections. In some cases, you can identify forward-looking statements because they contain words such as “may,” “might,” “will,” “could,” “would,” “should,” “expect,” “is/are likely to,” “intend,” “plan,” “objective,” “anticipate,” “believe,” “estimate,” “predict,” “potential,” “target,” “continue,” “ongoing” or similar words or phrases, or the negative of these words or phrases. The inclusion of forward-looking statements in this shareholder letter should not be regarded as a representation by us or any other person that the future plans, estimates or expectations contemplated by us will be achieved or that we have conducted an exhaustive inquiry into, or review of, all potentially available relevant information. The forward-looking statements included in this shareholder letter are based on management’s current beliefs, assumptions and expectations of our future economic performance, considering the information currently available to management. While we believe such information forms a reasonable basis for such statements, such information may be limited or incomplete. Accordingly, there are, or will be, important factors that could cause our actual results to differ materially from those indicated in these statements. All such factors are difficult to predict, represent uncertainties that may materially affect actual results and may be beyond our control. New risk factors emerge from time to time, and it is not possible for management to predict all such risk factors or to assess the impact of each such risk factor on the Company. Any forward-looking statement in this shareholder letter speaks only as of the date hereof, and we do not undertake any obligation to update any forward-looking statement to reflect events or circumstances after the date of this shareholder letter except as required by applicable law. If one or more risks or uncertainties materialize, or if our underlying assumptions prove to be incorrect, our actual results may vary materially from what we may have expressed or implied by these forward-looking statements. We caution that you should not place undue reliance on any of our forward-looking statements.
+
+
+18
+
+
+
+
+
+

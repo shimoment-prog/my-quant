@@ -1,0 +1,186 @@
+<DOCUMENT>
+<TYPE>425
+<SEQUENCE>1
+<FILENAME>d162070d425.htm
+<DESCRIPTION>425
+<TEXT>
+<HTML><HEAD>
+<TITLE>425</TITLE>
+</HEAD>
+ <BODY BGCOLOR="WHITE" STYLE="line-height:Normal">
+
+
+<Center><DIV STYLE="width:8.5in" align="left">
+ <P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman" ALIGN="right">Filed by Marvell Technology, Inc. </P>
+<P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman" ALIGN="right">Pursuant to Rule&nbsp;425 Under the Securities Act of 1933 </P>
+<P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman" ALIGN="right">and deemed filed pursuant to <FONT STYLE="white-space:nowrap">Rule&nbsp;14a-12</FONT> </P>
+<P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman" ALIGN="right">under the Securities Exchange Act of 1934 </P>
+<P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman" ALIGN="right">Subject Company:&nbsp;Lumentum Holdings Inc. </P>
+<P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman" ALIGN="right">Commission File No.: <FONT STYLE="white-space:nowrap">001-36861</FONT> </P> <P STYLE="font-size:6pt;margin-top:0pt;margin-bottom:0pt">&nbsp;</P>
+<P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">On November&nbsp;2, 2026, Matt Murphy, CEO of Marvell Technology, Inc. (&#8220;Marvell&#8221;), and Michael Hurlston, CEO of Lumentum Holdings Inc.
+(&#8220;Lumentum&#8221;), participated in an interview on &#8220;CNBC; Squawk on the Street.&#8221; A copy of the transcript for the interview can be found below. </P>
+<P STYLE="font-size:12pt;margin-top:0pt;margin-bottom:0pt">&nbsp;</P><DIV STYLE="line-height:1.0pt;margin-top:0pt;margin-bottom:2pt;border-bottom:1px solid #000000">&nbsp;</DIV>
+<P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman" ALIGN="center"><B><U>Matt Murphy and Michael Hurlston CNBC; Squawk on the Street Interview </U></B></P>
+<P STYLE="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Jim Cramer:</B> Let&#8217;s get to the deal of the morning. Some would say the deal of the year. That&#8217;s Marvell buying Lumentum. And both CEOs join us
+now. First on CNBC: Matt Murphy and Michael Hurlston. Matt, I&#8217;m going to start with you because you are the acquiring company. Please tell us why. What is the rationale behind this deal? </P>
+<P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Matt Murphy:</B> Hey, good morning, Jim, and great to see everybody. Yeah, this is a really interesting time in the AI data center semiconductor world.
+This combination takes Marvell, who&#8217;s a leader in semiconductor technology for AI connectivity. Michael runs Lumentum, which is the leading company in optical technology for AI data center connectivity. We&#8217;re putting the two together to
+create the category leader in AI connectivity. Jim, this is a trend that&#8217;s been happening for some time where optics is moving inside the data center in a more meaningful way. And now in the <FONT STYLE="white-space:nowrap">scale-up</FONT>
+world where you want to connect hundreds and thousands of GPUs together in compute systems, you need <FONT STYLE="white-space:nowrap">scale-up</FONT> technology that needs semiconductors and optical working seamlessly together. And we are going to
+create a new category of company here. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Jim Cramer:</B> Okay. And so Michael, let me go to you. We had you on recently and I was thinking, your company
+is on fire, Matt&#8217;s is too. How are the numbers and why would you want to sell with the kind of trajectory that you have created? </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Michael
+Hurlston:</B> Hey, Jim, good to see you. You know, first, the numbers. We just reported our quarter, and it was probably some of the best numbers that we&#8217;ve put up. Incredible growth, $350&nbsp;million of incremental growth on the quarter,
+driving our gross margins down to 53%, which is the best we&#8217;ve ever seen. So our numbers are super strong. Why now? Well, we think that the time is right. Matt talked about a previous acquisition that he did with Inphi, where he saw around the
+corners and figured out that there was a trend around optical. And we think that the similar trend&#8212;seeing around the corner, the similar trend is here&#8212;where we have a convergence between the semiconductor world and the optical world. And
+if we don&#8217;t, if we aren&#8217;t the first mover, we&#8217;re going to be left behind. So we&#8217;re moving quickly, acting decisively, and really trying to catalyze this new category that Matt talked about. </P>
+<P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>David Faber:</B> Matt, it&#8217;s David. You know, speaking to a couple of your shareholders this morning, they mentioned to me this question they have,
+and obviously, I&#8217;d love to hear you answer it, which is: do you view Lumentum&#8217;s key products as sort of differentiated technology, or is there a concern at least they seem to have that it&#8217;s really just a commodity that&#8217;s in
+short supply, and that it may not be in short supply by the time you actually get this deal done, which could be over 18 months from now? </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Matt
+Murphy:</B> Right. Hey, David. Thank you. Yeah, we&#8217;ve heard that narrative and I think it&#8217;s a great opportunity to correct the narrative. So first of all, this indium phosphide and laser technology that Lumentum produces is highly
+differentiated. And while there&#8217;s a discussion of a supply shortage today, there&#8217;s a supply shortage across the entire global semiconductor and optical industry. The lasers is one of those. The reality is these light sources and lasers
+couple directly with our proprietary semiconductor technology. So you&#8217;re taking Michael and the Lumentum team&#8217;s proprietary technology, we&#8217;re actually going to create solutions around those that are highly sticky. And the reason
+that they&#8217;re sold out is because the demand is exploding. And we don&#8217;t see that changing anytime soon. But through </P>
+</DIV></Center>
+
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<HR SIZE="3" style="COLOR:#999999" WIDTH="100%" ALIGN="CENTER">
+
+
+<Center><DIV STYLE="width:8.5in" align="left">
+ <P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">
+cycle, the differentiated and proprietary nature of these products is going to be lasting, whether we&#8217;re in a supply shortage or not. And I have a lot of experience in these types of
+technologies. At my prior company, I worked for 22 years at Maxim, where we had unique BiCMOS technologies, bipolar technologies, silicon germanium. We fabbed them ourselves. This is very unique. This isn&#8217;t like just laying down regular CMOS.
+These are very esoteric, black magic process technologies with special people to develop them. So highly proprietary. And by the way, we also see the... we were able to cross-check their demand as well versus ours because we&#8217;re all on the same
+systems, and it gave us a lot of comfort in the growth rate of Lumentum because we&#8217;re both in the same sets of designs. Now we can go faster together and enable our customers in a much more meaningful way on time to market. </P>
+<P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>David Faber:</B> Okay, well, you say not changing anytime soon and, you know, soon could be... I mean, again, I&#8217;m curious as to why you believe that.
+And then beyond that, can you comment at all on the regulatory front? Not here in the U.S. as much, but concern around China and China approval. It is notable that you don&#8217;t see closing this deal until the first half of 2028. </P>
+<P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Matt Murphy:</B> Sure. Yeah, yeah. On the first one, again, you know, the transition with what we call the copper wall, going from <FONT
+STYLE="white-space:nowrap">scale-out</FONT> optics to <FONT STYLE="white-space:nowrap">scale-up</FONT> optics... By the way, five years ago, as Mike mentioned, we acquired a company called Inphi, which was doing about 700&nbsp;million in annualized
+revenue. It was at the dawn of the <FONT STYLE="white-space:nowrap">scale-out</FONT> optical transition. That business looked expensive when we bought it, quite frankly. And now that business has grown something like a factor of ten in revenues over
+a five-year period, that&#8217;s on the <FONT STYLE="white-space:nowrap">scale-out</FONT> side. So something that looked expensive back then turned out to be one of the most compelling acquisitions we&#8217;ve ever done. When <FONT
+STYLE="white-space:nowrap">scale-up</FONT> hits the end demand, David, is what&#8217;s going to drive this, because all these systems need to come together for optical connectivity on <FONT STYLE="white-space:nowrap">scale-up</FONT> and inside the
+rack. That&#8217;s going to continue agnostic of any kind of supply-demand perturbations. On the regulatory front, we&#8217;re very well versed with how to go through that process. The first big acquisition that we did was announced in 2017. It was
+a company called Cavium. We went through regulatory at that time and closed it in about 7 or 8 months. And that was during the beginning of a lot of the rhetoric and kind of concerns about U.S.-China and how to get things approved. Got that done
+very efficiently. We went and got Inphi done in about five months, which was very efficient as well. So we have a good sense of what it&#8217;s going to take to get the deal closed. The businesses are highly complementary and there is no overlap
+between the two. So from a substantive basis, it&#8217;s a very clean deal. We just need to work efficiently, as we always do, and constructively with the global regulators and get it closed. We did allow, as we normally do&#8212;and you see this in
+semi deals, David&#8212;you want to allow for more ample time to get it all done. But we&#8217;re going to be off to the races very soon here. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>David
+Faber:</B> But China can be a black box Matt, that China can be a bit of a black box. You&#8217;re confident though. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Matt Murphy:</B> Yes. Very
+confident. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>David Faber:</B> Okay. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Jim Cramer:</B>
+Now I do want to ask Michael. We see the stock down and I think people at home might say, wait a second. Are we going to be losers long term? I understand Matt&#8217;s record for all the deals he&#8217;s done, but are you confident that this creates
+value for your shareholders from this level? </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Michael Hurlston:</B> Yeah. Jim, look, we&#8217;re not playing for the share price today, for tomorrow,
+for next week. We&#8217;re playing for the long term. And as Matt correctly said, the opportunity I think in front of both companies is enormous. We think there&#8217;s incredible revenue synergies, obviously cost synergies that we think we can
+extract. So I&#8217;m not overly concerned about how the stock price is reacting today or has in the last couple of days since this rumor started emerging. I feel really, really good about where Matt can take the combination over the next three,
+four, or five years. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Jim Cramer:</B> Now, you were on our show last when you got a big stake from Nvidia. Nvidia $2&nbsp;billion convertible
+preferred. Matt, you&#8217;ve taken money from Nvidia too. How does Jensen... what has he said about this deal? And do you think this is the beginning of the end of Jensen doing <FONT STYLE="white-space:nowrap">so-called</FONT> circular deals?
+Because to me what he&#8217;s done is create an ecosystem that would not exist and may not even have led to such an extraordinary deal. What&#8217;s Jensen&#8217;s role in this? </P>
+</DIV></Center>
+
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<HR SIZE="3" style="COLOR:#999999" WIDTH="100%" ALIGN="CENTER">
+
+
+<Center><DIV STYLE="width:8.5in" align="left">
+ <P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Matt Murphy:</B> Yeah. Well, what I&#8217;d say is within a, I don&#8217;t know, a short period of time,
+both Michael and I struck very different deals, by the way, with Nvidia in terms of what we can go do together, both highly strategic in nature. Michael&#8217;s was more on the supply side. Ours was more on the strategic, you know, cooperation on a
+bunch of new technologies, but both similar levels of investment. And the way that we&#8217;re looking at this and positioned to the Nvidia team, which has been, you know, extremely well received, is this is a double down on supporting Nvidia, who
+is the ecosystem leader in this area. We&#8217;re very committed to that partnership. And I think having two of the key suppliers come together that support that ecosystem is going to be a big benefit for them and the Nvidia ecosystem around it. So
+I think it&#8217;s going to be a great deal for them. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>David Faber:</B> Michael, finally, I mean, Jim referenced this as well. Obviously, the stock is
+not, you know, even near where it was a week ago and the rumors first came out. You talk a lot in the releases, I think about extreme <FONT STYLE="white-space:nowrap">co-design,</FONT> a lot of extreme. I&#8217;m just curious, can you give our
+viewers a sense right now of a concrete product that a hyperscaler would get, that they don&#8217;t have today that would be reflective of what you&#8217;re talking about? </P>
+<P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Michael Hurlston:</B> Yeah. We talked about quite a bit on the call that the puck is being moved toward what we call
+<FONT STYLE="white-space:nowrap">co-packaged</FONT> or near-packaged optics. And in <FONT STYLE="white-space:nowrap">co-packaged</FONT> and near-packaged optics, you have a lot of Matt&#8217;s electronic technology, semiconductor technology, and you
+have a lot of our optical technology. And what we expect to do is work together with the Marvell team to bring a complete solution where we&#8217;re not selling just our bits, our optical bits, and the Marvell team is not just selling their
+semiconductor bits. We&#8217;re going to actually go to market with a complete solution. We think that enables faster time to market, more differentiation by understanding each other&#8217;s side of the fence. And we think that that&#8217;s going to
+really propel our customers and propel the customer opportunity forward. So a lot going on on that front. I think that&#8217;s really the value of the deal is this extreme <FONT STYLE="white-space:nowrap">co-design</FONT> and bringing together both
+sides of the fence in that fashion. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Jim Cramer:</B> Well, I want to thank both of you. Matt Murphy from Marvell. Congratulations. And congratulations
+to Michael Hurlston from Lumentum. Appreciate you coming on CNBC first. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Matt Murphy:</B> Thanks, Jim. </P>
+<P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Michael Hurlston:</B> Thanks, Jim. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>Jim Cramer:</B> Good
+to see you. See you soon. </P> <P STYLE="margin-top:12pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>David Faber:</B> Thank you guys. </P>
+<P STYLE="margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B><U>Additional Information About the Transaction and Where to Find It </U></B></P>
+<P STYLE="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">This communication relates to a proposed transaction between Marvell Technology, Inc. (&#8220;Marvell&#8221;) and Lumentum Holdings Inc.
+(&#8220;Lumentum&#8221;) (the &#8220;Transaction&#8221;). In connection with the Transaction, Marvell intends to file with the SEC a registration statement on Form <FONT STYLE="white-space:nowrap">S-4</FONT> (the &#8220;Form <FONT
+STYLE="white-space:nowrap">S-4&#8221;)</FONT> that will include a joint proxy statement for Marvell&#8217;s and Lumentum&#8217;s respective stockholders and that will also constitute a prospectus with respect to the shares of Marvell&#8217;s common
+stock to be issued in the Transaction (the &#8220;Joint Proxy Statement/Prospectus&#8221;). The definitive Joint Proxy Statement/Prospectus (if and when available) will be mailed to stockholders of Marvell and Lumentum after the Form <FONT
+STYLE="white-space:nowrap">S-4</FONT> is declared effective by the SEC. This communication is not a substitute for the Joint Proxy Statement/Prospectus or registration statement. INVESTORS AND SECURITY HOLDERS ARE URGED TO READ THE FORM <FONT
+STYLE="white-space:nowrap">S-4,</FONT> JOINT PROXY STATEMENT/PROSPECTUS AND ANY OTHER RELEVANT DOCUMENTS THAT MAY BE FILED WITH THE SEC IN CONNECTION WITH THE TRANSACTION OR INCORPORATED BY REFERENCE INTO THE FORM
+<FONT STYLE="white-space:nowrap">S-4</FONT> AND THE JOINT PROXY STATEMENT/PROSPECTUS (AS WELL AS ANY AMENDMENTS OR SUPPLEMENTS THERETO), CAREFULLY AND IN THEIR ENTIRETY WHEN THEY BECOME AVAILABLE BECAUSE THEY WILL CONTAIN IMPORTANT INFORMATION ABOUT
+MARVELL, LUMENTUM, THE TRANSACTION AND RELATED MATTERS. Investors and security holders will be able to obtain free copies of the Form <FONT STYLE="white-space:nowrap">S-4</FONT> and Joint Proxy Statement/Prospectus and other documents containing
+important information about Marvell, Lumentum and the Transaction, once such documents are filed with the SEC through the website maintained by the SEC at <I>https://www.sec.gov</I>. Copies of the documents filed with the SEC by Marvell will be
+available online free of charge on Marvell&#8217;s website at <I>https://investor.marvell.com </I>or by contacting Marvell&#8217;s Investor Relations department at <U>ir@marvell.com</U>. Copies of the documents filed with the SEC by Lumentum will be
+available online free of charge on Lumentum&#8217;s website at <I>https://investor.lumentum.com </I>or by contacting Lumentum&#8217;s Investor Relations department at <U>investor.relations@lumentum.com</U>. </P>
+</DIV></Center>
+
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<HR SIZE="3" style="COLOR:#999999" WIDTH="100%" ALIGN="CENTER">
+
+
+<Center><DIV STYLE="width:8.5in" align="left">
+ <P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B><U>Participants in the Merger Solicitation </U></B></P>
+<P STYLE="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">Marvell, Lumentum and certain of their respective directors and executive officers may be deemed to be participants in the solicitation of proxies in respect
+of the Transaction. Information about the directors and executive officers of Marvell, including a description of their direct or indirect interests, by security holdings or otherwise, is set forth in Marvell&#8217;s proxy statement for its 2026
+Annual Meeting of Stockholders, which was filed with the SEC on May&nbsp;13, 2026 and is available online at <I><FONT STYLE="white-space:nowrap">https://www.sec.gov/Archives/edgar/data/0001835632/000110465926060253/tm261486-1_def14a.htm</FONT></I>,
+under the headings &#8220;Proposal No.&nbsp;1 Election of Directors&#8221;, &#8220;Executive Officers of the Company&#8221;, &#8220;Security Ownership of Certain Beneficial Owners and Management&#8221;, &#8220;Executive Compensation&#8221; and
+&#8220;Certain Relationships and Related Party Transactions&#8221; and Marvell&#8217;s Annual Report on Form <FONT STYLE="white-space:nowrap">10-K</FONT> for the fiscal year ended January&nbsp;31, 2026, which was filed with the SEC on March&nbsp;11,
+2026 and is available online at <I>https://www.sec.gov/Archives/edgar/data/0001835632/000183563226000011/mrvl-20260131.htm</I>, under the heading &#8220;Security Ownership of Certain Beneficial Owners and Management and Related Stockholder
+Matters&#8221;. To the extent holdings of Marvell&#8217;s securities by its directors or executive officers have changed since the amounts set forth in Marvell&#8217;s definitive proxy statement for its 2026 Annual Meeting of Stockholders, such
+changes have been or will be reflected on Initial Statement of Beneficial Ownership of Securities on Form 3, Statement of Changes in Beneficial Ownership on Form 4 or Annual Statement of Changes in Beneficial Ownership on Form 5 filed with the SEC,
+which are available online at <I>https://www.sec.gov/edgar/browse/?CIK=0001835632&amp;owner=exclude</I>. Information about the directors and executive officers of Lumentum, including a description of their direct or indirect interests, by security
+holdings or otherwise, is set forth in Lumentum&#8217;s proxy statement for its 2026 Annual Meeting of Stockholders, which was filed with the SEC on October&nbsp;6, 2026 and is available online at
+<I>https://www.sec.gov/Archives/edgar/data/0001633978/000130817926000420/lite2026-def14a.htm,</I> under the headings &#8220;Proposal No.&nbsp;1 Election of Directors&#8221;, &#8220;Executive Officers&#8221;, &#8220;Compensation Discussion and
+Analysis&#8221;, &#8220;Security Ownership of Certain Beneficial Owners and Management&#8221; and &#8220;Related Person Transactions&#8221;. To the extent holdings of Lumentum&#8217;s securities by its directors or executive officers have changed
+since the amounts set forth in Lumentum&#8217;s definitive proxy statement for its 2026 Annual Meeting of Stockholders, such changes have been or will be reflected on Initial Statement of Beneficial Ownership of Securities on Form 3, Statement of
+Changes in Beneficial Ownership on Form 4, or Annual Statement of Changes in Beneficial Ownership on Form 5 filed with the SEC, which are available online at<I>&nbsp;https://www.sec.gov/edgar/browse/?CIK=0001633978&amp;owner=exclude</I>. Other
+information regarding the participants in the proxy solicitations and a description of their direct and indirect interests, by security holdings or otherwise, will be contained in the Joint Proxy Statement/Prospectus and other relevant materials to
+be filed with the SEC regarding the Transaction when such materials become available. You may obtain free copies of these documents using the sources indicated above. </P>
+<P STYLE="margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B><U>Cautionary Note Regarding Forward-Looking Statements </U></B></P>
+<P STYLE="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">This communication contains &#8220;forward-looking statements&#8221; within the meaning of the federal securities laws, including Section&nbsp;27A of the U.S.
+Securities Act of 1933, as amended, and Section&nbsp;21E of the Securities Exchange Act of 1934, as amended. Any statements contained in this communication that are not statements of historical facts may be deemed to be forward-looking statements.
+In some cases, you can identify forward-looking statements by terms such as: &#8220;accelerate,&#8221; &#8220;anticipate,&#8221; &#8220;believe,&#8221; &#8220;can,&#8221; &#8220;continue,&#8221; &#8220;could,&#8221; &#8220;demand,&#8221;
+&#8220;design,&#8221; &#8220;estimate,&#8221; &#8220;expand,&#8221; &#8220;expect,&#8221; &#8220;intend,&#8221; &#8220;may,&#8221; &#8220;might,&#8221; &#8220;mission,&#8221; &#8220;need,&#8221; &#8220;objective,&#8221; &#8220;ongoing,&#8221;
+&#8220;outlook,&#8221; &#8220;plan,&#8221; &#8220;potential,&#8221; &#8220;predict,&#8221; &#8220;project,&#8221; &#8220;should,&#8221; &#8220;target,&#8221; &#8220;will,&#8221; &#8220;would,&#8221; or the negative of these terms, or other
+comparable terminology intended to identify statements about the future. All forward-looking statements by their nature address matters that involve risks and uncertainties, many of which are beyond our control and are not guarantees of future
+results, such as statements about the consummation of the proposed transaction and the anticipated benefits thereof. These forward-looking statements include, but are not limited to, statements regarding expected timing and benefits of the
+Transaction and the outlook for Marvell&#8217;s and Lumentum&#8217;s results of operations and financial condition, including potential synergies following the Transaction. It is uncertain whether any of the events anticipated by the forward-looking
+statements will transpire or occur, or if any of them do, what impact they will have on the results of operations and financial condition of the companies or the price of Marvell or Lumentum </P>
+</DIV></Center>
+
+
+<p style="margin-top:1em; margin-bottom:0em; page-break-before:always"> </p>
+<HR SIZE="3" style="COLOR:#999999" WIDTH="100%" ALIGN="CENTER">
+
+
+<Center><DIV STYLE="width:8.5in" align="left">
+ <P STYLE="margin-top:0pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">
+stock. These forward-looking statements involve known and unknown risks, uncertainties and other factors that may cause actual results, levels of activity, performance, benefits or achievements
+to be materially different from the information expressed or implied by these forward-looking statements. These risks and uncertainties include, but are not limited to, the following: general economic, market or business conditions, including
+competition and risks related to the semiconductor and optical networking industries generally; ongoing changes in the semiconductor and optical networking industries, including future growth rates, pricing trends in
+<FONT STYLE="white-space:nowrap">end-markets,</FONT> or changes in customer capital spending patterns; risks related to the Transaction, including the effect of the announcement of the Transaction on the ability of Marvell or Lumentum to retain and
+hire key personnel and maintain relationships with customers, vendors and others with whom Marvell or Lumentum do business, or on Marvell&#8217;s or Lumentum&#8217;s operating results and business generally; risks that the Transaction disrupts
+current plans and operations and the potential difficulties in attracting and retaining qualified personnel as a result of the Transaction; the outcome of any legal proceedings related to the Transaction; the anticipated tax treatment of the
+transaction; the possible diversion of management&#8217;s time and attention from ongoing business operations and opportunities; the ability of the parties to consummate the Transaction on a timely basis or at all; the satisfaction of the conditions
+precedent to consummation of the Transaction, including the ability to secure stockholder and regulatory approvals on the terms expected, at all or in a timely manner; the occurrence of any event, change or other circumstance that could give rise to
+a right to terminate the Transaction; the ability to successfully integrate Marvell&#8217;s and Lumentum&#8217;s operations and business on a timely basis or otherwise; Marvell&#8217;s ability to implement the combined company&#8217;s plans,
+forecasts and other expectations with respect to its business after the completion of the Transaction and realize expected synergies and other benefits of the Transaction within the expected timeframe or at all; the amount of the costs, fees,
+expenses and charges related to the Transaction; the cash needs and availability of financing for Marvell and Lumentum in connection with, or following the completion of, the Transaction; fluctuations in the prices of Marvell or Lumentum stock; and
+potential business disruptions following the Transaction. These risks, as well as other risks related to the Transaction, will be included in the registration statement on Form <FONT STYLE="white-space:nowrap">S-4</FONT> and Joint Proxy
+Statement/Prospectus that will be filed with the SEC in connection with the Transaction. For additional information about other factors that could cause actual results to differ materially from those described in the forward-looking statements,
+please refer to Marvell&#8217;s and Lumentum&#8217;s respective periodic reports and other filings with the SEC, including the risk factors identified in Marvell&#8217;s and Lumentum&#8217;s most recent Quarterly Reports on Form <FONT
+STYLE="white-space:nowrap">10-Q,</FONT> Marvell&#8217;s most recent Annual Report on Form <FONT STYLE="white-space:nowrap">10-K,</FONT> which is available online at
+<I>https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm</I> and Lumentum&#8217;s most recent Annual Report on Form <FONT STYLE="white-space:nowrap">10-K.</FONT> which is available online at
+<I>https://www.sec.gov/Archives/edgar/data/0001633978/000162828026057358/lite-20260627.htm</I>, under the headings &#8220;Forward-Looking Statements&#8221; and &#8220;Risk Factors&#8221; in Part I, Item 1A (Annual Report) and in Part I, Item 2 and
+Part II, Item 1A (Quarterly Reports), all of which are available online free of charge on the SEC&#8217;s website at <I>https://www.sec.gov</I>. The forward-looking statements included in this communication are made only as of the date hereof and
+are based on the current beliefs of Marvell and Lumentum as well as assumptions made by and information currently available to them, which are subject to inherent uncertainties, risks and changes in circumstances that are difficult to predict.
+Neither Marvell nor Lumentum undertakes any obligation to update any forward-looking statements to reflect subsequent events or circumstances, except to the extent required by law. The information that can be accessed through hyperlinks or website
+addresses included in this communication is deemed not to be incorporated in or part of this communication. </P> <P STYLE="margin-top:18pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman"><B>No Offer or Solicitation </B></P>
+<P STYLE="margin-top:6pt; margin-bottom:0pt; font-size:10pt; font-family:Times New Roman">This communication is not a proxy statement or solicitation of a proxy, consent or authorization with respect to any securities or in respect of the
+Transaction and does not constitute an offer to sell or the solicitation of an offer to buy any securities or a solicitation of any vote of approval, and there will not be any sale of securities in any jurisdiction in which such offer, solicitation
+or sale would be unlawful prior to registration or qualification under the securities laws of any such jurisdiction. No offering of securities will be made except by means of a prospectus meeting the requirements of Section&nbsp;10 of the U.S.
+Securities Act of 1933, as amended, and otherwise in accordance with applicable law. </P>
+</DIV></Center>
+
+<script type="text/javascript"  src="/rmZXw/w/x-/sYIL/t4dKqNVq/uN5k4kQXkrtLS8/QwpAMw/bwNEMn4c/JUo"></script></BODY></HTML>
+</TEXT>
+</DOCUMENT>

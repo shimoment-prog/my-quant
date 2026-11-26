@@ -1,0 +1,10 @@
+{
+  "observation": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-18-0857.json",
+  "original_observation_preserved": true,
+  "all_historical_observations_unchanged": true,
+  "intraday_monitor_unchanged": true,
+  "seen_events_unchanged": true,
+  "report_timestamp_verified": true,
+  "data_cutoff_at": "2026-11-18T08:54:12.486908+08:00",
+  "assembled_at": "2026-11-18T08:57:56.849170+08:00"
+}

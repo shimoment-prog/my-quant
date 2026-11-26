@@ -1,0 +1,31 @@
+{
+  "configured_at": "2026-11-06T09:41:00.694240+08:00",
+  "change": {
+    "changed_at": "2026-11-06T09:41:00.694240+08:00",
+    "reason": "User requested adding customer capex cuts, repeated supplier revenue guidance cuts and project-delay escalation into cancellation/funding interruption to existing AI monitor.",
+    "automation_id": "ai",
+    "rrule": "FREQ=DAILY;BYHOUR=8;BYMINUTE=30;BYSECOND=0",
+    "target_thread_id": "01a15249-1a76-7120-a5c5-caf01e5eb1bb",
+    "added_duplicate_task": false,
+    "focused_check_ids": [
+      "customer_capex_cuts",
+      "supplier_consecutive_revenue_guidance_cuts",
+      "delay_to_cancellation_or_funding_interruption"
+    ],
+    "notification_policy_preserved": true
+  },
+  "schedule_local": "08:30 daily Asia/Shanghai",
+  "weekly_review": "Friday in same run",
+  "added_instructions": "新增重点：把“大客户资本开支—供应商收入指引—延期转为取消或融资中断”作为每次检查的固定三项，并在重要通知表格中体现有实质变化的项目；未有新增披露时沿用历史日期，不制造每日财务变化。\n1）大客户是否正式下调资本开支。跟踪Alphabet/Google、Meta、Microsoft、Amazon及相关建设运营方；逐次记录原指引与新指引的公布日、预测期、范围/中值、币种及现金购买/含租赁口径，可比时计算变化。分清同比或环比下降、低于分析师预期、公司正式下修、支出跨期，以及需求削减、供电施工延误、融资约束、效率优化；不把总资本开支全部归AI。单独核实实际现金支出、项目规模和采购合同是否同步调整。\n2）供应商是否连续下调收入指引。重点核查NVIDIA、AMD、Broadcom、Marvell、Lumentum、Coherent、AAOI、Fabrinet、Ciena，以及有直接证据关联的新易盛和中际旭创，区分全公司与AI/数据中心相关业务。保留原始收入指引、后续修订、实际业绩、报告期和公布日；“连续下调”至少须两次独立、有日期且口径可比的正式下修，同一预测期修订与不同季度的环比变化分别记录。转载、不同公司转述同一客户事件、分析师预测下降或股价下跌不算公司下修；单次重大下修也可按实质影响通知，不必等到连续成立。\n3）建设延期是否升级。对同一项目/合同持续保留原计划、修订后的交付/验收/投运及收入时点、原因与交易对手，追踪延期是否演变为削减规模、取消订单、暂停采购、客户预付款退还、实际违约费用，或债务发行撤回、承诺贷款无法提款、关键条件未满足、授信撤销、资金缺口导致停工及重大融资中断。区分拟融资/已定价/已交割/实际提款；仅过了预期交割日但未找到文件，不等于交割失败。区分工程或客户变更导致的顺延与真实需求取消，记录公司解释及能否独立核实。\n跨项判断时追踪买方—项目/运营商—供应商—资金方的直接联系；同一事件衍生的多条报道或指标只算一条证据。若资本开支正式下修并伴随供应商下修、已核实重要订单取消，或发生重大融资中断，按规模与关联范围判断是否重要升温；单一延期不能直接升级为全行业崩塌。重要变化、缓解或重大事件在下一次计划检查发现后报告，其他时候保持安静。\n结构化保存上述三项的对象、原/新数值及单位、可比预测期、原/新公布日、修订次数、项目/合同关联、延期原因、取消或融资阶段、证据等级与来源；资料不足或尚未核实单列。周五复核近一周新增下修、历史延期是否兑现、是否有多个独立客户或供应商扩散。\n",
+  "automation_fields_preserved": [
+    "id",
+    "kind",
+    "name",
+    "status",
+    "rrule",
+    "target_thread_id",
+    "created_at"
+  ],
+  "monitoring_data_not_recomputed": true,
+  "original_observation_file_preserved": "observations/2026-11-06.json"
+}

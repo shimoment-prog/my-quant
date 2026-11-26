@@ -1,0 +1,782 @@
+[
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/analysis.json",
+    "archived_file": "evidence/2026-11-16-0914/calendar/analysis.json",
+    "sha256": "2fc45a3632fca5c0c39bb6dcc9de6fc4eb35177c1289beb92e80c8de492d8301",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/calendar/manifest.json",
+    "sha256": "493eecebeec885316eb6f70a7f59664ab650d146ba8172d74c54fffad5db19a5",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/nasdaq_schedule.html",
+    "archived_file": "evidence/2026-11-16-0914/calendar/nasdaq_schedule.html",
+    "sha256": "8417c1e112e7e4c78667cd7720b3cd21437a006b58bb829c304be44ec10dd0ad",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/nasdaq_schedule_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/calendar/nasdaq_schedule_clean.txt",
+    "sha256": "403d257f709345a1ffeb6cdbf1a0f8cc98476645fa502a383d5617d3dcec0d89",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/nyse_hours.html",
+    "archived_file": "evidence/2026-11-16-0914/calendar/nyse_hours.html",
+    "sha256": "d7741bc3339e7d188ba219beef2799f4df8e44f8c4d7029b6c1709214726f2fd",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/nyse_hours_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/calendar/nyse_hours_clean.txt",
+    "sha256": "f73840be802f2c7007b1168013398d0df4c991a8c1f02421b3f7071b2359b578",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/sse_calendar.html",
+    "archived_file": "evidence/2026-11-16-0914/calendar/sse_calendar.html",
+    "sha256": "4511d76abb438945008cd8b91df2c6a1e94e744c01a826f8e17d53feedb32b5f",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/sse_calendar_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/calendar/sse_calendar_clean.txt",
+    "sha256": "62c3cb419a4159136d878c3e6cb19b3bde75b723eeac8a9b0ba6abdae8bc6ac7",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/sse_general.html",
+    "archived_file": "evidence/2026-11-16-0914/calendar/sse_general.html",
+    "sha256": "f6edc575922bae73cc6c3892953fe3aa2af8cb6cedd6b27ff6d86105990cbbf3",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/sse_general_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/calendar/sse_general_clean.txt",
+    "sha256": "f0c424ca0b93ceca3db8e8be169f84008e9babb7d9d6a8324717e2c804e3076f",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/szse_notice.html",
+    "archived_file": "evidence/2026-11-16-0914/calendar/szse_notice.html",
+    "sha256": "394995da9d87c368f80e04d171e8c9ff0481509679f4d63035465cf2e84831af",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/calendar/szse_notice_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/calendar/szse_notice_clean.txt",
+    "sha256": "ca4e4a0f74c276b600ae049d0f59c474a009977ac60149b5ec63063411c35bad",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/analysis.json",
+    "archived_file": "evidence/2026-11-16-0914/market/analysis.json",
+    "sha256": "bcd4d24aa413b4ba78867aaa1b2407d781e0413c7d5fbacfe8a406c03275305c",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/history_AAOI.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/history_AAOI.raw",
+    "sha256": "5042336026c8548313f4a56851e0e83f1c73a428285e3a2051e86f1b1629bd54",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/history_CIEN.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/history_CIEN.raw",
+    "sha256": "bd4e23e2d61993b9092287a7ad48d4ab77b18102a2ae8fd2ff7ae669015d01ef",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/history_COHR.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/history_COHR.raw",
+    "sha256": "1ad091ac7f6c955005c2cbef63042310e7b788aa17916d83c4e86303c93123a2",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/history_FN.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/history_FN.raw",
+    "sha256": "eab85a9b49151a8394fd129ff540546ef1bd5bdf189addfcf4626e6c30efd32b",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/history_LITE.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/history_LITE.raw",
+    "sha256": "d9f4ff09f8c9bb5006a4ddc268b046ec2d3d82229206bd0a1ccdbcadad270966",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/history_MRVL.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/history_MRVL.raw",
+    "sha256": "d17ac4b8376d1c357c412e8b7b3fa67fbbfe1f12ba95c5c947364d0bfc41a3fb",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/market/manifest.json",
+    "sha256": "a0e1c85d7b1611e841dd11929b59aa28f2daaf4ce70f18999e8cded695e96db9",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/nasdaq_index.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/nasdaq_index.raw",
+    "sha256": "e580b9ac52c74483e7176173fbf4e5a08434acce93643ce809e0a15477f9d19b",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/quotes.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/quotes.raw",
+    "sha256": "cc1e3e64964b99fbdaad6664973748c34056070d1cf9f8f290c7c4c41a7678eb",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/market/sina.raw",
+    "archived_file": "evidence/2026-11-16-0914/market/sina.raw",
+    "sha256": "d7a92a87fdf5cc07cc2fa3edcf2bc69c36cb4724a4b95ff51387c091d9629e34",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/analysis.json",
+    "archived_file": "evidence/2026-11-16-0914/ashare/analysis.json",
+    "sha256": "571c21139308854497cb8f016d5157957a7211cde2e6bd07f1ef3da41febb6a5",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/ashare/manifest.json",
+    "sha256": "385af09aa7f168bfe0763302f9561ba70403d35a92d3f65da075c638d7c906f9",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/quotes.txt",
+    "archived_file": "evidence/2026-11-16-0914/ashare/quotes.txt",
+    "sha256": "bb136c71d299a01cff18ae306679f8e75c23441e91df7f0506ad26f898a7108a",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sh515880-daily.json",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sh515880-daily.json",
+    "sha256": "85a383fd14e0f080041384039e8bb2bc3dd8ad9b13ec854dd3a4fbde57150327",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sh515880-m5.txt",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sh515880-m5.txt",
+    "sha256": "d557860c03d0eec6829fbf70c30077b85c22525262931abe49e9ca237fdca996",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sina.txt",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sina.txt",
+    "sha256": "b7c4d0cbf7910fbe80dc225cd1e42bd6bedc8ecafd470f7f0c26a722d6da09ac",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sz300308-daily.json",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sz300308-daily.json",
+    "sha256": "466a9d98e2d6a9abcdb8a5957e0825a3405bf20bb8c2c1a0a82d058633bb7dd8",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sz300308-m5.txt",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sz300308-m5.txt",
+    "sha256": "2e200d0eb4cd406f8e5d388b37b1aabfdb10df6ef2dbc1388989b9f6871d4181",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sz300502-daily.json",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sz300502-daily.json",
+    "sha256": "6527795515fb6a0fc59df9822e9fe1e47c040f6f726efd26dcb325eda6ac5e14",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sz300502-m5.txt",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sz300502-m5.txt",
+    "sha256": "070bf95303e341da486c1f10690777a100dc903e20c0ffa2fd364a71748fe2b4",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sz399006-daily.json",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sz399006-daily.json",
+    "sha256": "834c2183e590669adfbd15be6fe550555152c81eae21fb5d69661e589589c47e",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/ashare/sz399006-m5.txt",
+    "archived_file": "evidence/2026-11-16-0914/ashare/sz399006-m5.txt",
+    "sha256": "e89d19b6a3e81acbe5d588a890038542060817ae018c455b0d02037c0e6686f7",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/aaoi_ir.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/aaoi_ir.txt",
+    "sha256": "7e5f8babcd2aa24abea0c623186952412d536498c63293c1f7f230b656a6072d",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/aaoi_ir_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/aaoi_ir_clean.txt",
+    "sha256": "41ce79f3976ff34199d9f75b153066862ae2c31e37e2067d580c1d9181f600bc",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/aaoi_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/aaoi_submissions.txt",
+    "sha256": "6cf92f312985d6187c5aee673411ebdf8e3512e193c4b175d706a029c7677ccf",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/analysis.json",
+    "archived_file": "evidence/2026-11-16-0914/events/analysis.json",
+    "sha256": "da73a28906d769a40008673a729d1c6a6793ad3ca3d61394e0fdefce1faed90d",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/avgo_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/avgo_submissions.txt",
+    "sha256": "41ec85346d2b5ffbd8358ab2d3ef9400598660be94281edacf784da984097866",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/bessent_compliance_media.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/bessent_compliance_media.txt",
+    "sha256": "be0979949c2d3b5be7b10c35df151e7fc7dccc08542245df5f637b0f57138e34",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/bessent_compliance_media_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/bessent_compliance_media_clean.txt",
+    "sha256": "c2b44512019ed9e4a56dfedd67a001cd1356be3cc11e71bfcf0c4638123611d1",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/board_manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/events/board_manifest.json",
+    "sha256": "f14c7a701858b1699bd7817760635987aacedd12936e651762e61c064625df46",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cien_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cien_submissions.txt",
+    "sha256": "f70f0e94ad22d1cb864d1d23a6804a3914003852e9ba76d79dfdb4385cc2c1c9",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cn_300308.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cn_300308.txt",
+    "sha256": "0e8584e3f6aeecf51802847fb6507fe1ccc3342a56dce80e90c62c09e40a0d98",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cn_300308_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cn_300308_clean.txt",
+    "sha256": "1320dde995c5026e9a6d49f481326f6d5dfd6cb25178c58513183728ba0d1594",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cn_300502.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cn_300502.txt",
+    "sha256": "5caac8775e9e42b7a6692bc1429878eaca43a62be95c6d0d9d8349ac47764bce",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cn_300502_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cn_300502_clean.txt",
+    "sha256": "301b3de6bece8c916b5e6e49c62265d7587c27916d26343b2712c9d1494903fe",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cn_603083.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cn_603083.txt",
+    "sha256": "56aa5310c36de69b6f6f5f0c0ab904ea5c2e12394c4a8e16c199b328d927d323",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cn_603083_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cn_603083_clean.txt",
+    "sha256": "641b7a9ef9438376092ebc6cb75debfe0f0e47bea733fa2a3558a63db3b50e62",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cohr_ir.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cohr_ir.txt",
+    "sha256": "e1dc0cdc6fd3b33f1741af2de3f3ce2a5c76064292085a6ee6a4a7a91a98ea19",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cohr_ir_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cohr_ir_clean.txt",
+    "sha256": "4d557615d7b4203ff3832def1d08754a8861b4aa02866a06e0b3aa9aec7cf23e",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/cohr_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/cohr_submissions.txt",
+    "sha256": "628e82542a715aae43d9b6e5b417799bbd6e28c65d65890ef741406957ee5907",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/combined_source_manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/events/combined_source_manifest.json",
+    "sha256": "7f4046f77a9e8d109ba2904e4642844097c5b4c1baea806cce89af592c5cc5f1",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/fn_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/fn_submissions.txt",
+    "sha256": "2f3c2352c3d85ead83372e1e7b8a56125c5eb20f1bbdef968a881fbaea5401af",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/korea_GPU_continuity_media.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/korea_GPU_continuity_media.txt",
+    "sha256": "8eeafd4ac6e381b55d1313d27a5aa1e72fa43ff11e6513d9caba388ea55c9d74",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/korea_GPU_continuity_media_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/korea_GPU_continuity_media_clean.txt",
+    "sha256": "625dcc29b7b3cb89c53f09e153df6b74eab3070432d194aef9748775fc0ae581",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/lite_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/lite_submissions.txt",
+    "sha256": "b0c6c88493ff3a2303d67578ed72d1840dcd65c7e8c3e0dae7733a2c8ae4c0f6",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_1.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_1.txt",
+    "sha256": "84381e998cdb200ac6d22b15b75d6f41b54992cf1eae7f2a8508a05b1c7a3274",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_10.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_10.txt",
+    "sha256": "7c18fb673d9f4cddbf913ab07983a10708534c3871850c56876bcab0d18dfc5d",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_11.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_11.txt",
+    "sha256": "a73669d3b95c7504924d6c1356bf639f1d23996356b8659564bc2302182c2b10",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_12.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_12.txt",
+    "sha256": "6a6ff91445b5e34b7af45d7bec81d9c27c0468bc1a875e189f4c92bf6088a6b3",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_13.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_13.txt",
+    "sha256": "bacb747e5a3c538c8c1114778da93c6a5123f1d520f97d7362ba932d7157c350",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_14.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_14.txt",
+    "sha256": "224b39edbfb6650f44a518de443bacab61a4689f50e18ca9302c59dfd24ff5eb",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_15.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_15.txt",
+    "sha256": "d210c784fe2fdb1797d876d639fb7d82c515975d7062ffd7805685bb7fcd986f",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_16.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_16.txt",
+    "sha256": "494082418a50ac9251473413351833b0df25cffebeb9efce120e5f8e9f3db68f",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_17.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_17.txt",
+    "sha256": "8bbe30fb569320968049c33c24cbab6b26cc9bc263ab6c1a493ae9533b0398a0",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_18.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_18.txt",
+    "sha256": "fc077eeaa43bae98eacc6494b3265b703d9ea322d54c3b52de6296deb8708316",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_19.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_19.txt",
+    "sha256": "ef01798e087924e444a968815674190637d64a9488af3f5c0857345b7579ace7",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_2.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_2.txt",
+    "sha256": "dc4edeafb41978a507f756fc3c424347b1d66d4874feb62fa699b025596f18ba",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_20.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_20.txt",
+    "sha256": "ba300372b074d055bd8f5f823cd6673add609b4c14bf8dfe87dbf44f81ce0a99",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_21.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_21.txt",
+    "sha256": "c6f10f7a340223cc9f8722d11771be87f81a3893a0688444491b10c5436cddee",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_22.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_22.txt",
+    "sha256": "a86fa5c4a70793ca56c1f9f0219e0bf90ae9c88ea06ffdc2b8e506bb64ae0627",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_23.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_23.txt",
+    "sha256": "23e2e04010a6c8a60c5cc4387f884a2560daed134120e6c7854a6a2418f88cdb",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_24.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_24.txt",
+    "sha256": "d5412e92bc6850df1fef1c0a67a71cd78d38cc6f9c2413966548792ea922bbc2",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_25.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_25.txt",
+    "sha256": "b1a9eea4d4d1b74244eef8b3d60804ac3d2a57656ea768ad00890ca727b68d43",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_26.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_26.txt",
+    "sha256": "c5e2c7f6de4775339fb663945ffab6c59669e327191639e7219ed269f327cf26",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_27.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_27.txt",
+    "sha256": "171bc76e9725f089aca061b6a653ba99d7df03df497360d9ee3622e5f1cdd5b3",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_3.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_3.txt",
+    "sha256": "f730de3d55c53bd57fff131cf30bb99a2498684d162432b1a4278f08759ad8bf",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_4.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_4.txt",
+    "sha256": "246422ff941363b4d25dd2c0bccf37cd8471fb01ae2de3efb132edf7cd492552",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_5.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_5.txt",
+    "sha256": "3db4ad7af14fce973853288509e1d5cf9b67578e7341fe6efde76820805e22a6",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_6.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_6.txt",
+    "sha256": "c84e0385e4c2d552f843dacdeef2cc0fc44557190bfb97107cf2b7505f8f5419",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_7.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_7.txt",
+    "sha256": "ee0e088f55e355ade4f7bc0839016072cc532df2d5b8b2c0ba4de95e739feda1",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_8.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_8.txt",
+    "sha256": "22d38bb70745d0e7dfb942b24d3aed9f248ce3c9ed17f9547d48d8968aa5d76c",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/live_news_9.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/live_news_9.txt",
+    "sha256": "8d2644e84939e5ee63efa9fa841f895d5e15984465b353528c8f634d4f2cca00",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/events/manifest.json",
+    "sha256": "a5f620f1cdae884357035104fe586351adf41e57e6f39ee5c06b69a487d55f3e",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_0001628280-26-073722.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_0001628280-26-073722.txt",
+    "sha256": "f28e9102e19a39a17d1b439592e8690bdfae2a7a94519c67c2eacbbed2c2dd1d",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_0001628280-26-073722_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_0001628280-26-073722_clean.txt",
+    "sha256": "0ca679cb923dade95240c18286e43d5161133677c4bb5840dacab7c14e8fe1a7",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_0001628280-26-073723.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_0001628280-26-073723.txt",
+    "sha256": "d1b0ab78a25f9b8e588dcd22f3df5b3bca928221e0ad97d4aec7aded4e6c058a",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_0001628280-26-073723_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_0001628280-26-073723_clean.txt",
+    "sha256": "f779b0636384a694a6ae4e8725099f8b648b5aca4c8e15dc392515f8d4e61469",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_0001628280-26-073725.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_0001628280-26-073725.txt",
+    "sha256": "420e422edd37b9d2549db02fb78516afbbde1833494ecf346c5d1dff2541c4c9",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_0001628280-26-073725_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_0001628280-26-073725_clean.txt",
+    "sha256": "910d13b3a4ef73eb0f11d86c6cccd2f350b52e3dd40ce7b894d765c255cf5924",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_SC26.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_SC26.txt",
+    "sha256": "d174db61e9bb23d1d6a241149205e455c0f39ba3d7d08fff14c7d841867156f2",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_SC26_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_SC26_clean.txt",
+    "sha256": "d66a45b976d2ed248a4e44c44b8f14716668af7ae76b9a49ebcaef52ba1db808",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_ir.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_ir.txt",
+    "sha256": "45913306d1daeb257e1098ff6ab4c8a36a821c654153554faf544e1ac4174e5f",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_ir_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_ir_clean.txt",
+    "sha256": "ae3d78e433bca97a3b888a2a7cf7ca57638f80787590f619d9bc97f5279cc682",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/mrvl_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/mrvl_submissions.txt",
+    "sha256": "ef9077d3cb0ff110667a825aacc969c56b44323af330c00dc7bde329c86723a6",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nbis_0001513845-26-000149.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nbis_0001513845-26-000149.txt",
+    "sha256": "70eee620a771fb822c75658330fb5e39d5d451ceb7f072bdb0dc8f4d15ad3447",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nbis_0001513845-26-000149_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nbis_0001513845-26-000149_clean.txt",
+    "sha256": "3ff369f0ffd60cb3f1e3f1f3228be2ff5a5e3e3db09e4746eefea4637acdbdbb",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nbis_0001950047-26-011076.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nbis_0001950047-26-011076.txt",
+    "sha256": "e132635a4fae9bf1114ef2fd8a2f3783e995d573ba4bee7baa232efe3817f843",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nbis_0001950047-26-011076_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nbis_0001950047-26-011076_clean.txt",
+    "sha256": "28df3eeaf97aabb2a59de399a2d2f0bb838048f75a70bd939c9f9daf2950aaca",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nbis_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nbis_submissions.txt",
+    "sha256": "38987e19736614e361e577c818e4ee3895353c75b1c32173e03fe1bf2f9ba6ef",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_Korea_blog.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_Korea_blog.txt",
+    "sha256": "8a7eee23cb59a2982122e95d9e4f9b1737ad30493297618c0893f75f692b0388",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_Korea_blog_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_Korea_blog_clean.txt",
+    "sha256": "287eaa4ea0bc2c29386a804e8e22101bd41f5ee425ec4d57ce71211553eaab03",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_board_search_media.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_board_search_media.txt",
+    "sha256": "fcfdf7fd29d4c42ecdd37d101f2e6559f41ccd925b79a52fbf444338518f1ec5",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_board_search_media_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_board_search_media_clean.txt",
+    "sha256": "d96b3dadbac892bfa7191f688efeb273c316d06a6e06993f9d951eaac0be3396",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_hyperliquid_media.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_hyperliquid_media.txt",
+    "sha256": "656ba0486e5ea8395395503d3a635ebcf9a1133456c4269950f6844104266610",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_hyperliquid_media_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_hyperliquid_media_clean.txt",
+    "sha256": "31853cacdebca37d90ba92bb71ab78101b48fdccd4bb75bc28ab37debac20626",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_news.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_news.txt",
+    "sha256": "d672f106f966d5fabb68aec56e1bf835882aa204ef5fe2aabcc7766d1f12d9e9",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_news_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_news_clean.txt",
+    "sha256": "40584926a7391762a7c9a71407e2eff98502e0940f73c866f4fd05b1ea5c8570",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_return_rumor_media.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_return_rumor_media.txt",
+    "sha256": "12a9f2c8e0214a8e893c40ca641d1f97935ffd5afe8168aa3e2ab9f78ac6ee52",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_return_rumor_media_clean.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_return_rumor_media_clean.txt",
+    "sha256": "c00ea9f7a38875ae3e1bc53f36d58565f0ef1ea49f6034d79dd344121b3830b1",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_submissions.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_submissions.txt",
+    "sha256": "7cbfb234acae4a666ed049cd86157c2a7daf5a89dd4083af31a1da6831793096",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/nvda_transition.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/nvda_transition.txt",
+    "sha256": "1f0747f87b07a430b659d85d01672a5b83bcf336831ab0283d31ae5707a67226",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/primary_manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/events/primary_manifest.json",
+    "sha256": "75c94a4bd4f0bc17e477521e115a3f4e2764ac9a0993b01d8ba342cbb985aaf3",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/raw_analysis.json",
+    "archived_file": "evidence/2026-11-16-0914/events/raw_analysis.json",
+    "sha256": "8ea38ffade002f8197e442de51a4bd0c4c4e070d8d9d1d9e839b23398a3bfb84",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/raw_analysis_stdout.txt",
+    "archived_file": "evidence/2026-11-16-0914/events/raw_analysis_stdout.txt",
+    "sha256": "d78afd1a0c3f27ff13d3665b6f17b34635ea1ec60d3f4e8c2bf07a66cfaf087f",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/events/seen_events_additions.json",
+    "archived_file": "evidence/2026-11-16-0914/events/seen_events_additions.json",
+    "sha256": "9e3451783948a40405ddf5916e01f8c10f04b9514431bdf8cf2d36f025bab37c",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/analysis.json",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/analysis.json",
+    "sha256": "c2fbc67b2da238980d2970dfd2cd56bd049ec4c5a19bbfe2900c4e7d5132ddff",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/bis_home.html",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/bis_home.html",
+    "sha256": "da7439bcde982ea086033060586502931a7a39f569c04c060424e96354d563e9",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/bis_home_manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/bis_home_manifest.json",
+    "sha256": "91429ddffe7f44535d50ad46f0db33a6a3e367395192236add6644e53a900976",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/bis_news.html",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/bis_news.html",
+    "sha256": "423eb0c578e8dff3b83c2c46bbab6525a900f22cb1bbf938a42dfa7a880bdd47",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/bis_news.txt",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/bis_news.txt",
+    "sha256": "f7910ae53286c9bfcf38c4119b0710cc5dda6bcf0b7298e131768fbfd988f273",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/bis_news_manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/bis_news_manifest.json",
+    "sha256": "ec44dc98ed1275331a4a7c1b08efdcdac3377ee80cfc7b5b4be37cf87e941084",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/bis_news_visible.txt",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/bis_news_visible.txt",
+    "sha256": "27709b79217390e23fb160c2104937878c8a0c5113b3b4f656cd59b31b04e2f2",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/official_manifest.json",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/official_manifest.json",
+    "sha256": "d2ac8fd67303ce9e1915db7a3c5aaf025a851795331087b7c4c0239eea3079fa",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/treasury.html",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/treasury.html",
+    "sha256": "7bb497566cdae51961ce859d29d372aae49418af4f9f8fe3c96d6cb43da0c66b",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/treasury.txt",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/treasury.txt",
+    "sha256": "698b0b74f2e1af4cf53761d53af0d053d80c444905e890cb991ace6b025b842e",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/whitehouse.html",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/whitehouse.html",
+    "sha256": "a8923088c53a5806ddf80a3beb22e419cea772a2b0ef0a28923c5916e934d5dd",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  },
+  {
+    "original_file": "/tmp/optics-premarket-20261116/regulatory-audit/whitehouse.txt",
+    "archived_file": "evidence/2026-11-16-0914/regulatory-audit/whitehouse.txt",
+    "sha256": "b2e8826b5ad93081d2b567d1519d59edbf7169c39eb0f8ae398cf1ed42a6e277",
+    "source_reuse": "Previously retrieved this morning; not a new network request in this unexpected pre-open run."
+  }
+]

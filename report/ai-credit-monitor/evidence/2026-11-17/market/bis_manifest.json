@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bis_release",
+    "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "retrieved_at": "2026-11-17T02:10:41.715189+00:00",
+    "status": 200,
+    "final_url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "ok": true,
+    "bytes": 51028
+  },
+  {
+    "id": "bis_rule_pdf",
+    "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+    "retrieved_at": "2026-11-17T02:10:41.715719+00:00",
+    "status": 200,
+    "final_url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+    "ok": true,
+    "bytes": 710350
+  }
+]

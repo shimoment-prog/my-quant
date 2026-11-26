@@ -1,0 +1,567 @@
+{
+  "prepared_at": "2026-11-06T02:30:32.840274+00:00",
+  "asof_beijing": "2026-11-06T10:30:32.840274+08:00",
+  "baseline_events": "/tmp/optics-premarket-20261106/events/updates.json",
+  "baseline_market": "/tmp/optics-premarket-20261106/market/analysis.json",
+  "last_completed_US_normal_session": "2026-11-05",
+  "regular_quotes": [
+    {
+      "symbol": "LITE",
+      "regular_close": 509.7,
+      "regular_change_pct": -18.68,
+      "session_date": "2026-11-05",
+      "provider_regular_timestamp_exchange": "2026-11-05 16:00:02",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usLITE",
+      "near_end_of_standard_afterhours_Sina": {
+        "price": 525.31,
+        "change_vs_regular_close_pct": 3.06,
+        "vendor_quote_label_exchange": "Nov 05 07:59PM EST",
+        "provider_update_beijing": "2026-11-06 09:37:53",
+        "source": "https://hq.sinajs.cn/list=gb_lite",
+        "standard_session_end_close_verified": false
+      },
+      "latest_extended_vendor_Tencent": {
+        "price": 525.31,
+        "change_vs_regular_close_pct": 3.06,
+        "vendor_time_exchange": "2026-11-05 20:01:00",
+        "vendor_session_tag": "after",
+        "source": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usLITE,day,,,1,qfq",
+        "standard_session_end_close_verified": false,
+        "caveat_zh": "供应商标签在常规16:00至20:00盘后时段结束之后，可能含迟报或延迟汇总；不是官方20:00最后成交确认。"
+      },
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00"
+    },
+    {
+      "symbol": "MRVL",
+      "regular_close": 133.55,
+      "regular_change_pct": -16.43,
+      "session_date": "2026-11-05",
+      "provider_regular_timestamp_exchange": "2026-11-05 16:00:02",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usMRVL",
+      "near_end_of_standard_afterhours_Sina": {
+        "price": 138.8155,
+        "change_vs_regular_close_pct": 3.94,
+        "vendor_quote_label_exchange": "Nov 05 07:59PM EST",
+        "provider_update_beijing": "2026-11-06 09:14:53",
+        "source": "https://hq.sinajs.cn/list=gb_mrvl",
+        "standard_session_end_close_verified": false
+      },
+      "latest_extended_vendor_Tencent": {
+        "price": 138.82,
+        "change_vs_regular_close_pct": 3.94,
+        "vendor_time_exchange": "2026-11-05 20:01:00",
+        "vendor_session_tag": "after",
+        "source": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usMRVL,day,,,1,qfq",
+        "standard_session_end_close_verified": false,
+        "caveat_zh": "供应商标签在常规16:00至20:00盘后时段结束之后，可能含迟报或延迟汇总；不是官方20:00最后成交确认。"
+      },
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00"
+    },
+    {
+      "symbol": "COHR",
+      "regular_close": 169.76,
+      "regular_change_pct": -12.98,
+      "session_date": "2026-11-05",
+      "provider_regular_timestamp_exchange": "2026-11-05 16:04:49",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usCOHR",
+      "near_end_of_standard_afterhours_Sina": {
+        "price": 175.52,
+        "change_vs_regular_close_pct": 3.39,
+        "vendor_quote_label_exchange": "Nov 05 07:59PM EST",
+        "provider_update_beijing": "2026-11-06 09:46:23",
+        "source": "https://hq.sinajs.cn/list=gb_cohr",
+        "standard_session_end_close_verified": false
+      },
+      "latest_extended_vendor_Tencent": {
+        "price": 175.25,
+        "change_vs_regular_close_pct": 3.23,
+        "vendor_time_exchange": "2026-11-05 20:15:00",
+        "vendor_session_tag": "after",
+        "source": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usCOHR,day,,,1,qfq",
+        "standard_session_end_close_verified": false,
+        "caveat_zh": "供应商标签在常规16:00至20:00盘后时段结束之后，可能含迟报或延迟汇总；不是官方20:00最后成交确认。"
+      },
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00"
+    },
+    {
+      "symbol": "CIEN",
+      "regular_close": 230.81,
+      "regular_change_pct": -15.22,
+      "session_date": "2026-11-05",
+      "provider_regular_timestamp_exchange": "2026-11-05 16:04:49",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usCIEN",
+      "near_end_of_standard_afterhours_Sina": {
+        "price": 235.0,
+        "change_vs_regular_close_pct": 1.82,
+        "vendor_quote_label_exchange": "Nov 05 07:59PM EST",
+        "provider_update_beijing": "2026-11-06 09:46:08",
+        "source": "https://hq.sinajs.cn/list=gb_cien",
+        "standard_session_end_close_verified": false
+      },
+      "latest_extended_vendor_Tencent": {
+        "price": 235.65,
+        "change_vs_regular_close_pct": 2.1,
+        "vendor_time_exchange": "2026-11-05 20:15:00",
+        "vendor_session_tag": "after",
+        "source": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usCIEN,day,,,1,qfq",
+        "standard_session_end_close_verified": false,
+        "caveat_zh": "供应商标签在常规16:00至20:00盘后时段结束之后，可能含迟报或延迟汇总；不是官方20:00最后成交确认。"
+      },
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00"
+    },
+    {
+      "symbol": "AAOI",
+      "regular_close": 46.89,
+      "regular_change_pct": -20.89,
+      "session_date": "2026-11-05",
+      "provider_regular_timestamp_exchange": "2026-11-05 16:00:02",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usAAOI",
+      "near_end_of_standard_afterhours_Sina": {
+        "price": 43.4778,
+        "change_vs_regular_close_pct": -7.28,
+        "vendor_quote_label_exchange": "Nov 05 07:59PM EST",
+        "provider_update_beijing": "2026-11-06 09:45:05",
+        "source": "https://hq.sinajs.cn/list=gb_aaoi",
+        "standard_session_end_close_verified": false
+      },
+      "latest_extended_vendor_Tencent": {
+        "price": 43.49,
+        "change_vs_regular_close_pct": -7.25,
+        "vendor_time_exchange": "2026-11-05 20:15:00",
+        "vendor_session_tag": "after",
+        "source": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usAAOI,day,,,1,qfq",
+        "standard_session_end_close_verified": false,
+        "caveat_zh": "供应商标签在常规16:00至20:00盘后时段结束之后，可能含迟报或延迟汇总；不是官方20:00最后成交确认。"
+      },
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00"
+    },
+    {
+      "symbol": "FN",
+      "regular_close": 292.97,
+      "regular_change_pct": -14.25,
+      "session_date": "2026-11-05",
+      "provider_regular_timestamp_exchange": "2026-11-05 16:04:49",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usFN",
+      "near_end_of_standard_afterhours_Sina": {
+        "price": 305.18,
+        "change_vs_regular_close_pct": 4.17,
+        "vendor_quote_label_exchange": "Nov 05 08:04PM EST",
+        "provider_update_beijing": "2026-11-06 09:48:44",
+        "source": "https://hq.sinajs.cn/list=gb_fn",
+        "standard_session_end_close_verified": false
+      },
+      "latest_extended_vendor_Tencent": {
+        "price": 305.18,
+        "change_vs_regular_close_pct": 4.17,
+        "vendor_time_exchange": "2026-11-05 20:15:00",
+        "vendor_session_tag": "after",
+        "source": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usFN,day,,,1,qfq",
+        "standard_session_end_close_verified": false,
+        "caveat_zh": "供应商标签在常规16:00至20:00盘后时段结束之后，可能含迟报或延迟汇总；不是官方20:00最后成交确认。"
+      },
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00"
+    },
+    {
+      "symbol": "NVDA",
+      "regular_close": 181.6,
+      "regular_change_pct": -9.26,
+      "session_date": "2026-11-05",
+      "provider_regular_timestamp_exchange": "2026-11-05 16:00:02",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usNVDA",
+      "near_end_of_standard_afterhours_Sina": {
+        "price": 183.88,
+        "change_vs_regular_close_pct": 1.26,
+        "vendor_quote_label_exchange": "Nov 05 07:59PM EST",
+        "provider_update_beijing": "2026-11-06 09:14:58",
+        "source": "https://hq.sinajs.cn/list=gb_nvda",
+        "standard_session_end_close_verified": false
+      },
+      "latest_extended_vendor_Tencent": {
+        "price": 183.88,
+        "change_vs_regular_close_pct": 1.26,
+        "vendor_time_exchange": "2026-11-05 20:01:00",
+        "vendor_session_tag": "after",
+        "source": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usNVDA,day,,,1,qfq",
+        "standard_session_end_close_verified": false,
+        "caveat_zh": "供应商标签在常规16:00至20:00盘后时段结束之后，可能含迟报或延迟汇总；不是官方20:00最后成交确认。"
+      },
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00"
+    },
+    {
+      "symbol": "AVGO",
+      "regular_close": 291.53,
+      "regular_change_pct": -10.43,
+      "session_date": "2026-11-05",
+      "provider_regular_timestamp_exchange": "2026-11-05 16:00:02",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usAVGO",
+      "near_end_of_standard_afterhours_Sina": {
+        "price": 297.1409,
+        "change_vs_regular_close_pct": 1.92,
+        "vendor_quote_label_exchange": "Nov 05 08:01PM EST",
+        "provider_update_beijing": "2026-11-06 09:46:23",
+        "source": "https://hq.sinajs.cn/list=gb_avgo",
+        "standard_session_end_close_verified": false
+      },
+      "latest_extended_vendor_Tencent": {
+        "price": 297.14,
+        "change_vs_regular_close_pct": 1.92,
+        "vendor_time_exchange": "2026-11-05 20:01:00",
+        "vendor_session_tag": "after",
+        "source": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usAVGO,day,,,1,qfq",
+        "standard_session_end_close_verified": false,
+        "caveat_zh": "供应商标签在常规16:00至20:00盘后时段结束之后，可能含迟报或延迟汇总；不是官方20:00最后成交确认。"
+      },
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00"
+    }
+  ],
+  "SOX": {
+    "regular_close": 9011.1375,
+    "regular_change_pct": -12.25,
+    "session_date": "2026-11-05",
+    "provider_update_beijing": "2026-11-06 06:16:01",
+    "source": "https://hq.sinajs.cn/list=gb_sox",
+    "note": "指数正常收盘，非SOXX ETF。"
+  },
+  "SEC_incremental_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings_after0846Beijing": [],
+      "latest_acceptance_utc": "2026-11-05T13:41:58.000Z",
+      "retrieved_at": "2026-11-06T02:28:15.421307+00:00"
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings_after0846Beijing": [],
+      "latest_acceptance_utc": "2026-11-05T18:22:27.000Z",
+      "retrieved_at": "2026-11-06T02:28:15.421476+00:00"
+    },
+    {
+      "symbol": "COHR",
+      "new_filings_after0846Beijing": [],
+      "latest_acceptance_utc": "2026-11-05T18:14:28.000Z",
+      "retrieved_at": "2026-11-06T02:28:15.421623+00:00"
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings_after0846Beijing": [],
+      "latest_acceptance_utc": "2026-11-04T21:41:34.000Z",
+      "retrieved_at": "2026-11-06T02:28:15.421762+00:00"
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings_after0846Beijing": [],
+      "latest_acceptance_utc": "2026-11-05T21:16:58.000Z",
+      "retrieved_at": "2026-11-06T02:28:15.421900+00:00"
+    },
+    {
+      "symbol": "FN",
+      "new_filings_after0846Beijing": [],
+      "latest_acceptance_utc": "2026-11-05T18:16:20.000Z",
+      "retrieved_at": "2026-11-06T02:28:15.422080+00:00"
+    }
+  ],
+  "new_verified_overseas_material_events_after0846": [],
+  "company_relevant_news_after0846": [
+    {
+      "id": "Chinese_company_operation_responses_reported",
+      "time_beijing": "2026-11-06T10:11:52+08:00",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-06/doc-inixucth5589330.shtml",
+      "source_type": "secondary_media_reported_company_response",
+      "facts_zh": "媒体称中际旭创回应：经营正常，海外客户订单和交付节奏未变；新易盛回应：生产经营正常，供货情况未变化。",
+      "limitations_zh": "媒体转述公司即时口径，未取得交易所正式公告或原始完整访谈；不是新增订单量和金额披露，不证明未来需求全部不变。"
+    },
+    {
+      "id": "overnight_or_24h_rebound_report",
+      "time_beijing": "2026-11-06T10:06:20+08:00",
+      "source": "https://finance.sina.cn/7x24/2026-11-06/detail-inixucsy5103185.d.html",
+      "source_type": "secondary_media_market_report",
+      "facts_zh": "报道称纳指期货及美股部分科技股夜盘反弹。",
+      "limitations_zh": "属于期货和夜盘，不能混入11月5日正常收盘或标准盘后表现；本轮未独立核实这些24小时交易报价，主表不采用。"
+    }
+  ],
+  "carried_forward_AAOI_earnings": {
+    "id": "AAOI_Q3_2026_results",
+    "company": "AAOI",
+    "release_date_ET": "2026-11-05",
+    "SEC_8k_acceptance_utc": "2026-11-05T21:10:28Z",
+    "SEC_8k_acceptance_beijing": "2026-11-06T05:10:28+08:00",
+    "session": "after_regular_close",
+    "sources": {
+      "IR": "https://investors.ao-inc.com/2026-11-05-Applied-Optoelectronics-Reports-Third-Quarter-2026-Results",
+      "8K": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008351/aaoi_8k.htm",
+      "8K_exhibit": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008351/aaoi_ex9901.htm",
+      "10Q": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm"
+    },
+    "realized": {
+      "Q3_revenue_USD_million": 269.875,
+      "Q3_2025_revenue_USD_million": 118.63,
+      "Q3_revenue_yoy_pct_derived": 127.49304560397876,
+      "Q2_2026_revenue_USD_million_rounded": 191.9,
+      "Q3_revenue_qoq_pct_derived_from_rounded": 40.63314226159458,
+      "Q3_GAAP_gross_margin_pct": 28.2,
+      "Q3_nonGAAP_gross_margin_pct": 28.7,
+      "Q2_nonGAAP_margin_pct": 29.8,
+      "Q3_GAAP_net_income_USD_million": 6.3,
+      "Q3_GAAP_EPS_basic_USD": 0.07,
+      "Q3_nonGAAP_net_income_USD_million": 14.8,
+      "Q3_nonGAAP_EPS_diluted_USD": 0.17,
+      "9m_operating_cashflow_USD_million": -76.653,
+      "9m_investing_cashflow_USD_million": -1109.533,
+      "9m_financing_cashflow_USD_million": 1591.645,
+      "cash_with_restricted_USD_million": 621.457,
+      "receivables_USD_million": 413.76,
+      "inventory_USD_million": 377.991,
+      "interpretation_zh": "收入兑现加速且GAAP扭亏支持公司需求仍强；非GAAP毛利环比下降，前三季经营现金仍净流出，大规模扩产依赖融资，不等于增长无风险。"
+    },
+    "guidance_not_realized": {
+      "Q4_revenue_USD_million": [
+        385,
+        420
+      ],
+      "Q4_nonGAAP_gross_margin_pct": [
+        29.5,
+        31
+      ],
+      "Q4_nonGAAP_net_income_USD_million": [
+        45.9,
+        60.4
+      ],
+      "Q4_nonGAAP_EPS_USD": [
+        0.48,
+        0.63
+      ],
+      "Q4_revenue_guidance_midpoint_qoq_pct_derived": 49.14312181565539,
+      "manufacturing_equipment_capacity_now_units_per_month_approx": 330000,
+      "end2026_installed_equipment_capacity_800G_1p6T_units_month_over": 500000,
+      "end2027_target_800G_1p6T_units_month_over": 1000000,
+      "capacity_warning": "公司预计2027美国扩产因电力接入时间及其他施工问题更慢；设备产能不等于合格交付、订单或营收。"
+    },
+    "customer_contract_new_disclosure": {
+      "type": "3_year_long_term_agreement",
+      "customer": "unnamed_major_hyperscale_data_center_customer",
+      "signed": "subsequent_to_2026-09-30_exact_date_not_disclosed",
+      "covered_period": "2026-06_to_2029-05",
+      "original_quote": "this customer is obligated, with certain conditions, to purchase 10% of certain 1.6 Tb data center transceiver products from us",
+      "supplier_obligations": "AAOI需建设额外产能满足供货；约定某些最高定价。",
+      "limitations": "实际量/收入依赖客户需求、条件及AAOI供货能力。未披露客户名、具体绝对数量或总金额；不要推算全球份额或认定抢走新易盛订单。",
+      "status": "已签协议为事实；未来采购与收入仍有条件。"
+    },
+    "supplier_contract_new_disclosure": {
+      "agreement_date": "2026-11-02",
+      "disclosed_10q_accepted_utc": "2026-11-05T21:16:58Z",
+      "framework_years": 5,
+      "annual_purchases_USD_million_up_to": 194.4,
+      "prepayments_USD_million_up_to": 40,
+      "payable_2026_USD_million": 20,
+      "paid_asof_filing": 0,
+      "material": "unnamed_key_raw_material",
+      "regulatory_condition": "供应商出口与交付取决于中国相关监管批准，实际量以出口批准为限，若未获批可取消和退款。",
+      "interpretation_zh": "供应保障与合规审批同时存在，不能猜测具体原料或供应商，也不能将采购框架写成已交付或确已断供。"
+    }
+  },
+  "AAOI_timing_note_zh": "AAOI11/5盘后发布的财报在北京时间11/6约05:10已知，属于今早基线，不是10:30新财报；其正常时段−20.89%发生在发布之前。",
+  "IR_check": {
+    "AAOI": "官网仍最新11/5Q3财报，未见新新闻标题。",
+    "MRVL": "新闻页原始内容与08:43抓取完全一致。",
+    "COHR": "新闻页原始内容与08:43抓取完全一致。",
+    "LITE_CIEN_FN": "08:43本轮基线IR分别返回429/429/403；本次未反复撞限，使用六家SEC增量和公开新闻，不声称IR全部穷尽。"
+  },
+  "news_feed_checked": {
+    "count": 300,
+    "range_beijing": [
+      "2026-11-06 07:22:30",
+      "2026-11-06 10:27:43"
+    ],
+    "matches": [
+      {
+        "time_beijing": "2026-11-06 10:11:52",
+        "text": "【美股科技股回调，中际旭创、新易盛回应：经营正常，订单与交付节奏未变】当地时间11月5日，美股三大股指全线收跌，其中AI硬件板块继续下挫。对于隔夜海外市场出现的明显波动，光通信龙头中际旭创回应称，目前公司经营一切正常，海外客户订单及交付节奏未发生变化，基本面未发生变化。另外，新易盛也表示，目前生产经营正常，供货情况未有变化。",
+        "source": "https://finance.sina.cn/7x24/2026-11-06/detail-inixucth5589330.d.html"
+      },
+      {
+        "time_beijing": "2026-11-06 10:06:20",
+        "text": "【纳指期货涨1％ 部分科技股夜盘反弹】纳指期货涨幅扩大至1％，此前跌超1％，美光科技(MU.O)在夜盘上涨5.5％，闪迪(SNDK.O)涨6％，AMD(AMD.O)涨5％，英伟达(NVDA.O)涨2.4％。",
+        "source": "https://finance.sina.cn/7x24/2026-11-06/detail-inixucsy5103185.d.html"
+      }
+    ]
+  },
+  "interpretation_zh": "美股光通信正常时段六股大幅下跌仍是风险背景，盘后多数修复而AAOI继续承压。AAOI业绩增长和有条件LTA支持需求尚在，但扩产和审批风险制约兑现。媒体所述新易盛经营正常可降低把海外跌价直接解释为新易盛已丢单的依据，不能消除估值与价格风险。",
+  "sources": [
+    {
+      "name": "us_sina",
+      "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+      "retrieved_at": "2026-11-06T02:28:15.421123+00:00",
+      "ok": true,
+      "length": 3042
+    },
+    {
+      "name": "us_quotes",
+      "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+      "retrieved_at": "2026-11-06T02:28:15.420718+00:00",
+      "ok": true,
+      "length": 3146
+    },
+    {
+      "name": "aaoi_ir",
+      "url": "https://investors.ao-inc.com/",
+      "retrieved_at": "2026-11-06T02:28:15.511442+00:00",
+      "ok": true,
+      "length": 44299
+    },
+    {
+      "name": "mrvl_ir",
+      "url": "https://investor.marvell.com/news-events/press-releases",
+      "retrieved_at": "2026-11-06T02:28:15.518469+00:00",
+      "ok": true,
+      "length": 114815
+    },
+    {
+      "name": "mrvl_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+      "retrieved_at": "2026-11-06T02:28:15.421476+00:00",
+      "ok": true,
+      "length": 136604
+    },
+    {
+      "name": "fn_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+      "retrieved_at": "2026-11-06T02:28:15.422080+00:00",
+      "ok": true,
+      "length": 155153
+    },
+    {
+      "name": "live_news_1",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+      "retrieved_at": "2026-11-06T02:28:17.364332+00:00",
+      "ok": true,
+      "length": 196464
+    },
+    {
+      "name": "aaoi_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+      "retrieved_at": "2026-11-06T02:28:15.421900+00:00",
+      "ok": true,
+      "length": 155078
+    },
+    {
+      "name": "lite_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+      "retrieved_at": "2026-11-06T02:28:15.421307+00:00",
+      "ok": true,
+      "length": 159053
+    },
+    {
+      "name": "cien_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+      "retrieved_at": "2026-11-06T02:28:15.421762+00:00",
+      "ok": true,
+      "length": 158567
+    },
+    {
+      "name": "cohr_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+      "retrieved_at": "2026-11-06T02:28:15.421623+00:00",
+      "ok": true,
+      "length": 160624
+    },
+    {
+      "name": "live_news_2",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+      "retrieved_at": "2026-11-06T02:28:17.578515+00:00",
+      "ok": true,
+      "length": 209366
+    },
+    {
+      "name": "live_news_3",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+      "retrieved_at": "2026-11-06T02:28:17.745934+00:00",
+      "ok": true,
+      "length": 309631
+    },
+    {
+      "name": "cohr_ir",
+      "url": "https://www.coherent.com/news",
+      "retrieved_at": "2026-11-06T02:28:17.306212+00:00",
+      "ok": true,
+      "length": 170108
+    },
+    {
+      "name": "extended_LITE",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usLITE,day,,,1,qfq",
+      "retrieved_at": "2026-11-06T02:29:40.688296+00:00",
+      "ok": true,
+      "length": 1646
+    },
+    {
+      "name": "extended_MRVL",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usMRVL,day,,,1,qfq",
+      "retrieved_at": "2026-11-06T02:29:40.688770+00:00",
+      "ok": true,
+      "length": 1763
+    },
+    {
+      "name": "extended_COHR",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usCOHR,day,,,1,qfq",
+      "retrieved_at": "2026-11-06T02:29:40.688940+00:00",
+      "ok": true,
+      "length": 1725
+    },
+    {
+      "name": "extended_CIEN",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usCIEN,day,,,1,qfq",
+      "retrieved_at": "2026-11-06T02:29:40.689082+00:00",
+      "ok": true,
+      "length": 1724
+    },
+    {
+      "name": "extended_AAOI",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usAAOI,day,,,1,qfq",
+      "retrieved_at": "2026-11-06T02:29:40.689215+00:00",
+      "ok": true,
+      "length": 1652
+    },
+    {
+      "name": "extended_FN",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usFN,day,,,1,qfq",
+      "retrieved_at": "2026-11-06T02:29:40.689368+00:00",
+      "ok": true,
+      "length": 1700
+    },
+    {
+      "name": "extended_NVDA",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usNVDA,day,,,1,qfq",
+      "retrieved_at": "2026-11-06T02:29:40.689502+00:00",
+      "ok": true,
+      "length": 1760
+    },
+    {
+      "name": "extended_AVGO",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usAVGO,day,,,1,qfq",
+      "retrieved_at": "2026-11-06T02:29:40.689670+00:00",
+      "ok": true,
+      "length": 1738
+    },
+    {
+      "name": "company_response",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-06/doc-inixucth5589330.shtml",
+      "retrieved_at": "2026-11-06T02:29:40.848511+00:00",
+      "ok": true,
+      "length": 27847
+    }
+  ],
+  "limitations": [
+    "核查截至实际10:28至10:29抓取时点，不倒填10:30消息。",
+    "六公司SEC无新增不等于全球所有渠道无新信息。",
+    "最终标准盘后最后成交无法确认；保留19:59附近新浪和20:01/20:15腾讯供应商标签，不将延迟汇总写成官方20:00收盘。",
+    "10:06媒体24小时夜盘反弹另列，不与美股正常盘/盘后混用。"
+  ],
+  "short_report_zh": "海外11月5日正常收盘仍全面承压：LITE−18.68%、MRVL−16.43%、COHR−12.98%、CIEN−15.22%、AAOI−20.89%、FN−14.25%，费半−12.25%。盘后其他光通股部分反弹，AAOI约再跌7.3%；这与其今晨已公布财报及扩产兑现风险并存，不能将正常时段跌幅倒因为之后财报。08:46后未核实六公司新增重大海外披露。10:11媒体转述中际旭创、新易盛经营/供货未变，是即时口径而非新增订单保证。"
+}

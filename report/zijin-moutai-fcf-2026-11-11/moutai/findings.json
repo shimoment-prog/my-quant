@@ -1,0 +1,158 @@
+{
+  "security": "600519.SH",
+  "name": "Guizhou Moutai",
+  "currency": "CNY",
+  "unit": "yuan",
+  "source_retrieved_at": "2026-11-11T09:40:13+08:00",
+  "definition": {
+    "fcf": "Consolidated net cash from operating activities minus cash paid for fixed assets, intangible assets and other long-term assets. No acquisition or financial investment deduction in this definition.",
+    "ttm": "FY2025 + YTD2026Q3 - YTD2025Q3",
+    "sensitivity": "Reported OCF minus customer deposits net inflow plus customer loans net outflow plus central bank/interbank deposits net outflow plus funds lent net outflow; then deduct same capex. Preserve reported signs. This is sensitivity only, not audited liquor-segment cash flow or complete ex-finance cash flow."
+  },
+  "periods": {
+    "FY2025": {
+      "ocf": "61522204989.35",
+      "capex": "3127594916.41",
+      "parent_net_profit": "82320067101.68",
+      "consolidated_net_profit": "85310324833.67",
+      "dividends_profits_interest_paid": "67241733345.45",
+      "minority_dividends_paid": "2569934067.50",
+      "customer_deposit_inflow": "-5099271966.87",
+      "customer_loan_outflow": "-848113545.25",
+      "central_bank_interbank_deposit_outflow": "12847265866.72",
+      "funds_lent_outflow": "-900000000.00",
+      "investment_paid": "62097000000.00",
+      "investment_recovered": "33455136000.00",
+      "fcf": "58394610072.94",
+      "fcf_ocf_ratio": "0.9491631530932382475635095871",
+      "capex_ocf_ratio": "0.05083684690676175243649041291",
+      "fcf_parent_net_profit_ratio": "0.7093605742669307692441319245",
+      "fcf_consolidated_net_profit_ratio": "0.6844963981416350940275771448",
+      "finance_four_principal_cash_effect": "-16198424288.34",
+      "ocf_ex_four_principal_sensitivity": "77720629277.69",
+      "fcf_ex_four_principal_sensitivity": "74593034361.28",
+      "subsidiary_acquisition_cash_paid_reported": null
+    },
+    "YTD2026Q3": {
+      "ocf": "84058979832.29",
+      "capex": "1449998414.96",
+      "parent_net_profit": "64467425981.95",
+      "consolidated_net_profit": "66717143218.04",
+      "dividends_profits_interest_paid": "37405474483.02",
+      "minority_dividends_paid": "2372900177.82",
+      "customer_deposit_inflow": "-774901684.37",
+      "customer_loan_outflow": "-1177564668.21",
+      "central_bank_interbank_deposit_outflow": "-22715439598.84",
+      "funds_lent_outflow": "200000000.00",
+      "investment_paid": "14749931000.00",
+      "investment_recovered": "41886116152.45",
+      "fcf": "82608981417.33",
+      "fcf_ocf_ratio": "0.9827502258788655344395630161",
+      "capex_ocf_ratio": "0.01724977412113446556043698388",
+      "fcf_parent_net_profit_ratio": "1.281406542281669320692036490",
+      "fcf_consolidated_net_profit_ratio": "1.238197222374367524003431997",
+      "finance_four_principal_cash_effect": "22918102582.68",
+      "ocf_ex_four_principal_sensitivity": "61140877249.61",
+      "fcf_ex_four_principal_sensitivity": "59690878834.65",
+      "subsidiary_acquisition_cash_paid_reported": null
+    },
+    "YTD2025Q3": {
+      "ocf": "38196802155.27",
+      "capex": "2282862269.89",
+      "parent_net_profit": "64626746712.18",
+      "consolidated_net_profit": "66898804746.17",
+      "dividends_profits_interest_paid": "37212595804.69",
+      "minority_dividends_paid": "2541434067.50",
+      "customer_deposit_inflow": "-8659745768.25",
+      "customer_loan_outflow": "358885355.55",
+      "central_bank_interbank_deposit_outflow": "12507272127.36",
+      "funds_lent_outflow": "-2100000000.00",
+      "investment_paid": "16345831315.16",
+      "investment_recovered": "13105136000.00",
+      "fcf": "35913939885.38",
+      "fcf_ocf_ratio": "0.9402342044077364142058480960",
+      "capex_ocf_ratio": "0.05976579559226358579415190397",
+      "fcf_parent_net_profit_ratio": "0.5557132567004399825898808707",
+      "fcf_consolidated_net_profit_ratio": "0.5368397839340484834666258472",
+      "finance_four_principal_cash_effect": "-19425903251.16",
+      "ocf_ex_four_principal_sensitivity": "57622705406.43",
+      "fcf_ex_four_principal_sensitivity": "55339843136.54",
+      "subsidiary_acquisition_cash_paid_reported": null
+    },
+    "TTM2026Q3": {
+      "ocf": "107384382666.37",
+      "capex": "2294731061.48",
+      "parent_net_profit": "82160746371.45",
+      "consolidated_net_profit": "85128663305.54",
+      "dividends_profits_interest_paid": "67434612023.78",
+      "minority_dividends_paid": "2401400177.82",
+      "customer_deposit_inflow": "2785572117.01",
+      "customer_loan_outflow": "-2384563569.01",
+      "central_bank_interbank_deposit_outflow": "-22375445859.48",
+      "funds_lent_outflow": "1400000000.00",
+      "investment_paid": "60501099684.84",
+      "investment_recovered": "62236116152.45",
+      "fcf": "105089651604.89",
+      "fcf_ocf_ratio": "0.9786306816270532961132140712",
+      "capex_ocf_ratio": "0.02136931837294670388678592880",
+      "fcf_parent_net_profit_ratio": "1.279073721285077745382909151",
+      "fcf_consolidated_net_profit_ratio": "1.234480227038299796047752803",
+      "finance_four_principal_cash_effect": "26145581545.50",
+      "ocf_ex_four_principal_sensitivity": "81238801120.87",
+      "fcf_ex_four_principal_sensitivity": "78944070059.39",
+      "subsidiary_acquisition_cash_paid_reported": null
+    }
+  },
+  "sensitivity_yoy": {
+    "reported_ocf_yoy_increase": "45862177677.02",
+    "finance_four_principal_cash_effect_yoy_change": "42344005833.84",
+    "reported_ytd_ocf_growth": "1.200681080332072005840676915",
+    "sensitivity_ytd_ocf_growth": "0.061055304820648257691892955",
+    "reported_ytd_fcf_growth": "1.300192673958303775333499436",
+    "sensitivity_ytd_fcf_growth": "0.078623925394488185061106574"
+  },
+  "current_ordinary_shares": {
+    "shares": 1250081601,
+    "as_of": "2026-09-30",
+    "source": "q32026_full.txt line351 / original page7, balance-sheet paid-in capital; original PDF checked",
+    "FY2025_shares": 1252270215,
+    "FY2024_shares": 1256197800
+  },
+  "sources": {
+    "FY2025": {
+      "notice": "https://data.eastmoney.com/notices/detail/600519/AN202604161821275610.html",
+      "pdf": "https://pdf.dfcfw.com/pdf/H2_AN202604161821275610_1.pdf",
+      "cashflow_original_pages": [
+        64,
+        65,
+        66
+      ]
+    },
+    "YTD2026Q3": {
+      "notice": "https://data.eastmoney.com/notices/detail/600519/AN202610301831245500.html",
+      "pdf": "https://pdf.dfcfw.com/pdf/H2_AN202610301831245500_1.pdf",
+      "cashflow_original_pages": [
+        10,
+        11,
+        12
+      ]
+    },
+    "YTD2025Q3": {
+      "notice": "https://data.eastmoney.com/notices/detail/600519/AN202510291771332923.html",
+      "pdf": "https://pdf.dfcfw.com/pdf/H2_AN202510291771332923_1.pdf",
+      "cashflow_original_pages": [
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  "limitations": [
+    "FCF is a chosen analytical metric, not a reported accounting line.",
+    "Consolidated OCF and capex include minority interests; FCF divided by parent net profit has scope mismatch. Prefer FCF/OCF for like-scope cash conversion.",
+    "Subsidiary acquisition cash-paid row has no printed amount in all three reports; do not represent omitted API fields as verified transactions or a positive amount. This FCF definition does not deduct acquisitions.",
+    "Large finance-company deposit principal flows affect consolidated OCF. TTM FCF must not be treated as normalized liquor FCF.",
+    "Four-principal-flow sensitivity still includes finance-company interest, tax, staff and other flows, and normal working-capital changes.",
+    "Financial investments are not operating capex; excluded from FCF definition. Recovered/paid financial investments can materially change cash balances."
+  ]
+}

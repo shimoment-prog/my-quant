@@ -1,0 +1,113 @@
+[
+  {
+    "name": "news_openai_reliable",
+    "url": "https://news.google.com/rss/search?q=OpenAI%20%28%22%2420%20billion%22%20OR%20%22%2411%20billion%22%29%20%28Reuters%20OR%20%22New%20York%20Times%22%20OR%20DealBook%20OR%20Bloomberg%29%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-08T00:35:09.468262+00:00",
+    "status": 200,
+    "bytes": 40317,
+    "items": [
+      {
+        "title": "OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value - Bloomberg.com",
+        "pubDate": "Fri, 06 Nov 2026 21:41:15 GMT",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUs1X0RZcHpSM0pJZVlZOHZrWEppOG5oemNaUHFVUGZYV1ZSQ2lVVVhxZENDQWVDTkVPRkN5XzRxT3JGVDExWFVVQ2VWejZ3a21tb2NCNlFrc29DVW11OC1ZRXdJX1lDNWp6Tk90STljUDdBMmltdEgyTVFJQTI5cEJFRkdHMno0Ni1CU2NFQ2M2dXRBdjFMTl8zZ1dZM1p5R2kyT2lGZmF1OGhoQm9zTDNYeWk2NG44SVlnUQ?oc=5"
+      },
+      {
+        "title": "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says - Reuters",
+        "pubDate": "Fri, 06 Nov 2026 23:19:47 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5"
+      },
+      {
+        "title": "OpenAI raises $11 billion at $1.25 trillion valuation, falls short of $30 billion target - The American Bazaar",
+        "pubDate": "Sat, 07 Nov 2026 14:04:37 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNemRIQV9OZlpBSGtKcURsMnNJR3FxMmV5MkhDT3FENW9IQzlzQkppM3lHV2hKemNHMzNfRUx1aURpV2VTdDlsa05xNlJ5WkwxM29Uc09vVlpYYW1sSUFEVXJ1QWdabDR2SU5JRC1HVVBBRmxWZHBxbTZwMWZIeWgxYnlVT2hwRjVtRzJwSy1qLWxXWUhQMjZKeHduNjlkWktOYmRCc09B?oc=5"
+      },
+      {
+        "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation - TechCrunch",
+        "pubDate": "Fri, 06 Nov 2026 22:53:46 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRzVwenhwOUEyaGxYMTR0NkE2LXQxZk9PcklwNTlwX3h1SjhUbEgtSkRleWxwUXluYzdlTE5fN29oV0liWkxtMVB1ck9Welkxekx0anBGSjJIOHV2UGNnNTVUbXVFV1JjckRxVGk3c05QdXhFV2Vhdl81T0RKb0ZycTl3RU9YdXVRRGljdWZjb254dlBRb3U5dnZoSlpTUy1SRXNib1JFNjBrTHZpdkktbTJpTQ?oc=5"
+      },
+      {
+        "title": "OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value - Yahoo Finance",
+        "pubDate": "Fri, 06 Nov 2026 20:58:41 GMT",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ2RIQnBiQWNyam1aMUk3dGhhSnVuRHQzc3ItaDVWWkY4RmlydEo1T0VLdEZhSDVET1BFaTdHRFI5U1NVOFFhYlBLVFczQ3l2Z3BINEE5MncwU20tTFM1TlA5dFk3eVVzcG9pWlRYT3FaVkZ5LXJtM1NmMVdSWFpUUUctRXg3bDZwRWY4YmY1bUhSV2tqUURFOEZ4TlBvbmlM?oc=5"
+      },
+      {
+        "title": "OpenAI $11 Billion Funding at $1.25T Value [2026] - https://tech-insider.org/",
+        "pubDate": "Sat, 07 Nov 2026 00:05:32 GMT",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOejdoelQ5UVNwTXdrLXUxcGRJSTIxaE5TellVOUFZTnQ0U2pzaTdlZTgwYXRTdXEyWjZIYzVCclFjcWlaOEVQWTJrOGp2VUE2cnF3UU52Q0txZVZvVnd4bFA4TlpNc0xqZktfcWlxRUZnSlp5WWdjV1FIeWpPUkRYNWZaUTViS1ZZS0pNdERSWElPSVJT?oc=5"
+      },
+      {
+        "title": "OpenAI Secures $11 Billion Funding at $1.25 Trillion Valuation, Bloomberg News Reports - U.S. News - Money",
+        "pubDate": "Fri, 06 Nov 2026 21:12:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQamRUUmNjT2N2Y0ZzMUU3N0NOWF93S0N4SFJjTnFlX2t3YkhqaEg3Vm9hQjhuNDFicm42THpSRzl3bUlBd2ZKTEwxYjk4Z3ZHRFlhRlM2ZlhlSFpxY0FjUUk0UkRGejVSZlhjTmZOZFF2Z0JuNlhnWWpUYUxsN3NCbzVkSzVJeDA4SFpDbHZGNnN6YVBaQlNLekNHU3hWUkFZbk9obFNUZjVaY2lXVllWU01Ydi01YXVzMW5YT2I1LWZEcVpGRHhWNTF1TVJIYlA1TXV0Rm9IaWNDaWs?oc=5"
+      },
+      {
+        "title": "OpenAI Secures $11 Billion Funding at $1.25 Trillion Valuation, Bloomberg News Reports - GV Wire",
+        "pubDate": "Fri, 06 Nov 2026 21:42:27 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLUdrVk9WY0tBWWZVeU5iMHVHTWxScnMxY1cxSS1jQk80VVlMSVF5S3AwVjJ1OUNNMGkwd3JOdWZwOHQzbV9DXzgtN2FfYmtBTXE2eGh1TFZCOFFaVjdZQzYxR0g5Wm91Qm0wS2l2WHV6SzM2WDFWYUZIQjd4R0N6d0JCMFFmLU9rRy1meDhUclFKemN5VTZ1RTFrZ3lPQWRub2NieDRTTHJSY053UnVObFNzVVo?oc=5"
+      },
+      {
+        "title": "OpenAI secures $11 billion funding at $1.25 trillion valuation, Bloomberg News reports - TradingView",
+        "pubDate": "Fri, 06 Nov 2026 21:31:29 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPa2J1WEtmWjRURGN1OXlmQnkzQkx6SnJTTDZ1NS1XOFJOVFA5eERpMmREeEg3ckdCMEJmSFdnRVdVQWdsc080cVVHUF9kc1VLRVVzTXlMM1h4Q2Jfd2JoQzc2QndmUmlfVTY3S1dhcG5Pb0xiRTlZQmFUQkltX09neDB5RWJITXRBVWVidmRkTXRFR1ExRGw2VnhUTXIwR09kbDNkZktRaUt3T2JIQ21WOXhuV2RCdGxyUXhHRkRPYWxZbzJ3bUZyUlJwOExzVEJZVmhCVUFJTHNCTEZzXzZVQWxWcW9JYjhh?oc=5"
+      },
+      {
+        "title": "OpenAI secures $11 billion funding at $1.25 trillion valuation, Bloomberg News reports By Reuters - Investing.com",
+        "pubDate": "Fri, 06 Nov 2026 21:47:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWVJtMDRuWVhNVU13RHVfS0UzeGV3bjFtQWVVZzVYclhWbFBKRmdkbnpuVVVNeDZhdUdQUDhobGoxb3dzM0dJUjZQek85ZzZqVVdPQmp5WlhGR2xTWVdyYXRZUU12WUJiRHRpS1pHUmp0STNGWjh0aEdjOThzTTBfVklWeTBMM2oybzk1SGlrcmRnbVZXTnBHelBaS25WVlBKRjhoSUlwZEE3eHBmNGNjb2YtYWpTUEpjeWNyVWl2RTZKYlZoQUFkaTFwSmxoSlNJTHYwamxR?oc=5"
+      },
+      {
+        "title": "OpenAI Raises $11 Billion at $1.25 Trillion Valuation - ForkLog",
+        "pubDate": "Sat, 07 Nov 2026 09:26:55 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORzAtT2JjdkdHck5TRzZFYXFWU0dqMU11a2FhVEszS21sTlFGeUxhVmFkNXI2YlhsbFVKVXlodG9nWnZMSlFJV2JVNEpUNUFSRkZRVlpjbnJ2RWFEZkhSZzlYMVhER1dmM0lyczQ1OFdjbmxQbkl5azYxUlBTamgyMA?oc=5"
+      },
+      {
+        "title": "OpenAI secures $11 billion funding at $1.25 trillion valuation, Bloomberg News reports - The Lufkin Daily News",
+        "pubDate": "Fri, 06 Nov 2026 21:31:29 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOX2ZMQlJVaDVId3c3UVVGdkZxUGZlc0dseDJjcWxkRHBtZnlWYl9xYWlqRmNsZGlmWXpPMkNLMC1fTDBzbmxBN1RZMm9VaURaalJ0bVAtMmFhNWgzTUVuQjV0M1A3emVMaWpiNElvUU9nUzNrZ1JfQ3d1N3hHYmZyanEwQXdKVVdWaXQwM2xvRFFnYnJUN0pqTGNQdFBtbjhiWFZ3Y2hkalFHaERYY3NtN1Bvai1WTXBnTk9KS2VCQkFEanNwaVEwSmpRRTFqM09WNGd5a3dZQVNZX2tsRzZwYXlLRVJIOXpFcnR1SFhVTEFRblgwZW5aR21scnRjeHdNamNZOWxaMWR1ZE1rdFFzYw?oc=5"
+      },
+      {
+        "title": "OpenAI raises $11 billion at a $1.25 trillion valuation in first close of new round - MLQ.ai",
+        "pubDate": "Sat, 07 Nov 2026 09:39:48 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWUtNRzVYeDRON2dQQUxhaC00enhTTVZjeWhhV1d0MFNlWXc3bnlCekJDWWx5VHNUWWxpZl9rbktSOXk0bXRTb1hKM0lNZVlDRkQ0MW1UdWFBNUpWQ1NfY3JtcFhlWVRfODhENEdFQkc4QnFSWGJVVTZlQml0MWYyRnNGZ0ZYazBPVUhNbm42ZWw4Q0kxbmg1VFpLcDlLY25JWnFz?oc=5"
+      },
+      {
+        "title": "OpenAI Raises $11 Billion, Company Valued at $1.25 Trillion Amid Funding Surge - Gagadget.com",
+        "pubDate": "Sat, 07 Nov 2026 02:05:16 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTXo4WkJNNGU0WmFEcnlGSjJaUll0aFMyZnBiSGhwZG9WdzRocGZ5aGJmUEhVR2hUVVdLc0dVQnpabG1scjJYSEdDVnFRMFJNVUJnLVFIMWd6YlAwZXdlS0NuTEFRcGgxbm5hbmdIb0tYU1RVUjNKZXktNEtzQzlsb2ZmMV9JUDZjUjhwd2hMVU1uaEVpYVh3el9vcDdDZm5xOHVWeW9sRzR3UdIBrwFBVV95cUxPMEFTZnFuNkNxOEJtRnRYLTNfdzZEVTIxTm45eWxjUFhNdlkwc0xyVldTLXNtZWR3OWpPak1iUHBkRTFPZ29DTlVxS3FhQ1pIWmZEc3JfWmhtZm4xWUZrSjl2TW5aTlVzTzB2aV9LM1gtdTdhOHJZVi1GcWJnbC14cjNDSEZEMVViSVpxZmJSWlZKT05pbTFLamtJN014d3NIWEZ5ZXJnUTlKMFQzZGJR?oc=5"
+      },
+      {
+        "title": "OpenAI secures $11 billion in funding at $1.25 trillion valuation: Report - Storyboard18",
+        "pubDate": "Sat, 07 Nov 2026 04:11:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVGFGZjlvMTl1V0dCcWVmZlRZcnBlLWJZMjVjUTJVU2NnU1lGdHhNcC0yR2xKZjF1NGlrT1JhLTYzS3NuRXFNRUR0RllCWXRwcFNFRXE1TjFYQVhESHItNk9wTF9PUnVfSHJBbUZ3b2ZoUWdWTEFDOGFOM3NZWG12LTJ1ODctc1QzLWxnbk42TTNid0tqZ3JPUzBPUnBXa3pVeVJvYlFHMUt5cnFfSHhXcHhCSzV5cG56ZVp4WUVVaVBVMHc00gHKAUFVX3lxTE50dU1GTk5aX3Q0Q01fZXpwME9GcW1jOUhMS1BXV0NyVlg4RjVETkFXY0RldUJ5V1RFSmtCSnRnOWt3Mk5TVEIyUmlsRDNybXczZlNmOThicTdGV2RVcTZhN1BYQ0luOTY1ZlYtSGdjeVBsQ2lUX2FvelNDRW51eVZEakh5c0ZBRGJpMHFEcWMyT2ZseERXYWFWS25jZmt2VHlSQTNESHdMUDdFSF9pWUZFRm5ZYm90X0lIclJlM3VTSXJ5ZGRNRlFfdUE?oc=5"
+      },
+      {
+        "title": "OpenAI closes $11 billion funding at $1.25 trillion valuation - report - Yahoo Finance Australia",
+        "pubDate": "Fri, 06 Nov 2026 21:40:09 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNXRXOC1SSzZZMVdPd0l6RDBxQjUyc3Q1Vm1HUmI5YTl3OXBiN1ROVmJEeWhPRDBQRjNnSXNhVEFvZUo4eXhvek5KcUszVlhWVGdEVUpja2xWODUwNWtoU0lVaVh5WE00bVhPZG5GUFlvUm1oeW51VElkNXNuakk5MnlDVV9rcDRx?oc=5"
+      },
+      {
+        "title": "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says - Central Oregon Daily",
+        "pubDate": "Fri, 06 Nov 2026 23:30:15 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOc3lrYWQ0czQzSWZzRkR3eGpMSFNyamdwMkxQUDJPNVA4UWdVZGcwTUVpbVBJYl9JOVRheVVRUU1aLS01YUhfZTJHME9qOEJIYk80bExFazhqeDloRWZrUnRabnpaODk3WDhvbWs2eENSN3hkai1rMVp2U295bnZNdjJuSGMtXzlLWmhnVGpyemRZOTlBZlU4YkwwM1dRRXFINk84MTRoTVVRZVR0czlDakZlTXNtbWhUdmFIeFdrME9OQnA2X2p4c0ZITDFtMERLTUw1NmVaRThsdVdGMnJNdmVlRl9fZUxYeENQREs4WEhqc3BzRHBybGpSNHY?oc=5"
+      },
+      {
+        "title": "OpenAI closes $11 billion funding at $1.25 trillion valuation - report - Investing.com",
+        "pubDate": "Fri, 06 Nov 2026 21:11:54 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ1FLblVkaDNUcEE0Zk8zQkc2a0VzOUxCNFRObUFLeDhuLTlZRWVualRxd3RteTVIM2NnNHRDdFc2V3FRM2hkSFJlRnFvU0h5RnJScE85T3hqaXFxYkhjRDQwdlNabFJ5SnN5ald2UnF2WkV1NWlZaXNRNTUwLTBBVl9TTDA2VXA2dnZFXzFKc3hiam53YWNQOGFiTzhwWHVnNFRLeWdUNmFLd2YwdFh2bnJMb2Y3Mmg2ME00eFBCdHU?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "cryptobriefing_search",
+    "url": "https://cryptobriefing.com/?s=OpenAI+funding",
+    "retrieved_at": "2026-11-08T00:35:09.468592+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ndtv_openai",
+    "url": "https://www.ndtvprofit.com/business/openai-completes-11-billion-portion-of-funding-at-125-trillion-value",
+    "retrieved_at": "2026-11-08T00:35:09.468770+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

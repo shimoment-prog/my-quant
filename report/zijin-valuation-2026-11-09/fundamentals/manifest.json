@@ -1,0 +1,23 @@
+[
+  {
+    "name": "main_financials",
+    "url": "https://datacenter.eastmoney.com/securities/api/data/v1/get?reportName=RPT_F10_FINANCE_MAINFINADATA&columns=ALL&filter=%28SECUCODE%3D%22601899.SH%22%29&pageSize=16&pageNumber=1&sortColumns=REPORT_DATE&sortTypes=-1&source=HSF10&client=PC",
+    "retrieved_at": "2026-11-09T11:17:45.606617+08:00",
+    "ok": true,
+    "bytes": 66920
+  },
+  {
+    "name": "announcements",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=601899",
+    "retrieved_at": "2026-11-09T11:17:45.607058+08:00",
+    "ok": true,
+    "bytes": 36038
+  },
+  {
+    "name": "income",
+    "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22601899%22%29&pageSize=16&pageNumber=1&sortColumns=REPORT_DATE&sortTypes=-1&source=WEB&client=WEB",
+    "retrieved_at": "2026-11-09T11:17:45.607229+08:00",
+    "ok": true,
+    "bytes": 20316
+  }
+]

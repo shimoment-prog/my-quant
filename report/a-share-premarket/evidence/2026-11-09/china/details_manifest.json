@@ -1,0 +1,44 @@
+[
+  {
+    "name": "gov_meeting",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085401.htm",
+    "retrieved_at": "2026-11-09T00:49:17.906916+00:00",
+    "ok": true,
+    "bytes": 24495
+  },
+  {
+    "name": "ce",
+    "url": "https://finance.ce.cn/stock/gsgdbd/",
+    "retrieved_at": "2026-11-09T00:49:17.907375+00:00",
+    "ok": true,
+    "bytes": 14173
+  },
+  {
+    "name": "cls",
+    "url": "https://www.cls.cn/",
+    "retrieved_at": "2026-11-09T00:49:17.907540+00:00",
+    "ok": true,
+    "bytes": 198214
+  },
+  {
+    "name": "google_close",
+    "url": "https://www.google.com/search?q=2026%E5%B9%B411%E6%9C%886%E6%97%A5%20%E6%94%B6%E8%AF%84%20%E4%B8%8A%E6%B6%A8%20%E4%B8%8B%E8%B7%8C%20%E6%88%90%E4%BA%A4%E9%A2%9D%20%E7%94%B3%E4%B8%87",
+    "retrieved_at": "2026-11-09T00:49:17.907734+00:00",
+    "ok": true,
+    "bytes": 93060
+  },
+  {
+    "name": "google_szse",
+    "url": "https://www.google.com/search?q=site%3Aszse.cn%202026%E5%B9%B4%20%E9%83%A8%E5%88%86%E8%8A%82%E5%81%87%E6%97%A5%20%E4%BC%91%E5%B8%82%E5%AE%89%E6%8E%92",
+    "retrieved_at": "2026-11-09T00:49:17.907897+00:00",
+    "ok": true,
+    "bytes": 93156
+  },
+  {
+    "name": "google_repurchase",
+    "url": "https://www.google.com/search?q=site%3Acsrc.gov.cn%202026%E5%B9%B411%E6%9C%886%E6%97%A5%20%E5%9B%9E%E8%B4%AD%20%E6%8A%A4%E7%9B%98",
+    "retrieved_at": "2026-11-09T00:49:17.908025+00:00",
+    "ok": true,
+    "bytes": 93094
+  }
+]

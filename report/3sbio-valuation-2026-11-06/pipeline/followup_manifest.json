@@ -1,0 +1,37 @@
+[
+  {
+    "name": "ctgov707",
+    "url": "https://clinicaltrials.gov/api/v2/studies?query.term=PF-08634404%20OR%20SSGJ-707%20OR%20tivunatamig&pageSize=100&format=json",
+    "retrieved_at": "2026-11-06T03:24:00.246894+00:00",
+    "ok": true,
+    "length": 524925
+  },
+  {
+    "name": "pfizer_initial_PR",
+    "url": "https://www.prnewswire.com/search/news/?keyword=Pfizer%203SBio",
+    "retrieved_at": "2026-11-06T03:24:00.247361+00:00",
+    "ok": true,
+    "length": 163869
+  },
+  {
+    "name": "news_707_payment",
+    "url": "https://news.google.com/rss/search?q=%E4%B8%89%E7%94%9F%E5%88%B6%E8%8D%AF%20%E8%BE%89%E7%91%9E%2014%E4%BA%BF%201.4%20billion%20upfront%202026%20%E9%87%8C%E7%A8%8B%E7%A2%91&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "retrieved_at": "2026-11-06T03:24:00.247639+00:00",
+    "ok": true,
+    "length": 1286
+  },
+  {
+    "name": "news_707_close",
+    "url": "https://news.google.com/rss/search?q=3SBio%20Pfizer%20transaction%20close%20upfront%20received%202025%202026&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-06T03:24:00.247790+00:00",
+    "ok": true,
+    "length": 13862
+  },
+  {
+    "name": "news_competitors",
+    "url": "https://news.google.com/rss/search?q=ivonescimab%20pumitamig%20phase%203%202026%20after%3A2026-09-01%20before%3A2026-11-07&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-06T03:24:00.248142+00:00",
+    "ok": true,
+    "length": 9766
+  }
+]

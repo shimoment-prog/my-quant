@@ -1,0 +1,53 @@
+[
+  {
+    "name": "meta_final_eur",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+    "actual_url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+    "retrieved_at": "2026-11-07T00:27:52.292819+00:00",
+    "ok": true,
+    "characters": 230132
+  },
+  {
+    "name": "google_rss",
+    "url": "https://blog.google/rss/",
+    "actual_url": "https://blog.google/rss/",
+    "retrieved_at": "2026-11-07T00:27:52.293185+00:00",
+    "ok": true,
+    "characters": 18169
+  },
+  {
+    "name": "alphabet_ir",
+    "url": "https://abc.xyz/investor/news/",
+    "retrieved_at": "2026-11-07T00:27:52.293350+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "meta_ir",
+    "url": "https://investor.atmeta.com/investor-news/default.aspx",
+    "retrieved_at": "2026-11-07T00:27:52.293485+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "microsoft_ir",
+    "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+    "retrieved_at": "2026-11-07T00:27:52.293660+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "amazon_ir",
+    "url": "https://ir.aboutamazon.com/news-release/news-release-details/default.aspx",
+    "retrieved_at": "2026-11-07T00:27:52.293782+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "broadcom_ir",
+    "url": "https://investors.broadcom.com/news-events/press-releases",
+    "retrieved_at": "2026-11-07T00:27:52.867229+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

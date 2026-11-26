@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "explainer",
+  "quality": "showcase",
+  "startedAt": "2026-11-18T09:00:27.242Z",
+  "specification": {
+    "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/candidate.archify.md",
+    "sha256": "566f8dd97d944653cdcd985b8771cca32b674f907749218b88296c66b8f36b48",
+    "bytes": 6308
+  },
+  "artifact": {
+    "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.html",
+    "sha256": "ab4c51e429b6d66099f5bde6b87fc120115e5affc8d0006249ef6dd2aa1b0b6e",
+    "bytes": 536159
+  },
+  "stages": {
+    "browser-check": {
+      "status": "not-run",
+      "execution": "not-requested"
+    },
+    "validate": {
+      "status": "pass",
+      "exitCode": 0,
+      "durationMs": null,
+      "execution": "embedded-in-deliver",
+      "command": [
+        "/Users/richao11/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/richao11/.agents/skills/archify/bin/archify.mjs",
+        "deliver",
+        "explainer",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/candidate.archify.md",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.html",
+        "--quality",
+        "showcase",
+        "--json"
+      ],
+      "receipt": {
+        "schemaVersion": 1,
+        "ok": true,
+        "command": "validate",
+        "specification": {
+          "sha256": "566f8dd97d944653cdcd985b8771cca32b674f907749218b88296c66b8f36b48",
+          "bytes": 6308
+        },
+        "validation": {
+          "checksPassed": 4,
+          "checkCount": 4,
+          "compositionProfile": "showcase",
+          "compositionStatus": "pass",
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    "deliver": {
+      "status": "pass",
+      "exitCode": 0,
+      "durationMs": 356,
+      "command": [
+        "/Users/richao11/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/richao11/.agents/skills/archify/bin/archify.mjs",
+        "deliver",
+        "explainer",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/candidate.archify.md",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.html",
+        "--quality",
+        "showcase",
+        "--json"
+      ],
+      "receipt": {
+        "schemaVersion": 1,
+        "receiptId": "0e744eef-1911-479f-aa0d-6f3c660f14be",
+        "ok": true,
+        "command": "deliver",
+        "type": "explainer",
+        "input": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/candidate.archify.md",
+        "output": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.html",
+        "explainer": {
+          "preparedSha256": "b1c2fa053cecf3f102f7a7cdb2a360ca122ccff377ce916bd33ede653a833a38",
+          "dependencies": [
+            {
+              "kind": "data",
+              "id": "chart-053c985986e7",
+              "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/daily.csv",
+              "sha256": "c885716c3c78402351bb60afa33f5de7b14bfd812dc825188cbfc489a87fe621",
+              "bytes": 103
+            },
+            {
+              "kind": "diagram-spec",
+              "id": "entry-flow",
+              "inline": true,
+              "sha256": "b07abf5865128dfee3062d9bb4fa62332c1936277e0ac43626e813478b774b85",
+              "bytes": 1059
+            }
+          ]
+        },
+        "specification": {
+          "sha256": "566f8dd97d944653cdcd985b8771cca32b674f907749218b88296c66b8f36b48",
+          "bytes": 6308
+        },
+        "artifact": {
+          "sha256": "ab4c51e429b6d66099f5bde6b87fc120115e5affc8d0006249ef6dd2aa1b0b6e",
+          "bytes": 536159
+        },
+        "validation": {
+          "checksPassed": 4,
+          "checkCount": 4,
+          "compositionProfile": "showcase",
+          "compositionStatus": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        "update": {
+          "status": "unavailable",
+          "installedVersion": null,
+          "availableVersion": null,
+          "releaseNotes": null,
+          "checkedAt": null,
+          "source": null,
+          "noticeRequired": false,
+          "noticeText": null,
+          "reason": "disabled"
+        }
+      }
+    },
+    "check": {
+      "status": "pass",
+      "exitCode": 0,
+      "durationMs": 145,
+      "command": [
+        "/Users/richao11/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/richao11/.agents/skills/archify/bin/archify.mjs",
+        "check",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.html",
+        "--require-provenance"
+      ],
+      "receipt": {
+        "ok": true,
+        "file": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.html",
+        "family": "explainer",
+        "artifact": {
+          "sha256": "ab4c51e429b6d66099f5bde6b87fc120115e5affc8d0006249ef6dd2aa1b0b6e",
+          "bytes": 536159
+        },
+        "checks": [
+          {
+            "name": "explainer_structure",
+            "ok": true,
+            "details": [
+              "72 unique DOM IDs"
+            ]
+          },
+          {
+            "name": "explainer_payload_identity",
+            "ok": true,
+            "details": []
+          },
+          {
+            "name": "explainer_dependencies",
+            "ok": true,
+            "details": [
+              "2 frozen dependencies"
+            ]
+          },
+          {
+            "name": "explainer_native_diagrams",
+            "ok": true,
+            "details": [
+              "entry-flow: pass"
+            ]
+          }
+        ],
+        "composition": {
+          "schemaVersion": 1,
+          "profile": "showcase",
+          "status": "pass",
+          "summary": {
+            "errors": 0,
+            "warnings": 0
+          },
+          "issues": [],
+          "nativeDiagrams": [
+            {
+              "id": "entry-flow",
+              "receipt": {
+                "ok": true,
+                "file": "/var/folders/vm/2xdx62yd66q_lb1n1cbdlbx40000gn/T/archify-explainer-check-n7N5z9/child.html",
+                "artifact": {
+                  "sha256": "c71b88047459db06a224063741984a16c4e3a3c447605c3242a3a193ca3a65f8",
+                  "bytes": 809662
+                },
+                "checks": [
+                  {
+                    "name": "single_svg",
+                    "ok": true,
+                    "details": [
+                      "found 1 <svg> block(s)"
+                    ]
+                  },
+                  {
+                    "name": "finite_svg",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "orthogonal_arrows",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "label_route_clearance",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "relationship_crossings",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "relationship_corridors",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "container_border_runs",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "route_rhythm",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "legend_clearance",
+                    "ok": true,
+                    "details": []
+                  }
+                ],
+                "composition": {
+                  "schemaVersion": 1,
+                  "profile": "showcase",
+                  "status": "pass",
+                  "summary": {
+                    "errors": 0,
+                    "warnings": 0
+                  },
+                  "metrics": {
+                    "properCrossings": 0,
+                    "resolvedCrossovers": 0,
+                    "ambiguousCorridors": 0,
+                    "arrowheadCollisions": 0,
+                    "containerBorderRuns": 0,
+                    "labelRouteClearanceIssues": 0,
+                    "labelCanvasOverflowIssues": 0,
+                    "minLabelRouteClearance": 102.2,
+                    "desktopReadabilityIssues": 0,
+                    "viewportHeightIssues": 0,
+                    "minProjectedNodeTextPx": 7.831578947368421,
+                    "maxBends": 0,
+                    "routesOverSuggestedBends": 0,
+                    "maxStretch": 1,
+                    "routesOverSuggestedStretch": 0,
+                    "minSegmentPx": 38,
+                    "minInteriorSegmentPx": null,
+                    "shortSegmentCount": 0,
+                    "shortEndpointSegmentCount": 0,
+                    "shortInteriorSegmentCount": 0,
+                    "microSegmentCount": 0
+                  },
+                  "suggestedLimits": {
+                    "bendsPerRelationship": 2,
+                    "stretch": 1.35,
+                    "segmentPx": 16,
+                    "microSegmentPx": 8
+                  },
+                  "routeReview": {
+                    "crossings": [],
+                    "detours": []
+                  },
+                  "leadingSpace": {
+                    "measured": false,
+                    "reviewSuggested": false
+                  },
+                  "desktopReadability": {
+                    "budgetBasis": "legacy-930",
+                    "readerContract": "declared-wide-v1",
+                    "availableDiagramWidth": 930,
+                    "actualBudgetPx": 930,
+                    "limit": "legacy",
+                    "requestedTargetPx": null,
+                    "requestedTargetMet": null,
+                    "hardFloorPx": 6,
+                    "hardFloorMet": true,
+                    "minimumOwner": {
+                      "kind": "edge",
+                      "id": "enter-to-bracket-1",
+                      "from": "enter",
+                      "to": "bracket"
+                    },
+                    "minimumSourceTextPx": 8,
+                    "minimumProjectedTextPx": 7.831578947368421,
+                    "semanticTextCount": 9
+                  },
+                  "issues": []
+                }
+              }
+            }
+          ]
+        },
+        "diagnostics": [],
+        "provenance": "current",
+        "deliveryReceiptId": "0e744eef-1911-479f-aa0d-6f3c660f14be"
+      }
+    }
+  },
+  "browserCheck": {
+    "requested": false,
+    "ran": false
+  },
+  "diagnostics": [],
+  "evidence": {
+    "receipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.finalize.json",
+    "summaryReceipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.finalize-summary.json"
+  },
+  "visualReview": "not-requested",
+  "finishedAt": "2026-11-18T09:00:27.822Z",
+  "durationMs": 579,
+  "update": {
+    "status": "unavailable",
+    "installedVersion": null,
+    "availableVersion": null,
+    "releaseNotes": null,
+    "checkedAt": null,
+    "source": null,
+    "noticeRequired": false,
+    "noticeText": null,
+    "reason": "disabled"
+  }
+}

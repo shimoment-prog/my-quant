@@ -1,0 +1,503 @@
+{
+  "prepared_at": "2026-11-10T08:50:35.560308+08:00",
+  "since_beijing": "2026-11-09T08:52:59+08:00",
+  "asof_beijing": "2026-11-10T08:49:12+08:00",
+  "scope": "Bounded premarket operating/filing news review. Parent independently verifies market prices. Main state not modified.",
+  "last_completed_US_regular_session": "2026-11-09",
+  "SEC_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings": [
+        {
+          "accessionNumber": "0001193125-26-453776",
+          "filingDate": "2026-11-09",
+          "acceptanceDateTime": "2026-11-09T21:55:00.000Z",
+          "form": "425",
+          "primaryDocument": "d180680d425.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526453776/d180680d425.htm"
+        }
+      ],
+      "latest_acceptance_utc": "2026-11-09T21:55:00.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001633978.json"
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T18:22:27.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001835632.json"
+    },
+    {
+      "symbol": "COHR",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T18:14:28.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0000820318.json"
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-04T21:41:34.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0000936395.json"
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T21:16:58.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001158114.json"
+    },
+    {
+      "symbol": "FN",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T18:16:20.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001408710.json"
+    },
+    {
+      "symbol": "NVDA",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-06T21:12:02.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001045810.json"
+    },
+    {
+      "symbol": "AVGO",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-10-27T20:23:36.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001730168.json"
+    }
+  ],
+  "new_verified_major_events": [],
+  "new_verified_filings_with_older_content": [
+    {
+      "id": "LITE_425_20261109_CNBCon20261106",
+      "company": "LITE",
+      "source_level": "SEC_filed_merger_communication",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526453776/d180680d425.htm",
+      "filed_at_utc": "2026-11-09T21:55:00Z",
+      "filed_at_beijing": "2026-11-10T05:55:00+08:00",
+      "underlying_interview_date": "2026-11-06",
+      "social_repost_date": "2026-11-09",
+      "classification": "New SEC filing of older interview/merger communication; not newly realized demand or a new quarterly report.",
+      "management_statements_not_independently_realized": [
+        "CEO says demand could not be stronger and he does not see backlog slowdown.",
+        "CEO describes electrical-to-optical transition in existing data centers as a major future growth driver, reducing relative dependence on entirely new data center construction.",
+        "CEO remains optimistic about proposed Marvell transaction and regulatory process."
+      ],
+      "merger_terms_context": "Interviewer cites 4.5 Marvell shares per Lumentum share and a potential 12-18 month regulatory process. This document does not announce a new ratio, approval, closing, or guarantee of timeline.",
+      "limits": [
+        "No new customer identity, order amount, 800G/1.6T shipment volume or upgraded numerical guidance is disclosed in this communication.",
+        "Market changes may reflect all-stock deal valuation and regulatory spread in addition to operating expectations; no quantified attribution established.",
+        "Old interview content must not be described as first announced overnight."
+      ]
+    }
+  ],
+  "FN_earnings_date_verification": {
+    "company": "FN",
+    "question": "Was a new earnings release issued on Nov9 after-hours?",
+    "verified_status": "Not found in successful SEC submissions check; most recent earnings 8-K was Nov2, followed by Nov3 10-Q. FN IR inaccessible HTTP403, so no exhaustive all-channel absence claim.",
+    "earnings_period_end": "2026-09-25",
+    "actual_release_date": "2026-11-02",
+    "8K_acceptance_utc": "2026-11-02T21:30:28Z",
+    "8K_acceptance_beijing": "2026-11-03T05:30:28+08:00",
+    "8K_url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000034/fn-20261102.htm",
+    "verbatim": "On November 2, 2026, Fabrinet issued a press release regarding its financial results for its fiscal quarter ended September 25, 2026.",
+    "interpretation": "Do not attribute Nov9 share rise to an unverified Nov9 earnings release; Nov2 results are historical context."
+  },
+  "official_page_comparisons": [
+    {
+      "name": "aaoi_ir",
+      "equal_raw_to_Nov9_afternoon": false,
+      "equal_clean_to_Nov9_afternoon": true
+    },
+    {
+      "name": "mrvl_ir",
+      "equal_raw_to_Nov9_afternoon": true
+    },
+    {
+      "name": "cohr_ir",
+      "equal_raw_to_Nov9_afternoon": true
+    },
+    {
+      "name": "nvda_board",
+      "equal_raw_to_Nov9_afternoon": true
+    },
+    {
+      "name": "nvda_news",
+      "equal_raw_to_Nov9_afternoon": false,
+      "new_index_blog": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "limit": "Robotics simulation blog link newly seen; not read as optical order, procurement or capex disclosure."
+    },
+    {
+      "name": "cn_300502",
+      "equal_raw_to_Nov9_afternoon": false,
+      "limit": "Domestic company announcement verification is outside overseas subtask; parent owns official company checks."
+    }
+  ],
+  "previously_seen_in_intraday_not_new_to_conversation": [
+    {
+      "id": "NVDA_Rebellions_SKT_NVLink_Fusion_20261108",
+      "source_level": "official_company_release",
+      "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
+      "official_page_date": "2026-11-08",
+      "exact_official_publication_timestamp": null,
+      "newly_verified_in_this_check": true,
+      "absent_from_morning_official_index": true,
+      "news_feed_time_beijing": "2026-11-09T13:00:17+08:00",
+      "retrieved_at_beijing": "2026-11-09T14:33:12.246681+08:00",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+      "facts_and_plans": [
+        "Rebellions plans NVLink Fusion for next-generation R200 NPUs and NVIDIA MGX rack architecture for rack-scale inference.",
+        "SK Telecom plans to deploy the systems in AI data centers with proprietary models and services; supported by Korea MSIT.",
+        "Proposed prefill on GPUs and decode on NPUs; R200 systems expected ready for deployment in 2028."
+      ],
+      "verbatim_availability": "Rebellions’ R200 systems are expected to be ready for deployment in 2028.",
+      "not_disclosed": [
+        "capex amount",
+        "delivered rack count",
+        "800G or 1.6T procurement volumes",
+        "named optical module suppliers",
+        "direct Eoptolink orders"
+      ],
+      "interpretation": "Long-term AI infrastructure ecosystem progress, not realized Eoptolink orders/revenue, a guaranteed stock rebound, or an investigation update.",
+      "timing_limit": "Official page provides date only. First newly seen in this afternoon check does not establish precise publication time. Do not backdate into morning information set."
+    }
+  ],
+  "NVDA_board_investigation": {
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "official_page_date": "2026-11-08",
+    "exact_publication_time": null,
+    "unchanged_raw_since_Nov9_afternoon": true,
+    "facts": "Independent board-directed outside-counsel investigation; board says no reason to believe national security or NVIDIA secrets compromised and maintains confidence in leadership.",
+    "limit": "An unchanged statement does not prove investigation completed or no new external scrutiny. Do not infer confirmed leak, order cuts or regulatory action."
+  },
+  "new_reliable_media_reports_not_primary_confirmed": [
+    {
+      "time": "2026-11-10 02:07:36",
+      "text": "美国国会传唤英伟达首席执行官黄仁勋。",
+      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyepfr3029522.d.html",
+      "classification": "Congressional summons report; primary document not obtained",
+      "boundary": "Do not state confirmed leak, resignation, revoked export license or order cancellation. Official board statement unchanged.",
+      "primary_confirmed": false
+    },
+    {
+      "time": "2026-11-09 21:12:33",
+      "text": "【博通将于12月9日公布2026财年第四季度及全年业绩】博通宣布，将于美国当地时间12月9日（周三）美股收盘后公布2026财年第四季度及全年财务业绩，并于太平洋时间当日下午2时召开财报电话会议。",
+      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyearu3175617.d.html",
+      "classification": "Broadcom earnings calendar report; official IR fetch403",
+      "boundary": "Reported Dec9 after close with2pm Pacific call; schedule only, not results or new guidance.",
+      "primary_confirmed": false
+    },
+    {
+      "time": "2026-11-10 05:51:23",
+      "text": "【SpaceX计划在德州投资240亿美元建设数据中心和天然气发电厂】根据美国德州Starbase市政府网站发布的听证会通知，马斯克旗下的SpaceX计划在公司所在地Starbase建设、拥有并运营一座燃气电厂和超级计算设施。项目初期预计投资240亿美元。Starbase市政委员将在12月9日的会议上审议一项税收减免和开发协议。这一计划显示马斯克正寻求对SpaceX的天然气价值链进行垂直整合。天然气是数据中心开发商为推动设施尽快投运而使用的主要发电燃料。SpaceX还计划在部分火箭发射中使用经过超低温冷却和净化处理的天然气。",
+      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyexvm2811770.d.html",
+      "classification": "SpaceX investment plan reported from municipal hearing notice; original notice not read",
+      "boundary": "USD24bn proposed initial investment and Dec9 hearing are plans; not expenditure already paid, energized capacity or optical supplier order.",
+      "primary_confirmed": false
+    },
+    {
+      "time": "2026-11-09 20:31:04",
+      "text": "【谷歌推出新版TPU芯片，向英伟达发起竞争】Alphabet旗下谷歌正推出更多品类的AI芯片，力图在这个规模达数千亿美元的市场快速追赶英伟达。谷歌推出两款全新版本的张量处理单元（TPU），这是用于训练和运行AI软件的定制芯片。新款芯片可满足机密计算需求，让模型在处理提问时调取更广范围信息，适配行业转向AI智能体、同时面临各类安全挑战的大趋势。本次发布标志着谷歌芯片部门迭代提速。该业务以往每两年推出一款全新AI处理器，今年一次性发布两款；周一即将官宣的8tx、8i Max变体，是在这两款芯片基础上新增的细分版本。谷歌芯片负责人阿明·瓦德特在采访中表示，四款TPU产品分别适配不同需求。“这契合谷歌的核心判断：未来将走向专用化，专用化带来的收益空间依然巨大。”",
+      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniycwiw3279052.d.html",
+      "classification": "Google TPU launch media report; primary launch documentation not read",
+      "boundary": "Product/technology competition is distinct from verified optical order cancellation or AI capex contraction.",
+      "primary_confirmed": false
+    },
+    {
+      "time": "2026-11-10 07:41:40",
+      "text": "【特朗普支持的美国许可审批改革计划获公用事业公司支持】在立法者于上周末对该法案进行修订后，美国最大的公用事业游说团体现已支持一项旨在彻底改革大型能源项目审批体系的联邦法案。爱迪生电力协会（Edison Electric Institute）的背书为这项跨党派立法提供了关键助力。支持者称，这是“数十年难遇”的机会，有望彻底改革错综复杂的基础设施审批体系，以满足电网现代化、建设人工智能（AI）数据中心以及重振清洁能源开发的需求。该法案定于周一在参议院迎来关键投票。爱迪生电力协会首席执行官德鲁·马洛尼（Drew Maloney）在一份声明中表示：“我们感谢修订后的文本，并支持这项新立法，它将有助于让更多项目破土动工、削减不必要的繁文缛节，并提供更经济、更可靠的能源。”他补充说，这家代表投资者所有的公用事业公司的行业团体已于周日致信立法者，表达了支持态度。",
+      "url": "https://finance.sina.cn/7x24/2026-11-10/detail-iniyexvh6080685.d.html",
+      "classification": "Permitting reform support media report",
+      "boundary": "Support and scheduled vote do not establish enacted law or immediately available data center power.",
+      "primary_confirmed": false
+    },
+    {
+      "time": "2026-11-09 20:36:05",
+      "text": "【美国地方公投几乎全部对数据中心扩张亮起红灯 北达科他Harwood小镇成唯一例外】美国民调与数据咨询公司Redbud Consulting的数据显示，在11月3日的中期选举中，全美共有45项与数据中心相关的地方投票议题，其中仅北达科他州小镇Harwood的投票结果有利于数据中心行业，相关结果目前仍为非官方统计。与全国大势相反，北达科他州小镇Harwood的选民否决了一项可能为当地数据中心项目增设门槛的议案。该镇人口约940人，在430张选票中，约75%即325票反对这项“2号议案”。",
+      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniycwiu6506877.d.html",
+      "classification": "Local data-center ballot report cites unofficial tally",
+      "boundary": "Do not extrapolate to nationwide ban or all projects cancelled.",
+      "primary_confirmed": false
+    },
+    {
+      "time": "2026-11-09 20:26:01",
+      "text": "【杰富瑞：AI资本开支或于今年见顶，信用市场发出警告】杰富瑞11月5日研报指出，微软、亚马逊、谷歌母公司Alphabet和Meta四大科技巨头2027年资本开支的市场一致预期已达到1.04万亿美元，但近期企业债券利差和信用违约互换（CDS）利差明显扩大，表明投资者对AI融资风险的担忧正在上升。",
+      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniycwiy9955165.d.html",
+      "classification": "Nov9 media re-report of Nov5 Jefferies research",
+      "boundary": "Analyst risk view and consensus capex forecasts; not customer revised official spending or realized cancellation.",
+      "primary_confirmed": false
+    }
+  ],
+  "carried_background_not_new": {
+    "AAOI": {
+      "id": "AAOI_2026Q3_earnings_2026-11-05",
+      "source": "https://investors.ao-inc.com/2026-11-05-Applied-Optoelectronics-Reports-Third-Quarter-2026-Results",
+      "status": "Already seen; no newly verified results/updated800G1.6T order or guidance this run."
+    },
+    "NVLink_collaboration": {
+      "id": "NVDA_Rebellions_SKT_NVLink_Fusion_20261108",
+      "official_date": "2026-11-08",
+      "first_verified_beijing": "2026-11-09T14:33:12+08:00",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+      "limit": "R200 systems expected2028; no optical module supplier or Eoptolink direct order disclosed. Already discussed in yesterday afternoon check."
+    }
+  },
+  "interpretation": "Checked evidence supports distinguishing operating demand from share-price repricing and merger spread. No newly verified six-company quantified800G/1.6T order, delivered capacity or upgraded guidance since prior report. LITE demand remarks are management views from Nov6 newly filed Nov9. FN earnings are Nov2, not Nov9. Official IR access gaps prevent exhaustive absence claims.",
+  "sources": [
+    {
+      "name": "us_quotes",
+      "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO,us.IXIC",
+      "retrieved_at": "2026-11-10T00:47:56.947124+00:00",
+      "ok": true,
+      "length": 3343
+    },
+    {
+      "name": "us_sina",
+      "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox,gb_ixic",
+      "retrieved_at": "2026-11-10T00:47:56.947510+00:00",
+      "ok": true,
+      "length": 3299
+    },
+    {
+      "name": "aaoi_ir",
+      "url": "https://investors.ao-inc.com/",
+      "retrieved_at": "2026-11-10T00:47:57.028131+00:00",
+      "ok": true,
+      "length": 44035
+    },
+    {
+      "name": "mrvl_ir",
+      "url": "https://investor.marvell.com/news-events/press-releases",
+      "retrieved_at": "2026-11-10T00:47:57.035228+00:00",
+      "ok": true,
+      "length": 114868
+    },
+    {
+      "name": "aaoi_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+      "retrieved_at": "2026-11-10T00:47:56.948235+00:00",
+      "ok": true,
+      "length": 154591
+    },
+    {
+      "name": "fn_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+      "retrieved_at": "2026-11-10T00:47:56.948434+00:00",
+      "ok": true,
+      "length": 155153
+    },
+    {
+      "name": "lite_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+      "retrieved_at": "2026-11-10T00:47:56.947673+00:00",
+      "ok": true,
+      "length": 159200
+    },
+    {
+      "name": "mrvl_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+      "retrieved_at": "2026-11-10T00:47:56.947818+00:00",
+      "ok": true,
+      "length": 136604
+    },
+    {
+      "name": "cohr_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+      "retrieved_at": "2026-11-10T00:47:56.947962+00:00",
+      "ok": true,
+      "length": 160624
+    },
+    {
+      "name": "cien_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+      "retrieved_at": "2026-11-10T00:47:56.948099+00:00",
+      "ok": true,
+      "length": 158567
+    },
+    {
+      "name": "nvda_board",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "retrieved_at": "2026-11-10T00:47:58.696831+00:00",
+      "ok": true,
+      "length": 59710
+    },
+    {
+      "name": "nvda_news",
+      "url": "https://nvidianews.nvidia.com/news",
+      "retrieved_at": "2026-11-10T00:47:58.539126+00:00",
+      "ok": true,
+      "length": 68666
+    },
+    {
+      "name": "cohr_ir",
+      "url": "https://www.coherent.com/news",
+      "retrieved_at": "2026-11-10T00:47:57.926323+00:00",
+      "ok": true,
+      "length": 170108
+    },
+    {
+      "name": "cn_300502",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "retrieved_at": "2026-11-10T00:47:59.065193+00:00",
+      "ok": true,
+      "length": 55675
+    },
+    {
+      "name": "live_news_2",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:47:59.410280+00:00",
+      "ok": true,
+      "length": 247323
+    },
+    {
+      "name": "live_news_1",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:47:59.398859+00:00",
+      "ok": true,
+      "length": 250115
+    },
+    {
+      "name": "cien_ir",
+      "url": "https://investor.ciena.com/news-releases",
+      "retrieved_at": "2026-11-10T00:47:58.388099+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "nvda_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "retrieved_at": "2026-11-10T00:47:58.778873+00:00",
+      "ok": true,
+      "length": 159914
+    },
+    {
+      "name": "avgo_ir",
+      "url": "https://investors.broadcom.com/news-releases",
+      "retrieved_at": "2026-11-10T00:47:59.053098+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "avgo_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "retrieved_at": "2026-11-10T00:47:58.911941+00:00",
+      "ok": true,
+      "length": 160094
+    },
+    {
+      "name": "live_news_3",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:47:59.839507+00:00",
+      "ok": true,
+      "length": 183805
+    },
+    {
+      "name": "live_news_4",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:47:59.893281+00:00",
+      "ok": true,
+      "length": 158642
+    },
+    {
+      "name": "live_news_5",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:47:59.931961+00:00",
+      "ok": true,
+      "length": 214675
+    },
+    {
+      "name": "live_news_7",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:48:00.011278+00:00",
+      "ok": true,
+      "length": 204220
+    },
+    {
+      "name": "live_news_6",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:47:59.983586+00:00",
+      "ok": true,
+      "length": 197275
+    },
+    {
+      "name": "live_news_8",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:48:00.104547+00:00",
+      "ok": true,
+      "length": 215140
+    },
+    {
+      "name": "live_news_10",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=10&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:48:00.268213+00:00",
+      "ok": true,
+      "length": 247152
+    },
+    {
+      "name": "fn_ir",
+      "url": "https://investor.fabrinet.com/news-releases",
+      "retrieved_at": "2026-11-10T00:47:58.528185+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "live_news_9",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=9&page_size=100&type=0",
+      "retrieved_at": "2026-11-10T00:48:00.228654+00:00",
+      "ok": true,
+      "length": 247865
+    },
+    {
+      "name": "lite_ir",
+      "url": "https://investor.lumentum.com/news-events/press-releases",
+      "retrieved_at": "2026-11-10T00:47:58.332341+00:00",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "avgo_schedule",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2026",
+      "retrieved_at": "2026-11-10T00:49:12.474878+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "fn_8k_20261102",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000034/fn-20261102.htm",
+      "retrieved_at": "2026-11-10T00:49:12.474702+00:00",
+      "ok": true,
+      "length": 25145
+    },
+    {
+      "name": "nvda_robotics",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-robot-learning-ai-models-simulation-corl",
+      "retrieved_at": "2026-11-10T00:49:12.475021+00:00",
+      "ok": true,
+      "length": 68666
+    },
+    {
+      "name": "lite_425_20261109",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526453776/d180680d425.htm",
+      "retrieved_at": "2026-11-10T00:49:12.474155+00:00",
+      "ok": true,
+      "length": 30414
+    },
+    {
+      "name": "fn_8k_index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000034/index.json",
+      "retrieved_at": "2026-11-10T00:49:12.475170+00:00",
+      "ok": true,
+      "length": 1772
+    }
+  ],
+  "limitations": [
+    "Bounded few-minute review, not exhaustive global news search.",
+    "LITE IR404; CIEN/FN/AVGO IR403. SEC all8 issuers fetched successfully. No paywall or access-control bypass.",
+    "Congressional summons, SpaceX proposal, TPU launch, Broadcom calendar and permitting headlines not primary-confirmed in this run; do not promote them to verified operating results.",
+    "Guessed NVIDIA robotics URL redirected to general news index, not a verified standalone release; excluded as substantive operating evidence.",
+    "No independently validated statistical forecast model or numeric probability."
+  ],
+  "probability_model": {
+    "validated": false,
+    "probability": null,
+    "output": "暂无可靠百分比"
+  },
+  "main_state_modified": false
+}

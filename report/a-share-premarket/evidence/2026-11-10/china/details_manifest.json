@@ -1,0 +1,44 @@
+[
+  {
+    "name": "ce_page1",
+    "url": "https://finance.ce.cn/stock/gsgdbd/index_1.shtml",
+    "retrieved_at": "2026-11-10T00:46:42.841803+00:00",
+    "ok": true,
+    "bytes": 14318
+  },
+  {
+    "name": "ce_page2",
+    "url": "https://finance.ce.cn/stock/gsgdbd/index_2.shtml",
+    "retrieved_at": "2026-11-10T00:46:42.842158+00:00",
+    "ok": true,
+    "bytes": 14553
+  },
+  {
+    "name": "cls_morning",
+    "url": "https://www.cls.cn/detail/2529608",
+    "retrieved_at": "2026-11-10T00:46:42.842342+00:00",
+    "ok": true,
+    "bytes": 35030
+  },
+  {
+    "name": "cls_tech",
+    "url": "https://www.cls.cn/detail/2529634",
+    "retrieved_at": "2026-11-10T00:46:42.842527+00:00",
+    "ok": true,
+    "bytes": 35190
+  },
+  {
+    "name": "csrc_news",
+    "url": "http://www.csrc.gov.cn/csrc/c100028/common_list.shtml",
+    "retrieved_at": "2026-11-10T00:46:42.842674+00:00",
+    "ok": true,
+    "bytes": 16174
+  },
+  {
+    "name": "pbc_sfisf",
+    "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110313380716818/index.html",
+    "retrieved_at": "2026-11-10T00:46:42.842828+00:00",
+    "ok": true,
+    "bytes": 24063
+  }
+]

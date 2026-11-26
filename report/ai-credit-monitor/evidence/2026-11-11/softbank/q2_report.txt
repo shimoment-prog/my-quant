@@ -1,0 +1,3471 @@
+1. Financial  Highlights (Millions of yen; amounts are rounded to the nearest million yen)
+(Percentages are shown as year-on-year changes)
+Net sales Incomebefore income tax Net income Net income attributable to owners of the parent Total comprehensive income
+Amount % Amount % Amount % Amount % Amount %
+Six-month period ended
+September 30, 2026 ¥4,235,037 13.3 ¥(438,705) - ¥(541,648) - ¥(768,007) - ¥(1,009,002) -
+Six-month period ended
+September 30, 2025 ¥3,736,843 7.7 ¥3,686,382 152.3 ¥3,320,354 168.3 ¥2,924,066 190.9 ¥3,239,811 -
+Basic earnings per
+share (Yen)
+Diluted earnings per
+share (Yen)
+Six-month period ended
+September 30, 2026 ¥(136.47) ¥(136.83)
+Six-month period ended
+September 30, 2025 ¥510.37 ¥509.89
+Total assets Total equity
+Equity
+attributable to
+owners of the
+parent
+Ratio of equity
+attributable to
+owners of the parent
+to total assets (%)
+As of September 30, 2026 ¥69,387,194 ¥19,396,285 ¥16,396,610 23.6
+As of March 31, 2026 ¥60,749,547 ¥20,468,432 ¥17,621,823 29.0
+Dividends per share
+First quarter Second quarter Third quarter Fourth quarter Total
+(Yen) (Yen) (Yen) (Yen) (Yen)
+Fiscal year ended
+March 31, 2026 - 22.00 - 5.50 -
+Fiscal year ending
+March 31, 2027 - 5.50
+Fiscal year ending
+March 31, 2027 (Forecast) - 5.50 11.00
+This English translation of the financial report was prepared for reference purposes only and is qualified in its entirety by the original 
+Japanese version.
+SoftBank Group Corp.
+Consolidated Financial Report
+For
+ the Six-Month Period Ended September 30, 2026 (IFRS)
+Tokyo, November 10, 2026
+(1) Results of Operations
+Note:
+* The Company conducted a four-for-one ordinary share split, effective January 1, 2026. “Basic earnings per share” and “Diluted
+earnings
+ per share” are calculated assuming that the share split had been conducted at the beginning of the previous consolidated
+fiscal
+ year.
+(2) Financial  Position
+2. Dividends
+
+As of September 30, 2026: 5,711,848,120 shares
+As of March 31, 2026: 5,711,848,120 shares
+As of September 30, 2026: 12,541,457 shares
+As of March 31, 2026: 12,924,419 shares
+For the six-month period ended
+   September 30, 2026:
+5,699,018,774 shares
+For the six-month period ended
+   September 30, 2025:
+5,711,897,190 shares
+Notes:
+1. Revision of the latest forecasts on the dividends: No
+2. The Company conducted a four-for-one ordinary share split, effective January 1, 2026. The amount of interim dividend for the fiscal 
+year ended March 31, 2026 (Second quarter) described above is presented as the amount before the split. Total of the dividends for 
+the fiscal year ended March 31, 2026 is not presented as it cannot be simply aggregated due to the share split. If the share split were 
+considered, the annual dividend would be ¥11.00 per share.
+* Notes
+(1) Significant changes in the scope of consolidation during the period: Yes
+Newly consolidated: 308 companies (DigitalBridge Group, Inc. and its 307 subsidiaries)
+Excluded from consolidation: None
+Note:
+* Please refer to page 38 “Significant Changes in Scope of Consolidation for the Six-Month Period Ended September 30, 2026” 
+under “2. Notes to Summary Information.”
+(2) Changes in accounting policies and accounting estimates
+[1]    Changes in accounting policies required by IFRS: No
+[2]    Changes in accounting policies other than those in [1]: No
+[3]    Changes in accounting estimates: No
+(3) Number of shares issued (common stock)
+[1]    Number of shares issued (including treasury stock):
+[2]    Number of shares of treasury stock:
+[3]    Number of average shares outstanding during the six-month period (April-September):
+Note:
+* The Company conducted a four-for-one ordinary share split, effective January 1, 2026. “Number of average shares 
+outstanding during the six-month period (April-September)” is calculated assuming that the share split had been conducted at 
+the beginning of the previous consolidated fiscal year.
+* This condensed interim consolidated financial report is not subject to interim review procedures by certified public 
+accountants or an audit firm.
+* Note to forecasts on the consolidated results of operations and other items
+Descriptions regarding the future are estimated based on the information that the Company is able to obtain at the present point in 
+time and assumptions, which are deemed to be reasonable. However, actual results may be different due to various factors.
+On November 10, 2026 (JST), the Company will hold an earnings results briefing for the media, institutional investors, and financial 
+institutions. This earnings results briefing will be broadcasted live on the Company’s website in both Japanese and English at 
+https://group.softbank/en/ir. The data sheet will also be posted on the website on the same date at the same site.
+
+1. Results of Operations ..................................................................................................................................... P.3
+(1) Overview of Results of Operations .......................................................................................................... P.3
+a. Consolidated Results of Operations ....................................................................................................... P.6
+b. Results by Segment ................................................................................................................................ P.9
+(a) Investment Business of Holding Companies Segment ..................................................................... P.10
+(b) SoftBank Vision Funds Segment ..................................................................................................... P.14
+(c) SoftBank Segment ............................................................................................................................ P.20
+(d) AI Computing Segment..................................................................................................................... P.22
+(2) Overview of Financial Position ................................................................................................................ P.25
+(3) Overview of Cash Flows .......................................................................................................................... P.34
+(4) Forecasts ................................................................................................................................................... P.37
+2. Notes to Summary Information ...................................................................................................................... P.38
+Significant Changes in Scope of Consolidation for the Six-Month Period Ended September 30, 2026 ....... P.38
+3. Condensed Interim Consolidated Financial Statements and Primary Notes ................................................. P.39
+(1) Condensed Interim Consolidated Statement of Financial Position ......................................................... P.39
+(2) Condensed Interim Consolidated Statement of Profit or Loss and
+Condensed Interim Consolidated Statement of Comprehensive Income ................................................ P.41
+(3) Condensed Interim Consolidated Statement of Changes in Equity ......................................................... P.45
+(4) Condensed Interim Consolidated Statement of Cash Flows .................................................................... P.49
+(5) Definitions of Company Names and Abbreviations Used in Condensed Interim Consolidated
+      Financial Statements and Primary Notes ................................................................................................. P.51
+(6) Significant Doubt about Going Concern Assumption ............................................................................. P.52
+(7) Notes to Condensed Interim Consolidated Financial Statements ............................................................ P.52
+Disclaimer
+This material does not constitute an offer to sell, or a solicitation of an offer to buy, limited partnership interests or comparable 
+limited liability equity interests in any funds (including SoftBank Vision Fund 1, SoftBank Vision Fund 2 and SoftBank Latin 
+America Funds) managed by any of the subsidiaries of SoftBank Group Corp. (“SBG”), including SB Global Advisers Limited, SB 
+Investment Advisers (UK) Limited, or their respective affiliates, or any securities in any jurisdiction, nor should it be relied upon as 
+such in any way.
+Notice Regarding PFIC Status
+It is possible that SBG (and certain subsidiaries of SBG) may be a “passive foreign investment company” (“PFIC”) under the U.S. 
+Internal Revenue Code of 1986, as amended, for its current fiscal year due to the composition of its assets and the nature of its 
+income. We recommend that U.S. holders of SBG’s shares consult their tax advisors with respect to the U.S. federal income tax 
+consequences to them if SBG and its subsidiaries are classified as PFICs. SBG is not responsible for any tax treatments or 
+consequences thereof with respect to U.S. holders of SBG’s shares.
+(Appendix)
+Contents
+Establishment of a New Reportable Segment
+In November 2025, the Company acquired all equity interests in Ampere, a semiconductor design company, making 
+it a wholly owned subsidiary. Following the acquisition, the Board of Directors reassessed the business units whose 
+performance it  regularly reviews. As  a result,  during the three-month  period ended  December 31, 2025, the 
+Company established AI Computing as a new reportable segment, combining Arm, previously in the Arm segment, 
+Graphcore Limited,  previously in  Other, and Ampere and other  semiconductor-related subsidiaries.  Comparative 
+segment information  for the corresponding  period of the previous fiscal  year (the  six-month period ended 
+September 30, 2025) has also been reclassified accordingly. For an overview  of the new segment, see  “Overview” 
+under “(d) AI Computing Segment” in “b. Results by Segment” in “(1) Overview of Results of Operations.”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+1
+
+Company names/Abbreviations Definition
+SoftBank Group Corp. or SBG SoftBank Group Corp. (stand-alone basis)
+The Company SoftBank Group Corp. and its subsidiaries
+* Each of the following names or abbreviations indicates the respective company and its subsidiaries, if any.
+SB Northstar or
+  asset management subsidiary SB Northstar LP
+SVF1 SoftBank Vision Fund L.P. and its alternative investment vehicles
+SVF2 SoftBank Vision Fund II-2 L.P.
+LatAm SBLA Latin America Fund LLC
+SoftBank Vision Funds or SVF SVF1, SVF2 and LatAm
+SBIA SB Investment Advisers (UK) Limited
+SBGA SB Global Advisers Limited
+Arm Arm Holdings plc
+Ampere Ampere Computing Holdings LLC
+Energy Global Energy Global, LP*1
+Robo HD Silver Bands 4 (US) Corp.
+OpenAI OpenAI Group PBC
+T-Mobile T-Mobile US, Inc.
+MgmtCo MASA USA LLC
+The first quarter Three-month period ended June 30, 2026
+The first quarter-end June 30, 2026
+The second quarter Three-month period ended September 30, 2026
+The period Six-month period ended September 30, 2026
+The second quarter-end September 30, 2026
+The fiscal year Fiscal year ending March 31, 2027
+The previous fiscal year Fiscal year ended March 31, 2026
+The previous fiscal year-end March 31, 2026
+Fiscal year ended
+March 31, 2026
+Fiscal year ending
+March 31, 2027
+USD/JPY Q1 Q2 Q3 Q4 Q1 Q2
+Average rate for the quarter ¥145.19 ¥147.50 ¥154.04 ¥156.48 ¥160.51 ¥160.12
+Rate at the end of the period ¥159.88 ¥157.35
+Definition of Company Names and Abbreviations Used in This Appendix
+Company names and abbreviations  used in this  appendix, unless otherwise stated  or interpreted  differently in the 
+context, are as follows:
+Note:
+1. A subsidiary engaged in the development, construction and operation of solar power plants, as well as the development and 
+construction of data centers, in the U.S.
+Exchange Rates Used for Translations
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+2
+
+1. Investment in OpenAI: Completed the follow-on investments totaling $30.0 billion in October 2026, 
+fulfilling the commitment made in February 2026
+- Follow-on investments of $10.0 billion each were made in the first and second quarters.
+- As of the second quarter-end, cumulative investment totaled $54.6 billion,*1 with a fair value of $99.6 billion 
+and a cumulative investment gain of $45.0 billion.
+- The valuation was unchanged from the previous fiscal year-end.
+- An additional investment of $10.0 billion was made in October 2026, completing the follow-on investments 
+totaling $30.0 billion committed to in February 2026.
+2. Results highlights
+♦ ¥1,725.8 billion investment gain (¥3,926.7 billion gain for the same period of the previous fiscal year)
+- ¥1,078.3 billion investment gain at Investment Business of Holding Companies, including a ¥1,062.8 billion 
+investment gain on Intel shares
+- ¥705.6 billion investment gain at SoftBank Vision Funds (excluding gains and losses related to investments 
+in the Company’s subsidiaries). Since inception, gross gains have totaled $26.6 billion for SVF1 and $21.8 
+billion for SVF2.*2
+Note: Changes in the fair value of shares of consolidated subsidiaries, including Arm and SoftBank Corp., are not recorded in 
+the Company’s consolidated statement of profit or loss.
+♦ ¥438.7 billion loss before income tax (deterioration of ¥4,125.1 billion YoY)
+- Selling, general and administrative expenses of ¥2,368.8 billion (increase of ¥751.9 billion YoY), primarily 
+driven by higher share-based compensation expenses in the AI Computing segment and at Energy Global, 
+which is included in Other in the segment information
+- Finance cost of ¥790.7 billion (increase of ¥450.6 billion YoY)
+- Derivative loss of ¥433.3 billion (deterioration of ¥641.4 billion YoY)
+- Other loss of ¥663.8 billion (deterioration of ¥809.6 billion YoY), including a loss of ¥597.2 billion arising 
+from the realignment of procurement plans for power generation-related equipment for AI data center 
+projects in the U.S. and related factors
+♦ ¥768.0 billion net loss attributable to owners of the parent (deterioration of ¥3,692.1 billion YoY)
+- Income taxes of ¥102.9 billion
+- Net income attributable to non-controlling interests of ¥226.4 billion
+3. Financing activities: Fully repaid and closed the bridge facility prior to maturity through refinancing 
+with long-term funding
+During the period, the Company raised a total of ¥17,155.5 billion and repaid ¥9,700.1 billion on a consolidated 
+basis.*3 Of these amounts, SBG raised ¥15,130.7 billion and repaid ¥8,805.3 billion.*4 The principal financing 
+and repayment activities are outlined below.
+1. Results of Operations
+(1) Overview of Results of Operations
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+3
+
+♦ Early repayment of bridge loans
+By September 15, 2026, the Company had prepaid the full $30.0 billion drawn under a $40.0 billion bridge 
+facility agreement entered into in March 2026, primarily to fund follow-on investments in OpenAI. The 
+remaining $10.0 billion undrawn facility was canceled effective September 30, 2026, bringing the bridge 
+facility to a close. The early repayment was funded primarily through the following:
+- Term loan: SBG borrowed $11.87 billion through a term loan in September 2026.
+- Prepaid forward contracts backed by Intel shares: A wholly owned financing subsidiary raised $7.35 
+billion in August 2026 through prepaid forward contracts backed by all of its Intel shares.
+- Increase in margin loan backed by Arm shares: A wholly owned financing subsidiary raised $5.0 billion 
+in September 2026 by increasing the margin loan backed by Arm shares.
+♦ SBG raised the equivalent of ¥4,065.3 billion through bond issuances.*5 In addition to funding 
+redemptions of existing bonds, SBG used $10.0 billion of the proceeds from foreign currency-
+denominated bond issuances to fund the follow-on investment in OpenAI in October.
+- SBG issued $14.6 billion equivalent of foreign currency-denominated senior notes and redeemed $0.67 
+billion of U.S. dollar-denominated senior notes prior to maturity.*5
+- SBG issued ¥1,090.0 billion of domestic straight bonds and redeemed ¥527.9 billion at maturity.
+- SBG issued ¥678.0 billion of domestic hybrid bonds and redeemed ¥405.0 billion prior to maturity on the 
+first voluntary call date.
+♦ Other financing
+- In August 2026, a loan agreement using OpenAI shares held by SVF2 was entered into for the general 
+corporate purposes of SBG and SVF2.*6 A total of $10.0 billion was drawn that month.
+- In August 2026, the Company arranged $1.75 billion equivalent of LBO financing to fund a portion of the 
+purchase price for the acquisition of ABB Ltd’s robotics business. Drawdown is scheduled at the closing of 
+the acquisition.*7
+Notes:
+1. Includes indirect investments and is presented net of disposals.
+2. Gross amounts before deductions for third-party interests and taxes, etc.
+3. Amounts recorded as proceeds from interest-bearing debt and repayment of interest-bearing debt in the consolidated statement of 
+cash flows
+4. Includes the amounts raised and repaid by SBG’s wholly owned financing subsidiaries, as well as the $10.0 billion borrowed under 
+the loan agreement using OpenAI shares.
+5. The total bond issuance amount of ¥4,065.3 billion equivalent comprised foreign currency-denominated bonds ($14.6 billion 
+equivalent) and domestic bonds (¥1,768.0 billion). The total foreign currency-denominated bond issuance amount of $14.6 billion 
+equivalent comprised $11.5 billion of U.S. dollar-denominated bonds and 2.75 billion euros of euro-denominated bonds. Amounts 
+were translated between currencies using exchange rates at the second quarter-end.
+6. SBG is the guarantor. For details on the loan agreement, see “5. Interest-bearing debt” under “(7) Notes to Condensed Interim 
+Consolidated Financial Statements” in “3. Condensed Interim Consolidated Financial Statements and Primary Notes.”
+7. Non-recourse to SBG
+FOLLOW-ON INVESTMENT COMMITMENT TO OPENAI IN FEBRUARY 2026
+On February 27, 2026, the Company committed  to follow-on investments totaling  $30.0 billion  in OpenAI (the 
+“Follow-on Investments”). Through SVF2, the Company  completed  the first tranche  of $10.0 billion in  April 
+2026, the second tranche  of $10.0 billion  in July 2026, and the third  tranche of $10.0 billion  in October 2026. 
+This completed the Follow-on Investments,  bringing the Company’s cumulative investment in OpenAI to $64.6 
+billion and its ownership interest to approximately 13%.*8
+Pursuant to the bridge facility agreement entered into in March 2026, the Company borrowed $10.0 billion in April 
+2026 to fund the first tranche  and an additional  $10.0 billion  in July 2026 to fund the  second tranche. These 
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+4
+
+First Tranche
+(Completed)
+Second Tranche
+(Completed)
+Third Tranche
+(Completed)
+Pre-money valuation $730.0 billion
+Investment by the 
+Company $10.0 billion $10.0 billion $10.0 billion
+Timing of the Company’s 
+investment April 1, 2026 July 1, 2026 October 1, 2026
+The Company’s 
+investment entity SVF2
+borrowings were repaid in full by September 15, 2026. The $10.0 billion undrawn facility intended to fund the third 
+tranche was canceled effective September 30, 2026. The third  tranche was funded with proceeds  from the issuance 
+of foreign currency-denominated senior notes in September 2026.
+♦ Overview of the Follow-on Investments
+Note:
+8. Ownership percentage is calculated as of October 1, 2026, on the basis of(1) all issued and outstanding preferred and common 
+stock (assuming the issuance of all preferred shares in connection with the $122 billion financing round announced by OpenAI in 
+February 2026), (2) outstanding and committed equity awards, and (3) outstanding and committed securities convertible into 
+OpenAI’s equity securities, but excludes (1) the warrants held by OpenAI Foundation, a nonprofit organization, (2) shares of 
+capital stock held by OpenAI or its subsidiaries as treasury stock, and (3) any unissued shares pursuant to the equity incentive plan 
+approved by OpenAI’s board of directors.
+COMPLETION OF ACQUISITION OF DIGITALBRIDGE GROUP, INC.
+On September 30, 2026, SBG, through its U.S. subsidiary, acquired  all the  outstanding common stock  of 
+DigitalBridge Group, Inc. (“DigitalBridge”),  making DigitalBridge a subsidiary of SBG. The amount paid  for the 
+acquisition was $3.1 billion.  DigitalBridge is a leading global  alternative asset manager  dedicated to investing  in 
+digital infrastructure, including data centers, cell towers, fiber networks and edge infrastructure.
+REVISION OF PROCUREMENT PLANS FOR POWER GENERATION-RELATED EQUIPMENT FOR 
+AI DATA CENTER PROJECTS IN THE U.S.
+Silver Bands 7 LLC  (“SB7”), a subsidiary in which  the Company and SVF2 have invested,  has entered into 
+manufacturing capacity reservation agreements, equipment purchase contracts, and other arrangements  for power 
+generation-related equipment to secure robust power supply infrastructure  for AI data center  projects in the U.S., 
+including the PORTS-Pike Technology Campus in Pike County, Ohio. SB7’s cumulative payments related to such 
+procurement from the previous fiscal year through September 30, 2026, totaled ¥1,500,886 million ($9.48 billion).
+SB7 revised its equipment  procurement  strategy given the  evolving requirements  of its existing  and planned 
+projects. As a result of the  realignment and SB7’s obligations to  its suppliers, the Company  recognized a loss of 
+¥597,248 million ($3.73 billion) in “Other gain (loss)” in the condensed interim consolidated statement of profit or 
+loss for the  six-month period ended  September 30, 2026. This loss comprised  ¥457,030 million  ($2.85 billion) 
+related to non-refundable advance payments made to secure manufacturing capacity and purchase equipment, and 
+¥140,218 million ($0.88 billion) related to contract modifications and settlements.
+SB7 became entitled to receive rebates of up to $2.1 billion  over the next 10 years  on future equipment  purchases, 
+subject to certain conditions.  As the amount of rebates  could not be  determined as of September  30, 2026, the 
+Company did not recognize  the rebate  rights as an asset  in the condensed interim  consolidated  statement  of 
+financial position.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+5
+
+(Millions of yen)
+Six months ended September 30
+2025 2026 Change Change %
+Net sales 3,736,843 4,235,037 498,194 13.3% A
+Gross profit 1,960,233 2,197,057 236,824 12.1%
+Gain on investments
+Investment Business of Holding Companies 363,998 1,078,337 714,339 196.2% B
+SoftBank Vision Funds 3,415,482 705,617 (2,709,865) (79.3%) C
+Other 147,185 (58,158) (205,343) -
+Total gain on investments 3,926,665 1,725,796 (2,200,869) (56.0%)
+Selling, general and administrative expenses (1,616,855) (2,368,790) (751,935) 46.5% D
+Finance cost (340,018) (790,662) (450,644) 132.5% E
+Foreign exchange gain 21,164 74,228 53,064 250.7%
+Derivative gain (loss)
+  (excluding gain (loss) on investments) 208,125 (433,293) (641,418) - F
+Change in third-party interests in SVF (618,693) (179,212) 439,481 (71.0%) G
+Other gain (loss) 145,761 (663,829) (809,590) - H
+Income before income tax 3,686,382 (438,705) (4,125,087) -
+Income taxes (366,028) (102,943) 263,085 (71.9%) I
+Net income 3,320,354 (541,648) (3,862,002) -
+Net income attributable to non-controlling
+  interests 396,288 226,359 (169,929) (42.9%)
+Net income attributable to owners of the parent 2,924,066 (768,007) (3,692,073) -
+Total comprehensive income 3,239,811 (1,009,002) (4,248,813) -
+Comprehensive income attributable to
+  owners of the parent 2,826,864 (1,245,838) (4,072,702) -
+a. Consolidated Results of Operations
+The following is an overview of the primary and noteworthy components of the condensed interim consolidated 
+statement of profit or loss.
+A  Net Sales
+Net sales increased  in the SoftBank  segment and the  AI  Computing  segment. For details,  see “(c) SoftBank 
+Segment” and “(d) AI Computing Segment” under “b. Results by Segment.”
+B  Gain on Investments at Investment Business of Holding Companies
+Investment gain at Investment Business of Holding Companies was ¥1,078,337 million,  primarily attributable to a 
+¥1,062,815 million gain  on shares of Intel Corporation  (“Intel”). For details,  see “(a) Investment  Business of 
+Holding Companies Segment” under “b. Results by Segment.”
+C  Gain on Investments at SoftBank Vision Funds
+Investment gain at SoftBank Vision Funds totaled ¥705,617 million, comprising gains of ¥381,101 million at SVF1 
+and ¥372,854 million at SVF2, and losses of ¥45,839 million at LatAm and ¥2,499 million in Others.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+6
+
+The investment  gain at  SVF1  was primarily  attributable  to a  $3.6 billion (¥569,386 million)  increase  in the fair 
+value of the investment  in Bytedance  Ltd.  (“ByteDance”),  reflecting higher  share prices of market  comparable 
+companies and ByteDance’s strong business performance, while share prices of certain public portfolio companies, 
+including Coupang, Inc. (“Coupang”), declined.
+The investment gain at SVF2  reflected increases in the fair  values of certain  private portfolio  companies due  to 
+higher valuations  in recent  transactions as well  as higher share prices of certain  public  portfolio companies, 
+including Meesho Limited and Lenskart Solutions Limited (“Lenskart”).
+Investment losses of ¥364,387 million recorded  in the SoftBank Vision Funds segment in relation to SB7, PayPay 
+Corporation (“PayPay”) and other companies are eliminated in consolidation and  are therefore not  recorded in the 
+consolidated statement of profit or loss.
+For details, see  “(b) SoftBank Vision Funds Segment” under “b.  Results by Segment.” For details  on SB7, see 
+“REVISION OF  PROCUREMENT PLANS FOR  POWER GENERATION-RELATED EQUIPMENT FOR  AI 
+DATA CENTER PROJECTS IN THE U.S.” under “(1) Overview of Results of Operations.”
+Primarily as a result of B and C, the total gain on investments was ¥1,725,796 million.
+D  Selling, General and Administrative Expenses
+Selling, general  and administrative  expenses increased  ¥751,935 million  year on year to ¥2,368,790 million. 
+Expenses in the AI Computing segment increased ¥335,170 million, reflecting higher personnel expenses, including 
+share-based compensation,  resulting from increased  headcount, particularly  engineers, at Arm and Graphcore 
+Limited (“Graphcore”), as well as the acquisition  of Ampere. Expenses at  Energy Global, which  is included in 
+Other in the segment  information, increased ¥130,889 million,  mainly  due to higher share-based  compensation 
+expenses accounted for as cash-settled, following an increase in Energy Global’s fair value.
+E  Finance Cost
+Interest expenses at  SBG *1 increased  ¥407,217 million year  on year to ¥676,389 million.  The increase  was 
+primarily attributable to borrowings of $11.5 billion through the margin loan backed  by Arm shares in December 
+2025 and a total  of $30.0 billion through  the bridge loans in April  and July 2026, as well as a higher  outstanding 
+balance of corporate bonds. In addition to interest incurred during the borrowing period, the remaining unamortized 
+financing costs associated  with the bridge loans  were recognized in  full in the second  quarter following the 
+repayment of the entire  outstanding balance of $25.9 billion  prior to maturity  on September 15, 2026. These  costs 
+had originally been scheduled  to be amortized  through the  maturity date  of March 25, 2027. Higher funding rates 
+also contributed to the increase in interest expenses.
+F  Derivative Loss (Excluding Gain (Loss) on Investments)
+In August 2026, $7.35 billion was raised through prepaid forward contracts backed by all of the Intel shares held. A 
+derivative loss of ¥321,891 million was recorded  on these contracts  as Intel’s share price  increased by the  second 
+quarter-end. In addition, a  derivative loss of ¥203,802 million  was recorded due  to an increase  in the fair value  of 
+warrants granted by Energy Global to OpenAI as incentives under lessor lease arrangements related to data centers. 
+The warrants are convertible into Energy Global’s ordinary equity interests.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+7
+
+G  Change in Third-Party Interests in SVF
+Third-party interests in SVF increased ¥179,212 million, primarily  reflecting  a ¥163,531 million  increase 
+attributable to investors  entitled to  performance-based distributions. This was primarily  due to the  recording of an 
+investment gain of ¥380,410 million at SVF1 (on an SVF1 stand-alone basis).
+H  Other Loss
+A loss of ¥597,248 million  was recorded due to the  realignment of procurement plans for power generation-related 
+equipment for AI data  center projects in the U.S. and related  factors. This loss comprised  ¥457,030 million related 
+to non-refundable advance  payments and  ¥140,218 million related  to contract modifications and settlements. For 
+details, see “REVISION OF PROCUREMENT  PLANS FOR  POWER GENERATION-RELATED EQUIPMENT 
+FOR AI DATA CENTER PROJECTS IN THE U.S.” under “(1) Overview of Results of Operations.”
+Primarily as a result of A through H, loss before income tax was ¥438,705 million,  a deterioration of 
+¥4,125,087 million year on year.
+I  Income Taxes
+Income taxes totaled  ¥102,943 million,  primarily due to income  taxes recorded at  operating companies,  including 
+SoftBank Corp.
+Primarily as a result of A through I, net loss attributable to owners of the parent was ¥768,007 million, a 
+deterioration of ¥3,692,073 million year on year.
+Note:
+1. Interest expenses at SBG include interest expenses at its wholly owned financing subsidiaries and SB Northstar, as well as interest 
+expenses under the loan agreement using OpenAI shares held by SVF2. Interest expenses in the consolidated statement of profit or 
+loss and interest paid in the consolidated statement of cash flows differ due to amortized cost accounting, differences between the 
+timing of interest recognition and payment, and other factors.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+8
+
+Segments Main businesses Core companies
+Reportable segments
+Investment Business 
+of Holding 
+Companies
+·Investment activities by SBG and its 
+subsidiaries
+SoftBank Group Corp.
+SoftBank Group Capital Limited
+SoftBank Group Japan Corporation
+SoftBank Group Overseas GK
+SB Northstar LP
+SoftBank Vision 
+Funds
+·Investment activities by SVF1, SVF2 and 
+LatAm
+SB Investment Advisers (UK)
+Limited
+SoftBank Vision Fund L.P.
+SB Global Advisers Limited
+SoftBank Vision Fund II-2 L.P.
+SBLA Latin America Fund LLC
+SoftBank ·Consumer business: Provision of mobile 
+and broadband services to individual 
+customers
+·Enterprise business: Provision of mobile 
+services, solution services, and cloud and 
+AI services to enterprise customers
+·Distribution business: Provision of ICT 
+services and products to enterprise 
+customers
+·Media & EC business: Provision of media, 
+advertising and commerce services
+·Financial business: Provision of payment 
+and financial services
+SoftBank Corp.
+LY Corporation
+PayPay Corporation
+AI Computing ·Design of semiconductor IP, chips and 
+related technology
+·Development and sale of semiconductor 
+chips
+·Sale of software tools and provision of 
+related services
+Arm Holdings plc
+Ampere Computing Holdings LLC
+Graphcore Limited
+Other ·Solar power plant development, 
+construction and operation, and data center 
+development and construction
+·Robotics-related business
+·Investment management business in digital 
+infrastructure
+·Fukuoka SoftBank HAWKS-related 
+businesses
+Energy Global, LP
+Silver Bands 4 (US) Corp.
+DigitalBridge Group, Inc.*1
+Fukuoka SoftBank HAWKS Corp.
+b. Results by Segment
+The Company’s reportable segments are  based on the components  of its business activities  used to determine  the 
+allocation of management  resources and to evaluate  performance.  As of the second quarter-end,  there are four 
+reportable segments:  Investment  Business  of Holding  Companies, SoftBank Vision Funds, SoftBank, and AI 
+Computing. The following is a summary of the reportable segments.
+Note:
+1. DigitalBridge’s financial position is reflected in the consolidated statement of financial position as of the second quarter-end, while 
+its results of operations will be reflected in the consolidated statement of profit or loss from the third quarter (the three-month period 
+ending December 31, 2026) onward.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+9
+
+♦ ¥1,078.3 billion investment gain, primarily driven by a ¥1,062.8 billion gain on Intel shares following an 
+increase in its share price
+♦ ¥375.1 billion segment income, after recording finance cost of ¥669.3 billion
+(a) Investment Business of Holding Companies Segment
+OVERVIEW
+This segment is led by SBG, which conducts investment  activities either directly or through its subsidiaries, as a 
+strategic investment holding  company. The segment  comprises SBG, SoftBank Group Capital  Limited, SoftBank 
+Group Japan Corporation,  SoftBank Group Overseas GK,  SB Northstar (the  asset management  subsidiary), and 
+certain other subsidiaries  engaged in investment  or financing  activities.  In this segment,  gains and losses on 
+investments comprise those arising  from investments  held directly  or indirectly  by SBG,  but exclude  investment 
+gains and losses related  to shares of subsidiaries,  including dividends  received from subsidiaries  and impairment 
+losses on such shares.
+This segment holds investments in portfolio companies, such as Intel and T-Mobile, most of which are classified as 
+financial assets at fair value through profit or loss (FVTPL). Investments classified as financial assets at FVTPL are 
+measured at fair value  every quarter, with changes in fair  value recorded as gains and losses on investments in  the 
+consolidated statement of profit or loss.
+Investment in listed stocks, corporate bonds and other instruments by the asset management subsidiary
+SB Northstar uses surplus funds at SBG to purchase and sell  listed stocks, corporate  bonds and other instruments. 
+During the period, the asset management subsidiary recorded an investment gain of ¥17.4 billion, including interest 
+income from bond investments. Since  inception, cumulative investment loss has totaled  ¥703.4 billion.*1 As of the 
+second quarter-end, its investment  balance totaled ¥1,270.1 billion,  including ¥1,079.9 billion  in corporate  bonds. 
+The corporate bond portfolio consists primarily of investment-grade bonds with short remaining maturities.
+SBG indirectly  holds a  67% stake in SB Northstar, while SBG’s Representative  Director, Corporate Officer, 
+Chairman &  CEO Masayoshi Son  indirectly  holds a  33% interest. The  portion attributable  to Masayoshi Son’s 
+interest is deducted  from the gains and  losses  on investments  at SB Northstar as a non-controlling  interest; 
+therefore, 67% of SB Northstar’s gains and losses on investments are reflected in net income attributable to owners 
+of the  parent. In the  event that, at  the end of the  fund life (12 years + 2-year  extension), SB Northstar has any 
+unfunded repayment obligations  to SBG, Masayoshi Son will cover his pro rata  share of any such unfunded 
+obligations based on his relative ownership percentage in SB Northstar.
+Note:
+1. The cumulative investment loss includes dividend income and interest received from bond investments, but excludes the impact of 
+SB Northstar’s investments in three special purpose acquisition companies controlled by SB Investment Advisers (US) Inc.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+10
+
+(Millions of yen)
+Six months ended September 30
+2025 2026 Change Change %
+Gain on investments 363,998 1,078,337 714,339 196.2% A
+Selling, general and administrative expenses (47,627) (65,423) (17,796) 37.4%
+Finance cost (296,333) (669,331) (372,998) 125.9% B
+Foreign exchange gain 8,625 78,438 69,813 809.4%
+Derivative gain (loss)
+  (excluding gain (loss) on investments) 207,918 (260,331) (468,249) - C
+Other gain 121,501 213,394 91,893 75.6%
+Segment income (income before income tax) 358,082 375,084 17,002 4.7%
+FINANCIAL RESULTS
+A  Gain on investments: ¥1,078,337 million
+An investment gain of ¥1,062,815 million was recorded on Intel shares following an increase in its share price.
+B  Finance cost: ¥669,331 million (increase of ¥372,998 million year on year)
+Interest expenses  at SBG *1 increased  ¥373,304 million  year on year to ¥669,293 million.  The  increase was 
+primarily attributable to borrowings of $11.5 billion through the  margin loan backed by Arm shares in December 
+2025 and a total  of $30.0 billion  through the bridge loans  in April and July 2026, as well as a  higher outstanding 
+balance of corporate bonds. In addition to interest incurred during the borrowing period, the remaining unamortized 
+financing costs associated  with the bridge  loans were recognized  in full in the  second quarter following  the 
+repayment of the entire  outstanding balance of $25.9 billion  prior to maturity  on September 15, 2026. These costs 
+had originally been scheduled to be amortized  through the maturity  date of March 25, 2027. Higher funding  rates 
+also contributed to the increase in interest expenses.
+Of the funds borrowed through these  bridge loans, $20.0 billion  had been lent  to SVF2 on the same terms to fund 
+investments in OpenAI. An amount  equal to the  interest expenses on this  $20.0 billion (including  the remaining 
+unamortized financing costs recognized  in full) was recorded as interest  income from SVF2  in other gain (loss), 
+offsetting the impact of these expenses on segment income.
+C  Derivative loss (excluding gain (loss) on investments): ¥260,331 million (deterioration of ¥468,249 million year 
+on year)
+A derivative gain of ¥49,300 million was recorded on prepaid forward contracts backed by T-Mobile shares, while a 
+derivative loss of ¥321,891 million was recorded on prepaid forward contracts backed by Intel shares.
+Note:
+1. Interest expenses at SBG include interest expenses at its wholly owned financing subsidiaries and SB Northstar.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+11
+
+Borrower Type
+Balance as of September 30, 
+2026 in the condensed interim 
+consolidated statement of 
+financial position
+SBG Borrowings ¥3,540.3 billion
+Corporate bonds ¥11,101.0 billion
+Lease liabilities ¥5.8 billion
+Commercial paper ¥285.8 billion
+Wholly owned financing 
+subsidiaries
+Margin loan backed by Arm shares ¥3,896.9 billion
+Margin loan backed by SoftBank Corp. shares ¥1,197.5 billion
+Prepaid forward contracts (collar contracts) 
+backed by Intel shares ¥1,139.6 billion
+Prepaid forward contracts (collar contracts) 
+backed by T-Mobile shares ¥259.7 billion
+SB Northstar Prime brokerage loans backed by securities ¥934.3 billion
+Main interest-bearing debt and lease liabilities in this segment
+Note: Borrowings by wholly owned financing subsidiaries and SB Northstar are non-recourse to SBG.
+In addition, borrowings in the SoftBank Vision Funds segment under the loan agreement using OpenAI shares held 
+by SVF2, with an outstanding balance of ¥1,543.7 billion as of September 30, 2026, are guaranteed by SBG.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+12
+
+(Millions of yen)
+September 30, 2026
+Cash and cash equivalents 1,284
+Investment securities (a) 113,711
+Securities pledged as collateral (b) 1,156,413
+Investment balance subtotal (a) + (b) 1,270,124
+including corporate bonds 1,079,884
+Derivative financial assets 12
+Loans receivable and interest receivable*1 1,105,868
+Other 15,071
+Total assets 2,392,359
+Interest-bearing debt 934,277
+Borrowed securities 2,411
+Other 2,806
+Total liabilities 939,494
+Investments from Delaware subsidiaries*2 1,971,699
+Equivalent amount of cash investments by SBG in Delaware subsidiaries 39,786
+Equivalent amount of loans to Delaware subsidiaries held by SBG
+  (the amount entrusted by SBG related to asset management) 1,912,020
+Equivalent amount of cash investments by Masayoshi Son in Delaware subsidiaries 19,893 A
+Retained earnings (751,027) B
+Exchange differences 232,193
+Equity 1,452,865 C
+(Millions of yen)
+Equivalent amount of cash investments by Masayoshi Son in Delaware subsidiaries 19,893 A
+Cumulative loss attributable to non-controlling interests*3 (250,252)
+Exchange differences on translating foreign operations 86,615
+Non-controlling interests (interests of Masayoshi Son) (143,744) D
+(Millions of yen)
+Interests of SBG 1,596,609
+Non-controlling interests (interests of Masayoshi Son) (143,744) D
+Equity 1,452,865 C
+Reference: Impact of the asset management subsidiary on the condensed interim consolidated statement of
+financial position
+Notes:
+1. Loans to SBG and related accrued interest (eliminated in consolidation as intragroup transactions)
+2. Represents the investment amounts from the Company’s subsidiaries, Delaware Project 1 L.L.C., Delaware Project 2 L.L.C. and 
+Delaware Project 3 L.L.C. (collectively, the “Delaware subsidiaries”), into SB Northstar, the asset management subsidiary.
+(Calculation of non-controlling interests)
+Note:
+3. One third of B in the above table
+(Interests in equity (C above))
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+13
+
+(As of September 30, 2026; in billions of U.S. dollars)
+Since Inception The Fiscal Year*1
+Investment
+cost Returns Gain/loss
+Gain/loss
+YTD
+Gain/loss
+Jul - Sep
+SVF1
+Exited investments 48.9 73.2 24.3 1.0 0.1
+Investments before exit 38.3 40.0 1.7 2.2 (0.0)
+Interest/Dividends - 0.6 0.6 0.0 0.0
+Total 87.2 113.8 26.6
+SVF2
+Exited investments 11.6 7.7 (3.9) 0.4 0.2
+Investments before exit 111.0 136.4 25.4 (0.2) 0.4
+Interest/Dividends - 0.3 0.3 0.1 0.1
+Total 122.6 144.4 21.8
+♦ Cumulative performance since inception
+- SVF1: Return of $113.8 billion on investments of $87.2 billion; a gross gain of $26.6 billion
+- SVF2: Return of $144.4 billion on investments of $122.6 billion; a gross gain of $21.8 billion
+♦ The period (April–September 2026)
+- SVF1: Investment gain of $2.4 billion (¥380.4 billion). An investment gain of $3.6 billion (¥569.4 billion) 
+on ByteDance reflected higher share prices of market comparable companies and ByteDance’s strong 
+business performance, while share prices of public portfolio companies, including Coupang, declined.
+- SVF2: Investment gain of $0.06 billion (¥9.2 billion). Fair values of certain private portfolio companies 
+increased, reflecting higher valuations in recent transactions. These gains were partially offset by fair value 
+declines at certain other private portfolio companies due to weak business performance and share price 
+declines at public portfolio companies, including PayPay and Symbotic. No investment gain or loss was 
+recorded on OpenAI.
+♦ The second quarter (July–September 2026)
+- SVF1: Investment loss of $0.02 billion (¥3.9 billion). An investment gain of $1.3 billion (¥211.0 billion) was 
+recorded on ByteDance, while share prices of public portfolio companies, including Coupang and Grab, 
+declined.
+- SVF2: Investment gain of $0.6 billion (¥89.3 billion). Fair values of certain private portfolio companies 
+increased, reflecting higher valuations in recent transactions, and share prices of certain public portfolio 
+companies, including Lenskart and PayPay, rose. These gains were partially offset by fair value declines at 
+certain other private portfolio companies due to weak business performance.
+　
+(b) SoftBank Vision Funds Segment
+Notes:
+* Public portfolio companies are those whose shares trade on stock exchanges or over-the-counter markets. Private portfolio companies 
+are those that do not fall  under the category  of public portfolio  companies. Returns and gross gains and losses are before deducting 
+third-party interests,  taxes and expenses. Investment  returns represent  the exit price  for exited investments,  the fair  value for 
+investments before exits and the respective amounts received for interest or dividends. The same applies hereinafter.
+1. The amount of gains and losses for exited investments for the fiscal year represents the exit price, net of the investment cost of such 
+investments.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+14
+
+SVF1 SVF2 LatAm
+Primary limited 
+partnership
+SoftBank Vision Fund L.P. SoftBank Vision Fund 
+II-2 L.P.
+SBLA Latin America 
+Fund LLC
+Total committed capital
+(billions of U.S. dollars)
+98.6 152.3 7.8
+The Company: 33.1*1
+Third-party investors: 65.5
+The Company: 149.7
+Third-party investor 
+(MgmtCo): 2.6*2
+The Company: 7.4
+Third-party investor 
+(MgmtCo): 0.4*2
+Manager SBIA
+(The Company’s wholly 
+owned U.K. subsidiary)
+SBGA
+(The Company’s wholly owned
+U.K. subsidiary)
+Investment period Ended on September 12, 2019 To be determined by the manager
+Fund life Until November 20, 2029 + 
+up to two one-year extension 
+options by SBIA
+Until October 4, 2032 + up to two one-year 
+extension options by SBGA
+OVERVIEW
+Segment results primarily comprise the investment and operational activities of SVF1, SVF2 and LatAm.
+Outline of principal funds in the segment
+As of September 30, 2026
+The funds aim to maximize returns from a medium- to long-term perspective through investments in high-growth-
+potential companies leveraging AI. SVF1’s investment period has ended, and the remaining undrawn capital is 
+reserved for fixed distributions and operating expenses.
+Notes:
+1. The Company’s committed capital to SVF1 includes approximately $8.2 billion of an obligation that was satisfied by using Arm 
+shares (all such shares were contributed) and $2.5 billion for an incentive scheme related to SVF1.
+2. A co-investment program has been introduced for SVF2 and LatAm for the Company’s management. MgmtCo, an investment entity 
+for the co-investment program, participates in both funds. The interest attributable to MgmtCo is treated as a third-party interest in 
+the Company’s consolidated financial statements. For details, see “Co-investment program with restricted rights to receive 
+distributions” under “15. Related party transactions” in “(7) Notes to Condensed Interim Consolidated Financial Statements” in “3. 
+Condensed Interim Consolidated Financial Statements and Primary Notes.”
+Fair value measurement of investments
+SVF1, SVF2 and LatAm calculate the fair value of their investments at each quarter-end in accordance with IFRS 
+13 “Fair Value Measurement” and based on the SBIA Global Valuation Policy and the International Private Equity 
+and Venture Capital Valuation Guidelines. For public portfolio companies, the fair values of portfolio companies 
+traded on stock exchanges are determined using quoted prices, while the fair values of those traded on over-the-
+counter markets are determined using single or multiple factors, such as quoted prices and other observable inputs. 
+For private portfolio companies, one or more valuation methods are used, including the market approach using 
+figures of market comparable companies, the income approach using estimated future cash flows, and the recent 
+transactions method using prices of recent funding rounds and similar transactions.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+15
+
+(Millions of yen)
+Six months ended September 30
+2025 2026 Change Change %
+Gain on investments*1 3,536,168 341,230 (3,194,938) (90.4%)
+SVF1 1,369,947 380,410 (989,537) (72.2%)
+SVF2 2,032,225 9,158 (2,023,067) (99.5%)
+LatAm 89,185 (45,839) (135,024) -
+Others 44,811 (2,499) (47,310) -
+Selling, general and administrative expenses (30,602) (30,586) 16 (0.1%)
+Finance cost (83,771) (225,531) (141,760) 169.2%
+Change in third-party interests in SVF*2 (618,693) (179,212) 439,481 (71.0%)
+Other gain 25,193 17,945 (7,248) (28.8%)
+Segment income (income before income tax) 2,828,295 (76,154) (2,904,449) -
+Six months ended September 30
+2025 2026 Change
+Gain on investments (A) 3,536,168 341,230 (3,194,938)
+Gain (loss) on investments in shares of the Company’s
+  subsidiaries, etc. (B) 120,686 (364,387) (485,073)
+Gain on investments at SoftBank Vision Funds in
+  the Consolidated Statement of Profit or Loss (A) - (B) 3,415,482 705,617 (2,709,865)
+FINANCIAL RESULTS
+Notes:
+1. Gains and losses on investments associated with the change in valuation of SoftBank Vision Funds’ investments in shares of the 
+Company’s subsidiaries and others are included in segment income of the SoftBank Vision Funds segment as gain on investments 
+but are eliminated in consolidation and not included in “gain on investments - SoftBank Vision Funds” in the consolidated statement 
+of profit or loss.
+2. Change in third-party interests in SVF represents the gains and losses attributable to third-party investors, which are calculated based 
+on the gains and losses on investments at each fund, net of (i) management and performance fees payable to SBIA from SVF1; (ii) 
+management and performance-linked management fees payable to SBGA from SVF2; (iii) management fees, performance-linked 
+management fees, and performance fees payable to SBGA from LatAm; and (iv) operating and other expenses of SVF. For details, 
+see “(2) Third-party interests in SVF” under “4. SoftBank Vision Funds business” in “(7) Notes to Condensed Interim Consolidated 
+Financial Statements” in “3. Condensed Interim Consolidated Financial Statements and Primary Notes.”
+Gain on investments
+(Millions of yen)
+Gain (loss) on investments in shares of the Company’s subsidiaries, etc. for the period primarily comprised 
+investment losses related to SB7 and PayPay. For details on SB7, see “REVISION OF PROCUREMENT PLANS 
+FOR POWER GENERATION-RELATED EQUIPMENT FOR AI DATA CENTER PROJECTS IN THE U.S.” 
+under “(1) Overview of Results of Operations.”
+Finance cost
+At SVF2, finance cost increased due to the recording of interest expenses on $20.0 billion borrowed from a wholly 
+owned subsidiary of SBG to fund investments in OpenAI. SVF2 borrowed the funds raised by that subsidiary 
+through a bridge loan on the same terms as the bridge loan. These interest expenses are eliminated in consolidation 
+against the corresponding interest income of the same amount recorded in other gain (loss) in the Investment 
+Business of Holding Companies segment. For details, see “(a) Investment Business of Holding Companies 
+Segment.”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+16
+
+(Billions of U.S. dollars)
+Cumulative
+number of
+investments
+Cumulative
+investment
+cost
+Cumulative
+investment
+return
+Cumulative
+gain/loss*1
+94 87.2 113.8 26.6
+Number of
+investments
+Investment
+cost Exit price
+Cumulative
+ gain/loss*1
+Gain/loss
+recorded for the fiscal year
+YTD Jul - Sep
+Partial exit - 6.9 13.0 6.1 0.9 0.1
+Full exit 43 42.0 60.2 18.2 0.1 -
+Total 43 48.9 73.2 24.3 1.0 0.1
+Number of
+investments
+Investment 
+cost Fair value
+Cumulative
+gain/loss*4
+Gain/loss
+recorded for the fiscal year
+YTD Jul - Sep
+Public*3 14 18.5 11.3 (7.2) (1.9) (1.4)
+Private 37 19.8 28.7 8.9 4.1 1.4
+Total 51 38.3 40.0 1.7 2.2 (0.0)
+Interest and 
+dividend 
+income
+Cumulative
+ gain/loss
+Gain/loss
+recorded for the fiscal year
+YTD Jul - Sep
+Total 0.6 0.6 0.0 0.0
+Investment performance
+As of September 30, 2026
+SVF1
+Total ((1) + (2) + (3) below)
+(1) Exited investments
+(2) Investments before exit (investments held at the second quarter-end)*2
+(3) Interest and dividend income from investments
+Notes:
+1. Before deducting third-party interests, taxes and expenses
+2. The classification of portfolio companies as public/private is based on their status as of the second quarter-end.
+3. Includes DiDi Global Inc., which is traded on the over-the-counter market.
+4. For a certain investment whose planned transfer from the Company to SVF1 was subsequently canceled, any gains and losses 
+incurred for the fiscal year leading up to the decision to cancel the transfer are excluded from this section.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+17
+
+(Billions of U.S. dollars)
+Cumulative
+number of
+investments
+Cumulative
+investment
+cost
+Cumulative
+investment
+return
+Cumulative
+gain/loss*1
+317 122.6 144.4 21.8
+Number of
+investments
+Investment
+cost Exit price
+Cumulative
+gain/loss*1
+Gain/loss
+recorded for the fiscal year
+YTD Jul - Sep
+Partial exit - 3.7 3.8 0.1 0.6 0.3
+Full exit 38 7.9 3.9 (4.0) (0.2) (0.1)
+Total 38 11.6 7.7 (3.9) 0.4 0.2
+Number of
+investments
+Investment 
+cost Fair value
+Cumulative
+gain/loss
+Gain/loss
+recorded for the fiscal year
+YTD Jul - Sep
+Public 23 7.9 7.1 (0.8) (0.9) 0.3
+Private 256 103.1 129.3 26.2 0.7 0.1
+Total 279 111.0 136.4 25.4 (0.2) 0.4
+Interest and 
+dividend 
+income
+Cumulative
+gain/loss
+Gain/loss
+recorded for the fiscal year
+YTD Jul - Sep
+Total 0.3 0.3 0.1 0.1
+SVF2
+Total ((1) + (2) + (3) below)
+(1) Exited investments
+(2) Investments before exit (investments held at the second quarter-end)*2
+(3) Interest and dividend income from investments
+Notes:
+1. Before deducting third-party interests, taxes and expenses
+2. The classification of portfolio companies as public/private is based on their status as of the second quarter-end.
+LatAm
+As of the second quarter-end, LatAm posted $6.6 billion in cumulative returns on $7.6 billion in investments, with a 
+gross loss of $1.0 billion since inception. For the period, investment loss was $0.3 billion.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+18
+
+(Billions of U.S. dollars)
+Total The Company Third-party investors
+Committed capital  (A) 98.6 33.1 65.5
+Drawn capital*1  (B) 87.1 29.8 57.3
+Return of capital (non-recallable)  (C) 57.3 14.7 42.6
+Outstanding capital*2  (D) = (B) – (C) 29.8 15.1 14.7
+Remaining committed capital  (E) = (A) – (B) 11.5 3.3 8.2
+(Billions of U.S. dollars)
+Total
+Committed capital  (A) 152.3
+Drawn capital  (B) 125.7
+Remaining committed capital  (C) = (A) – (B) 26.6
+Total committed capital 152.3
+The Company’s equity commitment to investments outside the scope of the co-investment program 17.0
+The Company’s preferred equity commitment to SVF2 LLC 120.3
+The Company’s equity commitment to SVF2 LLC 12.4
+MgmtCo’s equity commitment to SVF2 LLC 2.6
+For a complete  list of portfolio companies  and historical  quarterly results of SVF1,  SVF2 and LatAm,  see the Data Sheets under 
+“Earnings Results Briefing” on the Company’s website at https://group.softbank/en/ir/presentations/.
+Capital deployment
+As of September 30, 2026
+SVF1
+Notes:
+* The Company’s committed capital to SVF1 includes approximately $8.2 billion of an obligation that was satisfied by using Arm 
+shares (all such shares were contributed) and $2.5 billion for an incentive scheme related to SVF1.
+1. Drawn capital excludes the amount repaid to limited partners due to investment plan changes and other factors after the initial 
+drawdown.
+2. As of the second quarter-end, $3.1 billion of the $14.7 billion in outstanding capital from third-party investors was attributable to 
+preferred equity commitment.
+SVF2
+Note: Remaining committed capital includes recallable return of capital.
+(Reference: Breakdown of committed capital as of September 30, 2026)
+Note: As of the second quarter-end, no capital has been paid by MgmtCo. SVF2 LLC (SVF II Investment Holdings LLC) is a 
+subsidiary of the Company established under SVF2 and indirectly holds investments subject to the co-investment program.
+As of the second quarter-end, the total committed capital for LatAm was $7.8 billion, with drawn capital totaling 
+$7.7 billion.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+19
+
+♦ Net Sales: Increased 11.7% YoY, with revenue growth across all businesses.
+♦ Segment Income: Increased 12.9% YoY, supported by higher income in the Financial and Enterprise 
+businesses, as well as investment gains.
+♦ The Enterprise business contributed to growth in net sales and segment income, driven by expansion in 
+cloud and AI services.
+(Millions of yen)
+Six months ended September 30
+2025 2026 Change Change %
+Net sales 3,400,459 3,798,146 397,687 11.7%
+Segment income (income before income tax) 591,893 668,017 76,124 12.9%
+Depreciation and amortization (371,763) (402,659) (30,896) 8.3%
+Gain (loss) on investments (392) 88,247 88,639 -
+Finance cost (44,308) (61,557) (17,249) 38.9%
+Other gain (loss) 48,277 (4,318) (52,595) -
+(c) SoftBank Segment
+OVERVIEW
+In this segment, SoftBank Corp. and  its subsidiaries primarily  provide mobile  services and sell  mobile devices  in 
+Japan, as well  as offer broadband services, solution  services and cloud  and AI services for enterprise customers, 
+advertising and commerce-related services, and payment and financial services. For individual customers, reflecting 
+the growing importance  of the  group’s ecosystem integrating  loyalty  points, payments, financial  services,  e-
+commerce and other offerings, the segment is working to expand customer referrals across services and the group’s 
+ecosystem. It does so  by maintaining  telecommunications services as a stable earnings  base while leveraging  its 
+telecommunications customer base and a broad range of customer  touchpoints, including Yahoo! JAP AN, LINE and 
+PayPay. Under the growth strategy “Activate AI for Society,” the segment has positioned the Enterprise business as 
+a key pillar supporting this growth. Building on its telecommunications customer base, it is expanding the provision 
+of advanced digital  transformation  (DX) solutions and cloud and AI services.  It is also building out  AI 
+infrastructure, including AI computing  platforms and AI data  centers, while developing  revenue streams  from this 
+infrastructure.
+FINANCIAL RESULTS
+Net sales increased ¥397,687 million (11.7%) year on year to ¥3,798,146 million, reflecting revenue growth across 
+all businesses. Segment income increased ¥76,124 million (12.9%) year on year to ¥668,017 million.
+The increase in segment income was attributable to higher profit in the Financial and Enterprise businesses, as well 
+as investment gains. In the  Financial business, profit  increased due to  higher payment  fee income resulting  from 
+growth in gross merchandise value of QR code  payments and credit card services, as well  as an increase in interest 
+income driven  by growth in credit card  finance receivables,  including  revolving credit  and installment  payment 
+balances, and growth in bank loan  balances. In the  Enterprise business, profit increased  significantly year on year 
+due to higher cloud and AI revenue, particularly from AI computing platforms.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+20
+
+For more information on SoftBank Corp.’s financial results and business operations, please refer to its website at 
+https://www.softbank.jp/en/corp/ir/.
+The Consumer business, which is the  core earnings contributor, recorded  higher revenue but lower  profit. In 
+smartphone customer acquisition,  the business shifted its  focus toward long-term customer  retention  and 
+profitability, resulting in a decline in the cumulative number of contracts. Meanwhile, the average revenue per user 
+for telecommunications  services  increased due to  factors including  revisions to rate plans, and  mobile service 
+revenue, which represents a stable earnings base, continued to grow. Mobile device sales also increased due to a rise 
+in the average selling price of mobile devices. However, profit decreased because higher expenses, including sales-
+related expenses, more than offset the positive impact of the revenue increase.
+The Media & EC business recorded lower profit because one-time gains had been recognized in the same period of 
+the previous  fiscal year in connection  with the  remeasurement  of the previously held  equity interests upon the 
+consolidation of LINE MAN CORPORATION PTE. LTD. and LINE Bank Taiwan Limited. Excluding the impact 
+of these one-time  gains, profit increased,  reflecting  higher revenue  driven by growth in membership  of the 
+consumer subscription service LYP Premium, as well  as growth in account advertising  through LINE Official 
+Account for companies and stores.
+Gain on investments improved primarily because a subsidiary of SoftBank Corp. recorded a gain of ¥80,060 million 
+($0.5 billion) on the sale  of its interest in  Energy Global to  SVF2. This gain  is eliminated  in consolidation  and is 
+therefore not recorded in the Company’s consolidated statement of profit or loss.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+21
+
+♦ Net sales increased 23.7% YoY in U.S. dollar terms (35.5% increase in yen terms), driven by higher 
+revenue at Arm.
+♦ Segment income deteriorated ¥275.1 billion YoY, primarily due to higher research and development 
+expenses associated with the development of next-generation technologies to underpin future growth.
+(Millions of yen)
+Six months ended September 30
+2025 2026 Change Change %
+Net sales 275,780 373,595 97,815 35.5%
+Segment income (income before income tax) (46,955) (322,050) (275,095) -
+Depreciation and amortization*1 (48,837) (71,735) (22,898) 46.9%
+Gain on investments 3,265 1,934 (1,331) (40.8%)
+Finance cost (2,120) (4,249) (2,129) 100.4%
+Other gain 26,393 889 (25,504) (96.6%)
+(d) AI Computing Segment
+Note:
+1. Depreciation and amortization expenses include amortization expenses of ¥30,153 million for the period and ¥28,463 million for the 
+same period of the previous fiscal year. These expenses are related to intangible assets recognized in the purchase price allocation at 
+the time of the acquisition of Arm.
+OVERVIEW
+In this segment, semiconductor-related subsidiaries such as Arm, Ampere and  Graphcore are working together  to 
+enhance the group’s semiconductor business toward the realization of Artificial Superintelligence (ASI).
+Arm delivers  industry-leading  compute platforms  that combine  exceptional  performance  with superior energy 
+efficiency, with its technologies  deployed across a broad spectrum  of products, including  smartphones, data-center 
+servers, IoT devices  and automotive  systems. Arm primarily  generates  revenue from licensing  individual 
+semiconductor IP and Compute Subsystems (CSS), as well as Arm Total Access (ATA), which provides access to a 
+broad portfolio  of Arm IP  over a  specified period,  and from royalties  earned when customers ship chips 
+incorporating Arm technology. License revenue is recognized  either at a point in  time or over time,  depending on 
+the terms of each  agreement,  while royalty  revenue is recognized  as customers ship chips incorporating  Arm 
+technology. In March 2026, Arm announced  Arm  AGI CPU, its first  Arm-designed silicon chip.  Designed 
+specifically as a data  center CPU for general-purpose cloud and agentic  AI workloads, this product extends Arm’s 
+compute platform into the  realm of proprietary  silicon chips.  This development  is expected  to further accelerate 
+innovation across Arm’s entire  ecosystem. Ampere  specializes  in designing high-performance,  energy-efficient 
+CPUs for AI-driven workloads, built  on the Arm compute  platform. Graphcore  has a proven track record  in the 
+design and development of semiconductor chips specialized for AI.
+These semiconductor-related subsidiaries will continue to invest in R&D to build the future of AI computing, while 
+advancing the development of new technologies,  including new compute platforms delivered as semiconductor IP, 
+chips and related technologies, which will enable their customers to develop next-generation products.
+Since the fiscal year ended March 31, 2025, a wholly owned subsidiary of the Company and Arm have entered into 
+agreements related  to technology  licensing  and design services (the “Agreements” in this  section). Under the 
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+22
+
+(Millions of U.S. dollars)
+Six months ended September 30
+2025 2026 Change Change %
+Net sales (U.S. dollar-based) 1,884 2,330 446 23.7%
+Agreements, the  Company’s wholly owned subsidiary receives  licenses  for Arm’s semiconductor IP and design 
+services for joint  research and development  aimed  at creating  future new technologies.  Transactions  under the 
+Agreements between the Company’s wholly owned subsidiary and Arm are eliminated within this segment as intra-
+segment transactions.
+FINANCIAL RESULTS
+Net sales
+Net sales in this section are presented in U.S. dollars as the segment’s revenue is primarily denominated in U.S. 
+dollars.
+Net sales increased $446 million  (23.7%) year on year  to $2,330 million, primarily driven  by higher revenue at 
+Arm. This was mainly  attributable  to increases  in both Arm’s license  and other revenue  and royalty revenue. 
+License revenue increased as a result of high-value, long-term licensing agreements with multiple major technology 
+companies, including six CSS and seven ATA agreements. Royalty revenue  increased across all  three business 
+units: Cloud AI (data centers  and networks), Edge AI (smartphones, PCs and IoT devices)  and Physical AI 
+(autonomous vehicles and robotics).
+In Cloud AI, the expanded adoption of Arm-based server chips, including AWS Graviton, Google Axion, Microsoft 
+Cobalt, and NVIDIA  Grace and  Vera, contributed to  higher revenue. In Edge  AI,  the  positive impact  of higher 
+royalty rates per  chip, reflecting  wider adoption of Armv9 technology  and CSS, more than  offset lower sales of 
+smartphones and other consumer electronics  products amid higher memory  prices. In Physical AI, higher  adoption 
+of Arm-based chips  for in-vehicle  infotainment  (IVI) and advanced driver-assistance systems (ADAS),  together 
+with the initial adoption of Armv9-based chips subject to higher royalty rates, contributed to revenue growth.
+Segment income
+Segment income deteriorated ¥275,095 million year  on year, resulting in a segment loss of ¥322,050 million.  This 
+was primarily attributable to an increase of ¥335,170 million  in selling,  general and  administrative expenses. The 
+increase reflected higher research and development expenses at Arm and Graphcore, particularly higher share-based 
+compensation expenses, as they hired additional engineers to develop next-generation technologies that will support 
+future growth. The high level  of research and  development  expenses at Ampere, which became  a subsidiary  in 
+November 2025, also contributed to the deterioration in segment income.
+Arm, Ampere and Graphcore  use share-based compensation  as a component  of employee incentive  compensation. 
+Arm mainly  grants restricted  share units (RSUs), while Ampere and  Graphcore grant phantom  shares linked to 
+Arm’s share price.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+23
+
+For more information on Arm’s U.S. GAAP-based financial results and business operations, please refer to Arm’s website at 
+https://investors.arm.com/.
+TECHNOLOGY DEVELOPMENT
+Arm and its licensees made the following technology-related announcements during the period. For details on each 
+technology development, please refer to the press releases published on the websites of the announcing companies.
+· In June 2026, NVIDIA Corporation (“NVIDIA”) announced the NVIDIA RTX Spark superchip based on Arm 
+technology that will reinvent the Windows PC for the agentic  AI era. These PCs will provide  high AI processing 
+performance, industry-leading power efficiency, NVIDIA’s full-stack AI and graphics technologies, and up to 128 
+GB of memory. Major PC manufacturers also announced plans to develop laptops powered by RTX Spark.
+· In September  2026, Arm announced new computing  platforms and ecosystem  initiatives  for mobile,  AI 
+infrastructure and Physical AI as the industry shifts from the generative AI era toward broader use of agentic AI. 
+Arm CSS for Mobile 2 provides a platform optimized for next-generation mobile devices, while Neoverse CSS N4 
+delivers up to twice  the performance  of the prior generation,  helping companies  develop  more throughput-
+efficient chips. Arm also  announced Arm Total Design for Physical  AI, a purpose-built  ecosystem program to 
+help companies  build, validate  and scale Arm-based  Physical AI solutions. More than 80 companies  were 
+participating at the time  of the announcement.  The program  aims to reduce  system-integration complexity and 
+accelerate the development of autonomous systems.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+24
+
+1. Status of investment assets
+♦ Carrying amount of investments of SVF (FVTPL)*1 was ¥26,538.0 billion, an increase of ¥3,042.3 
+billion from the previous fiscal year-end.*2
+  Carrying amount of investments at SVF2 increased ¥3,093.5 billion from the previous fiscal year-end. The 
+carrying amount of OpenAI shares was ¥15,671.5 billion, an increase of ¥2,946.0 billion as a result of 
+follow-on investments totaling $20.0 billion in OpenAI.
+♦ Carrying amount of investment securities was ¥5,333.0 billion, an increase of ¥1,068.4 billion from the 
+previous fiscal year-end.*2
+  Carrying amount of Intel shares was ¥1,645.1 billion, an increase of ¥1,031.5 billion following an increase 
+in Intel’s share price.
+2. Changes in liabilities from financing activities
+Consolidated interest-bearing debt increased ¥7,906.1 billion from the previous fiscal year-end to ¥32,591.2 
+billion. Of this amount, interest-bearing debt at SBG*3 increased ¥6,155.8 billion to ¥23,898.9 billion, 
+reflecting the flexible use of debt financing to fund large-scale investments and repay or refinance debt.
+The principal reasons for changes in interest-bearing debt at SBG*3 are outlined below.
+♦ The balance of borrowings was ¥11,112.8 billion, an increase of ¥1,985.0 billion from the previous 
+fiscal year-end:
+· Borrowed $11.87 billion through a term loan, $10.0 billion under the loan agreement using OpenAI 
+shares, and $5.0 billion through the margin loan backed by Arm shares.
+· Fully repaid the remaining balance of $12.0 billion under bridge loans borrowed in the previous fiscal 
+year to fund the follow-on investment in OpenAI and the acquisition of Ampere.
+♦ The balance of corporate bonds was ¥11,101.0 billion, an increase of ¥2,930.6 billion from the previous 
+fiscal year-end:
+The principal movements were an increase of ¥4,021.4 billion following the issuances of domestic and 
+foreign currency-denominated bonds, partially offset by a decrease of ¥1,034.7 billion resulting from the 
+redemption of domestic and foreign currency-denominated bonds.
+♦ The balance of financial liabilities relating to sale of shares by prepaid forward contracts was ¥1,399.4 
+billion, an increase of ¥1,140.1 billion from the previous fiscal year-end:
+Raised $7.35 billion through new prepaid forward contracts backed by Intel shares.
+3. Changes in equity
+♦ Total equity decreased ¥1,072.1 billion from the previous fiscal year-end.
+- Retained earnings decreased following the recording of a net loss attributable to owners of the parent of 
+¥768.0 billion.
+- Exchange differences on translating foreign operations decreased ¥459.6 billion as the yen appreciated 
+compared with the previous fiscal year-end.
+♦ Ratio of equity attributable to owners of the parent (equity ratio) was 23.6% at the second quarter-
+end, compared with 29.0% at the previous fiscal year-end.
+(2) Overview of Financial Position
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+25
+
+(Millions of yen)
+March 31, 2026 September 30, 2026 Change Change %
+Total assets 60,749,547 69,387,194 8,637,647 14.2%
+Total liabilities 40,281,115 49,990,909 9,709,794 24.1%
+Total equity 20,468,432 19,396,285 (1,072,147) (5.2%)
+(Millions of yen)
+March 31, 2026 September 30, 2026 Change
+Cash and cash equivalents 5,362,150 7,432,165 2,070,015
+Trade and other receivables 3,302,622 3,385,439 82,817
+Derivative financial assets 44,221 109,292 65,071
+Other financial assets 2,135,608 2,127,904 (7,704)
+Inventories 240,179 283,727 43,548
+Other current assets 730,821 832,223 101,402
+Total current assets 11,815,601 14,170,750 2,355,149
+Property, plant and equipment 3,446,559 4,503,906 1,057,347 A
+Right-of-use assets 921,612 1,057,999 136,387
+Goodwill 7,314,532 7,594,860 280,328 B
+Intangible assets 2,469,843 2,516,947 47,104
+Costs to obtain contracts 439,265 434,589 (4,676)
+Investments accounted for using
+  the equity method 739,274 920,966 181,692
+Investments of SVF (FVTPL) 23,495,706 26,537,958 3,042,252 C
+SVF1 6,265,581 6,287,811 22,230
+SVF2 16,320,923 19,414,407 3,093,484
+LatAm 909,202 835,740 (73,462)
+Investment securities 4,264,641 5,333,002 1,068,361 D
+Derivative financial assets 327,547 239,224 (88,323)
+Other financial assets 3,701,668 4,058,156 356,488
+Deferred tax assets 273,591 311,152 37,561
+Other non-current assets 1,539,708 1,707,685 167,977 E
+Total non-current assets 48,933,946 55,216,444 6,282,498
+Total assets 60,749,547 69,387,194 8,637,647
+Notes:
+1. Investments of SVF (FVTPL) exclude SVF’s investments in the Company’s subsidiaries, as well as investments that remain 
+accounted for using the equity method after being transferred from the Company to the funds. The latter are included in investments 
+accounted for using the equity method.
+2. Includes decreases in carrying amounts resulting from the 1.6% appreciation of the yen against the U.S. dollar between the previous 
+fiscal year-end and the second quarter-end.
+3. Interest-bearing debt at SBG includes interest-bearing debt at its wholly owned financing subsidiaries and SB Northstar, as well as 
+the $10.0 billion borrowed under the loan agreement using OpenAI shares.
+(a) Assets
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+26
+
+Components Main reasons for changes from the previous fiscal year-end
+Non-current assets
+A Property, plant and 
+equipment
+Property, plant and equipment increased ¥956,612 million due to the acquisition of 
+assets related to power generation and AI data centers in the U.S.
+B Goodwill As the purchase price allocation for the acquisition of DigitalBridge has not yet 
+been completed, provisional goodwill of ¥276,290 million was recorded, 
+representing the difference between the acquisition price of ¥477,400 million and 
+the net amount of DigitalBridge’s assets and liabilities at the date of acquisition of 
+control. For details, see “2. Business combination” under “(7) Notes to Condensed 
+Interim Consolidated Financial Statements” in “3. Condensed Interim 
+Consolidated Financial Statements and Primary Notes.”
+C Investments of SVF 
+(FVTPL)
+· The carrying amount of investments at SVF2 increased ¥3,093,484 million, or 
+$21.3 billion.*1 The increase reflected $20.2 billion of follow-on and new 
+investments, including the follow-on investments totaling $20.0 billion in 
+OpenAI, and a $2.3 billion increase in the fair value of portfolio companies held 
+as of the second quarter-end, partially offset by a $1.2 billion decrease resulting 
+from divestments.
+· The carrying amount of investments at SVF1 increased ¥22,230 million, or $0.8 
+billion.*1 The increase reflected a $2.4 billion increase in the fair value of 
+portfolio companies held as of the second quarter-end, partially offset by a $1.6 
+billion decrease resulting from divestments.
+The carrying amount of these SVF investments also included a decrease resulting 
+from the 1.6% appreciation of the yen against the U.S. dollar between the previous 
+fiscal year-end and the second quarter-end.
+For details, see “(b) SoftBank Vision Funds Segment” under “b. Results by 
+Segment” in “(1) Overview of Results of Operations.”
+D Investment securities The carrying amount of Intel shares increased ¥1,031,538 million to ¥1,645,060 
+million, primarily reflecting an increase in share price (from $44.13 per share as of 
+March 31, 2026 to $120.23 per share as of September 30, 2026), partially offset by 
+a decrease resulting from the 1.6% appreciation of the yen against the U.S. dollar 
+between the previous fiscal year-end and the second quarter-end.
+E Other non-current assets Advance payments related to the acquisition of assets for power generation and AI 
+data centers in the U.S. increased by ¥386,371 million ($2.52 billion) to 
+¥1,065,097 million, primarily due to additional advance payments. Non-refundable 
+advance payments were derecognized following the realignment of procurement 
+plans for power generation-related equipment for AI data center projects in the 
+U.S. and related factors. For details, see “REVISION OF PROCUREMENT 
+PLANS FOR POWER GENERATION-RELATED EQUIPMENT FOR AI DATA 
+CENTER PROJECTS IN THE U.S.” under “(1) Overview of Results of 
+Operations.”
+Reasons for changes by primary component
+Note:
+1. Includes the impact of changes in exchange rates between local currencies and the U.S. dollar.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+27
+
+(Millions of yen)
+March 31, 2026 September 30, 2026 Change
+Investment Business of Holding
+  Companies segment 2,812,040 4,019,257 1,207,217
+SBG 2,523,841 3,803,372 1,279,531
+Wholly owned financing subsidiaries 16,213 16,567 354
+SB Northstar 7,756 1,284 (6,472)
+Others 264,230 198,034 (66,196)
+SoftBank Vision Funds segment 333,258 313,035 (20,223)
+SVF1 106,518 94,084 (12,434)
+SVF2 153,695 120,999 (32,696)
+LatAm 7,127 7,285 158
+SBIA, SBGA, SBLA Advisers Corp. 65,918 90,667 24,749
+SoftBank segment 1,438,799 1,935,482 496,683
+SoftBank Corp. 249,537 290,770 41,233
+LY Corporation 240,123 285,329 45,206
+PayPay and its subsidiaries*1 363,081 569,308 206,227
+Others*1 586,058 790,075 204,017
+AI Computing segment 492,849 622,294 129,445
+Arm and its subsidiaries 439,814 511,532 71,718
+Others 53,035 110,762 57,727
+Others 285,204 542,097 256,893
+Total 5,362,150 7,432,165 2,070,015
+Reference: Cash and cash equivalents by entity
+Consolidated cash and  cash equivalents increased  ¥2,070.0 billion  from the previous fiscal  year-end to  ¥7,432.2 
+billion. For details, see “(3) Overview of Cash Flows.”
+Notes:
+* The figures are presented after consolidation eliminations.
+1. Cash and cash equivalents of the banking subsidiaries PayPay Bank Corporation and LINE Bank Taiwan Limited were ¥512,259 
+million at the second quarter-end.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+28
+
+(Millions of yen)
+March 31, 2026 September 30, 2026 Change
+Interest-bearing debt 7,251,630 5,770,931 (1,480,699)
+Lease liabilities 184,666 213,478 28,812
+Deposits for banking business 2,550,998 2,787,557 236,559
+Trade and other payables 3,616,646 4,201,730 585,084 A
+Derivative financial liabilities 137,858 190,501 52,643 C
+Other financial liabilities 39,944 140,155 100,211
+Income taxes payable 182,506 274,572 92,066
+Provisions 79,296 161,032 81,736
+Other current liabilities 790,004 914,537 124,533
+Total current liabilities 14,833,548 14,654,493 (179,055)
+Interest-bearing debt 17,433,486 26,820,274 9,386,788
+Lease liabilities 793,784 914,599 120,815
+Third-party interests in SVF 3,746,396 3,673,506 (72,890) B
+Derivative financial liabilities 549,000 815,471 266,471 C
+Other financial liabilities 450,847 750,720 299,873 D
+Provisions 216,527 223,337 6,810
+Deferred tax liabilities 1,443,678 1,257,385 (186,293)
+Other non-current liabilities 813,849 881,124 67,275
+Total non-current liabilities 25,447,567 35,336,416 9,888,849
+Total liabilities 40,281,115 49,990,909 9,709,794
+Components Main reasons for changes from the previous fiscal year-end
+* See “Reference” on the page after next for a breakdown of interest-bearing debt.
+Current liabilities
+A Trade and other 
+payables
+Payables increased due to the acquisition of assets related to power generation and AI 
+data centers in the U.S.
+Non-current liabilities
+B Third-party interests 
+in SVF
+Third-party interests in SVF1 decreased due to distributions and returns to third-party 
+investors. For details, see “(2) Third-party interests in SVF” under “4. SoftBank Vision 
+Funds business” in “(7) Notes to Condensed Interim Consolidated Financial 
+Statements” in “3. Condensed Interim Consolidated Financial Statements and Primary 
+Notes.”
+(b) Liabilities
+Reasons for changes by primary component
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+29
+
+Components Main reasons for changes from the previous fiscal year-end
+C Derivative financial 
+liabilities
+· Non-current derivative financial liabilities of ¥337,869 million ($2.1 billion) were 
+recorded on the prepaid forward contracts backed by Intel shares entered into in 
+August 2026, as Intel’s share price increased between the execution of the contracts 
+and the second quarter-end.
+· The terms of the warrants granted by Energy Global to OpenAI, which are 
+convertible into ordinary equity interests of Energy Global, were amended in August 
+2026 in conjunction with the execution of new data center lease agreements with 
+OpenAI, and the warrants were partially forfeited. Although the fair value of Energy 
+Global increased during the period, the forfeiture of the warrants and other factors 
+resulted in a decrease of ¥41,161 million in the total current and non-current 
+derivative financial liabilities related to these warrants to ¥541,801 million at the 
+second quarter-end. For details, see “6. Financial instruments” under “(7) Notes to 
+Condensed Interim Consolidated Financial Statements” in “3. Condensed Interim 
+Consolidated Financial Statements and Primary Notes.”
+D Other financial 
+liabilities
+Following receipt of $1.5 billion in advance payments under a share issuance 
+agreement, other financial liabilities of ¥262,250 million ($1.7 billion) were 
+recognized at Energy Global, measured at fair value taking into account the settlement 
+terms of the agreement.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+30
+
+(Millions of yen)
+March 31, 2026 September 30, 2026 Change
+Investment Business of Holding
+  Companies segment 17,750,190 22,361,406 4,611,216
+SBG 12,323,379 14,932,908 2,609,529
+Borrowings 3,960,719 3,540,295 (420,424) A
+Corporate bonds 8,170,429 11,101,006 2,930,577 B
+Lease liabilities 6,531 5,807 (724)
+Commercial paper 185,700 285,800 100,100
+Wholly owned financing subsidiaries*1 4,624,293 6,493,837 1,869,544
+Borrowings 4,365,079 5,094,485 729,406 C
+Financial liabilities relating to sale of shares
+  by prepaid forward contracts 259,214 1,399,352 1,140,138 D
+SB Northstar*1 801,937 934,277 132,340
+Borrowings 801,937 934,277 132,340 E
+Others 581 384 (197)
+SoftBank Vision Funds segment 831,684 2,969,329 2,137,645
+SVF2 814,300 2,950,551 2,136,251
+Borrowings 814,300 2,950,551 2,136,251 F
+SBIA, SBGA, SBLA Advisers Corp. 17,384 18,778 1,394
+Lease liabilities 17,384 18,778 1,394
+SoftBank segment 6,484,252 7,419,549 935,297
+SoftBank Corp. 4,358,041 4,801,091 443,050
+Borrowings 2,731,492 2,949,395 217,903
+Corporate bonds 1,159,938 1,355,376 195,438
+Lease liabilities 466,611 469,320 2,709
+Commercial paper - 27,000 27,000
+LY Corporation 1,141,579 1,222,008 80,429
+Borrowings 603,042 650,143 47,101
+Corporate bonds 474,345 489,056 14,711
+Lease liabilities 64,192 82,809 18,617
+PayPay and its subsidiaries*2 554,383 850,068 295,685
+Others*2 430,249 546,382 116,133
+AI Computing segment 95,545 98,951 3,406
+Arm and its subsidiaries 78,818 81,921 3,103
+Lease liabilities 78,818 81,921 3,103
+Others 16,727 17,030 303
+Others 501,895 870,047 368,152
+Other interest-bearing debt 456,789 814,858 358,069
+Lease liabilities 45,106 55,189 10,083
+Total 25,663,566 33,719,282 8,055,716
+Reference: Interest-bearing debt and lease liabilities (current and non-current)
+Notes:
+* The figures are presented after consolidation eliminations.
+1. Non-recourse to SBG
+2. Deposits related to banking operations of the banking subsidiaries PayPay Bank Corporation and LINE Bank Taiwan Limited are not 
+included in interest-bearing debt.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+31
+
+Components Details
+Investment Business of Holding Companies segment
+SBG
+A Borrowings · The remaining balance of $12.0 billion under bridge loans, which were originally 
+borrowed in the previous fiscal year to fund the follow-on investment in OpenAI and 
+the acquisition of Ampere, was fully repaid. As a result, borrowings decreased 
+¥1,917,696 million.
+· SBG borrowed $11.87 billion through a term loan. As a result, borrowings increased 
+¥1,836,617 million. The loan is scheduled to be fully repaid by September 2028 in 
+accordance with the repayment terms specified in the agreement.
+B Corporate bonds · SBG issued ¥1,090.0 billion of domestic straight bonds and ¥678.0 billion of domestic 
+hybrid bonds, while redeeming ¥527.9 billion of domestic straight bonds at maturity 
+and ¥405.0 billion of domestic hybrid bonds prior to maturity on the first voluntary 
+call date.
+· SBG issued $11.5 billion of U.S. dollar-denominated senior notes and redeemed $0.67 
+billion prior to maturity.
+· SBG issued 2.75 billion euros of euro-denominated senior notes.
+Wholly owned financing subsidiaries
+C Borrowings The margin loan backed by Arm shares was increased by $5.0 billion. As a result, 
+borrowings increased ¥728,395 million.
+D Financial liabilities 
+relating to sale of 
+shares by prepaid 
+forward contracts
+$7.35 billion was raised through prepaid forward contracts backed by Intel shares. As a 
+result, financial liabilities relating to sale of shares by prepaid forward contracts 
+increased ¥1,139,622 million.
+SB Northstar
+E Borrowings Borrowings increased ¥132,340 million following the borrowing of $0.92 billion under 
+prime brokerage loans backed by securities held by SB Northstar.
+SoftBank Vision Funds segment
+SVF2
+F Borrowings SVF2 borrowed $10.0 billion under the loan agreement using OpenAI shares and $4.2 
+billion through asset-backed financing. As a result, borrowings increased ¥2,136,251 
+million.
+(Millions of yen)
+March 31, 2026 September 30, 2026 Change
+Common stock 238,772 238,772 -
+Capital surplus 3,510,713 3,571,730 61,017
+Other equity instruments 193,199 193,199 -
+Retained earnings 7,323,791 6,514,592 (809,199) A
+Treasury stock (24,761) (24,029) 732
+Accumulated other comprehensive income 6,380,109 5,902,346 (477,763) B
+Total equity attributable to owners of the parent 17,621,823 16,396,610 (1,225,213)
+Non-controlling interests 2,846,609 2,999,675 153,066
+Total equity 20,468,432 19,396,285 (1,072,147)
+Reasons for changes from the previous fiscal year-end at core companies
+(c) Equity
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+32
+
+Components Main reasons for changes from the previous fiscal year-end
+A Retained earnings A net loss attributable to owners of the parent of ¥768,007 million was recorded.
+B Accumulated other 
+comprehensive 
+income
+Exchange differences on translating foreign operations, arising from the translation of 
+the financial statements of foreign subsidiaries and associates into yen, decreased 
+¥459,605 million, primarily due to the yen’s appreciation against the U.S. dollar 
+between the previous fiscal year-end and the second quarter-end.
+Reasons for changes by primary component
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+33
+
+During the period, the Company recorded net cash outflows from investing activities of ¥5,372.8 billion, 
+primarily for follow-on investments in OpenAI and the acquisition of assets related to power generation 
+and AI data centers in the U.S. To fund these investments and enhance liquidity, the Company raised 
+funds through borrowings, bond issuances and other financing activities, resulting in net cash inflows 
+from financing activities of ¥8,049.1 billion. During the period, the Company borrowed a total of $30.0 
+billion through bridge loans, primarily to fund follow-on investments in OpenAI, and subsequently repaid 
+them in full, mainly through refinancing with long-term funding. The Company also paid interest of 
+¥735.4 billion and income taxes of ¥211.9 billion, net of refunds. As a result, cash and cash equivalents 
+increased ¥2,070.0 billion from the previous fiscal year-end.
+(Millions of yen)
+Six months ended September 30
+2025 2026 Change
+Cash flows from operating activities (119,902) (527,298) (407,396)
+Cash flows from investing activities (330,935) (5,372,835) (5,041,900)
+Cash flows from financing activities 1,672,017 8,049,058 6,377,041
+Effect of exchange rate changes on cash and
+  cash equivalents 46,623 (78,910) (125,533)
+Increase in cash and cash equivalents 1,267,803 2,070,015 802,212
+Cash and cash equivalents at the beginning
+  of the period 3,713,028 5,362,150 1,649,122
+Cash and cash equivalents at the end of the period 4,980,831 7,432,165 2,451,334
+(3) Overview of Cash Flows
+(a) Cash Flows from Operating Activities
+Net cash used in operating activities was ¥527,298 million, reflecting interest paid of ¥735,401 million and income 
+taxes paid,  net of refunds, of ¥211,888 million.  Of the interest  paid, ¥629,492 million  was paid by SBG, *1 an 
+increase of ¥357,886 million  year on year. The year-on-year increase in  interest paid  was primarily attributable to 
+the borrowings of $11.5 billion through the margin loan backed  by Arm shares in December 2025 and  a total of 
+$30.0 billion through the bridge loans in April  and July 2026, as well as a higher  outstanding balance of corporate 
+bonds. Higher funding rates also contributed  to the  increase in interest  paid. Of the income  taxes paid,  net of 
+refunds, ¥144,677 million  was paid by domestic  operating  companies, including  SoftBank Corp. and LY 
+Corporation.
+Note:
+1. Interest paid by SBG includes interest paid by its wholly owned financing subsidiaries and SB Northstar, as well as interest paid 
+under the loan agreement using OpenAI shares held by SVF2. Interest paid in the consolidated statement of cash flows and interest 
+expenses in the consolidated statement of profit or loss differ due to amortized cost accounting, differences between the timing of 
+interest recognition and payment, and other factors.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+34
+
+Components Primary details
+Payments for acquisition of 
+investments
+¥(468,266) million
+· SoftBank Corp. and PayPay invested a total of ¥200,930 million to 
+acquire shares of Seven & i Holdings Co., Ltd.
+· PayPay Bank Corporation invested ¥76,444 million in bonds and other 
+asset management products.
+· Robo HD invested ¥73,071 million.
+Proceeds from sales/redemption of 
+investments
+¥454,082 million
+SBG and its wholly owned subsidiaries sold investments totaling 
+¥347,481 million, primarily listed shares.
+Payments for acquisition of 
+investments by SVF
+¥(3,235,611) million
+SVF made investments totaling $20.2 billion, primarily comprising 
+SVF2’s follow-on investments totaling $20.0 billion in OpenAI.
+Proceeds from sales of investments 
+by SVF
+¥473,485 million
+SVF made divestments totaling $3.0 billion.
+Payments (net) for acquisition of 
+control over subsidiaries
+¥(510,475) million
+The net cash outflow for the acquisition of DigitalBridge was ¥403,825 
+million, representing the acquisition consideration of ¥477,400 million 
+less cash and cash equivalents held by DigitalBridge at the closing of the 
+acquisition.
+Purchase of property, plant and 
+equipment, and intangible assets
+¥(2,117,609) million
+· Payments of ¥1,687,203 million were made to acquire assets related to 
+power generation and AI data centers in the U.S. Of this amount, 
+¥552,859 million was paid by Energy Global and ¥896,458 million was 
+paid by SB7 for power generation-related equipment. For details on 
+SB7’s payments for power generation-related equipment, see 
+“REVISION OF PROCUREMENT PLANS FOR POWER 
+GENERATION-RELATED EQUIPMENT FOR AI DATA CENTER 
+PROJECTS IN THE U.S.” under “(1) Overview of Results of 
+Operations.”
+· SoftBank Corp. acquired property, plant and equipment, including 
+telecommunications equipment, AI computing infrastructure and AI 
+data center-related equipment, as well as intangible assets, including 
+software.
+Components Primary details
+Proceeds in short-term interest-
+bearing debt, net
+¥840,484 million*1
+(Proceeds and payments for interest-
+bearing debt (current liabilities) with 
+quick turnover and short maturities)
+· Short-term borrowings and commercial paper at SoftBank Corp. 
+increased ¥315,669 million on a net basis.
+· Short-term borrowings and commercial paper at PayPay Card 
+Corporation increased ¥232,000 million on a net basis.
+· SB Northstar borrowed ¥147,272 million ($0.92 billion) on a net basis 
+through prime brokerage loans backed by securities.
+(b) Cash Flows from Investing Activities
+Primary components
+(c) Cash Flows from Financing Activities
+Primary components
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+35
+
+Components Primary details
+Proceeds from interest-bearing debt (total of A through C below)
+¥17,155,488 million
+A Proceeds from borrowings
+¥11,327,387 million*2
+· Under the bridge facility agreement entered into in March 2026 
+primarily to fund follow-on investments in OpenAI, SBG borrowed 
+$10.0 billion (¥1,594,450 million), and a wholly owned financing 
+subsidiary borrowed $20.0 billion (¥3,206,300 million). These 
+borrowings were fully repaid during the period.
+· To fund part of these repayments, SBG borrowed $11.87 billion 
+(¥1,835,696 million) through a term loan, and a wholly owned financing 
+subsidiary borrowed an additional $5.0 billion (¥800,600 million) 
+through the margin loan backed by Arm shares.
+· Borrowings of ¥1,601,200 million ($10.0 billion) were made under the 
+loan agreement using OpenAI shares held by SVF2.
+· SVF2 borrowed an additional ¥672,504 million ($4.2 billion) through 
+asset-backed financing.
+· SBG borrowed a total of ¥487,190 million through drawdowns under 
+commitment lines, comprising $2.91 billion in U.S. dollar-denominated 
+borrowings and ¥17,800 million in yen-denominated borrowings.
+B Proceeds from issuance of 
+corporate bonds
+¥4,650,977 million
+SBG issued ¥1,090,000 million of domestic straight bonds, ¥678,000 
+million of domestic hybrid bonds, $11.5 billion of U.S. dollar-
+denominated senior notes and 2.75 billion euros of euro-denominated 
+senior notes.
+C Proceeds from procurement 
+by prepaid forward 
+contracts using shares
+¥1,177,124 million
+A wholly owned financing subsidiary raised ¥1,177,124 million ($7.35 
+billion) through prepaid forward contracts backed by Intel shares. The 
+proceeds were used to fund part of the repayment of borrowings under the 
+bridge facility agreement described above.
+Repayment of interest-bearing debt (total of A and B below)
+¥(9,700,098) million
+A Repayment of borrowings
+¥(8,468,961) million*2
+· Of the $30.0 billion borrowed under the bridge facility agreement 
+entered into in March 2026 primarily to fund follow-on investments in 
+OpenAI, SBG repaid $10.0 billion (¥1,552,495 million), and a wholly 
+owned financing subsidiary repaid $20.0 billion (¥3,203,440 million). 
+These repayments were funded primarily with proceeds from the term 
+loan, the margin loan backed by Arm shares and prepaid forward 
+contracts backed by Intel shares described above.
+· SBG fully repaid ¥1,911,215 million ($12.0 billion) in bridge loans 
+borrowed in the previous fiscal year.
+· SBG repaid a total of ¥902,779 million in borrowings under 
+commitment lines, comprising $5.47 billion in U.S. dollar-denominated 
+borrowings and ¥53,400 million in yen-denominated borrowings.
+B Redemption of corporate 
+bonds
+¥(1,231,137) million
+SBG redeemed ¥527,900 million of domestic straight bonds, ¥405,000 
+million of domestic hybrid bonds and $0.67 billion of U.S. dollar-
+denominated senior notes.
+Distribution/repayment from
+SVF to third-party investors
+¥(192,978) million
+SVF1 made distributions and repayments to third-party investors.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+36
+
+Components Primary details
+Proceeds from advances received 
+under subsidiary share issuance 
+agreements
+¥240,180 million
+Energy Global received advance payments of $1.5 billion (¥240,180 
+million) under a share issuance agreement entered into with NVIDIA.
+Cash dividends paid
+¥(31,312) million
+SBG paid dividends.
+Cash dividends paid to non-
+controlling interests
+¥(173,444) million
+SoftBank Corp., LY Corporation and other subsidiaries paid dividends to 
+non-controlling interests.
+Notes:
+1. Proceeds in short-term interest-bearing debt, net represents cash flows from financing activities that meet the requirements of 
+“Reporting cash flows on a net basis” under IFRSs.
+2. Proceeds from borrowings and repayment of borrowings include proceeds of ¥5,790,272 million and repayments of ¥7,909,353 
+million related to borrowings with a contracted term of one year or less.
+(4) Forecasts
+The Company does not provide forecasts of consolidated results of operations as they are difficult to project due to 
+numerous uncertainties affecting earnings.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+37
+
+2. Notes to Summary Information
+Significant Changes in Scope of Consolidation for the Six-Month Period Ended September 30, 2026
+(Consolidation of DigitalBridge Group, Inc.)
+On September 30, 2026, the Company  acquired all  of the interest  in ordinary shares of DigitalBridge  Group, 
+Inc., a leading global  alternative asset manager  dedicated to investing  in digital  infrastructure, including  data 
+centers, cell towers, fiber  networks, and edge infrastructure.  As a result, DigitalBridge  Group, Inc. and its 
+subsidiaries became subsidiaries of the  Company. The details are described in “Note 2. Business combination” 
+in “(7) Notes to Condensed Interim  Consolidated  Financial  Statements”  under “3. Condensed Interim 
+Consolidated Financial Statements and Primary Notes.”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+38
+
+(Millions of yen)
+As of
+March 31, 2026
+As of
+September 30, 2026
+Assets
+Current assets
+Cash and cash equivalents 5,362,150 7,432,165
+Trade and other receivables 3,302,622 3,385,439
+Derivative financial assets 44,221 109,292
+Other financial assets 2,135,608 2,127,904
+Inventories 240,179 283,727
+Other current assets 730,821 832,223
+Total current assets 11,815,601 14,170,750
+Non-current assets
+Property, plant and equipment 3,446,559 4,503,906
+Right-of-use assets 921,612 1,057,999
+Goodwill 7,314,532 7,594,860
+Intangible assets 2,469,843 2,516,947
+Costs to obtain contracts 439,265 434,589
+Investments accounted for using the equity method 739,274 920,966
+Investments of SVF (FVTPL) 23,495,706 26,537,958
+Investment securities 4,264,641 5,333,002
+Derivative financial assets 327,547 239,224
+Other financial assets 3,701,668 4,058,156
+Deferred tax assets 273,591 311,152
+Other non-current assets 1,539,708 1,707,685
+Total non-current assets 48,933,946 55,216,444
+Total assets 60,749,547 69,387,194
+3. Condensed Interim Consolidated Financial Statements and Primary Notes
+(1) Condensed Interim Consolidated Statement of Financial Position
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+39
+
+(Millions of yen)
+As of
+March 31, 2026
+As of
+September 30, 2026
+Liabilities and equity
+Current liabilities
+Interest-bearing debt 7,251,630 5,770,931
+Lease liabilities 184,666 213,478
+Deposits for banking business 2,550,998 2,787,557
+Trade and other payables 3,616,646 4,201,730
+Derivative financial liabilities 137,858 190,501
+Other financial liabilities 39,944 140,155
+Income taxes payable 182,506 274,572
+Provisions 79,296 161,032
+Other current liabilities 790,004 914,537
+Total current liabilities 14,833,548 14,654,493
+Non-current liabilities
+Interest-bearing debt 17,433,486 26,820,274
+Lease liabilities 793,784 914,599
+Third-party interests in SVF 3,746,396 3,673,506
+Derivative financial liabilities 549,000 815,471
+Other financial liabilities 450,847 750,720
+Provisions 216,527 223,337
+Deferred tax liabilities 1,443,678 1,257,385
+Other non-current liabilities 813,849 881,124
+Total non-current liabilities 25,447,567 35,336,416
+Total liabilities 40,281,115 49,990,909
+Equity
+Equity attributable to owners of the parent
+Common stock 238,772 238,772
+Capital surplus 3,510,713 3,571,730
+Other equity instruments 193,199 193,199
+Retained earnings 7,323,791 6,514,592
+Treasury stock (24,761) (24,029)
+Accumulated other comprehensive income 6,380,109 5,902,346
+Total equity attributable to owners of the parent 17,621,823 16,396,610
+Non-controlling interests 2,846,609 2,999,675
+Total equity 20,468,432 19,396,285
+Total liabilities and equity 60,749,547 69,387,194
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+40
+
+(Millions of yen)
+Six-month period ended
+September 30, 2025
+Six-month period ended
+September 30, 2026
+Net sales 3,736,843 4,235,037
+Cost of sales (1,776,610) (2,037,980)
+Gross profit 1,960,233 2,197,057
+Gain on investments
+Investment Business of Holding Companies 363,998 1,078,337
+SoftBank Vision Funds 3,415,482 705,617
+Other 147,185 (58,158)
+Total gain on investments 3,926,665 1,725,796
+Selling, general and administrative expenses (1,616,855) (2,368,790)
+Finance cost (340,018) (790,662)
+Foreign exchange gain 21,164 74,228
+Derivative gain (loss) (excluding gain (loss) on 
+investments) 208,125 (433,293)
+Change in third-party interests in SVF (618,693) (179,212)
+Other gain (loss) 145,761 (663,829)
+Income before income tax 3,686,382 (438,705)
+Income taxes (366,028) (102,943)
+Net income 3,320,354 (541,648)
+Net income attributable to
+Owners of the parent 2,924,066 (768,007)
+Non-controlling interests 396,288 226,359
+Net income 3,320,354 (541,648)
+Earnings per share*
+Basic earnings per share (Yen) 510.37 (136.47)
+Diluted earnings per share (Yen) 509.89 (136.83)
+(2) Condensed Interim Consolidated Statement of Profit or Loss and Condensed Interim Consolidated 
+Statement of Comprehensive Income
+Condensed Interim Consolidated Statement of Profit or Loss
+Note:
+* Effective January 1, 2026, a four-for-one ordinary  share split was conducted.  “Basic earnings per share” and “Diluted  earnings per 
+share” are calculated assuming that the share split had been conducted at the beginning of the six-month period ended September 30, 
+2025.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+41
+
+(Millions of yen)
+Six-month period ended
+September 30, 2025
+Six-month period ended
+September 30, 2026
+Net income 3,320,354 (541,648)
+Other comprehensive income, net of tax
+Items that will not be reclassified to profit or loss
+Remeasurements of defined benefit plan (1,647) (67)
+Equity financial assets at FVTOCI 306 11,032
+Share of other comprehensive income of 
+associates (2) (492)
+Total items that will not be reclassified to profit or 
+loss (1,343) 10,473
+Items that may be reclassified subsequently to 
+profit or loss
+Debt financial assets at FVTOCI (4) (2,513)
+Cash flow hedges 13,987 (30,634)
+Exchange differences on translating foreign 
+operations (94,836) (445,541)
+Share of other comprehensive income of 
+associates 1,653 861
+Total items that may be reclassified subsequently to 
+profit or loss (79,200) (477,827)
+Total other comprehensive income, net of tax (80,543) (467,354)
+Total comprehensive income 3,239,811 (1,009,002)
+Total comprehensive income attributable to
+Owners of the parent 2,826,864 (1,245,838)
+Non-controlling interests 412,947 236,836
+Total comprehensive income 3,239,811 (1,009,002)
+Condensed Interim Consolidated Statement of Comprehensive Income
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+42
+
+(Millions of yen)
+Three-month period ended
+September 30, 2025
+Three-month period ended
+September 30, 2026
+Net sales 1,916,502 2,215,446
+Cost of sales (910,922) (1,072,023)
+Gross profit 1,005,580 1,143,423
+Gain on investments
+Investment Business of Holding Companies 620,546 (303,875)
+SoftBank Vision Funds 2,755,307 245,556
+Other 63,867 (75,267)
+Total gain on investments 3,439,720 (133,586)
+Selling, general and administrative expenses (858,658) (1,081,866)
+Finance cost (174,709) (461,917)
+Foreign exchange gain (loss) (122,106) 220,293
+Derivative loss (excluding gain (loss) on 
+investments) (20,690) (41,708)
+Change in third-party interests in SVF (384,614) (2,571)
+Other gain (loss) 111,918 (669,923)
+Income before income tax 2,996,441 (1,027,855)
+Income taxes (240,231) (32,780)
+Net income 2,756,210 (1,060,635)
+Net income attributable to
+Owners of the parent 2,502,247 (1,115,337)
+Non-controlling interests 253,963 54,702
+Net income 2,756,210 (1,060,635)
+Earnings per share*
+Basic earnings per share (Yen) 438.33 (196.54)
+Diluted earnings per share (Yen) 437.95 (196.77)
+For the three-month period ended September 30
+Condensed Interim Consolidated Statement of Profit or Loss
+Note:
+* Effective January 1, 2026, a four-for-one ordinary  share split was conducted.  “Basic earnings per share” and “Diluted  earnings per 
+share” are calculated assuming that the share  split had been conducted  at the beginning of the three-month period  ended September 
+30, 2025.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+43
+
+(Millions of yen)
+Three-month period ended
+September 30, 2025
+Three-month period ended
+September 30, 2026
+Net income 2,756,210 (1,060,635)
+Other comprehensive income, net of tax
+Items that will not be reclassified to profit or loss
+Remeasurements of defined benefit plan - 4
+Equity financial assets at FVTOCI (4,884) (9,799)
+Share of other comprehensive income of 
+associates 14 (424)
+Total items that will not be reclassified to profit or 
+loss (4,870) (10,219)
+Items that may be reclassified subsequently to 
+profit or loss
+Debt financial assets at FVTOCI (675) (2,234)
+Cash flow hedges 9,244 (43,035)
+Exchange differences on translating foreign 
+operations 574,504 (879,768)
+Share of other comprehensive income of 
+associates 2,117 (1,567)
+Total items that may be reclassified subsequently to 
+profit or loss 585,190 (926,604)
+Total other comprehensive income, net of tax 580,320 (936,823)
+Total comprehensive income 3,336,530 (1,997,458)
+Total comprehensive income attributable to
+Owners of the parent 3,085,306 (2,041,689)
+Non-controlling interests 251,224 44,231
+Total comprehensive income 3,336,530 (1,997,458)
+Condensed Interim Consolidated Statement of Comprehensive Income
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+44
+
+(Millions of yen)
+Equity attributable to owners of the parent
+Common 
+stock
+Capital 
+surplus
+Other equity 
+instruments
+Retained 
+earnings
+Treasury 
+stock
+Accumulated 
+other 
+comprehensive 
+income
+Total
+As of April 1, 2025 238,772 3,376,724 193,199 2,701,792 (256,251) 5,307,305 11,561,541
+Comprehensive income
+Net income - - - 2,924,066 - - 2,924,066
+Other comprehensive income - - - - - (97,202) (97,202)
+Total comprehensive income - - - 2,924,066 - (97,202) 2,826,864
+Transactions with owners and 
+other transactions
+Cash dividends - - - (31,627) - - (31,627)
+Distribution to owners of other 
+equity instruments - - - (8,873) - - (8,873)
+Transfer of accumulated other 
+comprehensive income to 
+retained earnings
+- - - (207) - 207 -
+Purchase and disposal of treasury 
+stock - - - (514) (91,354) - (91,868)
+Changes from business 
+combination - - - - - - -
+Changes in interests in 
+subsidiaries - 39,052 - - - - 39,052
+Share-based payment transactions - (339) - - - - (339)
+Changes from put options written 
+on non-controlling interests - (5,567) - - - - (5,567)
+Other - 7 - - - - 7
+Total transactions with owners 
+and other transactions - 33,153 - (41,221) (91,354) 207 (99,215)
+As of September 30, 2025 238,772 3,409,877 193,199 5,584,637 (347,605) 5,210,310 14,289,190
+(3) Condensed Interim Consolidated Statement of Changes in Equity
+For the six-month period ended September 30, 2025
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+45
+
+(Millions of yen)
+Non-
+controlling 
+interests Total equity
+As of April 1, 2025 2,391,485 13,953,026
+Comprehensive income
+Net income 396,288 3,320,354
+Other comprehensive income 16,659 (80,543)
+Total comprehensive income 412,947 3,239,811
+Transactions with owners and 
+other transactions
+Cash dividends (218,618) (250,245)
+Distribution to owners of other 
+equity instruments - (8,873)
+Transfer of accumulated other 
+comprehensive income to 
+retained earnings
+- -
+Purchase and disposal of treasury 
+stock - (91,868)
+Changes from business 
+combination 49,822 49,822
+Changes in interests in 
+subsidiaries (33,017) 6,035
+Share-based payment transactions 6,384 6,045
+Changes from put options written 
+on non-controlling interests (38,720) (44,287)
+Other 567 574
+Total transactions with owners 
+and other transactions (233,582) (332,797)
+As of September 30, 2025 2,570,850 16,860,040
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+46
+
+(Millions of yen)
+Equity attributable to owners of the parent
+Common 
+stock
+Capital 
+surplus
+Other equity 
+instruments
+Retained 
+earnings
+Treasury 
+stock
+Accumulated 
+other 
+comprehensive 
+income
+Total
+As of April 1, 2026 238,772 3,510,713 193,199 7,323,791 (24,761) 6,380,109 17,621,823
+Comprehensive income
+Net income - - - (768,007) - - (768,007)
+Other comprehensive income - - - - - (477,831) (477,831)
+Total comprehensive income - - - (768,007) - (477,831) (1,245,838)
+Transactions with owners and 
+other transactions
+Cash dividends - - - (31,344) - - (31,344)
+Distribution to owners of other 
+equity instruments - - - (9,780) - - (9,780)
+Transfer of accumulated other 
+comprehensive income to 
+retained earnings
+- - - (68) - 68 -
+Purchase and disposal of treasury 
+stock - 36 - - 732 - 768
+Changes from loss of control - - - - - - -
+Changes in interests in 
+subsidiaries - 59,569 - - - - 59,569
+Share-based payment transactions - 295 - - - - 295
+Changes from put options written 
+on non-controlling interests - 1,117 - - - - 1,117
+Other - - - - - - -
+Total transactions with owners 
+and other transactions - 61,017 - (41,192) 732 68 20,625
+As of September 30, 2026 238,772 3,571,730 193,199 6,514,592 (24,029) 5,902,346 16,396,610
+For the six-month period ended September 30, 2026
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+47
+
+(Millions of yen)
+Non-
+controlling 
+interests Total equity
+As of April 1, 2026 2,846,609 20,468,432
+Comprehensive income
+Net income 226,359 (541,648)
+Other comprehensive income 10,477 (467,354)
+Total comprehensive income 236,836 (1,009,002)
+Transactions with owners and 
+other transactions
+Cash dividends (173,994) (205,338)
+Distribution to owners of other 
+equity instruments - (9,780)
+Transfer of accumulated other 
+comprehensive income to 
+retained earnings
+- -
+Purchase and disposal of treasury 
+stock - 768
+Changes from loss of control (1,607) (1,607)
+Changes in interests in 
+subsidiaries 10,625 70,194
+Share-based payment transactions 74,237 74,532
+Changes from put options written 
+on non-controlling interests 7,807 8,924
+Other (838) (838)
+Total transactions with owners 
+and other transactions (83,770) (63,145)
+As of September 30, 2026 2,999,675 19,396,285
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+48
+
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Cash flows from operating activities
+Net income 3,320,354 (541,648)
+Depreciation and amortization 437,951 494,399
+Gain on investments at Investment Business of 
+Holding Companies (133,841) (1,066,610)
+Gain on investments at SoftBank Vision Funds (3,415,482) (705,617)
+Finance cost 340,018 790,662
+Foreign exchange gain (21,164) (74,228)
+Derivative (gain) loss (excluding (gain) loss on 
+investments) (208,125) 433,293
+Change in third-party interests in SVF 618,693 179,212
+(Gain) loss on other investments and other (gain) 
+loss (292,946) 721,987
+Income taxes 366,028 102,943
+(Increase) decrease in investments of asset 
+management subsidiaries (244,903) 235,235
+Decrease (increase) in securities pledged as 
+collateral in asset management subsidiaries 45,490 (82,332)
+Increase in trade and other receivables (355,061) (375,953)
+Increase in inventories (30,464) (41,108)
+Increase in trade and other payables 30,730 209,395
+Other 131,294 41,745
+Subtotal 588,572 321,375
+Interest and dividends received 89,828 98,616
+Interest paid (334,581) (735,401)
+Income taxes paid (480,281) (249,293)
+Income taxes refunded 16,560 37,405
+Net cash used in operating activities (119,902) (527,298)
+Cash flows from investing activities
+Payments for acquisition of investments (749,714) (468,266)
+Proceeds from sales/redemption of investments 1,803,164 454,082
+Payments for acquisition of investments by SVF (1,406,646) (3,235,611)
+Proceeds from sales of investments by SVF 587,006 473,485
+Payments (net) for acquisition of control over 
+subsidiaries (54,120) (510,475)
+Purchase of property, plant and equipment, and 
+intangible assets (475,649) (2,117,609)
+Other (34,976) 31,559
+Net cash used in investing activities (330,935) (5,372,835)
+(4) Condensed Interim Consolidated Statement of Cash Flows
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+49
+
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Cash flows from financing activities
+Proceeds in short-term interest-bearing debt, net 160,648 840,484
+Proceeds from interest-bearing debt 5,402,369 17,155,488
+Repayment of interest-bearing debt (2,941,917) (9,700,098)
+Repayment of lease liabilities (97,673) (109,936)
+Distribution/repayment from SVF to third-party 
+investors (471,974) (192,978)
+Proceeds from advances received under subsidiary 
+share issuance agreements - 240,180
+Distribution to owners of other equity instruments (8,873) (9,780)
+Purchase of treasury stock (93,224) (3)
+Cash dividends paid (31,595) (31,312)
+Cash dividends paid to non-controlling interests (218,427) (173,444)
+Other (27,317) 30,457
+Net cash provided by financing activities 1,672,017 8,049,058
+Effect of exchange rate changes on cash and cash 
+equivalents 46,623 (78,910)
+Increase in cash and cash equivalents 1,267,803 2,070,015
+Cash and cash equivalents at the beginning of the 
+period 3,713,028 5,362,150
+Cash and cash equivalents at the end of the period 4,980,831 7,432,165
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+50
+
+Company names / Abbreviations Definition
+SoftBank Group Corp. SoftBank Group Corp. (stand-alone basis)
+The Company SoftBank Group Corp. and its subsidiaries
+  Each of the following names or abbreviations indicates the respective company and its subsidiaries, if any.
+SB Northstar or the asset management 
+subsidiary SB Northstar LP
+SVF1 SoftBank Vision Fund L.P. and its alternative investment vehicles
+SVF2 SoftBank Vision Fund II-2 L.P.
+SVF2 LLC SVF II Investment Holdings LLC
+LatAm SBLA Latin America Fund LLC
+SLA LLC SLA Holdco II LLC
+SVF SVF1, SVF2, and LatAm
+SBIA SB Investment Advisers (UK) Limited
+SBGA SB Global Advisers Limited
+Arm Arm Holdings plc
+Ampere Ampere Computing Holdings LLC
+Energy Global Energy Global, LP
+Robo HD Silver Bands 4 (US) Corp.
+OpenAI OpenAI Group PBC*
+MgmtCo MASA USA LLC
+(5) Definitions of Company Names and Abbreviations Used in Condensed Interim Consolidated Financial 
+Statements and Primary Notes
+Company names and abbreviations used in the condensed interim consolidated financial statements and primary 
+notes, unless otherwise stated or interpreted differently in the context, are as follows:
+Note:
+* On October 28, 2025, the  recapitalization  of OpenAI Global,  LLC (“OpenAI Global”) was completed.  As a result, investors, 
+including SVF2, became shareholders  of OpenAI  Group PBC, a newly established  Delaware  public benefit  corporation. For 
+descriptions relating to  events occurring prior to  that date,  “OpenAI” is used as a collective  reference to OpenAI, Inc. and its 
+associates, including OpenAI Global and its employee shareholding vehicle.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+51
+
+(6) Significant Doubt about Going Concern Assumption
+There are no applicable items.
+(7) Notes to Condensed Interim Consolidated Financial Statements
+1. Material accounting policies
+Material accounting  policies applied  to the condensed  interim consolidated  financial  statements  are consistent 
+with the accounting policies applied to the consolidated  financial statements for the fiscal  year ended March 31, 
+2026. In addition, income  taxes for the six-month  period ended September  30, 2026, are calculated  based on the 
+estimated effective tax rate for the fiscal year.
+2. Business combination
+For the six-month period ended September 30, 2026
+DigitalBridge Group, Inc.
+(1) Overview of business combination
+In December  2025, the Company  entered into  a definitive  agreement  to acquire  DigitalBridge  Group,  Inc. 
+(“DigitalBridge”), a leading  global alternative  asset manager dedicated  to investing in digital  infrastructure, 
+including data centers, cell towers, fiber networks, and edge infrastructure.  The acquisition was completed on 
+September 30, 2026, with a cash payment  of $3.1 billion.  The transaction  was effected through  a merger in 
+which a subsidiary of the  Company established  for the acquisition  was merged into DigitalBridge,  with 
+DigitalBridge as the surviving company.
+As a result of the transaction,  the Company  came to  hold 100% of the common  shares and voting rights of 
+DigitalBridge, and DigitalBridge became a subsidiary of the Company.
+(2) Purpose of consolidation
+DigitalBridge is a leading global  alternative asset manager with deep sector  expertise in digital  infrastructure 
+and a global footprint. The Company believes that the acquisition will enhance its ability to originate, finance, 
+operate, and scale  digital infrastructure opportunities  worldwide by leveraging  DigitalBridge’s platform and 
+investment capabilities, and further advance the development and expansion of the foundational infrastructure 
+needed for next-generation AI services and applications.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+52
+
+Name DigitalBridge Group, Inc.
+Address Boca Raton, Florida, U.S.A.
+Name and title of representative Chief Executive OfficerMarc Ganzi
+Nature of business Alternative asset management dedicated to investing in digital infrastructure, including data centers, cell towers, fiber networks, and edge infrastructure
+Founded May 31, 2016
+(Millions of yen)
+Acquisition date
+(September 30, 2026)
+Cash paid 484,323
+Payment not included in consideration transferred (6,923)
+Total consideration transferred A 477,400
+(Millions of yen)
+Acquisition date
+(September 30, 2026)
+Cash and cash equivalents 73,575
+Current assets (other) 38,645
+Investments accounted for using the equity method 240,094
+Investment securities 24,485
+Non-current assets (other) 18,425
+Total assets 395,224
+Other financial liabilities (current) 99,856
+Current liabilities (other) 27,289
+Interest-bearing debt (non-current) 45,975
+Non-current liabilities (other) 20,994
+Total liabilities 194,114
+Net assets B 201,110
+Goodwill* A-B 276,290
+(3) Overview of DigitalBridge
+(4) Acquisition date
+September 30, 2026
+(5) Consideration transferred and its components
+Acquisition-related costs of ¥2,280 million  arising from the business combination  are recognized in “Selling, 
+general and administrative expenses” in the condensed interim consolidated statement of profit or loss.
+Payments not included  in consideration  transferred primarily  relate to transactions to  compensate employees 
+of DigitalBridge that are accounted for separately from the business combination.
+(6) Fair value of assets and liabilities, and goodwill on the acquisition date
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+53
+
+(Millions of yen)
+Six-month period ended
+September 30, 2026
+Consideration transferred in cash (477,400)
+Cash and cash equivalents held by the acquiree at the time of acquisition of control 73,575
+Payment for the acquisition of control over the subsidiaries (403,825)
+Consideration transferred is allocated to the acquired assets and assumed liabilities based on fair values on the 
+acquisition date. However, certain  items are  under identification  and measurement.  The above amounts are 
+provisional fair values based on the best estimate at present and may change within a year from the acquisition 
+date.
+The above amounts are translated at the exchange rate (USD 1 = JPY 157.35) as of the acquisition date.
+Note:
+* Goodwill reflects excess earning power expected from the future business development and the synergy with existing 
+businesses.
+(7) Payment for acquisition of control over subsidiaries
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+54
+
+3. Segment information
+(1) Description of reportable segments
+The Company’s reportable  segments  are components of business activities  for which discrete  financial 
+information is available, and such information  is regularly reviewed by the Company’s Board of Directors in 
+order to make decisions about the allocation of resources and assess its performance.
+The Company has four reportable  segments, the Investment  Business of Holding Companies segment,  the 
+SoftBank Vision Funds segment, the SoftBank segment, and the AI Computing segment.
+In addition, for the three-month  period ended  December 31, 2025, Arm, which had  previously been included 
+in the Arm segment,  Graphcore Limited  and others previously  included in  “Other,” and Ampere were 
+combined, and the AI Computing segment was newly established as a reportable segment.
+Accordingly, the segment  information  for the six-month period  ended September  30, 2025 and the three-
+month period ended September  30, 2025 has been reclassified  and presented  based on the revised  reportable 
+segments.
+The Investment Business of Holding Companies  segment conducts, mainly through SoftBank  Group Corp. as 
+a strategic investment holding company, investment activities in a wide range of sectors in Japan and overseas 
+directly or through subsidiaries  of the Company. The  Investment Business of Holding Companies  segment 
+consists of SoftBank Group Corp., SoftBank Group Capital  Limited,  SoftBank Group Japan Corporation, 
+SoftBank Group Overseas GK,  SB Northstar that  is an asset management  subsidiary, and certain subsidiaries 
+of the Company that  conduct investment  or funding. Gain and  loss on investments  in the  segment consist of 
+gain and loss on investments held  directly by SoftBank Group Corp. or through subsidiaries  of the Company. 
+However, gain and loss on investments relating to investments in subsidiaries, including dividend income from 
+subsidiaries and impairment loss on investments in subsidiaries, are excluded.
+The SoftBank Vision Funds segment conducts, mainly through SVF1, SVF2, and LatAm, investment activities 
+in a wide range of technology  sectors. Primarily, gain and loss on investments  in the segment consist  of gain 
+and loss on investments  held by SVF1, SVF2,  and LatAm  including the  investments in the  Company’s 
+subsidiaries.
+The SoftBank  segment provides, mainly  through SoftBank Corp., mobile  services, sale  of mobile devices, 
+broadband services, solution  services, and cloud and  AI services in Japan, through LY Corporation, media, 
+advertising and commerce related services, and through PayPay Corporation, payment and financial services.
+The AI Computing segment  provides, mainly through Arm, Ampere,  and Graphcore Limited,  design of 
+semiconductor IP, chips, and related technology, development and sale of semiconductor chips, as well as sale 
+of software tools and provision of related services.
+Information on business segments, which is not  included in the  reportable segments,  is classified as “Other.” 
+“Other” includes  mainly  Energy Global, Robo HD, DigitalBridge, the Fukuoka SoftBank HAWKS-related 
+operations, and others.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+55
+
+“Reconciliations” includes an elimination  of intersegment  transactions, as well as an elimination  of gain and 
+loss on the investment  in subsidiaries  of the Company, and others,  which are included  in segment income  of 
+the SoftBank Vision Funds segment.
+(2) Net sales and income of reportable segments
+Income of reportable  segments is  defined as “Income  before income  tax.” As presented in the  condensed 
+interim consolidated  statement  of profit or loss, gain and loss on investments  included in segment  income 
+include gain and loss on investments in financial  assets at  FVTPL, interest and dividends  from investments, 
+derivative gain and loss relating  to investments, and  gain and loss on the sale of investments  accounted for 
+using the equity method.
+Intersegment transaction  prices are determined  under the  same general business conditions  as applied for 
+external customers.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+56
+
+(Millions of yen)
+Reportable segments
+Investment Business
+of Holding Companies
+SoftBank Vision
+Funds SoftBank AI Computing
+Net sales
+Customers - - 3,398,774 275,780
+Intersegment - - 1,685 -
+Total - - 3,400,459 275,780
+Segment income 358,082 2,828,295 591,893 (46,955)
+Depreciation and 
+amortization (1,442) (1,055) (371,763) (48,837)
+Gain (loss) on 
+investments 363,998 3,536,168 (392) 3,265
+Finance cost (296,333) (83,771) (44,308) (2,120)
+Foreign exchange gain 8,625 550 679 1,584
+Derivative gain (loss) 
+(excluding gain (loss) on 
+investments)
+207,918 - 335 -
+Total Other Reconciliations Consolidated
+Net sales
+Customers 3,674,554 62,289 - 3,736,843
+Intersegment 1,685 9,205 (10,890) -
+Total 3,676,239 71,494 (10,890) 3,736,843
+Segment income 3,731,315 64,157 (109,090) 3,686,382
+Depreciation and 
+amortization (423,097) (14,854) - (437,951)
+Gain (loss) on 
+investments 3,903,039 144,312 (120,686) 3,926,665
+Finance cost (426,532) (12,156) 98,670 (340,018)
+Foreign exchange gain 11,438 9,726 - 21,164
+Derivative gain (loss) 
+(excluding gain (loss) on 
+investments)
+208,253 (128) - 208,125
+For the six-month period ended September 30, 2025
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+57
+
+(Millions of yen)
+Reportable segments
+Investment Business
+of Holding Companies
+SoftBank Vision
+Funds*1 SoftBank*2 AI Computing
+Net sales
+Customers - - 3,789,448 372,598
+Intersegment - - 8,698 997
+Total - - 3,798,146 373,595
+Segment income 375,084 (76,154) 668,017 (322,050)
+Depreciation and 
+amortization (1,511) (1,175) (402,659) (71,735)
+Gain (loss) on 
+investments 1,078,337 341,230 88,247 1,934
+Finance cost (669,331) (225,531) (61,557) (4,249)
+Foreign exchange gain 
+(loss) 78,438 1,256 (4,529) (156)
+Derivative loss 
+(excluding gain (loss) on 
+investments)
+(260,331) - (1,055) -
+Total Other*3 Reconciliations Consolidated
+Net sales
+Customers 4,162,046 72,991 - 4,235,037
+Intersegment 9,695 10,275 (19,970) -
+Total 4,171,741 83,266 (19,970) 4,235,037
+Segment income 644,897 (1,369,108) 285,506 (438,705)
+Depreciation and 
+amortization (477,080) (17,319) - (494,399)
+Gain (loss) on 
+investments 1,509,748 (68,279) 284,327 1,725,796
+Finance cost (960,668) (18,488) 188,494 (790,662)
+Foreign exchange gain 
+(loss) 75,009 (781) - 74,228
+Derivative loss 
+(excluding gain (loss) on 
+investments)
+(261,386) (171,907) - (433,293)
+For the six-month period ended September 30, 2026
+Notes:
+1. The details of the difference between “Gain (loss) on investments” in the SoftBank Vision Funds segment and “Gain on investments 
+- SoftBank Vision Funds” in the condensed interim consolidated statement of profit or loss are described in “(1) Income and loss 
+arising from the SoftBank Vision Funds business” under “Note 4. SoftBank Vision Funds business.”
+2. “Gain (loss) on investments” in SoftBank includes ¥80,060 million of gain on sale from the transfer of an equity interest in Energy 
+Global held by a subsidiary of SoftBank Corp. to SVF2. The gain on sale is eliminated on consolidation.
+3. “Segment income” in Other includes a loss relating to power generation-related equipment. The details are described in “Notes 1” 
+under “Note 12. Other gain (loss).”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+58
+
+(Millions of yen)
+Reportable segments
+Investment Business
+of Holding Companies
+SoftBank Vision
+Funds SoftBank AI Computing
+Net sales
+Customers - - 1,741,897 141,157
+Intersegment - - 818 -
+Total - - 1,742,715 141,157
+Segment income 379,020 2,376,901 313,353 (14,544)
+Depreciation and 
+amortization (716) (526) (188,628) (24,423)
+Gain (loss) on 
+investments 620,546 2,809,331 (5,780) 3,021
+Finance cost (149,752) (43,588) (23,090) (1,173)
+Foreign exchange gain 
+(loss) (123,155) (267) 328 439
+Derivative gain (loss) 
+(excluding gain (loss) on 
+investments)
+(20,550) - 778 -
+Total Other Reconciliations Consolidated
+Net sales
+Customers 1,883,054 33,448 - 1,916,502
+Intersegment 818 4,862 (5,680) -
+Total 1,883,872 38,310 (5,680) 1,916,502
+Segment income 3,054,730 (8,274) (50,015) 2,996,441
+Depreciation and 
+amortization (214,293) (7,556) - (221,849)
+Gain (loss) on 
+investments 3,427,118 66,626 (54,024) 3,439,720
+Finance cost (217,603) (6,166) 49,060 (174,709)
+Foreign exchange gain 
+(loss) (122,655) 549 - (122,106)
+Derivative gain (loss) 
+(excluding gain (loss) on 
+investments)
+(19,772) (918) - (20,690)
+For the three-month period ended September 30, 2025
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+59
+
+(Millions of yen)
+Reportable segments
+Investment Business
+of Holding Companies
+SoftBank Vision
+Funds SoftBank AI Computing
+Net sales
+Customers - - 1,978,782 197,345
+Intersegment - - 5,468 997
+Total - - 1,984,250 198,342
+Segment income (676,533) (81,581) 375,479 (121,209)
+Depreciation and 
+amortization (756) (623) (204,764) (34,961)
+Gain (loss) on 
+investments (303,875) 85,447 78,606 810
+Finance cost (387,478) (161,278) (32,919) (2,021)
+Foreign exchange gain 
+(loss) 226,386 22 (5,360) (95)
+Derivative gain (loss) 
+(excluding gain (loss) on 
+investments)
+(314,064) - (2,358) -
+Total Other Reconciliations Consolidated
+Net sales
+Customers 2,176,127 39,319 - 2,215,446
+Intersegment 6,465 4,477 (10,942) -
+Total 2,182,592 43,796 (10,942) 2,215,446
+Segment income (503,844) (603,914) 79,903 (1,027,855)
+Depreciation and 
+amortization (241,104) (8,835) - (249,939)
+Gain (loss) on 
+investments (139,012) (74,623) 80,049 (133,586)
+Finance cost (583,696) (8,754) 130,533 (461,917)
+Foreign exchange gain 
+(loss) 220,953 (660) - 220,293
+Derivative gain (loss) 
+(excluding gain (loss) on 
+investments)
+(316,422) 274,714 - (41,708)
+For the three-month period ended September 30, 2026
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+60
+
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Gain on investments
+SVF1* 1,369,947 380,410
+SVF2* 2,032,225 9,158
+LatAm 89,185 (45,839)
+Others 44,811 (2,499)
+Total gain on investments 3,536,168 341,230
+Selling, general and administrative expenses (30,602) (30,586)
+Finance cost (interest expenses) (83,771) (225,531)
+Change in third-party interests in SVF (618,693) (179,212)
+Other gain 25,193 17,945
+Segment income arising from the SoftBank Vision 
+Funds business (income before income tax) 2,828,295 (76,154)
+4. SoftBank Vision Funds business
+(1) Income and loss arising from the SoftBank Vision Funds business
+a. Overview
+Segment income arising from the SoftBank Vision Funds business (income before income tax) represents the 
+net profits of the  SoftBank Vision Funds business,  after deducting the  net profits attributable  to Third-Party 
+Investors. The net profits attributable  to Third-Party Investors are  the amount allocated  to  Third-Party 
+Investors based  on the proportion of their  respective equity  contributions,  calculated  by deducting 
+management fees, performance-linked management fees, and performance fees payable to the fund managers, 
+as well as operating  expenses and other expenses  of SVF  from the  gains or losses on investments at SVF1, 
+SVF2, and LatAm.
+The amount of the net  profits attributable to Third-Party Investors that is deducted  from the segment  income 
+is presented as “Change in third-party interests in SVF.”
+b. Segment income arising from the SoftBank Vision Funds business
+The components of segment income arising from the SoftBank Vision Funds business are as follows:
+Note:
+* For the six-month period ended September 30, 2026, ¥364,387 million of loss on investments related to the Company’s 
+subsidiaries and others held by SVF1 and SVF2 (mainly Silver Bands 7 LLC and PayPay Corporation) is included in gain on 
+investments in the above-mentioned segment income. However, the gain and loss on investments are eliminated in 
+consolidation.
+The gain and loss on investments, that are eliminated in consolidation, are not included in “Gain on investments - SoftBank 
+Vision Funds” in the condensed interim consolidated statement of profit or loss.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+61
+
+(2) Third-party interests in SVF
+a. Terms and conditions of contribution from/ distribution to SVF Investors
+Contributions by SVF Investors are classified as “Equity” and “Preferred Equity” depending on the terms and 
+conditions of distribution. Preferred Equity is prioritized over Equity with regard to distribution and return of 
+contribution.
+Performance-based distributions attributed  to SVF Investors, consisting of the  Company and Third-Party 
+Investors, are calculated  using the  net proceeds from  the investment  performance, as applicable,  of  SVF1, 
+SVF2, and LatAm.  The net proceeds from  SVF1  and LatAm  are also allocated  to the  performance  fees 
+attributed to SBIA and SBGA, respectively, using the method specified in the limited  partnership agreement. 
+The amount of performance-based  distribution attributed  to SVF Investors is allocated  to each  of the SVF 
+Investors based on the proportion  of their respective  Equity contribution. The  amount of performance-based 
+distributions is paid to each  of the SVF Investors after each  of SVF1,  SVF2, and LatAm, as applicable, 
+receives cash through dividend, or disposition or monetization of investments.
+In SVF1,  fixed  distributions are defined  as distributions of Preferred  Equity holders which are  calculated 
+equal to a 7% rate  per annum based on their  contributions. The  fixed distributions are  made every last 
+business day of the months of June and December.
+The details of the terms and conditions of the Equity contributed by Third-Party Investor in SVF2 and LatAm 
+are described  in “(Co-investment  program with restricted  rights to  receive distributions)” under “Note 15. 
+Related party transactions.” There are no Third-Party  Investors who contributed  to Preferred Equity in  SVF2 
+and LatAm.
+Hereafter, Third-Party Investors contributing Equity  are defined  as “Investors entitled  to performance-based 
+distribution” and Third-Party  Investors contributing Preferred  Equity are defined  as “Investors entitled  to 
+fixed distribution.”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+62
+
+(Millions of yen)
+(For reference purposes only)
+Links with the condensed interim 
+consolidated financial statements
+Third-party interests in 
+SVF1
+(Total of current liabilities 
+and non-current liabilities)
+Consolidated 
+statement
+of profit or loss
+(Negative figures 
+represent 
+expenses)
+Consolidated 
+statement of cash 
+flows
+(Negative figures 
+represent 
+payments)
+(Breakdown)
+As of April 1, 2026 3,246,005
+Changes in third-party interests 172,580 (172,580) -
+Attributable to investors entitled to 
+fixed distribution 15,681
+Attributable to investors entitled to 
+performance-based distribution 156,899
+Distribution/repayment to Third-Party 
+Investors (192,978) - (192,978)
+Exchange differences on translating 
+third-party interests (51,082) - -
+As of September 30, 2026 3,174,525
+b. Changes in interests attributable to Third-Party Investors
+(a) Third-party interests in SVF1
+Changes in interests attributable to Third-Party Investors in SVF1 (included in “Third-party interests in SVF” 
+in the condensed interim consolidated statement of financial position) are as follows:
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+63
+
+(Millions of yen)
+(For reference purposes only)
+Links with the condensed interim 
+consolidated financial statements
+Third-party interests in 
+SVF2
+(Total of current liabilities 
+and non-current liabilities)
+Consolidated 
+statement
+of profit or loss
+(Negative figures 
+represent 
+expenses)
+Consolidated 
+statement of cash 
+flows
+(Negative figures 
+represent 
+payments)
+As of April 1, 2026 500,391
+Changes in third-party interests 6,632 (6,632) -
+Exchange differences on translating 
+third-party interests (8,042) - -
+As of September 30, 2026 498,981
+(Millions of yen)
+Receivables from Third-Party
+Investor in SVF2
+As of April 1, 2026 500,391
+Increase in receivables from accrued premiums charged to Third-
+Party Investor 6,632
+Exchange differences on receivables (8,042)
+As of September 30, 2026 498,981
+(b) Third-party interests in SVF2 and receivables
+Changes in interests attributable to Third-Party Investor in SVF2 (included in “Third-party  interests in SVF” 
+in the condensed interim consolidated statement of financial position) are as follows: Third-Party Investor  in 
+SVF2 is the investor entitled to performance-based distribution.
+The Company has receivables from Third-Party Investor in SVF2. The changes in the receivables from Third-
+Party Investor in  SVF2  (included  in “Other financial  assets (non-current)” in the condensed  interim 
+consolidated statement of financial  position) are as follows: The details  of the receivables  from Third-Party 
+Investor in SVF2 are described  in “(1) Transactions  between SVF2 and related  parties” in  “(Co-investment 
+program with restricted rights to receive distributions)” under “Note 15. Related party transactions.”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+64
+
+(Millions of yen)
+Receivables from Third-Party
+Investor in LatAm
+As of April 1, 2026 117,362
+Increase in receivables from accrued premiums charged to Third-
+Party Investor 1,559
+Exchange differences on receivables (1,885)
+As of September 30, 2026 117,036
+(c) Third-party interests in LatAm and receivables
+There were no changes in the balances  of interests attributable to Third-Party Investors in  LatAm included in 
+“Third-party interests in  SVF” in the  condensed interim  consolidated statements of financial position  as of 
+March 31, 2026 and September  30, 2026, and in interests  attributable to Third-Party  Investors in LatAm for 
+the six-month period  ended September  30, 2026. Third-Party Investor in LatAm  is the investor  entitled  to 
+performance-based distribution.
+The Company  has receivables  from Third-Party Investor in  LatAm. The changes  in the receivables  from 
+Third-Party Investor in LatAm  (included in  “Other financial  assets (non-current)” in  the condensed interim 
+consolidated statement of financial  position) are  as follows: The details  of the receivables  from Third-Party 
+Investor in LatAm are described in “(2) Transactions between LatAm and related parties” in “(Co-investment 
+program with restricted rights to receive distributions)” under “Note 15. Related party transactions.”
+c. Uncalled committed capital from Third-Party Investors
+Uncalled committed capital from SVF1’s Third-Party Investors as of September 30, 2026 was $8.2 billion.
+(3) Management fees and performance fees
+Terms and conditions  of management  fees, performance-linked  management  fees, and  performance fees, 
+included in segment income from the SoftBank Vision Funds business, are as follows.
+a. Management fees and performance fees in SVF1
+Management fees to SBIA from SVF1  are, in accordance  with the limited  partnership agreement, calculated 
+by multiplying 1% per annum  by Equity contributions  used to fund investments  and paid to SBIA by SVF1 
+quarterly. A clawback provision is attached to the management fees received, which is triggered under certain 
+conditions based on future investment performance.
+Same as the performance-based  distributions,  the amount  of the performance  fees to SBIA from SVF1  is 
+calculated using the allocation  method as specified in  the limited  partnership agreement.  SBIA is entitled  to 
+receive the performance fees when SVF1 receives cash through disposition, dividend, and monetization of an 
+investment. The  performance fees  received are  subject to clawback  provisions which are triggered  under 
+certain conditions based on future investment performance.
+From the inception of SVF1, the cumulative amount of performance fees paid to SBIA was $454 million. For 
+the three-month period ended June 30, 2023, the performance  fee (net of tax) was distributed  to the limited 
+partners in accordance with the clawback provisions.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+65
+
+b. Management fees and performance-linked management fees in SVF2
+Management fees to SBGA from SVF2  are, in accordance  with the constitutional  agreements, calculated by 
+multiplying 0.7% per annum by the acquisition cost of investments and paid to SBGA by SVF2 quarterly.
+The amount of the performance-linked  management fees to SBGA from SVF2 is determined,  based on the 
+investment performance for certain periods specified in the constitutional agreement, according to the agreed 
+principle. SBGA is entitled  to receive the  performance-linked management fees after  certain periods for the 
+investment performance  measurement  specified in the  constitutional  agreement,  provided that  there are 
+available cash proceeds through disposition, dividend, and monetization of an investment in SVF2.
+c. Management fees, performance-linked management fees, and performance fees in LatAm
+Management fees to SBGA  from  LatAm are, in accordance  with  the constitutional  agreements,  calculated 
+based on the acquisition cost of investments and paid to SBGA by LatAm quarterly.
+The amount of the performance-linked  management fees to SBGA from LatAm is determined,  based on the 
+investment performance for certain periods specified in the constitutional agreement, according to the agreed 
+principle. SBGA is entitled  to receive  the performance-linked  management fees after certain  periods for the 
+investment performance measurement  specified  in the constitutional  agreement, provided  that there  are 
+available cash proceeds through disposition, dividend, and monetization of investments in LatAm.
+Same as the performance-based  distributions, the  amount of the  performance fees to  SBGA from LatAm  is 
+calculated using the  allocation  method as specified  in the constitutional  agreements. SBGA is entitled  to 
+receive the performance  fees when LatAm  receives cash  through disposition, dividend,  and monetization  of 
+an investment.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+66
+
+(Millions of yen)
+As of
+March 31, 2026
+As of
+September 30, 2026
+Current
+Short-term borrowings*1,2 4,770,687 3,266,898
+Commercial paper 258,700 376,800
+Current portion of long-term borrowings 877,472 1,497,338
+Current portion of corporate bonds 1,344,746 629,895
+Current portion of installment payables 25 -
+Total 7,251,630 5,770,931
+Non-current
+Long-term borrowings*3,4,5 8,714,290 12,904,681
+Corporate bonds 8,459,966 12,516,241
+Financial liabilities relating to sale of shares by 
+prepaid forward contracts*6 259,214 1,399,352
+Installment payables 16 -
+Total 17,433,486 26,820,274
+5. Interest-bearing debt
+(1) Components of interest-bearing debt
+The components of interest-bearing debt are as follows:
+Notes:
+1. The amount decreased by ¥878,956 million due to the full repayment of borrowings made by SoftBank Group Corp. in April 
+2025 to finance the investment in OpenAI Global by SVF2.
+2. The amount decreased by ¥1,038,740 million due to the full repayment of borrowings made by SoftBank Group Corp. for the 
+acquisition of Ampere.
+3. SoftBank Group Corp. borrowed $11.9 billion  from financial institutions to repay $10.0 billion  previously borrowed under a 
+bridge facility for general corporate purposes. The borrowing is recorded for ¥1,836,617 million  as long-term borrowings as 
+of September 30, 2026. The details of the bridge facility are described in “d. Financing” in “(1) Investment in OpenAI” under 
+“Note 16. Additional information.”
+4. In August 2026, a wholly-owned subsidiary of SVF2 borrowed $10.0 billion,  secured by the borrower’s cash collateral 
+account. The loan agreement  includes  a cash collateral  provision  and a mandatory prepayment  clause, which may be 
+triggered under certain circumstances such as a  significant decrease in the fair value of the OpenAI preferred shares held by 
+SVF2 and referenced under the loan agreement. As of September 30, 2026, ¥1,543,709 million of the borrowings is recorded 
+as long-term borrowings.
+5. Kronos I (UK) Limited, a wholly-owned subsidiary of the Company, has a borrowing secured by 769,029,000 shares of Arm 
+held by a wholly-owned subsidiary  of Kronos  I (UK) Limited  and all of Kronos I (UK) Limited’s  assets except for certain 
+assets specified under the  relevant contracts. For the six-month  period ended September  30, 2026, the maturity  of the loan 
+was extended by one year from September 2027 to September 2028, and $5.0 billion was additionally borrowed. The loan is 
+recorded for ¥3,896,940 million as long-term borrowings as of September 30, 2026.
+The loan includes a cash collateral clause and a prepayment clause, which may be triggered under certain circumstances, such 
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+67
+
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Net increase in short-term borrowings 145,648 742,884
+Net increase in commercial paper 15,000 97,600
+Total 160,648 840,484
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Proceeds from borrowings 3,642,519 11,327,387
+Proceeds from issuance of corporate bonds 1,759,850 4,650,977
+Proceeds from procurement by prepaid forward 
+contracts using shares - 1,177,124
+Total 5,402,369 17,155,488
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Repayment of borrowings (1,977,926) (8,468,961)
+Redemption of corporate bonds (963,991) (1,231,137)
+Total (2,941,917) (9,700,098)
+as a significant decrease in the fair value of pledged Arm shares. The loan is non-recourse to SoftBank Group Corp.
+6. For the six-month period  ended September  30, 2026, financial liabilities relating  to prepaid forward contracts  increased by 
+¥1,139,622 million  as a wholly-owned subsidiary of the  Company entered  into prepaid forward contracts  with financial 
+institutions using Intel Corporation (“Intel”)  shares held  by the wholly-owned subsidiary. The Intel  shares pledged as 
+collateral in connection with the prepaid forward contracts are recorded for ¥1,645,060 million as “Investment securities” (of 
+this amount, ¥1,096,707 million is attributable to Intel shares over which financial  institutions were granted rights of use) in 
+the condensed interim consolidated statement of financial position as of September 30, 2026.
+(2) Components of proceeds in and repayment of short-term interest-bearing debt, net
+The components of “Proceeds in short-term interest-bearing debt, net” in the condensed interim consolidated 
+statement of cash flows are as follows:
+(3) Components of proceeds from interest-bearing debt
+The components of “Proceeds from interest-bearing debt” in the condensed interim consolidated statement of 
+cash flows are as follows:
+(4) Components of repayment of interest-bearing debt
+The components of “Repayment of interest-bearing debt” in the condensed interim consolidated statement of 
+cash flows are as follows:
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+68
+
+(Millions of yen)
+As of
+March 31, 2026
+As of
+September 30, 2026
+Carrying amount
+(fair value)
+Carrying amount
+(fair value)
+Assets Liabilities Assets Liabilities
+Warrants granted by Energy Global*1 - 582,962 - 541,801
+Prepaid forward contracts using Intel shares*2 - - - 337,869
+6. Financial instruments
+The details of derivative contracts are mainly as follows:
+Notes:
+1. These are the  warrants granted to  OpenAI by Energy Global, convertible into its ordinary  equity interests, as lease incentives  in 
+connection with lessor lease arrangements  related to data  centers. As the number of ordinary  equity interests  to be issued upon 
+exercise varies depending on the  fair value of the  entity at  the time  of exercise, the  warrants are not classified  as equity but are 
+recognized as derivative financial liabilities.
+In August 2026, the terms  of the warrant agreement  were amended and the  warrants were partially  forfeited in conjunction with 
+the execution of new data  center lease  agreements with  OpenAI. The decrease in  the derivative  financial liabilities arising from 
+the amendment of the agreement ($2.4 billion) was deducted from the carrying amount of the lease incentive, which is included in 
+“Other non-current assets” in the condensed interim consolidated statement of financial position.
+For the six-month  period ended September  30, 2026, the derivative  financial liabilities decreased due to the  partial forfeiture  of 
+the warrants and other factors, while the fair value of Energy Global increased.
+2. The prepaid forward contracts are  collar contracts under which the  number of shares to be delivered  at settlement is determined 
+by reference to the market price of Intel shares at the valuation dates prior to the settlement dates, and a cap and a floor are set for 
+the settlement price per share.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+69
+
+(Yen)
+As of
+March 31, 2026
+As of
+September 30, 2026
+USD 159.88 157.35
+(Yen)
+Three-month period ended
+June 30, 2025
+Three-month period ended
+September 30, 2025
+USD 145.19 147.50
+(Yen)
+Three-month period ended
+June 30, 2026
+Three-month period ended
+September 30, 2026
+USD 160.51 160.12
+7. Foreign currency exchange rates
+Exchange rates of the major  currencies used in translating  financial  statements  of foreign operations  are as 
+follows:
+(1) Rate at the end of the period
+(2) Average rate for the quarter
+For the six-month period ended September 30, 2025
+For the six-month period ended September 30, 2026
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+70
+
+(Thousands of shares)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Balance at the beginning of the period 32,399 12,924
+Increase during the period 13,222 1
+Decrease during the period (244) (384)
+Balance at the end of the period 45,377 12,541
+(Millions of yen)
+As of
+March 31, 2026
+As of
+September 30, 2026
+Equity financial assets at FVTOCI 18,518 29,787
+Debt financial assets at FVTOCI (1,249) (1,672)
+Cash flow hedges 2,624 (26,380)
+Exchange differences on translating foreign 
+operations 6,360,216 5,900,611
+Total 6,380,109 5,902,346
+8. Equity
+(1) Other equity instruments
+On July 19, 2017, SoftBank Group Corp. issued $1.75 billion of USD-denominated Undated Subordinated Non-
+Call 10 years Resettable Notes (the “Hybrid Notes”).
+The Hybrid Notes are classified as equity instruments in accordance with IFRS because SoftBank Group Corp. 
+has the option to defer interest payments, the notes have no maturity date, and SoftBank Group Corp. has an 
+unconditional right to avoid delivering cash or another financial asset except for distribution of residual assets 
+on liquidation.
+(2) Treasury stock
+Changes in treasury stock are as follows:
+In addition, effective January 1, 2026, a four-for-one ordinary share split was conducted. For the six-month 
+period ended September 30, 2025, the impact of the share split is not reflected.
+(3) Accumulated other comprehensive income
+The components of accumulated other comprehensive income are as follows:
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+71
+
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Gain on investments 363,998 1,078,337
+9. Gain on investments
+(1) Investment Business of Holding Companies
+The components of gain and loss on investments are mainly as follows:
+a. Investments of asset management subsidiaries
+For the six-month period ended September 30, 2026, ¥17,434 million of gain on investments was 
+recognized.
+b. Intel Corporation
+For the six-month period ended September 30, 2026, ¥1,062,815 million of gain on investments was 
+recognized due to an increase in the share price.
+(2) SoftBank Vision Funds
+The details are described in “(1) Income and loss arising from the SoftBank Vision Funds business” under 
+“Note 4. SoftBank Vision Funds business.”
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Interest expenses (340,018) (790,662)
+10. Finance cost
+The components of finance cost are as follows:
+11. Derivative gain (loss) (excluding gain (loss) on investments)
+For the six-month period ended September 30, 2026, a derivative loss of ¥321,891 million related to the prepaid 
+forward contracts using Intel shares and a derivative loss of ¥203,802 million related to the warrants granted by 
+Energy Global to OpenAI were recorded. The details of the warrants are described in “Notes 1” under “Note 6. 
+Financial instruments.”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+72
+
+(Millions of yen)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Interest income 42,313 57,612
+Income (loss) on equity method investments (5,074) 8,843
+Loss relating to power generation-related 
+equipment*1 - (597,248)
+Impairment loss*2 (567) (73,286)
+Gain (loss) from financial instruments at FVTPL  
+(excluding gain (loss) on investments)*3 7,627 (42,551)
+Gain on the remeasurement relating to business 
+combination 58,879 -
+Gain on redemption of corporate bonds 34,426 -
+Other 8,157 (17,199)
+Total 145,761 (663,829)
+12. Other gain (loss)
+The components of other gain and loss are as follows:
+Notes:
+1. Silver Bands 7 LLC (“SB7”), a subsidiary in  which the Company and  SVF2 have invested,  has entered into  manufacturing 
+capacity reservation  agreements,  equipment  purchase contracts,  and other arrangements  for power generation-related 
+equipment to secure robust power supply infrastructure  for AI data center  projects in the U.S., including the  PORTS-Pike 
+Technology Campus in Pike County, Ohio.
+SB7 revised its  equipment procurement  strategy given the evolving  requirements of its existing and planned  projects. As a 
+result of the  realignment and SB7’s obligations to its  suppliers, the Company recognized  a loss of ¥597,248 million  for the 
+six-month period  ended September  30, 2026. The loss comprised ¥457,030 million  related  to non-refundable  advance 
+payments made to secure manufacturing  capacity  and  purchase equipment,  and ¥140,218 million  related to  contract 
+modifications and settlements.
+SB7 became entitled to receive rebates of up to $2.1 billion over the next 10 years on future equipment purchases, subject to 
+certain conditions. As the amount  of rebates could  not be determined  as of September  30, 2026, the Company did not 
+recognize the rebate rights as an asset in the condensed interim consolidated statement of financial position.
+2. With  respect to  property, plant and equipment,  including  buildings, acquired  in Lordstown, Ohio, United States,  for the 
+purpose of establishing a manufacturing facility for data center-related equipment, the Company reassessed their recoverable 
+amount based on the intended use of the facility and its future plans. As a result, the Company recognized an impairment loss 
+of ¥72,543 million  for the six-month period  ended September  30, 2026. The recoverable  amount was determined  based on 
+fair value less costs of disposal.
+3. For the six-month period ended September 30, 2026, a loss of ¥44,000 million was recorded from changes in the fair value of 
+debt instruments issued by Energy Global and financial liabilities  arising from Energy  Global’s share issuance agreement. 
+The financial liabilities arising from the share issuance agreement are classified as financial liabilities at FVTPL as shares are 
+issued when certain conditions are met and the number of shares to be issued varies depending on the fair value of the shares, 
+and are measured at fair value quarterly.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+73
+
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Net income attributable to ordinary shareholders of the 
+parent (Millions of yen)
+Net income attributable to owners of the parent 2,924,066 (768,007)
+Net income not-attributable to ordinary shareholders 
+of the parent*1 (8,857) (9,719)
+Net income used in the calculation of basic earnings 
+per share 2,915,209 (777,726)
+Weighted-average number of ordinary shares 
+(Thousands of shares) 5,711,897 5,699,019
+Basic earnings per share (Yen) 510.37 (136.47)
+Six-month period ended 
+September 30, 2025
+Six-month period ended 
+September 30, 2026
+Diluted net income attributable to ordinary 
+shareholders of the parent (Millions of yen)
+Net income used in the calculation of basic earnings 
+per share 2,915,209 (777,726)
+Effect of dilutive securities issued by subsidiaries 
+and associates (1,393) (2,054)
+Total 2,913,816 (779,780)
+Weighted-average number of ordinary shares used in 
+the calculation of diluted earnings per share 
+(Thousands of shares)
+Weighted-average number of ordinary shares 5,711,897 5,699,019
+Adjustments:
+Stock acquisition rights*2 2,724 -
+Total 5,714,621 5,699,019
+Diluted earnings per share (Yen) 509.89 (136.83)
+13. Earnings per share
+Basic earnings per share and  diluted earnings per  share are as follows. In addition,  effective January 1, 2026, a 
+four-for-one ordinary share split  was conducted. Basic  earnings per share and diluted  earnings per share  are 
+calculated assuming that  the share split  had been conducted  at the beginning  of the six-month period  ended 
+September 30, 2025.
+For the six-month period ended September 30
+(1) Basic earnings per share
+Notes:
+1. Net income not-attributable to ordinary shareholders of the parent represents net income attributable to owners of other equity 
+instruments issued by SoftBank Group Corp.
+(2) Diluted earnings per share
+Notes:
+2. For the six-month period ended September 30, 2026, stock acquisition rights are not included in the calculation for “Diluted 
+earnings per share,” as they have an antidilutive effect for the calculation.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+74
+
+Three-month period ended 
+September 30, 2025
+Three-month period ended 
+September 30, 2026
+Net income attributable to ordinary shareholders of the 
+parent (Millions of yen)
+Net income attributable to owners of the parent 2,502,247 (1,115,337)
+Net income not-attributable to ordinary shareholders 
+of the parent*1 (4,614) (4,774)
+Net income used in the calculation of basic earnings 
+per share 2,497,633 (1,120,111)
+Weighted-average number of ordinary shares 
+(Thousands of shares) 5,698,107 5,699,091
+Basic earnings per share (Yen) 438.33 (196.54)
+Three-month period ended 
+September 30, 2025
+Three-month period ended 
+September 30, 2026
+Diluted net income attributable to ordinary 
+shareholders of the parent (Millions of yen)
+Net income used in the calculation of basic earnings 
+per share 2,497,633 (1,120,111)
+Effect of dilutive securities issued by subsidiaries 
+and associates (1,005) (1,302)
+Total 2,496,628 (1,121,413)
+Weighted-average number of ordinary shares used in 
+the calculation of diluted earnings per share 
+(Thousands of shares)
+Weighted-average number of ordinary shares 5,698,107 5,699,091
+Adjustments:
+Stock acquisition rights*2 2,672 -
+Total 5,700,779 5,699,091
+Diluted earnings per share (Yen) 437.95 (196.77)
+For the three-month period ended September 30
+(1) Basic earnings per share
+Notes:
+1. Net income not-attributable to ordinary shareholders of the parent represents net income attributable to owners of other equity 
+instruments issued by SoftBank Group Corp.
+(2) Diluted earnings per share
+Notes:
+2. For the three-month period ended September 30, 2026, stock acquisition rights are not included in the calculation for “Diluted 
+earnings per share,” as they have an antidilutive effect for the calculation.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+75
+
+14. Supplemental information to the condensed interim consolidated statement of cash flows
+(1) Scope of purchase of property, plant and equipment and intangible assets
+“Purchase of property, plant  and equipment,  and intangible  assets” includes  cash outflows from long-term 
+prepaid expenses and prepayments  for the purchase of property,  plant and equipment,  and intangible  assets 
+that are included  in “Other non-current  assets” in the condensed  interim consolidated  statement of financial 
+position.
+(2) Payments for acquisition of investments by SVF
+For the six-month period ended September 30, 2026
+“Payments for acquisition  of investments by SVF” includes ¥3,206,300 million  ($20.0 billion)  of the 
+investment amount in  OpenAI  Group PBC from SVF2. The details  are described  in “(1) Investment in 
+OpenAI” under “Note 16. Additional information.”
+(3) Proceeds from advances received under subsidiary share issuance agreements
+For the six-month period ended September 30, 2026
+The amount is attributable to receipt of an advance  by Energy Global under  a share issuance agreement.  The 
+details of the share issuance agreement are described in “Notes 3” under “Note 12. Other gain (loss).”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+76
+
+15. Related party transactions
+(Co-investment program with restricted rights to receive distributions)
+MgmtCo, which is the investor in SVF2 LLC (a subsidiary  of the Company under SVF2) and the investor  in 
+SLA LLC  (a subsidiary of the Company under LatAm), is a company  controlled  by Masayoshi Son, 
+Representative Director, Corporate Officer, Chairman & CEO of SoftBank Group Corp., and a related party of 
+the Company. The co-investment  program with restricted  rights to receive  distributions to SVF2  and LatAm 
+was introduced for the three-month  period ended  September 30, 2021 for the  purpose of enabling Masayoshi 
+Son to make a co-investment  in SVF2 and LatAm with the Company,  sharing risk of losses as well as benefit 
+of profits in the  success of SVF2  and LatAm,  and leading  to enhanced focus on the  management  of 
+investments held by them,  which in turn is intended  to contribute  to increases in  the Company’s earnings. In 
+making a  co-investment  in SVF2  and LatAm  under the terms  of the program, MgmtCo both  receives the 
+benefit of profits and assumes the risk of losses from SVF2 and LatAm, and  MgmtCo’s right to receive 
+distributions from its investment is subject to certain restrictions.
+Contributions to SVF2 LLC and SLA LLC are classified as “Equity” and “Preferred Equity” depending on the 
+terms and conditions of distribution.  SVF2 LLC and SLA LLC each  have issued Equity  entitled to 
+performance-based distributions that are allocated  to the Company and MgmtCo  based on the proportion of 
+their respective contributions. The Company’s Equity interest in each of SVF2 LLC and SLA LLC is 82.75%, 
+and MgmtCo’s Equity interest  in each of SVF2 LLC and SLA LLC is 17.25%. The Company’s investment  in 
+SVF2 LLC is made through SoftBank  Vision Fund  II-2 L.P. and  its subsidiaries, and its investment  in SLA 
+LLC is made through SBLA Latin America Fund LLC and its subsidiaries.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+77
+
+Name of the 
+company or 
+individual
+Nature of 
+relationship Nature of transaction
+For the six-month 
+period ended
+September 30, 2026
+As of
+September 30, 2026
+Amount of
+transaction
+Balance at
+period end
+Masayoshi Son
+(MASA USA
+LLC (MgmtCo))
+Chairman &
+CEO of SoftBank 
+Group Corp. and 
+related entities of 
+which he holds 
+more than one-
+half of the voting 
+rights
+Receipt of capital 
+contribution in SVF2 
+LLC and related 
+adjustments*1,2
+- 498,981*3,4
+($3,171 million)
+The premium received 
+on SVF2 LLC’s 
+receivables
+6,632*3
+($41 million)
+MgmtCo’s Equity 
+interests in SVF2 LLC*5,6 - 498,981($3,171 million)
+Net balance at period end
+(Receivables in SVF2 LLC less
+MgmtCo’s Equity interests in SVF2 LLC)*7
+-
+Related party transactions of the Company are as follows:
+(1) Transactions between SVF2 and related parties
+(Millions of yen)
+Notes:
+1. Restrictions on rights of MgmtCo to receive distributions
+MgmtCo’s right to receive distributions from its investment is subject to certain restrictions. Distributions from SVF2 LLC to 
+MgmtCo are fully restricted and are not paid until the sum of proceeds received by SVF2 LLC from exited investments plus 
+the aggregate fair value of all of SVF2 LLC’s investments before exit (net of borrowings) exceeds 130% of the aggregate 
+acquisition cost of all of SVF2 LLC’s investments. After the ratio exceeds 130%, restrictions on distributions to MgmtCo are 
+released proportionately in increments of 10%, and when the ratio reaches 200%, all restrictions are released and MgmtCo is 
+entitled to receive the full amount of the distribution. In the event that, upon the liquidation of SVF2 LLC, the amount of the 
+distributions received by MgmtCo exceeds the amount that would have been distributed to MgmtCo if the ratio in effect at the 
+time of liquidation was applied throughout the life of SVF2 LLC, then any such excess amounts will be subject to clawback 
+from MgmtCo.
+2. Nature of the Equity contribution by MgmtCo
+The Equity interests contributed by the Company and MgmtCo are subordinated to the Preferred Equity contributed 
+separately by the Company to SVF2 LLC. If there is a shortfall in the amount of return of Preferred Equity contributions and 
+the amount of fixed distributions to be received by the Preferred Equity holders at the time of the final profit distribution by 
+SVF2 LLC, then MgmtCo is obligated to pay the shortfall proportional to Equity interests’ ratio up to the total amount of 
+return of Equity contributions and the distributions received by MgmtCo.
+3. Balance at period end of receivables from MgmtCo for receipt of capital contribution and related adjustments
+Balance at period end is the balance of SVF2 LLC’s receivables which consists of the balance related to receipt of capital 
+contribution, related adjustments, and premiums received from MgmtCo, less any decrease in receivables due to offsetting 
+settlement with distributions to MgmtCo. The amount of the transaction for “Receipt of capital contribution in SVF2 LLC and 
+related adjustments” at the inception of the program is MgmtCo’s Equity Acquisition Amount in SVF2 LLC, which consists 
+of the amount calculated based on MgmtCo’s Equity interests of 17.25% in SVF2’s initial acquisition costs of the relevant 
+portfolio companies held by SVF2 LLC and related adjustments calculated based on 17.25% interest in the increase in the 
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+78
+
+portfolio companies’ fair value from the initial acquisition costs at SVF2 to June 30, 2021, and the adjustment equivalent to 
+interest for the period from the Company’s contribution to SVF2 until June 30, 2021.
+MgmtCo is entitled to make full or partial payment of its Equity Acquisition Amount at any point in time, at its discretion, 
+from the date it became an investor in SVF2 LLC to the end of the company life of SVF2 LLC. MgmtCo is required to pay a 
+premium of 3% per annum on the unpaid Equity Acquisition Amount until the unpaid amount is paid in full. “The premium 
+received on SVF2 LLC’s receivables” refers to the amount of such premium accrued in the current period. MgmtCo is also 
+entitled to make full or partial payment of the premium at any point in time, at its discretion, on the same terms and conditions 
+as Equity Acquisition Amount.
+Any distributable amount from SVF2 LLC to MgmtCo is offset against the receivables at the time of the distribution notice 
+and no distribution payments to MgmtCo are made until SVF2 LLC’s receivables are paid in full.
+4. Collateral and other credit protection for receivables
+In order to secure the receivables of SVF2 LLC related to Equity Acquisition Amount and the premium thereon, all of the 
+Equity interests in SVF2 LLC held by MgmtCo are pledged as collateral. In the event that MgmtCo pays into the receivables 
+or offsets such receivables with distributions due to it from SVF2 LLC, the collateral is released to the extent that the 
+cumulative amounts of payments and offsets exceed the balance of the receivables after deduction of such cumulative 
+amounts. Masayoshi Son also provides a personal guarantee to the receivables up to the balance of the receivables. In 
+addition, as of September 30, 2026, 35,588,400 shares of SoftBank Group Corp. are deposited in SVF2 LLC by Masayoshi 
+Son. The deposited shares of SoftBank Group Corp. will be released only when the entire amount of receivables is settled. 
+SVF2 LLC may acquire the deposited SoftBank Group Corp. shares without consideration where there are any unpaid 
+receivables in SVF2 LLC after the enforcement of the collateral and personal guarantees by SVF2 LLC.
+5. MgmtCo’s Equity interest in SVF2 LLC
+The amount represents SVF2 LLC’s net assets attributable to MgmtCo (before deduction of receivables), which is included in 
+“Third-party interests in SVF” in the condensed interim consolidated statement of financial position.
+6. Management fees and performance-linked management fees to be charged to MgmtCo
+The terms of the management fees and performance-linked management fees to be charged to MgmtCo are the same as those 
+to be charged to the Company as an Equity investor in SVF2 LLC.
+7. Net balance at period end
+Net balance at period end is the balance of receivables held by SVF2 LLC less MgmtCo’s Equity interest in SVF2 LLC.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+79
+
+Name of the 
+company or 
+individual
+Nature of 
+relationship Nature of transaction
+For the six-month 
+period ended
+September 30, 2026
+As of
+September 30, 2026
+Amount of
+transaction
+Balance at
+period end
+Masayoshi Son
+(MASA USA
+LLC (MgmtCo))
+Chairman &
+CEO of SoftBank 
+Group Corp. and 
+related entities of 
+which he holds 
+more than one-
+half of the voting 
+rights
+Receipt of capital 
+contribution in SLA 
+LLC and related 
+adjustments*1,2
+- 117,036*3,4
+($744 million)
+The premium received 
+on SLA LLC’s 
+receivables
+1,559*3
+($10 million)
+MgmtCo’s Equity 
+interests in SLA LLC*5,6 - -
+Net balance at period end
+(Receivables in SLA LLC less
+MgmtCo’s Equity interests in SLA LLC)*7
+117,036
+($744 million)
+(2) Transactions between LatAm and related parties
+(Millions of yen)
+Notes:
+1. Restrictions on rights of MgmtCo to receive distributions
+MgmtCo’s right to receive distributions from its investment is subject to certain restrictions. Distributions from SLA LLC to 
+MgmtCo are fully restricted and are not paid until the sum of proceeds received by SLA LLC from exited investments plus 
+the aggregate fair value of all of SLA LLC’s investments before exit (net of borrowings) exceeds 130% of the aggregate 
+acquisition cost of all of SLA LLC’s investments. After the ratio exceeds 130%, restrictions on distributions to MgmtCo are 
+released proportionately in increments of 10%, and when the ratio reaches 200%, all restrictions are released and MgmtCo is 
+entitled to receive the full amount of the distribution. In the event that, upon the liquidation of SLA LLC, the amount of the 
+distributions received by MgmtCo exceeds the amount that would have been distributed to MgmtCo if the ratio in effect at the 
+time of liquidation was applied throughout the life of SLA LLC, then any such excess amounts will be subject to clawback 
+from MgmtCo.
+2. Nature of the Equity contribution by MgmtCo
+The Equity interests contributed by the Company and MgmtCo are subordinated to the Preferred Equity contributed 
+separately by the Company to SLA LLC. If there is a shortfall in the amount of return of Preferred Equity contributions and 
+the amount of fixed distributions to be received by the Preferred Equity holders at the time of the final profit distribution by 
+SLA LLC, then MgmtCo is obligated to pay the shortfall proportional to Equity interests’ ratio up to the total amount of 
+return of Equity contributions and the distributions received by MgmtCo.
+3. Balance at period end of receivables from MgmtCo for receipt of capital contribution and related adjustments
+Balance at period end is the balance of SLA LLC’s receivables which consists of the balance related to receipt of capital 
+contribution, related adjustments, and premiums received. The amount of the transaction for “Receipt of capital contribution 
+in SLA LLC and related adjustments” at the inception of the program is MgmtCo’s Equity Acquisition Amount in SLA LLC, 
+which consists of the amount calculated based on MgmtCo’s Equity interests of 17.25% in LatAm’s initial acquisition costs 
+of the portfolio companies held by LatAm and related adjustments calculated based on 17.25% interest in the increase in the 
+portfolio companies’ fair value from the initial acquisition costs at LatAm to June 30, 2021, and the adjustment equivalent to 
+interest for the period from the Company’s contribution to LatAm until June 30, 2021.
+MgmtCo is entitled to make full or partial payment of its Equity Acquisition Amount at any point in time, at its discretion, 
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+80
+
+from the date it became an investor in SLA LLC to the end of the company life of SLA LLC. MgmtCo is required to pay a 
+premium of 3% per annum on the unpaid Equity Acquisition Amount until the unpaid amount is paid in full. “The premium 
+received on SLA LLC’s receivables” refers to the amount of such premium accrued in the current period. MgmtCo is also 
+entitled to make full or partial payment of the premium at any point in time, at its discretion, on the same terms and conditions 
+as Equity Acquisition Amount.
+Any distributable amounts from SLA LLC to MgmtCo are offset against the receivables at the time of the distribution notice 
+and no distribution payments to MgmtCo are made until SLA LLC’s receivables are paid in full.
+4. Collateral and other credit protection for receivables
+In order to secure the receivables of SLA LLC related to Equity Acquisition Amount and the premium thereon, all of the 
+Equity interests in SLA LLC held by MgmtCo are pledged as collateral. In the event that MgmtCo pays into the receivables or 
+offsets such receivables with distributions due to it from SLA LLC, the collateral is released to the extent that the cumulative 
+amounts of payments and offsets exceed the balance of the receivables after deduction of such cumulative amounts. 
+Masayoshi Son also provides a personal guarantee to the receivables up to the balance of the receivables. In addition, as of 
+September 30, 2026, 8,674,000 shares of SoftBank Group Corp. are deposited in SLA LLC by Masayoshi Son. The deposited 
+shares of SoftBank Group Corp. will be released only when the entire amount of receivables is settled. SLA LLC may acquire 
+the deposited SoftBank Group Corp. shares without consideration where there are any unpaid receivables in SLA LLC after 
+the enforcement of the collateral and personal guarantees by SLA LLC.
+5. MgmtCo’s Equity interest in SLA LLC
+The amount represents SLA LLC’s net assets attributable to MgmtCo (before deduction of receivables), which is included in 
+“Third-party interests in SVF” in the condensed interim consolidated statement of financial position.
+6. Management fees, performance-linked management fees, and performance fees to be charged to MgmtCo
+The terms of the management fees, performance-linked management fees, and performance fees to be charged to MgmtCo are 
+the same as those to be charged to the Company as an Equity investor in SLA LLC.
+7. Net balance at period end
+Net balance at period end is the balance of receivables held by SLA LLC less MgmtCo’s Equity interest in SLA LLC.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+81
+
+First tranche
+(Completed)
+Second tranche
+(Completed)
+Third tranche
+(Completed)
+Pre-money valuation $730.0 billion
+Investment by the 
+Company $10.0 billion $10.0 billion $10.0 billion
+Timing of the Company’s 
+investment April 1, 2026 July 1, 2026 October 1, 2026
+The Company’s 
+investment entity SVF2
+Investment target OpenAI Group PBC
+Type of securities to be 
+acquired
+Preferred shares (automatically convertible into common shares of OpenAI upon an IPO or 
+related listing transaction)
+16. Additional information
+(1) Investment in OpenAI
+The Company entered into a definitive agreement with OpenAI Group PBC on February 27, 2026, to 
+participate in its fundraising round via SVF2 and make additional investments of $30.0 billion (the “Follow-on 
+Investment”).
+a. Rationale for the Follow-on Investment
+To further support OpenAI’s continued growth, SoftBank Group Corp. has decided to proceed with the 
+Follow-on Investment.
+b. Overview of the Follow-on Investment
+c. Completion of the Follow-on Investment
+On April 1, 2026, July 1, 2026, and October 1, 2026, the Company completed three $10.0 billion investment 
+tranches, totaling $30.0 billion, in OpenAI Group PBC pursuant to the agreement for the Follow-on 
+Investment. As a result, the Follow-on Investment was completed and the cumulative investments by the 
+Company in OpenAI amounted to $64.6 billion.
+d. Financing
+On March 27, 2026, for the purpose of raising funds necessary for general corporate purposes and for the 
+Follow-on Investment, SoftBank Group Corp. and a wholly-owned financing subsidiary entered into a bridge 
+facility agreement with a total commitment of $40.0 billion with financial institutions. For the six-month 
+period ended September 30, 2026, SoftBank Group Corp. borrowed $10.0 billion and the wholly-owned 
+financing subsidiary borrowed $20.0 billion to fund the first tranche and the second tranche investments 
+under the agreement for the Follow-on Investment.
+In September 2026, SoftBank Group Corp. and the wholly-owned financing subsidiary repaid all remaining 
+outstanding borrowings under the agreement prior to maturity and canceled the remaining $10.0 billion of 
+undrawn capacity under the bridge facility agreement. As a result, the bridge facility agreement was 
+terminated.
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+82
+
+In addition, on September 29, 2026, SoftBank Group Corp. issued $10.0 billion of USD-denominated Notes 
+and €1.0 billion of EUR-denominated Notes for the purpose of raising funds necessary for the third tranche 
+investment
+ and for general corporate purposes.
+e. Impact
+ on consolidated financial results
+The preferred shares  and common shares of OpenAI Group PBC held by SVF2 are classified as financial
+assets measured  at fair value through profit or loss (FVTPL) and are presented in the condensed interim
+consolidated
+ statement of financial position as “Investments of SVF (FVTPL).” Changes in the fair value are
+recorded in the condensed interim consolidated statement of profit or loss as “Gain on  investments -
+SoftBank Vision Funds.”
+(2) Update
+ on Acquisition of ABB Ltd’s Robotics Business
+SoftBank Group Corp.  entered into a definitive agreement with ABB Ltd (“ABB”) to acquire ABB’s robotics
+business (the  “Acquisition”) on October 8, 2025. The Acquisition is subject to regulatory approvals and other
+customary closing conditions.  SoftBank Group Corp. is managing the process to obtain the regulatory
+approvals.
+We
+ confirm that on November 4, 2026, SoftBank Group Corp. received notification from the Office of the
+Working
+ Mechanism for Foreign Investment Security Review in China that it had prohibited the acquisition of
+ABB’s robotics business in China.
+SoftBank Group  Corp. is in close dialogue with ABB, and both parties are working constructively on the
+transaction.
+17. Significant subsequent events
+(Additional investment in OpenAI Group PBC)
+On October  1, 2026, SVF2 completed a $10.0 billion investment in OpenAI Group PBC. The details are 
+described in “(1) Investment in OpenAI” under “Note 16. Additional information.”
+SoftBank Group Corp. Consolidated Financial Report 
+For the Six-Month Period Ended September 30, 2026
+83

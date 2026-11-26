@@ -1,0 +1,472 @@
+{
+  "LITE": {
+    "symbol": "LITE",
+    "name": "Lumentum",
+    "regular_close": 559.97,
+    "previous_regular_close": 546.0,
+    "open": 566.6,
+    "regular_change_pct": 2.56,
+    "high": 575.46,
+    "low": 534.69,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+    "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 559.97,
+      "regular_change_pct": 2.56,
+      "regular_close_label_exchange": "Nov 17 04:00PM EST",
+      "provider_update_beijing": "2026-11-18 08:47:51",
+      "source": "sina.raw"
+    },
+    "afterhours": {
+      "price": 594.8725,
+      "change_vs_regular_close_pct": 6.23,
+      "time_exchange": "2026-11-17T19:47:00-05:00",
+      "time_beijing": "2026-11-18T08:47:00+08:00",
+      "session": "afterhours",
+      "source": "sina.raw",
+      "snapshot_not_final": true,
+      "tencent_crosscheck": {
+        "price": 594.87,
+        "change_vs_regular_close_pct": 6.23,
+        "time_exchange": "2026-11-17 19:47:40-05:00",
+        "session_label": "after",
+        "source": "history_LITE.raw",
+        "sina_time_precision": "minute"
+      }
+    },
+    "close_vs_open_pct": -1.1701376632545002,
+    "ohlc_does_not_establish_intraday_path": true,
+    "historical_rows_returned": 1,
+    "historical_dates_returned": [
+      "2026-11-17"
+    ],
+    "five_twenty_day_return": null,
+    "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "MRVL": {
+    "symbol": "MRVL",
+    "name": "迈威尔科技",
+    "regular_close": 148.74,
+    "previous_regular_close": 145.36,
+    "open": 150.2,
+    "regular_change_pct": 2.33,
+    "high": 150.95,
+    "low": 140.9,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+    "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 148.74,
+      "regular_change_pct": 2.33,
+      "regular_close_label_exchange": "Nov 17 04:00PM EST",
+      "provider_update_beijing": "2026-11-18 08:47:48",
+      "source": "sina.raw"
+    },
+    "afterhours": {
+      "price": 156.7887,
+      "change_vs_regular_close_pct": 5.41,
+      "time_exchange": "2026-11-17T19:47:00-05:00",
+      "time_beijing": "2026-11-18T08:47:00+08:00",
+      "session": "afterhours",
+      "source": "sina.raw",
+      "snapshot_not_final": true,
+      "tencent_crosscheck": {
+        "price": 156.79,
+        "change_vs_regular_close_pct": 5.41,
+        "time_exchange": "2026-11-17 19:47:48-05:00",
+        "session_label": "after",
+        "source": "history_MRVL.raw",
+        "sina_time_precision": "minute"
+      }
+    },
+    "close_vs_open_pct": -0.9720372836218294,
+    "ohlc_does_not_establish_intraday_path": true,
+    "historical_rows_returned": 2,
+    "historical_dates_returned": [
+      "2011-06-02",
+      "2026-11-17"
+    ],
+    "five_twenty_day_return": null,
+    "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "COHR": {
+    "symbol": "COHR",
+    "name": "Coherent Corp.",
+    "regular_close": 210.86,
+    "previous_regular_close": 203.43,
+    "open": 214.91,
+    "regular_change_pct": 3.65,
+    "high": 217.2,
+    "low": 200.53,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:05:11-05:00",
+    "source_last_update_beijing": "2026-11-18T05:05:11+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 210.86,
+      "regular_change_pct": 3.65,
+      "regular_close_label_exchange": "Nov 17 04:00PM EST",
+      "provider_update_beijing": "2026-11-18 08:47:47",
+      "source": "sina.raw"
+    },
+    "afterhours": {
+      "price": 225.3,
+      "change_vs_regular_close_pct": 6.85,
+      "time_exchange": "2026-11-17T19:47:00-05:00",
+      "time_beijing": "2026-11-18T08:47:00+08:00",
+      "session": "afterhours",
+      "source": "sina.raw",
+      "snapshot_not_final": true,
+      "tencent_crosscheck": {
+        "price": 225.3,
+        "change_vs_regular_close_pct": 6.85,
+        "time_exchange": "2026-11-17 19:47:08-05:00",
+        "session_label": "after",
+        "source": "history_COHR.raw",
+        "sina_time_precision": "minute"
+      }
+    },
+    "close_vs_open_pct": -1.8845097947978173,
+    "ohlc_does_not_establish_intraday_path": true,
+    "historical_rows_returned": 2,
+    "historical_dates_returned": [
+      "2011-06-02",
+      "2026-11-17"
+    ],
+    "five_twenty_day_return": null,
+    "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "CIEN": {
+    "symbol": "CIEN",
+    "name": "Ciena科技",
+    "regular_close": 264.82,
+    "previous_regular_close": 257.56,
+    "open": 263.97,
+    "regular_change_pct": 2.82,
+    "high": 266.49,
+    "low": 251.54,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:05:11-05:00",
+    "source_last_update_beijing": "2026-11-18T05:05:11+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 264.82,
+      "regular_change_pct": 2.82,
+      "regular_close_label_exchange": "Nov 17 04:00PM EST",
+      "provider_update_beijing": "2026-11-18 08:45:25",
+      "source": "sina.raw"
+    },
+    "afterhours": {
+      "price": 277.0,
+      "change_vs_regular_close_pct": 4.6,
+      "time_exchange": "2026-11-17T19:41:00-05:00",
+      "time_beijing": "2026-11-18T08:41:00+08:00",
+      "session": "afterhours",
+      "source": "sina.raw",
+      "snapshot_not_final": true,
+      "tencent_crosscheck": {
+        "price": 277.0,
+        "change_vs_regular_close_pct": 4.6,
+        "time_exchange": "2026-11-17 19:41:47-05:00",
+        "session_label": "after",
+        "source": "history_CIEN.raw",
+        "sina_time_precision": "minute"
+      }
+    },
+    "close_vs_open_pct": 0.32200628859337943,
+    "ohlc_does_not_establish_intraday_path": true,
+    "historical_rows_returned": 2,
+    "historical_dates_returned": [
+      "2011-06-02",
+      "2026-11-17"
+    ],
+    "five_twenty_day_return": null,
+    "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "AAOI": {
+    "symbol": "AAOI",
+    "name": "应用光电",
+    "regular_close": 45.22,
+    "previous_regular_close": 45.16,
+    "open": 48.13,
+    "regular_change_pct": 0.13,
+    "high": 48.22,
+    "low": 42.65,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+    "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 45.22,
+      "regular_change_pct": 0.13,
+      "regular_close_label_exchange": "Nov 17 04:00PM EST",
+      "provider_update_beijing": "2026-11-18 08:47:48",
+      "source": "sina.raw"
+    },
+    "afterhours": {
+      "price": 40.9079,
+      "change_vs_regular_close_pct": -9.54,
+      "time_exchange": "2026-11-17T19:47:00-05:00",
+      "time_beijing": "2026-11-18T08:47:00+08:00",
+      "session": "afterhours",
+      "source": "sina.raw",
+      "snapshot_not_final": true,
+      "tencent_crosscheck": {
+        "price": 40.91,
+        "change_vs_regular_close_pct": -9.54,
+        "time_exchange": "2026-11-17 19:47:47-05:00",
+        "session_label": "after",
+        "source": "history_AAOI.raw",
+        "sina_time_precision": "minute"
+      }
+    },
+    "close_vs_open_pct": -6.046125077913988,
+    "ohlc_does_not_establish_intraday_path": true,
+    "historical_rows_returned": 1,
+    "historical_dates_returned": [
+      "2026-11-17"
+    ],
+    "five_twenty_day_return": null,
+    "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "FN": {
+    "symbol": "FN",
+    "name": "Fabrinet",
+    "regular_close": 314.75,
+    "previous_regular_close": 311.01,
+    "open": 329.11,
+    "regular_change_pct": 1.2,
+    "high": 329.11,
+    "low": 306.36,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:05:11-05:00",
+    "source_last_update_beijing": "2026-11-18T05:05:11+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 314.75,
+      "regular_change_pct": 1.2,
+      "regular_close_label_exchange": "Nov 17 04:00PM EST",
+      "provider_update_beijing": "2026-11-18 08:47:23",
+      "source": "sina.raw"
+    },
+    "afterhours": {
+      "price": 325.0,
+      "change_vs_regular_close_pct": 3.26,
+      "time_exchange": "2026-11-17T19:43:00-05:00",
+      "time_beijing": "2026-11-18T08:43:00+08:00",
+      "session": "afterhours",
+      "source": "sina.raw",
+      "snapshot_not_final": true,
+      "tencent_crosscheck": {
+        "price": 325.0,
+        "change_vs_regular_close_pct": 3.26,
+        "time_exchange": "2026-11-17 19:43:14-05:00",
+        "session_label": "after",
+        "source": "history_FN.raw",
+        "sina_time_precision": "minute"
+      }
+    },
+    "close_vs_open_pct": -4.363282792987155,
+    "ohlc_does_not_establish_intraday_path": true,
+    "historical_rows_returned": 2,
+    "historical_dates_returned": [
+      "2011-06-02",
+      "2026-11-17"
+    ],
+    "five_twenty_day_return": null,
+    "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "name": "英伟达",
+    "regular_close": 155.46,
+    "previous_regular_close": 156.14,
+    "open": 156.9,
+    "regular_change_pct": -0.44,
+    "high": 158.19,
+    "low": 150.33,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+    "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 155.46,
+      "regular_change_pct": -0.44,
+      "regular_close_label_exchange": "Nov 17 04:00PM EST",
+      "provider_update_beijing": "2026-11-18 08:47:52",
+      "source": "sina.raw"
+    },
+    "afterhours": {
+      "price": 162.25,
+      "change_vs_regular_close_pct": 4.37,
+      "time_exchange": "2026-11-17T19:47:00-05:00",
+      "time_beijing": "2026-11-18T08:47:00+08:00",
+      "session": "afterhours",
+      "source": "sina.raw",
+      "snapshot_not_final": true
+    },
+    "close_vs_open_pct": -0.9177820267686432,
+    "ohlc_does_not_establish_intraday_path": true,
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "name": "博通",
+    "regular_close": 341.6,
+    "previous_regular_close": 333.4,
+    "open": 335.59,
+    "regular_change_pct": 2.46,
+    "high": 344.0,
+    "low": 330.13,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+    "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 341.6,
+      "regular_change_pct": 2.46,
+      "regular_close_label_exchange": "Nov 17 04:00PM EST",
+      "provider_update_beijing": "2026-11-18 08:47:50",
+      "source": "sina.raw"
+    },
+    "afterhours": {
+      "price": 350.96,
+      "change_vs_regular_close_pct": 2.74,
+      "time_exchange": "2026-11-17T19:47:00-05:00",
+      "time_beijing": "2026-11-18T08:47:00+08:00",
+      "session": "afterhours",
+      "source": "sina.raw",
+      "snapshot_not_final": true
+    },
+    "close_vs_open_pct": 1.7908757710301426,
+    "ohlc_does_not_establish_intraday_path": true,
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  ".IXIC": {
+    "symbol": ".IXIC",
+    "name": "纳斯达克",
+    "regular_close": 24328.38,
+    "previous_regular_close": 24509.76,
+    "open": 24528.06,
+    "regular_change_pct": -0.74,
+    "high": 24547.66,
+    "low": 23989.09,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": null,
+    "source_last_update_exchange": "2026-11-17T17:15:59-05:00",
+    "source_last_update_beijing": "2026-11-18T06:15:59+08:00",
+    "source": "quotes.raw",
+    "sina_crosscheck": {
+      "regular_close": 24328.383,
+      "regular_change_pct": -0.74,
+      "provider_update_beijing": "2026-11-18 06:30:00",
+      "provider_exchange_label": "Nov 17 05:16PM EST"
+    },
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "SOXX": {
+    "symbol": "SOXX",
+    "name": "费城半导体ETF-iShares",
+    "regular_close": 141.46,
+    "previous_regular_close": 141.22,
+    "open": 142.89,
+    "regular_change_pct": 0.17,
+    "high": 142.99,
+    "low": 136.16,
+    "session_date": "2026-11-17",
+    "session": "regular_close",
+    "currency": "USD",
+    "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+    "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+    "source": "quotes.raw",
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  },
+  "SOX": {
+    "symbol": "SOX",
+    "name": "费交所半导体股指数",
+    "regular_close": 9642.878,
+    "regular_change_pct": 0.34,
+    "previous_regular_close": 9610.6523,
+    "open": 9698.2589,
+    "high": 9745.9462,
+    "low": 9295.0147,
+    "session_date": "2026-11-17",
+    "session": "regular_session_index_value",
+    "provider_update_beijing": "2026-11-18 06:16:01",
+    "provider_exchange_label": "Nov 17 05:16PM EST",
+    "source": "sina.raw",
+    "afterhours": null,
+    "note": "Index dissemination timestamp after16:00ET is not an after-hours traded session. Independent second SOX index provider not obtained; SOXX ETF is distinct.",
+    "premarket": {
+      "price": null,
+      "time": null,
+      "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+    }
+  }
+}

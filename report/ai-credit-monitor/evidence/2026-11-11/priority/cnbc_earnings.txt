@@ -1,0 +1,82 @@
+CoreWeave (CRWV) Q3 earnings report 2026
+Skip Navigation
+Markets Pre-Markets U.S. Markets Europe Markets China Markets Asia Markets World Markets Currencies Prediction Markets Cryptocurrency Futures & Commodities Bonds Funds & ETFs
+Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Investigations Industrials Retail Wealth Sports Life Small Business
+Investing Personal Finance Fintech Financial Advisors Options Action ETF Street Buffett Archive Earnings Trader Talk
+Tech Cybersecurity AI Enterprise Internet Media Mobile Social Media CNBC Disruptor 50 Tech Guide
+Politics & Policy White House Policy Defense Congress Expanding Opportunity Europe Politics China Politics Asia Politics World Politics
+Video Latest Video Full Episodes Livestream Top Video Live Audio Europe TV Asia TV CNBC Podcasts CEO Interviews Digital Originals
+Watchlist
+Investing Club Trust Portfolio Analysis Trade Alerts Meeting Videos Homestretch Jim's Columns Education Subscribe
+PRO Pro News Josh Brown Mike Santoli Calls of the Day My Portfolio Livestream Full Episodes Stock Screener Market Forecast Options Investing Chart Investing Subscribe
+Livestream
+Menu
+Make It select
+USA INTL
+Livestream
+Search quotes, news & videos
+Livestream
+Watchlist
+SIGN IN
+Create free account
+Markets
+Business
+Investing
+Tech
+Politics & Policy
+Video
+Watchlist
+Investing Club
+PRO
+Livestream
+Menu
+Tech CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns
+Published Tue, Nov 10 2026 4:19 PM EST Updated 2 Hours Ago
+Jordan Novet @in/jordannovet/
+WATCH LIVE
+Key Points
+CoreWeave said revenue jumped 168% in the third quarter. Neoclouds like CoreWeave have been under intensifying pressure due to increasing interest rates. The stock has lost about 40% of its value in the past month, alongside a broader slide in the AI infrastructure trade.
+In this article
+CRWV
+Follow your favorite stocks CREATE FREE ACCOUNT
+Michael Intrator, chief executive officer of CoreWeave Inc., during a Bloomberg Television interview during the World Economic Forum (WEF) in Davos, Switzerland, on Tuesday, Jan. 20, 2026.
+Chris J. Ratcliffe | Bloomberg | Getty Images
+CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artificial intelligence infrastructure remains strong despite concerns of a market slowdown. The stock advanced in extended trading.
+The earnings announcement lands at a particularly volatile moment for CoreWeave and its neocloud peers, as the market sours on the AI trade and as Nvidia CEO Jensen Huang , the central figure in the global buildout, faces a scandal tied to an affair with an alleged Chinese spy.
+Here's how the company performed relative to LSEG consensus:
+Loss per share: 95 cents adjusted vs. $1.16 expected Revenue: $3.66 billion vs. $3.55 billion expected CoreWeave's revenue soared 168% from about $1.36 billion a year earlier, according to a statement. The company recorded a net loss of $709 million, or $1.27 per share, compared to a net loss of $110 million a year earlier. Adjusted earnings exclude stock-based compensation.
+Executives pushed up their forecast for 2026. They now see $1.275 billion to $1.375 billion in adjusted operating income on $13 billion to $13.3 billion in revenue. Analysts surveyed by Visible Alpha were looking for $1.07 billion in adjusted operating income, and analysts polled by LSEG had expected $12.86 billion in 2026 revenue.
+In August, CoreWeave's 2026 guidance included $960 million to $1.15 billion in adjusted operating income and $12.4 billion to $13.2 billion in revenue.
+CoreWeave has lost over 40% of its value in the past month, as investors rotate out of companies most closely tied to AI infrastructure. Rising interest rates have pushed lenders out of the market, raising concerns about ongoing access to capital. Some CoreWeave bond yields recently topped 16%.
+"The business can execute well and still face a tougher financing environment," Joe Tigay, portfolio manager at Equity Armor Investments, wrote in an email. "Strong demand is encouraging; the cost and availability of capital remain critical."
+CoreWeave will get most the capital it needs for 2027 through clients pre-payments and financing from hardware partners, and the company will raise "a limited amount" as well, CEO Mike Intrator told analysts on a conference call.
+The company plans to raise new debt tied to a set of contracts in the weeks to come, said Nitin Agrawal, its finance chief.
+"At current yields, we do not intend to issue additional parent-level unsecured debt through 2027," he said. "By contrast, the asset-level secured debt market has remained stable, with our loans continuing to trade around par value." In all, he said he projects under $5 billion in parent-level debt financing through 2027.
+Fellow neocloud Nebius , whose stock is down by a similar amount, is scheduled to report earnings on Thursday. Nebius shares got a small boost from CoreWeave's results.
+Both companies and several other providers of cloud-based graphics processing units are particularly reliant on Nvidia, which provides GPUs as well as necessary capital to the whole ecosystem. Nvidia shares have dropped nearly 10% to start the week as the Huang affair raises pressure on the company in Washington, D.C. Nvidia's board said on Tuesday that it hired Wachtell, Lipton, Rosen & Katz to investigate Huang and determine whether national security or company secrets were compromised.
+CoreWeave investors are also looking toward next week, when key customer Anthropic is scheduled to debut on the Nasdaq. In its updated IPO prospectus on Tuesday, Anthropic indicated that it could be valued at around $1.4 trillion after its share sale. Anthropic has signed deals for the construction of entire data centers that will meet its needs. "We see that we're going to have long-term relationships with the AI labs," said Intrator, a CoreWeave co-founder.
+During the quarter, CoreWeave said it would establish its first data centers in Asia and announced the Forge service for running and evaluating AI models.
+Management still anticipates 1.85 gigawatts in active power by the end of 2026. CoreWeave is targeting $37 billion to $39 billion in full-year capital expenditures, which would imply 155% growth at the middle of the range. Analysts polled by Visible Alpha were looking for $37.69 billion.
+CoreWeave owed almost $47 billion in debt at the end of the third quarter, according to the statement. Like its bigger cloud rivals such as Amazon and Oracle , CoreWeave is rushing to bolster computing capacity for clients.
+But last week, voters in the U.S., where CoreWeave derives most of its revenue, rejected dozens of initiatives on data center development. In Texas, Democrat Gina Hinojosa defeated the incumbent, Republican Greg Abbott, after she said Abbott should try to end 20-year tax breaks on large data centers.
+"So to begin with, we do not anticipate any impact from the seismic regulatory shift that's occurred," Intrator said.
+Almost all of CoreWeave's power is online or is permitted and under construction, he said.
+"If data center construction across the sector were to slow, installed compute becomes scarcer, and the knock-on effect is that GPU pricing may stay higher for longer," Intrator said.
+He said the company does not expect risks to deliveries in 2027 based on construction at permitted locations.
+"We could sell all of the capacity that we have to current buyers that are in the queue. We are choosing not to," Intrator said. We're choosing to be patient. We're choosing to bring the infrastructure to market when it is further along, because we believe that that will result in better economic output for the outstanding infrastructure that we have."
+Meanwhile, demand remains robust, with the company now sitting on a $132.5 billion revenue backlog, up from $104 billion as of June .
+"Should we choose to focus only on our committed backlog, we would expect capex for 2027 to remain in line with our 2026 capex investment, while revenue and EBITDA grow significantly," Agrawal said.
+WATCH: Cramer's Mad Dash: CoreWeave
+watch now
+VIDEO 3:13 03:13
+Cramer's Mad Dash: CoreWeave
+Squawk on the Street
+Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.
+Subscribe to CNBC PRO Subscribe to Investing Club Licensing & Reprints CNBC Councils Join the CNBC Panel Digital Products News Releases Closed Captioning Corrections About CNBC Internships Site Map Careers Help Contact News Tips Got a confidential news tip? We want to hear from you.
+Get In Touch CNBC Newsletters Sign up for free newsletters and get more CNBC delivered to your inbox
+Sign Up Now Get this delivered to your inbox, and more info about our products and services.
+Advertise With Us Please Contact Us Ad Choices Privacy Policy Your Privacy Choices CA Notice Terms of Service © 2026 Versant Media, LLC. All Rights Reserved. A Versant Media Company.
+Data is a real-time snapshot *Data is delayed at least 15 minutes.
+Global Business and Financial News, Stock Quotes, and Market Data
+and Analysis.
+Market Data Terms of Use and Disclaimers Data also provided by

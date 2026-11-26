@@ -1,0 +1,911 @@
+[
+  {
+    "date": "2026-06-12",
+    "open": 585.97,
+    "close": 611.01,
+    "high": 617.99,
+    "low": 583.01,
+    "volume_shares": 655527.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-15",
+    "open": 631.62,
+    "close": 635.58,
+    "high": 650.91,
+    "low": 625.0,
+    "volume_shares": 664568.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-16",
+    "open": 639.77,
+    "close": 588.03,
+    "high": 639.77,
+    "low": 586.56,
+    "volume_shares": 701590.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-17",
+    "open": 605.0,
+    "close": 584.38,
+    "high": 610.47,
+    "low": 583.0,
+    "volume_shares": 811125.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-18",
+    "open": 600.0,
+    "close": 573.76,
+    "high": 604.0,
+    "low": 563.79,
+    "volume_shares": 1353855.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-22",
+    "open": 577.72,
+    "close": 617.09,
+    "high": 625.14,
+    "low": 571.0,
+    "volume_shares": 806263.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-23",
+    "open": 575.53,
+    "close": 583.55,
+    "high": 596.34,
+    "low": 562.0,
+    "volume_shares": 674641.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-24",
+    "open": 575.97,
+    "close": 568.17,
+    "high": 591.73,
+    "low": 555.0,
+    "volume_shares": 938226.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-25",
+    "open": 575.36,
+    "close": 567.79,
+    "high": 585.0,
+    "low": 541.0,
+    "volume_shares": 898471.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-26",
+    "open": 550.8,
+    "close": 524.79,
+    "high": 554.15,
+    "low": 520.56,
+    "volume_shares": 7021575.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-29",
+    "open": 535.0,
+    "close": 528.23,
+    "high": 542.18,
+    "low": 503.68,
+    "volume_shares": 982782.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-06-30",
+    "open": 530.66,
+    "close": 562.08,
+    "high": 573.5,
+    "low": 530.66,
+    "volume_shares": 894093.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-01",
+    "open": 543.79,
+    "close": 547.18,
+    "high": 556.11,
+    "low": 528.0,
+    "volume_shares": 684457.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-02",
+    "open": 542.96,
+    "close": 499.61,
+    "high": 543.56,
+    "low": 489.28,
+    "volume_shares": 680161.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-06",
+    "open": 505.0,
+    "close": 500.75,
+    "high": 521.41,
+    "low": 498.42,
+    "volume_shares": 787756.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-07",
+    "open": 483.24,
+    "close": 468.48,
+    "high": 497.0,
+    "low": 461.02,
+    "volume_shares": 1030561.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-08",
+    "open": 466.91,
+    "close": 480.07,
+    "high": 483.39,
+    "low": 456.67,
+    "volume_shares": 1019861.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-09",
+    "open": 495.72,
+    "close": 482.78,
+    "high": 507.06,
+    "low": 481.25,
+    "volume_shares": 698171.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-10",
+    "open": 476.51,
+    "close": 471.13,
+    "high": 484.34,
+    "low": 462.05,
+    "volume_shares": 616997.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-13",
+    "open": 464.42,
+    "close": 474.64,
+    "high": 488.38,
+    "low": 463.0,
+    "volume_shares": 632204.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-14",
+    "open": 490.93,
+    "close": 482.78,
+    "high": 502.9,
+    "low": 477.02,
+    "volume_shares": 619917.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-15",
+    "open": 486.98,
+    "close": 486.65,
+    "high": 495.31,
+    "low": 470.15,
+    "volume_shares": 870160.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-16",
+    "open": 475.0,
+    "close": 460.19,
+    "high": 480.67,
+    "low": 457.04,
+    "volume_shares": 656691.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-17",
+    "open": 450.9,
+    "close": 478.39,
+    "high": 479.69,
+    "low": 440.02,
+    "volume_shares": 1062858.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-20",
+    "open": 493.81,
+    "close": 494.26,
+    "high": 506.95,
+    "low": 490.18,
+    "volume_shares": 1077121.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-21",
+    "open": 514.02,
+    "close": 527.35,
+    "high": 534.12,
+    "low": 505.4,
+    "volume_shares": 793904.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-22",
+    "open": 510.34,
+    "close": 513.67,
+    "high": 527.42,
+    "low": 510.34,
+    "volume_shares": 413585.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-23",
+    "open": 512.07,
+    "close": 517.73,
+    "high": 530.95,
+    "low": 510.08,
+    "volume_shares": 403764.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-24",
+    "open": 510.84,
+    "close": 476.04,
+    "high": 512.0,
+    "low": 474.0,
+    "volume_shares": 575421.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-27",
+    "open": 477.1,
+    "close": 470.82,
+    "high": 484.08,
+    "low": 454.79,
+    "volume_shares": 802556.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-28",
+    "open": 453.09,
+    "close": 449.72,
+    "high": 456.0,
+    "low": 429.48,
+    "volume_shares": 1310530.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-29",
+    "open": 446.15,
+    "close": 414.5,
+    "high": 449.4,
+    "low": 403.62,
+    "volume_shares": 813113.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-30",
+    "open": 440.57,
+    "close": 439.33,
+    "high": 449.92,
+    "low": 432.29,
+    "volume_shares": 812137.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-07-31",
+    "open": 458.8,
+    "close": 435.41,
+    "high": 467.98,
+    "low": 432.7,
+    "volume_shares": 885523.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-03",
+    "open": 417.35,
+    "close": 455.94,
+    "high": 458.68,
+    "low": 411.23,
+    "volume_shares": 760561.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-04",
+    "open": 525.0,
+    "close": 531.03,
+    "high": 542.88,
+    "low": 505.0,
+    "volume_shares": 1456059.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-05",
+    "open": 522.22,
+    "close": 522.22,
+    "high": 545.52,
+    "low": 511.23,
+    "volume_shares": 564554.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-06",
+    "open": 510.99,
+    "close": 543.95,
+    "high": 555.4,
+    "low": 502.0,
+    "volume_shares": 687243.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-07",
+    "open": 563.0,
+    "close": 562.38,
+    "high": 579.47,
+    "low": 554.47,
+    "volume_shares": 719234.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-10",
+    "open": 565.41,
+    "close": 527.07,
+    "high": 577.17,
+    "low": 527.0,
+    "volume_shares": 462024.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-11",
+    "open": 533.3,
+    "close": 525.88,
+    "high": 536.06,
+    "low": 520.76,
+    "volume_shares": 609422.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-12",
+    "open": 569.41,
+    "close": 571.88,
+    "high": 587.08,
+    "low": 559.09,
+    "volume_shares": 782392.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-13",
+    "open": 564.21,
+    "close": 566.49,
+    "high": 590.76,
+    "low": 564.21,
+    "volume_shares": 692983.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-14",
+    "open": 570.0,
+    "close": 570.22,
+    "high": 583.64,
+    "low": 556.8,
+    "volume_shares": 592402.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-17",
+    "open": 583.15,
+    "close": 598.58,
+    "high": 603.09,
+    "low": 576.5,
+    "volume_shares": 1587323.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-18",
+    "open": 513.7,
+    "close": 482.59,
+    "high": 520.0,
+    "low": 467.83,
+    "volume_shares": 3159345.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-19",
+    "open": 496.22,
+    "close": 454.55,
+    "high": 496.95,
+    "low": 448.79,
+    "volume_shares": 1647275.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-20",
+    "open": 453.21,
+    "close": 444.87,
+    "high": 457.0,
+    "low": 437.12,
+    "volume_shares": 1115052.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-21",
+    "open": 449.69,
+    "close": 436.67,
+    "high": 449.9,
+    "low": 424.97,
+    "volume_shares": 1228783.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-24",
+    "open": 428.63,
+    "close": 421.14,
+    "high": 429.28,
+    "low": 413.68,
+    "volume_shares": 1144256.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-25",
+    "open": 430.0,
+    "close": 431.54,
+    "high": 434.0,
+    "low": 423.87,
+    "volume_shares": 817706.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-26",
+    "open": 429.6,
+    "close": 437.8,
+    "high": 438.79,
+    "low": 428.29,
+    "volume_shares": 792656.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-27",
+    "open": 449.68,
+    "close": 432.71,
+    "high": 453.94,
+    "low": 425.81,
+    "volume_shares": 1145945.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-28",
+    "open": 425.42,
+    "close": 414.36,
+    "high": 428.1,
+    "low": 412.57,
+    "volume_shares": 732598.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-08-31",
+    "open": 418.41,
+    "close": 412.93,
+    "high": 418.93,
+    "low": 406.23,
+    "volume_shares": 1001376.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-01",
+    "open": 410.4,
+    "close": 402.07,
+    "high": 417.2,
+    "low": 400.35,
+    "volume_shares": 862472.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-02",
+    "open": 399.0,
+    "close": 395.35,
+    "high": 399.76,
+    "low": 391.34,
+    "volume_shares": 779629.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-03",
+    "open": 390.65,
+    "close": 395.0,
+    "high": 398.3,
+    "low": 380.39,
+    "volume_shares": 1051215.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-04",
+    "open": 402.32,
+    "close": 407.4,
+    "high": 412.54,
+    "low": 399.95,
+    "volume_shares": 578592.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-08",
+    "open": 412.95,
+    "close": 416.31,
+    "high": 428.5,
+    "low": 412.5,
+    "volume_shares": 817493.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-09",
+    "open": 418.29,
+    "close": 418.27,
+    "high": 425.94,
+    "low": 416.71,
+    "volume_shares": 538506.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-10",
+    "open": 408.44,
+    "close": 403.95,
+    "high": 414.9,
+    "low": 402.39,
+    "volume_shares": 625492.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-11",
+    "open": 412.84,
+    "close": 414.58,
+    "high": 418.95,
+    "low": 407.29,
+    "volume_shares": 467046.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-14",
+    "open": 390.1,
+    "close": 382.55,
+    "high": 397.41,
+    "low": 381.68,
+    "volume_shares": 898337.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-15",
+    "open": 388.38,
+    "close": 374.91,
+    "high": 390.66,
+    "low": 373.7,
+    "volume_shares": 767170.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-16",
+    "open": 383.5,
+    "close": 392.68,
+    "high": 400.75,
+    "low": 382.0,
+    "volume_shares": 810977.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-17",
+    "open": 403.9,
+    "close": 380.92,
+    "high": 411.46,
+    "low": 378.7,
+    "volume_shares": 896280.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-18",
+    "open": 387.0,
+    "close": 388.55,
+    "high": 395.0,
+    "low": 384.02,
+    "volume_shares": 1370445.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-21",
+    "open": 402.13,
+    "close": 401.57,
+    "high": 405.7,
+    "low": 393.13,
+    "volume_shares": 668169.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-22",
+    "open": 396.0,
+    "close": 403.8,
+    "high": 408.6,
+    "low": 390.64,
+    "volume_shares": 735149.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-23",
+    "open": 405.75,
+    "close": 400.85,
+    "high": 406.49,
+    "low": 395.23,
+    "volume_shares": 567156.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-24",
+    "open": 393.01,
+    "close": 398.36,
+    "high": 403.73,
+    "low": 391.08,
+    "volume_shares": 594101.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-25",
+    "open": 406.0,
+    "close": 417.39,
+    "high": 419.63,
+    "low": 401.58,
+    "volume_shares": 743491.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-28",
+    "open": 417.0,
+    "close": 409.96,
+    "high": 420.49,
+    "low": 400.3,
+    "volume_shares": 805634.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-29",
+    "open": 418.15,
+    "close": 424.12,
+    "high": 424.62,
+    "low": 411.42,
+    "volume_shares": 755745.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-09-30",
+    "open": 422.6,
+    "close": 424.27,
+    "high": 430.0,
+    "low": 411.07,
+    "volume_shares": 767352.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-01",
+    "open": 420.41,
+    "close": 451.44,
+    "high": 452.99,
+    "low": 418.79,
+    "volume_shares": 960920.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-02",
+    "open": 460.0,
+    "close": 463.69,
+    "high": 467.37,
+    "low": 455.44,
+    "volume_shares": 659964.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-05",
+    "open": 466.0,
+    "close": 453.84,
+    "high": 468.45,
+    "low": 450.05,
+    "volume_shares": 675352.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-06",
+    "open": 459.35,
+    "close": 489.16,
+    "high": 491.14,
+    "low": 456.91,
+    "volume_shares": 1445664.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-07",
+    "open": 471.31,
+    "close": 497.99,
+    "high": 500.0,
+    "low": 467.67,
+    "volume_shares": 939985.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-08",
+    "open": 485.5,
+    "close": 487.33,
+    "high": 497.95,
+    "low": 475.52,
+    "volume_shares": 1201186.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-09",
+    "open": 501.93,
+    "close": 486.28,
+    "high": 515.0,
+    "low": 475.0,
+    "volume_shares": 690627.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-12",
+    "open": 478.68,
+    "close": 456.4,
+    "high": 478.68,
+    "low": 445.29,
+    "volume_shares": 1048131.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-13",
+    "open": 442.94,
+    "close": 427.82,
+    "high": 449.27,
+    "low": 420.03,
+    "volume_shares": 1120411.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-14",
+    "open": 422.02,
+    "close": 392.95,
+    "high": 424.99,
+    "low": 391.61,
+    "volume_shares": 1323037.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-15",
+    "open": 373.88,
+    "close": 385.2,
+    "high": 385.97,
+    "low": 364.41,
+    "volume_shares": 1015769.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-16",
+    "open": 379.23,
+    "close": 363.51,
+    "high": 381.37,
+    "low": 362.64,
+    "volume_shares": 1045718.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-19",
+    "open": 377.0,
+    "close": 362.69,
+    "high": 379.8,
+    "low": 359.4,
+    "volume_shares": 766834.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-20",
+    "open": 357.0,
+    "close": 355.48,
+    "high": 366.08,
+    "low": 345.71,
+    "volume_shares": 835311.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-21",
+    "open": 364.0,
+    "close": 356.06,
+    "high": 367.0,
+    "low": 355.3,
+    "volume_shares": 511430.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-22",
+    "open": 340.55,
+    "close": 317.67,
+    "high": 342.0,
+    "low": 311.81,
+    "volume_shares": 1131282.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-23",
+    "open": 316.95,
+    "close": 314.94,
+    "high": 320.69,
+    "low": 305.63,
+    "volume_shares": 848302.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-26",
+    "open": 318.67,
+    "close": 325.24,
+    "high": 335.53,
+    "low": 312.73,
+    "volume_shares": 688040.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-27",
+    "open": 334.1,
+    "close": 343.21,
+    "high": 345.7,
+    "low": 325.05,
+    "volume_shares": 765527.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-28",
+    "open": 354.06,
+    "close": 367.3,
+    "high": 375.86,
+    "low": 346.0,
+    "volume_shares": 1335469.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-29",
+    "open": 358.45,
+    "close": 348.68,
+    "high": 366.65,
+    "low": 348.28,
+    "volume_shares": 1278964.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-10-30",
+    "open": 323.45,
+    "close": 327.29,
+    "high": 338.19,
+    "low": 316.78,
+    "volume_shares": 948236.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-11-02",
+    "open": 331.99,
+    "close": 314.7,
+    "high": 337.09,
+    "low": 312.2,
+    "volume_shares": 1504023.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-11-03",
+    "open": 329.99,
+    "close": 363.33,
+    "high": 371.79,
+    "low": 329.36,
+    "volume_shares": 2369542.0,
+    "source_kind": "daily_history"
+  },
+  {
+    "date": "2026-11-04",
+    "open": 351.29,
+    "close": 341.64,
+    "high": 354.27,
+    "low": 328.0,
+    "volume_shares": 1592666.0,
+    "source_kind": "daily_history"
+  }
+]

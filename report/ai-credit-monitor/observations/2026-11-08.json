@@ -1,0 +1,415 @@
+{
+  "schema_version": 3,
+  "date": "2026-11-08",
+  "automation_id": "ai",
+  "triggered_at": "2026-11-08T00:31:17.494Z",
+  "run_at": "2026-11-08T00:37:20.050260+00:00",
+  "timezone": "Asia/Shanghai",
+  "baseline": false,
+  "comparison_to_previous_observation": "observations/2026-11-07.json",
+  "assessment": "观察",
+  "summary": "周末增量核查未发现足以改变判断的重要新增证据；总体维持观察，保留此前局部信用定价压力。最新FRED仍对应11月5日，旧报价及新闻转载不视为新行情，资料缺失不视为风险缓解。",
+  "market_session": {
+    "local_day": "Sunday",
+    "US_day_since_prior_run": "Saturday",
+    "new_normal_US_trading_session_since_prior_run": false,
+    "last_normal_session_date": "2026-11-06",
+    "note": "Review new disclosures on weekend; do not invent new market observations."
+  },
+  "signals": [
+    {
+      "id": "real_demand_collections_and_cashflow",
+      "assessment": "观察",
+      "evidence_ids": [
+        "terawulf_20261106_q3_earnings_cashflow",
+        "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+        "google_crusoe_wyoming_site_acquired_20261106"
+      ],
+      "notes": "Wulf cash measure includes equipment deposits, not standardized FCF. Historical report periods are not daily changes; no current customer-payment aging or industry utilization series.",
+      "change_since_previous_run": "No material new evidence verified; previous assessment carried forward, not risk relief.",
+      "historical_evidence_reference": "observations/2026-11-07.json#signals",
+      "latest_review_notes": "No newly verified formal capex or supplier revenue guidance cut. Wyoming handoff media context does not establish a new cancelled committed order; financial figures retain their historical reporting dates."
+    },
+    {
+      "id": "credit_funding_and_liquidity",
+      "assessment": "风险升温",
+      "scope": "Localized pricing stress; not a claim of new day-over-day deterioration on Nov6 or financing closure.",
+      "evidence_ids": [
+        "coreweave_20261106_media_bond_cds_quotes",
+        "fred_ig",
+        "fred_hy",
+        "terawulf_20261106_q3_earnings_cashflow"
+      ],
+      "notes": "Same-issuer bond/CDS are one evidence line. Media quotes lack full contract metadata and matched history. Secondary yield is not existing coupon reset or completed new financing cost. MetaEURNov12 settlement remains not due.",
+      "change_since_previous_run": "No material new evidence verified; previous assessment carried forward, not risk relief.",
+      "historical_evidence_reference": "observations/2026-11-07.json#signals",
+      "latest_review_notes": "Previous localized pricing stress assessment remains; no new direct issuer market quote or financing stage change. Fresh FRED download still endsNov5. Prior Nov6CoreWeave media quotes are not Sunday quotes."
+    },
+    {
+      "id": "realized_losses_and_cross_entity_propagation",
+      "assessment": "观察",
+      "evidence_ids": [
+        "ing_20261106_reported_500m_loan_BWIC_identified",
+        "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+        "blackstone_20261106_10q",
+        "ares_20261106_10q"
+      ],
+      "notes": "No verified contract-level chain from Microsoft partner review to CoreWeave default or specific lender loss. Fund redemptions are not AI loan losses; lack of public evidence is not proof of absence.",
+      "change_since_previous_run": "No material new evidence verified; previous assessment carried forward, not risk relief.",
+      "historical_evidence_reference": "observations/2026-11-07.json#signals",
+      "latest_review_notes": "No newly verified same-project escalation, AI loan loss, covenant trigger, guarantee payment or major funding interruption in reviewed incremental sources; private/unreported risks remain incompletely observable."
+    }
+  ],
+  "new_events": [],
+  "source_enrichments": [
+    {
+      "id": "crusoe_wyoming_20261107_media_context",
+      "related_event_id": "google_crusoe_wyoming_site_acquired_20261106",
+      "source": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "publication_at": "2026-11-07T01:40:28Z",
+      "evidence_grade": "reliable_media_context_on_previously_recorded_project_handoff",
+      "new_independent_event": false,
+      "reported_context": [
+        "Google had not become a customer of Crusoe at this site; reported concerns about costs and construction timing preceded takeover.",
+        "Same Wyoming site handoff is linked to the previously announced USD17bn Google development plan; not an additional USD17bn investment.",
+        "Sale terms were first reported in June per article; Crusoe raised USD3.9bn in September per article, neither is a newly occurred weekend event."
+      ],
+      "price_or_net_proceeds_disclosed": false,
+      "confirmed_current_funding_interruption": false,
+      "confirmed_existing_committed_order_cancellation": false,
+      "interpretation": "Additional background on an already recorded transfer, not newly verified default, failed current financing or project cancellation. Media attribution of prior concerns is not a full primary contract or financing history."
+    }
+  ],
+  "historical_newly_acquired_evidence": [
+    {
+      "checked_at": "2026-11-08T00:35:40.084219+00:00",
+      "reliable_accessible_article": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "publication_at": "2026-11-06T22:53:46Z",
+      "primary_company_confirmation": false,
+      "evidence_grade": "reliable_media_relaying_Bloomberg_anonymous_sources",
+      "reference_status": "HistoricalNov6eventbeforepriorcutoff,newlyverifiedcoveragegapnotNov7marketaction",
+      "reported_same_upcoming_round": {
+        "late_September_reported_target_USD": 30000000000,
+        "Nov6_reported_expected_total_approx_USD": 20000000000,
+        "reported_raised_so_far_USD": 11000000000,
+        "reported_valuation_USD": 1250000000000,
+        "round_stage": "Partialroundreportedraised;entireroundnotclosed,expectedcomingweeks",
+        "actual_cash_received_verified": false
+      },
+      "important_limits": [
+        "OriginalKuCoin2026fundingtargetheadlinemustnotbeconvertedintofullyearofficialguidance;TechCrunchdescribesthisnewfundinground.",
+        "Lowerexpectedtotalversusreportedearliertargetdoesnotbyitselfestablishreducedcapitalneedsorfundraisingfailure;causeisnotconfirmedintheaccessiblearticle.",
+        "USD11bnpartialraisereportedbyBloombergsourcesisnotcompanyconfirmedcashreceived;remainingUSD9bnnotsettledorcommittedbythisevidence.",
+        "TechCrunchandReutersheadlinesrelayBloomberg;notmultipleindependentevidenceevents.",
+        "No verified fundingwithdrawal,paymentdefaultorprojectcancellationinthisarticle."
+      ],
+      "original_report_links_from_article": [
+        "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+        "https://www.bloomberg.com/news/articles/2026-09-29/openai-targets-30-billion-in-new-funding-at-1-4-trillion-value",
+        "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+      ],
+      "reuters_status": "RSSdiscoveryofNov6sourcebasedreport;directbodyconnectionreset,notclaimingreadit",
+      "assessment_advice": "Canrecordnewlyverifiedhistoricalfundraisingtargetpressurewithoffsettingpartialfinancingaccess;notindependentproofofcurrentsectorfundingclosure,andeventpredatespriorrun. Rootdecidesifcoveragegapmaterialenoughfornotification.",
+      "historical_newly_acquired": true,
+      "new_weekend_event": false,
+      "stage_verification": {
+        "exact_accessible_reporting": [
+          "OpenAI has reportedly raised $11 billion so far in a new funding round.",
+          "The $11 billion is part of a larger funding round that hasn’t closed yet.",
+          "The round is expected to close in the coming weeks and could total about $20 billion, a source told Bloomberg.",
+          "TechCrunch has reached out to OpenAI for comment."
+        ],
+        "cash_receipt_or_unconditional_partial_closing_verified": false,
+        "investor_subscription_terms_or_conditions_disclosed": false,
+        "financing_stage_label": "Reportedpartialraise;entireroundpending. Noindependentproofcashreceipt/partialclosingconditions."
+      },
+      "contractual_transmission": {
+        "OpenAI_role": "AIbuyer/customerinthemonitoredinfrastructurechain",
+        "specific_supplier_contract_funding_earmarked_in_article": null,
+        "Oracle_or_CoreWeave_payment_or_backlog_change_disclosed": null,
+        "confirmed_order_cancellation_or_prepayment_delay": false
+      },
+      "liquidity_buffer_impact": {
+        "current_available_cash_increase_quantifiable": false,
+        "reason": "No companyfiling,cashreceipttime,fees,conditionsorcurrentcashbalanceprovided. USD11bnisreportedroundprogressnotfullyverifiedunrestrictedcash."
+      },
+      "standalone_assessment_advice": "Doesnotindependentlychangecurrentobservationratingorquantifiablefinancingbuffer. Recordhistoricalnewlyacquiredfundraisingprogressandlowerroundexpectation;nofailedraiseorcontractualtransmissionverified. Notanewweekendevent.",
+      "id": "openai_20261106_reported_partial_round_historical_context",
+      "notification_assessment": "Record financing-size uncertainty and reported partial access; no company-confirmed failed raise, cash receipt, affected supplier contract or quantified runway change. Insufficient alone to materially change the current observation assessment.",
+      "funding_target_is_customer_capex_guidance": false
+    }
+  ],
+  "market_proxies": [
+    {
+      "id": "BAMLC0A0CM",
+      "source_id": "fred_ig",
+      "name": "US investment grade OAS",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-05",
+      "value": 93.0,
+      "previous_date": "2026-11-04",
+      "previous_value": 91.0,
+      "change_bp_vs_previous_market_observation": 2.0,
+      "comparison_to_previous_monitor_run": {
+        "date": "2026-11-05",
+        "value": 93.0,
+        "new_market_observation": false,
+        "value_change_bp": 0.0
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-08",
+        "value": 82.0,
+        "change_bp": 11.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "publication_at": null,
+      "retrieved_at": "2026-11-08T00:32:25.238644+00:00",
+      "archived_csv": "evidence/2026-11-08/market/fred_ig.csv",
+      "note": "Fresh download still endsNov5; no newly verifiedNov6marketobservation. PriorNov5widening is carried historical evidence, not a new daily move or riskrelief."
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "source_id": "fred_hy",
+      "name": "US high yield OAS",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-05",
+      "value": 348.0,
+      "previous_date": "2026-11-04",
+      "previous_value": 332.0,
+      "change_bp_vs_previous_market_observation": 16.0,
+      "comparison_to_previous_monitor_run": {
+        "date": "2026-11-05",
+        "value": 348.0,
+        "new_market_observation": false,
+        "value_change_bp": 0.0
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-08",
+        "value": 315.0,
+        "change_bp": 33.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "publication_at": null,
+      "retrieved_at": "2026-11-08T00:32:25.239088+00:00",
+      "archived_csv": "evidence/2026-11-08/market/fred_hy.csv",
+      "note": "Fresh download still endsNov5; no newly verifiedNov6marketobservation. PriorNov5widening is carried historical evidence, not a new daily move or riskrelief."
+    }
+  ],
+  "cashflow_definition": {
+    "standard": "Operating cash flow minus cash purchases of PP&E; finance lease principal separately reported.",
+    "TeraWulf_exception": "Combined plant/equipment purchases and deposits prevent exact standardized measure; expanded cash measure is separately labeled, with common_cash_surplus=null."
+  },
+  "historical_financial_baseline_reference": {
+    "file": "reference-baselines/2026Q3-alphabet-meta.json",
+    "is_new_release": false,
+    "latest_additional_report": {
+      "issuer": "TeraWulf",
+      "period_end": "2026-09-30",
+      "publication_date": "2026-11-06",
+      "reference": "observations/2026-11-07.json#latest_new_financial_report"
+    },
+    "quarterly_data_refreshed_without_new_disclosure": false
+  },
+  "focused_checks": {
+    "customer_capex_cuts": {
+      "status": "No new formal cut verified within reviewed coverage",
+      "new_formal_cut_records": [],
+      "historical_baseline_unchanged": true,
+      "reported_customer_strategy_event": "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+      "notes": "Do not convert partner roster consolidation or contract nonrenewal reporting into company-wide capex cut. No new guidance date/value to invent.",
+      "reviewed_at": "2026-11-08T00:37:20.050260+00:00",
+      "new_material_change_verified": false,
+      "new_disclosure_status": "No newly verified company capex revision after prior cutoff; analyst forecasts and repeated partner headlines excluded."
+    },
+    "supplier_consecutive_revenue_guidance_cuts": {
+      "status": "No new formal cut or two-cut sequence verified",
+      "new_comparable_revision_count_observed": 0,
+      "scope_and_limit": {
+        "current_findings": "evidence/2026-11-08/chain/findings.json",
+        "previous_baseline": "observations/2026-11-07.json#focused_checks",
+        "absence_not_proof_of_stable_demand": true
+      },
+      "notes": "Count is new observed revisions since cutoff, not an assertion that no historical cuts exist. AAOI prior same-period guidance unavailable; quarter-to-quarter growth is not revision.",
+      "reviewed_at": "2026-11-08T00:37:20.050260+00:00",
+      "new_material_change_verified": false,
+      "revision_count_window": {
+        "start": "2026-11-07T00:33:27.770774+00:00",
+        "end": "2026-11-08T00:37:20.050260+00:00"
+      }
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "status": "No verified same-project escalation",
+      "project_checks": {
+        "IREN_Microsoft": "No newSECdisclosuresafterNov5earnings;repeatedheadlinesdescribealreadynotifieddesign/suppliertimingdelay. No verified cancellation/refund/financingbreak.",
+        "TeraWulf_Anthropic_Google": "NewquarterreportrepeatsNov4conditionalbackstopandanticipatedfinancing. No completionorfailureassumedfromwordanticipated;noactualpayout.",
+        "TeraWulf_Fluidstack_LakeMariner": "MaintainedCB4Q4/CB5early2027schedule;oneFluidstackleasealreadycommencedasofSept30."
+      },
+      "reported_unconfirmed_contract_event": "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+      "project_identity_amount_expiry_missing": true,
+      "reviewed_at": "2026-11-08T00:37:20.050260+00:00",
+      "new_material_change_verified": false,
+      "new_escalation_records": [],
+      "Wyoming_context": "crusoe_wyoming_20261107_media_context",
+      "Microsoft_Oracle": "No new company-specific confirmation, amount, term or formal guidance revision verified; retain Nov6 anonymous reporting classification."
+    }
+  },
+  "financing_stage_review": {
+    "Meta_EUR9bn": {
+      "event_id": "meta_eur_20261104_pricing",
+      "expected_settlement_date": "2026-11-12",
+      "status": "priced_not_verified_settled_not_due_yet",
+      "new_stage_change_verified": false
+    },
+    "ING_loan_BWIC": {
+      "event_id": "ing_20261106_reported_500m_loan_BWIC_identified",
+      "reported_bid_deadline": "2026-11-19",
+      "stage": "reported_future_bid_solicitation",
+      "new_verified_sale_price_or_loss": false
+    },
+    "completed_prior_financings": [
+      {
+        "event_id": "oracle_20261102_priced_bonds",
+        "expected_US_settlement_date": "2026-11-04",
+        "status": "completed_confirmed_by_8k",
+        "completed_date": "2026-11-04",
+        "verified_at": "2026-11-05T00:35:16.315922+00:00",
+        "source_id": "oracle_20261104_completion"
+      },
+      {
+        "event_id": "meta_20261103_pricing",
+        "expected_US_settlement_date": "2026-11-05",
+        "status": "completed_confirmed_by_company_8k",
+        "last_checked_at": "2026-11-05T00:35:16.315922+00:00",
+        "currency": "USD",
+        "note": "Nov5US settlement lies later than Nov5morningBeijing; not evidence of delay.",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "meta_20261105_usd_notes_completed"
+      },
+      {
+        "event_id": "alphabet_20261102_eur_notes",
+        "expected_settlement_date": "2026-11-05",
+        "currency": "EUR",
+        "status": "completed_confirmed_by_company_8k",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "alphabet_20261105_eur_notes_completed"
+      }
+    ],
+    "notes": "Previous completed issues remain completed; no reversal based on an earlier-dated prospectus, no future bid deadline assumed to be a sale or loss."
+  },
+  "weekly_review": {
+    "due_today": false,
+    "last_completed_date": "2026-11-06",
+    "reference": "observations/2026-11-06.json#weekly_review"
+  },
+  "source_coverage": {
+    "status": "success_with_existing_market_and_private_information_gaps",
+    "subtask_findings": {
+      "priority": "evidence/2026-11-08/priority/findings.json",
+      "bigtech": "evidence/2026-11-08/bigtech/findings.json",
+      "chain": "evidence/2026-11-08/chain/findings.json"
+    },
+    "incremental_window": {
+      "start": "2026-11-07T00:33:27.770774+00:00",
+      "end": "2026-11-08T00:37:20.050260+00:00"
+    },
+    "root_market_manifest": "evidence/2026-11-08/market/manifest.json",
+    "incremental_news_manifest": "evidence/2026-11-08/market/incremental_news_items.json",
+    "fresh_market_download_has_new_observation": false,
+    "observed_absence_not_proof_of_absent_risk": true
+  },
+  "missing_data": [
+    "Direct comparable issuer5YCDS/CDX.IG series, full currency/rank/contract/quote metadata; no20day issuer history or underlying bank report.",
+    "CoreWeave same-bond identifier, exact trade time, price, currency, rank, YTM convention and matched benchmark spread; reported76price remains unverified.",
+    "Microsoft Oracle contract amount, dates, remaining commitments, company confirmation and actual revenue/backlog impact; no cancellation confirmed for CoreWeave or IREN.",
+    "Private loan-level AI exposures, customer aging, compute rental/utilization series and comprehensive next12month actual contractual obligations.",
+    "TeraWulf deposits-excluded cashPP&E, current freely available total liquidity and full near-term principal/interest schedules; Sept30cash is historical.",
+    "IREN final delivery/credits and prospective funding execution; Google/TeraWulf guarantee maximum/overlap and actual payment triggers remain incomplete.",
+    "MetaEUR9bnNov12 settlement not due; INGNov19auction result/price not yet available.",
+    "Some companyIR pages403/429; comprehensive disclosure coverage unavailable. Historical Barclaysfullreport remains missing."
+  ],
+  "unverified_discovery": [
+    {
+      "headline": "Weekend aggregators claim higher CoreWeave bond yields",
+      "status": "Not used without reliable original source, exact event date, comparable security and actual financing stage. OpenAI same-round media report separately recorded as newly acquired historical context, not a verified full-year official financing target revision."
+    },
+    {
+      "headline": "Weekend lender commentary and protests",
+      "status": "No verified new AI-specific loss or project financing interruption established from titles or commentary; see chain and bigtech findings."
+    }
+  ],
+  "comparability": {
+    "issuer_CDS_direct_available": false,
+    "issuer_CDS_dated_media_quotes_available": true,
+    "matched_secondary_spread_history_available": false,
+    "new_issue_terms_available": true,
+    "FX_currencies_combined": false,
+    "probability_model": null,
+    "crash_probability": null
+  },
+  "next_confirmation_conditions": [
+    "Company confirmation/size of Microsoft Oracle contract change, other partner selection decisions and formal capex or supplier revenue-guidance cuts.",
+    "Comparable CoreWeave bond/CDS series and actual funding terms or execution; distinguish Nov6partial CDS easing from sustained recovery.",
+    "TeraWulf/IREN delivery acceptance, actual collections and financing execution; quantify cancellations, refund or shortfall if formally disclosed.",
+    "INGNov19bids/results and MetaEURNov12closing; verify actual discounted sale/loss or funding withdrawal rather than ordinary risk distribution.",
+    "Verified default, covenant trigger, guarantee payout or AI-attributed lender loss with size and direct contract links."
+  ],
+  "sources": [
+    {
+      "id": "techcrunch_wyoming_context",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "type": "reliable_media_context_on_previously_recorded_project_handoff",
+      "publication_at": "2026-11-07T01:40:28Z",
+      "market_time": null,
+      "archived": "evidence/2026-11-08/market/techcrunch_nov6.html"
+    },
+    {
+      "id": "openai_partial_round_context",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "type": "reliable_media_relaying_Bloomberg_anonymous_sources",
+      "publication_at": "2026-11-06T22:53:46Z",
+      "market_time": null,
+      "archived": "evidence/2026-11-08/priority/openai_techcrunch.html"
+    },
+    {
+      "id": "fred_ig",
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "type": "broad_market_proxy_not_AI_CDS",
+      "publication_at": null,
+      "market_time": "2026-11-05",
+      "retrieved_at": "2026-11-08T00:32:25.238644+00:00",
+      "archived": "evidence/2026-11-08/market/fred_ig.csv"
+    },
+    {
+      "id": "fred_hy",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "type": "broad_market_proxy_not_AI_CDS",
+      "publication_at": null,
+      "market_time": "2026-11-05",
+      "retrieved_at": "2026-11-08T00:32:25.239088+00:00",
+      "archived": "evidence/2026-11-08/market/fred_hy.csv"
+    }
+  ],
+  "notification": {
+    "decision": "DONT_NOTIFY",
+    "prepared_at": "2026-11-08T00:37:20.050260+00:00",
+    "reason": "No material verified change since last notification. Newly acquired historical OpenAI partial-round reporting lacks company confirmation, actual cash timing and supplier/contract impact, so it does not independently change the assessment. Weekend repeats and pending events do not trigger a report.",
+    "overall_assessment_changed": false,
+    "material_evidence_changed": false,
+    "last_actual_notification_at": "2026-11-07T00:33:27.770774+00:00"
+  },
+  "interpretation_limits": [
+    "No stock-drop-to-default inference, no invented crash probability.",
+    "Anonymous nonrenewal reporting is not verified broad order cancellation or capex cut.",
+    "Public media CDS/bond quotes are distinct from current terminal data and actual financing failure.",
+    "No user holding assumptions or A-share supplier order transmission without direct evidence."
+  ],
+  "raw_evidence_directory": "evidence/2026-11-08"
+}

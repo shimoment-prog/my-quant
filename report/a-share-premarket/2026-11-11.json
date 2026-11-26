@@ -1,0 +1,990 @@
+{
+  "schema_version": 1,
+  "automation_id": "a",
+  "report_date": "2026-11-11",
+  "triggered_at": "2026-11-11T01:15:47.580Z",
+  "prepared_at": "2026-11-11T01:20:18.345371+00:00",
+  "timezone": "Asia/Shanghai",
+  "scheduled_local_time": "08:45",
+  "actual_report_is_delayed_but_before_regular_Ashare_open": true,
+  "normal_trading_day": true,
+  "calendar_evidence": {
+    "weekday": "Wednesday",
+    "SSE_annual_calendar": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+    "holiday_on_date": false,
+    "temporary_closure_notice_found": false,
+    "current_pages_reviewed": [
+      "https://www.sse.com.cn/",
+      "https://www.szse.cn/",
+      "https://www.szse.cn/disclosure/notice/general/index.html"
+    ],
+    "limitation": "SSEofficial2026annualcalendarhasnoNovemberholiday;independentcompleteSZSEannualtablenotobtained.Currentaccessibleexchangehomeandnoticepagesreviewed,noNov11temporaryclosurefound."
+  },
+  "last_completed_us_session": "2026-11-10",
+  "us_equities": {
+    "usDJI": {
+      "name": "道琼斯",
+      "price": 52231.89,
+      "previous_close": 52389.75,
+      "open": 52163.21,
+      "change_pct": -0.3,
+      "high": 52316.89,
+      "low": 51977.08,
+      "provider_timestamp": "2026-11-10 17:00:40",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usIXIC": {
+      "name": "纳斯达克",
+      "price": 25065.87,
+      "previous_close": 25253.14,
+      "open": 25047.45,
+      "change_pct": -0.74,
+      "high": 25286.83,
+      "low": 24816.1,
+      "provider_timestamp": "2026-11-10 17:15:59",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usINX": {
+      "name": "标普500",
+      "price": 7520.93,
+      "previous_close": 7549.94,
+      "open": 7513.09,
+      "change_pct": -0.38,
+      "high": 7543.92,
+      "low": 7470.43,
+      "provider_timestamp": "2026-11-10 17:00:31",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usNVDA": {
+      "name": "英伟达",
+      "price": 168.89,
+      "previous_close": 178.67,
+      "open": 173.97,
+      "change_pct": -5.47,
+      "high": 174.69,
+      "low": 165.89,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usAMD": {
+      "name": "超威半导体",
+      "price": 515.21,
+      "previous_close": 508.58,
+      "open": 502.8,
+      "change_pct": 1.3,
+      "high": 539.25,
+      "low": 495.0,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usMSFT": {
+      "name": "微软",
+      "price": 533.16,
+      "previous_close": 545.18,
+      "open": 542.98,
+      "change_pct": -2.2,
+      "high": 544.19,
+      "low": 526.37,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usMETA": {
+      "name": "Meta Platforms",
+      "price": 641.39,
+      "previous_close": 641.37,
+      "open": 637.98,
+      "change_pct": 0.0,
+      "high": 647.28,
+      "low": 635.5,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usAMZN": {
+      "name": "亚马逊",
+      "price": 270.87,
+      "previous_close": 266.93,
+      "open": 266.21,
+      "change_pct": 1.48,
+      "high": 272.88,
+      "low": 266.14,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usGOOG": {
+      "name": "谷歌-C",
+      "price": 284.92,
+      "previous_close": 286.01,
+      "open": 287.15,
+      "change_pct": -0.38,
+      "high": 289.5,
+      "low": 283.37,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usAVGO": {
+      "name": "博通",
+      "price": 331.98,
+      "previous_close": 319.48,
+      "open": 316.71,
+      "change_pct": 3.91,
+      "high": 334.67,
+      "low": 316.69,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usLITE": {
+      "name": "Lumentum",
+      "price": 585.57,
+      "previous_close": 596.16,
+      "open": 575.06,
+      "change_pct": -1.78,
+      "high": 612.62,
+      "low": 570.41,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usMRVL": {
+      "name": "迈威尔科技",
+      "price": 154.39,
+      "previous_close": 154.6,
+      "open": 149.97,
+      "change_pct": -0.14,
+      "high": 158.6,
+      "low": 147.79,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usCOHR": {
+      "name": "Coherent Corp.",
+      "price": 214.66,
+      "previous_close": 225.19,
+      "open": 214.91,
+      "change_pct": -4.68,
+      "high": 227.77,
+      "low": 207.12,
+      "provider_timestamp": "2026-11-10 16:08:16",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usCIEN": {
+      "name": "Ciena科技",
+      "price": 272.1,
+      "previous_close": 269.33,
+      "open": 263.51,
+      "change_pct": 1.03,
+      "high": 282.99,
+      "low": 261.0,
+      "provider_timestamp": "2026-11-10 16:08:16",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usAAOI": {
+      "name": "应用光电",
+      "price": 48.32,
+      "previous_close": 52.1,
+      "open": 49.37,
+      "change_pct": -7.26,
+      "high": 51.99,
+      "low": 46.39,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usFN": {
+      "name": "Fabrinet",
+      "price": 348.52,
+      "previous_close": 365.94,
+      "open": 361.69,
+      "change_pct": -4.76,
+      "high": 368.55,
+      "low": 332.04,
+      "provider_timestamp": "2026-11-10 16:08:16",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usQCOM": {
+      "name": "高通",
+      "price": 173.53,
+      "previous_close": 171.47,
+      "open": 168.73,
+      "change_pct": 1.2,
+      "high": 174.41,
+      "low": 167.2,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usARM": {
+      "name": "安谋",
+      "price": 181.49,
+      "previous_close": 186.3,
+      "open": 181.81,
+      "change_pct": -2.58,
+      "high": 186.51,
+      "low": 175.78,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usCRWV": {
+      "name": "CoreWeave",
+      "price": 48.73,
+      "previous_close": 48.98,
+      "open": 48.1,
+      "change_pct": -0.51,
+      "high": 51.02,
+      "low": 47.06,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usIREN": {
+      "name": "Iren Limited",
+      "price": 19.73,
+      "previous_close": 21.41,
+      "open": 20.85,
+      "change_pct": -7.85,
+      "high": 21.67,
+      "low": 19.03,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    }
+  },
+  "sox": {
+    "price": 9998.3303,
+    "change_pct": -0.35,
+    "market_session": "2026-11-10",
+    "provider_updated_beijing": "2026-11-11 06:16:01",
+    "source": "https://hq.sinajs.cn/list=gb_sox",
+    "instrument": "Philadelphia_Semiconductor_Index_not_SOXX_ETF"
+  },
+  "a_share_previous_close": {
+    "sh000001": {
+      "market_session": "2026-11-10",
+      "name": "上证指数",
+      "open": 3682.04,
+      "price": 3663.72,
+      "previous_close": 3660.79,
+      "high": 3683.73,
+      "low": 3660.72,
+      "change_pct": 0.08,
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2026-11-09,2026-11-10,2,qfq",
+      "note": "Use historicalday array; ignore currentday preauction qt embedded in same response."
+    },
+    "sz399001": {
+      "market_session": "2026-11-10",
+      "name": "深证成指",
+      "open": 11313.32,
+      "price": 11241.54,
+      "previous_close": 11145.49,
+      "high": 11315.53,
+      "low": 11217.01,
+      "change_pct": 0.86,
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001,day,2026-11-09,2026-11-10,2,qfq",
+      "note": "Use historicalday array; ignore currentday preauction qt embedded in same response."
+    },
+    "sz399006": {
+      "market_session": "2026-11-10",
+      "name": "创业板指",
+      "open": 2518.44,
+      "price": 2494.4,
+      "previous_close": 2458.56,
+      "high": 2520.01,
+      "low": 2487.56,
+      "change_pct": 1.46,
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2026-11-09,2026-11-10,2,qfq",
+      "note": "Use historicalday array; ignore currentday preauction qt embedded in same response."
+    }
+  },
+  "previous_sh_sz_turnover_yuan": 1504813000000.0,
+  "previous_sh_sz_turnover_change_vs_prior_day_pct": 1.497333098382092,
+  "turnover_source": "https://finance.ce.cn/stock/gsgdbd/202611/t20261110_3289989.shtml",
+  "cross_assets": [
+    {
+      "name": "A50 futures vendor indication",
+      "value": 12871.85,
+      "unit": "points",
+      "previous_vendor_settlement": 12917.0,
+      "change_pct": -0.34953936672601493,
+      "quote_time_beijing": "2026-11-11T09:17:20+08:00",
+      "source": "https://hq.sinajs.cn/list=hf_CHA50CFD",
+      "is_current_morning_quote": true,
+      "caveat": "Vendor indication not independently verified exchange direct. Comparison uses vendor settlement field."
+    },
+    {
+      "name": "WTI futures vendor indication",
+      "value": 86.58,
+      "unit": "USD_per_barrel",
+      "previous_vendor_settlement": 86.04,
+      "change_pct": 0.6276150627614996,
+      "quote_time_beijing": "2026-11-11T09:17:16+08:00",
+      "source": "https://hq.sinajs.cn/list=hf_CL",
+      "is_current_morning_quote": true,
+      "caveat": "Vendor indication not independently verified exchange direct. Comparison uses vendor settlement field."
+    },
+    {
+      "name": "Gold futures vendor indication",
+      "value": 4034.744,
+      "unit": "USD_per_ounce",
+      "previous_vendor_settlement": 4030.2,
+      "change_pct": 0.112748746960456,
+      "quote_time_beijing": "2026-11-11T09:17:21+08:00",
+      "source": "https://hq.sinajs.cn/list=hf_GC",
+      "is_current_morning_quote": true,
+      "caveat": "Vendor indication not independently verified exchange direct. Comparison uses vendor settlement field."
+    },
+    {
+      "name": "USD/CNH",
+      "value": 6.6771,
+      "previous_vendor_close": 6.6763,
+      "change_pct": 0.011982685020139883,
+      "quote_time_beijing": "2026-11-11T09:17:12+08:00",
+      "source": "https://hq.sinajs.cn/list=fx_susdcnh"
+    },
+    {
+      "name": "Dollar index",
+      "value": 102.2887,
+      "previous_vendor_close": 102.2649,
+      "change_pct": 0.023272892263137557,
+      "quote_time_beijing": "2026-11-11T09:17:12+08:00",
+      "source": "https://hq.sinajs.cn/list=DINIW"
+    },
+    {
+      "name": "US10Y Treasury yield",
+      "value_pct": 5.0,
+      "previous_vendor_close_pct": 4.862,
+      "change_bp": 13.79999999999999,
+      "quote_time_exchange": "2026-11-10T17:05:00.000-0500",
+      "source": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json",
+      "provider": "CNBC Quote Cache / Tradeweb",
+      "caveat": "Timed electronic bond quote, not current Beijing09:17 or exact16:00US equity close."
+    }
+  ],
+  "previous_forecast_review": {
+    "available": true,
+    "forecast_file": "2026-11-10.json",
+    "original_forecast": {
+      "main": "高开后震荡修复，量能跟不上时仍有冲高回落风险。",
+      "confidence": "中等",
+      "opening_direction": "美股11月9日广泛反弹及A50最后夜盘涨1.08%支持高开尝试，09:25竞价验证；无精确开盘缺口预测。",
+      "full_day": "海外半导体和光通信大涨有助科技修复，国内前日缩量及分化、高利率约束使全天持续性仍待同时间成交与广度确认。",
+      "upside_alternative": "上涨扩散、同时间成交改善，科技回踩站稳分时成交均价且指数站稳昨日高点，则反弹延续。",
+      "downside_alternative": "高开后失守开盘区间转冲高回落；上证3653.05或创业板2458.01昨日低点失守且广度恶化，转继续承压。",
+      "medium_term": "中期止跌尚未确认；今晚美国CPI及未来财报可能改变判断，不把价格反弹或管理层展望当作经营回款兑现。",
+      "numeric_probability": null,
+      "validation_signals": [
+        "09:30—10:00与昨日同一时刻成交额和上涨扩散。",
+        "科技回踩分时成交均价、沪指3679.09/创业板2511.71昨日高点站稳情况。",
+        "开盘区间及上证3653.05/创业板2458.01昨日低点。"
+      ],
+      "watchlist_notes": {
+        "GigaDevice": "海外半导体广泛上涨改善板块情绪，NVDA个体治理事件不等同全行业订单下降。",
+        "Eoptolink_Innolight": "海外光通信普涨支持情绪；没有新正式A股订单变动披露，旧回购和订单展望不重复。",
+        "CATL_Wuliangye_Moutai": "公告源无新条目。乘用车行业媒体数据的原始统计范围未单独核实，未强推宁德订单变化或单独作为报告方向催化。"
+      }
+    },
+    "observed": {
+      "sh000001": {
+        "open_change_pct": 0.5804757989395837,
+        "close_change_pct": 0.08,
+        "close_below_open": true
+      },
+      "sz399001": {
+        "open_change_pct": 1.5058108705853224,
+        "close_change_pct": 0.86,
+        "close_below_open": true
+      },
+      "sz399006": {
+        "open_change_pct": 2.4355720421710414,
+        "close_change_pct": 1.46,
+        "close_below_open": true
+      }
+    },
+    "assessment": "高开方向兑现，全天收涨但均低于开盘；主情景震荡修复部分兑现，冲高回落风险也兑现。创业板高开约2.44%收涨1.46%，不能称普遍反转。",
+    "deviation_reason": "盘面表现为反弹持续性不足；市场广度改善但量能仅温和增加，不能精确归因于未经核实的资金流。",
+    "numeric_hit_rate": null
+  },
+  "previous_market_breadth": {
+    "exact_advancers": null,
+    "exact_decliners": null,
+    "reported_advancers_more_than": 4200,
+    "reported_decliners": null,
+    "scope": "all_A_as_media_headlines",
+    "sources": [
+      {
+        "title": "收评：创指震荡收涨1.46% 上涨个股超4200只 - 新浪网",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWXpBX2lVOE9NUjNZNVR4azJCV1ppMXA2cWR3Z2hZb2lmcWwyZ3ZUTG4xOF9BRGZLbXlSUmNSY3JPS2N6dmRkWVJkSGlKMGhrb3g0ZTlmdzRfbF9kRXJjV05ONDJlLTdQQUlCZ2N3MXc4NDV0LTFKZWRrT21INm5QbA?oc=5",
+        "pubDate": "Tue, 10 Nov 2026 07:08:34 GMT",
+        "source": "新浪网"
+      },
+      {
+        "title": "收评：创业板指涨1.46% 全市场超4200只个股上涨 - 手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPSXVNbzhUejZ0ck5FeUl4b0tZNHhidVZCVnZWLTFESEpnQkNkdXlUZ2M4cmtCRUNIaVR1a2t6S3NrZ2s1d3ZQLTZjZHBsQ0ttOGhDYmtfelBnRDZ6eGFv?oc=5",
+        "pubDate": "Tue, 10 Nov 2026 07:25:02 GMT",
+        "source": "手机网易网"
+      }
+    ],
+    "evidence_grade": "date_matched_reliable_media_RSS_headlines_only;full_bodies_not_verified",
+    "excluded": "CLSidentical4200upheadlineRSSdateNov9mismatched;notusedasNov10datingevidence",
+    "interpretation": "Canreportmediaheadlineapproximationover4200advancerswithsource/date;notexactcountorindependentAPIcrosscheck."
+  },
+  "sector_observations": {
+    "source": "https://finance.ce.cn/stock/gsgdbd/202611/t20261110_3289989.shtml",
+    "publication_local": "2026-11-10T15:11:00+08:00",
+    "leaders": [
+      "影视院线",
+      "游戏",
+      "消费电子"
+    ],
+    "laggards": [
+      "油气开采及服务",
+      "港口航运",
+      "煤炭开采加工"
+    ],
+    "classification": "industry_names_as_reported_not_Shenwan_percentage_rank",
+    "percentage_moves": null
+  },
+  "domestic_evidence": {
+    "checked_at": "2026-11-11T01:18:39.461949+00:00",
+    "trading_date": "2026-11-11",
+    "normal_trading_day": true,
+    "latest_completed_A_session": "2026-11-10",
+    "calendar": {
+      "weekday": "Wednesday",
+      "SSE_annual_calendar": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "holiday_on_date": false,
+      "temporary_closure_notice_found": false,
+      "current_pages_reviewed": [
+        "https://www.sse.com.cn/",
+        "https://www.szse.cn/",
+        "https://www.szse.cn/disclosure/notice/general/index.html"
+      ],
+      "limitation": "SSEofficial2026annualcalendarhasnoNovemberholiday;independentcompleteSZSEannualtablenotobtained.Currentaccessibleexchangehomeandnoticepagesreviewed,noNov11temporaryclosurefound."
+    },
+    "previous_A_close": {
+      "source": "https://finance.ce.cn/stock/gsgdbd/202611/t20261110_3289989.shtml",
+      "publication_local": "2026-11-10T15:11:00+08:00",
+      "shanghai": {
+        "close": 3663.72,
+        "change_pct": 0.08
+      },
+      "shenzhen": {
+        "close": 11241.54,
+        "change_pct": 0.86
+      },
+      "chinext": {
+        "close": 2494.4,
+        "change_pct": 1.46
+      },
+      "shanghai_turnover_reported_100millionCNY": 6739.52,
+      "shenzhen_turnover_reported_100millionCNY": 8308.61,
+      "combined_rounded_100millionCNY": 15048.13,
+      "scope": "ShanghaiShenzhenexcludingBeijing",
+      "exact_quote_reference": "../quote_manifest.json#tencent_a"
+    },
+    "breadth": {
+      "exact_advancers": null,
+      "exact_decliners": null,
+      "reported_advancers_more_than": 4200,
+      "reported_decliners": null,
+      "scope": "all_A_as_media_headlines",
+      "sources": [
+        {
+          "title": "收评：创指震荡收涨1.46% 上涨个股超4200只 - 新浪网",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWXpBX2lVOE9NUjNZNVR4azJCV1ppMXA2cWR3Z2hZb2lmcWwyZ3ZUTG4xOF9BRGZLbXlSUmNSY3JPS2N6dmRkWVJkSGlKMGhrb3g0ZTlmdzRfbF9kRXJjV05ONDJlLTdQQUlCZ2N3MXc4NDV0LTFKZWRrT21INm5QbA?oc=5",
+          "pubDate": "Tue, 10 Nov 2026 07:08:34 GMT",
+          "source": "新浪网"
+        },
+        {
+          "title": "收评：创业板指涨1.46% 全市场超4200只个股上涨 - 手机网易网",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPSXVNbzhUejZ0ck5FeUl4b0tZNHhidVZCVnZWLTFESEpnQkNkdXlUZ2M4cmtCRUNIaVR1a2t6S3NrZ2s1d3ZQLTZjZHBsQ0ttOGhDYmtfelBnRDZ6eGFv?oc=5",
+          "pubDate": "Tue, 10 Nov 2026 07:25:02 GMT",
+          "source": "手机网易网"
+        }
+      ],
+      "evidence_grade": "date_matched_reliable_media_RSS_headlines_only;full_bodies_not_verified",
+      "excluded": "CLSidentical4200upheadlineRSSdateNov9mismatched;notusedasNov10datingevidence",
+      "interpretation": "Canreportmediaheadlineapproximationover4200advancerswithsource/date;notexactcountorindependentAPIcrosscheck."
+    },
+    "sectors": {
+      "source": "https://finance.ce.cn/stock/gsgdbd/202611/t20261110_3289989.shtml",
+      "publication_local": "2026-11-10T15:11:00+08:00",
+      "leaders": [
+        "影视院线",
+        "游戏",
+        "消费电子"
+      ],
+      "laggards": [
+        "油气开采及服务",
+        "港口航运",
+        "煤炭开采加工"
+      ],
+      "classification": "industry_names_as_reported_not_Shenwan_percentage_rank",
+      "percentage_moves": null
+    },
+    "new_domestic_policy": [
+      {
+        "event": "ZhangGuoqingShanghaiindustryinnovationvisit",
+        "event_dates": [
+          "2026-11-09",
+          "2026-11-10"
+        ],
+        "publication_local": "2026-11-11T07:00:00+08:00",
+        "source": "https://www.cls.cn/detail/2530870",
+        "evidence_grade": "reliable_media_relay_not_independently_retrieved_primary",
+        "terms": [
+          "推进科技创新和产业创新融合",
+          "以六张网建设推进重大项目",
+          "深化内卷式竞争综合整治",
+          "解决拖欠企业账款"
+        ],
+        "new_quantified_spending_or_stock_purchase_amount": null,
+        "interpretation": "Directionalpolicycontextnotquantifiednewstimulusnorconfirmedcompanyorders."
+      },
+      {
+        "event": "AIplusnaturalresourcesimplementationopinion",
+        "publication_local": "2026-11-11T07:00:00+08:00",
+        "source": "https://www.cls.cn/detail/2530870",
+        "evidence_grade": "reliable_media_relay_not_independently_retrieved_primary",
+        "issuer_reported": [
+          "自然资源部",
+          "国家发展改革委"
+        ],
+        "target_date": "2028",
+        "terms": "NaturalresourcesAIapplications,datasets,modelsandagentsinmapping,landplanning,marine,geologyandforestry",
+        "original_release_date": null,
+        "interpretation": "Policyapplicationdirection;originaldatedprimarynotacquired,noquantifiedfundingorwatchlistorders. Do notassertfreshbroadmarketrescue."
+      }
+    ],
+    "watchlist_relevant_company_news": [
+      {
+        "issuer": "贵州茅台",
+        "event": "Q3earningsbriefingmarketreform",
+        "event_date": "2026-11-10",
+        "publication_local": "2026-11-11T07:00:00+08:00",
+        "source": "https://www.cls.cn/detail/2530870",
+        "evidence_grade": "reliable_media_relay_of_earningsbriefing",
+        "statement": "王莉称本轮改革重在市场端，i茅台从抢购逐步向满足消费者需求的日常售卖转变。",
+        "interpretation": "Directcompanychannelfocus;nosalesvolume,margineffectorpricechangemagnitudeverifiedfromthisstatement."
+      }
+    ],
+    "historical_policy_not_new": [
+      {
+        "event": "PanGongshengfinancialworkreport",
+        "report_date": "2026-11-03",
+        "publication_local": "2026-11-05T10:54:54+08:00",
+        "source": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
+        "note": "Nov10mediarepeatsnotnewpolicyannouncement;supportHuijin,capitalmarketmechanism,moderatelyloosepolicyalreadypublic."
+      },
+      {
+        "event": "Nov6StateCouncilstabilizationmechanism",
+        "date": "2026-11-06",
+        "source": "https://www.gov.cn/yaowen/liebiao/202611/content_7085401.htm",
+        "note": "AlreadycoveredNov9;notnewNov10overnightannouncement."
+      },
+      {
+        "event": "MOFCOMsuspensionextensionforUSentities",
+        "announced": "2026-11-09T16:00:00+08:00",
+        "effective": "2026-11-10",
+        "note": "AlreadycoveredNov10premarket;notnewtoday."
+      }
+    ],
+    "limitations": [
+      "Exactbreadthcountsnotverified;over4200fromdatedRSSmediaheadlinesonly.",
+      "NoindependentlycompleteSZSEannualcalendarretrieved.",
+      "NoNov11OMOresultinthecheckedpreannouncementwindow;donotguessliquidityinjection.",
+      "Noquantifiednewbroadmarketstimulusfoundinlimitedreviewedsources;absenceofdiscoveryisnotproofofnone.",
+      "Do notattributeindexmovementtoinstitutionalflows.",
+      "Policyapplicationnewsmainlyreliablemediarelay;primarydatingspecifiedwhereavailable."
+    ]
+  },
+  "US_news_evidence": {
+    "asof": "2026-11-11T01:18:50.388197+00:00",
+    "last_completed_normal_US_session": "2026-11-10",
+    "regular_close": {
+      "SP500": {
+        "close": 7520.93,
+        "change_pct": -0.38
+      },
+      "NasdaqComposite": {
+        "close": 25065.87,
+        "change_pct": -0.74
+      },
+      "DowJones": {
+        "close": 52231.89,
+        "change_pct": -0.3
+      },
+      "SOX": {
+        "close": 9998.33,
+        "change_pct": -0.35,
+        "source": "Root independently fetched Sina quote"
+      }
+    },
+    "regular_close_source": {
+      "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+      "page_updated": "2026-11-10T16:35:00-05:00",
+      "normal_session": "2026-11-10 09:30-16:00 America/New_York",
+      "note": "URL date is prior session eve; actual article sessionNov10. Not afterhours."
+    },
+    "CPI": {
+      "period": "2026-10",
+      "publication_at": "2026-11-10T08:30:00-05:00",
+      "source": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "evidence_grade": "reliable_media_direct_report_of_BLS",
+      "headline_mom_seasonally_adjusted_pct": 0.4,
+      "headline_mom_consensus_pct": 0.3,
+      "core_mom_seasonally_adjusted_pct": 0.3,
+      "core_mom_consensus_pct": 0.2,
+      "headline_yoy_pct": null,
+      "core_yoy_pct": null,
+      "yoy_missing_reason": "BLS did not estimate annual headline/core figures because October2025 shutdown disrupted collection of comparable index data. Some individual items may have annual figures; not substitute headline rate.",
+      "previous_month_headline_mom_pct": 0.6,
+      "previous_month_core_mom_pct": 0.3,
+      "interpretation": "Hotter than consensus even as headline month-on-month growth slowed from September. Do not confuse deceleration with below-expectation inflation relief."
+    },
+    "Fed_Waller": {
+      "publication_date": "2026-11-10",
+      "source": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+      "evidence_grade": "primary_FederalReserve_speech",
+      "timing": "BeforeCPIrelease",
+      "content": "Leaning toward25bpDecemberhike; if coreCPI around0.3%orhigher he believes50bp should be considered.",
+      "not_a_completed_policy_decision": true,
+      "personal_view_not_entire_FOMC": true
+    },
+    "yield_context": {
+      "source": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+      "Nov10_intraday_10y_pct": 5.004,
+      "intraday_not_closing_fixing": true,
+      "note": "10y jumped morethan14bp intraday, moved justbelow5% later; root supplies timestamped newer quotes.",
+      "Ashare_implication": "Higherdiscount_rateanddollar restrain highvaluationtechnology even though loweroil helpscosts."
+    },
+    "technology": {
+      "NVDA": {
+        "normal_session_return_pct": -5.47,
+        "source": "RootAPI; CNBC says morethan5% at regularclose",
+        "new_official_followup_reference": "report/overseas-optics-premarket/evidence/2026-11-11-0908/",
+        "new_official_source": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+        "interpretation": "Individual governance/leadership uncertainty coexistswith macro rates. No automatic inference of newglobalAIordercollapse."
+      },
+      "optical_regular_returns_root_API_pct": {
+        "LITE": -1.78,
+        "COHR": -4.68,
+        "AAOI": -7.26,
+        "FN": -4.76
+      },
+      "AVGO_normal_return_pct": 3.91,
+      "CoreWeave": {
+        "evidence_reference": "report/ai-credit-monitor/evidence/2026-11-11/priority/findings.json",
+        "note": "NewquarterearningsreleasedafterUSNov10normalclose; parent hasprimaryfinancials. Do not useafterhoursresult as causeofearliernormal-sessionindexdecline."
+      }
+    },
+    "China_optical_policy_report": {
+      "discovery": [
+        {
+          "title": "EXCLUSIVE: Microsoft presses Trump to scuttle expected ban on Chinese data center technology - Reuters",
+          "publication_rss": "Tue, 10 Nov 2026 14:36:44 GMT",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYVBfNG04eWF0OFp6WHJFRFh3YjdHTHlhdU9xTkZiU3h1Qk9OdXpmM0FaZS1vcXJkdFdHRmE2a0ROLWRWYzNWUXhtcGpmVjREYjBJUC1nYzVSZkxPaHA5dVNNSlhpZzVlX2FOVElnZWNPZ0VuVS1sWEQ5cVNQYXYtT3MtUGppSTIzQ25YX0Q1UnFDbzZxc1RITGRRT1ZNeUFKQTZxWlJxc0E5Z0JjdVVEaXIxbmlqdGRZYzVsLWtRWTBuUlJsb3BTZVAwN1RYWlk?oc=5",
+          "source": "Reuters"
+        }
+      ],
+      "body_verified": false,
+      "official_final_rule_verified": false,
+      "stage": "reliable_publisher_RSS_headline_report_of_expected_ban_and_Microsoft_lobbying",
+      "limits": [
+        "Reutersoriginalbodyrequests timedout; Moneycontrolcategory403.",
+        "Headlineonlydoesnotverify ruletext, affectedproducts, coveredfirms, exemption, grandfathering orimplementationdate.",
+        "Expected/proposedban isnotimplementedfinalban; Microsoftoppositionisnotproofpolicywillbecancelled.",
+        "NoverifiednewEoptolink/Innolightordercancellationfromthischeck."
+      ],
+      "Ashare_implication": "Directsectorpolicyuncertaintycanweighonopticalriskpremium; retain conditional wording and separatefromactualorders."
+    },
+    "main_synthesis": "Nov10USriskpressuremainlycoincideswith hotterCPIandhawkishFedcommunication plusNVDAindividualrisk; opticalsharesfellmorethanSOXwhileAVGOrose,showingsectorvariation. ForAshareopeningfavorcautiousvolatiletechratherthan mechanicalwholemarketdecline.",
+    "missing": [
+      "Reutersopticalreportfullbodyandofficialfinalruleterms",
+      "exactseparatecausalcontributionofeachnewsitem",
+      "BLSprimaryCPIreleasebodynotretrievedinthisfocusedcheck"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+        "archived": "cnbc_close.html"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+        "archived": "cnbc_CPI.html"
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+        "archived": "waller.html"
+      }
+    ]
+  },
+  "watchlist_announcements": {
+    "asof": "2026-11-11T01:17:32.578393+00:00",
+    "window_start_local": "2026-11-10T08:45:00+08:00",
+    "scope": "Six watchlist issuer-announcement mirrors, latest30 items each. Actual display_time used rather than only nominal notice_date. Targeted Chinese/English RSS search for official company response to optical transceiver restriction report.",
+    "checks": [
+      {
+        "code": "603986",
+        "name": "GigaDevice",
+        "list_fetch_ok": true,
+        "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=603986",
+        "retrieved_at": "2026-11-11T01:16:31.912035+00:00",
+        "new_since_previous_premarket": 0,
+        "new_items": [],
+        "latest": [
+          {
+            "title": "兆易创新:H股公告-翌日披露报表",
+            "art_code": "AN202611031831375017",
+            "notice_date": "2026-11-04 00:00:00",
+            "display_time": "2026-11-03 17:50:27:639"
+          },
+          {
+            "title": "兆易创新:投资者关系活动记录表(2026-004)",
+            "art_code": "AN202611031831372854",
+            "notice_date": "2026-11-03 00:00:00",
+            "display_time": "2026-11-03 17:04:36:633"
+          }
+        ],
+        "latest_notice_url": "https://data.eastmoney.com/notices/detail/603986/AN202611031831375017.html"
+      },
+      {
+        "code": "300750",
+        "name": "CATL",
+        "list_fetch_ok": true,
+        "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=300750",
+        "retrieved_at": "2026-11-11T01:16:31.912448+00:00",
+        "new_since_previous_premarket": 0,
+        "new_items": [],
+        "latest": [
+          {
+            "title": "宁德时代:关于授予2026年A股第二期员工持股计划预留份额的公告",
+            "art_code": "AN202611031831378795",
+            "notice_date": "2026-11-03 00:00:00",
+            "display_time": "2026-11-03 19:47:00:587"
+          },
+          {
+            "title": "宁德时代:H股公告(截至2026年10月31日止股份发行人的证券变动月报表)",
+            "art_code": "AN202611031831344746",
+            "notice_date": "2026-11-03 00:00:00",
+            "display_time": "2026-11-03 07:48:06:461"
+          }
+        ],
+        "latest_notice_url": "https://data.eastmoney.com/notices/detail/300750/AN202611031831378795.html"
+      },
+      {
+        "code": "300502",
+        "name": "Eoptolink",
+        "list_fetch_ok": true,
+        "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=300502",
+        "retrieved_at": "2026-11-11T01:16:31.912606+00:00",
+        "new_since_previous_premarket": 0,
+        "new_items": [],
+        "latest": [
+          {
+            "title": "新易盛:关于公司回购股份事项的公告",
+            "art_code": "AN202611061831485272",
+            "notice_date": "2026-11-06 00:00:00",
+            "display_time": "2026-11-06 11:41:04:454"
+          },
+          {
+            "title": "新易盛:关于回购公司股份的进展公告",
+            "art_code": "AN202611031831373503",
+            "notice_date": "2026-11-03 00:00:00",
+            "display_time": "2026-11-03 17:18:06:271"
+          }
+        ],
+        "latest_notice_url": "https://data.eastmoney.com/notices/detail/300502/AN202611061831485272.html"
+      },
+      {
+        "code": "300308",
+        "name": "Innolight",
+        "list_fetch_ok": true,
+        "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=300308",
+        "retrieved_at": "2026-11-11T01:16:31.912748+00:00",
+        "new_since_previous_premarket": 0,
+        "new_items": [],
+        "latest": [
+          {
+            "title": "中际旭创:关于股份回购事项的公告",
+            "art_code": "AN202611061831485271",
+            "notice_date": "2026-11-06 00:00:00",
+            "display_time": "2026-11-06 11:42:33:659"
+          },
+          {
+            "title": "中际旭创:投资者关系活动记录表20261103",
+            "art_code": "AN202611031831382786",
+            "notice_date": "2026-11-03 00:00:00",
+            "display_time": "2026-11-03 23:37:12:612"
+          }
+        ],
+        "latest_notice_url": "https://data.eastmoney.com/notices/detail/300308/AN202611061831485271.html"
+      },
+      {
+        "code": "000858",
+        "name": "Wuliangye",
+        "list_fetch_ok": true,
+        "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=000858",
+        "retrieved_at": "2026-11-11T01:16:31.912922+00:00",
+        "new_since_previous_premarket": 0,
+        "new_items": [],
+        "latest": [
+          {
+            "title": "五粮液:关于四川省宜宾五粮液集团有限公司增持公司股票计划实施结果的公告",
+            "art_code": "AN202611061831502993",
+            "notice_date": "2026-11-07 00:00:00",
+            "display_time": "2026-11-06 19:50:26:403"
+          },
+          {
+            "title": "五粮液:北京中伦(成都)律师事务所关于四川省宜宾五粮液集团有限公司增持宜宾五粮液股份有限公司股份的法律意见书",
+            "art_code": "AN202611061831502992",
+            "notice_date": "2026-11-07 00:00:00",
+            "display_time": "2026-11-06 19:50:26:410"
+          }
+        ],
+        "latest_notice_url": "https://data.eastmoney.com/notices/detail/000858/AN202611061831502993.html"
+      },
+      {
+        "code": "600519",
+        "name": "KweichowMoutai",
+        "list_fetch_ok": true,
+        "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=600519",
+        "retrieved_at": "2026-11-11T01:16:31.913070+00:00",
+        "new_since_previous_premarket": 0,
+        "new_items": [],
+        "latest": [
+          {
+            "title": "贵州茅台:贵州茅台关于召开2026年第三季度业绩说明会的公告",
+            "art_code": "AN202611021831320924",
+            "notice_date": "2026-11-03 00:00:00",
+            "display_time": "2026-11-02 16:59:12:242"
+          },
+          {
+            "title": "贵州茅台:贵州茅台2026年第三季度主要经营数据公告",
+            "art_code": "AN202610301831245502",
+            "notice_date": "2026-10-31 00:00:00",
+            "display_time": "2026-10-30 18:31:37:237"
+          }
+        ],
+        "latest_notice_url": "https://data.eastmoney.com/notices/detail/600519/AN202611021831320924.html"
+      }
+    ],
+    "material_new_company_disclosure_verified": [],
+    "material_new_verified": [],
+    "new_entries_count": 0,
+    "conclusion": "No new issuer announcement found in the checked feeds since the previous premarket cutoff; no newly verified official company response. No announcement body needed.",
+    "historical_evidence_reference": "evidence/2026-11-09/watchlist/findings.json",
+    "direct_industry_discovery": {
+      "headline_lead": [
+        {
+          "title": "EXCLUSIVE: Microsoft presses Trump to scuttle expected ban on Chinese data center technology - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYVBfNG04eWF0OFp6WHJFRFh3YjdHTHlhdU9xTkZiU3h1Qk9OdXpmM0FaZS1vcXJkdFdHRmE2a0ROLWRWYzNWUXhtcGpmVjREYjBJUC1nYzVSZkxPaHA5dVNNSlhpZzVlX2FOVElnZWNPZ0VuVS1sWEQ5cVNQYXYtT3MtUGppSTIzQ25YX0Q1UnFDbzZxc1RITGRRT1ZNeUFKQTZxWlJxc0E5Z0JjdVVEaXIxbmlqdGRZYzVsLWtRWTBuUlJsb3BTZVAwN1RYWlk?oc=5",
+          "pubDate": "Tue, 10 Nov 2026 14:36:44 GMT",
+          "source": "Reuters"
+        }
+      ],
+      "evidence_level": "Reuters RSS headline only, article body and regulatory text not independently obtained by this branch",
+      "underlying_event_date": null,
+      "reported_stage": "expected_or_planned_or_proposed_ban_in_media_headlines",
+      "official_final_rule_effective_date_verified": false,
+      "company_specific_response_verified": false,
+      "order_cancellation_verified": false,
+      "multiple_reposts_counted_as_independent_evidence": false,
+      "note": "Headlines indicate lobbying against an expected ban, not confirmation of final enacted prohibition, universal product scope, license outcome or actual customer order cancellation. Chinese response query did not retrieve a relevant new company statement.",
+      "discovery_source_file": "discovery.json"
+    },
+    "do_not_repeat_as_new": [
+      "Nov6noonEoptolink buyback/operating statement",
+      "Nov6noonInnolight order outlook and old cancellation-purpose proposal",
+      "Nov6eveningWuliangye shareholder accumulation completed",
+      "OldNov3issuerannouncementsandQ3reports"
+    ],
+    "premarket_implication": "No fresh issuer-announcement catalyst or company-specific confirmation of cancelled optical orders verified. Potential policy restriction headline can affect optical risk pricing, but headline alone does not establish implemented ban or realized revenue loss. Other five-stock company views require independent sector evidence; do not manufacture individual news.",
+    "coverage_gaps": [
+      "Public Eastmoney company-disclosure mirror only, not independently complete exchange/CNINFO archive, corporate website or all-media coverage.",
+      "Reuters article body and official US rule text not acquired in this branch. Exact covered products, regulatory stage, transition period and named entities unverified.",
+      "RSS discovery is not complete proof of no official company response.",
+      "No new feed entry is not proof of no undisclosed risk or company event."
+    ]
+  },
+  "forecast": {
+    "main": "小幅低开后震荡分化；利率压力制约科技，昨日广度改善和盘后建设指引提供修复条件。",
+    "confidence": "中等",
+    "opening_direction": "09:17A50参考价跌0.35%及隔夜利率压力支持偏弱开盘预期；未使用09:17未成交竞价报价冒充开盘结果。",
+    "full_day": "国内前日广度改善而高开回吐，低开后有修复可能，需同时间量能/广度和科技承接验证。",
+    "upside_alternative": "收回昨收、同时间成交增加且上涨扩散，转低开高走。",
+    "downside_alternative": "跌破昨日低点后反抽不回且下跌扩散，转继续承压。",
+    "medium_term": "单日反弹不足以确认中期反转，继续看利率、正式指引和订单兑现。",
+    "numeric_probability": null,
+    "validation_signals": [
+      "沪指3663.72/创业板2494.40昨收收复及同时间成交、广度",
+      "光模块成交均价和半导体多数个股企稳",
+      "沪指3660.72/创业板2487.56昨低失守后反抽及广度"
+    ],
+    "watchlist_notes": {
+      "GigaDevice": "受半导体风险偏好影响，板块分化，不机械套NVDA回报。",
+      "Eoptolink_Innolight": "海外光通信偏弱和预计政策限制报道，最终范围/生效/订单损失未核实；CoreWeave指引上调不等于具体采购。",
+      "Moutai": "11月10日业绩会渠道改革表态由可靠媒体转述，未核量化利润影响。",
+      "CATL_Wuliangye": "无新增公告条目或已核直接催化，未强行给予方向。"
+    }
+  },
+  "missing": [
+    "Exactbreadthcountsnotverified;over4200fromdatedRSSmediaheadlinesonly.",
+    "NoindependentlycompleteSZSEannualcalendarretrieved.",
+    "NoNov11OMOresultinthecheckedpreannouncementwindow;donotguessliquidityinjection.",
+    "Noquantifiednewbroadmarketstimulusfoundinlimitedreviewedsources;absenceofdiscoveryisnotproofofnone.",
+    "Do notattributeindexmovementtoinstitutionalflows.",
+    "Policyapplicationnewsmainlyreliablemediarelay;primarydatingspecifiedwhereavailable.",
+    "Reutersopticalreportfullbodyandofficialfinalruleterms",
+    "exactseparatecausalcontributionofeachnewsitem",
+    "BLSprimaryCPIreleasebodynotretrievedinthisfocusedcheck",
+    "No current09:17US10Y quote: latest verifiedTradeweb quote is Nov10 17:05EST.",
+    "No verified new broad capex cut or company-specific optical order cancellation; no crash probability model."
+  ],
+  "sources": [
+    {
+      "name": "USregularclose",
+      "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "CPI",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+    },
+    {
+      "name": "Ashareclose",
+      "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261110_3289989.shtml"
+    },
+    {
+      "name": "Domestic_Moutai",
+      "url": "https://www.cls.cn/detail/2530870"
+    },
+    {
+      "name": "quotes",
+      "file": "evidence/2026-11-11/quote_manifest.json"
+    },
+    {
+      "name": "FedWaller",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm"
+    },
+    {
+      "name": "CoreWeave_afterclose",
+      "file": "../ai-credit-monitor/evidence/2026-11-11/priority/findings.json"
+    }
+  ],
+  "notification_decision": "NOTIFY",
+  "notification_reason": "Normal trading day: user requires daily premarket report even if market moves are small.",
+  "report_file": "2026-11-11.md"
+}

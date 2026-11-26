@@ -1,0 +1,16 @@
+[
+  {
+    "name": "alphabet_asia_investing",
+    "url": "https://www.investing.com/news/stock-market-news/alphabet-eyes-3-billion-hong-kong-singapore-bond-sale-sources-say-5018062",
+    "retrieved_at": "2026-11-12T00:32:52.868996+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "alphabet_asia_original",
+    "url": "https://www.reuters.com/world/china/alphabet-eyes-3-billion-hong-kong-singapore-bond-sale-sources-say-2026-11-11/",
+    "retrieved_at": "2026-11-12T00:32:52.869355+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  }
+]

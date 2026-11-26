@@ -1,0 +1,103 @@
+[
+  {
+    "company": "alphabet",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "retrieved_at": "2026-11-06T00:35:15.519549+00:00",
+    "ok": true,
+    "new": [
+      {
+        "accessionNumber": "0001193125-26-449835",
+        "form": "8-K",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:10:44.000Z",
+        "primaryDocument": "d174184d8k.htm"
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001652044-26-000084",
+        "filingDate": "2026-10-29",
+        "primaryDocument": "goog-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "meta",
+    "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+    "retrieved_at": "2026-11-06T00:35:15.519893+00:00",
+    "ok": true,
+    "new": [
+      {
+        "accessionNumber": "0001193125-26-450074",
+        "form": "8-K",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:58:46.000Z",
+        "primaryDocument": "d166273d8k.htm"
+      },
+      {
+        "accessionNumber": "0001193125-26-448015",
+        "form": "424B5",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T02:02:44.000Z",
+        "primaryDocument": "d135326d424b5.htm"
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-066773",
+        "filingDate": "2026-10-22",
+        "primaryDocument": "meta-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "microsoft",
+    "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "retrieved_at": "2026-11-06T00:35:15.520168+00:00",
+    "ok": true,
+    "new": [
+      {
+        "accessionNumber": "0001193125-26-448357",
+        "form": "8-K",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T11:01:52.000Z",
+        "primaryDocument": "d177209d8k.htm"
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001193125-26-436133",
+        "filingDate": "2026-10-28",
+        "primaryDocument": "msft-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "amazon",
+    "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+    "retrieved_at": "2026-11-06T00:35:15.520309+00:00",
+    "ok": true,
+    "new": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001018724-26-000040",
+        "filingDate": "2026-10-30",
+        "primaryDocument": "amzn-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "broadcom",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-06T00:35:15.520529+00:00",
+    "ok": true,
+    "new": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001730168-26-000080",
+        "filingDate": "2026-09-10",
+        "primaryDocument": "avgo-20260802.htm"
+      }
+    ]
+  }
+]

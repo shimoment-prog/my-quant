@@ -1,0 +1,43 @@
+{
+  "source": "Eastmoney RPT_VALUEANALYSIS_DET native daily PE_TTM",
+  "display_url": "https://data.eastmoney.com/gzfx/detail/601138.html",
+  "requested_window": [
+    "2021-11-06",
+    "2026-11-06"
+  ],
+  "actual_completed_sessions": [
+    "2021-11-08",
+    "2026-11-05"
+  ],
+  "median_definition": "Median of every non-null positive daily PE_TTM observation in the five-year window; excludes current unfinished session. Not median of annual medians.",
+  "current_price_method": "Separate current intraday point: latest actual price * current total shares / TTM parent-attributable net profit. Current point is not included in historical statistics.",
+  "ttm_parent_profit_cny": 53173404000,
+  "ttm_formula_cny": "40374611000 + 35285561000 - 22486768000",
+  "current_total_shares": 19844092284,
+  "last_implied_ttm_parent_profit_cny": 53173404014.22084,
+  "historical_denominator_transition": {
+    "2026-10-29_implied_ttm_profit_cny": 46912662000,
+    "2026-10-30_implied_ttm_profit_cny": 53173404000,
+    "note": "Q3 disclosed on SSE after market close 2026-10-29 (official nominal announcement date 2026-10-30), and historical PE denominator changes on 2026-10-30. This checked transition is consistent with disclosure timing."
+  },
+  "lookahead_limitations": [
+    "No introduced look-ahead from applying today EPS to historical prices; PE_TTM supplied natively by historical source.",
+    "Supplier historical financial restatement/vintage conventions have not been independently audited. Do not label this series as fully point-in-time verified or suitable for unbiased backtests without further audit."
+  ],
+  "price_policy": "CLOSE_PRICE is unadjusted actual historical close; independent price chart can use forward adjustment, but its label and dividend effects must be explicit.",
+  "first_last_year_partial": true,
+  "today_daily_point_absent": true,
+  "paths": {
+    "history_json": "/tmp/fii-pe-20261106/pe_history.json",
+    "history_csv": "/tmp/fii-pe-20261106/pe_history.csv",
+    "statistics": "/tmp/fii-pe-20261106/statistics.json",
+    "manifest": "/tmp/fii-pe-20261106/fetch_manifest.json"
+  },
+  "independent_price_crosscheck": {
+    "sessions_compared": 1211,
+    "pe_history_close_vs_eastmoney_unadjusted_daily_mismatches": 0,
+    "eastmoney_daily_ohlc_vs_sina_unadjusted_daily_ohlc_mismatches": 0,
+    "evidence_path": "/tmp/fii-pe-20261106/price/summary.json",
+    "checked_by": "overseas_optics sibling agent"
+  }
+}

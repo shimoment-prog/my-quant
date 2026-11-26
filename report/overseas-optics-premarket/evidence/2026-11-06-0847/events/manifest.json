@@ -1,0 +1,93 @@
+[
+  {
+    "name": "lite_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "retrieved_at": "2026-11-06T00:43:51.129686+00:00",
+    "ok": true,
+    "length": 159053
+  },
+  {
+    "name": "aaoi_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+    "retrieved_at": "2026-11-06T00:43:51.130500+00:00",
+    "ok": true,
+    "length": 155078
+  },
+  {
+    "name": "mrvl_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+    "retrieved_at": "2026-11-06T00:43:51.130060+00:00",
+    "ok": true,
+    "length": 136604
+  },
+  {
+    "name": "fn_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "retrieved_at": "2026-11-06T00:43:51.130627+00:00",
+    "ok": true,
+    "length": 155153
+  },
+  {
+    "name": "cien_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+    "retrieved_at": "2026-11-06T00:43:51.130367+00:00",
+    "ok": true,
+    "length": 158567
+  },
+  {
+    "name": "cohr_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+    "retrieved_at": "2026-11-06T00:43:51.130231+00:00",
+    "ok": true,
+    "length": 160624
+  },
+  {
+    "name": "lite_ir",
+    "url": "https://investor.lumentum.com/news-releases",
+    "retrieved_at": "2026-11-06T00:43:51.131063+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "live_news",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+    "retrieved_at": "2026-11-06T00:43:52.263297+00:00",
+    "ok": true,
+    "length": 303471
+  },
+  {
+    "name": "mrvl_ir",
+    "url": "https://investor.marvell.com/news-events/press-releases",
+    "retrieved_at": "2026-11-06T00:43:51.691020+00:00",
+    "ok": true,
+    "length": 114815
+  },
+  {
+    "name": "cien_ir",
+    "url": "https://investor.ciena.com/news-releases",
+    "retrieved_at": "2026-11-06T00:43:52.118195+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "cohr_ir",
+    "url": "https://www.coherent.com/news",
+    "retrieved_at": "2026-11-06T00:43:51.832795+00:00",
+    "ok": true,
+    "length": 170108
+  },
+  {
+    "name": "aaoi_ir",
+    "url": "https://investors.ao-inc.com/",
+    "retrieved_at": "2026-11-06T00:43:51.130803+00:00",
+    "ok": true,
+    "length": 44299
+  },
+  {
+    "name": "fn_ir",
+    "url": "https://investor.fabrinet.com/news-releases",
+    "retrieved_at": "2026-11-06T00:43:52.174914+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

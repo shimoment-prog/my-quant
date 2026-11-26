@@ -1,0 +1,36 @@
+[
+  {
+    "name": "iren_ir_news_retry",
+    "url": "https://iren.gcs-web.com/news-releases",
+    "retrieved_at": "2026-11-08T00:35:46.962713+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "terawulf_ir_news_retry",
+    "url": "https://investors.terawulf.com/news-events/press-releases",
+    "retrieved_at": "2026-11-08T00:35:46.964137+00:00",
+    "final_url": "https://investors.terawulf.com/news-events/press-releases",
+    "ok": true,
+    "date_context": [
+      "vents Overview Press Releases Media IR Calendar Presentations Email Alerts Year All Years 2026 2025 2024 2023 2022 2021 Category All Releases Financial Releases Nov 6, 2026 7:00 am EST TeraWulf Reports Third Quarter 2026 Results Nov 4, 2026 8:15 am EST TeraWulf Secures Google Credit Backstop for Project Finan",
+      "r All Years 2026 2025 2024 2023 2022 2021 Category All Releases Financial Releases Nov 6, 2026 7:00 am EST TeraWulf Reports Third Quarter 2026 Results Nov 4, 2026 8:15 am EST TeraWulf Secures Google Credit Backstop for Project Financing in Support of $19 Billion Anthropic Lease; Executes Definitive Fluor EPC ",
+      "ry All Releases Financial Releases Nov 6, 2026 7:00 am EST TeraWulf Reports Third Quarter 2026 Results Nov 4, 2026 8:15 am EST TeraWulf Secures Google Credit Backstop for Project Financing in Support of $19 Billion Anthropic Lease; Executes Definitive Fluor EPC Agreement Oct 12, 2026 2:08 pm EDT TeraWulf Sche",
+      "ncial Releases Nov 6, 2026 7:00 am EST TeraWulf Reports Third Quarter 2026 Results Nov 4, 2026 8:15 am EST TeraWulf Secures Google Credit Backstop for Project Financing in Support of $19 Billion Anthropic Lease; Executes Definitive Fluor EPC Agreement Oct 12, 2026 2:08 pm EDT TeraWulf Schedules Conference Cal",
+      "n Support of $19 Billion Anthropic Lease; Executes Definitive Fluor EPC Agreement Oct 12, 2026 2:08 pm EDT TeraWulf Schedules Conference Call for Third Quarter 2026 Financial Results Oct 5, 2026 8:15 am EDT TeraWulf Expands Contracted Power Capacity at its Muskie Data Campus to 1 GW Aug 24, 2026 8:00 am EDT K",
+      "C Agreement Oct 12, 2026 2:08 pm EDT TeraWulf Schedules Conference Call for Third Quarter 2026 Financial Results Oct 5, 2026 8:15 am EDT TeraWulf Expands Contracted Power Capacity at its Muskie Data Campus to 1 GW Aug 24, 2026 8:00 am EDT Kentucky PSC Approves 482 MW Power Agreement for TeraWulf’s Justified D",
+      "pm EDT TeraWulf Schedules Conference Call for Third Quarter 2026 Financial Results Oct 5, 2026 8:15 am EDT TeraWulf Expands Contracted Power Capacity at its Muskie Data Campus to 1 GW Aug 24, 2026 8:00 am EDT Kentucky PSC Approves 482 MW Power Agreement for TeraWulf’s Justified Data Campus Aug 5, 2026 7:00 am",
+      " EDT TeraWulf Expands Contracted Power Capacity at its Muskie Data Campus to 1 GW Aug 24, 2026 8:00 am EDT Kentucky PSC Approves 482 MW Power Agreement for TeraWulf’s Justified Data Campus Aug 5, 2026 7:00 am EDT TeraWulf Reports Second Quarter 2026 Results Jul 22, 2026 9:24 am EDT TeraWulf Schedules Conferen",
+      " Kentucky PSC Approves 482 MW Power Agreement for TeraWulf’s Justified Data Campus Aug 5, 2026 7:00 am EDT TeraWulf Reports Second Quarter 2026 Results Jul 22, 2026 9:24 am EDT TeraWulf Schedules Conference Call for Second Quarter 2026 Financial Results Jul 6, 2026 8:00 am EDT TeraWulf Announces Anthropic Lea",
+      " TeraWulf’s Justified Data Campus Aug 5, 2026 7:00 am EDT TeraWulf Reports Second Quarter 2026 Results Jul 22, 2026 9:24 am EDT TeraWulf Schedules Conference Call for Second Quarter 2026 Financial Results Jul 6, 2026 8:00 am EDT TeraWulf Announces Anthropic Lease at Justified Data Campus and Sale of Majority ",
+      " Data Campus Aug 5, 2026 7:00 am EDT TeraWulf Reports Second Quarter 2026 Results Jul 22, 2026 9:24 am EDT TeraWulf Schedules Conference Call for Second Quarter 2026 Financial Results Jul 6, 2026 8:00 am EDT TeraWulf Announces Anthropic Lease at Justified Data Campus and Sale of Majority Interest in Abernathy",
+      "26 Results Jul 22, 2026 9:24 am EDT TeraWulf Schedules Conference Call for Second Quarter 2026 Financial Results Jul 6, 2026 8:00 am EDT TeraWulf Announces Anthropic Lease at Justified Data Campus and Sale of Majority Interest in Abernathy Joint Venture to Fluidstack May 26, 2026 8:00 am EDT TeraWulf Expands ",
+      "m EDT TeraWulf Schedules Conference Call for Second Quarter 2026 Financial Results Jul 6, 2026 8:00 am EDT TeraWulf Announces Anthropic Lease at Justified Data Campus and Sale of Majority Interest in Abernathy Joint Venture to Fluidstack May 26, 2026 8:00 am EDT TeraWulf Expands Infrastructure Platform with A",
+      "ata Campus and Sale of Majority Interest in Abernathy Joint Venture to Fluidstack May 26, 2026 8:00 am EDT TeraWulf Expands Infrastructure Platform with Acquisition of 1+ GW Eastern Kentucky HPC Campus May 8, 2026 7:00 am EDT TeraWulf Reports First Quarter 2026 Results Page 1 Page 2 Page 3 Page 4 Page 5 Page ",
+      "ands Infrastructure Platform with Acquisition of 1+ GW Eastern Kentucky HPC Campus May 8, 2026 7:00 am EDT TeraWulf Reports First Quarter 2026 Results Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 Page 10 … Page 15 Next Page arrow_forward Select a page Page 1 Page 2 Page 3 Page 4 Page 5 Page ",
+      " 1+ GW Eastern Kentucky HPC Campus May 8, 2026 7:00 am EDT TeraWulf Reports First Quarter 2026 Results Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 Page 10 … Page 15 Next Page arrow_forward Select a page Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 Page 10 Page 11 Page 12 P",
+      "Email Alerts location_city Company Profile contact_page Contacts rss_feed RSS News Feed © 2026 TeraWulf Inc. All Rights Reserved. Privacy Policy Disclaimer Sitemap Accessibility Statement Market Data copyright © 2026 QuoteMedia . Data delayed 15 minutes unless otherwise indicated (view delay times for all exc",
+      "served. Privacy Policy Disclaimer Sitemap Accessibility Statement Market Data copyright © 2026 QuoteMedia . Data delayed 15 minutes unless otherwise indicated (view delay times for all exchanges). RT =Real-Time, EOD =End of Day, PD =Previous Day. Market Data powered by QuoteMedia . Terms of Use . "
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "verified_at": "2026-11-17T09:48:11.042184+08:00",
+  "protected_inputs_unchanged": true,
+  "prior_observations_preserved": true,
+  "probability_model": null,
+  "today_ashare_prices_used": false,
+  "observation": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json",
+  "state_points_to_observation": true
+}

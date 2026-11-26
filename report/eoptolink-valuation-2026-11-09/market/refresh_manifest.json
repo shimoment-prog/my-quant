@@ -1,0 +1,18 @@
+[
+  {
+    "id": "quotes_refresh",
+    "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+    "started_at": "2026-11-09T02:30:39.837445+00:00",
+    "ok": true,
+    "bytes": 2080,
+    "retrieved_at": "2026-11-09T02:30:39.980802+00:00"
+  },
+  {
+    "id": "sina_refresh",
+    "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "started_at": "2026-11-09T02:30:39.838150+00:00",
+    "ok": true,
+    "bytes": 1010,
+    "retrieved_at": "2026-11-09T02:30:39.990217+00:00"
+  }
+]

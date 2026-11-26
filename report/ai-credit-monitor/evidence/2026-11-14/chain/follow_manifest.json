@@ -1,0 +1,141 @@
+[
+  {
+    "name": "apollo8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526460879/d143669d8k.htm",
+    "retrieved_at": "2026-11-14T00:31:10.329940+00:00",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526460879/d143669d8k.htm",
+    "links": [
+      {
+        "url": "d143669dex41.htm",
+        "text": "Form of 7.550% Fixed-Rate Resettable Junior Subordinated Notes due 2056 (included in Exhibit 4.1)."
+      },
+      {
+        "url": "d143669dex51.htm",
+        "text": "Consent of Paul, Weiss, Rifkind, Wharton\u00a0& Garrison LLP (included in Exhibit 5.1)"
+      }
+    ],
+    "ok": true,
+    "chars": 6864,
+    "preview": " 8-K false 0001858681 0001858681 2026-11-13 2026-11-13 0001858681 us-gaap:CommonStockMember 2026-11-13 2026-11-13 0001858681 us-gaap:JuniorNotesMember 2026-11-13 2026-11-13 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 8-K CURRENT REPORT PURSUANT TO SECTION 13 OR 15(D) OF THE SECURITIES EXCHANGE ACT OF 1934 Date of Report (Date of earliest event reported): November 13, 2026 Apollo Global Management, Inc. (Exact name of registrant as specified in its charter) Delaware 001-41197 86-3155788 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) 9 West 57th Street , 42nd Floor New York , New York 10019 Attn: Corporate Secretary (Address of principal executive offices) (Zip Code) (212) 515-3200 (Registrant\u2019s Telephone Number, Including Area Code) N/A (Former Name or Former Address, if Changed Since Last Report) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions ( see General Instruction A.2. below): \u2610 Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \u2610 Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) \u2610 Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) \u2610 Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Stock APO New York Stock Exchange 7.625% Fixed-Rate Resettable Junior Subordinated Notes due 2053 APOS New York Stock Exchange Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (\u00a7230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (\u00a7240.12b-2 of this chapter). Emerging growth company \u2610 If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \u2610 Item 1.01 Entry into a Material Definitive Agreement. On November 13, 2026, Apollo Global Management, Inc. (the \u201cCompany\u201d) issued $600,000,000 aggregate principal amount of its 7.550% Fixed-Rate Resettable Junio"
+  },
+  {
+    "name": "qts_bt",
+    "url": "https://www.businesstimes.com.sg/companies-markets/blackstones-qts-cutting-ai-debt-sale-more-half",
+    "retrieved_at": "2026-11-14T00:31:10.330416+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "qts_bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-13/blackstone-s-qts-is-cutting-ai-debt-sale-by-more-than-half",
+    "retrieved_at": "2026-11-14T00:31:10.330579+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "qts_home",
+    "url": "https://qtsdatacenters.com/",
+    "retrieved_at": "2026-11-14T00:31:10.330708+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "smfg_ir",
+    "url": "https://www.smfg.co.jp/english/investor/",
+    "retrieved_at": "2026-11-14T00:31:10.450058+00:00",
+    "final_url": "https://www.smfg.co.jp/english/investor/",
+    "links": [
+      {
+        "url": "/english/investor/financial/latest_statement.html",
+        "text": "\u201cFinancial Results for the Six Months ended September 30, 2026\u201d"
+      },
+      {
+        "url": "/english/investor/financial/presentation.html",
+        "text": "\u201cPresentation material at the BofA Securities 2026 Japan Conference\u201d"
+      },
+      {
+        "url": "/english/investor/financial/presentation.html",
+        "text": "Presentation material of \u201cSMBC Group IR Day\u201d"
+      },
+      {
+        "url": "/english/investor/financial/latest_statement.html",
+        "text": "\u201cFinancial Results for the three months ended June 30, 2026\u201d"
+      },
+      {
+        "url": "/english/investor/financial/presentation.html",
+        "text": "Presentation material regarding \u201cSmall meeting with CEO\u201d"
+      },
+      {
+        "url": "/english/investor/financial/presentation.html",
+        "text": "Presentation material regarding \"Round-Table Discussion with Outside Directors\""
+      },
+      {
+        "url": "/english/investor/financial/meeting.html",
+        "text": "\"Materials of the 24th Ordinary General Meeting of Shareholders\""
+      },
+      {
+        "url": "/news_e/fg_index.html",
+        "text": "News release of Sumitomo Mitsui Financial Group"
+      },
+      {
+        "url": "/english/investor/highlight/",
+        "text": "Financial Highlights \r\n\t            \t Find out more"
+      },
+      {
+        "url": "/english/investor/financial/presentation.html",
+        "text": "Events & Presentations \r\n\t\t             Presentation regarding \u201cEfforts for Social Value Creation in SMBC Group\u201d\uff1aMay 28, 2025"
+      },
+      {
+        "url": "/english/investor/highlight/",
+        "text": "Financial Highlights"
+      },
+      {
+        "url": "/english/investor/financial/presentation.html",
+        "text": "Events & Presentations \r\n               \r\n               \r\n                 \r\n                   Presentation regarding \u201cEfforts for Social Value Creation in SMBC Group\u201d \r\n        "
+      },
+      {
+        "url": "/english/investor/financial/",
+        "text": "Financials and  Materials"
+      },
+      {
+        "url": "/english/investor/financial/latest_statement.html",
+        "text": "Financial Results"
+      },
+      {
+        "url": "/english/investor/financial/presentation.html",
+        "text": "IR Events & Presentations"
+      },
+      {
+        "url": "/english/investor/financial/annual.html",
+        "text": "Annual Reports"
+      },
+      {
+        "url": "/english/investor/financial/disclosure.html",
+        "text": "SEC Filings"
+      },
+      {
+        "url": "/english/investor/financial/meeting.html",
+        "text": "General Shareholders\u2019 Meeting Materials"
+      },
+      {
+        "url": "/english/investor/financial/fixed/",
+        "text": "Fixed Income Investor Presentations"
+      },
+      {
+        "url": "/english/investor/financial/basel_3.html",
+        "text": "Basel \u2162 Information"
+      },
+      {
+        "url": "/english/investor/financial/fixed/",
+        "text": "Fixed Income Investor Presentations"
+      },
+      {
+        "url": "/english/investor/highlight/",
+        "text": "Financial Highlights"
+      }
+    ],
+    "ok": true,
+    "chars": 1995,
+    "preview": " --> IR Information | Sumitomo Mitsui Financial Group Switch to Japanese Investor Relations SMBC GROUP ANNUAL REPORT 2026 Stock Quote View Chart IR NEWS Nov. 13, 2026 \u201cFinancial Results for the Six Months ended September 30, 2026\u201d announced Aug. 31, 2026 \u201cPresentation material at the BofA Securities 2026 Japan Conference\u201d posted Aug. 26, 2026 Presentation material of \u201cSMBC Group IR Day\u201d posted July. 31, 2026 \u201cFinancial Results for the three months ended June 30, 2026\u201d announced June. 5, 2026 Presentation material regarding \u201cSmall meeting with CEO\u201d posted May. 29, 2026 Presentation material regarding \"Round-Table Discussion with Outside Directors\" posted May. 29, 2026 \"Materials of the 24th Ordinary General Meeting of Shareholders\" posted News release of Sumitomo Mitsui Financial Group Nomura Asset Management CEO Engagement Find out more Download Latest IR Materials FY2026 ending March 31,2027 Select All Financial Results( 0.5 MB) Supplementary Information( 0.3 MB) Overview of Results( 2.3 MB) Data Book( 1.3 MB) Investors Meeting FY3/2026 Presentation Material( 5.3 MB) Bulk Download( 0 MB) Medium Term Management Plan Find out more Financial Highlights Find out more Events & Presentations Presentation regarding \u201cEfforts for Social Value Creation in SMBC Group\u201d\uff1aMay 28, 2025 Financial Highlights Events & Presentations Presentation regarding \u201cEfforts for Social Value Creation in SMBC Group\u201d May 28, 2025 \u30d0\u30ca\u30fc2\u5217\u3053\u3053\u307e\u3067 --> Financials and Materials Financial Results IR Events & Presentations Annual Reports SEC Filings General Shareholders\u2019 Meeting Materials Fixed Income Investor Presentations Basel \u2162 Information Stock and Debt Information Basic Stock Information Capital and Stock Data Shareholder Return and Dividend Information Stock Procedure Information Debt and Capital Securities Information Fixed Income Investor Presentations Green Bond/Loan ADR Information Credit Rating Information Analyst Coverage Financial Highlights Stock Quote Event Calendar Disclosure Policy FAQ "
+  }
+]

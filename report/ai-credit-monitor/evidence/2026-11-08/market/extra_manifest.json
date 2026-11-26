@@ -1,0 +1,23 @@
+[
+  {
+    "id": "techcrunch_nov6",
+    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+    "retrieved_at": "2026-11-08T00:33:49.165647+00:00",
+    "ok": true,
+    "actual_url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+  },
+  {
+    "id": "techcrunch_nov7",
+    "url": "https://techcrunch.com/2026/11/07/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+    "retrieved_at": "2026-11-08T00:33:49.166218+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "energymag",
+    "url": "https://theenergymag.com/2026/11/07/google-buys-crusoe-wyoming-site-for-planned-17-billion-data-center/",
+    "retrieved_at": "2026-11-08T00:33:49.166471+00:00",
+    "ok": false,
+    "error": "HTTP Error 308: Permanent Redirect"
+  }
+]

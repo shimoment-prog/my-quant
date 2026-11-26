@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-05T16:39:09.559065+08:00",
+  "automation_id": "automation",
+  "automation_status": "ACTIVE",
+  "timezone": "Asia/Shanghai",
+  "schedule_local": [
+    "08:45 Shanghai/Shenzhen trading days"
+  ],
+  "initialized": true,
+  "baseline_status": "active_after_first_scheduled_observation",
+  "last_observation_file": "observations/2026-11-12-0852.json",
+  "last_run_at": "2026-11-12T08:52:03+08:00",
+  "last_data_cutoff_at": "2026-11-12T08:49:45+08:00",
+  "seen_events": [
+    {
+      "id": "AAOI_2026Q3_earnings_2026-11-05",
+      "disclosed_at": "2026-11-05T21:10:28Z",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "source": "https://investors.ao-inc.com/2026-11-05-Applied-Optoelectronics-Reports-Third-Quarter-2026-Results"
+    },
+    {
+      "id": "AAOI_2026Q3_10Q_2026-11-05",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm"
+    },
+    {
+      "id": "LITE_425_filed_2026-11-05_content_2026-11-04",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "classification": "newfilingoldmergercommunication; no verifiednewterms"
+    },
+    {
+      "id": "NVDA_board_investigation_20261108",
+      "source": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "disclosed_date": "2026-11-08",
+      "exact_publication_time": null,
+      "classification": "official company statement",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "OpenAI_first_tranche_funding",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixwakn8514139.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "OpenAI_CFO_DC_commitment",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixwhsn5187070.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "MSFT_ORCL_older_GPU_capacity_report",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixvrus8682155.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "Anthropic_power_equipment_report",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-08/doc-inixzxsn6844439.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "US_permitting_bill",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwh6656906.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "ECB_DC_lending_review_report",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-06/doc-inixvmnu8753593.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "AAOI_2026-11-06_IR_non_demand_item",
+      "source": "https://investors.ao-inc.com/2026-11-06-Applied-Optoelectronics-Announces-Equity-Grants-To-Employees-Under-Inducement-Plan",
+      "classification": "员工激励，非新增客户订单、财报或业务指引。",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "MRVL_2026-11-06_IR_non_demand_item",
+      "source": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
+      "classification": "日程公告，非业绩已经披露；具体日程以原文为准。",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "CNINFO_1225660606",
+      "source": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660606.PDF",
+      "disclosed_at": "2026-11-06T11:39:25+08:00",
+      "classification": "Nov6 domestic announcement, already known Friday",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "CNINFO_1225660601",
+      "source": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660601.PDF",
+      "disclosed_at": "2026-11-06T11:39:21+08:00",
+      "classification": "Nov6 domestic announcement, already known Friday",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "LITE_425_20261109_CNBCon20261106",
+      "source": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526453776/d180680d425.htm",
+      "disclosed_at": "2026-11-10T05:55:00+08:00",
+      "underlying_content_date": "2026-11-06",
+      "classification": "New SEC filing of older interview/merger communication; not newly realized demand or a new quarterly report.",
+      "first_reported_at": "2026-11-10T08:51:43+08:00"
+    },
+    {
+      "id": "NVDA_Rebellions_SKT_NVLink_Fusion_20261108",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+      "disclosed_date": "2026-11-08",
+      "classification": "Official cooperation, already reported in Nov9 afternoon intraday check; first added to premarket dedup now.",
+      "first_reported_to_conversation_at": "2026-11-09T14:33:44+08:00",
+      "first_reported_at": "2026-11-10T08:51:43+08:00"
+    },
+    {
+      "id": "NVDA_Independent_Counsel_20261110",
+      "classification": "new_verified_major_events",
+      "source": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "official_page_date": "2026-11-10",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "Anthropic_S1A_20261110_SpaceXAI_Broadcom",
+      "classification": "new_verified_major_events",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "accepted_beijing": "2026-11-10T19:29:24+08:00",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "CRWV_2026Q3_8K_20261110",
+      "classification": "new_verified_major_events",
+      "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+      "accepted_beijing": "2026-11-11T05:05:53+08:00",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "MRVL_LITE_425_455426_455438",
+      "classification": "new_verified_filings_with_older_content",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1633978/000119312526455426/d162070d425.htm",
+        "https://www.sec.gov/Archives/edgar/data/1633978/000119312526455438/d172329d425.htm"
+      ],
+      "accepted_beijing": [
+        "2026-11-11T05:05:31+08:00",
+        "2026-11-11T05:07:33+08:00"
+      ],
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "MRVL_LITE_425_455400",
+      "classification": "new_company_IR_non_demand_items",
+      "source": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526455400/d180177d425.htm",
+      "accepted_beijing": "2026-11-11T05:03:05+08:00",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "AAOI_Form144_20261110",
+      "classification": "new_company_IR_non_demand_items",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000411/xsl144X01/primary_doc.xml",
+      "accepted_beijing": "2026-11-11T05:38:45+08:00",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "NVDA_CEO_succession_media_20261112",
+      "classification": "New media report citing anonymous sources; not official leadership decision",
+      "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzi1350029.d.html",
+      "disclosed_at": "2026-11-12T07:50:41+08:00",
+      "note": "new media/interpretation, primary status retained",
+      "internally_prepared_at": "2026-11-12T08:50:36.917097+08:00",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "CRWV_potential_4bn_loan_media_20261112",
+      "classification": "New financing-plan media report; anonymous-source and not finalized",
+      "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzq8691773.d.html",
+      "disclosed_at": "2026-11-12T07:43:19+08:00",
+      "note": "new media/interpretation, primary status retained",
+      "internally_prepared_at": "2026-11-12T08:50:36.917097+08:00",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "Anthropic_S1A_20261110_Lambda_cloud_terms_review_20261112",
+      "classification": "Old primary filing, newly reviewed details and new media interpretation; not a new post-cutoff filing or contracts signed overnight",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "disclosed_at": "2026-11-10T19:29:24+08:00",
+      "note": "new media/interpretation, primary status retained",
+      "internally_prepared_at": "2026-11-12T08:50:36.917097+08:00",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "SoftBank_3p7bn_impairment_Ohio_clarification_20261111",
+      "source": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipke2094392.d.html",
+      "first_reported_to_conversation_at": "2026-11-11T10:32:07+08:00",
+      "classification": "conversation_known_not_new_today",
+      "facts": "Media-attributed clarification thatUSD3.7bnimpairment is unrelated toOhio; no original official statement verified in morning run.",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "Eoptolink_interaction_normal_delivery_margin_20261111",
+      "source": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyitry5292609.d.html",
+      "reported_at": "2026-11-11T12:07:43+08:00",
+      "first_reported_to_conversation_at": "2026-11-11T14:35:43+08:00",
+      "classification": "conversation_known_not_new_today",
+      "facts": "Company demand/normal-delivery, capacity/material preparation and stable-margin outlook as attributed by media; no verified newly quantified order or guarantee.",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    }
+  ],
+  "last_regular_us_session_date": "2026-11-11",
+  "historical_context_directory": "../eoptolink-low-monitor",
+  "intraday_monitor_write_allowed": false,
+  "notification_intent": "Deliver each normal A-share trading-day premarket report in current chat; skip closures.",
+  "schedule_config_verified": true,
+  "target_thread_id": "01a19b35-8bc7-7af0-8064-49830cf3fea6",
+  "last_a_share_session_date": "2026-11-11",
+  "last_assessment": {
+    "a_share_sector": "光通信／光模块",
+    "opening_bias": "盘后冲击使开盘承压；正常盘强反弹提供反证，方向确定性低",
+    "full_day_base_case": "高波动震荡分化，警惕冲高回落",
+    "opening_confidence": "中等偏低",
+    "full_day_confidence": "中等偏低",
+    "numeric_probability": null,
+    "model_validated": false,
+    "probability_label": "暂无可靠百分比",
+    "supporting_evidence": [
+      "六家海外光通信11/11正常盘全涨且均跑赢费半，但最近盘后均回落；NVDA盘后跌8.65%，AVGO盘后涨2.18%，显示分化。",
+      "新易盛、中际昨日分别大涨16.97%、15.07%，已显著强于通信ETF及创业板；短期波动放大，不能机械照搬海外正常盘涨幅。",
+      "NVDA管理层继任相关新增媒体报道未有官方决定确认；重大人事不确定性可影响风险偏好，但未核实需求订单取消。"
+    ],
+    "counterevidence": [
+      "六家正常盘涨5.88%至15.60%，费半涨5.66%；海外正常盘修复广泛。",
+      "两只A股龙头昨日高开走强且收于高位；博通盘后继续上涨，对全面产业链需求塌陷判断构成反证。"
+    ],
+    "alternative_scenarios": [
+      {
+        "scenario": "修复延续",
+        "conditions": "开盘后两股同步站稳成交均价，相对通信ETF和创业板持续走强，回踩量缩且局部低点抬高。"
+      },
+      {
+        "scenario": "冲高回落或承压扩大",
+        "conditions": "两股与通信ETF同步转弱，完整等长时段成交放大且失守开盘后已形成的回踩低点。"
+      }
+    ],
+    "opening_validation_signals": [
+      "新易盛、中际是否同时跑赢通信ETF与创业板；避免只看单股。",
+      "开盘后形成的成交均价及第一次回踩：是否守住、是否有更高低点。",
+      "等长完整时段比较回踩成交；放量失守后反弹不回均价则下调情景。"
+    ],
+    "medium_term": "治理或融资风险与真实需求分开；继续关注800G/1.6T交付、毛利、回款及客户实际资本开支，不以媒体人事消息或融资计划推算模块订单。"
+  },
+  "last_notification_status": "NOTIFY",
+  "last_notification_delivery_status": "prepared_for_final_response",
+  "last_market_snapshot_file": "evidence/2026-11-12-0852/market/analysis_final.json",
+  "previous_data_cutoff_at": "2026-11-11T09:06:53+08:00",
+  "last_missing_data": [
+    "No validated numerical probability model or hit-rate claim.",
+    "US normal closes crosschecked between Tencent and Sina for stocks and Nasdaq; SOX sourced from Sina, not confused with SOXX ETF.",
+    "Extended-hours quotations are separate snapshots at08:47-08:49Beijing, relative to normal close, not final afterhours close; next US premarket has not begun.",
+    "US history API returned only1-2sparse rows;5/20session returns and time-ordered intraday paths unverified.",
+    "Bounded official SEC/IR review with some IR sources inaccessible; no proof of all worldwide updates.",
+    "NVIDIA successor and CoreWeave financing reports remain attributed anonymous-source media; no official decision or completed financing verified.",
+    "Prior-day A-share prices are completeNov11session data, not today prices.",
+    "No writes to intraday monitoring state,179.83line or existing predictions; protected-file hashes verified.",
+    "Newsfeed1800rows startsNov11 09:37:53, leaving09:06:53-09:37:53coveragegap; independentSECchecks cover filings.",
+    "FourIRsites inaccessible; absence in bounded sources is not proof no event exists.",
+    "NewCEO/successor and financing reports cite unnamed sources; no officialdecisionorcompletedfinancingverified.",
+    "Anthropicdocumentisold;mediaUSD10bnincrementnotindependentlyversion-diffed.",
+    "Companyoutlooksarenotrealizedfutureperformanceorquantifiedmoduleorders.",
+    "No historical rumor inferred as fresh confirmed capex/order event."
+  ],
+  "last_forecast_review": {
+    "prior_observation_file": "observations/2026-11-11-0908.json",
+    "prior_assessment": {
+      "a_share_sector": "光通信／光模块",
+      "opening_bias": "偏弱，盘后反弹减轻低开压力",
+      "full_day_base_case": "震荡分化",
+      "opening_confidence": "中等",
+      "full_day_confidence": "中等偏低",
+      "numeric_probability": null,
+      "model_validated": false,
+      "probability_label": "暂无可靠百分比",
+      "supporting_evidence": [
+        "六家海外光通信五跌，四家跑输费半。",
+        "两只A股龙头上一交易日高开冲高后回吐，全天仍跑赢通信ETF和创业板。"
+      ],
+      "counterevidence": [
+        "六家海外光通信在各自最后可核盘后报价均较正常收盘上涨。",
+        "博通和Ciena正常盘上涨；已核实的新披露没有直接确认国内两家订单变化。"
+      ],
+      "alternative_scenarios": [
+        {
+          "scenario": "低开后修复",
+          "conditions": "两股同步收回并守住成交均价、回踩缩量且相对板块走强。"
+        },
+        {
+          "scenario": "承压延续",
+          "conditions": "两股和通信ETF同步走弱，等长时段放量跌破已形成的早盘低点。"
+        }
+      ],
+      "opening_validation_signals": [
+        "两只龙头相对通信ETF和创业板表现。",
+        "是否站回成交均价和首次回踩低点是否抬高。",
+        "比较等长已结束时段的回踩成交。"
+      ],
+      "medium_term": "关注800G／1.6T实际交付、毛利及回款；算力融资和服务协议不能换算成光模块订单。"
+    },
+    "prior_date": "2026-11-11",
+    "prior_direction": "开盘偏弱、全天震荡分化",
+    "actual_opening": "新易盛高开1.90%，中际旭创高开2.00%。",
+    "actual_full_session": "新易盛收215.00元涨16.97%，中际旭创收542.00元涨15.07%；均明显强于通信ETF+8.00%和创业板+3.11%。",
+    "assessment_zh": "主情景明显偏弱，低估本地板块承接与上行动量。原判断较重视11/10美股正常盘回吐及A股前日冲高回落。11/11午间公司经营回复为预测后新增信息，不能回填成盘前已知；仅凭行情不能确认实际上涨的单一消息或资金原因。",
+    "no_hit_rate": true,
+    "source_analysis": "ashares/analysis.json"
+  }
+}

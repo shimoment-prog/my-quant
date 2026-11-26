@@ -1,0 +1,209 @@
+{
+  "analyzed_at": "2026-11-13T14:31:04.540151+08:00",
+  "a_share_quote": {
+    "price": 26.17,
+    "previous_close": 26.78,
+    "open": 26.4,
+    "change_pct": -2.28,
+    "high": 26.68,
+    "low": 26.1,
+    "quote_time": "2026-11-13T14:30:06+08:00",
+    "vendor_pe_ttm": 9.74,
+    "vendor_pe_static": 13.44,
+    "vendor_pb": 3.34,
+    "turnover_pct": 0.72,
+    "sina_crosscheck": {
+      "price": 26.17,
+      "quote_time": "2026-11-13T14:30:09+08:00"
+    },
+    "vwap": 26.419229272981013,
+    "amount_cny": 3937095683.0,
+    "volume_shares": 149023866.0
+  },
+  "h_share_quote": {
+    "price_hkd": 26.92,
+    "change_pct": -3.651,
+    "quote_time": "2026-11-13T14:30:09+08:00",
+    "source": "sina.raw rt_hk02899",
+    "tencent_delayed_quote_excluded": {
+      "price": 26.92,
+      "quote_time": "2026/11/13 14:15:03"
+    }
+  },
+  "fx": {
+    "hkd_cny": 0.8504413791,
+    "quote_time": "2026-11-13T14:28:55+08:00",
+    "indicative_calculated_not_transaction": true
+  },
+  "valuation": {
+    "share_count": 26590798241,
+    "share_count_as_of": "2026-10-31",
+    "profit_ttm_cny": 71439378898,
+    "adjusted_profit_ttm_cny": 72439266775,
+    "a_price_equivalent_total_value_cny": 695881189966.9701,
+    "a_pe_ttm": 9.740862822457318,
+    "adjusted_pe_ttm": 9.606408526033428,
+    "static_pe_fy2025": 13.439882275434236,
+    "pb_common_equity": 3.33636139722498,
+    "h_pe_ttm": 8.52144299994588,
+    "a_premium_to_h_pct": 14.310015598522252,
+    "normalized_profit_scenarios_not_guidance": [
+      {
+        "future_annual_profit_yi": 500,
+        "pe": 13.917623799339403
+      },
+      {
+        "future_annual_profit_yi": 600,
+        "pe": 11.598019832782835
+      },
+      {
+        "future_annual_profit_yi": 750,
+        "pe": 9.278415866226268
+      }
+    ],
+    "current_year_q4_flat_q3_scenario": {
+      "fy2026_profit_yi": 758.81536931,
+      "pe": 9.170625927091372
+    }
+  },
+  "technical": {
+    "completed_daily_last_date": "2026-11-12",
+    "daily_adjustment": "qfq; not total return",
+    "moving_averages": {
+      "5": {
+        "value": 27.901999999999997,
+        "previous_value": 28.441999999999997,
+        "as_of": "2026-11-12",
+        "today_excluded": true
+      },
+      "10": {
+        "value": 28.012999999999998,
+        "previous_value": 28.139,
+        "as_of": "2026-11-12",
+        "today_excluded": true
+      },
+      "20": {
+        "value": 28.285500000000003,
+        "previous_value": 28.415499999999998,
+        "as_of": "2026-11-12",
+        "today_excluded": true
+      },
+      "60": {
+        "value": 30.906333333333325,
+        "previous_value": 31.012666666666664,
+        "as_of": "2026-11-12",
+        "today_excluded": true
+      }
+    },
+    "recent_daily_rows": [
+      [
+        "2026-10-28",
+        "28.600",
+        "27.950",
+        "28.610",
+        "27.670",
+        "1487932.000"
+      ],
+      [
+        "2026-10-29",
+        "28.200",
+        "28.040",
+        "28.200",
+        "27.660",
+        "1273150.000"
+      ],
+      [
+        "2026-10-30",
+        "27.590",
+        "27.600",
+        "28.000",
+        "27.220",
+        "1397605.000"
+      ],
+      [
+        "2026-11-02",
+        "27.520",
+        "26.840",
+        "27.520",
+        "25.900",
+        "2815256.000"
+      ],
+      [
+        "2026-11-03",
+        "27.000",
+        "27.450",
+        "27.740",
+        "26.680",
+        "2652929.000"
+      ],
+      [
+        "2026-11-04",
+        "27.280",
+        "29.250",
+        "29.450",
+        "27.110",
+        "3319119.000"
+      ],
+      [
+        "2026-11-05",
+        "29.610",
+        "29.480",
+        "29.950",
+        "29.040",
+        "2571846.000"
+      ],
+      [
+        "2026-11-06",
+        "28.800",
+        "28.280",
+        "29.060",
+        "27.810",
+        "2499357.000"
+      ],
+      [
+        "2026-11-09",
+        "28.480",
+        "28.410",
+        "28.640",
+        "28.200",
+        "1326334.000"
+      ],
+      [
+        "2026-11-10",
+        "28.730",
+        "28.180",
+        "28.910",
+        "28.120",
+        "1240429.000"
+      ],
+      [
+        "2026-11-11",
+        "27.500",
+        "27.860",
+        "27.950",
+        "27.180",
+        "1464155.000"
+      ],
+      [
+        "2026-11-12",
+        "27.310",
+        "26.780",
+        "27.510",
+        "26.700",
+        "2227628.000"
+      ]
+    ],
+    "opening_context": "Intraday snapshot at14:30, not a closing price; completed MAs exclude current day.",
+    "conditions": {
+      "stronger": "先收回26.70—26.80区域，再收复27.5及27.9—28.3的均线区域，需要收盘及回踩确认。",
+      "weaker": "26.10为截至报价时今日低点，25.90为11月2日历史低点；持续失守且反抽无力则弱势延续。历史位置不是保证支撑。"
+    }
+  },
+  "limitations": [
+    "A PE uses price times all ordinary shares divided by consolidated parent-attributable TTM profit; A/H actual market cap is a different denominator.",
+    "Tencent HK quote delayed about15minutes; timestamped Sina HK quote used.",
+    "Normalized future annual profit sensitivity is not current-year forecast or guidance.",
+    "Intraday last price is not closing price.",
+    "No verified numerical future-price probability."
+  ]
+}

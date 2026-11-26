@@ -1,0 +1,36 @@
+{
+  "classifiedAnnouncements": null,
+  "totalSecurities": 0,
+  "totalAnnouncement": 1,
+  "totalRecordNum": 1,
+  "announcements": [
+    {
+      "id": null,
+      "secCode": "300502",
+      "secName": "<em>新易盛</em>",
+      "orgId": "9900026455",
+      "announcementId": "1225660606",
+      "announcementTitle": "关于公司回购股份事项的公告",
+      "announcementTime": 1793936365000,
+      "adjunctUrl": "finalpage/2026-11-06/1225660606.PDF",
+      "adjunctSize": 96,
+      "adjunctType": "PDF",
+      "storageTime": null,
+      "columnId": "09020202||160203||250301||251302",
+      "pageColumn": "SZCY",
+      "announcementType": "01010503||010112||010115||011513",
+      "associateAnnouncement": null,
+      "important": null,
+      "batchNum": null,
+      "announcementContent": "",
+      "orgName": null,
+      "tileSecName": "<em>新易盛</em>",
+      "shortTitle": "关于公司回购股份事项的公告",
+      "announcementTypeName": null,
+      "secNameList": null
+    }
+  ],
+  "categoryList": null,
+  "hasMore": false,
+  "totalpages": 0
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "code": "603906",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=603906",
+    "retrieved_at": "2026-11-16T00:50:43.460303+00:00",
+    "ok": true,
+    "new_items": [
+      {
+        "art_code": "AN202611161831737873",
+        "codes": [
+          {
+            "ann_type": "A,SHA",
+            "inner_code": "30943335750859",
+            "market_code": "1",
+            "short_name": "龙蟠科技",
+            "stock_code": "603906"
+          }
+        ],
+        "columns": [
+          {
+            "column_code": "001002008",
+            "column_name": "其他"
+          }
+        ],
+        "display_time": "2026-11-16 08:03:00:388",
+        "eiTime": "2026-11-16 08:02:25:000",
+        "language": "0",
+        "listing_state": "0",
+        "notice_date": "2026-11-16 00:00:00",
+        "product_code": "",
+        "sort_date": "2026-11-16 12:00:00",
+        "source_type": "31",
+        "title": "龙蟠科技:H股公告-修订现行宁德时代采购框架协议项下之持续关连交易的年度上限",
+        "title_ch": "龙蟠科技:H股公告-修订现行宁德时代采购框架协议项下之持续关连交易的年度上限",
+        "title_en": ""
+      }
+    ],
+    "latest_items": [
+      {
+        "title": "龙蟠科技:H股公告-修订现行宁德时代采购框架协议项下之持续关连交易的年度上限",
+        "art_code": "AN202611161831737873",
+        "notice_date": "2026-11-16 00:00:00",
+        "display_time": "2026-11-16 08:03:00:388"
+      },
+      {
+        "title": "龙蟠科技:江苏龙蟠科技集团股份有限公司关于2026年第六次临时股东会增加临时提案并延期召开的公告",
+        "art_code": "AN202611111831633066",
+        "notice_date": "2026-11-12 00:00:00",
+        "display_time": "2026-11-11 19:05:57:693"
+      }
+    ]
+  }
+]

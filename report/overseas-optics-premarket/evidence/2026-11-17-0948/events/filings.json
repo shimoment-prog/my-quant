@@ -1,0 +1,144 @@
+[
+  {
+    "symbol": "MRVL",
+    "cik": "0001835632",
+    "new_filings": [
+      {
+        "accessionNumber": "0001958244-26-000721",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T22:34:17.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "accessionNumber": "0001628280-26-074228",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:39:07.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/wk-form4_1794865144.xml"
+      },
+      {
+        "accessionNumber": "0001628280-26-074226",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:38:26.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/wk-form4_1794865102.xml"
+      },
+      {
+        "accessionNumber": "0001628280-26-074222",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:37:35.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/wk-form4_1794865053.xml"
+      }
+    ]
+  },
+  {
+    "symbol": "AAOI",
+    "cik": "0001158114",
+    "new_filings": []
+  },
+  {
+    "symbol": "AVGO",
+    "cik": "0001730168",
+    "new_filings": []
+  },
+  {
+    "symbol": "LITE",
+    "cik": "0001633978",
+    "new_filings": [
+      {
+        "accessionNumber": "0001950047-26-011124",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:06:53.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "accessionNumber": "0001950047-26-011108",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:01:12.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      }
+    ]
+  },
+  {
+    "symbol": "FN",
+    "cik": "0001408710",
+    "new_filings": [
+      {
+        "accessionNumber": "0000080255-26-000695",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T15:00:24.000Z",
+        "form": "SCHEDULE 13G/A",
+        "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+      }
+    ]
+  },
+  {
+    "symbol": "COHR",
+    "cik": "0000820318",
+    "new_filings": []
+  },
+  {
+    "symbol": "CIEN",
+    "cik": "0000936395",
+    "new_filings": [
+      {
+        "accessionNumber": "0001950047-26-011160",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:35:36.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "accessionNumber": "0001950047-26-011152",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:33:27.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "accessionNumber": "0001950047-26-011111",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:01:49.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml"
+      },
+      {
+        "accessionNumber": "0001628280-26-074023",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T14:14:25.000Z",
+        "form": "8-K",
+        "primaryDocument": "cien-20261116.htm"
+      }
+    ]
+  },
+  {
+    "symbol": "NVDA",
+    "cik": "0001045810",
+    "new_filings": [
+      {
+        "accessionNumber": "0001045810-26-000084",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:41:59.000Z",
+        "form": "13F-HR",
+        "primaryDocument": "xslForm13F_X02/primary_doc.xml"
+      }
+    ]
+  },
+  {
+    "symbol": "NBIS",
+    "cik": "0001513845",
+    "new_filings": [
+      {
+        "accessionNumber": "0000935836-26-000604",
+        "filingDate": "2026-11-16",
+        "acceptanceDateTime": "2026-11-16T21:12:30.000Z",
+        "form": "SCHEDULE 13G/A",
+        "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+      }
+    ]
+  }
+]

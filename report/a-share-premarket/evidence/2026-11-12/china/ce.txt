@@ -1,0 +1,298 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 股市滚动新闻 中国经济网 
+ 
+ 
+ 
+ 
+body {	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	}
+table{text-align:left; }
+
+
+.cebottom{line-height:23px; text-align:center; padding-top:20px; padding-bottom:14px; color:#424242; width:1000px;  margin:0 auto;  font-size:12px;}
+.cebottom a:link{color:#424242;}
+.cebottom a:visited{color:#424242;}
+.cebottom a:hover{color:#424242;}
+.rzgl_bg1 { background:url(http://finance.ce.cn/images/rzgl_bg1.jpg) repeat-x; border:#E3E3E3 1px solid; margin:5px auto 5px;}
+	
+ 
+ 
+
+ 
+ 
+     
+           
+        金融证券  
+         
+     
+   
+  
+   
+     
+        
+         股市滚动新闻 
+       
+     
+   
+ 
+   
+  
+      
+          
+       
+	   
+
+       	   
+           
+         · A股上市公司强化低空基础设施布局与协同    [2026/11/12  07:17]  
+       
+	         
+         · 三重平衡让指数更真实还原创新底色    [2026/11/12  07:16]  
+       
+	         
+         · 监督责任持续压实 上市公司独董积极履职    [2026/11/12  07:15]  
+       
+	         
+         · 财政部：严肃查处会计审计违法违规行为    [2026/11/12  07:14]  
+       
+	         
+         · 上市公司“链”上发力深度参与产业并购基金    [2026/11/12  07:14]  
+       
+       
+           
+       
+	   
+           
+       
+	
+        
+           
+         · 多元救济并行发力 筑牢资本市场投资者保护防线    [2026/11/12  07:13]  
+       
+	         
+         · 券商把脉2027年A股：定价锚切换 结构胜于趋势    [2026/11/12  07:11]  
+       
+	         
+         · 严肃查处财务造假行为 积极推进数智化转型 财政部印发《会计改革与发展 “十五五”规划》    [2026/11/12  07:09]  
+       
+	         
+         · 证监会：切实维护投资者合法权益    [2026/11/12  07:08]  
+       
+	         
+         · 证监会拟细化先行赔付政策 更好保护投资者权益    [2026/11/12  07:08]  
+       
+       
+           
+       
+	   
+           
+       
+	
+        
+           
+         · 科技股引领A股市场放量反弹 通信板块主力资金净流入超百亿元    [2026/11/12  07:08]  
+       
+	         
+         · 券商：2027年港股基本面与估值或迎共振修复    [2026/11/12  07:06]  
+       
+	         
+         · 长效发力稳股市    [2026/11/12  07:05]  
+       
+	         
+         · 分众传媒跌3.9% 国投证券在股价近11年高点喊买入    [2026/11/11  16:35]  
+       
+	         
+         · 小米SU7 Max维修后方向盘跑偏还变重 门店邀约再检查    [2026/11/11  16:33]  
+       
+       
+           
+       
+	   
+           
+       
+	
+        
+           
+         · 分公司负责人违规为客户提供资金便利 中信证券吉林省分公司被责令改正    [2026/11/11  16:26]  
+       
+	         
+         · 破发股*ST仕净跌3.05% IPO国联民生保荐两募资共6.2亿    [2026/11/11  16:12]  
+       
+	         
+         · 破发股久日新材跌10.47% 2019上市募18.5亿招商证券保荐    [2026/11/11  15:56]  
+       
+	         
+         · 女子称入住汉庭酒店，睡醒后发现床上有粪便，索赔3000元精神损失遭拒，涉事酒店回应    [2026/11/11  15:56]  
+       
+	         
+         · 佳驰科技净利连降2年3季 上市募10.8亿中信证券保荐    [2026/11/11  15:54]  
+       
+       
+           
+       
+	   
+           
+       
+	
+        
+         
+	     
+	    
+           
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 共( ");
+	  document.write(_nPageCount);
+	  document.write(" )页  ");
+	  //var fyn;
+	 var nStep=5
+	  var nCurrIndex = _nCurrIndex || 0;
+	  	if(nCurrIndex   0)
+	  	document.write(" 首 页  ");
+	  else
+	    document.write(" 首 页   ");
+		
+	  if(nCurrIndex > 0){
+	      if(nCurrIndex == 1){
+		  document.write(" 上一页   ");
+		  }else{document.write(" 上一页   ");}
+	    }
+	  else{
+	    document.write(" 上一页   ");
+	    }
+	    /*if(nCurrIndex == 0)
+		document.write("1 ");
+	else
+		document.write(" 1  ");*/
+
+//首页和上一页以及第一页的代码
+
+
+
+
+	if(_nPageCount 1  ");
+	for(var i=1; i "+(i+1)+"  ");
+		}
+
+
+	}else{//_nPageCount小于等于4的情况end
+	//下面这个IF是判断是小于步长的一半的情况的;
+	if(nCurrIndex  [1]   ");
+	    	  }
+			    if(i == 0 && nCurrIndex!=0){
+					document.write(" [1]   ");}
+		  if(i > 0 && i  "+(i+1)+" ]  ");
+			  else
+	    			document.write("[ "+(i+1)+" ]  ");
+		  	}
+	  			}
+	  	var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时候;
+       //alert("nCurrIndex: "+nCurrIndex);
+	   if(nCurrIndex  下一页   ");	 
+	  	else if (nextOver  末 页   ");	
+	     else
+	     document.write("末 页");
+	  return false;
+	
+	    	}
+	
+	  for(i=Math.ceil(nCurrIndex-nStep/2);i  0 && i   0 && i  "+(i+1)+" ]  ");
+			  else
+	    		document.write("[ "+(i+1)+" ]  ");
+		  }
+		  
+	  }	  
+	 } 
+	 
+
+	 //下一页和末页的设置
+	   var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时候;
+	   if(nCurrIndex  下一页   ");	 
+	  	else if (nextOver  末 页   ");	
+		else
+	    document.write("末 页");
+	  //下一页和末页的设置	
+
+
+
+}//函数结束符
+//WCM置标
+createPageHTML(10, 0, "index", "shtml");	
+//-->
+ 
+		
+           
+
+   
+       
+	   
+	  
+   
+   
+
+  
+ 
+ 
+ document.write(unescape("%3Cscript src='http://cl3.webterren.com/webdig.js?z=32' type='text/javascript'%3E%3C/script%3E")); 
+ wd_paramtracker("_wdxid=000000000000000000000000000000000000000000") 
+ 
+
+ 
+  
+
+ 
+ 
+(function(a,b,c,d){a[b] = a[b] || {};a[b][d] = a[b][d] || function(){(a[c] = a[c] || []).push(arguments);};}(window,"TA17Obj","TAQueueArr","track"));
+ 
+ 
+    TA17Obj.track({
+        "eventKey": "e_cecn",
+        "trackInfos":[
+            {
+            "eventItem":"channelName",
+            "eventItemName":"股市滚动新闻",
+            "eventItemType":"cecn.channelName"
+            },
+            {
+            "eventItem":"channelId",
+            "eventItemName":"216720",
+            "eventItemType":"cecn.channelId"
+            },
+            {
+            "eventItem":"siteName",
+            "eventItemName":"财经频道",
+            "eventItemType":"cecn.siteName"
+            }
+        ]
+    });
+ 
+ 
+ 

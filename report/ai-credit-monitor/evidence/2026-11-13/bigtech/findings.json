@@ -1,0 +1,522 @@
+{
+  "run_date": "2026-11-13",
+  "prepared_at": "2026-11-13T00:31:37.787990+00:00",
+  "baseline_cutoff": "2026-11-12T00:35:44.433607+00:00",
+  "scope": [
+    "Alphabet/Google",
+    "Meta",
+    "Microsoft",
+    "Amazon",
+    "Broadcom",
+    "Anthropic"
+  ],
+  "recommendation": "DONT_NOTIFY_unless_parent_aggregates_other_material_events",
+  "material_new_verified_stage_update": true,
+  "material_change_to_overall_AI_risk_assessment_supported": false,
+  "summary": "Meta90亿欧元债按期完成得到公司8K确认，降低该笔交割不确定性；Anthropic区域招股新增FWP仍非最终定价/到账，Alphabet亚洲债有新发行/认购头条但未取完整条款或交割。未核实大客户正式资本开支下修、Broadcom收入下修、实际担保支付或融资中断。",
+  "SEC_checks": [
+    {
+      "company": "alphabet",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "retrieved_at": "2026-11-13T00:26:53.762368+00:00",
+      "ok": true,
+      "all_new": [
+        {
+          "accessionNumber": "0001968582-26-001139",
+          "form": "144",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T21:25:07.000Z",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "accessionNumber": "0001968582-26-001138",
+          "form": "144",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T21:23:39.000Z",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "accessionNumber": "0001968582-26-001137",
+          "form": "144",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T21:22:08.000Z",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "accessionNumber": "0001969223-26-001174",
+          "form": "144",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T21:03:19.000Z",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        }
+      ],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001652044-26-000084",
+          "filingDate": "2026-10-29",
+          "primaryDocument": "goog-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "meta",
+      "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "retrieved_at": "2026-11-13T00:26:53.762745+00:00",
+      "ok": true,
+      "all_new": [
+        {
+          "accessionNumber": "0000950103-26-017401",
+          "form": "4",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T23:43:22.000Z",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "accessionNumber": "0000950103-26-017398",
+          "form": "4",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T23:40:07.000Z",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "accessionNumber": "0001354457-26-001064",
+          "form": "CERT",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T22:07:01.000Z",
+          "primaryDocument": "META_8A_Cert_1326801.pdf"
+        },
+        {
+          "accessionNumber": "0001193125-26-458695",
+          "form": "8-A12B",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T22:04:23.000Z",
+          "primaryDocument": "d193866d8a12b.htm"
+        },
+        {
+          "accessionNumber": "0001193125-26-458525",
+          "form": "8-K",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T21:27:49.000Z",
+          "primaryDocument": "d177728d8k.htm"
+        }
+      ],
+      "new_relevant": [
+        {
+          "accessionNumber": "0001193125-26-458525",
+          "form": "8-K",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T21:27:49.000Z",
+          "primaryDocument": "d177728d8k.htm"
+        }
+      ],
+      "latest10q": [
+        {
+          "accessionNumber": "0001628280-26-066773",
+          "filingDate": "2026-10-22",
+          "primaryDocument": "meta-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "microsoft",
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "retrieved_at": "2026-11-13T00:26:53.762973+00:00",
+      "ok": true,
+      "all_new": [
+        {
+          "accessionNumber": "0000789019-26-000234",
+          "form": "4",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T23:08:34.000Z",
+          "primaryDocument": "xslF345X06/form4.xml"
+        }
+      ],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001193125-26-436133",
+          "filingDate": "2026-10-28",
+          "primaryDocument": "msft-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "amazon",
+      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "retrieved_at": "2026-11-13T00:26:53.763121+00:00",
+      "ok": true,
+      "all_new": [
+        {
+          "accessionNumber": "0001018724-26-000042",
+          "form": "4",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T23:27:54.000Z",
+          "primaryDocument": "xslF345X06/wk-form4_1794526071.xml"
+        },
+        {
+          "accessionNumber": "0001104659-26-126255",
+          "form": "SCHEDULE 13G",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T21:16:44.000Z",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        }
+      ],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001018724-26-000040",
+          "filingDate": "2026-10-30",
+          "primaryDocument": "amzn-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "broadcom",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "retrieved_at": "2026-11-13T00:26:53.763266+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001730168-26-000080",
+          "filingDate": "2026-09-10",
+          "primaryDocument": "avgo-20260802.htm"
+        }
+      ]
+    },
+    {
+      "company": "anthropic",
+      "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "retrieved_at": "2026-11-13T00:26:55.132831+00:00",
+      "ok": true,
+      "all_new": [
+        {
+          "accessionNumber": "0001628280-26-073045",
+          "form": "FWP",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T11:08:43.000Z",
+          "primaryDocument": "anthropicpbc-fwpjapanamend.htm"
+        },
+        {
+          "accessionNumber": "0001628280-26-073040",
+          "form": "FWP",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T11:06:37.000Z",
+          "primaryDocument": "anthropicpbc-fwpxeeaprospea.htm"
+        }
+      ],
+      "new_relevant": [
+        {
+          "accessionNumber": "0001628280-26-073045",
+          "form": "FWP",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T11:08:43.000Z",
+          "primaryDocument": "anthropicpbc-fwpjapanamend.htm"
+        },
+        {
+          "accessionNumber": "0001628280-26-073040",
+          "form": "FWP",
+          "filingDate": "2026-11-12",
+          "acceptanceDateTime": "2026-11-12T11:06:37.000Z",
+          "primaryDocument": "anthropicpbc-fwpxeeaprospea.htm"
+        }
+      ],
+      "latest10q": []
+    }
+  ],
+  "new_financial_report_published_in_scope": false,
+  "formal_capex_or_supplier_revenue_guidance_cut_newly_verified": false,
+  "new_events": [
+    {
+      "event_id": "meta_eur_20261104_pricing",
+      "new_stage_evidence_id": "meta_20261112_eur_notes_completed",
+      "issuer": "Meta",
+      "original_pricing_publication_date": "2026-11-04",
+      "actual_completion_date": "2026-11-12",
+      "SEC_accepted_at": "2026-11-12T21:27:49Z",
+      "stage": "completed_confirmed_by_company_8K",
+      "currency": "EUR",
+      "aggregate_principal": 9000000000,
+      "tranches": [
+        {
+          "principal": 1750000000,
+          "coupon_pct": 4.3,
+          "maturity_year": 2031
+        },
+        {
+          "principal": 1250000000,
+          "coupon_pct": 4.65,
+          "maturity_year": 2033
+        },
+        {
+          "principal": 1000000000,
+          "coupon_pct": 4.9,
+          "maturity_year": 2035
+        },
+        {
+          "principal": 1750000000,
+          "coupon_pct": 5.4,
+          "maturity_year": 2038
+        },
+        {
+          "principal": 1750000000,
+          "coupon_pct": 6.05,
+          "maturity_year": 2044
+        },
+        {
+          "principal": 1500000000,
+          "coupon_pct": 6.4,
+          "maturity_year": 2065
+        }
+      ],
+      "evidence_grade": "primary_company_SEC_8K",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+      "net_cash_proceeds_separately_verified": null,
+      "actual_company_balance_now_verified": false,
+      "note": "Companystatescompletedofferingandnotesissued. SameoriginalNov4pricedissuance—notanotherEUR9bn. CouponisnotOAS/CDS. No default/delay; completionreducesexecutionuncertaintybutdoesnotresolveoperatingcashflowrisks."
+    }
+  ],
+  "financing_followups": [
+    {
+      "event_id": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+      "stage": "proposed_roadshow_preliminary_US_range_not_final_priced_not_closed",
+      "new_document_evidence_ids": [
+        "anthropic_20261112_japan_FWP",
+        "anthropic_20261112_EEA_FWP"
+      ],
+      "new_document_publication_dates": [
+        "2026-11-12"
+      ],
+      "underlying_regional_prospectus_date": "2026-11-11",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073045/anthropicpbc-fwpjapanamend.htm",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm",
+        "https://www.anthropic.com/news/roadshow-launch"
+      ],
+      "evidence_grade": "primary_SEC_regional_prospectuses",
+      "US_estimated_price_range": [
+        70,
+        78
+      ],
+      "EEA_maximum_retail_offering_price": 120,
+      "EEA_maximum_retail_price_not_final_US_IPO_price": true,
+      "EEA_shares_up_to": 80135135,
+      "regional_shares_are_tranche_of_global_offering_not_additional_global_raise": true,
+      "offer_period_expected_end": "2026-11-18",
+      "offer_period_date_is_not_actual_closing": true,
+      "private_placement_USD": 26000000000,
+      "private_placement_still_contingent_on_IPO_and_conditions": true,
+      "cash_receipts_verified": false,
+      "old_Google_AMD_commitment_overlap_preserved": true,
+      "prior_full_terms_reference": "evidence/2026-11-11/bigtech/findings.json#new_events",
+      "interpretation": "Regionalapproval/registrationandretailceilingareofferingprocesssteps,notfinalpricing,completedfinancingorassuredreceipts. No verifiedwithdrawalofNVIDIAcommitment;leadershipnewsaloneisnotcontractchange."
+    },
+    {
+      "event_id": "alphabet_20261111_asian_bond_plan_followup",
+      "new_evidence_id": "alphabet_20261112_asian_bond_launch_pricing_headlines",
+      "issuer": "Alphabet",
+      "publication_date": "2026-11-12",
+      "currencies": [
+        "HKD",
+        "SGD"
+      ],
+      "reported_size_USD_approx": 3800000000,
+      "reported_orders_USD_over": 7000000000,
+      "source": "https://www.reuters.com/world/asia-pacific/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-2026-11-12/",
+      "evidence_grade": "reliable_media_RSS_headline_original_body_unavailable",
+      "stage": "media_headlines_report_launched_raised_or_pricing_not_independently_verified_settled",
+      "final_coupon_tenor_benchmark_spread": null,
+      "expected_settlement_date": null,
+      "actual_settlement_verified": false,
+      "cash_receipts_verified": false,
+      "headline_items": [
+        {
+          "published_at": "Thu, 12 Nov 2026 16:37:05 GMT",
+          "title": "Alphabet raised about $3.8 billion in first Hong Kong and Singapore dollar bonds - Quartz",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0T1FpUnlpWkpabjJpbFlsdkZpd1drVmxicXlRVFQ4OG55OXZOcXNvV0lwTmlxdmdEa3RIc01sT1BSNWkzb1JYbTM0RGJqdGRhUUdWbTZSQ0t1Q1F4YWh5d1o0Mks5N0xSZ1BvRVlmaTFkMmo3NEViMw?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 02:57:00 GMT",
+          "title": "Alphabet raises $3.8 billion in first Hong Kong, Singapore dollar bonds - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSkZJZGdvOEZWNkZuZ3pSWXU4QUktR01VVWpXc1I3OWtjQnFYaEtRMHVjdUJCblRxdDh2Wm0tbmJQN0gtWVN6b3dnVFlMVGM1Qk8ydHgtb0tndU5xblJGOTVxRWFFYjdjdDJIQkcwckZqMnNDUkZlNE56dzVGd0dMMVFaZUMydjZPaTVkcmRGQU1sZXlscUx0UkRINlpVZk9QYXFiZElNSlc1cG5JTHYwTVplbzM5b0FLOHZLelZZWnlxcGpEdEstNi0zSFprUQ?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 08:58:20 GMT",
+          "title": "Alphabet's debut Hong Kong, Singapore bond sales draw over $7 billion in orders - Central Oregon Daily",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUTYzemJoOGxYbGxWLVZEVUZTSDIxU09pS0Z2WlRhSjg3OUNRd0taUGJsMkE4QTFHa3hVaC12bE92TnE1ekFyV2M1Y1liOTRVaVh5aVptcVhoRERtQVplelBOM0ozejBlQ2tlSm1ER2EwSmt1MWtlSlJaVDdRTFc4RmtDYTJPVURvdUEtV1FYTkxCSGhxcmpQanJ0Y0pxa0JwN2FsWXVxUWxqajc5RHdoZk9lSnVFdURDS0VHUE9fTjFxRGNNVlo5YWJwUDVNdkRaYzFENUtad0ZHSFktSXhDTC1zMnVrX243RzJLNnVPOHNpZUg2Q3E2WEpPUFZUaFl4VjRmc1pn?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 12:48:15 GMT",
+          "title": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaGZ5Z0pKYS0wTHBjSE5aYVVqTDgzdzZTQkRaY2ZpNDJWalNEU1hicGEzX3FJd2pjUGNjalZ3dzVyM1Z5RTJSaVNyTGtxR0VCQ3JlU3lZOXg0eXUyWTFsaVQ3Y1ZhOXhMM19OLTN2bGJ4Q094OFM4V1VmVi16eFpFcVhkTkVNbkNZeDd5UnpEZU1CbVRJZHY1SF9yOG4zSVpPbVRVYnhwSkROWVNLX2Iw?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 17:09:22 GMT",
+          "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekxJWlNsQXlpSG80TzJHMDNiREl6ZC0zWEQ0S0FWVWZPXzJpQk5maC1NTFhXQjIyRmk5QlU1QnFxZ2VHZUNkVUNjOWo4azhLVzlHelE3dFk1UUU3UHllNUdiVzVaODFKSHJEZHQ4Q1d2a0FrLUJiYjM3bUlwZ01wODltVlYyY2YyM3dZV1piYjFmTFRlaVZNcVp3V0RMSlM2SHdPbllBTnQzNllPbGw5YWRERQ?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 05:55:39 GMT",
+          "title": "Alphabet’s First HK And S$ Bonds Drew More Than $7 Billion - Finimize",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeTVjT3NVaEtmRUlaWkZWQUdCZ3R6UkpKVnJUNHZkMkxkbFVyVG5pdjRPeGxpaGZNamV3anJBaUN4eEtxSnVfZ205U3lFN1dxYlhzNmY1akdyWEJtbWs0eG9pdkFsRGQ0MmtGTkJKcnRPeXp4THdrMlIxdC00TERaVVFXOWpCUQ?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 09:00:00 GMT",
+          "title": "Alphabet tests HKD and SGD bonds amid AI jitters - Briefs Finance",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS29felBVLVIwTXUwSXRBZ18wT3ZtTllqY3pTaUJHZGRfa3hsWXVMUE1oU1QyN2M2dUxEdEJ5by1nLV9GWEdNSkVGdGo4ZTVnWTJBdEV6NUU5ZU1MczU5YlNHTWwxWk9KNXRJSUVZQm9qcTdaSWpSYS1jd2dVMXFzMnAtaTJ0dzVqM0h2MVNYZ0o3QQ?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 02:59:43 GMT",
+          "title": "Alphabet sets initial price guidance for Hong Kong, Singapore bond sales, term sheet shows - The Lufkin Daily News",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNcU8zWU9lQWR2Vy0wd0cwWnFlUkFJLTJkNE9DT0dmMHZJeFNEazVCWWNrNTFZeVdPTjVuU0k5VXBUWjlTcnhVbHNJNUhGd3NzLWIyUmpja2ZobFZxd05vUUdKUGZiNGpMSHpBVlB0TW56UF82NkNZLUE4LXZ3eWVtdWc3d2xqWm9ZSnphZ3dscjVpWVhHNDNZMFdka1Jla3NNazliYVAwc18tQjFkMVR5Y0haSUhRWmpBMlBPLXB0V0pYZ3AwRjRsM2I3SkhwOEtNUEFUMGItMG9uRU44ODExSTh4Y1g0UXIzZXVuRTEwQzJJV0IzeWFfX0c2RzljdW9hcU42S1h3Z3R1NXdWcWtJYzlWSkpCWTA?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 04:48:00 GMT",
+          "title": "Alphabet's debut Hong Kong, Singapore bond sales draw about $5 billion in early orders - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRlNXRnpmNDc0QmxjTnJTZEpWbGNUWlg1T3B0ME1IbFNKc294dm1Ka0xOMUtTNm96WVh4UXNEUlZtMmRkd2VkLUpIakJyUHpuWnRTRTdsN3d0OVNBS0hYQ1lRdjYxWVAxbGp6Uy1IYWpGRWFvUGdXSXdTbnJYVVk0Z2lvbnktT0FueElDVEVnTmI3QVlHeS1JRHZpTktVRTl6bkdtT3gyRF9DOGo5UVE4VHN4TjZrTDFwMTdjZXExcFl3WTkyRnVoYmdYNnVscFdrR1NCWXE0TlVjbDB0VTBERFVObndnRHdfOXc?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 06:04:29 GMT",
+          "title": "Alphabet reportedly pulls in $5B in orders for landmark Hong Kong and Singapore dollar bond sale - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWlZMm82dFZyWGV2SHJKRkx3VF9Palc5eElHNXJGOGw4V3o5VWxCekV5RUdoQVZreTN5NzdrNnhVVlpKTndTR0pza1l4WXhNSEh4TklWSlhRSTd5RUtYNDZHS19sRlMwVkN2cHpBU3l5MlAtTlFBX0d3djlOa0lUR0wtdGtrc21XUEJMVFRfX0tQa0tvZjkxamlMR3A0d3FiWnlhN0tFT3V3N2k3dHJ1SlVrX3BqSkI3TEtXSC05a3JWT3hjcnJMUU1yclAxdw?oc=5"
+        }
+      ],
+      "interpretation": "Reportedmovefromplanningtomarketing/pricing,butfulltermsandsettlementunverified. Ordersarenotissuanceproceeds;3.8bnapproxnotadditivewithprevious3bnplan.",
+      "collection_limits": "Reuters/Quartz/Standardtimeout;CentralOregonDaily403."
+    }
+  ],
+  "nonfinancial_filings_interpretation": "Alphabet144/Meta4/Microsoft4/Amazon4and13Gareownership-relatednotissuerfinancing/capexchanges;Meta8A/CERTregistersamecompletedEURnotesnotanotherissuance.",
+  "fixed_checks": {
+    "customer_capex_cuts": {
+      "new_formal_cut_records": [],
+      "status": "no_new_formal_cut_verified",
+      "missing_not_stable_demand": true
+    },
+    "supplier_consecutive_revenue_guidance_cuts": {
+      "scope": "Broadcom",
+      "new_formal_cut_records": [],
+      "new_revision_count": 0,
+      "consecutive_threshold": 2
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "new_verified_escalation_records": [],
+      "policy_discovery": "No verifiednewfinalChineseopticaltransceiverruleoractualcancelledorder. PriorNov10Reuters/Nov11TrendForcecontextretained."
+    }
+  },
+  "weekly_review": {
+    "due_today": true,
+    "review_completed": true,
+    "review_date": "2026-11-13",
+    "baseline_type": "historical_comparable_period_review_not_new_earnings",
+    "financial_comparisons": [
+      {
+        "issuer": "Alphabet",
+        "period": "2026-01-01/2026-09-30",
+        "prior_comparable_period": "2025-01-01/2025-09-30",
+        "currency": "USD",
+        "is_new_release": false,
+        "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "publication_date": "2026-10-29",
+        "operating_cashflow": 127149000000,
+        "prior_ocf": 112311000000,
+        "ocf_yoy_pct": 13.212,
+        "cash_ppe": 131953000000,
+        "prior_cash_ppe": 63596000000,
+        "cash_ppe_yoy_pct": 107.486,
+        "common_cash_surplus": -4804000000,
+        "prior_common_cash_surplus": 48715000000,
+        "finance_lease_principal": 1950000000,
+        "surplus_after_finance_lease_principal": -6754000000,
+        "cash_and_debt_securities_excluding_equity_at_Sept30": 174714000000,
+        "exact_current_liquidity_and_next12months_contractual_service": null
+      },
+      {
+        "issuer": "Meta",
+        "period": "2026-01-01/2026-09-30",
+        "prior_comparable_period": "2025-01-01/2025-09-30",
+        "currency": "USD",
+        "is_new_release": false,
+        "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+        "publication_date": "2026-10-22",
+        "operating_cashflow": 96873000000,
+        "prior_ocf": 79586000000,
+        "ocf_yoy_pct": 21.721,
+        "cash_ppe": 83055000000,
+        "prior_cash_ppe": 48308000000,
+        "cash_ppe_yoy_pct": 71.928,
+        "common_cash_surplus": 13818000000,
+        "prior_common_cash_surplus": 31278000000,
+        "finance_lease_principal": 2769000000,
+        "surplus_after_finance_lease_principal": 11049000000,
+        "cash_and_debt_securities_excluding_equity_at_Sept30": 79324000000,
+        "exact_current_liquidity_and_next12months_contractual_service": null
+      }
+    ],
+    "financial_periods_unchanged_since_last_week_in_this_scope": true,
+    "Alphabet_Meta_cashflow_definition": {
+      "common_cash_surplus": "Operating cash flow minus cash purchases of PP&E, before finance lease principal.",
+      "cash_surplus_after_finance_lease_principal": "Common cash surplus minus finance lease principal paid; not a claim to include every contractual obligation.",
+      "cash_and_debt_securities": "Cash and equivalents plus debt-type marketable securities, excluding equity securities; not a guarantee every position is instantly available.",
+      "bond_carrying_value": "Bond carrying value including current portion; not all lease liabilities or all next-twelve-month contractual cash obligations.",
+      "contingent_exposure": "Record nominal/max exposure, recognized liability and actual payments separately; none is interchangeable."
+    },
+    "summary": "截至9月30日的历史九个月可比口径仍显示Alphabet现金固定资产支出增长快于OCF，基础余量由+487.15亿变-48.04亿美元；Meta由+312.78亿变+138.18亿。融资租赁本金分别19.50亿、27.69亿另列，扣后-67.54亿与+110.49亿美元。不是本周新财报或每日现金变化。",
+    "liquidity_buffer_review": {
+      "asof": "2026-09-30",
+      "Alphabet_cash_and_debt_securities_excluding_equity_USD": 174714000000,
+      "Meta_cash_and_debt_securities_excluding_equity_USD": 79324000000,
+      "Meta_restricted_cash_already_excluded_USD": 13132000000,
+      "current_cash_after_new_financing": null,
+      "exact_next12mo_contractual_principal_interest_leases": null,
+      "new_financing_not_mechanically_added_to_historical_cash": true
+    },
+    "contingent_support_review": {
+      "Alphabet_notional_USD": 48012000000,
+      "Alphabet_fair_value_liability_USD": 606000000,
+      "Meta_JV_residual_guarantee_max_USD": 41493000000,
+      "Meta_total_JV_max_exposure_including_guarantee_USD": 68404000000,
+      "actual_new_payout_verified": false,
+      "notionals_not_losses": true,
+      "source_reference": "reference-baselines/2026Q3-alphabet-meta.json"
+    },
+    "past_week_funding_events": [
+      "AnthropicNov10IPOroadshowandcontingent26bnplacementstillunclosed",
+      "MetaNov12EUR9bncompletedcompany8Kconfirmed",
+      "AlphabetNov12Asianbondlaunch/pricingheadlinesfulltermsmissing"
+    ],
+    "prior_warning_outcomes": [
+      {
+        "warning": "MetaEURNov12expectedsettlement",
+        "outcome": "CompanyconfirmscompletedNov12;notfundingfailure."
+      },
+      {
+        "warning": "Anthropicproposedfundraisingcouldsupportliquidity",
+        "outcome": "Regionalsupplementaryprospectusesconfirmprocesscontinues;noverifiedprice/receipts."
+      },
+      {
+        "warning": "Capexcashrequirementsoutpaceinternalcashgeneration",
+        "outcome": "HistoricalAlphabet/Meta9Mbaselineunchanged;noperiodupdateinscope."
+      }
+    ],
+    "issuer_CDS_or_matched_bond_20_day_series_available": false
+  },
+  "collection_limits": [
+    {
+      "surface": "Meta/AmazonIR",
+      "error": "429",
+      "SEC_alternative_success": true
+    },
+    {
+      "surface": "BroadcomIR/Microsoftblog",
+      "error": "403",
+      "SEC_alternative_success": true
+    },
+    {
+      "surface": "Asianbondterms",
+      "error": "bodyfetchfailures",
+      "price_and_settlement_not_invented": true
+    }
+  ]
+}

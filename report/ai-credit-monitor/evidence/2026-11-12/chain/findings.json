@@ -1,0 +1,120 @@
+{
+  "observation_date": "2026-11-12",
+  "check_type": "incremental_supplier_project_lender_review",
+  "cutoff": "2026-11-11T01:14:46.549646+00:00",
+  "retrieval_started_at": "2026-11-12T00:28:38Z",
+  "conclusion": "本次覆盖未核实新增供应商正式收入指引下调、IREN/TeraWulf同一已签项目从延期升级为取消/退款/重大融资实际中断，或资金方新增AI相关实际损失。保留此前局部风险升温，不把无更新视为风险缓解。",
+  "material_ai_risk_change_verified_from_this_subtask_alone": false,
+  "coverage": {
+    "sec_submission_inventory": {
+      "manifest": "submission_manifest.json",
+      "success_count": 14,
+      "company_count": 14,
+      "new_filings_after_cutoff": 0,
+      "new_8k_10q_10k_6k_after_cutoff": 0,
+      "companies": [
+        "NVIDIA",
+        "AMD",
+        "Marvell",
+        "Lumentum",
+        "Coherent",
+        "Applied Optoelectronics",
+        "Fabrinet",
+        "Ciena",
+        "IREN",
+        "TeraWulf",
+        "Apollo",
+        "Blackstone",
+        "Ares",
+        "JPMorgan"
+      ],
+      "retrieved_at": "2026-11-12T00:28:41.598801+00:00"
+    },
+    "ir_access": {
+      "Apollo": "IR目录成功，最新Nov10会议出席公告，无新增AI融资/损失披露；此前6亿美元次级债仍待Nov13交割。",
+      "Ares": "IR目录成功，未核实新增相关重大事项。",
+      "Blackstone": "新闻目录403，SEC清单可用。",
+      "IREN": "已从官网导航修正路径https://iren.com/investors/news，读取成功，最新仍Nov5 Q1 FY27财报。",
+      "TeraWulf": "已从官网导航修正路径https://investors.terawulf.com/news-events/press-releases，读取成功，最新仍Nov6 Q3财报；Nov4 Google支持公告为历史事件。"
+    },
+    "news_discovery": "四组Google News RSS见news_manifest.json；额外Mercor/软银线索见extra_manifest.json。"
+  },
+  "focused_checks": {
+    "supplier_guidance": {
+      "status": "no_new_formal_cut_verified_in_covered_sources",
+      "new_comparable_formal_cuts_verified": 0,
+      "two_independent_new_cuts_verified": false,
+      "notes": "Coherent、Fabrinet新文章复述历史财报及估值；光通信股票反弹及分析师观点不是新增客户付款或公司正式指引修订。无新增原始文件时，不重写历史指引日期或将股价变化计作下修。"
+    },
+    "project_delay_escalation": {
+      "status": "no_new_signed_project_escalation_verified_for_IREN_TeraWulf",
+      "notes": "IREN执行延期和TeraWulf信用支持为已知事件。韩国300MW项目公开摘要已于Nov11记录，指未锁定Anthropic租户，不能记为已签订单取消。"
+    },
+    "lender_realized_losses": {
+      "status": "no_new_ai_specific_realized_loss_verified_for_covered_lenders",
+      "notes": "Apollo/Ares/Blackstone/JPMorgan无新增SEC披露。新股价或贷款总规模文章不能代替AI项目级减值、实际担保赔付或停止放贷证据；无公开证据不等于不存在私人损失。"
+    }
+  },
+  "financing_stage_preservation": [
+    {
+      "event_id": "apollo-20261109-junior-subordinated-notes-priced",
+      "principal_usd": 600000000,
+      "initial_coupon_pct": 7.55,
+      "expected_settlement_date": "2026-11-13",
+      "stage": "priced_not_verified_settled_not_due_yet",
+      "new_closing_or_failure_verified": false,
+      "AI_specific_loss_funding_verified": false
+    },
+    {
+      "event_id": "ing_20261106_reported_500m_loan_BWIC_identified",
+      "reported_bid_deadline": "2026-11-19",
+      "stage": "media_reported_bid_solicitation_not_verified_sale",
+      "completed_sale_or_loss_verified": false
+    }
+  ],
+  "discovery_and_deduplication": [
+    {
+      "title": "Softbank loses $3.7 billion on canceled AI data center gas turbine orders days after denying Elon Musk’s claim it was defaulting —company kills reserved 13 gigawatts of power, more than six Hoover Dams’ worth of capacity",
+      "publisher": "Tom's Hardware",
+      "rss_public_time": "2026-11-11T14:29:43Z",
+      "source_reference": "/private/tmp/ai-credit-monitor-2026-11-12/market/news_chain.xml",
+      "verification_status": "full_public_Toms_article_read_secondary_to_WSJ_and_earnings_call",
+      "same_prior_underlying_event_candidate": "softbank_20261110_sb7_procurement_realignment_loss",
+      "notes": "Full public article describes same $3.7bn turbine procurement/reservation unwind. Additional detail: WSJ anonymous-source report says more than13GW reservations; GE Vernova named as supplier, remaining reservations canceled and more advanced contracts unwound. Company CFO on recent earnings call denies default. This enriches prior project-procurement event, does not independently establish a new loss, GE revenue guidance cut, customer AI-compute order cancellation, payment delinquency or financing interruption. Direct WSJ full text and supplier primary confirmation not acquired.",
+      "source": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity",
+      "media_reported_reservations_capacity_GW_more_than": 13,
+      "media_reported_supplier": "GE Vernova",
+      "same_underlying_event_id": "softbank_20261110_sb7_procurement_realignment_loss",
+      "raw_files": [
+        "softbank_toms.html",
+        "softbank_toms.txt",
+        "softbank_toms_manifest.json"
+      ]
+    },
+    {
+      "title": "Mercor Raises $750 Million Series D at $20 Billion Valuation to Help Enterprises Own Their Intelligence",
+      "publisher": "Business Wire",
+      "rss_public_time": "2026-11-10T13:15:00Z",
+      "verification_status": "issuer_distributed_press_release_headline_discovered_not_full_text_read",
+      "secondary_source": "https://www.alternativeswatch.com/2026/11/10/apollo-mercor-seried-d-750-m-kkr-midland-basis/",
+      "secondary_public_excerpt": "公开摘要称Benchmark、Apollo、Nvidia等投资AI数据公司，估值20bn；正文付费，未绕过。首页列Apollo/StepStone参投750m Series D。",
+      "amount_usd_headline_only": 750000000,
+      "cash_receipt_independently_verified": false,
+      "notes": "可保留新增融资线索，但尚不认定资金已到账；Mercor融资所得不是最终客户经营付费，也无直接证据缓解此前受压主体融资缺口。"
+    },
+    {
+      "title": "Apollo’s Originations Rise to a Record $114 Billion as Opportunities Arise in AI",
+      "publisher": "WSJ",
+      "rss_public_time": "2026-11-11T19:48:05Z",
+      "verification_status": "headline_only_not_new_company_financial_release_verified",
+      "notes": "无新SEC/IR经营财报匹配，保留历史季度复述可能；新增发放总额不是AI回款、贷款损失或风险缓解的直接证据。"
+    }
+  ],
+  "gaps": [
+    "部分IR新闻不可访问，但14家公司SEC清单全部成功。",
+    "未取得个体CDS可比终端序列及私人信贷AI项目级损失数据。",
+    "SoftBank more-than13GW and GE Vernova details are from Tom secondary reporting citing WSJ, not supplier primary confirmation; Mercor financing full primary release and cash receipt not acquired."
+  ],
+  "recommended_notification": "no_alert_from_this_subtask_alone",
+  "preserve_prior_state": "保留Nov11已通知局部风险升温、软银实际采购损失及CoreWeave现金压力；新媒体转载不重复计数。"
+}

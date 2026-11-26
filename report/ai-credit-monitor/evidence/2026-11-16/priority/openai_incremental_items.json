@@ -1,0 +1,18 @@
+{
+  "cutoff_utc": "2026-11-15T00:37:11.438315+00:00",
+  "total_items": 1389,
+  "new_items": [
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "pubDate": "Sun, 15 Nov 2026 22:00:01 GMT",
+      "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+    },
+    {
+      "title": "Our new blog for science",
+      "pubDate": "Sun, 15 Nov 2026 22:00:00 GMT",
+      "link": "https://openai.com/index/our-new-blog-for-science",
+      "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery."
+    }
+  ]
+}

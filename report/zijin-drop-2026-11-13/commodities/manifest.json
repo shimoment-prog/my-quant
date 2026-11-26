@@ -1,0 +1,74 @@
+[
+  {
+    "name": "quotes",
+    "url": "https://hq.sinajs.cn/list=hf_GC,hf_HG,hf_CAD,hf_XAU,nf_AU0,nf_CU0,fx_susdcnh,DINIW,gb_tnx",
+    "final_url": "https://hq.sinajs.cn/list=hf_GC,hf_HG,hf_CAD,hf_XAU,nf_AU0,nf_CU0,fx_susdcnh,DINIW,gb_tnx",
+    "retrieved_at": "2026-11-13T06:08:18.270929+00:00",
+    "ok": true,
+    "length": 1347
+  },
+  {
+    "name": "goldpage",
+    "url": "https://finance.sina.com.cn/futures/quotes/XAU.shtml",
+    "final_url": "https://finance.sina.com.cn/futures/quotes/XAU.shtml",
+    "retrieved_at": "2026-11-13T06:08:18.272404+00:00",
+    "ok": true,
+    "length": 145549
+  },
+  {
+    "name": "copperpage",
+    "url": "https://finance.sina.com.cn/futures/quotes/CAD.shtml",
+    "final_url": "https://finance.sina.com.cn/futures/quotes/CAD.shtml",
+    "retrieved_at": "2026-11-13T06:08:18.388856+00:00",
+    "ok": true,
+    "length": 132403
+  },
+  {
+    "name": "cad_global_daily",
+    "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=CAD",
+    "final_url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=CAD",
+    "retrieved_at": "2026-11-13T06:08:18.272250+00:00",
+    "ok": true,
+    "length": 351045
+  },
+  {
+    "name": "gc_global_daily",
+    "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=GC",
+    "final_url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=GC",
+    "retrieved_at": "2026-11-13T06:08:18.271975+00:00",
+    "ok": true,
+    "length": 391153
+  },
+  {
+    "name": "hg_global_daily",
+    "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=HG",
+    "final_url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=HG",
+    "retrieved_at": "2026-11-13T06:08:18.272109+00:00",
+    "ok": true,
+    "length": 380940
+  },
+  {
+    "name": "xau_global_daily",
+    "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=XAU",
+    "final_url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=XAU",
+    "retrieved_at": "2026-11-13T06:08:18.271846+00:00",
+    "ok": true,
+    "length": 692166
+  },
+  {
+    "name": "au_daily",
+    "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/InnerFuturesNewService.getDailyKLine?symbol=AU0",
+    "final_url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/InnerFuturesNewService.getDailyKLine?symbol=AU0",
+    "retrieved_at": "2026-11-13T06:08:18.271713+00:00",
+    "ok": true,
+    "length": 523630
+  },
+  {
+    "name": "cu_daily",
+    "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/InnerFuturesNewService.getDailyKLine?symbol=CU0",
+    "final_url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/InnerFuturesNewService.getDailyKLine?symbol=CU0",
+    "retrieved_at": "2026-11-13T06:08:18.271559+00:00",
+    "ok": true,
+    "length": 657260
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "sina_cross",
+    "url": "https://hq.sinajs.cn/list=hf_CHA50CFD,fx_susdcnh,DINIW,hf_GC,hf_CL,hf_OIL",
+    "retrieved_at": "2026-11-16T01:01:56.499049+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 782
+  },
+  {
+    "name": "sina_futures",
+    "url": "https://hq.sinajs.cn/list=hf_NQ,hf_ES,hf_YM",
+    "retrieved_at": "2026-11-16T01:01:56.502010+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 400
+  },
+  {
+    "name": "cnbc_yields",
+    "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json",
+    "retrieved_at": "2026-11-16T01:01:56.502928+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 1101
+  }
+]

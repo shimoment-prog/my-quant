@@ -1,0 +1,20 @@
+[
+  {
+    "name": "crusoe_wyoming",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+    "retrieved_at": "2026-11-07T00:28:58.835702+00:00",
+    "ok": true
+  },
+  {
+    "name": "qualcomm_reuters_srn",
+    "url": "https://srnnews.com/alphabet-discloses-548-million-worth-of-qualcomm-stake/",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "qualcomm_reuters_search",
+    "url": "https://www.reuters.com/site-search/?query=Alphabet%20Qualcomm%20548",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  }
+]

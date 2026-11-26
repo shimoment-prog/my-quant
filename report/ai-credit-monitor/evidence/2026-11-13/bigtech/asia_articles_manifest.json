@@ -1,0 +1,30 @@
+[
+  {
+    "name": "asia_reuters",
+    "url": "https://www.reuters.com/world/asia-pacific/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-2026-11-12/",
+    "retrieved_at": "2026-11-13T00:30:03.161527+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "asia_cod",
+    "url": "https://www.centraloregondaily.com/news/consumer/alphabets-debut-hong-kong-singapore-bond-sales-draw-over-7-billion-in-orders/article_892f1d37-8820-5d81-9179-9d476efa458c.html",
+    "retrieved_at": "2026-11-13T00:30:03.162040+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Access Forbidden"
+  },
+  {
+    "name": "asia_quartz",
+    "url": "https://qz.com/alphabet-hong-kong-singapore-dollar-bonds-debut-111226",
+    "retrieved_at": "2026-11-13T00:30:03.162230+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "asia_standard",
+    "url": "https://www.thestandard.com.hk/finance/article/348286/Alphabets-debut-Hong-Kong-Singapore-bond-sales-draw-about-US5-billion-in-early-orders",
+    "retrieved_at": "2026-11-13T00:30:03.162362+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  }
+]

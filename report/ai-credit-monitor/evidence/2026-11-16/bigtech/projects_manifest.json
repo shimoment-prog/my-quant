@@ -1,0 +1,24 @@
+[
+  {
+    "name": "google_power",
+    "url": "https://www.oklahoman.com/story/news/state/2026/11/15/lawmakers-sue-over-secret-google-data-center-power-deal/92759829007/",
+    "retrieved_at": "2026-11-16T00:29:35.399155+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "google_construction",
+    "url": "https://www.mlive.com/news/detroit/2026/11/construction-begins-at-google-hyperscale-data-center-despite-backlash.html",
+    "retrieved_at": "2026-11-16T00:29:35.399549+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "meta_recap",
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262063667-meta-stock-crashing-after-q2-2026-earnings-eps-miss-capex-tradingkey",
+    "retrieved_at": "2026-11-16T00:29:35.399708+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 13816
+  }
+]

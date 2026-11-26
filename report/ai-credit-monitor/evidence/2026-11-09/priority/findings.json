@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-11-09T00:29:43.889100+00:00",
+  "comparison_cutoff": "2026-11-08T00:37:20.050260Z",
+  "timezone": "Asia/Shanghai",
+  "scope": [
+    "Oracle",
+    "CoreWeave",
+    "Microsoft-Oracle contract confirmation",
+    "OpenAI financing confirmation"
+  ],
+  "new_events": [],
+  "new_filings_after_cutoff": {
+    "Oracle": [],
+    "CoreWeave": []
+  },
+  "sec_checks": [
+    {
+      "issuer": "Oracle",
+      "source": "https://data.sec.gov/submissions/CIK0001341439.json",
+      "retrieved_at": "2026-11-09T00:29:42.418796+00:00",
+      "http_status": 200,
+      "latest_relevant_8k_date": "2026-11-04",
+      "interpretation": "No newly accepted SEC filing after cutoff in current submissions feed. Nov4 financing completion remains historical."
+    },
+    {
+      "issuer": "CoreWeave",
+      "source": "https://data.sec.gov/submissions/CIK0001769628.json",
+      "retrieved_at": "2026-11-09T00:29:42.419174+00:00",
+      "http_status": 200,
+      "latest_relevant_8k_date": "2026-09-22",
+      "interpretation": "No newly accepted SEC filing after cutoff in current submissions feed. No new financial results, funding completion, guidance revision or default verified."
+    }
+  ],
+  "previous_evidence_rechecked": [
+    {
+      "id": "microsoft_oracle_nonrenewal_20261106",
+      "source": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "published_at": "2026-11-06T18:31:32Z",
+      "modified_at": "2026-11-06T18:40:58Z",
+      "evidence_grade": "reliable_media_anonymous_sources_with_limited_official_response",
+      "historical_unchanged": true,
+      "verified_content": "Two anonymous sources told CNBC Microsoft opted not to renew an Oracle deal. Microsoft spokesperson describes regular owned/leased/third-party infrastructure reviews and adjustments, without explicitly confirming this particular contract.",
+      "not_verified": [
+        "contract amount and expiration",
+        "company confirmation of this Oracle nonrenewal",
+        "CoreWeave cancellation",
+        "formal Microsoft total capex cut",
+        "supplier cash collection loss"
+      ],
+      "interpretation": "Already recorded Nov7/Nov8; no independent new confirmation. Do not treat Microsoft supplier selection as demonstrated industry-wide demand collapse."
+    },
+    {
+      "id": "openai_partial_raise_20261106",
+      "source": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "published_at": "2026-11-06T22:53:46Z",
+      "modified_at": "2026-11-06T23:28:02Z",
+      "evidence_grade": "reliable_media_relay_of_bloomberg_anonymous_sources",
+      "historical_unchanged": true,
+      "reported_amount_so_far_usd": 11000000000,
+      "reported_valuation_usd": 1250000000000,
+      "reported_possible_eventual_round_usd": 20000000000,
+      "reported_september_round_target_usd": 30000000000,
+      "financing_stage": "media_reported_partial_raise_whole_round_still_open",
+      "not_verified": [
+        "official company confirmation",
+        "cash proceeds received",
+        "partial-close terms",
+        "whole-round closing",
+        "formal full-year financing guidance cut",
+        "supplier payment or order impact"
+      ],
+      "interpretation": "Nov8/Nov9 recaps do not establish a new event or a completed whole round; a partial raise below an earlier target alone does not prove funding failure."
+    },
+    {
+      "id": "oracle_20261028_capital_raise_cap_context",
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+      "published_at": "2026-10-28T18:24:44Z",
+      "evidence_grade": "primary_historical_management_guidance",
+      "local_primary_baseline": "report/ai-credit-monitor/evidence/2026-11-04/priority/oracle_investor_day_20261028_clean.txt",
+      "additional_FY27_FY30_capital_raises_limit_usd": 20000000000,
+      "expected_equity_usd": 10000000000,
+      "expected_gross_debt_usd": 10000000000,
+      "existing_debt_refinancing_excluded": true,
+      "prior_FY27Q1_ATM_equity_completed_usd": 20000000000,
+      "guidance_not_achieved_results": true,
+      "interpretation": "Sunday commentary describing a USD20bn borrowing cap refers to old equity-plus-debt capital-raising guidance; it is not a new debt-only limit or newly verified financing cutoff. Nov4 equity and notes completion was already recorded and notified."
+    }
+  ],
+  "new_current_market_quotes": [],
+  "historical_quote_discipline": "Nov6 media CoreWeave yield>16% and Nov5/Nov6 CDS figures remain historical, with incomplete instrument/time/convention. No Sunday/current CDS or bond quote acquired; no trend or relief inferred.",
+  "news_discovery": {
+    "method": "Two limited Google News RSS searches; headlines used only as discovery, no independent evidence from low-quality/automated recaps.",
+    "source_manifest": "manifest.json",
+    "result": "No verified fresh reliable material issuer funding, default, rating, capex, contract or company financing-confirmation event found."
+  },
+  "coverage_gaps": [
+    {
+      "source": "https://investor.oracle.com/investor-news/default.aspx",
+      "error": "HTTP429",
+      "impact": "IR news index not retrieved; SEC submissions checked instead."
+    },
+    {
+      "source": "https://investors.coreweave.com/news-and-events/news-releases",
+      "error": "HTTP429",
+      "impact": "IR news index not retrieved; SEC submissions checked instead."
+    },
+    {
+      "item": "Comparable current issuer5yCDS and secondary cash-bond spread data",
+      "status": "missing"
+    },
+    {
+      "item": "OpenAI official round-close/cash-receipt confirmation",
+      "status": "not_acquired"
+    },
+    {
+      "item": "Contract-level Microsoft-Oracle economics and direct confirmation",
+      "status": "not_acquired"
+    }
+  ],
+  "limits": "Limited public-source coverage and no new disclosures are not proof of stable demand or absence of risk; missing/currently unchanged data is not risk relief.",
+  "judgment": "观察",
+  "change": "unchanged",
+  "recommendation": "DONT_NOTIFY",
+  "recommendation_reason": "No material new independently verified evidence after Nov8 cutoff. Previously documented anonymous reports and old primary guidance remain historical, with outstanding confirmation gaps."
+}

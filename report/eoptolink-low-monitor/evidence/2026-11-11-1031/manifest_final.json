@@ -1,0 +1,26 @@
+[
+  {
+    "name": "quotes_final.txt",
+    "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+    "started_at": "2026-11-11T10:31:14.774377+08:00",
+    "retrieved_at": "2026-11-11T10:31:14.833954+08:00",
+    "bytes": 2086,
+    "ok": true
+  },
+  {
+    "name": "sina_final.txt",
+    "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "started_at": "2026-11-11T10:31:14.774869+08:00",
+    "retrieved_at": "2026-11-11T10:31:14.871741+08:00",
+    "bytes": 1012,
+    "ok": true
+  },
+  {
+    "name": "m5_final.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=120",
+    "started_at": "2026-11-11T10:31:14.775017+08:00",
+    "retrieved_at": "2026-11-11T10:31:15.048874+08:00",
+    "bytes": 17158,
+    "ok": true
+  }
+]

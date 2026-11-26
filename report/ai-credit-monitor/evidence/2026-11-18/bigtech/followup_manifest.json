@@ -1,0 +1,25 @@
+[
+  {
+    "name": "anthropic_s1a_retry",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+    "retrieved_at": "2026-11-18T00:36:39.294855+00:00",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "anthropic_8a_retry",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074342/anthropic-8xa12b.htm",
+    "retrieved_at": "2026-11-18T00:36:39.295178+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 2978
+  },
+  {
+    "name": "anthropic_cnbc_price_link",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PTUZvUHlERUszRUFVdjJSRW84TnpvQ25Ndkk1Ty1kblozSVh6VUVyTUZ1ZjBCdlFYa0s3cHhNYUM5R3ZrVEdZeVdpa2IzT0lzbWkwUzVUTjdaZXdEVTdLa3h3ZG14ODDSAWxBVV95cUxOWmU0cWFuWmtwUFZYZVRWTnd0NXVVRnBHNGh2RTlmSGRacHhXb1ZnOTQ3Si1sMUU2ZkE5MWlTRU50NnY2V2NpNnFXdEJxeW0zaHRpZk1wajRoWVp2b25IUXlDbDF5azFxX2JZMjQ?oc=5",
+    "retrieved_at": "2026-11-18T00:36:39.295343+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 13
+  }
+]

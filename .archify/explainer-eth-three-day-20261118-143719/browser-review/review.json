@@ -1,0 +1,125 @@
+{
+  "artifact": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/eth-three-day-review.html",
+  "artifact_sha256": "f9ec4ba1b48846def10e4b976731f88da7b702e293d18f37c8ef033e8a0bc2d2",
+  "errors": [],
+  "externalRequests": [],
+  "samples": [
+    {
+      "name": "chart-desktop-dark",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 1741,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 1471,
+        "body": 1468.328125,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-desktop-light",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 1741,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 1471,
+        "body": 1468.328125,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "report-desktop-light",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 2754,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 2484,
+        "body": 2481.65625,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "report-mobile-dark",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 4790,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 4445,
+        "body": 4442.171875,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-mobile-dark",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 2118,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 1773,
+        "body": 1770.09375,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-mobile-light",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 2118,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 1773,
+        "body": 1770.09375,
+        "theme": "light"
+      }
+    }
+  ],
+  "checkedTrades": 24,
+  "state": {
+    "selectedTrade": 24,
+    "visibleRange": {
+      "from": 71.50000000000011,
+      "to": 935.5
+    },
+    "candleCount": 936,
+    "tradeCount": 24,
+    "overlayShapes": 7
+  },
+  "mobileState": {
+    "selectedTrade": 1,
+    "visibleRange": {
+      "from": 61,
+      "to": 109
+    },
+    "candleCount": 936,
+    "tradeCount": 24,
+    "overlayShapes": 7
+  }
+}

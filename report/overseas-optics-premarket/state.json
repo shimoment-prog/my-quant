@@ -1,0 +1,946 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-05T16:39:09.559065+08:00",
+  "automation_id": "automation",
+  "automation_status": "ACTIVE",
+  "timezone": "Asia/Shanghai",
+  "schedule_local": [
+    "08:45 Shanghai/Shenzhen trading days"
+  ],
+  "initialized": true,
+  "baseline_status": "active_after_first_scheduled_observation",
+  "last_observation_file": "observations/2026-11-18-0857.json",
+  "last_run_at": "2026-11-18T08:57:56.849170+08:00",
+  "last_data_cutoff_at": "2026-11-18T08:54:12.486908+08:00",
+  "seen_events": [
+    {
+      "id": "AAOI_2026Q3_earnings_2026-11-05",
+      "disclosed_at": "2026-11-05T21:10:28Z",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "source": "https://investors.ao-inc.com/2026-11-05-Applied-Optoelectronics-Reports-Third-Quarter-2026-Results"
+    },
+    {
+      "id": "AAOI_2026Q3_10Q_2026-11-05",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm"
+    },
+    {
+      "id": "LITE_425_filed_2026-11-05_content_2026-11-04",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "classification": "newfilingoldmergercommunication; no verifiednewterms"
+    },
+    {
+      "id": "NVDA_board_investigation_20261108",
+      "source": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "disclosed_date": "2026-11-08",
+      "exact_publication_time": null,
+      "classification": "official company statement",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "OpenAI_first_tranche_funding",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixwakn8514139.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "OpenAI_CFO_DC_commitment",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixwhsn5187070.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "MSFT_ORCL_older_GPU_capacity_report",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixvrus8682155.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "Anthropic_power_equipment_report",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-08/doc-inixzxsn6844439.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "US_permitting_bill",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwh6656906.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "ECB_DC_lending_review_report",
+      "source": "https://finance.sina.com.cn/7x24/2026-11-06/doc-inixvmnu8753593.shtml",
+      "classification": "media report, primary confirmation missing",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "AAOI_2026-11-06_IR_non_demand_item",
+      "source": "https://investors.ao-inc.com/2026-11-06-Applied-Optoelectronics-Announces-Equity-Grants-To-Employees-Under-Inducement-Plan",
+      "classification": "员工激励，非新增客户订单、财报或业务指引。",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "MRVL_2026-11-06_IR_non_demand_item",
+      "source": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
+      "classification": "日程公告，非业绩已经披露；具体日程以原文为准。",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "CNINFO_1225660606",
+      "source": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660606.PDF",
+      "disclosed_at": "2026-11-06T11:39:25+08:00",
+      "classification": "Nov6 domestic announcement, already known Friday",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "CNINFO_1225660601",
+      "source": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660601.PDF",
+      "disclosed_at": "2026-11-06T11:39:21+08:00",
+      "classification": "Nov6 domestic announcement, already known Friday",
+      "first_reported_at": "2026-11-09T08:54:54+08:00"
+    },
+    {
+      "id": "LITE_425_20261109_CNBCon20261106",
+      "source": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526453776/d180680d425.htm",
+      "disclosed_at": "2026-11-10T05:55:00+08:00",
+      "underlying_content_date": "2026-11-06",
+      "classification": "New SEC filing of older interview/merger communication; not newly realized demand or a new quarterly report.",
+      "first_reported_at": "2026-11-10T08:51:43+08:00"
+    },
+    {
+      "id": "NVDA_Rebellions_SKT_NVLink_Fusion_20261108",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+      "disclosed_date": "2026-11-08",
+      "classification": "Official cooperation, already reported in Nov9 afternoon intraday check; first added to premarket dedup now.",
+      "first_reported_to_conversation_at": "2026-11-09T14:33:44+08:00",
+      "first_reported_at": "2026-11-10T08:51:43+08:00"
+    },
+    {
+      "id": "NVDA_Independent_Counsel_20261110",
+      "classification": "new_verified_major_events",
+      "source": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "official_page_date": "2026-11-10",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "Anthropic_S1A_20261110_SpaceXAI_Broadcom",
+      "classification": "new_verified_major_events",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "accepted_beijing": "2026-11-10T19:29:24+08:00",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "CRWV_2026Q3_8K_20261110",
+      "classification": "new_verified_major_events",
+      "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+      "accepted_beijing": "2026-11-11T05:05:53+08:00",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "MRVL_LITE_425_455426_455438",
+      "classification": "new_verified_filings_with_older_content",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1633978/000119312526455426/d162070d425.htm",
+        "https://www.sec.gov/Archives/edgar/data/1633978/000119312526455438/d172329d425.htm"
+      ],
+      "accepted_beijing": [
+        "2026-11-11T05:05:31+08:00",
+        "2026-11-11T05:07:33+08:00"
+      ],
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "MRVL_LITE_425_455400",
+      "classification": "new_company_IR_non_demand_items",
+      "source": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526455400/d180177d425.htm",
+      "accepted_beijing": "2026-11-11T05:03:05+08:00",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "AAOI_Form144_20261110",
+      "classification": "new_company_IR_non_demand_items",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000197407826000411/xsl144X01/primary_doc.xml",
+      "accepted_beijing": "2026-11-11T05:38:45+08:00",
+      "first_reported_at": "2026-11-11T09:08:42+08:00"
+    },
+    {
+      "id": "NVDA_CEO_succession_media_20261112",
+      "classification": "New media report citing anonymous sources; not official leadership decision",
+      "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzi1350029.d.html",
+      "disclosed_at": "2026-11-12T07:50:41+08:00",
+      "note": "new media/interpretation, primary status retained",
+      "internally_prepared_at": "2026-11-12T08:50:36.917097+08:00",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "CRWV_potential_4bn_loan_media_20261112",
+      "classification": "New financing-plan media report; anonymous-source and not finalized",
+      "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymmzq8691773.d.html",
+      "disclosed_at": "2026-11-12T07:43:19+08:00",
+      "note": "new media/interpretation, primary status retained",
+      "internally_prepared_at": "2026-11-12T08:50:36.917097+08:00",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "Anthropic_S1A_20261110_Lambda_cloud_terms_review_20261112",
+      "classification": "Old primary filing, newly reviewed details and new media interpretation; not a new post-cutoff filing or contracts signed overnight",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "disclosed_at": "2026-11-10T19:29:24+08:00",
+      "note": "new media/interpretation, primary status retained",
+      "internally_prepared_at": "2026-11-12T08:50:36.917097+08:00",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "SoftBank_3p7bn_impairment_Ohio_clarification_20261111",
+      "source": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipke2094392.d.html",
+      "first_reported_to_conversation_at": "2026-11-11T10:32:07+08:00",
+      "classification": "conversation_known_not_new_today",
+      "facts": "Media-attributed clarification thatUSD3.7bnimpairment is unrelated toOhio; no original official statement verified in morning run.",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "Eoptolink_interaction_normal_delivery_margin_20261111",
+      "source": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyitry5292609.d.html",
+      "reported_at": "2026-11-11T12:07:43+08:00",
+      "first_reported_to_conversation_at": "2026-11-11T14:35:43+08:00",
+      "classification": "conversation_known_not_new_today",
+      "facts": "Company demand/normal-delivery, capacity/material preparation and stable-margin outlook as attributed by media; no verified newly quantified order or guarantee.",
+      "first_reported_at": "2026-11-12T08:52:03+08:00"
+    },
+    {
+      "id": "NVDA_CEO_transition_official_20261112",
+      "symbol": "NVDA",
+      "classification": "new_official_confirmation_of_previously_reported_media_event",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+      ],
+      "accepted_beijing": "2026-11-12T21:52:41+08:00",
+      "official_release_date": "2026-11-12",
+      "event_date": "2026-11-11",
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "NBIS_2026Q3_20261112_guidance_delivery",
+      "symbol": "NBIS",
+      "classification": "new_verified_customer_capacity_and_financing_update",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm"
+      ],
+      "accepted_beijing": "2026-11-12T22:22:11+08:00",
+      "official_release_date": "2026-11-12",
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "AAOI_Houston_realestate_8K_20261112",
+      "symbol": "AAOI",
+      "classification": "new_filing_of_20261106_property_event",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008616/aaoi_8k.htm",
+      "accepted_beijing": "2026-11-13T05:05:45+08:00",
+      "event_date": "2026-11-06",
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "MRVL_directors_8K_20261112",
+      "symbol": "MRVL",
+      "classification": "new_governance_non_demand",
+      "source": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm",
+      "accepted_beijing": "2026-11-12T22:11:22+08:00",
+      "event_date": "2026-11-11",
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "COHR_Form4_buy_20261112",
+      "symbol": "COHR",
+      "classification": "new_insider_ownership_not_corporate_buyback",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/820318/000089914026001276/xslF345X06/form4.xml",
+        "https://www.sec.gov/Archives/edgar/data/820318/000089914026001275/xslF345X06/form4.xml"
+      ],
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "AAOI_Form4_10b5_sale_20261112",
+      "symbol": "AAOI",
+      "classification": "new_insider_ownership_prearranged_sale",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008611/xslF345X06/ownership.xml",
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "Eoptolink_800G_management_reply_media_20261112_211436",
+      "symbol": "300502.SZ",
+      "classification": "new_media_of_management_interaction_primary_not_retrieved",
+      "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniyntuy8490734.d.html",
+      "published_beijing": "2026-11-12T21:14:36+08:00",
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "InnoLight_repurchase_use_cancellation_media_20261112",
+      "symbol": "300308.SZ",
+      "classification": "new_media_of_buyback_use_proposal_primary_not_retrieved",
+      "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynpnz1758415.d.html",
+      "published_beijing": "2026-11-12T18:29:47+08:00",
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "Eoptolink_Thai_flood_Sep_Oct_recognition_reply_20261112_114428",
+      "classification": "already_reported_in_yesterday_afternoon_conversation",
+      "description": "Nov12 11:44 Thai flood logistics and September revenue recognition moved to October management reply already covered by yesterday afternoon observation.",
+      "reviewed_at": "2026-11-13T08:56:17+08:00",
+      "first_reported_at": "2026-11-13T08:56:56+08:00"
+    },
+    {
+      "id": "MRVL_SC26_connectivity_memory_demo_20261113",
+      "symbol": "MRVL",
+      "classification": "new_official_technology_demonstration_announcement_not_orders_or_realized_delivery",
+      "source": "https://investor.marvell.com/news-events/press-releases/detail/1043/marvell-scales-connectivity-to-address-ai-infrastructures-next-bottleneck-at-supercomputing-2026",
+      "official_publication_date": "2026-11-13",
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00",
+      "first_reported_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "NVDA_AI_Day_Seoul_wrapup_20261115",
+      "symbol": "NVDA",
+      "classification": "new_official_ecosystem_blog_not_capex_order",
+      "source": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+      "official_publication_date": "2026-11-15",
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00",
+      "first_reported_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "MRVL_new_directors_Form3_20261113",
+      "symbol": "MRVL",
+      "classification": "new_initial_ownership_filings_for_already_announced_directors",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1835632/000162828026073722/xslF345X06/wk-form3_1794598187.xml",
+        "https://www.sec.gov/Archives/edgar/data/1835632/000162828026073723/xslF345X06/wk-form3_1794598273.xml",
+        "https://www.sec.gov/Archives/edgar/data/1835632/000162828026073725/xslF345X06/wk-form3_1794598327.xml"
+      ],
+      "accepted_utc": [
+        "2026-11-13T19:29:50Z",
+        "2026-11-13T19:31:16Z",
+        "2026-11-13T19:32:10Z"
+      ],
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00",
+      "first_reported_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "NBIS_ownership_Form4_144_20261113",
+      "symbol": "NBIS",
+      "classification": "new_insider_ownership_filings_not_company_funding",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1513845/000195004726011076/xsl144X01/primary_doc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000149/xslF345X06/form4.xml"
+      ],
+      "accepted_utc": [
+        "2026-11-13T21:24:28Z",
+        "2026-11-13T21:48:42Z"
+      ],
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00",
+      "first_reported_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "NVDA_Bessent_compliance_10days_media_20261115",
+      "symbol": "NVDA",
+      "classification": "new_media_attributed_regulatory_and_governance_remarks_not_new_effective_rule",
+      "source": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpv2911966.d.html",
+      "published_at_beijing": "2026-11-15T23:16:53+08:00",
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00",
+      "first_reported_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "NVDA_CEO_search_board_reply_media_20261114",
+      "symbol": "NVDA",
+      "classification": "new_media_board_attribution_not_official_appointment",
+      "source": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysvkv0211266.d.html",
+      "published_at_beijing": "2026-11-14T15:19:38+08:00",
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00",
+      "first_reported_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "NVDA_Huang_return_rumor_20261116",
+      "symbol": "NVDA",
+      "classification": "new_unconfirmed_media_leadership_rumor",
+      "sources": [
+        "https://finance.sina.cn/7x24/2026-11-16/detail-iniywhck9160156.d.html",
+        "https://finance.sina.cn/7x24/2026-11-16/detail-iniywnmh9083606.d.html"
+      ],
+      "published_at_beijing": [
+        "2026-11-16T03:04:35+08:00",
+        "2026-11-16T07:14:45+08:00"
+      ],
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00",
+      "first_reported_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "NVDA_Korea_260k_GPU_continuity_media_20261113",
+      "symbol": "NVDA",
+      "classification": "new_attributed_minister_reassurance_about_preexisting_commitment",
+      "source": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyrazw7913447.d.html",
+      "published_at_beijing": "2026-11-13T20:33:29+08:00",
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00",
+      "first_reported_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "Malaysia_Speedmatrix_compliance_inquiry_media_20261113_120533",
+      "source": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8053301.d.html",
+      "classification": "new_media_report_attributed_ministry_statement_primary_not_obtained",
+      "published_at_beijing": "2026-11-13T12:05:33+08:00",
+      "already_reported_in_prior_intraday": true,
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "SMFG_data_center_credit_criteria_media_20261113_130430",
+      "source": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+      "classification": "new_media_of_management_description_of_this_year_policy_not_new_loan_cancellation",
+      "published_at_beijing": [
+        "2026-11-13T13:04:30+08:00",
+        "2026-11-13T13:20:47+08:00"
+      ],
+      "already_reported_in_prior_intraday": true,
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "Lutnick_hearing_agreement_media_20261113_115529",
+      "source": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwh8045065.d.html",
+      "classification": "new_media_update_on_earlier_hearing_request",
+      "published_at_beijing": "2026-11-13T11:55:29+08:00",
+      "already_reported_in_prior_intraday": true,
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "Ashare_supplier_operation_commentary_media_20261113_122806",
+      "source": "https://finance.sina.cn/7x24/2026-11-13/detail-iniyqfwf1295730.d.html",
+      "classification": "new_media_compilation_of_partly_older_supplier_statements",
+      "published_at_beijing": "2026-11-13T12:28:06+08:00",
+      "already_reported_in_prior_intraday": true,
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "Singtel_NVDA_current_no_disruption_media_20261113",
+      "classification": "already_reported_in_morning_1036_check",
+      "already_reported_in_prior_intraday": true,
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "NVDA_Evercore_valuation_downgrade_media_20261113_094919",
+      "classification": "already_reported_in_morning_1036_check",
+      "already_reported_in_prior_intraday": true,
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "NVDA_investment_pace_industry_opinion_media_20261113_100910",
+      "classification": "already_reported_in_morning_1036_check",
+      "already_reported_in_prior_intraday": true,
+      "reviewed_at": "2026-11-16T08:51:51+08:00",
+      "first_added_to_premarket_state_at": "2026-11-16T09:02:58+08:00"
+    },
+    {
+      "id": "Lambda_NVDA_CPO_10k_GPU_20261116",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_scaled_deployment_announcement_with_customer_corroboration",
+      "sources": [
+        "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo"
+      ],
+      "disclosed_at_utc": "2026-11-16T16:00:51Z",
+      "disclosed_at_beijing": "2026-11-17T00:00:51+08:00",
+      "reporting_period": "deployment announcement November16, 2026, not earnings",
+      "first_reported_at": "2026-11-17T09:48:10+08:00",
+      "first_added_to_premarket_state_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "MRVL_Penguin_CXL_Photonic_Fabric_20261116",
+      "symbols": [
+        "MRVL",
+        "PENG"
+      ],
+      "classification": "new_official_cooperation_and_forward_product_roadmap_not_actual_orders",
+      "source": "https://investor.marvell.com/news-events/press-releases/detail/1044/marvell-and-penguin-solutions-collaborate-to-address-data-center-ai-memory-and-accelerate-inference-at-scale",
+      "official_publication_date": "2026-11-16",
+      "time_limit": "Page shows November16 and09:00withoutzone; preNov17Beijing08:45 plausible but exact cutoffclassification cannotbeproven by unzonedtimestamp alone.",
+      "reporting_period": "productcooperationannouncement, notearnings",
+      "first_reported_at": "2026-11-17T09:48:10+08:00",
+      "first_added_to_premarket_state_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "NVDA_Rubin_HPC_SC26_20261116",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_future_product_not_revenue",
+      "source": "https://blogs.nvidia.com/blog/rubin-hpc/",
+      "disclosed_at_utc": "2026-11-16T16:00:01Z",
+      "disclosed_at_beijing": "2026-11-17T00:00:01+08:00",
+      "first_reported_at": "2026-11-17T09:48:10+08:00",
+      "first_added_to_premarket_state_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "NVDA_Vera_CPU_SC26_20261116",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_technology_roadmap_and_customer_selection",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+      "official_publication_date": "2026-11-16",
+      "first_reported_at": "2026-11-17T09:48:10+08:00",
+      "first_added_to_premarket_state_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "CIEN_CPO_appointment_8K_20261116",
+      "symbol": "CIEN",
+      "source": "https://www.sec.gov/Archives/edgar/data/936395/000162828026074023/cien-20261116.htm",
+      "accepted_at_utc": "2026-11-16T14:14:25Z",
+      "event_date": "2026-11-16",
+      "classification": "governance_productleadership_notearningsorguidance",
+      "first_reported_at": "2026-11-17T09:48:10+08:00",
+      "first_added_to_premarket_state_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "NVDA_13F_2026Q3_filed_20261116",
+      "symbol": "NVDA",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000084/xslForm13F_X02/primary_doc.xml",
+      "accepted_at_utc": "2026-11-16T21:41:59Z",
+      "report_period": "2026-09-30",
+      "classification": "historicalquarterendholdings_notcurrentcompanycustomerorders",
+      "first_reported_at": "2026-11-17T09:48:10+08:00",
+      "first_added_to_premarket_state_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "NVDA_no_CEO_return_media_20261117",
+      "source": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyymav2485688.d.html",
+      "published_at_beijing": "2026-11-17 01:45:48",
+      "classification": "media_anonymous_sources_or_presidentialremarks_notofficialboarddecision",
+      "first_reported_at": "2026-11-17T09:48:10+08:00",
+      "first_added_to_premarket_state_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "NVDA_Trump_return_remarks_media_20261117",
+      "source": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyyvsr2318887.d.html",
+      "published_at_beijing": "2026-11-17 06:56:41",
+      "classification": "media_anonymous_sources_or_presidentialremarks_notofficialboarddecision",
+      "first_reported_at": "2026-11-17T09:48:10+08:00",
+      "first_added_to_premarket_state_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001958244-26-000721",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T22:34:17.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001628280-26-074228",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:39:07.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001628280-26-074226",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:38:26.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001628280-26-074222",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:37:35.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011124",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:06:53.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011108",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:01:12.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0000080255-26-000695",
+      "symbol": "FN",
+      "classification": "new_filing_index_item_form_SCHEDULE 13G/A",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T15:00:24.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011160",
+      "symbol": "CIEN",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:35:36.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011152",
+      "symbol": "CIEN",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:33:27.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011111",
+      "symbol": "CIEN",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:01:49.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001628280-26-074023",
+      "symbol": "CIEN",
+      "classification": "new_filing_index_item_form_8-K",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T14:14:25.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0001045810-26-000084",
+      "symbol": "NVDA",
+      "classification": "new_filing_index_item_form_13F-HR",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:41:59.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "SEC_0000935836-26-000604",
+      "symbol": "NBIS",
+      "classification": "new_filing_index_item_form_SCHEDULE 13G/A",
+      "filing_date": "2026-11-16",
+      "accepted_at_utc": "2026-11-16T21:12:30.000Z",
+      "first_reported_at": "2026-11-17T09:48:10+08:00"
+    },
+    {
+      "id": "NVDA_2027Q3_earnings_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_primary_earnings_and_forward_guidance",
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+      ],
+      "accepted_at_beijing": "2026-11-18T05:20:51+08:00",
+      "official_publication_date": "2026-11-17",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "AAOI_ATM_550m_20261117",
+      "symbols": [
+        "AAOI"
+      ],
+      "classification": "new_primary_equity_financing_capacity_not_earnings_or_cancelled_orders",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm"
+      ],
+      "event_date": "2026-11-17",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "NVDA_supply_chain_capacity_commitments_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_supplier_capacity_plans_not_current_output",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+      "official_publication_date": "2026-11-17",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "NVDA_export_security_committee_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_board_governance_not_new_export_rule",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+      "official_publication_date": "2026-11-17",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001628280-26-074618",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-18T00:03:48.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001628280-26-074462",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T20:30:07.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001104659-26-129055",
+      "symbol": "AAOI",
+      "classification": "new_filing_index_item_form_8-K",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:09:50.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001104659-26-129051",
+      "symbol": "AAOI",
+      "classification": "new_filing_index_item_form_424B5",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:06:29.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001489550-26-000016",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:19:50.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001570465-26-000008",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:18:24.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001573338-26-000022",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:17:03.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001561100-26-000010",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:15:23.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011207",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:05:23.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011206",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:04:56.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001045810-26-000088",
+      "symbol": "NVDA",
+      "classification": "new_filing_index_item_form_8-K",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:20:51.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001513845-26-000151",
+      "symbol": "NBIS",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T11:56:19.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "MOFCOM_response_remote_advanced_semiconductors_20261117",
+      "official_response_date": "2026-11-17",
+      "official_response_time_local": null,
+      "source": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+      "confirmed": true,
+      "facts": [
+        "商务部官网11月17日答记者问确认，问题所述美国商务部于11月16日发布限制远程获取先进半导体相关措施。",
+        "中方表示强烈不满、坚决反对，并称若美方一意孤行将采取反制措施；这是回应及条件表态，不是已实施反制。"
+      ],
+      "limitation": "中国官方回应证实政策争议存在，但不提供美方规则全文、编号、许可证门槛、地域适用细则或生效日期。",
+      "publication_time_evidence": {
+        "date": "2026-11-17",
+        "meta_PubDate": "2026-11-17 20:27",
+        "visible_page_time": "2026-11-17 20:20",
+        "exact_minute_conflict": true
+      },
+      "classification": "official_Chinese_response_US_rule_details_and_effective_date_not_verified",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    }
+  ],
+  "last_regular_us_session_date": "2026-11-17",
+  "historical_context_directory": "../eoptolink-low-monitor",
+  "intraday_monitor_write_allowed": false,
+  "notification_intent": "Deliver each normal A-share trading-day premarket report in current chat; skip closures.",
+  "schedule_config_verified": true,
+  "target_thread_id": "01a19b35-8bc7-7af0-8064-49830cf3fea6",
+  "last_a_share_session_date": "2026-11-17",
+  "last_assessment": {
+    "a_share_sector": "光通信／光模块",
+    "opening_bias": "倾向修复，高开及持续性仍须实际竞价/成交验证。",
+    "opening_forecast_issued_before_open": true,
+    "full_day_base_case": "震荡分化；若两股同步转强且缩量回踩则修复增强，若反弹不回均价并放量失守回踩低点则转承压。",
+    "opening_confidence": "中等偏低",
+    "full_day_confidence": "中等偏低",
+    "numeric_probability": null,
+    "model_validated": false,
+    "probability_label": "暂无可靠百分比",
+    "supporting_evidence": [
+      "11月17日六家海外光通信正常盘全部上涨，除AAOI外五家跑赢费半；最近盘后五家上涨3.26%至6.85%。",
+      "英伟达新披露2027财年第三季度收入1158亿美元、数据中心1076亿美元，已实现收入反驳需求骤停的简单推论。",
+      "英伟达下季收入指引1300亿美元±3%，其盘后快照涨4.37%；指引为管理层展望，不当作已实现交付。",
+      "国内两股昨日尾盘回升，分别从14:40收盘至15:00回升2.45%与2.08%，提供承接改善的历史线索。"
+    ],
+    "counterevidence": [
+      "六家光通信虽正常盘收涨，五家仍低于开盘价；上涨一天不证明持续反转。",
+      "AAOI盘后跌9.54%，同期最高5.5亿美元ATM融资属于稀释和融资供给压力，不能等同撤单或据其推导整个行业需求下降。",
+      "英伟达Q4毛利率指引71%—72%，低于Q3GAAP74.8%；Q4另多一周、指引不含中国数据中心计算收入。",
+      "英伟达应收周转天数64高于此前60，多年供应承诺和最大担保具有期限及条件，不是已支付资本开支或国内模块订单。",
+      "新易盛、中际昨日仍弱于通信ETF及创业板，且收盘低于各自全日均价，本地持续性待验证。",
+      "商务部已在11月17日晚官方回应美方远程获取先进半导体措施；未取得美方原规则、生效日及光模块适用范围。新设董事会合规委员会本身不是政府出口规则。"
+    ],
+    "alternative_scenarios": [
+      {
+        "scenario": "修复增强",
+        "conditions": "两股同步跑赢通信ETF和创业板，守住开盘后实际形成的累计均价，回踩低点抬高、等长完整时段回踩缩量。"
+      },
+      {
+        "scenario": "承压",
+        "conditions": "反弹无法收回动态成交均价、等长完整时段放量失守已形成回踩低点，且ETF和同业同步转弱。"
+      }
+    ],
+    "opening_validation_signals": [
+      "两股是否同步跑赢通信ETF和创业板。",
+      "能否守住开盘后实际形成的累计成交均价，首次回踩低点是否抬高。",
+      "等长已结束时段回踩成交是否缩减；不比较盘中与前日全天成交。"
+    ],
+    "validation_status": "盘前仅列条件，未取得或编造11月18日A股成交、低点或条件已发生结果。",
+    "medium_term": "继续核查800G／1.6T实际交付、毛利、回款、客户实际资本开支；区分CPO结构变化、融资和换股并购定价与真实需求，不从海外涨跌推导国内订单变化。"
+  },
+  "last_notification_status": "NOTIFY",
+  "last_notification_delivery_status": "prepared_for_final_response",
+  "last_market_snapshot_file": "evidence/2026-11-18-0855/market/analysis.json",
+  "previous_data_cutoff_at": "2026-11-17T09:43:39+08:00",
+  "last_missing_data": [
+    "本次盘前报告在实际运行时点形成，不倒填为08:45；此时尚未开盘。",
+    "正常美股收盘所属交易日为11月17日，于北京时间11月18日05:00结束；各源盘后更新不混入正常收盘。",
+    "六股正常收盘经腾讯/新浪核对，盘后经两源对应快照核对，盘后时间分钟精度/秒精度见原始字段。",
+    "盘后为北京时间08:41至08:47非最终快照；美国11月18日盘前尚未开始。",
+    "费半未取得独立第二指数来源，SOXX ETF不同于SOX。",
+    "连续5/20交易日历史及完整美股分时缺失，不报未验证收益或推断尾盘路径。",
+    "A股只使用11月17日完整日线及48根完整五分钟；原始API中可能附带的今日栏位排除。",
+    "不修改独立盘中监测state、固定179.83元历史参考线或既有预测，不运行其结算。",
+    "没有经验证的适用模型，不提供精确概率或命中率。",
+    "Official visible SSE/SZSE notice indexes and holiday calendars are finite coverage; no claim of every possible channel.",
+    "Individual security/fund suspensions are distinct from exchange-wide closure.",
+    "US quote timestamps and actual close values require independent verification.",
+    "Shenzhen independent annual calendar not separately obtained; latest official holiday arrangement original (Mid-Autumn/National Day) confirms normal reopening Oct8, combined with full SSE annual schedule and fresh SZSE general notices.",
+    "LITE/CIENIRHTTP429,FN/AVGOIR403;Coherentdynamicpresslistlimited.",
+    "BISpress-releaseindexrequest404;newremoteadvancedchipaccessmeasuresaremedia-attributedwithoutverifiedruletext/effectivedate/scope,donotpromotetonewlyeffectiveopticalexportban.",
+    "CallquotesonFY28growth75%,backlog2.5tn,newexportimpactareattributedmedialines,notindependentlyretrievedfullcalltranscript.",
+    "NVDA10-QnotyetfiledperCFOcommentary;currentprimaryinformationfrom8-Kexhibitsandsupplementalfinancialdisclosure.",
+    "No verified module-order mapping to Eoptolink/InnoLight;sharepricechangesarenotorderproof.",
+    "Federal Register API有限日期和关键词/机构检索未查到，不证明规则不存在；BIS新闻索引由另一agent访问失败。",
+    "未取得美国正式规则及生效日期，未核实五国适用范围、例外或供应链管辖细则。",
+    "公告回应日期与媒体转载时间分开，条件反制表述不是已生效措施。",
+    "官网PubDate元数据20:27与可见正文页20:20不一致；仅确定11月17日晚披露，不用精确分钟断言先后。"
+  ],
+  "last_forecast_review": {
+    "prior_date": "2026-11-17",
+    "prior_observation_file": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json",
+    "prior_observation_sha256": "783b9120864eb266d60b9723a3b877ec286742ed4874e8e049f801d46314727e",
+    "original_assessment": {
+      "a_share_sector": "光通信／光模块",
+      "opening_bias": null,
+      "opening_forecast_issued_before_open": false,
+      "opening_note": "任务实际开始于09:36，已开盘，未使用本日A股成交结果，也不补记任何08:45开盘预测。",
+      "overnight_implication": "隔夜信息偏负面，按昨收与隔夜证据倾向承压震荡，反抽持续性待验证。",
+      "full_day_base_case": "承压震荡；两股同步转强并守住成交均价、缩量回踩时转修复。",
+      "full_day_confidence": "中等偏低",
+      "numeric_probability": null,
+      "model_validated": false,
+      "probability_label": "暂无可靠百分比",
+      "supporting_evidence": [
+        "11月16日六家海外光通信正常盘跌5.17%至9.48%；除FN外均弱于费半跌5.28%，全部弱于纳指跌2.49%。",
+        "六家最近盘后快照较正常收盘再跌0.01%至0.60%，快照北京11月17日08:52至08:59，不作为当前价格。",
+        "11月16日新易盛跌11.08%、中际跌12.28%，均跑输通信ETF跌7.89%与创业板跌4.37%；本地相对承接弱。"
+      ],
+      "counterevidence": [
+        "国内两股此前大幅回撤可能带来反抽，但既有跌幅本身不能证明见底。",
+        "Lambda/NVIDIA新增规模CPO部署披露表明光网络建设仍在推进；交换机端CPO存在价值链结构变化，未识别国内两家具体订单变化。",
+        "Marvell/Penguin光互联合作是未来产品路线图；不能当作当前收入或已交付模块。",
+        "治理媒体说法不等于官方决议或新生效出口规则。海外股价下跌不证明国内丢单。"
+      ],
+      "alternative_scenarios": [
+        {
+          "scenario": "修复",
+          "conditions": "两股同步跑赢通信ETF和创业板，守住实际形成的累计成交均价，回踩低点抬高且等长完整时段回踩缩量。"
+        },
+        {
+          "scenario": "承压延续",
+          "conditions": "两股与ETF同步转弱，等长完整时段放量失守已形成回踩低点，反弹无法收回成交均价。"
+        }
+      ],
+      "opening_validation_signals": [
+        "两股是否同步跑赢通信ETF和创业板。",
+        "是否守住实际形成的累计成交均价，回踩局部低点能否抬高。",
+        "比较等长已结束时段回踩成交；不与前日全天成交量混比。"
+      ],
+      "validation_status": "仅列条件；未读取或声称今日开盘后这些信号已经发生。",
+      "medium_term": "继续核查800G／1.6T实际交付、毛利、回款和客户实际资本开支；将CPO结构替代、并购价差、融资估值压力与真实终端需求区分。"
+    },
+    "assessment_zh": "上次11月17日延迟报告倾向全天承压震荡、反抽持续性待验证；该报告09:36后才开始，不存在可复核的08:45开盘方向预测。实际昨日新易盛、中际低开1.91%、2.47%，10:15—10:20均有高于前收的成交，午后下探，14:40后回升，最终收160.00元（−4.08%）、393.00元（−3.90%），仍弱于通信ETF（−2.08%）与创业板（−1.20%）。全天承压方向相符，但此前描述未量化午后下探及尾盘修复，不能由一次方向相符推断命中率，也不能用价格证明海外消息因果。",
+    "no_hit_rate_estimate": true
+  },
+  "last_delivery_delayed": false,
+  "last_actual_run_started_at": "2026-11-18T08:46:50+08:00",
+  "last_report_assembled_at": "2026-11-18T08:57:56.849170+08:00"
+}

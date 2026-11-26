@@ -1,0 +1,243 @@
+{
+  "cutoff": "2026-11-16T08:52:00+08:00",
+  "SEC_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-10T21:07:33.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-13T19:32:10.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "COHR",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T11:02:52.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-04T21:41:34.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T21:05:45.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "FN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-05T18:16:20.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "NVDA",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T13:52:41.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "AVGO",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-10-27T20:23:36.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "NBIS",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-13T21:48:42.000Z",
+      "same_raw_as_premarket": true
+    }
+  ],
+  "IR_comparisons": [
+    {
+      "name": "aaoi_ir",
+      "same_raw_as_premarket": false,
+      "same_cleaned_as_premarket": true,
+      "length": 2693
+    },
+    {
+      "name": "mrvl_ir",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 4952
+    },
+    {
+      "name": "cohr_ir",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 15385
+    },
+    {
+      "name": "nvda_news",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 5155
+    },
+    {
+      "name": "cn_300502",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3876
+    },
+    {
+      "name": "cn_300308",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3424
+    },
+    {
+      "name": "cn_603083",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3676
+    }
+  ],
+  "news_feed": {
+    "fetched_unique_rows": 400,
+    "range": [
+      "2026-11-16 01:42:27",
+      "2026-11-16 10:32:55"
+    ],
+    "post_cutoff_count": 213,
+    "matches": [
+      {
+        "time": "2026-11-16 08:52:37",
+        "text": "【韩国LS电气斩获1300亿韩元美国AI数据中心电力设备订单】据公司声明，LS电气获得了一家全球大型科技公司约1300亿韩元的订单，将为美国的一座超大规模AI数据中心提供配电系统。该公司将为该数据中心供应38千伏（kV）高压及低压开关柜。LS电气自该项目初期便已参与，并在此次扩建项目中再次中标。公司表示，近期已与另一家大型科技公司签署了长期供货协议，并计划继续扩大该业务规模。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsti1325239.d.html",
+        "id": 5216500,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"foreign\",\"symbol\":\"fx_susdkrw\",\"key\":\"\\u97e9\\u56fd\",\"hot\":39},{\"market\":\"foreign\",\"symbol\":\"fx_shsusdkrw\",\"key\":\"\\u97e9\\u56fd\",\"hot\":10},{\"market\":\"foreign\",\"symbol\":\"fx_skrwusd\",\"key\":\"\\u97e9\\u5143\",\"hot\":3},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywsti1325239.shtml\",\"docid\":\"niywsti1325239\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsti1325239.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:05:02",
+        "text": "【媒体：黄仁勋正考虑重返英伟达】据报道，黄仁勋正在考虑重返英伟达担任首席执行官。就在这名科技高管因被曝出婚外情而辞职数日之后，硅谷圈内的盟友正在向公司董事会施压，要求恢复他的职务。多名知情人士透露，黄仁勋已经和亲信探讨过回归的可能性；与此同时，英伟达董事会正在开展一项独立调查，厘清引发这家市值4万亿美元芯片企业本周爆发重大管理层危机的相关行为。 一名黄仁勋的盟友表示，他们正在组建一支由硅谷高管组成的“作战室”，游说推动这位前英伟达首席执行官回归，并且计划争取白宫的支持。该人士称：“前沿实验室之外，科技界所有举足轻重的人物都支持黄仁勋。”他补充，这些游说行动得到了黄仁勋本人的支持。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5788934.d.html",
+        "id": 5216525,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywsth5788934.shtml\",\"docid\":\"niywsth5788934\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5788934.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:07:28",
+        "text": "【Anthropic冲刺史上最大IPO AI热潮新风向标呼之欲出】上周，英伟达公司的黄仁勋声誉急转直下之时，该公司芯片最重要的客户之一正准备通过一宗有望成为史上规模最大的首次公开招股(IPO)，跻身全球顶尖上市公司之列。Anthropic PBC本周上市，不仅将使首席执行官达里奥·阿莫代伊面临压力，填补黄仁勋留下的空缺，成为人工智能(AI)行业最重要的代言人；该公司还必须证明，AI淘金热已经不再停留在“卖铲子”的阶段。华尔街正开始关注，究竟哪些企业能够利用这些工具真正赚到钱。英伟达正是通过出售这类工具，在市值巅峰时期达到5.8万亿美元。这将考验投资界的耐心，因为投资者向来热衷于追逐短期业绩。根据高盛集团分析师的估算，预计Anthropic到2030年才会实现全年自由现金流为正，而该公司截至2045年的支出承诺超过9,000亿美元。数据中心建设的前景如今与一系列循环交易密切相关，英伟达为Anthropic及其他AI芯片大客户提供融资。随着黄仁勋离任，外界开始质疑英伟达新管理层是否还会像他一样愿意承担风险。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5791044.d.html",
+        "id": 5216528,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"gs\",\"key\":\"\\u9ad8\\u76db\"},{\"market\":\"fund\",\"symbol\":\"159558\",\"key\":\"AI\\u82af\\u7247\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"AI\\u82af\\u7247\",\"sym_party_status\":\"1\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywsth5791044.shtml\",\"docid\":\"niywsth5791044\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5791044.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:11:15",
+        "text": "【知情人士透露：IPO收到的认购订单接近可供认购股份数量的7倍】Anthropic此次售股寻求1.4万亿美元估值，低于数月前一度提出的2万亿美元，但远高于科技股近期遭抛售最严重时，部分华尔街人士提出的1.1万亿美元。Anthropic及其部分支持者寻求通过IPO和另行进行的私募配售最多筹集904亿美元。两者合计规模将超过SpaceX规模750亿美元的基础交易，使Anthropic成为史上规模最大的上市交易。投资者对这宗交易热情高涨。据知情人士透露，IPO收到的认购订单接近可供认购股份数量的7倍。由于相关信息尚未公开，他们要求不具名。其中一位知情人士表示，与发行进程处于同一阶段时相比，Anthropic获得的认购需求远高于SpaceX。唯一可与之相提并论的是Snowflake Inc.在2020年进行的39亿美元IPO；Snowflake上市首日股价上涨112%。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5794103.d.html",
+        "id": 5216531,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0},{\"market\":\"us\",\"symbol\":\"spcx\",\"key\":\"spacex\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"snow\",\"key\":\"Snowflake\"},{\"market\":\"worldIndex\",\"symbol\":\"znb_nky\",\"key\":\"\\u65e5\\u80a1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywsth5794103.shtml\",\"docid\":\"niywsth5794103\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5794103.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:11:54",
+        "text": "【AI配套基建行情反转，相关企业市值蒸发4.2万亿美元】自6月以来，全球制造业、公用事业以及矿业企业市值合计蒸发4.2万亿美元，AI“配套基建标的”行情迎来反转。 分析发现，媒体报道中与数据中心建设关联度更高的企业，在本轮抛售中遭受的冲击最为严重，投资者对AI热潮的信心出现动摇。 这些企业此前12个月累计新增市值9.4万亿美元，而本次市值缩水几乎抹掉了其中一半。此前资金大举涌入这类企业，它们的产品涵盖适配超大规模数据中心的航空发动机、用于连接AI服务器机架的高端光纤等。 数据显示，数据中心燃气发电机主要供应商Caterpillar的股价在6月30日创下历史高点后，市值已缩水2140亿美元，跌幅44%。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywste9018738.d.html",
+        "id": 5216532,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"cichf\",\"key\":\"\\u5efa\\u884c\",\"hot\":212},{\"market\":\"us\",\"symbol\":\"cichy\",\"key\":\"\\u5efa\\u884c\",\"hot\":42},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"AI\\u670d\\u52a1\\u5668\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywste9018738.shtml\",\"docid\":\"niywste9018738\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywste9018738.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:14:00",
+        "text": "英伟达在ROBINHOOD上的股价基本持平，上周遭遇抛售。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5796650.d.html",
+        "id": 5216535,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"us\",\"symbol\":\"hood\",\"key\":\"Robinhood\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywsth5796650.shtml\",\"docid\":\"niywsth5796650\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5796650.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:38:43",
+        "text": "【广东电网发布优化营商环境12项举措 3个案例入选国家能源局典型案例】《经济参考报》11月16日刊发文章《广东电网发布优化营商环境12项举措 3个案例入选国家能源局典型案例》。文章称，11月9日，南方电网广东电网发布公司服务品牌、优化用电营商环境及支持算力产业高质量发展12项举措，聚焦市场主体和人民群众用电的“急难愁盼”，细化做好新形势、新要求下优化用电营商环境工作，加快提升“获得电力”服务水平。同日，国家能源局综合司公布《现代化用电营商环境“三个一批”建设典型案例清单》，全国共74个案例入选，广东电网占据3席。其中，佛山供电局入选“先进地区”典型案例，珠海横琴供电局、潮州湘桥供电局分别入选“特色城镇和乡村”典型案例。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsti1357716.d.html",
+        "id": 5216610,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywsti1357716.shtml\",\"docid\":\"niywsti1357716\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsti1357716.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:40:07",
+        "text": "【CPO板块持续下挫】CPO板块持续下挫，中际旭创、新易盛、罗博特科均跌超5%，天安新材、中石科技、炬光科技跟跌。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsti1359362.d.html",
+        "id": 5216616,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"CPO\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sz300308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":96882},{\"market\":\"hk\",\"symbol\":\"03308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":24131},{\"market\":\"cn\",\"symbol\":\"sz300502\",\"key\":\"\\u65b0\\u6613\\u76db\"},{\"market\":\"cn\",\"symbol\":\"sz300757\",\"key\":\"\\u7f57\\u535a\\u7279\\u79d1\",\"hot\":4043},{\"market\":\"hk\",\"symbol\":\"03757\",\"key\":\"\\u7f57\\u535a\\u7279\\u79d1\",\"hot\":507},{\"market\":\"cn\",\"symbol\":\"sh603725\",\"key\":\"\\u5929\\u5b89\\u65b0\\u6750\"},{\"market\":\"cn\",\"symbol\":\"sz300684\",\"key\":\"\\u4e2d\\u77f3\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sh688167\",\"key\":\"\\u70ac\\u5149\\u79d1\\u6280\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywsti1359362.shtml\",\"docid\":\"niywsti1359362\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsti1359362.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:50:32",
+        "text": "【摩根士丹利建议超配全球股票：风险资产估值已经回落】摩根士丹利建议最高超配全球股票，理由是AI资本开支周期并未中断，将带动经济和盈利保持韧性，延续至明年。该行策略师唐诗韵等在11月15日的报告中表示，维持美股超配评级，同时将日本、欧洲股票上调至超配，新兴市场维持标配。报告上调标普500指数目标价，对应潜在上涨空间15%。其他资产方面，摩根士丹利预计美元小幅走强，看好投资级企业债以及黄金。策略师在报告中写道：“风险资产估值已经回落，我们选择拥抱风险。在全球股票内部，行情主线正在从云厂商向外扩散；2027年，AI落地应用企业的收益将越来越受关注。”",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2464773.d.html",
+        "id": 5216633,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"ms\",\"key\":\"\\u6469\\u6839\\u58eb\\u4e39\\u5229\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"foreign\",\"symbol\":\"fx_shsusdjpy\",\"key\":\"\\u65e5\\u672c\"},{\"market\":\"fund\",\"symbol\":\"378006\",\"key\":\"\\u65b0\\u5174\\u5e02\\u573a\",\"sym_party_status\":\"0\"},{\"market\":\"us\",\"symbol\":\".inx\",\"key\":\"\\u6807\\u666e500\\u6307\\u6570\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"global\",\"symbol\":\"hf_xau\",\"key\":\"\\u9ec4\\u91d1\",\"hot\":1540},{\"market\":\"commodity\",\"symbol\":\"nf_au0\",\"key\":\"\\u9ec4\\u91d1\",\"hot\":703},{\"market\":\"fund\",\"symbol\":\"002611\",\"key\":\"\\u9ec4\\u91d1\",\"sym_party_status\":\"0\",\"hot\":115}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwzi2464773.shtml\",\"docid\":\"niywwzi2464773\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2464773.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 09:51:08",
+        "text": "【亨通光电、东吴证券等新设未来股权投资基金】企查查APP显示，近日，苏州东吴未来股权投资基金合伙企业（有限合伙）成立，经营范围包含以私募基金从事股权投资、投资管理、资产管理等活动。企查查股权穿透显示，该企业由亨通光电、东吴证券全资子公司东吴创业投资有限公司等共同出资。",
+        "url": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh600487\",\"key\":\"亨通光电\"},{\"market\":\"cn\",\"symbol\":\"sh601555\",\"key\":\"东吴证券\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"投资\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159949\",\"key\":\"创业\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5216635,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh600487\",\"key\":\"亨通光电\"},{\"market\":\"cn\",\"symbol\":\"sh601555\",\"key\":\"东吴证券\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"投资\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159949\",\"key\":\"创业\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-16 09:55:12",
+        "text": "【郭明錤：英伟达换帅 谷歌TPU借OpenAI、Anthropic订单扩大业务】天风国际证券知名分析师郭明錤周一发文称，在英伟达CEO接班人选存在不确定性的情况下，谷歌的TPU芯片正借助OpenAI、Anthropic的订单开拓业务。 郭明錤在X上发文称，根据他的最新产业调查，受益于OpenAI和Anthropic的强劲新订单，谷歌TPU的出货能见度已延伸至2029年，优于英伟达GPU及其他AI芯片供应商(多数订单能见度为2027年第四季度至2028年第二季度)。出货能见度指的是企业能够明确看到或掌握未来多长时间的客户订单和出货计划。 他表示，从2028年起，v9 TPU将成为谷歌自建算力的主力方案；v8系列(8t/8i或其设计变体)的订单可视为来自OpenAI和Anthropic。2028年至2029年，OpenAI需要约1200万颗(由联发科设计的8t)，Anthropic需要约1400万颗(由博通设计的8i)，两者的需求均呈逐年增长趋势。OpenAI采用买断方式，Anthropic则同时采用租赁和买断方式。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5704298.d.html",
+        "id": 5216642,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"us\",\"symbol\":\"goog\",\"key\":\"\\u8c37\\u6b4c\",\"hot\":78257},{\"market\":\"us\",\"symbol\":\"googl\",\"key\":\"\\u8c37\\u6b4c\",\"hot\":13370},{\"market\":\"foreign\",\"symbol\":\"btc_btcopenaiusdt\",\"key\":\"Openai\"},{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0},{\"market\":\"cn\",\"symbol\":\"sz300832\",\"key\":\"\\u65b0\\u4ea7\\u4e1a\"},{\"market\":\"fund\",\"symbol\":\"159558\",\"key\":\"GPU\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"GPU\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"sb\",\"symbol\":\"835970\",\"key\":\"\\u8054\\u53d1\\u79d1\"},{\"market\":\"us\",\"symbol\":\"avgo\",\"key\":\"\\u535a\\u901a\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwze5704298.shtml\",\"docid\":\"niywwze5704298\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5704298.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 10:05:34",
+        "text": "【国泰海通：AI迈向物理世界 数据服务迎来新机遇】国泰海通发布研报称，物理AI加速发展，高质量数据需求持续增长，数据供给成为制约模型发展的关键因素。随着数据服务市场扩容，具备数据资源、规模化生产及平台服务能力的企业有望受益。关注真实数据采集与加工、仿真合成与空间数据两大方向。1)真实数据采集与加工：具备真实场景资源、多模态数据积累及成熟采集加工能力的企业有望受益；2)仿真合成与空间数据：具备高保真物理引擎、三维场景生成及空间数据资源优势的企业有望受益。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2477919.d.html",
+        "id": 5216674,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh601211\",\"key\":\"\\u56fd\\u6cf0\\u6d77\\u901a\",\"hot\":4983},{\"market\":\"hk\",\"symbol\":\"02611\",\"key\":\"\\u56fd\\u6cf0\\u6d77\\u901a\",\"hot\":716},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwzi2477919.shtml\",\"docid\":\"niywwzi2477919\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2477919.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 10:10:04",
+        "text": "【中际旭创盘中创年内新低，现跌超8%】中际旭创盘中创年内新低，现跌超8%。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza8944183.d.html",
+        "id": 5216684,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz300308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":96882},{\"market\":\"hk\",\"symbol\":\"03308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":24131}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwza8944183.shtml\",\"docid\":\"niywwza8944183\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza8944183.d.html"
+        }
+      }
+    ]
+  }
+}

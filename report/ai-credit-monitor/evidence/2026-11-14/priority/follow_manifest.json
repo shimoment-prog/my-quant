@@ -1,0 +1,41 @@
+[
+  {
+    "name": "coreweave_mlq",
+    "url": "https://mlq.ai/news/coreweave-seeks-a-4-billion-loan-backed-by-its-meta-contracts-semafor-reports/",
+    "retrieved_at": "2026-11-14T00:33:53.949573+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "coreweave_semafor_withoutwww",
+    "url": "https://semafor.com/article/11/13/2026/coreweave-tunes-out-nvidia-noise-looks-to-raise-4b",
+    "retrieved_at": "2026-11-14T00:33:53.949897+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "openai_tnw_search",
+    "url": "https://thenextweb.com/?s=OpenAI+quarterly+revenue",
+    "retrieved_at": "2026-11-14T00:33:53.950086+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "openai_tnw",
+    "url": "https://thenextweb.com/news/openai-quarterly-revenue-10bn-losses",
+    "retrieved_at": "2026-11-14T00:33:53.950312+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "coreweave_google_source",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNanJCYjB6NHNwNTZ4bGI1R0dOQXRNWVdkRVFzeDc3UlUtblhwMmtVSEFvcVR4N0R2ZXQ4VHRISW1yaFRiOFVHRjZHY2ctWDZXNFBJVEZmVHlaZWhtY2g2U0xCemplQ3FMaWVEcVdud05rcS1RdzBXYmF1elZGTGRNaGcxZUdFNGNBR3RUeFJIYmlhSHo2VWpncw?oc=5",
+    "retrieved_at": "2026-11-14T00:33:53.950449+00:00",
+    "status": 200,
+    "final_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNanJCYjB6NHNwNTZ4bGI1R0dOQXRNWVdkRVFzeDc3UlUtblhwMmtVSEFvcVR4N0R2ZXQ4VHRISW1yaFRiOFVHRjZHY2ctWDZXNFBJVEZmVHlaZWhtY2g2U0xCemplQ3FMaWVEcVdud05rcS1RdzBXYmF1elZGTGRNaGcxZUdFNGNBR3RUeFJIYmlhSHo2VWpncw?oc=5&hl=en-US&gl=US&ceid=US:en",
+    "bytes": 586419,
+    "canonical": [
+      "<link rel=\"canonical\" href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNanJCYjB6NHNwNTZ4bGI1R0dOQXRNWVdkRVFzeDc3UlUtblhwMmtVSEFvcVR4N0R2ZXQ4VHRISW1yaFRiOFVHRjZHY2ctWDZXNFBJVEZmVHlaZWhtY2g2U0xCemplQ3FMaWVEcVdud05rcS1RdzBXYmF1elZGTGRNaGcxZUdFNGNBR3RUeFJIYmlhSHo2VWpncw\">",
+      "<link rel=\"canonical\" href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNanJCYjB6NHNwNTZ4bGI1R0dOQXRNWVdkRVFzeDc3UlUtblhwMmtVSEFvcVR4N0R2ZXQ4VHRISW1yaFRiOFVHRjZHY2ctWDZXNFBJVEZmVHlaZWhtY2g2U0xCemplQ3FMaWVEcVdud05rcS1RdzBXYmF1elZGTGRNaGcxZUdFNGNBR3RUeFJIYmlhSHo2VWpncw?hl=en-US&amp;gl=US&amp;ceid=US%3Aen\">"
+    ],
+    "jsonld": [],
+    "links": [],
+    "text": "Google News"
+  }
+]

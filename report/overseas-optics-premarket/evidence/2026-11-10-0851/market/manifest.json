@@ -1,0 +1,74 @@
+[
+  {
+    "id": "quotes",
+    "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO,us.IXIC,usSOXX",
+    "started_at": "2026-11-10T00:48:03.332810+00:00",
+    "ok": true,
+    "length": 3678,
+    "retrieved_at": "2026-11-10T00:48:03.414221+00:00"
+  },
+  {
+    "id": "sina",
+    "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox,gb_ixic",
+    "started_at": "2026-11-10T00:48:03.333203+00:00",
+    "ok": true,
+    "length": 3299,
+    "retrieved_at": "2026-11-10T00:48:03.405478+00:00"
+  },
+  {
+    "id": "nasdaq_index",
+    "url": "https://qt.gtimg.cn/q=us.IXIC,us.IXIC,usSOX,usSOXX,usNDX",
+    "started_at": "2026-11-10T00:48:03.333393+00:00",
+    "ok": true,
+    "length": 1243,
+    "retrieved_at": "2026-11-10T00:48:03.400505+00:00"
+  },
+  {
+    "id": "history_LITE",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usLITE,day,,,40,qfq",
+    "started_at": "2026-11-10T00:48:03.333566+00:00",
+    "ok": true,
+    "length": 1629,
+    "retrieved_at": "2026-11-10T00:48:03.492117+00:00"
+  },
+  {
+    "id": "history_MRVL",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usMRVL,day,,,40,qfq",
+    "started_at": "2026-11-10T00:48:03.333709+00:00",
+    "ok": true,
+    "length": 1752,
+    "retrieved_at": "2026-11-10T00:48:03.492006+00:00"
+  },
+  {
+    "id": "history_COHR",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usCOHR,day,,,40,qfq",
+    "started_at": "2026-11-10T00:48:03.333854+00:00",
+    "ok": true,
+    "length": 1724,
+    "retrieved_at": "2026-11-10T00:48:03.491957+00:00"
+  },
+  {
+    "id": "history_CIEN",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usCIEN,day,,,40,qfq",
+    "started_at": "2026-11-10T00:48:03.334044+00:00",
+    "ok": true,
+    "length": 1727,
+    "retrieved_at": "2026-11-10T00:48:03.492056+00:00"
+  },
+  {
+    "id": "history_AAOI",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usAAOI,day,,,40,qfq",
+    "started_at": "2026-11-10T00:48:03.334186+00:00",
+    "ok": true,
+    "length": 1638,
+    "retrieved_at": "2026-11-10T00:48:03.492100+00:00"
+  },
+  {
+    "id": "history_FN",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usFN,day,,,40,qfq",
+    "started_at": "2026-11-10T00:48:03.400523+00:00",
+    "ok": true,
+    "length": 1704,
+    "retrieved_at": "2026-11-10T00:48:03.507054+00:00"
+  }
+]

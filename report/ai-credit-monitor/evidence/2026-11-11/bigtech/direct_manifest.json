@@ -1,0 +1,47 @@
+[
+  {
+    "name": "reuters_msft",
+    "url": "https://www.reuters.com/world/china/microsoft-presses-trump-scuttle-expected-ban-chinese-data-center-technology-2026-11-10/",
+    "retrieved_at": "2026-11-11T01:08:17.682941+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "reuters_anthropic",
+    "url": "https://www.reuters.com/business/anthropic-eyes-14-trillion-ipo-valuation-test-wall-streets-ai-fervor-2026-11-10/",
+    "retrieved_at": "2026-11-11T01:08:17.683466+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "anthropic_news",
+    "url": "https://www.anthropic.com/news",
+    "retrieved_at": "2026-11-11T01:08:17.683667+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 15284
+  },
+  {
+    "name": "sec_anthropic",
+    "url": "https://efts.sec.gov/LATEST/search-index?q=%22Anthropic%22&dateRange=custom&startdt=2026-11-09&enddt=2026-11-11&forms=S-1%2CS-1%2FA",
+    "retrieved_at": "2026-11-11T01:08:17.683809+00:00",
+    "ok": false,
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  {
+    "name": "msft_rss_link",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYVBfNG04eWF0OFp6WHJFRFh3YjdHTHlhdU9xTkZiU3h1Qk9OdXpmM0FaZS1vcXJkdFdHRmE2a0ROLWRWYzNWUXhtcGpmVjREYjBJUC1nYzVSZkxPaHA5dVNNSlhpZzVlX2FOVElnZWNPZ0VuVS1sWEQ5cVNQYXYtT3MtUGppSTIzQ25YX0Q1UnFDbzZxc1RITGRRT1ZNeUFKQTZxWlJxc0E5Z0JjdVVEaXIxbmlqdGRZYzVsLWtRWTBuUlJsb3BTZVAwN1RYWlk?oc=5",
+    "retrieved_at": "2026-11-11T01:08:17.684027+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 13
+  },
+  {
+    "name": "anthropic_rss_link",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUtnS210c1pKNVpEZXJ1V1JpdUdyZ0h5OGh2SzVCXzJaVGRwaDZnb0NQZUxFS0ZFWmxwbU53ZlJtdlBkOWplZHdaNkloU0xwV3hvdlpjNnh0R1FISXdMOExfc09JckJqTWxjSWlZSjZpN0RWR1kyRUF6YUlXN0dqSm5XQU5TUmFmbWpFbGlzT3FZRllaMGU4cld0cDlsaFVYY0IzV2ZNYmwxYW0yd1FDaw?oc=5",
+    "retrieved_at": "2026-11-11T01:08:18.460252+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 13
+  }
+]

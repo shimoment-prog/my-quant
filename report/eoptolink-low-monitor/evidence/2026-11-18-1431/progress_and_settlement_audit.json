@@ -1,0 +1,380 @@
+{
+  "audited_at": "2026-11-18T14:32:17.211455+08:00",
+  "scope": "Read-only pending forecast progress and settlement eligibility; no state or observations changed.",
+  "state_last_run_at": "2026-11-18T10:37:20+08:00",
+  "state_last_observation_file": "observations/2026-11-18-1037.json",
+  "state_sha256": "4b016abac9f4e21f867632c71d37f556e97bb6bcfeac05582b9e42fd078434be",
+  "cutoff_at": "2026-11-18T14:31:03+08:00",
+  "completed_prediction_count": 22,
+  "settled_unique_id_count": 22,
+  "duplicate_settled_ids": [],
+  "pending_count_before": 1,
+  "original_forecast_matches_observation": true,
+  "expired_pending_predictions": [],
+  "new_settlements": [],
+  "prior_predictions_progress": [
+    {
+      "prediction_id": "2026-11-18-1037-L15555",
+      "original_prediction": {
+        "id": "2026-11-18-1037-L15555",
+        "symbol": "300502.SZ",
+        "scheduled_check_at": "2026-11-18T10:30:00+08:00",
+        "triggered_at": "2026-11-18T10:33:44.784+08:00",
+        "created_at": "2026-11-18T10:37:20+08:00",
+        "forecast_start": "2026-11-18T10:37:20+08:00",
+        "snapshot_time": "2026-11-18T10:37:18+08:00",
+        "threshold": 155.55,
+        "comparison": "strictly_less_than",
+        "event": "Any traded price strictly below155.55 after forecast_start and by deadline",
+        "deadline": "2026-11-18T15:00:00+08:00",
+        "risk": "偏高",
+        "numeric_probability": null,
+        "model_validated": false,
+        "status": "pending",
+        "settled": false,
+        "note": "Actual creation time starts this forecast, not scheduled10:30 or heartbeat. Cumulative low is frozen independently from historical179.83line. Latest price belowVWAP, within2% of low and weakerthanETF/ChiNext; lower completed reboundhighs and long remaining window support elevated qualitative risk. Shrinking recent completed volume and overnight overseas recovery are counterevidence. No tickstream during quote-to-creation gap; never alter threshold/window/risk later."
+      },
+      "reviewed_at": "2026-11-18T14:32:17.211455+08:00",
+      "data_cutoff_at": "2026-11-18T14:31:03+08:00",
+      "forecast_start": "2026-11-18T10:37:20+08:00",
+      "snapshot_time_original": "2026-11-18T10:37:18+08:00",
+      "threshold_unchanged": 155.55,
+      "deadline_unchanged": "2026-11-18T15:00:00+08:00",
+      "risk_original_unchanged": "偏高",
+      "status": "pending",
+      "settled": false,
+      "expired": false,
+      "event_observed_so_far": true,
+      "intraday_strict_breach_observed_so_far": true,
+      "closing_breach_occurred": null,
+      "closing_price": null,
+      "final_resolution": null,
+      "first_available_qualifying_completed_interval": {
+        "start": "2026-11-18T13:05:00+08:00",
+        "end": "2026-11-18T13:10:00+08:00",
+        "low": 155.3,
+        "raw_bar": {
+          "day": "2026-11-18 13:10:00",
+          "open": "156.270",
+          "high": "156.360",
+          "low": "155.300",
+          "close": "155.430",
+          "volume": "1183143",
+          "amount": "184267005.3192"
+        },
+        "exact_first_tick_time": null
+      },
+      "exact_first_breach_tick_time": null,
+      "latest_price": 158.2,
+      "latest_price_time": "2026-11-18T14:31:03+08:00",
+      "latest_below_original_threshold": false,
+      "current_cumulative_day_low": 155.3,
+      "lowest_wholly_completed_bar_inside_window": 155.3,
+      "completed_intervals_inside_window": 28,
+      "overlapping_start_interval_excluded": [
+        {
+          "start": "2026-11-18T10:35:00+08:00",
+          "end": "2026-11-18T10:40:00+08:00",
+          "low": 156.06,
+          "raw_bar": {
+            "day": "2026-11-18 10:40:00",
+            "open": "156.680",
+            "high": "158.660",
+            "low": "156.060",
+            "close": "156.300",
+            "volume": "952990",
+            "amount": "149706411.2898"
+          },
+          "exact_first_tick_time": null
+        }
+      ],
+      "unfinished_bars_excluded": [
+        {
+          "day": "2026-11-18 14:35:00",
+          "open": "158.350",
+          "high": "158.440",
+          "low": "158.180",
+          "close": "158.320",
+          "volume": "140200",
+          "amount": "22200144.1846"
+        }
+      ],
+      "logic": "A completed13:05—13:10bar wholly within the preserved forecast window has low155.30<155.55, proving strict breach so far. The original forecast remains pending until15:00; no closing result or final settlement before expiry. Five-minute interval is not an exact first-tick time."
+    }
+  ],
+  "structure_review": {
+    "reviewed_at": "2026-11-18T14:32:17.211455+08:00",
+    "quote_time": "2026-11-18T14:31:03+08:00",
+    "forecast_created_at": "2026-11-18T14:31:07+08:00",
+    "completed_bar_cutoff": "2026-11-18T14:30:00+08:00",
+    "completed_bar_count": 42,
+    "quotes": {
+      "sz300502": {
+        "name": "新易盛",
+        "symbol": "sz300502",
+        "price": 158.2,
+        "previous_close": 160.0,
+        "open": 162.01,
+        "change_pct": -1.1250000000000093,
+        "day_high": 163.35,
+        "day_low": 155.3,
+        "volume_shares": 71932333.0,
+        "amount_cny": 11459200062.72,
+        "vwap": 159.30527462135836,
+        "quote_time": "2026-11-18T14:31:03+08:00",
+        "source": "sina_final.txt",
+        "currency": "CNY",
+        "field_times": {
+          "price": "2026-11-18T14:31:03+08:00",
+          "change_pct": "2026-11-18T14:31:03+08:00",
+          "day_high_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "day_low_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "amount_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "vwap_cumulative_through": "2026-11-18T14:31:03+08:00"
+        },
+        "exact_high_tick_time": null,
+        "exact_low_tick_time": null,
+        "vwap_method": "cumulative amount(CNY) / cumulative volume(shares)",
+        "distance_from_fixed_line_yuan": -21.630000000000024,
+        "distance_from_fixed_line_pct": -12.028026469443375,
+        "distance_above_day_low_yuan": 2.8999999999999773,
+        "distance_above_day_low_pct": 1.8673535093367555
+      },
+      "sz300308": {
+        "name": "中际旭创",
+        "symbol": "sz300308",
+        "price": 393.31,
+        "previous_close": 393.0,
+        "open": 400.0,
+        "change_pct": 0.07888040712469291,
+        "day_high": 404.67,
+        "day_low": 385.72,
+        "volume_shares": 37200583.0,
+        "amount_cny": 14685409983.84,
+        "vwap": 394.762898845967,
+        "quote_time": "2026-11-18T14:31:03+08:00",
+        "source": "sina_final.txt",
+        "currency": "CNY",
+        "field_times": {
+          "price": "2026-11-18T14:31:03+08:00",
+          "change_pct": "2026-11-18T14:31:03+08:00",
+          "day_high_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "day_low_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "amount_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "vwap_cumulative_through": "2026-11-18T14:31:03+08:00"
+        },
+        "exact_high_tick_time": null,
+        "exact_low_tick_time": null,
+        "vwap_method": "cumulative amount(CNY) / cumulative volume(shares)",
+        "distance_from_fixed_line_yuan": null,
+        "distance_from_fixed_line_pct": null,
+        "distance_above_day_low_yuan": 7.589999999999975,
+        "distance_above_day_low_pct": 1.9677486259462862
+      },
+      "sh515880": {
+        "name": "通信ETF国泰",
+        "symbol": "sh515880",
+        "price": 0.38,
+        "previous_close": 0.377,
+        "open": 0.382,
+        "change_pct": 0.7957559681697646,
+        "day_high": 0.388,
+        "day_low": 0.374,
+        "volume_shares": 6483150586.0,
+        "amount_cny": 2469468143.0,
+        "vwap": 0.3809055659346673,
+        "quote_time": "2026-11-18T14:31:05+08:00",
+        "source": "sina_final.txt",
+        "currency": "CNY",
+        "field_times": {
+          "price": "2026-11-18T14:31:05+08:00",
+          "change_pct": "2026-11-18T14:31:05+08:00",
+          "day_high_cumulative_through": "2026-11-18T14:31:05+08:00",
+          "day_low_cumulative_through": "2026-11-18T14:31:05+08:00",
+          "amount_cumulative_through": "2026-11-18T14:31:05+08:00",
+          "vwap_cumulative_through": "2026-11-18T14:31:05+08:00"
+        },
+        "exact_high_tick_time": null,
+        "exact_low_tick_time": null,
+        "vwap_method": "cumulative amount(CNY) / cumulative volume(shares)",
+        "distance_from_fixed_line_yuan": null,
+        "distance_from_fixed_line_pct": null,
+        "distance_above_day_low_yuan": 0.006000000000000005,
+        "distance_above_day_low_pct": 1.6042780748663166
+      },
+      "sz399006": {
+        "name": "创业板指",
+        "symbol": "sz399006",
+        "price": 2303.392,
+        "previous_close": 2292.204,
+        "open": 2306.118,
+        "change_pct": 0.4880891927594444,
+        "day_high": 2329.912,
+        "day_low": 2265.764,
+        "volume_shares": 13208495627.0,
+        "amount_cny": 299060401473.67,
+        "vwap": null,
+        "quote_time": "2026-11-18T14:31:03+08:00",
+        "source": "sina_final.txt",
+        "currency": "index_points",
+        "field_times": {
+          "price": "2026-11-18T14:31:03+08:00",
+          "change_pct": "2026-11-18T14:31:03+08:00",
+          "day_high_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "day_low_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "amount_cumulative_through": "2026-11-18T14:31:03+08:00",
+          "vwap_cumulative_through": null
+        },
+        "exact_high_tick_time": null,
+        "exact_low_tick_time": null,
+        "vwap_method": "not applicable to index",
+        "distance_from_fixed_line_yuan": null,
+        "distance_from_fixed_line_pct": null,
+        "distance_above_day_low_yuan": 37.6279999999997,
+        "distance_above_day_low_pct": 1.6607201809190952
+      }
+    },
+    "source_timing_note": "Structure uses completed m5_final bars available before forecast creation; unfinished bars excluded. Final quote precedes actual forecast; all source and actual creation times preserved. Later progress/research cannot alter original risk/threshold/window.",
+    "relative_return_pctpoints": {
+      "sz300308": -1.2038804071247022,
+      "sh515880": -1.920755968169774,
+      "sz399006": -1.6130891927594537
+    },
+    "distance_above_day_low_pct": 1.8673535093367555,
+    "distance_from_vwap_pct": -0.6938091811369285,
+    "risk_support": [
+      "158.20低于累计均价159.3053约0.694%，新易盛−1.125%，弱于中际+0.0789%、ETF+0.7958%、创业板+0.4881%。",
+      "较大反弹窗口高点163.35(13:35)→162.55(13:55)→160.69(14:10)→158.90(14:25)降低，最近14:30柱高158.60也低于158.90。",
+      "14:30柱低158.02低于前柱158.18，不能继续把最新低点说成持续抬高。"
+    ],
+    "counterevidence": [
+      "距冻结低点155.30仍有2.90元、1.867%；从14:31:07至15:00只有28分53秒，较上午剩余窗口短。",
+      "14:20—14:25量增40.59%，14:25—14:30随后缩42.99%；最近回踩没有持续放量。",
+      "最近4根完整柱低点158.06、158.10、158.18、158.02虽有反复，但整体仍在日低155.30上方；不能把局部下移等同即将破日低。"
+    ],
+    "equal_duration_comparisons": [
+      {
+        "first_bar_end": "2026-11-18 14:15:00",
+        "second_bar_end": "2026-11-18 14:20:00",
+        "equal_completed_minutes": 5,
+        "first_volume_shares": 753172,
+        "second_volume_shares": 560228,
+        "volume_change_pct": -25.61752162852575
+      },
+      {
+        "first_bar_end": "2026-11-18 14:20:00",
+        "second_bar_end": "2026-11-18 14:25:00",
+        "equal_completed_minutes": 5,
+        "first_volume_shares": 560228,
+        "second_volume_shares": 787620,
+        "volume_change_pct": 40.58918868746295
+      },
+      {
+        "first_bar_end": "2026-11-18 14:25:00",
+        "second_bar_end": "2026-11-18 14:30:00",
+        "equal_completed_minutes": 5,
+        "first_volume_shares": 787620,
+        "second_volume_shares": 449000,
+        "volume_change_pct": -42.9928137934537
+      }
+    ],
+    "excluded_unfinished_bars": [
+      {
+        "day": "2026-11-18 14:35:00",
+        "open": "158.350",
+        "high": "158.440",
+        "low": "158.180",
+        "close": "158.320",
+        "volume": "140200",
+        "amount": "22200144.1846"
+      }
+    ],
+    "conditional_assessment": "中等风险较上午偏高降低可被当前距离日低、短剩余窗口、非持续放量支持；belowVWAP与相对弱势反对直接降为低风险。无有效模型，不给可靠百分比。",
+    "no_state_or_prediction_modified": true
+  },
+  "source_manifest": [
+    {
+      "name": "quotes.txt",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+      "ok": true,
+      "bytes": 2097,
+      "retrieved_at": "2026-11-18T14:29:43.141885+08:00",
+      "started_at": "2026-11-18T14:29:42.801879+08:00"
+    },
+    {
+      "name": "sina.txt",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "ok": true,
+      "bytes": 1016,
+      "retrieved_at": "2026-11-18T14:29:43.166134+08:00",
+      "started_at": "2026-11-18T14:29:42.802528+08:00"
+    },
+    {
+      "name": "minute.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+      "ok": true,
+      "bytes": 9168,
+      "retrieved_at": "2026-11-18T14:29:43.179857+08:00",
+      "started_at": "2026-11-18T14:29:42.802689+08:00"
+    },
+    {
+      "name": "minute_peer.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300308",
+      "ok": true,
+      "bytes": 9193,
+      "retrieved_at": "2026-11-18T14:29:43.221638+08:00",
+      "started_at": "2026-11-18T14:29:42.802827+08:00"
+    },
+    {
+      "name": "minute_etf.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh515880",
+      "ok": true,
+      "bytes": 9223,
+      "retrieved_at": "2026-11-18T14:29:43.169179+08:00",
+      "started_at": "2026-11-18T14:29:42.802969+08:00"
+    },
+    {
+      "name": "m5.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=120",
+      "ok": true,
+      "bytes": 17182,
+      "retrieved_at": "2026-11-18T14:29:43.329054+08:00",
+      "started_at": "2026-11-18T14:29:42.803103+08:00"
+    },
+    {
+      "name": "announcements.html",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "ok": true,
+      "bytes": 55675,
+      "retrieved_at": "2026-11-18T14:29:43.375483+08:00",
+      "started_at": "2026-11-18T14:29:42.803311+08:00"
+    }
+  ],
+  "local_evidence_directory": "/private/tmp/eoptolink-nov18-1430-progress-final-evidence",
+  "final_settlement_prohibited_before": "2026-11-18T15:00:00+08:00",
+  "global_state_modified": false,
+  "supersedes_initial_progress_audit": "/private/tmp/eoptolink-nov18-1430-progress.json",
+  "source_manifest_final": [
+    {
+      "name": "sina_final.txt",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "ok": true,
+      "retrieved_at": "2026-11-18T14:31:06.866093+08:00",
+      "started_at": "2026-11-18T14:31:06.792041+08:00"
+    },
+    {
+      "name": "quotes_final.txt",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+      "ok": true,
+      "retrieved_at": "2026-11-18T14:31:06.858797+08:00",
+      "started_at": "2026-11-18T14:31:06.792427+08:00"
+    },
+    {
+      "name": "m5_final.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=120",
+      "ok": true,
+      "retrieved_at": "2026-11-18T14:31:07.074669+08:00",
+      "started_at": "2026-11-18T14:31:06.792599+08:00"
+    }
+  ]
+}

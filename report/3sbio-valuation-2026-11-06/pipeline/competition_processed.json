@@ -1,0 +1,47 @@
+[
+  {
+    "drug": "ivonescimab",
+    "nct_id": "NCT06767514",
+    "title": "Clinical Study of Ivonescimab for First-line Treatment of Metastatic NSCLC Patients With High PD-L1",
+    "sponsor": "Summit Therapeutics",
+    "phase": [
+      "PHASE3"
+    ],
+    "status": "RECRUITING",
+    "source": "https://clinicaltrials.gov/study/NCT06767514"
+  },
+  {
+    "drug": "ivonescimab",
+    "nct_id": "NCT05899608",
+    "title": "Clinical Study of Ivonescimab for First-line Treatment of Metastatic NSCLC Patients",
+    "sponsor": "Summit Therapeutics",
+    "phase": [
+      "PHASE3"
+    ],
+    "status": "ACTIVE_NOT_RECRUITING",
+    "source": "https://clinicaltrials.gov/study/NCT05899608"
+  },
+  {
+    "drug": "pumitamig",
+    "nct_id": "NCT06712316",
+    "title": "Safety, Efficacy, and Pharmacokinetics of BNT327 in Combination With Chemotherapy and Other Investigational Agents for Lung Cancer (ROSETTA Lung-02)",
+    "sponsor": "BioNTech SE",
+    "phase": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "status": "RECRUITING",
+    "source": "https://clinicaltrials.gov/study/NCT06712316"
+  },
+  {
+    "drug": "pumitamig",
+    "nct_id": "NCT07361510",
+    "title": "A Study to Evaluate the Efficacy of Pumitamig Versus Pembrolizumab in Participants With Previously Untreated Advanced Non-Small Cell Lung Cancer and PD-L1 ≥ 50%. (ROSETTA Lung-202)",
+    "sponsor": "Bristol-Myers Squibb",
+    "phase": [
+      "PHASE3"
+    ],
+    "status": "RECRUITING",
+    "source": "https://clinicaltrials.gov/study/NCT07361510"
+  }
+]

@@ -1,0 +1,3 @@
+)]}'
+
+[["wrb.fr","Fbv4je","[\"garturlres\",\"https://www.marketscreener.com/news/hsbc-sells-300-million-slice-of-oracle-linked-data-center-loan-at-discount-ce785edfdf8bfe21\",1]",null,null,null,"generic"],["di",11],["af.httprm",11,"-3905932650061555279",12]]

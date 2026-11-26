@@ -1,0 +1,495 @@
+  
+  
+    2026年货币政策执行报告  
+ 
+ 
+ 
+ var _speedMark = new Date(); 
+ 
+ 
+  
+  
+  
+  
+   
+
+  
+     
+    
+  
+  
+    
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+			 
+	 
+     
+     
+     
+     
+     
+  
+/*导航css*/
+body{margin:0;padding:0;}
+a{ text-decoration:none; color:#333333;font-size: 12px;}
+.header{ width:950px; height:auto; clear:both; margin:0 auto;font-size: 12px;font-family: "宋体";}
+#logo{ width:950px; margin:auto; text-align:center; font-size:13px;font-weight:bold; }
+#logo .logo1{ width:950px; height:25px;background-color:#f0f0f0;}
+#biaotou{font-size:18px; width:119px;font-style:italic; font-weight:bold text-align:center; color:#ffffff; }
+#logo .logo1 font{ float:right; padding-right:20px; color:#ffffff}
+#logo .logo2 { width:950px; height:48px; color:#ffffff;}
+#logo .logo3{  margin-top:1px;}
+.cs td{ border-right:1px solid #ffffff;}
+.cs a{color:#ffffff;text-decoration:none;}
+.cs a:hover{color:#0f4a82;text-decoration:underline}
+/*导航css*/
+ 
+  
+ 
+
+   
+     　
+   术语表 
+　   常见问题  -->
+   网站地图 　
+    更新日志  -->
+   	 
+	var wa=' RSS订阅 ';
+document.write(wa);
+	 　
+   	 
+	var wa=' 手机用户 ';
+document.write(wa);
+	   -->
+
+ 
+
+       无障碍浏览    English Version   
+
+   
+
+ 
+ 
+ 
+   
+       
+   
+ 
+ 
+ 
+ 	
+	 
+		 
+         
+           信息公开 
+            
+               
+                  新闻发布  
+                  法律法规  
+                  货币政策  
+                  宏观审慎  
+                  信贷政策  
+                  金融市场  
+                  金融稳定  
+                  调查统计  
+                  银行会计  
+                  支付体系  
+                
+               
+               
+                  
+               
+               
+                  金融科技  
+                  人民币  
+                  经理国库  
+                  国际交往  
+                  人员招录  
+                  学术交流  
+                  征信管理  
+                  反洗钱  
+                  党建工作  
+                   
+                
+               
+              
+         
+       
+	 
+ 
+		 
+         
+           服务互动 
+            
+               
+                  政务公开  
+                  政策解读  
+                  公告信息  
+                  图文直播  
+                  央行研究  
+                  音频视频  
+                  市场动态  
+                  网上展厅  
+                  报告下载  
+                  报刊年鉴  
+               
+               
+                  
+               
+               
+                  网送文告  
+                  办事大厅  
+                  在线申报  
+                  下载中心  
+                  网上调查  
+                  意见征集  
+                  金融知识  
+                  关于我们  
+                   
+                   
+               
+              
+         
+       
+	 
+ 
+     
+     
+      
+       
+              
+              
+var day=""; 
+var month=""; 
+var ampm=""; 
+var ampmhour=""; 
+var myweekday=""; 
+var year=""; 
+mydate=new Date(); 
+myweekday=mydate.getDay(); 
+mymonth=mydate.getMonth()+1; 
+myday= mydate.getDate(); 
+myyear= mydate.getYear(); 
+year=(myyear > 200) ? myyear : 1900 + myyear; 
+if(myweekday == 0) 
+weekday=" 星期日 "; 
+else if(myweekday == 1) 
+weekday=" 星期一 "; 
+else if(myweekday == 2) 
+weekday=" 星期二 "; 
+else if(myweekday == 3) 
+weekday=" 星期三 "; 
+else if(myweekday == 4) 
+weekday=" 星期四 "; 
+else if(myweekday == 5) 
+weekday=" 星期五 "; 
+else if(myweekday == 6) 
+weekday=" 星期六 "; 
+document.write(year+"年"+mymonth+"月"+myday+"日 "+weekday); 
+    　|　我的位置：   货币政策司  >  货币政策司  >  货币政策执行报告  >  货币政策执行报告  >  2026年货币政策执行报告     
+$(function(){
+var a_one=$("#dangqian").find("a");
+var a_two="中国人民银行";
+for(var o=1;o    
+        
+        
+          
+         
+       
+       
+         
+       
+      
+     
+     
+      
+       
+        
+        
+  
+ 
+  
+   
+   
+  
+  
+  
+   
+    
+     
+      
+       
+        
+         
+              
+         
+        
+        
+     
+    
+   
+   
+    
+     
+      
+       
+        
+         
+           
+           
+         
+         
+           
+               
+         
+         
+           
+            
+         
+        
+       
+       
+        
+         
+           
+           
+         
+         
+           
+              
+         
+         
+           
+            
+         
+        
+       
+       
+        
+         
+           
+           
+         
+         
+           
+              
+         
+         
+           
+            
+         
+        
+       
+       
+        
+         
+           
+           
+         
+         
+           
+              
+         
+         
+           
+            
+         
+        
+       
+       
+        
+         
+           
+           
+         
+         
+           
+              
+         
+         
+           
+           
+         
+        
+        
+     
+    
+   
+   
+    
+     
+       
+     
+    
+   
+             
+         
+        
+         
+          
+           
+            
+             
+              
+               
+                document.write(document.getElementsByTagName('title')[0].innerHTML)   
+               
+              
+             
+            
+  
+  
+    
+    
+     
+    
+   
+  
+   
+
+
+  
+   
+    
+     
+        
+        
+     
+     
+     
+       
+        
+         
+           
+           2026年第二季度中国货币政策执行报告   2026-08-12   
+         
+        
+      
+       
+        
+         
+           
+           2026年第一季度中国货币政策执行报告   2026-05-11   
+         
+        
+        
+     
+    
+   
+  
+  
+   
+    
+     
+       首页      上一页         下一页      尾页       
+      总记录数:2,每页显示20条记录,当前页:  1  /1      
+     
+    
+   
+  
+ 
+
+   
+                 
+           
+          
+          
+       
+      
+     
+     
+/*页面当前位置*/
+$(".SkinObject").eq(0).text("首页");
+$(".SkinObject").eq(0).attr("href","/rmyh/index.html");
+ /*设为主页*/
+function setHome(obj){
+ obj.style.behavior='url(#default#homepage)'; 
+ obj.setHomePage('https://www.pbc.gov.cn');
+ 
+ return false;
+}
+
+/*加入收藏*/
+function bookmarkit(){
+	switch(getOs()){
+		case 1:
+			window.external.addFavorite('https://www.pbc.gov.cn','中国人民银行');
+				break;
+		case 2:
+			window.sidebar.addPanel('中国人民银行', 'https://www.pbc.gov.cn', "");
+				break;
+		case 0:
+			alert("加入收藏失败，您使用的浏览器不支持这个功能");
+				break;
+	}
+}
+
+function getOs() { 
+	if(navigator.userAgent.indexOf("MSIE")>0)return 1; 
+	if(navigator.userAgent.indexOf("Firefox")>0)return 2; 
+	return 0; 
+} 
+
+ 
+ 
+ 
+.footer{ width:950px; height:auto; margin:0 auto;color: #666666; font-size:12px;}
+.footer a{color: #666666;text-decoration: none;}
+ 
+
+ 
+  
+     
+        
+           
+  document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/33/000/0000/40672588/CA330000000406725880001.js' type='text/javascript'%3E%3C/script%3E"));    
+ 
+ 
+ 
+              法律声明  |  联系我们  |  设为首页  |  加入收藏  |  网站地图  
+           
+                    
+              京ICP备05073439号  网站标识码：bm25000001   京公网安备 11010202000016号  
+
+ 
+             网站主办单位：中国人民银行办公厅　最佳分辨率：1024*768 
+
+ 
+ 
+ 
+      
+           
+          
+     
+   
+  
+	 
+	 
+	 
+		  
+	  
+	  
+ 
+  
+ 

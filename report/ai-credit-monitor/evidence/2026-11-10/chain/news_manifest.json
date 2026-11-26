@@ -1,0 +1,712 @@
+[
+  {
+    "name": "suppliers",
+    "url": "https://news.google.com/rss/search?q=%28AAOI%20OR%20Coherent%20OR%20Lumentum%20OR%20Marvell%20OR%20Fabrinet%20OR%20Ciena%29%20%28revenue%20OR%20guidance%20OR%20outlook%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-10T00:30:37.644315+00:00",
+    "items": [
+      {
+        "title": "Coherent Stock Earnings Beat Has The Bull Case Changed? - Yahoo Finance Singapore",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ0p3OGwyR2xwM2dpNENmbTVZbEp6R2d6WEhuUzA3MTY1LWZxbk1QU2dDdXpmVV9QWDQtSkhKRVB4M3JsR1JXU1RTaDczQ0VKbnEtb0pXczJyMko3enVQanFhSkhGaHQtUHNOYnhVSXliRkJub2hiUDdQN1F3U19LXzRDY2FMMWROUEE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:08:28 GMT",
+        "source": "Yahoo Finance Singapore"
+      },
+      {
+        "title": "Coherent Jumps 13% as Optical Stocks Extend AI Rebound; Lumentum Surges 11%, Applied Optoelectronics Rises 4% - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbkNBcDczU1piQjNfM20tb3d3Qy1BVWFyVVZSRjJxSmtudTIwa1JsbWJ5dHVxX0FSV2UwMkFzbEl4Nlk3MUFQTEVnVjJHekdOam94a3R6X0lIbzJDU0g3WWVodjk2dHJ5Uk8xSFlxZDh5cmZYYTgyUW5KOXR1cXFiZDI2UnFlX1lscHl4MElXV19RLW5Pa2kzc2lfTUptbkhCV2JvS3B2VDZldWdWcmlrSHNZYWdZS24zRk5MM25aSjRVdlYxTWkzNXZNUk80QlZWczZfQmhWNGo2WUZadlRSbGJR?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:58:00 GMT",
+        "source": "24/7 Wall St."
+      },
+      {
+        "title": "Weekly Recap: Lumentum acquisition and Q3 revenue outlook maintained - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTTdzdHhtbkRoZ0pfemlEaGhvRk15azVDem1ER2x6anNBd1hoYnhzUVBRTkhTMXFPb3NWcnl4OW9sSFM5VTZOUG5nU0FsTFljN3VGZFJ0YU1WbmxpOXVmb18xaTBucDVGY25jNUhLbDVaU1JfZG4xNGNvWVJtMFFzMGoyTlRoMUJLb3Q1VVdjR0liYm54bHE3dUlqRUdWTEhxRF9ZMDA2eV9HaVROUC1mWEpnQ3VXdHh0SjgwM1J0aXowbVAxNTFtdg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:00:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Ciena\u2019s Growth Rides on the Same Cloud Buyers as Arista. Arista Just Reported. - TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnZCU3Qwanc0cUx4ZUphS0RQWE9TMDN1LWtTMXVWaFdtWWhtVlVfMmdMbEh5YWpXMEFuM19qUUdWMHNVYXFzN29MaFM0VXBGMHBtOE9Ta0JmZXE2a3RUMXJYajhMSVBhdjJoY2F6RTN3aWdjM2pMMkVOYjFGdGFjVzJR?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 23:15:00 GMT",
+        "source": "TIKR.com"
+      },
+      {
+        "title": "Why Marvell Technology Stock Fell Hard in October - The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZmQ0a0poeVZKVnVBUE1zb1BHNjB0OHI4dVhLckw5aGdrNHFnVFBjdC1aeGVtY0kyeFlOeTVBc3VGbWhnSDJhZHRrSEdpZ0x3MktnZFRYS25iSmxSaEJ4azRjS2lueGVMWFcxWk92QXE0bXE5Q1E2S1JmS2pEUC1ZRllFN2lldVVjMG1QRnBIcjhpUU5yRGdkRklKMllQWEp0Y0tmQkNmVlZhUkJhN0VZZU9qYXM5dTh5X2Z5ODd2UkZITGhoeGVSQ3ZybTQwc0R4?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 20:35:07 GMT",
+        "source": "The Globe and Mail"
+      },
+      {
+        "title": "Coherent shares jump on earnings beat and raised outlook - StreetInsider",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXpycXVFTkg1MFFKREMwYnlfZTI5RW1sNUllR05ld3psWnBBMUV3YVZsQ3RVUUpkM1VGWThlOTRwOWdIV2ZnOS1NRHItc2hPbkFpMzJnTUFVZC1zMWtVRVItaDREZE5xQTUxeTYzUmNsNnhaSnhVOEFfMHN4X3FacFhyOXloODZGcWxPb1QtRzVxNXdlaVFBUlExZUFFbUVqVWVBR25EZ1pVWDJQSC1F?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 14:54:36 GMT",
+        "source": "StreetInsider"
+      },
+      {
+        "title": "Marvell: Cheap And Growing Fast, With A Catch (NASDAQ:MRVL) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeXNNSW8zN2hDMzNLbjlmWE83azV2Wkk3RksxcktsVWxvLU5aWXMwSG9zUTRqREtaR1p4TW80V1dTT25yS3VYWm85U2NVeTJzY19UeEVQOTJuc25Oc245c2t5Wk1UUlVFb196WWhPWEhSZXRfMUstMVYwblhUYk1nczlKTWtJdEpFMEhVeA?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:07:00 GMT",
+        "source": "Seeking Alpha"
+      },
+      {
+        "title": "Marvell Stock Fell 58% From Its Record. History Says What Followed Its Last 4 Drops This Deep. - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUkxHUm5pcmlpQzJWTlVDVXZFZlJFcUdNMWliVmpJM2RHR3pBY1AzRmJROW54cWNuSUVVbTQxeXFlU0o1RnlfNjNnWWRIQmFPdFljeUNSNVVZYlh0RHA1a1NNOGtGVUkwUTZ0aDEwbDNXVTBJOGtLaHRSaWhNZklKNjJiMHlMRkt6UFQxb25sNVNPWVlHRTN5QldRMkNHTmt6eXBmQzNfOU5XU2ZfcFU1ak9mWjdIZjRuNFdWSlNHbWVRaVZnSXdNTU45OGlBUDg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 10:41:00 GMT",
+        "source": "The Motley Fool"
+      },
+      {
+        "title": "Marvell Buy rating: Budzinski\u2019s valuation estimates - NeoTeo",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSDRRNXIzbXFFTVJPVUhrQlpEQ1hBb0VTZWF2YzZKazB6eWhDVDZIRmlFRkZ2MzNGR0duNG1oN3J0Q3FSMlZmWnJGSnRfWlNPa0hXVkdqZEpYZXZmWUFOYUdHYWRDT3g2QTdpTE9JcU01VHNsdGEzSWtpMTJ1VkRJYVFYaw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 20:00:43 GMT",
+        "source": "NeoTeo"
+      },
+      {
+        "title": "Why Fabrinet (FN) Stock Is Up Today - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ib3lnVS14a1lhcE5TQ2hIVlp3dkZKQ3oyNmxzdWtjQWRpWUt0ZktERlExVloyV0xQN2pYTkg2TjJDWGp5ZmFyaUtvX1Z4VENncmhnZ1RuaU5iT0hsRnpKVlVxdW9vZlY4a2NuLTBmN0F6dXZsTUlBTm5HY0Y?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:33:00 GMT",
+        "source": "Quiver Quantitative"
+      },
+      {
+        "title": "Weekly Recap: All-stock Marvell buyout and Q1 revenue growth, Q2 outlook - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaFJqNUtPakE5MVpwYllrT1d5cHFnSlpqU1JLY0g5aTM1V2hBMlZsdlpKYXN1a0lrVE1mVHJmb1ppM1g5QXptd1RpcExQSklaSm16MGY2VjIzVC1mc0xvbFJQcUJyUHUzRnVWRG1wNEgtdzZZclRyMmkyNE4tTW1nZ0ExYmNTdGJIZ0Z3VWFIekRyTTRmYk9EckhQMndxTUtzcHZKc20xMzRFNFNscXFtOElVenZja2stNjVSbk1YeG54RnNSSnFnUUpoeHI?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:00:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Fabrinet Dropped 33% in a Month Despite a Record Quarter. Time to Sell, or Load Up? - TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRXBDMzdwZHEzVzJwVWRvTXVXYm1KWGotSEVlT1FXNmFqV1hpdFpqZ3F0LW1qNXlOTVlxLW1jeGV5LWdNeF9WQkJabXJKcEtsYVg0eTJlR2xaZHJwNGNXalJwS1J3Y1RhX2l3RmhhZ0JvQXNiTExGMDZyVkFFUEJib0lVLWpTLTZyQkJCbnhCN0xtYkFwTE1hWHI1aVJ4NjJ5cjN2ZVJ2bVpMQQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 22:18:09 GMT",
+        "source": "TIKR.com"
+      },
+      {
+        "title": "Coherent Rallies as Strong Earnings, Higher Guidance, and AI Optics Momentum Lift Shares - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZGxDTVdJWG1mSHFibEcwOFpMWXhGalNKQ2hMV3lvR3RFVXBUT24yVGlEZDZPN3ZaVXZfOVk4YmJjdU5GajBrbW9HOWszMnFJV0UyU1ZFbW10V28wS1M5MHZqWTJTRjE0R2RKS2NRTXNIN1ZOMWx2M0U4alZsNTJsekw5RVZfeGE4NFR3MFEyZk4zOFNRU2NrTE9JOUYwUVZpYTRxYlFhWlYwZ2dnbk9EMlRyMVNKQmM3RnloZFBBY3hpNVE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:20:00 GMT",
+        "source": "Quiver Quantitative"
+      },
+      {
+        "title": "Two Brokerages, One Verdict: Lumentum's Outlook Is Only as Good as Its Delivery - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUWFjMGJDaUQyWDFlbk9EbXFFR1lKU2FHb0tNMFdlQm1zV0ZrTDlmZzhqWmZ6TzEyRlBTa1BXY1IyTEh4dnBQR2N3bDdXdksxY3I4SW9xZnRXb1NJSnJCSVk2SHRXTTBCMnl3RGs2TzJiVld6dURCT3RYM1hvMDFvcjdMWl9xVi1QeHlZdV84MzRJVGowV3VrNXkzTDJIWUhUYzZHN1RFTGNCWEZWem1UX3BOTnRKRmh5R2diVVlnYWVNWkY1OFJwaUQ0aEkxZ2ZzVkVoUUN0M2tBRm1rNmQtRXdHcw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 17:32:27 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Coherent Soars 18%, Lumentum Up 12% as AI Optics Rebound Extends Despite Nvidia Turmoil - TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPemE3QjAyNGprTkdiTjdzeTUzc3dkX0Rua3oxTmg0NXVZX01lQUx5a2tGZmptQnhVaVpVYkpvRGlOOWZTZk96MU5RTUdqZDlIWVpERGFUWFZoX3pxRU9ZLThTbU50a0pjaVQ1VWp5YXQtVE5mSm9FWVVwZTgxZGgwcjQxTWZYdFZzX3Y0N2FVa1JoSkZXOHFWOENLb2NtbDRveDVnUzFpRXZWcXhFeWtuLQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 17:56:08 GMT",
+        "source": "TIKR.com"
+      },
+      {
+        "title": "Weekly Recap: Q1 beat and $601 million indium phosphide supply LOI - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSkQ1a0J4cTVuSXNtRkhyVU9EWkZLMnV0RFBmaWlfZGtYMFFoc0F4Q3FvOXdWSGtpdGZXOG82MjUwU1N1UWdVTlROcGNLZnJYX3VJS0RUXzJQS1ZWNWktSmhFVEl2eUNHcGhVTmZxWmpNR29vSldxbGNoSUt0Z21nYXRWcmJUTHhCR21LZS13dWc2RG5hS25BS3haSlczbVJSUFBWRm9HOWVXdnc0YzFaZXg1VUNZVmJjVEFFQ2lIUDNmcGx3?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:00:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Q3 earnings roundup: Coherent (NYSE:COHR) and the rest of the electronic components & manufacturing segment - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTTVZUjRzRkZCMnVmX25ZWXR3VHVnUzF1QkpuTnZSXzdndkI1ejM2OWk2X2hKbUE5YXpxRWtzbHNfNlJnbTlSY3hwNnlxZHg1ZjhJZE5rdHQwQ3gzeDRNdXJ1QV9RSE8xdHIxU29TeXJMZTlhX20wRVduTEMxeElBR3MwS1JTLVhSbUNXLTFrYnN5X0E0R0g3RmUxeVlNY1V2RTllS1hIS0w5WUs1NHM3RVozSXhzR0lveFNMbUF2c21ReHZlNzNhQWV5YzNmMFRMZHhmVFBicTlJc3N1anVWbDQ1Zm1CWFVZckpIanFUYWc2RTNrc0E?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 03:33:42 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Applied Optoelectronics Lost 27% in a Week. Raymond James Sees 229% Upside From Here - TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR3o1RENTbEJuRGVpZkVsblZBb28xUFdQZFBta1dCQUw5a19oVHdvU2JjN2ZwYnRpd0RZX0xDeGhXcDRzVnFVbmlNdURBWlY2bGoyVEw5SFo0cnBYc01aWjNYVkhXT0I1RHhqc2laYWduZ2dNdHoxd0wtSzFEMmpCWWVyQmZCTHJRLWtFc1lJNzB2X0hfX3Q5QjdrOHdEXzBvZDd1QUwtUHJJbU0?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 08:34:06 GMT",
+        "source": "TIKR.com"
+      },
+      {
+        "title": "Marvell Gets a Lower Bar From B. Riley While Two Rival Brokers Head for the Exit - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaE9tMzRmbnhpRjN6dWRHS2ZXUEJXX1QtcVdBcHhRN3RrbnA0VllwUUZvTndoOTRlQXZfTjg4b1ByaG5UMW14aWZPSWxVMFd5SlppYzlwSlR0c2FfLVFsTDkxYVVzZ3h2NkVhOW1CTnRSdkFDS3c2cjBGUmo3R0JyUkhtX2tGYWhkQ3lMQ3Y5MzZkeXRSd0Npei1OcW43M2dyTHdXM29XZHhPSmFSRlNZX2l2akx2b1hieVpFbjFBVEhLZDk1UV9SOGJScGhFT1FRQTV1bnNRdmwwNUI0RzlKY3IwZXJMUQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:40:53 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Bernstein Cuts Lumentum Target to $635 While Keeping the Faith \u2014 and the Marvell Math Cuts Both Wa - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSlAtWi1XMVo4QkxnY3d1bFAybXBpbXVjcHFoenhMOHoxbnljNFlCdm42dmVyeVROcDhib2c4SHBFNy1hYzJlOWpMV2oxMHpJRmNYTnJ2dkhPRmo5RFhkbFBVaXc0emlEVTlzLWduclIyb2cxSnhEcUpZLVFkY2Q0V0pLRHBrTGtxX2w5b0FwM01ybGdOcmhFLVUwVXBTbUhHWm9ILXdKNFNDYnQ1NkJvby1iY1RDVzBEWXdiUjhSazR2QzZnMWVSU1phaUFZTHcyLVhlY1h5SE52MHRtYzI3cFZNWDFDT2xTVG9EZVk4ZmgtMXRFY0hzQ0l6ZUVydw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 17:32:27 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Marvell's Growth Story Meets Two Tests: Citi's Caution and a Shrinking Lumentum Price Tag - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTTJtUjBBQnBFb18ycW1tUWdHRVZzajJnS3ZLVnhrNXV4bTZaZHJDZHBNc3JneXdZbzc3UF92bjRUWTNxUDJOQmZlUVUxT3YyMDlUelpGeUM4TEduOXBkdGpRNFRjY0lwa3JIQlVzNEpfVEtvOC1WbW1QX3JoQjI5S0F4MlBmM0xTcE45MUc2d2tIbjNwY015d2ozU0prejQta1B0UWY1RXJabnFrZ1JvRDVIZF84X3J3dTc0MEliMmVIUGJybEhnU1VTakwwbWRLQjY1a3JyQi0xN3h5ODR4TE5aT21QR2pXV3g2UFdsZ2psUQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 14:52:27 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Lumentum stock gains as outlook rises after strong fiscal Q1 - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbmZkTXpCeENXLVlFd0FVY2VWREQtMFY0OXlWemNUV0k2RWtsb2Y4VVpFSDVEcG1UX3JRdVEwbnZ5QklDcWh4dnh3cm84U0p2dS1nU0FqWm91M3IxOWpPU3BCdU5KUFVkTGJKbV9sZHhiUk5mbi02Tm1mRFNiWHl2SWo3dVQ5bXItUlpOdEFsTGlyS0UxcE5xRXFEamRZMzR5MnNRd0l5OW1yZmVaYzJXNGJ3T0xGOGFyX1NwaWJnb0E?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:53:40 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Ciena stock faces a sharper test as growth meets valuation pressure - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdTUtYzVBcDRTdFlQRDh5S01acFd1X3lsLU9pSU5aNG9nRUtfMk03V3NuUExwYUpYZ19GVEp3T3poOVl5b0dSeS1rbUhGd1RpODJkbTJMRmF1TUpMWm15R044S1ZJbEFJdXA3eFpHU3lJSHZDOU15NVQ3ckdXQTBRQm5td2VJYkdjdG5hcFFOVDFsWk9Zc3hHaHdFa1hVVnJFT3VKWGROWmNvT2ZMU1RMVmdWbVNnalRSeEFCbnc3TkxTYUxvRHA4b0F3?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:49:37 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Lumentum stock: Revenue jumps 136.5% as outlook rises - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZUZXMzc1WFlkNkU2MjJHVElPVlM4ZzZmZ3plUHZ2X3BiZGJTTTVvLWR0WlIxTm1JMjlVTExyT2hQZHA5QzI4Y0RkalFmMEljanJaT1o0d0xYUUZsOVpOZWdTMDFhLVhhNWVoeHlITGs2ZjNibUFsT3A0SVI3aEhNcXJnWlhwRWVIUy14ZWtVNzRTVk9MNThMaEdIVk1KVHhVcmxMclJJdWRqZkt5a2g2bTN1d3c?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:09:17 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Ciena stock faces backlog test as supply limits cloud growth - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSlFOSmxoQThfZnFXZHhRNDZQckpWSVFtT0gtUVFseHVtaWs2aHdWWEdmOVJZZ0hiZW4yTVVJaG80RnYyR2k4ampGVEtMX1p0LTBuM2hOV3ZZM1VYTHdHT2NDOGU3dUxXRVNPZ2R0X1hOQnlnNnpwelNDZ3R6WWo0bTQ3bW53eHdlME1MUnlsZmpyMmhvN3BYRU43czE3dVU4ZG1QTnA0X3JVZGxROHhTUUNvSU1DaXEzbjRsMjk5MnI?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 12:21:44 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Coherent stock raises FY2027 growth bar after record quarter - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSTNpNWdzTEotcWVWT1JmazhiMEcxSGFZR3k2VnE1enR1a01VX0kwWDJXTWtXZWQtQ3l5ZUtBaWVMS3RmeDBfbURONkJHaVQzYnRRS3IyMlJoOUYzWi1GeXpVVGtNV19uOThNanc4X21GOEo0THhCSWV4X3daRW5tS05YR2V2NFl5N3JXRUkxck42WGh3SlZCRVRicktkeXpuYlFFZU5hbWttTS1uOWxpSHRPUkdVWS1YTk9EZ1E2b2I?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:54:04 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Coherent stock raises FY2027 growth bar after record Q1 - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSmZxZkdzQUoyaWJqanA1TVRtSVZneTFmcU1oVlBCNFJwNWVvYWVkTnZtdGE0MmZoRV9JckZnQlkzQ1FPLTNUdEJudnZvQ0N1cE5OYUpJMkV5OXRPNVRmVjJOOXRtOWNqemwyRjNnSnhTVnhmZlYySF9GYzhLTWJHS09BNzg0amZjMDNWSmtLWExfQm5tTWo5VWxSY3dUQzVrOW9nNTEzcnBtRDdkbFpGOXc1WHNPVXBsRWc?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 12:33:18 GMT",
+        "source": "ad-hoc-news.de"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "name": "iren",
+    "url": "https://news.google.com/rss/search?q=%28IREN%20OR%20TeraWulf%29%20%28Microsoft%20OR%20Anthropic%20OR%20funding%20OR%20cancel%20OR%20refund%20OR%20delivery%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-10T00:30:37.644740+00:00",
+    "items": [
+      {
+        "title": "TeraWulf Analysts Stay Bullish After Google Backstops $19 Billion Anthropic Lease - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYVBmNlFWTXpzSFphcl9lbVpQemtmNFV4RFplV3gyQjZBcFBSaTF6aThOWXBPb21jWDI5LWRST3E5SGxRY1lyb1lDMFFnMldiV0R5TWxzemxLbkttcVdzN1RQTWE1VkFzaEhwSDR1b2pKMk1hZTdZNFUxcU5aTDhkUXBhM1VrNjFfOW03VFVyd1BnaFAyTWdNWjhnRld1cXFkSEtzSFc3S09yZWRnai1NZjR0TWF5aHBIaEVMaldCaUIzUFBCYjQ4d0hMcy1aY0RHZjZ3WDE3a1R1MVdscUVSdm1neFY1dlprS2xxQg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:43:14 GMT",
+        "source": "Benzinga"
+      },
+      {
+        "title": "Cantor cuts IREN price target to $47 from $99 as Microsoft deployment slips - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRzZCdndEZElJSTlPSUhyaTdpUzF1OFJTMFpDMUVnOE9DQU1OZl9uakNjNVVCYUp5R0Z3VnV0MTNkbzBaUFNTZGFpa2tsR2RMSzlVVWdYdGNnQzNvcl9kMXBUQkNIQUtNN1hIdUpjbUloZlQ0elRXVnJ6QXd5OXB1MC1hR3otbVhhb0JYNmZyb2t5OGw5RlUwWkln?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:01:36 GMT",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "Bernstein rates IREN Outperform with $55 target, citing owned power and prepayments - Blockspace Media",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RcGpiMzVhdGFGVXFaMUpFR01CVWZFWXRGazFEUlhzYU1LMzdfWElockd5STV0Q0NRVUczQVM4ZGFqVXdYMndBd1RVODNrRjJOR2lqMm9Ma05JQWwwTmxQdXpXT05QV3BMcW1qNzFRNG0?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:35:05 GMT",
+        "source": "Blockspace Media"
+      },
+      {
+        "title": "IREN Falls 5% After Friday's 20% Surge as AI Lending Worries Mount; TeraWulf and Applied Digital Rise 2% - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMzM1VFZ3Tnd3Y2oyRkZGTTlEUnhDcGViM3BDeXZWVnNHRHRCdWF6ZHFNeDNvMV9XbTh5RUJPT0tPS09WY0ozbmQ3eTdsNkpoVUNtMlRja1VGdm5Yb1lJYW1GWDdhY3N1dnNFYlZ0cnpWS0lIdXpHa1lHRktlMVl1Qk1vQ2FBMXJfNWh0U1B1LWZFY3U1QllwaXB4cEdrQ0ViNkVIcEZoOUN2cmxXbnVIaDY5Z1JqUWpYSTFpRjkwX0ZQcXZYaTBnS3A4bzN4cXZOeWZsM1luTlFObFk?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 14:53:00 GMT",
+        "source": "24/7 Wall St."
+      },
+      {
+        "title": "IREN's $4B Revenue Goal Delayed: Is the Stock Losing Its Appeal? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdl9WSFZHSVY3cmRXVXkwSlRqN2RFWUVYZ18xbm95b0dCSTVYWm15RFNmZGl3TmVBc29pOXVQYTczNDJjVlY4TERNZ21lYThGcm1NaHlJTEpvWVNvVlR3RXV0Z21MdUl0cHJ5NHZod05mRUgzNWZmX2lYV3VZMW16QS1HVFhHb2E4b1ZBRmg1T2ZRcm9vcDhBQVhNbGpWUnNPOTJJbDR1eUFwSElvZ0pYSGdSVzQwcnlh?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:21:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Could IREN Actually Climb 117%? Or Is Cantor Fitzgerald Totally Wrong? - TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVHU3d1RIa2haQjlIQXJmbjFENUFNNUx5OWg5MXhIbjZJWi1vWTFqOTRPQTlsSkxJMWJxejNaeHZXVnZ2V3N6U3B2VTFZWURzNWIwNWFYd093VGs4RHE0M252blBGc0lmX2ROUllYLUFXaHdpaGc4Nzh0UjZYNHpfenYxaEVua2h6TDZOQm1QN2dBdnR6b0R5dA?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 23:03:45 GMT",
+        "source": "TIKR.com"
+      },
+      {
+        "title": "Google Could Take a Stake in Bitcoin Miner TeraWulf's $19.1B AI Project if Anthropic Defaults - KuCoin",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hRlpCczA2cTNxM1owZklrSDYwNk5vMVQ1Wm5xU3RQWnI5eXItbmo4VUM4SG5mOGIwU1dXOW1OWUZXckx0RVVDRFlBYkI2U3lKMGZZcmdYRXRmeldNenF3cHVzSWNFVGUyY3UtMjBxb3VNUQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 10:29:00 GMT",
+        "source": "KuCoin"
+      },
+      {
+        "title": "Weekly Recap: Anthropic lease secures $19B and Q3 revenue rises 51% - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORDB2M2VWSF9lYk5ZU25kN2VJQUZKTi1pOUItblIzRW1IZjBEbXVGejBMbmlWNHUxbkJkbmZVdDVnanJNWmp6cDk3Z2JEZ0FEOVV2NHJGT1RQUm9aV1JQWno5ZlJ6VnFkeUttYjM3ek5PcFRwUy1wMEZ2a19hZGM0aEc2OHR5V0RwUnFiSHFVampJSnRhX1J3SnMwYmRiUDhIOU92bWpUZHZIMmJ6c1J5QTliV2dRdmtYUF8yOGlWY2V3b2NO?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:00:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Microsoft stock faces AI execution test after IREN delivery delay - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZTNoRUtoZmRDVVlGVjdJajlTd215NGFlWGtrRlc1QUhyNUQwWW1aWnJOVWlSLTI2a2M5aHhBLXlEUlVvZGczdVlvZ181MXBJb0RRRkttbHN0ZjNoNGFCeF9SOVhTcXBuN1J0TE9Eem1uc1FTWF9jVVhCalotOC1wWWFDOWprN2gzY3l1QlRRUzZ5U0p6Ymh0VHNyWTJVM1Y1WGZWbml4UGlYbmdobkZIdXd2cXpXcWlHY1haYzZmdVRPQXprSTEw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:10:50 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Iren to end bitcoin mining this year, shifts focus to AI - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOEEtRjlNUE9DY0o3eXc1a2ZuTGp5a2lyNHJockpsV3l5dG1jZEhVYS10MWpTUlJ0Qm9mcDd2SnpONTZ3dEhFNWxRT3BSQzdPYnZRNUNWRTdLTHptVURCQ1dwYi1HS3lyQXpfY0cxRjI1cWdYZTR6MmhmZjhkVzFfenpQX0U3VjlvSDdiUDQ4cjZjLUs4WWV1MDVBTTJONjJzazlB?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 04:33:23 GMT",
+        "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774"
+      },
+      {
+        "title": "IREN's Pivot Has a Price Tag: $6 Billion Still to Raise While Microsoft Redraws the Blueprint - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSWtzLWljVFY5R1hDMnl4UnpIbFRLODZiaGFUeUNsVGtiaW9TZXMxRDQ3b0RlU2Fuc3JkOXhkanlBaEY3TFQySU1tWGVSOTRPTmpvSnp0M1dtVDZRR2YtblRKRkliMGRpclZxalpvV2d2UnhfMVNqTnRwLUt5aElIRGZrbHJUcFlETHlMVHdrYWNGRUwxZk5ETDNXd1Y0Mi1lMUNUcTgxTzQweUs5MTh0UXM5Vm0zQXFQcjVnYmloV2FBYUJYMnF3aG9QR0pacjNVV25HX1JCQ0lzak1Ic185clh5WWNuSHhYMERfU2ZCR2lkV1ZadFE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 19:11:28 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Nebius Stock: IREN's Blowout Quarter Sent Shares Up 8.4%, but Microsoft's Vendor Review and Citi's C - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNQzBOYjhfLUxDSTFmRXF2Q3NoUDUwTnVHbUVJMUhROEZ0eVhfT3EtakRDNFROY0Fqdi04Y2xaV2RfRG1NZVRYd3RCa1Q5Y2hrQ3l0SDlab1NkUThMTHV1QXZBVmszUFNoOHlELWFpQnBqWFE2TXRHLXRDY3VXMnMxZmRJc0k3OEdyZERmY1p5RkMxYlEwQ0Q2SmZLQ3Jxc0l4SGJTcFd0dnQ4eU9IQy1SRENmYkpoVUFaMUZLQm14UWJqX2pfaWVsVG5ZRjhkUFcyWF90cEVMUzljdGozaDlQWWFiYmZXM3lQUi1uV3R1amZVbXVpcjZmY2lfMF9rSmVZ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 12:31:35 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "$IREN Ltd (IREN.US)$ [Strong][Strong][Strong][Strong][Strong] - Moomoo",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50T24tc2REeWlEeVUySnFlT0FRYWJmYV9TbHRicmFWV0FhLU52UC1Ta0JaVC1fNkNTOVRvTms2WHRzTjBMcTlyNDdBaW45YnQ5c2ZFeHFQeFBjQk44X1VFVHV4UUlSNjd0Y0o2R1FXSXIwTVV2WnJzVFVR?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:48:06 GMT",
+        "source": "Moomoo"
+      },
+      {
+        "title": "Three Firms Cut IREN Price Targets After AI Cloud Revenue Jumps - www.tokenpost.com",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Md1VMLXRhbXJBUWJBSHB5VUtYZGNBaWc5M2NPaDhfeDM5RWtmQmZERWNUUVc4RkFBc2x1SVlKclZiMjY2cVV0Ri1sWEJIdERSQ2lmR0pMcDFFQQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:56:52 GMT",
+        "source": "www.tokenpost.com"
+      },
+      {
+        "title": "Neocloud vs Hyperscaler: 9 AI Infrastructure Categories - Northwise",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9icW84TTREZUp6bFQyQ2RPb0ZhYk9SeDlPNDlZTDhLRWFUbzY4bkZhNlo2QUdYNUF2ZFN4eDZDQ0NreThIZ1VRWkRaYlI0bFRCajFQSktTVVFlUE12T3huc0t4cXc4VV9OYUpsZmNn?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:03:33 GMT",
+        "source": "Northwise"
+      },
+      {
+        "title": "Microsoft stock rises as IREN delays AI deliveries - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRXR0Z2ZEYnI0c0VwSGxEaE83anBaWW5oSW9YTEMyTGhmbDViaWhBTXZxaVYzQUVWSjQtRHdRYWpyNmpsUGpGU3E5VDZFSFN3ejZydFVHTTNxa1hKZmtPNktuUVBaQmJ1dWpfZzhhdWRvMEdtOVhPLS1OeGc1Q3NrRmVvMjVfRkFPaEtHdWoyUW9vTkN3cDNJY3J1bXRFOXY4RUVoWWwySFI5TzBncC00d0UtQQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:05:11 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "IREN Falls 5% After Friday\u2019s 20% Surge as AI Lending Worries Mount; TeraWulf and Applied Digital Rise 2% - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdDdDaFNZa3NBLWNYQlVxRGJpc2NqWWtsalVKdndTUUIyd1lGN19jYmp0Rlh5TWI5ZzZFcG5CN0JTMllpMGxjRm1ZNXQwaWVLd2o0b3A5ZXdENXJLdzV4SEFuTW5YV1lOTHNKYWlwcG1Lemp6WFFCUHp3ZUZ1aTJZQ0ZMU3pFVjFxQmhmcEhBRWw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 14:53:04 GMT",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "Why Is IREN Stock Falling on Monday? - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWXh5VFlBTHlTWVUzNGRMdnROd1ZnX0ZKeUJyODVDNEJ6ZnJCWmZKUUFuc2NRUVJadUZRMU1wRTZ6OVVmMG9nNm41RXNKUTBpS0pkUDZEY2o4ZUJzYlVqSXBhcFZjTXgzb25WQXJHcDN6aGpiUGFMZ09yOUUtOUlzNEYzVjZCbmpZQ3V2SzhtRTA5MGRhTVZOLTJqMXo?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:50:02 GMT",
+        "source": "Benzinga"
+      },
+      {
+        "title": "WULF Q3 Earnings Call Highlights AI Expansion and Funding Plans - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUdOUGdYTl9PU1NWaTc0dkJGMjRoM1BPMFpwRnVTVWpVMGFjSUdIcTliaUZPYS1vNXlKWS1BaDVVMFB1V1hlVE4xenlJU3cteTJrR09pMGlyanJTTnFHNE55Rm4zVzB3WS1iZEFUREdzbjlGNU5mZUdHWVN3MEFKSDExU2J4dUd6WlBBczdRTW9pYmlXSHMwZUFaOG83NzdLQXNkR1dMQklYb0NPeWlMVU9tQkQ1Zi1tZzgw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:08:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Weekly Recap: Revenue growth and capex cuts with limited near-term revenue - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMUcwUjFHWk53RWZ0ZlpJMU16bE9zSS1fQUJMaW5pYXBMcW9PZTY2Wkh0cFgyaGVKbEY0NFpYS2lFNTZoNzRURmljQUc0QTBnRlNIUHF2ZklpODliWFh5bEVudW9ucGZQSWtXRFktWEYzdlZqVUxHS1Nob0FxdFA1RXhOVTU5LUppaUFNMmZyQkNnOEliX0o2QmZ3bk9sbUoxQVJBcVBOSGVyanlkY1dZa1REN29La0VTWGZpZGQ0Q0tvdFBFQU8wYzVhX0trOXA4?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:00:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "Microsoft\u2019s Capital Spending Ran $5 billion Below Plan After Data Center Delay - www.tokenpost.com",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBESlplcG9IRk1KS1c0RkI4aDk2NGI5UXdONFMwZ1BhVlRTVWh4NEFiUThOcGl3cVBZaFI2V3NqS21lLWdES3djWW84Z21nby00SzJXWFFQb0k?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 02:05:00 GMT",
+        "source": "www.tokenpost.com"
+      },
+      {
+        "title": "Microsoft Cuts Neocloud Partners To Favor Own Data Centers - Dataconomy",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS0UtMWdkYnBIWjdHLUN6VXN2STlmTURQSnh2N01Ob1NrWkJkYlliLVBVempka2ZSeE1POEMxQUY4ZE5DdFFSRXFra09PekJKVjBqQlVIampuaHJYNHNvOC1RdlIzTEdfdFJnNFJoTnhVbnpUY3JJSDA4UlNvM25aV3E5dlJDUWpQWmZGV2pEZ0drTnZyYnJLUA?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:16:22 GMT",
+        "source": "Dataconomy"
+      },
+      {
+        "title": "IREN Stock Rises 20.0% After Fiscal Q1 Results (Nov 6) - Gotrade",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rSDNtdXQ4UkM5QVhqMW95ZllONlpMYW80YVV2SDFHb3dBOVNCLXNQQ1pSS0FyekI0ajIxdjR0cHBnWXBHUmVhUkZMT1pZVHFDZnBvVmlYQ1JySFRoMTRMZ2dORWlJZ2tDemV3NTRtVTVqYVhnOXRUUVpNbFE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 04:45:00 GMT",
+        "source": "Gotrade"
+      },
+      {
+        "title": "Can TeraWulf (NASDAQ:WULF) Secure Its AI Data Center Financing? - Kalkine Media",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUdtWk0wdExmY0Rpc3ZRckp3c0dnQUd5RGtMQkNMTVBoQUIyNHZ2ZXRiNFhlS0tEMzN3UGd4UzE4d1BmaDhING1McjhxS0g5b1kyMk1RYXl0VTVmVmNtbTZaQ2JxYndEbXV2RUtFMldQcXp5cFowRklSLXh1Zk1XWTA1TDRZOTBMLVBUN0F0eFhLaWJDOGRISjdLWTg4UmNnanc?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:21:00 GMT",
+        "source": "Kalkine Media"
+      },
+      {
+        "title": "IREN stock falls 5% after 20% surge amid AI dat... - Pluang",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTGtyVEVKbW1VV21zY1BCQ1drWnotaV9ZMmZXakQ4Ui0tQWpiZU1tTXF6TGlQbC12VHJyN1FwUWFCWEwybGVIV0tUc2cyYTJzajRxTXRnejE1empkbVc0bkpzaUV6cHhtRmtvUGN4OTQ1Nm4tLWRpalBZOWZ2OXNRR3RiTkJmX3hFZW5XalJYbzdnTDZ0ZnM0ODkydXlGN3JmYXgzTzluY3E?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:05:36 GMT",
+        "source": "Pluang"
+      },
+      {
+        "title": "IREN's Contracted Demand Is Real \u2014 Turning It Into Revenue Is the Open Question - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYk5SanhYYV9KdVZvR3U5NTA5UnY0YlVPTkkwQVVEdGtFbjRvSkd2Qi1YTFh3S3VpUUhpU0p0M3NkdmtwNFBtUV9LZ05PMEdnTmlwaFFSYWxnZDh2Ymw0bjBQN0Z4UmRES2hsWWtoQnowTkxZWjVsVnJRZWYxVnRUN1piZmJWUkNvQUlwU3RkOHh6MlRhMWNiclNOUGVBa0JveHZMY3AtckU1QlI3eHFvR0pHQkc3aEZMUXVwelJTWlIzT01QNkx5MG5zWUhjSkVCV2ZwajZJZTN3NlY4alRNa1J4NA?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:01:04 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "IREN Stock: Why Wall Street Remains Bullish After Q1, Even as Microsoft Takes a Tougher Line - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGNnanJvT25VZ3BGWHdkOEo1bi1hMHNCaGNIUWRDOVh0TVBURVRZb0RRUUhVNXppMzZyRk45aWNmUTVHU291ZUVkQjVxaUlIdk5mamtEQlV3MEdSWV82X0dCaFBFYkpsNUx6WDNEeWtlTWdRTERvZGpRV3pFTGdvYlp5Z3JBb1RPVkE4ZDg5MFpLU0dFYmNoTVltcXBpc3lhYjIyUE5OeTNuS3pLSm12VnJTMGU1aXRMRHFTVA?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:30:12 GMT",
+        "source": "TipRanks"
+      },
+      {
+        "title": "Nvidia vs. Microsoft: One Stock Is Too Cheap to Ignore, the Other Deserves a Downgrade, Says Top Investor - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTWFVX1lWYldUdXU0OHJHS1otVnE1U19UMzdlYS1taDNBdndoVGdJUFdjVWVxU1F3RkNrMFBlaFNoYTRSQVdCTVN1eUxHZVV3TS1TQV9NWUxzZGpBeTNMeGU4SGtUOWd6aWFNRTNiY0ZrdXgzNUU5RER3WmtPeGpLbnNDN0M2eGxWcWlnVWZrZEtZdk9DM0hPTkI0VjF2WlNYWElDYnEwbktpdkpkak1kVTlGZFNGaGNLUEF2TkZwTVB3dlA1YUNCclJ1WlhqYng0TjdlZzJB?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 19:57:51 GMT",
+        "source": "TipRanks"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "name": "ai_chain",
+    "url": "https://news.google.com/rss/search?q=%28CoreWeave%20OR%20Oracle%20OR%20datacenter%29%20%28default%20OR%20impairment%20OR%20covenant%20OR%20delayed%20OR%20credit%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-10T00:30:38.001407+00:00",
+    "items": [
+      {
+        "title": "CoreWeave confronts 'doom cycle' narrative as neocloud credit risk overshadows growth - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHUnp3ajNDcDBIRjcyRDVqWkdxNnYzOW9NaXRqS1VQTGlFYnhvMnFyOE8wbkF0d1BneXFOMWNOaXVReXNfMjAzZmlURG83NE1MR2Y2RFc2M3ZnRGNpSXFQUlE2V3VraFNfN0xlTHNMTndhMU9TUlF6NnllTFB6dw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 12:00:01 GMT",
+        "source": "CNBC"
+      },
+      {
+        "title": "Gas Pipeline for Proposed Oracle Data Center Delayed to 2027 - EnergyNow.com",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMXpnVFk4Z0tyY2NKSlNfNWxxSEJqdExwWjlYSWdDZmVBaEd0RzQ1ZEtzRVd1ZXlsc3EwWUo4VERLZTVmMGJSbGNENmVwZTloM2dQdWI3MEVHSi1kWEFSVnFMZExtd3ZGb3FnNGZVcDk3ZTlWZmg0UGw5Tmp1RGl3NmN3YWZOYWV1bUJTWmZGbk9JNUEtOXc?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:11:28 GMT",
+        "source": "EnergyNow.com"
+      },
+      {
+        "title": "Cathie Wood raises uncomfortable question about Nvidia-backed stock before earnings - TheStreet",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQmFYYkI0NHBfV3RpbnFOREZCRmNFaHZ0QnRNX1ZaaW55MHZjRThvMkFGbS1rSC1kaEZzSTRFTFBDOF9HR2Y5Yk5JZHY0RnNHMHE3WGRFT044dkdMMVZTN3VSMjZPNHMtWURiN3pXcndlb3g2SE5JdWdvcTN0elFsSmFR?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 14:03:00 GMT",
+        "source": "TheStreet"
+      },
+      {
+        "title": "CoreWeave faces earnings as neocloud debt, customers and politics all bite - Startup Fortune",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQmRpeGF4cXdnTUlSX3RvMzFCQnJ5SFROX1UwSFlHX0NUdUc5Sm9pZ2l6NUFyc1F1MkZiYUxvS0c2UVRFeWFkUnVZWlFuOVV0cFRfWVBYTHFweDdEbTROZHZmZHhIVkg0MDZLeXZGdGRDUy04c0NJMS1MNFJIZGtlWWdsT2RrcU82QjhhMl9EZ3VuU3Z6M3d1NktsclgzTmpnMzRN?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 21:35:30 GMT",
+        "source": "Startup Fortune"
+      },
+      {
+        "title": "First AI Casualties Looking More Like Roadkill - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc3VlYWZXeHV5YTdXU2ZEX0pQMkQzM3JyT2JIclQyYzNyWEFlb2VMZFU1SmxPUzk3aVB1cXE0OGRHTDExaG0tdzNRWmxkbmRxU09tdHZZTW40UXd4VTNvUFdrQ3J3VGQteVBvR0V4bzF1UUZQNFdTQ0lpNjg1NEgyU3pNUERJRFUtZVk0d1B1Mi0?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 17:52:00 GMT",
+        "source": "Seeking Alpha"
+      },
+      {
+        "title": "CoreWeave Credit Strain Tests Neocloud Growth Plans - Oz Arab Media",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjWGVpUnBqakt4dTlRRzNOTVR0bGx3LS11ZXhSUzBNeDV2dm9kY3hDbFNHX1d3cUs3SXJJX2FUUW9mWHJuZDg3aVl1QjN6eWttQmppVU5ndFJmaGF1aXktU1hpZzU0SzhFa0tNV1NuM0owU1FNeXZ6YjhDRTNndw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 17:00:35 GMT",
+        "source": "Oz Arab Media"
+      },
+      {
+        "title": "Neoclouds Face Credit Strain Ahead of CoreWeave Report - Briefs Finance",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNTJvVUFWT2Z6REZlcUNWZ2hkS3dYY0RvOEYydVlrT3hKaklOakZRMWxYZlNVWVQ4cE1MbnJYV1VOQTM4SkV4SkNGYUlqWU1adWpNZVdZZjRrX3o2MDdDdmtLYmpCSGtiY25ENzFzWG1nWDA1b3hfU253ZTVOT0FuaXcwXzhxaWprQTB2cmR6bHpxQQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:25:00 GMT",
+        "source": "Briefs Finance"
+      },
+      {
+        "title": "Weekly Recap: Oracle's $20 billion financing and record CDS spread - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVERLOVgxanRBM3NBZXVGMzdCYUxWMVBlY2E0Y0FNTzJBamYzUlU4emI4YngzLWxaNFA4Qnc1ajRLU1gxNDFleEgtOHBEMkw1SHJBaXN6aDBYOUw0WXhMOFBPX280RGxwS0Q5alRKemVfaGdoNHdYQ2tYdGZrZjZTTFVDNm9pRTFvVWxjQ1BfbE1BSUFoM0QtLTdmeTlWZFBKRFRMeFlZa21tcnNrMVpsbFBGVmNSb2cwNkR3dTJPcjJ5Y3Zq?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:00:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "CoreWeave Earnings Test Looms as Credit Markets Price In Default Risk Cathie Wood Calls 'Uncomfortable' - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zSGpuRi14S1IzZ04xUUluQXhJUHYtcFNvZUhoRlY0UVdEaDcyS1FrU2hBR1FFdmZZclp6cDQtU0d6UkQ4ZFVvVjBGYV96RTUzeF9hMndIRTNMQmN5TEdhbUJaWDNYajJKSE9haXVHbUlZbjJvMXc?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:05:00 GMT",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "Microsoft Declines Nscale Compute Option Worth Billions - Silicon UK",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wWEx1d0J5dGtxSTlKQkhuMW51OGZ3VEtEcENMenBZcVBlN0lvaW9tSmJONWtFNFc5Z0tCLWFzLVg3ZExKbzQ0VVNPVlA5QnhGeDZ5YjlWZ2pVS0wyVzdEVzJ6OFVRNDZKbEg5Qk5Kd3BHM0xDYklOb2dJZWg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 09:00:41 GMT",
+        "source": "Silicon UK"
+      },
+      {
+        "title": "CoreWeave Faces Credit Risks Amid Tightening AI Cloud Financing - KuCoin",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbm9HM0NRN3pSMWZ4SjZNY2ltZTZFQVlSWThTWmVJbHRYM1RvNXh6T1N4S1ExdWhLXy01NWl6dXE2d09YbnFhQ0V1ZXUtMXpBc1k4RV9ZWEtoLTRBYlZvaVB4THBJbXN2TGNyWTBWLVlqcGV1UnQ1dVN0WGNjSEtEWVl5czNBWFBJRjBuakVPVFhIeTdTeEJ2U3V6UHJVdw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:19:42 GMT",
+        "source": "KuCoin"
+      },
+      {
+        "title": "Datacenter stocks fall on credit and regulation fears; Bloom Energy seen as a clean energy solution. - Pluang",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYzFvRHRtQkxoYXdSajRUbGZLRF85UC13cjZtSzdRLUNwUVRaVm1hWUNOcDZKQ0hVRmZHN2dJR2dZaERzRzMxTDF2MzVWUlFkbzg3dUR4UnVOV2FObUZ6NlYtSVNHQzJrb092WkwwdjgwOU5GcGZZeGlucHZFOTlGNTh0d1BTWE91ZnlBZjlnMkZ1cGhlaUpvNklnLTRlazlpYmJzWW5R?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 20:44:36 GMT",
+        "source": "Pluang"
+      },
+      {
+        "title": "CoreWeave Bond Yield Tops 16%, Sounding Alarm on AI Data Center Debt Risk - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrcWVqUHlFVjlSUUpRaGMzRFpfUVpDaW1WeFZ4NXRlWmlIellwb1VUV1dWSzBlcDVpYVpFTzR0Tkhna0hWR2VDWExmdndBRFhJMi1Jd2RLMEJYQkxOUEtjcnhnX0ltTS1JNmljNFcxXy1kZ0czN1E?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 01:26:00 GMT",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "AI sector faces setbacks as CoreWeave, OpenAI, and Oracle struggle with rising risks and weakening fundamentals. - Pluang",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ0dpMV9qa0dycmRWdmNQcUwwREFPMVYyc3AtR1BlekVsZTVIbmU4MlRRUnJqcHVtUjV5dy1sRTFybkJhNm9tM1k5ZXNDZ1A0a2JRcWVLT2F5OU5nanhHUlo1c3BjRVQwa2ZfUVI1Q2JtSlFKQXBFNkFTMmJGV0Jxbkp5UkktZHdmZ3lzUGFUMTFJUUEtN2lzREVnSlV3cU5TNmttYUtB?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:06:10 GMT",
+        "source": "Pluang"
+      },
+      {
+        "title": "Britain\u2019s Data Center Boom Meets Growing Resistance - Inside Climate News",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSUtYaFdiOFZTNUVtbXBUeDlMZlFGaHZEMElhZlRSOXpXOWVEdW9CUE80M3AzVDFUZjhaYzZpWW5QcXNCRXNKYTNMUjJSS1VLOGdIajc4Q2NqbVlEU3dkaTFQeXJoakNrOXBzSjhrY1ZGLW9hQVc5R0NwZUZwRVlXbQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 09:55:00 GMT",
+        "source": "Inside Climate News"
+      },
+      {
+        "title": "Markets Brief: The Silver Lining in the Election\u2019s Bad News for Some AI Stocks - Morningstar",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY0RUZGx1bHVzSEpuVEtncWtRNFpGVDhmcjUtMEZQdWFISHpPSW94c0lwQ0tXYkw2NWRQNmtjNmFMYTFRbFYwNFlIcDROSlp4NDRuam5BWXczazI1RnhOakU5MU1iRnhkTEdMb3IxdXYxa0JEQ01iMHI4VWoyVEJhN2VaNFl0VWJaOXdOUjdXYUZDSC1fNE1z?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 07:10:50 GMT",
+        "source": "Morningstar"
+      },
+      {
+        "title": "Digital Realty Launches First Latin American Innovation Lab - Data Centre Magazine",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNemQwNXdBeE1NZ3RzVnBJdU10N2lsd0ZnSzBaTGlqVkM1NzJyR1dIM0VwSVB6OS1JazM2cy1wQ0VPUmVxZ0JUcXVoVDFXNkgyRlR6d3h2TG16X1BUb1J6Zl91RnI3ZHE5ZGx3OUhLRU9uNTJPUGpVVExVRjJ4WTE0RE9yWnZadnZ2UFE4REdPeXFsSXU1TFNQQkpjVQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:23:22 GMT",
+        "source": "Data Centre Magazine"
+      },
+      {
+        "title": "The Data Centre Covenant \u2013 what does it mean for developers and planning? - Herbert Smith Freehills Kramer",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNU2VELTNKS3RfQ3ZIazRYVnpsQ3lsNHJKRWtyczdqWTUydXRBUW4tWUtqS1l2VF92N3VSZmRTSDUwUEZXOHQ5a3J3ZlRCbkNIa19GcFV4Tkp0WW5aX3JBbm5Gcm56QTB1eVRjWS00aWs1TTQ2T0tfZHFZUEVWR3dRMHFUc0FQUTZqQzA4OVRRLVl3eWcyVjRsMVc4VlJUYkFWd2loRl9JSFdZT1JDZU9jc0RYNF9SYjZiZTJVTmR2S1FpZHRNcnpMWmdzQUh4SUswSDkzenhnMXM?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:06:55 GMT",
+        "source": "Herbert Smith Freehills Kramer"
+      },
+      {
+        "title": "Data Center Boss Vows Engagement After Backlash Tanks Stock - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFV5V3RJNXo5TTZOTFZjVzBtdm9tTi1jU2t6UkZPb2h6U2xpWGI2U0toRGpJWnRpVFl2R2dKRFRiWEEyZFBscGdQbktNZ2tlN1QxVGpUMmFURTBTZnNUMXZja1hTUl9Ob09NeF9FYWQyLTBoRDB1aGJ0cDlSMlBLcm9IVzBLMWN4b1A5cjRWUUx3VUFsS3NWUm9kRy1fRUJ5bkx3elQ5MnRNWThvVXR3?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 08:57:00 GMT",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "SpaceX Shares Climb as Stifel Reiterates Buy, Sees Opportunity in Delayed Data Centers - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWbUtXTTZtWDlnX1c4OUE5VjlaZnJFLWpsWEsxM05JOVFLeDV3LTBqeDI2cldIMndkNFBtckFuSGhtbWU0MnF1VFJfZjZiS0ZBMnE4cUxTcDdGTWdLbE5xRThEYmlab3NzeG5SWi14dGZkdnZVLVE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:05:00 GMT",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "AI Trade Splits Into Winners and Losers as Capital Costs Reshape the Boom - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kSWxlaWxoNmEwYzF2cC1JVEU1WWhYVVAtSWJhZnlia1V0N282Sl90dV9kcEhVcWZwMzFaN2QwX016SGFwSDE5WWZ6Y2xnM25EQ0xqU3c2Q01iMzFWZTZPYXNxdW1Ec2hvTGcxUmJuUGlSSERGMmc?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 14:35:00 GMT",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "AI Trade Is Exposing the Market\u2019s Biggest Weakness: Going All In - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaUthNmJGdlZTbHU3cXI2MEdPUEZTOTFUTVhaSk80R2dLR2dXUzNrQ21LRHhrLU01bXFTaEh6dFNweExKS1JMVXBXbXFCTlNmSWZNVHpTLWd1V1R5b0Y1cjE0VUdyRm1EMGVJUHUtQ0FMTjA0blpwRXMtdmRaSGc0QUhYVXFHRjdCdnZoWUQxZGRRai1ienQ1RlhpcXBzVVVVMXN1LThQZkFsNVpmZld5emFn?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 09:06:03 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "CoreWeave Falls to 18-Month Low Ahead of Earnings as CRWV Breaches $45, Risks Testing $40 IPO Price - TradingKey",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQN0ljdThoY3ZubEo4aU9WY0w0cG1aTXVPRHBycXYyeExYSGpNeEJRdUd4X3U5RXEtTFFrczJ3ekdzWkdaT1gzcHNCbjE1Vm4wV0tZZ2t5dXlvN3BsTTJablNNVlNlUU9rNGlSN29KR1JzZWVXSVdRbUJYZWVRUVBvZ0d5V1NSWkxLYTZNSjZuNlhrYTdPOEkyR09ZZkgxVXNjUk1pcURITDJES3BXREdHYnVVQTd5Y1Z0ekthTG9lR2FFQk5xUHVKUFJWNmhjVzRHWnljLUk0QWg4dw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:29:16 GMT",
+        "source": "TradingKey"
+      },
+      {
+        "title": "From CoreWeave's 16% bonds to SpaceX's $40 billion chip lease, lenders are pulling back from AI debt - MLQ.ai",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdk0xRzh5Tm0wdVdXQUNPa1VKOVpGZFFKbWhqOEtxRU1TUDlXR2xXeXF0aUx6YjR1X0gxUThnb2d0bmlVNkxMZHlaQVpOSGliMVRwU3hUeWZNbnlPZVVJdndoWGltQlJkV2ZBTjRNX3JqRm9DZlNrUm1zLXRDZk5JNU9mdm44T1dvNU1ZMUEtZkNwRWZQb0NMWFRUTTZQbEJhcEhDSjVtTTZhTElVdnBaMVJxQzliek0?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:51:39 GMT",
+        "source": "MLQ.ai"
+      },
+      {
+        "title": "Unpopular Opinion: \u201cAI Trade Is Done.\u201d Jensen Huang May Have Just Destroyed It. - TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdHpTWk42cDJLWGpqQ2o1Zmd6ZGRXMzBORFpjNkdaSWx1cFhrOG1Kbm5zd3RDMmZrX2Y0YmtNdzVFOFg1cWE0QUVEMGQxdWV4ZW1fTzFCQXQ1T0JuQjdCejYzY0FidHNOUmx1N3Mzdm5DVGFxZVJVUVI0MDFGLXRSc0lONzREa3U0R2diZnEyOWFTclFOem94aFVXbGNHTVlnRFE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:54:26 GMT",
+        "source": "TIKR.com"
+      },
+      {
+        "title": "Morgan Stanley (MS) Explores Moving Data Center Loan Risk To Private Credit - Simply Wall St",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPY0RTSGd2N0U4akZGd3pEekJMMzFhWjRUSEpDYXVja0VPSXZGa0RRbnpTWjJkamFCelAyQnZ0RzNGZXFrdjNka3lYY0NVaTZkNms2bkxwTTRicFNJRGxLZ2FjU3p2Zy14MXRuU295RDFwdnYtTXo2UV9tUmNRMTB4LVBLQ09WSldxNXRfZ0Z1RG9hdjV1UWY2UkVfcFdQSnhKNWk4NWk0MmpsejhIMXFaVmdVX2o2OWZzeGNyQy1jMnUzQ056M00takxENVp4OWRHRDc0SXd1bEVVZlnSAeABQVVfeXFMTmRzV2ozTnZxVk5UYVVORDBfYzQtNjdTSFVMQTI2TW1mUGRvb1R4TjdsVG9IWmpqdmtSRVBWUTBMRDZTd0ZSREE2dlZkclRyMTVUVjFjUDNNZ1JDdS04N1N5ZURpWEFsQlJpWVVnRnBlZ0xCTVFwT0pUOXRQS0twNlZDX2VlR1FzdW10WElMc3V0UVlENE9VbW1qa3IzLTh5aktMbXVzWG8xMmttYS1PQ2hWSUJhenhsSGQxaEVpWGEtQXNScVZCYksyRkMwVzdra3lHZWYzMjVtUElKTkllcGc?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 10:21:40 GMT",
+        "source": "Simply Wall St"
+      },
+      {
+        "title": "Rosenblatt Lowers CoreWeave Stock (CRWV) Price Target Ahead of Q3 Earnings, Here\u2019s Why - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTdRQUplWVQwMzNET2xtUFZCMkdDeG1TdnQ5NGtweUJJT0FUdzVGRmtXUzZnUUNxd3gySnl5MW9LaHdWbFNWREt5N18zd3YyWERPZUFmVzluTGJQdUZjbGREZEt2M19td05nek4wNjRHMm9BZFdHR252Nm1QbTV3NUF5aERzaWJpSlhNSF9ZTFdINlg3ZkNta092bk9IdG1LXzFrUldySnZYSlJqdGhzcXVB?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 22:57:42 GMT",
+        "source": "TipRanks"
+      },
+      {
+        "title": "CoreWeave Stock (CRWV) Jumps on Wayve Cloud Deal Ahead of Q3 Earnings - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZXdOV0d5NUxleDZfcGdiamVfVUlmUjd1aTlpLTlmd1d4RUhpWmdacXFzUEc2VHNrcnFiVzJ4b3pOMndzX0RmRE90RkY2eW00WjNNczlFZ3dHRWxRRzhrQVNTbGFWS19XeXk0SWpNR3BpdGJaTVQ4Q2p4RmNET0MyMmxBbnBldzJTbmdmSndPRmJGYkgtREpTcUNfMUxUZ0hvMFUyLU5scUxsbHljdWpmUllR?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 14:24:46 GMT",
+        "source": "TipRanks"
+      }
+    ],
+    "ok": true
+  },
+  {
+    "name": "lenders",
+    "url": "https://news.google.com/rss/search?q=%28Apollo%20OR%20Blackstone%20OR%20Ares%20OR%20JPMorgan%29%20%28AI%20OR%20datacenter%20OR%20%22data%20center%22%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-10T00:30:38.028251+00:00",
+    "items": [
+      {
+        "title": "Meta Stocks Climb 4.82% as JPMorgan Bets on AI-Driven Ad Growth - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcTdHeWpBMzUyUG50M1p0NDR2eHBTZGduYW50VS1PQXNnQTZWQkxkaGo3QmlxSmdlcEU5a01xRlY3ZE8waU0xbEt0YUxhLUdLWFBsNjllYU9HZU5qM2JIQUJmdTNKYkpEV1lXYllNUTB0YnQ1ajd3UGNMOE9kR1JiWUJ0bkdSVUtZUU5LRjRNbWQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:03:59 GMT",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "META, AMZN Stocks Jump As JPMorgan Picks Pair Over Alphabet \u2014 Sees Stronger AI Returns, Cloud Growth - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOMGlFOUVyTm9vUG5ZSlM0eFdFcmR5OTY4VE54VWFxYUZLa2NsdUxaOG5waTY0X0NVZUlQNVhqeUtRX00tZkhiYVdEX0RyYmVueXF5Q2t0Z0RFY1JtYVR2ZWR1aFdWLTBab3NlWEx3ekJVbjFuWWFydzlQdTJFV0xNMUQ5VVpaeE1PQ2owTjNFTXh4em9QVDJVR3ZsTE1LT3NhSVZwLUJlT0VfV3paXzRQOXhZY2dXMGJDRlAyaDU3OGtuUTlVVXJGRm1GVktrLUZ3UkliOHNUN3c4RENQaW0wTVRpVVJnTWdzczB1Zy1Fc21keWM?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 20:59:07 GMT",
+        "source": "Stocktwits"
+      },
+      {
+        "title": "AI Bubble: The Calls are Coming From Inside the House: Apollo and Ares Research Torches AI Debt Hype - Substack",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GTG5zWHZ6YnY3ckNmZUZfQ0V5ckxuVGpfWWxMWXZJMUttZXJEaWtjSzJNaEN3RGtQTExmcHA1amRjaF93V2VNcjlmNHFfczdlT3l0MG05ZmxvYlF3MldxM3dzVVFjZWdFbGVOYUNSRk9jMk03NU16bjJ3?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:24:42 GMT",
+        "source": "Substack"
+      },
+      {
+        "title": "JPMorgan Just Removed Alphabet From Its Analyst Focus List - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNHdoVExZYkZYQl9UVnJQTlVDNG9xQVFHUmxMeVlWb29TSEpRcVZrem05eHBRRXM3V1BTZVNUNTlsbUhPYmNQOTVGUTJKY04yU19YTzE1eVltdnpJZXJSNDZpT2I1UlZwUFNWaTl5bkFGWHhYVlpRLTZSN0JpbmI0aWx3cG1BSXZ1aWtiOG1JYTIwWGZLREhYOUs0U0JOSi11emIzQg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:40:00 GMT",
+        "source": "24/7 Wall St."
+      },
+      {
+        "title": "Bank of America, Blackstone, Citi and Morgan Stanley arrange $63 bn AI deal - Beinsure",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYTR4bHNCM25Ta0lwOHpnQUtxWU10Q0RiOGtWMm4zNmRValA4LTRzTk4wYTJ5WFV3RVY5dXVsVmhJbFJXQUVZNGlCajBKX3hRaWpGQ1FSRXdDWjktdGZnMHZSeDEtMlZhQ3NYNV90RVM0a2FQbWdicjd0NElHekpTM1lZNHJKalY1cnQtMjJNRVdNekNqYy1kckZpT1FRRzg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:53:41 GMT",
+        "source": "Beinsure"
+      },
+      {
+        "title": "Watch AI Markets: Semiconductor Earnings Sugar Rush Likely to Fade, Says JPMorgan\u2019s Peters - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVjJvX2xGeDBMVXJYSGJaYV9ndzBFa2UwLWFlX0JJRUtBbUZxTldVcWVJY0xiTzVjZHI5ZWtHMkVpMjVmeWhlOVREUm1ZeDcyWnFyTWhRRTdJOEQzYzBqWHRMOG1WbjFHaVJONE1ZSWxmbzNzUkloQ3NHMmJ5ZUlqUS1ieFdRTWhSalNfN0NLQkFTbEw2cHVaNU0zVVdkcmtKMml1MC1wLWVGV2IyenQ0?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 12:05:13 GMT",
+        "source": "Bloomberg.com"
+      },
+      {
+        "title": "Meta Stocks Climb 4.82% as JPMorgan Bets on AI-Driven Ad Growth - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOVWpIcmRBS0tNc0lSbFBRYWpmM0RYaVlXd2FFc2E5M1VSRE9vazE0SlR6MEM4TU13LXZ1MDBmaEh6bWJMY1gwRGVNS203RXJVb21PNGNBcHdYRUl3dW10UnlncTJvaXRneEstWnlKTGZyMkp4d2NHSTdKckxwak04TnV5eVNzWnVldUlOMUQ5TVNDQVNOSEVqb2Q2ZHBLcGNVTURoVFhQZlhsM2dUN00yZWVRY21QU181d0pCVm93Qm9JUzBsRTJvOXJPRGRSb1BTQ3J3WTNmbWN0NGEtck9WVGVWWDhWdm9LNEVOSk1GYUFudlhnUG9CU2JGSWtyeVVvRzQtV0JHRzU3bnVCWXN1bnNwYTR6dW9INDZCZUpCZ09hcE9iejZ4VV9mSnJ1UQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:12:53 GMT",
+        "source": "GuruFocus"
+      },
+      {
+        "title": "Amazon Stocks Rise 4.05% as JPMorgan Adds It to Focus List on AWS - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZEpjUGx2MkNrcUdvTm9FRVJLRmRzdkZBaVhsNEZPcHlBWlRFaDFVQm1POVZJcTljNDZRODFCRWQxVk5sa1EzNG1KcFlVV3lwbUlDbjRoMWJQZkNONUVoY1JfZEFwdWFWZHdoQTQyNVU5dEczb2p3dDB6cWNXMUpXNm50WktxUF9RQzhWSmE5WXBFSFR0OWxOSndRVERZUEV5T1NYc09hOGhwbVVSek9hNnRpMTRfTlZqeTI4UGU0Ym54Zw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:03:49 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "SAP gains after JPMorgan upgrades stock as \u2019AI moves from pilot to production\u2019 - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObzZ5Q0FSYlpTMzJPdTFhYUdwVi03MVdzeEZYYms0TnJUU041N0R6dTBtMkJJZlZzeVMtNU1JRjh0SWlDRUN3aWtKRWlPand2eVNFaXdlMGxSNmdlR2pwczdPbVJzUTJ4eHR3ZG1jY3RIQkRlQlJoLXF6ajl0aWNzOHRBcXNBa0dBMkFSZm5xTkhPSXNjVHZ5akZfQ1cxcjhpaDROM2daQ2l6Zk5Ka2IyMVhsTFRTdFctRUNYc0FURERCVFNOREZJM29xdnczdw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 08:39:46 GMT",
+        "source": "Investing.com"
+      },
+      {
+        "title": "JPMorgan Just Added Meta Platforms to Its Analyst Focus List - AOL.com",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMmdWdU9LUjROekt1a1laZUNlOFYzNFN5VkxjVnJQNVBVdEdVcVBJLVhZVm51MTJQWWg2REI3MVFtT3RONW52clRWYW9fSlFVbHhhb0V4M1Z3aHpQX25DTTEyYlY3WEtHemtLNHRCeVlaMlFrOUNlY1d3THl3bGJhVGJlWVA?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:38:41 GMT",
+        "source": "AOL.com"
+      },
+      {
+        "title": "JPMorgan Just Added Meta Platforms to Its Analyst Focus List - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd2hEeUlDMndhMlBSeWhjS3FXa01sdTBLRTM1UnVIZFhJX1lWMmY1eWhjNnNjQl85Z3otN2Jaa0FfVWFzRW42ZU1OQmtQbEZKNThveWZJVDRGb2t4VDJrNjdPeTN2YXNaWTJyWnF4WnNJaE1LUEJDanpoWVVTbkJCYUlXRE9qMXk5Ql9aRF9QYXR1dC1DdEd1STZSR2ljUGpuTGZfMWhZVQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:38:00 GMT",
+        "source": "24/7 Wall St."
+      },
+      {
+        "title": "SAP Stocks Rise 1.73% After JPMorgan Upgrade on AI Production Shift - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYXVCZThMWWVIWXZHdjl2U0xkOTQtYXB4dTlQV2pjRFVqNVFCMmJMTG93elRPUWRQb2ZQU09WWFc1cEV3THk1bnV6cEtEdTk4SXNWTnp6LUcwTF93SGo1QVNEdF9aVk0wWEFpQUEzd2dVc2FUSmNoSkw1ZkdJMERxX2lYbHVEQThKbmlvMUxn?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 18:10:34 GMT",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "Meta and Amazon Rise 5% as JPMorgan Names Them Top Internet Picks; Alphabet Gains 3% Despite Losing Its Spot - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOVp3bm5xUjBCSVRnZDlvZzNhOExzYWxpakkxMG9CM0JJMS1TeDh0TGM4Q202U1M3bWdSXzZnTzFhZDBtMHFYT2k4UUpDREtmUUNGdXNJR3pVZzJXLWg0ZFBZYUhDN3dsbThfYVpEVmIwSlpxY1FfM2J1YnYwejJLOE5CSmtpSmRPWUk4RDZHcFo0eXJMbXVIREE0UjI0TEhwY0tDendxVzlqMzAycVNQVHBKVjB2QkxiZmZOQjY0N21ZV0FaTlUybk1sVm1HRFkwaG5TdEUxb2l0TTFHaGxmbjR3MA?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 14:48:00 GMT",
+        "source": "24/7 Wall St."
+      },
+      {
+        "title": "Blackstone Real Estate Turns to New Leaders After Meghji Exit - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZUdHdFVORTd6cUdTYmdrTWQ2clVzaXNIWFBpa2RQVE1PQWJkZDJ0dVF5YzFaMTExNk9rZUd5X3NOWEhOQ2phVUsyTVNDWUxUN3VDb2wxQzh5YXVhbGt6aGZtV1JpQ19INTV0MmRGaXBIYWZ3NE4zMGxvaURES2UxYnhXMFJxTHJJQzAyaG0wbjZPYU5tYmZJT0Y1bWdvelE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 17:29:46 GMT",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "JPMorgan Just Removed Alphabet From Its Analyst Focus List - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHZrYmZUTGhmZFo2ZU9Lc1Y4QlktWVB0UG1rZkJ0ZTNXbTd1TThsd3JDbWVHdktOdGdMM0d6SHFuNE5EZ20zVmtRcy1uczFrVGhvQkZXek1QcWNWYjFpbUdKYXRIUmxCaVBtNHBmUXZ4SkZfRHRzbjhkUDR4UUc0dFAzcFJFMWcyVHNrTk80bnZVYkxMeUd2dFVPeHJsWmJHZENCTUZ3?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:40:32 GMT",
+        "source": "Yahoo Finance"
+      },
+      {
+        "title": "JPMorgan Swaps Alphabet for Meta on Focus List; META, AMZN Each Jump 5% - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pMURmRC1Bc1IwR2hKRjV2U0piV0k4TU1PcXFKN2dVSDNDMnNQc1FncldFbTJfRUFacC1ZTWc3a3dNRHVLT0NMNW5HQUhxcy1IVF84REoxUXkzOTFPOTdGbVdyUjdJMGVzLWQ5VTNhbS1jczJjMUE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:05:00 GMT",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "JPMorgan upgrades SAP stock rating on AI production shift - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWhTUVdwbmxPNWhIUnR3bUhGNUlNX3BxbXltRzVXbmJwSnc1VXNNNjdOdzNlcVJXOHpiR1dpalRaVFpUNFIxNWYwOTNYLTJGMXNkeGpqY09XdlE0dmp0Z01rdnV4ZEU2U2puQXdHdUhvRU5iOF9NcU9VbDl0amcwU0dqYTVWRG5UX2RjSHJLQmFnT2laZ1ZXTlVfc2ZTelgwcFJyM1k3TWV6a0RweVR6MlNCTzNhRGly?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 06:41:03 GMT",
+        "source": "Investing.com"
+      },
+      {
+        "title": "OpenAI announces partnership with JPMorgan as it works to grow enterprise revenue - FStech",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMTdrWU1ON1BKaURiUlpNNmxyWHFvc0hlTHFHb2pQVU04LU9YWlU2WE94SXUxOVVwMWJxT0hIOFMwdGlJVWtpQy16UUloUHJia184VWlaSzF6UEZBSDRrNFBkRjBhX040R2t5T3pLY1dGRlNaY2NHMzh5TVBOdFdBUW5IRUN6R3lyS1ZfTVFZUjFKZHp4ckpXUGFJVXJQY3EteXNJNVUybEN4MkdrLUZ2Tl81RUE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 11:15:11 GMT",
+        "source": "FStech"
+      },
+      {
+        "title": "Former JPMorgan Chase and Discover associate general counsel brings 40+ years of banking and mortgage law to Quantum General Intelligence\u2019s Advisory Board - USA Today",
+        "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOTGJKZjFfWE14NElBam5VcDAtY05HRVhma1VETU5BT3pYUEd0djlQZlpOMW95YW5IcU1UUHVZUGs4VUZ1d2NaZmFWN1ljUFVTaHVGQVU5Yy1qUGNiNldoTDlVR2U5TGEzbjNocDRVSmJhY0JQOTZFSnZMUlFEUUpQbTJDZGhRNjVkZUFNTjlQeDBJSHc0aTQwYXpIOWcyRUdDb1RfaVp2bFhlaTdjVEJyWmFJUm5hdk5ISS1RWTBnc256bkRLekV5c0FJTVZvd3lWTUhBRWFIWFJmMG5kd1RmR3h3NFVsNFhHZGwxOTFWcndnV3FYMDJoOGZMVTU0QXh0dGpFMTM4ZV9vYkxzZDNyaHRidFZld1BJNjdSLWVfdW5HNXNjMjR1b1dXQ1k?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 12:04:19 GMT",
+        "source": "USA Today"
+      },
+      {
+        "title": "JPMorgan Turns Bullish on SAP: Enterprise AI Moves From Pilot to Mass Production, Price Target Raised to \u20ac275 With Roughly 30% Upside - BigGo Finance",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FSDhrSjk3dUlGek9fVTVCQVZ5RXRGRjBHX1g1d2lsX2VienByX1c4V0VJcUxCejdLanU5X0V3eWFCQzJxakJEdVhtcG1oeFc3Sk9vazI2SlhtLU0zZE9zcVMzRDR1NjJscnVrcFhXSkgxUW44QVE?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 08:56:00 GMT",
+        "source": "BigGo Finance"
+      },
+      {
+        "title": "Goldman\u2019s AI memory basket plunges 51% from peak, JPMorgan sees earnings buffer for now - investingLive",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY0MwVVVZV1ZWOGlOWG9qQ3dULTU3QnlaSnV6a2ROa0hsM2kzLWxPa2ZUNm1md3lEalJUazRFNUlUY3M0a2dSMHdWY050a1ZNREVMMjk5cDJDdGNhVXZMT3JqaEI1QWtiUDlaXzBMMGVLbVlvaDhEZS02TVNWZTB1UkV1T2pxWXFHUWlub0hfekM0SlVMMzY1UEZqU2UwZG5JelhWTmFtZGp1bERVejJLbzJoSXRjWVFjSWlV?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 02:08:34 GMT",
+        "source": "investingLive"
+      },
+      {
+        "title": "JPMorgan drops Alphabet from focus list, adds Meta on AI advertising gains By Investing.com - Investing.com India",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVnRDQW5jSXY1NVJVbmVBMUpvY1JucElkRmFOYmNRQk5vOXdJb2dBMWVSblpwdW9aRGhyaWxtSzE1cjJDR195SjltS3RlYTNEamRuajJNRnZNWjZyRUlJOWc3OHRUajQyWTJuVk5YdUJJcXNmZEhvbnM5NVdBZGFTS2U1TlA0eWdIYnpUQmNLbV9xVGc0X0hKSzQ3MkNsU2ZTMzBiSXZzdHJPNTNzVGN5dHR0N1RhNENjekNQZWY2MU03NUVjeHgtTg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:35:08 GMT",
+        "source": "Investing.com India"
+      },
+      {
+        "title": "Meta Soars 5% as JPMorgan Picks It Over Alphabet for Its Analyst Focus List - TIKR.com",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYnctN1EzX2o3bC01ak1mZTNMVll6NFpOY3hWY3NjS3hKbV9BbE9MQjBiR1Z1SVJqN0tJeC1pdm56S3B3LXlOM21IQVMtSlEtRmY0OUpsNHY4SE5SMHhQY1dHQUJTc29GaTliNXRkM3AxYy1DQVhMcEVpVjA5TmVSaE5BaVFPUmswdl9VX3ZSaW54NHhtdFk1bU9VZTJBcWxXSnVPX2xxeF9PTFk0OTNwdHVUN1JEWUNUVHQycU1DZWE0clhaTkpvd09Fa0F4NlJQeWwwLVpGY1E?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 16:07:55 GMT",
+        "source": "TIKR.com"
+      },
+      {
+        "title": "Ambiq Launches heliaAOT\u2122 1.0 Delivering Up to 76% Lower Edge AI Inference Latency - Business Wire",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVHNwQ3d1YzR6WmFzbkdONmQ1bXpBWHFERlpHeENxSEl1OXEyT3F1Q2JjWEl5WkcxcFVNOElvNnpQcEFlS0dvUGVPWERjQTlHQjRnWVM1QWtPQWlrdXR3NDljZkpCd2o2ZGxIVk1oYy1rNlBEUWkzMWRZZ0VzQ05OYTlNVko4bEkyaDVqWmtPR3BCN05TeTVKNjhjVUl1a0w2MmlEcTNXdFpKbTVSMDRrZV9vck5KclYwZ2Rtb1M4eTUySDIzZ081OTcxNDVVQ29IV0E?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:30:00 GMT",
+        "source": "Business Wire"
+      },
+      {
+        "title": "JPMorgan Chase stock faces AI lending test as data-center loans hit $29 billion - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVUxFRHdoMHBIci1yYWpxLVZFTU91dG83QlpHQlZVOFMzNmRKUkFsODBObGVWd1N4SmJqMkxxSFd4cVFKeW91TGhJTFJjRmQyM0N5MmtjbWxjYVJHVFE4emJDRWlGbmhjbnJXS3RxRUNqR1pPeDdKYzQ4QTVPN01nSzhiTUMyb0loSDB5ZDVCNXpmNlFCU1k0ZVk4MTJJR3BQdUNacVNqR1RJVXUydi1mLUNqYUlfbHVPeEwwRVVKNS03a09wOEtnLWw5Ty1Cb3NkazBLVDdFTXg?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:42:06 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "JPMorgan adds Meta to focus list, citing AI-dri... - Pluang",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbS1DN2ItV1g5S2pXdllFNW1zb1d4ZVNSY0N5VkRmY3g0UjBEcVJRZVp6VS1weHVXWE5aakdMU01RVWU0VmJyc2twZFJvVXN2RFowd0trNDhpXy1ZRElPNE1rZXVYQUY0UDJIS3R0U05OSjdFaHZGYTUxMV9NZEV0OFFOUFlOV2k3MGp5bVpBZk5RN2lJanF5S0FxOThnMlJrMng0OEJLLTYyZ1U?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 17:54:05 GMT",
+        "source": "Pluang"
+      },
+      {
+        "title": "JPMorgan removes Alphabet from focus list citin... - Pluang",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVnhSWGdwS2VJak4xeUlZVWFPaEFyX09ubWhJeGtwdkhFdmRHMTJEXy1ldDNCdXFVVjIyR3ZjWnhscWo2X1J2UThLWDBrTkJMUDVISlhobTBhZnJyc0NNR2ExaEdxcVc4SnAzNFdTeU9sWDhsTGxvdG9LRG1qWkFxU2F0Z3J5TEpmY2tEWGZ6c1Q4YS1jZjVwWFhVR0JEZ21N?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 17:54:04 GMT",
+        "source": "Pluang"
+      },
+      {
+        "title": "SAP Wins Fifth Straight Gartner Leader Nod as JPMorgan Upgrade Lifts Shares 1.6% - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcTJfdll3SHdmSlVZQVRkQ1lhVTJpaTZQNTE3VTJjWVdTU3FPVVNVMkR3N01mSGtXVzR0ajR3eHZzN25LTGRudEpwVHBDUlpoUWdScFRJWENheUZwMlNCakp2NHdVV3JSOExpcjZZOW05cVNabFNZTEJRalRBaFJQNC10RFgtZVZYRF9oUnB3NTJhUlVWMzIyNktOMDVfUkhJSzBpUmp5X2p5Z1hfLVJ0S3BadmhIR1ZJdnhHVm5Da244SllvQjJxZU9CakFaaklIbWtWRFBMTjNGSmM2UFJVTHYycFpGZw?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 20:10:32 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Intel stock: JPMorgan turns neutral as AI supports turnaround - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX3FjQk92NG1wZ1JfZHFxVFRMMmRiMG1XVVlVSVBDZTNiNHFTWXpZdHFnSWVWZ3FGcWUwbE8zNXBEamREVHdsLUZld3dOQk8wdElvWm1tVWRURm0ybVNHLVZ5cVVfRFRzRW5aaTBFN0hPWEtvX3dRSGNFaGc4elJKS21jRUdxWmpheENLaXVZZUN5aVBIZW5GYVRzTGN1cTY1UC01emRpckRWeHRCZ3hrVXhuR1VtTHpESFk4ZXN4VXk?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 15:51:49 GMT",
+        "source": "ad-hoc-news.de"
+      },
+      {
+        "title": "Intel stock: JPMorgan turns neutral as AI outlook supports turnaround - ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUkpzTjgxR1Z2MFdQMWNwU0dHcXNPYnpxZ2lsMzN6aVhfYnhzR2ZzaGhtaUYtc2ZXRDd0NkNaUU5fb3d0dVlnaS1jZFdFMFIxZDlWVmZjU2FXSTJTVmlSWVJTX2RBY1NBNjlfOXVyM3F2Z2ZtdE9EVDJtTEVJRDlPeVlJRFl6bXA4WGwyMGdfVXlSYk5yamYwN2NLY0hiZWZWU05CRW5yek5aczd3b0JiLUQxUFZGYmFaNlZ1YzJNZVc1MjgzcV8tbUtCTQ?oc=5",
+        "pubDate": "Mon, 09 Nov 2026 13:30:41 GMT",
+        "source": "ad-hoc-news.de"
+      }
+    ],
+    "ok": true
+  }
+]

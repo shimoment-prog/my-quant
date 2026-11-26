@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-02",
+  "automation_id": "ai",
+  "automation_status": "ACTIVE",
+  "timezone": "Asia/Shanghai",
+  "schedule_local": "08:30 daily",
+  "initialized": true,
+  "last_run_at": "2026-11-09T00:35:19.758136+00:00",
+  "last_observation_file": "observations/2026-11-09.json",
+  "last_notified_at": "2026-11-07T00:33:27.770774+00:00",
+  "last_notified_assessment": "观察",
+  "assessment": "观察",
+  "reason": "新增公开证据更清楚地显示CoreWeave信用定价压力，微软伙伴调整带来客户集中度风险，TeraWulf新季报显示扩建期现金需求扩大，同时HPC收入和履约进展增长。总体维持观察；未核实大客户正式资本开支下修、供应商连续收入指引下修、重大融资中断或AI信用损失扩散。",
+  "consecutive_overall_collection_failures": 0,
+  "last_notification_reason": "New dated public CoreWeave bond/CDS reporting and material Microsoft partner-allocation reporting, plus new primary TeraWulf earnings/cash requirements; material evidence changed while overall assessment remains observation.",
+  "latest_market_proxy_date": "2026-11-05",
+  "current_issuer_cds_available": false,
+  "last_notification_decision": "DONT_NOTIFY",
+  "new_issue_pricing_available": true,
+  "last_fred_collection_status": "success",
+  "seen_event_ids": [
+    "alphabet_20261102_eur_notes",
+    "alphabet_20261105_eur_notes_completed",
+    "apollo_20261105_10q",
+    "ares_20261106_10q",
+    "blackstone_20261106_10q",
+    "broadcom_residual_value_backstop",
+    "coreweave_20261106_media_bond_cds_quotes",
+    "coreweave_completed_convertible",
+    "google_20261105_wyoming_longterm_investment",
+    "google_crusoe_wyoming_site_acquired_20261106",
+    "ing_20261106_reported_500m_loan_BWIC_identified",
+    "iren_20261105_q1fy27_delivery_cashflow",
+    "meta_20261103_pricing",
+    "meta_20261104_forward_sale_option_exercised",
+    "meta_20261105_usd_notes_completed",
+    "meta_concurrent_euro_proposal",
+    "meta_eur_20261104_pricing",
+    "meta_preferred_overallotment_completed_20261102",
+    "microsoft_20261104_notes_issued",
+    "microsoft_20261106_neocloud_consolidation_oracle_nonrenewal_report",
+    "oracle_20261028_guidance",
+    "oracle_20261102_preliminary_equity",
+    "oracle_20261102_priced_bonds",
+    "oracle_20261104_equity_completed",
+    "oracle_20261104_notes_completed",
+    "terawulf_20261106_q3_earnings_cashflow",
+    "terawulf_google_anthropic_credit_support_20261104"
+  ],
+  "pending_settlement_checks": [
+    {
+      "event_id": "meta_eur_20261104_pricing",
+      "currency": "EUR",
+      "principal": 9000000000,
+      "expected_settlement_date": "2026-11-12",
+      "status": "priced_not_verified_settled_not_due_yet",
+      "last_checked_at": "2026-11-09T00:35:19.758136+00:00"
+    }
+  ],
+  "supplemental_financial_baseline_file": "reference-baselines/2026Q3-alphabet-meta.json",
+  "monitoring_framework": {
+    "version": 3,
+    "configured_at": "2026-11-06T09:41:00.694240+08:00",
+    "timezone": "Asia/Shanghai",
+    "check_schedule_local": "08:30 daily",
+    "weekly_review": "Friday within the same08:30run",
+    "evidence_lines": [
+      "real_demand_collections_and_cashflow",
+      "credit_funding_and_liquidity",
+      "realized_losses_and_cross_entity_propagation"
+    ],
+    "notification_policy": "Material verified changes only; routine daily/weekly checks are silent.",
+    "realtime_monitoring": false,
+    "automation_config_verified": true,
+    "focused_checks": [
+      {
+        "id": "customer_capex_cuts",
+        "label": "大客户资本开支是否正式下调",
+        "records": [
+          "issuer",
+          "previous_guidance",
+          "new_guidance",
+          "unit",
+          "forecast_period",
+          "publication_dates",
+          "cash_or_lease_scope",
+          "cause",
+          "source"
+        ]
+      },
+      {
+        "id": "supplier_consecutive_revenue_guidance_cuts",
+        "label": "供应商是否连续正式下调收入指引",
+        "minimum_independent_comparable_revisions_for_consecutive": 2,
+        "single_material_cut_can_notify": true,
+        "records": [
+          "issuer",
+          "segment",
+          "previous_and_revised_guidance",
+          "forecast_period",
+          "publication_dates",
+          "revision_count",
+          "source"
+        ]
+      },
+      {
+        "id": "delay_to_cancellation_or_funding_interruption",
+        "label": "同一项目延期是否升级为取消或融资中断",
+        "records": [
+          "project_or_contract",
+          "counterparties",
+          "original_and_revised_milestones",
+          "reason",
+          "order_or_prepayment_changes",
+          "financing_stage",
+          "evidence_grade",
+          "source"
+        ]
+      }
+    ]
+  },
+  "configuration_history": [
+    {
+      "changed_at": "2026-11-04T09:47:56+08:00",
+      "reason": "User requested adding the three cascade-evidence lines to existing AI credit monitor.",
+      "automation_id": "ai",
+      "rrule": "FREQ=DAILY;BYHOUR=8;BYMINUTE=30;BYSECOND=0",
+      "added_duplicate_task": false
+    },
+    {
+      "changed_at": "2026-11-06T09:41:00.694240+08:00",
+      "reason": "User requested adding customer capex cuts, repeated supplier revenue guidance cuts and project-delay escalation into cancellation/funding interruption to existing AI monitor.",
+      "automation_id": "ai",
+      "rrule": "FREQ=DAILY;BYHOUR=8;BYMINUTE=30;BYSECOND=0",
+      "target_thread_id": "01a15249-1a76-7120-a5c5-caf01e5eb1bb",
+      "added_duplicate_task": false,
+      "focused_check_ids": [
+        "customer_capex_cuts",
+        "supplier_consecutive_revenue_guidance_cuts",
+        "delay_to_cancellation_or_funding_interruption"
+      ],
+      "notification_policy_preserved": true
+    }
+  ],
+  "completed_financing_checks": [
+    {
+      "event_id": "oracle_20261102_priced_bonds",
+      "expected_US_settlement_date": "2026-11-04",
+      "status": "completed_confirmed_by_8k",
+      "completed_date": "2026-11-04",
+      "verified_at": "2026-11-05T00:35:16.315922+00:00",
+      "source_id": "oracle_20261104_completion"
+    },
+    {
+      "event_id": "meta_20261103_pricing",
+      "expected_US_settlement_date": "2026-11-05",
+      "status": "completed_confirmed_by_company_8k",
+      "last_checked_at": "2026-11-05T00:35:16.315922+00:00",
+      "currency": "USD",
+      "note": "Nov5US settlement lies later than Nov5morningBeijing; not evidence of delay.",
+      "completed_date": "2026-11-05",
+      "verified_at": "2026-11-06T00:39:28.246180+00:00",
+      "source_event_id": "meta_20261105_usd_notes_completed"
+    },
+    {
+      "event_id": "alphabet_20261102_eur_notes",
+      "expected_settlement_date": "2026-11-05",
+      "currency": "EUR",
+      "status": "completed_confirmed_by_company_8k",
+      "completed_date": "2026-11-05",
+      "verified_at": "2026-11-06T00:39:28.246180+00:00",
+      "source_event_id": "alphabet_20261105_eur_notes_completed"
+    }
+  ],
+  "last_new_credit_link": {
+    "event_id": "terawulf_google_anthropic_credit_support_20261104",
+    "contract_date": "2026-11-04",
+    "support_provider": "Google",
+    "tenant": "Anthropic",
+    "project_operator": "TeraWulf subsidiary",
+    "maximum_amount": null,
+    "actual_default_or_payment_verified": false,
+    "details_reference": "observations/2026-11-05.json#new_events"
+  },
+  "last_weekly_review_date": "2026-11-06",
+  "last_weekly_review_reference": "observations/2026-11-06.json#weekly_review",
+  "latest_additional_financial_report": {
+    "issuer": "TeraWulf",
+    "period_end": "2026-09-30",
+    "publication_date": "2026-11-06",
+    "reference": "observations/2026-11-07.json#latest_new_financial_report"
+  },
+  "last_automation_config_verified_at": "2026-11-06T09:41:00.694240+08:00",
+  "issuer_cds_coverage": {
+    "direct_or_fully_comparable_quotes_available": false,
+    "dated_media_quotes_available": true,
+    "latest_issuer": "CoreWeave",
+    "latest_reported_market_date": "2026-11-06",
+    "reference": "observations/2026-11-07.json#new_events",
+    "limitations": "No full contract/quote metadata or20dayhistory; not a terminal quote."
+  },
+  "pending_loan_sale_checks": [
+    {
+      "event_id": "ing_20261106_reported_500m_loan_BWIC_identified",
+      "reported_bid_deadline": "2026-11-19",
+      "stage": "media_reported_bid_solicitation_not_verified_sale",
+      "completed_sale_or_loss_verified": false,
+      "last_checked_at": "2026-11-09T00:35:19.758136+00:00"
+    }
+  ],
+  "last_run_summary": "本次核查未发现足以改变判断的重要新增证据，总体维持观察，保留此前局部信用定价压力。美股周末后尚无新正常交易时段，历史报价、财报及媒体转载不当作新行情或风险缓解。",
+  "seen_evidence_ids": [
+    "crusoe_wyoming_20261107_media_context",
+    "openai_20261106_reported_partial_round_historical_context"
+  ],
+  "historical_financing_followups": [
+    {
+      "evidence_id": "openai_20261106_reported_partial_round_historical_context",
+      "issuer": "OpenAI",
+      "reported_event_date": "2026-11-06",
+      "stage": "media_reported_partial_round_entire_round_not_closed",
+      "company_confirmation_or_actual_cash_receipt_verified": false,
+      "followup": "Company confirmation, final round size, actual cash receipt and disclosed customer/supplier obligations; no exact expected closing date established.",
+      "last_checked_at": "2026-11-09T00:35:19.758136+00:00"
+    }
+  ]
+}

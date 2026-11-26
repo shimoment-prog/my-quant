@@ -1,0 +1,36 @@
+[
+  {
+    "id": "muddy_home",
+    "url": "https://muddywatersresearch.com/",
+    "started_at": "2026-11-18T06:30:52.791693+00:00",
+    "retrieved_at": "2026-11-18T06:30:54.608157+00:00",
+    "ok": true,
+    "bytes": 87116,
+    "sha256": "df7821e872a7edc14cea3e630d7d50161b8af64a4ae450108cbced7e57c2b686"
+  },
+  {
+    "id": "muddy_research",
+    "url": "https://muddywatersresearch.com/research/",
+    "started_at": "2026-11-18T06:30:52.792046+00:00",
+    "retrieved_at": "2026-11-18T06:30:55.362400+00:00",
+    "ok": true,
+    "bytes": 118208,
+    "sha256": "9eb7a4162795a46df6d9d3acb2ffc188414f6c16977030c9b3bdaf9256011347"
+  },
+  {
+    "id": "muddy_nvidia",
+    "url": "https://muddywatersresearch.com/research/nvda/",
+    "started_at": "2026-11-18T06:30:52.792217+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "sina_short",
+    "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizauir5112690.d.html",
+    "started_at": "2026-11-18T06:30:52.792354+00:00",
+    "retrieved_at": "2026-11-18T06:30:53.074886+00:00",
+    "ok": true,
+    "bytes": 28298,
+    "sha256": "c3b382187d564bac3772fe5c490ef49734263ab0c9c3eb6e9711c281aeea5de9"
+  }
+]

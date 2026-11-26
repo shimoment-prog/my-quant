@@ -1,0 +1,1733 @@
+ 
+ 
+ 
+  
+  
+  
+  
+  
+   
+   
+   
+   
+   中国政府网_中央人民政府门户网站 
+ 
+ 
+ 
+
+     
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+   
+
+   
+ 
+   
+   
+   
+
+   
+    
+   
+    
+    
+    
+    
+    
+    
+
+  
+  
+   
+.policy .side03{background:none!important;}
+   .policy .side03 ul.ul1{height:140px;}
+    .state .side01{ padding-bottom:33px; background: #f3faff;}
+         #index_dxdcyjzf{height: 118px;}
+         .state .side01 .item01 .msg {
+             border: none;
+         }
+         .state .side01 .item01 .msg h3{width: 320px;margin-bottom: 0;font-weight: normal;}
+         .state .side01 .item01 .msg h3 a{ display: inline-block;font-size:22px;height: 50px;line-height: 50px;color:#333;padding: 0 ; background: none;}
+         .state .side01 .item01 .msg h3 span{ font-size:22px;line-height: 50px;}
+         /* 建言征集 字体调整对标 政务联播 */
+         /* .state .side01 .item01 .msg h3 a{ display: inline-block;font-size:26px;height: 50px;line-height: 50px;color:#333;padding: 0 ; background: none;}
+         .state .side01 .item01 .msg h3 span{ font-size:26px;line-height: 50px;}
+          */
+         .state .side01 .item01 .msg p span{font-weight:normal; margin-bottom:3px;}
+         .state .side01 .item01 .video {
+             height: 248px;
+             margin: 0 auto 45px;
+         }
+       .state .side02 .tabs .ctx .item .iconlist2 {
+           padding-top: 50px;
+       }
+         .state .side02 .tabs .ctx .item .iconlist2 .index_gwyhlwdc .btns a+a {
+               height: 40px;
+               line-height: 40px;
+               bottom: 14px;
+           }
+         .state .side02 .tabs .ctx .item .iconlist2 .index_gwyhlwdc .btns a.lhang{
+               height: 40px;
+               padding: 5px 18px;     
+               font-size: 13px;    
+               bottom: 14px;
+               line-height: 15px;
+         }
+         .index_gwyhlwdc .btns a{
+               height: 40px;
+               bottom: 8px;
+               width: 80px;
+               line-height: 40px;
+         }
+         .index_gwyhlwdc .btns a.lhang{
+           width: 100px;
+           height: 28px;
+       font-size: 14px;
+       line-height: 28px;
+       text-align: center;
+   
+         }
+       .index_gwyhlwdc .btns a.duchahuisheng20250115{
+         left: 100px;
+       }
+         .policy .side01 .lib{
+           margin-top: 18px;
+         }
+         .policy .side01 .lib h3{
+           margin: 18px auto 16px;
+         }
+         .hqzqzcjncx20230912{
+           /* padding-left: 20px; */
+           font-size: 18px;
+           line-height: 30px;
+           margin-top: 25px;
+           overflow: hidden;
+           vertical-align: top;
+           /* background: url(https://www.gov.cn/images/gtrs_infolist_dot.png) no-repeat left 12px; */
+         }
+       
+       /* 惠企助企政府信息公开 */
+       .hqzqzcjncx20230912 .zfxxgk20240909 {
+           margin: 0 6px;
+           color: #bbb;
+           margin-right: 6px;
+       }
+         /* 首页大头条字体变色解决span外边距 */
+   .index_toutiao .memo span[style] {
+       margin: 0;
+   }
+   .policy .side02 .item.item03 span{
+       margin: 0 5px;
+   }
+   .policy .side02 .item.item03 {
+       padding: 16px 0;
+       line-height: 36px;
+   }
+   .item_mr1{margin-right: 23px;}
+   .item_mr3{margin-right: 4px;}
+   
+   /* 互动相关栏目调整 */
+   .state .side02 .tabs .ctx .item .iconlist2 li {
+       float: none;
+       width: 340px;
+       height: 68px;
+       border: 1px solid #ccc;
+       margin: 0 auto;
+   }
+   .state .side02 .tabs .ctx .item .iconlist2 li a {
+       display: block;
+       height: 68px;
+     border: none;
+       text-align: center;
+       font-weight: bold;
+       color: #015293;
+       margin: 0;
+       line-height: 68px;
+       font-size: 30px;
+     box-sizing: initial;
+       width: 340px;
+   }
+   
+   /* 政策答问平台调整 */
+   .index_gwyzcwdpt{height:100px;margin-top:0px;}
+   .index_gwyzcwdpt h3{ position:absolute; left:95px;padding-top: 39px;}
+   /* 20250623修改首页部分样式 */
+   .state .side01 .item01 ul{
+     padding: 10px  0  0;
+   }
+   
+
+
+   .state .side01 .item01 .video {
+     height: 320px;
+     overflow: hidden;
+     margin: 0 auto 30px ;
+   }
+   .index_gwydswzd{
+     position: relative;
+   }
+   .index_gwydswzd .btns {
+       position: absolute;
+       top: 53px;
+       left: 124px;
+   }
+   .index_gwydswzd .btns a{
+     width: 82px;
+     font-size: 14px;
+   }
+   .index_gwyhlwdc .btns a{
+     bottom: 14px;
+   }
+   .state .side02{
+     height: 660px;
+   }
+   .state .side02 .tabs .ctx{
+     border-bottom: 1px solid #cccccc;
+   }
+   .state .side02 .tabs .ctx .item .btn{margin-top:40px;margin-bottom: 60px;}
+   .state .side02 .tabs .ctx .item .btn a{width:342px;}
+   .state .side02 .tabs  .iconlist{width: 680px;margin: 30px auto 50px;}
+   .state .side02 .tabs  .iconlist ul{margin: 0;}
+   .state .side02 .tabs  .iconlist ul li{float: left;background: none;padding:0;}
+   .state .side02 .tabs  .iconlist ul li a{height: 117px;display: block;margin:0 0 0 20px;border: #dedede 1px solid;border-bottom: #015293 2px solid;overflow: hidden;}
+   
+   .state .side02 .tabs  .iconlist ul li a img{display: block; margin: 18px auto 5px;}
+   .state .side02 .tabs  .iconlist ul li a span{display: block;  text-align: center; font-size: 18px;}
+   .state .side02 .tabs  .iconlist ul li a:hover{border-color: #015293;}
+   .state .side01 .item02{width:320px;height:100px; margin:0px auto;}
+   .slider_gwyzcwdpt{height:100px;}
+   .state{ margin-bottom:30px;}
+   .index_gwyzcwdpt .ltw{left:20px;}
+
+
+/* 20251215首页去掉政策问答修改样式 */
+.state .side01 .item01 .msg{
+  height: 490px;
+}
+.state .side01 .item01 .msg h3{
+    margin-top: 6px;
+}
+.state .side01 .item01 .msg h3 a {
+    font-size: 26px;
+}
+.state .side01 .item01 .msg h3 span {
+  font-size: 26px;
+}
+.state .side01 .item01{
+    margin-bottom: 0;
+}
+.state .side01 .item01 .pic {
+position:relative;
+  height: 220px;
+}
+.state .side01 .item01 .pic  .tmbg{ position:absolute;left:0px;bottom:0px; padding-left:20px; background: url(https://www.gov.cn/images/20260731btbgpic.png) no-repeat;}
+.state .side01 .item01 .video {
+  height: 314px;
+}
+.state .side01 .item01 .video a {
+    line-height: 30px;
+}
+
+.state .side02 .tabs .ctx .item .iconlist ul li a {
+    height: 87px;
+}
+.state .side02 .tabs .ctx .item .iconlist ul li a img {
+    margin: 6px auto -4px;
+}
+.state .side02 {
+    height: 660px;
+}
+.state .side02 .tabs {
+    height: 536px;
+}
+.state .side02 .tabs .ctx .item .btn {
+    margin-bottom: 42px;
+}
+
+.slider_carousel .slidesjs-pagination{overflow:hidden;zoom:1;position:absolute;right:10px; top: 350px; height:10px;z-index:10;overflow:hidden;}
+.slider_carousel .slidesjs-pagination-item a.active{background: #2e5586; width: 20px; border-radius: 6px;}
+.news .list{position:relative;}
+.zhuanlan_top{position:absolute;width:289px;height:22px;top:3px; right:5px; }
+   @media screen and (max-width: 767px){
+           .hqzqzcjncx20230912{
+             height: auto;
+             padding-left: 0;
+             font-size: 32px;
+             overflow: hidden;
+             vertical-align: top;
+             background: none;
+             line-height: 44px;
+           }
+           .index_toutiao h2{text-align:left;margin-bottom:22px;}
+           .index_toutiao .memo{padding-bottom:26px;border-bottom:1px solid #d8d8d8;font-size: 28px;}
+           .index_toutiao .detail a{color:#095086;}
+          .slider_carousel .slidesjs-pagination {
+                zoom: 1;
+                position: absolute;
+                right: 20px;
+                top: 385px;
+                height: 16px;
+                z-index: 10;
+                overflow: hidden;
+          }
+      .slider_carousel .slidesjs-pagination-item a.active {
+          background: #2e5586;
+          width: 36px;
+          border-radius: 12px;
+      }
+.xxgc_zwt{
+    width:100%;
+    box-sizing: border-box;
+    height:160px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.xxgc_zwt img{  width:100%;}
+    }
+      
+
+ 
+
+ 
+
+ 
+
+   
+ 
+  
+  -->
+ 
+ .header_toolbar li {
+    font-size: 16px;
+}
+  .header_toolbar li.split {
+    margin: 0 9px;
+  }
+ 
+ 
+   
+     
+            
+       
+         
+           
+           
+           
+         
+       
+       
+          首页  
+  | 
+          简  
+         | 
+          繁  
+         | 
+          EN  
+         | 
+          登录  
+         
+            
+           
+              个人中心  
+              退出  
+           
+         
+         | 
+          邮箱  
+         | 
+         无障碍  
+    
+       
+     
+   
+   
+        
+     EN 
+     
+       
+       
+     
+
+     
+       
+         
+           
+           
+         
+         
+          function goSearch(evnet) {
+            var e = window.event || event;
+            if(e.preventDefault){
+              e.preventDefault();
+            }else{
+              e.returnValue=false;
+            }
+            var s = '', m = document.querySelector('.header .pchide [name=headSearchword]');
+            s = m.offsetHeight > 0 ? m.value : document.querySelector('.header .mhide [name=headSearchword]').value;
+            // 市场主体 dataTypeId=14
+            if (s == '市场主体') {
+              url = 'http://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&dataTypeId=14&searchWord=' + s;
+            } else {
+              url = 'http://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&dataTypeId=107&searchWord=' + encodeURIComponent(s);
+            }
+            window.open(url, '_blank');
+          }
+          function listenerKeyUpEventFn(){
+            if(event.keyCode==13){
+              goSearch();
+            };
+          }
+         
+       
+     
+   
+ 
+
+ 
+  https://www.gov.cn/
+ 
+ 
+			//繁体和简体相互转换
+			var currUrl = window.location.href;
+			
+			var flag = currUrl.indexOf("big5.www.gov.cn/gate/big5/");
+			
+			var jtzw = 'ht'+'tps://www.gov.cn';
+			
+			//繁体
+			if (flag > 0) { 
+				
+				$('.header_logo a').attr('href',jtzw);
+				
+				$('.header_toolbar li').eq(2).find('a').attr('href', jtzw);
+				
+			}//简体
+			else { 
+				
+				$('.header_toolbar li').eq(2).find('a').attr('href', jtzw);
+				
+			};
+		 
+  
+  
+   -->
+
+
+ 无障碍 -->
+   
+
+   
+
+     
+     
+     
+      
+          纪念孙中山先生诞辰160周年大会在京举行 习近平发表重要讲话  
+         
+           习近平：在纪念孙中山先生诞辰160周年大会上的讲话  |  李强赵乐际蔡奇丁薛祥李希出席 王沪宁主持 
+         
+      
+
+      
+                 
+             纪念孙中山先生诞辰160周年大会在京举行 习近平发表重要讲话 
+         
+        
+           
+             习近平：在纪念孙中山先生诞辰160周年大会上的讲话  |  李强赵乐际蔡奇丁薛祥李希出席 王沪宁主持 
+           
+        
+      
+
+        更多 >>  
+        更多>>  
+     
+     
+     
+      var currentColorPc = $(".index_toutiao h2.mhide a span").css("color")
+      console.log(currentColorPc)
+      if (currentColorPc) {
+        $(".index_toutiao .pcColor a").css("color", currentColorPc)
+      }
+
+      var currentColorM = $(".index_toutiao h2.pchide a span").css("color")
+      console.log(currentColorM)
+      if (currentColorM) {
+        $(".index_toutiao .mColor a").css("color", currentColorM)
+      }
+     
+     
+     
+       
+         
+          
+             
+               
+                 
+                    
+               
+               
+                 纪念孙中山先生诞辰160周年大会在京举行 
+               
+             
+          
+             
+               
+                 
+                    
+               
+               
+                 习近平参加北京市区人大代表换届选举投票 
+               
+             
+          
+             
+               
+                 
+                    
+               
+               
+                 学习贯彻党的二十届五中全会精神专栏 
+               
+             
+          
+         
+       
+ 
+          
+     
+
+       
+       
+     
+          要闻  
+       
+          
+             
+               
+                 
+                  习近平法治思想指引全面依法治国向纵深推进
+                 
+                 
+             
+          
+             
+               
+                 
+                  李强主持国务院第二十二次专题学习
+                 
+                 
+             
+          
+             
+               
+                 
+                  李强将访问泰国并赴菲律宾出席中国—东盟领导人会议
+                 
+                 
+             
+          
+             
+               
+                 
+                  何立峰会见美国景顺集团总裁兼首席执行官施洛斯伯格
+                 
+                 
+             
+          
+             
+               
+                 
+                  张国清在上海调研时强调 持续提升产业创新能力 更好服务支撑经济高质量发展
+                 
+                 
+             
+          
+             
+               
+                 
+                  学习贯彻党的二十届五中全会精神中央宣讲团报告会在国务院办公厅机关举行
+                 
+                 
+             
+          
+             
+               
+                 
+                  第24届中国国际人才交流大会在上海举行 谌贻琴出席开幕式并讲话
+                 
+                 
+             
+          
+         
+       
+     
+     
+
+   
+      /* 
+        ul 原始高度
+        12行 289px
+        13行 313px
+      */
+    function forSyYWPartFn(){
+    var _ulTarget = $('#index_ywowen ul');
+    var _ulTargetHeight = _ulTarget.outerHeight();
+    _ulTarget.children('li').removeAttr('style');
+        if(_ulTargetHeight===0){
+          return setTimeout(function(){
+            forSyYWPartFn()
+          },100)
+        }
+    if(_ulTargetHeight >= 337){
+        _ulTarget.addClass('_list_num_14_target_height');
+    } else if(_ulTargetHeight >= 312){
+        _ulTarget.addClass('_list_num_13_target_height');
+    } else if(_ulTargetHeight  
+     
+     
+       
+         
+            最新政策  
+           
+            
+               
+                 
+                  基金会管理条例
+                 
+               
+            
+               
+                 
+                  中医药传统知识保护条例
+                 
+               
+            
+               
+                 
+                  国务院关于修改和废止部分行政法规的决定
+                 
+               
+            
+               
+                 
+                  国务院办公厅关于2027年部分节假日安排的通知
+                 
+               
+            
+               
+                 
+                  国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复
+                 
+               
+            
+           
+         
+         
+            国务院政策文件库  
+           
+             
+              
+           
+           
+			 政府信息公开 
+			 | 
+            
+                   惠企助企政策集纳查询 
+            
+			
+			
+           
+         
+       
+       
+         
+            政策解读  
+          
+             
+               
+             
+          
+           
+            
+               
+                 
+                  中共中央举行新闻发布会解读党的二十届五中全会精神
+                 
+               
+            
+               
+                 
+                  国家发展改革委就《实施全面节约战略行动方案》答记者问
+                 
+               
+            
+               
+                 
+                  解读：从“十五五”专项规划看以金融服务发展大局
+                 
+               
+            
+           
+         
+         
+           
+            国务院组织机构
+           
+         
+         
+           国旗 
+           国歌 
+           国徽 
+           | 
+           国情   
+
+           国务院公报 
+           | 
+           国家行政法规库 
+           | 
+           国家规章库 
+       
+       
+       
+   
+         
+           
+             
+           
+           
+             
+              
+                 
+                   
+                    多部门部署加强消费基础设施建设 促进消费投资良性互动
+                   
+                 
+              
+                 
+                   
+                    新一代通信网加快建设 筑牢高质量发展数字底座
+                   
+                 
+              
+             
+           
+         
+         
+            政务联播  
+           
+            
+               
+                 
+                  公安部：5项公安交管便民利企措施12月起实施
+                 
+               
+            
+               
+                 
+                  四部门联合发文部署做好创新药安全合理配备使用
+                 
+               
+            
+           
+         
+       
+     
+     
+
+
+
+     
+     
+       
+         
+           
+             
+               
+             
+           
+           
+             
+             
+               建言征集   |   回应关切 
+             
+             
+                
+                   
+                     
+                       
+                     
+                    
+                        关于在“家门口”看病、开药，国家卫生健康委有回应
+                        
+                   
+                
+                 
+                  
+                      
+                        你关心的公租房问题，住房城乡建设部有权威回应
+                       
+                     
+                  
+                 
+             
+             
+               
+                 
+               
+               
+                 我要留言 
+               
+              
+              
+              
+
+       
+         
+           
+             
+               
+             
+           
+           
+             
+               施政为民     
+               激发活力     
+               政府建设     
+             
+             
+               
+                 
+                   以人民为中心 
+                   
+                     
+                      你对养老、托育、教育、医疗健康、就业、收入分配、社会保障、住房、基本公共服务、生态环境等方面政策有什么建议？感谢你的真知灼见。
+                     
+                    
+                   
+                 
+                 
+                   人民群众留言入口 
+                 
+                 
+                   
+                     为民服务 
+                     更多 >> 
+                   
+                 
+                 
+                   
+					 
+					   
+					     
+					     出生 
+					   
+					 
+                     
+                       
+                         
+                         入学 
+                       
+                     
+                     
+                       
+                         
+                         工作 
+                       
+                     
+					 
+					   
+					    
+					     就医 
+					   
+					 
+                     
+                       
+                        
+                         退休 
+                       
+
+                     
+                    
+                   
+                 
+               
+               
+                 
+                   激发经营主体活力 
+                   
+                     
+                      你对充分激发各类经营主体活力、积极营造一流营商环境有什么建议？感谢你的真知灼见。
+                     
+                   
+                   
+                 
+                 
+                   企业、个体工商户留言入口 
+                 
+                
+                   
+                     为企服务 
+                     更多 >> 
+                   
+                 
+                 
+                   
+                     
+                       
+                         
+                         开办企业 
+                       
+                     
+                     
+                       
+                         
+                         经营发展 
+                       
+                     
+                     
+                       
+                         
+                         企业用工 
+                       
+                     
+                     
+                       
+                         
+                         纳税缴费 
+                       
+                     
+                     
+                       
+                         
+                         注销退出 
+                       
+                     
+                   
+                 
+               
+               
+                 
+                   加强政府建设 
+                   
+                     
+                      你对法治政府建设、依法行政、提升行政效能等有何建议？如何持续优化政务服务、加快数字政府建设？感谢你的真知灼见。
+                     
+                
+                   
+                 
+                 
+                   政务服务留言入口 
+                 
+                
+                
+               
+             
+             
+               
+                 
+                   
+                     
+                     国家政务服务平台 
+                   
+                 
+                 
+                   
+                     
+                     为民服务 
+                   
+                 
+                 
+                   
+                     
+                     为企服务 
+                   
+                 
+               
+             
+           
+         
+       
+     
+     
+
+     
+     
+
+       
+         
+           要闻 
+           最新政策 
+         
+         
+           
+             
+              
+                 
+                   
+                    习近平法治思想指引全面依法治国向纵深推进
+                   
+                 
+              
+                 
+                   
+                    李强主持国务院第二十二次专题学习
+                   
+                 
+              
+                 
+                   
+                    李强将访问泰国并赴菲律宾出席中国—东盟领导人会议
+                   
+                 
+              
+                 
+                   
+                    何立峰会见美国景顺集团总裁兼首席执行官施洛斯伯格
+                   
+                 
+              
+                 
+                   
+                    张国清在上海调研时强调 持续提升产业创新能力 更好服务支撑经济高质量发展
+                   
+                 
+              
+                 
+                   
+                    学习贯彻党的二十届五中全会精神中央宣讲团报告会在国务院办公厅机关举行
+                   
+                 
+              
+                 
+                   
+                    第24届中国国际人才交流大会在上海举行 谌贻琴出席开幕式并讲话
+                   
+                 
+              
+             
+             
+               更多 
+               
+             
+           
+           
+             
+              
+                 
+                   
+                    基金会管理条例
+                   
+                 
+              
+                 
+                   
+                    中医药传统知识保护条例
+                   
+                 
+              
+                 
+                   
+                    国务院关于修改和废止部分行政法规的决定
+                   
+                 
+              
+                 
+                   
+                    国务院办公厅关于2027年部分节假日安排的通知
+                   
+                 
+              
+                 
+                   
+                    国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复
+                   
+                 
+              
+             
+             
+               更多 
+                
+           
+         
+       
+     
+     
+
+     
+     
+         
+         
+             
+         
+         
+     
+   
+
+
+   
+   
+     
+       
+         政务联播 
+       
+       
+         
+           
+            
+               
+                 
+                  公安部：5项公安交管便民利企措施12月起实施
+                 
+               
+            
+               
+                 
+                  四部门联合发文部署做好创新药安全合理配备使用
+                 
+               
+            
+           
+           
+             更多 
+             
+           
+         
+       
+     
+   
+   
+
+
+   
+   
+     
+       
+         政策解读 
+       
+       
+        
+           
+             
+           
+        
+       
+       
+         
+           
+            
+               
+                 
+                  中共中央举行新闻发布会解读党的二十届五中全会精神
+                 
+               
+            
+               
+                 
+                  国家发展改革委就《实施全面节约战略行动方案》答记者问
+                 
+               
+            
+               
+                 
+                  解读：从“十五五”专项规划看以金融服务发展大局
+                 
+               
+            
+           
+            更多   
+         
+       
+     
+   
+   
+
+   
+   
+     
+        国务院政策文件库  
+       
+         
+           
+       
+     
+   
+   
+
+
+   
+   
+     
+       
+        
+         
+           惠企助企政策集纳查询 
+         
+         
+           政府信息公开 
+         
+         
+           国家行政法规库 
+         
+         
+           国家规章库 
+         
+       
+     
+      
+   
+   
+
+   
+   
+     
+       
+         为民服务 
+         为企服务 
+       
+       
+         
+           
+               出生  
+               入学  
+               工作  
+              生活  
+              安居  
+              婚姻  
+              就医  
+              退休  
+           
+             >>   
+         
+         
+           
+              开办企业  
+              经营发展  
+              企业用工  
+              纳税缴费  
+              注销退出  
+           
+             >>   
+         
+       
+     
+   
+   
+
+
+   
+   
+     
+       
+         
+       
+     
+     
+       
+         
+           施政为民 
+           个人留言 
+         
+       
+       
+         
+           激发活力 
+           企业留言 
+         
+       
+       
+         
+           政府建设 
+           对政务服务留言 
+         
+       
+     
+   
+   
+
+
+   
+   
+      建言征集  
+     
+       
+        
+             
+                 
+                     
+                 
+             
+         
+       
+     
+      
+   
+   
+
+   
+   
+     
+       
+         回应关切 
+       
+       
+         
+           
+            
+               
+                 关于在“家门口”看病、开药，国家卫生健康委有回应 
+               
+            
+               
+                 你关心的公租房问题，住房城乡建设部有权威回应 
+               
+            
+           
+            更多   
+         
+       
+     
+   
+   
+
+
+   
+   
+       
+   
+   
+
+ 
+ 
+ 
+  .footer{
+    padding-top: 0;
+  }
+  .footer_dzjg {
+      padding: 14px 22px 0 0;
+          width: 90px;
+  }
+  .footer_dzjg span{
+    display: block;
+  }
+  .footer_txt{
+    margin-top: 27px;
+  }
+  .footer_r {
+      margin-top: 25px;
+  }
+  .barrierFree20231007{
+    width: 80px;
+    height: 37px;
+  }
+  #_ideConac a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+ 
+ 
+   
+     
+       
+         链接： 
+          全国人大  
+         | 
+          全国政协  
+         | 
+          国家监察委员会  
+         | 
+          最高人民法院  
+         | 
+          最高人民检察院  
+       
+     
+
+     
+       
+          国务院部门网站  
+         | 
+          地方政府网站  
+         | 
+          驻港澳机构网站  
+         | 
+          驻外机构  
+       
+     
+
+     
+
+       
+         
+                
+             
+       
+         
+         
+
+
+         
+           
+              中国政府网  
+             | 
+              关于本网  
+             | 
+              网站声明  
+             | 
+              联系我们  
+             | 
+              网站纠错  
+           
+
+           
+             主办单位：国务院办公厅　运行维护单位：中国政府网运行中心  
+             版权所有：中国政府网　中文域名： 中国政府网.政务 
+             
+             网站标识码bm01000001　 京ICP备05070218号 　  京公网安备11010202000001号 
+             
+           
+         
+       
+
+       
+         
+             国务院客户端  
+         
+         
+             国务院客户端小程序  
+         
+         
+             
+             
+            中国政府网微博、微信  
+         
+       
+     
+   
+   
+     
+       
+          电脑版  
+          客户端  
+          小程序  
+          微博  
+          微信  
+          邮箱  
+       
+       
+         
+           
+            
+         
+          退出  
+          注册  
+          登录  
+          网站纠错  
+       
+       
+           
+         
+           主办单位：国务院办公厅　运行维护单位：中国政府网运行中心 
+           版权所有：中国政府网　中文域名： 中国政府网.政务 
+           
+           网站标识码bm01000001 
+           京ICP备05070218号　京公网安备11010202000001号 
+         
+       
+
+     
+   
+ 
+
+ 
+  $(function () {
+    trs_bottom.init();
+    initShow();
+  });
+
+  var trs_bottom = (function () {
+    function init() {
+      if (typeof (trs) != 'undefined') {
+        // trs.PcBackTop()
+        trs.SearchFn()
+      }
+    }
+
+    return {
+      init: init
+    }
+  })();
+
+  function initShow() {
+    var isShowPc = localStorage.getItem('isShowPc')
+    if (isShowPc && isShowPc === 'true') {
+      $("meta[name='viewport']").attr("content", "width=1280, target-densitydpi=device-dpi")
+      $('body').append('  返回手机版 ')
+    } else {
+      $("meta[name='viewport']").attr("content", "width=750, user-scalable=no, target-densitydpi=device-dpi")
+      $('#showMobi').remove()
+    }
+  }
+ 
+   
+ _中国政府网 
+ https://www.gov.cn 
+ 
+  
+  
+ 
+ 
+  
+  
+  
+ 
+  $(function () {
+    trs_home.init();
+
+    
+
+    $('.policy .lib i, .libs .search a').on('click', function () {
+      zcwjkSearch();
+    });
+    $('.policy .lib input, .libs .search input').keyup(function(event){
+      if(event.keyCode=='13'){
+        zcwjkSearch();
+      }
+    })
+    function zcwjkSearch(){
+      var s = '';
+      if ($('.libs .search input').is(":visible")) {
+        s = $('.libs .search input').val();
+        $('.policy .lib input').val(s)
+      } else {
+        s = $('.policy .lib input').val();
+        $('.libs .search input').val(s);
+      }
+
+      if (s==='') {
+        window.open('//sousuo.www.gov.cn/zcwjk/policyDocumentLibrary?q=' + s + '&t=zhengcelibrary&orpro=','_blank')
+      }else{
+        window.open('//sousuo.www.gov.cn/zcwjk/policyDocumentLibrary?q=' + s + '&t=zhengcelibrary&orpro=','_blank')
+      }
+    }
+  })
+
+
+  var trs_home = (function () {
+    function init() {
+      // focus('.news')
+      nFocus()
+      // nFocus2()
+      // focus('.state')
+      focus('.banner1')
+      focus('.banner2')
+      // focus('.banner3')
+      trs.Tabs('.tabs')
+      trs.Tabs('.tabs.mobi')
+      trs.Tabs('.tabs.service')
+    }
+    function nFocus2() {
+      // 互联网+督查和政策问答平台轮播
+      var sliderElement = $('.slider_gwyzcwdpt');
+      sliderElement.slidesjs({
+        // width: 240,
+        // height: 528,
+        play: {
+          auto: true,
+          effect: 'fade'
+        },
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          slide: {
+            speed: 400
+          }
+        }
+      });
+      var slidernav = sliderElement.find('.slidesjs-navigation');
+      slidernav.hide();
+      sliderElement.hover(function () {
+        slidernav.stop().show()
+      }, function () {
+        slidernav.stop().hide()
+      });
+
+      slidernav.hover(function () {
+          $(this).show();
+        },
+        function () {
+          $(this).show();
+        });
+    }
+    function nFocus(){
+    var sliderElement = $('.slider_carousel');
+          sliderElement.find('*').attr("tabindex", "-1");
+          sliderElement.find('.item>h4>a').attr("tabindex", "0");
+          var firstIn = true;
+          $(document).on("keydown", function (e) {
+            var $this = $(e.target);
+            // 如果不是无障碍状态，则让轮播图自动播放后返回
+            if (!(typeof aria != "undefined" && aria.status())) {
+              sliderElement.removeAttr("cur")
+              sliderElement.find(".slidesjs-play").click();
+              firstIn = true;
+              return;
+            }
+            // 如果不是 tab键，则返回
+            var keycode = event.which || event.keycode
+            if (keycode != 9) {
+              return;
+            }
+            // 判断当前事件元素是否在 slider_carousel 及 slider_carousel内，如果是
+            // 先停止自动播放
+            // 对元素进行无焦点处理(因元素是动态生成的)
+            // 同时指定 标题栏元素是有焦点的 
+            if ($this.closest(".slider_carousel").length > 0 || $this.hasClass("slider_carousel")) {
+              sliderElement.find(".slidesjs-stop").click();
+              sliderElement.find('*').attr("tabindex", "-1");
+              sliderElement.find('.item>h4>a').attr("tabindex", "0");
+              // 如果是首次进入，则进行指定到第一个里
+              if (firstIn) {
+                sliderElement.find('[data-slidesjs-item="0"]').click();
+                sliderElement.attr("cur", "0");
+                firstIn = false;
+                setTimeout(function () {
+                  sliderElement.find('[slidesjs-index="0"] h4>a').focus();
+                }, 200);
+                return false;
+              }
+              var cur = parseInt(sliderElement.attr("cur"));
+              if (e.shiftKey) {
+                cur -= 1;
+              } else {
+                cur += 1;
+              }
+              var clickobj = sliderElement.find('[data-slidesjs-item="' + cur + '"]');
+              if (cur >= 0 && clickobj.length > 0) {
+                sliderElement.find('[data-slidesjs-item="' + cur + '"]').click();
+                sliderElement.attr("cur", cur);
+                setTimeout(function () {
+                  sliderElement.find('[slidesjs-index="' + cur + '"]  h4>a').focus();
+                }, 200);
+                return false;
+              }
+            }
+          })
+          
+      sliderElement.slidesjs({
+        // width: 240,
+        // height: 528,
+       play: {
+          auto: true,
+          swap: true,
+          active: true,
+          effect: 'fade'},
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          slide: {
+            speed: 400
+          }
+        },
+      });
+      var slidernav = sliderElement.find('.slidesjs-navigation');
+      slidernav.hide();
+      sliderElement.hover(function () {
+        slidernav.stop().show()
+      }, function () {
+        slidernav.stop().hide()
+      });
+
+      slidernav.hover(function () {
+          $(this).show();
+        },
+        function () {
+          $(this).show();
+        });
+
+
+       
+    }
+
+
+
+    function focus(dom) {
+      var mySwiper = new Swiper(dom + ' .swiper-container', {
+        progress: false,
+        loop: true,
+        autoplay: 5000,
+        pagination: dom + ' .pagination',
+        paginationClickable: true,
+        onProgressChange: function (swiper) {
+          for (var i = 0; i  
+
+ 
+
+  
+  
+  
+ 
+  // 票据认证
+  var ticket = GetQueryString('ticket'), sp = GetQueryString('sp');
+  if (!!ticket) {
+    window.location.href = sp ? decodeURIComponent(sp) : 'https://www.gov.cn/';
+    // ticketValidation();
+  }
+
+  function ticketValidation() {
+    $.ajax({
+      url: 'https://user.www.gov.cn/servlet/auth/ticketValidation?servicecode=' + servicecode + '&time=' + time + '&sign=' + sign + '&ticket=' + ticket,
+      method: 'get',
+      success: function (data) {
+        data = JSON.parse(data);
+        if (data.result == '0' && !!data.token) {
+          getUserInfo(data.token);
+        }
+      }
+    });
+  }
+
+  function getUserInfo(token) {
+    $.ajax({
+      url: 'https://user.www.gov.cn/servlet/auth/getUserInfo?servicecode=' + servicecode + '&time=' + time + '&sign=' + sign + '&token=' + token,
+      method: 'get',
+      success: function (data) {
+        data = JSON.parse(data);
+        if (data.result == '0') {
+          window.location.href = sp ? decodeURIComponent(sp) : 'https://www.gov.cn/';
+        }
+      }
+    })
+  }
+
+// 无障碍给轮播图分页器（小点）添加标题说明 
+window.onload=function(){
+  $('#index_tpxw .slider_carousel .item').each(function (i) {
+      var $this = $(this);
+      var $text = $this.find('h4 a').text();
+      $('#index_tpxw .slidesjs-pagination .slidesjs-pagination-item').eq(i).find('a').html($text);
+  });
+  
+}
+  
+ 
+
+  document.write(unescape("%3Cscript src='//stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));  wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")   
+
+ 

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "alphabet_asia_reuters",
+    "url": "https://kfgo.com/2026/11/11/alphabet-eyes-3-billion-hong-kong-singapore-bond-sale-sources-say/",
+    "retrieved_at": "2026-11-12T00:30:33.721087+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "optical_policy_trendforce",
+    "url": "https://www.trendforce.com/news/2026/11/11/news-microsoft-reportedly-urges-u-s-to-drop-proposed-chinese-optical-transceiver-ban-amid-ai-supply-concerns/",
+    "retrieved_at": "2026-11-12T00:30:33.721443+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 6617
+  },
+  {
+    "name": "anthropic_bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-targets-64-4-billion-ipo-nearing-spacex-s-record",
+    "retrieved_at": "2026-11-12T00:30:33.721622+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  }
+]

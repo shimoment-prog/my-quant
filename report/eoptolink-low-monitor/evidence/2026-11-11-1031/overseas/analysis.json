@@ -1,0 +1,217 @@
+{
+  "cutoff": "2026-11-11T09:06:53.764948+08:00",
+  "SEC_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-10T21:07:33.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-10T21:07:33.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "COHR",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-05T18:14:28.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-04T21:41:34.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-10T21:38:45.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "FN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-05T18:16:20.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "NVDA",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-06T21:12:02.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "AVGO",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-10-27T20:23:36.000Z",
+      "same_raw_as_premarket": true
+    }
+  ],
+  "IR_comparisons": [
+    {
+      "name": "aaoi_ir",
+      "same_raw_as_premarket": false,
+      "same_cleaned_as_premarket": true,
+      "length": 2693
+    },
+    {
+      "name": "mrvl_ir",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 4979
+    },
+    {
+      "name": "cohr_ir",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": false,
+      "length": 15385
+    },
+    {
+      "name": "nvda_news",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": false,
+      "length": 5299
+    },
+    {
+      "name": "cn_300502",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": false,
+      "length": 3876
+    },
+    {
+      "name": "cn_300308",
+      "same_raw_as_premarket": null,
+      "same_cleaned_as_premarket": null,
+      "length": 3412
+    },
+    {
+      "name": "cn_603083",
+      "same_raw_as_premarket": null,
+      "same_cleaned_as_premarket": null,
+      "length": 3676
+    }
+  ],
+  "news_feed": {
+    "fetched_unique_rows": 500,
+    "range": [
+      "2026-11-11 02:11:14",
+      "2026-11-11 10:27:56"
+    ],
+    "post_cutoff_count": 131,
+    "matches": [
+      {
+        "time": "2026-11-11 09:33:43",
+        "text": "【CPO板块短线拉升】CPO板块短线拉升，太辰光、剑桥科技、中际旭创、仕佳光子、新易盛纷纷走高、",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5309599.d.html",
+        "id": 5207202,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"CPO\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sz300570\",\"key\":\"\\u592a\\u8fb0\\u5149\"},{\"market\":\"cn\",\"symbol\":\"sh603083\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":9215},{\"market\":\"hk\",\"symbol\":\"06166\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":1964},{\"market\":\"us\",\"symbol\":\"cig\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":58},{\"market\":\"cn\",\"symbol\":\"sz300308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":96882},{\"market\":\"hk\",\"symbol\":\"03308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":24131},{\"market\":\"cn\",\"symbol\":\"sh688313\",\"key\":\"\\u4ed5\\u4f73\\u5149\\u5b50\"},{\"market\":\"cn\",\"symbol\":\"sz300502\",\"key\":\"\\u65b0\\u6613\\u76db\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipka5309599.shtml\",\"docid\":\"niyipka5309599\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5309599.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 09:36:49",
+        "text": "【CPO概念震荡反弹 剑桥科技封涨停】早盘CPO概念震荡反弹，剑桥科技封涨停，太辰光、源杰科技、新易盛、中际旭创等涨超5%。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipkh8608532.d.html",
+        "id": 5207212,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh603083\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":9215},{\"market\":\"hk\",\"symbol\":\"06166\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":1964},{\"market\":\"us\",\"symbol\":\"cig\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":58},{\"market\":\"cn\",\"symbol\":\"sz300570\",\"key\":\"\\u592a\\u8fb0\\u5149\"},{\"market\":\"cn\",\"symbol\":\"sh688498\",\"key\":\"\\u6e90\\u6770\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sz300502\",\"key\":\"\\u65b0\\u6613\\u76db\"},{\"market\":\"cn\",\"symbol\":\"sz300308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":96882},{\"market\":\"hk\",\"symbol\":\"03308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":24131}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipkh8608532.shtml\",\"docid\":\"niyipkh8608532\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipkh8608532.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 09:37:08",
+        "text": "【港股光通信股走强 剑桥科技涨近9%】截至发稿，剑桥科技(06166.HK)涨8.60%、中际旭创(03308.HK)涨3.70%、华虹宏力(01347.HK)涨3.22%。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipkh8608832.d.html",
+        "id": 5207213,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh603083\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":9215},{\"market\":\"hk\",\"symbol\":\"06166\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":1964},{\"market\":\"us\",\"symbol\":\"cig\",\"key\":\"\\u5251\\u6865\\u79d1\\u6280\",\"hot\":58},{\"market\":\"cn\",\"symbol\":\"sz300308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":96882},{\"market\":\"hk\",\"symbol\":\"03308\",\"key\":\"\\u4e2d\\u9645\\u65ed\\u521b\",\"hot\":24131},{\"market\":\"cn\",\"symbol\":\"sh688347\",\"key\":\"\\u534e\\u8679\\u5b8f\\u529b\",\"hot\":11358},{\"market\":\"hk\",\"symbol\":\"01347\",\"key\":\"\\u534e\\u8679\\u5b8f\\u529b\",\"hot\":9403}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipkh8608832.shtml\",\"docid\":\"niyipkh8608832\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipkh8608832.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 09:38:12",
+        "text": "【光纤概念板块拉升，华脉科技涨停】光纤概念板块拉升，华脉科技涨停，太辰光、宇特光电、蘅东光、源杰科技、星网宇达跟涨。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5315489.d.html",
+        "id": 5207216,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh603042\",\"key\":\"\\u534e\\u8109\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sz300570\",\"key\":\"\\u592a\\u8fb0\\u5149\"},{\"market\":\"cn\",\"symbol\":\"bj920157\",\"key\":\"\\u5b87\\u7279\\u5149\\u7535\"},{\"market\":\"cn\",\"symbol\":\"bj920045\",\"key\":\"\\u8605\\u4e1c\\u5149\"},{\"market\":\"cn\",\"symbol\":\"sh688498\",\"key\":\"\\u6e90\\u6770\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sz002829\",\"key\":\"\\u661f\\u7f51\\u5b87\\u8fbe\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipka5315489.shtml\",\"docid\":\"niyipka5315489\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5315489.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 09:40:32",
+        "text": "软银：37亿美元数据中心资产减记与俄亥俄州项目无关。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipke2094392.d.html",
+        "id": 5207221,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"sftby\",\"key\":\"\\u8f6f\\u94f6\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipke2094392.shtml\",\"docid\":\"niyipke2094392\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipke2094392.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 09:41:05",
+        "text": "A股三大股指悉数翻红，创业板指涨0.79%，深成指涨0.15%，沪指涨0.14%。光伏、CPO、油气板块涨幅居前。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipke2095053.d.html",
+        "id": 5207222,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz399006\",\"key\":\"\\u521b\\u4e1a\\u677f\\u6307\"},{\"market\":\"cn\",\"symbol\":\"sz399001\",\"key\":\"\\u6df1\\u6210\\u6307\"},{\"market\":\"cn\",\"symbol\":\"sh000001\",\"key\":\"\\u6caa\\u6307\",\"hot\":371765},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6caa\\u6307\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"CPO\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipke2095053.shtml\",\"docid\":\"niyipke2095053\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipke2095053.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 09:42:19",
+        "text": "【教育板块异动拉升，传智教育涨停】教育板块异动拉升，传智教育涨停，创业黑马、昂立教育、学大教育、凯文教育、博通股份跟涨。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5320595.d.html",
+        "id": 5207227,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz003032\",\"key\":\"\\u4f20\\u667a\\u6559\\u80b2\"},{\"market\":\"cn\",\"symbol\":\"sz300688\",\"key\":\"\\u521b\\u4e1a\\u9ed1\\u9a6c\"},{\"market\":\"cn\",\"symbol\":\"sh600661\",\"key\":\"\\u6602\\u7acb\\u6559\\u80b2\"},{\"market\":\"cn\",\"symbol\":\"sz000526\",\"key\":\"\\u5b66\\u5927\\u6559\\u80b2\"},{\"market\":\"cn\",\"symbol\":\"sz002659\",\"key\":\"\\u51ef\\u6587\\u6559\\u80b2\"},{\"market\":\"cn\",\"symbol\":\"sh600455\",\"key\":\"\\u535a\\u901a\\u80a1\\u4efd\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipka5320595.shtml\",\"docid\":\"niyipka5320595\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5320595.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 09:45:51",
+        "text": "【算力芯片概念再度活跃 天普股份触及涨停】早盘算力芯片概念再度活跃，天普股份触及涨停，大胜达、旋极信息、安凯微、翱捷科技、燧原科技、芯原股份等冲高。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5323985.d.html",
+        "id": 5207235,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"sh605255\",\"key\":\"\\u5929\\u666e\\u80a1\\u4efd\"},{\"market\":\"cn\",\"symbol\":\"sh603687\",\"key\":\"\\u5927\\u80dc\\u8fbe\"},{\"market\":\"cn\",\"symbol\":\"sz300324\",\"key\":\"\\u65cb\\u6781\\u4fe1\\u606f\"},{\"market\":\"cn\",\"symbol\":\"sh688620\",\"key\":\"\\u5b89\\u51ef\\u5fae\"},{\"market\":\"cn\",\"symbol\":\"sh688220\",\"key\":\"\\u7ff1\\u6377\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sh688801\",\"key\":\"\\u71e7\\u539f\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sh688521\",\"key\":\"\\u82af\\u539f\\u80a1\\u4efd\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipka5323985.shtml\",\"docid\":\"niyipka5323985\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5323985.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 10:12:15",
+        "text": "【知情人称黄仁勋上班先道歉，试图营造“一切如常”氛围】据知情人士透露，英伟达CEO黄仁勋周一走进了公司位于加州圣克拉拉的总部，照常主持了与高层管理人员的晨会。 知情人士称，黄仁勋在这场闭门会议开始时首先就最近的风波向员工表达了歉意。他没有接受任何提问，而是很快将话题转向业务和当天的主要议程。 周二，黄仁勋也来到办公室开会。还有一周时间，英伟达就将发布新一季财报。 英伟达内部人士表示，黄仁勋在试图营造“一切如常”的氛围，但公司内部的气氛“低落”。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5342718.d.html",
+        "id": 5207283,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipka5342718.shtml\",\"docid\":\"niyipka5342718\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipka5342718.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 10:15:41",
+        "text": "【鼎龙股份跨界进军光通信产业 三款新材料力争两年内量产】武汉经开区今日官微消息，鼎龙股份依托高端晶圆光刻胶的底层技术积淀，仅用一年进军光通信材料领域；自研光纤涂层、导热凝胶、光学耦合胶三款产品现已送样验证，力争两年内实现商业化。目前，光通信研发团队已扩充至40多人，企业还专门在新建研发大楼预留整层空间，用于光通信材料研发。按企业规划，光通信材料计划2027年至2028年批量供货，2029年形成规模营收。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipke2120707.d.html",
+        "id": 5207287,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz300054\",\"key\":\"\\u9f0e\\u9f99\\u80a1\\u4efd\"},{\"market\":\"cn\",\"symbol\":\"sih30597\",\"key\":\"\\u65b0\\u6750\\u6599\",\"hot\":272}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipke2120707.shtml\",\"docid\":\"niyipke2120707\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipke2120707.d.html"
+        }
+      },
+      {
+        "time": "2026-11-11 10:21:18",
+        "text": "【2026世界计算大会将于11月19日至21日在长沙举行】据湖南日报消息，11月11日，湖南省政府新闻办召开2026世界计算大会新闻发布会。记者从发布会获悉，本届世界计算大会将于11月19日至21日在湖南长沙举行。大会将解读“十五五”时期计算产业发展方向，发布计算产业分析、算力发展趋势、计算行业标准等一批研究报告及算电协同、基础设施等一批计算产业成果；规划1万平方米计算产业博览会集中展示具身智能机器人、脑机接口等创新产品。",
+        "url": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipkh8634245.d.html",
+        "id": 5207292,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159530\",\"key\":\"\\u5177\\u8eab\\u667a\\u80fd\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"cn\",\"symbol\":\"sih30590\",\"key\":\"\\u673a\\u5668\\u4eba\",\"hot\":3721},{\"market\":\"cn\",\"symbol\":\"sz300024\",\"key\":\"\\u673a\\u5668\\u4eba\",\"hot\":3648},{\"market\":\"fund\",\"symbol\":\"159949\",\"key\":\"\\u521b\\u65b0\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-11\\/doc-iniyipkh8634245.shtml\",\"docid\":\"niyipkh8634245\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-11/detail-iniyipkh8634245.d.html"
+        }
+      }
+    ]
+  }
+}

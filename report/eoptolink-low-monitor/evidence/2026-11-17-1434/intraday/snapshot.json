@@ -1,0 +1,572 @@
+{
+  "stamp": "2026-11-17-1434",
+  "quotes": {
+    "sz300502": {
+      "name": "新易盛",
+      "symbol": "sz300502",
+      "price": 155.76,
+      "previous_close": 166.8,
+      "open": 163.62,
+      "change_pct": -6.61870503597124,
+      "day_high": 167.46,
+      "day_low": 155.59,
+      "volume_shares": 76980226.0,
+      "amount_cny": 12407257585.31,
+      "vwap": 161.17460586969437,
+      "quote_time": "2026-11-17T14:34:42+08:00",
+      "source": "sina_final.txt",
+      "currency": "CNY",
+      "field_times": {
+        "price": "2026-11-17T14:34:42+08:00",
+        "change_pct": "2026-11-17T14:34:42+08:00",
+        "day_high_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "day_low_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "amount_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "vwap_cumulative_through": "2026-11-17T14:34:42+08:00"
+      },
+      "exact_high_tick_time": null,
+      "exact_low_tick_time": null,
+      "vwap_method": "cumulative amount(CNY) / cumulative volume(shares)",
+      "distance_from_fixed_line_yuan": -24.07000000000002,
+      "distance_from_fixed_line_pct": -13.384863482177622,
+      "distance_above_day_low_yuan": 0.1699999999999875,
+      "distance_above_day_low_pct": 0.1092615206632841
+    },
+    "sz300308": {
+      "name": "中际旭创",
+      "symbol": "sz300308",
+      "price": 384.16,
+      "previous_close": 408.97,
+      "open": 398.88,
+      "change_pct": -6.066459642516564,
+      "day_high": 410.96,
+      "day_low": 383.0,
+      "volume_shares": 44940215.0,
+      "amount_cny": 17776347428.69,
+      "vwap": 395.55546026404187,
+      "quote_time": "2026-11-17T14:34:42+08:00",
+      "source": "sina_final.txt",
+      "currency": "CNY",
+      "field_times": {
+        "price": "2026-11-17T14:34:42+08:00",
+        "change_pct": "2026-11-17T14:34:42+08:00",
+        "day_high_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "day_low_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "amount_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "vwap_cumulative_through": "2026-11-17T14:34:42+08:00"
+      },
+      "exact_high_tick_time": null,
+      "exact_low_tick_time": null,
+      "vwap_method": "cumulative amount(CNY) / cumulative volume(shares)",
+      "distance_from_fixed_line_yuan": null,
+      "distance_from_fixed_line_pct": null,
+      "distance_above_day_low_yuan": 1.160000000000025,
+      "distance_above_day_low_pct": 0.30287206266319533
+    },
+    "sh515880": {
+      "name": "通信ETF国泰",
+      "symbol": "sh515880",
+      "price": 0.371,
+      "previous_close": 0.385,
+      "open": 0.378,
+      "change_pct": -3.6363636363636376,
+      "day_high": 0.389,
+      "day_low": 0.371,
+      "volume_shares": 6741550411.0,
+      "amount_cny": 2554675481.0,
+      "vwap": 0.37894480130736796,
+      "quote_time": "2026-11-17T14:34:43+08:00",
+      "source": "sina_final.txt",
+      "currency": "CNY",
+      "field_times": {
+        "price": "2026-11-17T14:34:43+08:00",
+        "change_pct": "2026-11-17T14:34:43+08:00",
+        "day_high_cumulative_through": "2026-11-17T14:34:43+08:00",
+        "day_low_cumulative_through": "2026-11-17T14:34:43+08:00",
+        "amount_cumulative_through": "2026-11-17T14:34:43+08:00",
+        "vwap_cumulative_through": "2026-11-17T14:34:43+08:00"
+      },
+      "exact_high_tick_time": null,
+      "exact_low_tick_time": null,
+      "vwap_method": "cumulative amount(CNY) / cumulative volume(shares)",
+      "distance_from_fixed_line_yuan": null,
+      "distance_from_fixed_line_pct": null,
+      "distance_above_day_low_yuan": 0.0,
+      "distance_above_day_low_pct": 0.0
+    },
+    "sz399006": {
+      "name": "创业板指",
+      "symbol": "sz399006",
+      "price": 2264.817,
+      "previous_close": 2320.02,
+      "open": 2299.968,
+      "change_pct": -2.3794191429384215,
+      "day_high": 2343.146,
+      "day_low": 2264.817,
+      "volume_shares": 13922967325.0,
+      "amount_cny": 321365601611.9,
+      "vwap": null,
+      "quote_time": "2026-11-17T14:34:42+08:00",
+      "source": "sina_final.txt",
+      "currency": "index_points",
+      "field_times": {
+        "price": "2026-11-17T14:34:42+08:00",
+        "change_pct": "2026-11-17T14:34:42+08:00",
+        "day_high_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "day_low_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "amount_cumulative_through": "2026-11-17T14:34:42+08:00",
+        "vwap_cumulative_through": null
+      },
+      "exact_high_tick_time": null,
+      "exact_low_tick_time": null,
+      "vwap_method": "not applicable to index",
+      "distance_from_fixed_line_yuan": null,
+      "distance_from_fixed_line_pct": null,
+      "distance_above_day_low_yuan": 0.0,
+      "distance_above_day_low_pct": 0.0
+    }
+  },
+  "crosscheck_tencent": {
+    "sz300502": {
+      "price": 155.76,
+      "day_high": 167.46,
+      "day_low": 155.59,
+      "quote_time": "2026-11-17T14:34:42+08:00",
+      "source": "quotes_final.txt"
+    },
+    "sz300308": {
+      "price": 384.16,
+      "day_high": 410.96,
+      "day_low": 383.0,
+      "quote_time": "2026-11-17T14:34:42+08:00",
+      "source": "quotes_final.txt"
+    },
+    "sh515880": {
+      "price": 0.371,
+      "day_high": 0.389,
+      "day_low": 0.371,
+      "quote_time": "2026-11-17T14:34:43+08:00",
+      "source": "quotes_final.txt"
+    },
+    "sz399006": {
+      "price": 2264.82,
+      "day_high": 2343.15,
+      "day_low": 2264.82,
+      "quote_time": "2026-11-17T14:34:42+08:00",
+      "source": "quotes_final.txt"
+    }
+  },
+  "quote_age_seconds": 4.058927,
+  "frozen_prediction": {
+    "id": "2026-11-17-1434-L15559",
+    "symbol": "300502.SZ",
+    "scheduled_check_at": "2026-11-17T14:30:00+08:00",
+    "triggered_at": "2026-11-17T14:31:40.559+08:00",
+    "created_at": "2026-11-17T14:34:46.058927+08:00",
+    "forecast_start": "2026-11-17T14:34:46.058927+08:00",
+    "snapshot_time": "2026-11-17T14:34:42+08:00",
+    "threshold": 155.59,
+    "comparison": "strictly_less_than",
+    "event": "Any traded price strictly below155.59 after forecast_start and by deadline",
+    "deadline": "2026-11-17T15:00:00+08:00",
+    "risk": "偏高",
+    "numeric_probability": null,
+    "model_validated": false,
+    "status": "pending",
+    "settled": false,
+    "note": "Independent afternoon forecast starts at actual creation, never backdated to14:30 or heartbeat time. Morning157.76 prediction keeps original threshold, risk and15:00deadline and is not finally settled. Price close to freshly frozen cumulative low, belowVWAP and weakerthanETF/ChiNext; recent completed reboundhighs declined. Short remaining window and latest completed pullback volume contraction are counterevidence. No tickstream in quote-to-creation gap; later reviews must not alter original threshold/window/risk."
+  },
+  "completed_bars": [
+    {
+      "day": "2026-11-17 09:35:00",
+      "open": "163.620",
+      "high": "165.000",
+      "low": "158.650",
+      "close": "161.380",
+      "volume": "10981944",
+      "amount": "1777026192.1046"
+    },
+    {
+      "day": "2026-11-17 09:40:00",
+      "open": "161.380",
+      "high": "163.000",
+      "low": "159.840",
+      "close": "161.130",
+      "volume": "5040994",
+      "amount": "812435588.9241"
+    },
+    {
+      "day": "2026-11-17 09:45:00",
+      "open": "161.130",
+      "high": "161.600",
+      "low": "158.440",
+      "close": "159.350",
+      "volume": "4395858",
+      "amount": "702224228.6368"
+    },
+    {
+      "day": "2026-11-17 09:50:00",
+      "open": "159.500",
+      "high": "159.900",
+      "low": "157.760",
+      "close": "159.900",
+      "volume": "3634875",
+      "amount": "576337719.7183"
+    },
+    {
+      "day": "2026-11-17 09:55:00",
+      "open": "159.810",
+      "high": "160.990",
+      "low": "159.300",
+      "close": "159.490",
+      "volume": "2341120",
+      "amount": "375164690.3989"
+    },
+    {
+      "day": "2026-11-17 10:00:00",
+      "open": "159.490",
+      "high": "164.460",
+      "low": "158.800",
+      "close": "163.290",
+      "volume": "2851852",
+      "amount": "462063927.9277"
+    },
+    {
+      "day": "2026-11-17 10:05:00",
+      "open": "163.030",
+      "high": "163.930",
+      "low": "161.030",
+      "close": "163.590",
+      "volume": "2267900",
+      "amount": "368176578.9895"
+    },
+    {
+      "day": "2026-11-17 10:10:00",
+      "open": "163.590",
+      "high": "164.510",
+      "low": "161.300",
+      "close": "163.900",
+      "volume": "2270591",
+      "amount": "370413806.3845"
+    },
+    {
+      "day": "2026-11-17 10:15:00",
+      "open": "163.890",
+      "high": "164.450",
+      "low": "161.900",
+      "close": "161.930",
+      "volume": "1426180",
+      "amount": "232612571.9690"
+    },
+    {
+      "day": "2026-11-17 10:20:00",
+      "open": "161.930",
+      "high": "167.460",
+      "low": "161.680",
+      "close": "166.190",
+      "volume": "2596706",
+      "amount": "428050205.6310"
+    },
+    {
+      "day": "2026-11-17 10:25:00",
+      "open": "166.190",
+      "high": "166.570",
+      "low": "164.460",
+      "close": "164.510",
+      "volume": "2267384",
+      "amount": "374985249.5591"
+    },
+    {
+      "day": "2026-11-17 10:30:00",
+      "open": "164.630",
+      "high": "165.690",
+      "low": "163.570",
+      "close": "164.400",
+      "volume": "1213754",
+      "amount": "199571102.8486"
+    },
+    {
+      "day": "2026-11-17 10:35:00",
+      "open": "164.400",
+      "high": "164.760",
+      "low": "162.360",
+      "close": "162.380",
+      "volume": "750525",
+      "amount": "122648047.4021"
+    },
+    {
+      "day": "2026-11-17 10:40:00",
+      "open": "162.380",
+      "high": "163.000",
+      "low": "161.760",
+      "close": "163.000",
+      "volume": "1112348",
+      "amount": "180633500.0881"
+    },
+    {
+      "day": "2026-11-17 10:45:00",
+      "open": "162.980",
+      "high": "163.250",
+      "low": "162.350",
+      "close": "163.150",
+      "volume": "644121",
+      "amount": "104803537.8120"
+    },
+    {
+      "day": "2026-11-17 10:50:00",
+      "open": "163.050",
+      "high": "163.380",
+      "low": "162.490",
+      "close": "162.710",
+      "volume": "514540",
+      "amount": "83786549.2659"
+    },
+    {
+      "day": "2026-11-17 10:55:00",
+      "open": "162.800",
+      "high": "163.500",
+      "low": "161.880",
+      "close": "162.000",
+      "volume": "724480",
+      "amount": "117691363.5498"
+    },
+    {
+      "day": "2026-11-17 11:00:00",
+      "open": "162.000",
+      "high": "163.590",
+      "low": "161.870",
+      "close": "163.270",
+      "volume": "812324",
+      "amount": "132245184.1777"
+    },
+    {
+      "day": "2026-11-17 11:05:00",
+      "open": "163.300",
+      "high": "165.600",
+      "low": "163.280",
+      "close": "165.310",
+      "volume": "1462140",
+      "amount": "240378134.8362"
+    },
+    {
+      "day": "2026-11-17 11:10:00",
+      "open": "165.310",
+      "high": "167.000",
+      "low": "164.790",
+      "close": "165.720",
+      "volume": "1554040",
+      "amount": "258027663.2603"
+    },
+    {
+      "day": "2026-11-17 11:15:00",
+      "open": "165.770",
+      "high": "166.710",
+      "low": "164.170",
+      "close": "164.190",
+      "volume": "1181755",
+      "amount": "195659687.4722"
+    },
+    {
+      "day": "2026-11-17 11:20:00",
+      "open": "164.190",
+      "high": "164.360",
+      "low": "162.380",
+      "close": "162.890",
+      "volume": "1062100",
+      "amount": "173185982.6594"
+    },
+    {
+      "day": "2026-11-17 11:25:00",
+      "open": "162.880",
+      "high": "164.800",
+      "low": "162.660",
+      "close": "164.650",
+      "volume": "873500",
+      "amount": "142375316.1455"
+    },
+    {
+      "day": "2026-11-17 11:30:00",
+      "open": "164.650",
+      "high": "165.740",
+      "low": "163.480",
+      "close": "164.860",
+      "volume": "973240",
+      "amount": "160071516.5884"
+    },
+    {
+      "day": "2026-11-17 13:05:00",
+      "open": "165.000",
+      "high": "165.960",
+      "low": "160.920",
+      "close": "160.980",
+      "volume": "2193960",
+      "amount": "357145139.7512"
+    },
+    {
+      "day": "2026-11-17 13:10:00",
+      "open": "160.980",
+      "high": "161.200",
+      "low": "160.110",
+      "close": "160.400",
+      "volume": "1097700",
+      "amount": "176439933.1762"
+    },
+    {
+      "day": "2026-11-17 13:15:00",
+      "open": "160.400",
+      "high": "160.530",
+      "low": "159.260",
+      "close": "159.490",
+      "volume": "1434678",
+      "amount": "229360925.0161"
+    },
+    {
+      "day": "2026-11-17 13:20:00",
+      "open": "159.490",
+      "high": "161.000",
+      "low": "159.380",
+      "close": "160.620",
+      "volume": "1296413",
+      "amount": "207400092.5789"
+    },
+    {
+      "day": "2026-11-17 13:25:00",
+      "open": "160.620",
+      "high": "161.160",
+      "low": "159.710",
+      "close": "160.400",
+      "volume": "1141544",
+      "amount": "183276132.0652"
+    },
+    {
+      "day": "2026-11-17 13:30:00",
+      "open": "160.400",
+      "high": "160.820",
+      "low": "160.000",
+      "close": "160.130",
+      "volume": "732050",
+      "amount": "117407636.0195"
+    },
+    {
+      "day": "2026-11-17 13:35:00",
+      "open": "160.190",
+      "high": "161.800",
+      "low": "160.190",
+      "close": "161.690",
+      "volume": "573823",
+      "amount": "92181912.6301"
+    },
+    {
+      "day": "2026-11-17 13:40:00",
+      "open": "161.760",
+      "high": "161.940",
+      "low": "160.130",
+      "close": "160.180",
+      "volume": "696200",
+      "amount": "112031131.4983"
+    },
+    {
+      "day": "2026-11-17 13:45:00",
+      "open": "160.180",
+      "high": "160.330",
+      "low": "159.910",
+      "close": "160.240",
+      "volume": "890227",
+      "amount": "142511706.8923"
+    },
+    {
+      "day": "2026-11-17 13:50:00",
+      "open": "160.230",
+      "high": "160.240",
+      "low": "159.000",
+      "close": "159.010",
+      "volume": "913107",
+      "amount": "145882686.7537"
+    },
+    {
+      "day": "2026-11-17 13:55:00",
+      "open": "159.040",
+      "high": "159.610",
+      "low": "158.800",
+      "close": "158.830",
+      "volume": "1115373",
+      "amount": "177410462.5542"
+    },
+    {
+      "day": "2026-11-17 14:00:00",
+      "open": "158.830",
+      "high": "158.890",
+      "low": "158.360",
+      "close": "158.380",
+      "volume": "960037",
+      "amount": "152316060.6980"
+    },
+    {
+      "day": "2026-11-17 14:05:00",
+      "open": "158.380",
+      "high": "158.590",
+      "low": "157.500",
+      "close": "157.500",
+      "volume": "1954724",
+      "amount": "308891535.1770"
+    },
+    {
+      "day": "2026-11-17 14:10:00",
+      "open": "157.500",
+      "high": "157.820",
+      "low": "156.800",
+      "close": "157.360",
+      "volume": "1858107",
+      "amount": "292241294.2570"
+    },
+    {
+      "day": "2026-11-17 14:15:00",
+      "open": "157.370",
+      "high": "157.380",
+      "low": "156.810",
+      "close": "156.970",
+      "volume": "1349802",
+      "amount": "211957429.6127"
+    },
+    {
+      "day": "2026-11-17 14:20:00",
+      "open": "156.940",
+      "high": "157.560",
+      "low": "156.860",
+      "close": "156.900",
+      "volume": "1171005",
+      "amount": "183949751.7520"
+    },
+    {
+      "day": "2026-11-17 14:25:00",
+      "open": "156.910",
+      "high": "157.090",
+      "low": "156.140",
+      "close": "156.400",
+      "volume": "1581259",
+      "amount": "247666300.2975"
+    },
+    {
+      "day": "2026-11-17 14:30:00",
+      "open": "156.360",
+      "high": "156.800",
+      "low": "156.150",
+      "close": "156.450",
+      "volume": "1149900",
+      "amount": "179944564.7311"
+    }
+  ],
+  "excluded_unfinished_bars": [
+    {
+      "day": "2026-11-17 14:35:00",
+      "open": "156.450",
+      "high": "156.450",
+      "low": "155.600",
+      "close": "155.720",
+      "volume": "1201487",
+      "amount": "187344603.8496"
+    }
+  ],
+  "structural_bar_cutoff": "2026-11-17T14:30:00+08:00",
+  "source_timing_note": "Structure from14:32:30fetch uses completed bars only through14:30. Final quote precedes actual forecast; later research does not change original threshold, risk or window."
+}

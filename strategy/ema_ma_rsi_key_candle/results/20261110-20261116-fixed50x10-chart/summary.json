@@ -1,0 +1,153 @@
+{
+  "config": {
+    "start_ms": 1794240000000,
+    "end_ms": 1794758400000,
+    "interval": "5m",
+    "ema_length": 10,
+    "ma_length": 10,
+    "rsi_length": 14,
+    "long_rsi_min": 50,
+    "long_rsi_max": 70,
+    "short_rsi_min": 30,
+    "short_rsi_max": 50,
+    "direction": "both",
+    "method": "both",
+    "reward_risk": 1.5,
+    "initial_capital": 10000.0,
+    "position_percent": 10,
+    "fixed_margin": 50.0,
+    "leverage": 10.0,
+    "fee_percent": 0.05,
+    "slippage_ticks": 0,
+    "tick_size": 0.01,
+    "qty_step": 0.001,
+    "intrabar": "stop-first"
+  },
+  "entry_close_start_utc_inclusive": "2026-11-09T16:00:00+00:00",
+  "entry_close_end_utc_inclusive": "2026-11-15T16:00:00+00:00",
+  "data_first_open_utc": "2026-11-05T00:00:00+00:00",
+  "data_last_close_utc": "2026-11-15T16:00:00+00:00",
+  "data_bars": 3072,
+  "warmup_bars_before_entry_start": 1343,
+  "closed_trades": 30,
+  "winning_trades": 6,
+  "losing_trades": 24,
+  "breakeven_trades": 0,
+  "win_rate_percent": 20.0,
+  "profit_factor_net": 0.18424894020122243,
+  "closed_net_pnl": -31.04901977999991,
+  "total_fees_paid": 14.971379779999996,
+  "final_equity_mark_to_market": 9968.950980219995,
+  "total_return_percent_mark_to_market": -0.3104901978000507,
+  "max_drawdown_percent_at_bar_close": 0.3104901978000453,
+  "max_drawdown_amount_at_bar_close": 31.049019780004528,
+  "ambiguous_exit_bars": 2,
+  "rejected_signals": {},
+  "open_position": null,
+  "method_counts": {
+    "S1": 15,
+    "L1": 14,
+    "L2": 1
+  },
+  "position_sizing": {
+    "mode": "fixed_margin",
+    "fixed_margin": 50.0,
+    "leverage": 10.0,
+    "target_entry_notional": 500.0,
+    "quantity_rounding": "floor_to_qty_step"
+  },
+  "funding_included": false,
+  "liquidation_modelled": false,
+  "limitations": [
+    "Independent OHLC simulator; not verified for exact TradingView trade parity.",
+    "Funding payments, mark-price triggers and Binance liquidation tiers are excluded.",
+    "Drawdown is measured at bar closes, not intrabar equity extremes.",
+    "Intrabar exit timestamps are unknown; CSV reports their enclosing candle.",
+    "Final open position is marked to market, not forcibly closed or included in win rate.",
+    "Tick and quantity steps are user parameters, not historical exchange-rule verification.",
+    "RSI uses Wilder smoothing; on all-flat prices its explicit zero-loss guard returns 100."
+  ],
+  "data_file": "/Users/richao11/myproject/my-quant/strategy/ema_ma_rsi_key_candle/data/ETHUSDT-5m-20261105-20261116.csv",
+  "data_sha256": "8ec2fe883abeb3a7cfd0a35e09643050a68ef103a1d9cbaf12e32f8ba2ec416c",
+  "data_source_metadata": {
+    "market": "Binance USD-M perpetual",
+    "symbol": "ETHUSDT",
+    "interval": "5m",
+    "timezone": "UTC",
+    "start_inclusive": "2026-11-05",
+    "end_exclusive": "2026-11-16",
+    "rows": 3168,
+    "first_open_time_ms": 1793836800000,
+    "last_close_time_ms": 1794787199999,
+    "downloaded_at_utc": "2026-11-18T08:13:39.511592+00:00",
+    "output_sha256": "8ec2fe883abeb3a7cfd0a35e09643050a68ef103a1d9cbaf12e32f8ba2ec416c",
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-05.zip",
+        "sha256": "74a84a7f1b69a4e5b55eb7b6a8310e52548d8b2c1ce1250c784890f2f40e7f5a",
+        "bytes": 14237,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-06.zip",
+        "sha256": "dc75273dc1d68737843ca6b49f67be210e42c19c16cae3f616c6edfde72e9d69",
+        "bytes": 13950,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-07.zip",
+        "sha256": "5795c3436ff6dbcd20ba43e9e3a543c6c09007c239f14c06c075e244851d97d5",
+        "bytes": 13220,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-08.zip",
+        "sha256": "186ee345b99441c022d749d104ff7bd16d027154f926e41f0f701a00731a5e14",
+        "bytes": 13327,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-09.zip",
+        "sha256": "e87b11fd5af46fc0dc94c9376c17b1d4c0addac34a24346e82276f65845ff67d",
+        "bytes": 14166,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-10.zip",
+        "sha256": "eb4d8e52425a608c1eeae6c7f0b7d41f47cd83c74c3c9c0f305d662f911006c3",
+        "bytes": 14122,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-11.zip",
+        "sha256": "cdcc6645a1a458108411fd595a8e8098c90247945af0eca9deabd694cca0a661",
+        "bytes": 14040,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-12.zip",
+        "sha256": "286d45fa7cba1e394fc1b79891833dcad50e9836f6b0dc34b7c85eb50cc3c96a",
+        "bytes": 14037,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-13.zip",
+        "sha256": "369e44b62d8094a4b24c47b74160230f55279bcb4ba1cc02dbc7f3f0e21398f1",
+        "bytes": 14400,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-14.zip",
+        "sha256": "1d77b651b6707ab7d68493aa4326daab470a02942f9aa1224c328b37a08786fa",
+        "bytes": 14448,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-15.zip",
+        "sha256": "89366f5cf67b8db5702e75b205c1ce4be0d79252bc0b7965e3a6e9a5dab8a49c",
+        "bytes": 14359,
+        "official_sha256_verified": true
+      }
+    ]
+  }
+}

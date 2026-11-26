@@ -1,0 +1,35 @@
+[
+  {
+    "name": "announcement_list",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=30&page_index=1&ann_type=A&client_source=web&stock_list=300274",
+    "ok": false,
+    "error": "HTTP Error 567: Unknown Status"
+  },
+  {
+    "name": "financials",
+    "url": "https://datacenter.eastmoney.com/securities/api/data/v1/get?reportName=RPT_F10_FINANCE_MAINFINADATA&columns=ALL&filter=%28SECURITY_CODE%3D%22300274%22%29&sortColumns=REPORT_DATE&sortTypes=-1&pageSize=16&pageNumber=1&source=HSF10&client=PC",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:54:36.500347+00:00",
+    "length": 67219
+  },
+  {
+    "name": "q3_sina",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300274&id=12682097",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:54:36.724196+00:00",
+    "length": 99173
+  },
+  {
+    "name": "ir_sina",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300274&id=12686480",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:54:36.638834+00:00",
+    "length": 25498
+  },
+  {
+    "name": "company_news",
+    "url": "https://www.sungrowpower.com/zh/news",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+]

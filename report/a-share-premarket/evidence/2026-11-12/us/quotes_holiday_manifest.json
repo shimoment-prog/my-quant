@@ -1,0 +1,23 @@
+[
+  {
+    "name": "sina_us",
+    "url": "https://hq.sinajs.cn/list=gb_sox,gb_nvda,gb_crwv,gb_csco,gb_avgo,gb_amd,gb_lite,gb_mrvl,gb_cohr,gb_aaoi,gb_fn,gb_cien",
+    "retrieved_at": "2026-11-12T00:48:00.398124+00:00",
+    "ok": true,
+    "len": 4045
+  },
+  {
+    "name": "NYSE_calendar",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "retrieved_at": "2026-11-12T00:48:00.398461+00:00",
+    "ok": true,
+    "len": 131985
+  },
+  {
+    "name": "SIFMA_calendar",
+    "url": "https://www.sifma.org/resources/general/holiday-schedule/",
+    "retrieved_at": "2026-11-12T00:48:00.398632+00:00",
+    "ok": false,
+    "error": "HTTP Error 308: Permanent Redirect"
+  }
+]

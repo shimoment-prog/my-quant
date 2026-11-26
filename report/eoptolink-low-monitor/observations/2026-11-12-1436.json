@@ -1,0 +1,2265 @@
+{
+  "schema_version": 1,
+  "automation_id": "10-30",
+  "triggered_at": "2026-11-12T14:35:08.913+08:00",
+  "scheduled_at": "2026-11-12T14:30:00+08:00",
+  "run_started_at": "2026-11-12T14:36:06.979106+08:00",
+  "observed_at": "2026-11-12T14:36:59+08:00",
+  "assembled_at": "2026-11-12T14:39:33.590536+08:00",
+  "data_cutoff_at": "2026-11-12T14:36:54+08:00",
+  "session": "intraday",
+  "scheduled_check": true,
+  "trading_day": {
+    "date": "2026-11-12",
+    "weekday": "Thursday",
+    "normal_session": true,
+    "checked_at": "2026-11-12T14:35:58.447497+08:00",
+    "basis_file": "/tmp/eoptolink-monitor-20261112-1030/calendar/calendar.json",
+    "basis_checked_at": "2026-11-12T10:35:31.036276+08:00",
+    "temporary_closure_notice_found": false,
+    "closure_title_candidates": [],
+    "new_visible_notices_since_morning": [
+      {
+        "title": "景顺长城全球半导体芯片产业股票型证券投资基金（QDII-LOF）临时停牌公告",
+        "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20261112_10837513.shtml"
+      }
+    ],
+    "conclusion": "November 12 is outside the official 2026 holiday closure schedule. Afternoon refresh of latest visible SSE and SZSE general notices found no exchange-wide temporary closure.",
+    "coverage_limit": "Visible official calendar/general notice lists only; individual security suspensions do not imply market closure. Actual market quote timestamps are independently verified by the parent.",
+    "sources": [
+      {
+        "id": "sse_calendar",
+        "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+        "started_at": "2026-11-12T14:35:57.979314+08:00",
+        "http_status": 200,
+        "ok": true,
+        "retrieved_at": "2026-11-12T14:35:58.299076+08:00",
+        "bytes": 29581,
+        "calendar_excerpt": "2026年休市安排 元旦： 1月1日（星期四）至1月3日（星期六）休市，1月5日（星期一）起照常开市。另外，1月4日（星期日）为周末休市。 春节： 2月15日（星期日）至2月23日（星期一）休市，2月24日（星期二）起照常开市。另外，2月14日（星期六）、2月28日（星期六）为周末休市。 清明节： 4月4日（星期六）至4月6日（星期一）休市，4月7日（星期二）起照常开市。 劳动节： 5月1日（星期五）至5月5日（星期二）休市，5月6日（星期三）起照常开市。另外，5月9日（星期六）为周末休市。 端午节： 6月19日（星期五）至6月21日（星期日）休市，6月22日（星期一）起照常开市。 中秋节： 9月25日（星期五）至9月27日（星期日）休市，9月28日（星期一）起照常开市。 国庆节： 10月1日（星期四）至10月7日（星期三）休市，10月8日（星期四）起照常开市。另外，9月20日（星期日）、10月10日（星期六）为周末休市。 相关公告 关于2026年中秋节、国庆节休市安排的公告 2026-09-17 关于2026年端午节休市安排的公告 2026-06-11 关于2026年劳动节休市安排的公告 2026-04-23 关于2026年清明节休市安排的公告 2026-03-31 关于2026年春节休市安排的公告 2026-02-05 相关链接 联系我们 网站地图 相关链接 法律声明 注册商标 个人信息保护告知书 官方微博 官方微信 APP下载 @media (max-width: 1199px){footer .sse_footer_bg>.container ul li a { font-size: 12px;}} 党建 党建动态 学习园地 图文播报 发行上市 审核公告通知 审核信息披露 审核项目动态 关于上市审核中心 科创战略 披露 交易提"
+      },
+      {
+        "id": "sse_general",
+        "url": "https://www.sse.com.cn/disclosure/announcement/general/",
+        "started_at": "2026-11-12T14:35:57.979661+08:00",
+        "http_status": 200,
+        "ok": true,
+        "retrieved_at": "2026-11-12T14:35:58.444832+08:00",
+        "bytes": 34760,
+        "visible_notices": [
+          {
+            "title": "景顺长城全球半导体芯片产业股票型证券投资基金（QDII-LOF）临时停牌公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20261112_10837513.shtml"
+          },
+          {
+            "title": "关于申万宏源证券有限公司终止为天弘上证180交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261111_10837432.shtml"
+          },
+          {
+            "title": "关于东方证券股份有限公司为富国中证新华社民族品牌工程交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261111_10837434.shtml"
+          },
+          {
+            "title": "关于广发证券股份有限公司为华夏保利发展封闭式商业不动产证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261111_10837436.shtml"
+          },
+          {
+            "title": "关于申万宏源证券有限公司为华夏保利发展封闭式商业不动产证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261111_10837438.shtml"
+          },
+          {
+            "title": "关于华泰证券股份有限公司为华夏保利发展封闭式商业不动产证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261111_10837440.shtml"
+          },
+          {
+            "title": "关于华泰证券股份有限公司为长城华能燃煤发电封闭式基础设施证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261111_10837442.shtml"
+          },
+          {
+            "title": "关于华泰证券股份有限公司为工银瑞信河北高速集团高速公路封闭式基础设施证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261111_10837444.shtml"
+          },
+          {
+            "title": "关于国信证券股份有限公司为长城华能燃煤发电封闭式基础设施证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261111_10837446.shtml"
+          },
+          {
+            "title": "关于东方证券股份有限公司为嘉实中证电池主题交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837331.shtml"
+          },
+          {
+            "title": "关于西部证券股份有限公司为华夏中证全指电力公用事业交易型开放式指数证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837333.shtml"
+          },
+          {
+            "title": "关于国信证券股份有限公司为博时中证稀有金属主题交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837335.shtml"
+          },
+          {
+            "title": "关于东海证券股份有限公司终止为易方达上证科创板人工智能交易型开放式指数证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837337.shtml"
+          },
+          {
+            "title": "关于招商证券股份有限公司为博时中证稀有金属主题交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837339.shtml"
+          },
+          {
+            "title": "关于东方证券股份有限公司为中银中外运仓储物流封闭式基础设施证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837341.shtml"
+          }
+        ]
+      },
+      {
+        "id": "szse_notice",
+        "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+        "started_at": "2026-11-12T14:35:57.979840+08:00",
+        "http_status": 200,
+        "ok": true,
+        "retrieved_at": "2026-11-12T14:35:58.113512+08:00",
+        "bytes": 92763,
+        "visible_notices": [
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261112_623875.html"
+          },
+          {
+            "title": "关于修订创业板指数编制方案的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261106_623796.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261102_623639.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261030_623637.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261030_623599.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261026_623465.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261023_623441.html"
+          },
+          {
+            "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261021_623420.html"
+          },
+          {
+            "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261021_623417.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261021_623405.html"
+          },
+          {
+            "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261020_623404.html"
+          },
+          {
+            "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261020_623403.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261016_623329.html"
+          },
+          {
+            "title": "关于深港通下的港股通交易日安排的通知",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261015_623326.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20261008_623189.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20260929_623105.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20260928_623076.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20260923_622996.html"
+          },
+          {
+            "title": "关于深港通下的港股通标的证券名单调整的公告",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20260921_622950.html"
+          },
+          {
+            "title": "关于2026年中秋节、国庆节休市安排的通知",
+            "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html"
+          }
+        ]
+      }
+    ]
+  },
+  "quotes": {
+    "sz300502": {
+      "symbol": "sz300502",
+      "name": "新易盛",
+      "price": 205.9,
+      "previous_close": 215.0,
+      "open": 212.5,
+      "change_pct": -4.232558139534881,
+      "day_high": 225.0,
+      "day_low": 205.09,
+      "volume_shares": 111119306,
+      "turnover_cny": 23993889551.27,
+      "quote_time": "2026-11-12T14:36:54+08:00",
+      "source": "sina_final.txt",
+      "exact_day_high_tick_time": null,
+      "exact_day_low_tick_time": null,
+      "field_asof": {
+        "price": "2026-11-12T14:36:54+08:00",
+        "change_pct": "2026-11-12T14:36:54+08:00",
+        "day_high": "2026-11-12T14:36:54+08:00",
+        "day_low": "2026-11-12T14:36:54+08:00",
+        "volume_shares": "2026-11-12T14:36:54+08:00",
+        "turnover_cny": "2026-11-12T14:36:54+08:00",
+        "vwap_derived": "2026-11-12T14:36:54+08:00"
+      },
+      "vwap_derived": 215.9290803280395,
+      "vwap_method": "Cumulative amount CNY / cumulative volume shares",
+      "distance_from_fixed_line_pct": 14.497024968025363,
+      "distance_above_day_low_pct": 0.3949485591691504,
+      "above_vwap_pct": -4.644617720227084,
+      "fall_to_reach_day_low_pct": -0.3933948518698438
+    },
+    "sz300308": {
+      "symbol": "sz300308",
+      "name": "中际旭创",
+      "price": 508.25,
+      "previous_close": 542.0,
+      "open": 532.74,
+      "change_pct": -6.22693726937269,
+      "day_high": 567.89,
+      "day_low": 506.39,
+      "volume_shares": 59094371,
+      "turnover_cny": 31789464353.03,
+      "quote_time": "2026-11-12T14:36:57+08:00",
+      "source": "sina_final.txt",
+      "exact_day_high_tick_time": null,
+      "exact_day_low_tick_time": null,
+      "field_asof": {
+        "price": "2026-11-12T14:36:57+08:00",
+        "change_pct": "2026-11-12T14:36:57+08:00",
+        "day_high": "2026-11-12T14:36:57+08:00",
+        "day_low": "2026-11-12T14:36:57+08:00",
+        "volume_shares": "2026-11-12T14:36:57+08:00",
+        "turnover_cny": "2026-11-12T14:36:57+08:00",
+        "vwap_derived": "2026-11-12T14:36:57+08:00"
+      },
+      "vwap_derived": 537.9440345177716,
+      "vwap_method": "Cumulative amount CNY / cumulative volume shares"
+    },
+    "sh515880": {
+      "symbol": "sh515880",
+      "name": "通信ETF国泰",
+      "price": 0.445,
+      "previous_close": 0.459,
+      "open": 0.455,
+      "change_pct": -3.0501089324618813,
+      "day_high": 0.472,
+      "day_low": 0.442,
+      "volume_shares": 9222623115,
+      "turnover_cny": 4229142544.0,
+      "quote_time": "2026-11-12T14:36:56+08:00",
+      "source": "sina_final.txt",
+      "exact_day_high_tick_time": null,
+      "exact_day_low_tick_time": null,
+      "field_asof": {
+        "price": "2026-11-12T14:36:56+08:00",
+        "change_pct": "2026-11-12T14:36:56+08:00",
+        "day_high": "2026-11-12T14:36:56+08:00",
+        "day_low": "2026-11-12T14:36:56+08:00",
+        "volume_shares": "2026-11-12T14:36:56+08:00",
+        "turnover_cny": "2026-11-12T14:36:56+08:00",
+        "vwap_derived": "2026-11-12T14:36:56+08:00"
+      },
+      "vwap_derived": 0.4585617878195167,
+      "vwap_method": "Cumulative amount CNY / cumulative volume shares"
+    },
+    "sz399006": {
+      "symbol": "sz399006",
+      "name": "创业板指",
+      "price": 2514.429,
+      "previous_close": 2572.067,
+      "open": 2559.158,
+      "change_pct": -2.240921406790719,
+      "day_high": 2620.249,
+      "day_low": 2509.409,
+      "volume_shares": 17788516737,
+      "turnover_cny": 480811577592.6,
+      "quote_time": "2026-11-12T14:36:54+08:00",
+      "source": "sina_final.txt",
+      "exact_day_high_tick_time": null,
+      "exact_day_low_tick_time": null,
+      "field_asof": {
+        "price": "2026-11-12T14:36:54+08:00",
+        "change_pct": "2026-11-12T14:36:54+08:00",
+        "day_high": "2026-11-12T14:36:54+08:00",
+        "day_low": "2026-11-12T14:36:54+08:00",
+        "volume_shares": "2026-11-12T14:36:54+08:00",
+        "turnover_cny": "2026-11-12T14:36:54+08:00"
+      }
+    }
+  },
+  "crosscheck_tencent": {
+    "sz300502": {
+      "price": 205.9,
+      "previous_close": 215.0,
+      "high": 225.0,
+      "low": 205.09,
+      "quote_time": "2026-11-12T14:36:54+08:00",
+      "change_pct": -4.23
+    },
+    "sz300308": {
+      "price": 508.25,
+      "previous_close": 542.0,
+      "high": 567.89,
+      "low": 506.39,
+      "quote_time": "2026-11-12T14:36:54+08:00",
+      "change_pct": -6.23
+    },
+    "sh515880": {
+      "price": 0.445,
+      "previous_close": 0.459,
+      "high": 0.472,
+      "low": 0.442,
+      "quote_time": "2026-11-12T14:36:56+08:00",
+      "change_pct": -3.05
+    },
+    "sz399006": {
+      "price": 2514.43,
+      "previous_close": 2572.07,
+      "high": 2620.25,
+      "low": 2509.41,
+      "quote_time": "2026-11-12T14:36:54+08:00",
+      "change_pct": -2.24
+    }
+  },
+  "quote_age_seconds_at_forecast_creation": 5.0,
+  "fixed_reference": {
+    "symbol": "300502.SZ",
+    "price": 179.83,
+    "formed_on": "2026-11-03",
+    "formed_during": "morning",
+    "status": "historically_breached_now_reclaimed",
+    "last_verified_quote_time": "2026-11-12T14:36:54+08:00",
+    "last_verified_quote": 205.9,
+    "last_verified_day_low": 205.09,
+    "strict_breach_definition": "traded_price < 179.83",
+    "breached": true,
+    "below_fixed_line_now": false,
+    "first_observed_below_sample": {
+      "quote_time": "2026-11-03T13:14:00+08:00",
+      "price": 179.5,
+      "type": "sampled_minute_price"
+    },
+    "exact_first_tick_breach_time": null,
+    "exact_day_low_tick_time": null,
+    "note": "Historical179.83line already breached Nov3, exact first tick unknown. Today previous close, opening and cumulative minimum remain above it. No new reclaim event asserted; line never reset.",
+    "last_verified_session_date": "2026-11-12",
+    "below_fixed_line_at_last_verified_quote": false,
+    "previous_close_below_fixed_line": false,
+    "reclaimed_intraday_today": false,
+    "exact_today_reclaim_tick_time": null,
+    "strict_breach_today": false,
+    "today_breach_interval_evidence": null,
+    "prior_session_status_history": [
+      {
+        "session_date": "2026-11-05",
+        "last_verified_quote_time": "2026-11-05T14:38:39+08:00",
+        "last_verified_quote": 183.92,
+        "day_low": 177.64,
+        "strict_breach_today": true,
+        "reclaimed_intraday_today": true,
+        "today_breach_interval_evidence": {
+          "start": "2026-11-05T13:35:00+08:00",
+          "end": "2026-11-05T13:40:00+08:00",
+          "bar_low": 179.6,
+          "source": "m5_final",
+          "exact_first_tick_time": null
+        }
+      },
+      {
+        "last_verified_session_date": "2026-11-06",
+        "last_verified_quote_time": "2026-11-06T14:39:00+08:00",
+        "last_verified_quote": 172.43,
+        "last_verified_day_low": 161.16,
+        "strict_breach_today": true,
+        "reclaimed_intraday_today": false,
+        "today_breach_interval_evidence": {
+          "session_date": "2026-11-06",
+          "opening_price": 166.0,
+          "day_high": 178.0,
+          "source": "sina_final",
+          "logic": "Today opened166 below179.83 and cumulative high178 remainsbelow179.83. No recovery through quote. Exact initial breach tick unknown."
+        },
+        "session_date": "2026-11-06"
+      },
+      {
+        "session_date": "2026-11-09",
+        "last_verified_quote_time": "2026-11-09T14:33:42+08:00",
+        "last_verified_quote": 177.19,
+        "last_verified_day_low": 169.01,
+        "strict_breach_today": true,
+        "reclaimed_intraday_today": true,
+        "today_breach_interval_evidence": {
+          "session_date": "2026-11-09",
+          "opening_price": 175.0,
+          "day_low": 169.01,
+          "source": "sina_final.txt",
+          "logic": "Opening price and day minimum below historical line establish breach today; exact initial tick unknown."
+        },
+        "today_reclaim_interval_evidence": {
+          "interval_start": "2026-11-09T09:50:00+08:00",
+          "interval_end": "2026-11-09T09:55:00+08:00",
+          "high": 180.27,
+          "source": "m5_final.txt",
+          "exact_first_tick_time": null,
+          "note": "First available completed bar crossing line, not proof of exact first reclaim trade."
+        }
+      },
+      {
+        "session_date": "2026-11-10",
+        "last_verified_quote_time": "2026-11-10T14:37:30+08:00",
+        "last_verified_quote": 183.62,
+        "last_verified_day_low": 183.43,
+        "strict_breach_today": false,
+        "reclaimed_intraday_today": true,
+        "today_breach_interval_evidence": null,
+        "today_reclaim_interval_evidence": {
+          "type": "opening_gap_above_historical_line",
+          "opening_price": 188.01,
+          "previous_close": 176.0,
+          "source": "sina_final.txt",
+          "exact_first_tick_time": null,
+          "note": "Previous close176 below179.83; current session open188.01 and cumulative low185.01 above line. Reclaimed by opening; exact first auction/trade timestamp not asserted."
+        }
+      },
+      {
+        "session_date": "2026-11-11",
+        "last_verified_quote_time": "2026-11-11T14:34:15+08:00",
+        "last_verified_quote": 214.8,
+        "last_verified_day_low": 187.3,
+        "strict_breach_today": false,
+        "reclaimed_intraday_today": false,
+        "today_breach_interval_evidence": null,
+        "today_reclaim_interval_evidence": null
+      }
+    ],
+    "today_reclaim_interval_evidence": null
+  },
+  "frozen_prediction": {
+    "id": "2026-11-12-1436-L20509",
+    "symbol": "300502.SZ",
+    "scheduled_check_at": "2026-11-12T14:30:00+08:00",
+    "triggered_at": "2026-11-12T14:35:08.913+08:00",
+    "created_at": "2026-11-12T14:36:59+08:00",
+    "forecast_start": "2026-11-12T14:36:59+08:00",
+    "snapshot_time": "2026-11-12T14:36:54+08:00",
+    "threshold": 205.09,
+    "comparison": "strictly_less_than",
+    "event": "Any traded price strictly below205.09 after forecast_start and by deadline",
+    "deadline": "2026-11-12T15:00:00+08:00",
+    "risk": "偏高",
+    "numeric_probability": null,
+    "model_validated": false,
+    "status": "pending",
+    "settled": false,
+    "note": "Independent afternoon forecast starts at actual creation, never backdated to14:30 or trigger. The cumulative day low is frozen independently; the morning211.03forecast retains original start, risk and15:00deadline, with progress only and no premature final settlement. Historical179.83reference line remains immutable. No tickstream between snapshot and creation; actual quote age retained."
+  },
+  "risk_assessment": {
+    "risk": "偏高",
+    "numeric_probability": null,
+    "probability_label": "暂无可靠百分比",
+    "model_validated": false,
+    "classified_at": "2026-11-12T14:36:59+08:00",
+    "remaining_active_trading_minutes": 23.016666666666666,
+    "scope": "Any traded price strictly below independently frozen current-day low after actual14:36:59creation and by15:00today. Morning211.03has an observed strict breach but remains pending until original deadline.",
+    "reasons": [
+      "现价205.90距本次冻结日低205.09仅高0.39%，低于累计成交均价4.64%，剩余约23分钟。该风险仅针对本次窗口严格新低，非已发生的上午211.03跌破。",
+      "14:20反弹210.30后完整5分钟高低点同步下移，最近14:25/14:30/14:35高点209.36→208.03→206.86、低点208→206.66→205.61。",
+      "等长5分钟回踩成交额2.38→2.49→3.35亿元扩大，新易盛和中际旭创均弱于通信ETF及创业板，反弹承接偏弱。",
+      "最新海外信息不能直接证明本地模块订单取消；无适用统计模型，不给主观百分比。"
+    ],
+    "risk_increases_if": "不能收回206.86元局部反弹高点，等长完整时段回踩成交继续扩大，中际旭创和通信ETF再创新低。",
+    "risk_decreases_if": "收复208.03元并站稳，回踩不再创新低且成交收缩，中际旭创与通信ETF同步修复，进一步站回210.30则反弹结构改善。",
+    "source_timing_note": "Risk frozen from price, relative-strength and completed-bar evidence available at14:36:59. Later overseas article verification is supplemental context and cannot change threshold, creation time or frozen risk.",
+    "intraday_review": {
+      "completed_bars": [
+        {
+          "day": "2026-11-12 09:35:00",
+          "open": "212.500",
+          "high": "219.900",
+          "low": "211.030",
+          "close": "218.790",
+          "volume": "15531164",
+          "amount": "3364876214.1582"
+        },
+        {
+          "day": "2026-11-12 09:40:00",
+          "open": "218.800",
+          "high": "219.880",
+          "low": "216.540",
+          "close": "216.600",
+          "volume": "8273301",
+          "amount": "1807394888.5591"
+        },
+        {
+          "day": "2026-11-12 09:45:00",
+          "open": "216.530",
+          "high": "218.550",
+          "low": "214.020",
+          "close": "218.330",
+          "volume": "6602062",
+          "amount": "1424432559.2777"
+        },
+        {
+          "day": "2026-11-12 09:50:00",
+          "open": "218.330",
+          "high": "221.000",
+          "low": "217.920",
+          "close": "220.990",
+          "volume": "5339948",
+          "amount": "1171599123.3258"
+        },
+        {
+          "day": "2026-11-12 09:55:00",
+          "open": "220.990",
+          "high": "222.200",
+          "low": "220.000",
+          "close": "221.000",
+          "volume": "5051232",
+          "amount": "1117620787.6628"
+        },
+        {
+          "day": "2026-11-12 10:00:00",
+          "open": "221.000",
+          "high": "222.010",
+          "low": "220.200",
+          "close": "221.560",
+          "volume": "2854191",
+          "amount": "631194232.6467"
+        },
+        {
+          "day": "2026-11-12 10:05:00",
+          "open": "221.670",
+          "high": "223.900",
+          "low": "220.100",
+          "close": "223.660",
+          "volume": "3176351",
+          "amount": "707531714.7429"
+        },
+        {
+          "day": "2026-11-12 10:10:00",
+          "open": "223.660",
+          "high": "224.000",
+          "low": "222.000",
+          "close": "223.200",
+          "volume": "3181251",
+          "amount": "709639015.7251"
+        },
+        {
+          "day": "2026-11-12 10:15:00",
+          "open": "223.010",
+          "high": "225.000",
+          "low": "222.380",
+          "close": "224.650",
+          "volume": "2191230",
+          "amount": "489771201.0959"
+        },
+        {
+          "day": "2026-11-12 10:20:00",
+          "open": "224.640",
+          "high": "224.880",
+          "low": "222.330",
+          "close": "223.080",
+          "volume": "2292655",
+          "amount": "513047441.5160"
+        },
+        {
+          "day": "2026-11-12 10:25:00",
+          "open": "222.930",
+          "high": "222.960",
+          "low": "221.000",
+          "close": "222.000",
+          "volume": "2271704",
+          "amount": "504280257.6746"
+        },
+        {
+          "day": "2026-11-12 10:30:00",
+          "open": "221.880",
+          "high": "222.470",
+          "low": "220.030",
+          "close": "221.090",
+          "volume": "1717687",
+          "amount": "379691431.8723"
+        },
+        {
+          "day": "2026-11-12 10:35:00",
+          "open": "221.040",
+          "high": "221.770",
+          "low": "220.000",
+          "close": "220.730",
+          "volume": "1357069",
+          "amount": "299829942.1229"
+        },
+        {
+          "day": "2026-11-12 10:40:00",
+          "open": "220.730",
+          "high": "221.000",
+          "low": "219.000",
+          "close": "219.140",
+          "volume": "1578733",
+          "amount": "347099163.6550"
+        },
+        {
+          "day": "2026-11-12 10:45:00",
+          "open": "219.180",
+          "high": "220.000",
+          "low": "218.900",
+          "close": "219.330",
+          "volume": "1111120",
+          "amount": "243817710.8096"
+        },
+        {
+          "day": "2026-11-12 10:50:00",
+          "open": "219.330",
+          "high": "219.740",
+          "low": "218.830",
+          "close": "219.110",
+          "volume": "1243343",
+          "amount": "272421578.2079"
+        },
+        {
+          "day": "2026-11-12 10:55:00",
+          "open": "219.110",
+          "high": "219.600",
+          "low": "218.330",
+          "close": "218.370",
+          "volume": "1369900",
+          "amount": "299697451.1089"
+        },
+        {
+          "day": "2026-11-12 11:00:00",
+          "open": "218.370",
+          "high": "218.840",
+          "low": "217.880",
+          "close": "218.200",
+          "volume": "1983020",
+          "amount": "432616300.8018"
+        },
+        {
+          "day": "2026-11-12 11:05:00",
+          "open": "218.200",
+          "high": "218.950",
+          "low": "217.800",
+          "close": "218.360",
+          "volume": "1085126",
+          "amount": "236909099.0337"
+        },
+        {
+          "day": "2026-11-12 11:10:00",
+          "open": "218.360",
+          "high": "219.660",
+          "low": "217.770",
+          "close": "219.500",
+          "volume": "861950",
+          "amount": "188326187.8638"
+        },
+        {
+          "day": "2026-11-12 11:15:00",
+          "open": "219.500",
+          "high": "219.500",
+          "low": "217.080",
+          "close": "217.090",
+          "volume": "1041320",
+          "amount": "227071437.2995"
+        },
+        {
+          "day": "2026-11-12 11:20:00",
+          "open": "217.080",
+          "high": "217.240",
+          "low": "215.250",
+          "close": "215.980",
+          "volume": "2755515",
+          "amount": "595086309.9033"
+        },
+        {
+          "day": "2026-11-12 11:25:00",
+          "open": "216.000",
+          "high": "216.250",
+          "low": "214.510",
+          "close": "214.660",
+          "volume": "1821123",
+          "amount": "392296548.3223"
+        },
+        {
+          "day": "2026-11-12 11:30:00",
+          "open": "214.650",
+          "high": "215.990",
+          "low": "214.020",
+          "close": "215.610",
+          "volume": "1715881",
+          "amount": "368572520.7036"
+        },
+        {
+          "day": "2026-11-12 13:05:00",
+          "open": "215.660",
+          "high": "215.700",
+          "low": "212.170",
+          "close": "212.340",
+          "volume": "3565944",
+          "amount": "760597713.8230"
+        },
+        {
+          "day": "2026-11-12 13:10:00",
+          "open": "212.370",
+          "high": "213.000",
+          "low": "211.430",
+          "close": "211.500",
+          "volume": "3153995",
+          "amount": "668901597.0481"
+        },
+        {
+          "day": "2026-11-12 13:15:00",
+          "open": "211.500",
+          "high": "212.400",
+          "low": "210.230",
+          "close": "211.200",
+          "volume": "2533903",
+          "amount": "534854087.5983"
+        },
+        {
+          "day": "2026-11-12 13:20:00",
+          "open": "211.220",
+          "high": "212.770",
+          "low": "210.820",
+          "close": "210.860",
+          "volume": "1204319",
+          "amount": "254880277.6094"
+        },
+        {
+          "day": "2026-11-12 13:25:00",
+          "open": "210.860",
+          "high": "211.040",
+          "low": "210.100",
+          "close": "210.330",
+          "volume": "1581059",
+          "amount": "332858764.7766"
+        },
+        {
+          "day": "2026-11-12 13:30:00",
+          "open": "210.440",
+          "high": "210.710",
+          "low": "209.500",
+          "close": "209.870",
+          "volume": "2280704",
+          "amount": "478657169.5405"
+        },
+        {
+          "day": "2026-11-12 13:35:00",
+          "open": "209.870",
+          "high": "211.000",
+          "low": "209.220",
+          "close": "209.450",
+          "volume": "1530240",
+          "amount": "321656141.8647"
+        },
+        {
+          "day": "2026-11-12 13:40:00",
+          "open": "209.450",
+          "high": "210.160",
+          "low": "209.330",
+          "close": "210.150",
+          "volume": "814020",
+          "amount": "170645047.9771"
+        },
+        {
+          "day": "2026-11-12 13:45:00",
+          "open": "210.160",
+          "high": "210.160",
+          "low": "208.000",
+          "close": "208.070",
+          "volume": "2043709",
+          "amount": "426195832.2780"
+        },
+        {
+          "day": "2026-11-12 13:50:00",
+          "open": "208.080",
+          "high": "208.990",
+          "low": "207.330",
+          "close": "207.370",
+          "volume": "1475020",
+          "amount": "306716406.5552"
+        },
+        {
+          "day": "2026-11-12 13:55:00",
+          "open": "207.370",
+          "high": "207.960",
+          "low": "206.500",
+          "close": "207.500",
+          "volume": "1785240",
+          "amount": "369952291.8374"
+        },
+        {
+          "day": "2026-11-12 14:00:00",
+          "open": "207.350",
+          "high": "207.990",
+          "low": "206.000",
+          "close": "206.010",
+          "volume": "1437840",
+          "amount": "297915899.9111"
+        },
+        {
+          "day": "2026-11-12 14:05:00",
+          "open": "206.020",
+          "high": "206.490",
+          "low": "205.090",
+          "close": "206.480",
+          "volume": "1890205",
+          "amount": "388883480.3784"
+        },
+        {
+          "day": "2026-11-12 14:10:00",
+          "open": "206.480",
+          "high": "207.600",
+          "low": "206.110",
+          "close": "207.560",
+          "volume": "1309100",
+          "amount": "270804158.8315"
+        },
+        {
+          "day": "2026-11-12 14:15:00",
+          "open": "207.550",
+          "high": "209.970",
+          "low": "207.360",
+          "close": "209.550",
+          "volume": "2019180",
+          "amount": "421411340.5229"
+        },
+        {
+          "day": "2026-11-12 14:20:00",
+          "open": "209.660",
+          "high": "210.300",
+          "low": "208.300",
+          "close": "209.370",
+          "volume": "1661172",
+          "amount": "347568048.2307"
+        },
+        {
+          "day": "2026-11-12 14:25:00",
+          "open": "209.330",
+          "high": "209.360",
+          "low": "208.000",
+          "close": "208.000",
+          "volume": "1140760",
+          "amount": "237903583.2442"
+        },
+        {
+          "day": "2026-11-12 14:30:00",
+          "open": "208.010",
+          "high": "208.030",
+          "low": "206.660",
+          "close": "206.760",
+          "volume": "1200940",
+          "amount": "248997386.6768"
+        },
+        {
+          "day": "2026-11-12 14:35:00",
+          "open": "206.760",
+          "high": "206.860",
+          "low": "205.610",
+          "close": "205.680",
+          "volume": "1624640",
+          "amount": "334889508.3596"
+        }
+      ],
+      "latest_completed_bar_time": "2026-11-12 14:35:00",
+      "excluded_unfinished_bars": [
+        {
+          "day": "2026-11-12 14:40:00",
+          "open": "205.690",
+          "high": "205.980",
+          "low": "205.630",
+          "close": "205.860",
+          "volume": "398700",
+          "amount": "82064541.1553"
+        }
+      ],
+      "equal_duration_comparisons": [
+        {
+          "bar_end": "2026-11-12 14:25:00",
+          "high": 209.36,
+          "low": 208.0,
+          "turnover_cny": 237903583.2442,
+          "volume_shares": 1140760
+        },
+        {
+          "bar_end": "2026-11-12 14:30:00",
+          "high": 208.03,
+          "low": 206.66,
+          "turnover_cny": 248997386.6768,
+          "volume_shares": 1200940
+        },
+        {
+          "bar_end": "2026-11-12 14:35:00",
+          "high": 206.86,
+          "low": 205.61,
+          "turnover_cny": 334889508.3596,
+          "volume_shares": 1624640
+        }
+      ],
+      "exact_extremum_tick_times_known": false,
+      "volume_rule": "Only compare completed equal5minute intervals. No partial-day versus prior full-day comparison or institutional-flow inference."
+    }
+  },
+  "overseas": {
+    "prepared_at": "2026-11-12T14:38:44.602456+08:00",
+    "baseline_morning_file": "/tmp/eoptolink-monitor-20261112-1030/overseas/updates.json",
+    "baseline_source_cutoffs_beijing": {
+      "SEC": "2026-11-12T10:35:49+08:00",
+      "news_latest_story": "2026-11-12T10:34:04+08:00",
+      "supplement": "2026-11-12T10:36:45+08:00"
+    },
+    "scope": "BoundedincrementaleightSEC/accessibileIR/newsreview. No mainstate or predictions modified.",
+    "last_completed_US_regular_session": "2026-11-11",
+    "US_regular_close_beijing": "2026-11-12T05:00:00+08:00",
+    "new_US_regular_session_started": false,
+    "next_US_normal_premarket_started": false,
+    "market_context": "At14:36Beijingitis01:36ESTNov12. NewnormalUSpremarketandregularsessionhavenotbegun. RetainNov11normalcloseandsixopticsallroseasoldsession;08:47-08:49afterhourssnapshotsremainoldlabeledsnapshots.Nopricesrefreshedbythisnewsagent.",
+    "SEC_checks": [
+      {
+        "symbol": "LITE",
+        "new_filings_after_cutoff": [],
+        "latest_accepted_utc": "2026-11-10T21:07:33.000Z",
+        "same_raw_as_morning": true
+      },
+      {
+        "symbol": "MRVL",
+        "new_filings_after_cutoff": [],
+        "latest_accepted_utc": "2026-11-10T21:07:33.000Z",
+        "same_raw_as_morning": true
+      },
+      {
+        "symbol": "COHR",
+        "new_filings_after_cutoff": [],
+        "latest_accepted_utc": "2026-11-05T18:14:28.000Z",
+        "same_raw_as_morning": true
+      },
+      {
+        "symbol": "CIEN",
+        "new_filings_after_cutoff": [],
+        "latest_accepted_utc": "2026-11-04T21:41:34.000Z",
+        "same_raw_as_morning": true
+      },
+      {
+        "symbol": "AAOI",
+        "new_filings_after_cutoff": [],
+        "latest_accepted_utc": "2026-11-10T21:38:45.000Z",
+        "same_raw_as_morning": false
+      },
+      {
+        "symbol": "FN",
+        "new_filings_after_cutoff": [],
+        "latest_accepted_utc": "2026-11-05T18:16:20.000Z",
+        "same_raw_as_morning": true
+      },
+      {
+        "symbol": "NVDA",
+        "new_filings_after_cutoff": [],
+        "latest_accepted_utc": "2026-11-06T21:12:02.000Z",
+        "same_raw_as_morning": true
+      },
+      {
+        "symbol": "AVGO",
+        "new_filings_after_cutoff": [],
+        "latest_accepted_utc": "2026-10-27T20:23:36.000Z",
+        "same_raw_as_morning": true
+      }
+    ],
+    "SEC_summary": "No newacceptedfilingsafter10:35:49in8companies. Sevenrawresponsesunchanged;AAOI1000rowsvs1001morningwithmatchingprefixforallexistingfields,oldestrowroll-offonly.",
+    "IR_comparisons": [
+      {
+        "name": "aaoi_ir",
+        "same_raw_as_premarket": false,
+        "same_cleaned_as_premarket": true,
+        "length": 2693
+      },
+      {
+        "name": "mrvl_ir",
+        "same_raw_as_premarket": true,
+        "same_cleaned_as_premarket": true,
+        "length": 4979
+      },
+      {
+        "name": "cohr_ir",
+        "same_raw_as_premarket": true,
+        "same_cleaned_as_premarket": true,
+        "length": 15385
+      },
+      {
+        "name": "nvda_news",
+        "same_raw_as_premarket": true,
+        "same_cleaned_as_premarket": true,
+        "length": 5317
+      },
+      {
+        "name": "cn_300502",
+        "same_raw_as_premarket": true,
+        "same_cleaned_as_premarket": true,
+        "length": 3876
+      },
+      {
+        "name": "cn_300308",
+        "same_raw_as_premarket": true,
+        "same_cleaned_as_premarket": true,
+        "length": 3412
+      },
+      {
+        "name": "cn_603083",
+        "same_raw_as_premarket": true,
+        "same_cleaned_as_premarket": true,
+        "length": 3676
+      }
+    ],
+    "IR_unavailable": [
+      "LITE_HTTP429",
+      "CIEN_HTTP429",
+      "FN_HTTP403",
+      "AVGO_HTTP403"
+    ],
+    "NVDA_official_verification": {
+      "official_decision_or_successor_appointment_verified": false,
+      "news_index_same_raw_as_morning": true,
+      "board_Nov8_same_raw_as_morning": true,
+      "independent_Nov10_same_raw_as_morning": true,
+      "sources": [
+        "https://data.sec.gov/submissions/CIK0001045810.json",
+        "https://nvidianews.nvidia.com/news",
+        "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+        "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+      ],
+      "retrieved_at_beijing": "2026-11-12T14:36:18+08:00 to14:36:21+08:00",
+      "limit": "Nonewdecisionincheckedsourcesisnotproofnoboardmeetingoccurred;oldNov8statementnotcurrentdenial."
+    },
+    "important_new_company_reply": {
+      "published_at_beijing": "2026-11-12T11:44:28+08:00",
+      "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrk8611947.d.html",
+      "text": "【新易盛：9月底部分产品发货受泰国洪灾对物流影响，受影响部分发货已在10月确认】有投资者向新易盛（300502.SZ）提问，据悉由于泰国9月下旬严重洪水灾害，贵司因物流受阻问题导致原计划9月底大批量发货受阻，大量本应在9月确认的收入顺延至10月初，这直接导致了三季度报表收入未能体现出实际的发货规模，造成了业绩“下滑”的假象，贵司第三季度存货相比第二季度也大幅增加，这也侧面解释了正是由于这部分延迟发货的产成品导致了存货大幅增加。请问上述是否属实？11月12日，公司在互动平台回答表示，9月底的部分产品发货受泰国洪灾对物流造成的影响，导致该部分销售收入未能在9月确认，截止目前受影响部分的发货已在10月确认。",
+      "source_level": "reliable_media_not_independently_primary_confirmed",
+      "classification": "New attributed Eoptolink interaction reply on September/October delivery recognition",
+      "limitations": "OriginalSinaarticle read14:37:24. Exactofficialinteractionanswer/timestamp notindependentlyretrieved. OnlycompanyanswerconfirmscertainendSeptemberproductshipmentsaffectedbyThaifloodlogistics andrelatedsalesrevenuenotrecognizedinSeptember; affectedshipmentspartreportedconfirmed inOctober. Noamount, percentorallsales/inventoryexplanationdisclosed. Do notadoptinvestorquestionclaims oflargevolumes,actualreportedQ3decline,orfullinventorycausalityascompanyconfirmedfacts. Historicaldeliveryrecognitionexplanation, notnewlywonordersorforecastguarantee.",
+      "id": "Eoptolink_Thai_flood_Sep_Oct_recognition_reply_20261112_114428",
+      "company_answer_exact_as_reported": "9月底的部分产品发货受泰国洪灾对物流造成的影响，导致该部分销售收入未能在9月确认，截止目前受影响部分的发货已在10月确认。"
+    },
+    "other_new_secondary_reports": [
+      {
+        "published_at_beijing": "2026-11-12T10:46:15+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwri1794564.d.html",
+        "text": "【鑫耀半导体：参加Lumentum核心供应商大会 探讨供应链协同】云南锗业官微消息，近期，光通信公司Lumentum在美国加州圣何塞总部举办2026年度核心战略供应商大会。作为Lumentum的磷化铟衬底战略供应商，云南锗业控股子公司鑫耀半导体受邀出席。鑫耀半导体代表听取了Lumentum管理层的战略分享，并与Lumentum高管及其他供应商合作伙伴就行业技术发展、市场需求变化及供应链协同等话题进行了充分沟通。未来，鑫耀半导体将与Lumentum等全球客户推动光通信及光电子产业的创新发展。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "Xinyao/InP suppliermeetingwithLumentum",
+        "limitations": "MediaquotesYunnanGermaniumofficialWeChat;originalnotretrieved. Attendance/strategic-supplierdescriptiondoesnotconfirmnewquantifiedorders,pricedmaterialsupplycontractsorcapacityavailability."
+      },
+      {
+        "published_at_beijing": "2026-11-12T12:00:59+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrc1246005.d.html",
+        "text": "【瑞可达：1.6T产品已送样北美客户】瑞可达在2026年第三季度业绩说明会上表示，公司业务发展稳定，今年第三季度收入同比、环比均为增长，公司盈利能力良好。今年业绩承压，主要是原材料价格波动叠加研发投入、资本开支、可转债利息摊销等多重因素共同导致。公司400G/800GAEC产品已实现逐步批量交付，产能持续爬坡，1.6T产品也已送样北美客户。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "Recodeal400/800GAECdeliveryand1.6Tsampling",
+        "limitations": "Mediaearnings-meetingstatement;originalnotretrieved. AECactiveelectricalcableisnotidenticaltodatacomopticalmodules. Existingbatchdeliveriesandramping/samplingarenotnewquantifiedEoptolinkorders."
+      },
+      {
+        "published_at_beijing": "2026-11-12T11:48:01+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrc1238950.d.html",
+        "text": "【数据中心热潮遇社区阻力 澳大利亚数周内至少三个项目受阻】-随着澳大利亚公众反对声浪日益高涨，Adelaide附近一个大型数据中心项目因当地社区反对而暂停，成为近几周来该国至少第三个遇阻的数据中心开发项目。Quantum DC Pty Ltd.周四表示，已暂停在南澳大利亚州一座拟建的1200兆瓦超大规模数据中心的规划审批程序，今年不会提交开发申请。Quantum在声明中称，“部分社区成员对项目存在重大担忧”。公司提到，这些担忧涉及Tungkillo项目的选址、用水和供水、能源基础设施，以及对农田的影响。本周，墨尔本一个大型数据中心项目因当地反对而推迟，Nextdc Ltd.首席执行官Craig Scroggie随后表示，会把社区放在首位。此前，Stockland Corp.也因类似反对放弃了在悉尼建设数据中心的计划。在全球范围内，数据中心项目因耗能、耗水和对环境的影响，都面临强烈反对。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "QuantumDC1200MWAustralianprojectapprovalpause",
+        "limitations": "Originalmediaread;QuantumDCstatementnotretrieved. Planningapprovalpausedandno2026developmentapplicationreported;notcompletedfacilityclosureorverifiedEoptolinkordercancellation. Otherprojectreferencesarehistorical/context."
+      },
+      {
+        "published_at_beijing": "2026-11-12T13:34:36+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxf1767349.d.html",
+        "text": "美国众议院两名关键共和党议员表示，国会已准备好向英伟达CEO黄仁勋发出传票。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "TwoHouseRepublicanssaypreparedtosubpoenaJensenHuang",
+        "limitations": "OriginalSinabriefread. Preparedtosubpoenaisnotproofissued/servedsubpoena,courtruling,newtradebanorboarddecision. Originalcongressionalstatementnotretrieved."
+      },
+      {
+        "published_at_beijing": "2026-11-12T12:40:18+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxh8516734.d.html",
+        "text": "【马斯克回应Anthropic或不续租算力：乐意收回】针对Anthropic可能在2027年年中后停止租用SpaceX算力的消息，SpaceX CEO埃隆·马斯克在X平台回应称，公司乐意收回相关算力。但他认为，实际情况可能恰恰相反。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "MuskcommentonpossibleAnthropicSpaceXcapacitynonrenewal",
+        "limitations": "OriginalSinaarticleread;originalXpostnotretrieved. Conditionalnonrenewal/commentnotcontractterminationorverifiedcurrentordercuts. AlreadyknownAnthropicterminationclauseskeeporiginaldates."
+      },
+      {
+        "published_at_beijing": "2026-11-12T12:34:11+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxi3795008.d.html",
+        "text": "【莫迪核心盟友：谷歌项目进展顺利 将新建数据中心】印度南部安得拉邦首席部长N. 钱德拉巴布·奈杜（N. Chandrababu Naidu）表示，Alphabet Inc.（谷歌母公司）在该邦投资150亿美元建设的人工智能（AI）枢纽项目正按计划推进，预计将于2028年投入运营。尽管当地居民对资源紧张问题日益担忧，他仍承诺将为该项目提供不间断的电力和供水保障。奈杜周三在港口城市维沙卡帕特南（Visakhapatnam）接受采访时指出，邦政府已采取各项预防措施，以满足这些项目的能源需求。他还特别提及了黑石集团即将开展的新数据中心投资。“在这个阶段，我们已经没有退路，”他表示，“我们必须将其推进到底。但与此同时，无论是我还是谷歌，都不会在公共利益上做出任何妥协。”",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "AndhraPradeshleaderonGoogleAIhubprogress",
+        "limitations": "OfficialattributedmediacommentaryonexistingUSD15bnhub/2028target;notnewlyannouncedcapexamount,namedmoduleorderorcompleteddeployment."
+      },
+      {
+        "published_at_beijing": "2026-11-12T14:24:12+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxf1810296.d.html",
+        "text": "【AirTrunk签署可再生能源协议，为其澳大利亚数据中心供电】11月12日，数据中心运营商AirTrunk与可再生能源开发商European Energy Australia签署排他性协议，推进澳大利亚新南威尔士州的两个可再生能源项目。拟议项目包括位于亨特-中央海岸可再生能源区（Hunter-Central Coast Renewable Energy Zone）的一座260兆瓦太阳能电站、一个容量至少800兆瓦的电池储能系统以及一座350兆瓦的风电场。这些项目合计可为新南威尔士州电力系统增加超过1吉瓦的新增可再生能源发电和储能容量。两家公司正在推进项目开发，并讨论一项潜在的长期购电协议，以满足AirTrunk在新南威尔士州的能源需求，包括其拟议的Kurri Kurri数据中心园区。这些项目预计将于2030年至2032年之间开始运营。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "AirTrunkrenewabledevelopmentagreement",
+        "limitations": "Development/exclusivityandpotentiallongtermPPA,2030-2032target;notenergydeliveredtodayordirectopticalmodulepurchase."
+      },
+      {
+        "published_at_beijing": "2026-11-12T14:30:13+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynawz1219097.d.html",
+        "text": "【英伟达合作伙伴鸿海受益于AI与双屏iPhone 利润超出预期】鸿海精密工业股份有限公司公布季度利润高于分析师预期，得益于AI热潮以及市场对售价2000美元的双屏iPhone的旺盛消费需求。截至9月的三个月，净利润增长34%至775亿新台币，分析师平均预期为703亿新台币。鸿海目标两年内拿下一半AI服务器市场份额，通过生产更多高价值零部件，将毛利率提升至约10%。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "HonHaiquarterlyresultsmedia",
+        "limitations": "MediareportsquarterprofitNTD77.5bn,+34%,andAIserversharegoal. Originalfinancialrelease/periodnotretrievedinboundedreview;notusedasverifiedfinancialupdateorEoptolinkorderproof."
+      }
+    ],
+    "followups_not_new_confirmed_events": [
+      {
+        "published_at_beijing": "2026-11-12T10:50:54+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrk8573327.d.html",
+        "text": "【Yorkville Ives：若黄仁勋卸任CEO 将把英伟达目标价下调约25%】前韦德布什证券公司分析师丹·艾夫斯创办的Yorkville Ives表示，如果没有黄仁勋，英伟达的目标价将从目前的每股300美元下调约25%至225美元。艾夫斯等分析师在报告中写道，现实是，在公众、客户和科技业眼中，过去那个黄仁勋如今已经不复存在；随着更多消息曝光，董事会也迅速意识到，情势正一天比一天恶化。他们补充称，接下来的关键问题包括：谁将接替黄仁勋、过渡期间的策略路线图为何、董事会是否会有人事变动、该公司将如何应对政府调查等。不过，分析师们表示，该公司及其领先业界的GPU技术仍将继续向前发展，这不会改变英伟达在AI革命芯片军备竞赛中已根深蒂固的地位。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "AnalystconditionalNVIDIAtargetopinion",
+        "limitations": "IfCEOdepartsconditionalvaluationopinion,notactualdepartureorneworderdata."
+      },
+      {
+        "published_at_beijing": "2026-11-12T11:54:02+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrk8619141.d.html",
+        "text": "【三星与SK海力士密切关注英伟达事态发展】据公司内部人士周四透露，三星电子和SK海力士正密切关注其主要客户之一英伟达所面临的领导层不确定性，评估潜在的继任情况。“如果黄离职，难免会影响到业界高层之间的联络与互动，”一位不愿透露姓名的公司内部人士表示，“我们不能排除商业洽谈放缓，或是既定计划发生变动的可能性。”不过，也有内部人士表示，现有的供应协议不太可能受到影响。“黄仁勋已成为人工智能行业的标志性人物，但不能将英伟达乃至整个AI行业简单地等同于他个人，”一位要求匿名的公司高管表示。不过，这位高管提醒称，监管环境的变化或英伟达产品路线图的变动，可能会从长远角度给韩国芯片制造商的生产及投资计划带来复杂影响。“就目前而言，监管风险不太可能削弱美国企业的竞争力，”该高管补充道。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "AnonymousSamsung/SKhynixinsidercommentary",
+        "limitations": "Potentialbusinessdiscussiondelay/routemapriskandbeliefexistingagreementsunlikelyaffectedareopinions,notverifiedchangedagreements."
+      },
+      {
+        "published_at_beijing": "2026-11-12T14:32:11+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxi3882942.d.html",
+        "text": "【SpaceX据悉正在自研AI机架绕过英伟达机架】据市场研究公司SemiAnalysis称，SpaceX正在开发自己的AI机架设计，该设计将使这家火箭和卫星公司能够直接购买英伟达的芯片，同时自行采购大部分周边组件。SpaceX的这款机架名为Kessel，预计将同时服务于地面和轨道数据中心。SemiAnalysis指出，这款产品将使SpaceX不再依赖于英伟达的成品机架，从而使其在选择其他部分的供应商方面拥有更大自主权。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "RepeatSpaceXKesselrackresearchstory",
+        "limitations": "AlreadyreadintheNov12premarketbaselinefromNov11 16:17media. Do notlabelnewdesignannouncementtoday;originalcompanysourceunverified."
+      }
+    ],
+    "new_verified_primary_quantified_optics_order_or_guidance_events": [],
+    "Chinese_sector_context_media": [
+      {
+        "published_at_beijing": "2026-11-12T13:44:26+08:00",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxh8548998.d.html",
+        "text": "【“易中天”集体跳水】CPO概念股冲高回落，“易中天”午后集体转跌。截至发稿，中际旭创跌超5%，新易盛跌超3%，天孚通信跌超1%。",
+        "source_level": "reliable_media_not_independently_primary_confirmed",
+        "classification": "CPOintradaysharepricepullbackatpublication",
+        "limitations": "Historicalmediaquotesat13:44notcurrent14:30quote. ParentownsnewlocalAPIobservations. Do notinferinstitutionalflowfromactivebuy/sellclassifications."
+      }
+    ],
+    "known_background_not_new": [
+      "NVIDIApotentialCEOremoval/successionandCFOColetteKressinterimpreferencefrom10:09media",
+      "CoreWeavepotentialUSD4bnloan",
+      "AnthropicoldNov10S1Aclauses",
+      "NVIDIANov8investigationandNov10independentcounsel",
+      "YesterdayEoptolinknormaldelivery/grossmarginreply",
+      "YesterdaySoftBankOhioclarification",
+      "SpaceXKesselresearchreportedNov11"
+    ],
+    "assessment": "Mostdirectincrementalcompanyevidenceisattributedflood/logisticsrecognitionreply,unquantifiedandnotneworders. NVIDIAnopublicofficialleadershipdecisionverified;newcongressionalpreparation/mediaandprojectpermittingreportsareconditional/companyspecific. Localafternoonpriceweaknessandremainingdeadlineareparentmarketassessment;noverifiedcausalorder-lossinference.",
+    "model": {
+      "validated": false,
+      "probability": null,
+      "output": "暂无可靠百分比"
+    },
+    "retrieval_times_beijing": {
+      "SEC": "2026-11-12T14:36:18+08:00",
+      "IR_and_board": "2026-11-12T14:36:20+08:00 to14:36:21+08:00",
+      "news_feed": "2026-11-12T14:36:22+08:00",
+      "latest_feed_story": "2026-11-12T14:35:50+08:00",
+      "supplement_original_media": "2026-11-12T14:37:24+08:00"
+    },
+    "news_feed_coverage": {
+      "fetched_unique_rows": 800,
+      "range": [
+        "2026-11-12 00:17:17",
+        "2026-11-12 14:35:50"
+      ],
+      "post_cutoff_count": 311
+    },
+    "source_manifests": {
+      "main": [
+        {
+          "name": "mrvl_submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+          "retrieved_at": "2026-11-12T06:36:18.564621+00:00",
+          "ok": true,
+          "length": 136982,
+          "final_url": "https://data.sec.gov/submissions/CIK0001835632.json"
+        },
+        {
+          "name": "lite_submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+          "retrieved_at": "2026-11-12T06:36:18.564296+00:00",
+          "ok": true,
+          "length": 159166,
+          "final_url": "https://data.sec.gov/submissions/CIK0001633978.json"
+        },
+        {
+          "name": "avgo_submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+          "retrieved_at": "2026-11-12T06:36:18.565523+00:00",
+          "ok": true,
+          "length": 160094,
+          "final_url": "https://data.sec.gov/submissions/CIK0001730168.json"
+        },
+        {
+          "name": "nvda_submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+          "retrieved_at": "2026-11-12T06:36:18.565377+00:00",
+          "ok": true,
+          "length": 159914,
+          "final_url": "https://data.sec.gov/submissions/CIK0001045810.json"
+        },
+        {
+          "name": "cien_submissions",
+          "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+          "retrieved_at": "2026-11-12T06:36:18.565004+00:00",
+          "ok": true,
+          "length": 158567,
+          "final_url": "https://data.sec.gov/submissions/CIK0000936395.json"
+        },
+        {
+          "name": "aaoi_submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+          "retrieved_at": "2026-11-12T06:36:18.565144+00:00",
+          "ok": true,
+          "length": 154584,
+          "final_url": "https://data.sec.gov/submissions/CIK0001158114.json"
+        },
+        {
+          "name": "cohr_submissions",
+          "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+          "retrieved_at": "2026-11-12T06:36:18.564822+00:00",
+          "ok": true,
+          "length": 160624,
+          "final_url": "https://data.sec.gov/submissions/CIK0000820318.json"
+        },
+        {
+          "name": "fn_submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+          "retrieved_at": "2026-11-12T06:36:18.565262+00:00",
+          "ok": true,
+          "length": 155153,
+          "final_url": "https://data.sec.gov/submissions/CIK0001408710.json"
+        },
+        {
+          "name": "nvda_board",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "retrieved_at": "2026-11-12T06:36:20.700122+00:00",
+          "ok": true,
+          "length": 59621,
+          "final_url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+        },
+        {
+          "name": "nvda_news",
+          "url": "https://nvidianews.nvidia.com/news",
+          "retrieved_at": "2026-11-12T06:36:20.661822+00:00",
+          "ok": true,
+          "length": 69005,
+          "final_url": "https://nvidianews.nvidia.com/news"
+        },
+        {
+          "name": "nvda_independent",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+          "retrieved_at": "2026-11-12T06:36:21.291239+00:00",
+          "ok": true,
+          "length": 59324,
+          "final_url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+        },
+        {
+          "name": "mrvl_ir",
+          "url": "https://investor.marvell.com/news-events/press-releases",
+          "retrieved_at": "2026-11-12T06:36:20.424077+00:00",
+          "ok": true,
+          "length": 114868,
+          "final_url": "https://investor.marvell.com/news-events/press-releases"
+        },
+        {
+          "name": "cohr_ir",
+          "url": "https://www.coherent.com/news",
+          "retrieved_at": "2026-11-12T06:36:20.529327+00:00",
+          "ok": true,
+          "length": 170108,
+          "final_url": "https://www.coherent.com/news"
+        },
+        {
+          "name": "cn_300502",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+          "retrieved_at": "2026-11-12T06:36:21.695450+00:00",
+          "ok": true,
+          "length": 55675,
+          "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml"
+        },
+        {
+          "name": "cn_300308",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300308.phtml",
+          "retrieved_at": "2026-11-12T06:36:21.804251+00:00",
+          "ok": true,
+          "length": 55191,
+          "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300308.phtml"
+        },
+        {
+          "name": "cn_603083",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/603083.phtml",
+          "retrieved_at": "2026-11-12T06:36:21.982461+00:00",
+          "ok": true,
+          "length": 55462,
+          "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/603083.phtml"
+        },
+        {
+          "name": "live_news_1",
+          "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+          "retrieved_at": "2026-11-12T06:36:22.036682+00:00",
+          "ok": true,
+          "length": 204650,
+          "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0"
+        },
+        {
+          "name": "live_news_2",
+          "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+          "retrieved_at": "2026-11-12T06:36:22.177246+00:00",
+          "ok": true,
+          "length": 283596,
+          "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0"
+        },
+        {
+          "name": "live_news_3",
+          "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+          "retrieved_at": "2026-11-12T06:36:22.295625+00:00",
+          "ok": true,
+          "length": 259502,
+          "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0"
+        },
+        {
+          "name": "live_news_4",
+          "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+          "retrieved_at": "2026-11-12T06:36:22.409003+00:00",
+          "ok": true,
+          "length": 215894,
+          "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0"
+        },
+        {
+          "name": "live_news_5",
+          "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+          "retrieved_at": "2026-11-12T06:36:22.598902+00:00",
+          "ok": true,
+          "length": 238955,
+          "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0"
+        },
+        {
+          "name": "cien_ir",
+          "url": "https://investor.ciena.com/news-releases",
+          "retrieved_at": "2026-11-12T06:36:20.608756+00:00",
+          "ok": false,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "name": "live_news_6",
+          "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+          "retrieved_at": "2026-11-12T06:36:22.680197+00:00",
+          "ok": true,
+          "length": 262366,
+          "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0"
+        },
+        {
+          "name": "live_news_7",
+          "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0",
+          "retrieved_at": "2026-11-12T06:36:22.827536+00:00",
+          "ok": true,
+          "length": 210195,
+          "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0"
+        },
+        {
+          "name": "live_news_8",
+          "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0",
+          "retrieved_at": "2026-11-12T06:36:22.970380+00:00",
+          "ok": true,
+          "length": 263496,
+          "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0"
+        },
+        {
+          "name": "avgo_ir",
+          "url": "https://investors.broadcom.com/news-releases",
+          "retrieved_at": "2026-11-12T06:36:21.305524+00:00",
+          "ok": false,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "name": "fn_ir",
+          "url": "https://investor.fabrinet.com/news-releases",
+          "retrieved_at": "2026-11-12T06:36:20.627029+00:00",
+          "ok": false,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "name": "lite_ir",
+          "url": "https://investor.lumentum.com/news-events/press-releases",
+          "retrieved_at": "2026-11-12T06:36:20.597304+00:00",
+          "ok": false,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "name": "aaoi_ir",
+          "url": "https://investors.ao-inc.com/",
+          "retrieved_at": "2026-11-12T06:36:20.350614+00:00",
+          "ok": true,
+          "length": 44035,
+          "final_url": "https://investors.ao-inc.com/"
+        }
+      ],
+      "supplement": [
+        {
+          "name": "musk_anthropic_media",
+          "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxh8516734.d.html",
+          "retrieved_at": "2026-11-12T06:37:24.774794+00:00",
+          "ok": true,
+          "length": 27847
+        },
+        {
+          "name": "nvda_subpoena_media",
+          "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniynaxf1767349.d.html",
+          "retrieved_at": "2026-11-12T06:37:24.774212+00:00",
+          "ok": true,
+          "length": 27793
+        },
+        {
+          "name": "ruike_da_media",
+          "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrc1246005.d.html",
+          "retrieved_at": "2026-11-12T06:37:24.774661+00:00",
+          "ok": true,
+          "length": 28280
+        },
+        {
+          "name": "lite_inp_supplier_media",
+          "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwri1794564.d.html",
+          "retrieved_at": "2026-11-12T06:37:24.774531+00:00",
+          "ok": true,
+          "length": 28778
+        },
+        {
+          "name": "quantumdc_media",
+          "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrc1238950.d.html",
+          "retrieved_at": "2026-11-12T06:37:24.774386+00:00",
+          "ok": true,
+          "length": 29208
+        },
+        {
+          "name": "eoptolink_flood_media",
+          "url": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrk8611947.d.html",
+          "retrieved_at": "2026-11-12T06:37:24.773902+00:00",
+          "ok": true,
+          "length": 28999
+        }
+      ]
+    },
+    "seen_events_additions": [
+      {
+        "id": "Eoptolink_Thai_flood_Sep_Oct_recognition_reply_20261112_114428",
+        "source": "https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrk8611947.d.html",
+        "published_at": "2026-11-12T11:44:28+08:00",
+        "first_reported_at": "2026-11-12T14:38:44.602456+08:00",
+        "classification": "newcompanyreplyasmediaattribution"
+      }
+    ],
+    "limitations": [
+      "FourIRsitesinaccessible;boundedreviewisnotglobalabsenceproof.",
+      "Companyinteractiveanswersofficialprimaryrecordsnotretrieved;Sinaoriginalsread.",
+      "Newheadlinefactsandconditionalprojectionsseparatedfrominvestorquestionclaims.",
+      "NoofficialNVIDIAleadershipoutcomefound.",
+      "NoUSpricerefreshbythisagent;retainedoldpricecontextnotrealtime.",
+      "Novalidatedprobabilitymodel."
+    ],
+    "main_directory_modified": false,
+    "market_evidence": {
+      "LITE": {
+        "symbol": "LITE",
+        "name": "Lumentum",
+        "regular_close": 648.06,
+        "previous_regular_close": 585.57,
+        "open": 641.5,
+        "regular_change_pct": 10.67,
+        "high": 678.67,
+        "low": 633.59,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:00:01-05:00",
+        "source_last_update_beijing": "2026-11-12T05:00:01+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 648.06,
+          "regular_change_pct": 10.67,
+          "regular_close_label_exchange": "Nov 11 04:00PM EST",
+          "provider_update_beijing": "2026-11-12 08:49:33",
+          "source": "sina_final.raw"
+        },
+        "afterhours": {
+          "price": 630.4734,
+          "change_vs_regular_close_pct": -2.71,
+          "time_exchange": "2026-11-11T19:49:00-05:00",
+          "time_beijing": "2026-11-12T08:49:00+08:00",
+          "session": "afterhours",
+          "source": "sina_final.raw",
+          "snapshot_not_final": true
+        },
+        "close_vs_open_pct": 1.0226032735775492,
+        "ohlc_does_not_establish_intraday_path": true,
+        "historical_rows_returned": 1,
+        "historical_dates_returned": [
+          "2026-11-11"
+        ],
+        "five_twenty_day_return": null,
+        "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+      },
+      "MRVL": {
+        "symbol": "MRVL",
+        "name": "迈威尔科技",
+        "regular_close": 168.8,
+        "previous_regular_close": 154.39,
+        "open": 167.05,
+        "regular_change_pct": 9.33,
+        "high": 174.53,
+        "low": 162.5,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:00:01-05:00",
+        "source_last_update_beijing": "2026-11-12T05:00:01+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 168.8,
+          "regular_change_pct": 9.33,
+          "regular_close_label_exchange": "Nov 11 04:00PM EST",
+          "provider_update_beijing": "2026-11-12 08:49:39",
+          "source": "sina_final.raw"
+        },
+        "afterhours": {
+          "price": 163.7859,
+          "change_vs_regular_close_pct": -2.97,
+          "time_exchange": "2026-11-11T19:49:00-05:00",
+          "time_beijing": "2026-11-12T08:49:00+08:00",
+          "session": "afterhours",
+          "source": "sina_final.raw",
+          "snapshot_not_final": true
+        },
+        "close_vs_open_pct": 1.0475905417539622,
+        "ohlc_does_not_establish_intraday_path": true,
+        "historical_rows_returned": 2,
+        "historical_dates_returned": [
+          "2011-06-02",
+          "2026-11-11"
+        ],
+        "five_twenty_day_return": null,
+        "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+      },
+      "COHR": {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "regular_close": 234.51,
+        "previous_regular_close": 214.66,
+        "open": 235.66,
+        "regular_change_pct": 9.25,
+        "high": 245.73,
+        "low": 223.52,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:04:18-05:00",
+        "source_last_update_beijing": "2026-11-12T05:04:18+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 234.51,
+          "regular_change_pct": 9.25,
+          "regular_close_label_exchange": "Nov 11 04:00PM EST",
+          "provider_update_beijing": "2026-11-12 08:49:35",
+          "source": "sina_final.raw"
+        },
+        "afterhours": {
+          "price": 226.31,
+          "change_vs_regular_close_pct": -3.5,
+          "time_exchange": "2026-11-11T19:49:00-05:00",
+          "time_beijing": "2026-11-12T08:49:00+08:00",
+          "session": "afterhours",
+          "source": "sina_final.raw",
+          "snapshot_not_final": true
+        },
+        "close_vs_open_pct": -0.48799117372485545,
+        "ohlc_does_not_establish_intraday_path": true,
+        "historical_rows_returned": 2,
+        "historical_dates_returned": [
+          "2011-06-02",
+          "2026-11-11"
+        ],
+        "five_twenty_day_return": null,
+        "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+      },
+      "CIEN": {
+        "symbol": "CIEN",
+        "name": "Ciena科技",
+        "regular_close": 296.04,
+        "previous_regular_close": 272.1,
+        "open": 295.22,
+        "regular_change_pct": 8.8,
+        "high": 305.29,
+        "low": 286.0,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:04:18-05:00",
+        "source_last_update_beijing": "2026-11-12T05:04:18+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 296.04,
+          "regular_change_pct": 8.8,
+          "regular_close_label_exchange": "Nov 11 04:00PM EST",
+          "provider_update_beijing": "2026-11-12 08:49:40",
+          "source": "sina_final.raw"
+        },
+        "afterhours": {
+          "price": 289.4888,
+          "change_vs_regular_close_pct": -2.21,
+          "time_exchange": "2026-11-11T19:47:00-05:00",
+          "time_beijing": "2026-11-12T08:47:00+08:00",
+          "session": "afterhours",
+          "source": "sina_final.raw",
+          "snapshot_not_final": true
+        },
+        "close_vs_open_pct": 0.27775895942008244,
+        "ohlc_does_not_establish_intraday_path": true,
+        "historical_rows_returned": 2,
+        "historical_dates_returned": [
+          "2011-06-02",
+          "2026-11-11"
+        ],
+        "five_twenty_day_return": null,
+        "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+      },
+      "AAOI": {
+        "symbol": "AAOI",
+        "name": "应用光电",
+        "regular_close": 55.86,
+        "previous_regular_close": 48.32,
+        "open": 51.61,
+        "regular_change_pct": 15.6,
+        "high": 57.93,
+        "low": 51.53,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:00:01-05:00",
+        "source_last_update_beijing": "2026-11-12T05:00:01+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 55.86,
+          "regular_change_pct": 15.6,
+          "regular_close_label_exchange": "Nov 11 04:00PM EST",
+          "provider_update_beijing": "2026-11-12 08:49:31",
+          "source": "sina_final.raw"
+        },
+        "afterhours": {
+          "price": 53.69,
+          "change_vs_regular_close_pct": -3.88,
+          "time_exchange": "2026-11-11T19:49:00-05:00",
+          "time_beijing": "2026-11-12T08:49:00+08:00",
+          "session": "afterhours",
+          "source": "sina_final.raw",
+          "snapshot_not_final": true
+        },
+        "close_vs_open_pct": 8.234838209649297,
+        "ohlc_does_not_establish_intraday_path": true,
+        "historical_rows_returned": 1,
+        "historical_dates_returned": [
+          "2026-11-11"
+        ],
+        "five_twenty_day_return": null,
+        "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+      },
+      "FN": {
+        "symbol": "FN",
+        "name": "Fabrinet",
+        "regular_close": 369.01,
+        "previous_regular_close": 348.52,
+        "open": 373.0,
+        "regular_change_pct": 5.88,
+        "high": 379.43,
+        "low": 359.6,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:04:18-05:00",
+        "source_last_update_beijing": "2026-11-12T05:04:18+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 369.01,
+          "regular_change_pct": 5.88,
+          "regular_close_label_exchange": "Nov 11 04:00PM EST",
+          "provider_update_beijing": "2026-11-12 08:49:14",
+          "source": "sina_final.raw"
+        },
+        "afterhours": {
+          "price": 357.0927,
+          "change_vs_regular_close_pct": -3.23,
+          "time_exchange": "2026-11-11T19:47:00-05:00",
+          "time_beijing": "2026-11-12T08:47:00+08:00",
+          "session": "afterhours",
+          "source": "sina_final.raw",
+          "snapshot_not_final": true
+        },
+        "close_vs_open_pct": -1.0697050938337838,
+        "ohlc_does_not_establish_intraday_path": true,
+        "historical_rows_returned": 2,
+        "historical_dates_returned": [
+          "2011-06-02",
+          "2026-11-11"
+        ],
+        "five_twenty_day_return": null,
+        "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+      },
+      "NVDA": {
+        "symbol": "NVDA",
+        "name": "英伟达",
+        "regular_close": 173.73,
+        "previous_regular_close": 168.89,
+        "open": 172.8,
+        "regular_change_pct": 2.87,
+        "high": 177.54,
+        "low": 170.77,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:00:01-05:00",
+        "source_last_update_beijing": "2026-11-12T05:00:01+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 173.73,
+          "regular_change_pct": 2.87,
+          "regular_close_label_exchange": "Nov 11 04:00PM EST",
+          "provider_update_beijing": "2026-11-12 08:49:40",
+          "source": "sina_final.raw"
+        },
+        "afterhours": {
+          "price": 158.71,
+          "change_vs_regular_close_pct": -8.65,
+          "time_exchange": "2026-11-11T19:49:00-05:00",
+          "time_beijing": "2026-11-12T08:49:00+08:00",
+          "session": "afterhours",
+          "source": "sina_final.raw",
+          "snapshot_not_final": true
+        },
+        "close_vs_open_pct": 0.5381944444444287,
+        "ohlc_does_not_establish_intraday_path": true
+      },
+      "AVGO": {
+        "symbol": "AVGO",
+        "name": "博通",
+        "regular_close": 345.22,
+        "previous_regular_close": 331.98,
+        "open": 350.0,
+        "regular_change_pct": 3.99,
+        "high": 356.85,
+        "low": 344.32,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:00:01-05:00",
+        "source_last_update_beijing": "2026-11-12T05:00:01+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 345.22,
+          "regular_change_pct": 3.99,
+          "regular_close_label_exchange": "Nov 11 04:00PM EST",
+          "provider_update_beijing": "2026-11-12 08:49:38",
+          "source": "sina_final.raw"
+        },
+        "afterhours": {
+          "price": 352.76,
+          "change_vs_regular_close_pct": 2.18,
+          "time_exchange": "2026-11-11T19:49:00-05:00",
+          "time_beijing": "2026-11-12T08:49:00+08:00",
+          "session": "afterhours",
+          "source": "sina_final.raw",
+          "snapshot_not_final": true
+        },
+        "close_vs_open_pct": -1.3657142857142812,
+        "ohlc_does_not_establish_intraday_path": true
+      },
+      ".IXIC": {
+        "symbol": ".IXIC",
+        "name": "纳斯达克",
+        "regular_close": 25466.19,
+        "previous_regular_close": 25065.87,
+        "open": 25448.8,
+        "regular_change_pct": 1.6,
+        "high": 25649.85,
+        "low": 25326.69,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": null,
+        "source_last_update_exchange": "2026-11-11T17:15:59-05:00",
+        "source_last_update_beijing": "2026-11-12T06:15:59+08:00",
+        "source": "quotes_final.raw",
+        "sina_crosscheck": {
+          "regular_close": 25466.1889,
+          "regular_change_pct": 1.6,
+          "provider_update_beijing": "2026-11-12 06:30:00",
+          "provider_exchange_label": "Nov 11 05:16PM EST"
+        }
+      },
+      "SOXX": {
+        "symbol": "SOXX",
+        "name": "费城半导体ETF-iShares",
+        "regular_close": 155.4,
+        "previous_regular_close": 146.59,
+        "open": 153.52,
+        "regular_change_pct": 6.01,
+        "high": 158.58,
+        "low": 150.88,
+        "session_date": "2026-11-11",
+        "session": "regular_close",
+        "currency": "USD",
+        "source_last_update_exchange": "2026-11-11T16:00:01-05:00",
+        "source_last_update_beijing": "2026-11-12T05:00:01+08:00",
+        "source": "quotes_final.raw"
+      },
+      "SOX": {
+        "symbol": "SOX",
+        "name": "费交所半导体股指数",
+        "regular_close": 10564.1111,
+        "regular_change_pct": 5.66,
+        "previous_regular_close": 9998.3303,
+        "open": 10469.043,
+        "high": 10787.0555,
+        "low": 10287.3221,
+        "session_date": "2026-11-11",
+        "session": "regular_session_index_value",
+        "provider_update_beijing": "2026-11-12 06:16:01",
+        "provider_exchange_label": "Nov 11 05:16PM EST",
+        "source": "sina_final.raw",
+        "afterhours": null,
+        "note": "Index dissemination timestamp after16:00ET is not an after-hours traded session. Independent second SOX index provider not obtained; SOXX ETF is distinct."
+      }
+    },
+    "market_evidence_provenance": {
+      "source_observation": "observations/2026-11-12-1036.json",
+      "original_premarket_observation": "../overseas-optics-premarket/observations/2026-11-12-0852.json",
+      "regular_session": "2026-11-11",
+      "afterhours_snapshot_beijing": "2026-11-12T08:47:00+08:00 to08:49:00+08:00",
+      "refetched_this_run": false,
+      "new_US_regular_session_started": false
+    }
+  },
+  "prior_predictions_progress": [
+    {
+      "prediction_id": "2026-11-12-1036-L21103",
+      "forecast_start": "2026-11-12T10:36:41+08:00",
+      "threshold": 211.03,
+      "original_risk": "中等",
+      "deadline": "2026-11-12T15:00:00+08:00",
+      "progress_asof": "2026-11-12T14:36:54+08:00",
+      "cumulative_day_low": 205.09,
+      "strict_breach_observed_so_far": true,
+      "closing_breach": null,
+      "final_result": null,
+      "status": "pending",
+      "settled": false,
+      "evidence": {
+        "source": "m5_final.txt",
+        "cumulative_day_low": 205.09,
+        "completed_interval_start": "2026-11-12T13:10:00+08:00",
+        "completed_interval_end": "2026-11-12T13:15:00+08:00",
+        "low": 210.23,
+        "original_threshold": 211.03,
+        "raw_bar": {
+          "day": "2026-11-12 13:15:00",
+          "open": "211.500",
+          "high": "212.400",
+          "low": "210.230",
+          "close": "211.200",
+          "volume": "2533903",
+          "amount": "534854087.5983"
+        },
+        "wholly_inside_original_forecast_window": true,
+        "exact_first_tick_time": null,
+        "logic": "A complete five-minute interval wholly after morning forecast start proves at least one trade below211.03. Bar endpoint is not the first breach tick. No closing outcome yet."
+      },
+      "note": "Progress only before15:00; original morning fields retained byte-for-byte in pending record."
+    }
+  ],
+  "pending_predictions": [
+    {
+      "id": "2026-11-12-1036-L21103",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-12T10:30:00+08:00",
+      "triggered_at": "2026-11-12T10:34:35.982+08:00",
+      "created_at": "2026-11-12T10:36:41+08:00",
+      "forecast_start": "2026-11-12T10:36:41+08:00",
+      "snapshot_time": "2026-11-12T10:36:36+08:00",
+      "threshold": 211.03,
+      "comparison": "strictly_less_than",
+      "event": "Any traded price strictly below211.03 after forecast_start and by deadline",
+      "deadline": "2026-11-12T15:00:00+08:00",
+      "risk": "中等",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "Morning forecast starts at actual creation, never backdated to10:30 or trigger. The contemporaneous cumulative day low is frozen independently of yesterday predictions and historical179.83 line. No tickstream between snapshot and creation; actual quote age retained."
+    },
+    {
+      "id": "2026-11-12-1436-L20509",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-12T14:30:00+08:00",
+      "triggered_at": "2026-11-12T14:35:08.913+08:00",
+      "created_at": "2026-11-12T14:36:59+08:00",
+      "forecast_start": "2026-11-12T14:36:59+08:00",
+      "snapshot_time": "2026-11-12T14:36:54+08:00",
+      "threshold": 205.09,
+      "comparison": "strictly_less_than",
+      "event": "Any traded price strictly below205.09 after forecast_start and by deadline",
+      "deadline": "2026-11-12T15:00:00+08:00",
+      "risk": "偏高",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "Independent afternoon forecast starts at actual creation, never backdated to14:30 or trigger. The cumulative day low is frozen independently; the morning211.03forecast retains original start, risk and15:00deadline, with progress only and no premature final settlement. Historical179.83reference line remains immutable. No tickstream between snapshot and creation; actual quote age retained."
+    }
+  ],
+  "settled_predictions": [],
+  "settlement_audit": {
+    "checked_at": "2026-11-12T14:35:54.384901+08:00",
+    "scope": "Read-only state and latest morning-observation immutability audit. No network quote retrieval or final settlement.",
+    "state_path": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/state.json",
+    "state_sha256": "ba6089182c9b3b2564010f0eba99b5ed322c07e27add830e5848e7b87a0ca233",
+    "original_observation_path": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-12-1036.json",
+    "original_observation_sha256": "5c348a84ba6ca0fe4314699057ba969d738e287e9e15bf2d1630a90e35412c08",
+    "pending_prediction_count": 1,
+    "morning_prediction": {
+      "id": "2026-11-12-1036-L21103",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-12T10:30:00+08:00",
+      "triggered_at": "2026-11-12T10:34:35.982+08:00",
+      "created_at": "2026-11-12T10:36:41+08:00",
+      "forecast_start": "2026-11-12T10:36:41+08:00",
+      "snapshot_time": "2026-11-12T10:36:36+08:00",
+      "threshold": 211.03,
+      "comparison": "strictly_less_than",
+      "event": "Any traded price strictly below211.03 after forecast_start and by deadline",
+      "deadline": "2026-11-12T15:00:00+08:00",
+      "risk": "中等",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "Morning forecast starts at actual creation, never backdated to10:30 or trigger. The contemporaneous cumulative day low is frozen independently of yesterday predictions and historical179.83 line. No tickstream between snapshot and creation; actual quote age retained."
+    },
+    "frozen_fields_match_original_observation": true,
+    "frozen_fields_audit": {
+      "id": true,
+      "symbol": true,
+      "scheduled_check_at": true,
+      "triggered_at": true,
+      "created_at": true,
+      "forecast_start": true,
+      "snapshot_time": true,
+      "threshold": true,
+      "comparison": true,
+      "event": true,
+      "deadline": true,
+      "risk": true,
+      "numeric_probability": true,
+      "model_validated": true,
+      "status": true,
+      "settled": true,
+      "note": true
+    },
+    "expired_unsettled_prediction_ids": [],
+    "expired_unsettled_count": 0,
+    "previously_completed_count": 14,
+    "settled_history_unique_id_count": 14,
+    "previously_completed_duplicate_ids": [],
+    "previously_completed_ids": [
+      "2026-11-03-1430-L17160",
+      "2026-11-04-0938-L17415",
+      "2026-11-04-1033-L17347",
+      "2026-11-04-1435-L17200",
+      "2026-11-05-1036-L18051",
+      "2026-11-05-1438-L17764",
+      "2026-11-06-1032-L16116",
+      "2026-11-06-1439-L16116",
+      "2026-11-09-1051-L16901",
+      "2026-11-09-1433-L16901",
+      "2026-11-10-1036-L18501",
+      "2026-11-10-1437-L18343",
+      "2026-11-11-1031-L18730",
+      "2026-11-11-1434-L18730"
+    ],
+    "reported_completed_count": 14,
+    "reported_count_matches_settled_history": true,
+    "settled_history_baseline": [
+      {
+        "id": "2026-11-03-1430-L17160",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-04T09:02:06+08:00"
+      },
+      {
+        "id": "2026-11-04-0938-L17415",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": true,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-05T10:36:31+08:00"
+      },
+      {
+        "id": "2026-11-04-1033-L17347",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": true,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-05T10:36:31+08:00"
+      },
+      {
+        "id": "2026-11-04-1435-L17200",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-05T10:36:31+08:00"
+      },
+      {
+        "id": "2026-11-05-1036-L18051",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": true,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-06T10:32:43+08:00"
+      },
+      {
+        "id": "2026-11-05-1438-L17764",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-06T10:32:43+08:00"
+      },
+      {
+        "id": "2026-11-06-1032-L16116",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-09T10:51:42+08:00"
+      },
+      {
+        "id": "2026-11-06-1439-L16116",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-09T10:51:42+08:00"
+      },
+      {
+        "id": "2026-11-09-1051-L16901",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-10T10:36:15+08:00"
+      },
+      {
+        "id": "2026-11-09-1433-L16901",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-10T10:36:15+08:00"
+      },
+      {
+        "id": "2026-11-10-1036-L18501",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": true,
+        "closing_breach_occurred": true,
+        "resolved_at": "2026-11-11T10:31:15+08:00"
+      },
+      {
+        "id": "2026-11-10-1437-L18343",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": true,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-11T10:31:15+08:00"
+      },
+      {
+        "id": "2026-11-11-1031-L18730",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-12T10:36:41+08:00"
+      },
+      {
+        "id": "2026-11-11-1434-L18730",
+        "status": "settled",
+        "settled": true,
+        "event_occurred": false,
+        "closing_breach_occurred": false,
+        "resolved_at": "2026-11-12T10:36:41+08:00"
+      }
+    ],
+    "pending_and_settled_id_overlap": [],
+    "newly_settled_count": 0,
+    "settlements": [],
+    "morning_final_settlement_permitted_at_audit": false,
+    "morning_deadline_not_reached": true,
+    "reason": "Morning211.030forecast has original15:00deadline. Current audit is before deadline. Report progress only, preserving actual10:36:41start, snapshot10:36:36, originalrisk中等 and211.030threshold.",
+    "required_afternoon_handling": "Do not settle morning forecast before15:00. If current timestamped evidence proves a lower trade, report interim progress only. Create an independent afternoon frozen-low prediction using actual creation time; keep original morning fields unchanged.",
+    "all_original_frozen_fields_preserved": true,
+    "no_hit_rate": true,
+    "probability_model": {
+      "validated": false,
+      "probability": null,
+      "output": "暂无可靠百分比；按可核实证据进行条件风险判断"
+    },
+    "main_state_modified_by_auditor": false,
+    "historical_observation_modified_by_auditor": false,
+    "state_bytes_unchanged": true,
+    "observation_bytes_unchanged": true,
+    "applied_at": "2026-11-12T14:39:33.590536+08:00",
+    "completed_count_after_application": 12,
+    "morning_forecast_progress_only": true,
+    "final_settlement_performed": false
+  },
+  "sources": [
+    {
+      "name": "quotes.txt",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+      "ok": true,
+      "bytes": 2097,
+      "retrieved_at": "2026-11-12T14:36:18.323542+08:00",
+      "started_at": "2026-11-12T14:36:18.207103+08:00",
+      "raw_evidence_file": "evidence/2026-11-12-1436/quotes.txt"
+    },
+    {
+      "name": "sina.txt",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "ok": true,
+      "bytes": 1016,
+      "retrieved_at": "2026-11-12T14:36:18.323293+08:00",
+      "started_at": "2026-11-12T14:36:18.207462+08:00",
+      "raw_evidence_file": "evidence/2026-11-12-1436/sina.txt"
+    },
+    {
+      "name": "minute.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+      "ok": true,
+      "bytes": 9590,
+      "retrieved_at": "2026-11-12T14:36:18.356849+08:00",
+      "started_at": "2026-11-12T14:36:18.207710+08:00",
+      "raw_evidence_file": "evidence/2026-11-12-1436/minute.json"
+    },
+    {
+      "name": "minute_peer.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300308",
+      "ok": true,
+      "bytes": 9547,
+      "retrieved_at": "2026-11-12T14:36:18.356989+08:00",
+      "started_at": "2026-11-12T14:36:18.207909+08:00",
+      "raw_evidence_file": "evidence/2026-11-12-1436/minute_peer.json"
+    },
+    {
+      "name": "minute_etf.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh515880",
+      "ok": true,
+      "bytes": 9514,
+      "retrieved_at": "2026-11-12T14:36:18.355537+08:00",
+      "started_at": "2026-11-12T14:36:18.208048+08:00",
+      "raw_evidence_file": "evidence/2026-11-12-1436/minute_etf.json"
+    },
+    {
+      "name": "m5.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=120",
+      "ok": true,
+      "bytes": 17199,
+      "retrieved_at": "2026-11-12T14:36:18.508820+08:00",
+      "started_at": "2026-11-12T14:36:18.208175+08:00",
+      "raw_evidence_file": "evidence/2026-11-12-1436/m5.txt"
+    },
+    {
+      "name": "announcements.html",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "ok": true,
+      "bytes": 55675,
+      "retrieved_at": "2026-11-12T14:36:18.602192+08:00",
+      "started_at": "2026-11-12T14:36:18.208344+08:00",
+      "raw_evidence_file": "evidence/2026-11-12-1436/announcements.html"
+    },
+    {
+      "name": "quotes_final.txt",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+      "started_at": "2026-11-12T14:36:59.178824+08:00",
+      "retrieved_at": "2026-11-12T14:36:59.233380+08:00",
+      "bytes": 2096,
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-12-1436/quotes_final.txt"
+    },
+    {
+      "name": "sina_final.txt",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "started_at": "2026-11-12T14:36:59.179179+08:00",
+      "retrieved_at": "2026-11-12T14:36:59.246908+08:00",
+      "bytes": 1015,
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-12-1436/sina_final.txt"
+    },
+    {
+      "name": "m5_final.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=120",
+      "started_at": "2026-11-12T14:36:59.179362+08:00",
+      "retrieved_at": "2026-11-12T14:36:59.455190+08:00",
+      "bytes": 17199,
+      "ok": true,
+      "raw_evidence_file": "evidence/2026-11-12-1436/m5_final.txt"
+    }
+  ],
+  "data_gaps": [
+    "No validated model suitable for this start time, horizon and strict-low event; no numerical probability.",
+    "No tickstream between quote14:36:54and creation14:36:59; five-second age retained.",
+    "Exact historical first breach and exact current-session extrema tick times unknown.",
+    "Four overseas IR sites inaccessible; bounded review not exhaustive.",
+    "Company interaction response independently available only via reliable-media attribution; primary page returned shell.",
+    "US regular prices reused with original Nov11session; no new normal session or premarket as of current Beijing time.",
+    "Communication ETF is a sector proxy."
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "prepared_at": "2026-11-12T14:39:33.590536+08:00",
+    "delivery_status": "prepared_for_final_response",
+    "reason": "User explicitly requests both daily checks on normal trading days, including unchanged risk."
+  },
+  "raw_evidence_directory": "evidence/2026-11-12-1436",
+  "report_text": "**11月12日下午：从14:36:59至今天15:00，严格跌破本次冻结低点205.09元的风险偏高，暂无可靠百分比。** 今日沪深正常交易。\n\n| 核查项 | 数据 |\n|---|---|\n| 新易盛 | 205.90元，−4.23% |\n| 当日高／低 | 225.00／205.09元 |\n| 成交额／成交均价 | 239.94亿元／215.93元 |\n| 中际旭创／通信ETF／创业板 | −6.23%／−3.05%／−2.24% |\n| 海外11月11日正常盘／旧盘后 | 六家光通信全涨；英伟达08:49盘后−8.65% |\n\n现价仅高于日低0.39%，低于均价4.64%；较179.83元历史线高14.50%。历史线此前已跌破、现已收回，精确首次跌破时间未知。\n\n14:20反弹至210.30元后，完整5分钟高点209.36→208.03→206.86、低点208→206.66→205.61同步降低；成交额2.38→2.49→3.35亿元，回踩成交扩大。两股弱于通信ETF和创业板，虽仅余约23分钟，仍需防再次探低。\n\n新增11:44媒体转述公司回复：9月底部分发货受泰国洪灾物流影响，称“受影响部分的发货已在10月确认”。这是历史交付澄清，无金额，不能当作今日新中断。八家SEC无新受理，英伟达官方暂无新人事决议；部分IR受限，未核实新增光模块砍单。\n\n上午211.03元已被严格跌破：13:10—13:15完整区间最低210.23元，精确首笔时间未知。其原阈值和15:00期限保留，当前仅记进展，收盘是否跌破尚待核实；旧预测无新增到期结算。\n\n改变判断的条件：①不能收回206.86元、板块再走弱且回踩放量，风险维持偏高；②收复208.03并站稳、回踩不再创新低且两股同步修复，风险降低。\n\n北京时间：行情截至14:36:54—14:36:57，冻结时报价滞后5秒；快讯覆盖至14:35:50，补充核查至14:37:24。来源：[行情](https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006)｜[新易盛交付说明转述](https://finance.sina.cn/7x24/2026-11-12/detail-iniymwrk8611947.d.html)｜[英伟达官方新闻](https://nvidianews.nvidia.com/news)"
+}

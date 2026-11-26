@@ -1,0 +1,34 @@
+[
+  {
+    "id": "quotes",
+    "url": "https://qt.gtimg.cn/q=sh601899,hk02899,sh000001,sh600547,sh600362",
+    "started_at": "2026-11-09T03:18:02.349471+00:00",
+    "ok": true,
+    "bytes": 2431,
+    "retrieved_at": "2026-11-09T03:18:02.522585+00:00"
+  },
+  {
+    "id": "sina",
+    "url": "https://hq.sinajs.cn/list=sh601899,rt_hk02899,sh000001,sh600547,sh600362,fx_shkdcny",
+    "started_at": "2026-11-09T03:18:02.350021+00:00",
+    "ok": true,
+    "bytes": 1388,
+    "retrieved_at": "2026-11-09T03:18:02.594969+00:00"
+  },
+  {
+    "id": "daily",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601899,day,,,180,qfq",
+    "started_at": "2026-11-09T03:18:02.350201+00:00",
+    "ok": true,
+    "bytes": 13600,
+    "retrieved_at": "2026-11-09T03:18:02.738917+00:00"
+  },
+  {
+    "id": "five_min",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sh601899&scale=5&ma=no&datalen=100",
+    "started_at": "2026-11-09T03:18:02.350434+00:00",
+    "ok": true,
+    "bytes": 13908,
+    "retrieved_at": "2026-11-09T03:18:02.824794+00:00"
+  }
+]

@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "explainer",
+  "quality": "showcase",
+  "startedAt": "2026-11-18T06:43:20.064Z",
+  "specification": {
+    "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/candidate.archify.md",
+    "sha256": "aab1dd280bc1dc6c7bf05467376c21f0c966ce8b6f0e2e5eb731a7cda5e9daaa",
+    "bytes": 5080
+  },
+  "artifact": {
+    "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.html",
+    "sha256": "47f735977246dfd8b98f914e3451d6959c9484aae8361e74c5abc7203460f61c",
+    "bytes": 527693
+  },
+  "stages": {
+    "browser-check": {
+      "status": "not-run",
+      "execution": "not-requested"
+    },
+    "validate": {
+      "status": "pass",
+      "exitCode": 0,
+      "durationMs": null,
+      "execution": "embedded-in-deliver",
+      "command": [
+        "/Users/richao11/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/richao11/.agents/skills/archify/bin/archify.mjs",
+        "deliver",
+        "explainer",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/candidate.archify.md",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.html",
+        "--quality",
+        "showcase",
+        "--json"
+      ],
+      "receipt": {
+        "schemaVersion": 1,
+        "ok": true,
+        "command": "validate",
+        "specification": {
+          "sha256": "aab1dd280bc1dc6c7bf05467376c21f0c966ce8b6f0e2e5eb731a7cda5e9daaa",
+          "bytes": 5080
+        },
+        "validation": {
+          "checksPassed": 4,
+          "checkCount": 4,
+          "compositionProfile": "showcase",
+          "compositionStatus": "pass",
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    "deliver": {
+      "status": "pass",
+      "exitCode": 0,
+      "durationMs": 346,
+      "command": [
+        "/Users/richao11/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/richao11/.agents/skills/archify/bin/archify.mjs",
+        "deliver",
+        "explainer",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/candidate.archify.md",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.html",
+        "--quality",
+        "showcase",
+        "--json"
+      ],
+      "receipt": {
+        "schemaVersion": 1,
+        "receiptId": "1c35dd62-ce9e-4066-b976-dc34dc2fdf9c",
+        "ok": true,
+        "command": "deliver",
+        "type": "explainer",
+        "input": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/candidate.archify.md",
+        "output": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.html",
+        "explainer": {
+          "preparedSha256": "86a2e6a13ef6f8145a5b9255fc1cfc5560fe1932cff0326d29069ade65aad219",
+          "dependencies": [
+            {
+              "kind": "data",
+              "id": "chart-053c985986e7",
+              "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/daily.csv",
+              "sha256": "5da0869340195675cd456ed51b5ae0bd27b3a7a1ffeb57163428f8dff5c802ef",
+              "bytes": 62
+            },
+            {
+              "kind": "diagram-spec",
+              "id": "entry-flow",
+              "inline": true,
+              "sha256": "b07abf5865128dfee3062d9bb4fa62332c1936277e0ac43626e813478b774b85",
+              "bytes": 1059
+            }
+          ]
+        },
+        "specification": {
+          "sha256": "aab1dd280bc1dc6c7bf05467376c21f0c966ce8b6f0e2e5eb731a7cda5e9daaa",
+          "bytes": 5080
+        },
+        "artifact": {
+          "sha256": "47f735977246dfd8b98f914e3451d6959c9484aae8361e74c5abc7203460f61c",
+          "bytes": 527693
+        },
+        "validation": {
+          "checksPassed": 4,
+          "checkCount": 4,
+          "compositionProfile": "showcase",
+          "compositionStatus": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        "update": {
+          "status": "unavailable",
+          "installedVersion": null,
+          "availableVersion": null,
+          "releaseNotes": null,
+          "checkedAt": null,
+          "source": null,
+          "noticeRequired": false,
+          "noticeText": null,
+          "reason": "disabled"
+        }
+      }
+    },
+    "check": {
+      "status": "pass",
+      "exitCode": 0,
+      "durationMs": 153,
+      "command": [
+        "/Users/richao11/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/richao11/.agents/skills/archify/bin/archify.mjs",
+        "check",
+        "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.html",
+        "--require-provenance"
+      ],
+      "receipt": {
+        "ok": true,
+        "file": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.html",
+        "family": "explainer",
+        "artifact": {
+          "sha256": "47f735977246dfd8b98f914e3451d6959c9484aae8361e74c5abc7203460f61c",
+          "bytes": 527693
+        },
+        "checks": [
+          {
+            "name": "explainer_structure",
+            "ok": true,
+            "details": [
+              "63 unique DOM IDs"
+            ]
+          },
+          {
+            "name": "explainer_payload_identity",
+            "ok": true,
+            "details": []
+          },
+          {
+            "name": "explainer_dependencies",
+            "ok": true,
+            "details": [
+              "2 frozen dependencies"
+            ]
+          },
+          {
+            "name": "explainer_native_diagrams",
+            "ok": true,
+            "details": [
+              "entry-flow: pass"
+            ]
+          }
+        ],
+        "composition": {
+          "schemaVersion": 1,
+          "profile": "showcase",
+          "status": "pass",
+          "summary": {
+            "errors": 0,
+            "warnings": 0
+          },
+          "issues": [],
+          "nativeDiagrams": [
+            {
+              "id": "entry-flow",
+              "receipt": {
+                "ok": true,
+                "file": "/var/folders/vm/2xdx62yd66q_lb1n1cbdlbx40000gn/T/archify-explainer-check-9blVpW/child.html",
+                "artifact": {
+                  "sha256": "c71b88047459db06a224063741984a16c4e3a3c447605c3242a3a193ca3a65f8",
+                  "bytes": 809662
+                },
+                "checks": [
+                  {
+                    "name": "single_svg",
+                    "ok": true,
+                    "details": [
+                      "found 1 <svg> block(s)"
+                    ]
+                  },
+                  {
+                    "name": "finite_svg",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "orthogonal_arrows",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "label_route_clearance",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "relationship_crossings",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "relationship_corridors",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "container_border_runs",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "route_rhythm",
+                    "ok": true,
+                    "details": []
+                  },
+                  {
+                    "name": "legend_clearance",
+                    "ok": true,
+                    "details": []
+                  }
+                ],
+                "composition": {
+                  "schemaVersion": 1,
+                  "profile": "showcase",
+                  "status": "pass",
+                  "summary": {
+                    "errors": 0,
+                    "warnings": 0
+                  },
+                  "metrics": {
+                    "properCrossings": 0,
+                    "resolvedCrossovers": 0,
+                    "ambiguousCorridors": 0,
+                    "arrowheadCollisions": 0,
+                    "containerBorderRuns": 0,
+                    "labelRouteClearanceIssues": 0,
+                    "labelCanvasOverflowIssues": 0,
+                    "minLabelRouteClearance": 102.2,
+                    "desktopReadabilityIssues": 0,
+                    "viewportHeightIssues": 0,
+                    "minProjectedNodeTextPx": 7.831578947368421,
+                    "maxBends": 0,
+                    "routesOverSuggestedBends": 0,
+                    "maxStretch": 1,
+                    "routesOverSuggestedStretch": 0,
+                    "minSegmentPx": 38,
+                    "minInteriorSegmentPx": null,
+                    "shortSegmentCount": 0,
+                    "shortEndpointSegmentCount": 0,
+                    "shortInteriorSegmentCount": 0,
+                    "microSegmentCount": 0
+                  },
+                  "suggestedLimits": {
+                    "bendsPerRelationship": 2,
+                    "stretch": 1.35,
+                    "segmentPx": 16,
+                    "microSegmentPx": 8
+                  },
+                  "routeReview": {
+                    "crossings": [],
+                    "detours": []
+                  },
+                  "leadingSpace": {
+                    "measured": false,
+                    "reviewSuggested": false
+                  },
+                  "desktopReadability": {
+                    "budgetBasis": "legacy-930",
+                    "readerContract": "declared-wide-v1",
+                    "availableDiagramWidth": 930,
+                    "actualBudgetPx": 930,
+                    "limit": "legacy",
+                    "requestedTargetPx": null,
+                    "requestedTargetMet": null,
+                    "hardFloorPx": 6,
+                    "hardFloorMet": true,
+                    "minimumOwner": {
+                      "kind": "edge",
+                      "id": "enter-to-bracket-1",
+                      "from": "enter",
+                      "to": "bracket"
+                    },
+                    "minimumSourceTextPx": 8,
+                    "minimumProjectedTextPx": 7.831578947368421,
+                    "semanticTextCount": 9
+                  },
+                  "issues": []
+                }
+              }
+            }
+          ]
+        },
+        "diagnostics": [],
+        "provenance": "current",
+        "deliveryReceiptId": "1c35dd62-ce9e-4066-b976-dc34dc2fdf9c"
+      }
+    }
+  },
+  "browserCheck": {
+    "requested": false,
+    "ran": false
+  },
+  "diagnostics": [],
+  "evidence": {
+    "receipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.finalize.json",
+    "summaryReceipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.finalize-summary.json"
+  },
+  "visualReview": "not-requested",
+  "finishedAt": "2026-11-18T06:43:20.692Z",
+  "durationMs": 628,
+  "update": {
+    "status": "unavailable",
+    "installedVersion": null,
+    "availableVersion": null,
+    "releaseNotes": null,
+    "checkedAt": null,
+    "source": null,
+    "noticeRequired": false,
+    "noticeText": null,
+    "reason": "disabled"
+  }
+}

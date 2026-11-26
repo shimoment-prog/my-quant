@@ -1,0 +1,561 @@
+{
+  "symbol": "601899.SH",
+  "analysis_at": "2026-11-09T11:19:37.837729+08:00",
+  "quote_time_beijing": "2026-11-09T11:18:00+08:00",
+  "source_manifest": [
+    {
+      "id": "quotes",
+      "url": "https://qt.gtimg.cn/q=sh601899,hk02899,sh000001,sh600547,sh600362",
+      "started_at": "2026-11-09T03:18:02.349471+00:00",
+      "ok": true,
+      "bytes": 2431,
+      "retrieved_at": "2026-11-09T03:18:02.522585+00:00"
+    },
+    {
+      "id": "sina",
+      "url": "https://hq.sinajs.cn/list=sh601899,rt_hk02899,sh000001,sh600547,sh600362,fx_shkdcny",
+      "started_at": "2026-11-09T03:18:02.350021+00:00",
+      "ok": true,
+      "bytes": 1388,
+      "retrieved_at": "2026-11-09T03:18:02.594969+00:00"
+    },
+    {
+      "id": "daily",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601899,day,,,180,qfq",
+      "started_at": "2026-11-09T03:18:02.350201+00:00",
+      "ok": true,
+      "bytes": 13600,
+      "retrieved_at": "2026-11-09T03:18:02.738917+00:00"
+    },
+    {
+      "id": "five_min",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sh601899&scale=5&ma=no&datalen=100",
+      "started_at": "2026-11-09T03:18:02.350434+00:00",
+      "ok": true,
+      "bytes": 13908,
+      "retrieved_at": "2026-11-09T03:18:02.824794+00:00"
+    }
+  ],
+  "daily_adjustment": "Tencent forward-adjusted qfq, snapshot adjustment; not dividend-reinvested total return. Recent November levels on same quote scale.",
+  "completed_daily_last_date": "2026-11-06",
+  "daily_today_excluded": [
+    [
+      "2026-11-09",
+      "28.48",
+      "28.26",
+      "28.64",
+      "28.20",
+      "791559"
+    ]
+  ],
+  "moving_averages": {
+    "5": {
+      "value": 28.26,
+      "previous_session_value": 28.124,
+      "direction": "rising",
+      "as_of_completed_session": "2026-11-06",
+      "today_excluded": true
+    },
+    "10": {
+      "value": 28.021,
+      "previous_session_value": 28.072,
+      "direction": "falling",
+      "as_of_completed_session": "2026-11-06",
+      "today_excluded": true
+    },
+    "20": {
+      "value": 28.723,
+      "previous_session_value": 28.849,
+      "direction": "falling",
+      "as_of_completed_session": "2026-11-06",
+      "today_excluded": true
+    },
+    "60": {
+      "value": 31.313833333333335,
+      "previous_session_value": 31.4105,
+      "direction": "falling",
+      "as_of_completed_session": "2026-11-06",
+      "today_excluded": true
+    }
+  },
+  "daily_windows": {
+    "5": {
+      "n_sessions": 5,
+      "start": "2026-11-02",
+      "end": "2026-11-06",
+      "highest_high_record": {
+        "date": "2026-11-05",
+        "open": 29.61,
+        "close": 29.48,
+        "high": 29.95,
+        "low": 29.04,
+        "volume_lots": 2571846.0
+      },
+      "lowest_low_record": {
+        "date": "2026-11-02",
+        "open": 27.52,
+        "close": 26.84,
+        "high": 27.52,
+        "low": 25.9,
+        "volume_lots": 2815256.0
+      },
+      "close_to_close_return_n_sessions_pct": 2.463768115942022,
+      "return_start_previous_close_date": "2026-10-30"
+    },
+    "10": {
+      "n_sessions": 10,
+      "start": "2026-10-26",
+      "end": "2026-11-06",
+      "highest_high_record": {
+        "date": "2026-11-05",
+        "open": 29.61,
+        "close": 29.48,
+        "high": 29.95,
+        "low": 29.04,
+        "volume_lots": 2571846.0
+      },
+      "lowest_low_record": {
+        "date": "2026-11-02",
+        "open": 27.52,
+        "close": 26.84,
+        "high": 27.52,
+        "low": 25.9,
+        "volume_lots": 2815256.0
+      },
+      "close_to_close_return_n_sessions_pct": -1.771448419590127,
+      "return_start_previous_close_date": "2026-10-23"
+    },
+    "20": {
+      "n_sessions": 20,
+      "start": "2026-10-12",
+      "end": "2026-11-06",
+      "highest_high_record": {
+        "date": "2026-10-12",
+        "open": 31.0,
+        "close": 30.22,
+        "high": 31.06,
+        "low": 29.83,
+        "volume_lots": 1506576.0
+      },
+      "lowest_low_record": {
+        "date": "2026-11-02",
+        "open": 27.52,
+        "close": 26.84,
+        "high": 27.52,
+        "low": 25.9,
+        "volume_lots": 2815256.0
+      },
+      "close_to_close_return_n_sessions_pct": -8.18181818181818,
+      "return_start_previous_close_date": "2026-10-09"
+    },
+    "60": {
+      "n_sessions": 60,
+      "start": "2026-08-07",
+      "end": "2026-11-06",
+      "highest_high_record": {
+        "date": "2026-08-24",
+        "open": 35.4,
+        "close": 34.54,
+        "high": 35.47,
+        "low": 34.16,
+        "volume_lots": 3376482.0
+      },
+      "lowest_low_record": {
+        "date": "2026-11-02",
+        "open": 27.52,
+        "close": 26.84,
+        "high": 27.52,
+        "low": 25.9,
+        "volume_lots": 2815256.0
+      },
+      "close_to_close_return_n_sessions_pct": -17.018779342723,
+      "return_start_previous_close_date": "2026-08-06"
+    },
+    "120": {
+      "n_sessions": 120,
+      "start": "2026-05-14",
+      "end": "2026-11-06",
+      "highest_high_record": {
+        "date": "2026-08-24",
+        "open": 35.4,
+        "close": 34.54,
+        "high": 35.47,
+        "low": 34.16,
+        "volume_lots": 3376482.0
+      },
+      "lowest_low_record": {
+        "date": "2026-07-01",
+        "open": 24.43,
+        "close": 24.69,
+        "high": 25.13,
+        "low": 24.0,
+        "volume_lots": 3389084.0
+      },
+      "close_to_close_return_n_sessions_pct": -16.479621972829296,
+      "return_start_previous_close_date": "2026-05-13"
+    }
+  },
+  "last20_daily_log_return_std_pct": 2.70101251554252,
+  "latest_quotes": {
+    "sh601899": {
+      "name": "紫金矿业",
+      "price": 28.26,
+      "previous_close": 28.28,
+      "quote_time": "20261109111800",
+      "change_pct": -0.07,
+      "high": 28.64,
+      "low": 28.2,
+      "vwap": 28.44
+    },
+    "hk02899": {
+      "name": "紫金矿业",
+      "price": 29.06,
+      "previous_close": 28.9,
+      "quote_time": "2026/11/09 11:02:55",
+      "change_pct": 0.55,
+      "high": 29.62,
+      "low": 28.96
+    },
+    "sh000001": {
+      "name": "上证指数",
+      "price": 3666.56,
+      "previous_close": 3649.18,
+      "quote_time": "20261109111800",
+      "change_pct": 0.48,
+      "high": 3679.09,
+      "low": 3653.05,
+      "vwap": 3667.78
+    },
+    "sh600547": {
+      "name": "山东黄金",
+      "price": 26.65,
+      "previous_close": 26.2,
+      "quote_time": "20261109111800",
+      "change_pct": 1.72,
+      "high": 27.08,
+      "low": 26.52,
+      "vwap": 26.76
+    },
+    "sh600362": {
+      "name": "江西铜业",
+      "price": 32.48,
+      "previous_close": 32.23,
+      "quote_time": "20261109111758",
+      "change_pct": 0.78,
+      "high": 32.92,
+      "low": 32.38,
+      "vwap": 32.71
+    }
+  },
+  "sina_A_crosscheck": {
+    "price": 28.26,
+    "quote_time_beijing": "2026-11-09T11:18:00+08:00",
+    "high": 28.64,
+    "low": 28.2,
+    "turnover_CNY": 2251418790.0,
+    "volume_shares": 79155900,
+    "derived_vwap": 28.442842416042264
+  },
+  "HK_quote_staleness_note": "Tencent H-share timestamp11:02:55 is older than Sina real-time H-share11:17:54; do not imply synchronous A/H quote using Tencent pair.",
+  "five_minute": {
+    "retrieval_cutoff": "2026-11-09T11:18:02.824794+08:00",
+    "bar_time_semantics": "Bar-end labels. Endpoint after retrieval is unfinished and excluded; no inference of exact first-trade event time.",
+    "last_completed_bar": {
+      "day": "2026-11-09 11:15:00",
+      "open": 28.24,
+      "high": 28.25,
+      "low": 28.2,
+      "close": 28.22,
+      "volume": 1389200.0,
+      "amount": 39200044.9531
+    },
+    "complete_bar_count": 21,
+    "completed_today": [
+      {
+        "day": "2026-11-09 09:35:00",
+        "open": 28.48,
+        "high": 28.64,
+        "low": 28.38,
+        "close": 28.45,
+        "volume": 14889351.0,
+        "amount": 423944228.9503
+      },
+      {
+        "day": "2026-11-09 09:40:00",
+        "open": 28.45,
+        "high": 28.56,
+        "low": 28.37,
+        "close": 28.54,
+        "volume": 5524114.0,
+        "amount": 157168011.2214
+      },
+      {
+        "day": "2026-11-09 09:45:00",
+        "open": 28.54,
+        "high": 28.59,
+        "low": 28.48,
+        "close": 28.5,
+        "volume": 6988461.0,
+        "amount": 199505692.8765
+      },
+      {
+        "day": "2026-11-09 09:50:00",
+        "open": 28.5,
+        "high": 28.58,
+        "low": 28.46,
+        "close": 28.5,
+        "volume": 4945600.0,
+        "amount": 140994920.0039
+      },
+      {
+        "day": "2026-11-09 09:55:00",
+        "open": 28.5,
+        "high": 28.52,
+        "low": 28.41,
+        "close": 28.49,
+        "volume": 6351500.0,
+        "amount": 180740868.9043
+      },
+      {
+        "day": "2026-11-09 10:00:00",
+        "open": 28.47,
+        "high": 28.56,
+        "low": 28.42,
+        "close": 28.45,
+        "volume": 3402500.0,
+        "amount": 96930912.4395
+      },
+      {
+        "day": "2026-11-09 10:05:00",
+        "open": 28.47,
+        "high": 28.56,
+        "low": 28.44,
+        "close": 28.53,
+        "volume": 2675804.0,
+        "amount": 76269087.8622
+      },
+      {
+        "day": "2026-11-09 10:10:00",
+        "open": 28.54,
+        "high": 28.59,
+        "low": 28.47,
+        "close": 28.48,
+        "volume": 3999800.0,
+        "amount": 114202482.0363
+      },
+      {
+        "day": "2026-11-09 10:15:00",
+        "open": 28.48,
+        "high": 28.52,
+        "low": 28.42,
+        "close": 28.5,
+        "volume": 4314913.0,
+        "amount": 122817164.3413
+      },
+      {
+        "day": "2026-11-09 10:20:00",
+        "open": 28.51,
+        "high": 28.52,
+        "low": 28.43,
+        "close": 28.5,
+        "volume": 2063283.0,
+        "amount": 58773721.3178
+      },
+      {
+        "day": "2026-11-09 10:25:00",
+        "open": 28.5,
+        "high": 28.55,
+        "low": 28.46,
+        "close": 28.53,
+        "volume": 2105500.0,
+        "amount": 60003505.02
+      },
+      {
+        "day": "2026-11-09 10:30:00",
+        "open": 28.54,
+        "high": 28.54,
+        "low": 28.32,
+        "close": 28.33,
+        "volume": 5075600.0,
+        "amount": 144173931.9998
+      },
+      {
+        "day": "2026-11-09 10:35:00",
+        "open": 28.33,
+        "high": 28.38,
+        "low": 28.27,
+        "close": 28.33,
+        "volume": 3754055.0,
+        "amount": 106278840.498
+      },
+      {
+        "day": "2026-11-09 10:40:00",
+        "open": 28.33,
+        "high": 28.4,
+        "low": 28.28,
+        "close": 28.37,
+        "volume": 2345100.0,
+        "amount": 66394800.0332
+      },
+      {
+        "day": "2026-11-09 10:45:00",
+        "open": 28.37,
+        "high": 28.42,
+        "low": 28.33,
+        "close": 28.38,
+        "volume": 1475019.0,
+        "amount": 41859397.4669
+      },
+      {
+        "day": "2026-11-09 10:50:00",
+        "open": 28.38,
+        "high": 28.42,
+        "low": 28.3,
+        "close": 28.31,
+        "volume": 1186600.0,
+        "amount": 33635296.0
+      },
+      {
+        "day": "2026-11-09 10:55:00",
+        "open": 28.31,
+        "high": 28.32,
+        "low": 28.27,
+        "close": 28.28,
+        "volume": 1845700.0,
+        "amount": 52207866.0332
+      },
+      {
+        "day": "2026-11-09 11:00:00",
+        "open": 28.27,
+        "high": 28.28,
+        "low": 28.21,
+        "close": 28.25,
+        "volume": 1521100.0,
+        "amount": 42970864.0
+      },
+      {
+        "day": "2026-11-09 11:05:00",
+        "open": 28.25,
+        "high": 28.32,
+        "low": 28.25,
+        "close": 28.3,
+        "volume": 1343000.0,
+        "amount": 37999653.0078
+      },
+      {
+        "day": "2026-11-09 11:10:00",
+        "open": 28.3,
+        "high": 28.31,
+        "low": 28.23,
+        "close": 28.25,
+        "volume": 964100.0,
+        "amount": 27244505.0273
+      },
+      {
+        "day": "2026-11-09 11:15:00",
+        "open": 28.24,
+        "high": 28.25,
+        "low": 28.2,
+        "close": 28.22,
+        "volume": 1389200.0,
+        "amount": 39200044.9531
+      }
+    ],
+    "excluded_incomplete": [
+      {
+        "day": "2026-11-09 11:20:00",
+        "open": 28.23,
+        "high": 28.26,
+        "low": 28.21,
+        "close": 28.26,
+        "volume": 964800.0,
+        "amount": 27232587.9844
+      }
+    ],
+    "structure": "Initial28.64 high within09:35 bar, several retests near28.59 without breakout, completed10:30 bar dropped to28.33 from28.53 prior close; rebound high28.42 at10:45/10:50 failed to regain early zone, then lower highs/lows into11:15 low28.20 and close28.22. Latest quote28.26 does not turn unfinished11:20 bar into a completed close.",
+    "initial_breakdown_bar_volume_vs_prior_bar": 2.4106388031346473,
+    "volume_limit": "Individual bar observations only; partial-day turnover/volume must not be compared with prior full-day as contraction/expansion proof."
+  },
+  "levels": [
+    {
+      "range": [
+        28.44,
+        28.64
+      ],
+      "kind": "intraday repair first hurdle",
+      "basis": "Current VWAP28.44 and actual day high28.64; sustained reclaim and retest above average improve intraday structure.",
+      "guarantee": false
+    },
+    {
+      "price": 28.723,
+      "kind": "MA20 previous-session observation",
+      "basis": "Falling prior-session MA20; value moves each day, not fixed target. Need sustained closing reclaim and flattening.",
+      "guarantee": false
+    },
+    {
+      "range": [
+        29.04,
+        29.06
+      ],
+      "kind": "recent daily overhead reference",
+      "basis": "Nov5 low29.04 and Nov6 high29.06; reclaim helps repair Nov6 price setback.",
+      "guarantee": false
+    },
+    {
+      "range": [
+        29.45,
+        29.95
+      ],
+      "kind": "recent rebound highs",
+      "basis": "Nov4 high29.45 and Nov5 high29.95. Reclaim with higher subsequent lows is stronger reversal evidence than price merely touching MA5.",
+      "guarantee": false
+    },
+    {
+      "range": [
+        27.81,
+        28.021
+      ],
+      "kind": "nearby downside observation",
+      "basis": "Nov6 low27.81 and prior-session MA10=28.021; current28.20 loss weakens intraday structure.",
+      "guarantee": false
+    },
+    {
+      "range": [
+        26.68,
+        27.11
+      ],
+      "kind": "earlier swing/rebound launch observations",
+      "basis": "Nov3 low26.68 and Nov4 low27.11; historical references, not guaranteed demand.",
+      "guarantee": false
+    },
+    {
+      "price": 25.9,
+      "kind": "November2 recent60-session low",
+      "basis": "Lowest observed low in last60 completed sessions; break would extend lower-low daily structure.",
+      "guarantee": false
+    },
+    {
+      "price": 31.3138333333,
+      "kind": "MA60 prior-session observation",
+      "basis": "Falling medium-term average; not immediate price target.",
+      "guarantee": false
+    }
+  ],
+  "judgment": {
+    "current_daily": "Short-term repair from November2 low; MA5 rising and slightly above MA10, but price below falling MA20/60, so broader reversal unconfirmed.",
+    "current_intraday": "Mildly negative A-share return while Shanghai, gold/copper peers positive; below VWAP and descending completed-bar structure, so immediate relative strength weak.",
+    "bullish_conditions": [
+      "Regain and hold28.44 VWAP, then28.64 day high and moving MA20 near28.72; confirm at completed close rather than unfinished bar.",
+      "Further reclaim29.04-29.06 and29.45-29.95 with subsequent higher lows and MA20 flattening; would strengthen trend-change evidence."
+    ],
+    "weakening_conditions": [
+      "Sustained loss of28.20 actual intraday low would weaken repair; observe27.81-28.02 next, without assuming it holds.",
+      "If27.81 gives way, prior26.68-27.11 swings and25.90 recent low become historical downside references."
+    ],
+    "limits": [
+      "No reliable percentage for rebound or future path.",
+      "A single price level/MA touch does not prove trend reversal.",
+      "Current-day quote and five-minute structure are not full-day closing outcomes."
+    ]
+  }
+}

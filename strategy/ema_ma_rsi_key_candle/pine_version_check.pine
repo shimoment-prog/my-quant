@@ -1,0 +1,4 @@
+//@version=6
+indicator("Pine v6 check", overlay = true)
+var bool versionCheck = false
+plot(close)

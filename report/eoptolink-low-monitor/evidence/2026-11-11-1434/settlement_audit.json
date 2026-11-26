@@ -1,0 +1,185 @@
+{
+  "checked_at": "2026-11-11T14:33:23.005172+08:00",
+  "scope": "Read-only state and latest morning-observation immutability audit. No network quote retrieval or final settlement.",
+  "state_path": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/state.json",
+  "state_sha256": "06f0aab82d9348e8b724b093855efafc93832b7207d4d443f6dd6ea4a750023f",
+  "original_observation_path": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-11-1031.json",
+  "original_observation_sha256": "d7c2c0c8473e34d90b37af69f8b124f576ba46a75d82e0827a869b6f66eed201",
+  "pending_prediction_count": 1,
+  "morning_prediction": {
+    "id": "2026-11-11-1031-L18730",
+    "symbol": "300502.SZ",
+    "scheduled_check_at": "2026-11-11T10:30:00+08:00",
+    "triggered_at": "2026-11-11T10:25:50.642+08:00",
+    "created_at": "2026-11-11T10:31:15+08:00",
+    "forecast_start": "2026-11-11T10:31:15+08:00",
+    "snapshot_time": "2026-11-11T10:31:12+08:00",
+    "threshold": 187.3,
+    "comparison": "strictly_less_than",
+    "event": "Any traded price strictly below187.30 after forecast_start and by deadline",
+    "deadline": "2026-11-11T15:00:00+08:00",
+    "risk": "中等",
+    "numeric_probability": null,
+    "model_validated": false,
+    "status": "pending",
+    "settled": false,
+    "note": "Morning forecast starts at actual creation, never backdated to10:30 or trigger. The contemporaneous cumulative day low is frozen independently of yesterday predictions and historical179.83 line. No tickstream between snapshot and creation; actual quote age retained."
+  },
+  "frozen_fields_match_original_observation": true,
+  "frozen_fields_audit": {
+    "id": true,
+    "symbol": true,
+    "scheduled_check_at": true,
+    "triggered_at": true,
+    "created_at": true,
+    "forecast_start": true,
+    "snapshot_time": true,
+    "threshold": true,
+    "comparison": true,
+    "event": true,
+    "deadline": true,
+    "risk": true,
+    "numeric_probability": true,
+    "model_validated": true,
+    "status": true,
+    "settled": true,
+    "note": true
+  },
+  "expired_unsettled_prediction_ids": [],
+  "expired_unsettled_count": 0,
+  "previously_completed_count": 12,
+  "settled_history_unique_id_count": 12,
+  "previously_completed_duplicate_ids": [],
+  "previously_completed_ids": [
+    "2026-11-03-1430-L17160",
+    "2026-11-04-0938-L17415",
+    "2026-11-04-1033-L17347",
+    "2026-11-04-1435-L17200",
+    "2026-11-05-1036-L18051",
+    "2026-11-05-1438-L17764",
+    "2026-11-06-1032-L16116",
+    "2026-11-06-1439-L16116",
+    "2026-11-09-1051-L16901",
+    "2026-11-09-1433-L16901",
+    "2026-11-10-1036-L18501",
+    "2026-11-10-1437-L18343"
+  ],
+  "reported_completed_count": 12,
+  "reported_count_matches_settled_history": true,
+  "settled_history_baseline": [
+    {
+      "id": "2026-11-03-1430-L17160",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-04T09:02:06+08:00"
+    },
+    {
+      "id": "2026-11-04-0938-L17415",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": true,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-05T10:36:31+08:00"
+    },
+    {
+      "id": "2026-11-04-1033-L17347",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": true,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-05T10:36:31+08:00"
+    },
+    {
+      "id": "2026-11-04-1435-L17200",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-05T10:36:31+08:00"
+    },
+    {
+      "id": "2026-11-05-1036-L18051",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": true,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-06T10:32:43+08:00"
+    },
+    {
+      "id": "2026-11-05-1438-L17764",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-06T10:32:43+08:00"
+    },
+    {
+      "id": "2026-11-06-1032-L16116",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-09T10:51:42+08:00"
+    },
+    {
+      "id": "2026-11-06-1439-L16116",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-09T10:51:42+08:00"
+    },
+    {
+      "id": "2026-11-09-1051-L16901",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-10T10:36:15+08:00"
+    },
+    {
+      "id": "2026-11-09-1433-L16901",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-10T10:36:15+08:00"
+    },
+    {
+      "id": "2026-11-10-1036-L18501",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": true,
+      "closing_breach_occurred": true,
+      "resolved_at": "2026-11-11T10:31:15+08:00"
+    },
+    {
+      "id": "2026-11-10-1437-L18343",
+      "status": "settled",
+      "settled": true,
+      "event_occurred": true,
+      "closing_breach_occurred": false,
+      "resolved_at": "2026-11-11T10:31:15+08:00"
+    }
+  ],
+  "pending_and_settled_id_overlap": [],
+  "newly_settled_count": 0,
+  "settlements": [],
+  "morning_final_settlement_permitted_at_audit": false,
+  "morning_deadline_not_reached": true,
+  "reason": "Morning187.30forecast has original15:00deadline. Current audit is before deadline. Report progress only, preserving actual10:31:15start, snapshot10:31:12, originalrisk中等 and187.30threshold.",
+  "required_afternoon_handling": "Do not settle morning forecast before15:00. If current timestamped evidence proves a lower trade, report interim progress only. Create an independent afternoon frozen-low prediction using actual creation time; keep original morning fields unchanged.",
+  "all_original_frozen_fields_preserved": true,
+  "no_hit_rate": true,
+  "probability_model": {
+    "validated": false,
+    "probability": null,
+    "output": "暂无可靠百分比；按可核实证据进行条件风险判断"
+  },
+  "main_state_modified_by_auditor": false,
+  "historical_observation_modified_by_auditor": false,
+  "state_bytes_unchanged": true,
+  "observation_bytes_unchanged": true
+}

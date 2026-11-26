@@ -1,0 +1,41 @@
+[
+  {
+    "id": "fed_FSR_index",
+    "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+    "retrieved_at": "2026-11-17T02:09:43.868531+00:00",
+    "status": 200,
+    "final_url": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+    "ok": true,
+    "bytes": 84561
+  },
+  {
+    "id": "fed_FSR_pdf",
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261106.pdf",
+    "retrieved_at": "2026-11-17T02:09:43.868978+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "fred_ig_page",
+    "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "retrieved_at": "2026-11-17T02:09:43.869197+00:00",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "fred_hy_page",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "retrieved_at": "2026-11-17T02:09:43.869341+00:00",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "bis_news",
+    "url": "https://www.bis.gov/news-updates",
+    "retrieved_at": "2026-11-17T02:09:43.869523+00:00",
+    "status": 200,
+    "final_url": "https://www.bis.gov/news-updates",
+    "ok": true,
+    "bytes": 3587997
+  }
+]

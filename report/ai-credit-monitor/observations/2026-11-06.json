@@ -1,0 +1,911 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-06",
+  "automation_id": "ai",
+  "triggered_at": "2026-11-06T00:32:24.797Z",
+  "run_at": "2026-11-06T00:39:28.246180+00:00",
+  "timezone": "Asia/Shanghai",
+  "baseline": false,
+  "comparison_to_previous_observation": "observations/2026-11-05.json",
+  "assessment": "观察",
+  "summary": "New IREN earnings verify delivery-target delay and substantially larger cash-capex funding gap, while actual AI revenue grows. Meta USD15bn and Alphabet EUR6bn offerings now confirmed completed. No verified new default, major funding interruption or AI-specific realized loss cascade; maintain observation.",
+  "confidence": "High for primary disclosed earnings, cashflow and completion stages; limited for current issuer CDS, loan-level private credit and customer collection aging.",
+  "signals": [
+    {
+      "id": "real_demand_collections_and_cashflow",
+      "assessment": "观察",
+      "change": "Material new IREN delivery/ARR delay and widening historical cash-capex mismatch increase local execution and funding-dependence concerns, alongside growth in realized AI revenue. Google announces another long-term investment plan.",
+      "evidence_ids": [
+        "iren_20261105_q1fy27_delivery_cashflow",
+        "google_20261105_wyoming_longterm_investment"
+      ],
+      "notes": "IREN >USD4bn ARR is a future annualized target, not an actual lost USD4bn order or recognized revenue. Issuer attributes delay to requested design changes and supplier timing. Current receivables delinquency and cancellation not established. No new main-seven-issuer operating report."
+    },
+    {
+      "id": "credit_funding_and_liquidity",
+      "assessment": "观察",
+      "change": "Meta USD15bn and Alphabet EUR6bn previously priced offerings are now primary-confirmed completed; execution uncertainty reduced. IREN retains prospective additional USD6bn funding target subject to markets, without verified failed financing. Broad OAS narrowed on latest Nov4 but above20observations earlier.",
+      "evidence_ids": [
+        "meta_20261105_usd_notes_completed",
+        "alphabet_20261105_eur_notes_completed",
+        "iren_20261105_q1fy27_delivery_cashflow",
+        "fred_ig",
+        "fred_hy"
+      ],
+      "notes": "Keep different currencies separate. Financing is not operating cashflow or proven AI-only investment. IREN USD9bn basket is not unrestricted cash; includes restricted funds, conditional undrawn facilities and unpaid contracted prepayments. MetaEUR9bnNov12 not yet due. No current issuerCDS/matched bond curve."
+    },
+    {
+      "id": "realized_losses_and_cross_entity_propagation",
+      "assessment": "观察",
+      "change": "IREN filing establishes Microsoft-requested network redesign and ongoing fees/credits/reimbursement discussions; no verified actual covenant trigger, project debt failure, guarantee payout or AI-specific lender impairment in reviewed new documents. Apollo new filing contains qualitative sector-risk commentary, not quantified current issuer CDS or identified AI credit loss.",
+      "evidence_ids": [
+        "iren_20261105_q1fy27_delivery_cashflow",
+        "apollo_20261105_10q"
+      ],
+      "notes": "Some GPU financings have IREN guarantees/cross-default links, but exposure is not triggered loss. IREN USD2m impairment concerns mining hardware, not AI loan loss. Lack of identified loss does not prove no private/unreported risks."
+    }
+  ],
+  "new_events": [
+    {
+      "id": "iren_20261105_q1fy27_delivery_cashflow",
+      "company": "IREN",
+      "publication_at": "2026-11-05T21:03:11Z",
+      "10q_publication_at": "2026-11-05T21:06:52Z",
+      "report_period": {
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "type": "single_quarter_fiscal_Q1_2027"
+      },
+      "currency": "USD",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+        "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+      ],
+      "delivery": {
+        "previous_arr_target_date": "2026-12-31",
+        "revised_target_date": "2027-01-31",
+        "possible_extension": "2027-02-28",
+        "target_arr_usd_greater_than": 4000000000,
+        "arr_is_realized_revenue": false,
+        "causes_as_stated_by_issuer": [
+          "customer-requested design change",
+          "supplier timing"
+        ],
+        "Microsoft_10q_details": "Horizon1 delivered and accepted in August2026 and remains in service. Microsoft requested network design change across Horizon deployments. Agreement extends delivery dates without delay credits for Microsoft-requested changes. Delivery dates and fees/credits/cost reimbursements still under discussion.",
+        "confirmed_order_cancellation": false,
+        "confirmed_default": false,
+        "independent_Microsoft_confirmation_obtained": false
+      },
+      "operating": {
+        "ai_cloud_revenue": 200000000,
+        "ai_cloud_prior_quarter_revenue": 71000000,
+        "ai_cloud_services": 135000000,
+        "ai_cloud_leases": 65000000,
+        "total_revenue": 228000000,
+        "prior_year_total_revenue": 240000000,
+        "prior_quarter_total_revenue": 137000000,
+        "largest_customer_revenue_pct": [
+          28,
+          24,
+          18
+        ],
+        "customer_names_not_assigned_to_anonymous_disclosure": true,
+        "accounts_receivable_net_Sept30": 192000000,
+        "accounts_receivable_net_Jun30": 21000000,
+        "accounts_receivable_overdue_verified": false,
+        "backlog": 20300000000,
+        "backlog_is_realized_revenue": false,
+        "reported_new_pricing": "Company says 3-year contracts+11%,5-year+12%; post-quarter H100 contract double prior contract price. Company-specific deals, not industry rental index.",
+        "post_quarter_customer_prepayment_covering_gpu_capex_pct": 90,
+        "prepayment_received_not_verified": true,
+        "ai_cloud_prior_year_same_quarter_revenue": 7000000
+      },
+      "cashflow": {
+        "definition": "Operating cash flow minus cash PP&E purchases including separately reported computer hardware, before finance lease principal.",
+        "operating_cash_flow": 529000000,
+        "prior_year_same_quarter_ocf": 142000000,
+        "cash_ppe_excluding_computer_hardware": 2131000000,
+        "cash_computer_hardware": 2693000000,
+        "cash_ppe_total": 4824000000,
+        "prior_year_same_quarter_cash_ppe_ex_hardware": 180000000,
+        "prior_year_same_quarter_cash_hardware": 100000000,
+        "prior_year_same_quarter_cash_ppe_total": 280000000,
+        "common_cash_surplus": -4295000000,
+        "prior_year_same_quarter_common_cash_surplus": -138000000,
+        "finance_lease_principal_paid": 30000000,
+        "prior_year_same_quarter_finance_lease_principal_paid": 0,
+        "surplus_after_finance_lease_principal": -4325000000,
+        "deferred_revenue_ocf_change": 645000000,
+        "prior_year_same_quarter_deferred_revenue_ocf_change": 22000000,
+        "notes": [
+          "Positive OCF is substantially supported by customer prepayments and entails future performance obligations. Do not describe it as sustainable AI end-user cash return.",
+          "Non-cash PP&E payable2.493bn and noncash ROU96m separately reported, not additionally deducted from current cashflow.",
+          "PP&E disposal proceeds54m not netted against gross cash purchases for common definition."
+        ]
+      },
+      "liquidity": {
+        "cash_and_equivalents_Sept30": 3522000000,
+        "cash_and_equivalents_Jun30": 5896000000,
+        "restricted_cash_Sept30": 2256000000,
+        "restricted_cash_Jun30": 1724000000,
+        "cash_restricted_total_Sept30": 5778000000,
+        "debt_carrying_value_total_Sept30": 9897000000,
+        "debt_current_carrying_value_Sept30": 950000000,
+        "debt_current_carrying_is_exact_12month_contract_principal": false,
+        "future_debt_principal_remainder_FY2027": 723000000,
+        "future_debt_principal_FY2028": 1059000000,
+        "exact_next12months_principal": null,
+        "cash_interest_paid_single_quarter": 34000000,
+        "remaining_FY27_planned_capex": 15000000000,
+        "cash_committed_finance_prepayment_bucket": 9000000000,
+        "target_additional_funding_subject_market_conditions": 6000000000,
+        "funding_bucket_components": [
+          "cash and equivalents",
+          "restricted cash",
+          "undrawn committed GPU facilities",
+          "contracted prepayments not yet received"
+        ],
+        "fully_funded_claim_scope": "0.3GW program underlying >4bnARR target, conditional on funding/escrow release/availability conditions. Not all FY27 plannedcapex, not9bn unrestrictedcash.",
+        "GPU_2_covenants_status": "Company says compliant as ofSept30.",
+        "GPU_3_covenants_status": "Company says compliant as ofSept30.",
+        "GPU_2_and_3_parent_recourse": "Secured on financed equipment with IREN guarantees; no financial maintenance covenants onIREN under those guarantees; cross-default/cross-acceleration terms exist but no actual trigger verified.",
+        "commitments_Sept30": 18947000000,
+        "commitments_Jun30": 13810000000,
+        "commitment_not_automatically_additive_to_capex": true,
+        "subsequent_event_20261001": {
+          "released_from_escrow_usd": 525000000,
+          "borrowed_under_DDTL_usd": 388000000,
+          "source": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+          "notes": "Separate postbalance-sheet actual funding, prevents treatingSept30cash as current. Existing commitment draw/release, not extra amount to add blindly to9bn fundingbasket."
+        }
+      },
+      "impairments": {
+        "quarterly_impairment": 2000000,
+        "primary_asset": "Bitcoin mining hardware during transition toAI",
+        "not_AI_loan_loss": true
+      }
+    },
+    {
+      "id": "apollo_20261105_10q",
+      "company": "Apollo",
+      "publication_at": "2026-11-05T21:11:44Z",
+      "report_period_end": "2026-09-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000067/apo-20260930.htm",
+      "findings": "New quarterly report contains qualitative statement that AI-related debt needs monitoring because hyperscaler coverage ratios declined and IG/CDS spreads widened; no issuer/tenor/date/series provided, not tradable current AI CDS quote. No new identifiable AI-specific loan impairment/default/stop-lending identified in targeted full-text review.",
+      "non_AI_or_unassigned_loss_caveat": "Atlas underlying impairment and general credit/insurance valuation changes are not identified as AI losses; do not attribute them toAI.",
+      "absence_not_proof_of_no_loss": true
+    },
+    {
+      "id": "alphabet_20261105_eur_notes_completed",
+      "issuer": "Alphabet",
+      "related_previous_event_id": "alphabet_20261102_eur_notes",
+      "event_date": "2026-11-05",
+      "published_at": "2026-11-05T21:10:44.000Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+      "stage": "closed_confirmed_by_company_8k",
+      "currency": "EUR",
+      "principal": 6000000000,
+      "supporting_quote": "On November 5, 2026, Alphabet Inc. closed its underwritten public offering of €6 billion aggregate principal amount of euro-denominated senior notes.",
+      "notes": [
+        "Prior Nov2 pricing/Nov4 prospectus transaction, not a second separate6bn issue.",
+        "Independent new completion evidence, not inferred from projected settlement date.",
+        "Expected net5.97bn is prior prospectus estimate, not independently measured unrestricted current cash.",
+        "Proceeds are financing, not operating cashflow; not proven all AI-related."
+      ]
+    },
+    {
+      "id": "meta_20261105_usd_notes_completed",
+      "issuer": "Meta",
+      "related_previous_event_id": "meta_20261103_pricing",
+      "event_date": "2026-11-05",
+      "published_at": "2026-11-05T21:58:46.000Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+      "stage": "completed_confirmed_by_company_8k",
+      "currency": "USD",
+      "principal": 15000000000,
+      "tranches": [
+        {
+          "principal": 3250000000,
+          "coupon_pct": 5.85,
+          "maturity": 2031
+        },
+        {
+          "principal": 3250000000,
+          "coupon_pct": 6.25,
+          "maturity": 2033
+        },
+        {
+          "principal": 4000000000,
+          "coupon_pct": 6.55,
+          "maturity": 2036
+        },
+        {
+          "principal": 1750000000,
+          "coupon_pct": 7.35,
+          "maturity": 2046
+        },
+        {
+          "principal": 2750000000,
+          "coupon_pct": 7.5,
+          "maturity": 2056
+        }
+      ],
+      "supporting_quote": "On November 5, 2026, Meta Platforms, Inc. completed an offering ...",
+      "estimated_net_proceeds_prior_prospectus_usd_approx": 14900000000,
+      "notes": [
+        "Completed debt placement confirms access to funding, not a change in operating cash generation or issuer CDS.",
+        "Same Nov3 USD pricing transaction, not an additional15bn deal.",
+        "Separate from EUR9bn priced Nov4 with projected Nov12settlement. Do not add currencies without dated FX or treat euro deal as settled."
+      ]
+    },
+    {
+      "id": "meta_20261104_forward_sale_option_exercised",
+      "issuer": "Meta",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-05T21:58:46.000Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+      "stage": "underwriter_option_exercised_and_additional_forward_sale_agreements_entered",
+      "additional_underlying_common_shares": 6000000,
+      "original_underlying_common_shares": 40000000,
+      "cash_received_by_company_now": null,
+      "supporting_quote": "On November 4, 2026, the Underwriters exercised in full their option ... additional6,000,000shares ... Company entered into additional forward sale agreements.",
+      "notes": [
+        "Common-stock forward transaction; not Meta preferred overallotment already completed Nov2.",
+        "Exercise and forward contracts do not establish company cash proceeds received or all shares physically settled.",
+        "Do not multiply current stock quote by shares as actual cash received; full settlement election/terms not newly reviewed."
+      ]
+    },
+    {
+      "id": "google_20261105_wyoming_longterm_investment",
+      "issuer": "Alphabet/Google",
+      "event_date": "2026-11-05",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "publication_time_source": "Official Google RSS feed https://blog.google/rss/",
+      "source": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+      "stage": "announced_longterm_infrastructure_investment",
+      "currency": "USD",
+      "announced_amount": 17000000000,
+      "location": "Laramie County, Wyoming",
+      "partners": [
+        "Tallgrass Energy",
+        "Black Hills Energy",
+        "American Electric Power",
+        "Related Digital"
+      ],
+      "supporting_quote": "Google is making a long-term, $17 billion investment in the Cowboy State.",
+      "power_project_announced_MW": 702,
+      "power_project_status": "project is contracted with AEP to feature a commercial-scale fuel-cell development with carbon capture and storage; not verified operating",
+      "annual_spending_schedule": null,
+      "completion_date": null,
+      "incremental_to_prior_capex_guidance": null,
+      "actual_cash_spent": null,
+      "notes": [
+        "Official article states long-term investment, does not disclose a precise end year, annual cashflow schedule, commencement date, or whether incremental to existing capex guidance.",
+        "Construction/capacity intent is not realized AI revenue, paid final-user demand, new quarter cash expenditure or confirmed supplier order to A-share names.",
+        "Article explicitly says Google will pay100%of power it uses and cover infrastructure driven by its growth; exact project debt/guarantee terms not disclosed.",
+        "Use author original article text rather than generated summaries embedded on page."
+      ]
+    }
+  ],
+  "market_proxies": [
+    {
+      "id": "BAMLC0A0CM",
+      "source_id": "fred_ig",
+      "name": "US investment grade OAS",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-04",
+      "value": 91.0,
+      "previous_date": "2026-11-03",
+      "previous_value": 93.0,
+      "change_bp": -2.0,
+      "comparison_to_prior_monitor_observation": {
+        "date": "2026-11-03",
+        "value": 93.0,
+        "change_bp": -2.0
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-07",
+        "value": 82.0,
+        "change_bp": 9.0
+      },
+      "publication_at": null,
+      "retrieved_at": "2026-11-06T00:35:18.924316+00:00",
+      "archived_csv": "evidence/2026-11-06/market/fred_ig.csv",
+      "carried_forward": false,
+      "note": "Latest actual date is Nov4, not current Nov5 regular-close or Nov6 live data. Overall market proxy only; issuer-specific prices unavailable.",
+      "weekly_available_comparison": {
+        "start": "2026-10-30",
+        "end": "2026-11-04",
+        "start_value": 94.0,
+        "change_bp": -3.0
+      }
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "source_id": "fred_hy",
+      "name": "US high yield OAS",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-04",
+      "value": 332.0,
+      "previous_date": "2026-11-03",
+      "previous_value": 340.0,
+      "change_bp": -8.0,
+      "comparison_to_prior_monitor_observation": {
+        "date": "2026-11-03",
+        "value": 340.0,
+        "change_bp": -8.0
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-07",
+        "value": 309.0,
+        "change_bp": 23.0
+      },
+      "publication_at": null,
+      "retrieved_at": "2026-11-06T00:35:18.924793+00:00",
+      "archived_csv": "evidence/2026-11-06/market/fred_hy.csv",
+      "carried_forward": false,
+      "note": "Latest actual date is Nov4, not current Nov5 regular-close or Nov6 live data. Overall market proxy only; issuer-specific prices unavailable.",
+      "weekly_available_comparison": {
+        "start": "2026-10-30",
+        "end": "2026-11-04",
+        "start_value": 344.0,
+        "change_bp": -12.0
+      }
+    }
+  ],
+  "cashflow_definition": "Operating cashflow minus gross cash purchases of PP&E including computer hardware; financing-lease principal separately reported. Noncash additions/unpaidcapex and future commitments excluded from current cash purchases; company-defined FCF retained separately.",
+  "latest_new_financial_report": {
+    "company": "IREN",
+    "period": {
+      "start": "2026-07-01",
+      "end": "2026-09-30",
+      "type": "single_quarter_fiscal_Q1_2027"
+    },
+    "published_at": "2026-11-05T21:06:52Z",
+    "cashflow": {
+      "definition": "Operating cash flow minus cash PP&E purchases including separately reported computer hardware, before finance lease principal.",
+      "operating_cash_flow": 529000000,
+      "prior_year_same_quarter_ocf": 142000000,
+      "cash_ppe_excluding_computer_hardware": 2131000000,
+      "cash_computer_hardware": 2693000000,
+      "cash_ppe_total": 4824000000,
+      "prior_year_same_quarter_cash_ppe_ex_hardware": 180000000,
+      "prior_year_same_quarter_cash_hardware": 100000000,
+      "prior_year_same_quarter_cash_ppe_total": 280000000,
+      "common_cash_surplus": -4295000000,
+      "prior_year_same_quarter_common_cash_surplus": -138000000,
+      "finance_lease_principal_paid": 30000000,
+      "prior_year_same_quarter_finance_lease_principal_paid": 0,
+      "surplus_after_finance_lease_principal": -4325000000,
+      "deferred_revenue_ocf_change": 645000000,
+      "prior_year_same_quarter_deferred_revenue_ocf_change": 22000000,
+      "notes": [
+        "Positive OCF is substantially supported by customer prepayments and entails future performance obligations. Do not describe it as sustainable AI end-user cash return.",
+        "Non-cash PP&E payable2.493bn and noncash ROU96m separately reported, not additionally deducted from current cashflow.",
+        "PP&E disposal proceeds54m not netted against gross cash purchases for common definition."
+      ]
+    },
+    "operating": {
+      "ai_cloud_revenue": 200000000,
+      "ai_cloud_prior_quarter_revenue": 71000000,
+      "ai_cloud_services": 135000000,
+      "ai_cloud_leases": 65000000,
+      "total_revenue": 228000000,
+      "prior_year_total_revenue": 240000000,
+      "prior_quarter_total_revenue": 137000000,
+      "largest_customer_revenue_pct": [
+        28,
+        24,
+        18
+      ],
+      "customer_names_not_assigned_to_anonymous_disclosure": true,
+      "accounts_receivable_net_Sept30": 192000000,
+      "accounts_receivable_net_Jun30": 21000000,
+      "accounts_receivable_overdue_verified": false,
+      "backlog": 20300000000,
+      "backlog_is_realized_revenue": false,
+      "reported_new_pricing": "Company says 3-year contracts+11%,5-year+12%; post-quarter H100 contract double prior contract price. Company-specific deals, not industry rental index.",
+      "post_quarter_customer_prepayment_covering_gpu_capex_pct": 90,
+      "prepayment_received_not_verified": true,
+      "ai_cloud_prior_year_same_quarter_revenue": 7000000
+    },
+    "liquidity": {
+      "cash_and_equivalents_Sept30": 3522000000,
+      "cash_and_equivalents_Jun30": 5896000000,
+      "restricted_cash_Sept30": 2256000000,
+      "restricted_cash_Jun30": 1724000000,
+      "cash_restricted_total_Sept30": 5778000000,
+      "debt_carrying_value_total_Sept30": 9897000000,
+      "debt_current_carrying_value_Sept30": 950000000,
+      "debt_current_carrying_is_exact_12month_contract_principal": false,
+      "future_debt_principal_remainder_FY2027": 723000000,
+      "future_debt_principal_FY2028": 1059000000,
+      "exact_next12months_principal": null,
+      "cash_interest_paid_single_quarter": 34000000,
+      "remaining_FY27_planned_capex": 15000000000,
+      "cash_committed_finance_prepayment_bucket": 9000000000,
+      "target_additional_funding_subject_market_conditions": 6000000000,
+      "funding_bucket_components": [
+        "cash and equivalents",
+        "restricted cash",
+        "undrawn committed GPU facilities",
+        "contracted prepayments not yet received"
+      ],
+      "fully_funded_claim_scope": "0.3GW program underlying >4bnARR target, conditional on funding/escrow release/availability conditions. Not all FY27 plannedcapex, not9bn unrestrictedcash.",
+      "GPU_2_covenants_status": "Company says compliant as ofSept30.",
+      "GPU_3_covenants_status": "Company says compliant as ofSept30.",
+      "GPU_2_and_3_parent_recourse": "Secured on financed equipment with IREN guarantees; no financial maintenance covenants onIREN under those guarantees; cross-default/cross-acceleration terms exist but no actual trigger verified.",
+      "commitments_Sept30": 18947000000,
+      "commitments_Jun30": 13810000000,
+      "commitment_not_automatically_additive_to_capex": true,
+      "subsequent_event_20261001": {
+        "released_from_escrow_usd": 525000000,
+        "borrowed_under_DDTL_usd": 388000000,
+        "source": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+        "notes": "Separate postbalance-sheet actual funding, prevents treatingSept30cash as current. Existing commitment draw/release, not extra amount to add blindly to9bn fundingbasket."
+      }
+    },
+    "balance_sheet_date": "2026-09-30",
+    "not_current_cash_balance": true
+  },
+  "historical_financial_baseline_reference": {
+    "file": "reference-baselines/2026Q3-alphabet-meta.json",
+    "is_new_report": false,
+    "company_comparisons": [
+      {
+        "issuer": "Alphabet",
+        "period": "2026-01-01/2026-09-30",
+        "prior_comparable_period": "2025-01-01/2025-09-30",
+        "currency": "USD",
+        "is_new_release": false,
+        "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "publication_date": "2026-10-29",
+        "operating_cashflow": 127149000000,
+        "prior_ocf": 112311000000,
+        "ocf_yoy_pct": 13.212,
+        "cash_ppe": 131953000000,
+        "prior_cash_ppe": 63596000000,
+        "cash_ppe_yoy_pct": 107.486,
+        "common_cash_surplus": -4804000000,
+        "prior_common_cash_surplus": 48715000000,
+        "finance_lease_principal": 1950000000,
+        "surplus_after_finance_lease_principal": -6754000000,
+        "cash_and_debt_securities_excluding_equity_at_Sept30": 174714000000,
+        "exact_current_liquidity_and_next12months_contractual_service": null
+      },
+      {
+        "issuer": "Meta",
+        "period": "2026-01-01/2026-09-30",
+        "prior_comparable_period": "2025-01-01/2025-09-30",
+        "currency": "USD",
+        "is_new_release": false,
+        "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+        "publication_date": "2026-10-22",
+        "operating_cashflow": 96873000000,
+        "prior_ocf": 79586000000,
+        "ocf_yoy_pct": 21.721,
+        "cash_ppe": 83055000000,
+        "prior_cash_ppe": 48308000000,
+        "cash_ppe_yoy_pct": 71.928,
+        "common_cash_surplus": 13818000000,
+        "prior_common_cash_surplus": 31278000000,
+        "finance_lease_principal": 2769000000,
+        "surplus_after_finance_lease_principal": 11049000000,
+        "cash_and_debt_securities_excluding_equity_at_Sept30": 79324000000,
+        "exact_current_liquidity_and_next12months_contractual_service": null
+      }
+    ],
+    "do_not_recount_as_new_evidence": true
+  },
+  "financing_stage_review": {
+    "newly_completed": [
+      {
+        "event_id": "meta_20261103_pricing",
+        "expected_US_settlement_date": "2026-11-05",
+        "status": "completed_confirmed_by_company_8k",
+        "last_checked_at": "2026-11-05T00:35:16.315922+00:00",
+        "currency": "USD",
+        "note": "Nov5US settlement lies later than Nov5morningBeijing; not evidence of delay.",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "meta_20261105_usd_notes_completed"
+      },
+      {
+        "event_id": "alphabet_20261102_eur_notes",
+        "expected_settlement_date": "2026-11-05",
+        "currency": "EUR",
+        "status": "completed_confirmed_by_company_8k",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "alphabet_20261105_eur_notes_completed"
+      }
+    ],
+    "pending": [
+      {
+        "event_id": "meta_eur_20261104_pricing",
+        "expected_settlement_date": "2026-11-12",
+        "currency": "EUR",
+        "status": "priced_not_verified_settled_not_due_yet",
+        "last_checked_at": "2026-11-06T00:39:28.246180+00:00"
+      }
+    ],
+    "exact_current_available_net_cash_not_established": true
+  },
+  "weekly_review": {
+    "due_today": true,
+    "review_completed": true,
+    "date": "2026-11-06",
+    "credit_20_comparable_observations": [
+      {
+        "series": "BAMLC0A0CM",
+        "latest_date": "2026-11-04",
+        "latest_bp": 91.0,
+        "twenty_observations_earlier": {
+          "date": "2026-10-07",
+          "value": 82.0,
+          "change_bp": 9.0
+        },
+        "available_week_change": {
+          "start": "2026-10-30",
+          "end": "2026-11-04",
+          "start_value": 94.0,
+          "change_bp": -3.0
+        }
+      },
+      {
+        "series": "BAMLH0A0HYM2",
+        "latest_date": "2026-11-04",
+        "latest_bp": 332.0,
+        "twenty_observations_earlier": {
+          "date": "2026-10-07",
+          "value": 309.0,
+          "change_bp": 23.0
+        },
+        "available_week_change": {
+          "start": "2026-10-30",
+          "end": "2026-11-04",
+          "start_value": 344.0,
+          "change_bp": -12.0
+        }
+      }
+    ],
+    "issuer_CDS_or_matched_bond_twenty_day_history_available": false,
+    "financial_comparisons": [
+      {
+        "issuer": "Alphabet",
+        "period": "2026-01-01/2026-09-30",
+        "prior_comparable_period": "2025-01-01/2025-09-30",
+        "currency": "USD",
+        "is_new_release": false,
+        "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "publication_date": "2026-10-29",
+        "operating_cashflow": 127149000000,
+        "prior_ocf": 112311000000,
+        "ocf_yoy_pct": 13.212,
+        "cash_ppe": 131953000000,
+        "prior_cash_ppe": 63596000000,
+        "cash_ppe_yoy_pct": 107.486,
+        "common_cash_surplus": -4804000000,
+        "prior_common_cash_surplus": 48715000000,
+        "finance_lease_principal": 1950000000,
+        "surplus_after_finance_lease_principal": -6754000000,
+        "cash_and_debt_securities_excluding_equity_at_Sept30": 174714000000,
+        "exact_current_liquidity_and_next12months_contractual_service": null
+      },
+      {
+        "issuer": "Meta",
+        "period": "2026-01-01/2026-09-30",
+        "prior_comparable_period": "2025-01-01/2025-09-30",
+        "currency": "USD",
+        "is_new_release": false,
+        "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+        "publication_date": "2026-10-22",
+        "operating_cashflow": 96873000000,
+        "prior_ocf": 79586000000,
+        "ocf_yoy_pct": 21.721,
+        "cash_ppe": 83055000000,
+        "prior_cash_ppe": 48308000000,
+        "cash_ppe_yoy_pct": 71.928,
+        "common_cash_surplus": 13818000000,
+        "prior_common_cash_surplus": 31278000000,
+        "finance_lease_principal": 2769000000,
+        "surplus_after_finance_lease_principal": 11049000000,
+        "cash_and_debt_securities_excluding_equity_at_Sept30": 79324000000,
+        "exact_current_liquidity_and_next12months_contractual_service": null
+      }
+    ],
+    "IREN_new_comparable_quarters": {
+      "current": "2026Q3",
+      "prior_year_same_quarter": "2025Q3",
+      "cash_surplus_current": -4295000000,
+      "cash_surplus_prior_year": -138000000,
+      "currency": "USD",
+      "finance_lease_principal_current": 30000000,
+      "finance_lease_principal_prior_year": 0,
+      "notes": "Single quarters compared. Reported OCF grew142mto529m, but cashPP&E280mto4824m; customer prepayments support OCF. Not directly compare these single-quarter numbers to9MAlphabet/Meta."
+    },
+    "events_this_week": "CoreWeave prior completed convertibles remain historical. OracleUSD10bn equity+USD10bn debt completedNov4; MicrosoftUSD25bn notes issuedNov4; MetaUSD15bn and AlphabetEUR6bn completedNov5; MetaEUR9bn pricedNov4 awaitsNov12. NewGoogle contingent project support disclosedNov4, plus longtermWyomingplanNov5. These are separate funding stages and not sector operating returns.",
+    "prior_warning_outcomes": [
+      {
+        "warning": "Media discovery of Microsoft/IREN delivery delays in prior observation",
+        "outcome": "Company formalNov5report now verifies requested redesign and delivery/ARR delay, not demand-driven cancellation or default."
+      },
+      {
+        "warning": "Pending MetaUSD/AlphabetEUR settlement",
+        "outcome": "Both now formally confirmed completedNov5; no evidence prior predicted settlement dates were missed."
+      },
+      {
+        "warning": "Capital spending may exceed internally generated cash",
+        "outcome": "IRENnewquarter materially widenscashgap; oldAlphabet/Meta baseline still showscapexgrowingfasterthanOCF. No newmainissuerfinancialperiodtoday."
+      },
+      {
+        "warning": "Contingent support may transmit losses",
+        "outcome": "Contractual links exist, but no verified actual supportpayout or AI-specific lenderloss in coverednewfilings."
+      }
+    ],
+    "assessment": "观察",
+    "notes": "Recent overall credit narrowing is positive broadmarket evidence but not sufficient to call issuer-specific or wholeAIrisk relief;20observation levels remain elevated. Weeklyreviewitself doesnot trigger notification."
+  },
+  "source_coverage": {
+    "priority": {
+      "checked_at": "2026-11-06T00:38:19.589772+00:00",
+      "comparison_cutoff": "2026-11-05T00:35:16.315922+00:00",
+      "new_events": [],
+      "new_sec_filings": {
+        "Oracle": [],
+        "CoreWeave": [
+          {
+            "form": "144",
+            "published_at": "2026-11-05T21:26:36.000Z",
+            "accession": "0001950047-26-010733",
+            "interpretation": "Proposed selling-shareholder sale notice; not issuer operating report or funding failure."
+          }
+        ]
+      },
+      "new_operating_financial_report_verified": false,
+      "new_default_covenant_or_project_cancellation_verified": false,
+      "weekly_review": {
+        "Oracle": "Nov2 priced USD10bn senior notes progressed to Nov4 completed issuance/sale, plus USD10bn common equity completed; already reported Nov5. Confirms this specific market access, not all financing or operating cashflow improvement. No new filing Nov5.",
+        "CoreWeave": "No fresh issuer financing/operating disclosure beyond already-known September USD4.2bn 2.875% convertible completed. Low coupon contains conversion-option value and is not comparable with plain debt/CDS. No new current cashflow trend established.",
+        "prior_warning_check": "No verified priority-issuer financing withdrawal, default or support payout in reviewed sources; lack of disclosure not proof no underlying risk."
+      },
+      "unverified_discovery": [
+        {
+          "headline": "Mystery Seller Seeks to Dump $500 Million of Data Center Loans",
+          "original_reporter": "Bloomberg",
+          "published_at": "2026-11-05T18:52:30Z",
+          "original_title_confirmed_via": "Google News RSS",
+          "original_full_text_available": false,
+          "secondary_source": "https://startupfortune.com/a-500-million-pile-of-data-center-loans-just-hit-the-auction-block/",
+          "secondary_publication_at_from_RSS": "2026-11-05T21:31:31Z",
+          "secondary_claims": {
+            "loan_face_amount_USD_approx": 500000000,
+            "bids_due": "2026-11-19",
+            "minimum_bid_USD": 10000000,
+            "portfolio_names": [
+              "Vantage Data Centers",
+              "CyrusOne",
+              "New Mexico Stargate site"
+            ],
+            "claimed_stargate_slice_USD": 25000000
+          },
+          "stage": "Reported seeking bids; no winning bid, actual sale, transaction discount or realized loss verified",
+          "treatment": "Discovery only, not independent corroboration or risk-rating input. Secondary article uses interpretive crisis language unsupported by a completed sale. Shared underwriting exposure and ordinary risk distribution are not proof of funding closure."
+        },
+        {
+          "headline": "$500M Data Center Loans Up for Sale; CoreWeave Notes at 76",
+          "reporter": "FourWeekMBA",
+          "published_at": "2026-11-05T23:35:31Z",
+          "treatment": "Headline only. No issue/CUSIP, maturity, currency, rank, quote timestamp/type, comparable history or trade verified. Not used as current credit price."
+        }
+      ],
+      "limits": [
+        "Oracle and CoreWeave IR returnedHTTP429; CoreWeave newsroom403. Oracle main newsroom accessible but latest featured releases remainOct27; not an exhaustive news archive.",
+        "No current comparable5yCDS or matched secondary bond-spread history acquired.",
+        "SEC Oracle no new forms; CoreWeave onlyForm144. Absence of new reports not proof of no funding or operating risk.",
+        "Bloomberg direct attempts timed out; no paywall bypass attempted. Secondary article is not independent confirmation."
+      ],
+      "sources": [
+        {
+          "name": "Oracle SEC submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001341439.json",
+          "retrieved_at": "2026-11-06T00:34:51.197491+00:00",
+          "status": 200
+        },
+        {
+          "name": "CoreWeave SEC submissions",
+          "url": "https://data.sec.gov/submissions/CIK0001769628.json",
+          "retrieved_at": "2026-11-06T00:34:51.197963+00:00",
+          "status": 200
+        },
+        {
+          "name": "Oracle main newsroom",
+          "url": "https://www.oracle.com/news/",
+          "retrieved_at": "2026-11-06T00:35:20.774239+00:00",
+          "status": 200
+        }
+      ],
+      "judgment": "No verified material new priority-issuer risk change. Preserve observation and financing-stage completions reported Nov5. Loan-sale discovery requires tender result, price and seller/issuer confirmation; no standalone crisis conclusion."
+    },
+    "bigtech": {
+      "operating_financial_reports": {
+        "alphabet": {
+          "new10q": false,
+          "latest10q": [
+            {
+              "accessionNumber": "0001652044-26-000084",
+              "filingDate": "2026-10-29",
+              "primaryDocument": "goog-20260930.htm"
+            }
+          ]
+        },
+        "meta": {
+          "new10q": false,
+          "latest10q": [
+            {
+              "accessionNumber": "0001628280-26-066773",
+              "filingDate": "2026-10-22",
+              "primaryDocument": "meta-20260930.htm"
+            }
+          ]
+        },
+        "microsoft": {
+          "new10q": false,
+          "latest10q": [
+            {
+              "accessionNumber": "0001193125-26-436133",
+              "filingDate": "2026-10-28",
+              "primaryDocument": "msft-20260930.htm"
+            }
+          ]
+        },
+        "amazon": {
+          "new10q": false,
+          "latest10q": [
+            {
+              "accessionNumber": "0001018724-26-000040",
+              "filingDate": "2026-10-30",
+              "primaryDocument": "amzn-20260930.htm"
+            }
+          ]
+        },
+        "broadcom": {
+          "new10q": false,
+          "latest10q": [
+            {
+              "accessionNumber": "0001730168-26-000080",
+              "filingDate": "2026-09-10",
+              "primaryDocument": "avgo-20260802.htm"
+            }
+          ]
+        }
+      },
+      "details_file": "evidence/2026-11-06/bigtech/findings.json",
+      "SEC_submissions_checked": true
+    },
+    "chain": {
+      "details_file": "evidence/2026-11-06/chain/findings.json",
+      "no_new_relevant_sec_forms": [
+        "JPMorgan",
+        "Blackstone",
+        "Ares",
+        "TeraWulf"
+      ],
+      "new_Apollo10q_reviewed": true
+    },
+    "FRED_collection_succeeded": true,
+    "latest_FRED_observation_date": "2026-11-04",
+    "overall_collection_failed": false,
+    "full_barclays_report_obtained": false
+  },
+  "missing_data": [
+    "Current comparable5yissuerCDS, CDX.IG and same-bond secondary histories, verifiednewissuer-ratingchanges and completeorderbooks.",
+    "Current industry GPU rental/utilization indices and customer-level aging/collections; no newmainsevenissuer operatingfinancialreport.",
+    "Comprehensive bank/privatecredit loan-level AIexposures and realizedlosses.",
+    "Exact current available netliquidity and complete contractual next12monthsprincipal,interest,lease and unavoidablecommitment schedules. IRENSept30cash is historical; Oct1draw/release not blindlyadditive to financingbasket.",
+    "IRENfinalMicrosoftdeliverydates and fees/credits/reimbursement resolution; independentMicrosoftconfirmation; futureUSD6bnfunding execution.",
+    "GoogleTeraWulf supportmax/overlap with priorAlphabetaggregate remains unavailable; no newpayout.",
+    "MetaEUR9bnsettlementNov12 remains pending, not overdue.",
+    "Full historicalBarclaysreport not acquired; no inventedcurrentterminalquotes."
+  ],
+  "unverified_discovery": [
+    {
+      "headline": "Mystery seller seeks to sellUSD500m data-center loans / CoreWeave bonds near76",
+      "status": "Discovery only; borrower/security/trade-date/terms/execution not adequately verified. Not counted as realizedloss, current comparableCDS or fundingclosure. Seepriorityevidence."
+    }
+  ],
+  "comparability": {
+    "issuer_CDS_available": false,
+    "matched_secondary_spreads_available": false,
+    "new_issue_terms_available": true,
+    "FX_currencies_combined": false,
+    "probability_model": null,
+    "crash_probability": null
+  },
+  "next_confirmation_conditions": [
+    "IREN commissioning/customeracceptance and deferredARR target; finaldelivery/credits/reimbursement terms and actualcollections.",
+    "IRENprospectiveUSD6bn funding and actual facilitydraw/escrowrelease; verifiedrepricing,withdrawal,contractualdefault would changeassessment.",
+    "PendingMetaEURNov12closing and comparableissuer-spreadseries; distinguish broadcreditmoves fromAIissueridiosyncraticpressure.",
+    "Actual customerpaymentdefault,covenanttrigger,guaranteepayout or AI-attributed lenderloss with scale and directcontracts."
+  ],
+  "sources": [
+    {
+      "id": "iren_results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "publication_at": "2026-11-05T21:03:11Z",
+      "type": "primary_SEC_earnings_release",
+      "archived": "evidence/2026-11-06/chain/iren_release.html"
+    },
+    {
+      "id": "iren_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "publication_at": "2026-11-05T21:06:52Z",
+      "type": "primary_SEC_10Q",
+      "archived": "evidence/2026-11-06/chain/iren_10q.html"
+    },
+    {
+      "id": "apollo_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000067/apo-20260930.htm",
+      "publication_at": "2026-11-05T21:11:44Z",
+      "type": "primary_SEC_10Q",
+      "archived": "evidence/2026-11-06/chain/apollo_10q.html"
+    },
+    {
+      "id": "alphabet_completed",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+      "publication_at": "2026-11-05T21:10:44Z",
+      "type": "primary_SEC_8K",
+      "archived": "evidence/2026-11-06/bigtech/alphabet_8k_0001193125-26-449835.html"
+    },
+    {
+      "id": "meta_completed",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+      "publication_at": "2026-11-05T21:58:46Z",
+      "type": "primary_SEC_8K",
+      "archived": "evidence/2026-11-06/bigtech/meta_8k_0001193125-26-450074.html"
+    },
+    {
+      "id": "google_wyoming",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+      "publication_at": "2026-11-05T17:00:00Z",
+      "type": "primary_company_announcement",
+      "archived": "evidence/2026-11-06/bigtech/google_wyoming.html"
+    },
+    {
+      "id": "fred_ig",
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "publication_at": null,
+      "market_time": "2026-11-04",
+      "retrieved_at": "2026-11-06T00:35:18.924316+00:00",
+      "type": "broad_credit_market_proxy_not_AI_CDS",
+      "archived": "evidence/2026-11-06/market/fred_ig.csv"
+    },
+    {
+      "id": "fred_hy",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "publication_at": null,
+      "market_time": "2026-11-04",
+      "retrieved_at": "2026-11-06T00:35:18.924793+00:00",
+      "type": "broad_credit_market_proxy_not_AI_CDS",
+      "archived": "evidence/2026-11-06/market/fred_hy.csv"
+    }
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "prepared_at": "2026-11-06T00:39:28.246180+00:00",
+    "reason": "Material new primary IREN earnings/delivery/cashcapex evidence plus completedsettlements of twopreviouslypendingmajorofferings.",
+    "overall_assessment_changed": false,
+    "material_evidence_changed": true
+  },
+  "interpretation_limits": [
+    "Do not translate futureARR target into lost recognizedsales; do not label engineeringchange as demandcollapse.",
+    "Do not equate cashcapexgap with default, restrictedcash with freecash, or undrawn financing/prepayments with cashreceived.",
+    "Do not equate newdebt or conditionalcreditlinks with loss; noverifiedsystemiccascade and nofabricatedcrashprobability.",
+    "No A-share ordertransmission or userholdingassumption without directevidence."
+  ],
+  "raw_evidence_directory": "evidence/2026-11-06"
+}

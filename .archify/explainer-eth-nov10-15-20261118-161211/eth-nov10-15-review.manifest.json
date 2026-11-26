@@ -1,0 +1,14 @@
+{
+  "artifact": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/eth-nov10-15-review.html",
+  "artifact_sha256": "326beb0ebc9dac19093f1e4a6bab5e5685d7992434648cde2684b0bd6b057d06",
+  "title": "ETHUSDT 11月10—15日回测复核",
+  "period_label": "2026-11-10 — 2026-11-15（含全天）· 北京时间 · 币安 USDT 永续 · 5 分钟",
+  "chart_fragment": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/chart-fragment.html",
+  "chart_fragment_sha256": "65c7489c0a997bb0a21aaeae4bb1b47ee01e2249339255c1c10493a21a293234",
+  "chart_document": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/trade-chart.html",
+  "chart_document_sha256": "9f9af23ed91636f0fb7acd86efdc87ec3a88f264f1d0f19883703ec262f19d2f",
+  "archify_report": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/backtest-report.html",
+  "archify_report_sha256": "0fd452d200fd39663394895ab944437c34497460dffe55be621e99d03aa3582e",
+  "archify_delivery_receipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/backtest-report.delivery.json",
+  "scope": "Report source has Archify delivery provenance; the custom shell adds runtime presentation styles and is checked separately."
+}

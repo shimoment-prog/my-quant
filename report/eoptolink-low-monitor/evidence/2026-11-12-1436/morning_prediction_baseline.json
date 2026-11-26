@@ -1,0 +1,25 @@
+{
+  "state_path": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/state.json",
+  "state_sha256": "ba6089182c9b3b2564010f0eba99b5ed322c07e27add830e5848e7b87a0ca233",
+  "observation_path": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-12-1036.json",
+  "observation_sha256": "5c348a84ba6ca0fe4314699057ba969d738e287e9e15bf2d1630a90e35412c08",
+  "prediction": {
+    "id": "2026-11-12-1036-L21103",
+    "symbol": "300502.SZ",
+    "scheduled_check_at": "2026-11-12T10:30:00+08:00",
+    "triggered_at": "2026-11-12T10:34:35.982+08:00",
+    "created_at": "2026-11-12T10:36:41+08:00",
+    "forecast_start": "2026-11-12T10:36:41+08:00",
+    "snapshot_time": "2026-11-12T10:36:36+08:00",
+    "threshold": 211.03,
+    "comparison": "strictly_less_than",
+    "event": "Any traded price strictly below211.03 after forecast_start and by deadline",
+    "deadline": "2026-11-12T15:00:00+08:00",
+    "risk": "中等",
+    "numeric_probability": null,
+    "model_validated": false,
+    "status": "pending",
+    "settled": false,
+    "note": "Morning forecast starts at actual creation, never backdated to10:30 or trigger. The contemporaneous cumulative day low is frozen independently of yesterday predictions and historical179.83 line. No tickstream between snapshot and creation; actual quote age retained."
+  }
+}

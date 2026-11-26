@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-06",
+  "weekday": "Friday",
+  "normal_session": true,
+  "checked_at": "2026-11-06T14:34:44.684262+08:00",
+  "morning_calendar_reused_from": "/tmp/eoptolink-monitor-20261106-1030/calendar/calendar.json",
+  "morning_checked_at": "2026-11-06T10:28:42.178294+08:00",
+  "official_sources_refreshed": [
+    {
+      "id": "sse_calendar",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "http_status": 200,
+      "ok": true,
+      "retrieved_at": "2026-11-06T14:34:07.742501+08:00",
+      "bytes": 29581,
+      "calendar_excerpt": "2026年休市安排 元旦： 1月1日（星期四）至1月3日（星期六）休市，1月5日（星期一）起照常开市。另外，1月4日（星期日）为周末休市。 春节： 2月15日（星期日）至2月23日（星期一）休市，2月24日（星期二）起照常开市。另外，2月14日（星期六）、2月28日（星期六）为周末休市。 清明节： 4月4日（星期六）至4月6日（星期一）休市，4月7日（星期二）起照常开市。 劳动节： 5月1日（星期五）至5月5日（星期二）休市，5月6日（星期三）起照常开市。另外，5月9日（星期六）为周末休市。 端午节： 6月19日（星期五）至6月21日（星期日）休市，6月22日（星期一）起照常开市。 中秋节： 9月25日（星期五）至9月27日（星期日）休市，9月28日（星期一）起照常开市。 国庆节： 10月1日（星期四）至10月7日（星期三）休市，10月8日（星期四）起照常开市。另外，9月20日（星期日）、10月10日（星期六）为周末休市。 相关公告 关于2026年中秋节、国庆节休市安排的公告 2026-09-17 关于2026年端午节休市安排的公告 2026-06-11 关于2026年劳动节休市安排的公告 2026-04-23 关于2026年清明节休市安排的公告 2026-03-31 关于2026年春节休市安排的公告 2026-02-05 相关链接 联系我们 网站地图 相关链接 法律声明 注册商标 个人信息保护告知书 官方微博 官方微信 APP下载 党建 党建动态 学习园地 图文播报 发行上市 审核公告通知 审核信息披露 审核项目动态 关于上市审核中心 科创战略 披露 交易提示 上交所公告 上市公司信息 融资融券信息 基金信息 公募REITs信息 交易信息披露 债券信息 股票期权信息 监管 上市公司监管 发行上市审核监管 债券监管 交易监管 会员及其他交易参与人监管 自律管理复核 自律监管与市场服务事项 诉求受理中心 数据 股票数据 债券数据 基金数据 公募REITs数据 其他数据 行情信息 上证系列指数 中证系列指数 中华系列指数 产品 股票与存托凭证 基金 债券 股票期权 公募REITs 服务 企业上市服务 IPO业务专栏 沪港通 绿色证券专栏 交易服务 交易技术支持专区 收费及代收税费 投资者服务 上市公司服务 路演服务 技术服务 信息服务 培训服务 司法服务 规则 法律法规"
+    },
+    {
+      "id": "szse_notice",
+      "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+      "http_status": 200,
+      "ok": true,
+      "retrieved_at": "2026-11-06T14:34:07.612298+08:00",
+      "bytes": 92769,
+      "visible_notices": [
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-11-02",
+          "href": "./t20261102_623639.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-30",
+          "href": "./t20261030_623637.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-30",
+          "href": "./t20261030_623599.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-26",
+          "href": "./t20261026_623465.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-23",
+          "href": "./t20261023_623441.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "date": "2026-10-21",
+          "href": "./t20261021_623420.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "date": "2026-10-21",
+          "href": "./t20261021_623417.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-21",
+          "href": "./t20261021_623405.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "date": "2026-10-20",
+          "href": "./t20261020_623404.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "date": "2026-10-20",
+          "href": "./t20261020_623403.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-16",
+          "href": "./t20261016_623329.html"
+        },
+        {
+          "title": "关于深港通下的港股通交易日安排的通知",
+          "date": "2026-10-15",
+          "href": "./t20261015_623326.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-10-08",
+          "href": "./t20261008_623189.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-09-29",
+          "href": "./t20260929_623105.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-09-28",
+          "href": "./t20260928_623076.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-09-23",
+          "href": "./t20260923_622996.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-09-21",
+          "href": "./t20260921_622950.html"
+        },
+        {
+          "title": "关于2026年中秋节、国庆节休市安排的通知",
+          "date": "2026-09-17",
+          "href": "./t20260917_622911.html"
+        },
+        {
+          "title": "关于深港通下港股通交易日安排的通知",
+          "date": "2026-09-17",
+          "href": "./t20260917_622910.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "date": "2026-09-14",
+          "href": "./t20260914_622848.html"
+        }
+      ]
+    },
+    {
+      "id": "sse_general",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/",
+      "ok": true,
+      "retrieved_at": "2026-11-06T14:33:33.601569+08:00",
+      "bytes": 34588,
+      "visible_notices": [
+        {
+          "title": "纳斯达克100交易型开放式指数证券投资基金临时停牌公告",
+          "date": "2026-11-06",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20261106_10836918.shtml"
+        },
+        {
+          "title": "关于西部证券股份有限公司为国泰上证综合交易型开放式指数证券投资基金提供一般做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836835.shtml"
+        },
+        {
+          "title": "关于西部证券股份有限公司为天弘中证农业主题交易型开放式指数证券投资基金提供一般做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836837.shtml"
+        },
+        {
+          "title": "关于西部证券股份有限公司为广发中证军工交易型开放式指数证券投资基金提供一般做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836839.shtml"
+        },
+        {
+          "title": "关于西部证券股份有限公司为国泰上证国有企业红利交易型开放式指数证券投资基金提供一般做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836841.shtml"
+        },
+        {
+          "title": "关于东莞证券股份有限公司为国泰上证综合交易型开放式指数证券投资基金提供主做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836843.shtml"
+        },
+        {
+          "title": "关于招商证券股份有限公司为长城华能燃煤发电封闭式基础设施证券投资基金提供主做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836845.shtml"
+        },
+        {
+          "title": "关于申万宏源证券有限公司为长城华能燃煤发电封闭式基础设施证券投资基金提供主做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836847.shtml"
+        },
+        {
+          "title": "关于中国国际金融股份有限公司为中信建投沈阳国际软件园封闭式基础设施证券投资基金提供主做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836849.shtml"
+        },
+        {
+          "title": "关于中国国际金融股份有限公司为华安锦江封闭式商业不动产证券投资基金提供主做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836851.shtml"
+        },
+        {
+          "title": "关于华泰证券股份有限公司为华安陆家嘴封闭式商业不动产证券投资基金提供一般做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836853.shtml"
+        },
+        {
+          "title": "关于广发证券股份有限公司为长城华能燃煤发电封闭式基础设施证券投资基金提供一般做市服务的公告",
+          "date": "2026-11-05",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261105_10836855.shtml"
+        },
+        {
+          "title": "关于中信证券股份有限公司为华安锦江封闭式商业不动产证券投资基金提供一般做市服务的公告",
+          "date": "2026-11-04",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261104_10836736.shtml"
+        },
+        {
+          "title": "关于东海证券股份有限公司为广发中证军工交易型开放式指数证券投资基金提供主做市服务的公告",
+          "date": "2026-11-04",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261104_10836738.shtml"
+        },
+        {
+          "title": "关于东海证券股份有限公司终止为华宝上证科创板综合增强策略交易型开放式指数证券投资基金提供一般做市服务的公告",
+          "date": "2026-11-04",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261104_10836740.shtml"
+        }
+      ]
+    }
+  ],
+  "holiday_notice_reused_url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+  "holiday_schedule_excludes_today": true,
+  "temporary_closure_notice_found_in_reviewed_sources": false,
+  "findings": [
+    "2026-11-06 is Friday, outside SSE official 2026 holiday closures.",
+    "Afternoon refreshed SSE annual closure calendar plus SSE and SZSE latest visible general notices. No broad-market temporary closure for today identified.",
+    "SSE list has a 2026-11-06 Nasdaq 100 ETF temporary suspension announcement: instrument-specific, not an exchange-wide market closure.",
+    "SZSE latest visible notice remains 2026-11-02; no new temporary market closure in reviewed visible list.",
+    "This audit establishes scheduled trading day and reviewed notices; contemporaneous afternoon quote evidence should be provided by root."
+  ],
+  "limits": [
+    "Limited official-page review, not exhaustive across every exchange communication channel.",
+    "SZSE holiday notice verification reused from morning; afternoon independently refreshed visible SZSE general-notice list.",
+    "Do not equate an individual ETF halt with market holiday or market-wide closure."
+  ],
+  "notification": "Normal-session calendar permits scheduled report; parent should verify contemporaneous quotes."
+}

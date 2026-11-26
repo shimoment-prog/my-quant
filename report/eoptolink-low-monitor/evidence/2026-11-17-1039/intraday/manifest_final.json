@@ -1,0 +1,16 @@
+[
+  {
+    "name": "sina_final.txt",
+    "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "ok": true,
+    "retrieved_at": "2026-11-17T10:39:12.586083+08:00",
+    "started_at": "2026-11-17T10:39:12.507268+08:00"
+  },
+  {
+    "name": "quotes_final.txt",
+    "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+    "ok": true,
+    "retrieved_at": "2026-11-17T10:39:12.586038+08:00",
+    "started_at": "2026-11-17T10:39:12.507863+08:00"
+  }
+]

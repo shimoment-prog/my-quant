@@ -1,0 +1,41 @@
+[
+  {
+    "name": "hsbc_bing",
+    "url": "https://www.bing.com/search?q=%22HSBC%22%20%22300%20million%22%20%22AI%22%20%22loan%22&format=rss",
+    "retrieved_at": "2026-11-17T02:12:29.102752+00:00",
+    "status": 200,
+    "bytes": 918
+  },
+  {
+    "name": "hsbc_gnews_alt",
+    "url": "https://news.google.com/rss/search?q=%22HSBC%20offloads%22&hl=en-GB&gl=GB&ceid=GB:en",
+    "retrieved_at": "2026-11-17T02:12:29.103328+00:00",
+    "status": 200,
+    "bytes": 11144
+  },
+  {
+    "name": "hsbc_investing_news",
+    "url": "https://www.investing.com/news/stock-market-news",
+    "retrieved_at": "2026-11-17T02:12:29.103498+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "openai_cfo_search",
+    "url": "https://www.bing.com/search?q=OpenAI%20CFO%20latest%20funding%20round%20unplanned%20Semafor%20November%2017%202026&format=rss",
+    "retrieved_at": "2026-11-17T02:12:29.103689+00:00",
+    "status": 200,
+    "bytes": 4322
+  },
+  {
+    "name": "coreweave_85_original",
+    "url": "https://app.dealroom.co/news/note/coreweave-lands-8-5b-debt-deal-cementing-a-trillion-dollar-ai-lending-playbook",
+    "retrieved_at": "2026-11-17T02:12:29.103834+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "blackstone_press",
+    "url": "https://www.blackstone.com/news/press/",
+    "retrieved_at": "2026-11-17T02:12:29.103973+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

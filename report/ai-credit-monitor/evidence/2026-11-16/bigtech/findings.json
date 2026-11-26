@@ -1,0 +1,348 @@
+{
+  "run_date": "2026-11-16",
+  "prepared_at": "2026-11-16T00:31:05.696551+00:00",
+  "baseline_cutoff": "2026-11-15T00:37:11.438315Z",
+  "scope": [
+    "Alphabet/Google",
+    "Meta",
+    "Microsoft",
+    "Amazon",
+    "Oracle",
+    "Anthropic"
+  ],
+  "read_context": [
+    "README.md",
+    "state.json",
+    "observations/2026-11-15.json",
+    "evidence/2026-11-15/bigtech/findings.json"
+  ],
+  "recommendation": "DONT_NOTIFY_unless_parent_aggregates_other_material_events",
+  "summary": "六家SEC全部成功且无增量申报，未核实新增正式资本开支下修、重要订单取消、担保兑付或重大融资中断。Alphabet亚洲债维持已定价、预期11月19日交割，尚未到交割日；Anthropic官网仍11月10日拟IPO，7%改价标题未取得正式文件确认，未计最终定价或到账。Meta784百万美元FCF/capex上调文章核实为7月30日Q2旧报；Google地方诉讼及开工报道正文不可得，单列工程审批线索，不当作已取消项目。昨日Nebius和SMFG已通知历史披露不重复。",
+  "new_financial_report_published_in_scope": false,
+  "material_new_verified_stage_update": false,
+  "material_change_to_overall_AI_risk_assessment_supported": false,
+  "SEC_checks": [
+    {
+      "company": "alphabet",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "retrieved_at": "2026-11-16T00:27:23.850497+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001652044-26-000084",
+          "filingDate": "2026-10-29",
+          "primaryDocument": "goog-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "meta",
+      "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "retrieved_at": "2026-11-16T00:27:23.850889+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001628280-26-066773",
+          "filingDate": "2026-10-22",
+          "primaryDocument": "meta-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "microsoft",
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "retrieved_at": "2026-11-16T00:27:23.851081+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001193125-26-436133",
+          "filingDate": "2026-10-28",
+          "primaryDocument": "msft-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "amazon",
+      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "retrieved_at": "2026-11-16T00:27:23.851248+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001018724-26-000040",
+          "filingDate": "2026-10-30",
+          "primaryDocument": "amzn-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "anthropic",
+      "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "retrieved_at": "2026-11-16T00:27:23.851387+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": []
+    },
+    {
+      "company": "oracle",
+      "url": "https://data.sec.gov/submissions/CIK0001341439.json",
+      "retrieved_at": "2026-11-16T00:27:24.740854+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001193125-26-389274",
+          "filingDate": "2026-09-11",
+          "primaryDocument": "orcl-20260831.htm"
+        }
+      ]
+    }
+  ],
+  "new_events": [],
+  "new_evidence_records": [],
+  "historical_or_duplicate_source_checks": [
+    {
+      "evidence_id": "meta_20260730_Q2_TradingKey_recap_recirculation_checked_20261116",
+      "issuer": "Meta",
+      "source": "https://www.tradingkey.com/analysis/stocks/us-stocks/262063667-meta-stock-crashing-after-q2-2026-earnings-eps-miss-capex-tradingkey",
+      "headline": "Why Is Meta (META) Crashing After Earnings? EPS Missed14%, FCF Hit$784M, Capex Raised Again",
+      "RSS_publication_label": "2026-11-15T01:30:11+00:00",
+      "actual_page_publication_at": "2026-07-30T12:00:00+00:00",
+      "actual_page_modified_at": "2026-07-30T11:54:31+00:00",
+      "report_period_described": "2026-Q2",
+      "retrieved_at": "2026-11-16T00:29:35.399708+00:00",
+      "evidence_grade": "secondary_commentary_full_body_original_date_verified",
+      "raw_file": "meta_recap.html",
+      "text_file": "meta_recap.txt",
+      "new_disclosure_after_cutoff": false,
+      "financial_values_not_adopted_over_existing_primary_baseline": true,
+      "company_guidance_revision_count_increment": 0,
+      "interpretation": "The body/date confirms oldQ2 recap. RSS reappearance is not a newquarter/capex increase or fresh cashflow deterioration. Its company/project assertions are not treated as primary verification or a new independent credit line."
+    },
+    {
+      "event": "Nebius11/12financial/delivery guidance",
+      "status": "already_verified_and_notified_on2026-11-15",
+      "not_recounted": true
+    },
+    {
+      "event": "SMFGhistorical2026selective_data_center_lending",
+      "status": "already_verified_on2026-11-15",
+      "not_recounted_as_new_credit_loss": true
+    },
+    {
+      "event": "MetaAlbertaJuly8project_and_AWSMiddleEastMarch_to_September_physical_damage",
+      "status": "historical_evidence_preserved_inNov15findings_no_new_event_checked_this_run",
+      "not_recounted": true,
+      "reference": "evidence/2026-11-15/bigtech/findings.json#new_nonmaterial_context_records"
+    }
+  ],
+  "financing_followups": [
+    {
+      "event_id": "alphabet_20261111_asian_bond_plan_followup",
+      "stage": "priced_reported_by_reliable_media_term_sheets_expected_settlement_not_completed",
+      "expected_settlement_date": "2026-11-19",
+      "next_check": "Company/exchange final documentation and completion around Nov19; absence before then is not a delay or failure.",
+      "reference": "evidence/2026-11-14/bigtech/findings.json#new_evidence_records",
+      "last_checked_at": "2026-11-16T00:31:05.696551+00:00",
+      "new_stage_change": false
+    },
+    {
+      "event_id": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+      "stage": "proposed_roadshow_preliminary_US_range_not_final_priced_not_closed",
+      "new_SEC_filings_since_cutoff": [],
+      "company_news_latest_financing_announcement_date": "2026-11-10",
+      "company_source": "https://www.anthropic.com/news/roadshow-launch",
+      "company_source_retrieved_at": "2026-11-16T00:27:24.374041+00:00",
+      "source_text_file": "anthropic_roadshow.txt",
+      "US_estimated_price_range": [
+        70,
+        78
+      ],
+      "base_global_shares": 825000000,
+      "issuer_primary_shares": 801351354,
+      "selling_holder_secondary_shares": 23648646,
+      "issuer_does_not_receive_secondary_proceeds": true,
+      "private_placement_USD": 26000000000,
+      "private_placement_still_contingent_on_IPO_and_conditions": true,
+      "Google_AMD_existing_commitment_overlap_preserved": true,
+      "regional_EEA_maximum_retail_price_USD_120_not_final_US_IPO_price": true,
+      "offer_period_expected_end": "2026-11-18",
+      "offer_period_end_not_actual_settlement": true,
+      "cash_receipts_verified": false,
+      "latest_primary_terms_reference": "evidence/2026-11-13/bigtech/findings.json#financing_followups",
+      "note": "Nov10 company notice said registration not effective at that notice time. No new EFFECT/final prospectus in issuer submissions this run; do not assert a later effectiveness or final pricing based on speculative headlines.",
+      "new_stage_change": false,
+      "last_checked_at": "2026-11-16T00:31:05.696551+00:00",
+      "SEC_new_filings_since_cutoff": []
+    },
+    {
+      "event_id": "meta_eur_20261104_pricing",
+      "stage": "completed_confirmed_by_company_8K",
+      "completion_date": "2026-11-12",
+      "no_new_change": true,
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+      "reference": "evidence/2026-11-13/bigtech/findings.json#new_events",
+      "aggregate_principal_EUR": 9000000000,
+      "note": "Preserve completed stage. Same Nov4 priced issuance; do not count again as a new EUR9bn financing or revert to pending.",
+      "last_checked_at": "2026-11-16T00:31:05.696551+00:00",
+      "new_stage_change": false
+    },
+    {
+      "issuer": "Oracle",
+      "older_completed_financings_unchanged": true,
+      "no_new_SEC_filings_since_cutoff": true,
+      "note": "No newly verified formal capex cut, actual cancelled project, financing withdrawal or newly failed drawdown in checked sources.",
+      "last_checked_at": "2026-11-16T00:31:05.696551+00:00",
+      "new_stage_change": false
+    }
+  ],
+  "fixed_checks": {
+    "customer_capex_cuts": {
+      "scope": [
+        "Alphabet/Google",
+        "Meta",
+        "Microsoft",
+        "Amazon",
+        "Oracle"
+      ],
+      "status": "no_new_formal_cut_verified",
+      "new_formal_cut_records": [],
+      "existing_historical_financial_periods_not_updated": true,
+      "Meta_Q2_recirculation_excluded": true,
+      "missing_does_not_prove_stable_demand": true
+    },
+    "supplier_consecutive_revenue_guidance_cuts": {
+      "status": "supplier_universe_checked_by_other_agent",
+      "new_supplier_company_cut_records_in_bigtech_sources": [],
+      "formal_issuer_revisions_not_analyst_or_stock_price_changes": true,
+      "not_a_full_supplier_universe_conclusion": true
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "status": "no_new_verified_escalation_in_checked_scope",
+      "new_verified_escalation_records": [],
+      "Google_local_approval_challenge_and_construction_headlines_unverified": true,
+      "Anthropic_7pct_headline_not_promoted_to_pricing_revision_or_financing_interruption": true
+    }
+  },
+  "unverified_or_incomplete_leads": [
+    {
+      "lead_id": "anthropic_20261114_media_IPO_7pct_pricing_mixup",
+      "headline": "Anthropic Cuts IPO 7% After Pricing Mix-Up, Jim Cramer’s ‘Most Consequential Deal’ Wobbles",
+      "headline_publication_at": "2026-11-14T13:15:31Z",
+      "source": "https://beincrypto.com/anthropic-cuts-ipo-cramer-deal-wobbles/",
+      "evidence_grade": "RSS_discovery_only_body_403",
+      "body_verified": false,
+      "original_new_price_or_share_count": null,
+      "old_comparable_price_or_share_count": null,
+      "same_forecast_definition_verified": false,
+      "formal_company_revision_verified": false,
+      "final_IPO_pricing_verified": false,
+      "stage_change_recorded": false,
+      "cash_receipts_verified": false,
+      "crosschecks": [
+        "Official company newsroom and Nov10 preliminary roadshow fetched again; no new final pricing notice found.",
+        "SEC submissions show no new filing after2026-11-15T00:37:11.438315Z including S-1/A,424B4,EFFECT.",
+        "No formal revised comparable offer price/share count obtained; preserve planned range70-78 and conditional private placement rather than promote headline to final pricing or funding failure."
+      ],
+      "next_check": "Company/SEC formal updated terms or reliable full-body reporting explaining old/new range/share count and cause; do not infer funding failure from headline alone.",
+      "notification_decision_alone": "DONT_NOTIFY_unverified",
+      "last_checked_at": "2026-11-16T00:31:05.696551+00:00",
+      "new_primary_confirmation_found": false,
+      "followup_sources_this_run": [
+        {
+          "source": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-set-define-ai-223626042.html",
+          "published_at_from_RSS": "2026-11-15T22:36:26Z",
+          "retrieved_at": "2026-11-16T00:28:53.021424+00:00",
+          "body_verified": false,
+          "error": "403"
+        },
+        {
+          "source": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
+          "published_at_from_RSS": "2026-11-15T11:00:00Z",
+          "retrieved_at": "2026-11-16T00:28:53.021761+00:00",
+          "body_verified": false,
+          "error": "403"
+        }
+      ]
+    },
+    {
+      "lead_id": "google_20261115_oklahoma_power_plan_legal_challenge",
+      "issuer": "Alphabet/Google",
+      "project_or_region": "Oklahoma data center power plan; precise project/counterparty not verified",
+      "headline": "Lawmakers fight regulatory approval of Google data center power plan",
+      "published_at_from_RSS": "2026-11-15T11:20:00+00:00",
+      "source": "https://www.oklahoman.com/story/news/state/2026/11/15/lawmakers-sue-over-secret-google-data-center-power-deal/92759829007/",
+      "retrieved_at": "2026-11-16T00:29:35.399155+00:00",
+      "evidence_grade": "RSS_discovery_only_full_body_timeout",
+      "body_verified": false,
+      "court_or_regulator_order_verified": false,
+      "original_milestone": null,
+      "revised_milestone": null,
+      "actual_stop_or_cancellation_verified": false,
+      "refund_or_default_cost_verified": false,
+      "funding_withdrawal_or_failed_draw_verified": false,
+      "new_formal_capex_revision_verified": false,
+      "interpretation": "Reported legal/approval dispute is a local execution-risk lead. Headline alone does not establish a revoked permit, cancellation, stopped procurement or AI funding contagion.",
+      "next_check": "Obtain filed complaint/order or regulator record and company statement on timeline/scale/actual work impact; no unverified cancellation record."
+    },
+    {
+      "lead_id": "google_20261115_detroit_construction_begins_headline",
+      "issuer": "Alphabet/Google",
+      "project_or_region": "Detroit-area hyperscale data center; precise site not verified",
+      "headline": "Construction begins at Google hyperscale data center despite backlash",
+      "published_at_from_RSS": "2026-11-15T13:00:00+00:00",
+      "source": "https://www.mlive.com/news/detroit/2026/11/construction-begins-at-google-hyperscale-data-center-despite-backlash.html",
+      "retrieved_at": "2026-11-16T00:29:35.399549+00:00",
+      "evidence_grade": "RSS_discovery_only_body_403",
+      "body_verified": false,
+      "actual_current_work_schedule_independently_verified": false,
+      "new_cancelled_order_verified": false,
+      "new_formal_capex_revision_verified": false,
+      "interpretation": "Headline describes commencement despite objections, not cancellation; without body/primary project record do not infer completed build, current spend, stable end demand or entire-industry risk relief."
+    }
+  ],
+  "missing": [
+    "Comparable issuer five-year CDS and matched multi-day/twenty-day bond spread series unavailable in this scope; no percentage crisis probability or trend fabricated.",
+    "Alphabet Asian final company/exchange docs, actualNov19settlement and cashreceipt unverified; future date not a delay.",
+    "Anthropic formally revised/final offer terms, registration effectiveness, closing and conditionalprivateplacement receipt unverified; newYahooarticles403.",
+    "Google local lawsuit/approval decision, permit outcome, exactproject counterparties and anyactualconstruction/procurement/funding consequences not verified; article bodies timeout/403.",
+    "Exactcurrent liquidity and next12mo contractual principal/interest/lease cash obligations not newly disclosed in checked sources. Existingperiod baselines unchanged."
+  ],
+  "historical_financial_baseline_reference": "reference-baselines/2026Q3-alphabet-meta.json",
+  "cashflow_definition": "Operating cash flow minus cash PP&E purchases; financing lease principal separate. No fresh reporting period or current cash movement inferred from old recaps.",
+  "weekly_review": {
+    "due_today": false,
+    "last_completed_date": "2026-11-13"
+  },
+  "notification": {
+    "recommendation": "DONT_NOTIFY",
+    "reason": "No verified new material risk change in bigtech scope; unchanged pending financings, historical recap and incomplete local news do not support a new alarm or relief."
+  },
+  "source_coverage": {
+    "SEC_successes": 6,
+    "SEC_issuers_checked": 6,
+    "official_Anthropic_pages_fetched": true,
+    "Google_official_RSS_fetched": true,
+    "Meta_historical_secondary_recap_full_body_fetched": true,
+    "limitations": "Focusedincrementalweekend-to-Mondaycheck; localandYahooarticlesaccessblocked. Not exhaustiveorcontinuousmonitoring."
+  },
+  "collection_manifests": [
+    "submission_summary.json",
+    "news_manifest.json",
+    "discovery_links_manifest.json",
+    "discovery_decode_manifest.json",
+    "primary_manifest.json",
+    "project_links_manifest.json",
+    "project_decode_manifest.json",
+    "projects_manifest.json"
+  ]
+}

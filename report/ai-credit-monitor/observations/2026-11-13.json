@@ -1,0 +1,2419 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "automation_id": "ai",
+  "triggered_at": "2026-11-13T00:25:52.654Z",
+  "run_at": "2026-11-13T00:35:22.084420+00:00",
+  "timezone": "Asia/Shanghai",
+  "baseline": false,
+  "comparison_to_previous_observation": "observations/2026-11-12.json",
+  "assessment": "风险升温",
+  "assessment_scope": "Localized neocloud cash funding burden and AI power-equipment procurement loss; not a systemic credit-crisis declaration",
+  "summary": "维持局部风险升温。Meta90亿欧元债已完成交割；CoreWeave新10-Q补齐同一季度租赁、提款和承诺附注；整体信用代理较上周收窄，但企业可比CDS序列仍缺失。上述更新尚不足以改变11月11日已通知的现金缺口与采购损失判断；未核实新增重大融资中断、违约或资金方AI损失扩散。",
+  "signals": [
+    {
+      "id": "real_demand_collections_and_cashflow",
+      "assessment": "风险升温",
+      "scope": "CoreWeave expansion funding burden, not verified industry demand contraction",
+      "evidence_ids": [
+        "coreweave_20261110_q3_earnings_cashflow_guidance"
+      ],
+      "change_since_previous_run": "New supplementary disclosures and financing stage updates reviewed; no new overall risk-level change versus last actual notification.",
+      "positive_evidence": "Q3 realized revenue growth168%; full-year revenue and capex raised; backlog is conditional future performance, not receipts.",
+      "historical_evidence_reference": "observations/2026-11-11.json#signals",
+      "financial_evidence_reference": "evidence/2026-11-13/priority/findings.json",
+      "latest_review_notes": "CoreWeave Nov12 Q3 10-Q enriches already notified Nov10 earnings for the same Sept30 period; cash-capex gap remains. Lease principal and concentration updated in supplementary disclosure. No new formal capex or supplier guidance cut verified.",
+      "current_review_references": {
+        "priority": "evidence/2026-11-13/priority/findings.json",
+        "bigtech": "evidence/2026-11-13/bigtech/findings.json",
+        "chain": "evidence/2026-11-13/chain/findings.json"
+      }
+    },
+    {
+      "id": "credit_funding_and_liquidity",
+      "assessment": "风险升温",
+      "scope": "Existing localized issuer pricing stress plus fresh historical-quarter liquidity/funding dependence; no new comparable daily issuer CDS trend verified",
+      "evidence_ids": [
+        "coreweave_20261106_media_bond_cds_quotes",
+        "coreweave_20261110_q3_earnings_cashflow_guidance",
+        "fred_ig",
+        "fred_hy",
+        "meta_20261112_eur_notes_completed"
+      ],
+      "change_since_previous_run": "New supplementary disclosures and financing stage updates reviewed; no new overall risk-level change versus last actual notification.",
+      "historical_quote_reference": "observations/2026-11-07.json#new_events",
+      "latest_review_notes": "MetaEUR9bn completedNov12; CoreWeave DDTL5.5 outstandingUSD1.555bn asofSept30, not freshNov13receipt. BroadIG90bp/HY330bp actualNov11. No comparable issuer20dayCDS or matchedbondspread series. Normal completions and broadproxy narrowing do not establish industry risk relief.",
+      "historical_evidence_reference": "observations/2026-11-11.json#signals",
+      "current_review_references": {
+        "priority": "evidence/2026-11-13/priority/findings.json",
+        "bigtech": "evidence/2026-11-13/bigtech/findings.json",
+        "chain": "evidence/2026-11-13/chain/findings.json"
+      }
+    },
+    {
+      "id": "realized_losses_and_cross_entity_propagation",
+      "assessment": "风险升温",
+      "scope": "Actual localized SB7 procurement economic loss; no verified creditor default, guarantee payout or cross-industry lending loss",
+      "evidence_ids": [
+        "softbank_20261110_sb7_procurement_realignment_loss",
+        "softbank_20261110_lordstown_facility_impairment"
+      ],
+      "change_since_previous_run": "New supplementary disclosures and financing stage updates reviewed; no new overall risk-level change versus last actual notification.",
+      "direct_contract_link": "SoftBank/SVF2→SB7→US AI power equipment suppliers; exact suppliers and end-customer cancellation chain not disclosed.",
+      "absence_not_proof_of_no_risk": true,
+      "historical_evidence_reference": "observations/2026-11-11.json#signals",
+      "latest_review_notes": "Previously notified SB7 procurement loss retained and deduplicated. AAOI lease termination followed option exercise/property purchase, not customer cancellation. NVIDIA governance changes do not establish cancelled customer/investment commitments or lender loss.",
+      "current_review_references": {
+        "priority": "evidence/2026-11-13/priority/findings.json",
+        "bigtech": "evidence/2026-11-13/bigtech/findings.json",
+        "chain": "evidence/2026-11-13/chain/findings.json"
+      }
+    }
+  ],
+  "new_events": [
+    {
+      "event_id": "meta_eur_20261104_pricing",
+      "new_stage_evidence_id": "meta_20261112_eur_notes_completed",
+      "issuer": "Meta",
+      "original_pricing_publication_date": "2026-11-04",
+      "actual_completion_date": "2026-11-12",
+      "SEC_accepted_at": "2026-11-12T21:27:49Z",
+      "stage": "completed_confirmed_by_company_8K",
+      "currency": "EUR",
+      "aggregate_principal": 9000000000,
+      "tranches": [
+        {
+          "principal": 1750000000,
+          "coupon_pct": 4.3,
+          "maturity_year": 2031
+        },
+        {
+          "principal": 1250000000,
+          "coupon_pct": 4.65,
+          "maturity_year": 2033
+        },
+        {
+          "principal": 1000000000,
+          "coupon_pct": 4.9,
+          "maturity_year": 2035
+        },
+        {
+          "principal": 1750000000,
+          "coupon_pct": 5.4,
+          "maturity_year": 2038
+        },
+        {
+          "principal": 1750000000,
+          "coupon_pct": 6.05,
+          "maturity_year": 2044
+        },
+        {
+          "principal": 1500000000,
+          "coupon_pct": 6.4,
+          "maturity_year": 2065
+        }
+      ],
+      "evidence_grade": "primary_company_SEC_8K",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+      "net_cash_proceeds_separately_verified": null,
+      "actual_company_balance_now_verified": false,
+      "note": "Companystatescompletedofferingandnotesissued. SameoriginalNov4pricedissuance—notanotherEUR9bn. CouponisnotOAS/CDS. No default/delay; completionreducesexecutionuncertaintybutdoesnotresolveoperatingcashflowrisks."
+    },
+    {
+      "id": "aaoi_20261112_owned_factory_acquisition_lease_termination",
+      "issuer": "Applied Optoelectronics",
+      "evidence_grade": "primary_SEC_company_8K",
+      "publication_at": "2026-11-12T21:05:45Z",
+      "underlying_event_date": "2026-11-06",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008616/aaoi_8k.htm",
+      "cash_purchase_price_USD": 102250000,
+      "purchase_price_subject_to": "customary prorations and closing adjustments",
+      "transaction_stage": "company_confirms_acquisition_completed_Nov6",
+      "counterparty": "Hightower Phase I Owner LLC",
+      "property": "Buildings1,2,3 at Hightower Business Park PhaseI Houston, manufacturing warehouse and office use",
+      "rentable_square_feet": 736216,
+      "prior_contract": "May8 leases with purchase options, disclosed May13",
+      "lease_termination_reason": "exercise_of_purchase_options_and_property_acquisition",
+      "early_termination_penalty": false,
+      "deposit_and_unapplied_rent": "return_provided_by_agreement_amount_not_verified",
+      "formal_revenue_guidance_cut": false,
+      "customer_order_cancellation": false,
+      "interpretation": "实际现金购房支出单列；租约终止因转自有物业，不能当作客户订单取消、停产或收入下修。无新季度现金流表，不把该支出擅加到已结束Q3。",
+      "alert_trigger": false,
+      "raw_files": [
+        "aaoi8k.html",
+        "aaoi8k.txt"
+      ]
+    },
+    {
+      "id": "nvidia_20261112_CEO_transition",
+      "issuer": "NVIDIA",
+      "evidence_grade": "primary_SEC_8K_and_company_release",
+      "publication_at": "2026-11-12T13:52:41Z",
+      "underlying_event_date": "2026-11-11",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+        "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+      ],
+      "facts": "Board accepted Jensen Huang resignation as President,CEO and director effective immediately; Colette Kress interimCEO while retainingCFO; HarveyJones boardchair.",
+      "company_outlook": "Board expects operations,customer commitments and product roadmap without interruption; management outlook, not verified contract performance.",
+      "Anthropic_10bn_investment_cancelled_or_changed_verified": false,
+      "credit_support_cancelled_or_changed_verified": false,
+      "formal_revenue_guidance_cut_verified": false,
+      "customer_order_cancellation_verified": false,
+      "interpretation": "重大治理不确定性；已读官方8K及新闻稿未披露投资支持取消、收入指引下修或融资中断。不能从离任和股价直接推出AI信用损失。",
+      "AI_credit_alert_trigger": false,
+      "raw_files": [
+        "nvda8k.html",
+        "nvda8k.txt",
+        "nvda_transition.html",
+        "nvda_transition.txt",
+        "nvda_exhibit.html",
+        "nvda_exhibit.txt"
+      ]
+    },
+    {
+      "id": "marvell_20261112_board_expansion",
+      "issuer": "Marvell",
+      "evidence_grade": "primary_SEC_8K",
+      "publication_at": "2026-11-12T14:11:22Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm",
+      "facts": "Board expanded from7to10 with three independent director appointments.",
+      "formal_revenue_guidance_revision": false,
+      "alert_trigger": false,
+      "raw_files": [
+        "mrvl8k.html",
+        "mrvl8k.txt"
+      ]
+    },
+    {
+      "id": "athene_20261112_fixed_income_investor_update",
+      "issuer": "Athene subsidiary of Apollo",
+      "evidence_grade": "primary_SEC_notice_and_company_presentation",
+      "publication_at": "2026-11-12T12:53:51Z",
+      "event_date": "2026-11-12",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000070/apo-20261112.htm",
+        "https://ir.athene.com/news-events/event-calendar/detail/20261112-athene-fixed-income-investor-call---november-2026",
+        "https://d1io3yog0oux5.cloudfront.net/_ace7205da31f07afe215134cb0a57cbf/athene/db/2294/22572/presentation/Q3_2026_Fixed_Income_Investor_Presentation_FINAL.pdf"
+      ],
+      "financial_period": "mostly_asof_or_nine_months_ended_2026-09-30_with_footnotes_on_older_RBC_dates",
+      "AI_project_specific_new_impairment_or_payout_verified": false,
+      "summary": "Nov12投资者会及演示材料介绍保险业务、总体组合与资本；AI基础设施介绍链接指向Oct30旧材料。未取得新的AI贷款级别减值、违约或担保实际赔付。总体管理层信用质量说法不是AI专项风险消失。",
+      "liquidity_interpretation": "演示约78bn可用流动性包括高流动资产、融资设施和借款能力，不能全部当现金；本文不据此判定AI经营回报。",
+      "alert_trigger": false,
+      "raw_files": [
+        "apollo8k.html",
+        "apollo8k.txt",
+        "athene_call.html",
+        "athene_presentation.pdf",
+        "athene_presentation.txt"
+      ]
+    },
+    {
+      "id": "rowan_20261112_corporate_financing_capacity",
+      "issuer": "Rowan Digital Infrastructure",
+      "evidence_grade": "public_issuer_press_release_reproduced_by_POWER_not_direct_company_page",
+      "publication_date": "2026-11-12",
+      "source": "https://www.powermag.com/rowan-digital-infrastructure-secures-1-5-billion-in-financing-for-hyperscale-development-platform/",
+      "stage": "announced_corporate_facilities_company_reported_available_drawn_cash_not_verified",
+      "additional_capacity_USD": 1545000000,
+      "components": [
+        {
+          "instrument": "holding_company_term_loan_upsize",
+          "incremental_USD": 600000000,
+          "post_upsize_facility_USD": 900000000,
+          "prior_facility_USD": 300000000,
+          "lead": "Apterra Infrastructure Capital",
+          "original_facility_closed": "2025-09",
+          "drawn_proceeds_not_disclosed": true
+        },
+        {
+          "instrument": "new_revolving_credit_facility",
+          "capacity_USD": 590000000,
+          "lead": "Citibank",
+          "drawn_proceeds_not_disclosed": true
+        },
+        {
+          "instrument": "new_letter_of_credit_facility",
+          "capacity_USD": 355000000,
+          "lead": "Citibank",
+          "not_cash_receipt": true
+        }
+      ],
+      "use": "general early-stage pipeline development including land,power,long-lead equipment",
+      "pipeline_GW": 5.5,
+      "contracted_capacity_GW_more_than": 1.2,
+      "customer_names_not_disclosed": true,
+      "other_lenders_named": [
+        "Mizuho",
+        "MUFG",
+        "Goldman Sachs",
+        "Societe Generale",
+        "SMBC",
+        "Huntington"
+      ],
+      "conditional_accordion_not_in_added_capacity": {
+        "revolver_max_USD": 2000000000,
+        "LC_max_USD": 1000000000,
+        "subject_to_conditions": true
+      },
+      "actual_drawn_cash_proceeds_verified": false,
+      "pricing_covenants_security_recoursedetails": null,
+      "interpretation": "局部融资渠道可用的正面证据；新增1545m由贷款容量和信用证构成，不能写成现金全到账；不把条件性accordion再加总。不能据此推断CoreWeave、软银或全行业压力缓解。",
+      "alert_trigger_alone": false,
+      "raw_files": [
+        "power_rowan.html",
+        "power_rowan.txt",
+        "rowan_follow_manifest.json"
+      ]
+    },
+    {
+      "issuer": "CoreWeave",
+      "form": "10-Q",
+      "accession": "0001769628-26-000465",
+      "accepted_at": "2026-11-12T12:20:41Z",
+      "filing_date": "2026-11-12",
+      "report_period": "2026-09-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+      "retrieved_at": "2026-11-13T00:27:56.043345Z",
+      "evidence_grade": "primary_SEC",
+      "novelty": "same_Q3_supplemental_footnote_enrichment",
+      "same_event_release": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+      "do_not_count_as_second_earnings_event": true,
+      "id": "coreweave_20261112_10q_same_Q3_supplement",
+      "original_event_id": "coreweave_20261110_q3_earnings_cashflow_guidance",
+      "independent_new_earnings_event": false,
+      "important_risk_change_trigger": false
+    }
+  ],
+  "new_nonmaterial_context_records": [
+    {
+      "event_id": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+      "stage": "proposed_roadshow_preliminary_US_range_not_final_priced_not_closed",
+      "new_document_evidence_ids": [
+        "anthropic_20261112_japan_FWP",
+        "anthropic_20261112_EEA_FWP"
+      ],
+      "new_document_publication_dates": [
+        "2026-11-12"
+      ],
+      "underlying_regional_prospectus_date": "2026-11-11",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073045/anthropicpbc-fwpjapanamend.htm",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm",
+        "https://www.anthropic.com/news/roadshow-launch"
+      ],
+      "evidence_grade": "primary_SEC_regional_prospectuses",
+      "US_estimated_price_range": [
+        70,
+        78
+      ],
+      "EEA_maximum_retail_offering_price": 120,
+      "EEA_maximum_retail_price_not_final_US_IPO_price": true,
+      "EEA_shares_up_to": 80135135,
+      "regional_shares_are_tranche_of_global_offering_not_additional_global_raise": true,
+      "offer_period_expected_end": "2026-11-18",
+      "offer_period_date_is_not_actual_closing": true,
+      "private_placement_USD": 26000000000,
+      "private_placement_still_contingent_on_IPO_and_conditions": true,
+      "cash_receipts_verified": false,
+      "old_Google_AMD_commitment_overlap_preserved": true,
+      "prior_full_terms_reference": "evidence/2026-11-11/bigtech/findings.json#new_events",
+      "interpretation": "Regionalapproval/registrationandretailceilingareofferingprocesssteps,notfinalpricing,completedfinancingorassuredreceipts. No verifiedwithdrawalofNVIDIAcommitment;leadershipnewsaloneisnotcontractchange."
+    },
+    {
+      "event_id": "alphabet_20261111_asian_bond_plan_followup",
+      "new_evidence_id": "alphabet_20261112_asian_bond_launch_pricing_headlines",
+      "issuer": "Alphabet",
+      "publication_date": "2026-11-12",
+      "currencies": [
+        "HKD",
+        "SGD"
+      ],
+      "reported_size_USD_approx": 3800000000,
+      "reported_orders_USD_over": 7000000000,
+      "source": "https://www.reuters.com/world/asia-pacific/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-2026-11-12/",
+      "evidence_grade": "reliable_media_RSS_headline_original_body_unavailable",
+      "stage": "media_headlines_report_launched_raised_or_pricing_not_independently_verified_settled",
+      "final_coupon_tenor_benchmark_spread": null,
+      "expected_settlement_date": null,
+      "actual_settlement_verified": false,
+      "cash_receipts_verified": false,
+      "headline_items": [
+        {
+          "published_at": "Thu, 12 Nov 2026 16:37:05 GMT",
+          "title": "Alphabet raised about $3.8 billion in first Hong Kong and Singapore dollar bonds - Quartz",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0T1FpUnlpWkpabjJpbFlsdkZpd1drVmxicXlRVFQ4OG55OXZOcXNvV0lwTmlxdmdEa3RIc01sT1BSNWkzb1JYbTM0RGJqdGRhUUdWbTZSQ0t1Q1F4YWh5d1o0Mks5N0xSZ1BvRVlmaTFkMmo3NEViMw?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 02:57:00 GMT",
+          "title": "Alphabet raises $3.8 billion in first Hong Kong, Singapore dollar bonds - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSkZJZGdvOEZWNkZuZ3pSWXU4QUktR01VVWpXc1I3OWtjQnFYaEtRMHVjdUJCblRxdDh2Wm0tbmJQN0gtWVN6b3dnVFlMVGM1Qk8ydHgtb0tndU5xblJGOTVxRWFFYjdjdDJIQkcwckZqMnNDUkZlNE56dzVGd0dMMVFaZUMydjZPaTVkcmRGQU1sZXlscUx0UkRINlpVZk9QYXFiZElNSlc1cG5JTHYwTVplbzM5b0FLOHZLelZZWnlxcGpEdEstNi0zSFprUQ?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 08:58:20 GMT",
+          "title": "Alphabet's debut Hong Kong, Singapore bond sales draw over $7 billion in orders - Central Oregon Daily",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUTYzemJoOGxYbGxWLVZEVUZTSDIxU09pS0Z2WlRhSjg3OUNRd0taUGJsMkE4QTFHa3hVaC12bE92TnE1ekFyV2M1Y1liOTRVaVh5aVptcVhoRERtQVplelBOM0ozejBlQ2tlSm1ER2EwSmt1MWtlSlJaVDdRTFc4RmtDYTJPVURvdUEtV1FYTkxCSGhxcmpQanJ0Y0pxa0JwN2FsWXVxUWxqajc5RHdoZk9lSnVFdURDS0VHUE9fTjFxRGNNVlo5YWJwUDVNdkRaYzFENUtad0ZHSFktSXhDTC1zMnVrX243RzJLNnVPOHNpZUg2Q3E2WEpPUFZUaFl4VjRmc1pn?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 12:48:15 GMT",
+          "title": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaGZ5Z0pKYS0wTHBjSE5aYVVqTDgzdzZTQkRaY2ZpNDJWalNEU1hicGEzX3FJd2pjUGNjalZ3dzVyM1Z5RTJSaVNyTGtxR0VCQ3JlU3lZOXg0eXUyWTFsaVQ3Y1ZhOXhMM19OLTN2bGJ4Q094OFM4V1VmVi16eFpFcVhkTkVNbkNZeDd5UnpEZU1CbVRJZHY1SF9yOG4zSVpPbVRVYnhwSkROWVNLX2Iw?oc=5"
+        },
+        {
+          "published_at": "Wed, 11 Nov 2026 17:09:22 GMT",
+          "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekxJWlNsQXlpSG80TzJHMDNiREl6ZC0zWEQ0S0FWVWZPXzJpQk5maC1NTFhXQjIyRmk5QlU1QnFxZ2VHZUNkVUNjOWo4azhLVzlHelE3dFk1UUU3UHllNUdiVzVaODFKSHJEZHQ4Q1d2a0FrLUJiYjM3bUlwZ01wODltVlYyY2YyM3dZV1piYjFmTFRlaVZNcVp3V0RMSlM2SHdPbllBTnQzNllPbGw5YWRERQ?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 05:55:39 GMT",
+          "title": "Alphabet’s First HK And S$ Bonds Drew More Than $7 Billion - Finimize",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeTVjT3NVaEtmRUlaWkZWQUdCZ3R6UkpKVnJUNHZkMkxkbFVyVG5pdjRPeGxpaGZNamV3anJBaUN4eEtxSnVfZ205U3lFN1dxYlhzNmY1akdyWEJtbWs0eG9pdkFsRGQ0MmtGTkJKcnRPeXp4THdrMlIxdC00TERaVVFXOWpCUQ?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 09:00:00 GMT",
+          "title": "Alphabet tests HKD and SGD bonds amid AI jitters - Briefs Finance",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS29felBVLVIwTXUwSXRBZ18wT3ZtTllqY3pTaUJHZGRfa3hsWXVMUE1oU1QyN2M2dUxEdEJ5by1nLV9GWEdNSkVGdGo4ZTVnWTJBdEV6NUU5ZU1MczU5YlNHTWwxWk9KNXRJSUVZQm9qcTdaSWpSYS1jd2dVMXFzMnAtaTJ0dzVqM0h2MVNYZ0o3QQ?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 02:59:43 GMT",
+          "title": "Alphabet sets initial price guidance for Hong Kong, Singapore bond sales, term sheet shows - The Lufkin Daily News",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNcU8zWU9lQWR2Vy0wd0cwWnFlUkFJLTJkNE9DT0dmMHZJeFNEazVCWWNrNTFZeVdPTjVuU0k5VXBUWjlTcnhVbHNJNUhGd3NzLWIyUmpja2ZobFZxd05vUUdKUGZiNGpMSHpBVlB0TW56UF82NkNZLUE4LXZ3eWVtdWc3d2xqWm9ZSnphZ3dscjVpWVhHNDNZMFdka1Jla3NNazliYVAwc18tQjFkMVR5Y0haSUhRWmpBMlBPLXB0V0pYZ3AwRjRsM2I3SkhwOEtNUEFUMGItMG9uRU44ODExSTh4Y1g0UXIzZXVuRTEwQzJJV0IzeWFfX0c2RzljdW9hcU42S1h3Z3R1NXdWcWtJYzlWSkpCWTA?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 04:48:00 GMT",
+          "title": "Alphabet's debut Hong Kong, Singapore bond sales draw about $5 billion in early orders - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRlNXRnpmNDc0QmxjTnJTZEpWbGNUWlg1T3B0ME1IbFNKc294dm1Ka0xOMUtTNm96WVh4UXNEUlZtMmRkd2VkLUpIakJyUHpuWnRTRTdsN3d0OVNBS0hYQ1lRdjYxWVAxbGp6Uy1IYWpGRWFvUGdXSXdTbnJYVVk0Z2lvbnktT0FueElDVEVnTmI3QVlHeS1JRHZpTktVRTl6bkdtT3gyRF9DOGo5UVE4VHN4TjZrTDFwMTdjZXExcFl3WTkyRnVoYmdYNnVscFdrR1NCWXE0TlVjbDB0VTBERFVObndnRHdfOXc?oc=5"
+        },
+        {
+          "published_at": "Thu, 12 Nov 2026 06:04:29 GMT",
+          "title": "Alphabet reportedly pulls in $5B in orders for landmark Hong Kong and Singapore dollar bond sale - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWlZMm82dFZyWGV2SHJKRkx3VF9Palc5eElHNXJGOGw4V3o5VWxCekV5RUdoQVZreTN5NzdrNnhVVlpKTndTR0pza1l4WXhNSEh4TklWSlhRSTd5RUtYNDZHS19sRlMwVkN2cHpBU3l5MlAtTlFBX0d3djlOa0lUR0wtdGtrc21XUEJMVFRfX0tQa0tvZjkxamlMR3A0d3FiWnlhN0tFT3V3N2k3dHJ1SlVrX3BqSkI3TEtXSC05a3JWT3hjcnJMUU1yclAxdw?oc=5"
+        }
+      ],
+      "interpretation": "Reportedmovefromplanningtomarketing/pricing,butfulltermsandsettlementunverified. Ordersarenotissuanceproceeds;3.8bnapproxnotadditivewithprevious3bnplan.",
+      "collection_limits": "Reuters/Quartz/Standardtimeout;CentralOregonDaily403."
+    },
+    {
+      "id": "coreweave_20261112_reported_4bn_loan_plan_followup",
+      "stage": "reported_plan_only",
+      "amount_USDbn_at_least": 4,
+      "original_outlet": "Bloomberg",
+      "earliest_RSS_relay": "2026-11-11T22:50:12Z",
+      "new_Bloomberg_RSS_timestamp": "2026-11-12T18:02:35Z",
+      "raw": "news_coreweave_funding.xml",
+      "full_original_verified": false,
+      "pricing_verified": false,
+      "closing_verified": false,
+      "drawing_verified": false,
+      "no_risk_easing_claim": true
+    },
+    {
+      "id": "openai_20261112_reported_15bn_raise_unverified",
+      "claimed_USDbn": 15,
+      "claimed_valuation_USDbn": 1250,
+      "source_chain": "multipleNov12RSSreports citeCNBC",
+      "earliest_relay_seen": "2026-11-12T14:56:37Z",
+      "full_CNBC_original_verified": false,
+      "stage": "unverified_media_relay_raise_claim; cashreceipt unknown",
+      "round_overlap": "may update previously reported11bn initial tranche; NEVER add15+11",
+      "cannot_prove_funding_shortfall_from_target": "reported30bn target vs15bn round context/timing notverified; openround notautomatically failedfinancing"
+    }
+  ],
+  "market_proxies": [
+    {
+      "id": "BAMLC0A0CM",
+      "source_id": "fred_ig",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-11",
+      "value": 90.0,
+      "previous_market_observation": {
+        "date": "2026-11-09",
+        "value": 91.0
+      },
+      "change_bp_vs_previous_market_observation": -1.0,
+      "comparison_to_previous_monitor_run": {
+        "date": "2026-11-09",
+        "value": 91.0,
+        "new_market_observation": true,
+        "value_change_bp": -1.0
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-13",
+        "value": 83.0,
+        "change_bp": 7.0
+      },
+      "week_to_latest_available": {
+        "start": {
+          "date": "2026-11-06",
+          "value": 93.0
+        },
+        "end": {
+          "date": "2026-11-11",
+          "value": 90.0
+        },
+        "change_bp": -3.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "publication_at": null,
+      "retrieved_at": "2026-11-13T00:27:08.513872+00:00",
+      "archived_csv": "evidence/2026-11-13/market/fred_ig.csv",
+      "recent_valid_observations": [
+        {
+          "date": "2026-11-03",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-04",
+          "value": 91.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-06",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-09",
+          "value": 91.0
+        },
+        {
+          "date": "2026-11-11",
+          "value": 90.0
+        }
+      ],
+      "notes": [
+        "Latest data date from source, not currentNov13quote; broad ICE BofA index proxy, not issuer CDS or CDX.IG.",
+        "Nov11series label does not mean ordinary UScashbond holiday trading or matched security transactions. No interpolation for missingdates.",
+        "About20 comparable published nonmissing observations; holiday/date gaps retained."
+      ]
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "source_id": "fred_hy",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-11",
+      "value": 330.0,
+      "previous_market_observation": {
+        "date": "2026-11-09",
+        "value": 334.0
+      },
+      "change_bp_vs_previous_market_observation": -4.0,
+      "comparison_to_previous_monitor_run": {
+        "date": "2026-11-09",
+        "value": 334.0,
+        "new_market_observation": true,
+        "value_change_bp": -4.0
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-13",
+        "value": 316.0,
+        "change_bp": 14.0
+      },
+      "week_to_latest_available": {
+        "start": {
+          "date": "2026-11-06",
+          "value": 342.0
+        },
+        "end": {
+          "date": "2026-11-11",
+          "value": 330.0
+        },
+        "change_bp": -12.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "publication_at": null,
+      "retrieved_at": "2026-11-13T00:27:08.514212+00:00",
+      "archived_csv": "evidence/2026-11-13/market/fred_hy.csv",
+      "recent_valid_observations": [
+        {
+          "date": "2026-11-03",
+          "value": 340.0
+        },
+        {
+          "date": "2026-11-04",
+          "value": 332.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 348.0
+        },
+        {
+          "date": "2026-11-06",
+          "value": 342.0
+        },
+        {
+          "date": "2026-11-09",
+          "value": 334.0
+        },
+        {
+          "date": "2026-11-11",
+          "value": 330.0
+        }
+      ],
+      "notes": [
+        "Latest data date from source, not currentNov13quote; broad ICE BofA index proxy, not issuer CDS or CDX.IG.",
+        "Nov11series label does not mean ordinary UScashbond holiday trading or matched security transactions. No interpolation for missingdates.",
+        "About20 comparable published nonmissing observations; holiday/date gaps retained."
+      ]
+    }
+  ],
+  "cashflow_definition": {
+    "standard": "OCF minus cash PP&E; finance lease principal separately",
+    "CoreWeave": "Cash PP&E line includes capitalized internal-use software; latest lease principal not separately available",
+    "SoftBank": "Exact common surplus null because disclosed investment cashflow combines PPE,intangibles,and prepayments; expanded measure labeled separately",
+    "TeraWulf": "Carry prior purchases+deposits caveat; no new daily financial values",
+    "do_not_double_deduct_losses_or_non_cash_leases": true
+  },
+  "historical_financial_baseline_reference": {
+    "file": "reference-baselines/2026Q3-alphabet-meta.json",
+    "is_new_release": false,
+    "latest_financial_reports": [
+      {
+        "issuer": "CoreWeave",
+        "period_end": "2026-09-30",
+        "publication_date": "2026-11-10",
+        "reference": "observations/2026-11-11.json#latest_new_financial_reports.CoreWeave"
+      },
+      {
+        "issuer": "SoftBank Group",
+        "period_start": "2026-04-01",
+        "period_end": "2026-09-30",
+        "publication_date": "2026-11-10",
+        "reference": "observations/2026-11-11.json#latest_new_financial_reports.SoftBank"
+      }
+    ],
+    "financial_statement_reference": "observations/2026-11-11.json#latest_new_financial_reports",
+    "same_period_supplementary_10Q_reference": "evidence/2026-11-13/priority/findings.json",
+    "report_period_not_advanced_without_new_period": true,
+    "original_multiissuer_baseline": "observations/2026-11-03.json#financial_baseline"
+  },
+  "supplementary_financial_disclosures": {
+    "CoreWeave": {
+      "report_period_end": "2026-09-30",
+      "original_earnings_release_date": "2026-11-10",
+      "supplementary_10Q_publication_date": "2026-11-12",
+      "original_event_id": "coreweave_20261110_q3_earnings_cashflow_guidance",
+      "separate_independent_earnings_event": false,
+      "details_reference": "evidence/2026-11-13/priority/findings.json",
+      "details": {
+        "financial_basis": {
+          "unit": "USD million",
+          "cash_surplus_definition": "operating cash flow minus cash purchases of PP&E including capitalized internal-use software; finance-lease principal shown separately; cash interest already in OCF must not be deducted again",
+          "q3_derivation": "2026-01-01..09-30 cumulative minus 2026-01-01..06-30 cumulative where indicated",
+          "sources": [
+            "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+            "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+            "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
+          ]
+        },
+        "realized_results_already_notified": {
+          "Q3_2026": {
+            "revenue": 3661,
+            "ocf": 1975,
+            "cash_ppe_including_software": 9441,
+            "base_cash_surplus": -7466
+          },
+          "Q3_2025": {
+            "revenue": 1365,
+            "ocf": 1689,
+            "cash_ppe_including_software": 3279,
+            "base_cash_surplus": -1590
+          },
+          "Q2_2026": {
+            "ocf": 679,
+            "cash_ppe_including_software": 6422,
+            "base_cash_surplus": -5743
+          },
+          "nine_month_2026": {
+            "ocf": 5638,
+            "cash_ppe_including_software": 23558,
+            "base_cash_surplus": -17920
+          },
+          "nine_month_2025": {
+            "ocf": 1499,
+            "cash_ppe_including_software": 6249,
+            "base_cash_surplus": -4750
+          }
+        },
+        "lease_and_interest_cashflows_newly_verified": {
+          "nine_month_2026": {
+            "finance_lease_principal": 37,
+            "finance_lease_cash_interest_in_ocf": 12,
+            "cash_interest_net_of_capitalized": 1339,
+            "reported_approx_total_debt_cash_interest_including_capitalized": 1600,
+            "capitalized_interest_cash_included_in_reported_total": 220,
+            "debt_principal_repayments": 7563
+          },
+          "nine_month_2025": {
+            "finance_lease_principal": 43,
+            "finance_lease_cash_interest_in_ocf": 5,
+            "cash_interest_net_of_capitalized": 557
+          },
+          "H1_2026": {
+            "finance_lease_principal": 33,
+            "finance_lease_cash_interest_in_ocf": 8,
+            "cash_interest_net_of_capitalized": 806
+          },
+          "Q3_2026_derived": {
+            "finance_lease_principal": 4,
+            "finance_lease_cash_interest_in_ocf": 4,
+            "cash_interest_net_of_capitalized": 533,
+            "base_cash_surplus_after_separately_deducting_lease_principal": -7470
+          },
+          "limitations": [
+            "1.6bn is rounded 9M historical cash interest, not a future burden or net interest expense",
+            "230m 9M interest capitalized as expense accounting is not same as220m cash capitalized interest",
+            "net interest already included in OCF; no repeated subtraction"
+          ]
+        },
+        "liquidity": {
+          "as_of": "2026-09-30",
+          "cash_and_equivalents": 4122,
+          "restricted_cash_current": 1405,
+          "restricted_cash_noncurrent": 877,
+          "restricted_cash_total_excluded_from_cash_and_equivalents": 2282,
+          "marketable_debt_securities": 56,
+          "marketable_equity_securities": 6,
+          "debt_securities_components": {
+            "commercial_paper": 24,
+            "corporate_bonds": 32
+          },
+          "marketable_securities_total": 62,
+          "nonmarketable_equity_in_other_noncurrent_assets": 356,
+          "secured_committed_facility_availability_reported": 5653,
+          "revolving_facility_remaining_after_letters_of_credit": 754,
+          "revolving_drawn": 1200,
+          "letters_of_credit_reduce_availability": 546,
+          "reported_total_liquidity_including_conditional_facilities": 9837,
+          "comparison_as_of": "2026-06-30",
+          "comparison": {
+            "cash_and_equivalents": 5524,
+            "marketable_securities_total": 15,
+            "secured_committed_facility_availability_reported": 10014,
+            "reported_total_liquidity_including_conditional_facilities": 15553
+          },
+          "limitations": [
+            "5653m availability is Sept30 secured RCF/DDTL capacity subject to assets, project, borrowing conditions and draw dates; not unrestricted cash",
+            "marketable equity is separate and not all counted as cash",
+            "restricted balances already excluded from4122m; do not subtract again",
+            "company believes resources sufficient for next year, management statement not independent funding guarantee"
+          ]
+        },
+        "contractual_debt_principal_schedule": {
+          "as_of": "2026-09-30",
+          "remaining_2026": 2433,
+          "full_calendar_2027": 10974,
+          "2028": 5479,
+          "2029": 4727,
+          "2030": 4247,
+          "thereafter": 19645,
+          "total_contractual_principal": 47505,
+          "next_12_month_contractual_principal": null,
+          "limitations": [
+            "2027 calendar year cannot be pro-rated into rolling12months without dates",
+            "DDTL4.0 amortization timing depends on project delivery/site-amortization/top-up draws; management estimates may change",
+            "balance-sheet current debt carrying amount10572m does not replace contractual rolling12month principal"
+          ]
+        },
+        "debt_recourseness": {
+          "recourse_carrying": 41600,
+          "nonrecourse_carrying": 5273,
+          "carrying_total": 46873,
+          "DDTL4_0_nonrecourse_outstanding": 4583,
+          "DDTL5_5": {
+            "facility_committed": 2600,
+            "outstanding_as_of_sep30": 1555,
+            "facility_entry_date": "2026-08-07",
+            "stage": "executed_facility_partly_drawn_as_of_Sept30",
+            "undrawn_availability_end": "2026-12-31",
+            "stated_rate": "Term SOFR +5.50%",
+            "undrawn_fee_annual": 0.005,
+            "monthly_repayment_begins": "2027-02",
+            "expected_final_monthly_payment": "2031-07",
+            "debt_table_stated_maturity": "2031-09",
+            "parent_guarantee": "unconditional by CoreWeave",
+            "collateral": "first priority equity pledge and substantially all CFD V-V assets",
+            "additional_triggers": "customer-contract events, change of control, events of default, certain asset disposals/debt proceeds; after commitment date excess-cash sweep until principal1.3bn",
+            "rating_inference": "do not treat project-loan highgrade description as issuer rating"
+          },
+          "covenants": {
+            "as_of": "2026-09-30",
+            "company_reported": "in compliance with all loan-agreement covenants",
+            "new_actual_default_or_waiver_identified": false,
+            "interpretation": "as-of historical assertion, not proof of absence of later stress"
+          }
+        },
+        "customer_concentration": {
+          "Q3_2026_revenue_shares_anonymous": {
+            "A": 0.24,
+            "B": 0.3
+          },
+          "Q3_2025_revenue_shares_anonymous": {
+            "A": 0.67,
+            "B": "below10pct"
+          },
+          "nine_month_2026_revenue_shares_anonymous": {
+            "A": 0.33,
+            "B": 0.26
+          },
+          "AR_as_of_sep30_shares_anonymous": {
+            "A": 0.18,
+            "B": 0.33,
+            "C": 0.12,
+            "D": 0.14
+          },
+          "limitations": [
+            "letter references may represent different customers than previous reports",
+            "do not map A/B/C/D to Microsoft/OpenAI/Meta without direct evidence",
+            "concentration is not overdue payment or default"
+          ]
+        },
+        "noncash_and_future_commitments": {
+          "noncash_reporting_period": "2026-01-01/2026-09-30",
+          "noncash_PPE_addition_related_liabilities_including_OEM_and_unpaid_capitalized_interest": 11833,
+          "noncash_PPE_liabilities_label_caveat": "supplemental cashflow noncash-activity disclosure; not assumed to equal unpaid-capex balance atSep30; H1 label excludes explicitly unpaid capitalized interest so no naive difference",
+          "noncash_operating_lease_ROU_added": 10865,
+          "noncash_finance_lease_ROU_added": 432,
+          "uncommenced_leases_undiscounted_as_of_sep30": 47400,
+          "uncommenced_leases_comparison_june30": 35500,
+          "uncommenced_periods": "commence2026-2029,7-17yearterms",
+          "excluded_from_47400": {
+            "single_site_max_contractual_rent": 16900,
+            "single_site_remaining_power_MW": 453,
+            "power_expected_phases": "2026 and2028",
+            "other_variable_cost_sites_remaining_MW": 354,
+            "other_site_power_phases": "2026-2028",
+            "reason": "significant rent amount uncertainty based on construction costs"
+          },
+          "other_future_construction_cost_commitments": 2100,
+          "separate_lessee_equipment_commitment_range": [
+            188,
+            817
+          ],
+          "separate_lessee_equipment_phase_through": "2028",
+          "future_lease_payments_schedule": {
+            "remaining_2026": {
+              "operating": 580,
+              "finance": 17
+            },
+            "full_2027": {
+              "operating": 2375,
+              "finance": 361
+            },
+            "total_undiscounted": {
+              "operating": 32954,
+              "finance": 822
+            }
+          },
+          "limitations": [
+            "lease liabilities, future payments, procurement and guarantee exposures may overlap; never sum into singledebt",
+            "47400m uncommenced sum and excluded max16900m lease are multiyear commitments, not next12mo payment",
+            "unpaid-capex outstanding subtotal and next12mo irrevocable total remain unverified"
+          ]
+        },
+        "VIE_and_JV_support": {
+          "unconsolidated_VIE_development_funding_commitments_total": 1900,
+          "already_funded_within_total": 859,
+          "Q3_incremental_funding_commitment": 187,
+          "max_loss_on_these_VIEs": "limited to total funding commitments1.9bn, not1.9bn plus859m",
+          "NewJersey_JV": {
+            "equity_carrying": 57,
+            "contingent_consideration_guarantee_up_to": 95,
+            "lease_prepayment": 48,
+            "contingent_construction_funding_exposure_company_estimate_up_to": 120,
+            "trigger": "JV unable to secure thirdparty financing",
+            "nine_month_equity_method_loss": 77,
+            "actual_guarantee_cash_claim_identified": false
+          },
+          "limitations": [
+            "equitymethod77m loss not automatically cash guarantee payment",
+            "do not aggregate exposures across arrangements without overlap checks"
+          ]
+        },
+        "guidance_and_prepaid_cash": {
+          "status": "previously_notified_earnings_not_new_today",
+          "FY2026_revenue_guidance_USDbn": [
+            13,
+            13.3
+          ],
+          "FY2026_capex_guidance_USDbn": [
+            37,
+            39
+          ],
+          "official_capex_cut_identified": false,
+          "official_revenue_downgrade_identified": false,
+          "backlog_USDbn": 132.5,
+          "backlog_is_not_realized_cash": true,
+          "expected_next3mo_customer_prepaid_deposit_USDbn": 9,
+          "9bn_actual_received_verified": false,
+          "ATM_program_max_shares_million": 35,
+          "ATM_sep30_actual_sold_shares": 0,
+          "ATM_not_cash_receipt": true
+        },
+        "new_4bn_loan_media_lead": {
+          "stage": "reported_plan_only",
+          "amount_USDbn_at_least": 4,
+          "original_outlet": "Bloomberg",
+          "earliest_RSS_relay": "2026-11-11T22:50:12Z",
+          "new_Bloomberg_RSS_timestamp": "2026-11-12T18:02:35Z",
+          "raw": "news_coreweave_funding.xml",
+          "full_original_verified": false,
+          "pricing_verified": false,
+          "closing_verified": false,
+          "drawing_verified": false,
+          "no_risk_easing_claim": true
+        },
+        "missing": [
+          "rolling12month exact debt principal/interest/leases/irrevocable cashout schedule",
+          "customer9bn prepayment guidance actual receipts",
+          "direct comparable CDS/issuer bond20day series",
+          "new4bn loan full terms/pricing/closing/draw",
+          "specific new paymentdelinquency/covenantbreach/cancellation beyond filings asofSept30"
+        ]
+      }
+    }
+  },
+  "focused_checks": {
+    "customer_capex_cuts": {
+      "status": "No new formal capex cut verified in reviewed sources; original historical guidance dates retained.",
+      "reviewed_at": "2026-11-13T00:35:22.084420+00:00",
+      "new_formal_cut_records": [],
+      "guidance_revision_records": [
+        {
+          "metric": "full_year_revenue",
+          "forecast_period": "2026-01-01/2026-12-31",
+          "unit": "USD_billions",
+          "prior_range": [
+            12.4,
+            13.2
+          ],
+          "new_range": [
+            13.0,
+            13.3
+          ],
+          "prior_publication_date": "2026-08-11",
+          "prior_numeric_range_source": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+          "prior_range_primary_call_document_obtained": false,
+          "new_publication_date": "2026-11-10",
+          "new_source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+          "revision": "raised",
+          "revision_count_this_record": 1,
+          "comparison_limit": "Q3 primary company confirms raising; previous precise numeric revenue range is from CNBC Nov10 historical August guidance recap, not independently acquired August call transcript."
+        },
+        {
+          "metric": "full_year_capital_expenditures",
+          "forecast_period": "2026-01-01/2026-12-31",
+          "unit": "USD_billions",
+          "prior_range": [
+            35,
+            39
+          ],
+          "new_range": [
+            37,
+            39
+          ],
+          "prior_range_primary_source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+          "prior_original_publication_date": null,
+          "new_publication_date": "2026-11-10",
+          "cash_vs_lease_scope": "Company capex guidance definition not specified in release; do not equate with cash PP&E line or add leases blindly.",
+          "reason_company_reported": "Infrastructure deployment and delivery sooner than planned.",
+          "revision": "raised_lower_bound_not_cut",
+          "new_source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+          "new_midpoint": 38,
+          "prior_midpoint": 37,
+          "midpoint_change_pct": 2.7027
+        }
+      ],
+      "historical_baseline_reference": "reference-baselines/2026Q3-alphabet-meta.json",
+      "not_all_capex_is_AI": true,
+      "new_material_change_verified": false,
+      "previous_records_reference": "observations/2026-11-12.json#focused_checks",
+      "historical_guidance_records_not_new_this_run": true,
+      "current_review_reference": "evidence/2026-11-13/bigtech/findings.json#fixed_checks"
+    },
+    "supplier_consecutive_revenue_guidance_cuts": {
+      "status": "no_new_formal_cut_verified_in_covered_sources",
+      "reviewed_at": "2026-11-13T00:35:22.084420+00:00",
+      "new_formal_cut_records": [],
+      "new_comparable_revision_count_observed": 0,
+      "minimum_independent_revisions_for_consecutive": 2,
+      "window_start": "2026-11-12T00:35:44.433607+00:00",
+      "window_end": "2026-11-13T00:35:22.084420+00:00",
+      "reference": "evidence/2026-11-13/chain/findings.json",
+      "no_new_cut_not_proof_of_stable_demand": true,
+      "new_material_change_verified": false,
+      "previous_records_reference": "observations/2026-11-12.json#focused_checks"
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "status": "No verified new same-project delay→signed-order cancellation or major financing failure in reviewed ongoing projects",
+      "reviewed_at": "2026-11-13T00:35:22.084420+00:00",
+      "new_escalation_records": [],
+      "SB7_prior_delay_to_cancellation_not_established": true,
+      "IREN_TeraWulf_reference": "evidence/2026-11-13/chain/findings.json",
+      "Korea_300MW_public_abstract": {
+        "id": "ked_20261109_anthropic_korea_project_public_abstract_enrichment",
+        "entity": "unnamed_South_Korea_300MW_project",
+        "evidence_level": "reliable_media_public_abstract_only",
+        "public_time": "2026-11-09T17:56:27+09:00",
+        "first_verified_public_excerpt_on": "2026-11-11",
+        "capacity_mw": 300,
+        "reported_stage": "failed_to_get_off_ground_without_anchor_tenant_and_committed_financing",
+        "summary": "KED公开副标题称300MW项目未能启动，银行收紧条款、其他项目难找租户；公开导语称开发方未能争取Anthropic作租户，贷款方要求先有承诺客户。",
+        "limitations": "正文需登录，未读取或绕过。具体开发商/地点、是否已有签署合同、已承诺贷款提款条件、实际损失金额、供应商联系不明。网页标签Gumi/SK/AWS/Shinsegae不是已核合同关系，不能据标签给本项目指定公司。",
+        "interpretation": "可作未锁定租户项目融资前提收紧线索，不能认定Anthropic取消已签订单、已交割融资失败或重大实际违约；缺正文不等于没有风险。",
+        "source": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202611090008",
+        "raw_files": [
+          "ked_anthropic.html",
+          "ked_anthropic.txt",
+          "ked_manifest.json"
+        ],
+        "alert_trigger": false
+      },
+      "Microsoft_Oracle_historical_reference": "observations/2026-11-10.json#focused_checks",
+      "new_policy_and_IPO_context_reference": "evidence/2026-11-13/bigtech/findings.json",
+      "new_material_change_verified": false,
+      "previous_records_reference": "observations/2026-11-12.json#focused_checks",
+      "SB7_loss_already_notified_at": "2026-11-11T01:14:46.549646+00:00",
+      "historical_procurement_adjustment_reference": "observations/2026-11-11.json#latest_new_financial_reports.SoftBank",
+      "historical_procurement_adjustment": {
+        "id": "softbank_20261110_sb7_procurement_realignment_loss",
+        "entity": "Silver Bands 7 LLC (SB7)",
+        "parent_and_investor": "SoftBank Group and SVF2",
+        "event_type": "actual_procurement_contract_economic_loss_not_verified_credit_default",
+        "project_scope": "US AI data-center power supply equipment, including PORTS-Pike Technology Campus, Pike County, Ohio",
+        "contracts": "manufacturing capacity reservations, equipment purchase contracts and other arrangements",
+        "reason_company_stated": "Evolving requirements of existing and planned projects; equipment procurement strategy realignment",
+        "recognized_loss_jpy": 597248000000,
+        "company_reported_usd_equivalent": 3730000000,
+        "components": [
+          {
+            "type": "derecognition_of_nonrefundable_advances_already_made",
+            "jpy": 457030000000,
+            "usd_equivalent": 2850000000,
+            "cash_timing": "payments may predate current quarter; recognition is not same-period incremental cash outflow"
+          },
+          {
+            "type": "contract_modifications_and_settlements",
+            "jpy": 140218000000,
+            "usd_equivalent": 880000000,
+            "cash_timing": "paid_vs_accrued_split_not_verified"
+          }
+        ],
+        "cumulative_procurement_payments_since_previous_fiscal_year_to_September30_jpy": 1500886000000,
+        "same_cumulative_payments_usd": 9480000000,
+        "future_conditional_rebates_max_usd": 2100000000,
+        "rebate_horizon_years": 10,
+        "rebate_asset_recognized": false,
+        "rebates_not_net_against_loss": true,
+        "supplier_names": null,
+        "same_project_previously_monitored_delay_established": false,
+        "client_order_cancel_verified": false,
+        "credit_default_or_covenant_trigger_verified": false,
+        "major_funding_interruption_verified": false,
+        "supplier_AI_or_optical_order_transmission_verified": false,
+        "scope_limit": "Real project procurement loss; cannot call total company loss an AI credit loss, industry cancellation, or supplier/bank default. No guarantee payment verified.",
+        "sources": [
+          "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf"
+        ],
+        "already_notified_on": "2026-11-11",
+        "not_new_on_current_run": true,
+        "original_alert_trigger": true,
+        "alert_trigger_this_run": false
+      },
+      "SB7_media_supplier_detail_reference": "evidence/2026-11-12/chain/findings.json#discovery_and_deduplication",
+      "current_review_reference": "evidence/2026-11-13/chain/findings.json"
+    }
+  },
+  "financing_stage_review": {
+    "Meta_EUR9bn": {
+      "event_id": "meta_eur_20261104_pricing",
+      "expected_settlement_date": "2026-11-12",
+      "status": "completed_confirmed_by_company_8K",
+      "new_stage_change_verified": true,
+      "current_review_note": "Company-confirmed completed offering and issuance; same originalEUR9bn event, not a second issuance; current net cash balance not independently established.",
+      "actual_completion_date": "2026-11-12",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm"
+    },
+    "ING_loan_BWIC": {
+      "event_id": "ing_20261106_reported_500m_loan_BWIC_identified",
+      "reported_bid_deadline": "2026-11-19",
+      "stage": "reported_future_bid_solicitation",
+      "new_verified_sale_price_or_loss": false
+    },
+    "completed_prior_financings": [
+      {
+        "event_id": "oracle_20261102_priced_bonds",
+        "expected_US_settlement_date": "2026-11-04",
+        "status": "completed_confirmed_by_8k",
+        "completed_date": "2026-11-04",
+        "verified_at": "2026-11-05T00:35:16.315922+00:00",
+        "source_id": "oracle_20261104_completion"
+      },
+      {
+        "event_id": "meta_20261103_pricing",
+        "expected_US_settlement_date": "2026-11-05",
+        "status": "completed_confirmed_by_company_8k",
+        "last_checked_at": "2026-11-05T00:35:16.315922+00:00",
+        "currency": "USD",
+        "note": "Nov5US settlement lies later than Nov5morningBeijing; not evidence of delay.",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "meta_20261105_usd_notes_completed"
+      },
+      {
+        "event_id": "alphabet_20261102_eur_notes",
+        "expected_settlement_date": "2026-11-05",
+        "currency": "EUR",
+        "status": "completed_confirmed_by_company_8k",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "alphabet_20261105_eur_notes_completed"
+      },
+      {
+        "event_id": "meta_eur_20261104_pricing",
+        "expected_settlement_date": "2026-11-12",
+        "currency": "EUR",
+        "principal": 9000000000,
+        "status": "completed_confirmed_by_company_8k",
+        "completed_date": "2026-11-12",
+        "verified_at": "2026-11-13T00:35:22.084420+00:00",
+        "source_event_id": "meta_20261112_eur_notes_completed",
+        "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm"
+      }
+    ],
+    "notes": "Previous completed issues remain completed; no reversal based on an earlier-dated prospectus, no future bid deadline assumed to be a sale or loss.",
+    "Apollo_general_corporate_USD600m": {
+      "id": "apollo-20261109-junior-subordinated-notes-priced",
+      "entity": "Apollo Global Management",
+      "evidence_level": "primary_issuer_and_sec",
+      "public_time": "2026-11-09T22:00:00+00:00",
+      "sec_fwp_accepted_at": "2026-11-09T20:28:56+00:00",
+      "event_type": "general_corporate_financing",
+      "financing_stage": "priced_not_yet_settled",
+      "principal_usd": 600000000,
+      "currency": "USD",
+      "instrument": "fixed-rate resettable junior subordinated unsecured notes",
+      "initial_coupon_pct": 7.55,
+      "maturity_date": "2056-12-15",
+      "expected_settlement_date": "2026-11-13",
+      "expected_net_proceeds_before_expenses_usd": 594000000,
+      "reset_terms": "2036年12月15日后为五年期美债收益率加2.672%，其后每五年重设。",
+      "optional_interest_deferral": "条款允许连续最多五年递延付息；未核实实际行使。",
+      "use_of_proceeds": "一般公司用途，包括此前宣布的Mubadala Capital Asset Management投资。",
+      "rating_scope": "发行人条款表列预期评级A3/BBB+/BBB+，不是本次独立核实的评级机构新动作。",
+      "interpretation": "未证实为AI损失、AI贷款或抵押压力融资。次级票息不能直接与优先债或CDS比较，无同口径历史不判断融资持续恶化。已定价不等于11月13日已到账，也不证明AI经营风险缓解。",
+      "sources": [
+        "https://ir.apollo.com/news-events/press-releases/detail/659/apollo-prices-offering-of-fixed-rate-resettable-junior",
+        "https://www.sec.gov/Archives/edgar/data/1858681/000095014226002981/eh260853424_fwp.htm"
+      ],
+      "raw_files": [
+        "apollo_new_notes_ir.html",
+        "apollo_new_notes_ir.txt",
+        "apollo_new_notes_fwp.html",
+        "apollo_new_notes_fwp.txt"
+      ],
+      "alert_trigger": false
+    },
+    "reviewed_at": "2026-11-13T00:35:22.084420+00:00",
+    "CoreWeave_DDTL5_5": {
+      "name": "DDTL5.5",
+      "USD_billions": 2.6,
+      "stage": "closed_partially_drawn_asof_2026_09_30_primary_10Q",
+      "first_monitor_confirmation_date": "2026-11-11",
+      "actual_closing_date": null,
+      "event_period": "Q3highlight_not_new_Nov10_origination_inferred",
+      "design": "shorter_duration_customer_contracts",
+      "drawn_amount": 1555000000,
+      "cash_proceeds_verified": false,
+      "terms_covenants_pricing": {
+        "facility_committed": 2600,
+        "outstanding_as_of_sep30": 1555,
+        "facility_entry_date": "2026-08-07",
+        "stage": "executed_facility_partly_drawn_as_of_Sept30",
+        "undrawn_availability_end": "2026-12-31",
+        "stated_rate": "Term SOFR +5.50%",
+        "undrawn_fee_annual": 0.005,
+        "monthly_repayment_begins": "2027-02",
+        "expected_final_monthly_payment": "2031-07",
+        "debt_table_stated_maturity": "2031-09",
+        "parent_guarantee": "unconditional by CoreWeave",
+        "collateral": "first priority equity pledge and substantially all CFD V-V assets",
+        "additional_triggers": "customer-contract events, change of control, events of default, certain asset disposals/debt proceeds; after commitment date excess-cash sweep until principal1.3bn",
+        "rating_inference": "do not treat project-loan highgrade description as issuer rating"
+      },
+      "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+      "drawn_amount_unit": "USD",
+      "drawn_amount_asof": "2026-09-30",
+      "capacity_USD": 2600000000,
+      "parent_guarantee": "unconditional_parent_guarantee_disclosed; DDTL4.0 separately nonrecourse except limited carveouts",
+      "current_disclosure_reference": "evidence/2026-11-13/priority/findings.json",
+      "cash_proceeds_note": "Historical outstanding borrowing verified, not equivalent fresh cash receipt or current cash balance onNov13.",
+      "facility_agreement_entry_date": "2026-08-07",
+      "historical_draw_verified": true,
+      "current_day_new_cash_receipt_verified": false
+    },
+    "CoreWeave_expected_customer_cash": {
+      "USD_billions_approximately": 9,
+      "time_horizon": "next_three_months_after_2026-11-10",
+      "items": "customer prepayments and deposits",
+      "stage": "management_expected_not_receipts_verified",
+      "cash_receipt_verified": false,
+      "interpretation": "Possible funding support with future performance obligations; not standalone AI operating earnings or assured recurring receipts.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
+    },
+    "CoreWeave_other_programs": [
+      {
+        "name": "convertible_senior_notes",
+        "USD_billions_approx": 4.2,
+        "stage": "raised_company_reported_in_Q3highlights",
+        "same_as_prior_completed_convertible_event": true,
+        "not_new_financing_event_count": true,
+        "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
+      },
+      {
+        "name": "ATM_equity_program",
+        "max_ClassA_shares": 35000000,
+        "stage": "established_program_not_cash_raised",
+        "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
+      }
+    ],
+    "Anthropic_proposed_IPO_and_contingent_private_placement": {
+      "stage": "proposed_not_priced_not_closed_not_cash_received",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "private_placement_usd": 26000000000,
+      "conditions": "IPO completion and other conditions; purchases at IPOprice after closing",
+      "prior_commitment_overlap": "Google and AMD portions draw existing commitments; do not add full prior commitments again",
+      "details_reference": "evidence/2026-11-11/bigtech/findings.json"
+    },
+    "incremental_findings_references": {
+      "priority": "evidence/2026-11-13/priority/findings.json",
+      "bigtech": "evidence/2026-11-13/bigtech/findings.json",
+      "chain": "evidence/2026-11-13/chain/findings.json"
+    },
+    "current_followup_records": [
+      {
+        "event_id": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+        "stage": "proposed_roadshow_preliminary_US_range_not_final_priced_not_closed",
+        "new_document_evidence_ids": [
+          "anthropic_20261112_japan_FWP",
+          "anthropic_20261112_EEA_FWP"
+        ],
+        "new_document_publication_dates": [
+          "2026-11-12"
+        ],
+        "underlying_regional_prospectus_date": "2026-11-11",
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073045/anthropicpbc-fwpjapanamend.htm",
+          "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm",
+          "https://www.anthropic.com/news/roadshow-launch"
+        ],
+        "evidence_grade": "primary_SEC_regional_prospectuses",
+        "US_estimated_price_range": [
+          70,
+          78
+        ],
+        "EEA_maximum_retail_offering_price": 120,
+        "EEA_maximum_retail_price_not_final_US_IPO_price": true,
+        "EEA_shares_up_to": 80135135,
+        "regional_shares_are_tranche_of_global_offering_not_additional_global_raise": true,
+        "offer_period_expected_end": "2026-11-18",
+        "offer_period_date_is_not_actual_closing": true,
+        "private_placement_USD": 26000000000,
+        "private_placement_still_contingent_on_IPO_and_conditions": true,
+        "cash_receipts_verified": false,
+        "old_Google_AMD_commitment_overlap_preserved": true,
+        "prior_full_terms_reference": "evidence/2026-11-11/bigtech/findings.json#new_events",
+        "interpretation": "Regionalapproval/registrationandretailceilingareofferingprocesssteps,notfinalpricing,completedfinancingorassuredreceipts. No verifiedwithdrawalofNVIDIAcommitment;leadershipnewsaloneisnotcontractchange."
+      },
+      {
+        "event_id": "alphabet_20261111_asian_bond_plan_followup",
+        "new_evidence_id": "alphabet_20261112_asian_bond_launch_pricing_headlines",
+        "issuer": "Alphabet",
+        "publication_date": "2026-11-12",
+        "currencies": [
+          "HKD",
+          "SGD"
+        ],
+        "reported_size_USD_approx": 3800000000,
+        "reported_orders_USD_over": 7000000000,
+        "source": "https://www.reuters.com/world/asia-pacific/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-2026-11-12/",
+        "evidence_grade": "reliable_media_RSS_headline_original_body_unavailable",
+        "stage": "media_headlines_report_launched_raised_or_pricing_not_independently_verified_settled",
+        "final_coupon_tenor_benchmark_spread": null,
+        "expected_settlement_date": null,
+        "actual_settlement_verified": false,
+        "cash_receipts_verified": false,
+        "headline_items": [
+          {
+            "published_at": "Thu, 12 Nov 2026 16:37:05 GMT",
+            "title": "Alphabet raised about $3.8 billion in first Hong Kong and Singapore dollar bonds - Quartz",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0T1FpUnlpWkpabjJpbFlsdkZpd1drVmxicXlRVFQ4OG55OXZOcXNvV0lwTmlxdmdEa3RIc01sT1BSNWkzb1JYbTM0RGJqdGRhUUdWbTZSQ0t1Q1F4YWh5d1o0Mks5N0xSZ1BvRVlmaTFkMmo3NEViMw?oc=5"
+          },
+          {
+            "published_at": "Thu, 12 Nov 2026 02:57:00 GMT",
+            "title": "Alphabet raises $3.8 billion in first Hong Kong, Singapore dollar bonds - Reuters",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSkZJZGdvOEZWNkZuZ3pSWXU4QUktR01VVWpXc1I3OWtjQnFYaEtRMHVjdUJCblRxdDh2Wm0tbmJQN0gtWVN6b3dnVFlMVGM1Qk8ydHgtb0tndU5xblJGOTVxRWFFYjdjdDJIQkcwckZqMnNDUkZlNE56dzVGd0dMMVFaZUMydjZPaTVkcmRGQU1sZXlscUx0UkRINlpVZk9QYXFiZElNSlc1cG5JTHYwTVplbzM5b0FLOHZLelZZWnlxcGpEdEstNi0zSFprUQ?oc=5"
+          },
+          {
+            "published_at": "Thu, 12 Nov 2026 08:58:20 GMT",
+            "title": "Alphabet's debut Hong Kong, Singapore bond sales draw over $7 billion in orders - Central Oregon Daily",
+            "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUTYzemJoOGxYbGxWLVZEVUZTSDIxU09pS0Z2WlRhSjg3OUNRd0taUGJsMkE4QTFHa3hVaC12bE92TnE1ekFyV2M1Y1liOTRVaVh5aVptcVhoRERtQVplelBOM0ozejBlQ2tlSm1ER2EwSmt1MWtlSlJaVDdRTFc4RmtDYTJPVURvdUEtV1FYTkxCSGhxcmpQanJ0Y0pxa0JwN2FsWXVxUWxqajc5RHdoZk9lSnVFdURDS0VHUE9fTjFxRGNNVlo5YWJwUDVNdkRaYzFENUtad0ZHSFktSXhDTC1zMnVrX243RzJLNnVPOHNpZUg2Q3E2WEpPUFZUaFl4VjRmc1pn?oc=5"
+          },
+          {
+            "published_at": "Thu, 12 Nov 2026 12:48:15 GMT",
+            "title": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny - Bloomberg.com",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaGZ5Z0pKYS0wTHBjSE5aYVVqTDgzdzZTQkRaY2ZpNDJWalNEU1hicGEzX3FJd2pjUGNjalZ3dzVyM1Z5RTJSaVNyTGtxR0VCQ3JlU3lZOXg0eXUyWTFsaVQ3Y1ZhOXhMM19OLTN2bGJ4Q094OFM4V1VmVi16eFpFcVhkTkVNbkNZeDd5UnpEZU1CbVRJZHY1SF9yOG4zSVpPbVRVYnhwSkROWVNLX2Iw?oc=5"
+          },
+          {
+            "published_at": "Wed, 11 Nov 2026 17:09:22 GMT",
+            "title": "Alphabet eyes $3 billion Hong Kong, Singapore bond sale, sources say - Reuters",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekxJWlNsQXlpSG80TzJHMDNiREl6ZC0zWEQ0S0FWVWZPXzJpQk5maC1NTFhXQjIyRmk5QlU1QnFxZ2VHZUNkVUNjOWo4azhLVzlHelE3dFk1UUU3UHllNUdiVzVaODFKSHJEZHQ4Q1d2a0FrLUJiYjM3bUlwZ01wODltVlYyY2YyM3dZV1piYjFmTFRlaVZNcVp3V0RMSlM2SHdPbllBTnQzNllPbGw5YWRERQ?oc=5"
+          },
+          {
+            "published_at": "Thu, 12 Nov 2026 05:55:39 GMT",
+            "title": "Alphabet’s First HK And S$ Bonds Drew More Than $7 Billion - Finimize",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeTVjT3NVaEtmRUlaWkZWQUdCZ3R6UkpKVnJUNHZkMkxkbFVyVG5pdjRPeGxpaGZNamV3anJBaUN4eEtxSnVfZ205U3lFN1dxYlhzNmY1akdyWEJtbWs0eG9pdkFsRGQ0MmtGTkJKcnRPeXp4THdrMlIxdC00TERaVVFXOWpCUQ?oc=5"
+          },
+          {
+            "published_at": "Thu, 12 Nov 2026 09:00:00 GMT",
+            "title": "Alphabet tests HKD and SGD bonds amid AI jitters - Briefs Finance",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS29felBVLVIwTXUwSXRBZ18wT3ZtTllqY3pTaUJHZGRfa3hsWXVMUE1oU1QyN2M2dUxEdEJ5by1nLV9GWEdNSkVGdGo4ZTVnWTJBdEV6NUU5ZU1MczU5YlNHTWwxWk9KNXRJSUVZQm9qcTdaSWpSYS1jd2dVMXFzMnAtaTJ0dzVqM0h2MVNYZ0o3QQ?oc=5"
+          },
+          {
+            "published_at": "Thu, 12 Nov 2026 02:59:43 GMT",
+            "title": "Alphabet sets initial price guidance for Hong Kong, Singapore bond sales, term sheet shows - The Lufkin Daily News",
+            "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNcU8zWU9lQWR2Vy0wd0cwWnFlUkFJLTJkNE9DT0dmMHZJeFNEazVCWWNrNTFZeVdPTjVuU0k5VXBUWjlTcnhVbHNJNUhGd3NzLWIyUmpja2ZobFZxd05vUUdKUGZiNGpMSHpBVlB0TW56UF82NkNZLUE4LXZ3eWVtdWc3d2xqWm9ZSnphZ3dscjVpWVhHNDNZMFdka1Jla3NNazliYVAwc18tQjFkMVR5Y0haSUhRWmpBMlBPLXB0V0pYZ3AwRjRsM2I3SkhwOEtNUEFUMGItMG9uRU44ODExSTh4Y1g0UXIzZXVuRTEwQzJJV0IzeWFfX0c2RzljdW9hcU42S1h3Z3R1NXdWcWtJYzlWSkpCWTA?oc=5"
+          },
+          {
+            "published_at": "Thu, 12 Nov 2026 04:48:00 GMT",
+            "title": "Alphabet's debut Hong Kong, Singapore bond sales draw about $5 billion in early orders - TradingView",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRlNXRnpmNDc0QmxjTnJTZEpWbGNUWlg1T3B0ME1IbFNKc294dm1Ka0xOMUtTNm96WVh4UXNEUlZtMmRkd2VkLUpIakJyUHpuWnRTRTdsN3d0OVNBS0hYQ1lRdjYxWVAxbGp6Uy1IYWpGRWFvUGdXSXdTbnJYVVk0Z2lvbnktT0FueElDVEVnTmI3QVlHeS1JRHZpTktVRTl6bkdtT3gyRF9DOGo5UVE4VHN4TjZrTDFwMTdjZXExcFl3WTkyRnVoYmdYNnVscFdrR1NCWXE0TlVjbDB0VTBERFVObndnRHdfOXc?oc=5"
+          },
+          {
+            "published_at": "Thu, 12 Nov 2026 06:04:29 GMT",
+            "title": "Alphabet reportedly pulls in $5B in orders for landmark Hong Kong and Singapore dollar bond sale - Seeking Alpha",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRWlZMm82dFZyWGV2SHJKRkx3VF9Palc5eElHNXJGOGw4V3o5VWxCekV5RUdoQVZreTN5NzdrNnhVVlpKTndTR0pza1l4WXhNSEh4TklWSlhRSTd5RUtYNDZHS19sRlMwVkN2cHpBU3l5MlAtTlFBX0d3djlOa0lUR0wtdGtrc21XUEJMVFRfX0tQa0tvZjkxamlMR3A0d3FiWnlhN0tFT3V3N2k3dHJ1SlVrX3BqSkI3TEtXSC05a3JWT3hjcnJMUU1yclAxdw?oc=5"
+          }
+        ],
+        "interpretation": "Reportedmovefromplanningtomarketing/pricing,butfulltermsandsettlementunverified. Ordersarenotissuanceproceeds;3.8bnapproxnotadditivewithprevious3bnplan.",
+        "collection_limits": "Reuters/Quartz/Standardtimeout;CentralOregonDaily403."
+      }
+    ],
+    "Alphabet_Asian_bond_plan": {
+      "stage": "media_headlines_report_launched_raised_or_pricing_not_independently_verified_settled",
+      "cash_receipts_verified": false,
+      "details_reference": "evidence/2026-11-13/bigtech/findings.json#financing_followups",
+      "reported_size_USD_approx": 3800000000
+    }
+  },
+  "weekly_review": {
+    "due_today": true,
+    "review_completed": true,
+    "date": "2026-11-13",
+    "comparison_previous_week": "2026-11-06",
+    "credit_20_comparable_observations": [
+      {
+        "series": "BAMLC0A0CM",
+        "unit": "basis_points",
+        "latest_date": "2026-11-11",
+        "latest_value": 90.0,
+        "twenty_observations_earlier": {
+          "date": "2026-10-13",
+          "value": 83.0,
+          "change_bp": 7.0
+        },
+        "week_to_latest_available": {
+          "start": {
+            "date": "2026-11-06",
+            "value": 93.0
+          },
+          "end": {
+            "date": "2026-11-11",
+            "value": 90.0
+          },
+          "change_bp": -3.0
+        },
+        "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+        "limit": "Broadmarketproxy,notAIissuerCDS;publishednonmissingobservations,notinventedtrades"
+      },
+      {
+        "series": "BAMLH0A0HYM2",
+        "unit": "basis_points",
+        "latest_date": "2026-11-11",
+        "latest_value": 330.0,
+        "twenty_observations_earlier": {
+          "date": "2026-10-13",
+          "value": 316.0,
+          "change_bp": 14.0
+        },
+        "week_to_latest_available": {
+          "start": {
+            "date": "2026-11-06",
+            "value": 342.0
+          },
+          "end": {
+            "date": "2026-11-11",
+            "value": 330.0
+          },
+          "change_bp": -12.0
+        },
+        "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+        "limit": "Broadmarketproxy,notAIissuerCDS;publishednonmissingobservations,notinventedtrades"
+      }
+    ],
+    "issuer_CDS_or_matched_bond_twenty_day_history_available": false,
+    "issuer_CDS_relative_peer_CDX_comparison": "Missing current consistent issuer5YCDS,matchedbondOASandCDX.IG; no sustainedissuerwidening claim.",
+    "financial_comparisons": [
+      {
+        "issuer": "Alphabet",
+        "period": "2026-01-01/2026-09-30",
+        "prior_comparable_period": "2025-01-01/2025-09-30",
+        "currency": "USD",
+        "is_new_release": false,
+        "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "publication_date": "2026-10-29",
+        "operating_cashflow": 127149000000,
+        "prior_ocf": 112311000000,
+        "ocf_yoy_pct": 13.212,
+        "cash_ppe": 131953000000,
+        "prior_cash_ppe": 63596000000,
+        "cash_ppe_yoy_pct": 107.486,
+        "common_cash_surplus": -4804000000,
+        "prior_common_cash_surplus": 48715000000,
+        "finance_lease_principal": 1950000000,
+        "surplus_after_finance_lease_principal": -6754000000,
+        "cash_and_debt_securities_excluding_equity_at_Sept30": 174714000000,
+        "exact_current_liquidity_and_next12months_contractual_service": null,
+        "review_date": "2026-11-13",
+        "new_release_this_run": false
+      },
+      {
+        "issuer": "Meta",
+        "period": "2026-01-01/2026-09-30",
+        "prior_comparable_period": "2025-01-01/2025-09-30",
+        "currency": "USD",
+        "is_new_release": false,
+        "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+        "publication_date": "2026-10-22",
+        "operating_cashflow": 96873000000,
+        "prior_ocf": 79586000000,
+        "ocf_yoy_pct": 21.721,
+        "cash_ppe": 83055000000,
+        "prior_cash_ppe": 48308000000,
+        "cash_ppe_yoy_pct": 71.928,
+        "common_cash_surplus": 13818000000,
+        "prior_common_cash_surplus": 31278000000,
+        "finance_lease_principal": 2769000000,
+        "surplus_after_finance_lease_principal": 11049000000,
+        "cash_and_debt_securities_excluding_equity_at_Sept30": 79324000000,
+        "exact_current_liquidity_and_next12months_contractual_service": null,
+        "review_date": "2026-11-13",
+        "new_release_this_run": false
+      },
+      {
+        "issuer": "CoreWeave",
+        "currency": "USD",
+        "unit": "USD_millions",
+        "report_publication_date": "2026-11-10",
+        "report_period": "2026-07-01/2026-09-30",
+        "prior_yoy_period": "2025-07-01/2025-09-30",
+        "historical_sequential_period": "2026-04-01/2026-06-30",
+        "new_release_this_run": false,
+        "record_type": "weekly_recheck_of_previously_notified_earnings",
+        "revenue": 3661,
+        "prior_yoy_revenue": 1365,
+        "prior_quarter_revenue": 2575,
+        "OCF": 1975,
+        "prior_yoy_OCF": 1689,
+        "prior_quarter_OCF": 679,
+        "cash_PPandE": 9441,
+        "prior_yoy_cash_PPandE": 3279,
+        "prior_quarter_cash_PPandE": 6422,
+        "base_cash_surplus": -7466,
+        "prior_yoy_base_cash_surplus": -1590,
+        "prior_quarter_base_cash_surplus": -5743,
+        "finance_lease_principal": 4,
+        "finance_lease_followup_reference": "evidence/2026-11-13/priority/findings.json",
+        "definition": "OCF minus cash purchases of property and equipment including capitalized internal-use software; excludes financing lease principal, JV and strategic investment spending.",
+        "liquidity_comparison": {
+          "asof": "2026-09-30",
+          "cash": 4122,
+          "prior_asof": "2026-06-30",
+          "prior_cash": 5524,
+          "restricted_cash_separate": 2282,
+          "exact_next12m_contract_principal_missing_at_prior_check": true,
+          "fresh_10Q_followup": "evidence/2026-11-13/priority/findings.json"
+        },
+        "interpretation": "Realized revenue increases alongside wider cash-capex deficit, lower cash and financing/prepayment dependence. Not proof of demand collapse; latest10Qdetails reviewed separately.",
+        "source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+        "historical_source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm",
+        "finance_lease_principal_9months": 37,
+        "finance_lease_principal_unit": "USD_millions",
+        "quarter_principal_derived_as": "9months37minusH1_33; same definition",
+        "base_cash_surplus_after_finance_lease_principal": -7470,
+        "nine_month_base_cash_surplus_after_finance_lease_principal": -17957,
+        "new_10Q_publication_date": "2026-11-12",
+        "new_10Q_is_supplement_to_same_earnings_period": true
+      },
+      {
+        "issuer": "IREN",
+        "currency": "USD",
+        "unit": "USD",
+        "report_publication_date": "2026-11-05",
+        "report_period": "2026-07-01/2026-09-30",
+        "prior_yoy_period": "2025-07-01/2025-09-30",
+        "new_release_this_run": false,
+        "record_type": "historical_single_quarter_recheck",
+        "cashflow": {
+          "definition": "Operating cash flow minus cash PP&E purchases including separately reported computer hardware, before finance lease principal.",
+          "operating_cash_flow": 529000000,
+          "prior_year_same_quarter_ocf": 142000000,
+          "cash_ppe_excluding_computer_hardware": 2131000000,
+          "cash_computer_hardware": 2693000000,
+          "cash_ppe_total": 4824000000,
+          "prior_year_same_quarter_cash_ppe_ex_hardware": 180000000,
+          "prior_year_same_quarter_cash_hardware": 100000000,
+          "prior_year_same_quarter_cash_ppe_total": 280000000,
+          "common_cash_surplus": -4295000000,
+          "prior_year_same_quarter_common_cash_surplus": -138000000,
+          "finance_lease_principal_paid": 30000000,
+          "prior_year_same_quarter_finance_lease_principal_paid": 0,
+          "surplus_after_finance_lease_principal": -4325000000,
+          "deferred_revenue_ocf_change": 645000000,
+          "prior_year_same_quarter_deferred_revenue_ocf_change": 22000000,
+          "notes": [
+            "Positive OCF is substantially supported by customer prepayments and entails future performance obligations. Do not describe it as sustainable AI end-user cash return.",
+            "Non-cash PP&E payable2.493bn and noncash ROU96m separately reported, not additionally deducted from current cashflow.",
+            "PP&E disposal proceeds54m not netted against gross cash purchases for common definition."
+          ]
+        },
+        "liquidity_reference": "observations/2026-11-06.json#new_events",
+        "AI_revenue": 200000000,
+        "prior_year_same_quarter_AI_revenue": 7000000,
+        "source": [
+          "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+          "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+        ],
+        "limits": "Customer prepayments support OCF; current debt carrying value is not actual12month maturities; not compared to nine-month amounts."
+      },
+      {
+        "issuer": "TeraWulf",
+        "currency": "USD",
+        "unit": "USD",
+        "report_publication_date": "2026-11-06",
+        "report_period": "2026-01-01/2026-09-30",
+        "prior_yoy_period": "2025-01-01/2025-09-30",
+        "new_release_this_run": false,
+        "record_type": "historical_nine_month_recheck",
+        "cashflow": {
+          "operating_cash_flow_9m": -178948000,
+          "prior_year_operating_cash_flow_9m": -35009000,
+          "purchase_and_deposits_on_plant_equipment_9m": 2230788000,
+          "prior_year_purchase_and_deposits_on_plant_equipment_9m": 445199000,
+          "derived_surplus_after_purchase_and_deposits_9m": -2409736000,
+          "prior_year_derived_surplus_after_purchase_and_deposits_9m": -480208000,
+          "finance_lease_principal_paid_9m": 0,
+          "prior_year_finance_lease_principal_paid_9m": 9158000,
+          "cash_paid_asset_acquisitions_9m": 234653000,
+          "investee_equity_sale_cash_receipts_9m": 250000000,
+          "notes": [
+            "Derived cash measure includes plant/equipment deposits under the issuer combined line; exact deposits-excluded common PP&E purchase surplus is unavailable. Label this expanded measure, not a silently equivalent standardizedFCF.",
+            "Cashflows include nonAI/mining/corporate activities and cannot all be assigned toAI.",
+            "Bitcoin sales37.011m are in investing cashflow per issuer accounting; avoid comparing totaloperatingcoverage across different mining/cloud issuers without qualification.",
+            "Do not net stock/debt proceeds or one-offinvestee equitysale proceeds into operatingcashreturns.",
+            "Cashflow is nine-month cumulative, revenuequarter is singlequarter."
+          ],
+          "common_cash_surplus": null,
+          "common_cash_surplus_missing_reason": "Issuercombinedcashlineincludesplant/equipmentdeposits;deposits-excludedcashpurchasesnotseparatelyestablished.",
+          "cash_surplus_after_ppe_and_deposits": -2409736000,
+          "prior_year_cash_surplus_after_ppe_and_deposits": -480208000
+        },
+        "liquidity_reference": "observations/2026-11-07.json#new_events",
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/a_wulfearningsreleaseq32026.htm",
+          "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm"
+        ],
+        "limits": "Combined PP&E/deposits cash line gives expanded deficit, not standardized deposit-excluded cash PP&E. Quarter revenue and9month cashflow not mixed."
+      },
+      {
+        "issuer": "SoftBank",
+        "currency": "JPY",
+        "unit": "JPY",
+        "report_publication_date": "2026-11-10",
+        "report_period": "2026-04-01/2026-09-30",
+        "prior_yoy_period": "2025-04-01/2025-09-30",
+        "new_release_this_run": false,
+        "record_type": "weekly_recheck_of_previously_notified_procurement_loss",
+        "financials": {
+          "currency": "JPY",
+          "amount_unit": "JPY",
+          "OCF_6mo": -527298000000,
+          "OCF_prior_6mo": -119902000000,
+          "cash_PPandE_intangibles_and_advances_combined": 2117609000000,
+          "prior_combined_capital_cash_spend": 475649000000,
+          "common_cash_surplus": null,
+          "reason_exact_standard_unavailable": "Cash-flow line combines PPE, intangible assets, long-term prepaid expenses and prepayments. Exact cashPPE and finance-lease-only principal not isolated.",
+          "expanded_OCF_minus_combined_capital_cash_spend": -2644907000000,
+          "prior_expanded_surplus": -595551000000,
+          "lease_liability_repayments_combined": 109936000000,
+          "finance_lease_principal_separately": null,
+          "cash_interest_paid": 735401000000,
+          "net_financing_cash_inflow": 8049058000000,
+          "ending_group_cash_equivalents": 7432165000000,
+          "opening_group_cash_equivalents": 5362150000000,
+          "ending_SBG_parent_cash_equivalents": 3803372000000,
+          "opening_SBG_parent_cash_equivalents": 2523841000000,
+          "ending_banking_subsidiary_cash_included_in_group": 512259000000,
+          "restricted_cash_and_transfer_restrictions_complete": false,
+          "group_cash_not_all_parent_freely_available": true,
+          "interest_bearing_debt_and_leases_carrying_value": 33719282000000,
+          "prior_same_carrying_value": 25663566000000,
+          "next_12_month_actual_contractual_principal_complete": null,
+          "group_net_loss_attributable_to_parent_6mo": -768007000000,
+          "all_group_loss_not_AI_loss": true,
+          "no_double_deduction_of_SB7_loss_from_cash_measure": true,
+          "balance_sheet_date": "2026-09-30",
+          "previous_balance_sheet_date": "2026-03-31"
+        },
+        "financing": {
+          "bridge_facility": "$30bn drawn bridge repaid beforeSep15; $10bn undrawn canceledSep30 after term/debt/equity-backed refinancing, not verified lender withdrawal",
+          "term_loan_borrowed_usd": 11870000000,
+          "term_loan_company_scheduled_fully_repaid_by": "2028-09",
+          "equity_backed_financings": "ARM margin-loan expansion, Intel prepaid forwards and OpenAI-backed loans are financing not AI operating return; entity recourse not assumed parent unconditional",
+          "new_failed_financing_verified": false
+        },
+        "sources": [
+          "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf"
+        ],
+        "limits": "Group includes nonAI businesses; combined capex definition not standardized PP&E; SB7loss not deducted twice, impairment not cash flow or creditorloss."
+      }
+    ],
+    "financial_periods_must_not_be_aggregated": true,
+    "financial_definition_source": "reference-baselines/2026Q3-alphabet-meta.json",
+    "past_week_important_event_reference_dates": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12"
+    ],
+    "prior_warning_outcomes": [
+      {
+        "warning": "扩建现金缺口和预付款依赖",
+        "outcome": "Nov10CoreWeave财报已于Nov11通知；收入增长仍伴现金缺口扩大。新10Q附注待本次整合，不能重复财报计算独立证据。"
+      },
+      {
+        "warning": "软银设备采购调整是否扩散成信用损失",
+        "outcome": "Nov10披露真实采购经济损失已通知；GE供应商和13GW细化仍二手，无新增实际银行损失或担保赔付已核。"
+      },
+      {
+        "warning": "MetaEUR9bnNov12交割",
+        "outcome": "Nov12公司8K本次确认已完成；同一融资阶段推进，不再次累计90亿欧元。"
+      },
+      {
+        "warning": "IREN延期变取消",
+        "outcome": "Nov5公司确认客户设计变更及供应商进度延期；本周是否取消/退款/提款失败由chain最新核查，不把工期推迟当取消。"
+      },
+      {
+        "warning": "Anthropic拟IPO/附条件配售及其他融资渠道",
+        "outcome": "定价、注册、交割及实际收款分阶段核实；新区域FWP或认购上限不是美国IPO实际定价。"
+      }
+    ],
+    "assessment": "风险升温",
+    "assessment_scope": "localized_cashflow_and_procurement_pressure",
+    "review_does_not_force_notification": true,
+    "events_this_week": [
+      {
+        "event_id": "coreweave_20261106_media_bond_cds_quotes",
+        "first_monitor_date": "2026-11-07",
+        "scope": "Dated issuer-specific media pricing stress only; no comparable20day issuer series."
+      },
+      {
+        "event_id": "terawulf_20261106_q3_earnings_cashflow",
+        "first_monitor_date": "2026-11-07",
+        "scope": "Realized HPC revenue growing alongside larger9month expanded cash deficit; two HPCcustomers; no verified cancellation/default."
+      },
+      {
+        "event_id": "apollo-20261109-junior-subordinated-notes-priced",
+        "first_monitor_date": "2026-11-10",
+        "scope": "USD600m junior unsecured notes priced7.55pct; expectedNov13USclosing still later thanNov13Beijingmorning; generalcorporate/Mubadalause,notAIrealizedloss."
+      },
+      {
+        "event_id": "coreweave_20261110_q3_earnings_cashflow_guidance",
+        "first_monitor_date": "2026-11-11",
+        "scope": "Already notified material financials; Nov12Q3_10Q reviewed as additional details,not independent duplicate earnings."
+      },
+      {
+        "event_id": "softbank_20261110_sb7_procurement_realignment_loss",
+        "first_monitor_date": "2026-11-11",
+        "scope": "Already notified actual procurement adjustment loss; media13GW/GE details deduplicated; no established bankloss/creditdefault."
+      },
+      {
+        "event_id": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+        "first_monitor_date": "2026-11-11",
+        "scope": "IPO/private placement conditional; no verified issuerreceipts, do not doublecount existing commitments."
+      },
+      {
+        "event_id": "meta_eur_20261104_pricing",
+        "stage_update_date": "2026-11-12",
+        "first_monitor_confirmation_date": "2026-11-13",
+        "scope": "SameEUR9bn offering completed per issuer8K; amounts not counted twice."
+      },
+      {
+        "event_id": "alphabet_20261111_asian_bond_plan_followup",
+        "stage_update_media_date": "2026-11-12",
+        "scope": "Reports of launch/pricing and bookorders pending full verifiedterms; not verified actualreceipt."
+      }
+    ],
+    "focus_check_weekly_review": {
+      "customer_capex_cuts": {
+        "historical_reference": "observations/2026-11-11.json#focused_checks.customer_capex_cuts",
+        "known_week_change": "CoreWeave raised cash-scope-unspecified capex guidance lowerbound35→37bn,upper39bnunchanged; no known new formal buyer cut in reviewed sources, latesttodayfindings pending.",
+        "original_guidance_dates_retained": true
+      },
+      "supplier_consecutive_revenue_guidance_cuts": {
+        "threshold_independent_comparable_cuts": 2,
+        "history_reference": "observations/2026-11-12.json#focused_checks.supplier_consecutive_revenue_guidance_cuts",
+        "latest_review_reference": "evidence/2026-11-13/chain/findings.json",
+        "no_inference_from_stock_prices_or_analyst_cuts": true,
+        "new_comparable_formal_cuts_verified": 0,
+        "continuous_comparable_sequence_established": false
+      },
+      "delay_to_cancellation_or_funding_interruption": {
+        "history_reference": "observations/2026-11-12.json#focused_checks.delay_to_cancellation_or_funding_interruption",
+        "latest_review_reference": "evidence/2026-11-13/chain/findings.json",
+        "same_event_media_reposts_not_independent": true,
+        "SB7_actual_procurement_loss_already_notified": true,
+        "IREN_prior_requested_design_delay_not_cancelled_order": true,
+        "new_independent_customer_or_supplier_cancellation_spread_verified": false,
+        "new_major_financing_interruption_verified": false
+      }
+    },
+    "credit_interpretation": "FRED broadIG/HY OAS narrows3/12bp fromNov6toNov11, but remains7/14bp wider than20publishedvalidobservations earlierOct13. This is overall credit context only, not verified issuer-specific trend, continuousAIriskrelief or30daycrashprobability.",
+    "limitations": [
+      "No comparable continuous issuer5YCDS,matchedcashbondOASorCDX.IG series.",
+      "Report periods differ across issuers; figures are not combined into one ratio or deadline.",
+      "Full actualnext12monthprincipal,leasecash,interest,covenantsandprivatefundlosscoverage remains incomplete.",
+      "New disclosure of historical figures does not mean cash was received or paid on monitoringday.",
+      "Oracle/Microsoft/Amazon/Broadcom historical snapshots retained separately; full same-period prior-year OCF/cashPP&E/lease comparisons not re-extracted this run. Amazon prior comparable company-defined TTM FCF retained without mixing with9Mstandardized cashflow; precise prior TTM dates not independently re-established."
+    ],
+    "completed_at": "2026-11-13T00:35:22.084420+00:00",
+    "current_subtask_review_references": {
+      "priority": "evidence/2026-11-13/priority/findings.json",
+      "bigtech": "evidence/2026-11-13/bigtech/findings.json",
+      "chain": "evidence/2026-11-13/chain/findings.json"
+    },
+    "supplementary_financial_disclosure_reference": "evidence/2026-11-13/priority/findings.json",
+    "no_additional_weekly_notification_required": true,
+    "contingent_support_review": {
+      "Alphabet_notional_USD": 48012000000,
+      "Alphabet_fair_value_liability_USD": 606000000,
+      "Meta_JV_residual_guarantee_max_USD": 41493000000,
+      "Meta_total_JV_max_exposure_including_guarantee_USD": 68404000000,
+      "actual_new_payout_verified": false,
+      "notionals_not_losses": true,
+      "source_reference": "reference-baselines/2026Q3-alphabet-meta.json"
+    },
+    "liquidity_buffer_review_Alphabet_Meta": {
+      "asof": "2026-09-30",
+      "Alphabet_cash_and_debt_securities_excluding_equity_USD": 174714000000,
+      "Meta_cash_and_debt_securities_excluding_equity_USD": 79324000000,
+      "Meta_restricted_cash_already_excluded_USD": 13132000000,
+      "current_cash_after_new_financing": null,
+      "exact_next12mo_contractual_principal_interest_leases": null,
+      "new_financing_not_mechanically_added_to_historical_cash": true
+    },
+    "overall_interpretation": "Previously notified localized risk warming persists. Positive Meta execution and broader credit narrowing coexist with expansion funding gaps. No substantiated new cross-issuer cancellation/default/lender-loss cascade; lack of direct private/issuer quote data is not proof of stability or relief.",
+    "current_coreweave_10Q_cashflow_liquidity_contract_details": {
+      "financial_basis": {
+        "unit": "USD million",
+        "cash_surplus_definition": "operating cash flow minus cash purchases of PP&E including capitalized internal-use software; finance-lease principal shown separately; cash interest already in OCF must not be deducted again",
+        "q3_derivation": "2026-01-01..09-30 cumulative minus 2026-01-01..06-30 cumulative where indicated",
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+          "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+          "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
+        ]
+      },
+      "realized_results_already_notified": {
+        "Q3_2026": {
+          "revenue": 3661,
+          "ocf": 1975,
+          "cash_ppe_including_software": 9441,
+          "base_cash_surplus": -7466
+        },
+        "Q3_2025": {
+          "revenue": 1365,
+          "ocf": 1689,
+          "cash_ppe_including_software": 3279,
+          "base_cash_surplus": -1590
+        },
+        "Q2_2026": {
+          "ocf": 679,
+          "cash_ppe_including_software": 6422,
+          "base_cash_surplus": -5743
+        },
+        "nine_month_2026": {
+          "ocf": 5638,
+          "cash_ppe_including_software": 23558,
+          "base_cash_surplus": -17920
+        },
+        "nine_month_2025": {
+          "ocf": 1499,
+          "cash_ppe_including_software": 6249,
+          "base_cash_surplus": -4750
+        }
+      },
+      "lease_and_interest_cashflows_newly_verified": {
+        "nine_month_2026": {
+          "finance_lease_principal": 37,
+          "finance_lease_cash_interest_in_ocf": 12,
+          "cash_interest_net_of_capitalized": 1339,
+          "reported_approx_total_debt_cash_interest_including_capitalized": 1600,
+          "capitalized_interest_cash_included_in_reported_total": 220,
+          "debt_principal_repayments": 7563
+        },
+        "nine_month_2025": {
+          "finance_lease_principal": 43,
+          "finance_lease_cash_interest_in_ocf": 5,
+          "cash_interest_net_of_capitalized": 557
+        },
+        "H1_2026": {
+          "finance_lease_principal": 33,
+          "finance_lease_cash_interest_in_ocf": 8,
+          "cash_interest_net_of_capitalized": 806
+        },
+        "Q3_2026_derived": {
+          "finance_lease_principal": 4,
+          "finance_lease_cash_interest_in_ocf": 4,
+          "cash_interest_net_of_capitalized": 533,
+          "base_cash_surplus_after_separately_deducting_lease_principal": -7470
+        },
+        "limitations": [
+          "1.6bn is rounded 9M historical cash interest, not a future burden or net interest expense",
+          "230m 9M interest capitalized as expense accounting is not same as220m cash capitalized interest",
+          "net interest already included in OCF; no repeated subtraction"
+        ]
+      },
+      "liquidity": {
+        "as_of": "2026-09-30",
+        "cash_and_equivalents": 4122,
+        "restricted_cash_current": 1405,
+        "restricted_cash_noncurrent": 877,
+        "restricted_cash_total_excluded_from_cash_and_equivalents": 2282,
+        "marketable_debt_securities": 56,
+        "marketable_equity_securities": 6,
+        "debt_securities_components": {
+          "commercial_paper": 24,
+          "corporate_bonds": 32
+        },
+        "marketable_securities_total": 62,
+        "nonmarketable_equity_in_other_noncurrent_assets": 356,
+        "secured_committed_facility_availability_reported": 5653,
+        "revolving_facility_remaining_after_letters_of_credit": 754,
+        "revolving_drawn": 1200,
+        "letters_of_credit_reduce_availability": 546,
+        "reported_total_liquidity_including_conditional_facilities": 9837,
+        "comparison_as_of": "2026-06-30",
+        "comparison": {
+          "cash_and_equivalents": 5524,
+          "marketable_securities_total": 15,
+          "secured_committed_facility_availability_reported": 10014,
+          "reported_total_liquidity_including_conditional_facilities": 15553
+        },
+        "limitations": [
+          "5653m availability is Sept30 secured RCF/DDTL capacity subject to assets, project, borrowing conditions and draw dates; not unrestricted cash",
+          "marketable equity is separate and not all counted as cash",
+          "restricted balances already excluded from4122m; do not subtract again",
+          "company believes resources sufficient for next year, management statement not independent funding guarantee"
+        ]
+      },
+      "contractual_debt_principal_schedule": {
+        "as_of": "2026-09-30",
+        "remaining_2026": 2433,
+        "full_calendar_2027": 10974,
+        "2028": 5479,
+        "2029": 4727,
+        "2030": 4247,
+        "thereafter": 19645,
+        "total_contractual_principal": 47505,
+        "next_12_month_contractual_principal": null,
+        "limitations": [
+          "2027 calendar year cannot be pro-rated into rolling12months without dates",
+          "DDTL4.0 amortization timing depends on project delivery/site-amortization/top-up draws; management estimates may change",
+          "balance-sheet current debt carrying amount10572m does not replace contractual rolling12month principal"
+        ]
+      },
+      "debt_recourseness": {
+        "recourse_carrying": 41600,
+        "nonrecourse_carrying": 5273,
+        "carrying_total": 46873,
+        "DDTL4_0_nonrecourse_outstanding": 4583,
+        "DDTL5_5": {
+          "facility_committed": 2600,
+          "outstanding_as_of_sep30": 1555,
+          "facility_entry_date": "2026-08-07",
+          "stage": "executed_facility_partly_drawn_as_of_Sept30",
+          "undrawn_availability_end": "2026-12-31",
+          "stated_rate": "Term SOFR +5.50%",
+          "undrawn_fee_annual": 0.005,
+          "monthly_repayment_begins": "2027-02",
+          "expected_final_monthly_payment": "2031-07",
+          "debt_table_stated_maturity": "2031-09",
+          "parent_guarantee": "unconditional by CoreWeave",
+          "collateral": "first priority equity pledge and substantially all CFD V-V assets",
+          "additional_triggers": "customer-contract events, change of control, events of default, certain asset disposals/debt proceeds; after commitment date excess-cash sweep until principal1.3bn",
+          "rating_inference": "do not treat project-loan highgrade description as issuer rating"
+        },
+        "covenants": {
+          "as_of": "2026-09-30",
+          "company_reported": "in compliance with all loan-agreement covenants",
+          "new_actual_default_or_waiver_identified": false,
+          "interpretation": "as-of historical assertion, not proof of absence of later stress"
+        }
+      },
+      "customer_concentration": {
+        "Q3_2026_revenue_shares_anonymous": {
+          "A": 0.24,
+          "B": 0.3
+        },
+        "Q3_2025_revenue_shares_anonymous": {
+          "A": 0.67,
+          "B": "below10pct"
+        },
+        "nine_month_2026_revenue_shares_anonymous": {
+          "A": 0.33,
+          "B": 0.26
+        },
+        "AR_as_of_sep30_shares_anonymous": {
+          "A": 0.18,
+          "B": 0.33,
+          "C": 0.12,
+          "D": 0.14
+        },
+        "limitations": [
+          "letter references may represent different customers than previous reports",
+          "do not map A/B/C/D to Microsoft/OpenAI/Meta without direct evidence",
+          "concentration is not overdue payment or default"
+        ]
+      },
+      "noncash_and_future_commitments": {
+        "noncash_reporting_period": "2026-01-01/2026-09-30",
+        "noncash_PPE_addition_related_liabilities_including_OEM_and_unpaid_capitalized_interest": 11833,
+        "noncash_PPE_liabilities_label_caveat": "supplemental cashflow noncash-activity disclosure; not assumed to equal unpaid-capex balance atSep30; H1 label excludes explicitly unpaid capitalized interest so no naive difference",
+        "noncash_operating_lease_ROU_added": 10865,
+        "noncash_finance_lease_ROU_added": 432,
+        "uncommenced_leases_undiscounted_as_of_sep30": 47400,
+        "uncommenced_leases_comparison_june30": 35500,
+        "uncommenced_periods": "commence2026-2029,7-17yearterms",
+        "excluded_from_47400": {
+          "single_site_max_contractual_rent": 16900,
+          "single_site_remaining_power_MW": 453,
+          "power_expected_phases": "2026 and2028",
+          "other_variable_cost_sites_remaining_MW": 354,
+          "other_site_power_phases": "2026-2028",
+          "reason": "significant rent amount uncertainty based on construction costs"
+        },
+        "other_future_construction_cost_commitments": 2100,
+        "separate_lessee_equipment_commitment_range": [
+          188,
+          817
+        ],
+        "separate_lessee_equipment_phase_through": "2028",
+        "future_lease_payments_schedule": {
+          "remaining_2026": {
+            "operating": 580,
+            "finance": 17
+          },
+          "full_2027": {
+            "operating": 2375,
+            "finance": 361
+          },
+          "total_undiscounted": {
+            "operating": 32954,
+            "finance": 822
+          }
+        },
+        "limitations": [
+          "lease liabilities, future payments, procurement and guarantee exposures may overlap; never sum into singledebt",
+          "47400m uncommenced sum and excluded max16900m lease are multiyear commitments, not next12mo payment",
+          "unpaid-capex outstanding subtotal and next12mo irrevocable total remain unverified"
+        ]
+      },
+      "VIE_and_JV_support": {
+        "unconsolidated_VIE_development_funding_commitments_total": 1900,
+        "already_funded_within_total": 859,
+        "Q3_incremental_funding_commitment": 187,
+        "max_loss_on_these_VIEs": "limited to total funding commitments1.9bn, not1.9bn plus859m",
+        "NewJersey_JV": {
+          "equity_carrying": 57,
+          "contingent_consideration_guarantee_up_to": 95,
+          "lease_prepayment": 48,
+          "contingent_construction_funding_exposure_company_estimate_up_to": 120,
+          "trigger": "JV unable to secure thirdparty financing",
+          "nine_month_equity_method_loss": 77,
+          "actual_guarantee_cash_claim_identified": false
+        },
+        "limitations": [
+          "equitymethod77m loss not automatically cash guarantee payment",
+          "do not aggregate exposures across arrangements without overlap checks"
+        ]
+      },
+      "guidance_and_prepaid_cash": {
+        "status": "previously_notified_earnings_not_new_today",
+        "FY2026_revenue_guidance_USDbn": [
+          13,
+          13.3
+        ],
+        "FY2026_capex_guidance_USDbn": [
+          37,
+          39
+        ],
+        "official_capex_cut_identified": false,
+        "official_revenue_downgrade_identified": false,
+        "backlog_USDbn": 132.5,
+        "backlog_is_not_realized_cash": true,
+        "expected_next3mo_customer_prepaid_deposit_USDbn": 9,
+        "9bn_actual_received_verified": false,
+        "ATM_program_max_shares_million": 35,
+        "ATM_sep30_actual_sold_shares": 0,
+        "ATM_not_cash_receipt": true
+      },
+      "new_4bn_loan_media_lead": {
+        "stage": "reported_plan_only",
+        "amount_USDbn_at_least": 4,
+        "original_outlet": "Bloomberg",
+        "earliest_RSS_relay": "2026-11-11T22:50:12Z",
+        "new_Bloomberg_RSS_timestamp": "2026-11-12T18:02:35Z",
+        "raw": "news_coreweave_funding.xml",
+        "full_original_verified": false,
+        "pricing_verified": false,
+        "closing_verified": false,
+        "drawing_verified": false,
+        "no_risk_easing_claim": true
+      },
+      "missing": [
+        "rolling12month exact debt principal/interest/leases/irrevocable cashout schedule",
+        "customer9bn prepayment guidance actual receipts",
+        "direct comparable CDS/issuer bond20day series",
+        "new4bn loan full terms/pricing/closing/draw",
+        "specific new paymentdelinquency/covenantbreach/cancellation beyond filings asofSept30"
+      ]
+    },
+    "supplier_project_lender_trend_review": {
+      "week_window": "2026-11-06_through_current_check",
+      "independent_supplier_downward_revision_sequence_verified": false,
+      "cross_customer_supplier_order_cancellation_spread_verified": false,
+      "prior_alert_outcomes": [
+        {
+          "event": "SoftBankSB7procurementloss",
+          "status": "actual_loss_confirmed_Nov10_report_already_notified_Nov11",
+          "new_covenant_default_guarantee_loss_or_supplier_guidance_cut_verified": false
+        },
+        {
+          "event": "IREN_delivery_delay",
+          "status": "prior_execution_risk_retained",
+          "same_contract_cancelled_or_refunded_verified": false
+        },
+        {
+          "event": "TeraWulf_expansion_and_Google_support",
+          "status": "prior_cash_need_and_conditional_support_retained",
+          "new_funding_failure_or_guarantee_payout_verified": false
+        },
+        {
+          "event": "Apollo600m_subordinatednotes",
+          "status": "priced_expected_USNov13_not_due_at_BeijingNov13morning",
+          "settlement_success_or_failure_not_verified": true
+        },
+        {
+          "event": "ING500m_BWIC",
+          "status": "reported_bid_deadline_Nov19_still_pending",
+          "actual_sale_loss_not_verified": true
+        }
+      ],
+      "financing_counterevidence": "Rowan announced incremental corporate loan/revolver/LC capacity; confirms that at least one platform can arrange funding, without erasing other issuers cash pressure.",
+      "limits": "缺AI项目级私人信贷连续损失序列和供应商完整逐期指引历史；本周未核实扩散不等于证明没有风险。"
+    },
+    "other_issuer_historical_baselines_reviewed": [
+      {
+        "company": "oracle",
+        "source_id": "oracle_10q",
+        "period_start": "2026-06-01",
+        "period_end": "2026-08-31",
+        "filed_on": "2026-09-11",
+        "publication_at": "2026-09-11T20:10:12.000Z",
+        "unit": "USD",
+        "ocf": 23103000000,
+        "cash_ppe_purchases": 28499000000,
+        "computed_ocf_less_cash_ppe": -5396000000,
+        "computed_fcf_definition": "Operating cash flow minus cash purchases of PP&E; before finance lease principal; excludes noncash asset additions, unpaid capex and commitments. Company-specific FCF definitions may differ.",
+        "cash_and_equivalents": 36369000000,
+        "current_marketable_or_short_term_investments": null,
+        "finance_lease_principal_paid": null,
+        "current_long_term_debt_carrying_amount": null,
+        "next_twelve_months_contractual_debt_maturities": null,
+        "interest_expense": 1428000000,
+        "debt_issuance_proceeds": null,
+        "debt_repayments": null,
+        "missing": [
+          "Complete comparable next-twelve-month contractual maturities and current interest burden not verified for all issuers.",
+          "Current GPU rental prices/utilization and current customer payment behavior not obtained."
+        ],
+        "notes": [
+          "经营现金流包含113.63亿美元具有重大融资成分的客户预付款所带来的递延收入增加；不能把全部OCF增长视为持续经营回款改善。",
+          "股权ATM融资净收入199.09亿美元，不能把现金缺口笼统说成全部依赖新增债务。"
+        ],
+        "ocf_includes_customer_prepayments_with_significant_financing_component": 11363000000,
+        "atm_common_stock_net_proceeds": 19909000000,
+        "record_type": "retained_historical_baseline_not_new_financial_release",
+        "baseline_reference": "observations/2026-11-03.json#financial_baseline",
+        "is_new_release": false,
+        "no_new_operating_report_verified_this_run": true,
+        "not_current_liquidity": true,
+        "comparable_prior_period_pair_not_reextracted_this_week": true,
+        "comparison_limit": "No same-period cashflow/lease/principal trend invented from this single retained snapshot. Amazon company-defined TTM FCF retains distinct period/definition; original prior-comparable period dates not supplemented without source."
+      },
+      {
+        "company": "microsoft",
+        "source_id": "microsoft_10q",
+        "period_start": "2026-07-01",
+        "period_end": "2026-09-30",
+        "filed_on": "2026-10-28",
+        "publication_at": "2026-10-28T20:07:39.000Z",
+        "unit": "USD",
+        "ocf": 58000000000,
+        "cash_ppe_purchases": 39367000000,
+        "computed_ocf_less_cash_ppe": 18633000000,
+        "computed_fcf_definition": "Operating cash flow minus cash purchases of PP&E; before finance lease principal; excludes noncash asset additions, unpaid capex and commitments. Company-specific FCF definitions may differ.",
+        "cash_and_equivalents": 20281000000,
+        "current_marketable_or_short_term_investments": 44228000000,
+        "finance_lease_principal_paid": 1000000000,
+        "current_long_term_debt_carrying_amount": 4391000000,
+        "next_twelve_months_contractual_debt_maturities": null,
+        "interest_expense": null,
+        "debt_issuance_proceeds": null,
+        "debt_repayments": null,
+        "missing": [
+          "Complete comparable next-twelve-month contractual maturities and current interest burden not verified for all issuers.",
+          "Current GPU rental prices/utilization and current customer payment behavior not obtained."
+        ],
+        "notes": [],
+        "record_type": "retained_historical_baseline_not_new_financial_release",
+        "baseline_reference": "observations/2026-11-03.json#financial_baseline",
+        "is_new_release": false,
+        "no_new_operating_report_verified_this_run": true,
+        "not_current_liquidity": true,
+        "comparable_prior_period_pair_not_reextracted_this_week": true,
+        "comparison_limit": "No same-period cashflow/lease/principal trend invented from this single retained snapshot. Amazon company-defined TTM FCF retains distinct period/definition; original prior-comparable period dates not supplemented without source."
+      },
+      {
+        "company": "amazon",
+        "source_id": "amazon_10q",
+        "period_start": "2026-01-01",
+        "period_end": "2026-09-30",
+        "filed_on": "2026-10-30",
+        "publication_at": "2026-10-29T22:20:46.000Z",
+        "unit": "USD",
+        "ocf": 113841000000,
+        "cash_ppe_purchases": null,
+        "computed_ocf_less_cash_ppe": null,
+        "computed_fcf_definition": "Operating cash flow minus cash purchases of PP&E; before finance lease principal; excludes noncash asset additions, unpaid capex and commitments. Company-specific FCF definitions may differ.",
+        "cash_and_equivalents": 55783000000,
+        "current_marketable_or_short_term_investments": 58443000000,
+        "finance_lease_principal_paid": 1296000000,
+        "current_long_term_debt_carrying_amount": 6827000000,
+        "next_twelve_months_contractual_debt_maturities": null,
+        "interest_expense": null,
+        "debt_issuance_proceeds": 115100000000,
+        "debt_repayments": 2759000000,
+        "missing": [
+          "Complete comparable next-twelve-month contractual maturities and current interest burden not verified for all issuers.",
+          "Current GPU rental prices/utilization and current customer payment behavior not obtained."
+        ],
+        "notes": [
+          "TTM FCF为公司MD&A口径，不能与其他公司不同报告期的简单OCF减现金资本开支直接横比；不能将全部资本开支归于AI。"
+        ],
+        "company_defined_trailing_twelve_month_fcf": {
+          "period_start": "2025-10-01",
+          "period_end": "2026-09-30",
+          "ocf": 168300000000,
+          "ppe_purchases_net_of_sales_and_incentives": 210657000000,
+          "fcf": -42357000000,
+          "previous_comparable_fcf": 14788000000,
+          "definition": "OCF minus purchases of PP&E net of proceeds from sales and incentives; company-defined measure in MD&A."
+        },
+        "record_type": "retained_historical_baseline_not_new_financial_release",
+        "baseline_reference": "observations/2026-11-03.json#financial_baseline",
+        "is_new_release": false,
+        "no_new_operating_report_verified_this_run": true,
+        "not_current_liquidity": true,
+        "comparable_prior_period_pair_not_reextracted_this_week": true,
+        "comparison_limit": "No same-period cashflow/lease/principal trend invented from this single retained snapshot. Amazon company-defined TTM FCF retains distinct period/definition; original prior-comparable period dates not supplemented without source."
+      },
+      {
+        "company": "broadcom",
+        "source_id": "broadcom_10q",
+        "period_start": "2025-11-03",
+        "period_end": "2026-08-02",
+        "filed_on": "2026-09-10",
+        "publication_at": "2026-09-09T21:56:42.000Z",
+        "unit": "USD",
+        "ocf": 32950000000,
+        "cash_ppe_purchases": 1013000000,
+        "computed_ocf_less_cash_ppe": 31937000000,
+        "computed_fcf_definition": "Operating cash flow minus cash purchases of PP&E; before finance lease principal; excludes noncash asset additions, unpaid capex and commitments. Company-specific FCF definitions may differ.",
+        "cash_and_equivalents": 23975000000,
+        "current_marketable_or_short_term_investments": null,
+        "finance_lease_principal_paid": null,
+        "current_long_term_debt_carrying_amount": 2252000000,
+        "next_twelve_months_contractual_debt_maturities": null,
+        "interest_expense": 2355000000,
+        "debt_issuance_proceeds": 4474000000,
+        "debt_repayments": null,
+        "missing": [
+          "Complete comparable next-twelve-month contractual maturities and current interest burden not verified for all issuers.",
+          "Current GPU rental prices/utilization and current customer payment behavior not obtained."
+        ],
+        "notes": [],
+        "record_type": "retained_historical_baseline_not_new_financial_release",
+        "baseline_reference": "observations/2026-11-03.json#financial_baseline",
+        "is_new_release": false,
+        "no_new_operating_report_verified_this_run": true,
+        "not_current_liquidity": true,
+        "comparable_prior_period_pair_not_reextracted_this_week": true,
+        "comparison_limit": "No same-period cashflow/lease/principal trend invented from this single retained snapshot. Amazon company-defined TTM FCF retains distinct period/definition; original prior-comparable period dates not supplemented without source."
+      }
+    ]
+  },
+  "source_coverage": {
+    "status": "success_with_private_market_quote_and_some_IR_gaps",
+    "incremental_window": {
+      "start": "2026-11-12T00:35:44.433607+00:00",
+      "end": "2026-11-13T00:35:22.084420+00:00"
+    },
+    "subtask_findings": {
+      "priority": "evidence/2026-11-13/priority/findings.json",
+      "bigtech": "evidence/2026-11-13/bigtech/findings.json",
+      "chain": "evidence/2026-11-13/chain/findings.json"
+    },
+    "market_manifest": "evidence/2026-11-13/market/manifest.json",
+    "incremental_news_items": "evidence/2026-11-13/market/incremental_news_items.json",
+    "supplemental_baseline_read": true,
+    "no_new_public_evidence_not_proof_of_no_risk": true
+  },
+  "missing_data": [
+    {
+      "surface": "Meta/AmazonIR",
+      "error": "429",
+      "SEC_alternative_success": true
+    },
+    {
+      "surface": "BroadcomIR/Microsoftblog",
+      "error": "403",
+      "SEC_alternative_success": true
+    },
+    {
+      "surface": "Asianbondterms",
+      "error": "bodyfetchfailures",
+      "price_and_settlement_not_invented": true
+    },
+    "Rowan直接官网403/521，取得POWER完整公开Press Release，未取得贷款合同和提款流水。",
+    "个体CDS终端及私人信贷项目级减值数据缺失。",
+    "NVIDIA治理公告未变更承诺不等于所有商业或投资合同已独立核实履行。",
+    "Current comparable issuer5YCDS,matchedsecondarybondspreads and CDX.IG histories remain missing; broad FRED proxies cannot fill that issuer-specific gap.",
+    "CoreWeave remaining2026 and whole2027 maturity buckets do not establish rolling12month actual principal and interest. Undrawn facilities are conditional and historical availability is not current unrestricted cash.",
+    "Project-level privatecreditlosses,actualcustomerpayments and guarantee-trigger records are incomplete. No found evidence is not proof of no risk.",
+    "rolling12month exact debt principal/interest/leases/irrevocable cashout schedule",
+    "customer9bn prepayment guidance actual receipts",
+    "direct comparable CDS/issuer bond20day series",
+    "new4bn loan full terms/pricing/closing/draw",
+    "specific new paymentdelinquency/covenantbreach/cancellation beyond filings asofSept30",
+    "CNBCguessedcanonical404",
+    "CNBCtech/businessRSS no matching source",
+    "Benzingasearch403",
+    "CryptoBriefing403"
+  ],
+  "comparability": {
+    "issuer_CDS_direct_available": false,
+    "issuer_CDS_dated_media_quotes_available": true,
+    "matched_secondary_spread_history_available": false,
+    "new_issue_terms_available": true,
+    "FX_currencies_combined": false,
+    "probability_model": null,
+    "crash_probability": null
+  },
+  "next_confirmation_conditions": [
+    "CoreWeave expected customer prepayments actually received and applicable obligations; loan pricing, closing and actual draws tracked separately.",
+    "Current liquidity, contingent facility availability and actual rolling12month principal/interest/leases; do not replace with debt carrying values or calendar2027bucket.",
+    "Formal buyer capex and supplier guidance revisions, same-contract cancellation/refund/default and verified project/lender loss.",
+    "Anthropic final IPO pricing, effectiveness, closing, issuer proceeds and conditional placement; preserve prior commitment overlap.",
+    "Alphabet Asian offering full terms and actual settlement; ApolloNov13US settlement later than currentBeijingmorning; INGNov19BWIC not a sale yet."
+  ],
+  "sources": [
+    {
+      "id": "priority_review",
+      "details_file": "evidence/2026-11-13/priority/findings.json",
+      "evidence_type": "primary_and_reliable_media_incremental_review"
+    },
+    {
+      "id": "bigtech_review",
+      "details_file": "evidence/2026-11-13/bigtech/findings.json",
+      "evidence_type": "primary_and_reliable_media_incremental_review"
+    },
+    {
+      "id": "bigtech_SEC_alphabet",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "retrieved_at": "2026-11-13T00:26:53.762368+00:00",
+      "evidence_grade": "official_SEC_submission_inventory"
+    },
+    {
+      "id": "bigtech_SEC_meta",
+      "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "retrieved_at": "2026-11-13T00:26:53.762745+00:00",
+      "evidence_grade": "official_SEC_submission_inventory"
+    },
+    {
+      "id": "bigtech_SEC_microsoft",
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "retrieved_at": "2026-11-13T00:26:53.762973+00:00",
+      "evidence_grade": "official_SEC_submission_inventory"
+    },
+    {
+      "id": "bigtech_SEC_amazon",
+      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "retrieved_at": "2026-11-13T00:26:53.763121+00:00",
+      "evidence_grade": "official_SEC_submission_inventory"
+    },
+    {
+      "id": "bigtech_SEC_broadcom",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "retrieved_at": "2026-11-13T00:26:53.763266+00:00",
+      "evidence_grade": "official_SEC_submission_inventory"
+    },
+    {
+      "id": "bigtech_SEC_anthropic",
+      "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "retrieved_at": "2026-11-13T00:26:55.132831+00:00",
+      "evidence_grade": "official_SEC_submission_inventory"
+    },
+    {
+      "id": "chain_review",
+      "details_file": "evidence/2026-11-13/chain/findings.json",
+      "evidence_type": "primary_and_reliable_media_incremental_review"
+    },
+    {
+      "id": "meta_20261112_eur_notes_completed_source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+      "publication_at": "2026-11-12T21:27:49Z",
+      "evidence_grade": "primary_company_SEC_8K"
+    },
+    {
+      "id": "aaoi_20261112_owned_factory_acquisition_lease_termination_source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008616/aaoi_8k.htm",
+      "publication_at": "2026-11-12T21:05:45Z",
+      "evidence_grade": "primary_SEC_company_8K"
+    },
+    {
+      "id": "marvell_20261112_board_expansion_source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm",
+      "publication_at": "2026-11-12T14:11:22Z",
+      "evidence_grade": "primary_SEC_8K"
+    },
+    {
+      "id": "rowan_20261112_corporate_financing_capacity_source",
+      "url": "https://www.powermag.com/rowan-digital-infrastructure-secures-1-5-billion-in-financing-for-hyperscale-development-platform/",
+      "publication_at": "2026-11-12",
+      "evidence_grade": "public_issuer_press_release_reproduced_by_POWER_not_direct_company_page"
+    },
+    {
+      "id": "coreweave_20261112_10q_same_Q3_supplement_source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+      "publication_at": "2026-11-12T12:20:41Z",
+      "evidence_grade": "primary_SEC"
+    },
+    {
+      "id": "alphabet_20261111_asian_bond_plan_followup_source",
+      "url": "https://www.reuters.com/world/asia-pacific/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-2026-11-12/",
+      "publication_at": "2026-11-12",
+      "evidence_grade": "reliable_media_RSS_headline_original_body_unavailable"
+    },
+    {
+      "id": "fred_ig",
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "market_time": "2026-11-11",
+      "retrieved_at": "2026-11-13T00:27:08.513872+00:00",
+      "unit": "basis_points",
+      "evidence_grade": "official_FRED_broad_credit_proxy_not_issuer_CDS"
+    },
+    {
+      "id": "fred_hy",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "market_time": "2026-11-11",
+      "retrieved_at": "2026-11-13T00:27:08.514212+00:00",
+      "unit": "basis_points",
+      "evidence_grade": "official_FRED_broad_credit_proxy_not_issuer_CDS"
+    }
+  ],
+  "notification": {
+    "decision": "DONT_NOTIFY",
+    "prepared_at": "2026-11-13T00:35:22.084420+00:00",
+    "reason": "New routine settlement and same-period financial supplements do not substantively change already notified localized risk judgment; weekly review alone does not trigger notification.",
+    "overall_assessment_changed": false,
+    "important_risk_change_since_last_notification": false,
+    "new_financing_stage_evidence": true,
+    "new_same_period_financial_details": true,
+    "last_actual_notification_at": "2026-11-11T01:14:46.549646+00:00",
+    "delivery_status": "quiet_no_new_notification"
+  },
+  "interpretation_limits": [
+    "No invented crash probability or stock-drop→credit-default inference.",
+    "Revenue/bookings/prepayments/end-user cash and financing are different; prepayment incurs performance obligations.",
+    "SB7 procurement loss is not a verified bank loan loss or guarantee payout; noncash impairment is not cash outflow.",
+    "No assumption of user holdings or direct optical-supplier transmission absent contracts."
+  ],
+  "raw_evidence_directory": "evidence/2026-11-13",
+  "historical_financing_followups": [
+    {
+      "evidence_id": "openai_20261106_reported_partial_round_historical_context",
+      "issuer": "OpenAI",
+      "reported_event_date": "2026-11-06",
+      "stage": "media_reported_initial_close_and_wired_asof_Nov6_entire_round_not_closed",
+      "company_confirmation_or_actual_cash_receipt_verified": false,
+      "followup": "First tranche reportedly wired by Nov6 according to anonymous-source media; verify company confirmation, receipts, final round size and direct obligations. Whole round remains open.",
+      "last_checked_at": "2026-11-13T00:35:22.084420+00:00",
+      "cash_receipt_media_reported": true,
+      "cash_receipt_independently_verified": false,
+      "evidence_enrichment_publication_at": "2026-11-09T17:38:29.753Z",
+      "source": "https://www.latimes.com/business/story/2026-11-09/openai-closes-latest-funding-round-at-1-25-trillion-valuation",
+      "evidence_grade": "reliable_media_Bloomberg_anonymous_sources_not_company_confirmation",
+      "same_underlying_event_as_prior_run": true,
+      "latest_unverified_media_update": {
+        "claimed_USDbn": 15,
+        "claimed_valuation_USDbn": 1250,
+        "source_chain": "multipleNov12RSSreports citeCNBC",
+        "earliest_relay_seen": "2026-11-12T14:56:37Z",
+        "full_CNBC_original_verified": false,
+        "stage": "unverified_media_relay_raise_claim; cashreceipt unknown",
+        "round_overlap": "may update previously reported11bn initial tranche; NEVER add15+11",
+        "cannot_prove_funding_shortfall_from_target": "reported30bn target vs15bn round context/timing notverified; openround notautomatically failedfinancing"
+      },
+      "latest_followup_reference": "evidence/2026-11-13/priority/findings.json#openai"
+    }
+  ],
+  "important_change_review": {
+    "compared_with_last_actual_notification_at": "2026-11-11T01:14:46.549646+00:00",
+    "new_information_in_same_Q3": true,
+    "accounting_period_unchanged": true,
+    "risk_judgment_unchanged": true,
+    "reasoning": "Newly verified conditional facility decline and future lease commitments strengthen the previously notified same-quarter cash-gap warning. Existing cash decline/capex deficit already notifiedNov11; no new independent financing shutdown, demand cancellation or lender-loss line. Expected Meta settlement completed and Rowan capacity support issuer-specific funding execution, without resolving already stressed entities cash gaps. Therefore retain localized warming and avoid a duplicate risk notification."
+  }
+}

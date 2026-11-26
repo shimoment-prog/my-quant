@@ -1,0 +1,81 @@
+{
+  "prepared_at": "2026-11-09T11:18:53.249754+08:00",
+  "a_share_quote": {
+    "price": 28.26,
+    "change_pct": -0.07,
+    "time": "20261109111800",
+    "previous_close": 28.28,
+    "open": 28.48,
+    "high": 28.64,
+    "low": 28.2,
+    "turnover_pct": 0.38,
+    "amount_cny": 2251418790.0,
+    "vwap": 28.442842416042264,
+    "vendor_pe_ttm": 10.52,
+    "vendor_pe_static": 14.51,
+    "vendor_pb": 3.6,
+    "crosscheck_sina_price": 28.26
+  },
+  "share_counts_quote": {
+    "total": 26590798241,
+    "a": 20601793140,
+    "h_by_subtraction": 5989005101
+  },
+  "h_share_quote": {
+    "price_hkd": 29.1,
+    "change_pct": 0.692,
+    "time": "2026/11/09 11:17:54",
+    "source": "Sina rt_hk02899; Tencent quote delayed11:02:55 not substituted"
+  },
+  "hkd_cny": {
+    "rate": 0.8513246612,
+    "time": "2026-11-09 11:16:55",
+    "source": "Sina calculated fx_shkdcny, indicative not a transaction rate"
+  },
+  "market_caps": {
+    "a_price_equivalent_cny": 751455958290.66,
+    "a_and_h_at_respective_prices_cny": 730575577327.7365,
+    "a_listing_cny": 582206674136.4,
+    "h_listing_cny": 148368903191.33643
+  },
+  "a_premium_vs_h_same_currency_pct": 14.073286594291435,
+  "peer_change_pct": {
+    "sh000001": 0.48,
+    "sh600547": 1.72,
+    "sh600362": 0.78
+  },
+  "sources": [
+    {
+      "id": "quotes",
+      "url": "https://qt.gtimg.cn/q=sh601899,hk02899,sh000001,sh600547,sh600362",
+      "started_at": "2026-11-09T03:18:02.349471+00:00",
+      "ok": true,
+      "bytes": 2431,
+      "retrieved_at": "2026-11-09T03:18:02.522585+00:00"
+    },
+    {
+      "id": "sina",
+      "url": "https://hq.sinajs.cn/list=sh601899,rt_hk02899,sh000001,sh600547,sh600362,fx_shkdcny",
+      "started_at": "2026-11-09T03:18:02.350021+00:00",
+      "ok": true,
+      "bytes": 1388,
+      "retrieved_at": "2026-11-09T03:18:02.594969+00:00"
+    },
+    {
+      "id": "daily",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601899,day,,,180,qfq",
+      "started_at": "2026-11-09T03:18:02.350201+00:00",
+      "ok": true,
+      "bytes": 13600,
+      "retrieved_at": "2026-11-09T03:18:02.738917+00:00"
+    },
+    {
+      "id": "five_min",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sh601899&scale=5&ma=no&datalen=100",
+      "started_at": "2026-11-09T03:18:02.350434+00:00",
+      "ok": true,
+      "bytes": 13908,
+      "retrieved_at": "2026-11-09T03:18:02.824794+00:00"
+    }
+  ]
+}

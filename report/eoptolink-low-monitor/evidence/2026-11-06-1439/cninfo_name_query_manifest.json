@@ -1,0 +1,102 @@
+[
+  {
+    "name": "新易盛",
+    "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+    "params": {
+      "pageNum": "1",
+      "pageSize": "30",
+      "column": "szse",
+      "tabName": "fulltext",
+      "stock": "",
+      "searchkey": "新易盛",
+      "secid": "",
+      "plate": "",
+      "category": "",
+      "trade": "",
+      "seDate": "2026-11-06~2026-11-06",
+      "sortName": "time",
+      "sortType": "desc",
+      "isHLtitle": "true"
+    },
+    "ok": true,
+    "retrieved_at": "2026-11-06T06:37:48.316343+00:00",
+    "total": 1,
+    "announcements": [
+      {
+        "id": null,
+        "secCode": "300502",
+        "secName": "<em>新易盛</em>",
+        "orgId": "9900026455",
+        "announcementId": "1225660606",
+        "announcementTitle": "关于公司回购股份事项的公告",
+        "announcementTime": 1793936365000,
+        "adjunctUrl": "finalpage/2026-11-06/1225660606.PDF",
+        "adjunctSize": 96,
+        "adjunctType": "PDF",
+        "storageTime": null,
+        "columnId": "09020202||160203||250301||251302",
+        "pageColumn": "SZCY",
+        "announcementType": "01010503||010112||010115||011513",
+        "associateAnnouncement": null,
+        "important": null,
+        "batchNum": null,
+        "announcementContent": "",
+        "orgName": null,
+        "tileSecName": "<em>新易盛</em>",
+        "shortTitle": "关于公司回购股份事项的公告",
+        "announcementTypeName": null,
+        "secNameList": null
+      }
+    ]
+  },
+  {
+    "name": "中际旭创",
+    "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+    "params": {
+      "pageNum": "1",
+      "pageSize": "30",
+      "column": "szse",
+      "tabName": "fulltext",
+      "stock": "",
+      "searchkey": "中际旭创",
+      "secid": "",
+      "plate": "",
+      "category": "",
+      "trade": "",
+      "seDate": "2026-11-06~2026-11-06",
+      "sortName": "time",
+      "sortType": "desc",
+      "isHLtitle": "true"
+    },
+    "ok": true,
+    "retrieved_at": "2026-11-06T06:37:48.323346+00:00",
+    "total": 1,
+    "announcements": [
+      {
+        "id": null,
+        "secCode": "300308",
+        "secName": "<em>中际旭创</em>",
+        "orgId": "9900022016",
+        "announcementId": "1225660601",
+        "announcementTitle": "关于股份回购事项的公告",
+        "announcementTime": 1793936361000,
+        "adjunctUrl": "finalpage/2026-11-06/1225660601.PDF",
+        "adjunctSize": 150,
+        "adjunctType": "PDF",
+        "storageTime": null,
+        "columnId": "09020202||160203||250301||251302",
+        "pageColumn": "SZCY",
+        "announcementType": "01010503||010112||010115||011513",
+        "associateAnnouncement": null,
+        "important": null,
+        "batchNum": null,
+        "announcementContent": "",
+        "orgName": null,
+        "tileSecName": "<em>中际旭创</em>",
+        "shortTitle": "关于股份回购事项的公告",
+        "announcementTypeName": null,
+        "secNameList": null
+      }
+    ]
+  }
+]

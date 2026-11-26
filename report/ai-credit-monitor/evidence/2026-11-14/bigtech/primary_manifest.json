@@ -1,0 +1,61 @@
+[
+  {
+    "name": "asia_straits",
+    "url": "https://www.straitstimes.com/business/companies-markets/alphabets-debut-hong-kong-singapore-bond-sales-draw-about-us5b-in-early-orders",
+    "retrieved_at": "2026-11-14T00:34:19.986689+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 54] Connection reset by peer>"
+  },
+  {
+    "name": "asia_standard",
+    "url": "https://www.thestandard.com.hk/finance/article/348350/Alphabet-raises-US38-billion-in-first-Hong-Kong-Singapore-dollar-bonds",
+    "retrieved_at": "2026-11-14T00:34:19.987026+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "asia_channel",
+    "url": "https://www.channelinsider.com/infrastructure/news-alphabet-3-8-billion-asian-bonds-ai-infrastructure-apac/",
+    "retrieved_at": "2026-11-14T00:34:19.987202+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 28892
+  },
+  {
+    "name": "asia_aol",
+    "url": "https://www.aol.com/articles/alphabet-sets-initial-price-guidance-025732000.html",
+    "retrieved_at": "2026-11-14T00:34:19.987336+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 5946
+  },
+  {
+    "name": "anthropic_inkl",
+    "url": "https://www.inkl.com/news/anthropic-ipo-prices-shares-at-78-ahead-of-november-19-debut-can-ant-stock-become-the-next-big-ai-investment-amid-nvidia-stock-crash-and-jensen-huang-fallout",
+    "retrieved_at": "2026-11-14T00:34:19.987516+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "broadcom_redburn",
+    "url": "https://uk.investing.com/news/stock-market-news/rothschild-downgrades-broadcom-stock-rating-on-ai-financing-concerns-93CH-4979931",
+    "retrieved_at": "2026-11-14T00:34:20.040468+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "anthropic_roadshow",
+    "url": "https://www.anthropic.com/news/roadshow-launch",
+    "retrieved_at": "2026-11-14T00:34:20.292145+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 2537
+  },
+  {
+    "name": "asia_reuters",
+    "url": "https://www.reuters.com/world/asia-pacific/alphabet-sets-initial-price-guidance-hong-kong-singapore-bond-sales-term-sheet-2026-11-12/",
+    "retrieved_at": "2026-11-14T00:34:20.681988+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  }
+]

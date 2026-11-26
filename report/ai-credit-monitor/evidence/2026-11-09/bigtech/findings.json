@@ -1,0 +1,242 @@
+{
+  "run_date": "2026-11-09",
+  "scope": [
+    "Alphabet",
+    "Meta",
+    "Microsoft",
+    "Amazon",
+    "Broadcom"
+  ],
+  "baseline_cutoff": "2026-11-08T00:37:20.050260+00:00",
+  "prepared_at": "2026-11-09T00:32:07.156336+00:00",
+  "recommendation": "DONT_NOTIFY",
+  "assessment": "观察",
+  "material_new_verified_evidence": false,
+  "summary": "本次增量核查未取得足以改变既有判断的五家公司新正式披露。未核实正式资本开支或收入指引下修、Microsoft/Oracle新公司确认、实际担保/信用支持赔付或融资中断。周末评论与同一旧事转载不重复通知。",
+  "sec_checks": [
+    {
+      "company": "alphabet",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "retrieved_at": "2026-11-09T00:29:42.912448+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001652044-26-000084",
+          "filingDate": "2026-10-29",
+          "primaryDocument": "goog-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "meta",
+      "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "retrieved_at": "2026-11-09T00:29:42.912850+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001628280-26-066773",
+          "filingDate": "2026-10-22",
+          "primaryDocument": "meta-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "microsoft",
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "retrieved_at": "2026-11-09T00:29:42.913020+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001193125-26-436133",
+          "filingDate": "2026-10-28",
+          "primaryDocument": "msft-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "amazon",
+      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "retrieved_at": "2026-11-09T00:29:42.913180+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001018724-26-000040",
+          "filingDate": "2026-10-30",
+          "primaryDocument": "amzn-20260930.htm"
+        }
+      ]
+    },
+    {
+      "company": "broadcom",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "retrieved_at": "2026-11-09T00:29:42.913318+00:00",
+      "ok": true,
+      "all_new": [],
+      "new_relevant": [],
+      "latest10q": [
+        {
+          "accessionNumber": "0001730168-26-000080",
+          "filingDate": "2026-09-10",
+          "primaryDocument": "avgo-20260802.htm"
+        }
+      ]
+    }
+  ],
+  "formal_capex_or_revenue_guidance_revision_records": [],
+  "actual_guarantee_payment_records": [],
+  "new_verified_order_or_contract_change_records": [],
+  "signals": [
+    {
+      "id": "real_demand_collections_and_cashflow",
+      "new_material_change_verified": false,
+      "status": "No newly verified comparable company cashflow, revenue or capex guidance revision",
+      "note": "No daily refresh of historical quarterly numbers; lack of updates is not proof of stable demand."
+    },
+    {
+      "id": "credit_funding_and_liquidity",
+      "new_material_change_verified": false,
+      "status": "No new verified financing execution/failure or near-term liquidity change within reviewed scope",
+      "note": "Meta EUR9bn November12 expected closing remains priced/pending and not due on November9. No issuer CDS full quote series acquired."
+    },
+    {
+      "id": "realized_losses_and_cross_entity_propagation",
+      "new_material_change_verified": false,
+      "status": "No new verified actual guarantee/credit-support payment or issuer-linked lender AI loss",
+      "note": "No inference from share-price drops, commentary or guarantee nominal size."
+    }
+  ],
+  "Microsoft_Nscale_followup": {
+    "weekend_title": "Microsoft Reportedly Steps Back From Renewing Nvidia-Backed Nscale Contract",
+    "source": "Stocktwits headline identified by root",
+    "classification": "Existing Nov6 CNBC/FT Texas nonrenewal report, unless source body adds a specific independently dated new confirmation; none obtained here",
+    "prior_explicit_reporting": {
+      "original_source": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "original_publication_at": "2026-11-06T18:31:32Z",
+      "original_archive": "report/ai-credit-monitor/evidence/2026-11-07/priority/microsoft_oracle_cnbc.txt",
+      "exact_historical_context": [
+        "Microsoft has already slashed its work with U.K.-based neocloud Nscale, walking away from a site that it had intended to use in England. Darren Hardman, Microsoft's CEO for the U.K and Ireland, told CNBC in October that the decision had to do with Nscale's ability to get access to electricity. watch now VIDEO 4:18 04:18 Lofty valuations weigh on data center IPOs: Pella Funds CIO Squawk Box Asia The Financial Times reported this week that Microsoft decided against renewing a contract with Nscale in Texas. Nscale filed to go public in mid-September but hasn't updated its prospectus since then. The company said in its IPO filing that it expects Microsoft to be a \"significant customer in future periods.\" Microsoft's big turn to neoclouds came a",
+        "The Financial Times reported this week that Microsoft decided against renewing a contract with Nscale in Texas. Nscale filed to go public in mid-September but hasn't updated its prospectus since then. The company said in its IPO filing that it expects Microsoft to be a \"significant customer in future periods.\" Microsoft's big turn to neoclouds came after the launch of ChatGPT in 2022, which led to a surge in demand for GPUs. In looking elsewhere, Microsoft signed up CoreWeave, which was a privately held startup at the time with roots in cryptocurrency mining. When CoreWeave went public last year, it said 62% of its 2024 revenue came from Microsoft. At the time of ChatGPT's release, OpenAI only used Azure. Now the company's cloud suppliers a"
+      ],
+      "interpretation": "Nscale Texas nonrenewal and UK power-access problem were in Nov6 CNBC before Nov8 cutoff. New repost date is not a new contract event. No new company-specific confirmation verified."
+    },
+    "UK_vs_Texas": "UK site power-access explanation is older October company commentary; Texas nonrenewal is FT reporting citedNov6. Different sites are not merged or counted as two newly cancelled contracts.",
+    "Oracle_status": "Retain Nov6 anonymous-source report. No new company-specific amount, expiry, cancelled committed backlog or formal capex cut verified."
+  },
+  "headline_discovery_and_dedup": [
+    {
+      "topic": "Microsoft cuts neocloud reliance",
+      "published_at": "2026-11-08T18:53:35Z",
+      "source": "scanx.trade via Google News RSS",
+      "classification": "Headline-only aggregation; matches pre-cutoff partner consolidation theme, no new official confirmation acquired",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmxTYkhXZHM0QWRfSGdSblZvenJWejlhbjdYblVJR0tnX2hZdGMxcy1qNnB4bjdUbzk2eHpqc19oWE1DRjI5WWZXa0k5WjlhWnY5dGZDN3h4UDEyakRLY1h2ZzltNmZUNHUtLVNyVWJsajBoQjZiMUVDaEJyZ0JwWHl3bFRwUTE5T1hYY2ZGZ1BJNnNDNlhpYzFMSGJkUXZoMGtVc29mTGcxem1rTHQxQ2ZMcGZSZ0VDY2ktd0hn?oc=5"
+    },
+    {
+      "topic": "Jefferies/AI investment peak, sustainability after Thursday selloff",
+      "source": "Investing.com/NDTV/FourWeekMBA/BigGo headlines",
+      "classification": "Analyst or market commentary, not company formal capex or revenue guidance revision; old market sessions must retain date."
+    },
+    {
+      "topic": "Microsoft Cut Some AI Caps90%; Meta Claude Code Users Halve",
+      "published_at": "2026-11-08T19:33:50Z",
+      "source": "FourWeekMBA via RSS",
+      "classification": "Unverified headline only. Caps could concern product/internal usage rather than capital expenditure; no original disclosure/reliable confirmation acquired, not counted as formal capex cut or realized company revenue deterioration."
+    },
+    {
+      "topic": "Broadcom63bn financing/43bn residual-value support",
+      "source": "ad-hoc-news weekend commentary",
+      "classification": "Existing contingent-exposure topic; no new primary filing, triggered payment or verified cash loss acquired."
+    },
+    {
+      "topic": "Amsterdam Microsoft site protest",
+      "source": "Weekend media/aggregators",
+      "classification": "Repeated previously identified protest. No newly verified contract cancellation, financing interruption, quantified damage or changed milestone acquired in this subtask."
+    }
+  ],
+  "pending_financing": [
+    {
+      "issuer": "Meta",
+      "currency": "EUR",
+      "principal": 9000000000,
+      "expected_settlement_date": "2026-11-12",
+      "stage": "priced_not_verified_settled_not_due_yet",
+      "change_verified": false
+    }
+  ],
+  "market_session": {
+    "new_normal_US_session_since_prior_run": false,
+    "last_normal_US_session_date": "2026-11-06",
+    "current_or_refreshed_issuer_market_quotes_used": false,
+    "note": "ChinaMonday08:30isUSSundayevening. No old quote relabeled as a new trading-session observation."
+  },
+  "coverage": {
+    "SEC": "All five submissions endpoints successful; no accepted filings after cutoff observed.",
+    "official_google_rss": "Retrieved successfully; newest entry stillNovember5. Not comprehensive issuer-disclosure coverage.",
+    "IR_failures": [
+      {
+        "name": "msft_blog_rss",
+        "url": "https://blogs.microsoft.com/feed/",
+        "retrieved_at": "2026-11-09T00:29:58.050928+00:00",
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "meta_ir",
+        "url": "https://investor.atmeta.com/investor-news/default.aspx",
+        "retrieved_at": "2026-11-09T00:29:58.089782+00:00",
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "name": "amazon_ir",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/default.aspx",
+        "retrieved_at": "2026-11-09T00:29:58.150556+00:00",
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "name": "broadcom_ir",
+        "url": "https://investors.broadcom.com/news-events/press-releases",
+        "retrieved_at": "2026-11-09T00:29:58.171334+00:00",
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "issuer_cds_and_private_credit": "No direct comparable issuer5YCDS, same-security credit spread series or private loan-level payment evidence. Existing limitation, not risk relief.",
+    "news_limits": "RSS is a discovery index; headline-only evidence is not converted into confirmed new contract/capex event."
+  },
+  "sources": [
+    "https://data.sec.gov/submissions/CIK0001652044.json",
+    "https://data.sec.gov/submissions/CIK0001326801.json",
+    "https://data.sec.gov/submissions/CIK0000789019.json",
+    "https://data.sec.gov/submissions/CIK0001018724.json",
+    "https://data.sec.gov/submissions/CIK0001730168.json",
+    "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+    "https://news.google.com/rss/search?q=Microsoft%20Oracle%20neocloud%20capex%20cancellation%20after%3A2026-11-07&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Alphabet%20Meta%20Amazon%20Microsoft%20capital%20spending%20cut%20financing%20after%3A2026-11-07&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Broadcom%20AI%20financing%20guarantee%20order%20after%3A2026-11-07&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=Microsoft%20Amsterdam%20datacenter%20construction%20protest%20after%3A2026-11-07&hl=en-US&gl=US&ceid=US:en",
+    "https://blog.google/rss/",
+    "https://blogs.microsoft.com/feed/",
+    "https://investor.atmeta.com/investor-news/default.aspx",
+    "https://ir.aboutamazon.com/news-release/news-release-details/default.aspx",
+    "https://investors.broadcom.com/news-events/press-releases"
+  ],
+  "historical_context_reference": "historical_nscale_context.json",
+  "postcutoff_headlines_reference": "postcutoff_headlines.json",
+  "followup_news_reference": "followup_news.json",
+  "observed_absence_not_proof_of_absent_risk": true,
+  "do_not_infer": [
+    "No new SEC filing does not prove no weekend business event.",
+    "IR403/429is a coverage gap, not total collection failure.",
+    "Data missing/no new release does not equal risk relief.",
+    "A new repost date is not a newly occurring contract cancellation."
+  ]
+}

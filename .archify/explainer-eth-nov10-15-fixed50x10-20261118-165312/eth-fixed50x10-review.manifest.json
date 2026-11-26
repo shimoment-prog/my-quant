@@ -1,0 +1,14 @@
+{
+  "artifact": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/eth-fixed50x10-review.html",
+  "artifact_sha256": "09d470262e61fd821eb56c2591f3cfbc3f3bad888f9222127918470ff712484a",
+  "title": "ETHUSDT 逐笔账单 · 50 USDT保证金 × 10倍",
+  "period_label": "2026-11-10 — 2026-11-15（含全天）· 北京时间 · 初始10,000 USDT · 每笔目标仓位500 USDT",
+  "chart_fragment": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/chart-fragment.html",
+  "chart_fragment_sha256": "054c2529da983f2546e023728df1281d116d5c08da5bf3c7727e7d900f45d525",
+  "chart_document": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/trade-chart.html",
+  "chart_document_sha256": "7e5c11cc99790e25c5581b43762325667e4d880423fb69262d6657bfbadfc9a0",
+  "archify_report": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.html",
+  "archify_report_sha256": "ab4c51e429b6d66099f5bde6b87fc120115e5affc8d0006249ef6dd2aa1b0b6e",
+  "archify_delivery_receipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.delivery.json",
+  "scope": "Report source has Archify delivery provenance; the custom shell adds runtime presentation styles and is checked separately."
+}

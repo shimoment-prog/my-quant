@@ -1,0 +1,37 @@
+[
+  {
+    "name": "ce_page1",
+    "url": "https://finance.ce.cn/stock/gsgdbd/index_1.shtml",
+    "retrieved_at": "2026-11-09T00:50:12.133554+00:00",
+    "ok": true,
+    "bytes": 15016
+  },
+  {
+    "name": "ce_page2",
+    "url": "https://finance.ce.cn/stock/gsgdbd/index_2.shtml",
+    "retrieved_at": "2026-11-09T00:50:12.133911+00:00",
+    "ok": true,
+    "bytes": 14019
+  },
+  {
+    "name": "cls_morning",
+    "url": "https://www.cls.cn/detail/2528400",
+    "retrieved_at": "2026-11-09T00:50:12.134081+00:00",
+    "ok": true,
+    "bytes": 32417
+  },
+  {
+    "name": "cls_weekend",
+    "url": "https://www.cls.cn/detail/2528259",
+    "retrieved_at": "2026-11-09T00:50:12.134282+00:00",
+    "ok": true,
+    "bytes": 59599
+  },
+  {
+    "name": "cls_search",
+    "url": "https://www.cls.cn/searchPage?keyword=11%E6%9C%886%E6%97%A5%20%E6%AF%8F%E6%97%A5%E6%94%B6%E8%AF%84",
+    "retrieved_at": "2026-11-09T00:50:12.134445+00:00",
+    "ok": true,
+    "bytes": 10718
+  }
+]

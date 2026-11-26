@@ -1,0 +1,214 @@
+[
+  {
+    "name": "avgo_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-11T06:33:17.953000+00:00",
+    "ok": true,
+    "length": 160094,
+    "final_url": "https://data.sec.gov/submissions/CIK0001730168.json"
+  },
+  {
+    "name": "aaoi_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+    "retrieved_at": "2026-11-11T06:33:17.952581+00:00",
+    "ok": true,
+    "length": 154743,
+    "final_url": "https://data.sec.gov/submissions/CIK0001158114.json"
+  },
+  {
+    "name": "cohr_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+    "retrieved_at": "2026-11-11T06:33:17.952312+00:00",
+    "ok": true,
+    "length": 160624,
+    "final_url": "https://data.sec.gov/submissions/CIK0000820318.json"
+  },
+  {
+    "name": "lite_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "retrieved_at": "2026-11-11T06:33:17.951717+00:00",
+    "ok": true,
+    "length": 159166,
+    "final_url": "https://data.sec.gov/submissions/CIK0001633978.json"
+  },
+  {
+    "name": "cien_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+    "retrieved_at": "2026-11-11T06:33:17.952438+00:00",
+    "ok": true,
+    "length": 158567,
+    "final_url": "https://data.sec.gov/submissions/CIK0000936395.json"
+  },
+  {
+    "name": "fn_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "retrieved_at": "2026-11-11T06:33:17.952717+00:00",
+    "ok": true,
+    "length": 155153,
+    "final_url": "https://data.sec.gov/submissions/CIK0001408710.json"
+  },
+  {
+    "name": "mrvl_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+    "retrieved_at": "2026-11-11T06:33:17.952167+00:00",
+    "ok": true,
+    "length": 136982,
+    "final_url": "https://data.sec.gov/submissions/CIK0001835632.json"
+  },
+  {
+    "name": "mrvl_ir",
+    "url": "https://investor.marvell.com/news-events/press-releases",
+    "retrieved_at": "2026-11-11T06:33:19.741037+00:00",
+    "ok": true,
+    "length": 114868,
+    "final_url": "https://investor.marvell.com/news-events/press-releases"
+  },
+  {
+    "name": "cien_ir",
+    "url": "https://investor.ciena.com/news-releases",
+    "retrieved_at": "2026-11-11T06:33:20.372695+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "cohr_ir",
+    "url": "https://www.coherent.com/news",
+    "retrieved_at": "2026-11-11T06:33:19.879388+00:00",
+    "ok": true,
+    "length": 170108,
+    "final_url": "https://www.coherent.com/news"
+  },
+  {
+    "name": "nvda_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "retrieved_at": "2026-11-11T06:33:17.952844+00:00",
+    "ok": true,
+    "length": 159914,
+    "final_url": "https://data.sec.gov/submissions/CIK0001045810.json"
+  },
+  {
+    "name": "cn_300502",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+    "retrieved_at": "2026-11-11T06:33:21.422936+00:00",
+    "ok": true,
+    "length": 55675,
+    "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml"
+  },
+  {
+    "name": "nvda_news",
+    "url": "https://nvidianews.nvidia.com/news",
+    "retrieved_at": "2026-11-11T06:33:21.131726+00:00",
+    "ok": true,
+    "length": 69005,
+    "final_url": "https://nvidianews.nvidia.com/news"
+  },
+  {
+    "name": "aaoi_ir",
+    "url": "https://investors.ao-inc.com/",
+    "retrieved_at": "2026-11-11T06:33:19.608688+00:00",
+    "ok": true,
+    "length": 44035,
+    "final_url": "https://investors.ao-inc.com/"
+  },
+  {
+    "name": "cn_300308",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300308.phtml",
+    "retrieved_at": "2026-11-11T06:33:21.513023+00:00",
+    "ok": true,
+    "length": 55191,
+    "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300308.phtml"
+  },
+  {
+    "name": "cn_603083",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/603083.phtml",
+    "retrieved_at": "2026-11-11T06:33:21.687479+00:00",
+    "ok": true,
+    "length": 55462,
+    "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/603083.phtml"
+  },
+  {
+    "name": "live_news_1",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+    "retrieved_at": "2026-11-11T06:33:21.820261+00:00",
+    "ok": true,
+    "length": 213912,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_2",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+    "retrieved_at": "2026-11-11T06:33:21.827946+00:00",
+    "ok": true,
+    "length": 242425,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_3",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+    "retrieved_at": "2026-11-11T06:33:21.976307+00:00",
+    "ok": true,
+    "length": 282114,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_4",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+    "retrieved_at": "2026-11-11T06:33:21.992031+00:00",
+    "ok": true,
+    "length": 203921,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0"
+  },
+  {
+    "name": "avgo_ir",
+    "url": "https://investors.broadcom.com/news-releases",
+    "retrieved_at": "2026-11-11T06:33:21.242948+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "live_news_5",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+    "retrieved_at": "2026-11-11T06:33:22.149063+00:00",
+    "ok": true,
+    "length": 242395,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_7",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0",
+    "retrieved_at": "2026-11-11T06:33:22.315109+00:00",
+    "ok": true,
+    "length": 197949,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0"
+  },
+  {
+    "name": "live_news_6",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+    "retrieved_at": "2026-11-11T06:33:22.292740+00:00",
+    "ok": true,
+    "length": 219575,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0"
+  },
+  {
+    "name": "lite_ir",
+    "url": "https://investor.lumentum.com/news-events/press-releases",
+    "retrieved_at": "2026-11-11T06:33:20.055842+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "fn_ir",
+    "url": "https://investor.fabrinet.com/news-releases",
+    "retrieved_at": "2026-11-11T06:33:20.775995+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "live_news_8",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0",
+    "retrieved_at": "2026-11-11T06:33:22.928981+00:00",
+    "ok": true,
+    "length": 179625,
+    "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0"
+  }
+]

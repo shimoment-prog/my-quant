@@ -1,0 +1,940 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-11-18T08:51:18.180298+08:00",
+  "previous_report_cutoff_at": "2026-11-17T09:43:39+08:00",
+  "latest_source_retrieval_at": "2026-11-18T00:49:45.552563+00:00",
+  "scope": "22pagespublicSinafeed+SECsubmissionindicesforsixoptics,NVDA,AVGO,NBIS;accessibleMarvell/AAOIIR,NVIDIAnews;primaryNVDAearnings,CFOcommentaryandAAOIATMfilings;nochangesoutside/tmp.",
+  "new_verified_primary_events": [
+    {
+      "id": "NVDA_2027Q3_earnings_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_primary_earnings_and_forward_guidance",
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+      ],
+      "accepted_at_utc": "2026-11-17T21:20:51Z",
+      "accepted_at_beijing": "2026-11-18T05:20:51+08:00",
+      "official_publication_date": "2026-11-17",
+      "reporting_period": "Third quarter fiscal2027 endedOctober25,2026",
+      "facts": [
+        "Actualrevenue$115.8bn,+103%YoY,+20%QoQ;DataCenter$107.6bn,+110%YoY,+21%QoQ.",
+        "ActualGAAP/nonGAAPgrossmargin74.8%/74.9%;GAAP/nonGAAPEPS$2.70/$2.68.",
+        "ManagementQ4FY27revenueoutlook$130.0bnplusorminus3%($126.1-133.9bn);Q4hasoneadditionalweek;assumesnoDataCentercomputeChinaRevenue.",
+        "ManagementexpectsGAAPandnonGAAPgrossmarginbothwithin71.0%-72.0%range,lowerthanQ3actuals.",
+        "Actualoperatingcashflow$48.3bn;accountsreceivable$81.0bn;DSO64daysvs60dayspreviousquarter,citingRubinshipmentlinearityandextendedtermsonlargeagreementswithcertaininvestmentgradecustomers.",
+        "Supplycommitments$390bnvs$279bn,primarilymultiyearmemoryprocurement;notactualcashpaidandnotopticalmoduleorderamount.",
+        "Cloudserviceagreementsanduncommenceddatacenterleases$102bnvs$74bn;additionalneocloudcommitmentsupto$32bnconditionalonfinancing,operationaldeploymentandacceptance;maybereducedoreliminatedifconditionsnotmet.",
+        "Maximumgrossguaranteeexposure$118bn,including$105bnSB Energycredit-supportguarantees;phasebyphaseeffectiveness,todatenopaymentsundertheseGuarantees."
+      ],
+      "impact": "RealizedearningsandforwardrevenueoutlookcounterabruptAIdemandcollapse;lowerfuturegrossmargin,slowerreceivableturnoverandfinancing/executioncontingencieslimitconfidence. Notquantifieddomesticopticalorders.",
+      "correction_and_dedup": [
+        "$150bnadditionalbuybackwasapprovedSeptember2026,notnewlyapprovedthismorning;newdisclosureofpriorapprovaland$227.3bnremainingauthorizationdoesnotmeanalreadyexecutedbuybacks.",
+        "SomeSina07:06summarygiveswrong$127.4-132.6bnrange;useprimary$130bn±3%($126.1-133.9bn).",
+        "FY28growth75%andindustrybacklog$2.5tnarecallmediaquotesnotverifiedintheobtainedSECpressrelease/CFOtext;retainasattributedoutlookifused."
+      ]
+    },
+    {
+      "id": "AAOI_ATM_550m_20261117",
+      "symbols": [
+        "AAOI"
+      ],
+      "classification": "new_primary_equity_financing_capacity_not_earnings_or_cancelled_orders",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm"
+      ],
+      "event_date": "2026-11-17",
+      "prospectus_accepted_at_utc": "2026-11-17T21:06:29Z",
+      "prospectus_accepted_at_beijing": "2026-11-18T05:06:29+08:00",
+      "eightK_accepted_at_beijing": "2026-11-18T05:09:50+08:00",
+      "reporting_period": "FinancingagreementandprospectusdatedNovember17,2026;notquarterlyearnings",
+      "facts": [
+        "EnteredEquityDistributionAgreementwithRaymondJamesandNeedham;mayissueandsellupto$550mcommonstockfromtimetotimeasanATMoffering.",
+        "Noobligationtosellanyshares;offeringmaybe suspended. Agentscompensationupto2%grosssalesprice.",
+        "Intendeduseofnetproceedsifany:generalcorporatepurposesincludingdebtrepayment,workingcapital,capitalexpendituresandacquisitions.",
+        "90,771,506commonsharesoutstandingatNov16perprospectus;actualsharesandproceedsdependonfuturemarketpricesandsales."
+      ],
+      "impact": "Potentialdilutionandfinancingsupplypressureisaseparateidiosyncraticrisk;thefilingdoesnotestablish$550malreadyraised,norcustomerordercancellations. Do not explain all peers by AAOI afterhours decline."
+    },
+    {
+      "id": "NVDA_supply_chain_capacity_commitments_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_supplier_capacity_plans_not_current_output",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+      "official_publication_date": "2026-11-17",
+      "exact_publication_time_utc": null,
+      "reporting_period": "SupplychaincapacityannouncementNovember17,2026",
+      "facts": [
+        "New/expandedagreementsacrossKinsus,SamsungElectroMechanics,Amkor,SPIL,TSMC,FoxconncoverABFsubstrates,advancedpackagingandmanufacturing.",
+        "KinsusNVIDIA-dedicatedABFcapacityplannedover3.5xcurrentYouthcampuslevels;productionexpectedH22027,additionalcapacitytargetQ32028.",
+        "VeraRubinNVL72andVeraCPUsbeganvolumeshipmentsinQ3(companyclaim)."
+      ],
+      "impact": "Supportscontinuedmanufacturinginvestmentbutmultiyearcapacityplanisnotcurrentrealizedoutputoropticalmoduleorder. EarlierAmkorJuly/Octoberagreementsincludedasbackground."
+    },
+    {
+      "id": "NVDA_export_security_committee_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_board_governance_not_new_export_rule",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+      "official_publication_date": "2026-11-17",
+      "exact_publication_time_utc": null,
+      "reporting_period": "BoardannouncementNovember17,2026",
+      "facts": [
+        "BoardestablishedstandingNationalSecurityandExportControlOversightCommitteechairedbySuzanneNoraJohnsonwithStephenNealandJohnDabiri.",
+        "NationalSecurityandGlobalTradeComplianceTeamsreporttoCommitteeandinterimCEO;retainsindependentoutsideexperts."
+      ],
+      "impact": "Verifiedgovernancecomplianceaction;neithernewgovernmentexportrestrictionnorconfirmedcustomercancellation."
+    }
+  ],
+  "new_non_demand_filings": [
+    {
+      "symbol": "MRVL",
+      "accessionNumber": "0001628280-26-074618",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-18T00:03:48.000Z",
+      "form": "4",
+      "primaryDocument": "xslF345X06/wk-form4_1794960225.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    },
+    {
+      "symbol": "MRVL",
+      "accessionNumber": "0001628280-26-074462",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-17T20:30:07.000Z",
+      "form": "4",
+      "primaryDocument": "xslF345X06/wk-form4_1794947404.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    },
+    {
+      "symbol": "LITE",
+      "accessionNumber": "0001489550-26-000016",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-17T22:19:50.000Z",
+      "form": "4",
+      "primaryDocument": "xslF345X06/form4-11172026_101146.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    },
+    {
+      "symbol": "LITE",
+      "accessionNumber": "0001570465-26-000008",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-17T22:18:24.000Z",
+      "form": "4",
+      "primaryDocument": "xslF345X06/form4-11172026_101121.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    },
+    {
+      "symbol": "LITE",
+      "accessionNumber": "0001573338-26-000022",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-17T22:17:03.000Z",
+      "form": "4",
+      "primaryDocument": "xslF345X06/form4-11172026_101159.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    },
+    {
+      "symbol": "LITE",
+      "accessionNumber": "0001561100-26-000010",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-17T22:15:23.000Z",
+      "form": "4",
+      "primaryDocument": "xslF345X06/form4-11172026_101119.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    },
+    {
+      "symbol": "LITE",
+      "accessionNumber": "0001950047-26-011207",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-17T21:05:23.000Z",
+      "form": "144",
+      "primaryDocument": "xsl144X01/primary_doc.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    },
+    {
+      "symbol": "LITE",
+      "accessionNumber": "0001950047-26-011206",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-17T21:04:56.000Z",
+      "form": "144",
+      "primaryDocument": "xsl144X01/primary_doc.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    },
+    {
+      "symbol": "NBIS",
+      "accessionNumber": "0001513845-26-000151",
+      "filingDate": "2026-11-17",
+      "acceptanceDateTime": "2026-11-17T11:56:19.000Z",
+      "form": "4",
+      "primaryDocument": "xslF345X06/form4.xml",
+      "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+    }
+  ],
+  "secondary_unconfirmed_context": [
+    {
+      "time": "2026-11-17 15:19:22",
+      "text": "【外交部批美国经济胁迫：美国无理打压中国高新技术产业发展】11月17日，外交部发言人郭嘉昆主持例行记者会。 有记者提问，11月16日，美国商务部发布了限制远程获取先进半导体临时最终规则，以新加坡、泰国、马来西亚、印尼和巴西存在非法对华转移芯片高风险为由，要求向相关国家企业出口先进芯片时，申请美国出口许可证，从而防止受限制国家和企业获取美国敏感技术。中方对此有何评论？ 郭嘉昆表示，美方不断泛化国家安全概念，滥用出口管制措施，甚至横加干涉中国同其他国家开展正常贸易与科技合作，无理打压中国高新技术产业发展，这是典型的经济胁迫和“长臂管辖”，背离双方达成的共识，损害中国企业正当权益，扰乱全球产供链稳定。中方将采取必要措施，坚决维护自身正当权益。（北京日报）",
+      "id": 5219349,
+      "source": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyznqf5493094.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-17 20:28:09",
+      "text": "【商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问】问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。",
+      "id": 5220140,
+      "source": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2101788.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-17 21:15:37",
+      "text": "【英伟达高管：芯片从出厂至系统出货周期可由五周缩至两周 正围绕CPO技术构建新的供应链】英伟达运营执行副总裁Deb Shoquist表示，在需要时，英伟达可将芯片从台积电出厂到系统从富士康、纬创出厂的周期，由五周缩短至两周。公司每周根据各工厂的产能及生产表现分配芯片，并对每颗芯片实施从裸片编号到客户发票的全程追踪。Deb Shoquist表示，随着英伟达从芯片供应商转向数据中心系统公司，供应链需要覆盖更多技术领域。部分光组件合作伙伴具备技术能力，但缺乏扩产所需的规模和资金，英伟达正通过投资及合作提供支持，并围绕共封装光学（CPO）技术构建新的供应链。",
+      "id": 5220278,
+      "source": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmx5357683.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-17 22:00:59",
+      "text": "耐克：预计2028财年营收下滑幅度将收窄。",
+      "id": 5220392,
+      "source": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2161496.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-18 06:07:53",
+      "text": "英伟达临时CEO科莱特·克雷斯：目前预计2028财年营收将同比增长约75%。云行业积压订单现已达2.5万亿美元，而三个月前仅为2万亿美元。",
+      "id": 5220980,
+      "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizayrr1782343.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-18 07:25:54",
+      "text": "【英伟达：仍在评估新出口管制的潜在影响】在前首席执行官黄仁勋卷入丑闻后，英伟达仍在评估更严格的出口审查将如何影响该公司。临时首席执行官科莱特·克雷斯表示，管理层已评估美国商务部本周发布的新出口管制措施。她说：“我们仍将花一些时间研究这些措施，看看其中不同的组成部分。“分析师估计，对出口至新加坡和马来西亚的限制可能使英伟达收入最多减少10%。克雷斯表示，她预计强劲需求将抵消任何潜在冲击的影响；与此同时，该公司将2028年收入展望上调了5个百分点。",
+      "id": 5221065,
+      "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexm4911153.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-18 07:27:52",
+      "text": "【英伟达临时CEO：云计算行业订单积压规模已达2.5万亿美元】当地时间11月17日，英伟达临时CEO兼首席财务官科莱特·克雷斯在财报会议中表示，云计算行业订单积压规模已从三个月前的2万亿美元增至2.5万亿美元。她还表示，英伟达超大规模云客户的营收增速已连续六个季度加快，OpenAI和Anthropic推出的新一代前沿模型正推动AI应用及相关收入增长。",
+      "id": 5221067,
+      "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexm4912236.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-18 07:37:28",
+      "text": "【英伟达财报超出预期 公司不会就黄仁勋辞职一事回答提问】英伟达股价上涨，此前该公司第三季度盈利和营收均超出华尔街预期，并预计第四季度营收将高于分析师共识预期。随后，英伟达在与分析师和投资者举行的电话会议伊始便表示，不会就长期担任首席执行官的黄仁勋辞职一事回答提问，且不计划让他复职 。临时首席执行官科莱特·克雷斯向投资者表示，公司预计2028财年营收将增长75%。",
+      "id": 5221076,
+      "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexm4916617.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-18 08:19:03",
+      "text": "【阿波罗CEO警告：新云公司融资渠道或\"消失\"】阿波罗全球管理CEO马克·罗恩（Marc Rowan）警告称，如果英伟达切断对其人工智能项目的融资支持，新云（neocloud）公司可能陷入困境。”从商业角度来看，英伟达有强烈动机推动这些项目落地。如果这种’银行功能’、这种’担保人功能’被剥离，大量新云公司的融资渠道将会消失。”罗恩此番言论发表前，”大空头”投资者史蒂夫·艾斯曼（Steve Eisman）周二表示，新云公司”都面临大麻烦，因为它们是那个垂直控股结构的一部分，我认为它们即将被踢出局。”",
+      "id": 5221127,
+      "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexm4942989.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    },
+    {
+      "time": "2026-11-18 08:19:58",
+      "text": "【微软CEO盛赞黄仁勋，回应大规模服务中断和员工买断计划】微软CEO萨蒂亚·纳德拉在周二一次活动上称赞英伟达创始人黄仁勋是一位“独一无二的人”，并指出他对科技行业做出了巨大贡献，但并未明确呼吁让黄仁勋重返这家芯片制造商的最高领导岗位，“我只想给他留出空间，让他去处理他需要做的事情；至于接下来会发生什么，那不由我决定，而是由英伟达董事会来定夺。”纳德拉透露，他曾在上周末给黄仁勋发短信表达关切。在谈及近期的中期选举，以及美国各地社区纷纷抵制AI数据中心的现象时，纳德拉表示，选举结果并没有改变微软建设数据中心的计划，制约数据中心增长的更多的是电力、芯片晶圆和内存的可用性，而不是选举周期。纳德拉还回应了上周微软系统发生的大规模故障，称此次服务中断并非由人工智能代码或人工智能部署所致；这是一场“各种因素凑巧叠加”的意外——在常规测试期间，一个程序错误在特定的网络流量条件下显现了出来。事实上，内部的人工智能工具反而帮助工程师更快地解决了这一问题。",
+      "id": 5221128,
+      "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexp1719958.d.html",
+      "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+    }
+  ],
+  "SEC_index_checks": [
+    {
+      "symbol": "MRVL",
+      "cik": "0001835632",
+      "new_filings": [
+        {
+          "accessionNumber": "0001628280-26-074618",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-18T00:03:48.000Z",
+          "form": "4",
+          "primaryDocument": "xslF345X06/wk-form4_1794960225.xml"
+        },
+        {
+          "accessionNumber": "0001628280-26-074462",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T20:30:07.000Z",
+          "form": "4",
+          "primaryDocument": "xslF345X06/wk-form4_1794947404.xml"
+        }
+      ]
+    },
+    {
+      "symbol": "AAOI",
+      "cik": "0001158114",
+      "new_filings": [
+        {
+          "accessionNumber": "0001104659-26-129055",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T21:09:50.000Z",
+          "form": "8-K",
+          "primaryDocument": "tm2629531d2_8k.htm"
+        },
+        {
+          "accessionNumber": "0001104659-26-129051",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T21:06:29.000Z",
+          "form": "424B5",
+          "primaryDocument": "tm2629531-1_424b5.htm"
+        }
+      ]
+    },
+    {
+      "symbol": "AVGO",
+      "cik": "0001730168",
+      "new_filings": []
+    },
+    {
+      "symbol": "LITE",
+      "cik": "0001633978",
+      "new_filings": [
+        {
+          "accessionNumber": "0001489550-26-000016",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T22:19:50.000Z",
+          "form": "4",
+          "primaryDocument": "xslF345X06/form4-11172026_101146.xml"
+        },
+        {
+          "accessionNumber": "0001570465-26-000008",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T22:18:24.000Z",
+          "form": "4",
+          "primaryDocument": "xslF345X06/form4-11172026_101121.xml"
+        },
+        {
+          "accessionNumber": "0001573338-26-000022",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T22:17:03.000Z",
+          "form": "4",
+          "primaryDocument": "xslF345X06/form4-11172026_101159.xml"
+        },
+        {
+          "accessionNumber": "0001561100-26-000010",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T22:15:23.000Z",
+          "form": "4",
+          "primaryDocument": "xslF345X06/form4-11172026_101119.xml"
+        },
+        {
+          "accessionNumber": "0001950047-26-011207",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T21:05:23.000Z",
+          "form": "144",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "accessionNumber": "0001950047-26-011206",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T21:04:56.000Z",
+          "form": "144",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        }
+      ]
+    },
+    {
+      "symbol": "FN",
+      "cik": "0001408710",
+      "new_filings": []
+    },
+    {
+      "symbol": "COHR",
+      "cik": "0000820318",
+      "new_filings": []
+    },
+    {
+      "symbol": "CIEN",
+      "cik": "0000936395",
+      "new_filings": []
+    },
+    {
+      "symbol": "NVDA",
+      "cik": "0001045810",
+      "new_filings": [
+        {
+          "accessionNumber": "0001045810-26-000088",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T21:20:51.000Z",
+          "form": "8-K",
+          "primaryDocument": "nvda-20261117.htm"
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "cik": "0001513845",
+      "new_filings": [
+        {
+          "accessionNumber": "0001513845-26-000151",
+          "filingDate": "2026-11-17",
+          "acceptanceDateTime": "2026-11-17T11:56:19.000Z",
+          "form": "4",
+          "primaryDocument": "xslF345X06/form4.xml"
+        }
+      ]
+    }
+  ],
+  "seen_events_additions": [
+    {
+      "id": "NVDA_2027Q3_earnings_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_primary_earnings_and_forward_guidance",
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+      ],
+      "accepted_at_beijing": "2026-11-18T05:20:51+08:00",
+      "official_publication_date": "2026-11-17"
+    },
+    {
+      "id": "AAOI_ATM_550m_20261117",
+      "symbols": [
+        "AAOI"
+      ],
+      "classification": "new_primary_equity_financing_capacity_not_earnings_or_cancelled_orders",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm"
+      ],
+      "event_date": "2026-11-17"
+    },
+    {
+      "id": "NVDA_supply_chain_capacity_commitments_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_supplier_capacity_plans_not_current_output",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+      "official_publication_date": "2026-11-17"
+    },
+    {
+      "id": "NVDA_export_security_committee_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_board_governance_not_new_export_rule",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+      "official_publication_date": "2026-11-17"
+    },
+    {
+      "id": "SEC_0001628280-26-074618",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-18T00:03:48.000Z"
+    },
+    {
+      "id": "SEC_0001628280-26-074462",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T20:30:07.000Z"
+    },
+    {
+      "id": "SEC_0001104659-26-129055",
+      "symbol": "AAOI",
+      "classification": "new_filing_index_item_form_8-K",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:09:50.000Z"
+    },
+    {
+      "id": "SEC_0001104659-26-129051",
+      "symbol": "AAOI",
+      "classification": "new_filing_index_item_form_424B5",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:06:29.000Z"
+    },
+    {
+      "id": "SEC_0001489550-26-000016",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:19:50.000Z"
+    },
+    {
+      "id": "SEC_0001570465-26-000008",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:18:24.000Z"
+    },
+    {
+      "id": "SEC_0001573338-26-000022",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:17:03.000Z"
+    },
+    {
+      "id": "SEC_0001561100-26-000010",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:15:23.000Z"
+    },
+    {
+      "id": "SEC_0001950047-26-011207",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:05:23.000Z"
+    },
+    {
+      "id": "SEC_0001950047-26-011206",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:04:56.000Z"
+    },
+    {
+      "id": "SEC_0001045810-26-000088",
+      "symbol": "NVDA",
+      "classification": "new_filing_index_item_form_8-K",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:20:51.000Z"
+    },
+    {
+      "id": "SEC_0001513845-26-000151",
+      "symbol": "NBIS",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T11:56:19.000Z"
+    }
+  ],
+  "news_coverage": {
+    "pages": 22,
+    "unique_ids": 2200,
+    "earliest": "2026-11-17 09:37:29",
+    "latest": "2026-11-18 08:47:05",
+    "relative_to_prior_cutoff_matched": 2190,
+    "full_interval_overlaps_baseline": true
+  },
+  "deduplication": {
+    "already_reported_not_new": [
+      "LambdaNov16CPOdeployment",
+      "MRVLNov16Penguinmemory/photoniccooperation",
+      "NVDA_Nov12_CEOtransition",
+      "NBIS_Nov12deliverydelay",
+      "Nov17afternoonPimcoNov10spreadstrategyview",
+      "13FSeptember30holdings"
+    ],
+    "new_8k_and_press_release_same_event": true,
+    "AAOI8k_and424B5_same_financing": true
+  },
+  "absence_statement": "BesidesnewAAOIATMfinancing,noverifiednewquarterlyearnings/revenueguidancecutorquantifiedcustomercancellationinthereviewedsixopticpeerindicesandaccessibleIR. No new LITE/MRVLmergertermchangeverified;financingandmergerpricingmustnotbeassumedasdemandloss.",
+  "limits": [
+    "LITE/CIENIRHTTP429,FN/AVGOIR403;Coherentdynamicpresslistlimited.",
+    "BISpress-releaseindexrequest404;newremoteadvancedchipaccessmeasuresaremedia-attributedwithoutverifiedruletext/effectivedate/scope,donotpromotetonewlyeffectiveopticalexportban.",
+    "CallquotesonFY28growth75%,backlog2.5tn,newexportimpactareattributedmedialines,notindependentlyretrievedfullcalltranscript.",
+    "NVDA10-QnotyetfiledperCFOcommentary;currentprimaryinformationfrom8-Kexhibitsandsupplementalfinancialdisclosure.",
+    "No verified module-order mapping to Eoptolink/InnoLight;sharepricechangesarenotorderproof."
+  ],
+  "source_manifests": [
+    {
+      "name": "mrvl_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+      "retrieved_at": "2026-11-18T00:47:39.709066+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 138533
+    },
+    {
+      "name": "aaoi_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+      "retrieved_at": "2026-11-18T00:47:39.710050+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 155066
+    },
+    {
+      "name": "avgo_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "retrieved_at": "2026-11-18T00:47:39.710379+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 160094
+    },
+    {
+      "name": "lite_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+      "retrieved_at": "2026-11-18T00:47:39.710667+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 160372
+    },
+    {
+      "name": "fn_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+      "retrieved_at": "2026-11-18T00:47:39.710935+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 155337
+    },
+    {
+      "name": "cohr_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+      "retrieved_at": "2026-11-18T00:47:39.711227+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 159783
+    },
+    {
+      "name": "cien_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+      "retrieved_at": "2026-11-18T00:47:39.711478+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 159187
+    },
+    {
+      "name": "nvda_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "retrieved_at": "2026-11-18T00:47:39.711820+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 160103
+    },
+    {
+      "name": "nvda_news",
+      "url": "https://nvidianews.nvidia.com/news",
+      "retrieved_at": "2026-11-18T00:47:41.307353+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 68179
+    },
+    {
+      "name": "lite_ir",
+      "url": "https://investor.lumentum.com/news-events/press-releases",
+      "retrieved_at": "2026-11-18T00:47:41.540152+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "cohr_ir",
+      "url": "https://www.coherent.com/news",
+      "retrieved_at": "2026-11-18T00:47:41.769688+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 170108
+    },
+    {
+      "name": "avgo_ir",
+      "url": "https://investors.broadcom.com/news-releases",
+      "retrieved_at": "2026-11-18T00:47:41.903885+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "cien_ir",
+      "url": "https://investor.ciena.com/news-releases",
+      "retrieved_at": "2026-11-18T00:47:41.912424+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "fn_ir",
+      "url": "https://investor.fabrinet.com/news-releases",
+      "retrieved_at": "2026-11-18T00:47:41.951430+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "aaoi_ir",
+      "url": "https://investors.ao-inc.com/",
+      "retrieved_at": "2026-11-18T00:47:42.062454+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 44035
+    },
+    {
+      "name": "mrvl_ir",
+      "url": "https://investor.marvell.com/news-events/press-releases",
+      "retrieved_at": "2026-11-18T00:47:42.106151+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 114815
+    },
+    {
+      "name": "nbis_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001513845.json",
+      "retrieved_at": "2026-11-18T00:47:42.162297+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 84869
+    },
+    {
+      "name": "news_1",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:42.640980+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 240602
+    },
+    {
+      "name": "news_2",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.017432+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 258647
+    },
+    {
+      "name": "news_3",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.036117+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 195648
+    },
+    {
+      "name": "news_4",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.099332+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 183550
+    },
+    {
+      "name": "news_5",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.245447+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 226275
+    },
+    {
+      "name": "news_6",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.279010+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 214563
+    },
+    {
+      "name": "news_7",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.420887+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 186438
+    },
+    {
+      "name": "news_8",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.435842+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 167248
+    },
+    {
+      "name": "news_9",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=9&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.494341+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 187370
+    },
+    {
+      "name": "news_10",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=10&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.494629+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 230108
+    },
+    {
+      "name": "news_11",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=11&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.526652+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 218361
+    },
+    {
+      "name": "news_12",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=12&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.671965+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 214590
+    },
+    {
+      "name": "news_13",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=13&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.799105+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 229465
+    },
+    {
+      "name": "news_14",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=14&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.812007+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 245854
+    },
+    {
+      "name": "news_15",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=15&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.818192+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 217233
+    },
+    {
+      "name": "news_16",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=16&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.856647+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 221319
+    },
+    {
+      "name": "news_17",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=17&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:43.959769+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 245226
+    },
+    {
+      "name": "news_18",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=18&page_size=100&type=0",
+      "retrieved_at": "2026-11-18T00:47:44.065000+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 290370
+    },
+    {
+      "name": "nvda_q3",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "started_at": "2026-11-18T00:48:18.130088+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 398481,
+      "retrieved_at": "2026-11-18T00:48:19.085224+00:00"
+    },
+    {
+      "name": "nvda_8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+      "started_at": "2026-11-18T00:48:18.130761+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 26926,
+      "retrieved_at": "2026-11-18T00:48:19.402286+00:00"
+    },
+    {
+      "name": "aaoi_8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+      "started_at": "2026-11-18T00:48:18.130929+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 32786,
+      "retrieved_at": "2026-11-18T00:48:19.331242+00:00"
+    },
+    {
+      "name": "aaoi_424",
+      "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm",
+      "started_at": "2026-11-18T00:48:18.131067+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 394116,
+      "retrieved_at": "2026-11-18T00:48:21.804503+00:00"
+    },
+    {
+      "name": "nvda_cfo",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "started_at": "2026-11-18T00:49:07.631045+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 251579,
+      "retrieved_at": "2026-11-18T00:49:09.391867+00:00"
+    },
+    {
+      "name": "nvda_ex99",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "started_at": "2026-11-18T00:49:07.631558+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 348178,
+      "retrieved_at": "2026-11-18T00:49:11.669285+00:00"
+    },
+    {
+      "name": "nvda_commitments",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+      "started_at": "2026-11-18T00:49:07.631707+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 79599,
+      "retrieved_at": "2026-11-18T00:49:07.981692+00:00"
+    },
+    {
+      "name": "nvda_committee",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+      "started_at": "2026-11-18T00:49:07.631863+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 62519,
+      "retrieved_at": "2026-11-18T00:49:08.077525+00:00"
+    },
+    {
+      "name": "news_19",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=19&page_size=100&type=0",
+      "started_at": "2026-11-18T00:49:45.033557+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 262494,
+      "retrieved_at": "2026-11-18T00:49:45.552563+00:00"
+    },
+    {
+      "name": "news_20",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=20&page_size=100&type=0",
+      "started_at": "2026-11-18T00:49:45.034051+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 267242,
+      "retrieved_at": "2026-11-18T00:49:45.504391+00:00"
+    },
+    {
+      "name": "news_21",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=21&page_size=100&type=0",
+      "started_at": "2026-11-18T00:49:45.034218+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 208380,
+      "retrieved_at": "2026-11-18T00:49:45.409267+00:00"
+    },
+    {
+      "name": "news_22",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=22&page_size=100&type=0",
+      "started_at": "2026-11-18T00:49:45.034359+00:00",
+      "status": 200,
+      "ok": true,
+      "length": 182768,
+      "retrieved_at": "2026-11-18T00:49:45.396107+00:00"
+    },
+    {
+      "name": "bis_index",
+      "url": "https://www.bis.gov/press-release",
+      "started_at": "2026-11-18T00:49:45.034489+00:00",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "candidate_report_text": "新增：英伟达11/17盘后披露截至10/25的FY27Q3收入1158亿美元、数据中心1076亿美元，Q4营收指引1300亿美元±3%，但毛利指引71%—72%低于Q3约74.9%；均区分实际与展望。AAOI新设最高5.5亿美元ATM股权发行，可能有融资稀释压力，尚非全额募资或撤单。供应承诺3900亿美元主要为多年存储采购，不等于已付现金或国内光模块订单；担保最大敞口1180亿美元为有条件风险。"
+}

@@ -1,0 +1,126 @@
+{
+  "observation_date": "2026-11-13",
+  "check_type": "incremental_supplier_project_lender_review_with_Friday_trend_review",
+  "cutoff": "2026-11-12T00:35:44.433607+00:00",
+  "retrieved_at": "2026-11-13T00:26:57.990194+00:00",
+  "conclusion": "未核实新增正式供应商收入下修序列、IREN/TeraWulf已签订单取消或融资实际中断、覆盖资金方新AI实际损失。英伟达CEO变更属重大治理事件，但官方文件无Anthropic投资/信用支持取消。新增Rowan融资容量是融资仍可用的局部证据，不能当受压主体经营现金流改善或全行业风险缓解。",
+  "material_AI_credit_judgment_change_verified": false,
+  "coverage": {
+    "sec_inventory": {"success_count": 14, "company_count": 14, "manifest": "submission_manifest.json", "companies": ["NVIDIA", "AMD", "Marvell", "Lumentum", "Coherent", "AAOI", "Fabrinet", "Ciena", "IREN", "TeraWulf", "Apollo", "Blackstone", "Ares", "JPMorgan"], "new_relevant_8k": ["NVIDIA", "Marvell", "Apollo", "AAOI"]},
+    "IR": {"IREN": "成功，最新仍Nov5季度结果", "TeraWulf": "成功，最新仍Nov6季度结果", "Apollo": "成功，无Nov13票据交割确认", "Ares": "目录成功", "Blackstone": "官网403、IR429，SEC清单成功", "NVIDIA": "官方CEO变更公告成功", "Athene": "Nov12会议及完整PDF演示材料成功"},
+    "news_discovery": "news_manifest.json、rowan_news_items.json；转载与分析师观点不计独立证据。"
+  },
+  "events": [
+    {
+      "id": "aaoi_20261112_owned_factory_acquisition_lease_termination",
+      "issuer": "Applied Optoelectronics",
+      "evidence_grade": "primary_SEC_company_8K",
+      "publication_at": "2026-11-12T21:05:45Z",
+      "underlying_event_date": "2026-11-06",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008616/aaoi_8k.htm",
+      "cash_purchase_price_USD": 102250000,
+      "purchase_price_subject_to": "customary prorations and closing adjustments",
+      "transaction_stage": "company_confirms_acquisition_completed_Nov6",
+      "counterparty": "Hightower Phase I Owner LLC",
+      "property": "Buildings1,2,3 at Hightower Business Park PhaseI Houston, manufacturing warehouse and office use",
+      "rentable_square_feet": 736216,
+      "prior_contract": "May8 leases with purchase options, disclosed May13",
+      "lease_termination_reason": "exercise_of_purchase_options_and_property_acquisition",
+      "early_termination_penalty": false,
+      "deposit_and_unapplied_rent": "return_provided_by_agreement_amount_not_verified",
+      "formal_revenue_guidance_cut": false,
+      "customer_order_cancellation": false,
+      "interpretation": "实际现金购房支出单列；租约终止因转自有物业，不能当作客户订单取消、停产或收入下修。无新季度现金流表，不把该支出擅加到已结束Q3。",
+      "alert_trigger": false,
+      "raw_files": ["aaoi8k.html", "aaoi8k.txt"]
+    },
+    {
+      "id": "nvidia_20261112_CEO_transition",
+      "issuer": "NVIDIA",
+      "evidence_grade": "primary_SEC_8K_and_company_release",
+      "publication_at": "2026-11-12T13:52:41Z",
+      "underlying_event_date": "2026-11-11",
+      "sources": ["https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm", "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"],
+      "facts": "Board accepted Jensen Huang resignation as President,CEO and director effective immediately; Colette Kress interimCEO while retainingCFO; HarveyJones boardchair.",
+      "company_outlook": "Board expects operations,customer commitments and product roadmap without interruption; management outlook, not verified contract performance.",
+      "Anthropic_10bn_investment_cancelled_or_changed_verified": false,
+      "credit_support_cancelled_or_changed_verified": false,
+      "formal_revenue_guidance_cut_verified": false,
+      "customer_order_cancellation_verified": false,
+      "interpretation": "重大治理不确定性；已读官方8K及新闻稿未披露投资支持取消、收入指引下修或融资中断。不能从离任和股价直接推出AI信用损失。",
+      "AI_credit_alert_trigger": false,
+      "raw_files": ["nvda8k.html", "nvda8k.txt", "nvda_transition.html", "nvda_transition.txt", "nvda_exhibit.html", "nvda_exhibit.txt"]
+    },
+    {
+      "id": "marvell_20261112_board_expansion",
+      "issuer": "Marvell",
+      "evidence_grade": "primary_SEC_8K",
+      "publication_at": "2026-11-12T14:11:22Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm",
+      "facts": "Board expanded from7to10 with three independent director appointments.",
+      "formal_revenue_guidance_revision": false,
+      "alert_trigger": false,
+      "raw_files": ["mrvl8k.html", "mrvl8k.txt"]
+    },
+    {
+      "id": "athene_20261112_fixed_income_investor_update",
+      "issuer": "Athene subsidiary of Apollo",
+      "evidence_grade": "primary_SEC_notice_and_company_presentation",
+      "publication_at": "2026-11-12T12:53:51Z",
+      "event_date": "2026-11-12",
+      "sources": ["https://www.sec.gov/Archives/edgar/data/1858681/000185868126000070/apo-20261112.htm", "https://ir.athene.com/news-events/event-calendar/detail/20261112-athene-fixed-income-investor-call---november-2026", "https://d1io3yog0oux5.cloudfront.net/_ace7205da31f07afe215134cb0a57cbf/athene/db/2294/22572/presentation/Q3_2026_Fixed_Income_Investor_Presentation_FINAL.pdf"],
+      "financial_period": "mostly_asof_or_nine_months_ended_2026-09-30_with_footnotes_on_older_RBC_dates",
+      "AI_project_specific_new_impairment_or_payout_verified": false,
+      "summary": "Nov12投资者会及演示材料介绍保险业务、总体组合与资本；AI基础设施介绍链接指向Oct30旧材料。未取得新的AI贷款级别减值、违约或担保实际赔付。总体管理层信用质量说法不是AI专项风险消失。",
+      "liquidity_interpretation": "演示约78bn可用流动性包括高流动资产、融资设施和借款能力，不能全部当现金；本文不据此判定AI经营回报。",
+      "alert_trigger": false,
+      "raw_files": ["apollo8k.html", "apollo8k.txt", "athene_call.html", "athene_presentation.pdf", "athene_presentation.txt"]
+    },
+    {
+      "id": "rowan_20261112_corporate_financing_capacity",
+      "issuer": "Rowan Digital Infrastructure",
+      "evidence_grade": "public_issuer_press_release_reproduced_by_POWER_not_direct_company_page",
+      "publication_date": "2026-11-12",
+      "source": "https://www.powermag.com/rowan-digital-infrastructure-secures-1-5-billion-in-financing-for-hyperscale-development-platform/",
+      "stage": "announced_corporate_facilities_company_reported_available_drawn_cash_not_verified",
+      "additional_capacity_USD": 1545000000,
+      "components": [
+        {"instrument": "holding_company_term_loan_upsize", "incremental_USD": 600000000, "post_upsize_facility_USD": 900000000, "prior_facility_USD": 300000000, "lead": "Apterra Infrastructure Capital", "original_facility_closed": "2025-09", "drawn_proceeds_not_disclosed": true},
+        {"instrument": "new_revolving_credit_facility", "capacity_USD": 590000000, "lead": "Citibank", "drawn_proceeds_not_disclosed": true},
+        {"instrument": "new_letter_of_credit_facility", "capacity_USD": 355000000, "lead": "Citibank", "not_cash_receipt": true}
+      ],
+      "use": "general early-stage pipeline development including land,power,long-lead equipment",
+      "pipeline_GW": 5.5,
+      "contracted_capacity_GW_more_than": 1.2,
+      "customer_names_not_disclosed": true,
+      "other_lenders_named": ["Mizuho", "MUFG", "Goldman Sachs", "Societe Generale", "SMBC", "Huntington"],
+      "conditional_accordion_not_in_added_capacity": {"revolver_max_USD": 2000000000, "LC_max_USD": 1000000000, "subject_to_conditions": true},
+      "actual_drawn_cash_proceeds_verified": false,
+      "pricing_covenants_security_recoursedetails": null,
+      "interpretation": "局部融资渠道可用的正面证据；新增1545m由贷款容量和信用证构成，不能写成现金全到账；不把条件性accordion再加总。不能据此推断CoreWeave、软银或全行业压力缓解。",
+      "alert_trigger_alone": false,
+      "raw_files": ["power_rowan.html", "power_rowan.txt", "rowan_follow_manifest.json"]
+    }
+  ],
+  "focused_checks": {
+    "supplier_formal_revenue_cuts": {"new_comparable_formal_cut_count": 0, "two_independent_cuts_established": false, "notes": "公司正式指引与分析师目标价、股票回撤、旧季报复述区分。AAOI、NVDA、MRVL新文件未形成指引下修序列。"},
+    "project_delay_escalation": {"IREN_TeraWulf_new_signed_cancellation_refund_funding_interruption_verified": false, "notes": "官网和SEC无新增项目升级；韩国300MW未锁租户摘要及软银SB7采购损失均为此前证据，GE/13GW二手细化不重复计数。"},
+    "AI_lender_realized_loss": {"new_verified_AI_specific_loss_or_guarantee_payment": false, "notes": "无新增银行/私人信贷AI项目级实际损失证据；Athene总体组合材料不证明专项风险不存在。"}
+  },
+  "Friday_review": {
+    "week_window": "2026-11-06_through_current_check",
+    "independent_supplier_downward_revision_sequence_verified": false,
+    "cross_customer_supplier_order_cancellation_spread_verified": false,
+    "prior_alert_outcomes": [
+      {"event": "SoftBankSB7procurementloss", "status": "actual_loss_confirmed_Nov10_report_already_notified_Nov11", "new_covenant_default_guarantee_loss_or_supplier_guidance_cut_verified": false},
+      {"event": "IREN_delivery_delay", "status": "prior_execution_risk_retained", "same_contract_cancelled_or_refunded_verified": false},
+      {"event": "TeraWulf_expansion_and_Google_support", "status": "prior_cash_need_and_conditional_support_retained", "new_funding_failure_or_guarantee_payout_verified": false},
+      {"event": "Apollo600m_subordinatednotes", "status": "priced_expected_USNov13_not_due_at_BeijingNov13morning", "settlement_success_or_failure_not_verified": true},
+      {"event": "ING500m_BWIC", "status": "reported_bid_deadline_Nov19_still_pending", "actual_sale_loss_not_verified": true}
+    ],
+    "financing_counterevidence": "Rowan announced incremental corporate loan/revolver/LC capacity; confirms that at least one platform can arrange funding, without erasing other issuers cash pressure.",
+    "limits": "缺AI项目级私人信贷连续损失序列和供应商完整逐期指引历史；本周未核实扩散不等于证明没有风险。"
+  },
+  "gaps": ["Rowan直接官网403/521，取得POWER完整公开Press Release，未取得贷款合同和提款流水。", "个体CDS终端及私人信贷项目级减值数据缺失。", "NVIDIA治理公告未变更承诺不等于所有商业或投资合同已独立核实履行。"],
+  "recommended_notification": "No_new_AI_credit_alert_from_this_subtask_alone; preserve_prior_localized_risk_warming"
+}

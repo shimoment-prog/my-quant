@@ -1,0 +1,405 @@
+{
+  "prepared_at": "2026-11-05T02:31:02.984743+00:00",
+  "last_completed_us_normal_session": "2026-11-04",
+  "regular_close_quotes": [
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "regular_close_usd": 626.75,
+      "regular_change_pct": -7.85,
+      "previous_regular_close_usd": 680.16,
+      "provider_timestamp_exchange": "2026-11-04 16:00:01",
+      "session_date": "2026-11-04",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usLITE",
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00"
+    },
+    {
+      "symbol": "MRVL",
+      "name": "迈威尔科技",
+      "regular_close_usd": 159.8,
+      "regular_change_pct": -7.08,
+      "previous_regular_close_usd": 171.97,
+      "provider_timestamp_exchange": "2026-11-04 16:00:01",
+      "session_date": "2026-11-04",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usMRVL",
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00"
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "regular_close_usd": 195.09,
+      "regular_change_pct": -5.98,
+      "previous_regular_close_usd": 207.49,
+      "provider_timestamp_exchange": "2026-11-04 16:05:07",
+      "session_date": "2026-11-04",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usCOHR",
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00"
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena科技",
+      "regular_close_usd": 272.24,
+      "regular_change_pct": -9.28,
+      "previous_regular_close_usd": 300.08,
+      "provider_timestamp_exchange": "2026-11-04 16:05:07",
+      "session_date": "2026-11-04",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usCIEN",
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00"
+    },
+    {
+      "symbol": "AAOI",
+      "name": "应用光电",
+      "regular_close_usd": 59.27,
+      "regular_change_pct": -7.35,
+      "previous_regular_close_usd": 63.97,
+      "provider_timestamp_exchange": "2026-11-04 16:00:01",
+      "session_date": "2026-11-04",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usAAOI",
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00"
+    },
+    {
+      "symbol": "FN",
+      "name": "Fabrinet",
+      "regular_close_usd": 341.64,
+      "regular_change_pct": -5.97,
+      "previous_regular_close_usd": 363.33,
+      "provider_timestamp_exchange": "2026-11-04 16:05:07",
+      "session_date": "2026-11-04",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usFN",
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "英伟达",
+      "regular_close_usd": 200.13,
+      "regular_change_pct": -3.17,
+      "previous_regular_close_usd": 206.69,
+      "provider_timestamp_exchange": "2026-11-04 16:00:01",
+      "session_date": "2026-11-04",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usNVDA",
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "博通",
+      "regular_close_usd": 325.48,
+      "regular_change_pct": -2.0,
+      "previous_regular_close_usd": 332.13,
+      "provider_timestamp_exchange": "2026-11-04 16:00:01",
+      "session_date": "2026-11-04",
+      "session": "regular_close",
+      "source": "https://qt.gtimg.cn/q=usAVGO",
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00"
+    }
+  ],
+  "sox": {
+    "close": 10268.6543,
+    "change_pct": -3.13,
+    "session_date": "2026-11-04",
+    "provider_time_beijing": "2026-11-05 06:16:01",
+    "source": "https://hq.sinajs.cn/list=gb_sox"
+  },
+  "afterhours_quote": {
+    "symbol": "COHR",
+    "price_usd": 204.7873,
+    "change_vs_regular_close_pct": 4.97,
+    "quote_time_exchange": "Nov 04 08:04PM EST",
+    "session": "after_regular_close",
+    "source": "https://hq.sinajs.cn/list=gb_cohr",
+    "retrieved_at": "2026-11-05T02:30:29.238573+00:00",
+    "caveat": "Vendor timestamp08:04PMEST is outside conventional16:00-20:00extended session; treat as vendor late/extended quote, not official regular close.",
+    "quote_time_beijing": "2026-11-05T09:04:00+08:00"
+  },
+  "new_material_events": [
+    {
+      "id": "COHR_FY27Q1",
+      "event_date": "2026-11-04",
+      "accepted_at_utc": "2026-11-04T21:05:07Z",
+      "session": "after_regular_close",
+      "source": "https://www.sec.gov/Archives/edgar/data/820318/000119312526447200/d176836dex991.htm",
+      "source_type": "primary_SEC_earnings_release",
+      "facts": {
+        "revenue_usd_billion": 2.3703,
+        "revenue_yoy_pct": 49.9,
+        "revenue_qoq_pct": 15.9,
+        "adjusted_eps_usd": 2.09,
+        "next_quarter_revenue_guidance_usd_billion": [
+          2.55,
+          2.75
+        ],
+        "next_quarter_adjusted_eps_usd": [
+          2.28,
+          2.48
+        ],
+        "management_FY27_proforma_revenue_growth_pct_over": 60
+      },
+      "interpretation_zh": "真实营收和下一季指引支持光通信景气仍有增长，不能将正常交易时段下跌5.98%归因于之后发布的财报；管理层未来指引不是已实现收入，也不是新易盛订单。"
+    },
+    {
+      "id": "AAOI_new_credit_facility",
+      "filed_date": "2026-11-04",
+      "accepted_at_utc": "2026-11-04T22:03:55Z",
+      "underlying_agreement_date": "2026-10-30",
+      "session": "after_regular_close",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008310/aaoi_8k.htm",
+      "source_type": "primary_SEC8K",
+      "facts": {
+        "revolving_commitments_usd_million": 30,
+        "initial_term_loan_commitments_usd_million": 170,
+        "incremental_term_loan_option_usd_million_up_to": 50,
+        "maturity": "2030-10-30",
+        "term_loan_use": "purchase or refinance eligible equipment",
+        "revolver_use": "working capital and general corporate purposes"
+      },
+      "interpretation_zh": "11月4日新披露的是融资安排，协议发生10月30日；不可当作新增客户订单或三季报，更不能解释此前正常时段的跌幅。"
+    }
+  ],
+  "merger_followup": {
+    "original_announcement_date": "2026-11-02",
+    "source": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+    "terms": "Allstock fixed4.5MRVL shares perLITEshare",
+    "new_Nov4_material_merger_filing_verified": false,
+    "latest_LITE_425_accepted": "2026-11-03T22:09:59Z",
+    "latest_LITE_425_content_date": "2026-11-02",
+    "latest_LITE_425_source": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526445616/d157180d425.htm",
+    "interpretation_zh": "截至本轮SEC清单，LITE/MRVL没有11月4日新增申报。换股并购风险、套利与估值可影响两股，不能把跌价等同新易盛丢单；未声称并购已完成。"
+  },
+  "market_context": {
+    "source": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+    "source_type": "reliable_media",
+    "context_zh": "报道称美国中期选举及州级竞选对数据中心限制的预期打击AI基建股；广义指数上涨与光通信/半导体下跌并存。",
+    "limits": "Campaign stance/election expectations are not enacted national policy or proof of canceled customer orders; do not treat as confirmed shutdown."
+  },
+  "other_dated_background": {
+    "FN_earnings_date": "2026-11-02",
+    "FN_revenue_yoy_pct": 51,
+    "LITE_earnings_date": "2026-11-02",
+    "LITE_management_NPO_CPO_purchase_commitments_usd_over_billion": 5,
+    "AAOI_scheduled_earnings_date_ET": "2026-11-05",
+    "note_zh": "旧财报与管理层采购承诺保留日期；AAOI美东11月5日财报尚未发布，不能把融资8K误当业绩。"
+  },
+  "SEC_checks": [
+    {
+      "symbol": "LITE",
+      "new_Nov4_filings": []
+    },
+    {
+      "symbol": "MRVL",
+      "new_Nov4_filings": []
+    },
+    {
+      "symbol": "COHR",
+      "new_Nov4_filings": [
+        {
+          "form": "10-Q",
+          "acceptance_time_utc": "2026-11-04T21:06:23.000Z",
+          "primaryDocument": "iivi-20260930.htm",
+          "accessionNumber": "0000820318-26-000023"
+        },
+        {
+          "form": "8-K",
+          "acceptance_time_utc": "2026-11-04T21:05:07.000Z",
+          "primaryDocument": "d176836d8k.htm",
+          "accessionNumber": "0001193125-26-447200"
+        }
+      ]
+    },
+    {
+      "symbol": "CIEN",
+      "new_Nov4_filings": [
+        {
+          "form": "4",
+          "acceptance_time_utc": "2026-11-04T21:41:34.000Z",
+          "primaryDocument": "xslF345X06/edgardoc.xml",
+          "accessionNumber": "0001032553-26-000048"
+        }
+      ]
+    },
+    {
+      "symbol": "AAOI",
+      "new_Nov4_filings": [
+        {
+          "form": "8-K",
+          "acceptance_time_utc": "2026-11-04T22:03:55.000Z",
+          "primaryDocument": "aaoi_8k.htm",
+          "accessionNumber": "0001683168-26-008310"
+        }
+      ]
+    },
+    {
+      "symbol": "FN",
+      "new_Nov4_filings": []
+    }
+  ],
+  "a_share_implications_zh": [
+    "海外光通信六股全部下跌，对A股光模块估值和情绪构成短线压力，不能只看纳指上涨就判断利好。",
+    "Coherent盘后业绩与指引提供反证，当前证据不足认定真实光通信需求全面坍塌；应跟踪新易盛自身1.6T交付、毛利率、订单兑现和现金回款。",
+    "海外监管预期若变为实际审批/建设延迟，再传到客户采购才直接影响盈利；目前没有本轮核实到的新易盛特定取消订单。"
+  ],
+  "limitations": [
+    "Bounded SEC/API andCNBCcheck, not exhaustive allglobalIR/regulators.",
+    "No independently verified new Eoptolink-specific lost order or supplier constraint.",
+    "No verified enacted national data-center restriction text.",
+    "AfterhoursCOHRvendor quote marked separately withlate timestampcaveat; cannot combine withregular-session return."
+  ],
+  "sources": [
+    {
+      "name": "us_quotes",
+      "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:29.238144+00:00",
+      "length": 3108
+    },
+    {
+      "name": "us_sina",
+      "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:29.238573+00:00",
+      "length": 3014
+    },
+    {
+      "name": "live_news",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:29.522499+00:00",
+      "length": 203109
+    },
+    {
+      "name": "lite_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:31.390619+00:00",
+      "length": 158906
+    },
+    {
+      "name": "mrvl_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:31.322444+00:00",
+      "length": 136419
+    },
+    {
+      "name": "cohr_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:31.438213+00:00",
+      "length": 160439
+    },
+    {
+      "name": "cien_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:31.430846+00:00",
+      "length": 158885
+    },
+    {
+      "name": "aaoi_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:31.336614+00:00",
+      "length": 154739
+    },
+    {
+      "name": "fn_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+      "ok": true,
+      "retrieved_at": "2026-11-05T02:30:31.305443+00:00",
+      "length": 154968
+    }
+  ],
+  "base_evidence_file": "/tmp/eoptolink-20261105/overseas/overseas.json",
+  "catalyst_evidence_file": "/tmp/overseas-optics-outlook-20261105/events/events.json",
+  "SEC_incremental_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings_after0956Beijing": [],
+      "most_recent_acceptance_utc": "2026-11-03T22:09:59.000Z",
+      "retrieved_at": "2026-11-05T02:30:31.390619+00:00"
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings_after0956Beijing": [],
+      "most_recent_acceptance_utc": "2026-11-03T21:38:46.000Z",
+      "retrieved_at": "2026-11-05T02:30:31.322444+00:00"
+    },
+    {
+      "symbol": "COHR",
+      "new_filings_after0956Beijing": [],
+      "most_recent_acceptance_utc": "2026-11-04T21:06:23.000Z",
+      "retrieved_at": "2026-11-05T02:30:31.438213+00:00"
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings_after0956Beijing": [],
+      "most_recent_acceptance_utc": "2026-11-04T21:41:34.000Z",
+      "retrieved_at": "2026-11-05T02:30:31.430846+00:00"
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings_after0956Beijing": [],
+      "most_recent_acceptance_utc": "2026-11-04T22:03:55.000Z",
+      "retrieved_at": "2026-11-05T02:30:31.336614+00:00"
+    },
+    {
+      "symbol": "FN",
+      "new_filings_after0956Beijing": [],
+      "most_recent_acceptance_utc": "2026-11-03T13:14:40.000Z",
+      "retrieved_at": "2026-11-05T02:30:31.305443+00:00"
+    }
+  ],
+  "incremental_update": {
+    "since_beijing": "2026-11-05T09:56:00+08:00",
+    "through_beijing": "2026-11-05T10:31:02.984796+08:00",
+    "new_verified_material_events": [],
+    "regular_close_unchanged": true,
+    "summary_zh": "最近已结束美股正常交易日仍为11月4日，收盘数据不变。09:56以来六家公司SEC最新申报与公开新闻检索未取得可核实的新增重大海外财报、订单、指引或监管变化。",
+    "news_feed_checked_range_beijing": [
+      "2026-11-05T09:44:04+08:00",
+      "2026-11-05T10:29:13+08:00"
+    ],
+    "limits": "Bounded SEC/public news check, not exhaustive allIR/regulators."
+  },
+  "short_report_zh": "11月4日海外光通信六股均跌，LITE−7.85%、MRVL−7.08%、COHR−5.98%、CIEN−9.28%、AAOI−7.35%、FN−5.97%，费半−3.13%。Coherent盘后公布营收同比+49.9%、下一季收入指引25.5亿—27.5亿美元，为需求仍增长的公司级证据；其正常时段下跌在财报之前。AAOI财报电话会仍待美东11月5日16:30（北京时间11月6日05:30），尚未发布本次业绩。LITE/MRVL换股并购会影响两股价格，不能据同步下跌断言新易盛丢单。本轮09:56以来未核实新增重大海外变化。",
+  "upcoming_confirmed_events": [
+    {
+      "company": "AAOI",
+      "event": "Q3 2026 financial results and Q4 outlook",
+      "official_notice_date": "2026-10-15",
+      "official_results_date_ET": "2026-11-05",
+      "official_call_time_ET": "2026-11-05T16:30:00-05:00",
+      "call_time_beijing": "2026-11-06T05:30:00+08:00",
+      "publication_time_precision": "Notice confirms release onNov5, with call16:30ET; exact release minute not stated. Reasonable to refer toNov5postmarket/call, not invent16:05release.",
+      "source": "https://investors.ao-inc.com/2026-10-15-Applied-Optoelectronics-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call",
+      "freshly_retrieved_at": "2026-11-05T01:54:53.753913+00:00",
+      "why_it_matters_zh": "最近一次可验证的新数据检验。关注800G/1.6T出货与收入兑现、下一季度指引、毛利和资金需求；单公司不代表整个链条。"
+    },
+    {
+      "company": "Coherent",
+      "event": "FY27Q1 results already released; next regular session can price them",
+      "release_accepted_utc": "2026-11-04T21:05:07Z",
+      "release_accepted_beijing": "2026-11-05T05:05:07+08:00",
+      "official_call_time_ET": "2026-11-04T16:30:00-05:00",
+      "official_call_time_beijing": "2026-11-05T05:30:00+08:00",
+      "next_regular_session_ET": "2026-11-05T09:30:00-05:00/2026-11-05T16:00:00-05:00",
+      "next_regular_session_beijing": "2026-11-05T22:30:00+08:00/2026-11-06T05:00:00+08:00",
+      "source": "https://www.sec.gov/Archives/edgar/data/820318/000119312526447200/d176836dex991.htm",
+      "realized_revenue_usd_billion": 2.3703,
+      "realized_revenue_yoy_pct": 49.9,
+      "realized_revenue_qoq_pct": 15.9,
+      "adjusted_gross_margin_pct": 40.6,
+      "next_quarter_revenue_guidance_usd_billion": [
+        2.55,
+        2.75
+      ],
+      "guidance_midpoint_qoq_growth_pct": 11.8,
+      "evidence_strength_zh": "已实现收入增长与毛利扩张，是反对全行业已经需求坍塌的较强公司级证据；下一季增长指引是前瞻而非交付事实。不能据此证明其他供应商订单，也不能保证高估值股价立即止跌。正常时段11/4跌5.98%发生在发布之前。"
+    }
+  ]
+}

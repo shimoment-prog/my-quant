@@ -1,0 +1,3563 @@
+{
+  "schema_version": 1,
+  "automation_id": "automation",
+  "report_date": "2026-11-18",
+  "actual_run_started_at": "2026-11-18T08:46:50+08:00",
+  "triggered_at": "2026-11-18T08:46:38.316+08:00",
+  "scheduled_at": "2026-11-18T08:45:00+08:00",
+  "created_at": "2026-11-18T08:55:21.788209+08:00",
+  "data_cutoff_at": "2026-11-18T08:54:12.486908+08:00",
+  "data_cutoff_definition": "本次证据最后核查/抓取时点；行情所属日期和实际时段分别保留，不表示全部行情在该时刻成交。",
+  "prior_data_cutoff_at": "2026-11-17T09:43:39+08:00",
+  "prior_observation_file": "observations/2026-11-17-0948.json",
+  "session": "premarket",
+  "delayed_delivery": false,
+  "trading_day": {
+    "date": "2026-11-18",
+    "weekday": "Wednesday",
+    "normal_session": true,
+    "checked_at": "2026-11-18T08:48:38.501423+08:00",
+    "temporary_closure_notice_found": false,
+    "conclusion": "2026-11-18 Wednesday is outside the refreshed official SSE 2026 holiday closures; latest visible SSE/SZSE general notices reviewed and no exchange-wide temporary closure announcement found.",
+    "us_session": {
+      "date_et": "2026-11-17",
+      "weekday_et": "Tuesday",
+      "scheduled_normal_equity_session": true,
+      "scheduled_early_close": false,
+      "open_et": "2026-11-17T09:30:00-05:00",
+      "close_et": "2026-11-17T16:00:00-05:00",
+      "close_china": "2026-11-18T05:00:00+08:00",
+      "already_ended_at_check": true,
+      "timezone_name": "EST",
+      "utc_offset_hours": -5.0,
+      "calendar_basis": "Refreshed NYSE/Nasdaq official calendar and trading-hour pages: Thanksgiving closure Nov26; early close Nov27, neither Nov17."
+    },
+    "limitations": [
+      "Official visible SSE/SZSE notice indexes and holiday calendars are finite coverage; no claim of every possible channel.",
+      "Individual security/fund suspensions are distinct from exchange-wide closure.",
+      "US quote timestamps and actual close values require independent verification.",
+      "Shenzhen independent annual calendar not separately obtained; latest official holiday arrangement original (Mid-Autumn/National Day) confirms normal reopening Oct8, combined with full SSE annual schedule and fresh SZSE general notices."
+    ],
+    "sources": [
+      {
+        "id": "sse_calendar",
+        "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+        "started_at": "2026-11-18T08:47:51.654734+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:51 GMT",
+        "last_modified": null,
+        "final_url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:51.917355+08:00",
+        "bytes": 29581,
+        "sha256": "4511d76abb438945008cd8b91df2c6a1e94e744c01a826f8e17d53feedb32b5f",
+        "raw_file": "/private/tmp/optics-nov18-calendar/sse_calendar.html",
+        "excerpt": "2026年休市安排 元旦： 1月1日（星期四）至1月3日（星期六）休市，1月5日（星期一）起照常开市。另外，1月4日（星期日）为周末休市。 春节： 2月15日（星期日）至2月23日（星期一）休市，2月24日（星期二）起照常开市。另外，2月14日（星期六）、2月28日（星期六）为周末休市。 清明节： 4月4日（星期六）至4月6日（星期一）休市，4月7日（星期二）起照常开市。 劳动节： 5月1日（星期五）至5月5日（星期二）休市，5月6日（星期三）起照常开市。另外，5月9日（星期六）为周末休市。 端午节： 6月19日（星期五）至6月21日（星期日）休市，6月22日（星期一）起照常开市。 中秋节： 9月25日（星期五）至9月27日（星期日）休市，9月28日（星期一）起照常开市。 国庆节： 10月1日（星期四）至10月7日（星期三）休市，10月8日（星期四）起照常开市。另外，9月20日（星期日）、10月10日（星期六）为周末休市。 相关公告 关于2026年中秋节、国庆节休市安排的公告 2026-09-17 关于2026年端午节休市安排的公告 2026-06-11 关于2026年劳动节休市安排的公告 2026-04-23 关于2026年清明节休市安排的公告 2026-03-31 关于2026年春节休市安排的公告 2026-02-05 相关链接 联系我们 网站地图 相关链接 法律声明 注册商标 个人信息保护告知书 官方微博 官方微信 APP下载 党建 党建动态 学习园地 图文播报 发行上市 审核公告通知 审核信息披露 审核项目动态 关于上市审核中心 科创战略 披露 交易提示 上交所公告 上市公司信息 融资融券信息 基金信息 公募REITs信息 交易信息披露 债券信息 股票期权信息 监管 上市公司监管 发行上市审核监管 债券监管 交易监管 会员及其他交易参与人监管 自律管理复核 自律监管与市场服务事项 诉求受理中心 数据 股票数据 债券数据 基金数据 公募REITs数据 其他数据 行情信息 上证系列指数 中证系列指数 中华系列指数 产品 股票与存托凭证 基金 债券 股票期权 公募REITs 服务 企业上市服务 IPO业务专栏 沪港通 绿色证券专栏 交易服务 交易技术支持专区 收费及代收税费 投资者服务 上市公司服务 路演服务 技术服务 信息服务 培训服务 司法服务 规则 法律法规 部门规章 本所业务规则 本所业务指南与流程 公开征求意见 制度规则汇编 关于 本所介绍 媒体中心 国际交流与合作 招聘信息 联系我们 研究 社会责任 公益慈善 中国证券博物馆 刊物 400投资者服务热线： 400-8888-400 上海证券交易所官网现已支持 IPV 6 ©上海证券交易所版权所有 2020 沪ICP备05004045号-2 沪公网安备 31011502016333号 "
+      },
+      {
+        "id": "sse_general",
+        "url": "https://www.sse.com.cn/disclosure/announcement/general/",
+        "started_at": "2026-11-18T08:47:51.655597+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:52 GMT",
+        "last_modified": null,
+        "final_url": "https://www.sse.com.cn/disclosure/announcement/general/",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:52.134270+08:00",
+        "bytes": 34980,
+        "sha256": "badf11297d4813aee900ae74e76a0130a6a0c98c47022203dca76524c2fba5b8",
+        "raw_file": "/private/tmp/optics-nov18-calendar/sse_general.html",
+        "visible_notices": [
+          {
+            "title": "关于兴业证券股份有限公司为广发中证军工交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838000.shtml"
+          },
+          {
+            "title": "关于华泰证券股份有限公司终止为天弘上证180交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838002.shtml"
+          },
+          {
+            "title": "关于国投证券股份有限公司为华安沪深300交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838004.shtml"
+          },
+          {
+            "title": "关于中信建投证券股份有限公司为兴业上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837886.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司为兴业上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837889.shtml"
+          },
+          {
+            "title": "关于中国银河证券股份有限公司为华夏保利发展封闭式商业不动产证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837891.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为国泰上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837673.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为华夏中证人工智能主题交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837675.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为银华上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837677.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为国泰中证科创创业50交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837679.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为广发中证科创创业50增强策略交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837681.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为博时中证科创创业50交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837683.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为嘉实上证科创板综合增强策略交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837685.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为华安中证科创创业人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837687.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为易方达中证芯片产业交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837689.shtml"
+          }
+        ],
+        "closure_candidates": []
+      },
+      {
+        "id": "szse_notice",
+        "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+        "started_at": "2026-11-18T08:47:51.655453+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:51 GMT",
+        "last_modified": "Wed, 18 Nov 2026 00:22:07 GMT",
+        "final_url": "https://www.szse.cn/disclosure/notice/general/index.html",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:51.839306+08:00",
+        "bytes": 92763,
+        "sha256": "394995da9d87c368f80e04d171e8c9ff0481509679f4d63035465cf2e84831af",
+        "raw_file": "/private/tmp/optics-nov18-calendar/szse_notice.html",
+        "visible_notices": [],
+        "closure_candidates": []
+      },
+      {
+        "id": "nyse_hours",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "started_at": "2026-11-18T08:47:51.655297+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:55 GMT",
+        "last_modified": null,
+        "final_url": "https://www.nyse.com/trade/hours-calendars",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:56.705315+08:00",
+        "bytes": 132025,
+        "sha256": "d7741bc3339e7d188ba219beef2799f4df8e44f8c4d7029b6c1709214726f2fd",
+        "raw_file": "/private/tmp/optics-nov18-calendar/nyse_hours.html",
+        "excerpts": [
+          "** Labor Day Monday, September 7 Monday, September 6 Monday, September 4 Thanksgiving Day Thursday, November 26*** Thursday, November 25*** Thursday, November 23*** Christmas Day Friday, December 25**** Friday, December 24 (Christmas Day observed) Monday, December 25 * Because the holiday falls on Saturday, January 1, 2028, no New Year’s Day holiday is observed. ** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Monday, July 3, 2028. NYSE American Equities, NYSE Arca Equities, NYSE National, and",
+          "ern Time. *** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Friday, November 27, 2026, Friday, November 26, 2027, and Friday, November 24, 2028 (the day after Thanksgiving). NYSE American Equities, NYSE Arca Equities, NYSE National, and NYSE Texas late trading sessions will close at 5:00 p.m. All times are Eastern Time. **** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Thursday, December 24, 2026. NYSE American Equities, NYSE Arca Equities, NYSE National, and N",
+          "Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until the Opening Auction at 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET 9:30 a.m. ET - Core Open Auction 3:50 p.m. to 4:00 p.m. ET - Closing Imbalance Period 4:00 p.m. ET - Closing Auction Tapes B & C Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until 7:00 a.m. ET Early Trading Session: 7:00 a.m. to 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET NYSE American Pre-Opening Session: 6:30 a.m. ET O",
+          "red and will be queued until the Opening Auction at 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET 9:30 a.m. ET - Core Open Auction 3:50 p.m. to 4:00 p.m. ET - Closing Imbalance Period 4:00 p.m. ET - Closing Auction Tapes B & C Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until 7:00 a.m. ET Early Trading Session: 7:00 a.m. to 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET NYSE American Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until th"
+        ]
+      },
+      {
+        "id": "nasdaq_schedule",
+        "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+        "started_at": "2026-11-18T08:47:51.655864+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:55 GMT",
+        "last_modified": null,
+        "final_url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:56.501346+08:00",
+        "bytes": 174361,
+        "sha256": "525dffed8f82a9e385c9b8380175c54994dc57d7cc46f588c19013e044caf2c9",
+        "raw_file": "/private/tmp/optics-nov18-calendar/nasdaq_schedule.html",
+        "excerpts": [
+          "Independence Day (Observed) July 3, 2026 Closed Labor Day September 7, 2026 Closed Thanksgiving Day November 26, 2026 Closed Early Close November 27, 2026 1:00 p.m. Early Close December 24, 2026 1:00 p.m. Christmas Day December 25, 2026 Closed Download Calendars Download the 2026 Trading Calendar Download the U.S. Holiday & Trading Hours Canada & Nordic Schedules Visit Nordic Exchange Holiday Schedule & Trading Hours Visit Nasdaq Canada Holiday Schedule & Trading Hours Trading Hours for the Nasdaq Stock Markets Nasdaq tradin",
+          "026 Closed Labor Day September 7, 2026 Closed Thanksgiving Day November 26, 2026 Closed Early Close November 27, 2026 1:00 p.m. Early Close December 24, 2026 1:00 p.m. Christmas Day December 25, 2026 Closed Download Calendars Download the 2026 Trading Calendar Download the U.S. Holiday & Trading Hours Canada & Nordic Schedules Visit Nordic Exchange Holiday Schedule & Trading Hours Visit Nasdaq Canada Holiday Schedule & Trading Hours Trading Hours for the Nasdaq Stock Markets Nasdaq trading hours are as follows, Monday throug",
+          " Markets Nasdaq trading hours are as follows, Monday through Friday: The Nasdaq Stock Market Opens: 9:30 am Eastern Time Zone; Closes: 4:00 pm Eastern Time Zone Extended Hours Trading There are also pre-market and after hours trading sessions available, also known as Extended Markets. For Nasdaq, pre-market trading hours are 4:00 am to 9:30 am, Eastern Time Zone. After hours runs from 4:00 pm to 8:00 pm, Eastern Time Zone. Certain brokers have different pre-market and after hours trading times. Some online brokers do allow y",
+          "s follows, Monday through Friday: The Nasdaq Stock Market Opens: 9:30 am Eastern Time Zone; Closes: 4:00 pm Eastern Time Zone Extended Hours Trading There are also pre-market and after hours trading sessions available, also known as Extended Markets. For Nasdaq, pre-market trading hours are 4:00 am to 9:30 am, Eastern Time Zone. After hours runs from 4:00 pm to 8:00 pm, Eastern Time Zone. Certain brokers have different pre-market and after hours trading times. Some online brokers do allow you to trade during those hours; che"
+        ]
+      },
+      {
+        "id": "szse_latest_holiday_original",
+        "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+        "started_at": "2026-11-18T08:48:38.386376+08:00",
+        "http_status": 200,
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:48:38.500520+08:00",
+        "bytes": 24292,
+        "sha256": "7b0c4264d27f4ba14a1904ab31cb3b2b870e4e68d6b8d8c0f6cf4254c1a045a4",
+        "raw_file": "/private/tmp/optics-nov18-calendar/szse_latest_holiday_original.html",
+        "excerpt": "关于2026年中秋节、国庆节休市安排的通知 通知公告 位置： 信息披露 / 本所公告 / 通知公告 关于2026年中秋节、国庆节休市安排的通知 时间： 2026-09-17 字体： 大 中 小 各市场参与人： 根据《关于 202 6 年部分节假日放假和休市安排的通知》（证监办发〔 202 5 〕 1 30 号） ，现将 202 6 年中秋节、国庆节 休市有关安排通知如下。 一、休市安排 9 月 25 日（星期 五 ）至 9 月 27 日（星期 日 ）休市， 9 月 28 日（星期 一 ）起照常开市。 10月1日（ 星期四 ）至 10月 7日（ 星期三 ） 休市， 10月8日（星期四）起照常开市。 另外， 9 月 20 日（星期 日 ）、 10 月 10 日（星期六）为周末休市。 二、清算交收 节假日期间清算交收事宜，按照中国证券登记结算有限责任公司的有关安排进行。 请各市场参与人据此安排好有关工作。 深圳证券交易所 202 6 年 9 月 17 日 打印 收藏 关闭 "
+      }
+    ],
+    "szse_latest_holiday_notice_original_url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+    "szse_holiday_original_verified": true
+  },
+  "us_session": {
+    "date_et": "2026-11-17",
+    "weekday_et": "Tuesday",
+    "scheduled_normal_equity_session": true,
+    "scheduled_early_close": false,
+    "open_et": "2026-11-17T09:30:00-05:00",
+    "close_et": "2026-11-17T16:00:00-05:00",
+    "close_china": "2026-11-18T05:00:00+08:00",
+    "already_ended_at_check": true,
+    "timezone_name": "EST",
+    "utc_offset_hours": -5.0,
+    "calendar_basis": "Refreshed NYSE/Nasdaq official calendar and trading-hour pages: Thanksgiving closure Nov26; early close Nov27, neither Nov17."
+  },
+  "market": {
+    "LITE": {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "regular_close": 559.97,
+      "previous_regular_close": 546.0,
+      "open": 566.6,
+      "regular_change_pct": 2.56,
+      "high": 575.46,
+      "low": 534.69,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 559.97,
+        "regular_change_pct": 2.56,
+        "regular_close_label_exchange": "Nov 17 04:00PM EST",
+        "provider_update_beijing": "2026-11-18 08:47:51",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 594.8725,
+        "change_vs_regular_close_pct": 6.23,
+        "time_exchange": "2026-11-17T19:47:00-05:00",
+        "time_beijing": "2026-11-18T08:47:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true,
+        "tencent_crosscheck": {
+          "price": 594.87,
+          "change_vs_regular_close_pct": 6.23,
+          "time_exchange": "2026-11-17 19:47:40-05:00",
+          "session_label": "after",
+          "source": "history_LITE.raw",
+          "sina_time_precision": "minute"
+        }
+      },
+      "close_vs_open_pct": -1.1701376632545002,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 1,
+      "historical_dates_returned": [
+        "2026-11-17"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "MRVL": {
+      "symbol": "MRVL",
+      "name": "迈威尔科技",
+      "regular_close": 148.74,
+      "previous_regular_close": 145.36,
+      "open": 150.2,
+      "regular_change_pct": 2.33,
+      "high": 150.95,
+      "low": 140.9,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 148.74,
+        "regular_change_pct": 2.33,
+        "regular_close_label_exchange": "Nov 17 04:00PM EST",
+        "provider_update_beijing": "2026-11-18 08:47:48",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 156.7887,
+        "change_vs_regular_close_pct": 5.41,
+        "time_exchange": "2026-11-17T19:47:00-05:00",
+        "time_beijing": "2026-11-18T08:47:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true,
+        "tencent_crosscheck": {
+          "price": 156.79,
+          "change_vs_regular_close_pct": 5.41,
+          "time_exchange": "2026-11-17 19:47:48-05:00",
+          "session_label": "after",
+          "source": "history_MRVL.raw",
+          "sina_time_precision": "minute"
+        }
+      },
+      "close_vs_open_pct": -0.9720372836218294,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 2,
+      "historical_dates_returned": [
+        "2011-06-02",
+        "2026-11-17"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "COHR": {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "regular_close": 210.86,
+      "previous_regular_close": 203.43,
+      "open": 214.91,
+      "regular_change_pct": 3.65,
+      "high": 217.2,
+      "low": 200.53,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:05:11-05:00",
+      "source_last_update_beijing": "2026-11-18T05:05:11+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 210.86,
+        "regular_change_pct": 3.65,
+        "regular_close_label_exchange": "Nov 17 04:00PM EST",
+        "provider_update_beijing": "2026-11-18 08:47:47",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 225.3,
+        "change_vs_regular_close_pct": 6.85,
+        "time_exchange": "2026-11-17T19:47:00-05:00",
+        "time_beijing": "2026-11-18T08:47:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true,
+        "tencent_crosscheck": {
+          "price": 225.3,
+          "change_vs_regular_close_pct": 6.85,
+          "time_exchange": "2026-11-17 19:47:08-05:00",
+          "session_label": "after",
+          "source": "history_COHR.raw",
+          "sina_time_precision": "minute"
+        }
+      },
+      "close_vs_open_pct": -1.8845097947978173,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 2,
+      "historical_dates_returned": [
+        "2011-06-02",
+        "2026-11-17"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "CIEN": {
+      "symbol": "CIEN",
+      "name": "Ciena科技",
+      "regular_close": 264.82,
+      "previous_regular_close": 257.56,
+      "open": 263.97,
+      "regular_change_pct": 2.82,
+      "high": 266.49,
+      "low": 251.54,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:05:11-05:00",
+      "source_last_update_beijing": "2026-11-18T05:05:11+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 264.82,
+        "regular_change_pct": 2.82,
+        "regular_close_label_exchange": "Nov 17 04:00PM EST",
+        "provider_update_beijing": "2026-11-18 08:45:25",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 277.0,
+        "change_vs_regular_close_pct": 4.6,
+        "time_exchange": "2026-11-17T19:41:00-05:00",
+        "time_beijing": "2026-11-18T08:41:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true,
+        "tencent_crosscheck": {
+          "price": 277.0,
+          "change_vs_regular_close_pct": 4.6,
+          "time_exchange": "2026-11-17 19:41:47-05:00",
+          "session_label": "after",
+          "source": "history_CIEN.raw",
+          "sina_time_precision": "minute"
+        }
+      },
+      "close_vs_open_pct": 0.32200628859337943,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 2,
+      "historical_dates_returned": [
+        "2011-06-02",
+        "2026-11-17"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "AAOI": {
+      "symbol": "AAOI",
+      "name": "应用光电",
+      "regular_close": 45.22,
+      "previous_regular_close": 45.16,
+      "open": 48.13,
+      "regular_change_pct": 0.13,
+      "high": 48.22,
+      "low": 42.65,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 45.22,
+        "regular_change_pct": 0.13,
+        "regular_close_label_exchange": "Nov 17 04:00PM EST",
+        "provider_update_beijing": "2026-11-18 08:47:48",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 40.9079,
+        "change_vs_regular_close_pct": -9.54,
+        "time_exchange": "2026-11-17T19:47:00-05:00",
+        "time_beijing": "2026-11-18T08:47:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true,
+        "tencent_crosscheck": {
+          "price": 40.91,
+          "change_vs_regular_close_pct": -9.54,
+          "time_exchange": "2026-11-17 19:47:47-05:00",
+          "session_label": "after",
+          "source": "history_AAOI.raw",
+          "sina_time_precision": "minute"
+        }
+      },
+      "close_vs_open_pct": -6.046125077913988,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 1,
+      "historical_dates_returned": [
+        "2026-11-17"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "FN": {
+      "symbol": "FN",
+      "name": "Fabrinet",
+      "regular_close": 314.75,
+      "previous_regular_close": 311.01,
+      "open": 329.11,
+      "regular_change_pct": 1.2,
+      "high": 329.11,
+      "low": 306.36,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:05:11-05:00",
+      "source_last_update_beijing": "2026-11-18T05:05:11+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 314.75,
+        "regular_change_pct": 1.2,
+        "regular_close_label_exchange": "Nov 17 04:00PM EST",
+        "provider_update_beijing": "2026-11-18 08:47:23",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 325.0,
+        "change_vs_regular_close_pct": 3.26,
+        "time_exchange": "2026-11-17T19:43:00-05:00",
+        "time_beijing": "2026-11-18T08:43:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true,
+        "tencent_crosscheck": {
+          "price": 325.0,
+          "change_vs_regular_close_pct": 3.26,
+          "time_exchange": "2026-11-17 19:43:14-05:00",
+          "session_label": "after",
+          "source": "history_FN.raw",
+          "sina_time_precision": "minute"
+        }
+      },
+      "close_vs_open_pct": -4.363282792987155,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 2,
+      "historical_dates_returned": [
+        "2011-06-02",
+        "2026-11-17"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns.",
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "英伟达",
+      "regular_close": 155.46,
+      "previous_regular_close": 156.14,
+      "open": 156.9,
+      "regular_change_pct": -0.44,
+      "high": 158.19,
+      "low": 150.33,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 155.46,
+        "regular_change_pct": -0.44,
+        "regular_close_label_exchange": "Nov 17 04:00PM EST",
+        "provider_update_beijing": "2026-11-18 08:47:52",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 162.25,
+        "change_vs_regular_close_pct": 4.37,
+        "time_exchange": "2026-11-17T19:47:00-05:00",
+        "time_beijing": "2026-11-18T08:47:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -0.9177820267686432,
+      "ohlc_does_not_establish_intraday_path": true,
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "博通",
+      "regular_close": 341.6,
+      "previous_regular_close": 333.4,
+      "open": 335.59,
+      "regular_change_pct": 2.46,
+      "high": 344.0,
+      "low": 330.13,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 341.6,
+        "regular_change_pct": 2.46,
+        "regular_close_label_exchange": "Nov 17 04:00PM EST",
+        "provider_update_beijing": "2026-11-18 08:47:50",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 350.96,
+        "change_vs_regular_close_pct": 2.74,
+        "time_exchange": "2026-11-17T19:47:00-05:00",
+        "time_beijing": "2026-11-18T08:47:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": 1.7908757710301426,
+      "ohlc_does_not_establish_intraday_path": true,
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    ".IXIC": {
+      "symbol": ".IXIC",
+      "name": "纳斯达克",
+      "regular_close": 24328.38,
+      "previous_regular_close": 24509.76,
+      "open": 24528.06,
+      "regular_change_pct": -0.74,
+      "high": 24547.66,
+      "low": 23989.09,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": null,
+      "source_last_update_exchange": "2026-11-17T17:15:59-05:00",
+      "source_last_update_beijing": "2026-11-18T06:15:59+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 24328.383,
+        "regular_change_pct": -0.74,
+        "provider_update_beijing": "2026-11-18 06:30:00",
+        "provider_exchange_label": "Nov 17 05:16PM EST"
+      },
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "SOXX": {
+      "symbol": "SOXX",
+      "name": "费城半导体ETF-iShares",
+      "regular_close": 141.46,
+      "previous_regular_close": 141.22,
+      "open": 142.89,
+      "regular_change_pct": 0.17,
+      "high": 142.99,
+      "low": 136.16,
+      "session_date": "2026-11-17",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-17T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-18T05:00:01+08:00",
+      "source": "quotes.raw",
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    },
+    "SOX": {
+      "symbol": "SOX",
+      "name": "费交所半导体股指数",
+      "regular_close": 9642.878,
+      "regular_change_pct": 0.34,
+      "previous_regular_close": 9610.6523,
+      "open": 9698.2589,
+      "high": 9745.9462,
+      "low": 9295.0147,
+      "session_date": "2026-11-17",
+      "session": "regular_session_index_value",
+      "provider_update_beijing": "2026-11-18 06:16:01",
+      "provider_exchange_label": "Nov 17 05:16PM EST",
+      "source": "sina.raw",
+      "afterhours": null,
+      "note": "Index dissemination timestamp after16:00ET is not an after-hours traded session. Independent second SOX index provider not obtained; SOXX ETF is distinct.",
+      "premarket": {
+        "price": null,
+        "time": null,
+        "status": "2026-11-18USpremarkethasnotstartedatthisBeijingmorningcheck"
+      }
+    }
+  },
+  "previous_a_share_session": {
+    "prepared_at": "2026-11-18T08:48:44.485103+08:00",
+    "report_date": "2026-11-18",
+    "a_share_session_date": "2026-11-17",
+    "data_cutoff_at": "2026-11-17T15:00:00+08:00",
+    "rows": [
+      {
+        "symbol": "sz300502",
+        "name": "新易盛",
+        "session_date": "2026-11-17",
+        "open": 163.62,
+        "high": 167.46,
+        "low": 155.24,
+        "close": 160.0,
+        "previous_close": 166.8,
+        "change_pct": -4.07673860911271,
+        "opening_gap_pct": -1.9064748201438848,
+        "close_vs_open_pct": -2.212443466568879,
+        "daily_volume_change_pct": -3.12852336084963,
+        "regular_session_amount_yi_cny": 140.90068308756,
+        "regular_session_volume_shares_or_index_aggregate": 87637324.0,
+        "m5_high_intervals": [
+          {
+            "start": "2026-11-17T10:15:00+08:00",
+            "end": "2026-11-17T10:20:00+08:00",
+            "exact_tick_time": null,
+            "high": 167.46
+          }
+        ],
+        "m5_low_intervals": [
+          {
+            "start": "2026-11-17T14:35:00+08:00",
+            "end": "2026-11-17T14:40:00+08:00",
+            "exact_tick_time": null,
+            "low": 155.24
+          }
+        ],
+        "m5_complete_bars": 48,
+        "crosscheck": {
+          "complete_48_m5_bars": true,
+          "m5_matches_daily": true,
+          "previous_daily_matches_archive": true
+        },
+        "raw_daily_bar": [
+          "2026-11-17",
+          "163.620",
+          "160.000",
+          "167.460",
+          "155.240",
+          "876373.000"
+        ],
+        "raw_previous_daily_bar": [
+          "2026-11-16",
+          "182.770",
+          "166.800",
+          "183.700",
+          "165.000",
+          "904676.000"
+        ],
+        "raw_first_m5_bar": {
+          "day": "2026-11-17 09:35:00",
+          "open": "163.620",
+          "high": "165.000",
+          "low": "158.650",
+          "close": "161.380",
+          "volume": "10981944",
+          "amount": "1777026192.1046"
+        },
+        "raw_final_m5_bar": {
+          "day": "2026-11-17 15:00:00",
+          "open": "159.400",
+          "high": "160.000",
+          "low": "159.330",
+          "close": "160.000",
+          "volume": "2062286",
+          "amount": "329518628.1885"
+        },
+        "market_data_cutoff": "2026-11-17T15:00:00+08:00",
+        "current_day_data_excluded": true,
+        "final_session_vwap": 160.77702587947573,
+        "close_above_day_low_pct": 3.0662200463797973,
+        "last20minutes_price_change_pct": 2.4458957613010535,
+        "intraday_structure": {
+          "low_opening_gap": true,
+          "day_high_above_previous_close": true,
+          "late_rebound_from_1440_close_to_final_close": true,
+          "below_final_session_vwap": true,
+          "late_rebound_evidence": {
+            "comparison_start": "2026-11-17T14:40:00+08:00",
+            "start_price": 156.18,
+            "comparison_end": "2026-11-17T15:00:00+08:00",
+            "end_price": 160.0,
+            "raw_start_bar": {
+              "day": "2026-11-17 14:40:00",
+              "open": "155.710",
+              "high": "156.360",
+              "low": "155.240",
+              "close": "156.180",
+              "volume": "1873454",
+              "amount": "291962856.7622"
+            },
+            "raw_final_bar": {
+              "day": "2026-11-17 15:00:00",
+              "open": "159.400",
+              "high": "160.000",
+              "low": "159.330",
+              "close": "160.000",
+              "volume": "2062286",
+              "amount": "329518628.1885"
+            }
+          },
+          "note": "只据已结束完整五分钟柱描述低开、盘中反抽和尾盘回升；不推断全天逐笔路径或消息因果。"
+        }
+      },
+      {
+        "symbol": "sz300308",
+        "name": "中际旭创",
+        "session_date": "2026-11-17",
+        "open": 398.88,
+        "high": 410.96,
+        "low": 383.0,
+        "close": 393.0,
+        "previous_close": 408.97,
+        "change_pct": -3.9049319020955084,
+        "opening_gap_pct": -2.4671736313177006,
+        "close_vs_open_pct": -1.474127557160048,
+        "daily_volume_change_pct": -6.189326751828447,
+        "regular_session_amount_yi_cny": 204.749308398633,
+        "regular_session_volume_shares_or_index_aggregate": 51883389.0,
+        "m5_high_intervals": [
+          {
+            "start": "2026-11-17T10:15:00+08:00",
+            "end": "2026-11-17T10:20:00+08:00",
+            "exact_tick_time": null,
+            "high": 410.96
+          }
+        ],
+        "m5_low_intervals": [
+          {
+            "start": "2026-11-17T14:30:00+08:00",
+            "end": "2026-11-17T14:35:00+08:00",
+            "exact_tick_time": null,
+            "low": 383.0
+          }
+        ],
+        "m5_complete_bars": 48,
+        "crosscheck": {
+          "complete_48_m5_bars": true,
+          "m5_matches_daily": true,
+          "previous_daily_matches_archive": true
+        },
+        "raw_daily_bar": [
+          "2026-11-17",
+          "398.880",
+          "393.000",
+          "410.960",
+          "383.000",
+          "518834.000"
+        ],
+        "raw_previous_daily_bar": [
+          "2026-11-16",
+          "450.000",
+          "408.970",
+          "455.000",
+          "406.000",
+          "553065.000"
+        ],
+        "raw_first_m5_bar": {
+          "day": "2026-11-17 09:35:00",
+          "open": "398.880",
+          "high": "402.000",
+          "low": "389.200",
+          "close": "391.190",
+          "volume": "7374055",
+          "amount": "2909071072.6328"
+        },
+        "raw_final_m5_bar": {
+          "day": "2026-11-17 15:00:00",
+          "open": "392.370",
+          "high": "394.000",
+          "low": "392.000",
+          "close": "393.000",
+          "volume": "1346700",
+          "amount": "529131714.2271"
+        },
+        "market_data_cutoff": "2026-11-17T15:00:00+08:00",
+        "current_day_data_excluded": true,
+        "final_session_vwap": 394.63364353210045,
+        "close_above_day_low_pct": 2.610966057441244,
+        "last20minutes_price_change_pct": 2.0779220779220786,
+        "intraday_structure": {
+          "low_opening_gap": true,
+          "day_high_above_previous_close": true,
+          "late_rebound_from_1440_close_to_final_close": true,
+          "below_final_session_vwap": true,
+          "late_rebound_evidence": {
+            "comparison_start": "2026-11-17T14:40:00+08:00",
+            "start_price": 385.0,
+            "comparison_end": "2026-11-17T15:00:00+08:00",
+            "end_price": 393.0,
+            "raw_start_bar": {
+              "day": "2026-11-17 14:40:00",
+              "open": "384.520",
+              "high": "385.530",
+              "low": "383.030",
+              "close": "385.000",
+              "volume": "1272629",
+              "amount": "489148215.3564"
+            },
+            "raw_final_bar": {
+              "day": "2026-11-17 15:00:00",
+              "open": "392.370",
+              "high": "394.000",
+              "low": "392.000",
+              "close": "393.000",
+              "volume": "1346700",
+              "amount": "529131714.2271"
+            }
+          },
+          "note": "只据已结束完整五分钟柱描述低开、盘中反抽和尾盘回升；不推断全天逐笔路径或消息因果。"
+        }
+      },
+      {
+        "symbol": "sh515880",
+        "name": "通信ETF国泰",
+        "session_date": "2026-11-17",
+        "open": 0.378,
+        "high": 0.389,
+        "low": 0.37,
+        "close": 0.377,
+        "previous_close": 0.385,
+        "change_pct": -2.0779220779220777,
+        "opening_gap_pct": -1.8181818181818181,
+        "close_vs_open_pct": -0.26455026455026454,
+        "daily_volume_change_pct": -9.217166654003734,
+        "regular_session_amount_yi_cny": 28.553657168399,
+        "regular_session_volume_shares_or_index_aggregate": 7545560948.0,
+        "m5_high_intervals": [
+          {
+            "start": "2026-11-17T11:05:00+08:00",
+            "end": "2026-11-17T11:10:00+08:00",
+            "exact_tick_time": null,
+            "high": 0.389
+          },
+          {
+            "start": "2026-11-17T11:10:00+08:00",
+            "end": "2026-11-17T11:15:00+08:00",
+            "exact_tick_time": null,
+            "high": 0.389
+          }
+        ],
+        "m5_low_intervals": [
+          {
+            "start": "2026-11-17T14:35:00+08:00",
+            "end": "2026-11-17T14:40:00+08:00",
+            "exact_tick_time": null,
+            "low": 0.37
+          }
+        ],
+        "m5_complete_bars": 48,
+        "crosscheck": {
+          "complete_48_m5_bars": true,
+          "m5_matches_daily": true,
+          "previous_daily_matches_archive": true
+        },
+        "raw_daily_bar": [
+          "2026-11-17",
+          "0.378",
+          "0.377",
+          "0.389",
+          "0.370",
+          "75455609.000"
+        ],
+        "raw_previous_daily_bar": [
+          "2026-11-16",
+          "0.408",
+          "0.385",
+          "0.410",
+          "0.382",
+          "83116605.000"
+        ],
+        "raw_first_m5_bar": {
+          "day": "2026-11-17 09:35:00",
+          "open": "0.378",
+          "high": "0.379",
+          "low": "0.373",
+          "close": "0.376",
+          "volume": "632723936",
+          "amount": "238143963.4693"
+        },
+        "raw_final_m5_bar": {
+          "day": "2026-11-17 15:00:00",
+          "open": "0.376",
+          "high": "0.377",
+          "low": "0.375",
+          "close": "0.377",
+          "volume": "209691900",
+          "amount": "78974937.1735"
+        },
+        "market_data_cutoff": "2026-11-17T15:00:00+08:00",
+        "current_day_data_excluded": true,
+        "final_session_vwap": 0.3784166262147459,
+        "close_above_day_low_pct": 1.8918918918918948,
+        "last20minutes_price_change_pct": 1.3440860215053752,
+        "intraday_structure": {
+          "low_opening_gap": true,
+          "day_high_above_previous_close": true,
+          "late_rebound_from_1440_close_to_final_close": true,
+          "below_final_session_vwap": true,
+          "late_rebound_evidence": {
+            "comparison_start": "2026-11-17T14:40:00+08:00",
+            "start_price": 0.372,
+            "comparison_end": "2026-11-17T15:00:00+08:00",
+            "end_price": 0.377,
+            "raw_start_bar": {
+              "day": "2026-11-17 14:40:00",
+              "open": "0.371",
+              "high": "0.372",
+              "low": "0.370",
+              "close": "0.372",
+              "volume": "161568300",
+              "amount": "59943176.0353"
+            },
+            "raw_final_bar": {
+              "day": "2026-11-17 15:00:00",
+              "open": "0.376",
+              "high": "0.377",
+              "low": "0.375",
+              "close": "0.377",
+              "volume": "209691900",
+              "amount": "78974937.1735"
+            }
+          },
+          "note": "只据已结束完整五分钟柱描述低开、盘中反抽和尾盘回升；不推断全天逐笔路径或消息因果。"
+        }
+      },
+      {
+        "symbol": "sz399006",
+        "name": "创业板指",
+        "session_date": "2026-11-17",
+        "open": 2299.968,
+        "high": 2343.146,
+        "low": 2263.742,
+        "close": 2292.204,
+        "previous_close": 2320.02,
+        "change_pct": -1.19895518142085,
+        "opening_gap_pct": -0.8643028939405695,
+        "close_vs_open_pct": -0.337569914016195,
+        "daily_volume_change_pct": 3.245045103824151,
+        "regular_session_amount_yi_cny": 3658.32077312,
+        "regular_session_volume_shares_or_index_aggregate": 15789441412.0,
+        "m5_high_intervals": [
+          {
+            "start": "2026-11-17T11:10:00+08:00",
+            "end": "2026-11-17T11:15:00+08:00",
+            "exact_tick_time": null,
+            "high": 2343.146
+          }
+        ],
+        "m5_low_intervals": [
+          {
+            "start": "2026-11-17T14:35:00+08:00",
+            "end": "2026-11-17T14:40:00+08:00",
+            "exact_tick_time": null,
+            "low": 2263.742
+          }
+        ],
+        "m5_complete_bars": 48,
+        "crosscheck": {
+          "complete_48_m5_bars": true,
+          "m5_matches_daily": true,
+          "previous_daily_matches_archive": true
+        },
+        "raw_daily_bar": [
+          "2026-11-17",
+          "2299.970",
+          "2292.200",
+          "2343.150",
+          "2263.740",
+          "157894414.000"
+        ],
+        "raw_previous_daily_bar": [
+          "2026-11-16",
+          "2395.520",
+          "2320.020",
+          "2398.190",
+          "2308.900",
+          "152931711.000"
+        ],
+        "raw_first_m5_bar": {
+          "day": "2026-11-17 09:35:00",
+          "open": "2299.968",
+          "high": "2299.968",
+          "low": "2284.557",
+          "close": "2293.547",
+          "volume": "1663298561",
+          "amount": "37711687680.0000"
+        },
+        "raw_final_m5_bar": {
+          "day": "2026-11-17 15:00:00",
+          "open": "2297.181",
+          "high": "2300.350",
+          "low": "2292.204",
+          "close": "2292.204",
+          "volume": "382299145",
+          "amount": "8908111872.0000"
+        },
+        "market_data_cutoff": "2026-11-17T15:00:00+08:00",
+        "current_day_data_excluded": true,
+        "final_session_vwap": null,
+        "close_above_day_low_pct": 1.2572987557769366,
+        "last20minutes_price_change_pct": 0.8247362823263549,
+        "intraday_structure": {
+          "low_opening_gap": true,
+          "day_high_above_previous_close": true,
+          "late_rebound_from_1440_close_to_final_close": true,
+          "below_final_session_vwap": null,
+          "late_rebound_evidence": {
+            "comparison_start": "2026-11-17T14:40:00+08:00",
+            "start_price": 2273.454,
+            "comparison_end": "2026-11-17T15:00:00+08:00",
+            "end_price": 2292.204,
+            "raw_start_bar": {
+              "day": "2026-11-17 14:40:00",
+              "open": "2264.330",
+              "high": "2273.530",
+              "low": "2263.742",
+              "close": "2273.454",
+              "volume": "376335086",
+              "amount": "8642691072.0000"
+            },
+            "raw_final_bar": {
+              "day": "2026-11-17 15:00:00",
+              "open": "2297.181",
+              "high": "2300.350",
+              "low": "2292.204",
+              "close": "2292.204",
+              "volume": "382299145",
+              "amount": "8908111872.0000"
+            }
+          },
+          "note": "只据已结束完整五分钟柱描述低开、盘中反抽和尾盘回升；不推断全天逐笔路径或消息因果。"
+        }
+      }
+    ],
+    "relative_strength_pctpoints": {
+      "eoptolink_minus_peer": -0.1718067070172018,
+      "eoptolink_minus_etf": -1.9988165311906325,
+      "eoptolink_minus_chinext": -2.8777834276918606,
+      "peer_minus_etf": -1.8270098241734307,
+      "peer_minus_chinext": -2.7059767206746583
+    },
+    "prior_prediction_review": {
+      "prior_date": "2026-11-17",
+      "prior_observation_file": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json",
+      "prior_observation_sha256": "783b9120864eb266d60b9723a3b877ec286742ed4874e8e049f801d46314727e",
+      "original_assessment": {
+        "a_share_sector": "光通信／光模块",
+        "opening_bias": null,
+        "opening_forecast_issued_before_open": false,
+        "opening_note": "任务实际开始于09:36，已开盘，未使用本日A股成交结果，也不补记任何08:45开盘预测。",
+        "overnight_implication": "隔夜信息偏负面，按昨收与隔夜证据倾向承压震荡，反抽持续性待验证。",
+        "full_day_base_case": "承压震荡；两股同步转强并守住成交均价、缩量回踩时转修复。",
+        "full_day_confidence": "中等偏低",
+        "numeric_probability": null,
+        "model_validated": false,
+        "probability_label": "暂无可靠百分比",
+        "supporting_evidence": [
+          "11月16日六家海外光通信正常盘跌5.17%至9.48%；除FN外均弱于费半跌5.28%，全部弱于纳指跌2.49%。",
+          "六家最近盘后快照较正常收盘再跌0.01%至0.60%，快照北京11月17日08:52至08:59，不作为当前价格。",
+          "11月16日新易盛跌11.08%、中际跌12.28%，均跑输通信ETF跌7.89%与创业板跌4.37%；本地相对承接弱。"
+        ],
+        "counterevidence": [
+          "国内两股此前大幅回撤可能带来反抽，但既有跌幅本身不能证明见底。",
+          "Lambda/NVIDIA新增规模CPO部署披露表明光网络建设仍在推进；交换机端CPO存在价值链结构变化，未识别国内两家具体订单变化。",
+          "Marvell/Penguin光互联合作是未来产品路线图；不能当作当前收入或已交付模块。",
+          "治理媒体说法不等于官方决议或新生效出口规则。海外股价下跌不证明国内丢单。"
+        ],
+        "alternative_scenarios": [
+          {
+            "scenario": "修复",
+            "conditions": "两股同步跑赢通信ETF和创业板，守住实际形成的累计成交均价，回踩低点抬高且等长完整时段回踩缩量。"
+          },
+          {
+            "scenario": "承压延续",
+            "conditions": "两股与ETF同步转弱，等长完整时段放量失守已形成回踩低点，反弹无法收回成交均价。"
+          }
+        ],
+        "opening_validation_signals": [
+          "两股是否同步跑赢通信ETF和创业板。",
+          "是否守住实际形成的累计成交均价，回踩局部低点能否抬高。",
+          "比较等长已结束时段回踩成交；不与前日全天成交量混比。"
+        ],
+        "validation_status": "仅列条件；未读取或声称今日开盘后这些信号已经发生。",
+        "medium_term": "继续核查800G／1.6T实际交付、毛利、回款和客户实际资本开支；将CPO结构替代、并购价差、融资估值压力与真实终端需求区分。"
+      },
+      "assessment_zh": "上次11月17日延迟报告倾向全天承压震荡、反抽持续性待验证；该报告09:36后才开始，不存在可复核的08:45开盘方向预测。实际昨日新易盛、中际低开1.91%、2.47%，10:15—10:20均有高于前收的成交，午后下探，14:40后回升，最终收160.00元（−4.08%）、393.00元（−3.90%），仍弱于通信ETF（−2.08%）与创业板（−1.20%）。全天承压方向相符，但此前描述未量化午后下探及尾盘修复，不能由一次方向相符推断命中率，也不能用价格证明海外消息因果。",
+      "no_hit_rate_estimate": true
+    },
+    "sources": [
+      {
+        "file": "sz300502-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.443376+00:00",
+        "ok": true,
+        "bytes": 3723,
+        "retrieved_utc": "2026-11-18T00:47:38.580968+00:00"
+      },
+      {
+        "file": "sz300502-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.443812+00:00",
+        "ok": true,
+        "bytes": 14340,
+        "retrieved_utc": "2026-11-18T00:47:38.750028+00:00"
+      },
+      {
+        "file": "sz300308-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300308,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.443977+00:00",
+        "ok": true,
+        "bytes": 3820,
+        "retrieved_utc": "2026-11-18T00:47:38.581841+00:00"
+      },
+      {
+        "file": "sz300308-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300308&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.444113+00:00",
+        "ok": true,
+        "bytes": 14309,
+        "retrieved_utc": "2026-11-18T00:47:38.725258+00:00"
+      },
+      {
+        "file": "sh515880-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.444260+00:00",
+        "ok": true,
+        "bytes": 3568,
+        "retrieved_utc": "2026-11-18T00:47:38.581911+00:00"
+      },
+      {
+        "file": "sh515880-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sh515880&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.444390+00:00",
+        "ok": true,
+        "bytes": 13641,
+        "retrieved_utc": "2026-11-18T00:47:38.725487+00:00"
+      },
+      {
+        "file": "sz399006-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.444517+00:00",
+        "ok": true,
+        "bytes": 3890,
+        "retrieved_utc": "2026-11-18T00:47:38.581073+00:00"
+      },
+      {
+        "file": "sz399006-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz399006&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.444667+00:00",
+        "ok": true,
+        "bytes": 15078,
+        "retrieved_utc": "2026-11-18T00:47:38.723030+00:00"
+      }
+    ],
+    "limitations": [
+      "实际抓取在11月18日08:47盘前；仅使用11月17日完整日线和48根5分钟K线，与11月16日收盘比较，不使用任何11月18日价格或当日低点。",
+      "高低点时点为5分钟区间，非首笔成交时间。",
+      "通信ETF为板块代理，不能代表全通信行业。",
+      "无直接交易所授权行情，仅公开第三方日线和分时一致性核对。",
+      "不读取或修改盘中监测state及任何预测。"
+    ],
+    "source_hashes": {
+      "sz300502-daily.json": "aa1bf30db60f8a355ed185c5bcfc491a78e3eec9e87d5c1274e4d1bcfef138ad",
+      "sz399006-daily.json": "c7a6e647c4080fad7900b5400ae92c9fdc48c93336ee08d371cbebdb40691ba9",
+      "sz399006-m5.txt": "8549a14aa3d2b54bc8953aa93fe04473efb3044c95d78916af8ca0fc7b1e0c68",
+      "sz300308-daily.json": "313ea5c3b2d05f227f9595b737f61cbc1bc5d4f6570fcc080174d19582ef308d",
+      "sh515880-m5.txt": "3e59208281915956463d9da12cd287f39d2d433e3284af31faa73c194a9b2b4a",
+      "sz300502-m5.txt": "d84e0d5f6dab3149fdf493acef72b1708bd7b4d62c7f5ee393928d75b199fc64",
+      "sz300308-m5.txt": "28021df11355d8482fef2950535147cfd214ca118fa937717b47f8d76c9d20d7",
+      "sh515880-daily.json": "c206056765e18982f1fdeb5aa6d339b129c1ea4e78482027d8b954e3c599a590",
+      "manifest.json": "0b810252fc9dce72508f7787379046d6ad9841f28f7ea080223e644ff0453f45"
+    }
+  },
+  "overseas_events": {
+    "schema_version": 1,
+    "prepared_at": "2026-11-18T08:51:18.180298+08:00",
+    "previous_report_cutoff_at": "2026-11-17T09:43:39+08:00",
+    "latest_source_retrieval_at": "2026-11-18T00:49:45.552563+00:00",
+    "scope": "22pagespublicSinafeed+SECsubmissionindicesforsixoptics,NVDA,AVGO,NBIS;accessibleMarvell/AAOIIR,NVIDIAnews;primaryNVDAearnings,CFOcommentaryandAAOIATMfilings;nochangesoutside/tmp.",
+    "new_verified_primary_events": [
+      {
+        "id": "NVDA_2027Q3_earnings_20261117",
+        "symbols": [
+          "NVDA"
+        ],
+        "classification": "new_primary_earnings_and_forward_guidance",
+        "sources": [
+          "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+        ],
+        "accepted_at_utc": "2026-11-17T21:20:51Z",
+        "accepted_at_beijing": "2026-11-18T05:20:51+08:00",
+        "official_publication_date": "2026-11-17",
+        "reporting_period": "Third quarter fiscal2027 endedOctober25,2026",
+        "facts": [
+          "Actualrevenue$115.8bn,+103%YoY,+20%QoQ;DataCenter$107.6bn,+110%YoY,+21%QoQ.",
+          "ActualGAAP/nonGAAPgrossmargin74.8%/74.9%;GAAP/nonGAAPEPS$2.70/$2.68.",
+          "ManagementQ4FY27revenueoutlook$130.0bnplusorminus3%($126.1-133.9bn);Q4hasoneadditionalweek;assumesnoDataCentercomputeChinaRevenue.",
+          "ManagementexpectsGAAPandnonGAAPgrossmarginbothwithin71.0%-72.0%range,lowerthanQ3actuals.",
+          "Actualoperatingcashflow$48.3bn;accountsreceivable$81.0bn;DSO64daysvs60dayspreviousquarter,citingRubinshipmentlinearityandextendedtermsonlargeagreementswithcertaininvestmentgradecustomers.",
+          "Supplycommitments$390bnvs$279bn,primarilymultiyearmemoryprocurement;notactualcashpaidandnotopticalmoduleorderamount.",
+          "Cloudserviceagreementsanduncommenceddatacenterleases$102bnvs$74bn;additionalneocloudcommitmentsupto$32bnconditionalonfinancing,operationaldeploymentandacceptance;maybereducedoreliminatedifconditionsnotmet.",
+          "Maximumgrossguaranteeexposure$118bn,including$105bnSB Energycredit-supportguarantees;phasebyphaseeffectiveness,todatenopaymentsundertheseGuarantees."
+        ],
+        "impact": "RealizedearningsandforwardrevenueoutlookcounterabruptAIdemandcollapse;lowerfuturegrossmargin,slowerreceivableturnoverandfinancing/executioncontingencieslimitconfidence. Notquantifieddomesticopticalorders.",
+        "correction_and_dedup": [
+          "$150bnadditionalbuybackwasapprovedSeptember2026,notnewlyapprovedthismorning;newdisclosureofpriorapprovaland$227.3bnremainingauthorizationdoesnotmeanalreadyexecutedbuybacks.",
+          "SomeSina07:06summarygiveswrong$127.4-132.6bnrange;useprimary$130bn±3%($126.1-133.9bn).",
+          "FY28growth75%andindustrybacklog$2.5tnarecallmediaquotesnotverifiedintheobtainedSECpressrelease/CFOtext;retainasattributedoutlookifused."
+        ]
+      },
+      {
+        "id": "AAOI_ATM_550m_20261117",
+        "symbols": [
+          "AAOI"
+        ],
+        "classification": "new_primary_equity_financing_capacity_not_earnings_or_cancelled_orders",
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+          "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm"
+        ],
+        "event_date": "2026-11-17",
+        "prospectus_accepted_at_utc": "2026-11-17T21:06:29Z",
+        "prospectus_accepted_at_beijing": "2026-11-18T05:06:29+08:00",
+        "eightK_accepted_at_beijing": "2026-11-18T05:09:50+08:00",
+        "reporting_period": "FinancingagreementandprospectusdatedNovember17,2026;notquarterlyearnings",
+        "facts": [
+          "EnteredEquityDistributionAgreementwithRaymondJamesandNeedham;mayissueandsellupto$550mcommonstockfromtimetotimeasanATMoffering.",
+          "Noobligationtosellanyshares;offeringmaybe suspended. Agentscompensationupto2%grosssalesprice.",
+          "Intendeduseofnetproceedsifany:generalcorporatepurposesincludingdebtrepayment,workingcapital,capitalexpendituresandacquisitions.",
+          "90,771,506commonsharesoutstandingatNov16perprospectus;actualsharesandproceedsdependonfuturemarketpricesandsales."
+        ],
+        "impact": "Potentialdilutionandfinancingsupplypressureisaseparateidiosyncraticrisk;thefilingdoesnotestablish$550malreadyraised,norcustomerordercancellations. Do not explain all peers by AAOI afterhours decline."
+      },
+      {
+        "id": "NVDA_supply_chain_capacity_commitments_20261117",
+        "symbols": [
+          "NVDA"
+        ],
+        "classification": "new_official_supplier_capacity_plans_not_current_output",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+        "official_publication_date": "2026-11-17",
+        "exact_publication_time_utc": null,
+        "reporting_period": "SupplychaincapacityannouncementNovember17,2026",
+        "facts": [
+          "New/expandedagreementsacrossKinsus,SamsungElectroMechanics,Amkor,SPIL,TSMC,FoxconncoverABFsubstrates,advancedpackagingandmanufacturing.",
+          "KinsusNVIDIA-dedicatedABFcapacityplannedover3.5xcurrentYouthcampuslevels;productionexpectedH22027,additionalcapacitytargetQ32028.",
+          "VeraRubinNVL72andVeraCPUsbeganvolumeshipmentsinQ3(companyclaim)."
+        ],
+        "impact": "Supportscontinuedmanufacturinginvestmentbutmultiyearcapacityplanisnotcurrentrealizedoutputoropticalmoduleorder. EarlierAmkorJuly/Octoberagreementsincludedasbackground."
+      },
+      {
+        "id": "NVDA_export_security_committee_20261117",
+        "symbols": [
+          "NVDA"
+        ],
+        "classification": "new_official_board_governance_not_new_export_rule",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+        "official_publication_date": "2026-11-17",
+        "exact_publication_time_utc": null,
+        "reporting_period": "BoardannouncementNovember17,2026",
+        "facts": [
+          "BoardestablishedstandingNationalSecurityandExportControlOversightCommitteechairedbySuzanneNoraJohnsonwithStephenNealandJohnDabiri.",
+          "NationalSecurityandGlobalTradeComplianceTeamsreporttoCommitteeandinterimCEO;retainsindependentoutsideexperts."
+        ],
+        "impact": "Verifiedgovernancecomplianceaction;neithernewgovernmentexportrestrictionnorconfirmedcustomercancellation."
+      }
+    ],
+    "new_non_demand_filings": [
+      {
+        "symbol": "MRVL",
+        "accessionNumber": "0001628280-26-074618",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-18T00:03:48.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/wk-form4_1794960225.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      },
+      {
+        "symbol": "MRVL",
+        "accessionNumber": "0001628280-26-074462",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:30:07.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/wk-form4_1794947404.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      },
+      {
+        "symbol": "LITE",
+        "accessionNumber": "0001489550-26-000016",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:19:50.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/form4-11172026_101146.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      },
+      {
+        "symbol": "LITE",
+        "accessionNumber": "0001570465-26-000008",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:18:24.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/form4-11172026_101121.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      },
+      {
+        "symbol": "LITE",
+        "accessionNumber": "0001573338-26-000022",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:17:03.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/form4-11172026_101159.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      },
+      {
+        "symbol": "LITE",
+        "accessionNumber": "0001561100-26-000010",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:15:23.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/form4-11172026_101119.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      },
+      {
+        "symbol": "LITE",
+        "accessionNumber": "0001950047-26-011207",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:05:23.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      },
+      {
+        "symbol": "LITE",
+        "accessionNumber": "0001950047-26-011206",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:04:56.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      },
+      {
+        "symbol": "NBIS",
+        "accessionNumber": "0001513845-26-000151",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T11:56:19.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/form4.xml",
+        "classification": "ownership_filing_not_company_earnings_or_customer_orders"
+      }
+    ],
+    "secondary_unconfirmed_context": [
+      {
+        "time": "2026-11-17 15:19:22",
+        "text": "【外交部批美国经济胁迫：美国无理打压中国高新技术产业发展】11月17日，外交部发言人郭嘉昆主持例行记者会。 有记者提问，11月16日，美国商务部发布了限制远程获取先进半导体临时最终规则，以新加坡、泰国、马来西亚、印尼和巴西存在非法对华转移芯片高风险为由，要求向相关国家企业出口先进芯片时，申请美国出口许可证，从而防止受限制国家和企业获取美国敏感技术。中方对此有何评论？ 郭嘉昆表示，美方不断泛化国家安全概念，滥用出口管制措施，甚至横加干涉中国同其他国家开展正常贸易与科技合作，无理打压中国高新技术产业发展，这是典型的经济胁迫和“长臂管辖”，背离双方达成的共识，损害中国企业正当权益，扰乱全球产供链稳定。中方将采取必要措施，坚决维护自身正当权益。（北京日报）",
+        "id": 5219349,
+        "source": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyznqf5493094.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-17 20:28:09",
+        "text": "【商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问】问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。",
+        "id": 5220140,
+        "source": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2101788.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-17 21:15:37",
+        "text": "【英伟达高管：芯片从出厂至系统出货周期可由五周缩至两周 正围绕CPO技术构建新的供应链】英伟达运营执行副总裁Deb Shoquist表示，在需要时，英伟达可将芯片从台积电出厂到系统从富士康、纬创出厂的周期，由五周缩短至两周。公司每周根据各工厂的产能及生产表现分配芯片，并对每颗芯片实施从裸片编号到客户发票的全程追踪。Deb Shoquist表示，随着英伟达从芯片供应商转向数据中心系统公司，供应链需要覆盖更多技术领域。部分光组件合作伙伴具备技术能力，但缺乏扩产所需的规模和资金，英伟达正通过投资及合作提供支持，并围绕共封装光学（CPO）技术构建新的供应链。",
+        "id": 5220278,
+        "source": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmx5357683.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-17 22:00:59",
+        "text": "耐克：预计2028财年营收下滑幅度将收窄。",
+        "id": 5220392,
+        "source": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2161496.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-18 06:07:53",
+        "text": "英伟达临时CEO科莱特·克雷斯：目前预计2028财年营收将同比增长约75%。云行业积压订单现已达2.5万亿美元，而三个月前仅为2万亿美元。",
+        "id": 5220980,
+        "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizayrr1782343.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-18 07:25:54",
+        "text": "【英伟达：仍在评估新出口管制的潜在影响】在前首席执行官黄仁勋卷入丑闻后，英伟达仍在评估更严格的出口审查将如何影响该公司。临时首席执行官科莱特·克雷斯表示，管理层已评估美国商务部本周发布的新出口管制措施。她说：“我们仍将花一些时间研究这些措施，看看其中不同的组成部分。“分析师估计，对出口至新加坡和马来西亚的限制可能使英伟达收入最多减少10%。克雷斯表示，她预计强劲需求将抵消任何潜在冲击的影响；与此同时，该公司将2028年收入展望上调了5个百分点。",
+        "id": 5221065,
+        "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexm4911153.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-18 07:27:52",
+        "text": "【英伟达临时CEO：云计算行业订单积压规模已达2.5万亿美元】当地时间11月17日，英伟达临时CEO兼首席财务官科莱特·克雷斯在财报会议中表示，云计算行业订单积压规模已从三个月前的2万亿美元增至2.5万亿美元。她还表示，英伟达超大规模云客户的营收增速已连续六个季度加快，OpenAI和Anthropic推出的新一代前沿模型正推动AI应用及相关收入增长。",
+        "id": 5221067,
+        "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexm4912236.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-18 07:37:28",
+        "text": "【英伟达财报超出预期 公司不会就黄仁勋辞职一事回答提问】英伟达股价上涨，此前该公司第三季度盈利和营收均超出华尔街预期，并预计第四季度营收将高于分析师共识预期。随后，英伟达在与分析师和投资者举行的电话会议伊始便表示，不会就长期担任首席执行官的黄仁勋辞职一事回答提问，且不计划让他复职 。临时首席执行官科莱特·克雷斯向投资者表示，公司预计2028财年营收将增长75%。",
+        "id": 5221076,
+        "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexm4916617.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-18 08:19:03",
+        "text": "【阿波罗CEO警告：新云公司融资渠道或\"消失\"】阿波罗全球管理CEO马克·罗恩（Marc Rowan）警告称，如果英伟达切断对其人工智能项目的融资支持，新云（neocloud）公司可能陷入困境。”从商业角度来看，英伟达有强烈动机推动这些项目落地。如果这种’银行功能’、这种’担保人功能’被剥离，大量新云公司的融资渠道将会消失。”罗恩此番言论发表前，”大空头”投资者史蒂夫·艾斯曼（Steve Eisman）周二表示，新云公司”都面临大麻烦，因为它们是那个垂直控股结构的一部分，我认为它们即将被踢出局。”",
+        "id": 5221127,
+        "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexm4942989.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      },
+      {
+        "time": "2026-11-18 08:19:58",
+        "text": "【微软CEO盛赞黄仁勋，回应大规模服务中断和员工买断计划】微软CEO萨蒂亚·纳德拉在周二一次活动上称赞英伟达创始人黄仁勋是一位“独一无二的人”，并指出他对科技行业做出了巨大贡献，但并未明确呼吁让黄仁勋重返这家芯片制造商的最高领导岗位，“我只想给他留出空间，让他去处理他需要做的事情；至于接下来会发生什么，那不由我决定，而是由英伟达董事会来定夺。”纳德拉透露，他曾在上周末给黄仁勋发短信表达关切。在谈及近期的中期选举，以及美国各地社区纷纷抵制AI数据中心的现象时，纳德拉表示，选举结果并没有改变微软建设数据中心的计划，制约数据中心增长的更多的是电力、芯片晶圆和内存的可用性，而不是选举周期。纳德拉还回应了上周微软系统发生的大规模故障，称此次服务中断并非由人工智能代码或人工智能部署所致；这是一场“各种因素凑巧叠加”的意外——在常规测试期间，一个程序错误在特定的网络流量条件下显现了出来。事实上，内部的人工智能工具反而帮助工程师更快地解决了这一问题。",
+        "id": 5221128,
+        "source": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcexp1719958.d.html",
+        "classification": "attributed_media_or_management_call_quote_not_independently_verified_primary_in_this_run"
+      }
+    ],
+    "SEC_index_checks": [
+      {
+        "symbol": "MRVL",
+        "cik": "0001835632",
+        "new_filings": [
+          {
+            "accessionNumber": "0001628280-26-074618",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-18T00:03:48.000Z",
+            "form": "4",
+            "primaryDocument": "xslF345X06/wk-form4_1794960225.xml"
+          },
+          {
+            "accessionNumber": "0001628280-26-074462",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T20:30:07.000Z",
+            "form": "4",
+            "primaryDocument": "xslF345X06/wk-form4_1794947404.xml"
+          }
+        ]
+      },
+      {
+        "symbol": "AAOI",
+        "cik": "0001158114",
+        "new_filings": [
+          {
+            "accessionNumber": "0001104659-26-129055",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T21:09:50.000Z",
+            "form": "8-K",
+            "primaryDocument": "tm2629531d2_8k.htm"
+          },
+          {
+            "accessionNumber": "0001104659-26-129051",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T21:06:29.000Z",
+            "form": "424B5",
+            "primaryDocument": "tm2629531-1_424b5.htm"
+          }
+        ]
+      },
+      {
+        "symbol": "AVGO",
+        "cik": "0001730168",
+        "new_filings": []
+      },
+      {
+        "symbol": "LITE",
+        "cik": "0001633978",
+        "new_filings": [
+          {
+            "accessionNumber": "0001489550-26-000016",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T22:19:50.000Z",
+            "form": "4",
+            "primaryDocument": "xslF345X06/form4-11172026_101146.xml"
+          },
+          {
+            "accessionNumber": "0001570465-26-000008",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T22:18:24.000Z",
+            "form": "4",
+            "primaryDocument": "xslF345X06/form4-11172026_101121.xml"
+          },
+          {
+            "accessionNumber": "0001573338-26-000022",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T22:17:03.000Z",
+            "form": "4",
+            "primaryDocument": "xslF345X06/form4-11172026_101159.xml"
+          },
+          {
+            "accessionNumber": "0001561100-26-000010",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T22:15:23.000Z",
+            "form": "4",
+            "primaryDocument": "xslF345X06/form4-11172026_101119.xml"
+          },
+          {
+            "accessionNumber": "0001950047-26-011207",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T21:05:23.000Z",
+            "form": "144",
+            "primaryDocument": "xsl144X01/primary_doc.xml"
+          },
+          {
+            "accessionNumber": "0001950047-26-011206",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T21:04:56.000Z",
+            "form": "144",
+            "primaryDocument": "xsl144X01/primary_doc.xml"
+          }
+        ]
+      },
+      {
+        "symbol": "FN",
+        "cik": "0001408710",
+        "new_filings": []
+      },
+      {
+        "symbol": "COHR",
+        "cik": "0000820318",
+        "new_filings": []
+      },
+      {
+        "symbol": "CIEN",
+        "cik": "0000936395",
+        "new_filings": []
+      },
+      {
+        "symbol": "NVDA",
+        "cik": "0001045810",
+        "new_filings": [
+          {
+            "accessionNumber": "0001045810-26-000088",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T21:20:51.000Z",
+            "form": "8-K",
+            "primaryDocument": "nvda-20261117.htm"
+          }
+        ]
+      },
+      {
+        "symbol": "NBIS",
+        "cik": "0001513845",
+        "new_filings": [
+          {
+            "accessionNumber": "0001513845-26-000151",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T11:56:19.000Z",
+            "form": "4",
+            "primaryDocument": "xslF345X06/form4.xml"
+          }
+        ]
+      }
+    ],
+    "seen_events_additions": [
+      {
+        "id": "NVDA_2027Q3_earnings_20261117",
+        "symbols": [
+          "NVDA"
+        ],
+        "classification": "new_primary_earnings_and_forward_guidance",
+        "sources": [
+          "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+        ],
+        "accepted_at_beijing": "2026-11-18T05:20:51+08:00",
+        "official_publication_date": "2026-11-17"
+      },
+      {
+        "id": "AAOI_ATM_550m_20261117",
+        "symbols": [
+          "AAOI"
+        ],
+        "classification": "new_primary_equity_financing_capacity_not_earnings_or_cancelled_orders",
+        "sources": [
+          "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+          "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm"
+        ],
+        "event_date": "2026-11-17"
+      },
+      {
+        "id": "NVDA_supply_chain_capacity_commitments_20261117",
+        "symbols": [
+          "NVDA"
+        ],
+        "classification": "new_official_supplier_capacity_plans_not_current_output",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+        "official_publication_date": "2026-11-17"
+      },
+      {
+        "id": "NVDA_export_security_committee_20261117",
+        "symbols": [
+          "NVDA"
+        ],
+        "classification": "new_official_board_governance_not_new_export_rule",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+        "official_publication_date": "2026-11-17"
+      },
+      {
+        "id": "SEC_0001628280-26-074618",
+        "symbol": "MRVL",
+        "classification": "new_filing_index_item_form_4",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-18T00:03:48.000Z"
+      },
+      {
+        "id": "SEC_0001628280-26-074462",
+        "symbol": "MRVL",
+        "classification": "new_filing_index_item_form_4",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T20:30:07.000Z"
+      },
+      {
+        "id": "SEC_0001104659-26-129055",
+        "symbol": "AAOI",
+        "classification": "new_filing_index_item_form_8-K",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T21:09:50.000Z"
+      },
+      {
+        "id": "SEC_0001104659-26-129051",
+        "symbol": "AAOI",
+        "classification": "new_filing_index_item_form_424B5",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T21:06:29.000Z"
+      },
+      {
+        "id": "SEC_0001489550-26-000016",
+        "symbol": "LITE",
+        "classification": "new_filing_index_item_form_4",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T22:19:50.000Z"
+      },
+      {
+        "id": "SEC_0001570465-26-000008",
+        "symbol": "LITE",
+        "classification": "new_filing_index_item_form_4",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T22:18:24.000Z"
+      },
+      {
+        "id": "SEC_0001573338-26-000022",
+        "symbol": "LITE",
+        "classification": "new_filing_index_item_form_4",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T22:17:03.000Z"
+      },
+      {
+        "id": "SEC_0001561100-26-000010",
+        "symbol": "LITE",
+        "classification": "new_filing_index_item_form_4",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T22:15:23.000Z"
+      },
+      {
+        "id": "SEC_0001950047-26-011207",
+        "symbol": "LITE",
+        "classification": "new_filing_index_item_form_144",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T21:05:23.000Z"
+      },
+      {
+        "id": "SEC_0001950047-26-011206",
+        "symbol": "LITE",
+        "classification": "new_filing_index_item_form_144",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T21:04:56.000Z"
+      },
+      {
+        "id": "SEC_0001045810-26-000088",
+        "symbol": "NVDA",
+        "classification": "new_filing_index_item_form_8-K",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T21:20:51.000Z"
+      },
+      {
+        "id": "SEC_0001513845-26-000151",
+        "symbol": "NBIS",
+        "classification": "new_filing_index_item_form_4",
+        "filing_date": "2026-11-17",
+        "accepted_at_utc": "2026-11-17T11:56:19.000Z"
+      }
+    ],
+    "news_coverage": {
+      "pages": 22,
+      "unique_ids": 2200,
+      "earliest": "2026-11-17 09:37:29",
+      "latest": "2026-11-18 08:47:05",
+      "relative_to_prior_cutoff_matched": 2190,
+      "full_interval_overlaps_baseline": true
+    },
+    "deduplication": {
+      "already_reported_not_new": [
+        "LambdaNov16CPOdeployment",
+        "MRVLNov16Penguinmemory/photoniccooperation",
+        "NVDA_Nov12_CEOtransition",
+        "NBIS_Nov12deliverydelay",
+        "Nov17afternoonPimcoNov10spreadstrategyview",
+        "13FSeptember30holdings"
+      ],
+      "new_8k_and_press_release_same_event": true,
+      "AAOI8k_and424B5_same_financing": true
+    },
+    "absence_statement": "BesidesnewAAOIATMfinancing,noverifiednewquarterlyearnings/revenueguidancecutorquantifiedcustomercancellationinthereviewedsixopticpeerindicesandaccessibleIR. No new LITE/MRVLmergertermchangeverified;financingandmergerpricingmustnotbeassumedasdemandloss.",
+    "limits": [
+      "LITE/CIENIRHTTP429,FN/AVGOIR403;Coherentdynamicpresslistlimited.",
+      "BISpress-releaseindexrequest404;newremoteadvancedchipaccessmeasuresaremedia-attributedwithoutverifiedruletext/effectivedate/scope,donotpromotetonewlyeffectiveopticalexportban.",
+      "CallquotesonFY28growth75%,backlog2.5tn,newexportimpactareattributedmedialines,notindependentlyretrievedfullcalltranscript.",
+      "NVDA10-QnotyetfiledperCFOcommentary;currentprimaryinformationfrom8-Kexhibitsandsupplementalfinancialdisclosure.",
+      "No verified module-order mapping to Eoptolink/InnoLight;sharepricechangesarenotorderproof."
+    ],
+    "source_manifests": [
+      {
+        "name": "mrvl_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+        "retrieved_at": "2026-11-18T00:47:39.709066+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 138533
+      },
+      {
+        "name": "aaoi_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+        "retrieved_at": "2026-11-18T00:47:39.710050+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 155066
+      },
+      {
+        "name": "avgo_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+        "retrieved_at": "2026-11-18T00:47:39.710379+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 160094
+      },
+      {
+        "name": "lite_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+        "retrieved_at": "2026-11-18T00:47:39.710667+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 160372
+      },
+      {
+        "name": "fn_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+        "retrieved_at": "2026-11-18T00:47:39.710935+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 155337
+      },
+      {
+        "name": "cohr_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+        "retrieved_at": "2026-11-18T00:47:39.711227+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 159783
+      },
+      {
+        "name": "cien_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+        "retrieved_at": "2026-11-18T00:47:39.711478+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 159187
+      },
+      {
+        "name": "nvda_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+        "retrieved_at": "2026-11-18T00:47:39.711820+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 160103
+      },
+      {
+        "name": "nvda_news",
+        "url": "https://nvidianews.nvidia.com/news",
+        "retrieved_at": "2026-11-18T00:47:41.307353+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 68179
+      },
+      {
+        "name": "lite_ir",
+        "url": "https://investor.lumentum.com/news-events/press-releases",
+        "retrieved_at": "2026-11-18T00:47:41.540152+00:00",
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "name": "cohr_ir",
+        "url": "https://www.coherent.com/news",
+        "retrieved_at": "2026-11-18T00:47:41.769688+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 170108
+      },
+      {
+        "name": "avgo_ir",
+        "url": "https://investors.broadcom.com/news-releases",
+        "retrieved_at": "2026-11-18T00:47:41.903885+00:00",
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "cien_ir",
+        "url": "https://investor.ciena.com/news-releases",
+        "retrieved_at": "2026-11-18T00:47:41.912424+00:00",
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "name": "fn_ir",
+        "url": "https://investor.fabrinet.com/news-releases",
+        "retrieved_at": "2026-11-18T00:47:41.951430+00:00",
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "aaoi_ir",
+        "url": "https://investors.ao-inc.com/",
+        "retrieved_at": "2026-11-18T00:47:42.062454+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 44035
+      },
+      {
+        "name": "mrvl_ir",
+        "url": "https://investor.marvell.com/news-events/press-releases",
+        "retrieved_at": "2026-11-18T00:47:42.106151+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 114815
+      },
+      {
+        "name": "nbis_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001513845.json",
+        "retrieved_at": "2026-11-18T00:47:42.162297+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 84869
+      },
+      {
+        "name": "news_1",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:42.640980+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 240602
+      },
+      {
+        "name": "news_2",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.017432+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 258647
+      },
+      {
+        "name": "news_3",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.036117+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 195648
+      },
+      {
+        "name": "news_4",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.099332+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 183550
+      },
+      {
+        "name": "news_5",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.245447+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 226275
+      },
+      {
+        "name": "news_6",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.279010+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 214563
+      },
+      {
+        "name": "news_7",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.420887+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 186438
+      },
+      {
+        "name": "news_8",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.435842+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 167248
+      },
+      {
+        "name": "news_9",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=9&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.494341+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 187370
+      },
+      {
+        "name": "news_10",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=10&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.494629+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 230108
+      },
+      {
+        "name": "news_11",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=11&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.526652+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 218361
+      },
+      {
+        "name": "news_12",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=12&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.671965+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 214590
+      },
+      {
+        "name": "news_13",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=13&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.799105+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 229465
+      },
+      {
+        "name": "news_14",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=14&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.812007+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 245854
+      },
+      {
+        "name": "news_15",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=15&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.818192+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 217233
+      },
+      {
+        "name": "news_16",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=16&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.856647+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 221319
+      },
+      {
+        "name": "news_17",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=17&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.959769+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 245226
+      },
+      {
+        "name": "news_18",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=18&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:44.065000+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 290370
+      },
+      {
+        "name": "nvda_q3",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "started_at": "2026-11-18T00:48:18.130088+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 398481,
+        "retrieved_at": "2026-11-18T00:48:19.085224+00:00"
+      },
+      {
+        "name": "nvda_8k",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+        "started_at": "2026-11-18T00:48:18.130761+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 26926,
+        "retrieved_at": "2026-11-18T00:48:19.402286+00:00"
+      },
+      {
+        "name": "aaoi_8k",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+        "started_at": "2026-11-18T00:48:18.130929+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 32786,
+        "retrieved_at": "2026-11-18T00:48:19.331242+00:00"
+      },
+      {
+        "name": "aaoi_424",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm",
+        "started_at": "2026-11-18T00:48:18.131067+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 394116,
+        "retrieved_at": "2026-11-18T00:48:21.804503+00:00"
+      },
+      {
+        "name": "nvda_cfo",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+        "started_at": "2026-11-18T00:49:07.631045+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 251579,
+        "retrieved_at": "2026-11-18T00:49:09.391867+00:00"
+      },
+      {
+        "name": "nvda_ex99",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+        "started_at": "2026-11-18T00:49:07.631558+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 348178,
+        "retrieved_at": "2026-11-18T00:49:11.669285+00:00"
+      },
+      {
+        "name": "nvda_commitments",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+        "started_at": "2026-11-18T00:49:07.631707+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 79599,
+        "retrieved_at": "2026-11-18T00:49:07.981692+00:00"
+      },
+      {
+        "name": "nvda_committee",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+        "started_at": "2026-11-18T00:49:07.631863+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 62519,
+        "retrieved_at": "2026-11-18T00:49:08.077525+00:00"
+      },
+      {
+        "name": "news_19",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=19&page_size=100&type=0",
+        "started_at": "2026-11-18T00:49:45.033557+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 262494,
+        "retrieved_at": "2026-11-18T00:49:45.552563+00:00"
+      },
+      {
+        "name": "news_20",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=20&page_size=100&type=0",
+        "started_at": "2026-11-18T00:49:45.034051+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 267242,
+        "retrieved_at": "2026-11-18T00:49:45.504391+00:00"
+      },
+      {
+        "name": "news_21",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=21&page_size=100&type=0",
+        "started_at": "2026-11-18T00:49:45.034218+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 208380,
+        "retrieved_at": "2026-11-18T00:49:45.409267+00:00"
+      },
+      {
+        "name": "news_22",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=22&page_size=100&type=0",
+        "started_at": "2026-11-18T00:49:45.034359+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 182768,
+        "retrieved_at": "2026-11-18T00:49:45.396107+00:00"
+      },
+      {
+        "name": "bis_index",
+        "url": "https://www.bis.gov/press-release",
+        "started_at": "2026-11-18T00:49:45.034489+00:00",
+        "ok": false,
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "candidate_report_text": "新增：英伟达11/17盘后披露截至10/25的FY27Q3收入1158亿美元、数据中心1076亿美元，Q4营收指引1300亿美元±3%，但毛利指引71%—72%低于Q3约74.9%；均区分实际与展望。AAOI新设最高5.5亿美元ATM股权发行，可能有融资稀释压力，尚非全额募资或撤单。供应承诺3900亿美元主要为多年存储采购，不等于已付现金或国内光模块订单；担保最大敞口1180亿美元为有条件风险。",
+    "subsequent_primary_corroboration": {
+      "verified_in_followup": {
+        "id": "MOFCOM_response_remote_advanced_semiconductors_20261117",
+        "official_response_date": "2026-11-17",
+        "official_response_time_local": null,
+        "source": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+        "confirmed": true,
+        "facts": [
+          "商务部官网11月17日答记者问确认，问题所述美国商务部于11月16日发布限制远程获取先进半导体相关措施。",
+          "中方表示强烈不满、坚决反对，并称若美方一意孤行将采取反制措施；这是回应及条件表态，不是已实施反制。"
+        ],
+        "limitation": "中国官方回应证实政策争议存在，但不提供美方规则全文、编号、许可证门槛、地域适用细则或生效日期。",
+        "publication_time_evidence": {
+          "date": "2026-11-17",
+          "meta_PubDate": "2026-11-17 20:27",
+          "visible_page_time": "2026-11-17 20:20",
+          "exact_minute_conflict": true
+        },
+        "classification": "official_Chinese_response_US_rule_details_and_effective_date_not_verified"
+      },
+      "note": "先前新闻核查中的商务部回应转载，现补取得中国官方原文；美方规则的生效和范围仍未核实。"
+    }
+  },
+  "regulation_followup": {
+    "prepared_at": "2026-11-18T08:54:12.486908+08:00",
+    "scope": "Bounded official verification of reported Nov16 US advanced-semiconductor remote-access measures",
+    "confirmed_primary": {
+      "id": "MOFCOM_response_remote_advanced_semiconductors_20261117",
+      "official_response_date": "2026-11-17",
+      "official_response_time_local": null,
+      "source": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+      "confirmed": true,
+      "facts": [
+        "商务部官网11月17日答记者问确认，问题所述美国商务部于11月16日发布限制远程获取先进半导体相关措施。",
+        "中方表示强烈不满、坚决反对，并称若美方一意孤行将采取反制措施；这是回应及条件表态，不是已实施反制。"
+      ],
+      "limitation": "中国官方回应证实政策争议存在，但不提供美方规则全文、编号、许可证门槛、地域适用细则或生效日期。",
+      "publication_time_evidence": {
+        "date": "2026-11-17",
+        "meta_PubDate": "2026-11-17 20:27",
+        "visible_page_time": "2026-11-17 20:20",
+        "exact_minute_conflict": true
+      }
+    },
+    "US_rule_primary_verified": false,
+    "rule_number": null,
+    "effective_date": null,
+    "reported_country_scope_verified": false,
+    "reported_countries": [
+      "Singapore",
+      "Thailand",
+      "Malaysia",
+      "Indonesia",
+      "Brazil"
+    ],
+    "federal_register_queries": {
+      "publication_range": [
+        "2026-11-16",
+        "2026-11-18"
+      ],
+      "advanced_computing_term_count": 2,
+      "advanced_computing_results_relevant": 0,
+      "BIS_agency_result_count": 0
+    },
+    "interpretation": "可报告新贸易监管不确定性，并引中国商务部原文；不能写五国许可要求已核实生效，不能直接认定光模块产品受禁或国内企业丢单。",
+    "limits": [
+      "Federal Register API有限日期和关键词/机构检索未查到，不证明规则不存在；BIS新闻索引由另一agent访问失败。",
+      "未取得美国正式规则及生效日期，未核实五国适用范围、例外或供应链管辖细则。",
+      "公告回应日期与媒体转载时间分开，条件反制表述不是已生效措施。",
+      "官网PubDate元数据20:27与可见正文页20:20不一致；仅确定11月17日晚披露，不用精确分钟断言先后。"
+    ],
+    "sources": [
+      {
+        "id": "fr_advanced",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&conditions%5Bterm%5D=advanced+computing&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+        "started_at": "2026-11-18T08:52:52.428035+08:00",
+        "status": 200,
+        "final_url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&conditions%5Bterm%5D=advanced+computing&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+        "ok": true,
+        "bytes": 6043,
+        "retrieved_at": "2026-11-18T08:52:53.570524+08:00",
+        "count": 2,
+        "results": [
+          {
+            "title": "Federal Reserve Bank Services",
+            "type": "Notice",
+            "abstract": "The Board of Governors of the Federal Reserve System (Board) has approved the private-sector adjustment factor (PSAF) for 2027 of $35.3 million and the 2027 fee schedules for Federal Reserve priced services and electronic access. These actions were taken in accordance with the Monetary Control Act of 1980 (MCA), which requires that, over the long run, fees for Federal Reserve priced services be established based on all direct and indirect costs, including the PSAF. Copies of all fee schedules are available from the Federal Reserve Financial Services (FRFS) website at www.FRBservices.org.",
+            "document_number": "2026-23289",
+            "html_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23289/federal-reserve-bank-services",
+            "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-16/pdf/2026-23289.pdf",
+            "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-23289.pdf?1794577522",
+            "publication_date": "2026-11-16",
+            "agencies": [
+              {
+                "raw_name": "FEDERAL RESERVE SYSTEM",
+                "name": "Federal Reserve System",
+                "id": 188,
+                "url": "https://www.federalregister.gov/agencies/federal-reserve-system",
+                "json_url": "https://www.federalregister.gov/api/v1/agencies/188",
+                "parent_id": null,
+                "slug": "federal-reserve-system"
+              }
+            ],
+            "excerpts": "windows. The Reserve Banks will also regularly apply fee increases for financial institutions that use the service to support long-run cost recovery objectives. \n The Reserve Banks expect to implement these changes beginning in 2027 and continuing over the next several years. <span class=\"match\">Advanced</span> notice of any changes would be provided through existing channels, such as through the Board's announcement of future fee schedules or the Reserve Banks' routine customer engagement and industry outreach. During this period, the Federal Reserve will continue its broader"
+          },
+          {
+            "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program",
+            "type": "Proposed Rule",
+            "abstract": "The Department of Labor (Department or DOL) proposes to amend its regulations regarding the certification of job opportunities offered by employers seeking to employ aliens on a permanent basis in the United States. This Notice of Proposed Rulemaking (NPRM or proposed rule) strengthens the standards by which the Department receives and reviews employers' applications for permanent labor certification and improves the integrity of the overall employment-based immigrant visa program to more effectively protect the wages and job opportunities of U.S. workers similarly employed in the United States. Among the issues addressed in this proposed rule are eliminating further administration of Schedule A, which exempts certain job opportunities from the statutorily required labor market test; strengthening the minimum standards of recruitment to ensure all employers seeking labor certification access the broadest pool of high-quality U.S. workers using the latest technologies and methods; enhancing safeguards for U.S. workers impacted by layoffs, including those laid off by employers using third-party staffing companies and establishing standards for employers to report layoffs; expanding requirements for employers to provide U.S. workers with notice of filing (NOF) applications for permanent labor certification; improving employer compliance with program requirements and consideration of qualified U.S. workers that is comparable to job opportunities for which permanent labor certification is not required; and codifying the Department's practice of electronically receiving, processing, and issuing final determinations on employer requests for prevailing wages and permanent labor certifications. The changes in this proposed rule are consistent with the Secretary of Labor's (Secretary) statutory responsibilities to certify that there are not sufficient workers in the United States who are able, willing, qualified, and available to fill the petitioning employer's job opportunity at the time of application for a visa and admission to the United States, and that the employment of such alien will not adversely affect the wages and working conditions of similarly employed workers in the United States.",
+            "document_number": "2026-23370",
+            "html_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant",
+            "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-17/pdf/2026-23370.pdf",
+            "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-23370.pdf?1794836720",
+            "publication_date": "2026-11-17",
+            "agencies": [
+              {
+                "raw_name": "DEPARTMENT OF LABOR",
+                "name": "Labor Department",
+                "id": 271,
+                "url": "https://www.federalregister.gov/agencies/labor-department",
+                "json_url": "https://www.federalregister.gov/api/v1/agencies/271",
+                "parent_id": null,
+                "slug": "labor-department"
+              },
+              {
+                "raw_name": "Employment and Training Administration",
+                "name": "Employment and Training Administration",
+                "id": 133,
+                "url": "https://www.federalregister.gov/agencies/employment-and-training-administration",
+                "json_url": "https://www.federalregister.gov/api/v1/agencies/133",
+                "parent_id": 271,
+                "slug": "employment-and-training-administration"
+              }
+            ],
+            "excerpts": "job offered. \n See \n section 203(b)(2)(A), (b)(3)(C); 8 U.S.C. 1153(b)(2)(A), (b)(3)(C).\n \n \n \n 3 \n  \n See \n 8 U.S.C. 1153(b)(2)-(3), 1182(a)(5)(D). Section 1153(b)(2) governs the EB-2 classification of immigrant visas granted to aliens who are either professionals holding <span class=\"match\">advanced</span> degrees (master's degree or above or foreign equivalent degree, or a bachelor degree or foreign equivalent degree plus five years of progressive experience in the specialty) or persons of “exceptional ability” in the sciences, arts, or business. To gain entry in this category"
+          }
+        ],
+        "next_page_url": null
+      },
+      {
+        "id": "mofcom_spokesperson",
+        "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/",
+        "started_at": "2026-11-18T08:52:52.428524+08:00",
+        "status": 200,
+        "final_url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/",
+        "ok": true,
+        "bytes": 8507,
+        "retrieved_at": "2026-11-18T08:52:52.583536+08:00",
+        "excerpts": []
+      },
+      {
+        "id": "china_aggregate",
+        "url": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2101788.d.html",
+        "started_at": "2026-11-18T08:52:52.428663+08:00",
+        "status": 200,
+        "final_url": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2101788.d.html",
+        "ok": true,
+        "bytes": 29122,
+        "retrieved_at": "2026-11-18T08:52:53.002119+08:00",
+        "excerpts": [
+          " 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登",
+          " 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.",
+          "发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 "
+        ]
+      },
+      {
+        "id": "fr_bis",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=50&conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+        "started_at": "2026-11-18T08:53:38.965210+08:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 115,
+        "retrieved_at": "2026-11-18T08:53:40.061251+08:00",
+        "data": {
+          "description": "Documents published from 11/16/2026 to 11/18/2026 and from Industry and Security Bureau",
+          "count": 0
+        }
+      },
+      {
+        "id": "mofcom_list",
+        "url": "https://www.mofcom.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit?parseType=bulidstatic&webId=8f43c7ad3afc411fb56f281724b73708&tplSetId=52551ea0e2c14bca8c84792f7aa37ead&pageType=column&tagId=%E5%88%86%E9%A1%B5%E5%88%97%E8%A1%A8&editType=null&pageId=625b494d0adc47c885f5e1a18ee42b94",
+        "started_at": "2026-11-18T08:53:38.965672+08:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 7253,
+        "retrieved_at": "2026-11-18T08:53:39.147099+08:00",
+        "data": {
+          "roles": null,
+          "permissions": null,
+          "success": true,
+          "message": "生成成功",
+          "code": "200",
+          "data": {
+            "html": "<style>  .pagination{\n    text-align: right;\n    display: block;\n  }\n  .layui-laypage a{\n  padding: 0 0.8rem;\n    font-size: 1.8rem;\n    font-weight: 700;\n    border: 0;\n  }\n  .layui-laypage .layui-laypage-spr{\n  border: 0;\n  }\n  .layui-laypage .layui-laypage-curr .layui-laypage-em{\n  background-color: #ffff!important;\n  }\n  .layui-laypage .layui-laypage-curr em{\n  color: #d2d2d2!important;\n    padding: 0 0.8rem;\n    font-size: 1.8rem;\n    font-weight: 700;\n  }\n  .layui-laypage .layui-laypage-curr{\n  padding:0;\n  }\n  .iListCon ul.txtList_01:last-child{\n    border-bottom: 1px solid #dcdcdc;\n}\n    .layui-laypage-count,.layui-laypage-limits,.layui-laypage-refresh{display: none!important;}\n  .layui-laypage-skip{font-size: 1.8rem!important;color: #333!important;}\n</style>\n\n\n<div id=\"分页列表\">\n  <div class=\"page-content\">\n\t<ul class=\"txtList_01\">\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html\" target=\"_blank\" title=\"商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问\">商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问</a><span>[2026-11-17]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_c0c35d2c7d444dda90e295bf20894c19.html\" target=\"_blank\" title=\"商务部新闻发言人就中加经贸磋商成果答记者问\">商务部新闻发言人就中加经贸磋商成果答记者问</a><span>[2026-11-17]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_5baeb69ccc0f44cb83dea8ac587dd327.html\" target=\"_blank\" title=\"商务部新闻发言人就调整出口管制管控名单措施答记者问\">商务部新闻发言人就调整出口管制管控名单措施答记者问</a><span>[2026-11-09]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_137cb86f6deb442c963c906c2ca97e79.html\" target=\"_blank\" title=\"商务部新闻发言人就调整不可靠实体清单措施答记者问\">商务部新闻发言人就调整不可靠实体清单措施答记者问</a><span>[2026-11-09]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_0a686e2464da49a58a076d9eab42187f.html\" target=\"_blank\" title=\"商务部新闻发言人就美制裁中国企业答记者问\">商务部新闻发言人就美制裁中国企业答记者问</a><span>[2026-11-07]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_337d9e1ef6fb4138a1cdf1952597eca1.html\" target=\"_blank\" title=\"商务部新闻发言人就涉及欧盟的进口对位芳纶长丝和乙叉降冰片烯两起反倾销调查答记者问\">商务部新闻发言人就涉及欧盟的进口对位芳纶长丝和乙叉降冰片烯两起反倾销调查答记者问</a><span>[2026-11-06]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_2004ee7d8e1a436990b8593c8c2f81e9.html\" target=\"_blank\" title=\"商务部新闻发言人就美国联邦通信委员会投票通过检测实验室限制措施事答记者问\">商务部新闻发言人就美国联邦通信委员会投票通过检测实验室限制措施事答记者问</a><span>[2026-10-30]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_7cfb533be03746ae9767619f47bd1d26.html\" target=\"_blank\" title=\"商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问\">商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问</a><span>[2026-10-29]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_d56e28ed788c4c8a887875dbfc287fe3.html\" target=\"_blank\" title=\"商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问\">商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问</a><span>[2026-10-24]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_edf25a12e8654c558c71279fe9324874.html\" target=\"_blank\" title=\"商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问\">商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问</a><span>[2026-10-23]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_7db82f11ad1d414489f3766143f032bb.html\" target=\"_blank\" title=\"商务部新闻发言人就美以窃取商业秘密为由制裁中国企业答记者问\">商务部新闻发言人就美以窃取商业秘密为由制裁中国企业答记者问</a><span>[2026-10-20]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_2f92a22be4324ec6bc566e4ccdb77436.html\" target=\"_blank\" title=\"商务部新闻发言人就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知答记者问\">商务部新闻发言人就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知答记者问</a><span>[2026-10-20]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_95897b72b5d240bdafb7186378bfddf7.html\" target=\"_blank\" title=\"商务部新闻发言人就英方称将共同应对中国汽车产业占主导地位事答记者问\">商务部新闻发言人就英方称将共同应对中国汽车产业占主导地位事答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_1e581b3d58ff46dabe8c44abab408d6c.html\" target=\"_blank\" title=\"商务部新闻发言人就盾构机等物项实施出口管制、优化调整挖泥船相关物项出口管制措施答记者问\">商务部新闻发言人就盾构机等物项实施出口管制、优化调整挖泥船相关物项出口管制措施答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_11a9b615dc91444193dc855a368ac2f0.html\" target=\"_blank\" title=\"商务部新闻发言人就优化调整无人机相关物项出口管制措施答记者问\">商务部新闻发言人就优化调整无人机相关物项出口管制措施答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t</ul>\n  </div>\n  <div class=\"pagination\" pagestyle=\"all\" pagecolor=\"#F40A0A\" queryData=\"{'webId':'8f43c7ad3afc411fb56f281724b73708','pageId':'625b494d0adc47c885f5e1a18ee42b94','parseType':'bulidstatic','pageType':'column','tagId': '分页列表', 'tplSetId': '52551ea0e2c14bca8c84792f7aa37ead'}\" rows=\"15\" unitid=\"分页列表\" count=\"639\" pageNo=\"1\" unitUrl=\"/api-gateway/jpaas-publish-server/front/page/build/unit\"></div>\n</div>\n\n<script src=\"/cms_files/default/script/ajax/page/page.js\"></script>"
+          },
+          "traceId": "8B79B39A12EB4D6C9262384731C8BF67"
+        }
+      },
+      {
+        "id": "mofcom_official_response",
+        "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+        "started_at": "2026-11-18T08:54:12.211266+08:00",
+        "status": 200,
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:54:12.477784+08:00",
+        "bytes": 15616,
+        "sha256": "c2a73c328fcfeebcbbd57312870b015f8431ea8761fdfa0af19d35abee7d7dba",
+        "excerpt": "问： 11 月 16 日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？ 答： 中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国 企业 与 其他国家企业 正常贸易合作横加干涉 。美方做法背离 两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。 中方希望美方能够 与中方 相向而行，回到协商合作解决分歧的正确轨道上来。若美方 一意孤行 ，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 商务热点 商务部惠企政策专题 学习宣传贯彻党的二十大精神 消费品以旧换新 国家层面海外综合服务平台 商务帮扶 提振消费专项行动 政策集成和综合解读专栏 优化营商环境-国际贸易专题 外贸促进 外资企业问题诉求收集办理 电子商务公共服务 国际消费中心城市培育建设 稳外贸稳外资政策措施 丝路电商——电子商务国际合作 《区域全面经济伙伴关系协定》（RCEP） 中国国际进口博览会 市场运行与流通发展服务平台 2025年度网站工作年度报表 机构子站专题 中日经济高层对话 农产品贸易专题 出口商品技术指南 "
+      }
+    ]
+  },
+  "assessment": {
+    "a_share_sector": "光通信／光模块",
+    "opening_bias": "倾向修复，高开及持续性仍须实际竞价/成交验证。",
+    "opening_forecast_issued_before_open": true,
+    "full_day_base_case": "震荡分化；若两股同步转强且缩量回踩则修复增强，若反弹不回均价并放量失守回踩低点则转承压。",
+    "opening_confidence": "中等偏低",
+    "full_day_confidence": "中等偏低",
+    "numeric_probability": null,
+    "model_validated": false,
+    "probability_label": "暂无可靠百分比",
+    "supporting_evidence": [
+      "11月17日六家海外光通信正常盘全部上涨，除AAOI外五家跑赢费半；最近盘后五家上涨3.26%至6.85%。",
+      "英伟达新披露2027财年第三季度收入1158亿美元、数据中心1076亿美元，已实现收入反驳需求骤停的简单推论。",
+      "英伟达下季收入指引1300亿美元±3%，其盘后快照涨4.37%；指引为管理层展望，不当作已实现交付。",
+      "国内两股昨日尾盘回升，分别从14:40收盘至15:00回升2.45%与2.08%，提供承接改善的历史线索。"
+    ],
+    "counterevidence": [
+      "六家光通信虽正常盘收涨，五家仍低于开盘价；上涨一天不证明持续反转。",
+      "AAOI盘后跌9.54%，同期最高5.5亿美元ATM融资属于稀释和融资供给压力，不能等同撤单或据其推导整个行业需求下降。",
+      "英伟达Q4毛利率指引71%—72%，低于Q3GAAP74.8%；Q4另多一周、指引不含中国数据中心计算收入。",
+      "英伟达应收周转天数64高于此前60，多年供应承诺和最大担保具有期限及条件，不是已支付资本开支或国内模块订单。",
+      "新易盛、中际昨日仍弱于通信ETF及创业板，且收盘低于各自全日均价，本地持续性待验证。",
+      "商务部已在11月17日晚官方回应美方远程获取先进半导体措施；未取得美方原规则、生效日及光模块适用范围。新设董事会合规委员会本身不是政府出口规则。"
+    ],
+    "alternative_scenarios": [
+      {
+        "scenario": "修复增强",
+        "conditions": "两股同步跑赢通信ETF和创业板，守住开盘后实际形成的累计均价，回踩低点抬高、等长完整时段回踩缩量。"
+      },
+      {
+        "scenario": "承压",
+        "conditions": "反弹无法收回动态成交均价、等长完整时段放量失守已形成回踩低点，且ETF和同业同步转弱。"
+      }
+    ],
+    "opening_validation_signals": [
+      "两股是否同步跑赢通信ETF和创业板。",
+      "能否守住开盘后实际形成的累计成交均价，首次回踩低点是否抬高。",
+      "等长已结束时段回踩成交是否缩减；不比较盘中与前日全天成交。"
+    ],
+    "validation_status": "盘前仅列条件，未取得或编造11月18日A股成交、低点或条件已发生结果。",
+    "medium_term": "继续核查800G／1.6T实际交付、毛利、回款、客户实际资本开支；区分CPO结构变化、融资和换股并购定价与真实需求，不从海外涨跌推导国内订单变化。"
+  },
+  "previous_forecast_review": {
+    "prior_date": "2026-11-17",
+    "prior_observation_file": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json",
+    "prior_observation_sha256": "783b9120864eb266d60b9723a3b877ec286742ed4874e8e049f801d46314727e",
+    "original_assessment": {
+      "a_share_sector": "光通信／光模块",
+      "opening_bias": null,
+      "opening_forecast_issued_before_open": false,
+      "opening_note": "任务实际开始于09:36，已开盘，未使用本日A股成交结果，也不补记任何08:45开盘预测。",
+      "overnight_implication": "隔夜信息偏负面，按昨收与隔夜证据倾向承压震荡，反抽持续性待验证。",
+      "full_day_base_case": "承压震荡；两股同步转强并守住成交均价、缩量回踩时转修复。",
+      "full_day_confidence": "中等偏低",
+      "numeric_probability": null,
+      "model_validated": false,
+      "probability_label": "暂无可靠百分比",
+      "supporting_evidence": [
+        "11月16日六家海外光通信正常盘跌5.17%至9.48%；除FN外均弱于费半跌5.28%，全部弱于纳指跌2.49%。",
+        "六家最近盘后快照较正常收盘再跌0.01%至0.60%，快照北京11月17日08:52至08:59，不作为当前价格。",
+        "11月16日新易盛跌11.08%、中际跌12.28%，均跑输通信ETF跌7.89%与创业板跌4.37%；本地相对承接弱。"
+      ],
+      "counterevidence": [
+        "国内两股此前大幅回撤可能带来反抽，但既有跌幅本身不能证明见底。",
+        "Lambda/NVIDIA新增规模CPO部署披露表明光网络建设仍在推进；交换机端CPO存在价值链结构变化，未识别国内两家具体订单变化。",
+        "Marvell/Penguin光互联合作是未来产品路线图；不能当作当前收入或已交付模块。",
+        "治理媒体说法不等于官方决议或新生效出口规则。海外股价下跌不证明国内丢单。"
+      ],
+      "alternative_scenarios": [
+        {
+          "scenario": "修复",
+          "conditions": "两股同步跑赢通信ETF和创业板，守住实际形成的累计成交均价，回踩低点抬高且等长完整时段回踩缩量。"
+        },
+        {
+          "scenario": "承压延续",
+          "conditions": "两股与ETF同步转弱，等长完整时段放量失守已形成回踩低点，反弹无法收回成交均价。"
+        }
+      ],
+      "opening_validation_signals": [
+        "两股是否同步跑赢通信ETF和创业板。",
+        "是否守住实际形成的累计成交均价，回踩局部低点能否抬高。",
+        "比较等长已结束时段回踩成交；不与前日全天成交量混比。"
+      ],
+      "validation_status": "仅列条件；未读取或声称今日开盘后这些信号已经发生。",
+      "medium_term": "继续核查800G／1.6T实际交付、毛利、回款和客户实际资本开支；将CPO结构替代、并购价差、融资估值压力与真实终端需求区分。"
+    },
+    "assessment_zh": "上次11月17日延迟报告倾向全天承压震荡、反抽持续性待验证；该报告09:36后才开始，不存在可复核的08:45开盘方向预测。实际昨日新易盛、中际低开1.91%、2.47%，10:15—10:20均有高于前收的成交，午后下探，14:40后回升，最终收160.00元（−4.08%）、393.00元（−3.90%），仍弱于通信ETF（−2.08%）与创业板（−1.20%）。全天承压方向相符，但此前描述未量化午后下探及尾盘修复，不能由一次方向相符推断命中率，也不能用价格证明海外消息因果。",
+    "no_hit_rate_estimate": true
+  },
+  "seen_events_added": [
+    {
+      "id": "NVDA_2027Q3_earnings_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_primary_earnings_and_forward_guidance",
+      "sources": [
+        "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+      ],
+      "accepted_at_beijing": "2026-11-18T05:20:51+08:00",
+      "official_publication_date": "2026-11-17",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "AAOI_ATM_550m_20261117",
+      "symbols": [
+        "AAOI"
+      ],
+      "classification": "new_primary_equity_financing_capacity_not_earnings_or_cancelled_orders",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm"
+      ],
+      "event_date": "2026-11-17",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "NVDA_supply_chain_capacity_commitments_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_supplier_capacity_plans_not_current_output",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+      "official_publication_date": "2026-11-17",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "NVDA_export_security_committee_20261117",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_board_governance_not_new_export_rule",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+      "official_publication_date": "2026-11-17",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001628280-26-074618",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-18T00:03:48.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001628280-26-074462",
+      "symbol": "MRVL",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T20:30:07.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001104659-26-129055",
+      "symbol": "AAOI",
+      "classification": "new_filing_index_item_form_8-K",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:09:50.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001104659-26-129051",
+      "symbol": "AAOI",
+      "classification": "new_filing_index_item_form_424B5",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:06:29.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001489550-26-000016",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:19:50.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001570465-26-000008",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:18:24.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001573338-26-000022",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:17:03.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001561100-26-000010",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T22:15:23.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011207",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:05:23.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001950047-26-011206",
+      "symbol": "LITE",
+      "classification": "new_filing_index_item_form_144",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:04:56.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001045810-26-000088",
+      "symbol": "NVDA",
+      "classification": "new_filing_index_item_form_8-K",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T21:20:51.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "SEC_0001513845-26-000151",
+      "symbol": "NBIS",
+      "classification": "new_filing_index_item_form_4",
+      "filing_date": "2026-11-17",
+      "accepted_at_utc": "2026-11-17T11:56:19.000Z",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    },
+    {
+      "id": "MOFCOM_response_remote_advanced_semiconductors_20261117",
+      "official_response_date": "2026-11-17",
+      "official_response_time_local": null,
+      "source": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+      "confirmed": true,
+      "facts": [
+        "商务部官网11月17日答记者问确认，问题所述美国商务部于11月16日发布限制远程获取先进半导体相关措施。",
+        "中方表示强烈不满、坚决反对，并称若美方一意孤行将采取反制措施；这是回应及条件表态，不是已实施反制。"
+      ],
+      "limitation": "中国官方回应证实政策争议存在，但不提供美方规则全文、编号、许可证门槛、地域适用细则或生效日期。",
+      "publication_time_evidence": {
+        "date": "2026-11-17",
+        "meta_PubDate": "2026-11-17 20:27",
+        "visible_page_time": "2026-11-17 20:20",
+        "exact_minute_conflict": true
+      },
+      "classification": "official_Chinese_response_US_rule_details_and_effective_date_not_verified",
+      "first_reported_at": "2026-11-18T08:55:21.788209+08:00"
+    }
+  ],
+  "source_manifests": {
+    "market": [
+      {
+        "id": "quotes",
+        "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO,us.IXIC,usSOXX",
+        "started_at": "2026-11-18T00:47:53.276725+00:00",
+        "ok": true,
+        "length": 3656,
+        "retrieved_at": "2026-11-18T00:47:53.351670+00:00"
+      },
+      {
+        "id": "sina",
+        "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox,gb_ixic",
+        "started_at": "2026-11-18T00:47:53.277279+00:00",
+        "ok": true,
+        "length": 3297,
+        "retrieved_at": "2026-11-18T00:47:53.364750+00:00"
+      },
+      {
+        "id": "nasdaq_index",
+        "url": "https://qt.gtimg.cn/q=us.IXIC,us.IXIC,usSOX,usSOXX,usNDX",
+        "started_at": "2026-11-18T00:47:53.277451+00:00",
+        "ok": true,
+        "length": 1248,
+        "retrieved_at": "2026-11-18T00:47:53.364846+00:00"
+      },
+      {
+        "id": "history_LITE",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usLITE,day,,,40,qfq",
+        "started_at": "2026-11-18T00:47:53.277596+00:00",
+        "ok": true,
+        "length": 1627,
+        "retrieved_at": "2026-11-18T00:47:53.403186+00:00"
+      },
+      {
+        "id": "history_MRVL",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usMRVL,day,,,40,qfq",
+        "started_at": "2026-11-18T00:47:53.277758+00:00",
+        "ok": true,
+        "length": 1750,
+        "retrieved_at": "2026-11-18T00:47:53.415420+00:00"
+      },
+      {
+        "id": "history_COHR",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usCOHR,day,,,40,qfq",
+        "started_at": "2026-11-18T00:47:53.277887+00:00",
+        "ok": true,
+        "length": 1723,
+        "retrieved_at": "2026-11-18T00:47:53.415486+00:00"
+      },
+      {
+        "id": "history_CIEN",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usCIEN,day,,,40,qfq",
+        "started_at": "2026-11-18T00:47:53.278070+00:00",
+        "ok": true,
+        "length": 1726,
+        "retrieved_at": "2026-11-18T00:47:53.403111+00:00"
+      },
+      {
+        "id": "history_AAOI",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usAAOI,day,,,40,qfq",
+        "started_at": "2026-11-18T00:47:53.278231+00:00",
+        "ok": true,
+        "length": 1638,
+        "retrieved_at": "2026-11-18T00:47:53.399845+00:00"
+      },
+      {
+        "id": "history_FN",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/usfqkline/get?param=usFN,day,,,40,qfq",
+        "started_at": "2026-11-18T00:47:53.351711+00:00",
+        "ok": true,
+        "length": 1697,
+        "retrieved_at": "2026-11-18T00:47:53.448554+00:00"
+      }
+    ],
+    "ashare": [
+      {
+        "file": "sz300502-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.443376+00:00",
+        "ok": true,
+        "bytes": 3723,
+        "retrieved_utc": "2026-11-18T00:47:38.580968+00:00"
+      },
+      {
+        "file": "sz300502-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.443812+00:00",
+        "ok": true,
+        "bytes": 14340,
+        "retrieved_utc": "2026-11-18T00:47:38.750028+00:00"
+      },
+      {
+        "file": "sz300308-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300308,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.443977+00:00",
+        "ok": true,
+        "bytes": 3820,
+        "retrieved_utc": "2026-11-18T00:47:38.581841+00:00"
+      },
+      {
+        "file": "sz300308-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300308&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.444113+00:00",
+        "ok": true,
+        "bytes": 14309,
+        "retrieved_utc": "2026-11-18T00:47:38.725258+00:00"
+      },
+      {
+        "file": "sh515880-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.444260+00:00",
+        "ok": true,
+        "bytes": 3568,
+        "retrieved_utc": "2026-11-18T00:47:38.581911+00:00"
+      },
+      {
+        "file": "sh515880-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sh515880&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.444390+00:00",
+        "ok": true,
+        "bytes": 13641,
+        "retrieved_utc": "2026-11-18T00:47:38.725487+00:00"
+      },
+      {
+        "file": "sz399006-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.444517+00:00",
+        "ok": true,
+        "bytes": 3890,
+        "retrieved_utc": "2026-11-18T00:47:38.581073+00:00"
+      },
+      {
+        "file": "sz399006-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz399006&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.444667+00:00",
+        "ok": true,
+        "bytes": 15078,
+        "retrieved_utc": "2026-11-18T00:47:38.723030+00:00"
+      }
+    ],
+    "calendar": [
+      {
+        "id": "sse_calendar",
+        "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+        "started_at": "2026-11-18T08:47:51.654734+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:51 GMT",
+        "last_modified": null,
+        "final_url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:51.917355+08:00",
+        "bytes": 29581,
+        "sha256": "4511d76abb438945008cd8b91df2c6a1e94e744c01a826f8e17d53feedb32b5f",
+        "raw_file": "/private/tmp/optics-nov18-calendar/sse_calendar.html",
+        "excerpt": "2026年休市安排 元旦： 1月1日（星期四）至1月3日（星期六）休市，1月5日（星期一）起照常开市。另外，1月4日（星期日）为周末休市。 春节： 2月15日（星期日）至2月23日（星期一）休市，2月24日（星期二）起照常开市。另外，2月14日（星期六）、2月28日（星期六）为周末休市。 清明节： 4月4日（星期六）至4月6日（星期一）休市，4月7日（星期二）起照常开市。 劳动节： 5月1日（星期五）至5月5日（星期二）休市，5月6日（星期三）起照常开市。另外，5月9日（星期六）为周末休市。 端午节： 6月19日（星期五）至6月21日（星期日）休市，6月22日（星期一）起照常开市。 中秋节： 9月25日（星期五）至9月27日（星期日）休市，9月28日（星期一）起照常开市。 国庆节： 10月1日（星期四）至10月7日（星期三）休市，10月8日（星期四）起照常开市。另外，9月20日（星期日）、10月10日（星期六）为周末休市。 相关公告 关于2026年中秋节、国庆节休市安排的公告 2026-09-17 关于2026年端午节休市安排的公告 2026-06-11 关于2026年劳动节休市安排的公告 2026-04-23 关于2026年清明节休市安排的公告 2026-03-31 关于2026年春节休市安排的公告 2026-02-05 相关链接 联系我们 网站地图 相关链接 法律声明 注册商标 个人信息保护告知书 官方微博 官方微信 APP下载 党建 党建动态 学习园地 图文播报 发行上市 审核公告通知 审核信息披露 审核项目动态 关于上市审核中心 科创战略 披露 交易提示 上交所公告 上市公司信息 融资融券信息 基金信息 公募REITs信息 交易信息披露 债券信息 股票期权信息 监管 上市公司监管 发行上市审核监管 债券监管 交易监管 会员及其他交易参与人监管 自律管理复核 自律监管与市场服务事项 诉求受理中心 数据 股票数据 债券数据 基金数据 公募REITs数据 其他数据 行情信息 上证系列指数 中证系列指数 中华系列指数 产品 股票与存托凭证 基金 债券 股票期权 公募REITs 服务 企业上市服务 IPO业务专栏 沪港通 绿色证券专栏 交易服务 交易技术支持专区 收费及代收税费 投资者服务 上市公司服务 路演服务 技术服务 信息服务 培训服务 司法服务 规则 法律法规 部门规章 本所业务规则 本所业务指南与流程 公开征求意见 制度规则汇编 关于 本所介绍 媒体中心 国际交流与合作 招聘信息 联系我们 研究 社会责任 公益慈善 中国证券博物馆 刊物 400投资者服务热线： 400-8888-400 上海证券交易所官网现已支持 IPV 6 ©上海证券交易所版权所有 2020 沪ICP备05004045号-2 沪公网安备 31011502016333号 "
+      },
+      {
+        "id": "sse_general",
+        "url": "https://www.sse.com.cn/disclosure/announcement/general/",
+        "started_at": "2026-11-18T08:47:51.655597+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:52 GMT",
+        "last_modified": null,
+        "final_url": "https://www.sse.com.cn/disclosure/announcement/general/",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:52.134270+08:00",
+        "bytes": 34980,
+        "sha256": "badf11297d4813aee900ae74e76a0130a6a0c98c47022203dca76524c2fba5b8",
+        "raw_file": "/private/tmp/optics-nov18-calendar/sse_general.html",
+        "visible_notices": [
+          {
+            "title": "关于兴业证券股份有限公司为广发中证军工交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838000.shtml"
+          },
+          {
+            "title": "关于华泰证券股份有限公司终止为天弘上证180交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838002.shtml"
+          },
+          {
+            "title": "关于国投证券股份有限公司为华安沪深300交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261117_10838004.shtml"
+          },
+          {
+            "title": "关于中信建投证券股份有限公司为兴业上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837886.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司为兴业上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837889.shtml"
+          },
+          {
+            "title": "关于中国银河证券股份有限公司为华夏保利发展封闭式商业不动产证券投资基金提供一般做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261116_10837891.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为国泰上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837673.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为华夏中证人工智能主题交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837675.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为银华上证科创板人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837677.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为国泰中证科创创业50交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837679.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为广发中证科创创业50增强策略交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837681.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为博时中证科创创业50交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837683.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为嘉实上证科创板综合增强策略交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837685.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为华安中证科创创业人工智能交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837687.shtml"
+          },
+          {
+            "title": "关于方正证券股份有限公司终止为易方达中证芯片产业交易型开放式指数证券投资基金提供主做市服务的公告",
+            "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261113_10837689.shtml"
+          }
+        ],
+        "closure_candidates": []
+      },
+      {
+        "id": "szse_notice",
+        "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+        "started_at": "2026-11-18T08:47:51.655453+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:51 GMT",
+        "last_modified": "Wed, 18 Nov 2026 00:22:07 GMT",
+        "final_url": "https://www.szse.cn/disclosure/notice/general/index.html",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:51.839306+08:00",
+        "bytes": 92763,
+        "sha256": "394995da9d87c368f80e04d171e8c9ff0481509679f4d63035465cf2e84831af",
+        "raw_file": "/private/tmp/optics-nov18-calendar/szse_notice.html",
+        "visible_notices": [],
+        "closure_candidates": []
+      },
+      {
+        "id": "nyse_hours",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "started_at": "2026-11-18T08:47:51.655297+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:55 GMT",
+        "last_modified": null,
+        "final_url": "https://www.nyse.com/trade/hours-calendars",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:56.705315+08:00",
+        "bytes": 132025,
+        "sha256": "d7741bc3339e7d188ba219beef2799f4df8e44f8c4d7029b6c1709214726f2fd",
+        "raw_file": "/private/tmp/optics-nov18-calendar/nyse_hours.html",
+        "excerpts": [
+          "** Labor Day Monday, September 7 Monday, September 6 Monday, September 4 Thanksgiving Day Thursday, November 26*** Thursday, November 25*** Thursday, November 23*** Christmas Day Friday, December 25**** Friday, December 24 (Christmas Day observed) Monday, December 25 * Because the holiday falls on Saturday, January 1, 2028, no New Year’s Day holiday is observed. ** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Monday, July 3, 2028. NYSE American Equities, NYSE Arca Equities, NYSE National, and",
+          "ern Time. *** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Friday, November 27, 2026, Friday, November 26, 2027, and Friday, November 24, 2028 (the day after Thanksgiving). NYSE American Equities, NYSE Arca Equities, NYSE National, and NYSE Texas late trading sessions will close at 5:00 p.m. All times are Eastern Time. **** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Thursday, December 24, 2026. NYSE American Equities, NYSE Arca Equities, NYSE National, and N",
+          "Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until the Opening Auction at 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET 9:30 a.m. ET - Core Open Auction 3:50 p.m. to 4:00 p.m. ET - Closing Imbalance Period 4:00 p.m. ET - Closing Auction Tapes B & C Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until 7:00 a.m. ET Early Trading Session: 7:00 a.m. to 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET NYSE American Pre-Opening Session: 6:30 a.m. ET O",
+          "red and will be queued until the Opening Auction at 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET 9:30 a.m. ET - Core Open Auction 3:50 p.m. to 4:00 p.m. ET - Closing Imbalance Period 4:00 p.m. ET - Closing Auction Tapes B & C Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until 7:00 a.m. ET Early Trading Session: 7:00 a.m. to 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET NYSE American Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until th"
+        ]
+      },
+      {
+        "id": "nasdaq_schedule",
+        "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+        "started_at": "2026-11-18T08:47:51.655864+08:00",
+        "http_status": 200,
+        "response_date": "Wed, 18 Nov 2026 00:47:55 GMT",
+        "last_modified": null,
+        "final_url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:47:56.501346+08:00",
+        "bytes": 174361,
+        "sha256": "525dffed8f82a9e385c9b8380175c54994dc57d7cc46f588c19013e044caf2c9",
+        "raw_file": "/private/tmp/optics-nov18-calendar/nasdaq_schedule.html",
+        "excerpts": [
+          "Independence Day (Observed) July 3, 2026 Closed Labor Day September 7, 2026 Closed Thanksgiving Day November 26, 2026 Closed Early Close November 27, 2026 1:00 p.m. Early Close December 24, 2026 1:00 p.m. Christmas Day December 25, 2026 Closed Download Calendars Download the 2026 Trading Calendar Download the U.S. Holiday & Trading Hours Canada & Nordic Schedules Visit Nordic Exchange Holiday Schedule & Trading Hours Visit Nasdaq Canada Holiday Schedule & Trading Hours Trading Hours for the Nasdaq Stock Markets Nasdaq tradin",
+          "026 Closed Labor Day September 7, 2026 Closed Thanksgiving Day November 26, 2026 Closed Early Close November 27, 2026 1:00 p.m. Early Close December 24, 2026 1:00 p.m. Christmas Day December 25, 2026 Closed Download Calendars Download the 2026 Trading Calendar Download the U.S. Holiday & Trading Hours Canada & Nordic Schedules Visit Nordic Exchange Holiday Schedule & Trading Hours Visit Nasdaq Canada Holiday Schedule & Trading Hours Trading Hours for the Nasdaq Stock Markets Nasdaq trading hours are as follows, Monday throug",
+          " Markets Nasdaq trading hours are as follows, Monday through Friday: The Nasdaq Stock Market Opens: 9:30 am Eastern Time Zone; Closes: 4:00 pm Eastern Time Zone Extended Hours Trading There are also pre-market and after hours trading sessions available, also known as Extended Markets. For Nasdaq, pre-market trading hours are 4:00 am to 9:30 am, Eastern Time Zone. After hours runs from 4:00 pm to 8:00 pm, Eastern Time Zone. Certain brokers have different pre-market and after hours trading times. Some online brokers do allow y",
+          "s follows, Monday through Friday: The Nasdaq Stock Market Opens: 9:30 am Eastern Time Zone; Closes: 4:00 pm Eastern Time Zone Extended Hours Trading There are also pre-market and after hours trading sessions available, also known as Extended Markets. For Nasdaq, pre-market trading hours are 4:00 am to 9:30 am, Eastern Time Zone. After hours runs from 4:00 pm to 8:00 pm, Eastern Time Zone. Certain brokers have different pre-market and after hours trading times. Some online brokers do allow you to trade during those hours; che"
+        ]
+      },
+      {
+        "id": "szse_latest_holiday_original",
+        "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+        "started_at": "2026-11-18T08:48:38.386376+08:00",
+        "http_status": 200,
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:48:38.500520+08:00",
+        "bytes": 24292,
+        "sha256": "7b0c4264d27f4ba14a1904ab31cb3b2b870e4e68d6b8d8c0f6cf4254c1a045a4",
+        "raw_file": "/private/tmp/optics-nov18-calendar/szse_latest_holiday_original.html",
+        "excerpt": "关于2026年中秋节、国庆节休市安排的通知 通知公告 位置： 信息披露 / 本所公告 / 通知公告 关于2026年中秋节、国庆节休市安排的通知 时间： 2026-09-17 字体： 大 中 小 各市场参与人： 根据《关于 202 6 年部分节假日放假和休市安排的通知》（证监办发〔 202 5 〕 1 30 号） ，现将 202 6 年中秋节、国庆节 休市有关安排通知如下。 一、休市安排 9 月 25 日（星期 五 ）至 9 月 27 日（星期 日 ）休市， 9 月 28 日（星期 一 ）起照常开市。 10月1日（ 星期四 ）至 10月 7日（ 星期三 ） 休市， 10月8日（星期四）起照常开市。 另外， 9 月 20 日（星期 日 ）、 10 月 10 日（星期六）为周末休市。 二、清算交收 节假日期间清算交收事宜，按照中国证券登记结算有限责任公司的有关安排进行。 请各市场参与人据此安排好有关工作。 深圳证券交易所 202 6 年 9 月 17 日 打印 收藏 关闭 "
+      }
+    ],
+    "events": [
+      {
+        "name": "mrvl_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+        "retrieved_at": "2026-11-18T00:47:39.709066+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 138533
+      },
+      {
+        "name": "aaoi_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+        "retrieved_at": "2026-11-18T00:47:39.710050+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 155066
+      },
+      {
+        "name": "avgo_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+        "retrieved_at": "2026-11-18T00:47:39.710379+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 160094
+      },
+      {
+        "name": "lite_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+        "retrieved_at": "2026-11-18T00:47:39.710667+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 160372
+      },
+      {
+        "name": "fn_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+        "retrieved_at": "2026-11-18T00:47:39.710935+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 155337
+      },
+      {
+        "name": "cohr_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+        "retrieved_at": "2026-11-18T00:47:39.711227+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 159783
+      },
+      {
+        "name": "cien_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+        "retrieved_at": "2026-11-18T00:47:39.711478+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 159187
+      },
+      {
+        "name": "nvda_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+        "retrieved_at": "2026-11-18T00:47:39.711820+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 160103
+      },
+      {
+        "name": "nvda_news",
+        "url": "https://nvidianews.nvidia.com/news",
+        "retrieved_at": "2026-11-18T00:47:41.307353+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 68179
+      },
+      {
+        "name": "lite_ir",
+        "url": "https://investor.lumentum.com/news-events/press-releases",
+        "retrieved_at": "2026-11-18T00:47:41.540152+00:00",
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "name": "cohr_ir",
+        "url": "https://www.coherent.com/news",
+        "retrieved_at": "2026-11-18T00:47:41.769688+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 170108
+      },
+      {
+        "name": "avgo_ir",
+        "url": "https://investors.broadcom.com/news-releases",
+        "retrieved_at": "2026-11-18T00:47:41.903885+00:00",
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "cien_ir",
+        "url": "https://investor.ciena.com/news-releases",
+        "retrieved_at": "2026-11-18T00:47:41.912424+00:00",
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "name": "fn_ir",
+        "url": "https://investor.fabrinet.com/news-releases",
+        "retrieved_at": "2026-11-18T00:47:41.951430+00:00",
+        "ok": false,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "aaoi_ir",
+        "url": "https://investors.ao-inc.com/",
+        "retrieved_at": "2026-11-18T00:47:42.062454+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 44035
+      },
+      {
+        "name": "mrvl_ir",
+        "url": "https://investor.marvell.com/news-events/press-releases",
+        "retrieved_at": "2026-11-18T00:47:42.106151+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 114815
+      },
+      {
+        "name": "nbis_submissions",
+        "url": "https://data.sec.gov/submissions/CIK0001513845.json",
+        "retrieved_at": "2026-11-18T00:47:42.162297+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 84869
+      },
+      {
+        "name": "news_1",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:42.640980+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 240602
+      },
+      {
+        "name": "news_2",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.017432+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 258647
+      },
+      {
+        "name": "news_3",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.036117+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 195648
+      },
+      {
+        "name": "news_4",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.099332+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 183550
+      },
+      {
+        "name": "news_5",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.245447+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 226275
+      },
+      {
+        "name": "news_6",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.279010+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 214563
+      },
+      {
+        "name": "news_7",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.420887+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 186438
+      },
+      {
+        "name": "news_8",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.435842+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 167248
+      },
+      {
+        "name": "news_9",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=9&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.494341+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 187370
+      },
+      {
+        "name": "news_10",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=10&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.494629+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 230108
+      },
+      {
+        "name": "news_11",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=11&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.526652+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 218361
+      },
+      {
+        "name": "news_12",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=12&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.671965+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 214590
+      },
+      {
+        "name": "news_13",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=13&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.799105+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 229465
+      },
+      {
+        "name": "news_14",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=14&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.812007+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 245854
+      },
+      {
+        "name": "news_15",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=15&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.818192+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 217233
+      },
+      {
+        "name": "news_16",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=16&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.856647+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 221319
+      },
+      {
+        "name": "news_17",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=17&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:43.959769+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 245226
+      },
+      {
+        "name": "news_18",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=18&page_size=100&type=0",
+        "retrieved_at": "2026-11-18T00:47:44.065000+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 290370
+      },
+      {
+        "name": "nvda_q3",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+        "started_at": "2026-11-18T00:48:18.130088+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 398481,
+        "retrieved_at": "2026-11-18T00:48:19.085224+00:00"
+      },
+      {
+        "name": "nvda_8k",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+        "started_at": "2026-11-18T00:48:18.130761+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 26926,
+        "retrieved_at": "2026-11-18T00:48:19.402286+00:00"
+      },
+      {
+        "name": "aaoi_8k",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+        "started_at": "2026-11-18T00:48:18.130929+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 32786,
+        "retrieved_at": "2026-11-18T00:48:19.331242+00:00"
+      },
+      {
+        "name": "aaoi_424",
+        "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm",
+        "started_at": "2026-11-18T00:48:18.131067+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 394116,
+        "retrieved_at": "2026-11-18T00:48:21.804503+00:00"
+      },
+      {
+        "name": "nvda_cfo",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+        "started_at": "2026-11-18T00:49:07.631045+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 251579,
+        "retrieved_at": "2026-11-18T00:49:09.391867+00:00"
+      },
+      {
+        "name": "nvda_ex99",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+        "started_at": "2026-11-18T00:49:07.631558+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 348178,
+        "retrieved_at": "2026-11-18T00:49:11.669285+00:00"
+      },
+      {
+        "name": "nvda_commitments",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+        "started_at": "2026-11-18T00:49:07.631707+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 79599,
+        "retrieved_at": "2026-11-18T00:49:07.981692+00:00"
+      },
+      {
+        "name": "nvda_committee",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+        "started_at": "2026-11-18T00:49:07.631863+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 62519,
+        "retrieved_at": "2026-11-18T00:49:08.077525+00:00"
+      },
+      {
+        "name": "news_19",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=19&page_size=100&type=0",
+        "started_at": "2026-11-18T00:49:45.033557+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 262494,
+        "retrieved_at": "2026-11-18T00:49:45.552563+00:00"
+      },
+      {
+        "name": "news_20",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=20&page_size=100&type=0",
+        "started_at": "2026-11-18T00:49:45.034051+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 267242,
+        "retrieved_at": "2026-11-18T00:49:45.504391+00:00"
+      },
+      {
+        "name": "news_21",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=21&page_size=100&type=0",
+        "started_at": "2026-11-18T00:49:45.034218+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 208380,
+        "retrieved_at": "2026-11-18T00:49:45.409267+00:00"
+      },
+      {
+        "name": "news_22",
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=22&page_size=100&type=0",
+        "started_at": "2026-11-18T00:49:45.034359+00:00",
+        "status": 200,
+        "ok": true,
+        "length": 182768,
+        "retrieved_at": "2026-11-18T00:49:45.396107+00:00"
+      },
+      {
+        "name": "bis_index",
+        "url": "https://www.bis.gov/press-release",
+        "started_at": "2026-11-18T00:49:45.034489+00:00",
+        "ok": false,
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "regulation": [
+      {
+        "id": "fr_advanced",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&conditions%5Bterm%5D=advanced+computing&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+        "started_at": "2026-11-18T08:52:52.428035+08:00",
+        "status": 200,
+        "final_url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&conditions%5Bterm%5D=advanced+computing&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+        "ok": true,
+        "bytes": 6043,
+        "retrieved_at": "2026-11-18T08:52:53.570524+08:00",
+        "count": 2,
+        "results": [
+          {
+            "title": "Federal Reserve Bank Services",
+            "type": "Notice",
+            "abstract": "The Board of Governors of the Federal Reserve System (Board) has approved the private-sector adjustment factor (PSAF) for 2027 of $35.3 million and the 2027 fee schedules for Federal Reserve priced services and electronic access. These actions were taken in accordance with the Monetary Control Act of 1980 (MCA), which requires that, over the long run, fees for Federal Reserve priced services be established based on all direct and indirect costs, including the PSAF. Copies of all fee schedules are available from the Federal Reserve Financial Services (FRFS) website at www.FRBservices.org.",
+            "document_number": "2026-23289",
+            "html_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23289/federal-reserve-bank-services",
+            "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-16/pdf/2026-23289.pdf",
+            "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-23289.pdf?1794577522",
+            "publication_date": "2026-11-16",
+            "agencies": [
+              {
+                "raw_name": "FEDERAL RESERVE SYSTEM",
+                "name": "Federal Reserve System",
+                "id": 188,
+                "url": "https://www.federalregister.gov/agencies/federal-reserve-system",
+                "json_url": "https://www.federalregister.gov/api/v1/agencies/188",
+                "parent_id": null,
+                "slug": "federal-reserve-system"
+              }
+            ],
+            "excerpts": "windows. The Reserve Banks will also regularly apply fee increases for financial institutions that use the service to support long-run cost recovery objectives. \n The Reserve Banks expect to implement these changes beginning in 2027 and continuing over the next several years. <span class=\"match\">Advanced</span> notice of any changes would be provided through existing channels, such as through the Board's announcement of future fee schedules or the Reserve Banks' routine customer engagement and industry outreach. During this period, the Federal Reserve will continue its broader"
+          },
+          {
+            "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program",
+            "type": "Proposed Rule",
+            "abstract": "The Department of Labor (Department or DOL) proposes to amend its regulations regarding the certification of job opportunities offered by employers seeking to employ aliens on a permanent basis in the United States. This Notice of Proposed Rulemaking (NPRM or proposed rule) strengthens the standards by which the Department receives and reviews employers' applications for permanent labor certification and improves the integrity of the overall employment-based immigrant visa program to more effectively protect the wages and job opportunities of U.S. workers similarly employed in the United States. Among the issues addressed in this proposed rule are eliminating further administration of Schedule A, which exempts certain job opportunities from the statutorily required labor market test; strengthening the minimum standards of recruitment to ensure all employers seeking labor certification access the broadest pool of high-quality U.S. workers using the latest technologies and methods; enhancing safeguards for U.S. workers impacted by layoffs, including those laid off by employers using third-party staffing companies and establishing standards for employers to report layoffs; expanding requirements for employers to provide U.S. workers with notice of filing (NOF) applications for permanent labor certification; improving employer compliance with program requirements and consideration of qualified U.S. workers that is comparable to job opportunities for which permanent labor certification is not required; and codifying the Department's practice of electronically receiving, processing, and issuing final determinations on employer requests for prevailing wages and permanent labor certifications. The changes in this proposed rule are consistent with the Secretary of Labor's (Secretary) statutory responsibilities to certify that there are not sufficient workers in the United States who are able, willing, qualified, and available to fill the petitioning employer's job opportunity at the time of application for a visa and admission to the United States, and that the employment of such alien will not adversely affect the wages and working conditions of similarly employed workers in the United States.",
+            "document_number": "2026-23370",
+            "html_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant",
+            "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-17/pdf/2026-23370.pdf",
+            "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-23370.pdf?1794836720",
+            "publication_date": "2026-11-17",
+            "agencies": [
+              {
+                "raw_name": "DEPARTMENT OF LABOR",
+                "name": "Labor Department",
+                "id": 271,
+                "url": "https://www.federalregister.gov/agencies/labor-department",
+                "json_url": "https://www.federalregister.gov/api/v1/agencies/271",
+                "parent_id": null,
+                "slug": "labor-department"
+              },
+              {
+                "raw_name": "Employment and Training Administration",
+                "name": "Employment and Training Administration",
+                "id": 133,
+                "url": "https://www.federalregister.gov/agencies/employment-and-training-administration",
+                "json_url": "https://www.federalregister.gov/api/v1/agencies/133",
+                "parent_id": 271,
+                "slug": "employment-and-training-administration"
+              }
+            ],
+            "excerpts": "job offered. \n See \n section 203(b)(2)(A), (b)(3)(C); 8 U.S.C. 1153(b)(2)(A), (b)(3)(C).\n \n \n \n 3 \n  \n See \n 8 U.S.C. 1153(b)(2)-(3), 1182(a)(5)(D). Section 1153(b)(2) governs the EB-2 classification of immigrant visas granted to aliens who are either professionals holding <span class=\"match\">advanced</span> degrees (master's degree or above or foreign equivalent degree, or a bachelor degree or foreign equivalent degree plus five years of progressive experience in the specialty) or persons of “exceptional ability” in the sciences, arts, or business. To gain entry in this category"
+          }
+        ],
+        "next_page_url": null
+      },
+      {
+        "id": "mofcom_spokesperson",
+        "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/",
+        "started_at": "2026-11-18T08:52:52.428524+08:00",
+        "status": 200,
+        "final_url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/",
+        "ok": true,
+        "bytes": 8507,
+        "retrieved_at": "2026-11-18T08:52:52.583536+08:00",
+        "excerpts": []
+      },
+      {
+        "id": "china_aggregate",
+        "url": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2101788.d.html",
+        "started_at": "2026-11-18T08:52:52.428663+08:00",
+        "status": 200,
+        "final_url": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2101788.d.html",
+        "ok": true,
+        "bytes": 29122,
+        "retrieved_at": "2026-11-18T08:52:53.002119+08:00",
+        "excerpts": [
+          " 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登",
+          " 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.",
+          "发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+          "情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 "
+        ]
+      },
+      {
+        "id": "fr_bis",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=50&conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+        "started_at": "2026-11-18T08:53:38.965210+08:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 115,
+        "retrieved_at": "2026-11-18T08:53:40.061251+08:00",
+        "data": {
+          "description": "Documents published from 11/16/2026 to 11/18/2026 and from Industry and Security Bureau",
+          "count": 0
+        }
+      },
+      {
+        "id": "mofcom_list",
+        "url": "https://www.mofcom.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit?parseType=bulidstatic&webId=8f43c7ad3afc411fb56f281724b73708&tplSetId=52551ea0e2c14bca8c84792f7aa37ead&pageType=column&tagId=%E5%88%86%E9%A1%B5%E5%88%97%E8%A1%A8&editType=null&pageId=625b494d0adc47c885f5e1a18ee42b94",
+        "started_at": "2026-11-18T08:53:38.965672+08:00",
+        "status": 200,
+        "ok": true,
+        "bytes": 7253,
+        "retrieved_at": "2026-11-18T08:53:39.147099+08:00",
+        "data": {
+          "roles": null,
+          "permissions": null,
+          "success": true,
+          "message": "生成成功",
+          "code": "200",
+          "data": {
+            "html": "<style>  .pagination{\n    text-align: right;\n    display: block;\n  }\n  .layui-laypage a{\n  padding: 0 0.8rem;\n    font-size: 1.8rem;\n    font-weight: 700;\n    border: 0;\n  }\n  .layui-laypage .layui-laypage-spr{\n  border: 0;\n  }\n  .layui-laypage .layui-laypage-curr .layui-laypage-em{\n  background-color: #ffff!important;\n  }\n  .layui-laypage .layui-laypage-curr em{\n  color: #d2d2d2!important;\n    padding: 0 0.8rem;\n    font-size: 1.8rem;\n    font-weight: 700;\n  }\n  .layui-laypage .layui-laypage-curr{\n  padding:0;\n  }\n  .iListCon ul.txtList_01:last-child{\n    border-bottom: 1px solid #dcdcdc;\n}\n    .layui-laypage-count,.layui-laypage-limits,.layui-laypage-refresh{display: none!important;}\n  .layui-laypage-skip{font-size: 1.8rem!important;color: #333!important;}\n</style>\n\n\n<div id=\"分页列表\">\n  <div class=\"page-content\">\n\t<ul class=\"txtList_01\">\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html\" target=\"_blank\" title=\"商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问\">商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问</a><span>[2026-11-17]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_c0c35d2c7d444dda90e295bf20894c19.html\" target=\"_blank\" title=\"商务部新闻发言人就中加经贸磋商成果答记者问\">商务部新闻发言人就中加经贸磋商成果答记者问</a><span>[2026-11-17]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_5baeb69ccc0f44cb83dea8ac587dd327.html\" target=\"_blank\" title=\"商务部新闻发言人就调整出口管制管控名单措施答记者问\">商务部新闻发言人就调整出口管制管控名单措施答记者问</a><span>[2026-11-09]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_137cb86f6deb442c963c906c2ca97e79.html\" target=\"_blank\" title=\"商务部新闻发言人就调整不可靠实体清单措施答记者问\">商务部新闻发言人就调整不可靠实体清单措施答记者问</a><span>[2026-11-09]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_0a686e2464da49a58a076d9eab42187f.html\" target=\"_blank\" title=\"商务部新闻发言人就美制裁中国企业答记者问\">商务部新闻发言人就美制裁中国企业答记者问</a><span>[2026-11-07]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_337d9e1ef6fb4138a1cdf1952597eca1.html\" target=\"_blank\" title=\"商务部新闻发言人就涉及欧盟的进口对位芳纶长丝和乙叉降冰片烯两起反倾销调查答记者问\">商务部新闻发言人就涉及欧盟的进口对位芳纶长丝和乙叉降冰片烯两起反倾销调查答记者问</a><span>[2026-11-06]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_2004ee7d8e1a436990b8593c8c2f81e9.html\" target=\"_blank\" title=\"商务部新闻发言人就美国联邦通信委员会投票通过检测实验室限制措施事答记者问\">商务部新闻发言人就美国联邦通信委员会投票通过检测实验室限制措施事答记者问</a><span>[2026-10-30]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_7cfb533be03746ae9767619f47bd1d26.html\" target=\"_blank\" title=\"商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问\">商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问</a><span>[2026-10-29]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_d56e28ed788c4c8a887875dbfc287fe3.html\" target=\"_blank\" title=\"商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问\">商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问</a><span>[2026-10-24]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_edf25a12e8654c558c71279fe9324874.html\" target=\"_blank\" title=\"商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问\">商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问</a><span>[2026-10-23]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_7db82f11ad1d414489f3766143f032bb.html\" target=\"_blank\" title=\"商务部新闻发言人就美以窃取商业秘密为由制裁中国企业答记者问\">商务部新闻发言人就美以窃取商业秘密为由制裁中国企业答记者问</a><span>[2026-10-20]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_2f92a22be4324ec6bc566e4ccdb77436.html\" target=\"_blank\" title=\"商务部新闻发言人就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知答记者问\">商务部新闻发言人就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知答记者问</a><span>[2026-10-20]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_95897b72b5d240bdafb7186378bfddf7.html\" target=\"_blank\" title=\"商务部新闻发言人就英方称将共同应对中国汽车产业占主导地位事答记者问\">商务部新闻发言人就英方称将共同应对中国汽车产业占主导地位事答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_1e581b3d58ff46dabe8c44abab408d6c.html\" target=\"_blank\" title=\"商务部新闻发言人就盾构机等物项实施出口管制、优化调整挖泥船相关物项出口管制措施答记者问\">商务部新闻发言人就盾构机等物项实施出口管制、优化调整挖泥船相关物项出口管制措施答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_11a9b615dc91444193dc855a368ac2f0.html\" target=\"_blank\" title=\"商务部新闻发言人就优化调整无人机相关物项出口管制措施答记者问\">商务部新闻发言人就优化调整无人机相关物项出口管制措施答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t</ul>\n  </div>\n  <div class=\"pagination\" pagestyle=\"all\" pagecolor=\"#F40A0A\" queryData=\"{'webId':'8f43c7ad3afc411fb56f281724b73708','pageId':'625b494d0adc47c885f5e1a18ee42b94','parseType':'bulidstatic','pageType':'column','tagId': '分页列表', 'tplSetId': '52551ea0e2c14bca8c84792f7aa37ead'}\" rows=\"15\" unitid=\"分页列表\" count=\"639\" pageNo=\"1\" unitUrl=\"/api-gateway/jpaas-publish-server/front/page/build/unit\"></div>\n</div>\n\n<script src=\"/cms_files/default/script/ajax/page/page.js\"></script>"
+          },
+          "traceId": "8B79B39A12EB4D6C9262384731C8BF67"
+        }
+      },
+      {
+        "id": "mofcom_official_response",
+        "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+        "started_at": "2026-11-18T08:54:12.211266+08:00",
+        "status": 200,
+        "ok": true,
+        "retrieved_at": "2026-11-18T08:54:12.477784+08:00",
+        "bytes": 15616,
+        "sha256": "c2a73c328fcfeebcbbd57312870b015f8431ea8761fdfa0af19d35abee7d7dba",
+        "excerpt": "问： 11 月 16 日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？ 答： 中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国 企业 与 其他国家企业 正常贸易合作横加干涉 。美方做法背离 两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。 中方希望美方能够 与中方 相向而行，回到协商合作解决分歧的正确轨道上来。若美方 一意孤行 ，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 商务热点 商务部惠企政策专题 学习宣传贯彻党的二十大精神 消费品以旧换新 国家层面海外综合服务平台 商务帮扶 提振消费专项行动 政策集成和综合解读专栏 优化营商环境-国际贸易专题 外贸促进 外资企业问题诉求收集办理 电子商务公共服务 国际消费中心城市培育建设 稳外贸稳外资政策措施 丝路电商——电子商务国际合作 《区域全面经济伙伴关系协定》（RCEP） 中国国际进口博览会 市场运行与流通发展服务平台 2025年度网站工作年度报表 机构子站专题 中日经济高层对话 农产品贸易专题 出口商品技术指南 "
+      }
+    ]
+  },
+  "limitations": [
+    "本次盘前报告在实际运行时点形成，不倒填为08:45；此时尚未开盘。",
+    "正常美股收盘属于11月17日05:00北京结束；各源盘后更新不混入正常收盘。",
+    "六股正常收盘经腾讯/新浪核对，盘后经两源对应快照核对，盘后时间分钟精度/秒精度见原始字段。",
+    "盘后为北京时间08:41至08:47非最终快照；美国11月18日盘前尚未开始。",
+    "费半未取得独立第二指数来源，SOXX ETF不同于SOX。",
+    "连续5/20交易日历史及完整美股分时缺失，不报未验证收益或推断尾盘路径。",
+    "A股只使用11月17日完整日线及48根完整五分钟；原始API中可能附带的今日栏位排除。",
+    "不修改独立盘中监测state、固定179.83元历史参考线或既有预测，不运行其结算。",
+    "没有经验证的适用模型，不提供精确概率或命中率。",
+    "Official visible SSE/SZSE notice indexes and holiday calendars are finite coverage; no claim of every possible channel.",
+    "Individual security/fund suspensions are distinct from exchange-wide closure.",
+    "US quote timestamps and actual close values require independent verification.",
+    "Shenzhen independent annual calendar not separately obtained; latest official holiday arrangement original (Mid-Autumn/National Day) confirms normal reopening Oct8, combined with full SSE annual schedule and fresh SZSE general notices.",
+    "LITE/CIENIRHTTP429,FN/AVGOIR403;Coherentdynamicpresslistlimited.",
+    "BISpress-releaseindexrequest404;newremoteadvancedchipaccessmeasuresaremedia-attributedwithoutverifiedruletext/effectivedate/scope,donotpromotetonewlyeffectiveopticalexportban.",
+    "CallquotesonFY28growth75%,backlog2.5tn,newexportimpactareattributedmedialines,notindependentlyretrievedfullcalltranscript.",
+    "NVDA10-QnotyetfiledperCFOcommentary;currentprimaryinformationfrom8-Kexhibitsandsupplementalfinancialdisclosure.",
+    "No verified module-order mapping to Eoptolink/InnoLight;sharepricechangesarenotorderproof.",
+    "Federal Register API有限日期和关键词/机构检索未查到，不证明规则不存在；BIS新闻索引由另一agent访问失败。",
+    "未取得美国正式规则及生效日期，未核实五国适用范围、例外或供应链管辖细则。",
+    "公告回应日期与媒体转载时间分开，条件反制表述不是已生效措施。",
+    "官网PubDate元数据20:27与可见正文页20:20不一致；仅确定11月17日晚披露，不用精确分钟断言先后。"
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "prepared_at": "2026-11-18T08:55:21.788209+08:00",
+    "delivery_status": "prepared_for_final_response",
+    "reason": "用户明确要求每个正常交易日盘前交付；本次亦有英伟达财报与AAOI融资等重大增量。"
+  },
+  "raw_evidence_directory": "evidence/2026-11-18-0855",
+  "report_text": "**11月18日A股光通信倾向开盘修复、全天震荡分化；判断把握中等偏低，暂无可靠百分比。** 沪深今日正常交易，已核查可见公告，未见临时休市。\n\n最近完整美股为**11月17日正常盘**，冬令时北京时间今晨05:00收盘；股票价格为美元。\n\n| 标的 | 正常收盘／涨跌 | 盘后价／较收盘 |\n|---|---:|---:|\n| Lumentum | 559.97／+2.56% | 594.87／+6.23% |\n| Marvell | 148.74／+2.33% | 156.79／+5.41% |\n| Coherent | 210.86／+3.65% | 225.30／+6.85% |\n| Ciena | 264.82／+2.82% | 277.00／+4.60% |\n| 应用光电 | 45.22／+0.13% | 40.91／−9.54% |\n| Fabrinet | 314.75／+1.20% | 325.00／+3.26% |\n\n盘后为北京**08:41—08:47快照**，并非最终盘后价；今天美股盘前尚未开始。英伟达正常收155.46（−0.44%），盘后162.25（+4.37%）；博通341.60（+2.46%），盘后350.96（+2.74%）。费半9642.88（+0.34%）、纳指24328.38（−0.74%）。六家正常盘全涨、五家跑赢费半，但五家仍低于开盘价；缺连续5／20日及完整美股分时，不推断尾盘路径。\n\n新增消息有两项关键分化。①英伟达11月17日财报、今晨05:20受理的8-K披露，2027财年三季度（截至10月25日）收入1158亿美元、同比增103%，数据中心1076亿美元；下季收入指引1300亿美元±3%，属于展望，且该季多一周。下季毛利率指引71%—72%，低于本季GAAP的74.8%；收入增长与利润率压力并存。②AAOI今晨05:06—05:09提交文件，新设最高5.5亿美元随市股权发行，可用于还债、营运及资本开支等；有融资稀释压力，**不代表已募足，更不等于撤单**。本次核查六企SEC、可访问IR及财经快讯；部分IR受限。昨日Lambda／CPO消息已报，不重算新增。商务部昨晚已回应美方限制远程获取先进半导体措施；美方规则生效日、光模块适用范围仍待核。\n\n昨日新易盛160.00元（−4.08%）、中际393.00元（−3.90%），弱于通信ETF（−2.08%）与创业板（−1.20%），但均有尾盘回升。上次延迟报告的全天承压方向相符，不能追认08:45开盘预测或据此计算命中率。\n\n英伟达收入和多数光企盘后上涨有助情绪修复；融资、毛利率、监管不确定性及A股相对弱势限制全天判断。中期仍看800G／1.6T交付、毛利与回款，海外股价不能证明国内订单变化。开盘验证：①两股是否同步跑赢ETF、创业板；②能否守住实际形成的成交均价，回踩低点抬高；③等长完整时段回踩是否缩量。同步满足则修复判断增强；放量失守回踩低点、反弹不回均价则转为承压。\n\n数据核查截至北京时间****，A股仅至11月17日收盘；不生成今日低点预测。\n\n来源：[收盘及盘后行情](https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox,gb_ixic)｜[英伟达财报](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027)｜[AAOI文件](https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm)｜[商务部回应](https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html)\n",
+  "intraday_state_readonly_verification": {
+    "all_protected_hashes_unchanged": true,
+    "checked_files": 26,
+    "hash_manifest": "evidence/2026-11-18-0855/protected_intraday_hashes_before.json"
+  }
+}

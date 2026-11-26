@@ -1,0 +1,421 @@
+[
+  {
+    "name": "coreweave_q3_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "retrieved_at": "2026-11-13T00:27:56.043345+00:00",
+    "status": 200,
+    "bytes": 2440219,
+    "jsonld": [],
+    "text": "crwv-20260930 12/31 false 2026 Q3 0001769628 48 P1Y P3Y P2Y P7Y 0.0083612 0.0102194 132 132 137 364 xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure crwv:segment iso4217:EUR utr:MW crwv:action crwv:tradingDay crwv:consecutiveTradingDay utr:D crwv:voting_right 0001769628 2026-01-01 2026-09-30 0001769628 us-gaap:CommonClassAMember 2026-10-30 0001769628 us-gaap:CommonClassBMember 2026-10-30 0001769628 us-gaap:CommonClassCMember 2026-10-30 0001769628 2026-09-30 0001769628 2025-12-31 0001"
+  },
+  {
+    "name": "coreweave_facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001769628.json",
+    "retrieved_at": "2026-11-13T00:27:56.043721+00:00",
+    "status": 200,
+    "bytes": 569195
+  },
+  {
+    "name": "openai_news",
+    "url": "https://openai.com/news/rss.xml",
+    "retrieved_at": "2026-11-13T00:27:56.043883+00:00",
+    "status": 200,
+    "bytes": 843067,
+    "items": [
+      {
+        "title": "How Amplitude ships product improvements in 1\u20132 days with OpenAI",
+        "pubDate": "Thu, 12 Nov 2026 20:00:00 GMT",
+        "link": "https://openai.com/business/customer-stories/amplitude"
+      },
+      {
+        "title": "Gondola doubles revenue as its team builds more with Codex",
+        "pubDate": "Thu, 12 Nov 2026 12:00:00 GMT",
+        "link": "https://openai.com/business/customer-stories/gondola"
+      },
+      {
+        "title": "Holiday Extras is rethinking what it can build with Codex",
+        "pubDate": "Thu, 12 Nov 2026 09:30:00 GMT",
+        "link": "https://openai.com/business/customer-stories/holidays-extras-codex"
+      },
+      {
+        "title": "Supporting research on AI and children\u2019s safety",
+        "pubDate": "Thu, 12 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/children-first-declaration"
+      },
+      {
+        "title": "Gilbert + Tobin rethinks the business of law with AI",
+        "pubDate": "Thu, 12 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/gilbert-tobin-sam-nickless"
+      },
+      {
+        "title": "ChatGPT Plus for veterans and servicemembers",
+        "pubDate": "Wed, 11 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/chatgpt-plus-for-veterans"
+      },
+      {
+        "title": "JioStar\u2019s chief architect on AI discovery at 500M-user scale",
+        "pubDate": "Wed, 11 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/jiostar-vijay-seshadri"
+      },
+      {
+        "title": "Helping caregivers use AI in everyday life",
+        "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT",
+        "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+      },
+      {
+        "title": "Introducing Businesses in ChatGPT",
+        "pubDate": "Tue, 10 Nov 2026 10:00:00 GMT",
+        "link": "https://openai.com/index/introducing-businesses-chatgpt"
+      },
+      {
+        "title": "Closing the AI guidance gap in education",
+        "pubDate": "Tue, 10 Nov 2026 09:00:00 GMT",
+        "link": "https://openai.com/index/closing-ai-guidance-gap-education"
+      },
+      {
+        "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+        "pubDate": "Tue, 10 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/singapore-airlines-travel-work"
+      },
+      {
+        "title": "Work at the Frontier: AI\u2019s effect on freelance work",
+        "pubDate": "Tue, 10 Nov 2026 07:00:00 GMT",
+        "link": "https://openai.com/index/ai-effect-on-freelance-work"
+      },
+      {
+        "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+        "pubDate": "Tue, 10 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/cogent-security"
+      },
+      {
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "pubDate": "Mon, 09 Nov 2026 19:00:00 GMT",
+        "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+      },
+      {
+        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "pubDate": "Mon, 09 Nov 2026 13:00:00 GMT",
+        "link": "https://openai.com/index/control-room"
+      },
+      {
+        "title": "CodeRabbit scales agentic software development and ships 20x more",
+        "pubDate": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/coderabbit-codex-daybreak"
+      },
+      {
+        "title": "Kuken Industries searches 70 years of drawings in minutes",
+        "pubDate": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/kuken"
+      },
+      {
+        "title": "Partnering with Hacktron to find vulnerabilities in OpenAI\u2019s systems",
+        "pubDate": "Fri, 06 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/partnering-with-hacktron"
+      },
+      {
+        "title": "Measuring how AI agents handle everyday wet-lab science",
+        "pubDate": "Fri, 06 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+      },
+      {
+        "title": "Australian universities are creating AI-native graduates",
+        "pubDate": "Thu, 05 Nov 2026 17:00:00 GMT",
+        "link": "https://openai.com/index/australian-universities-ai-native-graduates"
+      },
+      {
+        "title": "Cult.fit builds operational muscle with Codex",
+        "pubDate": "Thu, 05 Nov 2026 20:00:00 GMT",
+        "link": "https://openai.com/index/cultfit-builds-with-codex"
+      },
+      {
+        "title": "GPT\u20116 Cyber: Advancing the frontier of aligned cybersecurity agents",
+        "pubDate": "Thu, 05 Nov 2026 09:00:00 GMT",
+        "link": "https://openai.com/index/introducing-gpt-6-cyber"
+      },
+      {
+        "title": "Merge builds product and business tools with OpenAI technology",
+        "pubDate": "Thu, 05 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/merge-builds-with-openai"
+      },
+      {
+        "title": "Setting a new standard for responsible AI infrastructure",
+        "pubDate": "Thu, 05 Nov 2026 02:00:00 GMT",
+        "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+      },
+      {
+        "title": "Flipsnack grows product signups with conversion optimization",
+        "pubDate": "Thu, 05 Nov 2026 00:45:15 GMT",
+        "link": "https://openai.com/ads/customers/flipsnack"
+      },
+      {
+        "title": "Franklin Templeton uses OpenAI to support investment research",
+        "pubDate": "Thu, 05 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/franklin-templeton"
+      },
+      {
+        "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+        "pubDate": "Wed, 04 Nov 2026 14:30:00 GMT",
+        "link": "https://openai.com/index/openai-to-acquire-pierre"
+      },
+      {
+        "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+        "pubDate": "Wed, 04 Nov 2026 07:00:00 GMT",
+        "link": "https://openai.com/index/daybreak-red-aws-govcloud"
+      },
+      {
+        "title": "A thousand fewer paths to root",
+        "pubDate": "Wed, 04 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+      },
+      {
+        "title": "Introducing Images 2.6",
+        "pubDate": "Wed, 04 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/introducing-images-2-6"
+      },
+      {
+        "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+        "pubDate": "Wed, 04 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/devrev-enterprise-self-service"
+      },
+      {
+        "title": "Accelerating engineering for the physical world",
+        "pubDate": "Tue, 03 Nov 2026 12:00:00 GMT",
+        "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+      },
+      {
+        "title": "How Cisco defends at machine speed with OpenAI",
+        "pubDate": "Tue, 03 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/cisco-cyber"
+      },
+      {
+        "title": "Heimstaden is changing residential real estate management with AI",
+        "pubDate": "Tue, 03 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/heimstaden"
+      },
+      {
+        "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+        "pubDate": "Tue, 03 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
+      }
+    ]
+  },
+  {
+    "name": "cnbc_tech_rss",
+    "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+    "retrieved_at": "2026-11-13T00:27:56.044070+00:00",
+    "status": 200,
+    "bytes": 20613,
+    "items": [
+      {
+        "title": "Jim Cramer has three lingering questions about Anthropic ahead of its historic IPO",
+        "pubDate": "Thu, 12 Nov 2026 23:45:00 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/anthropic-ipo-cramer-pricing-growth-ai-safety.html"
+      },
+      {
+        "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
+        "pubDate": "Thu, 12 Nov 2026 23:14:56 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html"
+      },
+      {
+        "title": "Nscale updates IPO prospectus that shows widening loss",
+        "pubDate": "Thu, 12 Nov 2026 23:12:15 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html"
+      },
+      {
+        "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+        "pubDate": "Thu, 12 Nov 2026 21:20:35 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
+      },
+      {
+        "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+        "pubDate": "Thu, 12 Nov 2026 22:48:26 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
+      },
+      {
+        "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+        "pubDate": "Thu, 12 Nov 2026 22:24:12 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+      },
+      {
+        "title": "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+        "pubDate": "Thu, 12 Nov 2026 22:47:28 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html"
+      },
+      {
+        "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+        "pubDate": "Thu, 12 Nov 2026 19:58:11 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html"
+      },
+      {
+        "title": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+        "pubDate": "Thu, 12 Nov 2026 19:42:41 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html"
+      },
+      {
+        "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
+        "pubDate": "Thu, 12 Nov 2026 20:32:21 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html"
+      },
+      {
+        "title": "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit",
+        "pubDate": "Thu, 12 Nov 2026 18:36:30 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-candidate.html"
+      },
+      {
+        "title": "Coinbase CEO says industry collaboration can help contain fallout from hacks like Binance breach",
+        "pubDate": "Thu, 12 Nov 2026 17:00:49 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/coinbase-ceo-brian-armstrong-talks-binance-hack-democrats-sweep.html"
+      },
+      {
+        "title": "Trump trade chief Greer speaks with 'Squawk Box' as tariff threats rise",
+        "pubDate": "Thu, 12 Nov 2026 20:59:04 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/jamieson-greer-trump-tariffs-election-nvidia.html"
+      },
+      {
+        "title": "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
+        "pubDate": "Thu, 12 Nov 2026 17:53:31 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html"
+      },
+      {
+        "title": "Nerves around Nvidia as investors await the outcome of Board's crisis CEO meeting",
+        "pubDate": "Thu, 12 Nov 2026 14:15:00 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html"
+      },
+      {
+        "title": "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
+        "pubDate": "Thu, 12 Nov 2026 11:23:04 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/starlink-starshield-ukraine-restrictions-spacex.html"
+      },
+      {
+        "title": "\u2018A dark day for Nvidia\u2019: Here\u2019s what analysts have been saying about Jensen Huang\u2019s departure",
+        "pubDate": "Thu, 12 Nov 2026 19:47:57 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html"
+      },
+      {
+        "title": "Lutnick should ban Chinese memory maker CXMT from U.S., Sen. Cotton says",
+        "pubDate": "Thu, 12 Nov 2026 20:28:41 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/lutnick-cxmt-china-cotton.html"
+      },
+      {
+        "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
+        "pubDate": "Thu, 12 Nov 2026 09:05:22 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html"
+      },
+      {
+        "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
+        "pubDate": "Thu, 12 Nov 2026 21:17:21 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+      },
+      {
+        "title": "AI is coming for consulting\u2019s billable hours \u2014 and its graduate pipeline",
+        "pubDate": "Thu, 12 Nov 2026 08:20:56 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/ai-consulting-billable-hours-graduate-hiring.html"
+      },
+      {
+        "title": "Jensen Huang's affair with alleged spy revives push to tighten China chip curbs ahead of Trump-Xi summit",
+        "pubDate": "Thu, 12 Nov 2026 07:50:34 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html"
+      },
+      {
+        "title": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang ",
+        "pubDate": "Thu, 12 Nov 2026 03:25:05 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/elon-musk-jensen-huang-nvidia-tesla.html"
+      },
+      {
+        "title": "What we know so far about Nvidia partner Megaspeed\u2019s Asia footprint",
+        "pubDate": "Thu, 12 Nov 2026 03:02:03 GMT",
+        "link": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html"
+      },
+      {
+        "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
+        "pubDate": "Wed, 11 Nov 2026 23:41:46 GMT",
+        "link": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html"
+      },
+      {
+        "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+        "pubDate": "Wed, 11 Nov 2026 23:30:48 GMT",
+        "link": "https://www.cnbc.com/2026/11/11/anthropic-ipo-profit-computing-commitments.html"
+      },
+      {
+        "title": "Nvidia board meeting to decide CEO Jensen Huang\u2019s fate stretches into evening",
+        "pubDate": "Thu, 12 Nov 2026 06:11:16 GMT",
+        "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+      },
+      {
+        "title": "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
+        "pubDate": "Thu, 12 Nov 2026 12:03:39 GMT",
+        "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html"
+      },
+      {
+        "title": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
+        "pubDate": "Thu, 12 Nov 2026 00:46:08 GMT",
+        "link": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html"
+      },
+      {
+        "title": "CoreWeave CEO Intrator tells CNBC he has canceled his planned share sale program",
+        "pubDate": "Wed, 11 Nov 2026 15:53:36 GMT",
+        "link": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html"
+      }
+    ]
+  },
+  {
+    "name": "cnbc_openai_funding",
+    "url": "https://www.cnbc.com/2026/11/12/openai-raises-15-billion-at-1point25-trillion-valuation.html",
+    "retrieved_at": "2026-11-13T00:27:56.044211+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "news_coreweave_funding",
+    "url": "https://news.google.com/rss/search?q=CoreWeave%20%224%20billion%22%20loan%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-13T00:27:56.044364+00:00",
+    "status": 200,
+    "bytes": 12629,
+    "items": [
+      {
+        "title": "CoreWeave Plans to Raise at Least $4 Billion in High-Grade Loan - Bloomberg.com",
+        "pubDate": "Thu, 12 Nov 2026 18:02:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdDZFbWh5TVg1cmk3LWhHVVR2OGhKZGlWdC0wVmtINGlSWmU3VzctR3M2NTNIamh1OVliNDhGbThzYWtlM19BbXVKblIxLVBmeXNmRG50cnNUV05qNGRZbTVOU1ZTWFBDOXg2UmtGc0stSkNNcU0waDEzcVNoNVlxTEh6RzRoeDJuQThNVWsxa1dOOHBZSXVMdjVubGNYd0lOWFg3cUM3enR4U25BWjJIWmtXSQ?oc=5"
+      },
+      {
+        "title": "CoreWeave's $4 Billion Loan Plan Comes With a Catch - Yahoo Finance",
+        "pubDate": "Thu, 12 Nov 2026 23:06:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUWs1VEw3clFyakZPYXFXeUV5Ukw2ejdaM3Q5My1zMzNpMmpfcGR4bU96d1FWekEyVUNjc1pvYTQwRjVPM2tuaUV6MjFxbGJVTTNZc25sckN6YUNaYzBXRWx1empkdjJvNjBsb2FZdV9sZDJZNm42QUoybFUyMHFwbEZCLVdNZEFHWlVCU3VJT3p4a3d6bjc5QmVn?oc=5"
+      },
+      {
+        "title": "CoreWeave is planning to raise at least $4 billion in a new high-grade loan - Quartz",
+        "pubDate": "Thu, 12 Nov 2026 13:14:27 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlBaN0Z0NUYyWlRwY1N3VDlFLVdlM0YweHEtT3BxT2p1MUhUSUF6X21fbm1LUGFEY2tsYWkxbEpSWmF6VDlOOC1TcFJtN2pId0xiSmdhaUhGd2dWc1JqOElKNmlSTzl5VE9kNUtxUm9wWU5YZzljM1dPdjgtMnJ2X0JIUTY?oc=5"
+      },
+      {
+        "title": "CoreWeave plans $4 billion high-grade loan, Bloomberg reports - Investing.com",
+        "pubDate": "Wed, 11 Nov 2026 23:16:34 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV1ZNSzZmNXpnMV8wRkluSkMwOHAxa081SHdFaTk3X3VHelNiU3UxNnBlN0ZxZlRadGdXYVBBMDV1ZUpSTlFrLXNGdXJ6c2V4M093bjJKUlhaaFZuM0VBSy1YR3hYWi1CekYtYk5JRVpYTkJvX3VkX0NTNG9QV0tEY1lkSWRqd0hqTExXbFNyVGMtaFM2UGg2Z1JYMmFEQWNRU1JrR2tZaGZnWEwxUFdmTTZxQjlhZw?oc=5"
+      },
+      {
+        "title": "CoreWeave Plans at Least $4 Billion Investment-Grade Loan - Moomoo",
+        "pubDate": "Thu, 12 Nov 2026 01:46:14 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY1ZadVlZckRPVXhjWWNud2lVMjZWS0M5d1hOamQtblI0N1V2SWVFaWlOV3RLRTVhbFdIS2psWVlwMm9NQzF3NmdnYkVDalFPTHIzWVBfLVVRdDU3ZEtyOFpQM1EzdEJXSE15czJpaU1kZk9xV3dEOGJnMlpNelNSdGtkVmFjdzBhYVZMQVF0RXNBZGRPUTJGeXBEcUZ5dzI3SFE?oc=5"
+      },
+      {
+        "title": "CoreWeave Seeks at Least $4 Billion Loan to Buy Nvidia Chips - TradingView",
+        "pubDate": "Wed, 11 Nov 2026 23:40:49 GMT",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcGVpYmk1dnVOdDdSSmI1ZmRCWXc4WFJIQXBiWmFUTnhPX0hvZno3SE01MmlVQ1dfUDk3MVdfUkE0X01nbFFOLV9VWWZXeS1RR3U5VXRET2ZaS29FelRERXhzODdibWdudDlIWV9UMkZMY1lLcXlfalk5NjRVWjAwQ0toVVpzUVJaNlBrTGthRVNaLS01RDc3N2Y4dzRhTlBubkJvQUNleWpwT2xFdWRXQW40MkxRMFJ0VHVEalNlYw?oc=5"
+      },
+      {
+        "title": "CoreWeave plans to issue at least $4 billion in investment-grade loans; shares fell nearly 6% in after-hours trading. - \u5bcc\u9014\u725b\u725b",
+        "pubDate": "Wed, 11 Nov 2026 23:39:07 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMUlWY3ItZ19mQ2MyUVZxYmk3Tk5JdERHVmhoYzVYYlhWVGstWmZBSGswQkpOVTZ6aTh6OF8yWGk3N3R1RU16Y3htMGRoMWlacXc1VEN2N09IU040b2VuMm5rYVFLc2ZvdUFWU1kzMi1fbVd4RWNaQkE0emp0N3JfQkZueGhiWnZXSmNaWl9QZjNtTFVKVGxWek54VGxWODdZX2c?oc=5"
+      },
+      {
+        "title": "CoreWeave plans to raise at least $4 billion in high-grade loan - Bloomberg News - TradingView",
+        "pubDate": "Wed, 11 Nov 2026 22:50:12 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNFdZM3BpaS1nTVlubmk0Ym1JQ2JsNFozZDdpQTJSS29aSXI5MVF5TTVSRzNxY0JkOUZOQVIzWTNIQmk5MUN5UmhFZVByOUYzX3oyNlJOM2ZnRkl0bmkyV1V4LVpvcmlQYjkxcGl6MklLRDFZTzFaSkZDQWJOWkZVOWRkNE9hRnBQQkN5eVVGeTJ2SG9PTlFnN3FMY3RGWFJ1QnJ3ZlpfRUpDSnM5NVl4QUdWcWRtVGVPUTlULTdVdTlaNkpPNlpOQkRlSU1pOGp0MU1JX0JxNjdvcTAwS19QVA?oc=5"
+      },
+      {
+        "title": "CoreWeave (CRWV) Secures $4 Billion Investment-Grade Loan to Sup - GuruFocus",
+        "pubDate": "Thu, 12 Nov 2026 07:12:08 GMT",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeUQ2SC0tRlp3NE9jWGt3MEdjOU9yTXpid1p4eDV1NlMwZ2c2QnpzeVVvR0ctQ3lha1lQb01XVmRDUVpMbl91djBwRzR3bnVxSExDLTRoX0FXb29jTnFkUU8zS1ZQYTMtODRMblRYS1BCRlUwSjZrXzhxMHBrckRnZ3RPZTNQYXl1R0hoYWhpYjBlandUQnp0MGFFQlpTOWdmLXZ2dWFNNUdxN1lHVVVn?oc=5"
+      }
+    ]
+  }
+]

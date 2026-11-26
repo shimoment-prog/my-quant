@@ -1,0 +1,406 @@
+[
+  {
+    "name": "coreweave_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001769628.json",
+    "retrieved_at": "2026-11-16T00:27:28.813217+00:00",
+    "status": 200,
+    "bytes": 157402,
+    "new_filings": [],
+    "latest_operating_filings": [
+      {
+        "accessionNumber": "0001769628-26-000465",
+        "filingDate": "2026-11-12",
+        "reportDate": "2026-09-30",
+        "acceptanceDateTime": "2026-11-12T12:20:41.000Z",
+        "act": "34",
+        "form": "10-Q",
+        "fileNumber": "001-42563",
+        "filmNumber": "261543178",
+        "items": "",
+        "core_type": "XBRL",
+        "size": 13558216,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 1,
+        "primaryDocument": "crwv-20260930.htm",
+        "primaryDocDescription": "10-Q"
+      },
+      {
+        "accessionNumber": "0001769628-26-000461",
+        "filingDate": "2026-11-10",
+        "reportDate": "2026-11-10",
+        "acceptanceDateTime": "2026-11-10T21:05:53.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-42563",
+        "filmNumber": "261540295",
+        "items": "2.02,9.01",
+        "core_type": "XBRL",
+        "size": 543742,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "crwv-20261110.htm",
+        "primaryDocDescription": "8-K"
+      }
+    ]
+  },
+  {
+    "name": "coreweave_ir",
+    "url": "https://investors.coreweave.com/news-and-events/news-releases",
+    "retrieved_at": "2026-11-16T00:27:28.813593+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "openai_news",
+    "url": "https://openai.com/news/rss.xml",
+    "retrieved_at": "2026-11-16T00:27:28.813775+00:00",
+    "status": 200,
+    "bytes": 845452
+  },
+  {
+    "name": "news_priority",
+    "url": "https://news.google.com/rss/search?q=%28Oracle%20OR%20CoreWeave%29%20%28debt%20OR%20financing%20OR%20CDS%20OR%20default%20OR%20guidance%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-16T00:27:28.813995+00:00",
+    "status": 200,
+    "bytes": 33967,
+    "items": [
+      {
+        "title": "CoreWeave lands $8.5B debt deal, cementing a trillion-dollar AI lending playbook - Dealroom",
+        "pubDate": "Sun, 15 Nov 2026 20:29:14 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOUY3RzktdF9oUjdabHdCNmJadXAxR1JDNHlvWnVqZmZGelNndF9qajIxYTk1V2dMb1otdnBfMGRUTWQzY1oweENkV0NNWWYwNlRCdks1UUZRTWkxbGtVSzVNYVozRlg3cEdJNXY4LU5fVk5QeXN1YnZOTHMtbEhiS19WcWxTVE5US2JSbzJOQThTaVdUZUM1UXV4MmRRYm1pSzY0VkpkUTRYb19kVXY1eXBR?oc=5"
+      },
+      {
+        "title": "Why It\u2019s Time to Load Up on CoreWeave Stock - Barchart.com",
+        "pubDate": "Sun, 15 Nov 2026 20:29:39 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMlZpUGE3cTV0N2ZfdjBwRFhlbDFGMmpIeVZTNTZvazgzSVJRS3d5czlSSHF0Q2hqdGhEcGVYZ3BCQnlLdElwdHlacmI2X1cxd3Jnd19rWjFsLVFRVXhRQ3VrVFZzZXMwdGtoeU9aRVNiNUNKWGdsNER5X0laRHlEeXU4TXFEU1Q2Q0ZmZ2owRQ?oc=5"
+      },
+      {
+        "title": "CoreWeave\u2019s Results Foretell Impending Consolidation In AI Neocloud Sector - Forbes",
+        "pubDate": "Sun, 15 Nov 2026 14:00:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTTAycm95cDQxYXBCYmM3RTFLUkI0c3BCVk85V19uNUEzNzBFTjktYVJsQm9SM0lmcU4tOTVJenVUa3l3LW9UVWkzOXl1YlJfaEpqVjhzMUFRWGwwNzc2YURtcDNuXzZUNVEtYTdmTWd0dFBkVkV5UlN1Qk1EeVpnM043ZnpIblhwNUthLTRxODVHVy1vSlZvelZZYXREQVhHTEN6MlFNT2VCbjRwVmExLUxoel9RSGtfS1ZucGVwSmg0TTQ0OFhDRDVB?oc=5"
+      },
+      {
+        "title": "Beware Of CoreWeave's Value Trap (NASDAQ:CRWV) - Seeking Alpha",
+        "pubDate": "Sun, 15 Nov 2026 12:57:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBPaWZQakRJN2oxOHpodDQ1OUhYQ2Y4a1lkd3ZtN3ZlSjB1bURsOWtYa2NXajJPSm9sa3RIc2k1Y0ozbDRMLXhlYnBHSVpWVkRJSWl4dUt6M24xYzRncDkzNjlTQ01pY2ctRFc0Mi1CN2ZIdF9vOEstS1hiSlQ?oc=5"
+      },
+      {
+        "title": "High on customer financing: How CoreWeave and others use prepayments to pull cash flow forward - Deep Quarry",
+        "pubDate": "Sun, 15 Nov 2026 00:30:44 GMT",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KZ00wc3BablpZc0t4Nll2XzZ5UkpscW5fSHc2Nmw5alNLdzFyQzgxOTJqeDk0TlBJLVFCYVY3V2hidEl5Zm9OcnlRdzdXWjlmMWYzMXg1N3B4aU51XzdVRUxjOHprY2MzZFlrRGVJQ0dGMGE2X2dfeEhvcGQ1NGc?oc=5"
+      },
+      {
+        "title": "AI Debt Risks Mount: Why Borrowing by Meta, Alphabet, Microsoft and Oracle Worries Investors - TradingKey",
+        "pubDate": "Sun, 15 Nov 2026 04:04:03 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNaEpPZzJXdWZGekJuTVJaclVjbm9oaUJZZ1U2aVJzenZyVU4yM081TzdQZUoxTXhydldqV0l4ZzItZzBCR3lkZm1hcFEtTFo1bmVvbnphdnAybUpKTDFRYlpuZUpNNjNjb0UzaUUwMmJtTjQ4X1lpeGotbzZtdjRkYzNvZGluN2ZSWWU4dXBySnZ0Umt2d0FDY0JKdUZLVjdZdXE4VHdDSWIwNmF5ZnFVUnV6YUZtXzA1dmxLMzVTTlYteTZQalhpZUdiN1BCX2prVTQ3SEthZW05RUpSajBYOFMyUQ?oc=5"
+      },
+      {
+        "title": "CoreWeave, Inc. (CRWV) Stock Forecasts - Yahoo! Finance Canada",
+        "pubDate": "Sun, 15 Nov 2026 05:09:17 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd1UtckNOZFprdUFSQnh5eUxTUjVET0lVYTRKWG9zNGxvbVMxV2UxZXBzcXhydjBxcFJqblFoN2JTNFJVV3QxVHh0WFo3bmhhNDc1RzN4TUJOQ2VxWTBhX1A0WVhseWZHQmh5ZWF1TUJQdE9sblFuRmlkY2FyTXo4djFpVWc4LUZtbTF0Ui1FRFE?oc=5"
+      },
+      {
+        "title": "CoreWeave: Timely Entry Point After The Recent Panic (NASDAQ:CRWV) - Seeking Alpha",
+        "pubDate": "Sun, 15 Nov 2026 15:14:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOU5PTHZfR2FhajlrbWdZdVVsZElicVpBV1hTUkFjeDB5QWgzVlprUG5uZTNCU1hDWDhQVEE1YVZmNGIyaDBsSGZnOWVRcl96Qk94RFV4ZVRmZGR1LXhsNXBTekxCWVNkYXZ2UjE2N0hxOGtQODBWRU9ZcE9ScTFuN3NzNUlJQWd5UXc5RW1KUmV0Znp1SkJBUDFqTVFPUDBUYU9Tc2JaYnpIcV92UXhWbThkQQ?oc=5"
+      },
+      {
+        "title": "Should You Buy Coreweave Stock Instead Of Nebius Stock? | CRWV Stock Analysis | NBIS Stock Analysis Mn Frost (2mMGeVAviM) - Unisba Media",
+        "pubDate": "Sun, 15 Nov 2026 12:53:15 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVm45TGNhbkJlQ2tKRWp4dzNrQjVNWUVrSF91dEtWWWtvY3IwRUdtbXJCNDR1U2R3ZVBITERzT0cweFVGVkppTzRHRDlIaHZYZ3pxc3Y5QVYyVjVJamVUNVg1QXVONk5CWmNGSW5uckJhekhad0JjS2R1V3ZLRHVSSnN3?oc=5"
+      },
+      {
+        "title": "Microsoft Neocloud Pullback Piles Pressure on CoreWeave, Nebius - FinanceX Magazine",
+        "pubDate": "Sun, 15 Nov 2026 03:31:28 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbDVtQ2FSVGVPZUFWMktuYmRuSzRmRHRtSmpMbnU1RExvMlk4RzdpbDlZWVAyVEktdDFFT1VUVElQTExDa2pwNE5iOHdleTRLLVlVbThGLUxDNGd6V2ZoQ0lTajhpLUdLczJESXJxX0t0TnJvQ0R6endnOUdDRFdHcEQyQXFDQVJVb2JDaHppdUdSVzZfcnN4eHp2VEwxcjZIaEE?oc=5"
+      },
+      {
+        "title": "Jensen Huang\u2019s Exit: From the Allegations to the Money Behind AI Infrastructure - Wowtale",
+        "pubDate": "Sun, 15 Nov 2026 01:44:45 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJRHJtbnBWT0tWWG92UDFDZlRNR1NCemdPUWNEYTBxcEl2dkw2ZTdfaHlyWjgwSFAtZmx2OEFFNnVLYVBrRlZFSS1raXVCS1UzcWdN?oc=5"
+      },
+      {
+        "title": "Oracle (NYSE: ORCL) Locks In VA And Department Of War As Federal Health Data Push Tests Its AI Contract Conversion Story - Foreign Policy Journal",
+        "pubDate": "Sun, 15 Nov 2026 17:20:52 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPejFOclFGNWtfUGFFM0k5ZEFXWmk0Zm9hd093VGw3TnZhXzJCNXNPUmlQb3Fzd3dHRm5UOEdPMUU1NEFHemoxQVhJc3d1N2Zxc1lNWjREekVEVS1uUkhYR0lUSXFjay1xS21pNmk4U2VQT2RpS3U0MS1TRjJBX3U3SXYxZ0wxaEJXVmFfSjdfU084bnF0YUttYkpab19RSXNFUHBPY1VtMXZ1a0RNMUswV0VtU1ZXdGlLM3hLNzhTQlA4ZjRGbjl4bWM2eVVjMmVrNGRlMVh0dmpHQW1semJOWnJUYnp5OEQ5Z0VzYWxadEtHTjNWazlLd3R3?oc=5"
+      },
+      {
+        "title": "IREN Is Down 63% in a Year. Is It Time to Sell, or Load Up? - TIKR.com",
+        "pubDate": "Sun, 15 Nov 2026 11:49:58 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLXVMdTRYLWdxcTk5MjZ4dFNkaGVyaWdDRS1PbFF0NmQwR1VGRjM1Mk9iQzh6UnR0eUhwOFJrWjFkcHpORDdWSnd3dDRLLWdrWUFyOHp4UWhZb29DNDR6NHc5cXU0al9ua3pTX0tIN0lIeDg4ajJhcl80cnY5N1lGV0ZHMjdVeG5vaWc?oc=5"
+      },
+      {
+        "title": "Nvidia's dominance and succession risks expose fragility in the AI boom - Business Standard",
+        "pubDate": "Sun, 15 Nov 2026 16:55:40 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdEROZ0NNQTZrZkZieGZ3RzlOQjRSTFo5X1ItaVB0Zml1bU54UlVuU1FQLXc4TjZaMFBldWVUSlNmalZSbXRWNFVpWUNWeHc1WjVlYk5HUDlwb1NsXzl5dks2MnBIUGRfSGloWThzVTlKalJRbUIyOTFIQ3R4LWdFNllocHdHdHZNOF90NnpHNEJ3ZVBWUjZmc1pFMlpTT0lUMWowRk1qeFlZbFNPY1kySG5OME50OXA1TVZiQ1I5QnZ5Yk52Z3FKb2xsTmtoR2lac1NGdzVCczfSAd4BQVVfeXFMTkVHeHRHdWFoUWtmUjRMcC1KaHdXdzloNGtIeHF2cVB2WDlLYVRLU01kdXI3OExYUS1oaDRZQ1A5X2JfVHJGVDhIaUtfVWJoX09faUhTSWs5Z29ycmtKd2hpWmplbGxxc3VHbWRNQ0VDNzBBRXFiN3ktdG05UUFCNzFTTi1JcmRBWmgwNW4yOTVsemJOeGhSNHdfSVd2TEV5VEUwRmRRcUdzUXZ4S3hCZkJzOTFJTFFmX3FKLVBTZGQtYUJTZ3AxdUR2VWcyVTl1by1LWjRxYlZNZmRqTEl3?oc=5"
+      },
+      {
+        "title": "Value Stocks To Keep An Eye On - November 15th - MarketBeat",
+        "pubDate": "Sun, 15 Nov 2026 20:17:17 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYUpPYi1Yd3FOUFNPOHlic2t5LWJVV21ZRG9TdkxVSy1Jd3kzVm5PaXBOUkE4cXZGMnZfd2VnOE12d3praDl0OXlpOE5peXJxemd3cU15VnNlTzV3MTVJTE9lMWNOcXVxRzNtZEpra2YxQ2wtTzdlTG5CSzlmRnhqaF9fRGZFa0hwRzM4NWk2Q09mUm5wVEhMc09JdHEtQkNySU5iRXNn?oc=5"
+      },
+      {
+        "title": "AI Data Center Stocks Crater On Nebius Outlook And Nvidia Uncertainty, But Applied Digital's (NASDAQ: APLD) $36.2B Lease Book Remains Intact - Foreign Policy Journal",
+        "pubDate": "Sun, 15 Nov 2026 01:55:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNUEZJQ0NSRnhyY3dzNXVGR0V4MEMtVGlxSkN3TDZUalV1UzhYQWJWdHFYYjF5RXh6bldfeXZib2xtTS1pRUJUNkQzLW90Ym5TOTBwR2cxaklLdWNpQjN2aTB6aXFMVWIyeEVLNmxTbDIwdHZCY29VcFYxUTlQdXRFWGtyYUxaVkRlaXhGNV9EYmFDM0l5bTgweHRQU3hwbXc3V0RDTkUxb0QzcUhzcGJ0ZTVHcnJzTkZLaUI2b0FvTE1kVi00bHdQeEFwSzNBaGZOckVkM0ZtUjN6LXM5TVg4VGhYaHpEVjQwci1ieG9XbG5teVk4bENTN1BqVzZiQ3E0TEFsT0l3Y19VX2FnS05uaQ?oc=5"
+      },
+      {
+        "title": "10,783 Shares of Oracle Corporation $ORCL Purchased by Pensioenfonds Rail & OV - MarketBeat",
+        "pubDate": "Sun, 15 Nov 2026 17:54:46 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUkFXWXhOWVZyVmZwTXJ0MS1wWVVIVDViMFB2ODJCQ1FTVWhrQ2hOLVNmcXFsck1TVzRfcFh4RWpyRHVDNGpvRlF1SUJPclQxNjctQ0xndnRTc0szZVZQUXNmRl9xWHZsV0JUQ2hDNWFpVXVNUGhvWFp5aFRuN1JZNDZ2ZlA3ekJKQTkyRTFOZzA5YVRkRGpuZDUybVU4ME1ZRmV4Y2hvU0htSHZ1alFfNm1JNmFvamQwTGlvUFBOaE9LT1huWmRwSnd1cXdqNE1j?oc=5"
+      },
+      {
+        "title": "Oracle Corporation $ORCL Holdings Boosted by Cornerstone Advisory LLC - MarketBeat",
+        "pubDate": "Sun, 15 Nov 2026 15:50:26 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMElYbUlZdy1QakJaRjBpbjhqdlJNelA4S1ZfRTFRMThOUjNFRE1WM0FPNUw0ckVscU4yRWtaaC1KaUIzcXNPZ09mTnpXREdkTHZLenNfRWxvSS1fNDk1MDhJSjJRdjlQaDFadkVjRGI3NTYtNkZKTC1fSXd1UjRvVEgxRmpHRFdwclEycEI0aTdwRko1ZVlONFpJamZLUHJYaXFBRUFzTUNxbmt1N2dBb054LVhkN1Q4UnJUN2V6RGt2WUphZ3o4eA?oc=5"
+      },
+      {
+        "title": "Oracle Corporation $ORCL Stock: Danica Pension Livsforsikringsaktieselskab Trims Stake - MarketBeat",
+        "pubDate": "Sun, 15 Nov 2026 16:03:14 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRHpvTm5LbWltZEZhYldnQi1wd2FrV2FkeTFCcnluUXUyS2NzSVkyUXgzVk55b0RCRlI2d3I0R1RBRnhmQUFCUkJmM3hqMHJ4d2NQUnlvLWRnM2ozMEZfOEVfWWptLWIycVMzbGVpTk0xNENuVjJWdWM4ZUwyZFBvb0lFbGRzSnZIdXcxbkVPMzYycVdGcDJpM2dyd3VqeWlOSTJUNGwxaDhwSHJ3bURqUjUxbmhaY2xtN0dkRlpfc0pUQ291MEdZNGdKN3ljSDFsTzA3WWlMdUJhRTZXa0E?oc=5"
+      },
+      {
+        "title": "Oracle Corporation $ORCL Stock Sold by AlTi Global Inc. - MarketBeat",
+        "pubDate": "Sun, 15 Nov 2026 15:00:15 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb3ZkMFhDY3JROWt0MWwwazVfVHBhZVFCMlJ3MHlQZmQwY1AxLUFZY1hwblk1VklpYzRlVnVEenFodG1oYndLb09aZkttQWtXUUNZT3lqR2RDSHBOcFZuZ19hbjhhYzBadXpfcWs4QnMwY3N0dEwyeUdKZHNGXzNEUmltQVZtbzhPX2RLVEhCV1Rfd2MxNk5fTkZuc3ZZMHY3bTQ5bXltajk2SGQ0M1pEVGFYRHY?oc=5"
+      },
+      {
+        "title": "CoreWeave shares drop but maintain buy rating w... - Pluang",
+        "pubDate": "Sun, 15 Nov 2026 15:35:22 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZldZcWZRZjVEQkVOMDZOQkdLRUl5RmE5WV94MktQWS1lMzQwUTV4Wlp6WGkxVFhReXc0N0JzLWFTdXhVc1UwZU9ONnBXTjJCUklnYzlEcjU2aC1LY0pHTUhLNFQzSFFQQlJDSG5WeWFYZlZlUFA4RkVBT1pMZGxwV3p6OHNkZks3X3kyalFzR2o?oc=5"
+      },
+      {
+        "title": "CoreWeave Stock (CRWV): Earnings, Backlog, Debt and News, Tracked - FourWeekMBA",
+        "pubDate": "Sun, 15 Nov 2026 19:55:29 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nWDdheGI1R3NTX1VHczBCdFN4bDZJZkN4OGl5TV9kWklrTDZhZE5XQjRyQjE2VDZRQzFUZEdZRDI1OVpNOUZIbmNSSTlfV3RTaGc?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_openai",
+    "url": "https://news.google.com/rss/search?q=OpenAI%20%28funding%20OR%20fundraising%20OR%20%2215%20billion%22%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-16T00:27:28.814143+00:00",
+    "status": 200,
+    "bytes": 18321,
+    "items": [
+      {
+        "title": "Anthropic\u2019s giant IPO puts the heat on OpenAI - The Economist",
+        "pubDate": "Sun, 15 Nov 2026 19:49:20 GMT",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRTd6eHRac3JHWEQ5TElWUXZZUWRsMHdXckRQbjJ6X3ZvOFUtVHZDcjFBVWVqOE9LVnNPS3NWeDROZUtsRFdEdklzRzctYlpWbWszbElsMU94VWxtUm5OZ1ozdUxWWnVGRlpGM3ozYWxISG5fS1Y5QlB1bVQ0Z09sVGphWmgzMlpKMWduNkZYX0N1b1Br?oc=5"
+      },
+      {
+        "title": "Jensen Huang: Silicon Valley experts analyze how recent Nvidia scandals could impact AI ecosystem - ABC7 Bay Area",
+        "pubDate": "Sun, 15 Nov 2026 23:27:40 GMT",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaFI1aWRVbEVFc2tfSlVSbEQ3aEJKcnM1bWt5SFp3WFVyS1REekYzaklyRkpQVEljd3c1MUY0aUNtbVZpSzhvNmhmUWhITlMtM3Nmel9CaUVvVzdYcTNna29LMFJzS0U1ZER0SnFQZzNQanI4dGZoa2tkOHlicGdZdDBRa0Y4Y1FROXR5SlZUa3pUSXFRTldnQTZPU1gyQUI0Z1J3TkxHX1ZWc0xGX3JtdzZqcXptWWJkcWxZQ2VLLWJzTmR6UzRueGZWMjjSAdIBQVVfeXFMTUxHblNKdjVMVWlqQ296bmFuR3NPcFhSTUxXd1JCY0tVelc4Z1BodDlXNExOelFNMEh3YThLa3M0aFlpcGVJYWhOSWdqeFBmemJoQWFiN3NMWTU0aExPZE1DbkRQWjJmdXQ0bElDSWdHRGFZMzFPRkVqSzhfVjRySm9KdmtvVktHWXNTRm5VWmNNNVo5V2NfVmsySHFGV1BOakNfdDFHb1hmWU11VkI0bi1TUk1WdGxpM0E3cGpseGktZGVTZU51TlZNSkRuYUtyTkF3?oc=5"
+      },
+      {
+        "title": "OpenAI disbands its stand-alone robotics team and moves researchers into core groups - Startup Fortune",
+        "pubDate": "Sun, 15 Nov 2026 04:50:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXg3SVJ4Y3JqV0gwc2FLQ21obmhCR0I0X3BjUkZTZ2tDd0owWFJpWnlLUUdscFNzTUYtQlFHZ0tTMkVMZFc2RmQySG1hbnk3ZjJZem5mMzYxamJRLXgwYUNXWC11TXB2QmJzTjJtMXJPWmpONjg1bjdoenB3dDdTeWxvVFUzUjNTUjJnZDRoNlhFVHA2X1JBTFhHQXA0M1BHZjkxc2NUaVhXbG53WlFIb0VR?oc=5"
+      },
+      {
+        "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+        "pubDate": "Sun, 15 Nov 2026 13:23:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5"
+      },
+      {
+        "title": "S\u0142upsk launches two-year public science programme focused on digital education - The Baltic Review",
+        "pubDate": "Sun, 15 Nov 2026 11:15:06 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMG9VdjBCanhKM1BKbFp1LVBIX3VZNGZ6bzVuWVpiUm9sVC02Y1NnaktsWmd5YjJzXzQxdGh4Y0NkN09TWDU1aWhnN2JvRVVFNUZmZkxsaHpxR01ZdkRrTF9yT0dUMml3VUJJbU9PNzZJbWtBa1BwTVlGUjMtQm01bTBB?oc=5"
+      },
+      {
+        "title": "OpenAI folds standalone robotics team into main units - Tech in Asia",
+        "pubDate": "Sun, 15 Nov 2026 05:11:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR1JfeDVOcUE0eVBrRE1VUDh6WWswbi1UTmplTkxHVi1DYlVOcnc5M0ducFBQdFNtVnR6YkF1SG5zd0tmaExLanNTbWdrRGFSanpuV25KazRDVUx2d3owM0V5eWVXenlaaWF2cW1Pc1p2WWl6WTZzN181ZTUybHB5OWV2SzBIbUk?oc=5"
+      },
+      {
+        "title": "What If OpenAI's Bubble Bursts? (Hour By Hour) Temporary Residents Canada (WkmNck2zC8) - Unisba Media",
+        "pubDate": "Sun, 15 Nov 2026 16:08:08 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX0RzeEE3eUNHbmVMci1XTzlJaFE0cXlHb2tkRDVmekpLSkpqX1gyTHlhU3Q2ZGRUOE5PenRZR3FzMHdlSjJfdXhQaFdXNW80X19XNnk1QkVkamlxUDRUQy1GRUpqLUJlWUJLaWNaMjFTSnFxUDd3WmhfbmJMcUloWmFmYklub00?oc=5"
+      },
+      {
+        "title": "Nvidia\u2019s Problem: OpenAI Is \u201c90 Plus Percent Nvidia,\u201d and It\u2019s the Lab Burning Cash - TIKR.com",
+        "pubDate": "Sun, 15 Nov 2026 18:14:07 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTXM5cHlnVTluSGYySzZWbzVHb0VvVENhT3QzdVcxY21sTmR6R3ZjVkQ4NzNKU3pQS1dOendVVWo2WkU4dTNJNmVya3k5QUlpNFplUS1QQlRUeVQ4QWhta3FUZzl4cHpHQ3BCa2FwemF6Z0VHbUZtaDhUNnJwSloxcHRQTHp0d1FSdXltS1ZnTEwtSnpCV3BDcXZzb2JaWWFqVHd2aTBLY3NQRW91M1RkOGtPOUtUUWs?oc=5"
+      },
+      {
+        "title": "OpenAI And Anthropic Will Never IPO Seattle Storm (aOdFxElxsl) - Unisba Media",
+        "pubDate": "Sun, 15 Nov 2026 09:46:44 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVkp2bWFOczdBenZNSmtiZjZsd1c2eEJYcEx6eEFnQTJwODNya2ZjbWdiUkRJaTBnUFE5dEZfT0JVeE9QNDRBeHBmdnFzbmtRUnAwVTdmN2s3bDlMYzJMZ3BMcmpCdUJiaUNqNFQ1d2lDT2hlUjZZLUMzbE9rVkpoUlVB?oc=5"
+      },
+      {
+        "title": "Firmus seeks $4.4B private capital raise - grafa.com",
+        "pubDate": "Sun, 15 Nov 2026 22:20:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObDd4UDZrRDc5OFVEWXlpWVBrYzJQa1BRNXc0UFVId2daN1hza1Q3VDVDLUJHRkZDcUNNZjZMdERLaUNOVE9mRVNRSlJEQWxtMjBIcE5UYjZ0MTZ3OFZ0dzhMSnNBRGU2TWxEcndBMnN0QkJKS2dJOVZmLU1FSXQtRg?oc=5"
+      },
+      {
+        "title": "Anthropic\u2019s $63B Benefit Fund Is 2.3x HHMI and 68% of Gates - FourWeekMBA",
+        "pubDate": "Sun, 15 Nov 2026 10:05:29 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdjFKZHBuZzVlOVRkdk5NZW4zYmVBMzVNcHhfZE92VnJLRThNSmU3M3VQcGhITVQ1MGJBRzJFWmJndDlzOGpIY0daWlBINFZua092VENLZ2pPcHhoaGI5ejlKM3lJZjd0aklyc0t1SW5aZmRXWVNvdlUzYnpkenRST18xUWdXN3Izc0Y3cA?oc=5"
+      },
+      {
+        "title": "Anthropic Says Your Claude Prompts Are Outdated \u2014 Here's What to Change - OpenTools",
+        "pubDate": "Sun, 15 Nov 2026 08:26:23 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGFsODdVRUpiYlBuelh1NEJNS1VMM05TQ20yb2JCb0NfelM1UjN6eGN6YUZXOUNNXzIxeXByeGplWXJrVFJxWVljeFhXQlBCRENyNXg1SDFKbXFIbXdZVFFma1ZndTZZSGg1Q25PSnMxOGsxYXJOejJlQ1hidUszTEFnMHhxeE8wMG93cU1n?oc=5"
+      },
+      {
+        "title": "Anthropic Wants You to Build on Claude \u2014 Then It Competes With You - OpenTools",
+        "pubDate": "Sun, 15 Nov 2026 04:07:22 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeDVfV2VDN0l0VDVnSEZVd3JtUHJLSVpVNlJNSGtZZTdHMTZwRUl4cFRzNXE2YlAxU3FTTVU2WWdIWklpVm02aHkwUTNYbERXblM0QktkNDZwTkpYcy1PNjBIdllFbjRCeXU2YUtLQlVYMVBvWFZ3UW90MnJWZGpYeGZCdEVMUTdWenNRRA?oc=5"
+      },
+      {
+        "title": "Elon Musk Backs 115K-Strong Petition to Reinstate Jensen Huang as Nvidia CEO - OpenTools",
+        "pubDate": "Sun, 15 Nov 2026 04:07:22 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTd3WWk4SGo0clY5V3FobVF4bXZSQXVEdTVqWThqNGpxVXRnYThieFo5TXU4Qzg2cTlNaDV2VWhnb2xVa095MVJFaGxza1hMT1N3Ty04d25oRnZtb2FBeDVoaEJfbm52YjNRQmNBSUY3UzRzaDh0MW1jcFZSMXU2RGtWSkQwVWgyczRV?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_coreweave_funding",
+    "url": "https://news.google.com/rss/search?q=CoreWeave%20%28loan%20OR%20financing%20OR%20bonds%20OR%20default%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-16T00:27:28.814288+00:00",
+    "status": 200,
+    "bytes": 31841,
+    "items": [
+      {
+        "title": "CoreWeave lands $8.5B debt deal, cementing a trillion-dollar AI lending playbook - Dealroom",
+        "pubDate": "Sun, 15 Nov 2026 20:29:14 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOUY3RzktdF9oUjdabHdCNmJadXAxR1JDNHlvWnVqZmZGelNndF9qajIxYTk1V2dMb1otdnBfMGRUTWQzY1oweENkV0NNWWYwNlRCdks1UUZRTWkxbGtVSzVNYVozRlg3cEdJNXY4LU5fVk5QeXN1YnZOTHMtbEhiS19WcWxTVE5US2JSbzJOQThTaVdUZUM1UXV4MmRRYm1pSzY0VkpkUTRYb19kVXY1eXBR?oc=5"
+      },
+      {
+        "title": "Why It\u2019s Time to Load Up on CoreWeave Stock - Barchart.com",
+        "pubDate": "Sun, 15 Nov 2026 20:29:39 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMlZpUGE3cTV0N2ZfdjBwRFhlbDFGMmpIeVZTNTZvazgzSVJRS3d5czlSSHF0Q2hqdGhEcGVYZ3BCQnlLdElwdHlacmI2X1cxd3Jnd19rWjFsLVFRVXhRQ3VrVFZzZXMwdGtoeU9aRVNiNUNKWGdsNER5X0laRHlEeXU4TXFEU1Q2Q0ZmZ2owRQ?oc=5"
+      },
+      {
+        "title": "CoreWeave\u2019s Results Foretell Impending Consolidation In AI Neocloud Sector - Forbes",
+        "pubDate": "Sun, 15 Nov 2026 14:00:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTTAycm95cDQxYXBCYmM3RTFLUkI0c3BCVk85V19uNUEzNzBFTjktYVJsQm9SM0lmcU4tOTVJenVUa3l3LW9UVWkzOXl1YlJfaEpqVjhzMUFRWGwwNzc2YURtcDNuXzZUNVEtYTdmTWd0dFBkVkV5UlN1Qk1EeVpnM043ZnpIblhwNUthLTRxODVHVy1vSlZvelZZYXREQVhHTEN6MlFNT2VCbjRwVmExLUxoel9RSGtfS1ZucGVwSmg0TTQ0OFhDRDVB?oc=5"
+      },
+      {
+        "title": "Beware Of CoreWeave's Value Trap (NASDAQ:CRWV) - Seeking Alpha",
+        "pubDate": "Sun, 15 Nov 2026 12:57:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBPaWZQakRJN2oxOHpodDQ1OUhYQ2Y4a1lkd3ZtN3ZlSjB1bURsOWtYa2NXajJPSm9sa3RIc2k1Y0ozbDRMLXhlYnBHSVpWVkRJSWl4dUt6M24xYzRncDkzNjlTQ01pY2ctRFc0Mi1CN2ZIdF9vOEstS1hiSlQ?oc=5"
+      },
+      {
+        "title": "Microsoft Neocloud Pullback Piles Pressure on CoreWeave, Nebius - FinanceX Magazine",
+        "pubDate": "Sun, 15 Nov 2026 03:31:28 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbDVtQ2FSVGVPZUFWMktuYmRuSzRmRHRtSmpMbnU1RExvMlk4RzdpbDlZWVAyVEktdDFFT1VUVElQTExDa2pwNE5iOHdleTRLLVlVbThGLUxDNGd6V2ZoQ0lTajhpLUdLczJESXJxX0t0TnJvQ0R6endnOUdDRFdHcEQyQXFDQVJVb2JDaHppdUdSVzZfcnN4eHp2VEwxcjZIaEE?oc=5"
+      },
+      {
+        "title": "High on customer financing: How CoreWeave and others use prepayments to pull cash flow forward - Deep Quarry",
+        "pubDate": "Sun, 15 Nov 2026 00:30:44 GMT",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KZ00wc3BablpZc0t4Nll2XzZ5UkpscW5fSHc2Nmw5alNLdzFyQzgxOTJqeDk0TlBJLVFCYVY3V2hidEl5Zm9OcnlRdzdXWjlmMWYzMXg1N3B4aU51XzdVRUxjOHprY2MzZFlrRGVJQ0dGMGE2X2dfeEhvcGQ1NGc?oc=5"
+      },
+      {
+        "title": "CoreWeave: Timely Entry Point After The Recent Panic (NASDAQ:CRWV) - Seeking Alpha",
+        "pubDate": "Sun, 15 Nov 2026 15:14:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQU1lKczgzdk1xMUc0MzRYckJOTm1kZFA1Z0hvN0ZWZWoxV0RKR3NxWWlnUGZFYmpkS1gzVVFUVkdnd2gtYi1XbzhURVRReTVUeWlHMEpQQjFmTWhBN25MajdMS2s3emZkLXlIOUxrcHY4VVR5M2libnZUOUpSWVUzUXlrdEE1SEdWc2VBeGVGOG5vVUtpMk81bmoyRDBSM2NyYnFGUmRYTEJobjBkaVVEMzI1dzBhRUk?oc=5"
+      },
+      {
+        "title": "AI Data Center Stocks Crater On Nebius Outlook And Nvidia Uncertainty, But Applied Digital's (NASDAQ: APLD) $36.2B Lease Book Remains Intact - Foreign Policy Journal",
+        "pubDate": "Sun, 15 Nov 2026 01:55:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNUEZJQ0NSRnhyY3dzNXVGR0V4MEMtVGlxSkN3TDZUalV1UzhYQWJWdHFYYjF5RXh6bldfeXZib2xtTS1pRUJUNkQzLW90Ym5TOTBwR2cxaklLdWNpQjN2aTB6aXFMVWIyeEVLNmxTbDIwdHZCY29VcFYxUTlQdXRFWGtyYUxaVkRlaXhGNV9EYmFDM0l5bTgweHRQU3hwbXc3V0RDTkUxb0QzcUhzcGJ0ZTVHcnJzTkZLaUI2b0FvTE1kVi00bHdQeEFwSzNBaGZOckVkM0ZtUjN6LXM5TVg4VGhYaHpEVjQwci1ieG9XbG5teVk4bENTN1BqVzZiQ3E0TEFsT0l3Y19VX2FnS05uaQ?oc=5"
+      },
+      {
+        "title": "Cathie Wood\u2019s ARK Buys $16 Million of CoreWeave and Sells Palantir - Daily Voice Of Asia",
+        "pubDate": "Sun, 15 Nov 2026 11:15:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZjZwb3ZydjR2ZUxpc2xrQ1N3RUd5Wm1oLUdRaTZsYUZuYUd4R2hVaFN1Yy1fVjBVNmVuRnI4NHRaelVfd0R5dy14SkZPcEJkRmtuZk14OFFvNUtvSTJmaUtkZTZfcHEzRmxwVEZIaGZRMEh0MG4wYzZLS1ZnbVJJdWhjV2F5Y1ctaF9NZXM0TlF2YVJ1WVlqM0tvYVFRckk?oc=5"
+      },
+      {
+        "title": "CoreWeave shares drop but maintain buy rating w... - Pluang",
+        "pubDate": "Sun, 15 Nov 2026 15:35:22 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZldZcWZRZjVEQkVOMDZOQkdLRUl5RmE5WV94MktQWS1lMzQwUTV4Wlp6WGkxVFhReXc0N0JzLWFTdXhVc1UwZU9ONnBXTjJCUklnYzlEcjU2aC1LY0pHTUhLNFQzSFFQQlJDSG5WeWFYZlZlUFA4RkVBT1pMZGxwV3p6OHNkZks3X3kyalFzR2o?oc=5"
+      },
+      {
+        "title": "Hubbis Macro Corner: US Yields Rebound as AI Stocks Diverge - Hubbis",
+        "pubDate": "Sun, 15 Nov 2026 16:00:39 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeThpZUx4R2xtR1l1dDVRbWYyQTNlNG92UjVrNDlSVk51MEpELTYzZjZWYjJ1UlA4ZzhyeElyNXY3WUFyenBnVHhGc01uZXhCSkh1YTNXQnRhOTNrVDc5cm9fbkczaHZ0S242WW1EOXZuOXh6aUgxM19IMnRWd0ZmeTFGZmI2dGRQUW1kZkJERQ?oc=5"
+      },
+      {
+        "title": "Jensen Huang\u2019s Exit: From the Allegations to the Money Behind AI Infrastructure - Wowtale",
+        "pubDate": "Sun, 15 Nov 2026 01:44:45 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJRHJtbnBWT0tWWG92UDFDZlRNR1NCemdPUWNEYTBxcEl2dkw2ZTdfaHlyWjgwSFAtZmx2OEFFNnVLYVBrRlZFSS1raXVCS1UzcWdN?oc=5"
+      },
+      {
+        "title": "Data center junk bonds hit $37B in 2026, nearly half of all issuance - Dealroom",
+        "pubDate": "Sun, 15 Nov 2026 22:23:43 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbGlfV3ZzUTRMSVdwN3FLODR2eG56M1BRM2Qwd2R3OTlEQzl2SmM4R0NybU5Gc3NOR0MzT1gxb0J4WTJoLW5PQWhVUkVsRzdNM2kxd1VFTXJUeFZfOFg4aVoxODUxQ25oc2xHLVQ4eG5iNFRBTVVha2VnbTA3ZU5HR0duSWZJLVdPemFoSThENmdkMGFIQXo5eGVJTHRtUDFnNkE?oc=5"
+      },
+      {
+        "title": "\u3010US Pre-Market\u3011Three Major Index Futures Rise; Nvidia Falls Over 5% as Jensen Huang Faces Board Investigation; AI Cloud Computing Stocks Under Pressure, CoreWeave Falls Over 3% - TradingKey",
+        "pubDate": "Sun, 15 Nov 2026 00:53:36 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkkwTHY3OEVUN3ZXUVRnZTlIZTFlNC1tNzhsMlZEOTN3dE12QnFUNWNvX1lTNWY5NE9vM3RCbXRfTlJvWkdLRlM4SndtSS1yZVZIbzZHYU84bWJSU20xMW8ydkdCeEM3LU0yUG5XMUdxaTEyc1U1MmRLdWpqcWl5a3pRd0VzbDBOS3dGbk9RazJ5YjZCRlo5Nko5QWhuak1lM3BZQmVRa0VFWGNRR015ZWNibkcxbXRBM0JWeklmWlE1a19STmRMRFo4ZnlyajJLZzJ5a3NkTTQxdzVS?oc=5"
+      },
+      {
+        "title": "3 Growth Stocks With Revenue Growth Over 18% - Yahoo Finance",
+        "pubDate": "Sun, 15 Nov 2026 11:10:38 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT0ZGR0ZJVmFVa2lfQnEtWDJKbVJxODF4Rk5tSHpaeUNDalJNUWRUYi15RFZvT19ZZGQ2NkJnSWhKclZNdWhnQXN2NkZSUHRpN0pDMFl3WmF3V1htSjlLZjY4Zl9zcEFkLXpDZkwtLVR6SmVkZ1Fkak5rVGtXQThJTFBuakZ6bVVNa1Ywb0pGbEFQekJkMkF0Vkdrcw?oc=5"
+      },
+      {
+        "title": "Form 4 CoreWeave Inc For: 15 November By Investing.com - Investing.com Canada",
+        "pubDate": "Sun, 15 Nov 2026 06:35:45 GMT",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRWZxUWVyWVNYY21NMW4wQUV2c2JmRVBjeW5mN1pfM1NENHk5OUc0TDZkakVjd3FDN1FyQlVpSDZqSXNKYUx6NE5aMWt3UHJFeHZqeGN6VTVucGg3RGJZVFhuOTJvQU56Y0wxeDZ0Q0xlSHFnVmwydDRXWWhLbU0wcnJkRmd0ak5jaUZ4b3dqYVhmTlE5c2JFajlkTTBsZw?oc=5"
+      },
+      {
+        "title": "Applied Digital Stock Faces AI Data Center Funding Questions - Simply Wall St",
+        "pubDate": "Sun, 15 Nov 2026 09:19:54 GMT",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT2I4SVAxUXh5TDNLXzJZbXY2SjVkdk15cnM0R1NidEU2S21YdkNiRHV1ZnV3QUdKT1hacDlFWDQxT29DaGRidUZ5SDZpVUlkejQxb3BFZ0tVR0h4akdPVXJwOVVfeFM4THhFM1BRX2ZVcGtXT0lTVDZ4VjhDQnkxQm9jekt5RS1HRXhHQlROSXdWM2tYTzFnSFpQaV9sc3hsZVdQWHQ1MUdtREJjTUJ3UzN1T2MyTHVseXdWMHh3bDhJODktT0xFODY1Q014QjTSAdQBQVVfeXFMT2ZHTGMzS0hRVFNWVVpJZFFBVWxuWlc1TXhKcjRFV194Vmh2OHZkbnAtSmJ0a2R2Y2F1V0psWWFDRWpodG5Ra2dPamY0bDRRd3FDT2RLX0Z6eTU5YXFrY2puem9TYzFxOEgxdm1sdUlpN3R1bHREcEd5UXJDLUVzMFU5b0VDRmE1TWJsVWJJV1RmckY2U0FodkVCNGNicWNoN1l4dWFiRUZVLUIwbFZUZWEySHRlS2tPY09ITEY4X3dPR1VKWlR4SHVaV21KUW5HT21ZS2w?oc=5"
+      },
+      {
+        "title": "Market outlook: Nvidia CEO resigns, Mainfreight exceeds forecasts and more - BusinessDesk",
+        "pubDate": "Sun, 15 Nov 2026 04:05:03 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOZFZCamZZbEF0eWRrRXpwVFFvUjF0YVlQUVpZM1JzVklTMDl6VXhfQ2dsaWpsZV8tWWdiTEZYaWRPNDAxUXhnVWJRWDZaUWFONW5LS3BMaHhJZUl3MHhJTGp5cGIxRGxSU0VUQTJLaG50V3JCb29jZG9LNW9jemYxVEZiMHdDV2R2TGdrV2JZN1IzRnBvUVdLcGRPaXBtNWVzZDVPdmctX2xQYUFZejlvbUZSb29zNHJqX0pOUkFfOVllSzA2bUdmVUhpZmhLMFpDTmMxdkJleXBYMjE4SW1XTmIwM0lRNjJXckQwdkxaeGd6UVJrWWx0YVBjc2E?oc=5"
+      },
+      {
+        "title": "CoreWeave Tokenized Stock (Robinhood) Price Today in Turkey | CRWV to TRY Live Price & Chart - Binance",
+        "pubDate": "Sun, 15 Nov 2026 01:48:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91X0tmUWxNbDdERDF2NVBUd1owRzRSTzUwT2RMa2hHLUZLVG1lMG1OcUp4ZS1PYUtkdDFIb0diakFnLW9mSTRRd0NMcVAwcXQ5czdLYTBOVmZNZVNWMUZJT3pDclJoMXVwOWRFMmE0NExMLWlsMTk0TDl1aw?oc=5"
+      },
+      {
+        "title": "CoreWeave Stock (CRWV): Earnings, Backlog, Debt and News, Tracked - FourWeekMBA",
+        "pubDate": "Sun, 15 Nov 2026 19:55:29 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nWDdheGI1R3NTX1VHczBCdFN4bDZJZkN4OGl5TV9kWklrTDZhZE5XQjRyQjE2VDZRQzFUZEdZRDI1OVpNOUZIbmNSSTlfV3RTaGc?oc=5"
+      },
+      {
+        "title": "CoreWeave Earnings Call Signals AI Infrastructure Surge - TipRanks",
+        "pubDate": "Sun, 15 Nov 2026 03:24:27 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ2ZVaFdEWndBUXhOWkhTbXNISXUxbll3dG9jLVlSRExQQmg2cFl6Qy14Vy1HRVk1ZWFqQzE3ano3dC1VNnVRbTJocmt4Y2poMzE2cFowWmpnQVFOZlcyOHFtYjBKOGI3VHNkbVBCVDRWZzdCeG54eGpRZDdKNFFTU0tkTnhQaWZqMjBpUlBjU1J0NmwzbWtCQlN2QUxWSzV1cElMRU1YRFhwUXc?oc=5"
+      },
+      {
+        "title": "CoreWeave Is 30% of APLD\u2019s $36.2B Leases, a Hyperscaler 41% - FourWeekMBA",
+        "pubDate": "Sun, 15 Nov 2026 15:30:29 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSm5JQjlLZHZPUmZENVUyWGVZNkI0UlJ4dHlvalhPV0FOSHl0MzZRcTR1ZE5qZXc5dmQ4Ujh5Tm1Qa3ZqellOMkl1LWFjT0ZFX3FnQ2hCcy1SSExfOW8tZHJSaDNSZEU3aDl6VHZ4cDdGR2dHYTRaaHZ0bzFRbEw4TzgxeVpMbnVTdEE?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_ing",
+    "url": "https://news.google.com/rss/search?q=ING%20CoreWeave%20%28sale%20OR%20loan%20OR%20BWIC%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-16T00:27:29.314358+00:00",
+    "status": 200,
+    "bytes": 2531,
+    "items": [
+      {
+        "title": "CoreWeave plans $4 billion high-grade loan, Bloomberg reports By Investing.com - Investing.com Nigeria",
+        "pubDate": "Wed, 11 Nov 2026 23:15:15 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3V2MEtFNUZ3YzF4YWRRalBjN2w2aVJiUzlweDdpWjdCT09JbFczMWtvRlBjRDhOcmNyMXh6VzU4R0lQeE8zYUktblZIY1JfaEtlRzlSak1RZHczVS12NFZZWEJRcVJMNFFrSzZxalMzWHVhWTdLazdNdVVNUFQ5RzNuLXk0NVNGVWFyQUg2SzhVVW1vSkd6ZjBRSmZGLW14NTFuQzN3Ull0MkNyRGNOajdkNWg?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_qts",
+    "url": "https://news.google.com/rss/search?q=QTS%20%28debt%20OR%20placement%20OR%20financing%20OR%20Thunder%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-16T00:27:29.325895+00:00",
+    "status": 200,
+    "bytes": 2626,
+    "items": [
+      {
+        "title": "Weekend - Blackstone\u2019s QTS cuts AI data center debt sale 60% as investors push back on pricing - investingLive",
+        "pubDate": "Sun, 15 Nov 2026 22:28:27 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ2tnOFg4MFNKSmFHLVEwT0ZCVzd6bGNsRDlMZnd3dXJCRS1zUlZmQ0xHY0FEcnhoN0w3eUdCOUtSNVNzOFFSWk1zYWRQVF9GSlhvbno3VDBiaWhxdlNGRjRueGo0M25HOC1zNkdKcU5GTUhqdERtMlgtVWh4VS1IT1F0ZW9lNjZ6Tl92ekJJaFNBbWVSbGFIVi0teTRXNlFzZ0dyTmFxQy1tLXJvcHZYSE15d0NtLUVwUU1yUEVHbXhUTkE?oc=5"
+      }
+    ]
+  }
+]

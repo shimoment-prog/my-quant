@@ -1,0 +1,278 @@
+[
+  {
+    "name": "mrvl_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+    "retrieved_at": "2026-11-18T00:47:39.709066+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 138533
+  },
+  {
+    "name": "aaoi_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+    "retrieved_at": "2026-11-18T00:47:39.710050+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 155066
+  },
+  {
+    "name": "avgo_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-18T00:47:39.710379+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 160094
+  },
+  {
+    "name": "lite_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "retrieved_at": "2026-11-18T00:47:39.710667+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 160372
+  },
+  {
+    "name": "fn_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "retrieved_at": "2026-11-18T00:47:39.710935+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 155337
+  },
+  {
+    "name": "cohr_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+    "retrieved_at": "2026-11-18T00:47:39.711227+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 159783
+  },
+  {
+    "name": "cien_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+    "retrieved_at": "2026-11-18T00:47:39.711478+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 159187
+  },
+  {
+    "name": "nvda_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "retrieved_at": "2026-11-18T00:47:39.711820+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 160103
+  },
+  {
+    "name": "nvda_news",
+    "url": "https://nvidianews.nvidia.com/news",
+    "retrieved_at": "2026-11-18T00:47:41.307353+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 68179
+  },
+  {
+    "name": "lite_ir",
+    "url": "https://investor.lumentum.com/news-events/press-releases",
+    "retrieved_at": "2026-11-18T00:47:41.540152+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "cohr_ir",
+    "url": "https://www.coherent.com/news",
+    "retrieved_at": "2026-11-18T00:47:41.769688+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 170108
+  },
+  {
+    "name": "avgo_ir",
+    "url": "https://investors.broadcom.com/news-releases",
+    "retrieved_at": "2026-11-18T00:47:41.903885+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "cien_ir",
+    "url": "https://investor.ciena.com/news-releases",
+    "retrieved_at": "2026-11-18T00:47:41.912424+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "fn_ir",
+    "url": "https://investor.fabrinet.com/news-releases",
+    "retrieved_at": "2026-11-18T00:47:41.951430+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "aaoi_ir",
+    "url": "https://investors.ao-inc.com/",
+    "retrieved_at": "2026-11-18T00:47:42.062454+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 44035
+  },
+  {
+    "name": "mrvl_ir",
+    "url": "https://investor.marvell.com/news-events/press-releases",
+    "retrieved_at": "2026-11-18T00:47:42.106151+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 114815
+  },
+  {
+    "name": "nbis_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001513845.json",
+    "retrieved_at": "2026-11-18T00:47:42.162297+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 84869
+  },
+  {
+    "name": "news_1",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:42.640980+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 240602
+  },
+  {
+    "name": "news_2",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.017432+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 258647
+  },
+  {
+    "name": "news_3",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.036117+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 195648
+  },
+  {
+    "name": "news_4",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.099332+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 183550
+  },
+  {
+    "name": "news_5",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.245447+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 226275
+  },
+  {
+    "name": "news_6",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.279010+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 214563
+  },
+  {
+    "name": "news_7",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.420887+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 186438
+  },
+  {
+    "name": "news_8",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.435842+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 167248
+  },
+  {
+    "name": "news_9",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=9&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.494341+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 187370
+  },
+  {
+    "name": "news_10",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=10&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.494629+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 230108
+  },
+  {
+    "name": "news_11",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=11&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.526652+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 218361
+  },
+  {
+    "name": "news_12",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=12&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.671965+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 214590
+  },
+  {
+    "name": "news_13",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=13&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.799105+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 229465
+  },
+  {
+    "name": "news_14",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=14&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.812007+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 245854
+  },
+  {
+    "name": "news_15",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=15&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.818192+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 217233
+  },
+  {
+    "name": "news_16",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=16&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.856647+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 221319
+  },
+  {
+    "name": "news_17",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=17&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:43.959769+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 245226
+  },
+  {
+    "name": "news_18",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=18&page_size=100&type=0",
+    "retrieved_at": "2026-11-18T00:47:44.065000+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 290370
+  }
+]

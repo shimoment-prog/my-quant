@@ -1,0 +1,139 @@
+{
+  "artifact": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/eth-three-day-review.html",
+  "artifact_sha256": "a414b15b52e566c0bc42e2c1c7543146ed6c90a77c5a67967837cf851f9f8cce",
+  "errors": [],
+  "externalRequests": [],
+  "samples": [
+    {
+      "name": "chart-desktop-dark",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 1741,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 1471,
+        "body": 1468.328125,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-desktop-light",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 1741,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 1471,
+        "body": 1468.328125,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "report-desktop-light",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 2795,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 2525,
+        "body": 2522.65625,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "report-mobile-dark",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 4851,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 4506,
+        "body": 4503.734375,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-mobile-dark",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 2118,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 1773,
+        "body": 1770.09375,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-mobile-light",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 2118,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 1773,
+        "body": 1770.09375,
+        "theme": "light"
+      }
+    }
+  ],
+  "checkedTrades": 24,
+  "state": {
+    "selectedTrade": 24,
+    "visibleRange": {
+      "from": 71.50000000000011,
+      "to": 935.5
+    },
+    "candleCount": 936,
+    "tradeCount": 24,
+    "overlayShapes": 7
+  },
+  "mobileState": {
+    "selectedTrade": 1,
+    "visibleRange": {
+      "from": 61,
+      "to": 109
+    },
+    "candleCount": 936,
+    "tradeCount": 24,
+    "overlayShapes": 7
+  },
+  "perceptual_review": {
+    "status": "passed",
+    "inspected": [
+      "chart-desktop-dark.png",
+      "report-desktop-light.png",
+      "report-desktop-dark.png",
+      "chart-mobile-dark.png"
+    ],
+    "notes": [
+      "Candlesticks, EMA/SMA, RSI and selected position box visible.",
+      "Report panels and workflow legible; daily chart labels rounded to three decimals.",
+      "Desktop and mobile measured without horizontal overflow."
+    ]
+  }
+}

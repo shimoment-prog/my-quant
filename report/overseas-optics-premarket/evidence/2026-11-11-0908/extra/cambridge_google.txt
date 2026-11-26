@@ -1,0 +1,1 @@
+ Google Search body{background-color:#fff} table,div,span,p{display:none} 若您在數秒內仍未能自動跳轉，請點擊 這裏 。 div{font-family:sans-serif;color:#545454;background-color:#fff}a{color:#1558d6;font-size:inherit;text-decoration:none}a:visited{color:#681da8} 如果你在存取「Google 搜尋」時遇到問題，請 按一下這裡 或傳送 意見 。 

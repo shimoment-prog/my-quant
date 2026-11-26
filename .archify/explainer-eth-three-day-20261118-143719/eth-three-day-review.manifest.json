@@ -1,0 +1,12 @@
+{
+  "artifact": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/eth-three-day-review.html",
+  "artifact_sha256": "a414b15b52e566c0bc42e2c1c7543146ed6c90a77c5a67967837cf851f9f8cce",
+  "chart_fragment": "/Users/richao11/.codex/visualizations/2026/10/28/01a18051-177e-7731-ae4c-8cf6857dd574/eth-three-day-trades.html",
+  "chart_fragment_sha256": "603418cc42d0ec489b773cecd8bac49252f17ccac53118dcea70843ac0f63c8d",
+  "chart_document": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/trade-chart.html",
+  "chart_document_sha256": "a61703205a3b4ed848e27e2b73c2417e0ba1cc492c438098a30e86bdef5f84e9",
+  "archify_report": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.html",
+  "archify_report_sha256": "47f735977246dfd8b98f914e3451d6959c9484aae8361e74c5abc7203460f61c",
+  "archify_delivery_receipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-three-day-20261118-143719/backtest-report.delivery.json",
+  "scope": "Report source has Archify delivery provenance; the custom shell adds runtime presentation styles and is checked separately."
+}

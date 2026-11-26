@@ -1,0 +1,23 @@
+[
+  {
+    "name": "nvidia_tikr_funding",
+    "url": "https://www.tikr.com/blog/neoclouds-are-nearly-half-of-nvidias-own-revenue-its-new-ceo-may-stop-funding-them",
+    "retrieved_at": "2026-11-16T00:29:34.971206+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "iren_tipranks_call",
+    "url": "https://www.tipranks.com/news/company-announcements/iren-earnings-call-highlights-ai-cloud-growth",
+    "retrieved_at": "2026-11-16T00:29:34.971676+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ares_cre_call",
+    "url": "https://www.tipranks.com/news/company-announcements/ares-commercial-real-estate-earnings-call-resolutions-and-growth",
+    "retrieved_at": "2026-11-16T00:29:34.971845+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

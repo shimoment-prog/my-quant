@@ -1,0 +1,266 @@
+[
+  {
+    "company": "avgo",
+    "cik": "0001730168",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001730168-26-000080",
+        "form": "10-Q",
+        "filingDate": "2026-09-10",
+        "acceptanceDateTime": "2026-09-09T21:56:42.000Z",
+        "primaryDocument": "avgo-20260802.htm"
+      }
+    ]
+  },
+  {
+    "company": "jpmorgan",
+    "cik": "0000019617",
+    "url": "https://data.sec.gov/submissions/CIK0000019617.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-069523",
+        "form": "10-Q",
+        "filingDate": "2026-11-03",
+        "acceptanceDateTime": "2026-11-03T21:17:12.000Z",
+        "primaryDocument": "jpm-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "apollo",
+    "cik": "0001858681",
+    "url": "https://data.sec.gov/submissions/CIK0001858681.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001858681-26-000067",
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:11:44.000Z",
+        "primaryDocument": "apo-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "blackstone",
+    "cik": "0001393818",
+    "url": "https://data.sec.gov/submissions/CIK0001393818.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001193125-26-451802",
+        "form": "10-Q",
+        "filingDate": "2026-11-06",
+        "acceptanceDateTime": "2026-11-06T21:02:22.000Z",
+        "primaryDocument": "d179995d10q.htm"
+      }
+    ]
+  },
+  {
+    "company": "ares",
+    "cik": "0001176948",
+    "url": "https://data.sec.gov/submissions/CIK0001176948.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-071628",
+        "form": "10-Q",
+        "filingDate": "2026-11-06",
+        "acceptanceDateTime": "2026-11-06T20:52:04.000Z",
+        "primaryDocument": "ares-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "iren",
+    "cik": "0001878848",
+    "url": "https://data.sec.gov/submissions/CIK0001878848.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001878848-26-000066",
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:06:52.000Z",
+        "primaryDocument": "iren-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "terawulf",
+    "cik": "0001083301",
+    "url": "https://data.sec.gov/submissions/CIK0001083301.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-071671",
+        "form": "10-Q",
+        "filingDate": "2026-11-06",
+        "acceptanceDateTime": "2026-11-06T21:07:00.000Z",
+        "primaryDocument": "wulf-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "nvda",
+    "cik": "0001045810",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001045810-26-000075",
+        "form": "10-Q",
+        "filingDate": "2026-08-26",
+        "acceptanceDateTime": "2026-08-26T20:36:00.000Z",
+        "primaryDocument": "nvda-20260726.htm"
+      }
+    ]
+  },
+  {
+    "company": "amd",
+    "cik": "0000002488",
+    "url": "https://data.sec.gov/submissions/CIK0000002488.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0000002488-26-000191",
+        "form": "10-Q",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-03T23:00:17.000Z",
+        "primaryDocument": "amd-20260926.htm"
+      }
+    ]
+  },
+  {
+    "company": "mrvl",
+    "cik": "0001835632",
+    "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001835632-26-000025",
+        "form": "10-Q",
+        "filingDate": "2026-08-28",
+        "acceptanceDateTime": "2026-08-28T20:04:02.000Z",
+        "primaryDocument": "mrvl-20260801.htm"
+      }
+    ]
+  },
+  {
+    "company": "lite",
+    "cik": "0001633978",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-069615",
+        "form": "10-Q",
+        "filingDate": "2026-11-03",
+        "acceptanceDateTime": "2026-11-03T21:53:05.000Z",
+        "primaryDocument": "lite-20260926.htm"
+      }
+    ]
+  },
+  {
+    "company": "cohr",
+    "cik": "0000820318",
+    "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0000820318-26-000023",
+        "form": "10-Q",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T21:06:23.000Z",
+        "primaryDocument": "iivi-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "aaoi",
+    "cik": "0001158114",
+    "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001437749-26-035282",
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:16:58.000Z",
+        "primaryDocument": "aaoi20260930_10q.htm"
+      }
+    ]
+  },
+  {
+    "company": "fn",
+    "cik": "0001408710",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001408710-26-000041",
+        "form": "10-Q",
+        "filingDate": "2026-11-03",
+        "acceptanceDateTime": "2026-11-03T13:14:40.000Z",
+        "primaryDocument": "fn-20260925.htm"
+      }
+    ]
+  },
+  {
+    "company": "cien",
+    "cik": "0000936395",
+    "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-060361",
+        "form": "10-Q",
+        "filingDate": "2026-09-03",
+        "acceptanceDateTime": "2026-09-03T19:57:02.000Z",
+        "primaryDocument": "cien-20260801.htm"
+      }
+    ]
+  },
+  {
+    "company": "nebius",
+    "cik": "0001513845",
+    "url": "https://data.sec.gov/submissions/CIK0001513845.json",
+    "retrieved_at": "2026-11-16T00:27:41.516791+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": []
+  }
+]

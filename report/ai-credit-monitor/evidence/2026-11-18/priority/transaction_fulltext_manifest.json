@@ -1,0 +1,20 @@
+[
+  {
+    "name": "hsbc_investing",
+    "url": "https://www.investing.com/news/stock-market-news/hsbc-offloads-300-million-troubled-ai-data-center-loan-at-steep-discount--report-5031165",
+    "retrieved_at": "2026-11-18T00:34:46.811996+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "hsbc_tradingview",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N46X1C5:0-hsbc-sold-300-million-troubled-data-center-loan-at-discount-bloomberg-news/",
+    "retrieved_at": "2026-11-18T00:34:46.812348+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "blackstone_official",
+    "url": "https://www.blackstone.com/news/press/blackstone-digital-infrastructure-trust-announces-5-billion-acquisition-of-stabilized-data-center-portfolio/",
+    "retrieved_at": "2026-11-18T00:34:47.154627+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

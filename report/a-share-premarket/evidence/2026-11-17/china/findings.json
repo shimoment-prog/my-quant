@@ -1,0 +1,209 @@
+{
+  "report_date": "2026-11-17",
+  "retrieved_at": "2026-11-17T01:56:09.742213+00:00",
+  "cutoff": {
+    "analysis": "09:30前已公开信息与09:30后实际行情由根报告区分；本分线来源均公开于11/16或11/17开盘前。",
+    "late_generation": true
+  },
+  "calendar": {
+    "normal_trading_day": true,
+    "weekday": "Tuesday",
+    "annual_calendar_url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+    "facts": "上交所2026年休市表无11月假期，最近国庆假期10/1—7，10/8照常开市。11/17为周二。",
+    "official_current_pages": [
+      "https://www.sse.com.cn/",
+      "https://www.szse.cn/",
+      "https://www.szse.cn/disclosure/notice/general/index.html"
+    ],
+    "temporary_closure_notice_found": false,
+    "limit": "深交所单独完整年表未取得；观察到今日实际交易亦交叉支持正常交易日。"
+  },
+  "prior_a_share_session": {
+    "date": "2026-11-16",
+    "source": {
+      "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261116_3295833.shtml",
+      "provider": "中国经济网",
+      "published_at_beijing": "2026-11-16T15:10:00+08:00",
+      "evidence_grade": "full_reliable_media_body"
+    },
+    "indices": [
+      {
+        "name": "上证指数",
+        "code": "sh000001",
+        "close": 3602.57,
+        "change_pct": -0.87,
+        "turnover_cny_hundred_million": 7062.14,
+        "open": 3611.54,
+        "high": 3623.12,
+        "low": 3586.57,
+        "opening_change_pct": -0.6276225459848406,
+        "open_high_low_evidence": "Parent independently verified Tencent completed daily kline; close/pct/turnover corroborated China Economic Net complete story."
+      },
+      {
+        "name": "深证成指",
+        "code": "sz399001",
+        "close": 10690.78,
+        "change_pct": -2.53,
+        "turnover_cny_hundred_million": 7782.76,
+        "open": 10881.91,
+        "high": 10881.91,
+        "low": 10642.37,
+        "opening_change_pct": -0.7920654876244382,
+        "open_high_low_evidence": "Parent independently verified Tencent completed daily kline; close/pct/turnover corroborated China Economic Net complete story."
+      },
+      {
+        "name": "创业板指",
+        "code": "sz399006",
+        "close": 2320.02,
+        "change_pct": -4.37,
+        "turnover_cny_hundred_million": 3693.16,
+        "open": 2395.52,
+        "high": 2398.19,
+        "low": 2308.9,
+        "opening_change_pct": -1.2596451889467786,
+        "open_high_low_evidence": "Parent independently verified Tencent completed daily kline; close/pct/turnover corroborated China Economic Net complete story."
+      }
+    ],
+    "total_sh_sz_turnover_cny_hundred_million_rounded": 14844.9,
+    "total_sh_sz_turnover_yuan_rounded": 1484490000000,
+    "change_vs_previous_sh_sz_turnover_pct_approx": -10.338919996477102,
+    "turnover_scope": "沪深两市，创业板成交额为深市子集，不再相加；含北交所的全市场14941.57亿元不混用。",
+    "leaders": [
+      "小家电",
+      "银行",
+      "保险"
+    ],
+    "laggards": [
+      "元件",
+      "半导体",
+      "电子化学品"
+    ],
+    "breadth": {
+      "decliners": "逾4300只（新闻标题级）",
+      "exact_advancers": null,
+      "exact_decliners": null,
+      "exact_flat": null,
+      "evidence_grade": "RSS_syndicated_headline_only_not_full_body",
+      "items": [
+        {
+          "title": "【焦点复盘】创业板指跌4.37%再创年内新低，全市场超250股跌超9%，资金持续逆势抱团红利股 - 财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSeE1yWjZKU3l3LXdsaWFiRW0wRHBiRU9BaFMwUGZyVDJndG11Q241T2hlYnJFYkVJdzh6NkRFdUlVR0FDdjdSQg?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 09:13:00 GMT",
+          "source": "财联社"
+        },
+        {
+          "title": "A股三大指数集体下跌 逾4300只个股飘绿 总成交14941.57亿元 - 观点网",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1EbE5JX2Q1S1FuQXAxZkdiQVA5NmJackVtdlVjSTBHWl9ENVpPbEkxWmxLMk5hV2VVaGJIcnZmOFVmN0ZGSXd3eHhwMU1XTTViMVd1T3MzODVOM2hWSWlsY1Rn?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 07:21:37 GMT",
+          "source": "观点网"
+        },
+        {
+          "title": "A股收评：超4300股下跌！创业板指跌4.37%，算力硬件板块领跌，多只银行股创新高_市场分析 - 中金在线",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJSlJ3VmJmQUpjanVFOE4yNkNxajhnYkhqRzlOc1diVWtUUVR2RUtxd0xDdi1LbXZnUEg3Zml1TU0zckc1Zy02UDRuOG1rMXFJVEFVWlloM3JYT3lFTWliQjV2Mzg0c0RoWlI4V0tTSQ?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 08:24:09 GMT",
+          "source": "中金在线"
+        }
+      ],
+      "limit": "精确家数缺失；不同宇宙/北交所口径未完全独立核实，不由总上市数倒推上涨数。"
+    }
+  },
+  "macro": [
+    {
+      "name": "10月份国民经济运行",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html",
+      "evidence_grade": "primary_official_complete_body",
+      "published_at_beijing": "2026-11-16T10:00:00+08:00",
+      "available_before_20261117_open": true,
+      "figures": {
+        "October_industrial_value_added_yoy_pct": 4.8,
+        "October_industrial_value_added_mom_pct": 0.21,
+        "October_retail_sales_yoy_pct": 0.4,
+        "October_retail_sales_mom_pct": 0.02,
+        "Jan_Oct_retail_sales_yoy_pct": 1.0,
+        "Jan_Oct_fixed_asset_investment_yoy_pct": -8.1,
+        "Jan_Oct_infrastructure_investment_yoy_pct": -5.1,
+        "Jan_Oct_manufacturing_investment_yoy_pct": -2.9,
+        "Jan_Oct_real_estate_development_investment_yoy_pct": -21.6,
+        "October_urban_survey_unemployment_pct": 5.1,
+        "October_high_tech_manufacturing_value_added_yoy_pct": 17.6
+      },
+      "interpretation": "供给增长与需求偏弱并存：10月工业同比4.8%，社零仅0.4%；1—10月投资-8.1%，房地产-21.6%。不能把累计投资写成10月单月，也没有独立核实一致预期，不能断言低于预期。高技术制造业增17.6%体现结构分化，不能机械等同科技股股价当日上涨。",
+      "official_summary": "统计局指出国内供强需弱仍较突出，经济稳中向好基础还需巩固。"
+    },
+    {
+      "name": "统计局答记者问",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965869.html",
+      "published_at_beijing": "2026-11-16T17:50:00+08:00",
+      "evidence_grade": "primary_official_complete_body",
+      "interpretation": "可作官方解读，不当另一套独立宏观数据。"
+    }
+  ],
+  "policy": [
+    {
+      "name": "两部门印发以标准提升引领轻工业优化升级实施方案",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_bd11a0d16a61477883db13ac4d6cc889.html",
+      "document_date": "2026-10-15",
+      "published_at_beijing": "2026-11-16T14:39:00+08:00",
+      "evidence_grade": "primary_official_notice_body_attachment_not_extracted",
+      "facts": [
+        "工信部、市场监管总局联合印发，工信部联消费〔2026〕252号。"
+      ],
+      "interpretation": "轻工业标准升级政策信号；不推算具体公司订单或收益，附件全文未提取。"
+    },
+    {
+      "name": "11月17日财经早报",
+      "url": "https://www.cls.cn/detail/2536060",
+      "published_at_beijing": "2026-11-17T07:00:00+08:00",
+      "evidence_grade": "full_reliable_financial_media_body",
+      "reported_events": [
+        "财政部决定开展11月国债做市支持操作，以提高国债二级市场流动性；财政部原文门户未得，故不当刺激规模。",
+        "中汽协将对17家重点车企供应商账款支付开展调研评估，属于行业协会安排，不当新行政处罚。",
+        "华为云11/16发布并宣布开源昇腾原生具身世界模型；属行业消息，不自动指定六股订单。"
+      ],
+      "caveat": "宽基ETF尾盘放量不能直接归因为未经证实的国家队买入；不得使用资金抱团等标题词作已证实流量原因。"
+    }
+  ],
+  "previous_forecast_review": {
+    "file": "/Users/richao11/myproject/my-quant/report/a-share-premarket/2026-11-16.json",
+    "original_main": "平开偏弱、震荡反抽，反弹持续性存疑。",
+    "original_confidence": "中低",
+    "original_upside": "站稳上证3669.44与创业板2528.99周五高点，同时间放量且上涨扩散，转较强修复。",
+    "original_downside": "失守上证3623.84与创业板2417.22周五低点，反抽不回且下跌扩散，转继续承压。",
+    "observed": {
+      "sh000001": {
+        "open_change_pct": -0.6276225459848406,
+        "close_change_pct": -0.87,
+        "close_below_open": true,
+        "previous_low_broken": true
+      },
+      "sz399001": {
+        "open_change_pct": -0.7920654876244382,
+        "close_change_pct": -2.53,
+        "close_below_open": true,
+        "previous_low_broken": true
+      },
+      "sz399006": {
+        "open_change_pct": -1.2596451889467786,
+        "close_change_pct": -4.37,
+        "close_below_open": true,
+        "previous_low_broken": true
+      }
+    },
+    "assessment": "11/16开盘偏弱方向符合，但全天反抽力度和持续性显著弱于震荡反抽主情景。沪指低开约0.63%，创业板低开约1.26%；前低3623.84/2417.22均被跌破，继续承压备选成立。",
+    "deviation_reason": "国内成长承接更弱，前低失守后修复未出现；10点经济数据新增反映内需压力。不能把11/16晚间美股收盘倒因解释11/16白天A股。",
+    "numeric_hit_rate": null,
+    "unverified_fund_flow_cause": null
+  },
+  "missing": [
+    "精确全市场涨跌家数和口径一致的涨跌序列",
+    "深交所独立完整年度休市表",
+    "财政部国债做市支持原文门户只返回有限壳页",
+    "10月宏观一致预期数值未独立核实"
+  ],
+  "raw_manifests": [
+    "manifest.json",
+    "details_manifest.json",
+    "finalfetch_manifest.json",
+    "last_manifest.json"
+  ]
+}

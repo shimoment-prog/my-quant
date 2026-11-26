@@ -1,0 +1,50 @@
+{
+  "retrieved_utc": "2026-11-06T03:25:10Z",
+  "sources": {
+    "2026h1_announcement_en": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082001637.pdf",
+    "2026h1_report_en": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093000562.pdf",
+    "2025fy_announcement_en": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0330/2026033002398.pdf",
+    "2025fy_report_en": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042904532.pdf"
+  },
+  "evidence_pdf_pages_one_based": {
+    "2026h1_announcement_en.pdf": {
+      "financial_highlights_adjusted_definition": 1,
+      "income_parent_NCI": 2,
+      "balance_sheet": [
+        4,
+        5
+      ],
+      "revenue_split_FX_interest": 9,
+      "cash_deposits": 13,
+      "sales_decline_milestone_receipts": 26,
+      "profit_interpretation": 28,
+      "OCF": 29,
+      "borrowings": 30
+    },
+    "2026h1_report_en.pdf": {
+      "no_material_disposal": 22,
+      "revenue_split": 57,
+      "cash_flow": 51,
+      "cash_deposits": 65
+    },
+    "2025fy_announcement_en.pdf": {
+      "adjusted_definition": 2,
+      "revenue_split": 9,
+      "revenue_recognition": 10,
+      "cash_deposits": 15,
+      "pfizer_contract_upfront": 20,
+      "option_equity_subscription": 21,
+      "licensing_fees_received_products_decline": 34,
+      "adjusted_profit_OCF": 37
+    },
+    "2025fy_report_en.pdf": {
+      "exact_adjusted_annual_figures": 7
+    }
+  },
+  "manifests": [
+    "hkex_pdfs_manifest.json",
+    "hkex_pdfs_en_manifest.json"
+  ],
+  "official_disclosure_index": "hkex_titles_en.json",
+  "note": "All four English and four Chinese HKEX files verified to begin %PDF; company site direct PDF requests returned HTML challenges and are not treated as actual PDFs."
+}

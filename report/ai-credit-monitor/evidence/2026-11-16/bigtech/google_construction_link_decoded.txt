@@ -1,0 +1,3 @@
+)]}'
+
+[["wrb.fr","Fbv4je","[\"garturlres\",\"https://www.mlive.com/news/detroit/2026/11/construction-begins-at-google-hyperscale-data-center-despite-backlash.html\",1]",null,null,null,"generic"],["di",16],["af.httprm",16,"-3741564558960700494",11]]

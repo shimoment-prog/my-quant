@@ -1,0 +1,45 @@
+[
+  {
+    "id": "history_sz300274",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300274,day,,,120,qfq",
+    "ok": false,
+    "error": "HTTP Error 501: Not Implemented"
+  },
+  {
+    "id": "history_sz399006",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,120,qfq",
+    "ok": false,
+    "error": "HTTP Error 501: Not Implemented"
+  },
+  {
+    "id": "history_sh515790",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515790,day,,,120,qfq",
+    "ok": false,
+    "error": "HTTP Error 501: Not Implemented"
+  },
+  {
+    "id": "history_sz300763",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300763,day,,,120,qfq",
+    "ok": false,
+    "error": "HTTP Error 501: Not Implemented"
+  },
+  {
+    "id": "history_sz300827",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300827,day,,,120,qfq",
+    "ok": false,
+    "error": "HTTP Error 501: Not Implemented"
+  },
+  {
+    "id": "history_sh688390",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh688390,day,,,120,qfq",
+    "ok": false,
+    "error": "HTTP Error 501: Not Implemented"
+  },
+  {
+    "id": "sina_daily",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300274&scale=240&ma=no&datalen=120",
+    "ok": true,
+    "bytes": 12978,
+    "retrieved_at": "2026-11-05T02:55:54.952844+00:00"
+  }
+]

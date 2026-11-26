@@ -1,0 +1,30 @@
+[
+  {
+    "name": "crusoe_news",
+    "url": "https://www.crusoe.ai/newsroom",
+    "retrieved_at": "2026-11-07T00:28:28.776968+00:00",
+    "ok": true,
+    "len": 292664
+  },
+  {
+    "name": "crusoe_blog",
+    "url": "https://www.crusoe.ai/resources/blog",
+    "retrieved_at": "2026-11-07T00:28:27.821496+00:00",
+    "ok": true,
+    "len": 295243
+  },
+  {
+    "name": "news_crusoe",
+    "url": "https://news.google.com/rss/search?q=Google%20Crusoe%20Wyoming%20November%206%202026&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-07T00:28:27.389611+00:00",
+    "ok": true,
+    "len": 17375
+  },
+  {
+    "name": "news_qualcomm",
+    "url": "https://news.google.com/rss/search?q=Alphabet%20Qualcomm%20548%20million%20November%206%202026&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-07T00:28:27.333514+00:00",
+    "ok": true,
+    "len": 21392
+  }
+]

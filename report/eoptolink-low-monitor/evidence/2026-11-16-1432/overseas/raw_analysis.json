@@ -1,0 +1,493 @@
+{
+  "cutoff": "2026-11-16T10:33:00+08:00",
+  "SEC_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-10T21:07:33.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-13T19:32:10.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "COHR",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T11:02:52.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-04T21:41:34.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T21:05:45.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "FN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-05T18:16:20.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "NVDA",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T13:52:41.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "AVGO",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-10-27T20:23:36.000Z",
+      "same_raw_as_premarket": true
+    },
+    {
+      "symbol": "NBIS",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-13T21:48:42.000Z",
+      "same_raw_as_premarket": true
+    }
+  ],
+  "IR_comparisons": [
+    {
+      "name": "aaoi_ir",
+      "same_raw_as_premarket": false,
+      "same_cleaned_as_premarket": true,
+      "length": 2693
+    },
+    {
+      "name": "mrvl_ir",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 4952
+    },
+    {
+      "name": "cohr_ir",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 15385
+    },
+    {
+      "name": "nvda_news",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 5155
+    },
+    {
+      "name": "cn_300502",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3876
+    },
+    {
+      "name": "cn_300308",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3424
+    },
+    {
+      "name": "cn_603083",
+      "same_raw_as_premarket": true,
+      "same_cleaned_as_premarket": true,
+      "length": 3676
+    }
+  ],
+  "news_feed": {
+    "fetched_unique_rows": 600,
+    "range": [
+      "2026-11-16 07:58:00",
+      "2026-11-16 14:30:50"
+    ],
+    "post_cutoff_count": 335,
+    "matches": [
+      {
+        "time": "2026-11-16 10:40:04",
+        "text": "【主力资金：中际旭创净卖出超11亿】截至目前，今日主力资金净流出256.80亿；净流入红利股、破净股、陆股通活跃等板块，其中红利股板块净流入9.45亿；净流出融资融券、转融券标的、芯片概念等板块，其中融资融券板块净流出241.31亿。 个股方面，龙江交通净买入3.49亿元位居首位，吉视传媒、九阳股份、儒意电影主力资金净流入居前；中际旭创净卖出11.16亿元位居首位，长鑫科技、新易盛、东山精密净流出额居前。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5743095.d.html",
+        "id": 5216727,
+        "raw_fields": {
+          "ext": "{\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwze5743095.shtml\",\"docid\":\"niywwze5743095\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5743095.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 10:41:22",
+        "text": "【英伟达机器人学习工程师戴士钦宣布辞职：“黄仁勋离职让我格外失望”】英伟达机器人学习工程师戴士钦（Darrell Dai）昨日发文，宣布将离开公司。 戴士钦表示，他眼中的黄仁勋不只是英伟达 CEO，他钦佩黄仁勋投资那些一下子看不到明确前景的未来技术。在深度学习热潮到来之前，黄仁勋就已投入 CUDA，并在人工智能成为所有人关注焦点之前布局 AI 领域。这些决策帮助英伟达建立如今支撑整个 AI 行业的基础设施。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5743939.d.html",
+        "id": 5216728,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"cn\",\"symbol\":\"sih30590\",\"key\":\"\\u673a\\u5668\\u4eba\",\"hot\":3721},{\"market\":\"cn\",\"symbol\":\"sz300024\",\"key\":\"\\u673a\\u5668\\u4eba\",\"hot\":3648},{\"market\":\"fund\",\"symbol\":\"159530\",\"key\":\"\\u673a\\u5668\\u4eba\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwze5743939.shtml\",\"docid\":\"niywwze5743939\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5743939.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 10:41:50",
+        "text": "【英伟达收紧对AI企业的资金支持，昔日“提款机”时代或将终结】黄仁勋在辞去英伟达首席执行官前的最后几个月里，已经开始为公司调整支持AI经济的方式铺路。如今，随着一位对黄仁勋敲定的部分交易早已持谨慎态度的财务主管接掌公司，那些一直依赖英伟达支持的初创企业预计，公司将进一步收紧支持力度。就在上个月，数家新兴云计算公司的首席执行官齐聚柏林，参加英伟达在欧洲举办的顶级人工智能大会。这些公司购买英伟达芯片，再将计算能力出租给客户。黄仁勋在一场令部分与会者感到意外的演讲中明确表示：英伟达充当“无限提款机”的时代已经结束。许多曾依赖英伟达的企业如今感到忧心忡忡。瑞银分析师蒂姆·阿库里在最近的一份报告中估计，如果英伟达收紧融资支持，可能会导致市场上减少500亿美元甚至更多的资金；在利率不断上升的背景下，这将使相关企业陷入缺乏资金支持的困境。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5744284.d.html",
+        "id": 5216730,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"si930851\",\"key\":\"\\u4e91\\u8ba1\\u7b97\",\"hot\":754},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159558\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\\u82af\\u7247\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"ubs\",\"key\":\"\\u745e\\u94f6\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwze5744284.shtml\",\"docid\":\"niywwze5744284\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5744284.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 10:49:12",
+        "text": "【SK海力士拟建芯片测试中心 爱德万测试等日本半导体设备股大跌】包括爱德万在内的日本芯片设备厂商股价下跌，SK海力士计划新建测试工厂，引发市场对竞争加剧的担忧。爱德万和Lasertec周一股价最大跌幅达10%。亚洲半导体板块普遍走弱，在本周英伟达财报以及Anthropic即将上市前，投资者保持谨慎。日生资产管理首席分析师Maito Yamamoto表示，该计划可能给日本半导体设备厂商带来长期风险，助力韩国同行抢占市场份额。但他同时称，投资者当下更关注数据中心资本开支能否持续；相比竞争加剧，半导体设备需求的变化对企业盈利的影响可能更大。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2507763.d.html",
+        "id": 5216741,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwzi2507763.shtml\",\"docid\":\"niywwzi2507763\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2507763.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 10:56:34",
+        "text": "【付凌晖：我国依托完整的产业体系优势，积极加大能源保供力，保障产业链供应链稳定，有力促进生产的稳定增加】国家统计局新闻发言人、总经济师、国民经济综合统计司司长付凌晖：第一，生产供给增加稳。在国际地缘政治冲突持续背景下，全球能源市场大幅波动，全球航运成本大幅上涨，保持稳定生产非常不容易。在这种情况下，我国依托完整的产业体系优势，积极加大能源保供力度，保障产业链供应链稳定，有力促进生产的稳定增加。从10月份数据看，10月份规模以上工业增加值同比增长4.8%，继续保持平稳较快增长态势。同时，现代服务业增势较好，传统服务业也在改造提升，服务业运行情况总体平稳，10月份服务业生产指数同比增长4.6%。 第二，消费市场运行稳。随着消费潜能逐步释放，我国消费市场规模扩大态势持续。1-10月份，社会消费商品和服务零售总额同比增长2.5%，继续呈现扩容提质态势。其中，服务零售额增长4.9%，成为推动消费市场扩容的重要推动力。从商品零售看，尽管受部分耐用消费品销售有所回落影响，10月当月商品零售额增速有所回落，但是市场规模扩大态势没有改变，绿色、智能商品销售增长较快，继续受到消费者欢迎。 第三，外贸增长势头稳。我国积极扩大高水平开放，坚持在互利共赢基础上与世界各国加强经贸交流。顺应全球智能化、绿色化发展趋势，为贸易伙伴提供高品质产品供给。同时，积极主动扩大进口，积极引进贸易伙伴特色产品，这些共同促进外贸快速发展。10月份当月，我国进出口总额同比增长31.2%，今年以来持续保持较快增长。我国外贸快速增长，不仅有力满足了贸易伙伴需求，也为全球贸易发展创造了新的机遇。 第四，就业、物价形势稳。经济运行“稳”的特质不仅表现在生产和需求的形势方面，也反映在就业和物价的稳定上。从就业情况看，随着季节性因素影响消退，全国城镇调查失业率从9月份开始连续两个月下降，10月份当月全国城镇调查失业率5.1%，比上月下降0.1个百分点。从劳动力主体人群失业率看，10月份30-59岁主体人群城镇调查失业率为3.9%，连续4个月稳定在这个水平。从物价情况看，尽管受到国际能源市场波动带来的输入性冲击影响，但是我国加大了保供稳价力度，价格形势总体稳定。10月份当月，我国居民消费价格同比上涨0.7%，扣除食品和能源的核心CPI上涨0.8%，保持基本稳定。（中国网）",
+        "url": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":true,\"terms\":[]}",
+        "id": 5216747,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":true,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-16 11:01:43",
+        "text": "【国家统计局谈房地产市场：出现一定积极变化，但部分地区市场依然承压】国新办举行新闻发布会，介绍2026年10月份国民经济运行情况。国家统计局新闻发言人、总经济师、国民经济综合统计司司长付凌晖在会上表示，总的来看，随着各地房地产政策的优化调整，房地产市场出现了一定的积极变化，但是也要看到，受多方面因素影响，部分地区的房地产市场依然承压。面对房地产市场的复杂形势，要坚持因城施策控增量、去库存、优供给，健全多主体供应、多渠道保障、租购并举的住房制度，加快构建房地产发展的新模式，推动房地产市场持续平稳健康地运行。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzf1288508.d.html",
+        "id": 5216757,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"si931775\",\"key\":\"\\u623f\\u5730\\u4ea7\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwzf1288508.shtml\",\"docid\":\"niywwzf1288508\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzf1288508.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:05:45",
+        "text": "【国家统计局：下阶段要强化宏观政策调节 持续扩大内需、优化供给】国家统计局新闻发言人付凌晖16日在国新办新闻发布会上表示，总的来看，我国经济10月份继续保持总体平稳、向新向优发展态势，高质量发展取得新成效。但是也要看到，国际上不稳定不确定因素还比较多，国内供强需弱的态势还比较明显，一些企业生产经营承压，经济持续向好基础还需要巩固。下阶段，要全面贯彻落实党中央、国务院决策部署，强化宏观政策调节，持续扩大内需、优化供给，深化改革开放创新，进一步畅通经济循环，推动经济实现质的有效提升和量的合理增长。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2516818.d.html",
+        "id": 5216761,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwzi2516818.shtml\",\"docid\":\"niywwzi2516818\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2516818.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:15:26",
+        "text": "【锐新科技：公司一款激光液冷散热器产品已经通过验证】近日，有投资者在互动平台向锐新科技提问，公司和杭州欣俊哲的战略合作推进到什么阶段了？目前是否有产品交付？11月16日，锐新科技回应称，杭州欣俊哲微纳科技有限公司主要产品为激光直接成像设备、高精密运动平台、自动化设备及机器视觉设备，目前产品已广泛应用于印刷电路板、掩模版、光电显示等图形转移领域。公司与杭州欣俊哲签署战略合作协议以来，双方积极推进相关合作，目前公司一款激光液冷散热器产品已经通过验证，后续将根据正式订单安排量产。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzf1297772.d.html",
+        "id": 5216772,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwzf1297772.shtml\",\"docid\":\"niywwzf1297772\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzf1297772.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:20:56",
+        "text": "【因算力不足，DeepSeek对App/网页版限额使用】DeepSeek对App/网页版的长对话进行了限额使用。多名用户反馈，DeepSeek提示因“算力不足，不再支持超过7天不活跃的长对话”，并对单次输入文字的上限进行了调整，缩短至4万字左右。此外，还会限制每日的对话额度，当用户日使用量达到上限时，会提示“因服务器繁忙，使用额度已达上限。”",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzf1301091.d.html",
+        "id": 5216776,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwzf1301091.shtml\",\"docid\":\"niywwzf1301091\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzf1301091.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:26:27",
+        "text": "【分析：Anthropic上市后 比特币有望企稳】Anthropic上市前，比特币ETF资金外流、稳定币供应萎缩以及科技股走弱正在压缩加密货币市场的流动性；随着IPO股份分配完成、资金压力逐渐消退，比特币价格有望企稳。比特币周末下跌，加剧了Anthropic本周首次公开招股(IPO)前美国ETF资金流向已经显现的资本轮动。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza8999346.d.html",
+        "id": 5216782,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"btc_btcbtcusd\",\"key\":\"\\u6bd4\\u7279\\u5e01\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"btc_btcbtcdollar\",\"key\":\"\\u6bd4\\u7279\\u5e01\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"ETF\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"510300\",\"key\":\"\\u6d41\\u52a8\\u6027\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwza8999346.shtml\",\"docid\":\"niywwza8999346\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza8999346.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:31:00",
+        "text": "【A股午评：创业板指震荡半日跌2.34%，算力硬件股普遍低迷】A股三大指数早盘集体下跌，截至午盘，上证指数跌0.39%，深证成指跌1.31%，创业板指跌2.34%，北证50跌2.56%，科创50指数跌2.91%。全市场成交额9066亿元，较上日缩量795亿元，全市场超3500只个股下跌。板块题材上，小家电、猪肉、银行、白酒、公路铁路运输板块涨幅居前；CPO、元件、半导体、电子化学品、小金属板块跌幅居前。盘面上，小家电板块表现强势，北鼎股份、小熊电器、九阳股份涨停，鸿智科技、欧圣电气、石头科技涨幅居前。猪肉板块表现活跃，金新农涨停，顺鑫农业、光明肉业、罗牛山涨幅居前。银行板块逆市走高，浦发银行、宁波银行、农业银行涨幅居前。CPO板块低开低走，中际旭创、新易盛、天孚通信、炬光科技、仕佳光子等热门股纷纷下挫。半导体板块表现低迷，杰华特、利扬芯片、燧原科技、摩尔线程跌幅居前。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza9002256.d.html",
+        "id": 5216791,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwza9002256.shtml\",\"docid\":\"niywwza9002256\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza9002256.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:42:51",
+        "text": "【外资抛售科技股 韩股周一早盘跌超2%】周一上午晚些时候，韩国股市下跌超2%，外资大举抛售科技股，市场再度担忧人工智能热潮能否持续。韩国综合股价指数（KOSPI）开盘下跌0.28%，盘中一度翻红，随后跌幅扩大。截至当地时间上午11时20分，该指数下跌109.57点，跌幅2.07%，报5180.96点。本次抛售承接上周五KOSPI的大跌行情。黄仁勋辞去英伟达首席执行官一职后，全球AI生态前景不确定性上升，而黄仁勋是本轮AI热潮的核心推动者。KOSPI权重股普遍走弱。市值龙头三星电子下跌2.67%，芯片巨头SK海力士大跌4.28%。三星电机下跌5.96%，SK海力士母公司SK Square下跌7.02%。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza9012918.d.html",
+        "id": 5216809,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"worldIndex\",\"symbol\":\"znb_kospi\",\"key\":\"\\u97e9\\u80a1\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6307\\u6570\",\"sym_party_status\":\"1\"},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"worldIndex\",\"symbol\":\"znb_ks005930\",\"key\":\"\\u4e09\\u661f\\u7535\\u5b50\"},{\"market\":\"us\",\"symbol\":\"sk\",\"key\":\"SK\"},{\"market\":\"us\",\"symbol\":\"skhy\",\"key\":\"SK\\u6d77\\u529b\\u58eb\",\"hot\":161867},{\"market\":\"worldIndex\",\"symbol\":\"znb_ks000660\",\"key\":\"SK\\u6d77\\u529b\\u58eb\",\"hot\":0},{\"market\":\"us\",\"symbol\":\"sq\",\"key\":\"Square\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwza9012918.shtml\",\"docid\":\"niywwza9012918\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza9012918.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:46:02",
+        "text": "【崔东树：在国际高油价冲击下，传统汽车消费压力较大】乘联分会崔东树发文称，今年1-10月生产供给平稳增长，市场销售规模扩大，对外贸易快速增长，就业物价总体稳定，新质生产力茁壮成长，国民经济运行延续总体平稳、向新向优发展态势。但在国际高油价冲击下，传统汽车消费压力较大。2026年1-10月汽车生产2641万台，同比降4%；新能源汽车生产1448万台，同比增13%，渗透率55%；燃油车生产1193万台，同比降19%。2026年10月汽车生产305万台，同比降8%；新能源汽车生产203万台，同比增17%，渗透率67%；燃油车生产102万台，同比降35%。10月汽车工业增加值增0.9%，1—10月份，汽车工业增加值增长6.5%,表现较强。汽车行业去产能力度较强。2026年1—10月份，汽车行业固定资产投资同比下降7.9%，仍高于-8.1%的各行业平均水平，但高于制造业-2.4%的投资下滑幅度。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza9015622.d.html",
+        "id": 5216814,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"si000941\",\"key\":\"\\u65b0\\u80fd\\u6e90\",\"hot\":3073},{\"market\":\"commodity\",\"symbol\":\"nf_fu0\",\"key\":\"\\u71c3\\u6cb9\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwza9015622.shtml\",\"docid\":\"niywwza9015622\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza9015622.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:47:22",
+        "text": "【IDC：算力与场景双轮驱动，中国数字化转型 ICT 市场迎来深度重构】生成式 AI 正在重塑中国数字化转型 ICT 市场的增长底色。国际数据公司（IDC）最新完成的 2025 年度市场份额追踪研究显示，中国数字化转型 ICT 市场整体实现较快发展，市场规模达到1879.5 亿美元，同比增长 25.0%。企业数字化的重心，已经从基础上云迁移，转向业务层面的智能化重构。算力基础设施、AI 增强软件、数字化实施与托管服务共同构成市场主要增长动力。市场参与者表现出明显分化，同时市场仍存在大量分散的细分机会。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza9016660.d.html",
+        "id": 5216815,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwza9016660.shtml\",\"docid\":\"niywwza9016660\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza9016660.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:48:16",
+        "text": "【国家统计局：近七成从业人员预期未来半年新建商品住宅销售价格保持稳定或上涨】11月16日，国家统计局新闻发言人、总经济师、国民经济综合统计司司长付凌晖在国新办新闻发布会上表示，今年以来，面对房地产市场供求关系的重大变化，各地区各部门积极推进房地产相关政策的调整和完善，持续优化房地产政策，坚持因城施策，支持刚性和改善性的住房需求，大力推进城市更新，成效逐步显现。一是存量房交易相对于新房来看更为活跃。二是商品住宅价格同比降幅收窄。三是新建商品房库存持续下降。四是房地产市场预期有所改善。对70个大中城市开展的房价问卷调查显示，10月份当月，预期未来半年新建商品住宅销售价格保持稳定或上涨的房地产市场从业人员的占比接近70%，比例比上月提高了4个百分点。付凌晖表示，总的来看，随着各地房地产政策的优化调整，房地产市场出现了一定积极变化，但是也要看到受多方面因素影响，部分地区的房地产市场依然承压。面对房地产市场的复杂形势，要坚持因城施策控增量、去库存、优供给，健全多主体供应、多渠道保障，购租并举的住房制度，加快构建房地产发展的新模式，推动房地产市场持续平稳健康运行。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2546063.d.html",
+        "id": 5216818,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"si931775\",\"key\":\"\\u623f\\u5730\\u4ea7\"},{\"market\":\"sb\",\"symbol\":\"875186\",\"key\":\"\\u767e\\u5206\\u70b9\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":true,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwzi2546063.shtml\",\"docid\":\"niywwzi2546063\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2546063.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 11:58:02",
+        "text": "【光大证券：新能源具备较好结构性配置价值 投资机会来自细分领域确定性改善】光大证券发布研报称，新能源行业已具备较好的结构性配置价值，但投资机会更多来自细分领域的确定性改善，重点关注：(1)光伏重点把握供给出清和BC技术差异化;(2)风电重点把握盈利修复、国内海风和出海三重催化;(3)储能重点把握海外大储和具备多元收益来源的独立储能需求;(4)氢氨醇重点关注政策支持、项目投产和消纳订单兑现。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5799559.d.html",
+        "id": 5216833,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh601788\",\"key\":\"\\u5149\\u5927\\u8bc1\\u5238\",\"hot\":1525},{\"market\":\"hk\",\"symbol\":\"06178\",\"key\":\"\\u5149\\u5927\\u8bc1\\u5238\",\"hot\":193},{\"market\":\"cn\",\"symbol\":\"si000941\",\"key\":\"\\u65b0\\u80fd\\u6e90\",\"hot\":3073},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniywwze5799559.shtml\",\"docid\":\"niywwze5799559\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5799559.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 12:02:09",
+        "text": "特朗普政府将把英伟达列入人工智能“国家领军企业”名单。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5671264.d.html",
+        "id": 5216842,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"sym_party_status\":\"1\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcia5671264.shtml\",\"docid\":\"niyxcia5671264\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5671264.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 12:03:46",
+        "text": "【科技股重挫叠加需求前景蒙阴 铜价跌至四个月低点】随着科技股遭遇抛售以及需求前景蒙阴并削弱了市场风险偏好，铜价连续第三个交易日下跌，跌至逾四个月以来的最低水平。伦敦金属交易所（LME）的铜期货价格一度下跌1.4%，创下7月8日以来的最低水平，延续了连续五周的周线下跌走势。英伟达危机引发的人工智能行业动荡对整体市场情绪造成了打压。此外，美联储官员发表鹰派言论后，市场对进一步加息的预期也给这种广泛用于电力基础设施和数据中心的工业金属带来了额外压力。周一，韩国和中国台湾以科技股为主的基准股指均大跌逾2.5%。本周，英伟达的财报以及Anthropic PBC的预期上市，将考验投资者对人工智能交易的投资热情。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8896429.d.html",
+        "id": 5216847,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"commodity\",\"symbol\":\"nf_cu0\",\"key\":\"\\u94dc\",\"hot\":415},{\"market\":\"commodity\",\"symbol\":\"nf_bc0\",\"key\":\"\\u94dc\",\"hot\":27},{\"market\":\"global\",\"symbol\":\"hf_xau\",\"key\":\"\\u4f26\\u6566\\u91d1\"},{\"market\":\"global\",\"symbol\":\"hf_hg\",\"key\":\"\\u94dc\\u671f\\u8d27\",\"hot\":577},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"fx_susdcny\",\"key\":\"\\u52a0\\u606f\",\"hot\":1690},{\"market\":\"foreign\",\"symbol\":\"fx_susdcnh\",\"key\":\"\\u52a0\\u606f\",\"hot\":1292},{\"market\":\"foreign\",\"symbol\":\"fx_scnhusd\",\"key\":\"\\u52a0\\u606f\",\"hot\":27},{\"market\":\"foreign\",\"symbol\":\"fx_susdkrw\",\"key\":\"\\u97e9\\u56fd\",\"hot\":39},{\"market\":\"foreign\",\"symbol\":\"fx_shsusdkrw\",\"key\":\"\\u97e9\\u56fd\",\"hot\":10},{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8896429.shtml\",\"docid\":\"niyxchy8896429\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8896429.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 12:07:35",
+        "text": "【消息称特朗普政府将英伟达列为AI“国家冠军”企业名单】据知情人士透露，英伟达将成为二十多家被指定为人工智能“国家冠军”的公司之一，这是特朗普政府为帮助AI企业在海外赢得业务而采取的一项举措。知情人士称，该消息预计将在下周公布，这表明尽管英伟达目前面临动荡，特朗普政府仍将在其科技战略上全速推进。“国家冠军”倡议旨在促使外国企业和国家采用美国的AI技术。根据美国商务部该项目的网站介绍，获得“国家冠军”称号的企业可以获得芯片出口许可的快速审批、政府对其海外业务的支持，以及获取联邦融资的渠道。该计划大约在一年前首次公布，但当时并未公布“国家冠军”的具体名单。知情人士透露，即将被指定为“国家冠军”的企业包括英伟达、亚马逊、微软、OpenAI和Anthropic。该计划的目标是将美国的芯片、模型和其他AI产品进行打包，以便其他国家的客户能够轻松地将它们打包购买。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5675398.d.html",
+        "id": 5216857,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"us\",\"symbol\":\"amzn\",\"key\":\"\\u4e9a\\u9a6c\\u900a\"},{\"market\":\"us\",\"symbol\":\"msft\",\"key\":\"\\u5fae\\u8f6f\",\"hot\":70574},{\"market\":\"hk\",\"symbol\":\"04338\",\"key\":\"\\u5fae\\u8f6f\",\"hot\":281},{\"market\":\"foreign\",\"symbol\":\"btc_btcopenaiusdt\",\"key\":\"Openai\"},{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcia5675398.shtml\",\"docid\":\"niyxcia5675398\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5675398.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 12:11:07",
+        "text": "汇丰将 英伟达 评级下调至持有；目标价从365美元下调至170美元。",
+        "url": "{\"stocks\":[{\"market\":\"hk\",\"symbol\":\"00005\",\"key\":\"汇丰\",\"hot\":3270},{\"market\":\"us\",\"symbol\":\"hsbc\",\"key\":\"汇丰\",\"hot\":1977},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+        "id": 5216871,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"hk\",\"symbol\":\"00005\",\"key\":\"汇丰\",\"hot\":3270},{\"market\":\"us\",\"symbol\":\"hsbc\",\"key\":\"汇丰\",\"hot\":1977},{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"英伟达\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[]}",
+          "docurl": ""
+        }
+      },
+      {
+        "time": "2026-11-16 12:48:50",
+        "text": "【华为云携手福龙马官宣新一代清扫机器人启动预售，以物理AI重塑环卫具身智能】华为云16日宣布与环卫装备龙头企业福龙马集团联合研制的下一代全新智能清扫机器人已正式启动预售。此次合作标志着双方正加速推动物理AI（Physical AI）技术在复杂城市环卫场景中的深度商业化落地。据介绍，华为云为福龙马提供了全栈技术底座，包括CloudRobo自动驾驶开发工具链、全域感知模型、预决策规划模型、Agentic运行平台及昇腾云算力。在此基础上，新一代清扫机器人通过引入世界模型（World Model），使其感知系统不仅能“看清”环境，更能对复杂的动态物理空间进行高阶推演与未来状态预测。这种让AI“理解物理规律”的技术路线，赋予了清扫机器人应对恶劣天气、突发路障等复杂工况的物理AI泛化决策能力。（ 国是直通车 ）",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5699580.d.html",
+        "id": 5216915,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh603686\",\"key\":\"\\u798f\\u9f99\\u9a6c\"},{\"market\":\"cn\",\"symbol\":\"sih30590\",\"key\":\"\\u673a\\u5668\\u4eba\",\"hot\":3721},{\"market\":\"cn\",\"symbol\":\"sz300024\",\"key\":\"\\u673a\\u5668\\u4eba\",\"hot\":3648},{\"market\":\"fund\",\"symbol\":\"159530\",\"key\":\"\\u673a\\u5668\\u4eba\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"158041\",\"key\":\"\\u6607\\u817e\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcia5699580.shtml\",\"docid\":\"niyxcia5699580\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5699580.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:05:04",
+        "text": "据英国《金融时报》报道，Uniper 即将达成首项协议，将废弃发电厂改造为数据中心。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5707114.d.html",
+        "id": 5216926,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcia5707114.shtml\",\"docid\":\"niyxcia5707114\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5707114.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:05:42",
+        "text": "【里昂：下调英伟达目标价至255美元，评级降至“跑赢大市”】里昂发表报告，将英伟达的评级由“高度确信跑赢大市”下调至“跑赢大市”，目标价由425美元降至255美元。该行指出，苹果、优步及台积电在创办人离任后的经验带来希望，但这些公司都受惠于核心产品的稳定性，而AI建设仍在演变，未来多年仍可能出现重大变化。该行指，英伟达2028财政年度市盈率已低于10倍，属历史偏低水平，该行认为有耐心的投资者仍有吸引上行空间，但公司仍有不少需要修复之处，清晰方向之后仍需勇气跟进。里昂认为未来几个月应该关注英伟达，而不是放弃它。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8931360.d.html",
+        "id": 5216927,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"us\",\"symbol\":\"aapl\",\"key\":\"\\u82f9\\u679c\"},{\"market\":\"us\",\"symbol\":\"uber\",\"key\":\"\\u4f18\\u6b65\"},{\"market\":\"us\",\"symbol\":\"tsm\",\"key\":\"\\u53f0\\u79ef\\u7535\",\"hot\":67670},{\"market\":\"fund\",\"symbol\":\"159558\",\"key\":\"\\u53f0\\u79ef\\u7535\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8931360.shtml\",\"docid\":\"niyxchy8931360\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8931360.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:07:15",
+        "text": "【国联民生陶川：明年盈利修复有望“由点及面” 科技与传统行业机会趋于均衡】国联民生证券首席经济学家陶川在接受券中社记者采访时表示，三季报A股上市公司盈利结构性分化，高增长沿两条线索展开：一是AI产业链从“资本开支叙事”迈向“报表利润兑现”，存储芯片、光模块、PCB业绩高增；二是化工等周期品在供需改善与价差修复下盈利回升。陶川表示，四季度关注两条主线：科技成长方面，资本开支扩张有望继续支撑半导体、算力硬件的订单与盈利；高股息红利方面，风险偏好偏弱环境下配置价值凸显。此外，稳增长落地或带来传统行业低预期下的业绩修复机会。陶川进一步表示，明年盈利修复有望“由点及面”，科技与传统行业机会趋于均衡：经贸安排延续有利于家电、通用机械稳定接单，能源供给修复为航空、物流降本增利。若海外利率压力缓和，盈利改善叠加估值修复，将打开市场上行空间。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8931861.d.html",
+        "id": 5216931,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8931861.shtml\",\"docid\":\"niyxchy8931861\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8931861.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:14:36",
+        "text": "【英伟达风波后 交易员涌入投资级公司债市场】近几周来，美国公司债迎来一轮持续反弹，吸引了众多希望规避股市震荡的基金经理进场避险。据相关指数总回报数据显示，从9月底至上周五收盘，美国高评级公司债累计上涨1.2%。同期，标普500指数(含股息)则下跌了约1.1%——英伟达公司上周遭遇的困境让投资者再次意识到美股市场可能多么脆弱。而与此同时，上周五投资级公司债的平均收益率为6%，接近金融危机以来的最高水平，这为投资者提供了未来数年锁定可观收益的机会。 Federated Hermes固定收益投资策略师Karen Manna指出，“如果你认为股市还将进一步回调，并将权益资产的表现与固收资产确定性极高的收益水平相对照，那么债券的吸引力便将开始凸显。”",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8934466.d.html",
+        "id": 5216943,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"002611\",\"key\":\"\\u907f\\u9669\",\"sym_party_status\":\"0\"},{\"market\":\"us\",\"symbol\":\".inx\",\"key\":\"\\u6807\\u666e500\\u6307\\u6570\"},{\"market\":\"fund\",\"symbol\":\"002705\",\"key\":\"\\u56fa\\u6536\",\"sym_party_status\":\"0\",\"hot\":4},{\"market\":\"fund\",\"symbol\":\"485007\",\"key\":\"\\u56fa\\u6536\",\"sym_party_status\":\"0\",\"hot\":2},{\"market\":\"CFF\",\"symbol\":\"nf_t0\",\"key\":\"\\u503a\\u5238\",\"hot\":116},{\"market\":\"CFF\",\"symbol\":\"nf_tf0\",\"key\":\"\\u503a\\u5238\",\"hot\":40}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8934466.shtml\",\"docid\":\"niyxchy8934466\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8934466.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:16:42",
+        "text": "【粤芯半导体：公司的硅光产品目前涵盖400G、800G 及1.6T 高速可插拔硅光光模块应用 】有投资者向粤芯半导-U（301660.SZ）提问，公司是否涉1.6T光通信模块？11月16日，公司回答表示，公司的硅光产品目前涵盖400G、800G 及1.6T 高速可插拔硅光光模块应用。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcif2460507.d.html",
+        "id": 5216944,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz301660\",\"key\":\"\\u7ca4\\u82af\\u534a\\u5bfc\"},{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u5149\\u6a21\\u5757\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcif2460507.shtml\",\"docid\":\"niyxcif2460507\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcif2460507.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:31:06",
+        "text": "【黄仁勋辞职冲击开放模型】黄仁勋辞去英伟达CEO职务，为那些开发“开放”人工智能模型的公司蒙上了阴影，使力量天平重新向Anthropic和OpenAI等“封闭”型前沿AI实验室倾斜。 黄仁勋曾动用英伟达的资金，致力于构建一个广泛的AI生态系统。硅谷一家领先人工智能公司的高管表示：“从某种意义上说，黄仁勋离开英伟达对整个行业而言并非好事；从另一个角度来看，黄仁勋其实是这些前沿AI实验室的‘敌人’——他希望各类模型实现‘商品化’，从而确保自己始终稳居价值链的核心地位。”",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8942567.d.html",
+        "id": 5216961,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0},{\"market\":\"foreign\",\"symbol\":\"btc_btcopenaiusdt\",\"key\":\"Openai\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8942567.shtml\",\"docid\":\"niyxchy8942567\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8942567.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:31:56",
+        "text": "【CPO概念持续走弱 中际旭创A+H股总市值跌破5000亿】午后CPO概念持续走弱，中际旭创跌近10%，创年内新低，A+H股总市值跌破5000亿，中石科技、杰普特、蘅东光、炬光科技、罗博特科、仕佳光子跌超10%，天孚通信、东山精密、太辰光、新易盛等跌幅靠前。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcic1243596.d.html",
+        "id": 5216963,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcic1243596.shtml\",\"docid\":\"niyxcic1243596\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcic1243596.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:32:25",
+        "text": "【字节跳动再次领投云脉芯联 天翼资本入股】近日国家企业信用信息公示系统信息显示，高性能算力网络互联芯片企业云脉芯联完成新一轮融资。其中字节跳动旗下北京量子跃动为本轮增资规模最大的投资方并担任领投，天翼资本作为新股东参与。这是自2021年首次投资以来，字节跳动第二次领投云脉芯联。此外，本轮融资新增上海国投先导人工智能基金、社保基金长三角科创基金等机构股东，上海科创投、深创投等老股东继续增资。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcif2469486.d.html",
+        "id": 5216965,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"158050\",\"key\":\"\\u7b97\\u529b\",\"sym_party_status\":\"1\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"cn\",\"symbol\":\"si931071\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"hot\":3018},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"\\u4eba\\u5de5\\u667a\\u80fd\",\"sym_party_status\":\"1\",\"hot\":0},{\"market\":\"fund\",\"symbol\":\"159949\",\"key\":\"\\u79d1\\u521b\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcif2469486.shtml\",\"docid\":\"niyxcif2469486\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcif2469486.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:33:48",
+        "text": "【前员工称黄仁勋女儿短期难接掌英伟达】据《商业内幕》报道，在英伟达开始寻找接班人之际，前员工称黄仁勋女儿黄敏珊已晋升为物理AI产品营销高级总监，但短期内仍缺乏接替父亲的技术经验。 黄敏珊2020年加入英伟达，现为物理AI产品营销高级总监；前员工称其影响力超出职位本身，2023年底起扩大。 两名前员工认为，她未来可能担任更重要领导职务，但目前缺乏引领英伟达技术战略的专业能力；其中一人能想象她十年后接掌公司。 黄仁勋儿子黄胜斌在机器人业务部门任产品管理总监，前员工称其比妹妹更低调。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5720287.d.html",
+        "id": 5216968,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcia5720287.shtml\",\"docid\":\"niyxcia5720287\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5720287.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:36:09",
+        "text": "【公司9月存货目前为止是否已全部发货？新易盛回应】有投资者向新易盛（300502.SZ）提问，相信科技强国，重仓持有新易盛小小股东，目前浮亏60%，市场担心贵公司存货究竟能不能卖出去呢，9月存货到目前为止已经全部发货出去没有，麻烦董秘真正站在对公司认可投资价值，坚守阵地。11月16日，公司回答表示，三季度存货中的库存商品可较快实现销售。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8945450.d.html",
+        "id": 5216971,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz300502\",\"key\":\"\\u65b0\\u6613\\u76db\"},{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8945450.shtml\",\"docid\":\"niyxchy8945450\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8945450.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:39:06",
+        "text": "【白银期货移仓换月过程释放出看空信号】目前白银期货向3月合约的转移正在全面进行，但这一过程中释放出对银价偏空的信号。12月合约和3月合约之间的价差正在收窄，未平仓合约总量也在上升，这表明交易员认为白银价格在短期内将继续下跌。白银自1月份以来回撤超过60%，速度之快令人瞠目，但几乎没有迹象表明逢低买盘正在积极入场。这可能是个警示信号，表明市场对各类资产的风险偏好普遍疲软，对于本周开始交易的Anthropic来说，这也不是个好兆头。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcif2472697.d.html",
+        "id": 5216975,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"global\",\"symbol\":\"hf_xag\",\"key\":\"\\u767d\\u94f6\",\"hot\":634},{\"market\":\"commodity\",\"symbol\":\"nf_ag0\",\"key\":\"\\u767d\\u94f6\",\"hot\":301},{\"market\":\"global\",\"symbol\":\"hf_si\",\"key\":\"\\u767d\\u94f6\\u671f\\u8d27\"},{\"market\":\"us\",\"symbol\":\"ant\",\"key\":\"Anthropic\",\"hot\":4933},{\"market\":\"foreign\",\"symbol\":\"btc_btcanthropicba\",\"key\":\"Anthropic\",\"hot\":0}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcif2472697.shtml\",\"docid\":\"niyxcif2472697\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcif2472697.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 13:53:33",
+        "text": "【新易盛盘中跌超10%】A股新易盛盘中跌超10%，现报168.81元。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcic1253755.d.html",
+        "id": 5217001,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sz300502\",\"key\":\"\\u65b0\\u6613\\u76db\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxcic1253755.shtml\",\"docid\":\"niyxcic1253755\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcic1253755.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 14:00:07",
+        "text": "【高盛：英伟达管理层交接属有限度负面，目标价降至220美元】高盛发表研报指，英伟达董事会宣布CEO兼联合创办人黄仁勋辞任行政总裁及董事，财务总监Colette Kress实时出任临时行政总裁并继续兼任财务总监，董事会同时推选Harvey C. Jones为主席。该行认为，公告对股价构成实质性但幅度温和的负面影响，并体现在多个维度上。该行指出，公司在半导体设计、软件、系统设计、营运及财务等职能层面管理层实力雄厚，但投资者尚未见到具备与黄仁勋同等愿景、影响力及对外号召力的高层；未来或更难促成同等规模的多方生态系投资。该行亦认为，黄仁勋对企业文化至关重要，未来12至18个月执行风险有所上升，惟Rubin Ultra及Feynman两代产品执行已在推进，且长达12至24个月的积压订单与未来两至三年产品路线图已进入执行阶段，对未来12至18个月财务及盈利能力的直接影响料属可控。该行维持“买入”评级，将12个月目标价由300美元降26.7%至220美元。该行预计2027年历年每股盈利16.7美元，高于市场预期的15.91美元。主要下行风险包括管理层交接不确定性、营运及执行风险上升、客户活动或订单放缓，以及内外部调查。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8955553.d.html",
+        "id": 5217013,
+        "raw_fields": {
+          "ext": "{\"stocks\":[],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8955553.shtml\",\"docid\":\"niyxchy8955553\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8955553.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 14:01:08",
+        "text": "【商业航天板块大幅调整，上海港湾等多股跌停】商业航天板块大幅调整，上海港湾、长光华芯、江顺科技跌停，国机精工此前跌停，华曙高科跌超15%，飞沃科技、蓝盾光电、西测测试、光智科技、天微电子等跟跌。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8956015.d.html",
+        "id": 5217015,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"cn\",\"symbol\":\"sh605598\",\"key\":\"\\u4e0a\\u6d77\\u6e2f\\u6e7e\"},{\"market\":\"cn\",\"symbol\":\"sh688048\",\"key\":\"\\u957f\\u5149\\u534e\\u82af\"},{\"market\":\"cn\",\"symbol\":\"sz001400\",\"key\":\"\\u6c5f\\u987a\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sz002046\",\"key\":\"\\u56fd\\u673a\\u7cbe\\u5de5\"},{\"market\":\"cn\",\"symbol\":\"sh688433\",\"key\":\"\\u534e\\u66d9\\u9ad8\\u79d1\"},{\"market\":\"cn\",\"symbol\":\"sz301232\",\"key\":\"\\u98de\\u6c83\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sz300862\",\"key\":\"\\u84dd\\u76fe\\u5149\\u7535\"},{\"market\":\"cn\",\"symbol\":\"sz301306\",\"key\":\"\\u897f\\u6d4b\\u6d4b\\u8bd5\"},{\"market\":\"cn\",\"symbol\":\"sz300489\",\"key\":\"\\u5149\\u667a\\u79d1\\u6280\"},{\"market\":\"cn\",\"symbol\":\"sh688511\",\"key\":\"\\u5929\\u5fae\\u7535\\u5b50\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8956015.shtml\",\"docid\":\"niyxchy8956015\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8956015.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 14:10:04",
+        "text": "【主力资金：融资融券板块净流出超400亿】截至目前，今日主力资金净流出432.33亿；净流入红利股、陆股通活跃、破净股等板块，其中红利股板块净流入12.65亿；净流出融资融券、转融券标的、芯片概念等板块，其中融资融券板块净流出400.16亿。 个股方面，北方华创净买入3.99亿元位居首位，吉视传媒、龙江交通、贵州茅台主力资金净流入居前；长鑫科技净卖出15.82亿元位居首位，中际旭创、东山精密、工业富联净流出额居前。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8961189.d.html",
+        "id": 5217031,
+        "raw_fields": {
+          "ext": "{\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxchy8961189.shtml\",\"docid\":\"niyxchy8961189\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8961189.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 14:18:40",
+        "text": "【国家统计局：客观理性看待投资降幅扩大】国家统计局16日发布的最新数据显示，1-10月份，全国固定资产投资（不含农户）364824亿元，同比下降8.1%，降幅比上月扩大0.9个百分点。国家统计局新闻发言人、总经济师付凌晖在国务院新闻办发布会上回答记者采访时表示，前10月固定资产投资降幅有所扩大，这主要是经济发展阶段变化、产业结构调整等多方面因素导致的。付凌晖表示，我们要客观理性全面看待，既要看到投资总量变化情况，更要看投资结构、质量、效益的改善，尤其投资在促创新、优供给、惠民生等关键领域的作用在持续增强，这些将有利于推动经济高质量发展。（第一财经）",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxiqw8835537.d.html",
+        "id": 5217039,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"fund\",\"symbol\":\"159352\",\"key\":\"\\u6295\\u8d44\",\"sym_party_status\":\"1\"},{\"market\":\"sb\",\"symbol\":\"875186\",\"key\":\"\\u767e\\u5206\\u70b9\"},{\"market\":\"cn\",\"symbol\":\"si000860\",\"key\":\"\\u7ed3\\u6784\\u8c03\\u6574\"},{\"market\":\"fund\",\"symbol\":\"159949\",\"key\":\"\\u521b\\u65b0\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxiqw8835537.shtml\",\"docid\":\"niyxiqw8835537\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxiqw8835537.d.html"
+        }
+      },
+      {
+        "time": "2026-11-16 14:21:33",
+        "text": "【知情人士：特朗普深深折服于黄仁勋的个人魅力】市场消息，知情人士称自2025年1月与黄仁勋首度会面以来，特朗普便深深折服于黄仁勋的个人魅力，以及他将英伟达打造成业界霸主的辉煌战绩。知情人士说，特朗普经常提及黄仁勋的才华以及他让美国在AI竞赛中保持领先方面发挥的作用，甚至会在深夜致电，就重大政策决定征询他的意见。",
+        "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxiqw8837503.d.html",
+        "id": 5217048,
+        "raw_fields": {
+          "ext": "{\"stocks\":[{\"market\":\"us\",\"symbol\":\"nvda\",\"key\":\"\\u82f1\\u4f1f\\u8fbe\"},{\"market\":\"fund\",\"symbol\":\"159363\",\"key\":\"AI\",\"sym_party_status\":\"1\"}],\"needPushWB\":false,\"needCMSLink\":true,\"needCalender\":false,\"terms\":[],\"docurl\":\"https:\\/\\/finance.sina.com.cn\\/7x24\\/2026-11-16\\/doc-iniyxiqw8837503.shtml\",\"docid\":\"niyxiqw8837503\"}",
+          "docurl": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxiqw8837503.d.html"
+        }
+      }
+    ]
+  }
+}

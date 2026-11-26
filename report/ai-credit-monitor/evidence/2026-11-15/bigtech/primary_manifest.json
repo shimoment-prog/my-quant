@@ -1,0 +1,32 @@
+[
+  {
+    "name": "anthropic_axios",
+    "url": "https://www.axios.com/2026/11/13/anthropic-ipo-nvidia-jensen-huang",
+    "retrieved_at": "2026-11-15T00:27:55.949016+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "anthropic_mixup",
+    "url": "https://beincrypto.com/anthropic-cuts-ipo-cramer-deal-wobbles/",
+    "retrieved_at": "2026-11-15T00:27:55.949371+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "meta_alberta_link",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
+    "retrieved_at": "2026-11-15T00:27:55.949518+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 13
+  },
+  {
+    "name": "amazon_uae_link",
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNd283UlpHT0ZOOUd0d0tOSkQwRF84U3ZDZzE1ZElXSmgxUU9zVXdrYlhqMTlzYWdNZkxyOWVmS3JxUWZ2NF9hMTA4ZjFKOGoxbWN3RV80Qkdyak9kbzlVZzRFZUVfajd6Mi0zWnppTk9LV0pXcGJEMDJDQVlHMGctbDVzRl9sZWtWMzVsWENqRGE4di1zT3hHUzNRMTlxWXFzMHBVemlOMGVxX0MwNTNIOWR3ZDVUVC1TQjZGY0d3T1FhQUVKbEpsblhLYzdaV0JqclZ1ZkU5TE80bE5adE9rXzhuV3RJYlpTZzIzZWhDMWFpZFJmaTZxWnZPZGttWV9iYXhYemo0cUZzbHVwVkF5QTdTeTVfZw?oc=5",
+    "retrieved_at": "2026-11-15T00:27:55.949650+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 13
+  }
+]

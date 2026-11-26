@@ -1,0 +1,143 @@
+[
+  {
+    "issuer": "alphabet",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "retrieved_at": "2026-11-05T00:30:32.293208+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001193125-26-447343",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T21:21:20.000Z",
+        "form": "424B2",
+        "primaryDocument": "d125079d424b2.htm",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm"
+      }
+    ],
+    "latest10q": [
+      {
+        "filingDate": "2026-10-29",
+        "doc": "goog-20260930.htm"
+      }
+    ]
+  },
+  {
+    "issuer": "meta",
+    "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+    "retrieved_at": "2026-11-05T00:30:32.293208+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0000950103-26-016962",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T23:36:30.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/ownership.xml",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016962/xslF345X06/ownership.xml"
+      },
+      {
+        "accessionNumber": "0001193125-26-447522",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T21:53:19.000Z",
+        "form": "FWP",
+        "primaryDocument": "d154804dfwp.htm",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526447522/d154804dfwp.htm"
+      },
+      {
+        "accessionNumber": "0001160077-26-000013",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T21:10:37.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/form4-11042026_091132.xml",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000116007726000013/xslF345X06/form4-11042026_091132.xml"
+      },
+      {
+        "accessionNumber": "0001193125-26-446110",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T11:01:27.000Z",
+        "form": "424B5",
+        "primaryDocument": "d44678d424b5.htm",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526446110/d44678d424b5.htm"
+      }
+    ],
+    "latest10q": [
+      {
+        "filingDate": "2026-10-22",
+        "doc": "meta-20260930.htm"
+      }
+    ]
+  },
+  {
+    "issuer": "microsoft",
+    "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "retrieved_at": "2026-11-05T00:30:32.293208+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001193125-26-447173",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T21:01:27.000Z",
+        "form": "8-K",
+        "primaryDocument": "d178557d8k.htm",
+        "items": "8.01,9.01",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm"
+      }
+    ],
+    "latest10q": [
+      {
+        "filingDate": "2026-10-28",
+        "doc": "msft-20260930.htm"
+      }
+    ]
+  },
+  {
+    "issuer": "amazon",
+    "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+    "retrieved_at": "2026-11-05T00:30:32.293208+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001936006-26-000028",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T22:26:58.000Z",
+        "form": "4",
+        "primaryDocument": "xslF345X06/wk-form4_1793831214.xml",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000028/xslF345X06/wk-form4_1793831214.xml"
+      },
+      {
+        "accessionNumber": "0001000275-26-000119",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T15:20:59.000Z",
+        "form": "144",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "items": "",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000100027526000119/xsl144X01/primary_doc.xml"
+      }
+    ],
+    "latest10q": [
+      {
+        "filingDate": "2026-10-30",
+        "doc": "amzn-20260930.htm"
+      }
+    ]
+  },
+  {
+    "issuer": "broadcom",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-05T00:30:32.293208+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "filingDate": "2026-09-10",
+        "doc": "avgo-20260802.htm"
+      }
+    ]
+  }
+]

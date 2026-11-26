@@ -1,0 +1,282 @@
+{
+  "prepared_at": "2026-11-18T10:37:19.175668+08:00",
+  "automation_id": "10-30",
+  "review_type": "expired_prediction_settlement_only",
+  "original_state_file": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/state.json",
+  "original_state_sha256": "d73a176990e570e43b5f793198c111d26b03ea5772d23ffddc738fdd8afa3277",
+  "last_observation_file": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-17-1434.json",
+  "last_observation_sha256": "fff0f00d55d8baea721aa15f847d3fdc02d7013be13ef7d60da74563b5d04a8f",
+  "settled_predictions": [
+    {
+      "id": "2026-11-17-1039-L15776",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-17T10:30:00+08:00",
+      "triggered_at": "2026-11-17T10:35:20.760+08:00",
+      "created_at": "2026-11-17T10:39:12+08:00",
+      "forecast_start": "2026-11-17T10:39:12+08:00",
+      "snapshot_time": "2026-11-17T10:39:09+08:00",
+      "threshold": 157.76,
+      "comparison": "strictly_less_than",
+      "event": "Any traded price strictly below157.76 after forecast_start and by deadline",
+      "deadline": "2026-11-17T15:00:00+08:00",
+      "risk": "中等",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "settled",
+      "settled": true,
+      "note": "Actual creation time is the start, not scheduled10:30 or heartbeat time. Cumulative day low frozen independently of historical179.83line. Price above currentVWAP and over2%aboveL partly offsets retreating rebound highs/local relative weakness and overseas selloff. No tickstream during quote-to-creation gap; do not alter threshold/window/risk in later reviews.",
+      "resolved_at": "2026-11-18T10:37:19.175668+08:00",
+      "event_occurred": true,
+      "closing_breach_occurred": false,
+      "result": "A trade strictly below the frozen threshold occurred inside the forecast window; closing price 160.00 was above the threshold.",
+      "resolution_evidence": {
+        "session_date": "2026-11-17",
+        "forecast_start_preserved": "2026-11-17T10:39:12+08:00",
+        "deadline_preserved": "2026-11-17T15:00:00+08:00",
+        "threshold_preserved": 157.76,
+        "strict_comparison": "traded_price < threshold; equality is not a breach",
+        "full_day_ohlc": {
+          "open": 163.62,
+          "close": 160.0,
+          "high": 167.46,
+          "low": 155.24
+        },
+        "full_day_low": 155.24,
+        "closing_price": 160.0,
+        "closing_price_time": "2026-11-17T15:00:00+08:00",
+        "window_minimum_price": 155.24,
+        "first_proven_strict_breach_interval": {
+          "start": "2026-11-17T14:00:00+08:00",
+          "end": "2026-11-17T14:05:00+08:00",
+          "low": 157.5,
+          "exact_tick_time": null
+        },
+        "exact_first_breach_tick_time": null,
+        "preceding_full_bar_minimum": 157.76,
+        "overlapping_forecast_start_bar": [
+          {
+            "start": "2026-11-17T10:35:00+08:00",
+            "end": "2026-11-17T10:40:00+08:00",
+            "open": 162.38,
+            "high": 163.0,
+            "low": 161.76,
+            "close": 163.0,
+            "raw_bar": {
+              "day": "2026-11-17 10:40:00",
+              "open": "162.380",
+              "high": "163.000",
+              "low": "161.760",
+              "close": "163.000",
+              "volume": "1112348",
+              "amount": "180633500.0881"
+            },
+            "exact_tick_time": null
+          }
+        ],
+        "minimum_interval_evidence": [
+          {
+            "start": "2026-11-17T14:35:00+08:00",
+            "end": "2026-11-17T14:40:00+08:00",
+            "low": 155.24,
+            "exact_tick_time": null
+          }
+        ],
+        "source_files": [
+          "sz300502-m5.txt",
+          "sz300502-daily.json"
+        ],
+        "source_retrievals": [
+          {
+            "file": "sz300502-daily.json",
+            "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+            "started_utc": "2026-11-18T00:47:38.443376+00:00",
+            "ok": true,
+            "bytes": 3723,
+            "retrieved_utc": "2026-11-18T00:47:38.580968+00:00"
+          },
+          {
+            "file": "sz300502-m5.txt",
+            "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+            "started_utc": "2026-11-18T00:47:38.443812+00:00",
+            "ok": true,
+            "bytes": 14340,
+            "retrieved_utc": "2026-11-18T00:47:38.750028+00:00"
+          }
+        ],
+        "complete_session_data_cutoff": "2026-11-17T15:00:00+08:00",
+        "verification": {
+          "complete_48_five_minute_bars": true,
+          "minute_bars_match_daily_ohlc": true,
+          "earliest_proven_breach_bar_fully_inside_window": true,
+          "all_preceding_bars_at_or_above_threshold": true,
+          "no_unproven_low_time_used": true
+        },
+        "logic": "All 48 completed five-minute bars match the full daily OHLC. A completed bar fully after the preserved forecast start traded strictly below the preserved threshold, establishing the event within the window. All preceding completed bars have lows at or above threshold. The reported five-minute interval is not an exact first-tick timestamp. The full-day and forecast-window minimum were 155.24 and the close was 160.00.",
+        "limitations": [
+          "Five-minute interval is not an exact first-trade time; no tick stream was obtained.",
+          "Public adjusted daily series matches the same session unadjusted intraday OHLC; no current-day price used.",
+          "Only the two originally pending forecasts are resolved; original threshold/start/deadline/risk are preserved. No hit rate is calculated."
+        ]
+      }
+    },
+    {
+      "id": "2026-11-17-1434-L15559",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-17T14:30:00+08:00",
+      "triggered_at": "2026-11-17T14:31:40.559+08:00",
+      "created_at": "2026-11-17T14:34:46.058927+08:00",
+      "forecast_start": "2026-11-17T14:34:46.058927+08:00",
+      "snapshot_time": "2026-11-17T14:34:42+08:00",
+      "threshold": 155.59,
+      "comparison": "strictly_less_than",
+      "event": "Any traded price strictly below155.59 after forecast_start and by deadline",
+      "deadline": "2026-11-17T15:00:00+08:00",
+      "risk": "偏高",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "settled",
+      "settled": true,
+      "note": "Independent afternoon forecast starts at actual creation, never backdated to14:30 or heartbeat time. Morning157.76 prediction keeps original threshold, risk and15:00deadline and is not finally settled. Price close to freshly frozen cumulative low, belowVWAP and weakerthanETF/ChiNext; recent completed reboundhighs declined. Short remaining window and latest completed pullback volume contraction are counterevidence. No tickstream in quote-to-creation gap; later reviews must not alter original threshold/window/risk.",
+      "resolved_at": "2026-11-18T10:37:19.175668+08:00",
+      "event_occurred": true,
+      "closing_breach_occurred": false,
+      "result": "A trade strictly below the frozen threshold occurred inside the forecast window; closing price 160.00 was above the threshold.",
+      "resolution_evidence": {
+        "session_date": "2026-11-17",
+        "forecast_start_preserved": "2026-11-17T14:34:46.058927+08:00",
+        "deadline_preserved": "2026-11-17T15:00:00+08:00",
+        "threshold_preserved": 155.59,
+        "strict_comparison": "traded_price < threshold; equality is not a breach",
+        "full_day_ohlc": {
+          "open": 163.62,
+          "close": 160.0,
+          "high": 167.46,
+          "low": 155.24
+        },
+        "full_day_low": 155.24,
+        "closing_price": 160.0,
+        "closing_price_time": "2026-11-17T15:00:00+08:00",
+        "window_minimum_price": 155.24,
+        "first_proven_strict_breach_interval": {
+          "start": "2026-11-17T14:35:00+08:00",
+          "end": "2026-11-17T14:40:00+08:00",
+          "low": 155.24,
+          "exact_tick_time": null
+        },
+        "exact_first_breach_tick_time": null,
+        "preceding_full_bar_minimum": 155.59,
+        "overlapping_forecast_start_bar": [
+          {
+            "start": "2026-11-17T14:30:00+08:00",
+            "end": "2026-11-17T14:35:00+08:00",
+            "open": 156.45,
+            "high": 156.45,
+            "low": 155.59,
+            "close": 155.77,
+            "raw_bar": {
+              "day": "2026-11-17 14:35:00",
+              "open": "156.450",
+              "high": "156.450",
+              "low": "155.590",
+              "close": "155.770",
+              "volume": "1984750",
+              "amount": "309373723.0584"
+            },
+            "exact_tick_time": null
+          }
+        ],
+        "minimum_interval_evidence": [
+          {
+            "start": "2026-11-17T14:35:00+08:00",
+            "end": "2026-11-17T14:40:00+08:00",
+            "low": 155.24,
+            "exact_tick_time": null
+          }
+        ],
+        "source_files": [
+          "sz300502-m5.txt",
+          "sz300502-daily.json"
+        ],
+        "source_retrievals": [
+          {
+            "file": "sz300502-daily.json",
+            "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+            "started_utc": "2026-11-18T00:47:38.443376+00:00",
+            "ok": true,
+            "bytes": 3723,
+            "retrieved_utc": "2026-11-18T00:47:38.580968+00:00"
+          },
+          {
+            "file": "sz300502-m5.txt",
+            "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+            "started_utc": "2026-11-18T00:47:38.443812+00:00",
+            "ok": true,
+            "bytes": 14340,
+            "retrieved_utc": "2026-11-18T00:47:38.750028+00:00"
+          }
+        ],
+        "complete_session_data_cutoff": "2026-11-17T15:00:00+08:00",
+        "verification": {
+          "complete_48_five_minute_bars": true,
+          "minute_bars_match_daily_ohlc": true,
+          "earliest_proven_breach_bar_fully_inside_window": true,
+          "all_preceding_bars_at_or_above_threshold": true,
+          "no_unproven_low_time_used": true
+        },
+        "logic": "All 48 completed five-minute bars match the full daily OHLC. A completed bar fully after the preserved forecast start traded strictly below the preserved threshold, establishing the event within the window. All preceding completed bars have lows at or above threshold. The reported five-minute interval is not an exact first-tick timestamp. The full-day and forecast-window minimum were 155.24 and the close was 160.00.",
+        "limitations": [
+          "Five-minute interval is not an exact first-trade time; no tick stream was obtained.",
+          "Public adjusted daily series matches the same session unadjusted intraday OHLC; no current-day price used.",
+          "Only the two originally pending forecasts are resolved; original threshold/start/deadline/risk are preserved. No hit rate is calculated."
+        ]
+      }
+    }
+  ],
+  "settlement_audit": {
+    "existing_settled_count": 20,
+    "existing_completed_count": 20,
+    "existing_duplicate_ids": [],
+    "pending_ids_before": [
+      "2026-11-17-1039-L15776",
+      "2026-11-17-1434-L15559"
+    ],
+    "already_settled_pending_overlap": [],
+    "newly_resolved_ids": [
+      "2026-11-17-1039-L15776",
+      "2026-11-17-1434-L15559"
+    ],
+    "newly_resolved_count": 2,
+    "completed_count_after_parent_merge_should_be": 22,
+    "unchanged_original_prediction_fields": true,
+    "exact_first_tick_times_known": false,
+    "no_hit_rate_calculated": true,
+    "global_state_modified_by_this_subtask": false
+  },
+  "source_data": {
+    "session_date": "2026-11-17",
+    "full_day_low": 155.24,
+    "close": 160,
+    "regular_close_at": "2026-11-17T15:00:00+08:00",
+    "complete_48_five_minute_bars": true,
+    "daily_ohlc_matches_m5": true,
+    "sources": [
+      {
+        "file": "sz300502-daily.json",
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+        "started_utc": "2026-11-18T00:47:38.443376+00:00",
+        "ok": true,
+        "bytes": 3723,
+        "retrieved_utc": "2026-11-18T00:47:38.580968+00:00"
+      },
+      {
+        "file": "sz300502-m5.txt",
+        "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+        "started_utc": "2026-11-18T00:47:38.443812+00:00",
+        "ok": true,
+        "bytes": 14340,
+        "retrieved_utc": "2026-11-18T00:47:38.750028+00:00"
+      }
+    ]
+  },
+  "local_evidence_directory": "/private/tmp/eoptolink-nov18-1030-settlement/evidence"
+}

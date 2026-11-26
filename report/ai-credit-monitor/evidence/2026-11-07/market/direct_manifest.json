@@ -1,0 +1,23 @@
+[
+  {
+    "id": "reuters_protest",
+    "url": "https://www.reuters.com/technology/protesters-slam-ai-enter-microsoft-data-center-site-amsterdam-2026-11-06/",
+    "retrieved_at": "2026-11-07T00:28:46.209985+00:00",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "id": "dcd_protest",
+    "url": "https://www.datacenterdynamics.com/en/news/more-than-100-protesters-break-into-microsoft-data-center-construction-site-in-amsterdam/",
+    "retrieved_at": "2026-11-07T00:28:46.210348+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "cnbc_close",
+    "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
+    "retrieved_at": "2026-11-07T00:28:46.210530+00:00",
+    "ok": true,
+    "length": 34698
+  }
+]

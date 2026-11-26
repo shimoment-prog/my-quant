@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><edgarSubmission xmlns="http://www.sec.gov/edgar/ownership" xmlns:ns2="http://www.sec.gov/edgar/common">
+    <headerData>
+        <submissionType>144</submissionType>
+        <filerInfo>
+            <filer>
+                <filerCredentials>
+                    <cik>0002124855</cik>
+                    <ccc>XXXXXXXX</ccc>
+                </filerCredentials>
+            </filer>
+            <liveTestFlag>LIVE</liveTestFlag>
+
+
+
+        </filerInfo>
+    </headerData>
+    <formData>
+        <issuerInfo>
+            <issuerCik>0001769628</issuerCik>
+            <issuerName>COREWEAVE, INC.</issuerName>
+            <secFileNumber>001-42563</secFileNumber>
+            <issuerAddress>
+                <ns2:street1>290 W. MT. PLEASANT AVENUE, SUITE 4100</ns2:street1>
+                <ns2:city>LIVINGSTON</ns2:city>
+                <ns2:stateOrCountry>NJ</ns2:stateOrCountry>
+                <ns2:zipCode>07039</ns2:zipCode>
+            </issuerAddress>
+            <issuerContactPhone>(973) 270-9737</issuerContactPhone>
+            <nameOfPersonForWhoseAccountTheSecuritiesAreToBeSold>SACHIN JAIN</nameOfPersonForWhoseAccountTheSecuritiesAreToBeSold>
+            <relationshipsToIssuer>
+                <relationshipToIssuer>Officer</relationshipToIssuer>
+            </relationshipsToIssuer>
+        </issuerInfo>
+        <securitiesInformation>
+            <securitiesClassTitle>Common</securitiesClassTitle>
+            <brokerOrMarketmakerDetails>
+                <name>Morgan Stanley Smith Barney LLC Executive Financial Services</name>
+                <address>
+                    <ns2:street1>1 New York Plaza</ns2:street1>
+                    <ns2:street2>8th Floor</ns2:street2>
+                    <ns2:city>New York</ns2:city>
+                    <ns2:stateOrCountry>NY</ns2:stateOrCountry>
+                    <ns2:zipCode>10004</ns2:zipCode>
+                </address>
+            </brokerOrMarketmakerDetails>
+            <noOfUnitsSold>13611</noOfUnitsSold>
+            <aggregateMarketValue>629236.53</aggregateMarketValue>
+            <noOfUnitsOutstanding>458871690</noOfUnitsOutstanding>
+            <approxSaleDate>11/09/2026</approxSaleDate>
+            <securitiesExchangeName>NASDAQ</securitiesExchangeName>
+        </securitiesInformation>
+        <securitiesToBeSold>
+            <securitiesClassTitle>Common</securitiesClassTitle>
+            <acquiredDate>11/09/2026</acquiredDate>
+            <natureOfAcquisitionTransaction>Restricted Stock</natureOfAcquisitionTransaction>
+            <nameOfPersonfromWhomAcquired>Issuer</nameOfPersonfromWhomAcquired>
+            <isGiftTransaction>N</isGiftTransaction>
+            <amountOfSecuritiesAcquired>13611</amountOfSecuritiesAcquired>
+            <paymentDate>11/09/2026</paymentDate>
+            <natureOfPayment>Not Applicable</natureOfPayment>
+        </securitiesToBeSold>
+        <nothingToReportFlagOnSecuritiesSoldInPast3Months>N</nothingToReportFlagOnSecuritiesSoldInPast3Months>
+        <securitiesSoldInPast3Months>
+            <sellerDetails>
+                <name>SACHIN JAIN</name>
+                <address>
+                    <ns2:street1>290 W Mt. Pleasant Ave</ns2:street1>
+                    <ns2:street2>Suite 4100</ns2:street2>
+                    <ns2:city>Livingston</ns2:city>
+                    <ns2:stateOrCountry>NJ</ns2:stateOrCountry>
+                    <ns2:zipCode>07039</ns2:zipCode>
+                </address>
+            </sellerDetails>
+            <securitiesClassTitle>Common</securitiesClassTitle>
+            <saleDate>09/30/2026</saleDate>
+            <amountOfSecuritiesSold>4</amountOfSecuritiesSold>
+            <grossProceeds>350.74</grossProceeds>
+        </securitiesSoldInPast3Months>
+        <securitiesSoldInPast3Months>
+            <sellerDetails>
+                <name>SACHIN JAIN</name>
+                <address>
+                    <ns2:street1>290 W Mt. Pleasant Ave</ns2:street1>
+                    <ns2:street2>Suite 4100</ns2:street2>
+                    <ns2:city>Livingston</ns2:city>
+                    <ns2:stateOrCountry>NJ</ns2:stateOrCountry>
+                    <ns2:zipCode>07039</ns2:zipCode>
+                </address>
+            </sellerDetails>
+            <securitiesClassTitle>Common</securitiesClassTitle>
+            <saleDate>08/20/2026</saleDate>
+            <amountOfSecuritiesSold>6339</amountOfSecuritiesSold>
+            <grossProceeds>582452.68</grossProceeds>
+        </securitiesSoldInPast3Months>
+        <securitiesSoldInPast3Months>
+            <sellerDetails>
+                <name>SACHIN JAIN</name>
+                <address>
+                    <ns2:street1>290 W Mt. Pleasant Ave</ns2:street1>
+                    <ns2:street2>Suite 4100</ns2:street2>
+                    <ns2:city>Livingston</ns2:city>
+                    <ns2:stateOrCountry>NJ</ns2:stateOrCountry>
+                    <ns2:zipCode>07039</ns2:zipCode>
+                </address>
+            </sellerDetails>
+            <securitiesClassTitle>Common</securitiesClassTitle>
+            <saleDate>08/12/2026</saleDate>
+            <amountOfSecuritiesSold>1</amountOfSecuritiesSold>
+            <grossProceeds>110.00</grossProceeds>
+        </securitiesSoldInPast3Months>
+        <securitiesSoldInPast3Months>
+            <sellerDetails>
+                <name>SACHIN JAIN</name>
+                <address>
+                    <ns2:street1>290 W Mt. Pleasant Ave</ns2:street1>
+                    <ns2:street2>Suite 4100</ns2:street2>
+                    <ns2:city>Livingston</ns2:city>
+                    <ns2:stateOrCountry>NJ</ns2:stateOrCountry>
+                    <ns2:zipCode>07039</ns2:zipCode>
+                </address>
+            </sellerDetails>
+            <securitiesClassTitle>Common</securitiesClassTitle>
+            <saleDate>08/10/2026</saleDate>
+            <amountOfSecuritiesSold>13608</amountOfSecuritiesSold>
+            <grossProceeds>1253160.72</grossProceeds>
+        </securitiesSoldInPast3Months>
+        <remarks>The Shares covered by this Form 144 are being sold automatically pursuant to a mandatory, non-discretionary, sell-to-cover arrangement adopted by the Issuer for the purpose of satisfying tax withholding obligations incurred upon the vesting and settlement of equity awards.</remarks>
+        <noticeSignature>
+            <noticeDate>11/09/2026</noticeDate>
+            <planAdoptionDates/>
+            <signature>/s/ Sachin Jain</signature>
+        </noticeSignature>
+    </formData>
+</edgarSubmission>

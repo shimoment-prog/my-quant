@@ -1,0 +1,14 @@
+[
+  {
+    "name": "meta_old_reuters_link",
+    "result": ")]}'\n\n[[\"wrb.fr\",\"Fbv4je\",\"[\\\"garturlres\\\",\\\"https://www.reuters.com/world/americas/meta-build-c13-billion-alberta-data-center-its-first-canada-2026-07-08/\\\",1]\",null,null,null,\"generic\"],[\"di\",12],[\"af.httprm\",11,\"824333034173362321\",10]]"
+  },
+  {
+    "name": "meta_company_link",
+    "result": ")]}'\n\n[[\"wrb.fr\",\"Fbv4je\",\"[\\\"garturlres\\\",\\\"https://about.fb.com/news/2026/07/breaking-ground-on-metas-first-data-center-in-canada/\\\",1,\\\"https://about.fb.com/news/2026/07/breaking-ground-on-metas-first-data-center-in-canada/amp/\\\"]\",null,null,null,\"generic\"],[\"di\",20],[\"af.httprm\",19,\"-8049954659241370277\",8]]"
+  },
+  {
+    "name": "amazon_old_reuters_link",
+    "result": ")]}'\n\n[[\"wrb.fr\",\"Fbv4je\",\"[\\\"garturlres\\\",\\\"https://www.reuters.com/world/middle-east/amazons-cloud-unit-reports-fire-after-objects-hit-uae-data-center-2026-03-01/\\\",1]\",null,null,null,\"generic\"],[\"di\",11],[\"af.httprm\",11,\"-6609318681196587715\",12]]"
+  }
+]

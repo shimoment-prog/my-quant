@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-11-1434-L18730",
+  "symbol": "300502.SZ",
+  "scheduled_check_at": "2026-11-11T14:30:00+08:00",
+  "triggered_at": "2026-11-11T14:31:50.947+08:00",
+  "created_at": "2026-11-11T14:34:18+08:00",
+  "forecast_start": "2026-11-11T14:34:18+08:00",
+  "snapshot_time": "2026-11-11T14:34:15+08:00",
+  "threshold": 187.3,
+  "comparison": "strictly_less_than",
+  "event": "Any traded price strictly below187.30 after forecast_start and by deadline",
+  "deadline": "2026-11-11T15:00:00+08:00",
+  "risk": "低",
+  "numeric_probability": null,
+  "model_validated": false,
+  "status": "pending",
+  "settled": false,
+  "note": "Independent afternoon forecast starts at actual creation, never backdated to14:30 or trigger. The contemporaneous cumulative day low is frozen independently; the morning187.30 prediction retains its original time, threshold, medium risk and15:00 deadline. Historical179.83 line unchanged. No tickstream between snapshot and creation; actual quote age retained."
+}

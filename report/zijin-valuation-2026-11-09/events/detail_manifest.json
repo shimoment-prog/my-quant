@@ -1,0 +1,30 @@
+[
+  {
+    "name": "employee_pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659993.PDF",
+    "retrieved_at": "2026-11-09T03:18:39.821359+00:00",
+    "ok": true,
+    "length": 83195
+  },
+  {
+    "name": "hshare_pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225656111.PDF",
+    "retrieved_at": "2026-11-09T03:18:39.821877+00:00",
+    "ok": true,
+    "length": 159600
+  },
+  {
+    "name": "spot_gold_page",
+    "url": "https://finance.sina.com.cn/money/nmetal/hf.html?symbol=XAU",
+    "retrieved_at": "2026-11-09T03:18:39.822044+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "copper_page",
+    "url": "https://finance.sina.com.cn/futures/quotes/CAD.shtml",
+    "retrieved_at": "2026-11-09T03:18:39.822209+00:00",
+    "ok": true,
+    "length": 131923
+  }
+]

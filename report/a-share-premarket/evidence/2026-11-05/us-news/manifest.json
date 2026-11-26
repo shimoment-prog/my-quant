@@ -1,0 +1,42 @@
+[
+  {
+    "name": "qcom_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000804328.json",
+    "retrieved_at": "2026-11-05T00:45:50.610841+00:00",
+    "ok": true,
+    "file": "qcom_submissions.json",
+    "bytes": 159810
+  },
+  {
+    "name": "arm_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001973239.json",
+    "retrieved_at": "2026-11-05T00:45:50.611342+00:00",
+    "ok": true,
+    "file": "arm_submissions.json",
+    "bytes": 26558
+  },
+  {
+    "name": "news_market",
+    "url": "https://news.google.com/rss/search?q=US+stocks+November+4+2026+technology+semiconductors&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-05T00:45:50.611504+00:00",
+    "ok": true,
+    "file": "news_market.xml",
+    "bytes": 40899
+  },
+  {
+    "name": "news_earnings",
+    "url": "https://news.google.com/rss/search?q=Qualcomm+Arm+earnings+November+4+2026&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-05T00:45:50.611672+00:00",
+    "ok": true,
+    "file": "news_earnings.xml",
+    "bytes": 36245
+  },
+  {
+    "name": "news_optical",
+    "url": "https://news.google.com/rss/search?q=Lumentum+Coherent+Ciena+Fabrinet+November+4+2026&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-05T00:45:50.611815+00:00",
+    "ok": true,
+    "file": "news_optical.xml",
+    "bytes": 13285
+  }
+]

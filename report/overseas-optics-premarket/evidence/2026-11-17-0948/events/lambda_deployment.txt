@@ -1,0 +1,531 @@
+<!doctype html><html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>Lambda announces the world’s first large-scale CPO deployment of NVIDIA Photonics switches</title>
+  
+  
+  <link rel="shortcut icon" href="https://lambda.com/hubfs/favicon-48x48-1.svg">
+  
+  <link rel="apple-touch-icon" href="https://lambda.com/hubfs/raw_assets/33/public/@projects/Lambda%20Marketing%20Website/lambda-theme/assets/static/img/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon-precomposed" href="https://lambda.com/hubfs/raw_assets/33/public/@projects/Lambda%20Marketing%20Website/lambda-theme/assets/static/img/apple-touch-icon-180x180.png">
+  <meta name="description" content="Lambda deploys NVIDIA Photonics switches across 10,000+ NVIDIA GB300 GPUs in the world’s first large-scale CPO deployment, cutting latency by up to 10.1%.">
+
+  
+  <link rel="preconnect" href="https://lambda.com" crossorigin>
+
+  
+  
+
+  
+
+  
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="Lambda deploys NVIDIA Photonics switches across 10,000+ NVIDIA GB300 GPUs in the world’s first large-scale CPO deployment, cutting latency by up to 10.1%.">
+    <meta property="og:title" content="Lambda announces the world’s first large-scale CPO deployment of NVIDIA Photonics switches">
+    <meta name="twitter:description" content="Lambda deploys NVIDIA Photonics switches across 10,000+ NVIDIA GB300 GPUs in the world’s first large-scale CPO deployment, cutting latency by up to 10.1%.">
+    <meta name="twitter:title" content="Lambda announces the world’s first large-scale CPO deployment of NVIDIA Photonics switches">
+
+    
+
+    
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://lambda.com/hubfs/hub_generated/template_assets/158/226746497109/1794001912859/template_fonts.min.css">
+<link rel="stylesheet" href="https://lambda.com/hubfs/raw_assets/157/public/@projects/Lambda%20Marketing%20Website/lambda-theme/assets/dist/css/main.css">
+<link rel="preload" as="style" href="https://lambda.com/hubfs/raw_assets/Lambda%20Marketing%20Website/158/js_client_assets/assets/CookiePreferencesIsland-CCZSrhjn.css">
+
+    <script type="application/ld+json">
+{
+  "mainEntityOfPage" : {
+    "@type" : "WebPage",
+    "@id" : "https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo"
+  },
+  "author" : {
+    "name" : "Lambda",
+    "url" : "https://lambda.com/blog/author/lambda",
+    "@type" : "Person"
+  },
+  "headline" : "Lambda announces the world’s first large-scale CPO deployment of NVIDIA Photonics switches",
+  "datePublished" : "2026-11-16T16:03:52.000Z",
+  "dateModified" : "2026-11-16T17:04:21.759Z",
+  "publisher" : {
+    "name" : "Lambda, Inc.",
+    "logo" : {
+      "url" : "https://lambda.com/hubfs/logos/lambda-logo.svg",
+      "@type" : "ImageObject"
+    },
+    "@type" : "Organization"
+  },
+  "@context" : "https://schema.org",
+  "@type" : "BlogPosting",
+  "image" : [ "https://lambda.com/hubfs/lambda_blog_CPO-switch_1600x860.png" ]
+}
+</script>
+
+
+    
+
+<meta name="google-site-verification" content="Yl9AOUwQUNp73F6qbOEGV8Z-ottfBhEf0Wn0VLsuYKE">
+
+<style>
+  div[role="dialog"][aria-label="Cookie Consent Banner"] {
+    display: none;
+  }
+</style>
+
+<script src="https://cmp.osano.com/gHAmSqAlBBP1bn8/6da442a0-e608-4711-8d07-7d71e05f85b4/osano.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ5JKG2');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Hotjar Tracking Code for my site -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3059404,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<meta property="og:image" content="https://lambda.com/hubfs/lambda_blog_CPO-switch_1600x860.png">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="860">
+<meta property="og:image:alt" content="Lambda logo above a grid of glowing optical nodes linked by beams of light, with the headline “World’s first large-scale CPO deployment.”">
+<meta name="twitter:image" content="https://lambda.com/hubfs/lambda_blog_CPO-switch_1600x860.png">
+<meta name="twitter:image:alt" content="Lambda logo above a grid of glowing optical nodes linked by beams of light, with the headline “World’s first large-scale CPO deployment.”">
+
+<meta property="og:url" content="https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="canonical" href="https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo">
+
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/rss+xml" href="https://lambda.com/blog/rss.xml">
+<meta name="twitter:domain" content="lambda.com">
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+    lang: en_US
+</script>
+
+<meta http-equiv="content-language" content="en">
+
+
+
+
+
+
+  
+  <style>
+    .osano-cm-dialog {
+      display: none;
+    }
+  </style>
+  <script src="https://cmp.osano.com/gHAmSqAlBBP1bn8/6da442a0-e608-4711-8d07-7d71e05f85b4/osano.js"></script>
+  
+  <script>
+    window.Osano('onInitialized', () => {
+      if (Osano.cm.locale !== 'en') {
+        const banner = document.querySelector('.osano-cm-dialog');
+        if (banner) {
+          banner.style.display = 'unset';
+        }
+      }
+    });
+  </script>
+<meta name="generator" content="HubSpot"></head>
+
+
+<body class="body-wrapper   hs-content-id-227445053526 hs-blog-post hs-blog-id-81770907005 theme-overrides">
+  
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  
+  <div id="sr-announcer" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script>
+    window.__islands = window.__islands || [];
+    // sanity check
+    window.__hsIslandsBootstrapped = window.__hsIslandsBootstrapped || false;
+  </script>
+
+  
+  <div data-global-resource-path="@projects/Lambda Marketing Website/lambda-theme/templates/partials/header.hubl.html">
+
+  <header class="siteHeader"><div class="notificationBanner reversed light-mode"><div class="container"><div class="notificationBannerContent">Lambda has a new address: lambda.com. Your path to superintelligence stays the same. <a href="/blog/lambda-ai-is-now-lambda-com" rel="noopener">Learn more</a></div></div></div><div class="container"><div class="headerContentWrapper"><div class="headerLogoWrapper"><a href="/" class="headerLogo" aria-label="Lambda homepage"><svg width="171" height="40" viewbox="0 0 171 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M54.5472 27.5003H64.1365V32.1322H49.0749V7.745H54.5472V27.5003ZM1.46484 1.70898H38.1092V38.2959H1.46484V1.70898ZM4.70436 35.0712H34.8607V4.93062H4.70436V35.0712ZM11.1443 7.79363L17.5182 19.0937L10.4261 32.1808H14.9939L19.7209 23.2484L24.7545 32.1808H29.4064L15.7962 7.79059L11.1443 7.79363ZM104.823 14.0424C103.656 14.0154 102.504 14.3163 101.496 14.9116C100.612 15.4613 99.8454 16.1847 99.2422 17.0391H99.1701C98.4188 15.1943 96.6308 14.0363 94.377 14.0363C91.3718 14.0363 89.8332 15.6988 89.0819 16.8233H88.9738L88.7243 14.4345H84.2888V32.1261H89.5838V21.8199C89.5665 21.3524 89.6389 20.8858 89.7972 20.4462C90.1187 19.5344 90.9421 18.4554 92.3365 18.4554C94.0554 18.4554 94.8428 19.9751 94.8428 22.2181V32.1322H100.138V21.7986C100.135 21.3192 100.207 20.8423 100.351 20.3854C100.513 19.8386 100.843 19.3582 101.293 19.0135C101.743 18.6688 102.29 18.4776 102.854 18.4676C104.609 18.4676 105.433 19.9508 105.433 22.522V32.1444H110.725V21.7135C110.725 16.4313 108.185 14.0424 104.823 14.0424ZM145.879 7.05204H151.318V32.117H146.63L146.38 29.5123H146.308C145.199 31.5031 143.087 32.5152 140.833 32.5152C136.683 32.5152 133.356 28.9349 133.356 23.4338C133.32 17.4646 137.004 14.0272 141.191 14.0272C143.339 14.0272 145.019 14.787 145.806 16.0179H145.879V7.05204ZM145.879 21.9141C145.872 21.5878 145.848 21.2621 145.806 20.9385C145.485 19.4554 144.304 18.2244 142.624 18.2244C140.154 18.2244 138.868 20.4674 138.868 23.2545C138.868 26.2573 140.334 28.1386 142.588 28.1386C143.336 28.1471 144.063 27.8885 144.642 27.4081C145.22 26.9278 145.612 26.2566 145.749 25.5126C145.855 25.0989 145.903 24.6724 145.894 24.2453L145.879 21.9141ZM169.343 21.6588V32.117H164.655L164.333 30.3451H164.225C163.077 31.7553 161.28 32.5152 159.197 32.5152C155.642 32.5152 153.524 29.9105 153.524 27.087C153.524 22.4916 158.148 21.1422 163.828 21.1422V20.0814C163.828 19.1423 163.326 17.802 160.634 17.802C159.215 17.8218 157.815 18.1417 156.526 18.7411L154.783 15.5955C156.003 14.9086 158.407 14.0394 161.604 14.0394C167.455 14.0394 169.343 17.5133 169.343 21.674V21.6588ZM164.008 24.3942C161.003 24.3942 158.566 24.6009 158.554 26.8256C158.554 28.245 159.843 28.6279 161.063 28.6279C161.687 28.6326 162.295 28.4396 162.804 28.0759C163.313 27.7123 163.697 27.1963 163.9 26.6007C163.974 26.2933 164.01 25.9779 164.008 25.6616V24.3942ZM131.253 22.9475C131.253 29.3117 127.298 32.4908 123.343 32.4908C121.33 32.4908 119.389 31.731 118.153 29.637H118.102L117.892 32.0927H113.474V7.06724H118.836V16.5285H118.905C119.929 15.0089 121.729 14.0363 124.131 14.0363C128.263 14.0363 131.298 17.5406 131.265 22.9627L131.253 22.9475ZM125.777 23.1663C125.777 20.431 124.575 18.2488 122.072 18.2488C120.624 18.2488 119.283 19.3703 118.929 20.9598C118.858 21.2923 118.822 21.6317 118.824 21.9719V24.5765C118.821 24.9048 118.856 25.2323 118.929 25.5522C119.084 26.2815 119.48 26.9359 120.051 27.4085C120.622 27.881 121.334 28.1438 122.072 28.1538C124.38 28.169 125.789 26.3606 125.789 23.1815L125.777 23.1663ZM81.9027 21.6467V32.1048H77.2328L76.9112 30.3329H76.8031C75.6521 31.7432 73.858 32.503 71.7755 32.503C68.2174 32.5212 66.1139 29.9257 66.1139 27.1022C66.1139 22.5068 70.7387 21.1574 76.4184 21.1574V20.0814C76.4184 19.1423 75.9165 17.802 73.224 17.802C71.8058 17.8215 70.4074 18.1414 69.119 18.7411L67.373 15.5955C68.5961 14.9086 71.0002 14.0394 74.1976 14.0394C80.0366 14.0394 81.9238 17.5133 81.9238 21.674L81.9027 21.6467ZM76.5686 24.382C73.5635 24.382 71.1264 24.5887 71.1144 26.8135C71.1144 28.2328 72.4036 28.6158 73.6236 28.6158C74.2469 28.6209 74.8559 28.4281 75.365 28.0643C75.8739 27.7006 76.2571 27.1844 76.4605 26.5886C76.5341 26.2811 76.5704 25.9657 76.5686 25.6494V24.382Z" fill="#e7e6d9"></path></svg></a></div><nav aria-label="Primary" class="mainNav"><ul><li class=""><a href="/ai-infrastructure" class="directLink" aria-label="AI campus" tabindex="0">AI campus</a></li><li class="hasDropdown"><a class="noLink" aria-label="Products" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-products" role="button">Products</a><div id="dropdown-products" class="dropdownWrapper"><div class="dropdownContent"><ul class="dropdownColumns"><li><div class="dropdownColumnHeading" data-text="Supercomputers">Supercomputers</div><ul class="dropdownLinks"><li><a href="/superclusters" aria-label="Superclusters" tabindex="0">Superclusters</a></li><li><a href="/1-click-clusters" aria-label="1-Click Clusters™" tabindex="0">1-Click Clusters™</a></li><li><a href="/instances" aria-label="Instances" tabindex="0">Instances</a></li></ul><div class="dropdownFooter"><a href="/cloud" aria-label="Compare" tabindex="0">Compare</a></div></li><li><div class="dropdownColumnHeading" data-text="For every mission">For every mission</div><ul class="dropdownLinks"><li><a href="/superintelligence" aria-label="Superintelligence" tabindex="0">Superintelligence</a></li><li><a href="/enterprise" aria-label="Enterprise" tabindex="0">Enterprise</a></li><li><a href="/government" aria-label="Government" tabindex="0">Government</a></li><li><a href="/instances" aria-label="Startups and Researchers" tabindex="0">Startups and Researchers</a></li></ul></li><li><div class="dropdownColumnHeading" data-text="Foundations">Foundations</div><ul class="dropdownLinks"><li><a href="/ai-infrastructure" aria-label="AI factories" tabindex="0">AI factories</a></li><li><a href="https://lambda.com/vr-200" aria-label="Vera Rubin" tabindex="0">Vera Rubin</a></li><li><a href="/orchestration" aria-label="Orchestration" tabindex="0">Orchestration</a></li><li><a href="/lambda-stack-deep-learning-software" aria-label="Lambda Stack" tabindex="0">Lambda Stack</a></li><li><a href="/trust" aria-label="Trust and security" tabindex="0">Trust and security</a></li></ul></li><li><div class="dropdownColumnHeading" data-text="Docs">Docs</div><ul class="dropdownLinks"><li><a href="/customer-stories" aria-label="Customer stories" tabindex="0">Customer stories</a></li><li><a href="https://docs.lambda.com" aria-label="Documentation (opens in a new tab)" target="_blank" rel="noopener noreferrer" tabindex="0">Documentation</a></li><li><a href="/blog" aria-label="Blog" tabindex="0">Blog</a></li><li><a href="/research" aria-label="Research" tabindex="0">Research</a></li></ul></li></ul></div></div></li><li class=""><a href="/pricing" class="directLink" aria-label="Pricing" tabindex="0">Pricing</a></li><li class="hasDropdown"><a class="noLink" aria-label="Company" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-company" role="button">Company</a><div id="dropdown-company" class="dropdownWrapper"><div class="dropdownContent"><ul class="dropdownColumns"><li><div class="dropdownColumnHeading" data-text="Inside Lambda">Inside Lambda</div><ul class="dropdownLinks"><li><a href="/about" aria-label="About" tabindex="0">About</a></li><li><a href="/careers" aria-label="Careers" tabindex="0">Careers</a></li><li><a href="/leadership" aria-label="Leadership" tabindex="0">Leadership</a></li><li><a href="/investors" aria-label="Investors" tabindex="0">Investors</a></li><li><a href="/analyst-updates" aria-label="Analyst updates" tabindex="0">Analyst updates</a></li></ul></li><li><div class="dropdownColumnHeading" data-text="Resources">Resources</div><ul class="dropdownLinks"><li><a href="/research" aria-label="Research" tabindex="0">Research</a></li><li><a href="https://lambda.com/inference-models" aria-label="LLM index" tabindex="0">LLM index</a></li><li><a href="/gpu-benchmarks" aria-label="GPU benchmarks" tabindex="0">GPU benchmarks</a></li><li><a href="/customer-stories" aria-label="Customer stories" tabindex="0">Customer stories</a></li><li><a href="/support" aria-label="Support" tabindex="0">Support</a></li><li><a href="/blog" aria-label="Blog" tabindex="0">Blog</a></li><li><a href="/partners" aria-label="Partners" tabindex="0">Partners</a></li></ul></li></ul></div></div></li></ul></nav><div class="utilityNav"><ul><li class=""><a href="/login" class="directLink" aria-label="Log in" tabindex="0">Log in</a></li><li class="hasDropdown"><a class="noLink" aria-label="Get started" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-get-started" role="button">Get started</a><div id="dropdown-get-started" class="dropdownWrapper"><div class="dropdownContent"><ul class="dropdownColumns"><li><ul class="dropdownLinks"><li><a href="/sign-up" aria-label="Create account" tabindex="0">Create account</a></li></ul><div class="dropdownFooter"><a href="/talk-to-our-team" aria-label="Talk to our team" tabindex="0">Talk to our team</a></div></li></ul></div></div></li></ul></div><button class="mobileMenuToggle" aria-label="Toggle mobile menu" aria-expanded="false"><span class="hamburger"><span></span><span></span><span></span></span></button></div><div class="mobileMenuOverlay" aria-hidden="true"></div><nav class="mobileMenu" aria-label="Mobile navigation"><div class="mobileMenuContent"><div class="mobileNavSection"><ul class="mobileNavList"><li class="mobileNavItem"><a href="/ai-infrastructure" class="mobileNavLink" aria-label="AI campus">AI campus</a></li><li class="mobileNavItem"><button class="mobileNavToggle" aria-expanded="false" aria-controls="mobile-dropdown-products" type="button">Products<span class="toggleIcon"><span class="toggleIconBar"></span><span class="toggleIconBar"></span></span></button><div id="mobile-dropdown-products" class="mobileDropdown"><div class="mobileDropdownContent"><div class="mobileDropdownColumn"><div class="mobileDropdownColumnHeading">Supercomputers</div><ul class="mobileDropdownLinks"><li><a href="/superclusters" aria-label="Superclusters">Superclusters</a></li><li><a href="/1-click-clusters" aria-label="1-Click Clusters™">1-Click Clusters™</a></li><li><a href="/instances" aria-label="Instances">Instances</a></li></ul><div class="mobileDropdownFooter"><a href="/cloud" aria-label="Compare">Compare</a></div></div><div class="mobileDropdownColumn"><div class="mobileDropdownColumnHeading">For every mission</div><ul class="mobileDropdownLinks"><li><a href="/superintelligence" aria-label="Superintelligence">Superintelligence</a></li><li><a href="/enterprise" aria-label="Enterprise">Enterprise</a></li><li><a href="/government" aria-label="Government">Government</a></li><li><a href="/instances" aria-label="Startups and Researchers">Startups and Researchers</a></li></ul></div><div class="mobileDropdownColumn"><div class="mobileDropdownColumnHeading">Foundations</div><ul class="mobileDropdownLinks"><li><a href="/ai-infrastructure" aria-label="AI factories">AI factories</a></li><li><a href="https://lambda.com/vr-200" aria-label="Vera Rubin">Vera Rubin</a></li><li><a href="/orchestration" aria-label="Orchestration">Orchestration</a></li><li><a href="/lambda-stack-deep-learning-software" aria-label="Lambda Stack">Lambda Stack</a></li><li><a href="/trust" aria-label="Trust and security">Trust and security</a></li></ul></div><div class="mobileDropdownColumn"><div class="mobileDropdownColumnHeading">Docs</div><ul class="mobileDropdownLinks"><li><a href="/customer-stories" aria-label="Customer stories">Customer stories</a></li><li><a href="https://docs.lambda.com" aria-label="Documentation (opens in a new tab)" target="_blank" rel="noopener noreferrer">Documentation</a></li><li><a href="/blog" aria-label="Blog">Blog</a></li><li><a href="/research" aria-label="Research">Research</a></li></ul></div></div></div></li><li class="mobileNavItem"><a href="/pricing" class="mobileNavLink" aria-label="Pricing">Pricing</a></li><li class="mobileNavItem"><button class="mobileNavToggle" aria-expanded="false" aria-controls="mobile-dropdown-company" type="button">Company<span class="toggleIcon"><span class="toggleIconBar"></span><span class="toggleIconBar"></span></span></button><div id="mobile-dropdown-company" class="mobileDropdown"><div class="mobileDropdownContent"><div class="mobileDropdownColumn"><div class="mobileDropdownColumnHeading">Inside Lambda</div><ul class="mobileDropdownLinks"><li><a href="/about" aria-label="About">About</a></li><li><a href="/careers" aria-label="Careers">Careers</a></li><li><a href="/leadership" aria-label="Leadership">Leadership</a></li><li><a href="/investors" aria-label="Investors">Investors</a></li><li><a href="/analyst-updates" aria-label="Analyst updates">Analyst updates</a></li></ul></div><div class="mobileDropdownColumn"><div class="mobileDropdownColumnHeading">Resources</div><ul class="mobileDropdownLinks"><li><a href="/research" aria-label="Research">Research</a></li><li><a href="https://lambda.com/inference-models" aria-label="LLM index">LLM index</a></li><li><a href="/gpu-benchmarks" aria-label="GPU benchmarks">GPU benchmarks</a></li><li><a href="/customer-stories" aria-label="Customer stories">Customer stories</a></li><li><a href="/support" aria-label="Support">Support</a></li><li><a href="/blog" aria-label="Blog">Blog</a></li><li><a href="/partners" aria-label="Partners">Partners</a></li></ul></div></div></div></li></ul></div><div class="mobileUtilitySection"><ul class="mobileNavList"><li class="mobileNavItem"><a href="/login" class="mobileNavLink" aria-label="Log in">Log in</a></li><li class="mobileNavItem"><button class="mobileNavToggle" aria-expanded="false" aria-controls="mobile-dropdown-get-started" type="button">Get started<span class="toggleIcon"><span class="toggleIconBar"></span><span class="toggleIconBar"></span></span></button><div id="mobile-dropdown-get-started" class="mobileDropdown"><div class="mobileDropdownContent"><div class="mobileDropdownColumn"><ul class="mobileDropdownLinks"><li><a href="/sign-up" aria-label="Create account">Create account</a></li></ul><div class="mobileDropdownFooter"><a href="/talk-to-our-team" aria-label="Talk to our team">Talk to our team</a></div></div></div></div></li></ul></div></div></nav></div><div data-hs-island="true" id="island-9de87dnaba5feR3"></div><div data-hs-island="true" id="island-9de87dnaba5feR4"></div><div data-hs-island="true" id="island-9de87dnaba5feR5"></div></header>
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist","CMS:JSRenderer:RemoveMockClientEntryPlugin","CMS:JSRenderer:StripNullBytes"],"hublet":"na1","portalID":21998649};
+      window.__hsServerPageUrl = "https:\u002F\u002Flambda.com\u002Fblog\u002Fworlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo";
+      window.__hsBasePath = "\u002Fblog\u002Fworlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":true,"hydrateOn":"load","id":"island-9de87dnaba5feR3","moduleId":"components\u002Fislands\u002FMobileMenuIsland\u002FMobileMenuIsland.jsx?client-entry","moduleName":"MobileMenuIsland","priority":0,"props":{"cssClasses":{"active":"active","hamburger":"hamburger","mobileDropdown":"mobileDropdown","mobileMenu":"mobileMenu","mobileMenuOverlay":"mobileMenuOverlay","mobileMenuToggle":"mobileMenuToggle","mobileNavToggle":"mobileNavToggle"}},"supplementalFieldValues":{"mainNavigation":[{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"footerLinkText":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}},{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}}],"notificationBannerContent":{"type":"richtext","value":{"content":"Lambda has a new address: lambda.com. Your path to superintelligence stays the same. \u003Ca href=\"\u002Fblog\u002Flambda-ai-is-now-lambda-com\" rel=\"noopener\"\u003ELearn more\u003C\u002Fa\u003E"}},"notificationBannerReversed":{},"showNotificationBanner":{},"utilityNavigation":[{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"footerLinkText":{},"links":[{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}}]},"url":"https:\u002F\u002F21998649.fs1.hubspotusercontent-na1.net\u002Fhubfs\u002F21998649\u002Fraw_assets\u002FLambda%20Marketing%20Website\u002F158\u002Fjs_client_assets\u002Fassets\u002FMobileMenuIsland-DcDtmygo.js"},{"clientOnly":true,"hydrateOn":"idle","id":"island-9de87dnaba5feR4","moduleId":"components\u002Fislands\u002FDesktopDropdownIsland\u002FDesktopDropdownIsland.jsx?client-entry","moduleName":"DesktopDropdownIsland","priority":0,"props":{},"supplementalFieldValues":{"mainNavigation":[{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"footerLinkText":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}},{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}}],"notificationBannerContent":{"type":"richtext","value":{"content":"Lambda has a new address: lambda.com. Your path to superintelligence stays the same. \u003Ca href=\"\u002Fblog\u002Flambda-ai-is-now-lambda-com\" rel=\"noopener\"\u003ELearn more\u003C\u002Fa\u003E"}},"notificationBannerReversed":{},"showNotificationBanner":{},"utilityNavigation":[{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"footerLinkText":{},"links":[{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}}]},"url":"https:\u002F\u002F21998649.fs1.hubspotusercontent-na1.net\u002Fhubfs\u002F21998649\u002Fraw_assets\u002FLambda%20Marketing%20Website\u002F158\u002Fjs_client_assets\u002Fassets\u002FDesktopDropdownIsland-DTTqlL2h.js"},{"clientOnly":true,"hydrateOn":"idle","id":"island-9de87dnaba5feR5","moduleId":"components\u002Fislands\u002FDropdownScrambleIsland\u002FDropdownScrambleIsland.jsx?client-entry","moduleName":"DropdownScrambleIsland","priority":0,"props":{"cssClasses":{"dropdownColumnHeading":"dropdownColumnHeading","dropdownWrapper":"dropdownWrapper","hasDropdown":"hasDropdown"}},"supplementalFieldValues":{"mainNavigation":[{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"footerLinkText":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}},{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]},{"footerLink":{},"heading":{},"links":[{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}},{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}}],"notificationBannerContent":{"type":"richtext","value":{"content":"Lambda has a new address: lambda.com. Your path to superintelligence stays the same. \u003Ca href=\"\u002Fblog\u002Flambda-ai-is-now-lambda-com\" rel=\"noopener\"\u003ELearn more\u003C\u002Fa\u003E"}},"notificationBannerReversed":{},"showNotificationBanner":{},"utilityNavigation":[{"columns":[],"href":{},"text":{},"type":{}},{"columns":[{"footerLink":{},"footerLinkText":{},"links":[{"href":{},"text":{}}]}],"href":{},"text":{},"type":{}}]},"url":"https:\u002F\u002F21998649.fs1.hubspotusercontent-na1.net\u002Fhubfs\u002F21998649\u002Fraw_assets\u002FLambda%20Marketing%20Website\u002F158\u002Fjs_client_assets\u002Fassets\u002FDropdownScrambleIsland-qeFbhDyl.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration, unmountIslandsForModule } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+    window.__islandRuntime = { ...window.__islandRuntime, unmountIslandsForModule };
+  </script>
+      </div>
+  
+
+  <main id="main-content">
+    
+<section class="module-comp page-comp light-content blog-post-single">
+    <div class="container">
+        <h1 id="blog-post-title" class="blog-post-single__title h4"><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Lambda announces the world’s first large-scale CPO deployment of NVIDIA Photonics switches</span></h1>
+        <div class="blog-post-single__wrapper">
+
+            <article aria-labelledby="blog-post-title">
+                <div class="blog-post-single__custom-summary">
+                    <div id="hs_cos_wrapper_blog_custom_summary" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_blog_custom_summary_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="text"></span></div>
+                </div>
+
+                <div class="blog-post-single__time">
+                    <time datetime="2026-11-16">November 16, 2026</time>
+                    
+                    
+                    
+                    <span class="read-time">• 3 min read</span>
+                </div>
+
+                
+                    <img class="blog-post-single__image" src="https://lambda.com/hubfs/lambda_blog_CPO-switch_1600x860.png" loading="eager" alt="Lambda logo above a grid of glowing optical nodes linked by beams of light, with the headline “World’s first large-scale CPO deployment.”">
+                
+
+                <div class="blog-post-single__body">
+                    <div class="richtext">
+                        <span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><p style="text-align: center;"><em><span>Deployment connects 10,000+ NVIDIA Blackwell Ultra GPUs&nbsp;and demonstrates lower latency, cooler optics, and improved signal integrity with co-packaged optics networking</span></em></p>
+<p><strong><span>SAN FRANCISCO, CA, November 16, 2026</span></strong><span> <span style="color: #0b0b0b; background-color: #e7e6d9;">—</span>&nbsp;</span><a href="/" rel="noopener"><u><span>Lambda</span></u></a><span>, the Superintelligence Cloud, today announced the world’s first large-scale deployment of co-packaged optics (CPO) networking, connecting 10,000+ NVIDIA Blackwell Ultra GPUs using NVIDIA Photonics networking switches at its Quebec campus. Following its early adoption of NVIDIA CPO networking, first </span><a href="https://www.businesswire.com/news/home/20251120689633/en/Lambda-Leads-Early-Adoption-of-NVIDIA-Co-Packaged-Optics-for-Next-Gen-AI-Factories" rel="noopener" target="_blank"><u><span>announced</span></u></a><span> in November 2025, Lambda benchmarked the technology against conventional optics, demonstrating lower latency and improved signal stability at scale. </span></p>
+<p><span>As AI clusters grow, networking infrastructure becomes increasingly critical to connecting thousands of GPUs efficiently. Unlike conventional pluggable optics, which convert electrical signals to light at the switch’s front panel, CPO places optical engines alongside the switch ASIC, shortening the electrical path from inches to millimeters. This reduces signal loss, eliminates the need for retimer chips, and increases network resiliency.</span></p>
+<blockquote>
+<p><span>“Networking has to keep pace with the demands of increasingly large AI clusters. Bringing co-packaged optics into a deployment of this scale is an important step toward building the&nbsp;efficient and resilient infrastructure needed to support the next generation of AI,” said </span><span style="font-weight: bold;">Dave Ward, President of Cloud Services at Lambda</span>.</p>
+</blockquote>
+<p>The deployment uses NVIDIA Photonics switches, featuring 144 800Gb/s ports, liquid cooling, and 18 removable external light sources.<strong> In benchmarks across rack, scalable unit, and pod configurations, CPO maintained identical throughput and more stable signal integrity than conventional pluggable optics, while delivering lower latency at every scale, with the gap growing from 3.8 percent at rack to 10.1 percent at pod.</strong><span style="font-weight: normal;"> </span>The CPO optics also operated at a lower median temperature of 36°C, compared with 51°C for conventional pluggable optics. Cooler, more stable optics drive up to 15x higher reliability to help keep large training jobs running.</p>
+<blockquote>
+<p>“In an AI factory, the network is a business accelerator. Every interruption stalls the job, and every watt counts. NVIDIA Photonics cuts network power, improves resiliency and delivers up to 15x higher reliability, so Lambda’s customers get more productive GPU hours from their investment,<span>”</span>&nbsp;said <span style="font-weight: bold;">Gilad Shainer, Senior Vice President Networking at NVIDIA</span>.</p>
+</blockquote>
+<h3><strong>Pairing power-efficient networking with an energy-efficient campus</strong></h3>
+<p>Located in Quebec, the campus operates with 142 MW of secured, nearly 100% renewable energy capacity, enables free cooling up to 80% of the year, and is guaranteed to a PUE of 1.2, with no process water consumption associated with server cooling.</p>
+<p>The deployment will be featured in NVIDIA’s SC26 special address, offering a closer look at Lambda’s implementation of CPO networking at scale. <a href="https://blogs.nvidia.com/blog/lambda-photonics" rel="noopener" target="_blank">Read more on the NVIDIA blog</a>.<a href="https://blogs.nvidia.com/blog/lambda-photonics" rel="noopener" target="_blank"></a></p>
+<div class="hs-embed-wrapper" data-service="youtube" data-responsive="true" style="position: relative; overflow: hidden; width: 100%; height: auto; padding: 0px; max-width: 256px; min-width: 256px; display: block; margin: auto;"><div class="hs-embed-content-wrapper"><div style="position: relative; overflow: hidden; max-width: 100%; padding-bottom: 56.64%; margin: 0px;"><iframe width="256" height="145" src="https://www.youtube.com/embed/_SuSm8tu5AY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Lambda Deploys NVIDIA Photonics in Production AI Factory" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border-width: medium; border-style: none; border-color: currentcolor; border-image: none;"></iframe></div></div></div>
+<h3><strong>About Lambda</strong></h3>
+<p>Lambda, the Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Founded in 2012 by published machine learning engineers, Lambda builds supercomputers for AI training and inference. Our customers range from AI researchers to enterprises and hyperscalers. Lambda’s mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.</p>
+<h3 style="line-height: 37.4px; color: #0b0b0b; background-color: #e7e6d9;"><strong style="color: #0b0b0b;"><span>Lambda media contact</span></strong></h3>
+<p style="line-height: 28.8px; color: #0b0b0b; background-color: #e7e6d9;"><u><a href="mailto:pr@lambda.com" style="line-height: 27px;" rel="noopener">pr@lambda.com</a></u></p></span>
+                    </div>
+                </div>
+            </article>
+
+            <aside>
+                <div class="aside-widget">
+                    <div class="aside-widget__item">
+                        <div class="blog-post-single__meta-data">
+                            <h2 class="aside-widget__title h6">AUTHORED BY</h2>
+                            
+                            <div class="aside-widget__authors">
+                                
+                                <a href="https://lambda.com/blog/author/lambda" rel="author">
+                                    <div class="blog-post-single__avatar" aria-hidden="true">
+                                        
+                                            <img height="48" width="48" src="https://lambda.com/hs-fs/hubfs/lambda_labs_logo.jpeg?width=48&amp;height=48&amp;name=lambda_labs_logo.jpeg" alt="" srcset="https://lambda.com/hs-fs/hubfs/lambda_labs_logo.jpeg?width=24&amp;height=24&amp;name=lambda_labs_logo.jpeg 24w, https://lambda.com/hs-fs/hubfs/lambda_labs_logo.jpeg?width=48&amp;height=48&amp;name=lambda_labs_logo.jpeg 48w, https://lambda.com/hs-fs/hubfs/lambda_labs_logo.jpeg?width=72&amp;height=72&amp;name=lambda_labs_logo.jpeg 72w, https://lambda.com/hs-fs/hubfs/lambda_labs_logo.jpeg?width=96&amp;height=96&amp;name=lambda_labs_logo.jpeg 96w, https://lambda.com/hs-fs/hubfs/lambda_labs_logo.jpeg?width=120&amp;height=120&amp;name=lambda_labs_logo.jpeg 120w, https://lambda.com/hs-fs/hubfs/lambda_labs_logo.jpeg?width=144&amp;height=144&amp;name=lambda_labs_logo.jpeg 144w" sizes="(max-width: 48px) 100vw, 48px">
+                                        
+                                    </div>
+
+                                    <div class="blog-post-single__meta">
+                                        <div class="blog-post-single__author">
+                                            Lambda
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="aside-widget__item">
+                        <h2 class="aside-widget__title h6">SHARE ARTICLE</h2>
+                        <div class="social-sharing">
+                            <a class="social-sharing__link" href="https://www.linkedin.com/feed/?shareActive=true&amp;text=Lambda%20announces%20the%20world’s%20first%20large-scale%20CPO%20deployment%20of%20NVIDIA%20Photonics%20switches%20https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo" target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 40 40" fill="none" aria-hidden="true">
+                                <path d="M39.5 0.5V39.5H0.5V0.5H39.5Z" stroke="#252525" />
+                                <path d="M14.665 15.4812H10.3965V28.6284H14.665V15.4812Z" fill="#0B0B0B" />
+                                <path d="M12.5303 8.91199C11.1543 8.91199 10.2555 9.89836 10.2839 11.2127C10.2555 12.4679 11.1543 13.4838 12.5032 13.4838C13.8521 13.4838 14.8064 12.4679 14.8064 11.2127C14.778 9.89836 13.9076 8.91199 12.5316 8.91199H12.5303Z" fill="#0B0B0B" />
+                                <path d="M25.28 15.1729C23.4207 15.1729 22.1433 16.0544 21.4319 16.8522V15.4811H17.1621V28.6283H21.4319V21.2946C21.4319 20.9012 21.4874 20.4796 21.6008 20.2268C21.8819 19.4402 22.5835 18.6264 23.7634 18.6264C25.3083 18.6264 25.9261 19.8347 25.9261 21.604V28.6283H30.1958V21.0702C30.1958 17.026 28.0899 15.1716 25.2812 15.1716L25.28 15.1729Z" fill="#0B0B0B" />
+                                </svg>
+                            </a>
+                            <a class="social-sharing__link" href="https://twitter.com/intent/tweet?url=https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo&amp;text=Lambda%20announces%20the%20world’s%20first%20large-scale%20CPO%20deployment%20of%20NVIDIA%20Photonics%20switches" target="_blank" rel="noopener" aria-label="Share on X (Twitter)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 40 40" fill="none" aria-hidden="true">
+                                <path d="M39.5 0.5V39.5H0.5V0.5H39.5Z" stroke="#252525" />
+                                <path d="M21.8881 18.9249L27.8668 12.0918H25.1308L20.6218 17.2468L16.7232 12.0918H11.0762L17.823 20.9137L11.4288 28.2227H14.1672L19.1028 22.5831L23.4157 28.2227H28.9222L21.8893 18.9249H21.8881ZM14.272 13.6441H15.8995L25.6869 26.5854H24.1703L14.272 13.6441Z" fill="#0B0B0B" />
+                                </svg>
+                            </a>
+                            <a class="social-sharing__link" href="https://www.reddit.com/submit?url=https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo&amp;title=Lambda+announces+the+world%26rsquo%3Bs+first+large-scale+CPO+deployment+of+NVIDIA+Photonics+switches" target="_blank" rel="noopener" aria-label="Share on Reddit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 40 40" fill="none" aria-hidden="true">
+                                <path d="M39.5 0.5V39.5H0.5V0.5H39.5Z" stroke="#252525" />
+                                <path d="M29.6056 20.3095C29.6056 19.1443 28.66 18.1999 27.496 18.1999C26.9227 18.1999 26.416 18.4193 26.0448 18.7905C24.6096 17.7609 22.6184 17.0853 20.4237 17.0014L21.3867 12.4937L24.5098 13.1521C24.5431 13.9449 25.2015 14.5873 26.0115 14.5873C26.8216 14.5873 27.5145 13.9128 27.5145 13.0843C27.5145 12.2557 26.8389 11.5813 26.0115 11.5813C25.4209 11.5813 24.9142 11.9191 24.6775 12.4259L21.1832 11.6824C21.0821 11.6651 20.981 11.6824 20.8959 11.733C20.8109 11.7835 20.7616 11.8673 20.727 11.9697L19.6642 17.0002C17.419 17.068 15.4105 17.7264 13.9593 18.7892C13.5881 18.4341 13.0641 18.1986 12.508 18.1986C11.3429 18.1986 10.3984 19.1443 10.3984 20.3083C10.3984 21.1689 10.9052 21.8951 11.6474 22.2329C11.6141 22.4364 11.5969 22.6558 11.5969 22.8753C11.5969 26.1155 15.3611 28.7319 20.0193 28.7319C24.6775 28.7319 28.4417 26.1155 28.4417 22.8753C28.4417 22.6558 28.4245 22.4536 28.3912 22.2502C29.0829 21.9124 29.6069 21.1701 29.6069 20.3095H29.6056ZM15.1737 21.8125C15.1737 20.9852 15.8494 20.3095 16.6767 20.3095C17.504 20.3095 18.1785 20.9852 18.1785 21.8125C18.1785 22.6398 17.504 23.3142 16.6767 23.3142C15.8494 23.3142 15.1737 22.6386 15.1737 21.8125ZM23.5629 25.7789C22.5333 26.8085 20.5754 26.8763 20.0008 26.8763C19.4262 26.8763 17.4523 26.7912 16.44 25.7789C16.2883 25.6273 16.2883 25.3733 16.44 25.2216C16.5916 25.07 16.8456 25.07 16.9973 25.2216C17.6384 25.8628 19.0231 26.0995 20.0181 26.0995C21.0131 26.0995 22.3817 25.8628 23.0401 25.2216C23.1917 25.07 23.4457 25.07 23.5974 25.2216C23.7157 25.3906 23.7157 25.6273 23.5641 25.7789H23.5629ZM23.2928 23.3142C22.4655 23.3142 21.7898 22.6386 21.7898 21.8125C21.7898 20.9864 22.4655 20.3095 23.2928 20.3095C24.1202 20.3095 24.7946 20.9852 24.7946 21.8125C24.7946 22.6398 24.1202 23.3142 23.2928 23.3142Z" fill="#0B0B0B" />
+                                </svg>
+                            </a>
+                            <a class="social-sharing__link" href="mailto:?subject=Check%20out%20this%20article%20Lambda+announces+the+world%26rsquo%3Bs+first+large-scale+CPO+deployment+of+NVIDIA+Photonics+switches%20by%20Lambda.&amp;body=Check%20out%20this%20article%20by%20Lambda:Lambda+announces+the+world%26rsquo%3Bs+first+large-scale+CPO+deployment+of+NVIDIA+Photonics+switches%20-%20https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo" target="_blank" rel="noopener" aria-label="Share via Email">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 40 40" fill="none" aria-hidden="true">
+                                <path d="M39.5 0.5V39.5H0.5V0.5H39.5Z" stroke="#252525" />
+                                <path d="M19.9969 22.5775L30 15.4653V14.4113C30 13.6358 29.3242 13.0013 28.4982 13.0013H11.5018C10.6758 13.0002 10 13.6347 10 14.4102V15.6039L19.9969 22.5775Z" fill="#0B0B0B" />
+                                <path d="M20.3773 23.7794C20.2659 23.8593 20.132 23.8981 19.9994 23.8981C19.8667 23.8981 19.7366 23.8593 19.6264 23.7817L10 17.0667V25.59C10 26.3655 10.6758 27 11.5018 27H28.4982C29.3242 27 30 26.3655 30 25.59V16.9386L20.3773 23.7806V23.7794Z" fill="#0B0B0B" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="aside-widget__item">
+                        <div class="subscribe-form">
+                            <h2 class="aside-widget__title h6">SUBSCRIBE TO THE BLOG</h2>
+                            <div id="hs_cos_wrapper_form" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+	
+
+
+
+	<span id="hs_cos_wrapper_form_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form">
+<div id="hs_form_target_form"></div>
+
+
+
+
+
+
+
+
+</span>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+</section>
+
+  </main>
+
+  
+  <div data-global-resource-path="@projects/Lambda Marketing Website/lambda-theme/templates/partials/footer.hubl.html">
+
+<link rel="stylesheet" href="https://lambda.com/hubfs/raw_assets/Lambda%20Marketing%20Website/158/js_client_assets/assets/CookiePreferencesIsland-CCZSrhjn.css">
+<footer class="py-xl footer"><div class="container"><nav aria-label="Footer"><div class="grid-x grid-margin-x"><div class="cell small-12 medium-4 "><h2 class="title">AI CAMPUS</h2><div class="grid-x"><div class="cell small-6 medium-6 "><h3 class="heading">For every mission</h3><ul class="links"><li> <a href="/superintelligence" aria-label="Superintelligence">Superintelligence</a></li><li> <a href="/enterprise" aria-label="Enterprise">Enterprise</a></li><li> <a href="/government" aria-label="Government">Government</a></li><li> <a href="/instances" aria-label="Startups and researchers">Startups and researchers</a></li></ul></div><div class="cell small-6 medium-6 "><h3 class="heading">Foundations</h3><ul class="links"><li> <a href="/ai-infrastructure" aria-label="AI infrastructure">AI infrastructure</a></li><li> <a href="/trust" aria-label="Trust and security">Trust and security</a></li><li> <a href="/customer-stories" aria-label="Customer stories">Customer stories</a></li></ul></div></div></div><div class="cell small-12 medium-4 medium-offset-1"><h2 class="title">Products</h2><div class="grid-x"><div class="cell small-6 medium-6 "><h3 class="heading">Products</h3><ul class="links"><li> <a href="/superclusters" aria-label="Superclusters">Superclusters</a></li><li> <a href="/1-click-clusters" aria-label="1-Click Clusters">1-Click Clusters</a></li><li> <a href="/instances" aria-label="Instances">Instances</a></li></ul><h3 class="heading">Features</h3><ul class="links"><li> <a href="/ai-infrastructure" aria-label="AI infrastructure">AI infrastructure</a></li><li> <a href="/orchestration" aria-label="Orchestration">Orchestration</a></li><li> <a href="/lambda-stack-deep-learning-software" aria-label="Lambda Stack">Lambda Stack</a></li><li> <a href="/trust" aria-label="Trust and security">Trust and security</a></li></ul></div><div class="cell small-6 medium-6 "><h3 class="heading">Docs</h3><ul class="links"><li> <a href="https://docs.lambda.com" aria-label="Documentation (opens in a new tab)" target="_blank" rel="noopener noreferrer">Documentation</a></li><li> <a href="/blog" aria-label="Blog">Blog</a></li><li> <a href="/research" aria-label="Research">Research</a></li></ul></div></div></div><div class="cell small-12 medium-2 medium-offset-1"><h2 class="title">Company</h2><div class="grid-x"><div class="cell small-12"><h3 class="heading">Inside Lambda</h3><ul class="links"><li><a href="/about" aria-label="About">About</a></li><li><a href="/careers" aria-label="Careers">Careers</a></li><li><a href="/leadership" aria-label="Leadership">Leadership</a></li><li><a href="/investors" aria-label="Investors">Investors</a></li></ul><h3 class="heading">Resources</h3><ul class="links"><li><a href="/research" aria-label="Research">Research</a></li><li><a href="/customer-stories" aria-label="Customer stories">Customer stories</a></li><li><a href="/blog" aria-label="Blog">Blog</a></li><li><a href="/partners" aria-label="Partners">Partners</a></li><li><a href="/brand-guidelines" aria-label="Brand guidelines">Brand guidelines</a></li></ul><ul class="links"><li><a href="/legal/privacy-policy" aria-label="Privacy Policy">Privacy Policy</a></li><li><a href="/legal/terms-of-service" aria-label="Terms of Service">Terms of Service</a></li><li><!--$--><div data-hs-island="true" id="island-75f7e5n0bf93fR7dl"><!--$--><span class="cookie-pref-wrapper"><a href="#" aria-label="Cookie preferences">Cookie preferences</a><span class="cookie-pref-info" tabindex="0" aria-label="Cookie management unavailable"><span class="cookie-pref-icon"><svg width="12" height="12" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="7" cy="7" r="6.5" stroke="currentColor"></circle><path d="M7 6v4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path><circle cx="7" cy="4" r="0.7" fill="currentColor"></circle></svg></span><span class="cookie-pref-tooltip" role="tooltip">Cookie management is unavailable because your browser is blocking third-party scripts.</span></span></span><!--/$--></div><!--/$--></li></ul></div></div></div></div></nav><div class="footerBranding"><div class="logo"><a href="/" aria-label="Lambda home"><img src="https://lambda.com/hubfs/raw_assets/Lambda%20Marketing%20Website/158/js_client_assets/assets/logo-white-amFAN7ru.svg" alt="Lambda Logo"></a></div><div class="socialLinks"><a href="https://www.linkedin.com/company/lambda-cloud/" aria-label="Lambda on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="https://lambda.com/hubfs/raw_assets/Lambda%20Marketing%20Website/158/js_client_assets/assets/linkedin-608YWfcb.svg" alt="" aria-hidden="true"></a><a href="https://x.com/LambdaAPI" aria-label="Lambda on X (Twitter)" target="_blank" rel="noopener noreferrer"><img src="https://lambda.com/hubfs/raw_assets/Lambda%20Marketing%20Website/158/js_client_assets/assets/x-Dm1IIASF.svg" alt="" aria-hidden="true"></a><a href="https://www.youtube.com/@lambda-ai/" aria-label="Lambda on YouTube" target="_blank" rel="noopener noreferrer"><img src="https://lambda.com/hubfs/raw_assets/Lambda%20Marketing%20Website/158/js_client_assets/assets/youtube-BUg7SWc3.svg" alt="" aria-hidden="true"></a></div></div><div class="copyright">© <!-- -->2026<!-- --> Lambda. All rights reserved.</div></div><!--$--><div data-hs-island="true" id="island-75f7e5n0bf93fR2"><!--$--><div class="footerLines "><div class="footerLine"></div><div class="footerLine"></div><div class="footerLine"></div><div class="footerLine"></div><div class="footerLine"></div><div class="footerLine"></div><div class="footerLine"></div></div><!--/$--></div><!--/$--></footer>
+    <script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist","CMS:JSRenderer:RemoveMockClientEntryPlugin","CMS:JSRenderer:StripNullBytes"],"hublet":"na1","portalID":21998649};
+      window.__hsServerPageUrl = "https:\u002F\u002Flambda.com\u002Fblog\u002Fworlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo";
+      window.__hsBasePath = "\u002Fblog\u002Fworlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo";
+    </script>
+      
+  <script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-75f7e5n0bf93fR7dl","moduleId":"components\u002Fislands\u002FCookiePreferencesIsland\u002FCookiePreferencesIsland.jsx?client-entry","moduleName":"CookiePreferencesIsland","priority":0,"props":{},"supplementalFieldValues":{},"url":"https:\u002F\u002F21998649.fs1.hubspotusercontent-na1.net\u002Fhubfs\u002F21998649\u002Fraw_assets\u002FLambda%20Marketing%20Website\u002F158\u002Fjs_client_assets\u002Fassets\u002FCookiePreferencesIsland-CzVXuWLK.js"},{"clientOnly":false,"hydrateOn":"visible","id":"island-75f7e5n0bf93fR2","moduleId":"components\u002Fislands\u002FSiteFooterIsland\u002FSiteFooterIsland.jsx?client-entry","moduleName":"SiteFooterIsland","priority":0,"props":{},"supplementalFieldValues":{},"url":"https:\u002F\u002F21998649.fs1.hubspotusercontent-na1.net\u002Fhubfs\u002F21998649\u002Fraw_assets\u002FLambda%20Marketing%20Website\u002F158\u002Fjs_client_assets\u002Fassets\u002FSiteFooterIsland-Dg43ogh4.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+  </script>
+  <link rel="modulepreload" crossorigin href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs">
+  <script type="module" crossorigin>
+    import { initConfigSingletonFromJSON, setupIslandHydration, unmountIslandsForModule } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+    window.__islandRuntime = { ...window.__islandRuntime, unmountIslandsForModule };
+  </script>
+      </div>
+  
+
+  
+
+  
+<!-- HubSpot performance collection script -->
+<script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+<script src="https://lambda.com/hubfs/raw_assets/153/public/@projects/Lambda%20Marketing%20Website/lambda-theme/assets/dist/js/common.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+
+    <!--[if lte IE 8]>
+    <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+
+<script data-hs-allowed="true" src="/_hcms/forms/v2.js"></script>
+
+    <script data-hs-allowed="true">
+        var options = {
+            portalId: '21998649',
+            formId: '22c3e66d-8364-41c3-87e0-f629c19cf528',
+            formInstanceId: '5683',
+            
+            pageId: '227445053526',
+            
+            region: 'na1',
+            
+            
+            
+            
+            pageName: "Lambda announces the world\u2019s first large-scale CPO deployment of NVIDIA Photonics switches",
+            
+            
+            
+            inlineMessage: "Thanks for subscribing!",
+            
+            
+            rawInlineMessage: "Thanks for subscribing!",
+            
+            
+            hsFormKey: "abdd2fb41e2d57596e8b923641e19173",
+            
+            
+            css: '',
+            target: '#hs_form_target_form',
+            
+            
+            
+            
+            
+            
+            
+            contentType: "blog-post",
+            
+            
+            
+            formsBaseUrl: '/_hcms/forms/',
+            
+            
+            
+            formData: {
+                cssClass: 'hs-form stacked hs-custom-form'
+            }
+        };
+
+        options.getExtraMetaDataBeforeSubmit = function() {
+            var metadata = {};
+            
+
+            if (hbspt.targetedContentMetadata) {
+                var count = hbspt.targetedContentMetadata.length;
+                var targetedContentData = [];
+                for (var i = 0; i < count; i++) {
+                    var tc = hbspt.targetedContentMetadata[i];
+                     if ( tc.length !== 3) {
+                        continue;
+                     }
+                     targetedContentData.push({
+                        definitionId: tc[0],
+                        criterionId: tc[1],
+                        smartTypeId: tc[2]
+                     });
+                }
+                metadata["targetedContentMetadata"] = JSON.stringify(targetedContentData);
+            }
+
+            return metadata;
+        };
+
+        hbspt.forms.create(options);
+    </script>
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "blog-post"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/lambda.com\/blog\/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo"]);
+_hsq.push(["setPageId", "227445053526"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 227445053526,
+    "legacyPageId": "227445053526",
+    "contentFolderId": null,
+    "contentGroupId": 81770907005,
+    "abTestId": null,
+    "languageVariantId": 227445053526,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/21998649.js"></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript">
+var hsVars = {
+    render_id: "a5fd9240-d512-4841-aac5-f24120f816e0",
+    ticks: 1794848708847,
+    page_id: 227445053526,
+    
+    content_group_id: 81770907005,
+    portal_id: 21998649,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "blog-post",
+    scp_content_type: "",
+    
+    analytics_page_id: "227445053526",
+    category_id: 3,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ5JKG2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --> 
+
+
+
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0";
+  fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));</script> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ 
+
+
+
+  
+  
+
+  <script>
+    // If multiple partials inject hydration, prevents re-work trigger later.
+    if (!window.__hsIslandsBootstrapped) {
+      window.__hsIslandsBootstrapped = true;
+    }
+  </script>
+
+
+</body></html>

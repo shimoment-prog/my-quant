@@ -1,0 +1,41 @@
+[
+  {
+    "name": "ce_close",
+    "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261116_3295833.shtml",
+    "retrieved_at": "2026-11-17T01:52:35.866653+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 22395
+  },
+  {
+    "name": "mof",
+    "url": "https://www.mof.gov.cn/",
+    "retrieved_at": "2026-11-17T01:52:35.867354+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 2534
+  },
+  {
+    "name": "miit",
+    "url": "https://www.miit.gov.cn/",
+    "retrieved_at": "2026-11-17T01:52:35.867536+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 68528
+  },
+  {
+    "name": "cls_close_alt",
+    "url": "https://www.cls.cn/detail/2535624",
+    "retrieved_at": "2026-11-17T01:52:35.867715+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 14234
+  },
+  {
+    "name": "szse_calendar",
+    "url": "https://www.szse.cn/marketServices/deal/notice/index.html",
+    "retrieved_at": "2026-11-17T01:52:35.867854+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "quotes.txt",
+    "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006,sh000001",
+    "started_at": "2026-11-06T02:28:14.037025+00:00",
+    "ok": true,
+    "bytes": 2556,
+    "retrieved_at": "2026-11-06T02:28:14.133971+00:00"
+  },
+  {
+    "name": "sina.txt",
+    "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "started_at": "2026-11-06T02:28:14.037594+00:00",
+    "ok": true,
+    "bytes": 1011,
+    "retrieved_at": "2026-11-06T02:28:14.148072+00:00"
+  },
+  {
+    "name": "minute.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+    "started_at": "2026-11-06T02:28:14.037793+00:00",
+    "ok": true,
+    "bytes": 3820,
+    "retrieved_at": "2026-11-06T02:28:14.193097+00:00"
+  },
+  {
+    "name": "minute_peer.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300308",
+    "started_at": "2026-11-06T02:28:14.037956+00:00",
+    "ok": true,
+    "bytes": 3849,
+    "retrieved_at": "2026-11-06T02:28:14.188549+00:00"
+  },
+  {
+    "name": "minute_etf.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh515880",
+    "started_at": "2026-11-06T02:28:14.038102+00:00",
+    "ok": true,
+    "bytes": 3804,
+    "retrieved_at": "2026-11-06T02:28:14.188466+00:00"
+  },
+  {
+    "name": "m5_ohlc.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=120",
+    "started_at": "2026-11-06T02:28:14.038244+00:00",
+    "ok": true,
+    "bytes": 17220,
+    "retrieved_at": "2026-11-06T02:28:14.347042+00:00"
+  },
+  {
+    "name": "history.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,120,qfq",
+    "started_at": "2026-11-06T02:28:14.134006+00:00",
+    "ok": true,
+    "bytes": 9990,
+    "retrieved_at": "2026-11-06T02:28:14.220697+00:00"
+  },
+  {
+    "name": "sina_announcements.html",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+    "started_at": "2026-11-06T02:28:14.148097+00:00",
+    "ok": true,
+    "bytes": 55685,
+    "retrieved_at": "2026-11-06T02:28:14.524306+00:00"
+  }
+]

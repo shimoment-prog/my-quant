@@ -1,0 +1,58 @@
+[
+  {
+    "name": "quotes.txt",
+    "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+    "ok": true,
+    "bytes": 2095,
+    "retrieved_at": "2026-11-17T10:37:21.819912+08:00",
+    "started_at": "2026-11-17T10:37:21.641100+08:00"
+  },
+  {
+    "name": "sina.txt",
+    "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "ok": true,
+    "bytes": 1015,
+    "retrieved_at": "2026-11-17T10:37:21.816196+08:00",
+    "started_at": "2026-11-17T10:37:21.644855+08:00"
+  },
+  {
+    "name": "minute.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300502",
+    "ok": true,
+    "bytes": 4109,
+    "retrieved_at": "2026-11-17T10:37:21.865580+08:00",
+    "started_at": "2026-11-17T10:37:21.645029+08:00"
+  },
+  {
+    "name": "minute_peer.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz300308",
+    "ok": true,
+    "bytes": 4129,
+    "retrieved_at": "2026-11-17T10:37:21.888517+08:00",
+    "started_at": "2026-11-17T10:37:21.645169+08:00"
+  },
+  {
+    "name": "minute_etf.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh515880",
+    "ok": true,
+    "bytes": 4079,
+    "retrieved_at": "2026-11-17T10:37:21.859660+08:00",
+    "started_at": "2026-11-17T10:37:21.645344+08:00"
+  },
+  {
+    "name": "m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=120",
+    "ok": true,
+    "bytes": 17210,
+    "retrieved_at": "2026-11-17T10:37:22.026734+08:00",
+    "started_at": "2026-11-17T10:37:21.645565+08:00"
+  },
+  {
+    "name": "announcements.html",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+    "ok": true,
+    "bytes": 55675,
+    "retrieved_at": "2026-11-17T10:37:22.127710+08:00",
+    "started_at": "2026-11-17T10:37:21.646283+08:00"
+  }
+]

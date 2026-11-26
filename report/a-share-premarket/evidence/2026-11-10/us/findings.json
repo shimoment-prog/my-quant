@@ -1,0 +1,135 @@
+{
+  "asof": "2026-11-10T00:48:16.383254+00:00",
+  "latest_completed_regular_US_session": {
+    "date": "2026-11-09",
+    "timezone": "America/New_York",
+    "hours": "09:30-16:00",
+    "beijing_close": "2026-11-10T05:00:00+08:00"
+  },
+  "regular_close_media_crosscheck": {
+    "SP500": {
+      "close": 7549.94,
+      "change_pct": 2.35
+    },
+    "NasdaqComposite": {
+      "close": 25253.14,
+      "change_pct": 2.74
+    },
+    "DowJones": {
+      "close": 52389.75,
+      "change_pct": 2.15
+    },
+    "source": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+    "page_title": "Stock market news for Nov.9,2026",
+    "updated_at_exchange": "2026-11-09T16:26:00-05:00",
+    "crosscheck": "Matches parent Tencent API. URL date is not session date."
+  },
+  "SOX": {
+    "close": 10033.9326,
+    "change_pct": 6.85,
+    "session_date": "2026-11-09",
+    "source": "Parent independently fetched Sina quote; see parent market evidence",
+    "not_SOXX_ETF": true
+  },
+  "normal_session_stock_returns_parent_API_pct": {
+    "NVDA": -4.27,
+    "AMD": 13.26,
+    "AVGO": 8.78,
+    "LITE": 10.69,
+    "MRVL": 9.49,
+    "COHR": 16.79,
+    "CIEN": 10.66,
+    "AAOI": 3.93,
+    "FN": 11.86
+  },
+  "most_relevant_events": [
+    {
+      "subject": "Broad rebound with oil-price relief",
+      "session_date": "2026-11-09",
+      "source": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+      "evidence_grade": "reliable_financial_media_regular_close_report",
+      "facts": "All three major US indexes rallied more than2%. WTI settled$86.85(-4.38%); Brent$92.57(-5.85%). CNBC frames lower oil and tech recovery after prior volatility as support. Dow rose above ElectionDay close while S&P/Nasdaq remained slightly below.",
+      "Ashare_implication": "Overseas market breadth and lower crude offer opening risk-appetite support and cost relief for downstream users; not proof a durable equity bottom or confirmed diplomatic deal."
+    },
+    {
+      "subject": "NVIDIA board launches independent investigation; individual stock diverges",
+      "official_release_date": "2026-11-08",
+      "official_source": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "media_source": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+      "evidence_grade": "primary_board_statement_plus_reliable_media_price_crosscheck",
+      "normal_session_return_pct": -4.27,
+      "official_statement": "Board initiating independent investigation in light of recent reporting that founder and CEO Jensen Huang has been target of a foreign intelligence effort; independent directors and outside counsel oversee inquiry.",
+      "essential_limits": [
+        "Board says it has no reason to believe national security or NVIDIA secrets were compromised.",
+        "Board expresses confidence in Jensen and leadership team; Huang supports and will cooperate.",
+        "Claims concerning alleged intelligence status are reporting/allegations, not a completed investigation finding.",
+        "No confirmed customer capex cut or orders lost by Chinese optical suppliers from this statement."
+      ],
+      "Ashare_implication": "Direct new issuer-governance/key-person uncertainty explains sector divergence as market context; do not generalize NVDA decline into semiconductor or optical demand collapse or assign exact causal contribution."
+    },
+    {
+      "subject": "CPI and AI earnings still pending",
+      "source": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "published_at": "2026-11-09T16:03:00-05:00",
+      "CPI_release_expected": "2026-11-10T08:30:00-05:00",
+      "CPI_release_beijing": "2026-11-10T21:30:00+08:00",
+      "forecast_not_actual": {
+        "headline_CPI_mom_pct": 0.3,
+        "core_CPI_mom_pct": 0.2,
+        "survey": "DowJones"
+      },
+      "facts": "Inflation and December policy uncertainty remain despite lower oil. CNBC reports Goolsbee worried about persistent price pressures. CoreWeave, Cisco and Applied Materials earnings slated during week; CoreWeave November10 afterUSclose is not yet released as ofChinaNovember10morning.",
+      "Ashare_implication": "Higher yields still constrain technology valuations; tonight CPI and forthcoming earnings can change rebound sustainability. No released CPI result or rate decision assumed."
+    }
+  ],
+  "energy_settlements": {
+    "date": "2026-11-09",
+    "WTI": {
+      "USD_per_barrel": 86.85,
+      "change_pct": -4.38
+    },
+    "Brent": {
+      "USD_per_barrel": 92.57,
+      "change_pct": -5.85
+    },
+    "source": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+    "note": "Separate from parent later near-real-time futures quotes; settlement is not latest tick."
+  },
+  "other_context": {
+    "AMD": "CNBC reports Oppenheimer upgrade outperform and$600target; analyst action not official corporate earnings revision.",
+    "GoogleTPU": "Parent08:30monitor verifiedNov9TPU8tx/8iMax product news; not verified near-term A-share supplier order or total industry capex cut.",
+    "optical": "RSS foundNov9intraday optical-rebound stories; do not use their15:58GMT intraday percentages as final closes. Parent exact regular-session prices used instead.",
+    "old_risk_items": "Permitting/political uncertainty remains; prior Microsoft partner selection and anonymous OpenAI partial financing reports retain original dates and stages, not new industry credit collapse."
+  },
+  "sources": [
+    {
+      "name": "CNBC Nov9 regular-close report",
+      "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+      "archived": "cnbc_close.html"
+    },
+    {
+      "name": "NVIDIA Board official statement",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "publication_date": "2026-11-08",
+      "archived": "nvda_board.html"
+    },
+    {
+      "name": "CNBC NVIDIA normal-close/event crosscheck",
+      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+      "archived": "cnbc_nvda_reaction.html"
+    },
+    {
+      "name": "CNBC CPI preview",
+      "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "archived": "cnbc_CPI.html"
+    }
+  ],
+  "limits": [
+    "No validated quantitative share of daily return attributable to individual news.",
+    "SOXXETF is not SOX index.",
+    "Late live-page Asia quotes have inconsistent retrieved/update clock alignment; no Asia live quote taken from them.",
+    "No institutional fund flow or direct A-share supplier contract changes inferred.",
+    "CPI expectations and analyst upgrades not actual results/corporate revenue guidance.",
+    "No finished intelligence investigation conclusion inferred from allegations."
+  ]
+}

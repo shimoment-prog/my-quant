@@ -1,0 +1,39 @@
+{
+  "market": "Binance USD-M perpetual",
+  "symbol": "ETHUSDT",
+  "interval": "5m",
+  "timezone": "UTC",
+  "start_inclusive": "2026-07-28",
+  "end_exclusive": "2026-11-01",
+  "rows": 27648,
+  "first_open_time_ms": 1785196800000,
+  "last_close_time_ms": 1793491199999,
+  "downloaded_at_utc": "2026-11-18T02:03:00.631776+00:00",
+  "output_sha256": "639beb73e0e7163013db53ba82e49887d476e8bb8460d05d70b75d934ab2f52a",
+  "sources": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-07.zip",
+      "sha256": "2e9ba157f21fbcb97f108dd263d572cd0b4d6cc1db7cd54446f762f4ce3e6dda",
+      "bytes": 410874,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-08.zip",
+      "sha256": "c7ac44cb1ac58dd231b1a94c9d68907e2b3a8079dbf2dd8a5e744a6234766d47",
+      "bytes": 407196,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-09.zip",
+      "sha256": "143312487ffcc01c174156343fbf05ea48cbfa4e4602937caafb3e0ad3dbca9a",
+      "bytes": 400722,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10.zip",
+      "sha256": "10d747c6a14da77843520e78bbce65f9c2b685f6512cb8cea7fb2de5d3cc3908",
+      "bytes": 410425,
+      "official_sha256_verified": true
+    }
+  ]
+}

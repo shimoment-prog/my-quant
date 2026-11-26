@@ -1,0 +1,63 @@
+{
+  "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=ALL&filter=%28SECURITY_CODE%3D%22300502%22%29%28REPORT_DATE%3D%272026-03-31%27%29&pageSize=10&pageNumber=1&source=WEB&client=WEB",
+  "data": {
+    "version": "991af3235f76f53504d8e1b4655c3f19",
+    "result": {
+      "pages": 1,
+      "data": [
+        {
+          "SECUCODE": "300502.SZ",
+          "SECURITY_CODE": "300502",
+          "INDUSTRY_CODE": "448",
+          "ORG_CODE": "10362227",
+          "SECURITY_NAME_ABBR": "新易盛",
+          "INDUSTRY_NAME": "通信设备",
+          "MARKET": "cyb",
+          "SECURITY_TYPE_CODE": "058001001",
+          "TRADE_MARKET_CODE": "069001002002",
+          "DATE_TYPE_CODE": "003",
+          "REPORT_TYPE_CODE": "001",
+          "DATA_STATE": "2",
+          "NOTICE_DATE": "2026-04-24 00:00:00",
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "PARENT_NETPROFIT": 2780222960.23,
+          "TOTAL_OPERATE_INCOME": 8337902040.74,
+          "TOTAL_OPERATE_COST": 5024631544.78,
+          "TOE_RATIO": 121.7181556412,
+          "OPERATE_COST": 4238909758.12,
+          "OPERATE_EXPENSE": 4238909758.12,
+          "OPERATE_EXPENSE_RATIO": 103.7507066402,
+          "SALE_EXPENSE": 35615548.13,
+          "MANAGE_EXPENSE": 62315963.36,
+          "FINANCE_EXPENSE": 522197186.99,
+          "OPERATE_PROFIT": 3243167573.25,
+          "TOTAL_PROFIT": 3246584395.36,
+          "INCOME_TAX": 472388132.02,
+          "OPERATE_INCOME": null,
+          "INTEREST_NI": null,
+          "INTEREST_NI_RATIO": null,
+          "FEE_COMMISSION_NI": null,
+          "FCN_RATIO": null,
+          "OPERATE_TAX_ADD": 45684002.51,
+          "MANAGE_EXPENSE_BANK": null,
+          "FCN_CALCULATE": null,
+          "INTEREST_NI_CALCULATE": null,
+          "EARNED_PREMIUM": null,
+          "EARNED_PREMIUM_RATIO": null,
+          "INVEST_INCOME": null,
+          "SURRENDER_VALUE": null,
+          "COMPENSATE_EXPENSE": null,
+          "TOI_RATIO": 105.759481459,
+          "OPERATE_PROFIT_RATIO": 83.02379275222,
+          "PARENT_NETPROFIT_RATIO": 76.8,
+          "DEDUCT_PARENT_NETPROFIT": 2767975248.13,
+          "DPN_RATIO": 76.442410106467
+        }
+      ],
+      "count": 1
+    },
+    "success": true,
+    "message": "ok",
+    "code": 0
+  }
+}

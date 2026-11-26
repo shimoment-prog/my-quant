@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "a658f8e2-9768-4f8d-99b6-eabee1cbdc4e",
+  "status": "current",
+  "command": "deliver",
+  "type": "explainer",
+  "input": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/candidate.archify.md",
+  "output": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/backtest-report.html",
+  "specification": {
+    "sha256": "476b653247d1d36bd2fa9fd8def66a34f665f057ae3295764a94631ff2e7c286",
+    "bytes": 5106
+  },
+  "artifact": {
+    "sha256": "5bd4d21bde08f0f687cc9de99bd70f83e89c26864285254e675b5e166cd5c515",
+    "bytes": 528187
+  },
+  "explainer": {
+    "preparedSha256": "dc5f992915d6bd266db970f1e85c056e4629b43c54389cfb9afc24b871dc8c26",
+    "dependencies": [
+      {
+        "kind": "data",
+        "id": "chart-053c985986e7",
+        "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/daily.csv",
+        "sha256": "61f11e1798ca0ebeed2b89d282722f0de9ac28878f575820b947a41e1541a7d9",
+        "bytes": 104
+      },
+      {
+        "kind": "diagram-spec",
+        "id": "entry-flow",
+        "inline": true,
+        "sha256": "b07abf5865128dfee3062d9bb4fa62332c1936277e0ac43626e813478b774b85",
+        "bytes": 1059
+      }
+    ]
+  }
+}

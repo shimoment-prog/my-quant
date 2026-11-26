@@ -1,0 +1,193 @@
+{
+  "prepared_at": "2026-11-18T08:54:12.486908+08:00",
+  "scope": "Bounded official verification of reported Nov16 US advanced-semiconductor remote-access measures",
+  "confirmed_primary": {
+    "id": "MOFCOM_response_remote_advanced_semiconductors_20261117",
+    "official_response_date": "2026-11-17",
+    "official_response_time_local": null,
+    "source": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+    "confirmed": true,
+    "facts": [
+      "商务部官网11月17日答记者问确认，问题所述美国商务部于11月16日发布限制远程获取先进半导体相关措施。",
+      "中方表示强烈不满、坚决反对，并称若美方一意孤行将采取反制措施；这是回应及条件表态，不是已实施反制。"
+    ],
+    "limitation": "中国官方回应证实政策争议存在，但不提供美方规则全文、编号、许可证门槛、地域适用细则或生效日期。",
+    "publication_time_evidence": {
+      "date": "2026-11-17",
+      "meta_PubDate": "2026-11-17 20:27",
+      "visible_page_time": "2026-11-17 20:20",
+      "exact_minute_conflict": true
+    }
+  },
+  "US_rule_primary_verified": false,
+  "rule_number": null,
+  "effective_date": null,
+  "reported_country_scope_verified": false,
+  "reported_countries": [
+    "Singapore",
+    "Thailand",
+    "Malaysia",
+    "Indonesia",
+    "Brazil"
+  ],
+  "federal_register_queries": {
+    "publication_range": [
+      "2026-11-16",
+      "2026-11-18"
+    ],
+    "advanced_computing_term_count": 2,
+    "advanced_computing_results_relevant": 0,
+    "BIS_agency_result_count": 0
+  },
+  "interpretation": "可报告新贸易监管不确定性，并引中国商务部原文；不能写五国许可要求已核实生效，不能直接认定光模块产品受禁或国内企业丢单。",
+  "limits": [
+    "Federal Register API有限日期和关键词/机构检索未查到，不证明规则不存在；BIS新闻索引由另一agent访问失败。",
+    "未取得美国正式规则及生效日期，未核实五国适用范围、例外或供应链管辖细则。",
+    "公告回应日期与媒体转载时间分开，条件反制表述不是已生效措施。",
+    "官网PubDate元数据20:27与可见正文页20:20不一致；仅确定11月17日晚披露，不用精确分钟断言先后。"
+  ],
+  "sources": [
+    {
+      "id": "fr_advanced",
+      "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&conditions%5Bterm%5D=advanced+computing&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+      "started_at": "2026-11-18T08:52:52.428035+08:00",
+      "status": 200,
+      "final_url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&conditions%5Bterm%5D=advanced+computing&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+      "ok": true,
+      "bytes": 6043,
+      "retrieved_at": "2026-11-18T08:52:53.570524+08:00",
+      "count": 2,
+      "results": [
+        {
+          "title": "Federal Reserve Bank Services",
+          "type": "Notice",
+          "abstract": "The Board of Governors of the Federal Reserve System (Board) has approved the private-sector adjustment factor (PSAF) for 2027 of $35.3 million and the 2027 fee schedules for Federal Reserve priced services and electronic access. These actions were taken in accordance with the Monetary Control Act of 1980 (MCA), which requires that, over the long run, fees for Federal Reserve priced services be established based on all direct and indirect costs, including the PSAF. Copies of all fee schedules are available from the Federal Reserve Financial Services (FRFS) website at www.FRBservices.org.",
+          "document_number": "2026-23289",
+          "html_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23289/federal-reserve-bank-services",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-16/pdf/2026-23289.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-23289.pdf?1794577522",
+          "publication_date": "2026-11-16",
+          "agencies": [
+            {
+              "raw_name": "FEDERAL RESERVE SYSTEM",
+              "name": "Federal Reserve System",
+              "id": 188,
+              "url": "https://www.federalregister.gov/agencies/federal-reserve-system",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/188",
+              "parent_id": null,
+              "slug": "federal-reserve-system"
+            }
+          ],
+          "excerpts": "windows. The Reserve Banks will also regularly apply fee increases for financial institutions that use the service to support long-run cost recovery objectives. \n The Reserve Banks expect to implement these changes beginning in 2027 and continuing over the next several years. <span class=\"match\">Advanced</span> notice of any changes would be provided through existing channels, such as through the Board's announcement of future fee schedules or the Reserve Banks' routine customer engagement and industry outreach. During this period, the Federal Reserve will continue its broader"
+        },
+        {
+          "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program",
+          "type": "Proposed Rule",
+          "abstract": "The Department of Labor (Department or DOL) proposes to amend its regulations regarding the certification of job opportunities offered by employers seeking to employ aliens on a permanent basis in the United States. This Notice of Proposed Rulemaking (NPRM or proposed rule) strengthens the standards by which the Department receives and reviews employers' applications for permanent labor certification and improves the integrity of the overall employment-based immigrant visa program to more effectively protect the wages and job opportunities of U.S. workers similarly employed in the United States. Among the issues addressed in this proposed rule are eliminating further administration of Schedule A, which exempts certain job opportunities from the statutorily required labor market test; strengthening the minimum standards of recruitment to ensure all employers seeking labor certification access the broadest pool of high-quality U.S. workers using the latest technologies and methods; enhancing safeguards for U.S. workers impacted by layoffs, including those laid off by employers using third-party staffing companies and establishing standards for employers to report layoffs; expanding requirements for employers to provide U.S. workers with notice of filing (NOF) applications for permanent labor certification; improving employer compliance with program requirements and consideration of qualified U.S. workers that is comparable to job opportunities for which permanent labor certification is not required; and codifying the Department's practice of electronically receiving, processing, and issuing final determinations on employer requests for prevailing wages and permanent labor certifications. The changes in this proposed rule are consistent with the Secretary of Labor's (Secretary) statutory responsibilities to certify that there are not sufficient workers in the United States who are able, willing, qualified, and available to fill the petitioning employer's job opportunity at the time of application for a visa and admission to the United States, and that the employment of such alien will not adversely affect the wages and working conditions of similarly employed workers in the United States.",
+          "document_number": "2026-23370",
+          "html_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-17/pdf/2026-23370.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-23370.pdf?1794836720",
+          "publication_date": "2026-11-17",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF LABOR",
+              "name": "Labor Department",
+              "id": 271,
+              "url": "https://www.federalregister.gov/agencies/labor-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/271",
+              "parent_id": null,
+              "slug": "labor-department"
+            },
+            {
+              "raw_name": "Employment and Training Administration",
+              "name": "Employment and Training Administration",
+              "id": 133,
+              "url": "https://www.federalregister.gov/agencies/employment-and-training-administration",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/133",
+              "parent_id": 271,
+              "slug": "employment-and-training-administration"
+            }
+          ],
+          "excerpts": "job offered. \n See \n section 203(b)(2)(A), (b)(3)(C); 8 U.S.C. 1153(b)(2)(A), (b)(3)(C).\n \n \n \n 3 \n  \n See \n 8 U.S.C. 1153(b)(2)-(3), 1182(a)(5)(D). Section 1153(b)(2) governs the EB-2 classification of immigrant visas granted to aliens who are either professionals holding <span class=\"match\">advanced</span> degrees (master's degree or above or foreign equivalent degree, or a bachelor degree or foreign equivalent degree plus five years of progressive experience in the specialty) or persons of “exceptional ability” in the sciences, arts, or business. To gain entry in this category"
+        }
+      ],
+      "next_page_url": null
+    },
+    {
+      "id": "mofcom_spokesperson",
+      "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/",
+      "started_at": "2026-11-18T08:52:52.428524+08:00",
+      "status": 200,
+      "final_url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/",
+      "ok": true,
+      "bytes": 8507,
+      "retrieved_at": "2026-11-18T08:52:52.583536+08:00",
+      "excerpts": []
+    },
+    {
+      "id": "china_aggregate",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2101788.d.html",
+      "started_at": "2026-11-18T08:52:52.428663+08:00",
+      "status": 200,
+      "final_url": "https://finance.sina.cn/7x24/2026-11-17/detail-inizacmz2101788.d.html",
+      "ok": true,
+      "bytes": 29122,
+      "retrieved_at": "2026-11-18T08:52:53.002119+08:00",
+      "excerpts": [
+        " 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登",
+        " 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.",
+        "发言人就美商务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+        "务部发布限制远程获取先进半导体相关措施答记者问|美国商务部|供应链|国家安全|产业链|中方_手机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+        "机新浪网 新浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+        "浪财经 商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问 滚动播报 11.17 20:28 问：11月16日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+        "有何评论？答：中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 ",
+        "情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。中方希望美方能够与中方相向而行，回到协商合作解决分歧的正确轨道上来。若美方一意孤行，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 相关新闻 --> 推荐阅读 --> 加载中... 视频 直播 美图 博客 看点 政务 搞笑 八卦 情感 旅游 佛学 众测 首页 导航 反馈 登录 Sina.cn(京ICP证000007) 2026-11-18 08:52 "
+      ]
+    },
+    {
+      "id": "fr_bis",
+      "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=50&conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&conditions%5Bpublication_date%5D%5Bgte%5D=2026-11-16&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-18",
+      "started_at": "2026-11-18T08:53:38.965210+08:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 115,
+      "retrieved_at": "2026-11-18T08:53:40.061251+08:00",
+      "data": {
+        "description": "Documents published from 11/16/2026 to 11/18/2026 and from Industry and Security Bureau",
+        "count": 0
+      }
+    },
+    {
+      "id": "mofcom_list",
+      "url": "https://www.mofcom.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit?parseType=bulidstatic&webId=8f43c7ad3afc411fb56f281724b73708&tplSetId=52551ea0e2c14bca8c84792f7aa37ead&pageType=column&tagId=%E5%88%86%E9%A1%B5%E5%88%97%E8%A1%A8&editType=null&pageId=625b494d0adc47c885f5e1a18ee42b94",
+      "started_at": "2026-11-18T08:53:38.965672+08:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 7253,
+      "retrieved_at": "2026-11-18T08:53:39.147099+08:00",
+      "data": {
+        "roles": null,
+        "permissions": null,
+        "success": true,
+        "message": "生成成功",
+        "code": "200",
+        "data": {
+          "html": "<style>  .pagination{\n    text-align: right;\n    display: block;\n  }\n  .layui-laypage a{\n  padding: 0 0.8rem;\n    font-size: 1.8rem;\n    font-weight: 700;\n    border: 0;\n  }\n  .layui-laypage .layui-laypage-spr{\n  border: 0;\n  }\n  .layui-laypage .layui-laypage-curr .layui-laypage-em{\n  background-color: #ffff!important;\n  }\n  .layui-laypage .layui-laypage-curr em{\n  color: #d2d2d2!important;\n    padding: 0 0.8rem;\n    font-size: 1.8rem;\n    font-weight: 700;\n  }\n  .layui-laypage .layui-laypage-curr{\n  padding:0;\n  }\n  .iListCon ul.txtList_01:last-child{\n    border-bottom: 1px solid #dcdcdc;\n}\n    .layui-laypage-count,.layui-laypage-limits,.layui-laypage-refresh{display: none!important;}\n  .layui-laypage-skip{font-size: 1.8rem!important;color: #333!important;}\n</style>\n\n\n<div id=\"分页列表\">\n  <div class=\"page-content\">\n\t<ul class=\"txtList_01\">\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html\" target=\"_blank\" title=\"商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问\">商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问</a><span>[2026-11-17]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_c0c35d2c7d444dda90e295bf20894c19.html\" target=\"_blank\" title=\"商务部新闻发言人就中加经贸磋商成果答记者问\">商务部新闻发言人就中加经贸磋商成果答记者问</a><span>[2026-11-17]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_5baeb69ccc0f44cb83dea8ac587dd327.html\" target=\"_blank\" title=\"商务部新闻发言人就调整出口管制管控名单措施答记者问\">商务部新闻发言人就调整出口管制管控名单措施答记者问</a><span>[2026-11-09]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_137cb86f6deb442c963c906c2ca97e79.html\" target=\"_blank\" title=\"商务部新闻发言人就调整不可靠实体清单措施答记者问\">商务部新闻发言人就调整不可靠实体清单措施答记者问</a><span>[2026-11-09]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_0a686e2464da49a58a076d9eab42187f.html\" target=\"_blank\" title=\"商务部新闻发言人就美制裁中国企业答记者问\">商务部新闻发言人就美制裁中国企业答记者问</a><span>[2026-11-07]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_337d9e1ef6fb4138a1cdf1952597eca1.html\" target=\"_blank\" title=\"商务部新闻发言人就涉及欧盟的进口对位芳纶长丝和乙叉降冰片烯两起反倾销调查答记者问\">商务部新闻发言人就涉及欧盟的进口对位芳纶长丝和乙叉降冰片烯两起反倾销调查答记者问</a><span>[2026-11-06]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_2004ee7d8e1a436990b8593c8c2f81e9.html\" target=\"_blank\" title=\"商务部新闻发言人就美国联邦通信委员会投票通过检测实验室限制措施事答记者问\">商务部新闻发言人就美国联邦通信委员会投票通过检测实验室限制措施事答记者问</a><span>[2026-10-30]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_7cfb533be03746ae9767619f47bd1d26.html\" target=\"_blank\" title=\"商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问\">商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问</a><span>[2026-10-29]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_d56e28ed788c4c8a887875dbfc287fe3.html\" target=\"_blank\" title=\"商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问\">商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问</a><span>[2026-10-24]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_edf25a12e8654c558c71279fe9324874.html\" target=\"_blank\" title=\"商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问\">商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问</a><span>[2026-10-23]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_7db82f11ad1d414489f3766143f032bb.html\" target=\"_blank\" title=\"商务部新闻发言人就美以窃取商业秘密为由制裁中国企业答记者问\">商务部新闻发言人就美以窃取商业秘密为由制裁中国企业答记者问</a><span>[2026-10-20]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_2f92a22be4324ec6bc566e4ccdb77436.html\" target=\"_blank\" title=\"商务部新闻发言人就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知答记者问\">商务部新闻发言人就美国土安全部发布针对中国企业的联邦采购排除和移除命令通知答记者问</a><span>[2026-10-20]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_95897b72b5d240bdafb7186378bfddf7.html\" target=\"_blank\" title=\"商务部新闻发言人就英方称将共同应对中国汽车产业占主导地位事答记者问\">商务部新闻发言人就英方称将共同应对中国汽车产业占主导地位事答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_1e581b3d58ff46dabe8c44abab408d6c.html\" target=\"_blank\" title=\"商务部新闻发言人就盾构机等物项实施出口管制、优化调整挖泥船相关物项出口管制措施答记者问\">商务部新闻发言人就盾构机等物项实施出口管制、优化调整挖泥船相关物项出口管制措施答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<a href=\"/xwfb/xwfyrth/art/2026/art_11a9b615dc91444193dc855a368ac2f0.html\" target=\"_blank\" title=\"商务部新闻发言人就优化调整无人机相关物项出口管制措施答记者问\">商务部新闻发言人就优化调整无人机相关物项出口管制措施答记者问</a><span>[2026-10-19]</span>\n\n\t\t\t</li>\n\t</ul>\n  </div>\n  <div class=\"pagination\" pagestyle=\"all\" pagecolor=\"#F40A0A\" queryData=\"{'webId':'8f43c7ad3afc411fb56f281724b73708','pageId':'625b494d0adc47c885f5e1a18ee42b94','parseType':'bulidstatic','pageType':'column','tagId': '分页列表', 'tplSetId': '52551ea0e2c14bca8c84792f7aa37ead'}\" rows=\"15\" unitid=\"分页列表\" count=\"639\" pageNo=\"1\" unitUrl=\"/api-gateway/jpaas-publish-server/front/page/build/unit\"></div>\n</div>\n\n<script src=\"/cms_files/default/script/ajax/page/page.js\"></script>"
+        },
+        "traceId": "8B79B39A12EB4D6C9262384731C8BF67"
+      }
+    },
+    {
+      "id": "mofcom_official_response",
+      "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_c9c0beb01b8640d3ba9160b73d315716.html",
+      "started_at": "2026-11-18T08:54:12.211266+08:00",
+      "status": 200,
+      "ok": true,
+      "retrieved_at": "2026-11-18T08:54:12.477784+08:00",
+      "bytes": 15616,
+      "sha256": "c2a73c328fcfeebcbbd57312870b015f8431ea8761fdfa0af19d35abee7d7dba",
+      "excerpt": "问： 11 月 16 日，美国商务部发布限制远程获取先进半导体相关措施。请问中方对此有何评论？ 答： 中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国 企业 与 其他国家企业 正常贸易合作横加干涉 。美方做法背离 两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。 中方希望美方能够 与中方 相向而行，回到协商合作解决分歧的正确轨道上来。若美方 一意孤行 ，中方将采取反制措施，坚定维护国家主权、安全、发展利益。 商务热点 商务部惠企政策专题 学习宣传贯彻党的二十大精神 消费品以旧换新 国家层面海外综合服务平台 商务帮扶 提振消费专项行动 政策集成和综合解读专栏 优化营商环境-国际贸易专题 外贸促进 外资企业问题诉求收集办理 电子商务公共服务 国际消费中心城市培育建设 稳外贸稳外资政策措施 丝路电商——电子商务国际合作 《区域全面经济伙伴关系协定》（RCEP） 中国国际进口博览会 市场运行与流通发展服务平台 2025年度网站工作年度报表 机构子站专题 中日经济高层对话 农产品贸易专题 出口商品技术指南 "
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "main_financials",
+    "url": "https://datacenter.eastmoney.com/securities/api/data/v1/get?reportName=RPT_F10_FINANCE_MAINFINADATA&columns=ALL&filter=%28SECUCODE%3D%22601899.SH%22%29&pageSize=16&pageNumber=1&sortColumns=REPORT_DATE&sortTypes=-1&source=HSF10&client=PC",
+    "checked_at": "2026-11-11T09:31:46.230095+08:00",
+    "ok": true,
+    "bytes": 66920
+  },
+  {
+    "name": "announcements",
+    "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&stock_list=601899",
+    "checked_at": "2026-11-11T09:31:46.231787+08:00",
+    "ok": true,
+    "bytes": 72221
+  },
+  {
+    "name": "company_reports",
+    "url": "https://www.zjky.cn/invest/reports.htm",
+    "checked_at": "2026-11-11T09:31:46.231970+08:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "company_home",
+    "url": "https://www.zjky.cn/",
+    "checked_at": "2026-11-11T09:31:46.232136+08:00",
+    "ok": true,
+    "bytes": 77913
+  }
+]

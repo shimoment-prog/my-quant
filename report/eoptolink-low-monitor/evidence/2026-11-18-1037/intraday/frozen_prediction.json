@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-18-1037-L15555",
+  "symbol": "300502.SZ",
+  "scheduled_check_at": "2026-11-18T10:30:00+08:00",
+  "triggered_at": "2026-11-18T10:33:44.784+08:00",
+  "created_at": "2026-11-18T10:37:20+08:00",
+  "forecast_start": "2026-11-18T10:37:20+08:00",
+  "snapshot_time": "2026-11-18T10:37:18+08:00",
+  "threshold": 155.55,
+  "comparison": "strictly_less_than",
+  "event": "Any traded price strictly below155.55 after forecast_start and by deadline",
+  "deadline": "2026-11-18T15:00:00+08:00",
+  "risk": "偏高",
+  "numeric_probability": null,
+  "model_validated": false,
+  "status": "pending",
+  "settled": false,
+  "note": "Actual creation time starts this forecast, not scheduled10:30 or heartbeat. Cumulative low is frozen independently from historical179.83line. Latest price belowVWAP, within2% of low and weakerthanETF/ChiNext; lower completed reboundhighs and long remaining window support elevated qualitative risk. Shrinking recent completed volume and overnight overseas recovery are counterevidence. No tickstream during quote-to-creation gap; never alter threshold/window/risk later."
+}

@@ -1,0 +1,179 @@
+股市滚动新闻 中国经济网
+body {	margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+background-color: #FFFFFF;
+}
+table{text-align:left; }
+.cebottom{line-height:23px; text-align:center; padding-top:20px; padding-bottom:14px; color:#424242; width:1000px;  margin:0 auto;  font-size:12px;}
+.cebottom a:link{color:#424242;}
+.cebottom a:visited{color:#424242;}
+.cebottom a:hover{color:#424242;}
+.rzgl_bg1 { background:url(http://finance.ce.cn/images/rzgl_bg1.jpg) repeat-x; border:#E3E3E3 1px solid; margin:5px auto 5px;}
+金融证券
+股市滚动新闻
+·
+TCL中环发布重组预案 拟收购中环领先65.8%股权
+[2026/11/15  09:00]
+·
+101家机构“盯上”1家公司 汉威科技接受调研家数最多
+[2026/11/15  08:55]
+·
+利扬芯片拟3.06亿元收购资产，加码“光存算”测试
+[2026/11/15  08:51]
+·
+津云：小米YU7高速行驶途中失速 2分钟内从时速94km降至零
+[2026/11/14  15:31]
+·
+鑫华科技终止科创板IPO 原拟募资13.2亿招商证券保荐
+[2026/11/14  12:44]
+·
+港迪技术前3季亏去年业绩降 2024上市即巅峰中泰证券保荐
+[2026/11/14  12:43]
+·
+小米YU7高速行驶途中突然失速，2分钟内从时速94km降至零，客服回应
+[2026/11/14  10:58]
+·
+上证国新央企信用债指数即将推出
+[2026/11/14  10:09]
+·
+夏厦精密连亏一年三季 正拟定增2023年上市财通证券保荐
+[2026/11/14  09:26]
+·
+蕾奥规划前三季亏损 2021上市即巅峰国投证券保荐
+[2026/11/14  09:25]
+·
+破发股华大智造跌6% 2022年上市募36亿中信证券保荐
+[2026/11/13  16:36]
+·
+破发股康希诺跌7.63% 2020年上市募52亿元中信证券保荐
+[2026/11/13  16:36]
+·
+国星宇航募7.5亿港元首日破发 锦信晶科能源浮亏3.5%
+[2026/11/13  16:33]
+·
+小马智行港股跌4.23%创新低 募67亿港元基石浮亏76%
+[2026/11/13  16:29]
+·
+工业富联跌7.5% 平安证券5天前维持推荐评级
+[2026/11/13  16:26]
+·
+直播微视评|换节电池收260元小病大修为何难治
+[2026/11/13  16:23]
+·
+破发股ST天圣跌3.65% 2017上市募资11.8亿华西证券保荐
+[2026/11/13  16:17]
+·
+破发股禾迈股份跌3.91% 上市超募48亿元中信证券保荐
+[2026/11/13  16:13]
+·
+吉大正元连亏4年3季 招商证券保荐上市A股共募6.88亿
+[2026/11/13  15:47]
+·
+天孚通信跌10.94% 长城证券昨刚喊维持买入评级就跌
+[2026/11/13  15:46]
+共(
+");
+document.write(_nPageCount);
+document.write("
+)页
+");
+//var fyn;
+var nStep=5
+var nCurrIndex = _nCurrIndex || 0;
+if(nCurrIndex
+0)
+document.write("
+首 页
+");
+else
+document.write("
+首 页
+");
+if(nCurrIndex > 0){
+if(nCurrIndex == 1){
+document.write("
+上一页
+");
+}else{document.write("
+上一页
+");}
+}
+else{
+document.write("
+上一页
+");
+}
+/*if(nCurrIndex == 0)
+document.write("1 ");
+else
+document.write("
+1
+");*/
+//首页和上一页以及第一页的代码
+if(_nPageCount
+1
+");
+for(var i=1; i
+"+(i+1)+"
+");
+}
+}else{//_nPageCount小于等于4的情况end
+//下面这个IF是判断是小于步长的一半的情况的;
+if(nCurrIndex
+[1]
+");
+}
+if(i == 0 && nCurrIndex!=0){
+document.write("
+[1]
+");}
+if(i > 0 && i
+"+(i+1)+"
+]  ");
+else
+document.write("[
+"+(i+1)+"
+]  ");
+}
+}
+var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时候;
+//alert("nCurrIndex: "+nCurrIndex);
+if(nCurrIndex
+下一页
+");
+else if (nextOver
+末 页
+");
+else
+document.write("末 页");
+return false;
+}
+for(i=Math.ceil(nCurrIndex-nStep/2);i
+0 && i
+0 && i
+"+(i+1)+"
+]  ");
+else
+document.write("[
+"+(i+1)+"
+]  ");
+}
+}
+}
+//下一页和末页的设置
+var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时候;
+if(nCurrIndex
+下一页
+");
+else if (nextOver
+末 页
+");
+else
+document.write("末 页");
+//下一页和末页的设置
+}//函数结束符
+//WCM置标
+createPageHTML(10, 1, "index", "shtml");
+//-->

@@ -1,0 +1,184 @@
+[
+  {
+    "name": "us_quotes",
+    "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO,us.IXIC",
+    "retrieved_at": "2026-11-10T06:35:49.108362+00:00",
+    "ok": true,
+    "length": 3420
+  },
+  {
+    "name": "us_sina",
+    "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox,gb_ixic",
+    "retrieved_at": "2026-11-10T06:35:49.108822+00:00",
+    "ok": true,
+    "length": 3299
+  },
+  {
+    "name": "mrvl_ir",
+    "url": "https://investor.marvell.com/news-events/press-releases",
+    "retrieved_at": "2026-11-10T06:35:49.211779+00:00",
+    "ok": true,
+    "length": 114868
+  },
+  {
+    "name": "aaoi_ir",
+    "url": "https://investors.ao-inc.com/",
+    "retrieved_at": "2026-11-10T06:35:49.206862+00:00",
+    "ok": true,
+    "length": 44035
+  },
+  {
+    "name": "cien_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+    "retrieved_at": "2026-11-10T06:35:49.109437+00:00",
+    "ok": true,
+    "length": 158567
+  },
+  {
+    "name": "cohr_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+    "retrieved_at": "2026-11-10T06:35:49.109282+00:00",
+    "ok": true,
+    "length": 160624
+  },
+  {
+    "name": "aaoi_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+    "retrieved_at": "2026-11-10T06:35:49.109595+00:00",
+    "ok": true,
+    "length": 154591
+  },
+  {
+    "name": "lite_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "retrieved_at": "2026-11-10T06:35:49.109004+00:00",
+    "ok": true,
+    "length": 159200
+  },
+  {
+    "name": "cohr_ir",
+    "url": "https://www.coherent.com/news",
+    "retrieved_at": "2026-11-10T06:35:50.643283+00:00",
+    "ok": true,
+    "length": 170108
+  },
+  {
+    "name": "nvda_news",
+    "url": "https://nvidianews.nvidia.com/news",
+    "retrieved_at": "2026-11-10T06:35:51.779649+00:00",
+    "ok": true,
+    "length": 68666
+  },
+  {
+    "name": "nvda_board",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "retrieved_at": "2026-11-10T06:35:52.076577+00:00",
+    "ok": true,
+    "length": 59710
+  },
+  {
+    "name": "cien_ir",
+    "url": "https://investor.ciena.com/news-releases",
+    "retrieved_at": "2026-11-10T06:35:51.019875+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "mrvl_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+    "retrieved_at": "2026-11-10T06:35:49.109143+00:00",
+    "ok": true,
+    "length": 136604
+  },
+  {
+    "name": "fn_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "retrieved_at": "2026-11-10T06:35:49.109763+00:00",
+    "ok": true,
+    "length": 155153
+  },
+  {
+    "name": "cn_300502",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+    "retrieved_at": "2026-11-10T06:35:52.548862+00:00",
+    "ok": true,
+    "length": 55675
+  },
+  {
+    "name": "live_news_1",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+    "retrieved_at": "2026-11-10T06:35:52.599903+00:00",
+    "ok": true,
+    "length": 220756
+  },
+  {
+    "name": "lite_ir",
+    "url": "https://investor.lumentum.com/news-events/press-releases",
+    "retrieved_at": "2026-11-10T06:35:51.008463+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "live_news_2",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+    "retrieved_at": "2026-11-10T06:35:52.672683+00:00",
+    "ok": true,
+    "length": 288572
+  },
+  {
+    "name": "live_news_3",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+    "retrieved_at": "2026-11-10T06:35:52.857625+00:00",
+    "ok": true,
+    "length": 220936
+  },
+  {
+    "name": "live_news_4",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+    "retrieved_at": "2026-11-10T06:35:53.006070+00:00",
+    "ok": true,
+    "length": 191378
+  },
+  {
+    "name": "avgo_ir",
+    "url": "https://investors.broadcom.com/news-releases",
+    "retrieved_at": "2026-11-10T06:35:52.391908+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "live_news_5",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+    "retrieved_at": "2026-11-10T06:35:53.020280+00:00",
+    "ok": true,
+    "length": 235704
+  },
+  {
+    "name": "live_news_6",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+    "retrieved_at": "2026-11-10T06:35:53.127146+00:00",
+    "ok": true,
+    "length": 258827
+  },
+  {
+    "name": "fn_ir",
+    "url": "https://investor.fabrinet.com/news-releases",
+    "retrieved_at": "2026-11-10T06:35:51.083517+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "nvda_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "retrieved_at": "2026-11-10T06:35:52.198716+00:00",
+    "ok": true,
+    "length": 159914
+  },
+  {
+    "name": "avgo_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-10T06:35:52.342929+00:00",
+    "ok": true,
+    "length": 160094
+  }
+]

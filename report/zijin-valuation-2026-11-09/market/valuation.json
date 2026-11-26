@@ -1,0 +1,48 @@
+{
+  "a_share_pe_ttm": 10.518791874766672,
+  "a_share_pe_adjusted_ttm": 10.373599730443434,
+  "static_pe_2025": 14.513224039120042,
+  "pb_common_equity": 3.602811352142833,
+  "a_and_h_actual_cap_to_profit": 10.226510764753996,
+  "h_share_pe_ttm": 9.221082506527049,
+  "common_bps": 7.843874474080328,
+  "q4_profit_sensitivity_not_guidance": [
+    {
+      "q4_profit_yi": 140,
+      "fy2026_profit_yi": 715.25672087,
+      "pe": 10.506101325082682
+    },
+    {
+      "q4_profit_yi": 180,
+      "fy2026_profit_yi": 755.25672087,
+      "pe": 9.949675885373628
+    },
+    {
+      "q4_profit_yi": 220,
+      "fy2026_profit_yi": 795.25672087,
+      "pe": 9.449224867519227
+    }
+  ],
+  "future_year_normalized_profit_sensitivity_not_2026_forecast": [
+    {
+      "annual_profit_yi": 450,
+      "pe": 16.699021295348
+    },
+    {
+      "annual_profit_yi": 500,
+      "pe": 15.029119165813201
+    },
+    {
+      "annual_profit_yi": 600,
+      "pe": 12.524265971511001
+    },
+    {
+      "annual_profit_yi": 750,
+      "pe": 10.019412777208801
+    },
+    {
+      "annual_profit_yi": 850,
+      "pe": 8.840658332831294
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+//@version=6
+strategy("EMA10 + SMA10 + RSI Key Candle", overlay = true, initial_capital = 10000, currency = currency.USD, default_qty_type = strategy.percent_of_equity, default_qty_value = 10, pyramiding = 0, margin_long = 100, margin_short = 100, commission_type = strategy.commission.percent, commission_value = 0.05, slippage = 0, process_orders_on_close = true, calc_on_every_tick = false, calc_on_order_fills = false)
+
+// White = EMA; orange = simple MA (SMA). Colors follow the confirmed rules.
+emaLength = input.int(10, "白线 EMA 周期", minval = 1, group = "指标")
+maLength = input.int(10, "橙线 SMA 周期", minval = 1, group = "指标")
+rsiLength = input.int(14, "RSI 周期（当前图表 K 线根数）", minval = 1, group = "指标")
+longRsiMin = input.float(50, "多单 RSI 下限（含）", minval = 0, maxval = 100, group = "指标")
+longRsiMax = input.float(70, "多单 RSI 上限（含）", minval = 0, maxval = 100, group = "指标")
+shortRsiMin = input.float(30, "空单 RSI 下限（含）", minval = 0, maxval = 100, group = "指标")
+shortRsiMax = input.float(50, "空单 RSI 上限（含）", minval = 0, maxval = 100, group = "指标")
+
+enableLong = input.bool(true, "允许做多", group = "交易规则")
+enableShort = input.bool(true, "允许做空", group = "交易规则")
+enableCross = input.bool(true, "方式一：均线交叉后等待关键 K", group = "交易规则")
+enablePullback = input.bool(true, "方式二：回踩／反弹白线后等待关键 K", group = "交易规则")
+rewardRisk = input.float(1.5, "止盈风险倍数 R", minval = 0.1, step = 0.1, group = "交易规则")
+
+// The date filter limits new entries only. Existing brackets remain active.
+startTime = input.time(timestamp("01 Jan 2020 00:00 +0000"), "允许开仓起始时间", group = "回测")
+endTime = input.time(timestamp("01 Jan 2035 00:00 +0000"), "允许开仓结束时间", group = "回测")
+showSetup = input.bool(true, "显示等待触发标记", group = "显示")
+
+if barstate.isfirst
+    if longRsiMin > longRsiMax or shortRsiMin > shortRsiMax
+        runtime.error("RSI 下限不能高于上限。")
+    if startTime >= endTime
+        runtime.error("开仓起始时间必须早于结束时间。")
+
+white = ta.ema(close, emaLength)
+orange = ta.sma(close, maLength)
+rsiValue = ta.rsi(close, rsiLength)
+orangeCrossUp = ta.crossover(orange, white)
+orangeCrossDown = ta.crossunder(orange, white)
+longTrend = orange > white
+shortTrend = orange < white
+ready = not na(white) and not na(orange) and not na(rsiValue)
+entryWindow = time_close >= startTime and time_close <= endTime
+
+// Strict wick conditions: touching either line does NOT qualify.
+longKey = close > open and low > math.max(orange, white) and rsiValue >= longRsiMin and rsiValue <= longRsiMax
+shortKey = close < open and high < math.min(orange, white) and rsiValue >= shortRsiMin and rsiValue <= shortRsiMax
+
+// Method 2 does not require a fresh close/EMA crossover, only the stated candle.
+longPullback = longTrend and close < open and close < white
+shortPullback = shortTrend and close > open and close > white
+
+// One setup per direction/method; no signals are stored while a trade is open.
+var bool longCrossArmed = false
+var bool shortCrossArmed = false
+var int longPullbackBar = na
+var int shortPullbackBar = na
+var float entryReference = na
+var float fixedStop = na
+var float fixedTarget = na
+
+bool longEntered = false
+bool shortEntered = false
+bool longSetupStarted = false
+bool shortSetupStarted = false
+closedThisBar = strategy.closedtrades > nz(strategy.closedtrades[1], 0)
+
+if barstate.isconfirmed
+    // Keep existing positions protected with the SAME stop/target prices.
+    if strategy.position_size > 0
+        strategy.exit("L-exit", from_entry = "L", stop = fixedStop, limit = fixedTarget)
+    else if strategy.position_size < 0
+        strategy.exit("S-exit", from_entry = "S", stop = fixedStop, limit = fixedTarget)
+    else
+        entryReference := na
+        fixedStop := na
+        fixedTarget := na
+
+    // Do not re-enter on the same candle that an existing trade closed.
+    if not ready or not entryWindow or strategy.position_size != 0 or closedThisBar
+        longCrossArmed := false
+        shortCrossArmed := false
+        longPullbackBar := na
+        shortPullbackBar := na
+    else
+        // An opposite/equal line relationship invalidates the previous setup.
+        if not longTrend
+            longCrossArmed := false
+            longPullbackBar := na
+        if not shortTrend
+            shortCrossArmed := false
+            shortPullbackBar := na
+
+        if enableLong and enableCross and orangeCrossUp
+            longCrossArmed := true
+            longSetupStarted := true
+        if enableShort and enableCross and orangeCrossDown
+            shortCrossArmed := true
+            shortSetupStarted := true
+
+        // Keep the first trigger bar while waiting; method 2 starts NEXT bar.
+        if enableLong and enablePullback and longPullback and na(longPullbackBar)
+            longPullbackBar := bar_index
+            longSetupStarted := true
+        if enableShort and enablePullback and shortPullback and na(shortPullbackBar)
+            shortPullbackBar := bar_index
+            shortSetupStarted := true
+
+        longViaCross = enableCross and longCrossArmed
+        shortViaCross = enableCross and shortCrossArmed
+        longViaPullback = enablePullback and not na(longPullbackBar) and bar_index > longPullbackBar
+        shortViaPullback = enablePullback and not na(shortPullbackBar) and bar_index > shortPullbackBar
+
+        if enableLong and longTrend and longKey and (longViaCross or longViaPullback)
+            entryReference := close
+            fixedStop := math.round_to_mintick(orange)
+            risk = entryReference - fixedStop
+            if risk >= syminfo.mintick
+                fixedTarget := math.round_to_mintick(entryReference + rewardRisk * risk)
+                if fixedTarget > entryReference
+                    entryComment = longViaCross ? "L1 均线交叉" : "L2 回踩白线"
+                    strategy.entry("L", strategy.long, comment = entryComment)
+                    // Submit the bracket WITH the entry, before a position is visible.
+                    strategy.exit("L-exit", from_entry = "L", stop = fixedStop, limit = fixedTarget)
+                    longEntered := true
+
+        else if enableShort and shortTrend and shortKey and (shortViaCross or shortViaPullback)
+            entryReference := close
+            fixedStop := math.round_to_mintick(orange)
+            risk = fixedStop - entryReference
+            if risk >= syminfo.mintick
+                fixedTarget := math.round_to_mintick(entryReference - rewardRisk * risk)
+                if fixedTarget > 0 and fixedTarget < entryReference
+                    entryComment = shortViaCross ? "S1 均线交叉" : "S2 反弹白线"
+                    strategy.entry("S", strategy.short, comment = entryComment)
+                    strategy.exit("S-exit", from_entry = "S", stop = fixedStop, limit = fixedTarget)
+                    shortEntered := true
+
+        if longEntered or shortEntered
+            longCrossArmed := false
+            shortCrossArmed := false
+            longPullbackBar := na
+            shortPullbackBar := na
+        else
+            entryReference := na
+            fixedStop := na
+            fixedTarget := na
+
+plot(white, "白线 EMA", color = color.white, linewidth = 2)
+plot(orange, "橙线 SMA", color = color.orange, linewidth = 2)
+plot(rsiValue, "RSI（数据窗口）", display = display.data_window)
+plot(entryReference, "关键 K 入场参考价", color = color.blue, style = plot.style_linebr)
+plot(fixedStop, "固定止损", color = color.red, linewidth = 2, style = plot.style_linebr)
+plot(fixedTarget, "固定止盈", color = color.lime, linewidth = 2, style = plot.style_linebr)
+plotshape(showSetup and longSetupStarted, title = "开始等待多单关键 K", style = shape.circle, location = location.belowbar, color = color.new(color.lime, 40), size = size.tiny)
+plotshape(showSetup and shortSetupStarted, title = "开始等待空单关键 K", style = shape.circle, location = location.abovebar, color = color.new(color.red, 40), size = size.tiny)
+plotshape(longEntered, title = "多单关键 K", style = shape.triangleup, location = location.belowbar, color = color.lime, text = "多", size = size.small)
+plotshape(shortEntered, title = "空单关键 K", style = shape.triangledown, location = location.abovebar, color = color.red, text = "空", size = size.small)
+
+// Uses TradingView's completed-trade statistics, not a separate win-rate model.
+var table stats = table.new(position.top_right, 2, 4, border_width = 1)
+if barstate.islast
+    winRate = strategy.closedtrades > 0 ? str.tostring(100.0 * strategy.wintrades / strategy.closedtrades, "#.##") + "%" : "暂无平仓"
+    table.cell(stats, 0, 0, "已平仓笔数", text_color = color.white, bgcolor = color.new(color.black, 20))
+    table.cell(stats, 1, 0, str.tostring(strategy.closedtrades), text_color = color.white, bgcolor = color.new(color.black, 20))
+    table.cell(stats, 0, 1, "盈利笔数", text_color = color.white, bgcolor = color.new(color.black, 20))
+    table.cell(stats, 1, 1, str.tostring(strategy.wintrades), text_color = color.white, bgcolor = color.new(color.black, 20))
+    table.cell(stats, 0, 2, "胜率", text_color = color.white, bgcolor = color.new(color.black, 20))
+    table.cell(stats, 1, 2, winRate, text_color = color.white, bgcolor = color.new(color.black, 20))
+    table.cell(stats, 0, 3, "盈亏比目标", text_color = color.white, bgcolor = color.new(color.black, 20))
+    table.cell(stats, 1, 3, "1:" + str.tostring(rewardRisk), text_color = color.white, bgcolor = color.new(color.black, 20))

@@ -1,0 +1,160 @@
+{
+  "audit_at": "2026-11-06T10:28:32.553512+08:00",
+  "symbol": "300502.SZ",
+  "session_date": "2026-11-05",
+  "all_auditable": true,
+  "issues": [],
+  "previously_completed_count": 4,
+  "excluded_already_completed_ids": [
+    "2026-11-03-1430-L17160",
+    "2026-11-04-0938-L17415",
+    "2026-11-04-1033-L17347",
+    "2026-11-04-1435-L17200"
+  ],
+  "new_expired_unsettled_count": 2,
+  "daily_low": 177.64,
+  "closing_price": 185.61,
+  "predictions": [
+    {
+      "prediction_id": "2026-11-05-1036-L18051",
+      "original_prediction": {
+        "id": "2026-11-05-1036-L18051",
+        "symbol": "300502.SZ",
+        "scheduled_check_at": "2026-11-05T10:30:00+08:00",
+        "triggered_at": "2026-11-05T10:29:09.345+08:00",
+        "created_at": "2026-11-05T10:36:31+08:00",
+        "forecast_start": "2026-11-05T10:36:31+08:00",
+        "snapshot_time": "2026-11-05T10:36:27+08:00",
+        "threshold": 180.51,
+        "comparison": "strictly_less_than",
+        "event": "Any traded price strictly below180.51 after forecast_start and by deadline",
+        "deadline": "2026-11-05T15:00:00+08:00",
+        "risk": "中等",
+        "numeric_probability": null,
+        "model_validated": false,
+        "status": "pending",
+        "settled": false,
+        "note": "Original actual creation time; not backdated to10:30. Independent intraday forecast. Threshold/start/deadline/risk remain immutable; settle only after expiry. Low available as of quoted snapshot; no tick stream between snapshot and creation.",
+        "progress": {
+          "prediction_id": "2026-11-05-1036-L18051",
+          "checked_at": "2026-11-05T14:38:43+08:00",
+          "status": "pending_until_deadline",
+          "trade_breach_observed": true,
+          "trade_breach_evidence": {
+            "source": "m5_final",
+            "interval_start": "2026-11-05T13:30:00+08:00",
+            "interval_end": "2026-11-05T13:35:00+08:00",
+            "bar_low": 180.41,
+            "threshold": 180.51,
+            "whole_interval_after_original_forecast_start": true,
+            "raw_bar": {
+              "day": "2026-11-05 13:35:00",
+              "open": "180.820",
+              "high": "182.000",
+              "low": "180.410",
+              "close": "180.820",
+              "volume": "1498699",
+              "amount": "270921634.7463"
+            },
+            "exact_first_tick_time": null
+          },
+          "price_back_above_threshold_now": true,
+          "closing_breach_occurred": null,
+          "final_settlement_performed": false,
+          "note": "Intraday progress only. Original threshold/start/deadline/risk unchanged; final settlement at next scheduled run after expiry."
+        }
+      },
+      "forecast_start": "2026-11-05T10:36:31+08:00",
+      "threshold": 180.51,
+      "deadline": "2026-11-05T15:00:00+08:00",
+      "original_frozen_fields_match_state_and_observation": true,
+      "already_settled_before_audit": false,
+      "expired": true,
+      "event_occurred": true,
+      "closing_breach_occurred": false,
+      "closing_price": 185.61,
+      "resolution_evidence": {
+        "type": "complete_five_minute_interval",
+        "first_available_qualifying_bar": {
+          "bar_interval_start": "2026-11-05T13:30:00+08:00",
+          "bar_interval_end": "2026-11-05T13:35:00+08:00",
+          "bar_low": 180.41,
+          "threshold": 180.51,
+          "raw_bar": {
+            "day": "2026-11-05 13:35:00",
+            "open": "180.820",
+            "high": "182.000",
+            "low": "180.410",
+            "close": "180.820",
+            "volume": "1498699",
+            "amount": "270921634.7463"
+          },
+          "source_file": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/evidence/2026-11-05-1438/m5_final.txt",
+          "exact_first_tick_time": null
+        },
+        "logic": "Whole interval lies after actual forecast start and by deadline; at least one trade was strictly below threshold. Does not establish first tick time."
+      },
+      "closing_evidence": {
+        "closing_price": 185.61,
+        "threshold": 180.51,
+        "comparison": "strictly_less_than",
+        "source_file": "/tmp/optics-premarket-20261106/ashares/analysis.json"
+      },
+      "numeric_probability": null
+    },
+    {
+      "prediction_id": "2026-11-05-1438-L17764",
+      "original_prediction": {
+        "id": "2026-11-05-1438-L17764",
+        "symbol": "300502.SZ",
+        "scheduled_check_at": "2026-11-05T14:30:00+08:00",
+        "triggered_at": "2026-11-05T14:34:41.759+08:00",
+        "created_at": "2026-11-05T14:38:43+08:00",
+        "forecast_start": "2026-11-05T14:38:43+08:00",
+        "snapshot_time": "2026-11-05T14:38:39+08:00",
+        "threshold": 177.64,
+        "comparison": "strictly_less_than",
+        "event": "Any traded price strictly below177.64 after forecast_start and by deadline",
+        "deadline": "2026-11-05T15:00:00+08:00",
+        "risk": "中等",
+        "numeric_probability": null,
+        "model_validated": false,
+        "status": "pending",
+        "settled": false,
+        "note": "Independent afternoon forecast starts at actual creation, not scheduled14:30. Morning180.51 forecast immutable and still pending until15:00. No tick stream between snapshot and creation."
+      },
+      "forecast_start": "2026-11-05T14:38:43+08:00",
+      "threshold": 177.64,
+      "deadline": "2026-11-05T15:00:00+08:00",
+      "original_frozen_fields_match_state_and_observation": true,
+      "already_settled_before_audit": false,
+      "expired": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "closing_price": 185.61,
+      "resolution_evidence": {
+        "type": "full_day_minimum_bound",
+        "full_day_low": 177.64,
+        "threshold": 177.64,
+        "source_file": "/tmp/optics-premarket-20261106/ashares/analysis.json",
+        "logic": "Full-day minimum equals or exceeds threshold, so no trade in any forecast subwindow can be strictly below it; equality is not a breach."
+      },
+      "closing_evidence": {
+        "closing_price": 185.61,
+        "threshold": 177.64,
+        "comparison": "strictly_less_than",
+        "source_file": "/tmp/optics-premarket-20261106/ashares/analysis.json"
+      },
+      "numeric_probability": null
+    }
+  ],
+  "method": "Preserve all original fields and times. Any traded price strictly less than threshold after forecast_start and by15:00 is separate from closing breach. No equality breach. Audit only; caller performs one settlement after expiry.",
+  "input_hashes": {
+    "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/state.json": "5a39f04b0847248d6c7156db61ebb0893315af00957257aece22d3ddb7d319db",
+    "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-05-1438.json": "2449244930dfbfcd4999dc52f0c112e6c44e46470a28566701beba52911c0bfe",
+    "/tmp/optics-premarket-20261106/ashares/analysis.json": "5b0786d86bdc13bad53c58b68a01adec38ce22037ba79e8305ecb1b0f32b3fa6",
+    "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/evidence/2026-11-05-1438/m5_final.txt": "333b188ec531c057e1751ae2658be59e3488dc9189654c2150b879f10ce21c1d"
+  },
+  "no_state_or_original_observation_mutation": true,
+  "no_hit_rate": true
+}

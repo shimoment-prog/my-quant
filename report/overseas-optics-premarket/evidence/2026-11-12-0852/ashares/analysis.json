@@ -1,0 +1,479 @@
+{
+  "prepared_at": "2026-11-12T08:49:05.284951+08:00",
+  "report_date": "2026-11-12",
+  "a_share_session_date": "2026-11-11",
+  "rows": [
+    {
+      "symbol": "sz300502",
+      "name": "新易盛",
+      "session_date": "2026-11-11",
+      "close": 215.0,
+      "previous_close": 183.8,
+      "change_pct": 16.974972796517953,
+      "open": 187.3,
+      "opening_gap_pct": 1.9042437431991295,
+      "high": 216.35,
+      "low": 187.3,
+      "close_vs_open_pct": 14.789108382274426,
+      "close_vs_day_high_pct": -0.623988906863878,
+      "close_vs_day_low_pct": 14.789108382274426,
+      "m5_high_intervals": [
+        {
+          "start": "2026-11-11T14:15:00+08:00",
+          "end": "2026-11-11T14:20:00+08:00",
+          "exact_tick_time": null,
+          "high": 216.35
+        }
+      ],
+      "m5_low_intervals": [
+        {
+          "start": "2026-11-11T09:30:00+08:00",
+          "end": "2026-11-11T09:35:00+08:00",
+          "exact_tick_time": null,
+          "low": 187.3
+        }
+      ],
+      "m5_complete_bars": 48,
+      "regular_session_amount_cny": 25233996401.1438,
+      "regular_session_amount_yi_cny": 252.339964011438,
+      "regular_session_volume_source_units": 124929658.0,
+      "amount_cny": 25233996399.9,
+      "amount_yi_cny": 252.339963999,
+      "quote_minus_m5_amount_cny": -1.2438,
+      "daily_lot_volume_change_pct": 43.39034680966329,
+      "source_snapshot_time": "2026-11-11T16:14:48+08:00",
+      "sina_snapshot_time": "2026-11-11T15:35:00+08:00",
+      "source_snapshot_time_note": "Prior-session after-close quote updates, not today intraday quote. Official normal-session closing bar ends15:00.",
+      "raw_daily_bar": [
+        "2026-11-11",
+        "187.300",
+        "215.000",
+        "216.350",
+        "187.300",
+        "1249297.000"
+      ],
+      "raw_previous_daily_bar": [
+        "2026-11-10",
+        "188.010",
+        "183.800",
+        "191.510",
+        "183.040",
+        "871256.000"
+      ],
+      "raw_first_5min_bar": {
+        "day": "2026-11-11 09:35:00",
+        "open": "187.300",
+        "high": "195.370",
+        "low": "187.300",
+        "close": "194.870",
+        "volume": "15476713",
+        "amount": "2953989570.5606"
+      },
+      "raw_final_5min_bar": {
+        "day": "2026-11-11 15:00:00",
+        "open": "214.620",
+        "high": "215.000",
+        "low": "214.580",
+        "close": "215.000",
+        "volume": "2055081",
+        "amount": "441734937.0848"
+      },
+      "crosscheck": {
+        "complete_5min_coverage": true,
+        "sina_quote_date": true,
+        "tencent_quote_date": true,
+        "ohlc_matches_daily": true,
+        "ohlc_matches_tencent_quote": true,
+        "ohlc_matches_sina_quote": true,
+        "previous_close_matches_prior_verified": true,
+        "previous_close_matches_daily": true
+      }
+    },
+    {
+      "symbol": "sz300308",
+      "name": "中际旭创",
+      "session_date": "2026-11-11",
+      "close": 542.0,
+      "previous_close": 471.0,
+      "change_pct": 15.074309978768577,
+      "open": 480.42,
+      "opening_gap_pct": 2.0,
+      "high": 547.79,
+      "low": 480.42,
+      "close_vs_open_pct": 12.817950959577036,
+      "close_vs_day_high_pct": -1.0569743879953997,
+      "close_vs_day_low_pct": 12.817950959577036,
+      "m5_high_intervals": [
+        {
+          "start": "2026-11-11T14:20:00+08:00",
+          "end": "2026-11-11T14:25:00+08:00",
+          "exact_tick_time": null,
+          "high": 547.79
+        }
+      ],
+      "m5_low_intervals": [
+        {
+          "start": "2026-11-11T09:30:00+08:00",
+          "end": "2026-11-11T09:35:00+08:00",
+          "exact_tick_time": null,
+          "low": 480.42
+        }
+      ],
+      "m5_complete_bars": 48,
+      "regular_session_amount_cny": 31229065529.0688,
+      "regular_session_amount_yi_cny": 312.290655290688,
+      "regular_session_volume_source_units": 60735000.0,
+      "amount_cny": 31229065541.41,
+      "amount_yi_cny": 312.2906554141,
+      "quote_minus_m5_amount_cny": 12.3412,
+      "daily_lot_volume_change_pct": 56.27372023311763,
+      "source_snapshot_time": "2026-11-11T16:14:30+08:00",
+      "sina_snapshot_time": "2026-11-11T15:35:30+08:00",
+      "source_snapshot_time_note": "Prior-session after-close quote updates, not today intraday quote. Official normal-session closing bar ends15:00.",
+      "raw_daily_bar": [
+        "2026-11-11",
+        "480.420",
+        "542.000",
+        "547.790",
+        "480.420",
+        "607350.000"
+      ],
+      "raw_previous_daily_bar": [
+        "2026-11-10",
+        "480.000",
+        "471.000",
+        "488.000",
+        "469.580",
+        "388645.000"
+      ],
+      "raw_first_5min_bar": {
+        "day": "2026-11-11 09:35:00",
+        "open": "480.420",
+        "high": "495.000",
+        "low": "480.420",
+        "close": "494.880",
+        "volume": "6878094",
+        "amount": "3348452291.4804"
+      },
+      "raw_final_5min_bar": {
+        "day": "2026-11-11 15:00:00",
+        "open": "541.150",
+        "high": "542.190",
+        "low": "541.140",
+        "close": "542.000",
+        "volume": "1288698",
+        "amount": "698432370.9639"
+      },
+      "crosscheck": {
+        "complete_5min_coverage": true,
+        "sina_quote_date": true,
+        "tencent_quote_date": true,
+        "ohlc_matches_daily": true,
+        "ohlc_matches_tencent_quote": true,
+        "ohlc_matches_sina_quote": true,
+        "previous_close_matches_prior_verified": true,
+        "previous_close_matches_daily": true
+      }
+    },
+    {
+      "symbol": "sh515880",
+      "name": "通信ETF国泰",
+      "session_date": "2026-11-11",
+      "close": 0.459,
+      "previous_close": 0.425,
+      "change_pct": 8.0,
+      "open": 0.423,
+      "opening_gap_pct": -0.47058823529411764,
+      "high": 0.46,
+      "low": 0.423,
+      "close_vs_open_pct": 8.51063829787234,
+      "close_vs_day_high_pct": -0.21739130434782608,
+      "close_vs_day_low_pct": 8.51063829787234,
+      "m5_high_intervals": [
+        {
+          "start": "2026-11-11T14:10:00+08:00",
+          "end": "2026-11-11T14:15:00+08:00",
+          "exact_tick_time": null,
+          "high": 0.46
+        },
+        {
+          "start": "2026-11-11T14:15:00+08:00",
+          "end": "2026-11-11T14:20:00+08:00",
+          "exact_tick_time": null,
+          "high": 0.46
+        },
+        {
+          "start": "2026-11-11T14:20:00+08:00",
+          "end": "2026-11-11T14:25:00+08:00",
+          "exact_tick_time": null,
+          "high": 0.46
+        }
+      ],
+      "m5_low_intervals": [
+        {
+          "start": "2026-11-11T09:30:00+08:00",
+          "end": "2026-11-11T09:35:00+08:00",
+          "exact_tick_time": null,
+          "low": 0.423
+        }
+      ],
+      "m5_complete_bars": 48,
+      "regular_session_amount_cny": 5352548774.1224,
+      "regular_session_amount_yi_cny": 53.525487741224,
+      "regular_session_volume_source_units": 12028921871.0,
+      "amount_cny": 5353742279.0,
+      "amount_yi_cny": 53.53742279,
+      "quote_minus_m5_amount_cny": 1193504.8776,
+      "daily_lot_volume_change_pct": 114.77477680751377,
+      "source_snapshot_time": "2026-11-11T16:14:55+08:00",
+      "sina_snapshot_time": "2026-11-11T15:34:59+08:00",
+      "source_snapshot_time_note": "Prior-session after-close quote updates, not today intraday quote. Official normal-session closing bar ends15:00.",
+      "raw_daily_bar": [
+        "2026-11-11",
+        "0.423",
+        "0.459",
+        "0.460",
+        "0.423",
+        "120316656.000"
+      ],
+      "raw_previous_daily_bar": [
+        "2026-11-10",
+        "0.428",
+        "0.425",
+        "0.433",
+        "0.424",
+        "56019919.000"
+      ],
+      "raw_first_5min_bar": {
+        "day": "2026-11-11 09:35:00",
+        "open": "0.423",
+        "high": "0.436",
+        "low": "0.423",
+        "close": "0.435",
+        "volume": "687984641",
+        "amount": "296100021.9823"
+      },
+      "raw_final_5min_bar": {
+        "day": "2026-11-11 15:00:00",
+        "open": "0.459",
+        "high": "0.459",
+        "low": "0.458",
+        "close": "0.459",
+        "volume": "323912800",
+        "amount": "148639347.5599"
+      },
+      "crosscheck": {
+        "complete_5min_coverage": true,
+        "sina_quote_date": true,
+        "tencent_quote_date": true,
+        "ohlc_matches_daily": true,
+        "ohlc_matches_tencent_quote": true,
+        "ohlc_matches_sina_quote": true,
+        "previous_close_matches_prior_verified": true,
+        "previous_close_matches_daily": true
+      }
+    },
+    {
+      "symbol": "sz399006",
+      "name": "创业板指",
+      "session_date": "2026-11-11",
+      "close": 2572.067,
+      "previous_close": 2494.397,
+      "change_pct": 3.113778600599664,
+      "open": 2490.097,
+      "opening_gap_pct": -0.17238635229275853,
+      "high": 2580.345,
+      "low": 2490.097,
+      "close_vs_open_pct": 3.2918396351628068,
+      "close_vs_day_high_pct": -0.32080981419151317,
+      "close_vs_day_low_pct": 3.2918396351628068,
+      "m5_high_intervals": [
+        {
+          "start": "2026-11-11T14:15:00+08:00",
+          "end": "2026-11-11T14:20:00+08:00",
+          "exact_tick_time": null,
+          "high": 2580.345
+        }
+      ],
+      "m5_low_intervals": [
+        {
+          "start": "2026-11-11T09:30:00+08:00",
+          "end": "2026-11-11T09:35:00+08:00",
+          "exact_tick_time": null,
+          "low": 2490.097
+        }
+      ],
+      "m5_complete_bars": 48,
+      "regular_session_amount_cny": 478416764928.0,
+      "regular_session_amount_yi_cny": 4784.16764928,
+      "regular_session_volume_source_units": 18407473439.0,
+      "amount_cny": 478416773381.26,
+      "amount_yi_cny": 4784.1677338126,
+      "quote_minus_m5_amount_cny": 8453.26,
+      "daily_lot_volume_change_pct": 5.488412888416692,
+      "source_snapshot_time": "2026-11-11T16:14:48+08:00",
+      "sina_snapshot_time": "2026-11-11T15:00:03+08:00",
+      "source_snapshot_time_note": "Prior-session after-close quote updates, not today intraday quote. Official normal-session closing bar ends15:00.",
+      "raw_daily_bar": [
+        "2026-11-11",
+        "2490.100",
+        "2572.070",
+        "2580.340",
+        "2490.100",
+        "184074734.000"
+      ],
+      "raw_previous_daily_bar": [
+        "2026-11-10",
+        "2518.440",
+        "2494.400",
+        "2520.010",
+        "2487.560",
+        "174497586.000"
+      ],
+      "raw_first_5min_bar": {
+        "day": "2026-11-11 09:35:00",
+        "open": "2490.097",
+        "high": "2510.610",
+        "low": "2490.097",
+        "close": "2508.144",
+        "volume": "1687619197",
+        "amount": "43538841600.0000"
+      },
+      "raw_final_5min_bar": {
+        "day": "2026-11-11 15:00:00",
+        "open": "2570.027",
+        "high": "2572.395",
+        "low": "2569.975",
+        "close": "2572.067",
+        "volume": "518333077",
+        "amount": "12351340544.0000"
+      },
+      "crosscheck": {
+        "complete_5min_coverage": true,
+        "sina_quote_date": true,
+        "tencent_quote_date": true,
+        "ohlc_matches_daily": true,
+        "ohlc_matches_tencent_quote": true,
+        "ohlc_matches_sina_quote": true,
+        "previous_close_matches_prior_verified": true,
+        "previous_close_matches_daily": true
+      }
+    }
+  ],
+  "relative_strength_pctpoints": {
+    "eoptolink_minus_peer": 1.9006628177493763,
+    "eoptolink_minus_etf": 8.974972796517953,
+    "eoptolink_minus_chinext": 13.861194195918289,
+    "peer_minus_etf": 7.074309978768577,
+    "peer_minus_chinext": 11.960531378168913
+  },
+  "prior_prediction_review": {
+    "prior_date": "2026-11-11",
+    "prior_direction": "开盘偏弱、全天震荡分化",
+    "prior_report": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/evidence/2026-11-11-0908/report_draft.md",
+    "assessment_zh": "昨日主情景明显低估强度：新易盛、中际旭创实际分别高开1.90%、2.00%，收涨16.97%、15.07%，两股当日最低价均为开盘价，全天表现更接近高开后明显走强、收盘较日高略回吐，而非开盘偏弱和震荡分化。两股分别跑赢通信ETF8.97、7.07个百分点，跑赢创业板13.86、11.96个百分点。原报告提及隔夜盘后回升及国内算力资本开支信息，但主判断更重视正常盘回吐和A股前日冲高回落，结果低估了当日A股承接和上行动量。仅凭OHLC不能证明实际上涨由哪条消息或何类资金推动。",
+    "evidence": "Tencent and Sina after-close quotes plus Tencent daily and complete48-bar Sina5-minute session, prior close crosschecked against Nov10 verified archive.",
+    "limits": "Opening direction and full-session performance assessed separately; not a hit-rate statistic or causal attribution."
+  },
+  "sources": [
+    {
+      "file": "quotes.txt",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+      "started_utc": "2026-11-12T00:47:39.960296+00:00",
+      "ok": true,
+      "bytes": 2119,
+      "retrieved_utc": "2026-11-12T00:47:40.045847+00:00"
+    },
+    {
+      "file": "sina.txt",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "started_utc": "2026-11-12T00:47:39.960694+00:00",
+      "ok": true,
+      "bytes": 1089,
+      "retrieved_utc": "2026-11-12T00:47:40.042789+00:00"
+    },
+    {
+      "file": "sz300502-daily.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+      "started_utc": "2026-11-12T00:47:39.960869+00:00",
+      "ok": true,
+      "bytes": 3730,
+      "retrieved_utc": "2026-11-12T00:47:40.090971+00:00"
+    },
+    {
+      "file": "sz300502-m5.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+      "started_utc": "2026-11-12T00:47:39.961029+00:00",
+      "ok": true,
+      "bytes": 14335,
+      "retrieved_utc": "2026-11-12T00:47:40.203977+00:00"
+    },
+    {
+      "file": "sz300308-daily.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300308,day,,,30,qfq",
+      "started_utc": "2026-11-12T00:47:39.961182+00:00",
+      "ok": true,
+      "bytes": 3814,
+      "retrieved_utc": "2026-11-12T00:47:40.090911+00:00"
+    },
+    {
+      "file": "sz300308-m5.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300308&scale=5&ma=no&datalen=100",
+      "started_utc": "2026-11-12T00:47:39.961337+00:00",
+      "ok": true,
+      "bytes": 14303,
+      "retrieved_utc": "2026-11-12T00:47:40.206628+00:00"
+    },
+    {
+      "file": "sh515880-daily.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,30,qfq",
+      "started_utc": "2026-11-12T00:47:39.961482+00:00",
+      "ok": true,
+      "bytes": 3568,
+      "retrieved_utc": "2026-11-12T00:47:40.090878+00:00"
+    },
+    {
+      "file": "sh515880-m5.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sh515880&scale=5&ma=no&datalen=100",
+      "started_utc": "2026-11-12T00:47:39.961647+00:00",
+      "ok": true,
+      "bytes": 13650,
+      "retrieved_utc": "2026-11-12T00:47:40.226492+00:00"
+    },
+    {
+      "file": "sz399006-daily.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,30,qfq",
+      "started_utc": "2026-11-12T00:47:40.042811+00:00",
+      "ok": true,
+      "bytes": 3886,
+      "retrieved_utc": "2026-11-12T00:47:40.132381+00:00"
+    },
+    {
+      "file": "sz399006-m5.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz399006&scale=5&ma=no&datalen=100",
+      "started_utc": "2026-11-12T00:47:40.045863+00:00",
+      "ok": true,
+      "bytes": 15091,
+      "retrieved_utc": "2026-11-12T00:47:40.259790+00:00"
+    }
+  ],
+  "source_sha256": {
+    "sz300502-daily.json": "b05966fbba1258c0c0fd0e4189f644263b1f785c5a8e8a207ceddc4dcbe38d11",
+    "sz399006-daily.json": "8e9c090861d9f46034fffd3b39db9fe94adef49667ab46dfe30f19ecbcc2fbfd",
+    "sz399006-m5.txt": "959e4990298a14060ca201d8798cb8f95225b54256e87c4ba04c3e4e87deec78",
+    "sz300308-daily.json": "f9ca2a8462143e11bca8a6a8295c1319bb02eb8b0abf361d6cb74a7b020d1e80",
+    "sina.txt": "96ca5c3040e0011ee3980588aaa18a3aca151e2caffa1a8959a936788c9ac0b4",
+    "sh515880-m5.txt": "22bce40e41100366c4f2ea28a0792d119c66d1f0b4ee31cb501030179ae38a15",
+    "sz300502-m5.txt": "967eca7dfd5aa3066d2317eda8bbfdfd04a5b3d3cdb806f6d36e8f1dc32694ce",
+    "sz300308-m5.txt": "8da56fdeb013e987c0316f6fbe82f841daf0dcece071266e1f8f6a7725dd2db6",
+    "sh515880-daily.json": "0d0b1a0adc6f442c84be4b3ea53365266b153f16a8b0b9b064cc1f4a5c1741c0",
+    "manifest.json": "00c486dc4a64cd3c18bc4edb1c353c542a42f4027f8037e7d3872cf91b6be7d6",
+    "quotes.txt": "1b6a1da0998d776544ccfccee775fbc04137d4591938f4c05957096cf059a099"
+  },
+  "limitations": [
+    "Exact tick times unavailable; high/low intervals use five-minute bar windows.",
+    "ETF is a tradable proxy, not the entire communication sector.",
+    "Prior-session quotes show afternoon update timestamps; they are not Nov12 live trades.",
+    "No intraday-prediction state, historical observation or main premarket state was modified."
+  ]
+}

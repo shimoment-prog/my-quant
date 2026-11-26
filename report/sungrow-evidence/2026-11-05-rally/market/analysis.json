@@ -1,0 +1,152 @@
+{
+  "asof_quote": {
+    "name": "阳光电源",
+    "price": 89.17,
+    "change_pct": 9.85585807564371,
+    "time": "2026-11-05T10:54:51+08:00",
+    "high": 91.3,
+    "low": 80.13
+  },
+  "history_basis": "Sina daily raw unadjusted closing prices; quote previous close81.17 agrees Nov4 bar; no corporate action in reviewed Oct30-Nov5 notice list",
+  "returns": [
+    {
+      "base_date": "2026-10-09",
+      "base_close": 80.68,
+      "to_intraday_quote_pct": 10.523054040654433
+    },
+    {
+      "base_date": "2026-10-23",
+      "base_close": 72.2,
+      "to_intraday_quote_pct": 23.504155124653735
+    },
+    {
+      "base_date": "2026-10-30",
+      "base_close": 65.29,
+      "to_intraday_quote_pct": 36.57527952213202
+    },
+    {
+      "base_date": "2026-11-02",
+      "base_close": 71.54,
+      "to_intraday_quote_pct": 24.64355605255799
+    },
+    {
+      "base_date": "2026-11-03",
+      "base_close": 75.72,
+      "to_intraday_quote_pct": 17.762810353935564
+    },
+    {
+      "base_date": "2026-11-04",
+      "base_close": 81.17,
+      "to_intraday_quote_pct": 9.85585807564371
+    }
+  ],
+  "daily_november": [
+    {
+      "day": "2026-10-29",
+      "open": "67.930",
+      "high": "68.770",
+      "low": "67.180",
+      "close": "67.210",
+      "volume": "33225828"
+    },
+    {
+      "day": "2026-10-30",
+      "open": "67.040",
+      "high": "67.880",
+      "low": "65.090",
+      "close": "65.290",
+      "volume": "46200139"
+    },
+    {
+      "day": "2026-11-02",
+      "open": "62.000",
+      "high": "72.000",
+      "low": "62.000",
+      "close": "71.540",
+      "volume": "102143716"
+    },
+    {
+      "day": "2026-11-03",
+      "open": "72.030",
+      "high": "76.980",
+      "low": "71.540",
+      "close": "75.720",
+      "volume": "96146883"
+    },
+    {
+      "day": "2026-11-04",
+      "open": "76.500",
+      "high": "81.500",
+      "low": "74.500",
+      "close": "81.170",
+      "volume": "109400378"
+    }
+  ],
+  "peer_quotes": {
+    "sz300274": {
+      "name": "阳光电源",
+      "price": 89.17,
+      "change_pct": 9.85585807564371,
+      "time": "2026-11-05T10:54:51+08:00",
+      "high": 91.3,
+      "low": 80.13
+    },
+    "sz300763": {
+      "name": "锦浪科技",
+      "price": 53.05,
+      "change_pct": 9.291306139266586,
+      "time": "2026-11-05T10:54:51+08:00",
+      "high": 53.56,
+      "low": 48.77
+    },
+    "sz300693": {
+      "name": "盛弘股份",
+      "price": 35.15,
+      "change_pct": 7.164634146341475,
+      "time": "2026-11-05T10:54:51+08:00",
+      "high": 35.74,
+      "low": 32.62
+    },
+    "sz300827": {
+      "name": "上能电气",
+      "price": 29.98,
+      "change_pct": 6.728373086507666,
+      "time": "2026-11-05T10:54:51+08:00",
+      "high": 30.88,
+      "low": 28.12
+    },
+    "sh688390": {
+      "name": "固德威",
+      "price": 58.57,
+      "change_pct": 15.522682445759362,
+      "time": "2026-11-05T10:54:51+08:00",
+      "high": 59.38,
+      "low": 51.49
+    },
+    "sz399006": {
+      "name": "创业板指",
+      "price": 2584.133,
+      "change_pct": 1.5484157454818348,
+      "time": "2026-11-05T10:54:51+08:00",
+      "high": 2625.985,
+      "low": 2493.667
+    },
+    "sh000001": {
+      "name": "上证指数",
+      "price": 3683.5082,
+      "change_pct": -0.07227822355030389,
+      "time": "2026-11-05T10:54:50+08:00",
+      "high": 3701.5856,
+      "low": 3646.572
+    },
+    "sh515790": {
+      "name": "光伏ETF华泰柏瑞",
+      "price": 0.77,
+      "change_pct": 6.060606060606055,
+      "time": "2026-11-05T10:54:49+08:00",
+      "high": 0.78,
+      "low": 0.726
+    }
+  },
+  "rebound_from_nov2_intraday_low_pct": 43.82258064516129
+}

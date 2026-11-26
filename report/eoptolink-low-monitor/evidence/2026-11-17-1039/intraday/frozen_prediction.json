@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-17-1039-L15776",
+  "symbol": "300502.SZ",
+  "scheduled_check_at": "2026-11-17T10:30:00+08:00",
+  "triggered_at": "2026-11-17T10:35:20.760+08:00",
+  "created_at": "2026-11-17T10:39:12+08:00",
+  "forecast_start": "2026-11-17T10:39:12+08:00",
+  "snapshot_time": "2026-11-17T10:39:09+08:00",
+  "threshold": 157.76,
+  "comparison": "strictly_less_than",
+  "event": "Any traded price strictly below157.76 after forecast_start and by deadline",
+  "deadline": "2026-11-17T15:00:00+08:00",
+  "risk": "中等",
+  "numeric_probability": null,
+  "model_validated": false,
+  "status": "pending",
+  "settled": false,
+  "note": "Actual creation time is the start, not scheduled10:30 or heartbeat time. Cumulative day low frozen independently of historical179.83line. Price above currentVWAP and over2%aboveL partly offsets retreating rebound highs/local relative weakness and overseas selloff. No tickstream during quote-to-creation gap; do not alter threshold/window/risk in later reviews."
+}

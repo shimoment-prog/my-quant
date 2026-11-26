@@ -1,0 +1,45 @@
+[
+  {
+    "name": "msft_blog_rss",
+    "url": "https://blogs.microsoft.com/feed/",
+    "retrieved_at": "2026-11-18T00:34:45.545636+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "meta_ir",
+    "url": "https://investor.atmeta.com/investor-news/default.aspx",
+    "retrieved_at": "2026-11-18T00:34:45.545961+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "amazon_ir",
+    "url": "https://ir.aboutamazon.com/news-release/news-release-details/default.aspx",
+    "retrieved_at": "2026-11-18T00:34:45.546114+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "oracle_ir",
+    "url": "https://investor.oracle.com/investor-news/default.aspx",
+    "retrieved_at": "2026-11-18T00:34:45.546281+00:00",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "commerce_rule_news",
+    "url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
+    "retrieved_at": "2026-11-18T00:34:45.546482+00:00",
+    "ok": true,
+    "items": [],
+    "textlength": 9905
+  },
+  {
+    "name": "anthropic_cnbc_guide",
+    "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-guide.html",
+    "retrieved_at": "2026-11-18T00:34:46.165087+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+]

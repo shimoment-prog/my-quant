@@ -1,0 +1,492 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 收评：沪指涨0.32% 燃气板块涨幅居前_中国经济网——国家经济门户 
+  
+ 
+ 
+
+ 
+
+@media  all and (min-width:0px) and (max-width:750px){
+.pcwrap { display: none; }
+.wapwrap { display: block; }
+video{ width:100% !important}
+}
+@media  all and (min-width:751px){
+.pcwrap { display: block; }
+.wapwrap { display: none; }
+}
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+  
+
+	 
+	   首页  >  2026股市  >  股市滚动新闻  
+	
+	 
+	 
+		 收评：沪指涨0.32% 燃气板块涨幅居前 
+		 
+             2026-11-09 15:07 
+             来源：中国经济网 
+              
+		 
+		 
+			  
+		 
+		 查看余下全文 
+		  
+		  
+         
+			 X 
+			   
+		 
+	 
+
+	 
+	  
+
+	 
+      
+
+	 
+		(function() {
+		if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+			handleFontSize();
+		} else {
+			document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+		}
+		function handleFontSize() {
+			// 设置网页字体为默认大小
+			WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+			// 重写设置网页字体大小的事件
+			WeixinJSBridge.on('menu:setfont', function() {
+				WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+			});
+		}
+	})();
+	 
+	 
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc50e872955a6bd7c8d8823e297c230c6' type='text/javascript'%3E%3C/script%3E"));
+	 
+	 
+		 
+		document.write(unescape("%3Cscript src='http://cl3.webterren.com/webdig.js?z=35' type='text/javascript'%3E%3C/script%3E")); 
+		 
+		wd_paramtracker("_wdxid=000000000000000000000000000000000000000000") 
+	 
+	  
+	  
+	  
+	  
+	 
+		$(function(){
+			var urll = location.href; //页面url#前的完整url,可alert弹出查看
+			var ajaxurl = 'http://h5.ce.cn/ce-qa/wechat/get_signature?url='+encodeURIComponent(urll);
+
+			$.ajax({
+				url: ajaxurl,
+				type: "GET",
+				dataType: "jsonp",
+				success: function(ress){//成功则执行JS-SDK
+					console.log("share ok");
+					//执行JS_SDK
+					wx.config({
+						debug: false,
+						appId: ress.app_id,
+						timestamp:ress.timestamp,
+						nonceStr:ress.noncestr,
+						signature:ress.signature,
+						jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage']
+					});
+
+					wx.ready(function () {
+						var shareData = {
+							title: document.title,  //  标题
+							desc: '',    //  描述
+							link: location.href,   //  分享的URL，必须和当前打开的网页的URL是一样的
+							imgUrl: 'http://m.ce.cn/images/cecn-icon.jpg'  //  缩略图地址
+						};
+						wx.onMenuShareAppMessage(shareData);
+						wx.onMenuShareTimeline(shareData);
+					});
+					wx.error(function (res) {
+					});
+				},
+				error:function(){
+				}
+			});
+		})
+	 
+	 
+		$(function(){
+		$(".md_nr font").each(function(){
+		if($(this).attr("face").indexOf("楷体")>-1){
+		$(this).css("font-size","16px")
+		}
+		})
+			var videoArr = document.getElementsByTagName('video');
+			console.log(videoArr);
+			if(videoArr.length>0){
+				for(var i=0; i 
+	
+   
+ 
+
+ 
+ 
+
+ 
+  
+
+ 
+
+
+ 
+  首页  >  2026股市  >  股市滚动新闻  
+
+ 
+ 
+     
+         
+         收评：沪指涨0.32% 燃气板块涨幅居前 
+         
+             
+                 2026年11月09日 15:07 
+                 来源：中国经济网 
+                  
+             
+             [字号  大   中   小 ] 
+         
+         
+              @page{size:8.27in11.69in;margin-left:1.25in;margin-right:1.25in;margin-top:1in;margin-bottom:1in} p{line-height:115%;text-align:justify;orphans:0;widows:0;margin-bottom:0.1in;direction:ltr;background:transparent} p.western{font-family:"Calibri",serif;font-size:10pt;so-language:en-US} p.cjk{font-family:"宋体";font-size:10pt;so-language:zh-CN} p.ctl{font-family:;font-size:12pt;so-language:ar-SA}   中国经济网北京 11 月 9 日讯  A 股三大指数今日涨跌不一，截至收盘，上证指数报 3660.79 点，涨幅 0.32% ，成交额 6825.33 亿元；深证成指报 11145.49 点，跌幅 0.27% ，成交额 8000.79 亿元；创业板指报 2458.56 点，跌幅 0.27% ，成交额 4020.68 亿元。    行业板块方面，燃气、煤炭开采加工、元件等板块涨幅居前；能源金属、光伏设备、教育等板块跌幅居前。   A 股市场板块涨跌幅排行                     
+             (责任编辑：魏京婷) 
+         
+         document.getElementById("article_m").innerHTML=document.getElementById("articleText").innerHTML; 
+
+          
+          
+          
+        
+         
+
+
+         
+             
+
+                 共");
+                      document.write(_nPageCount);
+                      document.write("页 ");
+                      //var fyn;
+                     var nStep=5
+                      var nCurrIndex = _nCurrIndex || 0;
+                          if(nCurrIndex   0)
+                          document.write(" 首 页 ");
+                      else
+                        document.write(" 首 页 ");
+                        
+                      if(nCurrIndex > 0){
+                              if(nCurrIndex == 1){
+                              document.write(" 上一页 ");
+                              }else{document.write(" 上一页 ");}
+                            }
+                          else{
+                            document.write(" 上一页 ");
+                            }
+                        /*if(nCurrIndex == 0)
+                        document.write("1 ");
+                    else
+                        document.write(" 1  ");*/
+                
+                //首页和上一页以及第一页的代码
+                
+                
+                
+                
+                    if(_nPageCount 1 ");
+                    else
+                        document.write(" 1 ");
+                    for(var i=1; i "+(i+1) + " ");
+                            else
+                                document.write(" "+(i+1)+" ");
+                        }
+                
+                
+                    }else{//_nPageCount小于等于4的情况end
+                    //下面这个IF是判断是小于步长的一半的情况的;
+                    if(nCurrIndex  1 ");
+                              }
+                                if(i == 0 && nCurrIndex!=0){
+                                    document.write(" 1 ");}
+                          if(i > 0 && i  "+(i+1)+" ");
+                              else
+                                    document.write(" "+(i+1)+" ");
+                              }
+                                  }
+                          var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时候;
+                       //alert("nCurrIndex: "+nCurrIndex);
+                       if(nCurrIndex  下一页 ");	 
+                          else if (nextOver  下一页 ");}	
+                      
+                      
+                         if(nCurrIndex != (_nPageCount-1))
+                         document.write(" 末 页 ");	
+                         else
+                         document.write(" 末 页 ");
+                      return false;
+                    
+                            }
+                    
+                      for(i=Math.ceil(nCurrIndex-nStep/2);i  0 && i   0 && i  "+(i+1)+" ");
+                              else
+                                document.write(" "+(i+1)+" ");
+                          }
+                          
+                      }	  
+                     } 
+                     
+                
+                     //下一页和末页的设置
+                       var nextOver = _nPageCount - nCurrIndex;	//翻页到极限时候;
+                       if(nCurrIndex  下一页 ");	
+                          else if (nextOver  下一页 ");}	
+                      
+                      
+                      if(nCurrIndex != (_nPageCount-1))
+                
+                         document.write(" 末 页 ");	
+                        else
+                        document.write(" 末 页 ");
+                      //下一页和末页的设置	
+                
+                
+                
+                }//函数结束符
+                //WCM置标
+                createPageHTML(1, 0, "t20261109_3288584", "shtml");	
+                //-->
+                     
+         
+        
+         document.getElementById("fy").innerHTML=document.getElementById("pasecode").innerHTML; 
+
+         
+          
+
+         
+          
+
+       
+
+ 
+
+
+ 
+ 
+    
+ 
+
+ 
+ 
+      
+      
+     
+          
+     
+         
+ 
+
+ 
+ 
+        
+      
+      
+ 
+
+  
+ 
+    //头部导航
+    $(".nav_item").hover(function() {
+        $(this).addClass("navmoon");
+        $(this).find("b").removeClass("arrowDown").addClass("arrowUp");
+        $(".navbox").css({height: 91});
+    }, function() {
+        $(this).removeClass("navmoon");
+        $(this).find("b").removeClass("arrowUp").addClass("arrowDown");
+        $(".navbox").css({height: 50});
+    });
+ 
+
+ 
+
+    //左侧二维码
+    $(".rwm").hover(function() {       
+        $(".rwmimg").show();
+    }, function() {       
+        $(".rwmimg").hide();
+    });
+
+  	
+    //右侧回到顶部
+   $(".fixtop").click(function(){
+		var body = $("html, body");
+        body.stop().animate({scrollTop:0}, 500, 'swing');
+	})
+ 
+    //右侧刷新
+    document.getElementById('refreshButton').addEventListener('click', () => {
+            location.reload(true);
+        });
+
+ 
+
+ 
+    document.getElementById('refreshButton').addEventListener('click', () => {
+            location.reload();
+        });
+ 
+
+ 
+ 
+    $(function(){
+              if($("#articleText").find("img").length > 0){
+            $("#articleText").find("img").parent("p").css("position","relative");
+            $("#articleText").find("img").parent("p").append("    ")
+            $(".prev").attr("href",$(".fx_up").attr("href"));
+            $(".next").attr("href",$(".fx_down").attr("href"))
+            }
+    /*$(".next").click(function(){
+    if($(".next").attr("href")==""){
+    $(".box").show();
+    $("#articleText").empty();
+    $("#articleText").height("507px");
+    return false
+                }
+    })
+    $(".box").find(".gb").click(function(){
+    $(".box").hide()
+    })*/
+    
+        if($(".prev").attr("href")==""){
+            $(".prev").hide()
+                }
+    
+            if($(".next").attr("href")==""){
+            $(".next").hide()
+                }
+    
+        }
+        
+    )
+    
+    window.onload=function(){
+        var h=$("#articleText img").height();
+        $(".next").height(h);
+        $(".prev").height(h);
+        }
+ 
+
+
+ 
+ 
+     document.write(unescape("%3Cscript src='http://cl3.webterren.com/webdig.js?z=32' type='text/javascript'%3E%3C/script%3E")); 
+     wd_paramtracker("_wdxid=000000000000000000000000000000000000000000") 
+ 
+
+
+ 
+
+
+ 
+ 3288584 
+ 收评：沪指涨0.32% 燃气板块涨幅居前 
+ 216720 
+ 股市滚动新闻 
+  
+ 中国经济网 
+ 魏京婷  
+ 2026-11-09 
+
+  
+
+ 
+ 
+(function(a,b,c,d){a[b] = a[b] || {};a[b][d] = a[b][d] || function(){(a[c] = a[c] || []).push(arguments);};}(window,"TA17Obj","TAQueueArr","track"));
+ 
+ 
+    TA17Obj.track({
+        "eventKey": "e_cecn",
+        "trackInfos":[
+            {
+            "eventItem":"channelName",
+            "eventItemName":"股市滚动新闻",
+            "eventItemType":"cecn.channelName"
+            },
+            {
+            "eventItem":"channelId",
+            "eventItemName":"216720",
+            "eventItemType":"cecn.channelId"
+            },
+            {
+            "eventItem":"siteName",
+            "eventItemName":"财经频道",
+            "eventItemType":"cecn.siteName"
+            }
+        ]
+    });
+ 
+ 
+    TA17Obj.track({
+        "eventKey": "e_cecn",
+        "trackInfos":[
+            {
+            "eventItem":"doceditor",
+            "eventItemName":"魏京婷",
+            "eventItemType":"cecn.doceditor"
+            },
+            {
+            "eventItem":"EditorOrg",
+            "eventItemName":"中国经济网",
+            "eventItemType":"cecn.EditorOrg"
+            },
+            {
+            "eventItem":"docId",
+            "eventItemName":"3288584",
+            "eventItemType":"cecn.docId"
+            },
+            {
+            "eventItem":"docName",
+            "eventItemName":"收评：沪指涨0.32% 燃气板块涨幅居前",
+            "eventItemType":"cecn.docName"
+            }
+        ]
+    });
+ 
+
+
+ 
+ 

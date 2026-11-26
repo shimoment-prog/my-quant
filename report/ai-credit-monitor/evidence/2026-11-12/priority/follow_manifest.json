@@ -1,0 +1,200 @@
+[
+  {
+    "name": "coreweave_facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001769628.json",
+    "retrieved_at": "2026-11-12T00:29:03.068679+00:00",
+    "status": 200,
+    "bytes": 501063,
+    "latest_ends": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30"
+    ]
+  },
+  {
+    "name": "openai_news",
+    "url": "https://openai.com/news/rss.xml",
+    "retrieved_at": "2026-11-12T00:29:03.069014+00:00",
+    "status": 200,
+    "bytes": 840658,
+    "items": [
+      {
+        "title": "Gilbert + Tobin rethinks the business of law with AI",
+        "pubDate": "Thu, 12 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/gilbert-tobin-sam-nickless"
+      },
+      {
+        "title": "ChatGPT Plus for veterans and servicemembers",
+        "pubDate": "Wed, 11 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/chatgpt-plus-for-veterans"
+      },
+      {
+        "title": "JioStar\u2019s chief architect on AI discovery at 500M-user scale",
+        "pubDate": "Wed, 11 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/jiostar-vijay-seshadri"
+      },
+      {
+        "title": "Helping caregivers use AI in everyday life",
+        "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT",
+        "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+      },
+      {
+        "title": "Introducing Businesses in ChatGPT",
+        "pubDate": "Tue, 10 Nov 2026 10:00:00 GMT",
+        "link": "https://openai.com/index/introducing-businesses-chatgpt"
+      },
+      {
+        "title": "Closing the AI guidance gap in education",
+        "pubDate": "Tue, 10 Nov 2026 09:00:00 GMT",
+        "link": "https://openai.com/index/closing-ai-guidance-gap-education"
+      },
+      {
+        "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+        "pubDate": "Tue, 10 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/singapore-airlines-travel-work"
+      },
+      {
+        "title": "Work at the Frontier: AI\u2019s effect on freelance work",
+        "pubDate": "Tue, 10 Nov 2026 07:00:00 GMT",
+        "link": "https://openai.com/index/ai-effect-on-freelance-work"
+      },
+      {
+        "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+        "pubDate": "Tue, 10 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/cogent-security"
+      },
+      {
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "pubDate": "Mon, 09 Nov 2026 19:00:00 GMT",
+        "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+      },
+      {
+        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "pubDate": "Mon, 09 Nov 2026 13:00:00 GMT",
+        "link": "https://openai.com/index/control-room"
+      },
+      {
+        "title": "CodeRabbit scales agentic software development and ships 20x more",
+        "pubDate": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/coderabbit-codex-daybreak"
+      },
+      {
+        "title": "Kuken Industries searches 70 years of drawings in minutes",
+        "pubDate": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/kuken"
+      },
+      {
+        "title": "Partnering with Hacktron to find vulnerabilities in OpenAI\u2019s systems",
+        "pubDate": "Fri, 06 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/partnering-with-hacktron"
+      },
+      {
+        "title": "Measuring how AI agents handle everyday wet-lab science",
+        "pubDate": "Fri, 06 Nov 2026 00:00:00 GMT",
+        "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+      },
+      {
+        "title": "Australian universities are creating AI-native graduates",
+        "pubDate": "Thu, 05 Nov 2026 17:00:00 GMT",
+        "link": "https://openai.com/index/australian-universities-ai-native-graduates"
+      },
+      {
+        "title": "Cult.fit builds operational muscle with Codex",
+        "pubDate": "Thu, 05 Nov 2026 20:00:00 GMT",
+        "link": "https://openai.com/index/cultfit-builds-with-codex"
+      },
+      {
+        "title": "GPT\u20116 Cyber: Advancing the frontier of aligned cybersecurity agents",
+        "pubDate": "Thu, 05 Nov 2026 09:00:00 GMT",
+        "link": "https://openai.com/index/introducing-gpt-6-cyber"
+      },
+      {
+        "title": "Merge builds product and business tools with OpenAI technology",
+        "pubDate": "Thu, 05 Nov 2026 08:00:00 GMT",
+        "link": "https://openai.com/index/merge-builds-with-openai"
+      },
+      {
+        "title": "Setting a new standard for responsible AI infrastructure",
+        "pubDate": "Thu, 05 Nov 2026 02:00:00 GMT",
+        "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+      }
+    ]
+  },
+  {
+    "name": "openai_reuters",
+    "url": "https://www.reuters.com/business/openai-posts-steep-losses-even-quarterly-revenue-rises-10-billion-wsj-reports-2026-11-10/",
+    "retrieved_at": "2026-11-12T00:29:03.069235+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "reuters_news",
+    "url": "https://news.google.com/rss/search?q=%22OpenAI%20posts%20steep%20losses%22&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-12T00:29:03.069481+00:00",
+    "status": 200,
+    "bytes": 13770,
+    "items": [
+      {
+        "title": "OpenAI posts steep losses even as quarterly revenue rises to $10 billion, WSJ reports - Reuters",
+        "pubDate": "Tue, 10 Nov 2026 23:54:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSWgwbFNYa2Z4R1pzeU83WUhSVTUwSG9vTC1tT0lfV0FMZk1oWGlNellpU083T2M2VGJDV19fLXhJY3N4dHJUUnUxMTNSeU1XdVdtd3YxNWZ6RWxlcTE1RTRyZDB5UDAweUhFTk9wRjVmNGlzSFUxOEpZTkc0TEdJY05DN3VNRDlidmJnVlJHTEY5dTJaakVFX0x3Mkl2TEZFTDBfN3dBTXhZVkxVRG41X2lyMENmWVFJQ2hHbWs0bHdzem5NSER6d0xhMjl0dw?oc=5"
+      },
+      {
+        "title": "OpenAI posts steep losses even as quarterly revenue rises to $10 billion, WSJ reports - The Lufkin Daily News",
+        "pubDate": "Tue, 10 Nov 2026 23:53:56 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMk16amxzNXRjWHNYdm5XS01VSjRuX0ltN1JIcURSZ3o1ekhySXZpYVExRS05cTYtNUcxQmJ1c0tvY0E2QVd6M0o2RnV2eVBiUmJxWk5FR3FaSGJ6U1FVMjdibFhPZXVvdUJyM2l1SEVmRlludDhYQlk1QS1aTERuS1ZPcG1ZR0ZuREd4UWZvcm9BbjFYS0N4M21NR0hDczg4Q3FYeVpDZkl6czdmQmxuckVOY0w4bGVhOVJhLTZoZlBKQm5rUm83eko1a2dpSWVaNFAxWC1KN0c2Tk5UT2FKZlV6eVY4WlBCOUFUMmh3Nkd4ZTlnTWtxQUIxZlV0eExIZ2xRdXBjOEFpUG5XSDJleg?oc=5"
+      },
+      {
+        "title": "OpenAI posts steep losses even as quarterly revenue rises to $10 billion, WSJ reports - TradingView",
+        "pubDate": "Tue, 10 Nov 2026 23:52:24 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZm5YRzd6eWlhWjVrRW9taEJ0d2k2dXp5V3lCdEpwM1JncWF4WGEtVWliNzFwZnVoSW9NTWlmQnBtbDFBbmkwdWxqcGtYMFBRZ0lod3RWd2hZa3RwU0pxc2FXREh6LWgyYTNhRUZ5S1M4b2JCM1k2TkhrN1J0eG9kUGtOSGJPYmlHdFdZSFpyelRmUUp1dnFLT1BoMnJqTkE1Ymg3UlVCdG5DUUR0aHdKSjVCaHBYUzlURE1KQ29QcHduakxhak1xbXB2ZkhueU94VEVYQVUyZXNNSEN2QjBVSk1tMmZ6ZWV3?oc=5"
+      },
+      {
+        "title": "OpenAI posts steep losses even as quarterly revenue rises to $10 billion, WSJ reports - ET BrandEquity",
+        "pubDate": "Wed, 11 Nov 2026 08:28:43 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOczRSZ0h6N2liNHJ3S2VoS1ZLeWt0cmlwY3VnckhNXy01N3ZvN3k5akZydEpKRFZCUk5sdjNiX25SX2pUZWFXT3NnRTFiSEgwemR0VEdxMzlfYlRxdTU4a3Bqd19RUmhqQ2cwaGNnLTdTRF9GRVdXXzBFUjhVZGRPQWhhRjhkb2t5ZHNkYmlTSFZrUTRHdmEwQkhLQ2w5VFR6aVJKWlB0S00wdXpyc0NvaXdoYm5mSEFPWVMzMEg3T2hMbC16R0l0b3JYR2Jmcmk0QTU3Y05qQzl3N0QtaWFrX2ZvbUk2VGRzUGJWNXczVEw?oc=5"
+      },
+      {
+        "title": "OpenAI posts steep losses even as quarterly revenue rises to $10 billion: Report - The Hindu",
+        "pubDate": "Wed, 11 Nov 2026 04:10:17 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcGJPU0xoTXU5SmY5dU5GNUNrQmxHMGUxUGRUQnN0Qmd5emQ4bmI3Wk5QdGlKYWpJZXdBc1RORllydllzMUVMd00wU0dPT1Z2RTNrN3ByTGhqU3JRdlE5Y2JaQTJOZk5vM1pnWm1HMy1FcFJFMnpUc2RENmdRZHdwTWx2TjNLQTc3ZXFIVEVqa0xmaVhzZFo4bUdjc25jMDV5RkZYZWlKNnktNE50eU0yUlhnczI0QXBfOU44WHVvVHd3bmtXQ0EyWEJLVHJuYUU2NXVLa3g5OFRFX0VNc0dnSW9R0gHiAUFVX3lxTE1wYk9TTGhNdTlKZjl1TkY1Q2tCbEcwZTFQZFRCc3RCZ3l6ZDhuYjdaTlB0aUphaklld0FzVE5GWXJ2WXMxRUx3TTBTR09PVnZFM2s3cHJMaGpTclF2UTljYlpBMk5mTm8zWmdabUczLUVwUkUyelRzZEQ2Z1Fkd3BNbHZOM0tBNzdlcUhURWprTGZpWHNkWjhtR2NzbmMwNXlGRlhlaUo2eS00TnR5TTJSWGdzMjRBcF85TjhYdW9Ud3dua1dDQTJYQktUcm5hRTY1dUtreDk4VEVfRU1zR2dJb1E?oc=5"
+      },
+      {
+        "title": "OpenAI posts steep losses even as quarterly revenue rises to $10 billion, WSJ reports - The Economic Times",
+        "pubDate": "Wed, 11 Nov 2026 01:22:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPdEtob29ydUlSNG4tcGRFUHRwd2V1R29EX1lHUTZYZ3hjaGdFVnBka1JtV0MwQkFYck53cWJYTkY4eFZOT0lrZEVrRDl0aS1kVXQ1TndXc251d204alh4dWZjZWdtaTUySF80anZDUHo4dGs2blRybzV4Q0s4dHUxYUo1TmloNTVsZmpqSEVmb01JRFZ2QmtCWlZUOTlCMzVIRjhob2ZlcTlBbUNfaFh6cTBjTDc5cmwxLXJidGNzTTZVdGZuc3ptWk03QjFROXRrQ2ZILU9LMGo3OEt3azkwdy1DVGpRZUhPMDJqUFplUVZONk1BeGlsY3g0ZXU1d9IB9wFBVV95cUxOb0hPaWlqWDBrZ2V2RDdaY3RlLU40UEcxTWxBRHNLaTRJQy1ZLWpKZkJmZVdWRF9ZNURkbUlrTDhrdElqdFFsQndCZjMycWNiLTU5S3VuWXhJQU1DNFlCU0pDX0pNVEdJYzNVVXdzdWRoM25OeWlkZ1ViN1NTbnpSMTh4S2hUSzk2eXN0SGtQUWY5dnNSczRjblJyOGZGdmJvOXNTaFhnd1VJSmRUWV9XQ09oZ191RWp6WGc1X2lTNE93ZFpwWTZrNjRscWpOMndfTGdOb2hGYXNVbUJBSGhDeUNQLXpWMHBmeFJIaVlkSkVnVGphUDE4?oc=5"
+      },
+      {
+        "title": "OpenAI Posts Steep Losses Even as Quarterly Revenue Rises to $10 Billion - TipRanks",
+        "pubDate": "Wed, 11 Nov 2026 10:48:21 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRWhEV3V1OS1leHJIZjN0OXNVOWc2SXNjdmpzbmN1eUw5VzNrTWdkQXhRYUNaaENOUzRiWHB4c2RSSWdUSWxLNEl2U0x2cjJMcnp4MlBqeUhpUWI1RkVzTFk4TU9pVlF0dDl5ZjhuM1h1YTNOeUZGRWtBSk1JT1pFOU5DNVU1WlNwYnY2bTBoT2R5N0FTRjlvZ0hOQW5TX0JTRjhZ?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "openai_quartz_search",
+    "url": "https://www.google.com/search?q=site%3Aqz.com%20OpenAI%20Q3%20revenue%20operating%20loss%20November%2011%202026",
+    "retrieved_at": "2026-11-12T00:29:03.069634+00:00",
+    "status": 200,
+    "bytes": 92645,
+    "jsonld": [],
+    "links": [
+      "/httpservice/retry/enablejs?sei=Twj1avehFKv31e8PlPWB8Ac",
+      "/search?q=site:qz.com+OpenAI+Q3+revenue+operating+loss+November+11+2026&amp;sca_esv=7595fee8f80b4e3e&amp;sxsrf=AKL5yDgx-RrIjOrA7vMR48ovB7sSKWv2ZQ:1794443343339&amp;emsg=SG_REL&amp;sei=Twj1avehFKv31e8PlPWB8Ac",
+      "https://support.google.com/websearch"
+    ],
+    "text": "Google Search \u82e5\u60a8\u5728\u6578\u79d2\u5167\u4ecd\u672a\u80fd\u81ea\u52d5\u8df3\u8f49\uff0c\u8acb\u9ede\u64ca \u9019\u88cf \u3002\n\u5982\u679c\u4f60\u5728\u5b58\u53d6\u300cGoogle \u641c\u5c0b\u300d\u6642\u9047\u5230\u554f\u984c\uff0c\u8acb \u6309\u4e00\u4e0b\u9019\u88e1 \u6216\u50b3\u9001 \u610f\u898b \u3002"
+  },
+  {
+    "name": "openai_straits",
+    "url": "https://www.straitstimes.com/business/openai-q3-revenue-soars-nearly-50-to-us10-billion",
+    "retrieved_at": "2026-11-12T00:29:03.069807+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "openai_business_times",
+    "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/openais-third-quarter-revenue-soars-nearly-50-us10-billion",
+    "retrieved_at": "2026-11-12T00:29:03.069972+00:00",
+    "error": "<urlopen error timed out>"
+  }
+]

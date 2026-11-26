@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "explainer",
+  "quality": "showcase",
+  "specification": {
+    "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/candidate.archify.md",
+    "sha256": "566f8dd97d944653cdcd985b8771cca32b674f907749218b88296c66b8f36b48",
+    "bytes": 6308
+  },
+  "artifact": {
+    "path": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.html",
+    "sha256": "ab4c51e429b6d66099f5bde6b87fc120115e5affc8d0006249ef6dd2aa1b0b6e",
+    "bytes": 536159
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "not-run"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.finalize.json",
+    "summaryReceipt": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/backtest-report.finalize-summary.json"
+  },
+  "visualReview": "not-requested",
+  "durationMs": 579,
+  "browserCheck": {
+    "requested": false,
+    "ran": false
+  }
+}

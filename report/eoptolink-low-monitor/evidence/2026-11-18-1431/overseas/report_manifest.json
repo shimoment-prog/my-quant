@@ -1,0 +1,29 @@
+[
+  {
+    "id": "muddy_nvda_report",
+    "url": "https://muddywatersresearch.com/research/2026/mw-short-nvda/",
+    "started_at": "2026-11-18T06:31:30.216340+00:00",
+    "retrieved_at": "2026-11-18T06:31:31.473185+00:00",
+    "ok": true,
+    "bytes": 75675,
+    "sha256": "d01ff339f877367582a3b1ba71ea9f72963d5f55f0b20bf9808bfa8623240e78"
+  },
+  {
+    "id": "sina_short_actual",
+    "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcvvf1575656.d.html",
+    "started_at": "2026-11-18T06:31:30.216757+00:00",
+    "retrieved_at": "2026-11-18T06:31:30.417013+00:00",
+    "ok": true,
+    "bytes": 28717,
+    "sha256": "ec56194a45db43586b95fda8eca16d4415faa56cc946a48d037abd77c88cf112"
+  },
+  {
+    "id": "nvda_selectivity_media",
+    "url": "https://finance.sina.cn/7x24/2026-11-18/detail-inizcrpf4852150.d.html",
+    "started_at": "2026-11-18T06:31:30.216920+00:00",
+    "retrieved_at": "2026-11-18T06:31:30.795334+00:00",
+    "ok": true,
+    "bytes": 29701,
+    "sha256": "17c66be35f5e93dad5e66d99c35c480888d8b41fd56d433e2e69fa79ab586bda"
+  }
+]

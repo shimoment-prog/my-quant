@@ -1,0 +1,821 @@
+1
+Athene Fixed Income Investor Presentation
+November 2026
+FIXED INCOME INVESTOR PRESENTATION
+Disclaimer
+This presentation does not constitute an offer to sell, or the solicitation of an offer to buy, any security of Athene Holding Ltd. (“AHL” and together with its consolidated subsidiaries, “Athene”) or any of its subsidiaries.
+This presentation is not intended to constitute a solicitation of any insurance policy or contract or application therefor.
+Unless the context requires otherwise, references in this presentation to “Athene,” “our Company,” “the Company,” “us,” “we,” and “our” refer to Athene Holding Ltd. together with its consolidated subsidiaries, any reference to “AHL” refers to Athene Holding 
+Ltd. only and any reference to “Apollo” and “AGM” refer to Apollo Global Management, Inc., together with its subsidiaries. 
+This presentation contains, and certain oral statements made by Athene’s representatives from time to time may contain, forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 
+1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. Such statements are subject to risks, uncertainties and assumptions that could cause actual results, events and developments to differ materially from those set forth in, or 
+implied by, such statements. These statements are based on the beliefs and assumptions of Athene’s management. Generally, forward-looking statements include actions, events, results, strategies and expectations and are often identifiable by use of the words 
+“believes,” “expects,” “intends,” “anticipates,” “plans,” “seeks,” “estimates,” “projects,” “may,” “will,” “could,” “might,” or “continues” or similar expressions. Forward-looking statements within this presentation include, but are not limited to, benefits to be 
+derived from Athene's capital allocation decisions; the anticipated performance of Athene's portfolio in certain stress or recessionary environments; the performance of Athene's business; general economic conditions; expected future operating results; Athene's 
+liquidity and capital resources; and other non-historical statements. Although Athene management believes that the expectations reflected in these forward-looking statements are reasonable, it can give no assurance that these expectations will prove to be 
+correct. For a discussion of other risks and uncertainties related to Athene's forward-looking statements, see its annual report on Form 10-K for the year ended December 31, 2025, and quarterly report on Form 10-Q filed for the period ended September 30, 
+2026, which can be found at the SEC’s website at www.sec.gov. All forward-looking statements described herein are qualified by these cautionary statements and there can be no assurance that the actual results, events or developments referenced herein will 
+occur or be realized. Athene does not undertake any obligation to update or revise forward-looking statements to reflect changed assumptions, the occurrence of unanticipated events or changes to future operating results.
+Information contained herein may include information respecting prior performance of Athene. Information respecting prior performance, while a useful tool, is not necessarily indicative of actual results to be achieved in the future, which is dependent upon 
+many factors, many of which are beyond Athene's control. The information contained herein is not a guarantee of future performance by Athene, and actual outcomes and results may differ materially from any historic, pro forma or projected financial results 
+indicated herein. Certain of the financial information contained herein is unaudited or based on the application of non-GAAP financial measures. These non-GAAP financial measures should be considered in addition to and not as a substitute for, or superior to, 
+financial measures presented in accordance with GAAP. Furthermore, certain financial information is based on estimates of management. These estimates, which are based on the reasonable expectations of management, are subject to change and there can be 
+no assurance that they will prove to be correct. The information contained herein does not purport to be all-inclusive or contain all information that an evaluator may require in order to properly evaluate the business, prospects or value of Athene. Athene does 
+not have any obligation to update this presentation and the information may change at any time without notice. 
+Models that may be contained herein (the “Models”) are being provided for illustrative and discussion purposes only and are not intended to forecast or predict future events. Information provided in the Models may not reflect the most current data and is 
+subject to change. The Models are based on estimates and assumptions that are also subject to change and may be subject to significant business, economic and competitive uncertainties, including numerous uncontrollable market and event driven situations. 
+There is no guarantee that the information presented in the Models is accurate. Actual results may differ materially from those reflected and contemplated in such hypothetical, forward-looking information. Undue reliance should not be placed on such 
+information and investors should not use the Models to make investment decisions. Athene has no duty to update the Models in the future.
+Certain of the information used in preparing this presentation was obtained from third parties or public sources. No representation or warranty, express or implied, is made or given by or on behalf of Athene or any other person as to the accuracy, completeness 
+or fairness of such information, and no responsibility or liability is accepted for any such information. The contents of any website referenced in this presentation are not incorporated by reference and only speak as of the date listed thereon.
+This document is not intended to be, nor should it be construed or used as, financial, legal, tax, insurance or investment advice. There can be no assurance that Athene will achieve its objectives. Past performance is not indicative of future success. 
+All information is as of the dates indicated herein.
+2
+FIXED INCOME INVESTOR PRESENTATION
+Robust capitalization to support growth
+Strong Growth Amid High Demand for Retirement Savings Products
+Note: Data as of or for the nine months ended September 30, 2026, unless otherwise noted. 1. Shown gross of the noncontrolling interests in Athene Co-Invest Reinsurance Affiliate Holding Ltd. (together with its subsidiaries, ACRA 1) and Athene Co-Invest Reinsurance Affiliate Holding 2 Ltd. (together with its 
+subsidiaries, ACRA 2), collectively defined as ACRA. 2. Organic inflows include the inflows attributable to the noncontrolling interest in ACRA 2 and inflows ceded to third-party reinsurers. 3. Total estimated deployable capital includes $1.8 billion in excess equity capital, $1.2 billion in untapped leverage capacity and 
+$2.4 billion in available undrawn capital at ACRA. Untapped leverage capacity assumes an adjusted leverage ratio of not more than 30%, subject to maintaining a sufficient level of capital required to maintain Athene’s desired financial strength ratings from rating agencies.
+$5.4B
+Deployable Capital3
+Strong organic new business growth 
+Solid earnings generation 
+Increasing gross invested assets $424B Gross Invested Assets1
+(+12% YoY)
+$3.3B
+Spread Related 
+Earnings (SRE) LTM
+$61B
+Organic Inflows2 YTD
+3
+
+FIXED INCOME INVESTOR PRESENTATION
+Athene Maintains a Distinct Credit Profile Within Apollo
+$1T 
+Assets Under
+Management
+$38B
+Regulatory Capital2
+A+ from S&P, Fitch, A.M. Best; 
+A1 from Moody’s3
+ASSET
+MANAGEMENT
+RETIREMENT 
+SERVICES
+~6,300
+Employees 
+Globally
+Solutions across the alternative risk spectrum Separate capital structure which issues senior debt, 
+subordinated debt and preferred stock
+Separate SEC filer with dedicated annual and quarterly 
+disclosure via IR website: CLICK HERE
+Separate governance infrastructure, including a majority 
+independent Board of Directors
+A from S&P, Fitch; 
+A2 from Moody’s
+Note: Data as of September 30, 2026, unless otherwise noted. 1. Market capitalization as of November 4, 2026. 2. Represents the aggregate capital of Athene's US and Bermuda insurance entities, determined with respect to each insurance entity by applying the statutory accounting principles applicable to each such 
+entity. Adjustments are made to, among other things, assets and expenses at the holding company level. Includes capital from the noncontrolling interests in ACRA. 3. Financial strength ratings for primary insurance subsidiaries. Financial strength ratings are statements of opinions and not statements of facts or 
+recommendations to purchase, hold or sell securities. They do not address the suitability of securities for investment purposes and should not be relied on as investment advice.
+$72B
+Market 
+Capitalization1
+A2 / A / A
+Rated by Moody’s, 
+S&P, Fitch
+4
+FIXED INCOME INVESTOR PRESENTATION
+1. Net asset yield calculated based on average statutory investment yield on bond and mortgage purchases disclosed in annual US life insurance statutory filings from 2021-2025. Peers include Allianz, CRBG, Global Atlantic, MetLife, MassMutual, Nationwide and New York Life. 2. Athene’s statutory fixed income 
+impairments adjusted to include changes in mortgage loan specific reserves in relation to average invested assets of regulated entities in the US and Bermuda from 2021-2025. Industry average represents US statutory impairments adjusted to include changes in mortgage loan specific reserves per SNL Financial from 
+2021-2025. Industry average includes AEL, AMP, BHF, CRBG, EQH, FG, LNC, MET, PFG, PRU, VOYA and Transamerica. 3. Figures are US statutory G&A divided by average total US statutory assets from 2021 to 2025. Peers represent the other top 10 writers of Athene’s core spread products in the US in 2025 and include 
+Allianz, Corebridge, Equitable, Global Atlantic, MassMutual, MetLife, Nationwide (life insurance entities only), New York Life and Prudential. 4. Year-to-date US total annuity market industry ranking per Life Insurance Marketing and Research Association (LIMRA) as of June 30, 2026. Last twelve months (LTM) ended 
+September 30, 2026 funding agreement backed notes (FABN) market share per Mizuho Financial Group. 5. As of September 30, 2026. Relates to Athene’s primary insurance subsidiaries; represents ratings from A.M. Best “A+”, Fitch “A+”, S&P “A+” and Moody’s “A1”. 6. As of October 2026, based on Apollo analyst 
+research on US and European Union primary capital raised since 2012. ADIP collectively refers to Apollo/Athene Dedicated Investment Program (ADIP I) and Apollo/Athene Dedicated Investment Program II (ADIP II), funds managed by affiliates of Apollo which are investors in ACRA.
+• High performance 
+culture that drives 
+innovation
+• Top-tier executive 
+management team
+• Distinguished 21st 
+century model of 
+leading insurer and 
+asset manager
+Athene’s Right to Win ‒ Consistent Growth Driven by Competitive Differentiation 
+   1 2 3
+Asset 
+Outperformance
+Cost Structure / 
+Scale
+Product 
+Distribution
+ 4
+Capital
+ 5
+Culture & 
+Management Team
+• #1 market share in 
+retail annuities and #2 
+in funding agreement 
+backed notes4
+• Diverse product suite 
+across four major 
+channels with 50+ 
+discrete products
+• Multiple access points 
+• Target 30 – 40 basis 
+points of 
+outperformance across 
+portfolio 
+• Outperformance 
+via differentiated 
+origination, illiquidity 
+and structure1
+• Credit quality and 
+credit losses have been 
+better than the 
+industry2
+• Approximately 35 basis 
+points operating 
+expense advantage vs 
+industry3
+• Embracing AI to further 
+improve efficiencies 
+• Fortress balance sheet 
+• Rated ‘A+’ or equivalent 
+by major rating 
+agencies5
+• Largest sidecar in 
+Retirement Services 
+industry (ADIP/ACRA)6
+5
+FIXED INCOME INVESTOR PRESENTATION
+Note: Data in billions. 1. Year-to-date US total annuity market industry ranking per LIMRA as of June 30, 2026. 2. Last twelve months ended September 30, 2026 FABN market share per Mizuho Financial Group. 3. Year-to-date ranking per industry data as of September 30, 2026. 4. Funding agreements represent 
+funding agreements issued under Athene’s FABN program, secured and other funding agreements, which include the funding agreement backed repurchase agreement program (FABR) and direct funding agreements, funding agreements issued to the Federal Home Loan Bank (FHLB) and long-term repurchase 
+agreements. 5. Other spread product inflows include guaranteed investment and group annuity contracts issued in connection with defined contribution plans, stable value group annuity contracts and structured settlements.
+$9 $11 $13
+$18
+$28
+$37
+$48
+$63
+$71
+$82
+$61
+5 5 7 7 8 9
+21
+35 36 34 30
+3
+8
+12
+10
+7
+29 35
+21
+4 2 4
+6 2
+6
+11
+5
+11
+8
+2 3
+6
+6
+14
+11
+10 2
+2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 YTD 
+3Q’26
+Continuing Track Record of Strong, Diversified Organic Growth 
+Funding Agreements4Retail Annuities Flow Reinsurance
+Pension Group Annuities
+Decade of Dominance
+Across Organic Inflow Channels
+Pension Group 
+Annuities
+Leading provider for large, 
+complex transactions
+Funding 
+Agreements
+#2 FABN Market Share 
+LTM 3Q’262
+Retail 
+Annuities
+#1 Market Share in 20261
+Flow 
+Reinsurance
+Record Inflows in 2025
+Other Spread Products5
+New Markets
+Strong initial progress 
+Over $1.5B in Stable Value inflows since product launch in 2Q’25
+Top 3 Structured Settlements provider3
+6
+FIXED INCOME INVESTOR PRESENTATION
+Banks
+57%
+Broker 
+Dealers
+24%
+IMO
+19%
+ 19 Banks
+Retail Distribution Remains a Key Competitive Advantage
+1.  LTM 2Q’26 US RILA sales per LIMRA.
+3Q’26 LTM Retail Inflows by Distribution Channel
+Financial 
+Institutions
+81%
+Key Highlights
+41 
+Independent 
+Marketing 
+Organizations
+ 180 Regional 
+Broker-Dealers
+$37B
+• Financial institutions drove 79% of retail inflows in the third 
+quarter with 21% from Independent Marketing 
+Organizations (IMOs)
+• Strong inflows from Multi-Year Guarantee Annuity (MYGA) 
+and Fixed Index Annuity (FIA) products in the third quarter 
+• Third consecutive quarter of record Registered Index-Linked 
+Annuity (RILA) sales, with $2.7B year-to-date, up ~160% 
+compared to prior year
+• Launched Amplify 3.0 in May and Amplify 3.0 NY in 
+September, extending Athene's RILA lineup in the fast-
+growing $85B+ RILA market1
+• 21% of Athene’s retail flows were 
+sold through independent 
+marketing organizations (IMO). 
+Fixed indexed annuity (FIA) 
+products sold via the IMO channel 
+generally have longer duration and 
+higher surrender charges
+7
+FIXED INCOME INVESTOR PRESENTATION
+FABN
+24%
+FABR
+31%
+FHLB
+45%
+Disciplined approach to the FABN market, issuing 
+when pricing and demand meet certain criteria
+1. Includes issuances of long-term repurchase agreements.
+No FABNs are puttable by investors and      
+Athene does not use short-term FA-backed 
+commercial paper
+$23B
+Global issuance  
+across 3 
+currencies 
+Simple, predictable liability with known maturities 
+and no customer behavior or refinance risk
+Strong institutional demand given higher yields 
+vs similarly rated corporates
+Underwritten to the same return criteria as 
+other organic business
+Differentiated, Multi-Faceted Funding Agreement Capabilities
+1
+3Q’26 LTM Funding Agreement Inflows by Type
+8
+FIXED INCOME INVESTOR PRESENTATION
+Multi-Family
+Mortgage Loans
+17%
+Commercial 
+Mortgage Loans
+11%
+CMBS
+9%
+Agency
+MBS
+1%
+RMBS
+1% Other
+1%
+Single-Family
+Mortgage Loans
+60%
+Disciplined FHLB Funding Strategy
+1
+$34B
+Assets Pledged to FHLB by Type  Membership Highlights
+Note: Data as of September 30, 2026. 1. Represents the advance equivalent of eligible pledged collateral, as determined by the FHLB. 2. FHLB 2025 Annual Combined Financial Report. 3. Athene includes capital stock from the FHLB within other investments. 4. Calculated as pledged collateral divided by outstanding 
+principal on FHLB borrowings. 5. Based on gross reserve liabilities of $393 billion including the noncontrolling interests in ACRA. 6. Reflects the weighted average loan-to-value (LTV) of residential mortgage loans and commercial mortgage loans included in the pledged collateral.
+65%
+Weighted Average LTV6 
+Strong credit quality that fits within 
+FHLB collateral requirements
+$1.4B                               
+Capital Stock3
+Directly capitalizes advances and 
+supports FHLB mission 
+$30B
+Outstanding Borrowings
+8% of total reserve liabilities5;
+conservative sizing 
+Fully collateralized, matched funding structure that supports disciplined spread generation and FHLB mission
+ Pledged Collateral1
+Directly supporting the housing market; exceeds FHLB system average of 50%²
+~113% 
+Overcollateralization Ratio4
+Diversified and                                            
+high-quality collateral pool
+9
+FIXED INCOME INVESTOR PRESENTATION
+Note: Data presented net of the noncontrolling interests in ACRA, unless otherwise noted, as of September 30, 2026. 1. Relates to Athene’s primary insurance subsidiaries; represents ratings from A.M. Best “A+”, Fitch “A+”, S&P “A+” and Moody’s “A1”. 2. Represents the aggregate capital of Athene's US and 
+Bermuda insurance entities, determined with respect to each insurance entity by applying the statutory accounting principles applicable to each such entity. Adjustments are made to, among other things, assets and expenses at the holding company level. Includes capital from the noncontrolling interests in ACRA. 
+3. Computed as capital in excess of the capital required to support Athene’s core operating strategies, as determined based upon internal modeling and analysis of economic risk, as well as inputs from rating agency capital models and consideration of both National Association of Insurance Commissioners (NAIC) 
+risk-based capital (RBC) and Bermuda capital requirements. 4. Includes $7.1 billion of cash and cash equivalents on a net invested asset basis, excluding restricted cash, net investment payables/receivables and cash posted as collateral for derivative transactions, $2.6 billion Athene Annuity Re Ltd. (AARe)/Athene 
+Life Re Ltd. (ALRe)/Athene Annuity and Life Company (AAIA) liquidity facility with $0.5 billion accordion feature, $1.75 billion AHL/AARe/ALRe/Athene USA Corporation (AUSA) credit facility with $0.75 billion accordion feature, $2.0 billion committed repurchase facilities, $3.5 billion of FHLB borrowing capacity, and 
+$59.6 billion highly liquid asset portfolio. Availability of accordion features is subject to lender consent and other factors. 5. Total estimated deployable capital includes $1.8 billion in excess equity capital, $1.2 billion in untapped leverage capacity and $2.4 billion in available undrawn capital at ACRA. Untapped 
+leverage capacity assumes an adjusted leverage ratio of not more than 30%, subject to maintaining a sufficient level of capital required to maintain Athene’s desired financial strength ratings from rating agencies.
+Athene Maintains a Fortress Balance Sheet
+Financial 
+Strength Profile
+A+ $2B
+Excess 
+Equity Capital
+3
+$38B
+Regulatory 
+Capital2
+$5B
+Total
+Deployable Capital 5
+Available 
+Liquidity
+$78B
+41
+10
+FIXED INCOME INVESTOR PRESENTATION
+CRBG EQH PFG LNC
+Gross Invested Assets ($B)1 $424 $259 $153 $112 $148
+3Q’26 LTM Operating Income ($M)2 $3,305 $2,730 $2,517 $2,413 $1,916
+Adjusted Leverage Ratio3 27.5% 31.5% 40.0% 24.8% 26.6%
+Ratings4 A1/A+/A+ A2/A+/NR A1/A+/NR A1/A+/NR A2/A+/A+
+RBC Ratio (Consolidated)5 441% 430-440% ~475% 406% 460%
+5-year FABN Secondary Credit Spread to US 
+Treasury6 T+117 T+95 T+99 T+93 T+80
+Athene’s Superior Financial Metrics Are Not Fully Reflected in Secondary Spreads
+1. Invested assets on a US GAAP basis as of September 30, 2026. Athene’s invested assets include the noncontrolling interests in ACRA. Corebridge invested assets include Fortitude Re funds withheld assets. Peer invested asset balances include cash and cash equivalents for comparative purposes. 2. Peer pre-tax 
+operating income and Athene spread related earnings for the twelve months ended September 30, 2026. 3. Adjusted leverage ratios as of September 30, 2026. Peer adjusted leverage ratios include senior debt, 50% of subordinated debt and 50% of preferred stock, when applicable, in the numerator of the 
+calculation for comparative purposes. 4. Financial strength ratings as of September 30, 2026 are from Moody’s/S&P/Fitch and are specific to the FABN program. 5. RBC ratios are as of December 31, 2025. 6. Bloomberg data as of November 9, 2026. 11
+FIXED INCOME INVESTOR PRESENTATION
+Strong Capital and Liquidity Profile
+Note: Data presented net of the noncontrolling interests in ACRA as of September 30, 2026, unless otherwise noted. The RBC ratios are as of December 31, 2025. 1. The consolidated risk-based capital ratio of Athene’s non-US reinsurance and US insurance subsidiaries calculated by aggregating US RBC and Bermuda 
+RBC, with immaterial adjustments for net assets at the holding company. There are certain differences between Bermuda statutory and US statutory frameworks that result in Consolidated RBC being approximately 20 RBC points higher as of December 31, 2025. The primary driver of this difference is that Bermuda 
+statutory financial statements require that assets assumed as part of a reinsurance transaction and any assets sold are recorded at their market value, without posting an interest maintenance reserve. 2. The CAL RBC ratio for AAIA, Athene’s parent US insurance company. 3. The risk-based capital ratio of Athene’s 
+non-US reinsurance subsidiaries calculated using Bermuda capital as defined in Athene’s Form 10-Q for the period ended September 30, 2026 and applying NAIC risk-based capital factors on an aggregate basis, excluding US subsidiaries, which are included within Athene’s US RBC Ratio. 4. Cash and cash equivalents 
+excludes restricted cash, net investment payables/receivables and cash posted as collateral for derivative transactions. 5. Relates to the $2.6 billion liquidity facility, with $0.5 billion accordion feature available to AARe/ALRe/AAIA and the $1.75 billion credit facility, with $0.75 billion accordion feature available to 
+AHL/AARe/ALRe/AUSA. Availability of accordion features is subject to lender consent and other factors. 6. Relates to $3.5 billion of available FHLB borrowing capacity. 7. Includes investment grade market value of $38.8 billion of public corporate bonds, $19.7 billion of US government and agencies and $1.1 billion of 
+state and municipal bonds; excludes pledged assets, mainly associated with funding agreement and repurchase agreement liabilities, but includes assets held in reinsurance trusts. Highly liquid assets may be further reduced for collateral purposes if Athene were to draw on its committed repurchase facilities. 8. 
+Athene holds $101.1 billion of total available liquidity inclusive of the noncontrolling interests in ACRA. 
+441%
+2025 Consolidated RBC Ratio1
+436%
+2025 US RBC Ratio2
+454% 
+2025 Bermuda RBC Ratio3
+Athene’s Available Liquidity (Net, $B)
+$77.8 
+Highly Liquid Assets75 59.6
+Cash & Cash Equivalents41 $7.1
+Committed Repurchase Facilities3 2.0
+Credit Facilities52 5.6
+Other Liquidity64 3.5
+Total Available Liquidity8
+12
+FIXED INCOME INVESTOR PRESENTATION
+Supports Athene growth initiatives with ~$10B of cumulative capital 
+deployed2 while maintaining a strong capital position
+ADIP enhances Athene’s ROE on business retained
+Preferred Equity: $2.3B notional outstanding
+Subordinated Debt: $1.8B notional outstanding
+Senior Debt: $7.0B notional outstanding, including a $1B issuance in August
+Debt Capacity: $1.2B of untapped leverage capacity 
+Adjusted Leverage Ratio: 27.5%
+Earnings Generation: $3.4B of LTM spread related earnings, excluding 
+notable items, and $2.5B YTD
+Capital Release from Runoff: $1.7B LTM, net of ADIP
+Athene Utilizes Numerous Sources of Capital to Grow
+Earnings Generation 
+& Capital Release
+Capital Markets Issuance
+Largest Sidecar in Industry1
+Note: Data as of or for the nine months ended September 30, 2026, unless otherwise noted. Senior debt refers to AHL senior debt. Subordinated debt refers to AHL subordinated debt. 1. As of October 2026, based on Apollo analyst research on US and European Union primary capital raised since 2012. 2. Includes ADIP 
+called capital, leverage and reinvested earnings through September 30, 2026.
+13
+FIXED INCOME INVESTOR PRESENTATION
+Consistent Investment Management Philosophy
+Target higher and 
+sustainable risk-adjusted 
+returns by capturing 
+origination premia to 
+drive consistent yield 
+outperformance
+Focus on downside 
+protection given long-
+dated liability profile and 
+low cost of funding 
+Dynamic asset allocation 
+to take advantage of 
+market dislocations 
+Differentiation driven by 
+proprietary asset 
+origination and greater 
+asset expertise
+30 – 40 bps
+Targeted Asset Yield Outperformance vs the Industry Without Incremental Credit Risk
+14
+FIXED INCOME INVESTOR PRESENTATION
+Corporate
+& Govt.
+37%
+ABS
+17%
+RML
+14%
+CML
+12%
+CLO
+6%
+CMBS & RMBS
+5%
+Alts
+5%
+Cash & Equivalents
+2%
+Other
+2%
+$322B
+Net Invested Assets3
+Note: Data as of September 30, 2026. Net invested assets include Athene's proportionate share of ACRA investments, based on its economic ownership, but exclude the proportionate share of investments associated with the noncontrolling interests. 1. As of September 30, 2026, 98% of $240 billion of available-
+for-sale securities designated NAIC 1 or 2. 2. Includes investments in company-owned life insurance, equity securities, short-term investments, accrued investment income, policy loans and other investments. 3. Represents net invested assets as of September 30, 2026. Gross invested assets were $424 billion as of 
+September 30, 2026, including the ACRA noncontrolling interests. 4. Corporate and government includes 8% of private corporates (see the next page for more information). 
+High-Quality Asset Portfolio Generates Safe Yield
+AFS Fixed Maturity Securities 
+Rated Investment Grade1
+Resilient
+High Grade
+Stress Tested
+98%
+Invested in Fixed Income or 
+Cash
+95%
+of Invested Assets in 
+Differentiated Alternatives 
+5%
+Key Attributes
+2
+4
+15
+FIXED INCOME INVESTOR PRESENTATION
+Private 
+Credit
+19%
+All Other Assets
+81%
+Note: Data as of September 30, 2026. Refers to gross invested assets, which includes 100% of the noncontrolling interests in ACRA, unless otherwise noted. 1. Private credit on an insurance industry view includes privately originated corporate credit and structured securities and excludes securities issued under 
+Rule 144A or Regulation S. Information has been presented on an insurance industry view for peer comparison purposes.  We define private credit in a more expansive way than the insurance industry view and estimate a private credit total addressable market of approximately $40 trillion, which further includes, 
+among other things, non-agency residential and commercial mortgage debt and credit instruments issued under Rule 144A. Under this definition of private credit, Athene’s holdings were approximately 61% of gross / net invested assets as of September 30, 2026. See Athene’s Form 10-Q for the quarterly period 
+ended September 30, 2026 for more information.
+Athene’s Private Credit Investments Are Almost Entirely Investment Grade
+Private 
+ABS
+11%
+Private CLO,
+CMBS & RMBS
+0.2%
+Private 
+Corporates & 
+Govt.
+8%
+96%
+Investment 
+Grade
+16
+1
+• Based on an insurance industry view, private credit represents 19% of the total portfolio ($81B / $61B of gross / net invested assets, respectively)
+• 96% investment grade with a weighted average rating of BBB+
+• Athene’s levered lending investments round to zero (~0.4% of gross invested assets)
+Invested Assets
+FIXED INCOME INVESTOR PRESENTATION
+Corporate
+& Govt.
+33%
+ABS
+34%
+RML
+14%
+CML
+13%
+Alts
+2%
+CLO
+1%
+RMBS
+1% Equity/Other
+2%
+Alignment with Apollo Provides Access to Alpha-Generating Assets 
+3Q’26 LTM Gross Asset PurchasesAsset Sourcing Highlights
+$149B
+Note: Deployment numbers include the noncontrolling interests in ACRA. 1. Net asset yield calculated based on average statutory investment yield on bond and mortgage purchases disclosed in annual US life insurance statutory filings from 2021-2025. Peers include Allianz, CRBG, Global Atlantic, MetLife, 
+MassMutual, Nationwide and New York Life. 2. Athene’s statutory fixed income impairments adjusted to include changes in mortgage loan specific reserves in relation to average invested assets of regulated entities in the US and Bermuda from 2021-2025. Industry average represents US statutory impairments 
+adjusted to include changes in mortgage loan specific reserves per SNL Financial from 2021-2025. Industry average includes AEL, AMP, BHF, CRBG, EQH, FG, LNC, MET, PFG, PRU, VOYA and Transamerica. 3. Corporate and government 3Q’26 LTM gross asset purchases include 13% of private corporates. 4. 
+Compared to CLOs, AMAPS invests in higher-quality collateral at lower leverage, with greater diversification, while seeking to generate attractive debt returns. AMAPS is intended to act as a replacement asset for today’s CLO market.       
+• Apollo’s proprietary asset origination capabilities allow 
+Athene to access senior-secured, private investment grade 
+credit, with opportunities for compelling excess spread
+• $95B of total deployment activity 3Q’26 LTM was composed 
+of investment grade credit directly originated by Apollo, at 
+attractive spreads of approximately 170 bps above 
+comparably rated public corporate benchmarks
+• Athene’s asset portfolio generates outperformance relative to 
+peers while recording lower impairments than the industry 
+average1,2
+• Published disclosure on Athene’s approach to financing the AI 
+build-out, which applies the same Apollo-originated, senior-
+secured investment grade playbook for all other sectors: ~3% 
+of gross invested assets in digital infrastructure investments 
+(~92% IG), concentrated in secured debt and targeting 
+~100-200 bps of excess spread over comparable public debt
+3
+17
+AMAPS
+including 10% allocation to Apollo 
+Multi-Asset Prime Securities (AMAPS)4
+FIXED INCOME INVESTOR PRESENTATION
+Indexed 
+Annuities
+31%
+Fixed Rate 
+Annuities
+31%
+Funding 
+Agreements
+27%
+$298B
+Persistent and Predictable Liability Portfolio Provides Long-Dated Funding
+Note: Data as of or for the three months ended September 30, 2026 and net of the noncontrolling interests in ACRA. Gross reserve liabilities include the reserves associated with the ACRA noncontrolling interests and were $393 billion as of September 30, 2026. 1. Other primarily consists of life reserves, which 
+include the AmerUs Closed Block liabilities, guaranteed investment contracts issued in connection with defined contribution plans and other product reserves. 2. Non-surrenderable liabilities include buy-out pension group annuities other than those that can be withdrawn as lump sums, funding agreements, 
+payout annuities and guaranteed investment contracts. 3. Includes Single Premium Immediate Annuities, Supplemental Contracts and Structured Settlements.
+36%
+Non-Surrenderable2
+Retirement savings products with structural features that increase funding stability 
+Of Funding Carries a 
+Withdrawal Penalty or Cannot 
+be Withdrawn
+91%
+Spread
+Based
+Weighted Average Life 
+of Funding
+7-Year
+Cost of Funds on 
+In-Force
+4.05%
+Very Limited 
+Tail Risk
+55%
+Withdrawal / Surrender 
+Charge Protected
+Conservatively 
+Underwritten
+Payout Annuities3
+2%
+Other1
+2%
+Net Reserve 
+Liabilities
+Pension Group Annuities
+7%
+18
+Key Attributes
+FIXED INCOME INVESTOR PRESENTATION
+Historical/Projected Annualized Outflow Rates 
+Note: Projections in the above table represent a best estimate and actual experience may vary. Outflow rate is calculated as outflows attributable to Athene divided by average net invested assets for the respective period, on an annualized basis. 1. Represents outflows from funding agreements, pension group 
+annuities and multi-year guarantee fixed annuities, all of which occur based on defined maturities or substantially lapse upon reaching their contractual term. Amounts may vary on a quarterly basis, based on the timing of original issuance. 2. Represents outflows from indexed annuities and other applicable products, 
+which have varying degrees of predictability due to policyholder actions. 3. Represents partial annuity withdrawals to meet retirement income needs within contractual annual limits. 4. Represents outflows from policies that no longer have an active surrender charge in force. 5. Represents outflows from policies with 
+an active surrender charge in force. 6. 2Q’25 outflows exclude maturities of long-term repurchase agreements of $1.1 billion, or a rate of 1.6% for the respective period on an annualized basis, which may be renewed upon joint agreement of the parties based on a variety of factors.
+2025 2026
+Q1 Q2 Q3 Q4 Q1 Q2 Q3E Q3 Q4E FY’25 FY’26E
+Maturity-Driven, Contractual-Based Outflows1,6 5.5% 3.6% 7.9% 5.0% 6.7% 5.1% 7.5% 7.3% 5.4% 5.5% 6.2%
+Policyholder-Driven Outflows2 5.5% 5.1% 5.2% 5.7% 4.9% 4.8% 4.9% 4.8% 5.3% 5.4% 5.0%
+    Income Oriented Withdrawals (Planned)3 2.6% 2.4% 2.4% 2.7% 2.5% 2.2% 2.6% 2.4% 3.0% 2.5% 2.8%
+    From Policies Out-Of-Surrender-Charge (Planned)4 1.7% 1.5% 1.5% 1.7% 1.5% 1.5% 1.2% 1.5% 1.2% 1.6% 1.1%
+    From Policies In-Surrender-Charge (Unplanned)5 1.2% 1.2% 1.3% 1.3% 0.9% 1.1% 1.1% 0.9% 1.1% 1.3% 1.1%
+Core Outflows 11.0% 8.7% 13.1% 10.7% 11.6% 9.9% 12.4% 12.1% 10.7% 10.9% 11.2%
+Outflow Activity Remains Highly Predictable
+19
+FIXED INCOME INVESTOR PRESENTATION
+Consistently publish supplemental materials addressing investor focus areas 
+Host quarterly calls dedicated to fixed income investors
+Athene is Committed to Transparency and Ongoing Disclosure
+Supplemental Disclosure Items Provide Additional Perspective on Athene’s Strategy and Performance
+CLICK HERE
+Asset Portfolio 
+Compendium
+May 2026
+Asset Risk & 
+Stress Considerations
+September 2026
+CLICK HERECLICK HERE
+Athene’s Role in Financing 
+AI-Related Infrastructure
+October 2026
+Publish stress test results and corporate structure updates annually 
+20
+CLICK HERE
+“Affiliated” & 
+“Related Party” Assets
+May 2026
+FIXED INCOME INVESTOR PRESENTATION
+Non-GAAP Definitions
+In addition to our results presented in accordance with accounting principles generally accepted in the United States of America (US GAAP), we present certain financial information that includes non-GAAP measures. Management 
+believes the use of these non-GAAP measures, together with the relevant US GAAP measures, provides information that may enhance an investor’s understanding of our results of operations and the underlying profitability drivers of our 
+business. The majority of these non-GAAP measures are intended to remove from the results of operations the impact of market volatility (other than with respect to alternative investments), which consists of investment gains (losses), 
+net of offsets and non-operating change in insurance liabilities and related derivatives, as well as integration, restructuring, stock compensation and certain other items which are not part of our underlying profitability drivers, as such 
+items fluctuate from period to period in a manner inconsistent with these drivers. These measures should be considered supplementary to our results in accordance with US GAAP and should not be viewed as a substitute for the 
+corresponding US GAAP measures.
+Spread Related Earnings (SRE)
+Spread related earnings is a pre-tax non-GAAP measure used to evaluate our financial performance including the impact of any reinsurance transactions and excluding market volatility and expenses related to integration, restructuring 
+and stock compensation as well as other one-time items. Our spread related earnings equals net income (loss) available to Athene Holding Ltd. common stockholder adjusted to eliminate the impact of the following: (a) investment gains 
+(losses), net of offsets; (b) non-operating change in insurance liabilities and related derivatives; (c) integration, restructuring and other non-operating items; (d) stock compensation expense; and (e) income tax expense (benefit).
+We consider these adjustments to be meaningful adjustments to net income (loss) available to Athene Holding Ltd. common stockholder. Accordingly, we believe using a measure which excludes the impact of these items is useful in 
+analyzing our business performance and the trends in our results of operations. Together with net income (loss) available to Athene Holding Ltd. common stockholder, we believe spread related earnings provides a meaningful financial 
+metric that helps investors understand our underlying results and profitability. Spread related earnings should not be used as a substitute for net income (loss) available to Athene Holding Ltd. common stockholder.
+Cost of Funds
+Cost of funds includes liability costs related to cost of crediting on deferred annuities and institutional products, as well as other liability costs, but does not include the proportionate share of the ACRA cost of funds associated with the 
+noncontrolling interests. Cost of crediting on deferred annuities is the interest credited to the policyholders on our fixed strategies, as well as the option costs on the indexed annuity strategies. With respect to indexed annuities, the cost 
+of providing index credits includes the expenses incurred to fund the annual index credits, and where applicable, minimum guaranteed interest credited. Cost of crediting on institutional products represents (1) pension group annuity 
+costs, including interest credited, benefit payments and other reserve changes, net of premiums received when issued, (2) funding agreement costs, including interest expense and other reserve changes and (3) guaranteed investment 
+contract costs, including interest expense. Additionally, cost of crediting includes forward points gains and losses on foreign exchange derivative hedges. Other liability costs include DAC, DSI and VOBA amortization, certain market risk 
+benefit costs, the cost of liabilities on products other than deferred annuities and institutional products, premiums and certain product charges and other revenues. We include the costs related to business added through assumed 
+reinsurance transactions and exclude the costs on business related to ceded reinsurance transactions. Cost of funds is computed as the total liability costs divided by the average net invested assets for the relevant period. To enhance the 
+ability to analyze these measures across periods, interim periods are annualized. We believe a measure like cost of funds is useful in analyzing the trends of our core business operations, profitability and pricing discipline. While we 
+believe cost of funds is a meaningful financial metric and enhances our understanding of the underlying profitability drivers of our business, it should not be used as a substitute for total benefits and expenses presented under US GAAP.
+Non-GAAP Measures & Definitions
+21
+FIXED INCOME INVESTOR PRESENTATION
+Adjusted Leverage Ratio 
+Adjusted leverage ratio is a non-GAAP measure used to evaluate our capital structure excluding the impacts of AOCI and the cumulative changes in fair value of funds withheld and modco reinsurance assets, as well as mortgage loan 
+assets, net of tax. Adjusted leverage ratio is calculated as total debt at notional value adjusted to exclude 50 percent of the notional value of subordinated debt as an equity credit plus 50 percent of the notional value of our preferred 
+stock divided by adjusted capitalization. Adjusted capitalization includes our adjusted Athene Holding Ltd. common stockholder’s equity and the notional value of our total debt and preferred stock. Adjusted Athene Holding Ltd. 
+common stockholder’s equity is calculated as the ending Athene Holding Ltd. stockholders’ equity excluding AOCI, the cumulative changes in fair value of funds withheld and modco reinsurance assets and mortgage loan assets, as well 
+as preferred stock. These adjustments fluctuate period-over-period in a manner inconsistent with our underlying profitability drivers as the majority of such fluctuation is related to the market volatility of the unrealized gains and 
+losses associated with our AFS securities, reinsurance assets and mortgage loans. Except with respect to reinvestment activity relating to acquired blocks of business, we typically buy and hold investments to maturity throughout the 
+duration of market fluctuations, therefore, the period-over-period impacts in unrealized gains and losses are not necessarily indicative of current operating fundamentals or future performance. Adjusted leverage ratio should not be 
+used as a substitute for the leverage ratio. However, we believe the adjustments to stockholders’ equity and debt are significant to gaining an understanding of our capitalization, debt and preferred stock utilization and overall 
+leverage capacity, because they provide insight into how rating agencies measure our capitalization, which is a consideration in how we manage our leverage capacity.
+Net Invested Assets 
+In managing our business, we analyze net invested assets, which does not correspond to total investments, including investments in related parties, as disclosed in our condensed consolidated financial statements and notes thereto. 
+Net invested assets represent the investments that directly back our net reserve liabilities, as well as surplus assets. Net invested assets is used in the computation of net investment earned rate, which allows us to analyze the 
+profitability of our investment portfolio. Net invested assets include (a) total investments on the condensed consolidated balance sheets, with AFS securities, trading securities and mortgage loans at cost or amortized cost, excluding 
+derivatives, (b) cash and cash equivalents and restricted cash, (c) investments in related parties, (d) accrued investment income, (e) VIE and VOE assets, liabilities and noncontrolling interest adjustments, (f) net investment payables 
+and receivables, (g) policy loans ceded (which offset the direct policy loans in total investments) and (h) an adjustment for the allowance for credit losses. Net invested assets exclude the derivative collateral offsetting the related cash 
+positions. We include the underlying investments supporting our assumed funds withheld and modco agreements and exclude the underlying investments related to ceded reinsurance transactions in our net invested assets 
+calculation to match the assets with the income received. We believe the adjustments for reinsurance provide a view of the assets for which we have economic exposure. Net invested assets include our proportionate share of ACRA 
+investments, based on our economic ownership, but do not include the proportionate share of investments associated with the noncontrolling interests. Our net invested assets are averaged over the number of quarters in the 
+relevant period to compute our net investment earned rate for such period. While we believe net invested assets is a meaningful financial metric and enhances our understanding of the underlying drivers of our investment portfolio, it 
+should not be used as a substitute for total investments, including related parties, presented under US GAAP.
+Net Reserve Liabilities
+In managing our business, we also analyze net reserve liabilities, which does not correspond to total liabilities as disclosed in our condensed consolidated financial statements and notes thereto. Net reserve liabilities represent our 
+policyholder and institutional liability obligations net of reinsurance and are used to analyze the costs of our liabilities. Net reserve liabilities include (a) interest sensitive contract liabilities, (b) future policy benefits, (c) net market risk 
+benefits, (d) long-term repurchase obligations, (e) dividends payable to policyholders and (f) other policy claims and benefits, offset by reinsurance recoverable, excluding policy loans ceded. Net reserve liabilities include our 
+proportionate share of ACRA reserve liabilities, based on our economic ownership, but do not include the proportionate share of reserve liabilities associated with the noncontrolling interests. Net reserve liabilities are net of the ceded 
+liabilities to third-party reinsurers as the costs of the liabilities are passed to such reinsurers and, therefore, we have no net economic exposure to such liabilities, assuming our reinsurance counterparties perform under our 
+agreements. For such transactions, US GAAP requires the ceded liabilities and related reinsurance recoverables to continue to be recorded in our condensed consolidated financial statements despite the transfer of economic risk to 
+the counterparty in connection with the reinsurance transaction. We include the underlying liabilities assumed through modco reinsurance agreements in our net reserve liabilities calculation to match the liabilities with the expenses 
+incurred. While we believe net reserve liabilities is a meaningful financial metric and enhances our understanding of the underlying profitability drivers of our business, it should not be used as a substitute for total liabilities presented 
+under US GAAP.
+Sales
+Sales statistics do not correspond to revenues under US GAAP but are used as relevant measures to understand our business performance as it relates to inflows generated during a specific period of time. Our sales statistics include 
+inflows for deferred and indexed annuities and align with the LIMRA definition of all money paid into an individual annuity, including money paid into new contracts with initial purchase occurring in the specified period and existing 
+contracts with initial purchase occurring prior to the specified period (including internal transfers). We believe sales is a meaningful metric that enhances our understanding of our business performance and is not the same as 
+premiums presented in our condensed consolidated statements of income (loss).
+Non-GAAP Measures & Definitions, cont’d
+22
+FIXED INCOME INVESTOR PRESENTATION
+Assets Under Management
+Assets Under Management, or AUM, refers to the assets of the funds, partnerships and accounts to which Apollo provides investment management, advisory, or certain other investment-related services, including, without limitation, 
+capital that such funds, partnerships and accounts have the right to call from investors pursuant to capital commitments. AUM equals the sum of: 
+1. the net asset value, plus used or available leverage and/or capital commitments, or gross assets plus capital commitments, of the credit and certain equity funds, partnerships and accounts for which Apollo provides investment 
+management or advisory services, other than certain collateralized loan obligations, collateralized debt obligations, and certain perpetual capital vehicles, which have a fee-generating basis other than the mark-to-market value of 
+the underlying assets; for certain perpetual capital vehicles in credit, gross asset value plus available financing capacity;
+2. the fair value of the investments of equity and certain credit funds, partnerships and accounts Apollo manages or advises, plus the capital that such funds, partnerships and accounts are entitled to call from investors pursuant to 
+capital commitments, plus portfolio level financings;
+3. the gross asset value associated with the reinsurance investments of the portfolio company assets Apollo manages or advises; and 
+4. the fair value of any other assets that Apollo manages or advises for the funds, partnerships and accounts to which Apollo provides investment management, advisory, or certain other investment-related services, plus unused credit 
+facilities, including capital commitments to such funds, partnerships and accounts for investments that may require pre-qualification or other conditions before investment plus any other capital commitments to such funds, 
+partnerships and accounts available for investment that are not otherwise included in the clauses above.
+Apollo’s AUM measure includes Assets Under Management for which Apollo charges either nominal or zero fees. Apollo’s AUM measure also includes assets for which Apollo does not have investment discretion, including certain assets 
+for which Apollo earns only investment-related service fees, rather than management or advisory fees. Apollo’s definition of AUM is not based on any definition of Assets Under Management contained in its governing documents or in 
+any Apollo Fund management agreements. Apollo considers multiple factors for determining what should be included in its definition of AUM. Such factors include but are not limited to (1) Apollo’s ability to influence the investment 
+decisions for existing and available assets; (2) Apollo’s ability to generate income from the underlying assets in its funds; and (3) the AUM measures that Apollo uses internally or believes are used by other investment managers. Given 
+the differences in the investment strategies and structures among other alternative investment managers, Apollo’s calculation of AUM may differ from the calculations employed by other investment managers and, as a result, this 
+measure may not be directly comparable to similar measures presented by other investment managers. Apollo’s calculation also differs from the manner in which its affiliates registered with the SEC report “Regulatory Assets Under 
+Management” on Form ADV and Form PF in various ways.
+Apollo uses AUM, Gross capital deployed and Dry powder as performance measurements of its investment activities, as well as to monitor fund size in relation to professional resource and infrastructure needs.
+Non-GAAP Measures & Definitions, cont’d
+23
+FIXED INCOME INVESTOR PRESENTATION
+Non-GAAP Measure Reconciliations
+(In millions, except percentages)
+RECONCILIATION OF LEVERAGE RATIO TO ADJUSTED LEVERAGE RATIO September 30, 2026
+Total debt $ 8,813 
+Add: 50% of preferred stock  1,235 
+Less: 50% of subordinated debt  888 
+Less: Adjustment to arrive at notional  132 
+Adjusted leverage $ 9,028 
+Total debt $ 8,813 
+Total Athene Holding Ltd. stockholders’ equity  13,413 
+Total capitalization  22,226 
+Less: Accumulated other comprehensive loss  (7,041) 
+Less: Accumulated change in fair value of reinsurance assets  (1,230) 
+Less: Accumulated change in fair value of mortgage loan assets  (2,612) 
+Less: Adjustment to arrive at notional  225 
+Total adjusted capitalization $ 32,884 
+Leverage ratio  50.8 %
+Accumulated other comprehensive loss  (10.7) %
+Accumulated change in fair value of reinsurance assets  (1.9) %
+Accumulated change in fair value of mortgage loan assets  (4.0) %
+Adjustment to exclude 50% of preferred stock  (3.8) %
+Adjustment to exclude 50% of subordinated debt  (2.7) %
+Adjustment to arrive at notional  (0.2) %
+Adjusted leverage ratio  27.5 %
+24
+FIXED INCOME INVESTOR PRESENTATION
+RECONCILIATION OF NET LOSS AVAILABLE TO ATHENE HOLDING LTD. COMMON STOCKHOLDER TO SPREAD RELATED EARNINGS, EXCLUDING NOTABLE ITEMS Twelve months ended September 30, 2026 Nine months ended September 30, 2026
+Net loss available to Athene Holding Ltd. common stockholder $ (1,690) $ (2,178) 
+Add: Preferred stock dividends  141  106 
+Add: Net income attributable to noncontrolling interests  1,332  957 
+Net loss  (217)  (1,115) 
+Income tax expense  1,950  1,471 
+Income before income taxes  1,733  356 
+Investment gains (losses), net of offsets  (3,420)  (3,334) 
+Non-operating change in insurance liabilities and related derivatives  852  717 
+Integration, restructuring and other non-operating items  (129)  (106) 
+Stock compensation expense  (48)  (34) 
+Preferred stock dividends  141  106 
+Noncontrolling interests - pre-tax income and VIE adjustments  1,032  567 
+Less: Total adjustments to income before income taxes  (1,572)  (2,084) 
+Spread related earnings  3,305  2,440 
+Notable items  65  65 
+Spread related earnings, excluding notable items $ 3,370 $ 2,505 
+RECONCILIATION OF BENEFITS AND EXPENSES TO COST OF FUNDS Three months ended September 30, 2026
+US GAAP benefits and expenses $ 4,804  6.04 %
+Premiums  (190)  (0.24) %
+Product charges  (299)  (0.38) %
+Other revenues  (3)  (0.01) %
+Indexed annuity option costs  556  0.70 %
+Reinsurance impacts  (24)  (0.03) %
+Non-operating change in insurance liabilities and embedded derivatives  (281)  (0.35) %
+Policy and other operating expenses, excluding policy acquisition expenses  (548)  (0.69) %
+Forward points adjustment on foreign exchange derivative hedges  78  0.10 %
+AmerUs Closed Block fair value liability  55  0.07 %
+ACRA noncontrolling interests  (985)  (1.24) %
+Other  61  0.08 %
+Total adjustments to arrive at cost of funds  (1,580)  (1.99) %
+Total cost of funds $ 3,224  4.05 %
+Average net invested assets $ 318,291 
+Non-GAAP Measure Reconciliations, cont’d
+(In millions, except percentages)
+25
+FIXED INCOME INVESTOR PRESENTATION
+RECONCILIATION OF TOTAL INVESTMENTS, INCLUDING RELATED PARTIES, TO NET INVESTED ASSETS September 30, 2026
+Total investments, including related parties $ 384,303 
+Derivative assets  (10,950) 
+Cash and cash equivalents (including restricted cash)  18,392 
+Accrued investment income  4,626 
+Net receivable (payable) for collateral on derivatives  (4,840) 
+Reinsurance impacts  (6,725) 
+VIE and VOE assets, liabilities and noncontrolling interests  20,502 
+Unrealized (gains) losses  24,075 
+Ceded policy loans  (152) 
+Net investment receivables (payables)  (6,256) 
+Allowance for credit losses  768 
+Other investments  (48) 
+Total adjustments to arrive at gross invested assets  39,392 
+Gross invested assets  423,695 
+ACRA noncontrolling interests  (101,204) 
+Net invested assets $ 322,491 
+RECONCILIATION OF TOTAL LIABILITIES TO NET RESERVE LIABILITIES September 30, 2026
+Total liabilities $ 448,427 
+Debt  (8,813) 
+Derivative liabilities  (6,757) 
+Payables for collateral on derivatives and short-term securities to repurchase  (7,854) 
+Other liabilities  (16,937) 
+Liabilities of consolidated VIEs  (694) 
+Reinsurance impacts  (13,775) 
+Ceded policy loans  (152) 
+Market risk benefit asset  (171) 
+Total adjustments to arrive at gross reserve liabilities  (55,153) 
+Gross reserve liabilities  393,274 
+ACRA noncontrolling interests  (95,156) 
+Net reserve liabilities $ 298,118 
+Non-GAAP Measure Reconciliations, cont’d
+(In millions)
+26

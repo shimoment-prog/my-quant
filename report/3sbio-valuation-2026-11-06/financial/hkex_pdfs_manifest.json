@@ -1,0 +1,30 @@
+[
+  {
+    "key": "2026h1_announcement",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082001638_c.pdf",
+    "bytes": 480145,
+    "pdf": true,
+    "retrieved_utc": "2026-11-06T03:23:52.419053+00:00"
+  },
+  {
+    "key": "2026h1_report",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093000563_c.pdf",
+    "bytes": 2818431,
+    "pdf": true,
+    "retrieved_utc": "2026-11-06T03:23:54.550581+00:00"
+  },
+  {
+    "key": "2025fy_announcement",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0330/2026033002399_c.pdf",
+    "bytes": 668496,
+    "pdf": true,
+    "retrieved_utc": "2026-11-06T03:23:52.423828+00:00"
+  },
+  {
+    "key": "2025fy_report",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042904533_c.pdf",
+    "bytes": 3585610,
+    "pdf": true,
+    "retrieved_utc": "2026-11-06T03:23:58.784998+00:00"
+  }
+]

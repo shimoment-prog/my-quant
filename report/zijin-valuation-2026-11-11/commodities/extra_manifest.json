@@ -1,0 +1,34 @@
+[
+  {
+    "name": "goldpage",
+    "url": "https://finance.sina.com.cn/futures/quotes/XAU.shtml",
+    "final_url": "https://finance.sina.com.cn/futures/quotes/XAU.shtml",
+    "retrieved_at": "2026-11-11T01:33:13.928257+00:00",
+    "ok": true,
+    "length": 145340
+  },
+  {
+    "name": "copperpage",
+    "url": "https://finance.sina.com.cn/futures/quotes/CAD.shtml",
+    "final_url": "https://finance.sina.com.cn/futures/quotes/CAD.shtml",
+    "retrieved_at": "2026-11-11T01:33:13.928402+00:00",
+    "ok": true,
+    "length": 132044
+  },
+  {
+    "name": "gc_global_daily",
+    "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=GC",
+    "final_url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=GC",
+    "retrieved_at": "2026-11-11T01:33:13.928099+00:00",
+    "ok": true,
+    "length": 391002
+  },
+  {
+    "name": "xau_global_daily",
+    "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=XAU",
+    "final_url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_data=/GlobalFuturesService.getGlobalFuturesDailyKLine?symbol=XAU",
+    "retrieved_at": "2026-11-11T01:33:13.927718+00:00",
+    "ok": true,
+    "length": 691898
+  }
+]

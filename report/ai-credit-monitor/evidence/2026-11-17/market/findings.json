@@ -1,0 +1,254 @@
+{
+  "run_date": "2026-11-17",
+  "comparison_cutoff": "2026-11-16T00:32:08.760704+00:00",
+  "collection_manifest": "manifest.json",
+  "supplemental_official_manifests": [
+    "official_manifest.json",
+    "bis_manifest.json",
+    "fed_manifest.json"
+  ],
+  "new_verified_policy_event": {
+    "event_id": "bis_20261116_remote_advanced_computing_access_rule",
+    "publication_date": "2026-11-16",
+    "first_verified_at": "2026-11-17T02:14:09.965653+00:00",
+    "evidence_grade": "primary_US_BIS_press_release_and_on_display_rule_PDF",
+    "source": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "rule_source": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+    "raw_files": [
+      "bis_release.html",
+      "bis_release.txt",
+      "bis_rule.pdf",
+      "bis_rule_extracted.txt"
+    ],
+    "rule_status": "announced_interim_final_rule_on_display_effective_date_calendar_not_verified",
+    "effective_date_raw_text": "This rule is effective [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]",
+    "effective_date": null,
+    "scope_verified": [
+      "New restrictions on exports/reexports/in-country transfers of advanced computing items to overseas data centers remotely supplying significant compute to/for companies headquartered or with ultimate parent in Country GroupD:5 or Macau.",
+      "Destination licensing for Indonesia,Malaysia,Singapore,Thailand,Brazil; US-headquartered ultimate consignee/end user can qualify for exclusion if reporting requirements are met.",
+      "End-use definitions, compute thresholds and case-by-case license process apply; commercial recommender system exclusions appear in summary and operative text.",
+      "Existing covered services are described as having90days from effectiveness to seek license; actual start/end calendar not established."
+    ],
+    "textual_ambiguity": "One preamble sentence on PDFpage9 refers to existing recommender services needing licensing after90days while summary/operative language elsewhere gives recommender exclusions. Avoid categorical legal characterization; inspect definitive operative sections and official clarification.",
+    "direct_contract_mapping": {
+      "Alphabet": null,
+      "Meta": null,
+      "Microsoft": null,
+      "Amazon": null,
+      "Oracle": null,
+      "Anthropic": null
+    },
+    "company_formal_capex_cut_verified": false,
+    "specific_order_cancelled_verified": false,
+    "specific_customer_prepayment_refund_verified": false,
+    "project_funding_interruption_verified": false,
+    "actual_lender_loss_or_guarantee_payout_verified": false,
+    "credit_market_spread_change_attributable_verified": false,
+    "interpretation": "Verified incremental regulatory/event risk may affect remote-compute customer eligibility and future delivery/compliance. It is not evidence that all five-country projects are banned, named company contracts cancelled, customer payments defaulted or financing closed. Treat one policy as one evidence event, not multiple independent demand/credit losses.",
+    "next_confirmation": [
+      "FederalRegister definitive publication/effective date and licensing/transition clarification",
+      "Monitored issuer customer concentration/regulatory statements and quantified affected revenue/contracts",
+      "Actual contract scope/cancellation/refund, formal capex/guidance changes and project financing consequences"
+    ]
+  },
+  "historical_primary_enrichment": {
+    "record_type": "historical_primary_report_enrichment_not_new_today",
+    "event_id": "fed_20261113_fsr_datacenter_leverage_box22",
+    "issuer_or_authority": "Federal Reserve Board",
+    "publication_date": "2026-11-13",
+    "first_monitor_primary_verification_date": "2026-11-17",
+    "reporting_scope": {
+      "debt_issuance_and_public_debt": "through October2026",
+      "other_obligations_figure_C": "2026Q2"
+    },
+    "source": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+    "index_source": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+    "evidence_grade": "primary_official_full_pdf_box22_printed_pages23_to25_visually_verified",
+    "source_pages_pdf": [
+      31,
+      32,
+      33
+    ],
+    "figures": {
+      "advanced_computing_debt_issuance_2026_through_Oct_USD_greater_than": 680000000000,
+      "advanced_computing_debt_issuance_2023_USD_approx": 130000000000,
+      "share_nonfinancial_investment_grade_issuance_2026_approx_pct": 31,
+      "share_nonfinancial_investment_grade_issuance_2023_pct_less_than": 6,
+      "outstanding_advanced_computing_public_debt_Oct2026_USD_greater_than": 1100000000000,
+      "not_yet_commenced_lease_undiscounted_USD_greater_than": 1000000000000,
+      "other_obligations_take_or_pay_residual_guarantees_undiscounted_USD_greater_than": 2000000000000,
+      "largest_US_BHC_exposure_to_broad_related_categories_USD_approx": 1000000000000
+    },
+    "bank_exposure_scope": "large technology firms, data center developers, advanced computing related SPE/private credit and utility companies; not exclusively AI credit or realized losses",
+    "obligation_scope_companies": [
+      "Amazon",
+      "Alphabet",
+      "Broadcom",
+      "Meta",
+      "Microsoft",
+      "NVIDIA",
+      "Oracle"
+    ],
+    "issuance_definition": "Includes public issuance and trackable Rule144A securities; excludes Section4(a)(2) placements, not complete private credit inventory.",
+    "interpretation": "Confirms increasing debt/contingent-obligation interconnections among hyperscalers, GPU makers, SPEs and lenders. Exposure and undiscounted commitments do not equal current debt due, default or actual losses; do not add to company obligations again.",
+    "deduplication": "This report aggregates existing obligations/deals, not another independent company financing event or evidence of fresh company cash outflow. Historical first verification explicitly labelled.",
+    "recent_issuer_CDS_or_credit_spread_data": false,
+    "realized_losses_verified_by_this_box": false,
+    "raw_files": [
+      "fed_FSR_actual_pdf.pdf",
+      "fed_FSR_actual_pdf.txt",
+      "fed_relevant_pages.png",
+      "fed_manifest.json"
+    ]
+  },
+  "new_proxy_observations_verified": false,
+  "current_issuer_CDS_comparable_series_available": false,
+  "matched_cash_bond_spread_series_available": false,
+  "CDX_IG_comparable_series_available": false,
+  "proxies": [
+    {
+      "id": "BAMLC0A0CM",
+      "source_id": "fred_ig",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-11",
+      "value": 90.0,
+      "previous_market_observation": {
+        "date": "2026-11-09",
+        "value": 91.0
+      },
+      "change_bp_vs_previous_market_observation": -1.0,
+      "comparison_to_previous_monitor_run": {
+        "date": "2026-11-11",
+        "value": 90.0,
+        "new_market_observation": null,
+        "value_change_bp": null,
+        "previous_monitor_run_at": "2026-11-16T00:32:08.760704+00:00",
+        "reason": "Current FRED CSV and series-page attempts timed out; no verified current observation."
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-13",
+        "value": 83.0,
+        "change_bp": 7.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "publication_at": null,
+      "retrieved_at": "2026-11-13T00:27:08.513872+00:00",
+      "archived_csv": "evidence/2026-11-13/market/fred_ig.csv",
+      "recent_valid_observations": [
+        {
+          "date": "2026-11-03",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-04",
+          "value": 91.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-06",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-09",
+          "value": 91.0
+        },
+        {
+          "date": "2026-11-11",
+          "value": 90.0
+        }
+      ],
+      "notes": [
+        "Last successful observation November11, not a current November17 quote or evidence source has not updated.",
+        "Historical broad ICE BofA market proxy; not issuer CDS/matched cash bond or CDX.IG.",
+        "No interpolation, no current missing value treated as zero change."
+      ],
+      "current_run_collection_status": "failed_FRED_timeout_carry_prior_verified_observation",
+      "carried_forward_from": "observations/2026-11-16.json#market_proxies",
+      "reviewed_at": "2026-11-17T02:16:14.224223+00:00"
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "source_id": "fred_hy",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-11",
+      "value": 330.0,
+      "previous_market_observation": {
+        "date": "2026-11-09",
+        "value": 334.0
+      },
+      "change_bp_vs_previous_market_observation": -4.0,
+      "comparison_to_previous_monitor_run": {
+        "date": "2026-11-11",
+        "value": 330.0,
+        "new_market_observation": null,
+        "value_change_bp": null,
+        "previous_monitor_run_at": "2026-11-16T00:32:08.760704+00:00",
+        "reason": "Current FRED CSV and series-page attempts timed out; no verified current observation."
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-13",
+        "value": 316.0,
+        "change_bp": 14.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "publication_at": null,
+      "retrieved_at": "2026-11-13T00:27:08.514212+00:00",
+      "archived_csv": "evidence/2026-11-13/market/fred_hy.csv",
+      "recent_valid_observations": [
+        {
+          "date": "2026-11-03",
+          "value": 340.0
+        },
+        {
+          "date": "2026-11-04",
+          "value": 332.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 348.0
+        },
+        {
+          "date": "2026-11-06",
+          "value": 342.0
+        },
+        {
+          "date": "2026-11-09",
+          "value": 334.0
+        },
+        {
+          "date": "2026-11-11",
+          "value": 330.0
+        }
+      ],
+      "notes": [
+        "Last successful observation November11, not a current November17 quote or evidence source has not updated.",
+        "Historical broad ICE BofA market proxy; not issuer CDS/matched cash bond or CDX.IG.",
+        "No interpolation, no current missing value treated as zero change."
+      ],
+      "current_run_collection_status": "failed_FRED_timeout_carry_prior_verified_observation",
+      "carried_forward_from": "observations/2026-11-16.json#market_proxies",
+      "reviewed_at": "2026-11-17T02:16:14.224223+00:00"
+    }
+  ],
+  "RSS_leads_file": "incremental_news_items.json",
+  "RSS_are_verified_facts": false,
+  "lead_ownership": {
+    "HSBC_discounted_loan": "priority/findings.json",
+    "TELUS_projects": "chain/findings.json",
+    "Amazon_Blackstone_asset_transaction": "chain/findings.json;priority/findings.json"
+  },
+  "overall_collection_failure": false,
+  "partial_missing": [
+    "Current FRED endpoints timed out, historical Nov11 proxies retained only.",
+    "Credit and demand RSS returned429; chain RSS succeeded.",
+    "No issuer5YCDS,matched20daycashbondorCDX.IGseries."
+  ],
+  "interpretation": "Policy and historical leverage-box evidence inform exposure monitoring, not realized demand cancellations or present lender losses. HSBC repayment/default/loss must be independently reviewed in priority; no numeric crash probability."
+}

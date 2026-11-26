@@ -1,0 +1,15 @@
+{
+  "source": "https://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get?param=hk01530,day,,,320,qfq",
+  "adjustment": "qfq",
+  "last_completed_date": "2026-11-05",
+  "ma": {
+    "5": 14.248,
+    "10": 13.986,
+    "20": 14.265,
+    "60": 15.752333333333333,
+    "120": 16.470833333333335
+  },
+  "reference_price": 15.27,
+  "rebound_from_20261027_low_pct": 17.01149425287356,
+  "interpretation": "Short term price above5/10/20MA, below60/120MA. Levels are conditional references, not targets."
+}

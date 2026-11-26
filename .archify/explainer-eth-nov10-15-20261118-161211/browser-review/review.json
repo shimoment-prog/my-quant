@@ -1,0 +1,140 @@
+{
+  "artifact": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-20261118-161211/eth-nov10-15-review.html",
+  "artifact_sha256": "20823097fb82883dcb25d31d7d9c07f3fc6ff4c8db100cfff8cac35425f3a86b",
+  "errors": [],
+  "externalRequests": [],
+  "samples": [
+    {
+      "name": "chart-desktop-dark",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 1741,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 1471,
+        "body": 1468.328125,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-desktop-light",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 1741,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 1471,
+        "body": 1468.328125,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "report-desktop-light",
+      "outer": {
+        "w": 1440,
+        "sw": 1440,
+        "h": 2808,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 1280,
+        "sw": 1280,
+        "h": 2538,
+        "body": 2535.65625,
+        "theme": "light"
+      }
+    },
+    {
+      "name": "report-mobile-dark",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 4931,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 4586,
+        "body": 4583.1875,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-mobile-dark",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 2118,
+        "theme": "dark"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 1773,
+        "body": 1770.09375,
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "chart-mobile-light",
+      "outer": {
+        "w": 390,
+        "sw": 390,
+        "h": 2118,
+        "theme": "light"
+      },
+      "inner": {
+        "w": 366,
+        "sw": 366,
+        "h": 1773,
+        "body": 1770.09375,
+        "theme": "light"
+      }
+    }
+  ],
+  "checkedTrades": 30,
+  "state": {
+    "selectedTrade": 21,
+    "visibleRange": {
+      "from": 71.49999999999977,
+      "to": 1799.5
+    },
+    "candleCount": 1800,
+    "tradeCount": 30,
+    "overlayShapes": 7
+  },
+  "mobileState": {
+    "selectedTrade": 1,
+    "visibleRange": {
+      "from": 66,
+      "to": 114
+    },
+    "candleCount": 1800,
+    "tradeCount": 30,
+    "overlayShapes": 7
+  },
+  "perceptual_review": {
+    "status": "passed",
+    "inspected": [
+      "report-desktop-light.png",
+      "double-touch-16.png",
+      "all-trades-desktop.png",
+      "chart-mobile-dark.png"
+    ],
+    "notes": [
+      "All six days visible in full-range view.",
+      "30 positions produce 60 risk/reward rectangles.",
+      "EMA10, SMA10, RSI14, trigger/key markers and checks visible.",
+      "Double-touch exit labels are explicit."
+    ]
+  }
+}

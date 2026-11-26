@@ -1,0 +1,30 @@
+[
+  {
+    "name": "aaoi_results",
+    "url": "https://investors.ao-inc.com/2026-11-05-Applied-Optoelectronics-Reports-Third-Quarter-2026-Results",
+    "retrieved_at": "2026-11-06T00:44:27.234518+00:00",
+    "ok": true,
+    "length": 136707
+  },
+  {
+    "name": "aaoi_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008351/aaoi_8k.htm",
+    "retrieved_at": "2026-11-06T00:44:27.234856+00:00",
+    "ok": true,
+    "length": 30961
+  },
+  {
+    "name": "aaoi_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm",
+    "retrieved_at": "2026-11-06T00:44:27.235039+00:00",
+    "ok": true,
+    "length": 1915778
+  },
+  {
+    "name": "lite_425",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526448735/d178056d425.htm",
+    "retrieved_at": "2026-11-06T00:44:27.235200+00:00",
+    "ok": true,
+    "length": 17363
+  }
+]

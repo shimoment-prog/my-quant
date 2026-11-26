@@ -1,0 +1,26 @@
+[
+  {
+    "id": "news_sungrow",
+    "url": "https://news.google.com/rss/search?q=%E9%98%B3%E5%85%89%E7%94%B5%E6%BA%90+%E5%82%A8%E8%83%BD+after%3A2026-10-08+before%3A2026-11-06&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:54:33.694047+00:00"
+  },
+  {
+    "id": "news_storage",
+    "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD+%E9%80%86%E5%8F%98%E5%99%A8+%E8%AE%A2%E5%8D%95+%E7%94%B5%E4%BB%B7+after%3A2026-10-08+before%3A2026-11-06&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:54:33.646964+00:00"
+  },
+  {
+    "id": "news_policy",
+    "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD+%E6%94%BF%E7%AD%96+%E5%AE%B9%E9%87%8F%E7%94%B5%E4%BB%B7+after%3A2026-10-08+before%3A2026-11-06&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:54:33.674773+00:00"
+  },
+  {
+    "id": "quotes",
+    "url": "https://qt.gtimg.cn/q=sz300274,sz300763,sz300693,sh688390,sz300827,sz300750,sz002518,sh000001,sz399006",
+    "ok": true,
+    "retrieved_at": "2026-11-05T02:54:33.319084+00:00"
+  }
+]

@@ -1,0 +1,888 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-11-16T14:33:16+08:00",
+  "scope": "Nov16afternoonboundedoverseasincrementalcheck; temporaryevidenceonly,nostatemutations",
+  "baseline_cutoff_beijing": "2026-11-16T10:33:00+08:00",
+  "last_completed_US_regular_session": "2026-11-13",
+  "US_regular_close_beijing": "2026-11-14T05:00:00+08:00",
+  "US_context": "At14:32Beijing it isMonday01:32EST. USMondaynormal04:00ESTpremarketand09:30ESTregularsessionhavenotstarted. No newerUSregularsession thanFridayNov13.",
+  "prices": {
+    "LITE": {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "regular_close": 596.62,
+      "previous_regular_close": 624.65,
+      "open": 613.0,
+      "regular_change_pct": -4.49,
+      "high": 624.0,
+      "low": 569.0,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-14T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 596.62,
+        "regular_change_pct": -4.49,
+        "regular_close_label_exchange": "Nov 13 04:00PM EST",
+        "provider_update_beijing": "2026-11-14 09:04:36",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 582.867,
+        "change_vs_regular_close_pct": -2.31,
+        "time_exchange": "2026-11-13T19:59:00-05:00",
+        "time_beijing": "2026-11-14T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -2.672104404567699,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 1,
+      "historical_dates_returned": [
+        "2026-11-13"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+    },
+    "MRVL": {
+      "symbol": "MRVL",
+      "name": "迈威尔科技",
+      "regular_close": 156.76,
+      "previous_regular_close": 164.45,
+      "open": 161.6,
+      "regular_change_pct": -4.68,
+      "high": 163.89,
+      "low": 149.17,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-14T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 156.76,
+        "regular_change_pct": -4.68,
+        "regular_close_label_exchange": "Nov 13 04:00PM EST",
+        "provider_update_beijing": "2026-11-14 09:16:08",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 152.5883,
+        "change_vs_regular_close_pct": -2.66,
+        "time_exchange": "2026-11-13T19:59:00-05:00",
+        "time_beijing": "2026-11-14T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -2.9950495049504977,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 2,
+      "historical_dates_returned": [
+        "2011-06-02",
+        "2026-11-13"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+    },
+    "COHR": {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "regular_close": 218.15,
+      "previous_regular_close": 232.08,
+      "open": 229.75,
+      "regular_change_pct": -6.0,
+      "high": 233.68,
+      "low": 207.69,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:03:12-05:00",
+      "source_last_update_beijing": "2026-11-14T05:03:12+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 218.15,
+        "regular_change_pct": -6.0,
+        "regular_close_label_exchange": "Nov 13 04:00PM EST",
+        "provider_update_beijing": "2026-11-14 09:24:41",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 212.68,
+        "change_vs_regular_close_pct": -2.51,
+        "time_exchange": "2026-11-13T19:59:00-05:00",
+        "time_beijing": "2026-11-14T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -5.048966267682264,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 2,
+      "historical_dates_returned": [
+        "2011-06-02",
+        "2026-11-13"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+    },
+    "CIEN": {
+      "symbol": "CIEN",
+      "name": "Ciena科技",
+      "regular_close": 280.54,
+      "previous_regular_close": 293.99,
+      "open": 289.8,
+      "regular_change_pct": -4.57,
+      "high": 295.0,
+      "low": 271.24,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:03:12-05:00",
+      "source_last_update_beijing": "2026-11-14T05:03:12+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 280.54,
+        "regular_change_pct": -4.57,
+        "regular_close_label_exchange": "Nov 13 04:00PM EST",
+        "provider_update_beijing": "2026-11-14 09:24:26",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 276.94,
+        "change_vs_regular_close_pct": -1.28,
+        "time_exchange": "2026-11-13T19:56:00-05:00",
+        "time_beijing": "2026-11-14T08:56:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -3.195307108350587,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 2,
+      "historical_dates_returned": [
+        "2011-06-02",
+        "2026-11-13"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+    },
+    "AAOI": {
+      "symbol": "AAOI",
+      "name": "应用光电",
+      "regular_close": 49.89,
+      "previous_regular_close": 52.85,
+      "open": 51.91,
+      "regular_change_pct": -5.6,
+      "high": 53.5,
+      "low": 47.28,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-14T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 49.89,
+        "regular_change_pct": -5.6,
+        "regular_close_label_exchange": "Nov 13 04:00PM EST",
+        "provider_update_beijing": "2026-11-14 09:22:03",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 48.49,
+        "change_vs_regular_close_pct": -2.81,
+        "time_exchange": "2026-11-13T19:59:00-05:00",
+        "time_beijing": "2026-11-14T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -3.891350414178374,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 1,
+      "historical_dates_returned": [
+        "2026-11-13"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+    },
+    "FN": {
+      "symbol": "FN",
+      "name": "Fabrinet",
+      "regular_close": 327.98,
+      "previous_regular_close": 353.83,
+      "open": 351.0,
+      "regular_change_pct": -7.31,
+      "high": 353.33,
+      "low": 319.0,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:03:12-05:00",
+      "source_last_update_beijing": "2026-11-14T05:03:12+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 327.98,
+        "regular_change_pct": -7.31,
+        "regular_close_label_exchange": "Nov 13 04:00PM EST",
+        "provider_update_beijing": "2026-11-14 09:16:10",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 327.14,
+        "change_vs_regular_close_pct": -0.26,
+        "time_exchange": "2026-11-13T19:59:00-05:00",
+        "time_beijing": "2026-11-14T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -6.558404558404551,
+      "ohlc_does_not_establish_intraday_path": true,
+      "historical_rows_returned": 2,
+      "historical_dates_returned": [
+        "2011-06-02",
+        "2026-11-13"
+      ],
+      "five_twenty_day_return": null,
+      "historical_gap": "Requested40 daily rows; returned sparse dates, not enough contiguous daily observations for verified5/20session returns."
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "英伟达",
+      "regular_close": 162.85,
+      "previous_regular_close": 166.19,
+      "open": 169.91,
+      "regular_change_pct": -2.01,
+      "high": 170.0,
+      "low": 158.39,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-14T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 162.85,
+        "regular_change_pct": -2.01,
+        "regular_close_label_exchange": "Nov 13 04:00PM EST",
+        "provider_update_beijing": "2026-11-14 09:14:56",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 161.04,
+        "change_vs_regular_close_pct": -1.11,
+        "time_exchange": "2026-11-13T19:59:00-05:00",
+        "time_beijing": "2026-11-14T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -4.155140956977221,
+      "ohlc_does_not_establish_intraday_path": true
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "博通",
+      "regular_close": 347.01,
+      "previous_regular_close": 364.36,
+      "open": 356.54,
+      "regular_change_pct": -4.76,
+      "high": 358.47,
+      "low": 337.67,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-14T05:00:01+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 347.01,
+        "regular_change_pct": -4.76,
+        "regular_close_label_exchange": "Nov 13 04:00PM EST",
+        "provider_update_beijing": "2026-11-14 09:16:07",
+        "source": "sina.raw"
+      },
+      "afterhours": {
+        "price": 340.2,
+        "change_vs_regular_close_pct": -1.96,
+        "time_exchange": "2026-11-13T19:59:00-05:00",
+        "time_beijing": "2026-11-14T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "close_vs_open_pct": -2.6729118752454206,
+      "ohlc_does_not_establish_intraday_path": true
+    },
+    ".IXIC": {
+      "symbol": ".IXIC",
+      "name": "纳斯达克",
+      "regular_close": 25136.27,
+      "previous_regular_close": 25366.09,
+      "open": 25408.0,
+      "regular_change_pct": -0.91,
+      "high": 25423.09,
+      "low": 24872.41,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": null,
+      "source_last_update_exchange": "2026-11-13T17:15:59-05:00",
+      "source_last_update_beijing": "2026-11-14T06:15:59+08:00",
+      "source": "quotes.raw",
+      "sina_crosscheck": {
+        "regular_close": 25136.2726,
+        "regular_change_pct": -0.91,
+        "provider_update_beijing": "2026-11-14 06:30:30",
+        "provider_exchange_label": "Nov 13 05:16PM EST"
+      }
+    },
+    "SOXX": {
+      "symbol": "SOXX",
+      "name": "费城半导体ETF-iShares",
+      "regular_close": 149.3,
+      "previous_regular_close": 154.99,
+      "open": 153.32,
+      "regular_change_pct": -3.67,
+      "high": 154.37,
+      "low": 144.64,
+      "session_date": "2026-11-13",
+      "session": "regular_close",
+      "currency": "USD",
+      "source_last_update_exchange": "2026-11-13T16:00:01-05:00",
+      "source_last_update_beijing": "2026-11-14T05:00:01+08:00",
+      "source": "quotes.raw"
+    },
+    "SOX": {
+      "symbol": "SOX",
+      "name": "费交所半导体股指数",
+      "regular_close": 10146.3231,
+      "regular_change_pct": -3.43,
+      "previous_regular_close": 10506.6739,
+      "open": 10412.0822,
+      "high": 10461.9777,
+      "low": 9828.9798,
+      "session_date": "2026-11-13",
+      "session": "regular_session_index_value",
+      "provider_update_beijing": "2026-11-14 06:16:01",
+      "provider_exchange_label": "Nov 13 05:16PM EST",
+      "source": "sina.raw",
+      "afterhours": null,
+      "note": "Index dissemination timestamp after16:00ET is not an after-hours traded session. Independent second SOX index provider not obtained; SOXX ETF is distinct."
+    }
+  },
+  "price_source_reuse": {
+    "original_fetch_beijing": "2026-11-16T08:48:27+08:00",
+    "fresh_quote_fetch_this_run": false,
+    "regular_session_date": "2026-11-13",
+    "afterhours_times_beijing": "2026-11-14T08:56:00+08:00 to08:59:00+08:00",
+    "note": "Originalnormalcloseandafterhourssnapshotlabelsretained. Not fresh14:30trades; noMondaynormalpremarketyet."
+  },
+  "SEC_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-10T21:07:33.000Z",
+      "same_raw_as_morning_1033": true
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-13T19:32:10.000Z",
+      "same_raw_as_morning_1033": true
+    },
+    {
+      "symbol": "COHR",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T11:02:52.000Z",
+      "same_raw_as_morning_1033": true
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-04T21:41:34.000Z",
+      "same_raw_as_morning_1033": true
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T21:05:45.000Z",
+      "same_raw_as_morning_1033": true
+    },
+    {
+      "symbol": "FN",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-05T18:16:20.000Z",
+      "same_raw_as_morning_1033": true
+    },
+    {
+      "symbol": "NVDA",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-12T13:52:41.000Z",
+      "same_raw_as_morning_1033": true
+    },
+    {
+      "symbol": "AVGO",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-10-27T20:23:36.000Z",
+      "same_raw_as_morning_1033": true
+    },
+    {
+      "symbol": "NBIS",
+      "new_filings_after_cutoff": [],
+      "latest_accepted_utc": "2026-11-13T21:48:42.000Z",
+      "same_raw_as_morning_1033": true
+    }
+  ],
+  "SEC_summary_zh": "14:31:22刷新六家光通信及NVDA/AVGO/NBIS九家SEC，原始响应与上午10:33相同，未核新增申报。",
+  "IR_comparisons": [
+    {
+      "name": "aaoi_ir",
+      "length": 2693,
+      "same_raw_as_morning_1033": false,
+      "same_cleaned_as_morning_1033": true
+    },
+    {
+      "name": "mrvl_ir",
+      "length": 4952,
+      "same_raw_as_morning_1033": true,
+      "same_cleaned_as_morning_1033": true
+    },
+    {
+      "name": "cohr_ir",
+      "length": 15385,
+      "same_raw_as_morning_1033": true,
+      "same_cleaned_as_morning_1033": true
+    },
+    {
+      "name": "nvda_news",
+      "length": 5155,
+      "same_raw_as_morning_1033": true,
+      "same_cleaned_as_morning_1033": true
+    },
+    {
+      "name": "cn_300502",
+      "length": 3876,
+      "same_raw_as_morning_1033": true,
+      "same_cleaned_as_morning_1033": true
+    },
+    {
+      "name": "cn_300308",
+      "length": 3424,
+      "same_raw_as_morning_1033": true,
+      "same_cleaned_as_morning_1033": true
+    },
+    {
+      "name": "cn_603083",
+      "length": 3676,
+      "same_raw_as_morning_1033": true,
+      "same_cleaned_as_morning_1033": true
+    }
+  ],
+  "IR_unavailable": [
+    {
+      "name": "avgo_ir",
+      "url": "https://investors.broadcom.com/news-releases",
+      "retrieved_at": "2026-11-16T06:31:25.176599+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "cien_ir",
+      "url": "https://investor.ciena.com/news-releases",
+      "retrieved_at": "2026-11-16T06:31:24.223176+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "lite_ir",
+      "url": "https://investor.lumentum.com/news-events/press-releases",
+      "retrieved_at": "2026-11-16T06:31:24.147458+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "fn_ir",
+      "url": "https://investor.fabrinet.com/news-releases",
+      "retrieved_at": "2026-11-16T06:31:24.253036+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "new_verified_primary_events": [],
+  "new_secondary_reports": [
+    {
+      "id": "5216730",
+      "published_at_beijing": "2026-11-16 10:41:50",
+      "source": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5744284.d.html",
+      "text_as_reported": "【英伟达收紧对AI企业的资金支持，昔日“提款机”时代或将终结】黄仁勋在辞去英伟达首席执行官前的最后几个月里，已经开始为公司调整支持AI经济的方式铺路。如今，随着一位对黄仁勋敲定的部分交易早已持谨慎态度的财务主管接掌公司，那些一直依赖英伟达支持的初创企业预计，公司将进一步收紧支持力度。就在上个月，数家新兴云计算公司的首席执行官齐聚柏林，参加英伟达在欧洲举办的顶级人工智能大会。这些公司购买英伟达芯片，再将计算能力出租给客户。黄仁勋在一场令部分与会者感到意外的演讲中明确表示：英伟达充当“无限提款机”的时代已经结束。许多曾依赖英伟达的企业如今感到忧心忡忡。瑞银分析师蒂姆·阿库里在最近的一份报告中估计，如果英伟达收紧融资支持，可能会导致市场上减少500亿美元甚至更多的资金；在利率不断上升的背景下，这将使相关企业陷入缺乏资金支持的困境。",
+      "classification": "new_media_report_of_funding_risk_not_official_quantified_cut",
+      "limits": "媒体引用上月讲话及初创企业预期；500亿美元为瑞银假设估算，非已宣布撤回资金，未取得正式新投资政策/取消合同。",
+      "implication": "融资渠道收紧风险可影响新云厂商扩张节奏与估值，但不能等同已取消GPU/光模块订单。"
+    },
+    {
+      "id": "5217013",
+      "published_at_beijing": "2026-11-16 14:00:07",
+      "source": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8955553.d.html",
+      "text_as_reported": "【高盛：英伟达管理层交接属有限度负面，目标价降至220美元】高盛发表研报指，英伟达董事会宣布CEO兼联合创办人黄仁勋辞任行政总裁及董事，财务总监Colette Kress实时出任临时行政总裁并继续兼任财务总监，董事会同时推选Harvey C. Jones为主席。该行认为，公告对股价构成实质性但幅度温和的负面影响，并体现在多个维度上。该行指出，公司在半导体设计、软件、系统设计、营运及财务等职能层面管理层实力雄厚，但投资者尚未见到具备与黄仁勋同等愿景、影响力及对外号召力的高层；未来或更难促成同等规模的多方生态系投资。该行亦认为，黄仁勋对企业文化至关重要，未来12至18个月执行风险有所上升，惟Rubin Ultra及Feynman两代产品执行已在推进，且长达12至24个月的积压订单与未来两至三年产品路线图已进入执行阶段，对未来12至18个月财务及盈利能力的直接影响料属可控。该行维持“买入”评级，将12个月目标价由300美元降26.7%至220美元。该行预计2027年历年每股盈利16.7美元，高于市场预期的15.91美元。主要下行风险包括管理层交接不确定性、营运及执行风险上升、客户活动或订单放缓，以及内外部调查。",
+      "classification": "new_media_of_analyst_valuation_and_execution_opinion",
+      "limits": "高盛研报原文未取得；目标价变化及未来积压订单、盈利均是分析师判断，非公司新增指引或已实现经营结果。",
+      "implication": "治理/执行与估值压力仍在，但报道同时认为近期路线图和盈利影响可控，不能单向解读需求崩塌。"
+    },
+    {
+      "id": "5216971",
+      "published_at_beijing": "2026-11-16 13:36:09",
+      "source": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8945450.d.html",
+      "text_as_reported": "【公司9月存货目前为止是否已全部发货？新易盛回应】有投资者向新易盛（300502.SZ）提问，相信科技强国，重仓持有新易盛小小股东，目前浮亏60%，市场担心贵公司存货究竟能不能卖出去呢，9月存货到目前为止已经全部发货出去没有，麻烦董秘真正站在对公司认可投资价值，坚守阵地。11月16日，公司回答表示，三季度存货中的库存商品可较快实现销售。",
+      "classification": "new_media_attribution_of_company_interactive_answer_primary_platform_not_obtained",
+      "limits": "未取得互动易原始记录；回答是库存商品可较快销售，不等于9月全部存货已经发货或已确认收入，也没给具体订单/交付额。",
+      "implication": "直接相关承接反证，应继续看实际出货、库存周转及回款；不据此认定所有库存风险解除。"
+    },
+    {
+      "id": "5216926",
+      "published_at_beijing": "2026-11-16 13:05:04",
+      "source": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5707114.d.html",
+      "text_as_reported": "据英国《金融时报》报道，Uniper 即将达成首项协议，将废弃发电厂改造为数据中心。",
+      "classification": "new_media_of_near_agreement_not_completed_contract",
+      "limits": "FT原文/Uniper公司公告未取得；即将达成不等于协议已签、实际资本开支或模块订单。",
+      "implication": "显示数据中心建设项目仍在讨论，但不能换算成国内两家收入。"
+    }
+  ],
+  "excluded_or_lower_weight": [
+    {
+      "topic": "主力净流出统计",
+      "reason": "主动买卖分类不是实际机构流入流出，不作独立需求证据。"
+    },
+    {
+      "topic": "分析师调目标价",
+      "reason": "HSBC/CLSA/Goldman意见属于估值和执行风险看法，不等同客户取消订单。"
+    },
+    {
+      "topic": "个人员工离职及继任候选人传闻",
+      "reason": "个体报道未核正式任命/公司决议，不推断整条产业链离职或交付停摆。"
+    },
+    {
+      "topic": "粤芯硅光应用及其他国内技术互动回答",
+      "reason": "产品涵盖400G/800G/1.6T不等于新增量产/交付收入。"
+    },
+    {
+      "topic": "国内CPO股价报道",
+      "reason": "可作路径旁证，但以父agent带时间行情为准；不在此重建实时价格或冻结低点。"
+    }
+  ],
+  "news_feed_coverage": {
+    "fetched_unique_rows": 600,
+    "range": [
+      "2026-11-16 07:58:00",
+      "2026-11-16 14:30:50"
+    ],
+    "post_cutoff_count": 335
+  },
+  "assessment_zh": "海外最新正常盘仍11/13，六家跌4.49%—7.31%、费半跌3.43%，价格沿用今晨08:48核验。10:33后未核公司新增订单取消、六家业绩下调或新贸易禁令；融资收紧和评级报道增加对资本开支兑现与估值的担忧，但多为上月讲话/情景估计。新易盛库存商品可较快销售的互动回复媒体报道是反证，未给已出货数量或收入，不足以确认全部存货售罄。",
+  "limits": [
+    "PrimaryplatformforEoptolinkinteractiveanswerandoriginalanalystreportsnotobtained; retainmediaattribution.",
+    "LITE/CIENIR429,FN/AVGOIR403; cannotproveabsenceofallnewprivate/localdisclosures.",
+    "SEC/IRboundedrefresh14:31; selectedarticleoriginalsread14:32:13.",
+    "No verifiednewordercancellation, capexactualcut,corematerialshortageorcommercial1.6T/NPO/CPOshipmentincheckedsources.",
+    "No statisticalprobabilitymodelorhit rate; nooverseasreturnconversiontoprobability."
+  ],
+  "sources": [
+    {
+      "name": "avgo_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "retrieved_at": "2026-11-16T06:31:22.120550+00:00",
+      "ok": true,
+      "length": 160094,
+      "final_url": "https://data.sec.gov/submissions/CIK0001730168.json"
+    },
+    {
+      "name": "mrvl_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+      "retrieved_at": "2026-11-16T06:31:22.119576+00:00",
+      "ok": true,
+      "length": 137616,
+      "final_url": "https://data.sec.gov/submissions/CIK0001835632.json"
+    },
+    {
+      "name": "nvda_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "retrieved_at": "2026-11-16T06:31:22.120364+00:00",
+      "ok": true,
+      "length": 159760,
+      "final_url": "https://data.sec.gov/submissions/CIK0001045810.json"
+    },
+    {
+      "name": "cohr_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+      "retrieved_at": "2026-11-16T06:31:22.119751+00:00",
+      "ok": true,
+      "length": 159783,
+      "final_url": "https://data.sec.gov/submissions/CIK0000820318.json"
+    },
+    {
+      "name": "lite_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+      "retrieved_at": "2026-11-16T06:31:22.119142+00:00",
+      "ok": true,
+      "length": 159166,
+      "final_url": "https://data.sec.gov/submissions/CIK0001633978.json"
+    },
+    {
+      "name": "aaoi_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+      "retrieved_at": "2026-11-16T06:31:22.120047+00:00",
+      "ok": true,
+      "length": 154731,
+      "final_url": "https://data.sec.gov/submissions/CIK0001158114.json"
+    },
+    {
+      "name": "cien_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+      "retrieved_at": "2026-11-16T06:31:22.119892+00:00",
+      "ok": true,
+      "length": 158567,
+      "final_url": "https://data.sec.gov/submissions/CIK0000936395.json"
+    },
+    {
+      "name": "nvda_news",
+      "url": "https://nvidianews.nvidia.com/news",
+      "retrieved_at": "2026-11-16T06:31:24.265974+00:00",
+      "ok": true,
+      "length": 68143,
+      "final_url": "https://nvidianews.nvidia.com/news"
+    },
+    {
+      "name": "fn_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+      "retrieved_at": "2026-11-16T06:31:22.120216+00:00",
+      "ok": true,
+      "length": 155153,
+      "final_url": "https://data.sec.gov/submissions/CIK0001408710.json"
+    },
+    {
+      "name": "nvda_transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "retrieved_at": "2026-11-16T06:31:24.686261+00:00",
+      "ok": true,
+      "length": 62382,
+      "final_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+      "name": "mrvl_ir",
+      "url": "https://investor.marvell.com/news-events/press-releases",
+      "retrieved_at": "2026-11-16T06:31:24.076396+00:00",
+      "ok": true,
+      "length": 114819,
+      "final_url": "https://investor.marvell.com/news-events/press-releases"
+    },
+    {
+      "name": "cohr_ir",
+      "url": "https://www.coherent.com/news",
+      "retrieved_at": "2026-11-16T06:31:24.076580+00:00",
+      "ok": true,
+      "length": 170108,
+      "final_url": "https://www.coherent.com/news"
+    },
+    {
+      "name": "cn_300502",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+      "retrieved_at": "2026-11-16T06:31:25.307989+00:00",
+      "ok": true,
+      "length": 55675,
+      "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml"
+    },
+    {
+      "name": "aaoi_ir",
+      "url": "https://investors.ao-inc.com/",
+      "retrieved_at": "2026-11-16T06:31:24.048738+00:00",
+      "ok": true,
+      "length": 44035,
+      "final_url": "https://investors.ao-inc.com/"
+    },
+    {
+      "name": "cn_300308",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300308.phtml",
+      "retrieved_at": "2026-11-16T06:31:25.574130+00:00",
+      "ok": true,
+      "length": 55210,
+      "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300308.phtml"
+    },
+    {
+      "name": "cn_603083",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/603083.phtml",
+      "retrieved_at": "2026-11-16T06:31:25.682357+00:00",
+      "ok": true,
+      "length": 55462,
+      "final_url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/603083.phtml"
+    },
+    {
+      "name": "nbis_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001513845.json",
+      "retrieved_at": "2026-11-16T06:31:24.703134+00:00",
+      "ok": true,
+      "length": 84534,
+      "final_url": "https://data.sec.gov/submissions/CIK0001513845.json"
+    },
+    {
+      "name": "live_news_1",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+      "retrieved_at": "2026-11-16T06:31:25.690570+00:00",
+      "ok": true,
+      "length": 222004,
+      "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0"
+    },
+    {
+      "name": "live_news_2",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+      "retrieved_at": "2026-11-16T06:31:25.949135+00:00",
+      "ok": true,
+      "length": 255880,
+      "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0"
+    },
+    {
+      "name": "avgo_ir",
+      "url": "https://investors.broadcom.com/news-releases",
+      "retrieved_at": "2026-11-16T06:31:25.176599+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "live_news_3",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+      "retrieved_at": "2026-11-16T06:31:26.051342+00:00",
+      "ok": true,
+      "length": 254158,
+      "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0"
+    },
+    {
+      "name": "live_news_5",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+      "retrieved_at": "2026-11-16T06:31:26.125646+00:00",
+      "ok": true,
+      "length": 210347,
+      "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0"
+    },
+    {
+      "name": "live_news_4",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+      "retrieved_at": "2026-11-16T06:31:26.103584+00:00",
+      "ok": true,
+      "length": 272482,
+      "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0"
+    },
+    {
+      "name": "cien_ir",
+      "url": "https://investor.ciena.com/news-releases",
+      "retrieved_at": "2026-11-16T06:31:24.223176+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "lite_ir",
+      "url": "https://investor.lumentum.com/news-events/press-releases",
+      "retrieved_at": "2026-11-16T06:31:24.147458+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "live_news_6",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+      "retrieved_at": "2026-11-16T06:31:26.420222+00:00",
+      "ok": true,
+      "length": 249608,
+      "final_url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0"
+    },
+    {
+      "name": "fn_ir",
+      "url": "https://investor.fabrinet.com/news-releases",
+      "retrieved_at": "2026-11-16T06:31:24.253036+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "eoptolink_inventory",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8945450.d.html",
+      "retrieved_at": "2026-11-16T06:32:13.630752+00:00",
+      "ok": true,
+      "bytes": 28265
+    },
+    {
+      "name": "nvda_funding_media",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5744284.d.html",
+      "retrieved_at": "2026-11-16T06:32:13.631242+00:00",
+      "ok": true,
+      "bytes": 29291
+    },
+    {
+      "name": "goldman_nvda_opinion",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxchy8955553.d.html",
+      "retrieved_at": "2026-11-16T06:32:13.631408+00:00",
+      "ok": true,
+      "bytes": 29379
+    },
+    {
+      "name": "uniper_datacenter_media",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyxcia5707114.d.html",
+      "retrieved_at": "2026-11-16T06:32:13.631552+00:00",
+      "ok": true,
+      "bytes": 27892
+    }
+  ],
+  "main_state_modified": false,
+  "file_sha256": {
+    "fetch.py": "b0abf3cef6f2e4db7087dac3c919f56d1cc123544357450d1e130fa00859f782",
+    "uniper_datacenter_media.html": "ca5c1d8561ddcbbd6e44047a4c45aa0e7b4186cccf035f7dc702a18606329d18",
+    "fn_submissions.txt": "2f3c2352c3d85ead83372e1e7b8a56125c5eb20f1bbdef968a881fbaea5401af",
+    "live_news_6.txt": "8d5da6ca16b5cfef166bfc34c8c2b0aee131957095da1b2495a5885610ab3eb1",
+    "nvda_funding_media.html": "9d29df4394c098bce9ec368b5f5eee8ed4f6b88383ed327f18454c924f09bb03",
+    "nvda_transition.txt": "1f0747f87b07a430b659d85d01672a5b83bcf336831ab0283d31ae5707a67226",
+    "live_news_5.txt": "878c9a4c7ba28962e6ff5cd9d565264852a773e525ba9fa4648ff181daf264bd",
+    "live_news_4.txt": "570931d5cc19ce3098dee6be54e24f786946290bc64b0c9bdf17090813144c41",
+    "premarket_market_analysis.json": "bcd4d24aa413b4ba78867aaa1b2407d781e0413c7d5fbacfe8a406c03275305c",
+    "premarket_events_analysis.json": "da73a28906d769a40008673a729d1c6a6793ad3ca3d61394e0fdefce1faed90d",
+    "cn_603083_clean.txt": "641b7a9ef9438376092ebc6cb75debfe0f0e47bea733fa2a3558a63db3b50e62",
+    "live_news_1.txt": "0f974f623b32558e36224c6945623263ae7ef9b1edf3df47f96d4bd9342bc3e4",
+    "nvda_submissions.txt": "7cbfb234acae4a666ed049cd86157c2a7daf5a89dd4083af31a1da6831793096",
+    "morning_analysis.json": "a56cad50200fb72bf283963e60eb0d29f190d0ba7cf5ec5605eaf0e434b6d2a8",
+    "cn_300308.txt": "0e8584e3f6aeecf51802847fb6507fe1ccc3342a56dce80e90c62c09e40a0d98",
+    "nbis_submissions.txt": "38987e19736614e361e577c818e4ee3895353c75b1c32173e03fe1bf2f9ba6ef",
+    "goldman_nvda_opinion_clean.txt": "4e564f77c5f217f7f56ecc247c9d8a25e3e3faca688a33c49c6b0a9c10caceb4",
+    "live_news_3.txt": "451323bae7d17e249084b0b2933268ccdc94f6e90410ad64da08ab06486ca619",
+    "aaoi_submissions.txt": "6cf92f312985d6187c5aee673411ebdf8e3512e193c4b175d706a029c7677ccf",
+    "live_news_2.txt": "25627fdd34dba1262e402848fa059c759debae1be55addb41da6d390e1638919",
+    "nvda_news.txt": "d672f106f966d5fabb68aec56e1bf835882aa204ef5fe2aabcc7766d1f12d9e9",
+    "eoptolink_inventory_clean.txt": "26f66cbbcd17e618c5ca8363066be47254a31584e554a8a580a4522237fbcaab",
+    "avgo_submissions.txt": "41ec85346d2b5ffbd8358ab2d3ef9400598660be94281edacf784da984097866",
+    "cien_submissions.txt": "f70f0e94ad22d1cb864d1d23a6804a3914003852e9ba76d79dfdb4385cc2c1c9",
+    "cn_603083.txt": "56aa5310c36de69b6f6f5f0c0ab904ea5c2e12394c4a8e16c199b328d927d323",
+    "mrvl_submissions.txt": "ef9077d3cb0ff110667a825aacc969c56b44323af330c00dc7bde329c86723a6",
+    "premarket_market_quotes.raw": "cc1e3e64964b99fbdaad6664973748c34056070d1cf9f8f290c7c4c41a7678eb",
+    "goldman_nvda_opinion.html": "c8dfda90bf4f0f6116e5084b602974c7fc9ff75fc68a7afc455a0e086ea798fe",
+    "premarket_market_manifest.json": "a0e1c85d7b1611e841dd11929b59aa28f2daaf4ce70f18999e8cded695e96db9",
+    "premarket_market_sina.raw": "d7a92a87fdf5cc07cc2fa3edcf2bc69c36cb4724a4b95ff51387c091d9629e34",
+    "article_manifest.json": "6e46b9b1a565ee53cf2b3e7ad4736de4081f4f31b51df75c281141184b7010e2",
+    "lite_submissions.txt": "b0c6c88493ff3a2303d67578ed72d1840dcd65c7e8c3e0dae7733a2c8ae4c0f6",
+    "eoptolink_inventory.html": "6a2d881ae916ada2954683c46f004fd0307ddb7c3f14994aac980e6f7f05dc78",
+    "aaoi_ir.txt": "757e0195f843ed60c6d551b15908afa5945ea37ad1f0504e8e7a87bd16d6f190",
+    "mrvl_ir.txt": "45913306d1daeb257e1098ff6ab4c8a36a821c654153554faf544e1ac4174e5f",
+    "nvda_funding_media_clean.txt": "4b2bcb03b20fab505aebe43f4af6996ec6d3e5b9e487763b3bfbd05bf60580bb",
+    "manifest.json": "15e014deb0e5caa36294ee3d67f434461a11530997d57b9c241a7c19ef921f0d",
+    "uniper_datacenter_media_clean.txt": "fbccf17599c21c48d9993d92f243636f8d6e0dd056800c521deb33dcfe7eb037",
+    "fetch_articles.py": "2a60548fcb29e0c64b56dbc8e76a560bf08fae640763d8334afb2dbc1cb3f153",
+    "nvda_news_clean.txt": "40584926a7391762a7c9a71407e2eff98502e0940f73c866f4fd05b1ea5c8570",
+    "cn_300502.txt": "5caac8775e9e42b7a6692bc1429878eaca43a62be95c6d0d9d8349ac47764bce",
+    "cn_300502_clean.txt": "301b3de6bece8c916b5e6e49c62265d7587c27916d26343b2712c9d1494903fe",
+    "cohr_ir.txt": "e1dc0cdc6fd3b33f1741af2de3f3ce2a5c76064292085a6ee6a4a7a91a98ea19",
+    "raw_analysis.json": "2350447f89d6210317690a48bdf863e27f4676bdc885c6f5079dd9996cc5d85f",
+    "cohr_submissions.txt": "628e82542a715aae43d9b6e5b417799bbd6e28c65d65890ef741406957ee5907",
+    "cn_300308_clean.txt": "1320dde995c5026e9a6d49f481326f6d5dfd6cb25178c58513183728ba0d1594",
+    "analyze.py": "13cb4111a99bdd6eba6e5406d45267c530ab81fc36dafd96c5d260a87c5dc7db",
+    "cohr_ir_clean.txt": "4d557615d7b4203ff3832def1d08754a8861b4aa02866a06e0b3aa9aec7cf23e",
+    "aaoi_ir_clean.txt": "41ce79f3976ff34199d9f75b153066862ae2c31e37e2067d580c1d9181f600bc",
+    "mrvl_ir_clean.txt": "ae3d78e433bca97a3b888a2a7cf7ca57638f80787590f619d9bc97f5279cc682"
+  }
+}

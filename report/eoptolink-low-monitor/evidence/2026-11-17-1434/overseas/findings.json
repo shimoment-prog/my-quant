@@ -1,0 +1,522 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-11-17T14:35:41.196133+08:00",
+  "scope": "14:30增量核查：6页新浪财经快讯600条，刷新Marvell IR、NVIDIA新闻、沪深一般公告；另核华硕服务器新闻列表。未修改主监测state或观察，未创建预测。",
+  "baseline": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-17-1039.json",
+  "baseline_news_cutoff_at": "2026-11-17T10:37:34+08:00",
+  "news_query_latest_item_at": "2026-11-17T14:32:39+08:00",
+  "news_query_complete_through_retrieval_at": "2026-11-17T14:32:45+08:00",
+  "last_completed_US_regular_session": "2026-11-16",
+  "US_regular_close_beijing": "2026-11-17T05:00:00+08:00",
+  "US_context": "北京时间11月17日14:32为纽约11月17日01:32EST；常规美股盘前尚未开始。最近已结束正常盘仍为11月16日，05:00北京收盘。",
+  "compact_market_rows": [
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "regular_close": 546.0,
+      "regular_change_pct": -8.48,
+      "regular_session_date": "2026-11-16",
+      "currency": "USD",
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": {
+        "price": 543.5,
+        "change_vs_regular_close_pct": -0.46,
+        "time_exchange": "2026-11-16T19:59:00-05:00",
+        "time_beijing": "2026-11-17T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": "MRVL",
+      "name": "迈威尔科技",
+      "regular_close": 145.36,
+      "regular_change_pct": -7.27,
+      "regular_session_date": "2026-11-16",
+      "currency": "USD",
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": {
+        "price": 144.8127,
+        "change_vs_regular_close_pct": -0.38,
+        "time_exchange": "2026-11-16T19:59:00-05:00",
+        "time_beijing": "2026-11-17T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "regular_close": 203.43,
+      "regular_change_pct": -6.75,
+      "regular_session_date": "2026-11-16",
+      "currency": "USD",
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": {
+        "price": 203.4,
+        "change_vs_regular_close_pct": -0.01,
+        "time_exchange": "2026-11-16T19:59:00-05:00",
+        "time_beijing": "2026-11-17T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena科技",
+      "regular_close": 257.56,
+      "regular_change_pct": -8.19,
+      "regular_session_date": "2026-11-16",
+      "currency": "USD",
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": {
+        "price": 256.6,
+        "change_vs_regular_close_pct": -0.37,
+        "time_exchange": "2026-11-16T19:54:00-05:00",
+        "time_beijing": "2026-11-17T08:54:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": "AAOI",
+      "name": "应用光电",
+      "regular_close": 45.16,
+      "regular_change_pct": -9.48,
+      "regular_session_date": "2026-11-16",
+      "currency": "USD",
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": {
+        "price": 44.89,
+        "change_vs_regular_close_pct": -0.6,
+        "time_exchange": "2026-11-16T19:59:00-05:00",
+        "time_beijing": "2026-11-17T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": "FN",
+      "name": "Fabrinet",
+      "regular_close": 311.01,
+      "regular_change_pct": -5.17,
+      "regular_session_date": "2026-11-16",
+      "currency": "USD",
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": {
+        "price": 310.5,
+        "change_vs_regular_close_pct": -0.16,
+        "time_exchange": "2026-11-16T19:52:00-05:00",
+        "time_beijing": "2026-11-17T08:52:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "英伟达",
+      "regular_close": 156.14,
+      "regular_change_pct": -4.12,
+      "regular_session_date": "2026-11-16",
+      "currency": "USD",
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": null,
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "博通",
+      "regular_close": 333.4,
+      "regular_change_pct": -3.92,
+      "regular_session_date": "2026-11-16",
+      "currency": "USD",
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": {
+        "price": 333.39,
+        "change_vs_regular_close_pct": -0.0,
+        "time_exchange": "2026-11-16T19:59:00-05:00",
+        "time_beijing": "2026-11-17T08:59:00+08:00",
+        "session": "afterhours",
+        "source": "sina.raw",
+        "snapshot_not_final": true
+      },
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": "SOX",
+      "name": "费交所半导体股指数",
+      "regular_close": 9610.6523,
+      "regular_change_pct": -5.28,
+      "regular_session_date": "2026-11-16",
+      "currency": null,
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": null,
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    },
+    {
+      "symbol": ".IXIC",
+      "name": "纳斯达克",
+      "regular_close": 24509.76,
+      "regular_change_pct": -2.49,
+      "regular_session_date": "2026-11-16",
+      "currency": null,
+      "normal_session_closed_at_beijing": "2026-11-17T05:00:00+08:00",
+      "afterhours": null,
+      "source_market_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json"
+    }
+  ],
+  "price_source_reuse": {
+    "original_retrieved_at_beijing": "2026-11-17T09:42:25+08:00",
+    "fresh_quote_fetch_this_run": false,
+    "normalclose_verified_vendors": [
+      "Tencent",
+      "Sina"
+    ],
+    "SOX_independent_second_source": false,
+    "afterhours_actual_time_range_beijing": [
+      "2026-11-17T08:52:00+08:00",
+      "2026-11-17T08:59:00+08:00"
+    ],
+    "quote_labels_preserved": true,
+    "NVDA20_01_EST_extended_quote_not_used": true
+  },
+  "market_implication_zh": "11月16日六家正常盘全跌5.17%至9.48%，除FN外均弱于费半−5.28%，对本地估值及风险偏好构成压力；不将海外跌幅换算跌破概率，也不据此认定新易盛丢单。",
+  "new_verified_primary_operating_events_since_1037": [],
+  "absence_statement": "在本次新闻、Marvell/NVIDIA已访问列表中未核实新增光通信财报、指引下修、量化订单取消或客户资本开支削减。有限覆盖，不能断言所有公司所有渠道均无变化。",
+  "incremental_news_coverage": {
+    "pages": 6,
+    "rows": 600,
+    "unique_ids": 600,
+    "earliest_item_time": "2026-11-17 07:00:45",
+    "latest_item_time": "2026-11-17 14:32:39",
+    "incremental_matched_rows": 11,
+    "overlaps_morning_cutoff": true
+  },
+  "raw_comparisons": [
+    {
+      "id": "mrvl_ir",
+      "same_raw_as_1030": true,
+      "sha256": "92cc933579b99ad638cdea13c2238d4f538c12f84c119679fe97e61e43e994d9",
+      "morning_file": "/private/tmp/eoptolink-20261117-1030-overseas/mrvl_ir.raw",
+      "refreshed_file": "/private/tmp/eoptolink-20261117-1430-overseas/mrvl_ir.raw"
+    },
+    {
+      "id": "nvda_news",
+      "same_raw_as_1030": true,
+      "sha256": "9aed6a2ce4f49723ad19247eeaa3671b294237f70fe8b4efdc3854e412ec421e",
+      "morning_file": "/private/tmp/eoptolink-20261117-1030-overseas/nvda_news.raw",
+      "refreshed_file": "/private/tmp/eoptolink-20261117-1430-overseas/nvda_news.raw"
+    },
+    {
+      "id": "sse_general",
+      "same_raw_as_1030": true,
+      "sha256": "27e06481f26c67cef243600c6615a0b86c270b9bcb3589c84dca62a048b32c7c",
+      "morning_file": "/private/tmp/eoptolink-20261117-1030-overseas/sse_general.raw",
+      "refreshed_file": "/private/tmp/eoptolink-20261117-1430-overseas/sse_general.raw"
+    },
+    {
+      "id": "szse_general",
+      "same_raw_as_1030": true,
+      "sha256": "394995da9d87c368f80e04d171e8c9ff0481509679f4d63035465cf2e84831af",
+      "morning_file": "/private/tmp/eoptolink-20261117-1030-overseas/szse_general.raw",
+      "refreshed_file": "/private/tmp/eoptolink-20261117-1430-overseas/szse_general.raw"
+    }
+  ],
+  "company_events_already_reported_morning": [
+    {
+      "id": "Lambda_NVDA_CPO_10k_GPU_20261116",
+      "symbols": [
+        "NVDA"
+      ],
+      "classification": "new_official_scaled_deployment_announcement_with_customer_corroboration",
+      "sources": [
+        "https://blogs.nvidia.com/blog/lambda-photonics/",
+        "https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo"
+      ],
+      "disclosed_at_utc": "2026-11-16T16:00:51Z",
+      "disclosed_at_beijing": "2026-11-17T00:00:51+08:00",
+      "publication_time_evidence": "NVIDIA official page datePublished metadata; Lambda page has date November16 without exact time",
+      "reporting_period": "deployment announcement November16, 2026, not earnings",
+      "new_relative_to_seen_events": true,
+      "facts": [
+        "Lambda official announcement says Quebec campus CPO deployment connects more than10000 NVIDIA BlackwellUltra GPUs. NVIDIA corroborates GB300NVL72 racks, 144800Gb/sports and18replaceableexternal light sources per switch.",
+        "Lambda says early adoption was first announced November2025; this is November2026 scaled-deployment/benchmark update, not claiming first ever CPO research.",
+        "Company-reported comparison: same throughput as pluggableoptics, latency3.8%lower at rack and10.1%atpod; medianoptics36C versus51C. Tests not independently audited here."
+      ],
+      "implication": "Opticalnetworkbuildout continues; switch-sideCPO replaces pluggabletransceivers with co-packaged opticalengines, shiftingvaluechain. This does not identify Eoptolink/InnoLightorders or prove currentpluggabledemandcancellation.",
+      "limits": [
+        "Exact commissioning/firstproductiondate not disclosed; announceddeployed scale is companyclaim, not independentlyverifiedassetinventory.",
+        "NVDAbrochure up to5xpower efficiency/15xreliability are companyclaims, not a promise applicabletoallnetworks."
+      ],
+      "already_reported_in_current_conversation_morning": true,
+      "new_in_1030_incremental_check": false,
+      "new_since_prior_intraday_20261116_1432": true
+    },
+    {
+      "id": "MRVL_Penguin_CXL_Photonic_Fabric_20261116",
+      "symbols": [
+        "MRVL",
+        "PENG"
+      ],
+      "classification": "new_official_cooperation_and_forward_product_roadmap_not_actual_orders",
+      "source": "https://investor.marvell.com/news-events/press-releases/detail/1044/marvell-and-penguin-solutions-collaborate-to-address-data-center-ai-memory-and-accelerate-inference-at-scale",
+      "official_publication_date": "2026-11-16",
+      "page_time_without_timezone": "2026-11-16T09:00:00",
+      "exact_publication_time_utc": null,
+      "time_limit": "Page shows November16 and09:00withoutzone; preNov17Beijing08:45 plausible but exact cutoffclassification cannotbeproven by unzonedtimestamp alone.",
+      "reporting_period": "productcooperationannouncement, notearnings",
+      "new_relative_to_seen_events": true,
+      "facts": [
+        "Developing CXLdirectattach memory expansion withStructeraX andPenguinSMARTCXLaddincards, andmultirackPhotonicFabricopticalsharedmemory.",
+        "CXLcards expected forqualificationandenterprisecustomerdeploymentbyend2026; jointPhotonicFabricintegratedmemoryexpansionserversexpectedtosampleH22027."
+      ],
+      "implication": "Supports longerterm opticalmemoryarchitecture development; no quantifiedmoduleorders, realizedrevenues orcommercialH22027deliveries today.",
+      "already_reported_in_current_conversation_morning": true,
+      "new_in_1030_incremental_check": false,
+      "new_since_prior_intraday_20261116_1432": true
+    }
+  ],
+  "new_secondary_or_excluded_context": [
+    {
+      "time": "2026-11-17 14:16:41",
+      "text": "【野村证券预计韩国收益率曲线将在2027年初趋陡】野村证券预计，到2027年1月末，韩国2年期与10年期国债收益率利差将扩大至25个基点。策略师梁伟豪与高克莱尔撰文称，机构在5.5个基点的利差水平入场，布局2027年3月到期的2年期/10年期无本金交割利率互换陡峭交易。韩国K型复苏格局大概率会约束韩国央行的加息倾向。市场重新定价政策终端利率为3.5%，即便美联储转向更为鹰派，该利率也很难显著高于3.50%。目前鲜有证据显示强劲的科技出口能够传导至经济其他板块。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyznqf5444386.d.html",
+      "id": 5219258,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "行业/策略或非光通信核心经营新闻，不足以识别本次增量订单和交付。"
+    },
+    {
+      "time": "2026-11-17 14:09:10",
+      "text": "华硕在第四季度加大英伟达 Vera Rubin NVL72 出货量，以满足强劲需求，并在 SC26 展会上展示 AI 工厂参考架构。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyznqf5439671.d.html",
+      "id": 5219248,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "媒体快讯称华硕第四季度加大Vera Rubin NVL72出货。已抓华硕服务器新闻列表，但未找到本次11月17日同条原文；列表10月21日HGX Rubin NVL8为旧产品计划，不能代替新出货验证。不映射为新易盛订单。"
+    },
+    {
+      "time": "2026-11-17 14:07:32",
+      "text": "【美银：如果美元继续飙升，它终将演变成一颗破坏球】有着“华尔街最准分析师”之称的美银全球研究投资策略师Michael Hartnett在近期面向客户的研报中就写道：“如果美元按照这种节奏继续飙升，它终将演变成一颗破坏球。”据FactSet数据显示，周一，ICE美元指数一度触及了103.69，创下2025年4月2日以来的最高水平。Manulife John Hancock Investments联席首席投资策略师Emily Roland表示，美元近期的走强主要受到两方面驱动：一是市场预期美联储可能维持加息步伐，二是美国经济相对全球其他经济体展现出更强的韧性。而她目前更为担心的是，美元走强反映出市场对借贷成本进一步走高的预期，这往往会对全球风险资产形成压制。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyznqf5438711.d.html",
+      "id": 5219245,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "行业/策略或非光通信核心经营新闻，不足以识别本次增量订单和交付。"
+    },
+    {
+      "time": "2026-11-17 14:06:51",
+      "text": "【英伟达Q3重磅调仓：高位减持近25%英特尔 SpaceX跃升第一重仓股】美东时间周一，最新披露的13F报告显示，今年第三季度，英伟达大幅减持英特尔，小幅加仓SpaceX。13F报告显示，截至第三季度末，英伟达的美股持仓总市值为483.3亿美元，较二季度末的634亿美元环比下降约23.8%，主要受大幅减持英特尔及多只重仓股估值回落拖累。具体来看，英伟达第三季度持仓8只标的，全部为美股科技板块股。其中，英特尔和SpaceX是英伟达美股持仓中的绝对核心。两大标的合计市值约为390.5亿美元，在英伟达总持仓中占比高达80.8%。而英伟达第三季度最主要的调仓变动也发生在前两大重仓股之间。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyznqi2214504.d.html",
+      "id": 5219243,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "13F对应2026年9月30日持仓；披露时间不等于实际交易时间，不能当今日机构减仓或光模块订单变化。"
+    },
+    {
+      "time": "2026-11-17 13:36:17",
+      "text": "【特朗普：每次涉及华裔美女，他们都说是“间谍”，我认为黄仁勋没有涉及“间谍”】当地时间11月16日，美国总统特朗普在接受媒体采访时，再次谈及黄仁勋一事。特朗普表示，每次此类事件涉及华裔女性，都会被美国情报机构描述为“间谍”。特朗普同时表示，黄仁勋恢复原职，“不是个坏主意”，很多人希望黄仁勋回归。特朗普还表示，黄仁勋“吸取了深刻教训”。（观察者网）",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyznqf5422998.d.html",
+      "id": 5219209,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "对已报道治理话题的总统媒体采访转述；未取得新的董事会正式任命或已生效监管规则。"
+    },
+    {
+      "time": "2026-11-17 12:46:42",
+      "text": "【Pimco：随着数据中心建设热潮降温 AI相关债券利差或将收窄】太平洋投资管理公司（Pimco，品浩）表示，随着数据中心建设降温、发行量受到抑制，为人工智能（AI）基础设施建设提供融资的债券利差或将收窄，从而缓解AI相关债务大量涌入给信贷市场带来的部分压力。Pimco称，截至11月10日，由超大规模云服务商（hyperscaler）承租的数据中心作为底层支撑的投资级债券，其收益率较可比的租户债务高出约146个基点。该公司策略师洛特菲·卡鲁伊（Lotfi Karoui）在一份报告中写道，这一利差在9月下旬曾接近180个基点，随着审批受限和成本上升拖延建设进度、抑制新增供应，利差未来可能进一步收窄。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyzhhi5529621.d.html",
+      "id": 5219150,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "Pimco策略观点；利差数据截至11月10日，不能当今日实际融资流或客户取消/削减订单。"
+    },
+    {
+      "time": "2026-11-17 11:58:46",
+      "text": "【克利夫兰联储行长称央行对金融市场的干预应是暂时且有针对性的】克利夫兰联储行长贝丝·哈马克表示，央行对金融市场的干预应该是暂时性和有针对性的。她支持一位同僚关于在通过资产购买向市场提供紧急流动性时，应将这些资产放入一个单独投资组合的提议。“如果需要采取干预措施以维护金融稳定，我支持这些措施应该是暂时性和有针对性的，”哈马克周一接受媒体采访时说道。“我认为把它们放入一个特定的投资组合，有助于向公众明确哪些措施是为了维护金融稳定，哪些可能是出于宽松或政策考量。”达拉斯联储行长洛丽·洛根上周提出建议，美联储应将为维持市场正常运作而购买的资产，与为货币政策操作而持有的资产区分开来，以便在金融市场承压时期更清楚地传达其意图。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyzhhf1829358.d.html",
+      "id": 5219102,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "央行流动性干预观点的媒体转述，不是光通信经营事件或已实行新政策。"
+    },
+    {
+      "time": "2026-11-17 11:51:26",
+      "text": "【国产算力加速崛起，AI端侧关注度升温，创业板算力ETF华夏（158041）连续两日获净申购】11月17日，创业板算力ETF华夏（158041）低开高走，截至午盘涨幅1.52%，成交额3.21亿元，资金流向方面，已连续2天获得净申购，最新规模8.5亿元。银河证券表示，在海外AI叙事波动背景下，国产算力链将是未来一段时间的主线方向。国海证券指出，国产算力加速崛起，AI端侧关注度升温。在电子板块基本面比较优势突出的前提下，被动基金也构成后续流动性改善预期下的增量资金潜力，而近30天科技类ETF已呈现全面放量增长趋势，建议重视英伟达管理层动荡事件冲击下，国产算力链大市值标的的配置机遇。当前从行业基本面角度而言，尽管存储涨价和HBM缺货对于消费电子端侧和AI算力云侧的需求都造成不同程度的压制，但是电子行业的景气度和AI创新迭代依然呈现强势上行趋势。国产算力产业趋势不变，只是需要时间消化部分不明确预期，持续看好国产半导体核心方向，包括国产算力、国产设备材料等。万联证券认为，AI算力基础设施需求仍处于扩张阶段。随着训练和推理集群规模扩大，集群内高速互连和跨数据中心传输的带宽需求同步提升，有望带动高速交换机、光模块及相干光传输设备需求持续增长。中长期视角下，继续把握AI算力产业链和空天地一体化的双核心主线投资机遇。资料显示，创业板算力ETF华夏（158041）紧密跟踪创业板算力基础设施指数，指数聚焦AI算力基础设施产业链，是一键布局算力硬件核心环节的便捷工具。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyzhhf1825598.d.html",
+      "id": 5219091,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "行业/策略或非光通信核心经营新闻，不足以识别本次增量订单和交付。"
+    },
+    {
+      "time": "2026-11-17 11:44:12",
+      "text": "【段永平最新调仓曝光】当地时间11月16日，2026年三季度美股持仓情况（13F）报告集中披露。知名投资人段永平旗下H&H International Investment披露2026年三季度13F持仓文件，截至三季度末，该机构美股持仓市值约为172亿美元。三季度组合延续高集中度特征，苹果、伯克希尔B股仍为前两大重仓股，拼多多、特斯拉获明显加仓，英伟达、谷歌、苹果等科技龙头被减持，同时清仓阿里巴巴、CRCL等公司，新进SpaceX。从调仓细节来看，拼多多是三季度加仓力度最大标的，增持296.88万股，持仓占比由9.99%提高至12.69%，为组合第三大重仓股；特斯拉增持69.96万股，持仓占比提升至8.42%。在减持端，英伟达减持幅度明显，本期减少396.12万股，持仓占比由6.58%下降至3.08%。不过，这一变化未必意味着段永平明显转向看空。段永平近期表示，英伟达的“护城河”和需求依然很强，自己“不看空但暂时也不加码”，并称计划买回此前“被call走”的部分股票。也就是说，三季度减持英伟达可能部分与期权操作有关。此外，苹果被继续减持，三季度减持589.63万股。截至三季度末，H&H International Investment的前五大重仓股为苹果、伯克希尔B股、拼多多、特斯拉、西方石油。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyzhhm2265801.d.html",
+      "id": 5219076,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "13F对应2026年9月30日持仓；披露时间不等于实际交易时间，不能当今日机构减仓或光模块订单变化。"
+    },
+    {
+      "time": "2026-11-17 11:43:54",
+      "text": "【段永平三季度减持英伟达】知名投资人段永平旗下H&H International Investment披露2026年三季度13F持仓文件，截至三季度末，该机构美股持仓市值约为172亿美元。三季度组合延续高集中度特征，苹果、伯克希尔B股仍为前两大重仓股，拼多多、特斯拉获明显加仓，英伟达、谷歌、苹果等科技龙头被减持，同时清仓阿里巴巴、CRCL等公司，新进SpaceX。从调仓细节来看，拼多多是三季度加仓力度最大标的，增持296.88万股，持仓占比由9.99%提高至12.69%，为组合第三大重仓股；特斯拉增持69.96万股，持仓占比提升至8.42%。在减持端，英伟达减持幅度明显，本期减少396.12万股，持仓占比由6.58%下降至3.08%。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyzhhi5489257.d.html",
+      "id": 5219074,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "13F对应2026年9月30日持仓；披露时间不等于实际交易时间，不能当今日机构减仓或光模块订单变化。"
+    },
+    {
+      "time": "2026-11-17 11:22:15",
+      "text": "【他山科技：与英伟达合作的可穿戴数采设备发布 采用公司触觉传感器】近日，2026年机器人学习大会CoRL 2026在美国得克萨斯州奥斯汀举行。他山科技携核心产品亮相，与英伟达合作的全新可穿戴数采设备DexUMI发布。会议上，英伟达科学家Jim Fan发表主题演讲，介绍新一代机器人基础模型GR00T 2及配套开源计划。其中，用于灵巧手数据采集的可穿戴设备DexUMI，从指尖到手掌的触觉感知方案均采用他山科技触觉传感器，他山科技成为该设备唯一的触觉传感器合作方。",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyzhhi5469986.d.html",
+      "id": 5219051,
+      "classification": "secondary_or_non_incremental_not_primary_operating_confirmation",
+      "reason": "行业/策略或非光通信核心经营新闻，不足以识别本次增量订单和交付。"
+    }
+  ],
+  "trading_day": {
+    "date": "2026-11-17",
+    "normal_session": true,
+    "official_calendar_checked_at": "2026-11-17T09:41:15.843894+08:00",
+    "temporary_closure_notice_found": false,
+    "notice_indices_refreshed_at": "2026-11-17T14:32:45+08:00",
+    "note": "沿用今晨沪深官方2026日历（11月17日正常交易）；下午新抓沪深一般公告索引与上午逐字节一致，可见范围未见全市场临时休市。"
+  },
+  "sources": [
+    {
+      "id": "news_1",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+      "started_at": "2026-11-17T06:32:44.767511+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.271792+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 254425,
+      "sha256": "c64e1e082b6d3e97d93c7fbd6067315ad65f590fd5366872ed97e9a4796d71f6"
+    },
+    {
+      "id": "news_2",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+      "started_at": "2026-11-17T06:32:44.768056+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.489932+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 275113,
+      "sha256": "fe4839712c838c2e7ad51881bab740a6de03adce5ad75cf39f1de40f5bb89ee0"
+    },
+    {
+      "id": "news_3",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+      "started_at": "2026-11-17T06:32:44.768205+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.535166+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 245792,
+      "sha256": "5d78ded14969023ca4ab457d0e4dd98a448b5015dabecbc6149fa256cba23d01"
+    },
+    {
+      "id": "news_4",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+      "started_at": "2026-11-17T06:32:44.768334+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.268632+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 216760,
+      "sha256": "216cd3130f388867246367c40db45eedfaa0d6996c214125f60394f9dbe32d64"
+    },
+    {
+      "id": "news_5",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+      "started_at": "2026-11-17T06:32:44.768487+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.344056+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 192327,
+      "sha256": "bf4a372474d890af3ce61c5b2ebc9b62c2db58c23796b1aa288dcf27a79f18ad"
+    },
+    {
+      "id": "news_6",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+      "started_at": "2026-11-17T06:32:44.768648+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.228997+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 263426,
+      "sha256": "f5ca0c51145c94b563c23851a09e877591a4ca0455a172e0a62be7ddb7d3c675"
+    },
+    {
+      "id": "mrvl_ir",
+      "url": "https://investor.marvell.com/news-events/press-releases",
+      "started_at": "2026-11-17T06:32:44.768834+00:00",
+      "retrieved_at": "2026-11-17T06:32:48.063004+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 114815,
+      "sha256": "92cc933579b99ad638cdea13c2238d4f538c12f84c119679fe97e61e43e994d9"
+    },
+    {
+      "id": "nvda_news",
+      "url": "https://nvidianews.nvidia.com/news",
+      "started_at": "2026-11-17T06:32:44.768981+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.352114+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 68587,
+      "sha256": "9aed6a2ce4f49723ad19247eeaa3671b294237f70fe8b4efdc3854e412ec421e"
+    },
+    {
+      "id": "sse_general",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/",
+      "started_at": "2026-11-17T06:32:44.769124+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.037928+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 35098,
+      "sha256": "27e06481f26c67cef243600c6615a0b86c270b9bcb3589c84dca62a048b32c7c"
+    },
+    {
+      "id": "szse_general",
+      "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+      "started_at": "2026-11-17T06:32:44.769259+00:00",
+      "retrieved_at": "2026-11-17T06:32:45.388639+00:00",
+      "status": 200,
+      "ok": true,
+      "bytes": 92763,
+      "sha256": "394995da9d87c368f80e04d171e8c9ff0481509679f4d63035465cf2e84831af"
+    },
+    {
+      "id": "asus_press",
+      "url": "https://press.asus.com/news/press-releases/",
+      "ok": false,
+      "started_at": "2026-11-17T06:34:15.240395+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "asus_server_news",
+      "url": "https://servers.asus.com/news",
+      "ok": true,
+      "retrieved_at": "2026-11-17T06:34:29.428055+00:00",
+      "bytes": 71239
+    },
+    {
+      "id": "asus_sina",
+      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyznqf5439671.d.html",
+      "ok": true,
+      "retrieved_at": "2026-11-17T06:34:15.547088+00:00",
+      "bytes": 27879
+    }
+  ],
+  "reused_source_archive": "/Users/richao11/myproject/my-quant/report/overseas-optics-premarket/observations/2026-11-17-0948.json",
+  "limits": [
+    "本次未重抓六家全部SEC；完整SEC索引检查沿用今晨09:40，10:37后增量限6页新闻及MRVL/NVIDIA列表。",
+    "LITE/CIEN IR早晨429，FN/AVGO403，COHR动态列表不全的限制继续保留。",
+    "华硕14:09媒体出货表述未取得同条公司原文；不可当已核实实际出货量或国内光模块订单。",
+    "Pimco为策略观点，数据截至11/10；13F对应9/30，均不可冒充本次现时需求变化。",
+    "Lambda/CPO和Marvell/Penguin均是今晨已报背景，不当下午新消息；路线图及公司性能宣称不当已实现收入。",
+    "正常收盘、盘后旧快照与未来盘前分开；不以海外跌幅换算本次破低概率。"
+  ],
+  "recommended_report_evidence": "海外继续引用11/16正常收盘：六家跌5.17%—9.48%，NVDA−4.12%、AVGO−3.92%、费半−5.28%；14:32有限增量核查未核实新经营利空。仅说明风险偏好背景，不推导新易盛丢单。"
+}

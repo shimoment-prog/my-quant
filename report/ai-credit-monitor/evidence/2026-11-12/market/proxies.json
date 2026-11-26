@@ -1,0 +1,62 @@
+[
+  {
+    "id": "BAMLC0A0CM",
+    "source_id": "fred_ig",
+    "evidence_type": "broad_market_proxy_not_AI_CDS",
+    "unit": "basis_points",
+    "observation_date": "2026-11-09",
+    "value": 91.0,
+    "previous_market_observation": {
+      "date": "2026-11-06",
+      "value": 93.0
+    },
+    "change_bp_vs_previous_market_observation": -2.0,
+    "comparison_to_previous_monitor_run": {
+      "date": "2026-11-09",
+      "value": 91.0,
+      "new_market_observation": false,
+      "value_change_bp": 0.0
+    },
+    "comparison_20_observations_earlier": {
+      "date": "2026-10-12",
+      "value": 83.0,
+      "change_bp": 8.0
+    },
+    "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+    "publication_at": null,
+    "retrieved_at": "2026-11-12T00:28:35.009725+00:00",
+    "archived_csv": "evidence/2026-11-12/market/fred_ig.csv",
+    "note": "Actual latest date remainsNov9; no new observation vs prior run. Not Nov11/12 live quote or AI issuer CDS. Earlier daily tightening not a new relief event today."
+  },
+  {
+    "id": "BAMLH0A0HYM2",
+    "source_id": "fred_hy",
+    "evidence_type": "broad_market_proxy_not_AI_CDS",
+    "unit": "basis_points",
+    "observation_date": "2026-11-09",
+    "value": 334.0,
+    "previous_market_observation": {
+      "date": "2026-11-06",
+      "value": 342.0
+    },
+    "change_bp_vs_previous_market_observation": -8.0,
+    "comparison_to_previous_monitor_run": {
+      "date": "2026-11-09",
+      "value": 334.0,
+      "new_market_observation": false,
+      "value_change_bp": 0.0
+    },
+    "comparison_20_observations_earlier": {
+      "date": "2026-10-12",
+      "value": 311.0,
+      "change_bp": 23.0
+    },
+    "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "publication_at": null,
+    "retrieved_at": "2026-11-12T00:28:35.010148+00:00",
+    "archived_csv": "evidence/2026-11-12/market/fred_hy.csv",
+    "note": "Actual latest date remainsNov9; no new observation vs prior run. Not Nov11/12 live quote or AI issuer CDS. Earlier daily tightening not a new relief event today."
+  }
+]

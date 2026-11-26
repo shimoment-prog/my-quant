@@ -1,0 +1,50 @@
+[
+  {
+    "file": "official_news_1112.html",
+    "url": "https://www.zjky.cn/news/news-detail-123026.htm",
+    "requested_at": "2026-11-13T06:09:09.383607+00:00",
+    "ok": true,
+    "bytes": 50741,
+    "retrieved_at": "2026-11-13T06:09:09.757346+00:00"
+  },
+  {
+    "file": "sse_control.json",
+    "url": "https://query.sse.com.cn/security/stock/queryCompanyBulletin.do?isPagination=true&productId=601899&reportType=ALL&beginDate=2026-11-01&endDate=2026-11-13&pageHelp.pageSize=100&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5",
+    "requested_at": "2026-11-13T06:09:09.384155+00:00",
+    "ok": true,
+    "bytes": 556,
+    "retrieved_at": "2026-11-13T06:09:09.564397+00:00"
+  },
+  {
+    "file": "sse_wider.json",
+    "url": "https://query.sse.com.cn/security/stock/queryCompanyBulletin.do?isPagination=true&productId=601899&reportType=ALL&beginDate=2026-10-20&endDate=2026-11-13&pageHelp.pageSize=100&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5",
+    "requested_at": "2026-11-13T06:09:09.384329+00:00",
+    "ok": true,
+    "bytes": 556,
+    "retrieved_at": "2026-11-13T06:09:09.559596+00:00"
+  },
+  {
+    "file": "news_recent.json",
+    "url": "https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=%7B%22uid%22%3A+%22%22%2C+%22keyword%22%3A+%22%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A%22%2C+%22type%22%3A+%5B%22cmsArticleWebOld%22%5D%2C+%22client%22%3A+%22web%22%2C+%22clientType%22%3A+%22web%22%2C+%22clientVersion%22%3A+%22curr%22%2C+%22param%22%3A+%7B%22cmsArticleWebOld%22%3A+%7B%22searchScope%22%3A+%22default%22%2C+%22sort%22%3A+%22latest%22%2C+%22pageIndex%22%3A+1%2C+%22pageSize%22%3A+30%7D%7D%7D",
+    "requested_at": "2026-11-13T06:09:09.384502+00:00",
+    "ok": true,
+    "bytes": 15780,
+    "retrieved_at": "2026-11-13T06:09:09.615144+00:00"
+  },
+  {
+    "file": "news_accident.json",
+    "url": "https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=%7B%22uid%22%3A+%22%22%2C+%22keyword%22%3A+%22%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A+%E4%BA%8B%E6%95%85%22%2C+%22type%22%3A+%5B%22cmsArticleWebOld%22%5D%2C+%22client%22%3A+%22web%22%2C+%22clientType%22%3A+%22web%22%2C+%22clientVersion%22%3A+%22curr%22%2C+%22param%22%3A+%7B%22cmsArticleWebOld%22%3A+%7B%22searchScope%22%3A+%22default%22%2C+%22sort%22%3A+%22latest%22%2C+%22pageIndex%22%3A+1%2C+%22pageSize%22%3A+30%7D%7D%7D",
+    "requested_at": "2026-11-13T06:09:09.384646+00:00",
+    "ok": true,
+    "bytes": 16309,
+    "retrieved_at": "2026-11-13T06:09:09.615233+00:00"
+  },
+  {
+    "file": "news_cost.json",
+    "url": "https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=%7B%22uid%22%3A+%22%22%2C+%22keyword%22%3A+%22%E7%B4%AB%E9%87%91%E7%9F%BF%E4%B8%9A+%E4%BA%A7%E9%87%8F+%E6%88%90%E6%9C%AC%22%2C+%22type%22%3A+%5B%22cmsArticleWebOld%22%5D%2C+%22client%22%3A+%22web%22%2C+%22clientType%22%3A+%22web%22%2C+%22clientVersion%22%3A+%22curr%22%2C+%22param%22%3A+%7B%22cmsArticleWebOld%22%3A+%7B%22searchScope%22%3A+%22default%22%2C+%22sort%22%3A+%22latest%22%2C+%22pageIndex%22%3A+1%2C+%22pageSize%22%3A+30%7D%7D%7D",
+    "requested_at": "2026-11-13T06:09:09.384787+00:00",
+    "ok": true,
+    "bytes": 18718,
+    "retrieved_at": "2026-11-13T06:09:09.654156+00:00"
+  }
+]

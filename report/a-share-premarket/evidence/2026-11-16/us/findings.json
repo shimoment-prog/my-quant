@@ -1,0 +1,217 @@
+{
+  "report_date_bj": "2026-11-16",
+  "generated_at": "2026-11-16T00:56:08.354555+00:00",
+  "retrieval_window_utc": [
+    "2026-11-16T00:49:32.966868Z",
+    "2026-11-16T00:51:36.804060Z"
+  ],
+  "last_completed_us_regular_session": {
+    "date": "2026-11-13",
+    "close_time": "2026-11-13T16:00:00-05:00",
+    "was_normal_session": true,
+    "basis": "CNBC full close report; parent cross-checks market API"
+  },
+  "sources": [
+    {
+      "id": "cnbc_close",
+      "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+      "title": "Nasdaq falls on Friday as Nvidia sells off, but index notches best week since August: Live updates",
+      "published_at": "2026-11-12T23:05:54Z",
+      "modified_at": "2026-11-13T21:34:28Z",
+      "evidence_grade": "reliable_media_full_body",
+      "archive": "cnbc_close.html",
+      "text_archive": "cnbc_close_clean.txt",
+      "note": "URL date is prior evening; report is Nov13 normal session."
+    },
+    {
+      "id": "cnbc_futures",
+      "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+      "title": "Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week: Live updates",
+      "published_at": "2026-11-15T23:04:03Z",
+      "modified_at": "2026-11-16T00:26:50Z",
+      "evidence_grade": "reliable_media_full_body",
+      "archive": "cnbc_close_alt.html",
+      "text_archive": "cnbc_close_alt_clean.txt",
+      "note": "Dated Sunday-night US futures snapshot, not latest tick."
+    },
+    {
+      "id": "nvda_transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "published_date": "2026-11-12",
+      "retrieved_at": "2026-11-13T00:28:23.189950Z",
+      "evidence_grade": "primary_company_disclosure",
+      "archive": "nvda_transition.html",
+      "text_archive": "nvda_transition.txt",
+      "note": "Reused verified historical disclosure, not a newly published Nov16 event."
+    },
+    {
+      "id": "nvda_sec_exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+      "published_date": "2026-11-12",
+      "retrieved_at": "2026-11-13T00:28:23.190295Z",
+      "evidence_grade": "primary_SEC_exhibit",
+      "archive": "nvda_exhibit.html",
+      "text_archive": "nvda_exhibit.txt",
+      "same_underlying_event_as": "nvda_transition"
+    }
+  ],
+  "regular_close": [
+    {
+      "name": "S&P 500",
+      "close": 7561.67,
+      "change_pct": -0.4,
+      "date": "2026-11-13",
+      "source_id": "cnbc_close"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "close": 25136.27,
+      "change_pct": -0.91,
+      "date": "2026-11-13",
+      "source_id": "cnbc_close"
+    },
+    {
+      "name": "Dow Jones Industrial Average",
+      "close": 52347.55,
+      "change_points": 50.46,
+      "change_pct": 0.1,
+      "date": "2026-11-13",
+      "source_id": "cnbc_close"
+    }
+  ],
+  "weekly_context": {
+    "week_ended": "2026-11-13",
+    "Nasdaq_change_pct": 2.3,
+    "SP500_change_pct": 2.5,
+    "Dow_change_pct": 2.1,
+    "source_id": "cnbc_close",
+    "meaning": "All three had strongest weekly gains since early August despite Friday technology weakness; avoid describing an uninterrupted broad weekly collapse."
+  },
+  "macro": [
+    {
+      "event": "October US producer price index released",
+      "release_date": "2026-11-13",
+      "reported_block_time": "2026-11-13T08:35:00-05:00",
+      "status": "already_published",
+      "headline_mom_pct": 0.3,
+      "headline_mom_consensus_pct": 0.4,
+      "consensus_source": "Dow Jones economist poll cited by CNBC",
+      "headline_yoy_pct": 6.5,
+      "yoy_adjustment": "unadjusted",
+      "context": "Largest 12-month increase since November2022",
+      "source_id": "cnbc_close",
+      "interpretation": "Softer monthly reading helped initial gains, but high annual inflation and high bond yields continue to constrain high-duration valuations. Not evidence of a new FOMC decision."
+    },
+    {
+      "event": "US10Y after PPI",
+      "value_pct": 5.14,
+      "change_bp_approx": 4,
+      "as_of": "2026-11-13T09:05:00-05:00",
+      "source_id": "cnbc_close",
+      "use": "historical_intraday_only",
+      "limit": "Not Nov13 close or current Nov16 level; parent has fresher electronic quote."
+    }
+  ],
+  "technology_events": [
+    {
+      "event": "NVIDIA CEO transition and Friday repricing",
+      "company_announcement_date": "2026-11-12",
+      "Friday_media_date": "2026-11-13",
+      "facts": [
+        "Jensen Huang resigned as president, CEO and board member effective immediately.",
+        "CFO Colette Kress appointed interim CEO while retaining CFO role.",
+        "HSBC lowered rating from buy to hold on Friday, citing lack of permanent succession plan.",
+        "CNBC describes Friday NVDA decline about2%; exact close held by parent API."
+      ],
+      "source_ids": [
+        "nvda_transition",
+        "nvda_sec_exhibit",
+        "cnbc_close"
+      ],
+      "interpretation": "Governance/execution uncertainty and valuation pressure; no verified withdrawal of existing financing/customer contracts in these sources. Do not repeat personal allegations as verified facts."
+    },
+    {
+      "event": "Cisco FY2027Q1 earnings",
+      "release_date": "2026-11-12",
+      "media_date": "2026-11-13",
+      "verified_via_media": [
+        "Fiscal first-quarter earnings beat estimates.",
+        "Company raised full-year outlook for fiscal year ending July2027."
+      ],
+      "quote": {
+        "phase": "Nov13 12:34 ET intraday",
+        "change_pct_approx": -6,
+        "limit": "Not verified close."
+      },
+      "analyst_comment": {
+        "who": "Barclays Tim Long",
+        "description": "Hyperscaler AI orders likely down meaningfully quarter-on-quarter based on analyst estimates, with lumpy orders.",
+        "status": "analyst_estimate_not_company_guidance_revision"
+      },
+      "source_id": "cnbc_close",
+      "limit": "No primary release fetched. Do not call supplier formal guidance cut or verified order cancellation."
+    }
+  ],
+  "upcoming_events": [
+    {
+      "company": "NVIDIA",
+      "event": "FY2027Q3 earnings",
+      "status": "scheduled_not_yet_reported",
+      "scheduled_release_pt": "2026-11-17T13:20:00-08:00",
+      "scheduled_release_bj": "2026-11-18T05:20:00+08:00",
+      "scheduled_call_pt": "2026-11-17T14:00:00-08:00",
+      "scheduled_call_bj": "2026-11-18T06:00:00+08:00",
+      "source_ids": [
+        "nvda_transition",
+        "nvda_sec_exhibit",
+        "cnbc_futures"
+      ],
+      "limit": "Media expectation of almost100% revenue/earnings growth is consensus, not actual financial results."
+    },
+    {
+      "company": "Anthropic",
+      "event": "proposed IPO",
+      "status": "upcoming_not_final_pricing_or_completed",
+      "indicated_price_range_usd": [
+        70,
+        78
+      ],
+      "media_indicated_valuation_usd_trillion_approx": 1.4,
+      "source_id": "cnbc_futures",
+      "limit": "Do not treat proposed pricing or conditional private placement as settled financing. Parent AI monitor has primary Nov10 roadshow baseline."
+    }
+  ],
+  "next_session_futures_snapshot": {
+    "as_of_utc": "2026-11-16T00:26:50Z",
+    "as_of_bj": "2026-11-16T08:26:50+08:00",
+    "source_id": "cnbc_futures",
+    "Nasdaq100_pct_approx": 0.6,
+    "SP500_pct_approx": 0.3,
+    "Dow_pct_approx": 0.1,
+    "Dow_points_approx": 71,
+    "limit": "Media snapshot only. Parent market API supersedes for latest observation."
+  },
+  "additional_search_outcomes": [
+    {
+      "topic": "Applied Materials Nov12 quarterly results",
+      "status": "RSS discovery only; primary URL attempt returned403",
+      "rss_headline": "Quarterly revenue rose53%; record annual salesUSD34.45bn",
+      "limit": "Unverified primary/full body; do not present financial figures in final report from this subtask."
+    },
+    {
+      "topic": "Nov13 oil settlement",
+      "status": "RSS discovery only",
+      "rss_headline": "Reuters: Oil prices set for second straight weekly drop on signs of growing supply surplus",
+      "limit": "Do not use discovery headline as independently verified settlement or event cause. Parent has current oil API prices."
+    }
+  ],
+  "limits": [
+    "SOX and exact technology-stock closes are owned by parent market-API evidence, omitted here to avoid mixed phases.",
+    "No verified new broad AI-customer capex cuts, multiple supplier official revenue cuts or financing defaults established in this equity-event subtask.",
+    "Do not use Friday premarket chip moves or intraday Cisco/MSFT/Apple readings as close.",
+    "Current yields/oil and NQ from parent are later than dated CNBC snapshot.",
+    "Retrieval occurred after08:45 Beijing; report must disclose actual data cutoff.",
+    "No precise crash or A-share outcome probabilities without validated model."
+  ],
+  "report_sentence_suggestion_zh": "最近完整美股时段为11月13日周五：纳指跌0.91%、标普跌0.40%，道指微涨0.10%，但三大指数全周均涨逾2%。科技主要继续消化英伟达管理层变动及评级下调，10月PPI环比0.3%低于预期、同比仍达6.5%，高利率约束估值；今晨期指小幅反弹提供缓冲。英伟达财报为美东11月17日盘后、北京时间18日清晨，尚未公布。"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "nvda_8k_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/index.json",
+    "retrieved_at": "2026-11-13T00:50:33.232553+00:00",
+    "ok": true,
+    "length": 1684,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/index.json"
+  },
+  {
+    "name": "aaoi_8k_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008616/index.json",
+    "retrieved_at": "2026-11-13T00:50:33.232848+00:00",
+    "ok": true,
+    "length": 1955,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008616/index.json"
+  },
+  {
+    "name": "mrvl_8k_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/index.json",
+    "retrieved_at": "2026-11-13T00:50:33.232713+00:00",
+    "ok": true,
+    "length": 1883,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/index.json"
+  },
+  {
+    "name": "nbis_ir",
+    "url": "https://nebius.com/investor-hub",
+    "retrieved_at": "2026-11-13T00:50:33.233120+00:00",
+    "ok": true,
+    "length": 416056,
+    "final_url": "https://nebius.com/investor-hub"
+  },
+  {
+    "name": "nvda_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+    "retrieved_at": "2026-11-13T00:50:33.231857+00:00",
+    "ok": true,
+    "length": 23173,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+  },
+  {
+    "name": "nbis_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001513845.json",
+    "retrieved_at": "2026-11-13T00:50:33.232993+00:00",
+    "ok": true,
+    "length": 84233,
+    "final_url": "https://data.sec.gov/submissions/CIK0001513845.json"
+  },
+  {
+    "name": "mrvl_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm",
+    "retrieved_at": "2026-11-13T00:50:33.232195+00:00",
+    "ok": true,
+    "length": 35754,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000026/mrvl-20261111.htm"
+  },
+  {
+    "name": "aaoi_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008616/aaoi_8k.htm",
+    "retrieved_at": "2026-11-13T00:50:33.232373+00:00",
+    "ok": true,
+    "length": 38441,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008616/aaoi_8k.htm"
+  }
+]

@@ -1,0 +1,393 @@
+{
+  "run_date": "2026-11-15",
+  "generated_at": "2026-11-15T00:33:47.654651+00:00",
+  "scope": [
+    "Alphabet/Google",
+    "Meta",
+    "Microsoft",
+    "Amazon",
+    "Oracle",
+    "Anthropic"
+  ],
+  "baseline_cutoff": "2026-11-14T00:41:53.406239Z",
+  "collection_manifests": [
+    "submission_summary.json",
+    "news_manifest.json",
+    "focused_news_manifest.json",
+    "discovery_links_manifest.json",
+    "discovery_decode_manifest.json",
+    "primary_manifest.json",
+    "additional_decode_manifest.json",
+    "additional_primary_manifest.json",
+    "historical_links_manifest.json",
+    "historical_decode_manifest.json",
+    "company_status_manifest.json"
+  ],
+  "files": [
+    {
+      "file": "additional.py",
+      "bytes": 1577,
+      "sha256": "e7580b661b348519a3fa31d5fb6210a64e11da5b1276db3bdc39b676226ce19e"
+    },
+    {
+      "file": "additional_decode_manifest.json",
+      "bytes": 709,
+      "sha256": "2cb1fe56ea59ddfdc7b1a20a9989651175a7f35fdf3e7defd996d8206832cdd2"
+    },
+    {
+      "file": "additional_primary_manifest.json",
+      "bytes": 615,
+      "sha256": "9067f4493fdaea7c3fff6b5fd5e090049cc4d15cc5225a520b3dce10d8798078"
+    },
+    {
+      "file": "alphabet_submissions.json",
+      "bytes": 152277,
+      "sha256": "1f4d73b4ffdc3cd7fd33dc4c31a26c1e67d39ea5d9c03772a15c326d08c3a644"
+    },
+    {
+      "file": "amazon_old_reuters_link.html",
+      "bytes": 587400,
+      "sha256": "198d35570f8abff5200d0ec413fe95d3fe84b735f59dd88a09dab1f82de12e18"
+    },
+    {
+      "file": "amazon_old_reuters_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "amazon_old_reuters_link_decoded.txt",
+      "bytes": 250,
+      "sha256": "7b8d0931ea2dcbdb56dbdd8fe214eb92b5402383cbceeeb6a4626c3a85365de9"
+    },
+    {
+      "file": "amazon_submissions.json",
+      "bytes": 160388,
+      "sha256": "c2c36f85c91b5d57c0808db46c216d089401d3ad0c5b813ac828b8830481fd80"
+    },
+    {
+      "file": "amazon_uae_link.html",
+      "bytes": 590046,
+      "sha256": "96efcd1ec09dccea4a49eb5234c5663af09ec86b7f986b16c776ef8e43401410"
+    },
+    {
+      "file": "amazon_uae_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "amazon_uae_link_decoded.txt",
+      "bytes": 317,
+      "sha256": "fa294f1b2dd3814199943db837841fea00f353fb38f810167938d8f4e1994631"
+    },
+    {
+      "file": "amazon_uae_news.html",
+      "bytes": 27303,
+      "sha256": "41f947c0eba41f7ac225e450f6f86027eecd46dd46a4848746970aaca4bbae60"
+    },
+    {
+      "file": "amazon_uae_news.txt",
+      "bytes": 23593,
+      "sha256": "db8acf415cb55649b91891fe54061a50158812ea059c86c19d55245b700a76cb"
+    },
+    {
+      "file": "anthropic_axios_link.html",
+      "bytes": 585262,
+      "sha256": "e17e44239b4d056a5a8608b1b684578b26e9e23cf95de2ba51be15b9b4f0cb64"
+    },
+    {
+      "file": "anthropic_axios_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "anthropic_axios_link_decoded.txt",
+      "bytes": 197,
+      "sha256": "9da4a687370c45793da71a4f7897e42b88ff5f9bd3493aa8c1b61da5cd396173"
+    },
+    {
+      "file": "anthropic_mixup_link.html",
+      "bytes": 585135,
+      "sha256": "8c5d1f583c978b1de18a14c802e31f34933f0ab661bb4b01684d54d5f75b19b8"
+    },
+    {
+      "file": "anthropic_mixup_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "anthropic_mixup_link_decoded.txt",
+      "bytes": 192,
+      "sha256": "cc0867569ae283524bf56338d286db6a883b5956c48666754f0a4f179453ac4b"
+    },
+    {
+      "file": "anthropic_news.html",
+      "bytes": 344387,
+      "sha256": "e5ed09e63469383d73cad82f422f7ceb95948fb5a08c863f3b88c6999ad0e6ad"
+    },
+    {
+      "file": "anthropic_news.txt",
+      "bytes": 15361,
+      "sha256": "618d075e1292c33df4b4079f2383860e902b3b4b4ef366e6010e97718f38a396"
+    },
+    {
+      "file": "anthropic_revision.html",
+      "bytes": 3495,
+      "sha256": "7c37062bf2bb52cf1f7803a8cc97da2997c6527101dc8ab75d1234c7b4844b93"
+    },
+    {
+      "file": "anthropic_revision.txt",
+      "bytes": 2705,
+      "sha256": "761fb250a3e643b3dc355859e52e823290b7bfd96d4919e5ac723c7d3e708db2"
+    },
+    {
+      "file": "anthropic_roadshow.html",
+      "bytes": 134068,
+      "sha256": "34ae9b3b90154c239ba063d7c8db4cd3c8f68cc1f7cd1defb661e17c9e2d9d59"
+    },
+    {
+      "file": "anthropic_roadshow.txt",
+      "bytes": 2544,
+      "sha256": "904c089c715eb5cdbde12f47d6e14ce28d3a5ff273c3990a7c1d066e7b3dc2ad"
+    },
+    {
+      "file": "anthropic_submissions.json",
+      "bytes": 3480,
+      "sha256": "defb9d209765f1b5020d861df148b3549fc54debd72b03bfebe23feb240c2983"
+    },
+    {
+      "file": "aws_status_events.json",
+      "bytes": 51586,
+      "sha256": "eb4fe271bba2206f3042039752f6e599a04181294d67fccca425746a0276d317"
+    },
+    {
+      "file": "aws_status_rss.html",
+      "bytes": 56406,
+      "sha256": "7c81bf15b66eca1e225e9505181f6c37c3bac83e46cfdc9e24da68803110347d"
+    },
+    {
+      "file": "aws_status_rss.txt",
+      "bytes": 5442,
+      "sha256": "674303ebe43ef3173f2780c32342795b6093c57d7ef52a5c1c41dfd3398f38de"
+    },
+    {
+      "file": "company_status.py",
+      "bytes": 1422,
+      "sha256": "36dd630b512dc9d22c97a1c38b5ebe44c75eccf5ac48d6c302bf2dac8072bb88"
+    },
+    {
+      "file": "company_status_manifest.json",
+      "bytes": 4364,
+      "sha256": "a808e4527666d2737bd141df3defc96a45805be4a08e8a11ae3411689b01955d"
+    },
+    {
+      "file": "decode.py",
+      "bytes": 1285,
+      "sha256": "45d96079f3a9da646acc023df36418291489764f85dcbd8c16477cdb7c166f35"
+    },
+    {
+      "file": "decode_additional.py",
+      "bytes": 1278,
+      "sha256": "e805783acc90dcbbc603bebf32aa2fd95ba317296a6bff08f860519f5dd77532"
+    },
+    {
+      "file": "decode_historical.py",
+      "bytes": 1311,
+      "sha256": "5b56c669091578c1de5b5b02290f1e54ca5079a9a19671a89741de63f8245f0e"
+    },
+    {
+      "file": "discovery_decode_manifest.json",
+      "bytes": 563,
+      "sha256": "c3d38ce647b6421df279e0929f91017a17914bafb04076e8c3240b4a6242e5a1"
+    },
+    {
+      "file": "discovery_links_manifest.json",
+      "bytes": 740,
+      "sha256": "754abe6893d9a3bebd98186a6dfadd29bf77e2d35a320affb83d860cf5908044"
+    },
+    {
+      "file": "fetch.py",
+      "bytes": 1482,
+      "sha256": "71a95c7f7755e75064052daec23ffb1e1c8859bbf371f10f0469396fc363af17"
+    },
+    {
+      "file": "findings.json",
+      "bytes": 16252,
+      "sha256": "4b7a6f95f56d5ad45e3d2b1e4665813af0dd90af981e341226105ee793453fd9"
+    },
+    {
+      "file": "focused_news.py",
+      "bytes": 1615,
+      "sha256": "886b124ac8ae1c0984b983253d3e834771d336be9d9aef43e2877d983b60be51"
+    },
+    {
+      "file": "focused_news_manifest.json",
+      "bytes": 20878,
+      "sha256": "2857c762cd95075af51c1072a40b39eb734411fd81d05a83c7fc5038a397f914"
+    },
+    {
+      "file": "google_rss.html",
+      "bytes": 28955,
+      "sha256": "b316f588f7c56c274479627792fa684368d666dd4f1fb8819e506994f6c818c8"
+    },
+    {
+      "file": "google_rss.txt",
+      "bytes": 17537,
+      "sha256": "8196a2f272764374406bd17ebee607d03d38c3687d22ad4d22b28d5fb9adb115"
+    },
+    {
+      "file": "historical_decode_manifest.json",
+      "bytes": 1067,
+      "sha256": "a5a489ffb7943dac474b007b792a31750a35c9179c12681adac394d974460fb5"
+    },
+    {
+      "file": "historical_links.py",
+      "bytes": 2365,
+      "sha256": "d7886495f487370d1e17e049f696aeae1bcb0295442d1e190250c16e75544dc3"
+    },
+    {
+      "file": "historical_links_manifest.json",
+      "bytes": 1539,
+      "sha256": "6c7cc72b0ccf4f4a39dd47f17965cdaf4fec7c53922296942142a710873fc561"
+    },
+    {
+      "file": "links.py",
+      "bytes": 1707,
+      "sha256": "0681ea08f964b443d215a2c57110c451020ce6090859e3e19d1692758acbd9fb"
+    },
+    {
+      "file": "meta_alberta_link.html",
+      "bytes": 586480,
+      "sha256": "965523651b42308810b18156853bcf33cd8698aaa70389861df29db93c3b19a1"
+    },
+    {
+      "file": "meta_alberta_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "meta_alberta_link_decoded.txt",
+      "bytes": 226,
+      "sha256": "e61d1af7214af6fad016d409296a6af53d36cc81e361e4bf571ea2a9a170b91d"
+    },
+    {
+      "file": "meta_alberta_news.html",
+      "bytes": 26628,
+      "sha256": "a2948cd456ea31ee62e87b8d3d03d89a05b647855bd0b9ff8a05235ea954c754"
+    },
+    {
+      "file": "meta_alberta_news.txt",
+      "bytes": 22733,
+      "sha256": "122c59a23518b1a7f3d6d4c406d22042d19daf1c31c1cf46390ef168e4df24db"
+    },
+    {
+      "file": "meta_company.html",
+      "bytes": 512077,
+      "sha256": "15b5a9efbbd5f1bad8dbe3ddf997a792f23983af5750e0ac98eb6cec7520dbfe"
+    },
+    {
+      "file": "meta_company.txt",
+      "bytes": 9790,
+      "sha256": "51ad250363fc2fd78a9079df805badb1010470d54c2cf642c8f9888a73ff0aca"
+    },
+    {
+      "file": "meta_company_link.html",
+      "bytes": 590647,
+      "sha256": "eefa3d59bcad8b4b67bbc2b475523bc14a6672bdbd16936fa1222fd267813932"
+    },
+    {
+      "file": "meta_company_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "meta_company_link_decoded.txt",
+      "bytes": 313,
+      "sha256": "8cdb84e9cb5bd171b27bb90ce55d304157565e221e000c50b7f7f51514a36e9e"
+    },
+    {
+      "file": "meta_old_reuters_link.html",
+      "bytes": 587029,
+      "sha256": "0dd4d3278bfc668a4394011d602e77590f5ac2d778d27bb6b7b80878baca42fb"
+    },
+    {
+      "file": "meta_old_reuters_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "meta_old_reuters_link_decoded.txt",
+      "bytes": 239,
+      "sha256": "0970bfecfa115803c411338fcb844004082ff2d8b2af7118835dff51c6e97fec"
+    },
+    {
+      "file": "meta_submissions.json",
+      "bytes": 158003,
+      "sha256": "c6f435b91227397aea548f475753739fa829761573328bc3df1f250931f10c75"
+    },
+    {
+      "file": "microsoft_submissions.json",
+      "bytes": 186640,
+      "sha256": "4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e"
+    },
+    {
+      "file": "news.py",
+      "bytes": 1814,
+      "sha256": "cd5658507e9bc4ed2b86b66b84acdae6ba86349935d352a324aa75248dbdf857"
+    },
+    {
+      "file": "news_anthropic.html",
+      "bytes": 23315,
+      "sha256": "c1dc45a8d7511acb33fb2429d8eb5268ded2d1408fe5ee22e743ed773ae84aa7"
+    },
+    {
+      "file": "news_anthropic.txt",
+      "bytes": 19629,
+      "sha256": "e03368f4f590cd5ef0768aedb1c3969244db77819076e7ac57c27452b5e58b2c"
+    },
+    {
+      "file": "news_asia.html",
+      "bytes": 2529,
+      "sha256": "f1866ed0a88f86d14c433dc5a12ad0291ec0ec8ec86c72e6fc83bbaf3761c70a"
+    },
+    {
+      "file": "news_asia.txt",
+      "bytes": 1933,
+      "sha256": "ce0ff5a4d6d5dc32c9cf7d22f17fbe662604940fd445cd3ccdb262611010282a"
+    },
+    {
+      "file": "news_buyer_cuts.html",
+      "bytes": 1283,
+      "sha256": "8c998a758a67671c611d3d70b3a171b75d1d11be141da30215055bce9d5ea793"
+    },
+    {
+      "file": "news_buyer_cuts.txt",
+      "bytes": 880,
+      "sha256": "4ed9caa63faf9e38b86e59fd7848726ddf58319c4f9e7052c83ab0ddd0503332"
+    },
+    {
+      "file": "news_manifest.json",
+      "bytes": 15773,
+      "sha256": "bee55741b22d2af759f0b6eeeb63700f0beedb2f55b3343e0e48edb0687d5aab"
+    },
+    {
+      "file": "oracle_submissions.json",
+      "bytes": 158530,
+      "sha256": "5364c4ec08e6aca1823b81257780b0b69290fe38e98ab9f48ca7268d0b4d14dc"
+    },
+    {
+      "file": "primary.py",
+      "bytes": 2144,
+      "sha256": "d05bf594e90113bfb9ae253c89b17f3aea13fbb11679b46182d0e74089b8886a"
+    },
+    {
+      "file": "primary_manifest.json",
+      "bytes": 1477,
+      "sha256": "befec9464872e10bbab8f3ed13dbdd76ed5d8d8fa4b48065781c593e14d3de58"
+    },
+    {
+      "file": "submission_summary.json",
+      "bytes": 2193,
+      "sha256": "2adba5ed0ac7ed13de4e86e391499ff97dde36c368e2acfa55d5cc5580851e9f"
+    }
+  ]
+}

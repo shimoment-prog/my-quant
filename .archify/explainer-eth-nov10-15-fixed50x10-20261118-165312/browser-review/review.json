@@ -1,0 +1,74 @@
+{
+  "artifact": "/Users/richao11/myproject/my-quant/.archify/explainer-eth-nov10-15-fixed50x10-20261118-165312/eth-fixed50x10-review.html",
+  "artifact_sha256": "09d470262e61fd821eb56c2591f3cfbc3f3bad888f9222127918470ff712484a",
+  "checkedTrades": 30,
+  "ledgerRows": 30,
+  "wins": 6,
+  "losses": 24,
+  "balance": 9968.950980220001,
+  "downloadRows": 30,
+  "samples": [
+    {
+      "name": "desktop-chart-and-ledger",
+      "outer": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 3775,
+        "scrollY": 0
+      },
+      "inner": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "height": 3505
+      }
+    },
+    {
+      "name": "desktop-report-light",
+      "outer": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 3117,
+        "scrollY": 0
+      },
+      "inner": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "height": 2847
+      }
+    },
+    {
+      "name": "mobile-report-light",
+      "outer": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 5781,
+        "scrollY": 0
+      },
+      "inner": {
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 5407
+      }
+    },
+    {
+      "name": "mobile-ledger",
+      "outer": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 4471,
+        "scrollY": 1913
+      },
+      "inner": {
+        "width": 366,
+        "scrollWidth": 366,
+        "height": 4097
+      }
+    }
+  ],
+  "scrollState": {
+    "width": 336,
+    "scrollWidth": 1150
+  },
+  "errors": [],
+  "externalRequests": []
+}

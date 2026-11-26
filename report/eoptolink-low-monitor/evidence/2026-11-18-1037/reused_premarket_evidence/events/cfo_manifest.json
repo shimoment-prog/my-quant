@@ -1,0 +1,38 @@
+[
+  {
+    "name": "nvda_cfo",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+    "started_at": "2026-11-18T00:49:07.631045+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 251579,
+    "retrieved_at": "2026-11-18T00:49:09.391867+00:00"
+  },
+  {
+    "name": "nvda_ex99",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+    "started_at": "2026-11-18T00:49:07.631558+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 348178,
+    "retrieved_at": "2026-11-18T00:49:11.669285+00:00"
+  },
+  {
+    "name": "nvda_commitments",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+    "started_at": "2026-11-18T00:49:07.631707+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 79599,
+    "retrieved_at": "2026-11-18T00:49:07.981692+00:00"
+  },
+  {
+    "name": "nvda_committee",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+    "started_at": "2026-11-18T00:49:07.631863+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 62519,
+    "retrieved_at": "2026-11-18T00:49:08.077525+00:00"
+  }
+]

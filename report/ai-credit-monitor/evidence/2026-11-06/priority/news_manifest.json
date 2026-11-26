@@ -1,0 +1,183 @@
+[
+  {
+    "name": "oracle_newsroom",
+    "url": "https://www.oracle.com/news/",
+    "retrieved_at": "2026-11-06T00:35:20.774239+00:00",
+    "status": 200,
+    "bytes": 65526
+  },
+  {
+    "name": "coreweave_newsroom",
+    "url": "https://www.coreweave.com/news",
+    "retrieved_at": "2026-11-06T00:35:20.774621+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "news_oracle",
+    "url": "https://news.google.com/rss/search?q=Oracle%20data%20center%20financing%20debt%20November%205%202026%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-06T00:35:20.774806+00:00",
+    "status": 200,
+    "bytes": 34501,
+    "items": [
+      {
+        "title": "Mystery Seller Seeks to Dump $500 Million of Data Center Loans - Bloomberg.com",
+        "pubDate": "Thu, 05 Nov 2026 18:52:30 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc3l0QXB3MW5hNE1uQUpzcUloU0NuckhSWG9ZWUFDeVdLYVp0MmlVR25Lb0c0bnhlbUdzZ09TYzh2RnkxTnJnZ1d6WkFkWkw3TEMzZUlDaWJsb0xCSXBiMXhDTEZyVkhOVzJpR3prSkk1SEQ1bWcwZXN1RnUzNFlRMFNOVDhGZUNiXzVqRGMwVTVybmRkbUZiVWthVGc4aDNHTXMzMDF4SXJyODdFb0syUWRJWWFVNVEzRHlYd2tVOXQ2SzlVVWE0SA?oc=5"
+      },
+      {
+        "title": "$500M Mystery Seller: Who\u2019s Dumping Data-Center Loans After AI Stock Crash? - BeInCrypto",
+        "pubDate": "Thu, 05 Nov 2026 22:39:58 GMT",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95MXd4R2FUOTduLXdSeDdVNTFVblppQWN3aVNlQXN6SElKNS1WVGR0YlZVQ1VMVVNueDhLcVZyYUNoeDZka1lTWngxOVNQbVJXR01vVkhraWdXaGYzZUxEdTBKdjhaZWJFVTBuaVlfbjhkU2M?oc=5"
+      },
+      {
+        "title": "Why Oracle Stock Is Sinking Today - Yahoo Finance",
+        "pubDate": "Thu, 05 Nov 2026 19:02:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNG00S3FSNkNxcC1OX0VRb3JPajk4UXJFVTkyODlqWENaQ2FueUgwUEhkaGpFdzJvQlg1U2NLSTF6bE9jck84cmNVSDNVZ2pmeUNWekdBMEc5T3pKRlh0T3Roenk4ODh1aE9DaElycnZLd2pybVczWFpLQnowMHNxaXhRWGhZN2M3NFMyRmd3MmlmblIzWHJQalM1UQ?oc=5"
+      },
+      {
+        "title": "A $500 Million Pile of Data Center Loans Just Hit the Auction Block - Startup Fortune",
+        "pubDate": "Thu, 05 Nov 2026 21:31:31 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObGlrdG9VOG1DV3RqM1hSZ1pDaFN2QlNzN3d4ajFLQjZOcFJjVzJibHp5WVpZUDh4cm5SVDZOc3k3N1BmSUdwNktuT09mUFVaYXo5VG9uaDhtUmxfVkc1ZE4zaGFVV3BWbDlzWG1ST1Nxa002eW51eDJ1ZnZ1eWZpMWZyVHpJa0c4VVhVREZKdEhGR0UycXN2c3B3?oc=5"
+      },
+      {
+        "title": "Oracle Just Walked Away From a $7 Billion Tencent AI Deal - 24/7 Wall St.",
+        "pubDate": "Thu, 05 Nov 2026 14:57:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOREJLbnV6X2d5NHg0RWYyVDBCb0h4eWgwZkdVODAtM0Y1S2h3dTlVY25FcVBIT21KblhZSW53c3Y3Z1NnZmtudm5tSEFKdUtxZ3NQaHlyV0tLR3NrbEVMcXhHUzJ3ZGhGTzlfbXQ5OW42dlZQazVWanRvekYyd1BzejJoc1ZRaEJwSHBKeUh2LVZHR3IzS1BfN2tjeExKNTdkS3c?oc=5"
+      },
+      {
+        "title": "Hedge Funds Were \u2018Massive\u2019 Sellers of AI Debt, RBC\u2019s Skiba Says - Bloomberg.com",
+        "pubDate": "Thu, 05 Nov 2026 20:27:03 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdnZrQ0ZFd0ZvSEh6Ui1GYXNyOGxSS2pNYVB6bFZJUjJpYUVQX3Fsa0hnczhYaS1wTTVyN1JWcEpkZmpHd2VtbE81ZHBiU09hNWMxNWJoRC1ub0RUZ0FfNEdMR3lkdS1oQVFIUEFvYTc5cDJYS0Z2Nndmb25nX1pTUHBwNC03WldVVlVSWkxLeXVVWjUzTWdZSTZwSnlGWEJKb01VTVA2ODg5NHl5bEdiUg?oc=5"
+      },
+      {
+        "title": "Dan Ives Sees Cash Flow Rebound In MSFT, META, GOOGL, AMZN: Says AI Bubble Fears Thrown Out The Window - TradingView",
+        "pubDate": "Thu, 05 Nov 2026 14:49:07 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOU2lRSzRYSGk0Nnk5QnlJYkI5ZjEwUHNvWGVaWVJlMThQNjJOMHdscVNQWnotNjhpdHZkUGp5bFV4ZzhEMVk5b2YyeDZjaHBvTzFYbTJIcVVkRnUwNzdyaDlPbVJTQWNadG41RHdLSmw0dEZRR3lVZ3lVVmZVaERZSDg5MVliR3lMcmptSHFrelFESXY4blNFWVpBa2JrZFNkSnI4R0N5LUpHS1U4WUZhV3dsb1ZodVU4VVIySWJTcE9vSE9qdzNDcW9NTWhQUEhrYk55bjFEdmszT2U4SVNfR1Rhck9PcURKV3IyRnVtVWw?oc=5"
+      },
+      {
+        "title": "After the midterms, Big Tech\u2019s AI data center problem is only getting bigger - Fortune",
+        "pubDate": "Wed, 04 Nov 2026 21:18:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeVVITmlvODB3Z0lJajdqM1F1RmtRemVYMUhia2JuRlNuWFpBV3Vla013bzI3c0xaaGhaaUVCU1A0NUx5b0J4WnN1alVfV2VIUS1mcU5FNEZQSWlNdEJ1Mk40emRjXzM1SHVXbDMwMzdwRGIyeWV3LTE3dElpcmdnTVp5WnRhYUNvOGc?oc=5"
+      },
+      {
+        "title": "Oracle Corp Stock (ORCL) Moved Down by 8.05% on Nov 5: Key Drivers Unveiled - TradingKey",
+        "pubDate": "Thu, 05 Nov 2026 16:16:08 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQTBVamlBRTZNSC1UMHkzVm5CMUh0c2RuQk96aTk4VDhMV2NjTlBrMjVZM1RCeTgwUUNBRzIwTE5xMktOSFJQYktCbHlYZzVINTFGQk1aR2d5Nkl0Zm9ZWG0tRlBpbF8teVFMVS1jcV9aMG45YmJadm9GeFF4T092b3dWMkNhZkFLcjY0?oc=5"
+      },
+      {
+        "title": "BoE Probes Tenantless Data Centre Loans; $1.75T Debt Seen - FourWeekMBA",
+        "pubDate": "Thu, 05 Nov 2026 10:46:47 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEN5eGc1b1R2bnd6VWU1cXNNU0xIYUQwV1BYYTBIT2tkWmQ5OHJtX0JkaFpHTE1TcWN6d0JyZFJWZ1NteUFZY0Z2THY0bnJhVEdZcTJ2ZDNxMUN2bFd3R01MU1hpQjNORmZJVWRVbTJhZ0xVbWU5Vk1BaWZkd05EUUxBd25BdEhiWmJ3?oc=5"
+      },
+      {
+        "title": "Why is Oracle's share price moving? It reportedly cancelled a $7 billion Tencent chip deal - Nacionale",
+        "pubDate": "Wed, 04 Nov 2026 16:36:43 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1ZJQ240dFRRbEFSZ1dOQ3kxSFI5WnFVcDlqM0ZDSnhydS1zelFLc2puMmlGbTFWY0VwMjhxOGdvUWRiRWxSMjhURHU1ZjVESkJ4b3ppR0ptcVN2M1V2eXJDbHh4LW43OXRGRjl5SkF5aDd4M3lHc19raWdMNm9rRjM1R3BTMXltcU5LYmdxemhpZlJpYWJhOVJUS1NYZTFGblZIX2JoaTJ6U1V6S1libUtn?oc=5"
+      },
+      {
+        "title": "Goldman, Apollo in Talks to Sell SpaceX\u2019s $40 Billion AI Deal - Bloomberg.com",
+        "pubDate": "Thu, 05 Nov 2026 13:44:12 GMT",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSXh2SlMyd0Z6eHJwTVkyTnJOV09CZGhHWFVEQWg5SXZwbUxGdDBoNzV4WTQyV0Q2V3lSbWd5ZGNWQTNUQ2YtZExEMGVEWEtFTVI2VG4xS0U4VnNpWHVvaUVpT2xRSWtIYUlkb2pUUVp3SEV0NE9TQTBYY28tX004LVlTNlhXejhnUjN0WmVmdEIwTXVRbi1fWTdLMkhPQ043RmNGUGE0UXlaYUhMU2Zj?oc=5"
+      },
+      {
+        "title": "Oracle Data Center Developer Waives Key Air Permit Deadline - Bloomberg.com",
+        "pubDate": "Thu, 05 Nov 2026 18:50:58 GMT",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUV9SN2taamxXRkRRMVhvZUFQbEttZlJvRmxONTBtdk9NZjBhMmdZZ3pEOFdHdTlkcEI2NEYxaEY3X2tRMkxQZExiRkswdERGblN0dS1NOEtzNmE2cnVzZlNaeDBNZXZ4YUVVNGhfZUtTTm9hMlJTTHdUTG16a3BDOGxRaFROSExZWGlOdGl0dDdtUDloU2FobTgwcURHMXl4ZVNiTUxvc2Y0clhvY0Iw?oc=5"
+      },
+      {
+        "title": "VW to Pay Big Premium in Hybrid Debt Sale as Carmaker Struggles - Bloomberg.com",
+        "pubDate": "Thu, 05 Nov 2026 17:09:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY19uelp4eG03LVlzbFFpQkJJTDIwa0RFUFhVNWp6eFFOZ3ZiUXZSdlFvRDdRVGpxYXYwVjN4cjJ2Q1FSM0FnWGdKR3hwU1FvUWkwWVRYREM4WHd6ZENFakdIbmxwemt5cDd4X3ljaXQ3dVkyLVQxRFh5d1hiOWx2S1FMTXhRZHljMHRmTVFLWVpablNmbUlnMGQtU2M1bkFqQzRtS3NCRmVfYm1jU29NRjVMLXM?oc=5"
+      },
+      {
+        "title": "Democrats\u2019 Win Hands Tech Giants an $800 Billion Boost - Bloomberg.com",
+        "pubDate": "Thu, 05 Nov 2026 11:28:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUpsUWxRNFNMQ0R3Zk1xM2VxdXV3bXp5MXNWQ3VJUmNYWXd0b1ZNcTVZYW5FTEJDczNENFBFNXZXdWcwdGduN0NLMkVGX0xoMnJPblFBRnJrTV9SY1JLS0FKQkNSTlhpUGhjSlB0SzNTd09MTWFBbmdSRS1Pdkc1Q3FYU3BETldBaDdwS1pFUkNQOFhTQWtFaU91dGF2TjFsenVUMGJibFQ3RzFfdFN2UDdmWWJRUEZ5?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_coreweave",
+    "url": "https://news.google.com/rss/search?q=CoreWeave%20financing%20debt%20earnings%20November%205%202026%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-06T00:35:20.774961+00:00",
+    "status": 200,
+    "bytes": 29895,
+    "items": [
+      {
+        "title": "What Is Driving The Fall In CoreWeave Stock? - Trefis",
+        "pubDate": "Thu, 05 Nov 2026 10:21:44 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPblEzSEJfeWVQQlV0X3JrNmlUZEJXOWtHNXVTX2k5RmF5QUZQLV9RdlJfQlhPMWJ3UkRmTWJVSVBRSzJlNmlkLUFnajJBV0pIdGZVVU5rR3BuR2c0SzNncHotNjJfc2h3UHVJTkN1MFFlVjI3bEdNY3BKVEstRFE0VWQ4VmpjSFFVcTdJZ0dPcjUzQlAySlFNel94SEdYVXd4Ukpna045Yw?oc=5"
+      },
+      {
+        "title": "Could an AI Spending Crunch Cause a Recession? - Morningstar",
+        "pubDate": "Thu, 05 Nov 2026 14:02:46 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdEk5R1NaUFR4eVB2MXJlSndCMHpidWNES0JlYXZGbVFpeUFNT0xkbjFVVjc4dmNmLXdFTWxpOVNNZEswTlpvekp0QjIzQ19rbF9YU0JqWFptenMySC1ZbDVRbVNBYzdrbksteVJBbzhzZlFOVWtWVjA5VjJyRTVSMkNxN0xGQQ?oc=5"
+      },
+      {
+        "title": "CoreWeave vs. Nebius: Which Is the Better AI Neocloud Stock to Own for the Next 3 Years? - AOL.com",
+        "pubDate": "Thu, 05 Nov 2026 22:20:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1XYUt4eVhrdlA0LXdjSEFYZzJEbEh4ZUZ6NTdfS3oxd0l2bHZsYlRaOFVGeXhJczJFRGFtSml0Rmd2MmtldjZOUEEyRDRHZTVxSnltcFlKNlFzVUw3bnNaVWVGekFFemRDOHJiMWZwendUQjk1d1Z5dWYzWVVkQQ?oc=5"
+      },
+      {
+        "title": "$500M Data Center Loans Up for Sale; CoreWeave Notes at 76 - FourWeekMBA",
+        "pubDate": "Thu, 05 Nov 2026 23:35:31 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVVIzcGJLTjNzcHFUQ2RVbzJPUWtRaWdRNmkyMm5OeGNNR3hZWFFOOU1LSXctV1duNm0wUUV4aVNkS2hQbmNuMmprVFBBOVBla1lQRU9wem03QUhDM0xLWE5kRjkzVkgxSWxUVDNfNFFQY0NLUW8wV2oySFJvaEFBa2hWY1F2dk9fN3F6Xw?oc=5"
+      },
+      {
+        "title": "How These Growth Stories Became Cautionary Debt Tales: CoreWeave Vs. Nebius - 24/7 Wall St.",
+        "pubDate": "Thu, 05 Nov 2026 13:45:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZGt0UURKSGdjX0RobmFTSGNPb1hORWZIUFk3SGpOeXJwdHM0bHdiX25XQ0J2NkRKQUJwekk0TXJGMnpsWEwyVGFCZmx5d0RKX2lQMF9VX1dadl9lZEJSVHVCZGU3dEZ6aFRvWjFIcHBEYUd5UWlzRGlpWmhqblFMLWM4dmFpQmJ4OU4tT2NjLVVVUDhQZG1YOE9TWVhHc3ptSE1SNThBc041akNvaWpkTUNfaUtFUVNp?oc=5"
+      },
+      {
+        "title": "The \"Shadow of Credit\" Creeping Into the AI Trade: Alphabet's Plunge and CoreWeave's Woes Signal Funding Risks - BigGo Finance",
+        "pubDate": "Thu, 05 Nov 2026 22:26:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBydlhCUzJMUDVSSWN1dU9icUJQODEzbzZQanJ2VEpXcjJKS3hPUDVxYWxuWV8xOUc2dmdlam9XYm1rWW1EMGJneHlJUjh6cDF6d0l2MzRET2dZMFpzZ2htcll5R0dEcmxkYmNPWjYzaFU1UFAyb2c?oc=5"
+      },
+      {
+        "title": "Nebius Is Up 69% in 2026. Is Its AI Bubble \u201cAlready Popping\u201d? - TIKR.com",
+        "pubDate": "Thu, 05 Nov 2026 18:30:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTmF3aFpabUU2cnpTeW5VV1Q2b3JjejY3dTdWSWRpTkt1czV6M096dTY2MTc4anJRSnBIWFViUXNLRmIwVzNuQjczX1dVbWdZeUJ4cW9iaExnQy1VbmpEX1hMOFpBT0lEYW1HVU0yOHh6eDFtMDRXMmFzZFhJSjRXazRlMUsyamJpdDBR?oc=5"
+      },
+      {
+        "title": "Applied Digital Plunges 17%, Cipher Digital Sinks 14%, TeraWulf Tumbles 13% as Texas Data Center Fears Deepen - 24/7 Wall St.",
+        "pubDate": "Thu, 05 Nov 2026 17:03:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPV18wQnZwTmJNaWtqV2dDNXBMemJNRFRSVFFJWGVNVXMzVndubzJiVkVlZlpFVVhtZzhOSnFfLWNQYWZlam1NUXRIWmROSzdob1Q5Z3dzYjF3dVpyRVZ4Wnc0Z0JseWtia25kNVFIRGlSSkt2RTNvZ0hVaFRCVXBLdnhvaXlQYjlsZEdnWUJmTmtVSEpjYjBWZnBlMThYZzNaSDB5OHZmWmNMNGNtaXhXZGlab3gzNHE4clBDUnJTYmZ6d2NwY3NBU2ZDSGt1X3NTdjhyTF9qUm1TOEhFWGJkYnNn?oc=5"
+      },
+      {
+        "title": "CoreWeave slumps 10% to touch new 52-week low (CRWV:NASDAQ) - Seeking Alpha",
+        "pubDate": "Wed, 04 Nov 2026 21:35:55 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcXhBT3ZucnoycWo0WjR4ZE5OU3BuTVhhRm4zLXJSX1drbnVNN0lXYkJuRmVYaFpCYmJFTzhaTlU2anpGcy1hMEdXZFdrbzE4TUtEYWtVeE1qWlluNGw0MkJMcUtfbi1RRmM5UWk2ZllvTTd4RWpreEt3UERJRVV1Y0RPa2wyb3p1Zmc?oc=5"
+      },
+      {
+        "title": "CoreWeave Sinks 9% as Microsoft Rejects Nscale\u2019s Texas Expansion: \u201cThe First Person Who\u2019s Going to Suffer\u201d - TIKR.com",
+        "pubDate": "Thu, 05 Nov 2026 16:34:04 GMT",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOejJTb3NEQmpCdnoxUnZYakVJWGxGeHFqQnVKV1FGeEx3VzJYR0tpcGlXMWN5STV2cmNSTmY5ZFpSb2ZyejA0cXpYbGdVSVB6TlFsS2dQN2Vmby1MbllSSElWMGwxVFF1ZFkzZmh4d0NhdEFJWDVFaFlHcFNYbG5WSUhEejJ1MTFFS3pOSjN1cElaNVhsY1Q5TEluZlNFbTNtbDdxYVh5YWwzVDlMUEFpcHRmWVc5ZDdUU1Z5ZTRjbEJtdE5vZHc?oc=5"
+      },
+      {
+        "title": "Musk Says \"Data Centers In Space Looking Pretty Appealing Right Now\" After Voters Sided Against Data Centers In 40 Of 41 Local Ballot Measures, As SpaceX, CoreWeave And Nebius Are Plunging Today - 24/7 Wall St.",
+        "pubDate": "Thu, 05 Nov 2026 17:04:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOSzZEamh3V21DeTBIb1JmNzBsQlE0WmhRTEhEeUV4OVJvSWdSc0VYS1p4NGlNYzZWdS05LU9xTktTaExfWHVXTDBFR1E3cFR0T0tLZGtQaVhqTlBBcUhONTFMYUV3LWFBbVdjM3p6OEhTQnNwQzhEZzM2ckFxeklmekhNVFdLX1A2RGdZdzFuR1ZKWUdMOFBGaERPTXlNRnR4cVpGcDJJeGZsazNFdjliT0tCNC1vWkZnbndzYS1yMXliYzZmLXFmVF9XTXhqdS1pTURTQzdkTGdZSWF3SzRkakdMVEd4UnM4NkJTbkpRcXRhVjdrSGgtRVMwSS1Jc1VlZ2dvRVZndUZYSGtUaktKMHZvbmhpV0RQVHZXcVVkSHl6b242LXBNb3dYVjhvRkhjZC0tSDJwUkdzekc3My0yekYyRDVIUndpNHY2ek0zODUwaEZ6?oc=5"
+      },
+      {
+        "title": "Citi Cut Its CoreWeave Target to $128. It Still Sees 164% Upside - TIKR.com",
+        "pubDate": "Thu, 05 Nov 2026 10:52:30 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ3lmOXFjaVF3ZEoyLVFVMHVfUjNHWWlCX1BJRk9TckZCMEVmaGprbVRwSU91alRQTnNGeTB2YUx3X3FaRXY1ZG9fbWd4OUhkNDFEX3daV0YxcU9xQnZGalc2eFA5VU5xa0xhWWJSTUFoRHFLY3RucnE2Rm5oSVpud3I2VHJUTkN1ZFhCekJZejNJUQ?oc=5"
+      },
+      {
+        "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request - CNBC",
+        "pubDate": "Thu, 05 Nov 2026 22:12:39 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iak1TdV9VYjNuOUVBc2I2RGdLNk9aX3dNc0U1QXBYUndsY2EwUlBHeV9ZQkZJWHRyblJSOEswSnEyUWtNbEpid0xQMEE2V0NOUmM3eWRQc2t1R3V0aWNBWUhqa1NKX0VZa3gtUmJENzNiTm1s0gF6QVVfeXFMUEpwaFM2dHFuNDlYaF9fX0hMYVBHbjNJVWlPSnNLYXVBdkhQM2N0SUFqWE8zSUN2eXdscXB5SFpkdTVIdzhtY2N4UnUwZXFDb3FPU3VHaGJyaDlub2p0d0lKWktxRjRnbHZOM2FQckQ5aXg3cDRBVUllalE?oc=5"
+      },
+      {
+        "title": "Core Scientific, Inc. (CORZW) Q3 FY2026 earnings call transcript - Yahoo Finance",
+        "pubDate": "Thu, 05 Nov 2026 13:30:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd2hPdjhSaTZnUmJJWW5qRmpRUGJYOUJIUmdKRkwwVWNIUXJfYlNZUHZDZjc3Vnk2dHlKWmp6VGkxdjcwU3RoNHJUX2J0ZlZlbTMxWnN3Y3hOSzNlRF9ZenVRX1Q0UHhtSWJYVzVjakh3b3hFM2I1OHVUYWlxclF5X285RThFS1NpbG02bFBGcw?oc=5"
+      },
+      {
+        "title": "How the midterms could fuel the K-shaped AI trade - CNBC",
+        "pubDate": "Thu, 05 Nov 2026 10:34:38 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85ZjJvMHpqdi03OUdNNnlyV2Y1Zk5pM1ZacjY2ZmJKSmNlTDBhSGw5TzRfZmdpTnFvWndCcFNGOTNxYmpJTHFoaVRHYk5iQkQzTWYyT2lQcmVETE5zdXZNZ21BNWMtY09NbVpEdzlxRnNGYjdxTUJmY29n0gF_QVVfeXFMT3NSbkhmRHFQTGdOZTBuMk13VkVVT2ZiT0lZMjhUcVJ5TGVCbk83cHBNS0hwcUZqajNULUF5RjJTUHlMVWRCYWVKc2FYbDdtNUJzY0FWYURKVExhaEhoOGNCa1B6VWE1QThMdlpDTzZBaEFLQTNSWWIxMGVBNS1RVQ?oc=5"
+      }
+    ]
+  }
+]

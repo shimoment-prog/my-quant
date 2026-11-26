@@ -1,0 +1,48 @@
+{
+  "event_id": "qts_20261113_private_debt_sale_reduction_media_lead",
+  "new_evidence_id": "qts_20261115_investingLive_fulltext_verified_20261116",
+  "same_underlying_event_as_prior_run": true,
+  "independent_event_count": 1,
+  "incremental_independent_event_count": 0,
+  "issuer": "QTS Data Centers",
+  "sponsor": "Blackstone",
+  "original_event_date_reported": "2026-11-13",
+  "source": "https://investinglive.com/stocks/weekend-blackstone-s-qts-cuts-ai-data-center-debt-sale-60-as-investors-push-back-on-pricing/",
+  "outlet": "investingLive",
+  "author": "Eamonn Sheridan",
+  "publication_at": "2026-11-15T22:28:27Z",
+  "retrieved_at": "2026-11-16T00:29:57.151960+00:00",
+  "evidence_grade": "complete_public_secondary_media_relay_explicitly_attributed_to_Bloomberg_anonymous_transaction_sources",
+  "original_Bloomberg_report_obtained": false,
+  "prior_offering_target_USD_approx": 800000000,
+  "revised_offering_target_USD_approx": 300000000,
+  "target_reduction_USD_approx": 500000000,
+  "reported_reduction_pct_approx": 60,
+  "source_rounding": "原新金额均约数，使用报道约60%；不把62.5%算术精度写成正式发行条款。",
+  "reported_reason": [
+    "Some investors objected to offered pricing",
+    "Some investors constrained by repeat QTS placement exposure",
+    "QTS/Blackstone declined much higher yields, concerned about benchmark impact on other borrowing"
+  ],
+  "stage": "media_reported_downsizing_of_planned_private_placement_final_pricing_closing_and_receipts_unverified",
+  "final_coupon_yield_benchmark_spread": null,
+  "actual_closed_principal_or_receipts_verified": false,
+  "offering_withdrawal_or_failed_closing_verified": false,
+  "alternate_financing_verified": false,
+  "specific_customer_contract_or_project_site": null,
+  "actual_order_cancellation_payment_default_construction_halt_or_guarantee_payout_verified": false,
+  "project_or_parent_recourse_terms": null,
+  "new_terms_or_stage_change_since_previous_run_verified": false,
+  "previous_source_detail_reference": "evidence/2026-11-15/priority/qts_followup.json; SPV/maturity/arrangers there remain secondary-source details, not newly corroborated by current article",
+  "interpretation": "补强相同11月13日融资缩量事件的公开二手全文，并非第二笔融资失败或11月16日进一步缩量。未披露最终收益率/交割/项目后果；不把约5亿美元目标缩减当已证实现金缺口，也不认定全面融资中断。",
+  "excluded_commentary": [
+    "sector-wide financing cost extrapolations without matched instrument terms",
+    "headline wording raising as proof of cash received",
+    "stock/share-price references as actual credit losses"
+  ],
+  "next_confirmation": [
+    "原始Bloomberg/发行人/承销方确认修订规模与日期",
+    "最终收益率/利差、认购/交割与实际到账",
+    "具体项目、备用资金及是否发生订单取消/停工"
+  ]
+}

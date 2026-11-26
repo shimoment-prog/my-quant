@@ -1,0 +1,26 @@
+[
+  {
+    "name": "srn_retry",
+    "url": "https://www.srnnews.com/alphabet-discloses-548-million-worth-of-qualcomm-stake/",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "mwl_qualcomm",
+    "url": "https://www.mobileworldlive.com/google/alphabet-reveals-548m-qualcomm-stake/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "sec13f_search",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2026-11-05&enddt=2026-11-06&forms=13F-HR&q=Qualcomm%20Alphabet",
+    "retrieved_at": "2026-11-07T00:29:51.847525+00:00",
+    "ok": true
+  },
+  {
+    "name": "reuters_google_crusoe",
+    "url": "https://www.reuters.com/business/google-acquires-wyoming-data-center-site-ai-infrastructure-firm-crusoe-2026-11-06/",
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  }
+]

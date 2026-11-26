@@ -1,0 +1,66 @@
+[
+  {
+    "name": "nbs_overall",
+    "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html",
+    "retrieved_at": "2026-11-17T01:51:55.713012+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 387630
+  },
+  {
+    "name": "nbs_qa",
+    "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965869.html",
+    "retrieved_at": "2026-11-17T01:51:55.713397+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 207527
+  },
+  {
+    "name": "nbs_retail",
+    "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html",
+    "retrieved_at": "2026-11-17T01:51:55.713566+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 244785
+  },
+  {
+    "name": "nbs_invest",
+    "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965841.html",
+    "retrieved_at": "2026-11-17T01:51:55.713747+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 190888
+  },
+  {
+    "name": "cls_morning",
+    "url": "https://www.cls.cn/detail/2536060",
+    "retrieved_at": "2026-11-17T01:51:55.713911+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 33415
+  },
+  {
+    "name": "ce1",
+    "url": "https://finance.ce.cn/stock/gsgdbd/index_1.shtml",
+    "retrieved_at": "2026-11-17T01:51:55.714050+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 14567
+  },
+  {
+    "name": "ce2",
+    "url": "https://finance.ce.cn/stock/gsgdbd/index_2.shtml",
+    "retrieved_at": "2026-11-17T01:51:55.714185+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 14316
+  },
+  {
+    "name": "cls_close_query",
+    "url": "https://www.cls.cn/searchPage?keyword=%E6%94%B6%E8%AF%84&type=article",
+    "retrieved_at": "2026-11-17T01:51:55.714330+00:00",
+    "status": 200,
+    "ok": true,
+    "bytes": 10703
+  }
+]

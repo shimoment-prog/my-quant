@@ -1,0 +1,47 @@
+X0609
+4
+2026-11-05
+0001769628
+CoreWeave, Inc.
+CRWV
+0001699866
+Baker Jeff
+false
+C/O COREWEAVE, INC.
+290 WEST MT. PLEASANT AVENUE, SUITE 4100
+LIVINGSTON
+NJ
+07039
+1
+Principal Accounting Officer
+0
+Restricted Stock Units
+2026-11-05
+4
+A
+0
+8643
+0
+A
+Class A Common Stock
+8643
+8643
+D
+Restricted Stock Units
+2026-11-05
+4
+A
+0
+12964
+0
+A
+Class A Common Stock
+12964
+12964
+D
+Each restricted stock unit represents a contingent right to receive one share of the Issuer's Class A Common Stock upon settlement.
+The award vests as to 1/8 of the total award on the 20th calendar day of February, May, August, and November, commencing on February 20, 2027, subject to the reporting person's continued service to the Issuer on each vesting date.
+These restricted stock units do not expire; they either vest or are cancelled prior to the vesting date.
+The award vests as to 1/4 of the total award on the 20th calendar day of February, May, August, and November, commencing on February 20, 2027, subject to the reporting person's continued service to the Issuer on each vesting date.
+/s/ Nisha Antony, as Attorney-in-Fact
+2026-11-09

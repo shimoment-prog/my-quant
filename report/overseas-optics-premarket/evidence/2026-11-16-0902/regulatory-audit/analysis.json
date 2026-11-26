@@ -1,0 +1,78 @@
+{
+  "audit_at_utc": "2026-11-16T00:52:45.529996+00:00",
+  "scope": "bounded independent regulatory wording review; no modifications to events or monitor state",
+  "conclusion": {
+    "new_export_rule_effective": "not_verified",
+    "media_supported": "11月15日23:06–23:16北京时间新浪快讯转述贝森特要求审查出口合规、外部寻找新领导人、10天回应；仅可表述为媒体报道的合规及治理风险",
+    "not_supported": [
+      "新出口禁令已经生效",
+      "公司已被正式裁定违法",
+      "客户订单已经取消",
+      "回归传闻等于董事会正式任命"
+    ],
+    "formal_document_missing": [
+      "11月15日讲话官方全文或正式函件",
+      "新规文本、适用产品、生效日",
+      "后续CEO正式任命文件"
+    ],
+    "market_quote_boundary": "11月16日07:14:45媒体明确+4.5%为Hyperliquid挂钩英伟达股价的永续期货，非NASDAQ普通股正常盘成交；含糊暗盘报价未核产品和场所不得用作正常盘股价或替代11月13日收盘。"
+  },
+  "official_bounded_checks": [
+    {
+      "url": "https://home.treasury.gov/news/press-releases",
+      "http_status": 200,
+      "latest_visible_date": "2026-11-13",
+      "finding": "本页未见11月15日NVIDIA相关全文；索引未收录不能证明没有讲话或法律行动。"
+    },
+    {
+      "url": "https://www.whitehouse.gov/briefings-statements/",
+      "http_status": 200,
+      "latest_visible_date": "2026-11-12",
+      "finding": "本页未见11月15日NVIDIA相关全文。"
+    },
+    {
+      "url": "https://www.bis.gov/press-releases",
+      "http_status": 404,
+      "finding": "初始路径不可用，转从官网首页发现news-updates。"
+    },
+    {
+      "url": "https://www.bis.gov/news-updates",
+      "http_status": 200,
+      "latest_visible_date": "2026-10-02",
+      "finding": "本页未找到11月15日NVIDIA新规；可见Jan13 H200等许可审查政策为旧资料，不作为今日更新。"
+    }
+  ],
+  "selected_media": [
+    {
+      "time": "2026-11-14 03:09:35",
+      "text": "英伟达董事会：尚未正式接触任何潜在候选人，任何猜测都为时过早。",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxq7672339.d.html"
+    },
+    {
+      "time": "2026-11-14 03:10:42",
+      "text": "英伟达董事会：“我们正在为英伟达CEO一职遴选猎头公司，尚未正式接触任何潜在候选人。有关具体候选人的任何猜测，无论来自内部还是外部，都为时过早。”",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxp0896549.d.html"
+    },
+    {
+      "time": "2026-11-15 10:12:34",
+      "text": "【英伟达两大股东向董事会发公开信：要求考虑让黄仁勋回归】英伟达的两大股东呼吁董事会考虑公司未来领导层的所有可能方案，其中包括“黄仁勋的回归可能性”。 美国科技投资公司Altimeter Capital CEO布拉德·格斯特纳(Brad Gerstner)周五在X上发布了一封公开信，督促英伟达董事会“以缓慢、审慎和深思熟虑的方式，推进英伟达未来领导层问题的决策过程”。这封信也得到了美国投资管理公司Atreides Management创始人加文·贝克(Gavin Baker)的签署支持。 根据Altimeter Capital最新提交给美国证监会的文件，英伟达是他们持仓规模最大的股票。截至今年6月30日，Altimeter Capital持有940万股英伟达股票，价值近19亿美元。截至6月底，Atreides持有120万股英伟达股票，价值近2.5亿美元。",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyupue9824519.d.html"
+    },
+    {
+      "time": "2026-11-15 23:11:33",
+      "text": "美国财长贝森特：英伟达董事会及外部律师须在“未来10天内”就公司出口限制合规文化作出回应。",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpq9365526.d.html"
+    },
+    {
+      "time": "2026-11-15 23:16:53",
+      "text": "【美财长施压英伟达：要求外部换帅，限期10天回应合规问题】针对英伟达近期的出口限制争议，美国财政部长贝森特发表系列强硬表态，要求英伟达必须从外部寻找新领导人，并对公司现有领导层进行“大幅调整”。贝森特强调，审查英伟达是否遵守出口限制至关重要，并将密切观察该公司是否故意无视了警示信号。此外，贝森特指出，报告显示在新加坡销售的芯片中仅有1%留在当地，这引发了对芯片违规流向的严重质疑。他要求英伟达董事会及外部律师必须在“未来10天内”就公司的出口限制合规文化作出正式回应。",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpv2911966.d.html"
+    },
+    {
+      "time": "2026-11-16 07:14:45",
+      "text": "【英伟达在Hyperliquid上因黄仁勋回归传闻上涨4.5%】在有关被罢免的CEO黄仁勋正讨论重返公司的报道传出后，Hyperliquid区块链上挂钩英伟达股价的永续期货合约涨幅高达4.5%。该合约报价一度触及166.97美元。据《金融时报》报道，随着多位硅谷盟友开始游说他回归，黄仁勋一直在探讨重返公司的想法。",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywnmh9083606.d.html"
+    }
+  ],
+  "recommended_wording": "11月15日媒体转述美国财长要求英伟达回应出口合规问题，增加治理／监管不确定性；新规文本和正式行动尚未核实，不代表新易盛失去订单。"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "qts_google",
+    "url": "https://www.google.com/search?q=%22QTS%22+%22private+debt%22+%22300%22&hl=en",
+    "retrieved_at": "2026-11-14T00:36:49.170852+00:00",
+    "status": 200,
+    "final_url": "https://www.google.com/search?q=%22QTS%22+%22private+debt%22+%22300%22&hl=en",
+    "bytes": 92836,
+    "canonical": [],
+    "jsonld": [],
+    "links": [],
+    "text": "Google Search Please click here if you are not redirected within a few seconds. If you're having trouble accessing Google Search, please click here , or send feedback ."
+  },
+  {
+    "name": "qts_bt_alt",
+    "url": "https://www.businesstimes.com.sg/companies-markets/blackstones-qts-is-cutting-ai-debt-sale-by-more-than-half",
+    "retrieved_at": "2026-11-14T00:36:49.171301+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "qts_tu_search",
+    "url": "https://tradersunion.com/search/?q=QTS",
+    "retrieved_at": "2026-11-14T00:36:49.171470+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "qts_marketscreener_search",
+    "url": "https://www.marketscreener.com/search/?q=Blackstone-Backed%20QTS",
+    "retrieved_at": "2026-11-14T00:36:49.171658+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "qts_yahoo",
+    "url": "https://finance.yahoo.com/news/blackstone-qts-cutting-ai-debt-222156445.html",
+    "retrieved_at": "2026-11-14T00:36:49.171817+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

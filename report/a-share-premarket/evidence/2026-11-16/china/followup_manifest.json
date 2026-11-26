@@ -1,0 +1,37 @@
+[
+  {
+    "name": "ce_close",
+    "url": "https://finance.ce.cn/stock/gsgdbd/202611/t20261113_3293818.shtml",
+    "retrieved_at": "2026-11-16T00:50:29.467783+00:00",
+    "ok": true,
+    "bytes": 22465
+  },
+  {
+    "name": "nhsa",
+    "url": "https://www.nhsa.gov.cn/",
+    "retrieved_at": "2026-11-16T00:50:29.468254+00:00",
+    "ok": true,
+    "bytes": 123423
+  },
+  {
+    "name": "mofcom",
+    "url": "https://www.mofcom.gov.cn/",
+    "retrieved_at": "2026-11-16T00:50:29.468416+00:00",
+    "ok": true,
+    "bytes": 42533
+  },
+  {
+    "name": "stats",
+    "url": "https://www.stats.gov.cn/",
+    "retrieved_at": "2026-11-16T00:50:29.468594+00:00",
+    "ok": false,
+    "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>"
+  },
+  {
+    "name": "scio",
+    "url": "https://www.scio.gov.cn/",
+    "retrieved_at": "2026-11-16T00:50:29.468729+00:00",
+    "ok": false,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1129)>"
+  }
+]

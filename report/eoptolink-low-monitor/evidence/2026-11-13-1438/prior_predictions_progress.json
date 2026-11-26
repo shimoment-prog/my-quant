@@ -1,0 +1,47 @@
+[
+  {
+    "prediction_id": "2026-11-13-1036-L19533",
+    "original_prediction": {
+      "id": "2026-11-13-1036-L19533",
+      "symbol": "300502.SZ",
+      "scheduled_check_at": "2026-11-13T10:30:00+08:00",
+      "triggered_at": "2026-11-13T10:33:25.629+08:00",
+      "created_at": "2026-11-13T10:36:14+08:00",
+      "forecast_start": "2026-11-13T10:36:14+08:00",
+      "snapshot_time": "2026-11-13T10:36:12+08:00",
+      "threshold": 195.33,
+      "comparison": "strictly_less_than",
+      "event": "Any traded price strictly below195.33 after forecast_start and by deadline",
+      "deadline": "2026-11-13T15:00:00+08:00",
+      "risk": "偏高",
+      "numeric_probability": null,
+      "model_validated": false,
+      "status": "pending",
+      "settled": false,
+      "note": "Morning forecast starts at actual creation, never backdated to10:30 or trigger. The contemporaneous cumulative day low is frozen independently of yesterday predictions and historical179.83 line. No tickstream between snapshot and creation; actual quote age retained."
+    },
+    "as_of": "2026-11-13T14:38:09+08:00",
+    "trade_breach_observed": true,
+    "event_already_occurred": true,
+    "first_available_qualifying_complete_interval": {
+      "start": "2026-11-13T10:40:00+08:00",
+      "end": "2026-11-13T10:45:00+08:00",
+      "bar": {
+        "day": "2026-11-13 10:45:00",
+        "open": "196.260",
+        "high": "196.870",
+        "low": "194.600",
+        "close": "194.720",
+        "volume": "2251357",
+        "amount": "440277762.5187"
+      },
+      "source": "m5_final.txt"
+    },
+    "exact_first_tick_breach_time": null,
+    "closing_breach_occurred": null,
+    "final_settlement_allowed": false,
+    "final_settlement_performed": false,
+    "status": "pending_original_deadline",
+    "note": "Completed five-minute interval wholly inside original window proves a strict lower trade; endpoint is not first tick time.Original195.33threshold and15:00deadline retained unchanged.Closing outcome remains unknown until deadline, final review at next scheduled run."
+  }
+]

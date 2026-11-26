@@ -1,0 +1,26 @@
+[
+  {
+    "name": "cnbc_capacity",
+    "url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+    "ok": true,
+    "retrieved_at": "2026-11-06T00:44:37.145038+00:00"
+  },
+  {
+    "name": "cnbc_yields",
+    "url": "https://www.cnbc.com/2026/11/05/treasury-yields-bonds-interest-rates.html",
+    "ok": true,
+    "retrieved_at": "2026-11-06T00:44:36.251560+00:00"
+  },
+  {
+    "name": "cnbc_openai_power",
+    "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
+    "ok": true,
+    "retrieved_at": "2026-11-06T00:44:36.429518+00:00"
+  },
+  {
+    "name": "cnbc_ballots",
+    "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
+    "ok": true,
+    "retrieved_at": "2026-11-06T00:44:37.365106+00:00"
+  }
+]

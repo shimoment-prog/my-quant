@@ -1,0 +1,723 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-05",
+  "automation_id": "ai",
+  "triggered_at": "2026-11-05T00:29:37.136Z",
+  "run_at": "2026-11-05T00:35:16.315922+00:00",
+  "timezone": "Asia/Shanghai",
+  "baseline": false,
+  "comparison_to_previous_observation": "observations/2026-11-04.json",
+  "assessment": "观察",
+  "summary": "Material new completed/issued financing confirms market access; a new Google-TeraWulf-Anthropic conditional support link adds identifiable contingent exposure. No verified new operating recovery, funding interruption or realized loss cascade. Overall observation maintained.",
+  "confidence": "High for quoted primary financing stages and signed contract; limited for current issuer CDS, private loan data, utilization and customer collections.",
+  "signals": [
+    {
+      "id": "real_demand_collections_and_cashflow",
+      "assessment": "观察",
+      "change": "No new operating financial report verified for the seven main issuers. Preserve original cashflow periods and liquidity-definition supplement.",
+      "evidence_ids": [
+        "financial_baseline_reference",
+        "terawulf_google_anthropic_credit_support_20261104"
+      ],
+      "notes": "TeraWulf underlying20year lease was signed in July; November4 credit support is not a newly signed USD19bn order, current operating cashflow or proven project funding. Current compute utilization/rental prices and customer collection histories remain incomplete."
+    },
+    {
+      "id": "credit_funding_and_liquidity",
+      "assessment": "观察",
+      "change": "Oracle USD10bn common equity closed and USD10bn notes issuance/sale consummated; Microsoft USD25bn notes issued. Meta EUR9bn priced with future settlement. Financing execution uncertainty reduced for completed issues, without proving broad risk relief.",
+      "evidence_ids": [
+        "oracle_20261104_equity_completed",
+        "oracle_20261104_notes_completed",
+        "microsoft_20261104_notes_issued",
+        "meta_eur_20261104_pricing",
+        "fred_ig",
+        "fred_hy"
+      ],
+      "notes": "Debt proceeds are not operating cashflow; equity dilutes shareholders. No exact combined current net cash balance established. No issuer CDS or matched secondary curves. FRED Nov3 broad OAS narrowed slightly from Nov2 but is higher than20observations earlier."
+    },
+    {
+      "id": "realized_losses_and_cross_entity_propagation",
+      "assessment": "观察",
+      "change": "New primary TeraWulf contract establishes conditional Google support for Anthropic tenant exposure. No verified default, support payment or new lender AI-specific loss in reviewed material.",
+      "evidence_ids": [
+        "terawulf_google_anthropic_credit_support_20261104"
+      ],
+      "notes": "New contractual risk-sharing channel, not realized loss. Exact maximum support not publicly quantifiable from the redacted/blank form. Latest lender SEC-form checks are not comprehensive loan-level coverage or proof no undisclosed risk."
+    }
+  ],
+  "new_events": [
+    {
+      "id": "oracle_20261104_equity_completed",
+      "company": "Oracle",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-04T21:49:48.000Z",
+      "status": "closed_per_company_8k",
+      "security": "common_stock",
+      "gross_proceeds_usd_approx": 10000000000,
+      "shares": 86206897,
+      "price_usd_per_share": 116.0,
+      "prospectus_estimated_net_proceeds_usd_approx": 9900000000,
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+      "secondary_primary_source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445847/d181425d424b5.htm",
+      "notes": [
+        "Completion is new evidence versus previously preliminary equity plan. Common equity is not debt; dilutes shareholders. Gross10bn should not be represented as exact unrestricted net cash available now."
+      ]
+    },
+    {
+      "id": "oracle_20261104_notes_completed",
+      "company": "Oracle",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-04T21:49:48.000Z",
+      "status": "issuance_and_sale_consummated_per_company_8k",
+      "principal_usd": 10000000000,
+      "currency": "USD",
+      "rank": "senior unsecured",
+      "coupon_pct": [
+        7.0,
+        7.45,
+        7.85,
+        8.0,
+        8.65
+      ],
+      "maturities": [
+        2029,
+        2031,
+        2033,
+        2037,
+        2046
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+      "notes": [
+        "Confirms prior Nov2pricing progressed to Nov4closing. Not evidence comparable CDS/secondary spreads tightened. Debt adds interest and eventual principal obligations; no new realized operating cashflow."
+      ]
+    },
+    {
+      "id": "meta_eur_20261104_pricing",
+      "issuer": "Meta",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-04T21:53:19.000Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526447522/d154804dfwp.htm",
+      "stage": "priced_not_settled",
+      "expected_settlement_date": "2026-11-12",
+      "currency": "EUR",
+      "rank": "senior unsecured",
+      "total_principal": 9000000000,
+      "principal_by_tranche": [
+        1750000000,
+        1250000000,
+        1000000000,
+        1750000000,
+        1750000000,
+        1500000000
+      ],
+      "maturity_dates": [
+        "2031-02-15",
+        "2033-02-15",
+        "2035-02-15",
+        "2038-11-15",
+        "2044-11-15",
+        "2065-02-15"
+      ],
+      "coupon_pct": [
+        4.3,
+        4.65,
+        4.9,
+        5.4,
+        6.05,
+        6.4
+      ],
+      "yield_pct": [
+        4.327,
+        4.658,
+        4.933,
+        5.426,
+        6.051,
+        6.442
+      ],
+      "spread_to_designated_german_bond_bp": [
+        129,
+        152.6,
+        172,
+        201.6,
+        241.5,
+        275.6
+      ],
+      "spread_to_mid_swap_bp": [
+        103,
+        135,
+        160,
+        203,
+        263,
+        333
+      ],
+      "rating_as_stated_in_term_sheet": {
+        "Moodys": "Aa3/Stable",
+        "SP": "AA-/Negative"
+      },
+      "new_independent_rating_action_verified": false,
+      "use_of_proceeds": "general corporate purposes",
+      "caveats": [
+        "New EUR pricing verifies additional market access, not settlement or cash receipt.",
+        "No matched prior curve, orderbook or concession acquired; do not infer spread tightening/widening.",
+        "EUR spreads versus German Bunds or swaps cannot be directly equated with USD Treasury spreads or CDS.",
+        "Separate from USD15bn pricedNov3; do not sum currencies without a dated FX conversion.",
+        "Proceeds not proven entirely AI-linked."
+      ]
+    },
+    {
+      "id": "microsoft_20261104_notes_issued",
+      "issuer": "Microsoft",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-04T21:01:27.000Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm",
+      "stage": "issued_per_8k",
+      "currency": "USD",
+      "rank": "senior unsecured",
+      "total_principal": 25000000000,
+      "tranches": [
+        {
+          "principal": 1000000000,
+          "type": "floating",
+          "maturity": "2028-11-03"
+        },
+        {
+          "principal": 2000000000,
+          "coupon_pct": 4.85,
+          "maturity": "2028-11-03"
+        },
+        {
+          "principal": 1000000000,
+          "type": "floating",
+          "maturity": "2029-11-03"
+        },
+        {
+          "principal": 3250000000,
+          "coupon_pct": 5.0,
+          "maturity": "2029-11-03"
+        },
+        {
+          "principal": 3250000000,
+          "coupon_pct": 5.2,
+          "maturity": "2031-11-03"
+        },
+        {
+          "principal": 2500000000,
+          "coupon_pct": 5.35,
+          "maturity": "2033-11-03"
+        },
+        {
+          "principal": 4000000000,
+          "coupon_pct": 5.55,
+          "maturity": "2036-11-03"
+        },
+        {
+          "principal": 2000000000,
+          "coupon_pct": 6.15,
+          "maturity": "2046-11-03"
+        },
+        {
+          "principal": 4000000000,
+          "coupon_pct": 6.25,
+          "maturity": "2056-11-03"
+        },
+        {
+          "principal": 2000000000,
+          "coupon_pct": 6.35,
+          "maturity": "2066-11-03"
+        }
+      ],
+      "underwriting_date": "2026-10-29",
+      "supplemental_indentured_date": "2026-11-04",
+      "supporting_quote": "The Notes have been issued pursuant to an indenture ... as supplemented ... dated as of November4,2026.",
+      "net_cash_proceeds": null,
+      "caveats": [
+        "8-K establishes notes issued; exact net proceeds and independent bank receipt not verified.",
+        "Do not label entire amount as AI investment or new operating cash flow.",
+        "No comparable secondary spread or fresh rating action acquired."
+      ]
+    },
+    {
+      "id": "terawulf_google_anthropic_credit_support_20261104",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-04T13:16:25.000Z",
+      "status": "definitive_credit_support_signed_not_triggered_project_financing_anticipated",
+      "relationship": [
+        "Anthropic tenant",
+        "Raylan Data LLC landlord TeraWulf subsidiary",
+        "Google LLC backstop provider",
+        "Justified DataPower LLC master landlord",
+        "Fluor EPC contractor"
+      ],
+      "project": "Justified Data Campus Hawesville Kentucky",
+      "critical_IT_load_MW": 401,
+      "underlying_lease_years": 20,
+      "underlying_lease_original_date": "2026-07",
+      "contracted_lease_commitments_usd_approx": 19000000000,
+      "contracted_lease_is_guarantee_maximum": false,
+      "expected_phased_delivery": "late2027 through2028Q2",
+      "rent_starts": "upon delivery of each data hall",
+      "backstop_effectiveness": "commencement date for final data hall under each respective lease",
+      "trigger": "payment default or tenant insolvency, subject to notice and contractual conditions",
+      "google_options": [
+        "pay rent due and assume lease",
+        "under specified conditions pay an amortizing termination fee and be entitled to acquire an equity interest in Raylan",
+        "defer election for specified period while paying unpaid and additional rent"
+      ],
+      "termination_condition_example": "Anthropic or qualifying affiliate maintains specified investment-grade ratings for at least3months",
+      "maximum_backstop_amount_usd": null,
+      "maximum_amount_gap": "Public form of support agreement has blanks for project debt cap and percent; schedules omitted. USD19bn is lease commitments, not disclosed guaranteed amount.",
+      "financing_status": "anticipated project debt; signed support is intended to improve ability to obtain competitive financing, not verification debt has closed",
+      "actual_payment_default_verified": false,
+      "actual_guarantee_payment_verified": false,
+      "EPC_status": "definitive Fluor agreement signed; guaranteed maximum pricing being established as engineering/procurement progresses",
+      "interpretation": "Material newly verified cross-entity contingent credit support. Potentially strengthens project financing while exposing Google to tenant credit; not current loss or evidence of cascade.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulf-20261104.htm",
+        "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulfhawesvillecsaandepcmpr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/exhibit101-googlexterawulf.htm"
+      ],
+      "overlap_with_prior_alphabet_support_exposures": "Unknown; do not mechanically add the lease value or undisclosed support maximum to prior balance-sheet notional."
+    }
+  ],
+  "newly_verified_historical_events": [
+    {
+      "id": "alphabet_20261102_eur_notes",
+      "issuer": "Alphabet",
+      "event_date": "2026-11-02",
+      "published_at": "2026-11-04T21:21:20.000Z",
+      "source": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm",
+      "stage": "priced_not_verified_settled",
+      "expected_settlement_date": "2026-11-05",
+      "currency": "EUR",
+      "total_principal": 6000000000,
+      "estimated_net_proceeds": 5970000000,
+      "use_of_proceeds": "General corporate purposes, which may include repayment of outstanding debt.",
+      "note": "Nov4 final424B2 follows Nov2 pricing. Do not count as two offerings or claim newNov4 trade. EuropeanNov5 settlement has not occurred atNov5 morningBeijing."
+    }
+  ],
+  "financial_baseline_reference": [
+    {
+      "company": "coreweave",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-06-30",
+      "source_id": "coreweave_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "oracle",
+      "report_period_start": "2026-06-01",
+      "report_period_end": "2026-08-31",
+      "source_id": "oracle_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "microsoft",
+      "report_period_start": "2026-07-01",
+      "report_period_end": "2026-09-30",
+      "source_id": "microsoft_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "alphabet",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-09-30",
+      "source_id": "alphabet_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline",
+      "definition_supplement_reference": "reference-baselines/2026Q3-alphabet-meta.json"
+    },
+    {
+      "company": "amazon",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-09-30",
+      "source_id": "amazon_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    },
+    {
+      "company": "meta",
+      "report_period_start": "2026-01-01",
+      "report_period_end": "2026-09-30",
+      "source_id": "meta_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline",
+      "definition_supplement_reference": "reference-baselines/2026Q3-alphabet-meta.json"
+    },
+    {
+      "company": "broadcom",
+      "report_period_start": "2025-11-03",
+      "report_period_end": "2026-08-02",
+      "source_id": "broadcom_10q",
+      "new_operating_disclosure_verified_this_run": false,
+      "values_reference": "observations/2026-11-03.json#financial_baseline"
+    }
+  ],
+  "supplemental_financial_baseline_file": "reference-baselines/2026Q3-alphabet-meta.json",
+  "market_proxies": [
+    {
+      "id": "BAMLC0A0CM",
+      "name": "US investment grade OAS",
+      "source_id": "fred_ig",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-03",
+      "value": 93.0,
+      "previous_date": "2026-11-02",
+      "previous_value": 94.0,
+      "change_bp": -1.0,
+      "comparison_to_prior_monitor_observation": {
+        "date": "2026-10-30",
+        "value": 94.0,
+        "change_bp": -1.0
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-06",
+        "value": 83.0,
+        "change_bp": 10.0
+      },
+      "publication_at": null,
+      "retrieved_at": "2026-11-05T00:30:55.200028+00:00",
+      "archived_csv": "evidence/2026-11-05/market/fred_ig.csv",
+      "carried_forward": false,
+      "new_observation_this_run": true,
+      "note": "Latest available observation has its own historical date; not a Nov4 or live Nov5 quote. Daily modest narrowing does not establish AI-specific risk relief."
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "name": "US high yield OAS",
+      "source_id": "fred_hy",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-03",
+      "value": 340.0,
+      "previous_date": "2026-11-02",
+      "previous_value": 343.0,
+      "change_bp": -3.0,
+      "comparison_to_prior_monitor_observation": {
+        "date": "2026-10-30",
+        "value": 344.0,
+        "change_bp": -4.0
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-06",
+        "value": 303.0,
+        "change_bp": 37.0
+      },
+      "publication_at": null,
+      "retrieved_at": "2026-11-05T00:30:55.200447+00:00",
+      "archived_csv": "evidence/2026-11-05/market/fred_hy.csv",
+      "carried_forward": false,
+      "new_observation_this_run": true,
+      "note": "Latest available observation has its own historical date; not a Nov4 or live Nov5 quote. Daily modest narrowing does not establish AI-specific risk relief."
+    }
+  ],
+  "settlement_checks": {
+    "completed": [
+      {
+        "event_id": "oracle_20261102_priced_bonds",
+        "expected_US_settlement_date": "2026-11-04",
+        "status": "completed_confirmed_by_8k",
+        "completed_date": "2026-11-04",
+        "verified_at": "2026-11-05T00:35:16.315922+00:00",
+        "source_id": "oracle_20261104_completion"
+      }
+    ],
+    "pending": [
+      {
+        "event_id": "meta_20261103_pricing",
+        "expected_US_settlement_date": "2026-11-05",
+        "status": "priced_not_verified_settled_not_yet_due_at_Beijing_morning",
+        "last_checked_at": "2026-11-05T00:35:16.315922+00:00",
+        "currency": "USD",
+        "note": "Nov5US settlement lies later than Nov5morningBeijing; not evidence of delay."
+      },
+      {
+        "event_id": "meta_eur_20261104_pricing",
+        "expected_settlement_date": "2026-11-12",
+        "currency": "EUR",
+        "status": "priced_not_verified_settled"
+      },
+      {
+        "event_id": "alphabet_20261102_eur_notes",
+        "expected_settlement_date": "2026-11-05",
+        "currency": "EUR",
+        "status": "priced_not_verified_settled_not_yet_due_at_Beijing_morning"
+      }
+    ]
+  },
+  "weekly_review": {
+    "due_today": false,
+    "reason": "Thursday; weekly comparison review is scheduled Friday within the same08:30run. Daily available comparable changes are still recorded."
+  },
+  "source_coverage": {
+    "priority": [
+      "Oracle and CoreWeave IR returnedHTTP429; SEC submissions and documents succeeded.",
+      "No current comparable5yCDS or matched secondary bond spread obtained.",
+      "No comprehensive project/customer/lender search; absence of new issuerSECfilings is not proof no operating or funding risk."
+    ],
+    "bigtech": "Current SEC submissions and targeted new financing documents examined. No new operating cashflow report or AI-attributed default/guarantee payout identified in these documents; not proof of no underlying risk. Broader IR/news coverage and private contracts incomplete.",
+    "no_new_priority_issuer_operating_report": true,
+    "bigtech_operating_reports": {
+      "alphabet": {
+        "new10q": false,
+        "latest10q": [
+          {
+            "filingDate": "2026-10-29",
+            "doc": "goog-20260930.htm"
+          }
+        ]
+      },
+      "meta": {
+        "new10q": false,
+        "latest10q": [
+          {
+            "filingDate": "2026-10-22",
+            "doc": "meta-20260930.htm"
+          }
+        ]
+      },
+      "microsoft": {
+        "new10q": false,
+        "latest10q": [
+          {
+            "filingDate": "2026-10-28",
+            "doc": "msft-20260930.htm"
+          }
+        ]
+      },
+      "amazon": {
+        "new10q": false,
+        "latest10q": [
+          {
+            "filingDate": "2026-10-30",
+            "doc": "amzn-20260930.htm"
+          }
+        ]
+      },
+      "broadcom": {
+        "new10q": false,
+        "latest10q": [
+          {
+            "filingDate": "2026-09-10",
+            "doc": "avgo-20260802.htm"
+          }
+        ]
+      }
+    },
+    "lender_sec_checks": [
+      {
+        "company": "jpmorgan",
+        "url": "https://data.sec.gov/submissions/CIK0000019617.json",
+        "retrieved_at": "2026-11-05T00:30:54.566600+00:00",
+        "ok": true,
+        "new_relevant_forms_8K_10Q_10K": [],
+        "new_other_filings_count": 98,
+        "latest10q": [
+          {
+            "accessionNumber": "0001628280-26-069523",
+            "form": "10-Q",
+            "filingDate": "2026-11-03",
+            "acceptanceDateTime": "2026-11-03T21:17:12.000Z",
+            "primaryDocument": "jpm-20260930.htm"
+          }
+        ]
+      },
+      {
+        "company": "apollo",
+        "url": "https://data.sec.gov/submissions/CIK0001858681.json",
+        "retrieved_at": "2026-11-05T00:30:54.566600+00:00",
+        "ok": true,
+        "new_relevant_forms_8K_10Q_10K": [],
+        "new_other_filings_count": 2,
+        "latest10q": [
+          {
+            "accessionNumber": "0001858681-26-000040",
+            "form": "10-Q",
+            "filingDate": "2026-08-10",
+            "acceptanceDateTime": "2026-08-10T11:32:20.000Z",
+            "primaryDocument": "apo-20260630.htm"
+          }
+        ]
+      },
+      {
+        "company": "blackstone",
+        "url": "https://data.sec.gov/submissions/CIK0001393818.json",
+        "retrieved_at": "2026-11-05T00:30:54.566600+00:00",
+        "ok": true,
+        "new_relevant_forms_8K_10Q_10K": [],
+        "new_other_filings_count": 0,
+        "latest10q": [
+          {
+            "accessionNumber": "0001193125-26-340208",
+            "form": "10-Q",
+            "filingDate": "2026-08-07",
+            "acceptanceDateTime": "2026-08-07T20:01:44.000Z",
+            "primaryDocument": "d158269d10q.htm"
+          }
+        ]
+      },
+      {
+        "company": "ares",
+        "url": "https://data.sec.gov/submissions/CIK0001176948.json",
+        "retrieved_at": "2026-11-05T00:30:54.566600+00:00",
+        "ok": true,
+        "new_relevant_forms_8K_10Q_10K": [],
+        "new_other_filings_count": 1,
+        "latest10q": [
+          {
+            "accessionNumber": "0001628280-26-054538",
+            "form": "10-Q",
+            "filingDate": "2026-08-07",
+            "acceptanceDateTime": "2026-08-07T01:06:32.000Z",
+            "primaryDocument": "ares-20260630.htm"
+          }
+        ]
+      }
+    ],
+    "lender_limits": [
+      "No complete loan-level private-credit data or issuerCDS retrieved.",
+      "Newfilingcheck not a proof no undisclosed events or exposures; JPM structured-note prospectuses not exhaustive AIcredit review.",
+      "No new relevant forms fromJPM,Apollo,Blackstone,Ares sincepriorrun; prior reviewedJPMQ3 andApolloearningsnotnewtoday.",
+      "TeraWulf8Kpublic form leaves exactcreditmax/schedulesundisclosed; financingcompletionnotconfirmed."
+    ],
+    "FRED_collection_succeeded": true,
+    "latest_FRED_observation_date": "2026-11-03",
+    "news_discovery_only": true,
+    "full_barclays_report_obtained": false,
+    "overall_collection_failed": false
+  },
+  "unverified_discovery": [
+    {
+      "headline": "Goldman, Apollo seek buyers for USD40bn SpaceX AI chip deal, Bloomberg News reports",
+      "reported_by": "Reuters via Google News RSS",
+      "pubDate": "Wed,04Nov2026 21:54:42GMT",
+      "status": "Discovery only, no primary transaction document verified; routine syndication not default."
+    },
+    {
+      "headline": "Gas Pipeline for Proposed Oracle Data Center Delayed to2027",
+      "reported_by": "EnergyNow via RSS",
+      "pubDate": "Wed,04Nov2026 15:22:27GMT",
+      "status": "Discovery only, unverified cause, not counted as financing or demand deterioration."
+    },
+    {
+      "headline": "Microsoft lowered data center spending following delays by IREN; public headlines cite The Information",
+      "status": "Unverified discovery; no primary customer amendment or delivery/cancellation disclosure obtained. Not counted as demand decline or financing failure."
+    },
+    {
+      "headline": "Data-center regulatory concerns following US elections",
+      "status": "Policy/equity headlines not treated as realized project default, AI loan loss or verified broad order cancellation."
+    }
+  ],
+  "missing_data": [
+    "Current comparable5yissuer CDS, CDX.IG and same-bond secondary histories/orderbooks/concessions.",
+    "Current GPU rental prices, utilization and customer-level collections; no new main-issuer operating report.",
+    "Comprehensive loan-level bank/private-credit losses and undisclosed project contracts.",
+    "Exact maximum Google support for TeraWulf and whether it overlaps prior Alphabet support disclosure; public contract contains blanks/omissions.",
+    "Completion of MetaUSDNov5, MetaEURNov12 and AlphabetEURNov5 settlements; exact available net cash from completed issues not established.",
+    "Full Barclays research report remains unavailable; historical secondary reporting is not a current quote."
+  ],
+  "comparability": {
+    "issuer_CDS_available": false,
+    "matched_secondary_spreads_available": false,
+    "new_issue_terms_available": true,
+    "FX_currencies_combined": false,
+    "probability_model": null,
+    "crash_probability": null
+  },
+  "next_confirmation_conditions": [
+    "Verify settlement of pending Meta/Alphabet issues before counting proceeds; actual withdrawal or payment delay would materially change funding evidence.",
+    "New customer collections/cashflow and capex disclosures plus comparable credit/financing deterioration, rather than stock declines alone.",
+    "TeraWulf project debt closing, final support limits and effectiveness; any actual tenant default, guarantee payment, covenant trigger or lender-specific AI impairment."
+  ],
+  "sources": [
+    {
+      "id": "oracle_20261104_completion",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+      "publication_at": "2026-11-04T21:49:48.000Z",
+      "event_date": "2026-11-04",
+      "type": "primary_SEC_8K",
+      "archived": "evidence/2026-11-05/priority/oracle_8k_20261104.html"
+    },
+    {
+      "id": "oracle_equity_final",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445847/d181425d424b5.htm",
+      "type": "primary_SEC_final_prospectus",
+      "archived": "evidence/2026-11-05/priority/oracle_equity_final.html"
+    },
+    {
+      "id": "meta_eur_pricing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526447522/d154804dfwp.htm",
+      "publication_at": "2026-11-04T21:53:19.000Z",
+      "event_date": "2026-11-04",
+      "type": "primary_SEC_final_pricing",
+      "archived": "evidence/2026-11-05/bigtech/meta_fwp_0001193125-26-447522.html"
+    },
+    {
+      "id": "microsoft_notes_issued",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm",
+      "publication_at": "2026-11-04T21:01:27.000Z",
+      "event_date": "2026-11-04",
+      "type": "primary_SEC_8K",
+      "archived": "evidence/2026-11-05/bigtech/microsoft_8k_0001193125-26-447173.html"
+    },
+    {
+      "id": "alphabet_eur_final",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm",
+      "publication_at": "2026-11-04T21:21:20.000Z",
+      "event_date": "2026-11-02",
+      "type": "primary_SEC_final_prospectus",
+      "archived": "evidence/2026-11-05/bigtech/alphabet_424b2_0001193125-26-447343.html"
+    },
+    {
+      "id": "terawulf_support_8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulf-20261104.htm",
+      "publication_at": "2026-11-04T13:16:25.000Z",
+      "event_date": "2026-11-04",
+      "type": "primary_SEC_8K",
+      "archived": "evidence/2026-11-05/chain/wulf-20261104.htm"
+    },
+    {
+      "id": "terawulf_support_contract",
+      "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/exhibit101-googlexterawulf.htm",
+      "publication_at": "2026-11-04T13:16:25.000Z",
+      "type": "primary_contract_form_with_omissions",
+      "archived": "evidence/2026-11-05/chain/exhibit101-googlexterawulf.htm"
+    },
+    {
+      "id": "fred_ig",
+      "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "retrieved_at": "2026-11-05T00:30:55.200028+00:00",
+      "market_time": "2026-11-03",
+      "type": "broad_market_proxy_not_AI_CDS",
+      "archived": "evidence/2026-11-05/market/fred_ig.csv"
+    },
+    {
+      "id": "fred_hy",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "retrieved_at": "2026-11-05T00:30:55.200447+00:00",
+      "market_time": "2026-11-03",
+      "type": "broad_market_proxy_not_AI_CDS",
+      "archived": "evidence/2026-11-05/market/fred_hy.csv"
+    }
+  ],
+  "notification": {
+    "decision": "NOTIFY",
+    "prepared_at": "2026-11-05T00:35:16.315922+00:00",
+    "reason": "Oracle financing progressed to completed, Microsoft large issue confirmed issued, and a new direct Google/Anthropic/project credit-support contract materially extends funding and propagation evidence.",
+    "overall_assessment_changed": false,
+    "material_evidence_changed": true
+  },
+  "interpretation_limits": [
+    "Do not call all proceeds AI-specific, current operating cashflow or exact free liquidity.",
+    "TeraWulfUSD19bn lease commitments are not disclosed guarantee maximum, immediate revenue or a realized loss.",
+    "Financing availability does not prove investment returns or erase longer-term repayment obligations.",
+    "No verified AI-specific defaults/losses in reviewed coverage is not proof none exist.",
+    "No fabricated collapse probability or A-share order transmission."
+  ],
+  "raw_evidence_directory": "evidence/2026-11-05"
+}

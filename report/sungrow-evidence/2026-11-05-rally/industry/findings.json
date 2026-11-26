@@ -1,0 +1,168 @@
+{
+  "asof_beijing": "2026-11-05T10:58:56.389429+08:00",
+  "task": "阳光电源近期上涨行业催化独立核查",
+  "top3": [
+    {
+      "rank": 1,
+      "catalyst": "行业调价使市场交易利润率修复预期，尚非已实现毛利改善",
+      "facts": "界面新闻11月5日报道科华数能11月1日宣布光伏逆变器、储能变流器和储能系统等全系列产品整体提价5%-15%；报道称阳光电源、科士达、古瑞瓦特、汇川、华为数字能源此前亦调价，9月以来已有6家。",
+      "recent_or_old": "科华11月初动作属本周新增，其他厂商9月以来提价有旧闻成分，不能全部当今天首次披露。",
+      "mechanism": "有助于将功率器件和铜铝等成本上行转嫁，改善市场对低利润率的预期。",
+      "limits": "提价包含成本推动，公告价不等于实际成交价，不等于毛利率已经拐点。本次没有获得阳光电源自身原始调价通知，阳光提价事实仅有可靠记者报道，不标为一手公告确认。",
+      "source": "https://cj.sina.cn/articles/view/6192937794/17120bb4202002w5pc",
+      "source_provider": "界面新闻记者席菁华，新浪转载",
+      "published_at_beijing": "2026-11-05T08:00:00+08:00"
+    },
+    {
+      "rank": 2,
+      "catalyst": "海外大储需求与实际交付提供增长叙事；同业财报也显示海外补库，但盈利分化",
+      "facts": "新浪11月4日18:58快讯称阳光电源20天完成英国Hams Hall1243MWh BESS并网调试；Google News索引同日10:57GMT企业美通社稿同题，EnergyGlobal跟进。该证据是项目交付，不是本日新签合同。界面新闻披露德业Q3营收65.39亿元+97.49%、归母15.55亿元+88.5%，固德威Q3储能逆变器出货13万台；须由各公司财报进一步交叉核实才可当一手。",
+      "recent_or_old": "英国交付11月4日新披露；CNESA上半年海外签单298GWh/+83%是8月已公布旧数据，不包装成本周需求增速。",
+      "limits": "项目金额和利润贡献未核实，不能把1243MWh直接换算本季度利润。海外户储旺不等于所有逆变器环节都好；多家同业毛利率仍下降。公司2027出货翻倍属于管理层展望，不是已实现订单或业绩。",
+      "source": "https://wap.cj.sina.cn/pc/7x24/5193344",
+      "published_at_beijing": "2026-11-04T18:58:34+08:00",
+      "additional_source": "https://cj.sina.cn/articles/view/6192937794/17120bb4202002w5pc",
+      "primary_source": "https://www.prnewswire.co.uk/news-releases/sungrow-completes-grid-connection-and-commissioning-of-1-243-mwh-hams-hall-bess-in-just-20-days-302929166.html",
+      "primary_source_read": true,
+      "primary_retrieved_at": "2026-11-05T03:00:18.726321+00:00"
+    },
+    {
+      "rank": 3,
+      "catalyst": "新能源板块共振，海外政策预期修复可能助推，但未见本日新补贴落地证据",
+      "facts": "11月5日10:54阳光+9.73%、锦浪+9.33%、固德威+15.76%、上能+6.80%、盛弘+7.01%，强于创业板+1.49%。11月4日美股正常收盘TAN+5.65%、FSLR+4.63%、ENPH+3.71%、RUN+1.27%，但SEDG-8.70%。",
+      "interpretation": "具备行业共同上涨证据，不能仅用阳光公司单条消息解释。格隆汇11月5日将光伏上涨联系美国中期选举及绿色税抵免延续预期，属于媒体解释。",
+      "limits": "没有独立核实选举最终结果或新税收补贴法案，不宣称美国政策已改变；报道“海外太阳能全线收涨”与SEDG实际下跌冲突，不能照抄。不使用报道的资金流叙事推断机构流入。",
+      "source": "https://cj.sina.cn/articles/view/5115326071/130e5ae770200342au",
+      "published_at_beijing": "2026-11-05T10:11:00+08:00",
+      "quote_source": "https://qt.gtimg.cn/q=sz300274,sz300763,sz300693,sh688390,sz300827,sz300750,sz002518,sh000001,sz399006",
+      "overseas_quote_source": "https://qt.gtimg.cn/q=usFSLR,usENPH,usSEDG,usRUN,usTAN"
+    }
+  ],
+  "policy_check": {
+    "new_national_policy_confirmed": false,
+    "context": "1月容量电价政策是旧背景；10月地方实施细则可算执行增量，尚未在本次取到可量化直接增加阳光本期利润的新全国政策。11月4日北京光伏/新型储能报道存在，但未取到具体文件名原文，不以此作为首要归因。",
+    "secondary_source": "https://finance.sina.com.cn/jjxw/2026-11-04/doc-inixqaaw6136060.shtml"
+  },
+  "a_share_quotes": [
+    {
+      "symbol": "sz300274",
+      "name": "阳光电源",
+      "price": 89.07,
+      "change_pct": 9.73,
+      "market_time": "20261105105427",
+      "session": "2026-11-05 intraday"
+    },
+    {
+      "symbol": "sz300763",
+      "name": "锦浪科技",
+      "price": 53.07,
+      "change_pct": 9.33,
+      "market_time": "20261105105427",
+      "session": "2026-11-05 intraday"
+    },
+    {
+      "symbol": "sz300693",
+      "name": "盛弘股份",
+      "price": 35.1,
+      "change_pct": 7.01,
+      "market_time": "20261105105427",
+      "session": "2026-11-05 intraday"
+    },
+    {
+      "symbol": "sh688390",
+      "name": "固德威",
+      "price": 58.69,
+      "change_pct": 15.76,
+      "market_time": "20261105105430",
+      "session": "2026-11-05 intraday"
+    },
+    {
+      "symbol": "sz300827",
+      "name": "上能电气",
+      "price": 30.0,
+      "change_pct": 6.8,
+      "market_time": "20261105105427",
+      "session": "2026-11-05 intraday"
+    },
+    {
+      "symbol": "sz300750",
+      "name": "宁德时代",
+      "price": 270.49,
+      "change_pct": 6.96,
+      "market_time": "20261105105427",
+      "session": "2026-11-05 intraday"
+    },
+    {
+      "symbol": "sz002518",
+      "name": "科士达",
+      "price": 29.22,
+      "change_pct": 4.54,
+      "market_time": "20261105105430",
+      "session": "2026-11-05 intraday"
+    },
+    {
+      "symbol": "sh000001",
+      "name": "上证指数",
+      "price": 3682.69,
+      "change_pct": -0.09,
+      "market_time": "20261105105430",
+      "session": "2026-11-05 intraday"
+    },
+    {
+      "symbol": "sz399006",
+      "name": "创业板指",
+      "price": 2582.66,
+      "change_pct": 1.49,
+      "market_time": "20261105105427",
+      "session": "2026-11-05 intraday"
+    }
+  ],
+  "us_solar_regular_close": [
+    {
+      "symbol": "usFSLR",
+      "name": "第一太阳能",
+      "close_usd": 194.51,
+      "change_pct": 4.63,
+      "market_time_label": "2026-11-04 16:00:01",
+      "session": "2026-11-04 regular close"
+    },
+    {
+      "symbol": "usENPH",
+      "name": "Enphase Energy, Inc.",
+      "close_usd": 31.55,
+      "change_pct": 3.71,
+      "market_time_label": "2026-11-04 16:00:01",
+      "session": "2026-11-04 regular close"
+    },
+    {
+      "symbol": "usSEDG",
+      "name": "Solaredge Technologies, Inc.",
+      "close_usd": 30.02,
+      "change_pct": -8.7,
+      "market_time_label": "2026-11-04 16:00:01",
+      "session": "2026-11-04 regular close"
+    },
+    {
+      "symbol": "usRUN",
+      "name": "Sunrun Inc.",
+      "close_usd": 8.79,
+      "change_pct": 1.27,
+      "market_time_label": "2026-11-04 16:00:01",
+      "session": "2026-11-04 regular close"
+    },
+    {
+      "symbol": "usTAN",
+      "name": "全球太阳能ETF-Invesco",
+      "close_usd": 45.79,
+      "change_pct": 5.65,
+      "market_time_label": "2026-11-04 16:00:01",
+      "session": "2026-11-04 regular close"
+    }
+  ],
+  "sources_and_files": {
+    "news": "price_detail_clean.txt; sector_today_clean.txt; uk_delivery_clean.txt; price_yesterday_clean.txt",
+    "raw_quotes": "quotes.txt; us_solar_quotes.txt",
+    "official_company_news": "official_news.html，目录最新可见10月21日，未见与11月4交付对应条目；并不等同无新披露。"
+  },
+  "overall_judgment": "更符合储能出货/提价带来的预期修复，加上行业共同反弹，而非三季报已经盈利反转。"
+}

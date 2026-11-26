@@ -1,0 +1,16 @@
+[
+  {
+    "name": "meta_alberta",
+    "url": "https://energynow.com/2026/07/meta-to-build-c13-billion-alberta-data-center-its-first-in-canada/",
+    "retrieved_at": "2026-11-15T00:28:47.427570+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "amazon_uae",
+    "url": "https://stocktwits.com/news-articles/markets/equity/amazon-shuts-uae-data-center-after-strike-sparks-fire-amid-escalating-us-iran-war-retail-traders-see-nothing-good-to-expect/cZddtHpRIc0",
+    "retrieved_at": "2026-11-15T00:28:47.427918+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

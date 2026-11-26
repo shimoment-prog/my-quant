@@ -1,0 +1,42 @@
+[
+  {
+    "file": "old_cost_article.html",
+    "url": "https://finance.eastmoney.com/a/202610263908104169.html",
+    "requested_at": "2026-11-13T06:09:56.214138+00:00",
+    "ok": true,
+    "bytes": 60143,
+    "retrieved_at": "2026-11-13T06:09:56.483506+00:00"
+  },
+  {
+    "file": "recent_block_trade.html",
+    "url": "https://finance.eastmoney.com/a/202611113928658024.html",
+    "requested_at": "2026-11-13T06:09:56.214590+00:00",
+    "ok": true,
+    "bytes": 59720,
+    "retrieved_at": "2026-11-13T06:09:56.447628+00:00"
+  },
+  {
+    "file": "recent_sector_flow.html",
+    "url": "https://finance.eastmoney.com/a/202611123929691131.html",
+    "requested_at": "2026-11-13T06:09:56.214763+00:00",
+    "ok": true,
+    "bytes": 73877,
+    "retrieved_at": "2026-11-13T06:09:56.447552+00:00"
+  },
+  {
+    "file": "latest_official_esop.pdf",
+    "url": "https://www.zjky.cn/upload/file/2026/11/05/532bbf1aeb62447ca68e29a9bc7ac626.pdf",
+    "requested_at": "2026-11-13T06:09:56.214907+00:00",
+    "ok": true,
+    "bytes": 83195,
+    "retrieved_at": "2026-11-13T06:09:56.457153+00:00"
+  },
+  {
+    "file": "cninfo_recent.json",
+    "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+    "requested_at": "2026-11-13T06:09:56.215047+00:00",
+    "ok": true,
+    "bytes": 165,
+    "retrieved_at": "2026-11-13T06:09:56.407813+00:00"
+  }
+]

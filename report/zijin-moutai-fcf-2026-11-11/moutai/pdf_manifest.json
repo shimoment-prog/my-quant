@@ -1,0 +1,23 @@
+[
+  {
+    "name": "q32026",
+    "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202610301831245500&client_source=web&page_index=1",
+    "pdf_url": "https://pdf.dfcfw.com/pdf/H2_AN202610301831245500_1.pdf?1793385159000.pdf",
+    "ok": true,
+    "bytes": 193430
+  },
+  {
+    "name": "annual2025",
+    "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202604161821275610&client_source=web&page_index=1",
+    "pdf_url": "https://pdf.dfcfw.com/pdf/H2_AN202604161821275610_1.pdf?1776379759000.pdf",
+    "ok": true,
+    "bytes": 1082847
+  },
+  {
+    "name": "q32025",
+    "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202510291771332923&client_source=web&page_index=1",
+    "pdf_url": "https://pdf.dfcfw.com/pdf/H2_AN202510291771332923_1.pdf?1761760826000.pdf",
+    "ok": true,
+    "bytes": 186470
+  }
+]

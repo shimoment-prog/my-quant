@@ -1,0 +1,32 @@
+[
+  {
+    "name": "wulf_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm",
+    "ok": true,
+    "bytes": 1865438
+  },
+  {
+    "name": "wulf_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/wulf-20261106.htm",
+    "ok": true,
+    "bytes": 29049
+  },
+  {
+    "name": "wulf_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/index.json",
+    "ok": true,
+    "bytes": 4861
+  },
+  {
+    "name": "blackstone_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/d179995d10q.htm",
+    "ok": true,
+    "bytes": 7664518
+  },
+  {
+    "name": "ares_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026071628/ares-20260930.htm",
+    "ok": true,
+    "bytes": 6633109
+  }
+]

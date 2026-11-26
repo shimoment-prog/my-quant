@@ -1,0 +1,287 @@
+{
+  "run_date": "2026-11-16",
+  "generated_at": "2026-11-16T00:31:05.696551+00:00",
+  "baseline_cutoff": "2026-11-15T00:37:11.438315Z",
+  "collection_manifests": [
+    "submission_summary.json",
+    "news_manifest.json",
+    "discovery_links_manifest.json",
+    "discovery_decode_manifest.json",
+    "primary_manifest.json",
+    "project_links_manifest.json",
+    "project_decode_manifest.json",
+    "projects_manifest.json"
+  ],
+  "files": [
+    {
+      "file": "alphabet_submissions.json",
+      "bytes": 152277,
+      "sha256": "1f4d73b4ffdc3cd7fd33dc4c31a26c1e67d39ea5d9c03772a15c326d08c3a644"
+    },
+    {
+      "file": "amazon_submissions.json",
+      "bytes": 160388,
+      "sha256": "c2c36f85c91b5d57c0808db46c216d089401d3ad0c5b813ac828b8830481fd80"
+    },
+    {
+      "file": "anthropic_news.html",
+      "bytes": 344473,
+      "sha256": "100d0285bf7713dd2cf4c521d3f1855297a32762122a2bf81ac5dcb4144c136b"
+    },
+    {
+      "file": "anthropic_news.txt",
+      "bytes": 15361,
+      "sha256": "3a44d974d18d77a27eff26f95bfc96367b377b148c156067459efc790e56852e"
+    },
+    {
+      "file": "anthropic_roadshow.html",
+      "bytes": 134068,
+      "sha256": "34ae9b3b90154c239ba063d7c8db4cd3c8f68cc1f7cd1defb661e17c9e2d9d59"
+    },
+    {
+      "file": "anthropic_roadshow.txt",
+      "bytes": 2544,
+      "sha256": "904c089c715eb5cdbde12f47d6e14ce28d3a5ff273c3990a7c1d066e7b3dc2ad"
+    },
+    {
+      "file": "anthropic_submissions.json",
+      "bytes": 3480,
+      "sha256": "defb9d209765f1b5020d861df148b3549fc54debd72b03bfebe23feb240c2983"
+    },
+    {
+      "file": "anthropic_yahoo_trade_link.html",
+      "bytes": 586283,
+      "sha256": "3f9408c6a7e57e0d6b68a71acd949ab170b8ff71b240efc129c18c264a385953"
+    },
+    {
+      "file": "anthropic_yahoo_trade_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "anthropic_yahoo_trade_link_decoded.txt",
+      "bytes": 221,
+      "sha256": "c9499548439e0d4849c6f909c0f8502f3dec80f4258664e2f9d52a75998d38ef"
+    },
+    {
+      "file": "anthropic_yahoo_week_link.html",
+      "bytes": 587955,
+      "sha256": "88654ec1c7969a5358513116dddbcafc2a9983881fecdc5e1ea4e72a246c9531"
+    },
+    {
+      "file": "anthropic_yahoo_week_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "anthropic_yahoo_week_link_decoded.txt",
+      "bytes": 265,
+      "sha256": "90eb651f1fb3b3cf8a7806c096e1f30c9b185a348a28df30390034e6d17b73da"
+    },
+    {
+      "file": "decode.py",
+      "bytes": 1296,
+      "sha256": "e1ddc6b7c16aeb4273a3c5db8dd41990405f5602b79a4b8dbc4e69c44a33cd3c"
+    },
+    {
+      "file": "discovery_decode_manifest.json",
+      "bytes": 671,
+      "sha256": "1708ae7e16feadb8f19120cbfe539dd3c7a1224a86a4b7315b0c4664f6aefde8"
+    },
+    {
+      "file": "discovery_links_manifest.json",
+      "bytes": 927,
+      "sha256": "d11f1fa6b277d2dc3af92a106ed76826974f291f83b75fdad94d7dd07e1459c5"
+    },
+    {
+      "file": "fetch.py",
+      "bytes": 1482,
+      "sha256": "c813de41a72f3468fd0ace9cf4d7b4f2361643368cd2236384c3f90ad876d344"
+    },
+    {
+      "file": "findings.json",
+      "bytes": 16765,
+      "sha256": "8b02968b7d075d545855c6673f68f3351c8976ac7b064de5c9da92b0298846ef"
+    },
+    {
+      "file": "google_construction_link.html",
+      "bytes": 587233,
+      "sha256": "29aac5cad82c88024f3a79fc9c23577684207d0242e5298044c0fe94f82b5451"
+    },
+    {
+      "file": "google_construction_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "google_construction_link_decoded.txt",
+      "bytes": 248,
+      "sha256": "137c4e2f0ec54e52bf6c62f01e61822bef4178f1cfd1ae090395982c8f759189"
+    },
+    {
+      "file": "google_power_link.html",
+      "bytes": 587493,
+      "sha256": "9fc97c8156744c7c11b2763c438454246857b20f1724b25b3e6639113eae9679"
+    },
+    {
+      "file": "google_power_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "google_power_link_decoded.txt",
+      "bytes": 252,
+      "sha256": "1af6e8afac29048e85e266e1b19006eeb4db4ca3d86ef6f19a53dcb489b11601"
+    },
+    {
+      "file": "google_rss.html",
+      "bytes": 28955,
+      "sha256": "b316f588f7c56c274479627792fa684368d666dd4f1fb8819e506994f6c818c8"
+    },
+    {
+      "file": "google_rss.txt",
+      "bytes": 17537,
+      "sha256": "8196a2f272764374406bd17ebee607d03d38c3687d22ad4d22b28d5fb9adb115"
+    },
+    {
+      "file": "links.py",
+      "bytes": 1894,
+      "sha256": "d5da2d54350d0a1cc63533dc1ce132cba48e7cc2a13eafdb586c91b60988ecfe"
+    },
+    {
+      "file": "meta_recap.html",
+      "bytes": 481549,
+      "sha256": "776333eb106c42f8d46066c26720f22407474bb4a30265a87c195d6ceafb5f52"
+    },
+    {
+      "file": "meta_recap.txt",
+      "bytes": 13909,
+      "sha256": "c88211a46715fa9e065c483052fc7208972579721b00ac63b2dcd11ee2d5dbe4"
+    },
+    {
+      "file": "meta_recap_link.html",
+      "bytes": 587827,
+      "sha256": "2ad17bc6c9a542824d9cf90d8979a827f0f448ca0e7f2f7ab39413489a951c20"
+    },
+    {
+      "file": "meta_recap_link.txt",
+      "bytes": 13,
+      "sha256": "3451a374d071a85e7ec6c9f48653a7b33bc5e4499e4d684e979b8528257a77cb"
+    },
+    {
+      "file": "meta_recap_link_decoded.txt",
+      "bytes": 261,
+      "sha256": "e1d36473789dee66a9e386a24120c3a7e9837064816656500792f3c6edb95160"
+    },
+    {
+      "file": "meta_submissions.json",
+      "bytes": 158003,
+      "sha256": "c6f435b91227397aea548f475753739fa829761573328bc3df1f250931f10c75"
+    },
+    {
+      "file": "microsoft_submissions.json",
+      "bytes": 186640,
+      "sha256": "4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e"
+    },
+    {
+      "file": "news.py",
+      "bytes": 1887,
+      "sha256": "498d632108b46afcfd92c4bc12b2ce32130cf82e6694a59e12bef57cc8a240f0"
+    },
+    {
+      "file": "news_anthropic.html",
+      "bytes": 36910,
+      "sha256": "785812fafa6c8914a91f5d08880345f41e3d52a48820de036b60fbc821c67fe1"
+    },
+    {
+      "file": "news_anthropic.txt",
+      "bytes": 31051,
+      "sha256": "dd09fe3ff52ddc8f7e2fc6043e844d4d05d6b9e39b7ff9b7e388f57e9b85bd95"
+    },
+    {
+      "file": "news_anthropic_mixup.html",
+      "bytes": 2312,
+      "sha256": "d56e86be946b9b5e0dd96e71994ef6cb86bd326f4ca5bc52a1bfe78c30fb0642"
+    },
+    {
+      "file": "news_anthropic_mixup.txt",
+      "bytes": 1714,
+      "sha256": "20f9a3e03e2253a7adec925afb79fc87ceec6aed71d4f0ef078f5be1e261f4dd"
+    },
+    {
+      "file": "news_asia.html",
+      "bytes": 2551,
+      "sha256": "b82c1abd56a9dc7d4cadb116870fff4967dfe45177cf885957291974cf483f23"
+    },
+    {
+      "file": "news_asia.txt",
+      "bytes": 1954,
+      "sha256": "f3b5b8859eab877812901f5f7416f857c8220f94ca8198f11242ac6afeac3d05"
+    },
+    {
+      "file": "news_buyer_cuts.html",
+      "bytes": 2308,
+      "sha256": "3883c88c3a3e31635a9bb71f0899a3a54922555b0104c153b23887f557db5da4"
+    },
+    {
+      "file": "news_buyer_cuts.txt",
+      "bytes": 1712,
+      "sha256": "eeb61f45b400d74342c70eff192c026d28b5e9dc619ebe362baba6173f736c9d"
+    },
+    {
+      "file": "news_manifest.json",
+      "bytes": 21934,
+      "sha256": "b01c33b7fc97fc08020f60897648513ef13ba5bed898c8897a3afdb6633ac9c6"
+    },
+    {
+      "file": "oracle_submissions.json",
+      "bytes": 158530,
+      "sha256": "5364c4ec08e6aca1823b81257780b0b69290fe38e98ab9f48ca7268d0b4d14dc"
+    },
+    {
+      "file": "primary.py",
+      "bytes": 1527,
+      "sha256": "1562f3116cffcf17b551a7b24cee71b3cdff7315f43ea2915bf5f22b424f911f"
+    },
+    {
+      "file": "primary_manifest.json",
+      "bytes": 576,
+      "sha256": "5c94aae7833a1222053141079190e43dd7e4531f85709bcac562336f38e915f3"
+    },
+    {
+      "file": "project_decode.py",
+      "bytes": 1303,
+      "sha256": "646807ac2d0137496cba1c69da423ec2a2443a60d26f8421e87ce725f44ef01e"
+    },
+    {
+      "file": "project_decode_manifest.json",
+      "bytes": 1017,
+      "sha256": "8482271137e9f8e16ea216b36cc2e248d8ed30396385e6b7f2847741b7ea25c0"
+    },
+    {
+      "file": "project_links.py",
+      "bytes": 2249,
+      "sha256": "20368cd2bceff91b2dc70f111c884cdedfd18e2b253f45b97fa93732198cbb73"
+    },
+    {
+      "file": "project_links_manifest.json",
+      "bytes": 1426,
+      "sha256": "e093dbd9ccac1f925cf9e6fc50c8cbce193bd634f7522734ce90443c92e61246"
+    },
+    {
+      "file": "projects.py",
+      "bytes": 1681,
+      "sha256": "2500626a4be27dccb80f81759af0c269e7e740ed6376cce8781dbbc64b6bbe0d"
+    },
+    {
+      "file": "projects_manifest.json",
+      "bytes": 874,
+      "sha256": "b5feefae98a2a9694fb4cf7734ba4ca0fc5c0529307c98fc034031d9638814b7"
+    },
+    {
+      "file": "submission_summary.json",
+      "bytes": 2193,
+      "sha256": "b513fd8592d68b698466bb3d6e78b0955f1efe99199879a484f30b0ed33f0953"
+    }
+  ]
+}

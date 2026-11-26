@@ -1,0 +1,81 @@
+{
+  "market": "Binance USD-M perpetual",
+  "symbol": "ETHUSDT",
+  "interval": "5m",
+  "timezone": "UTC",
+  "start_inclusive": "2026-11-05",
+  "end_exclusive": "2026-11-16",
+  "rows": 3168,
+  "first_open_time_ms": 1793836800000,
+  "last_close_time_ms": 1794787199999,
+  "downloaded_at_utc": "2026-11-18T08:13:39.511592+00:00",
+  "output_sha256": "8ec2fe883abeb3a7cfd0a35e09643050a68ef103a1d9cbaf12e32f8ba2ec416c",
+  "sources": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-05.zip",
+      "sha256": "74a84a7f1b69a4e5b55eb7b6a8310e52548d8b2c1ce1250c784890f2f40e7f5a",
+      "bytes": 14237,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-06.zip",
+      "sha256": "dc75273dc1d68737843ca6b49f67be210e42c19c16cae3f616c6edfde72e9d69",
+      "bytes": 13950,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-07.zip",
+      "sha256": "5795c3436ff6dbcd20ba43e9e3a543c6c09007c239f14c06c075e244851d97d5",
+      "bytes": 13220,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-08.zip",
+      "sha256": "186ee345b99441c022d749d104ff7bd16d027154f926e41f0f701a00731a5e14",
+      "bytes": 13327,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-09.zip",
+      "sha256": "e87b11fd5af46fc0dc94c9376c17b1d4c0addac34a24346e82276f65845ff67d",
+      "bytes": 14166,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-10.zip",
+      "sha256": "eb4d8e52425a608c1eeae6c7f0b7d41f47cd83c74c3c9c0f305d662f911006c3",
+      "bytes": 14122,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-11.zip",
+      "sha256": "cdcc6645a1a458108411fd595a8e8098c90247945af0eca9deabd694cca0a661",
+      "bytes": 14040,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-12.zip",
+      "sha256": "286d45fa7cba1e394fc1b79891833dcad50e9836f6b0dc34b7c85eb50cc3c96a",
+      "bytes": 14037,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-13.zip",
+      "sha256": "369e44b62d8094a4b24c47b74160230f55279bcb4ba1cc02dbc7f3f0e21398f1",
+      "bytes": 14400,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-14.zip",
+      "sha256": "1d77b651b6707ab7d68493aa4326daab470a02942f9aa1224c328b37a08786fa",
+      "bytes": 14448,
+      "official_sha256_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-15.zip",
+      "sha256": "89366f5cf67b8db5702e75b205c1ce4be0d79252bc0b7965e3a6e9a5dab8a49c",
+      "bytes": 14359,
+      "official_sha256_verified": true
+    }
+  ]
+}

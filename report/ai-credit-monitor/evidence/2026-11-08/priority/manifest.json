@@ -1,0 +1,270 @@
+[
+  {
+    "name": "oracle_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001341439.json",
+    "retrieved_at": "2026-11-08T00:32:21.962638+00:00",
+    "status": 200,
+    "bytes": 158530,
+    "new_filings": [],
+    "latest_operating_filings": [
+      {
+        "accessionNumber": "0001193125-26-447507",
+        "filingDate": "2026-11-04",
+        "reportDate": "2026-11-02",
+        "acceptanceDateTime": "2026-11-04T21:49:48.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-35992",
+        "filmNumber": "261523413",
+        "items": "8.01,9.01",
+        "core_type": "XBRL",
+        "size": 665620,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "d131790d8k.htm",
+        "primaryDocDescription": "8-K"
+      },
+      {
+        "accessionNumber": "0001193125-26-435853",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-10-28",
+        "acceptanceDateTime": "2026-10-28T18:24:44.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-35992",
+        "filmNumber": "261495067",
+        "items": "7.01,9.01",
+        "core_type": "XBRL",
+        "size": 261445,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "d75538d8k.htm",
+        "primaryDocDescription": "8-K"
+      }
+    ]
+  },
+  {
+    "name": "coreweave_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001769628.json",
+    "retrieved_at": "2026-11-08T00:32:21.962986+00:00",
+    "status": 200,
+    "bytes": 157740,
+    "new_filings": [],
+    "latest_operating_filings": [
+      {
+        "accessionNumber": "0001769628-26-000432",
+        "filingDate": "2026-09-22",
+        "reportDate": "2026-09-17",
+        "acceptanceDateTime": "2026-09-22T20:17:14.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-42563",
+        "filmNumber": "261397063",
+        "items": "1.01,3.02,8.01,9.01",
+        "core_type": "XBRL",
+        "size": 2073009,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "crwv-20260917.htm",
+        "primaryDocDescription": "8-K"
+      },
+      {
+        "accessionNumber": "0001769628-26-000429",
+        "filingDate": "2026-09-17",
+        "reportDate": "2026-09-17",
+        "acceptanceDateTime": "2026-09-17T11:13:43.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-42563",
+        "filmNumber": "261385202",
+        "items": "7.01,8.01,9.01",
+        "core_type": "XBRL",
+        "size": 6319066,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "crwv-20260917.htm",
+        "primaryDocDescription": "8-K"
+      }
+    ]
+  },
+  {
+    "name": "oracle_ir",
+    "url": "https://investor.oracle.com/investor-news/default.aspx",
+    "retrieved_at": "2026-11-08T00:32:21.963188+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "coreweave_ir",
+    "url": "https://investors.coreweave.com/news-and-events/news-releases",
+    "retrieved_at": "2026-11-08T00:32:21.963397+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "microsoft_oracle_cnbc",
+    "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+    "retrieved_at": "2026-11-08T00:32:21.963595+00:00",
+    "status": 200,
+    "bytes": 852962,
+    "jsonld": [
+      "{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"description\":\"Microsoft is winding down the number of neoclouds it counts as partners, picking key suppliers and focusing on its own data centers.\",\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xpath\":[\"/html/head/title\",\"/html/head/meta[@name=\\\"description\\\"]/@content\"],\"cssSelector\":[\".group p\"]},\"mainEntityOfPage\":\"https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html\",\"url\":\"https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html\",\"headline\":\"Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain\",\"dateCreated\":\"2026-11-06T18:31:32+0000\",\"datePublished\":\"2026-11-06T18:31:32+0000\",\"dateModified\":\"2026-11-06T18:40:58+0000\",\"author\":[{\"@type\":\"Person\",\"name\":\"Jordan Novet\",\"url\":\"https://www.cnbc.com/jordan-novet/\"},{\"@type\":\"Person\",\"name\":\"Seema Mody\",\"url\":\"https://www.cnbc.com/seema-mody/\"}],\"publisher\":{\"@type\":\"NewsMediaOrganization\",\"name\":\"CNBC\",\"url\":\"https://www.cnbc.com/\",\"foundingDate\":\"1989-04-17\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc-hdr-logo2.png\",\"width\":378,\"height\":98},\"sameAs\":[\"https://www.facebook.com/cnbc\",\"https://www.instagram.com/cnbc\",\"https://www.linkedin.com/company/cnbc\",\"https://twitter.com/cnbc\",\"https://en.wikipedia.org/wiki/CNBC\",\"https://www.youtube.com/cnbc\"]},\"articleSection\":\"Technology\",\"keywords\":[\"cnbc\",\"Articles\",\"Enterprise\",\"Breaking News: Technology\",\"Technology\",\"Business\",\"Microsoft Corp\",\"IREN Ltd\",\"Nebius Group NV\",\"CoreWeave\",\"Chronoscale Corp\",\"Oracle Corp\",\"Cerebras Systems Inc\",\"Software\",\"Global X Data Center & Digital Infrastructure ETF\",\"iShares Expanded Tech-Software Sector ETF\",\"Invesco QQQ Trust\",\"Amazon.com Inc\",\"Alphabet Class A\",\"US: News\",\"Cloud Computing\",\"AI - Artificial Intelligence\",\"source:tagname:CNBC US Source\"],\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://image.cnbcfm.com/api/v1/image/108530430-1793940029707-gettyimages-2300856161-20090101261022-99-29725.jpeg?v=1793940103&w=1200&h=675\",\"width\":1200,\"height\":675},{\"@type\":\"ImageObject\",\"url\":\"https://image.cnbcfm.com/api/v1/image/108530430-1793940029707-gettyimages-2300856161-20090101261022-99-29725.jpeg?v=1793940103&w=1200&h=1200\",\"width\":1200,\"height\":1200}],\"video\":{\"@type\":\"VideoObject\",\"contentUrl\":\"https://pdl-iphone-cnbc-com.akamaized.net/7000430209/ab7c3d50-d9ff-11f1-907d-7be860478cc4/1793982742-49474905382-hd_L.mp4\",\"description\":\"CNBC's Seema Mody joins 'Squawk on the Street' with the latest news surrounding neoclouds.\",\"duration\":\"PT1M16S\",\"name\":\"Microsoft in process of consolidating neocloud relationships, sources say\",\"thumbnailUrl\":\"https://image.cnbcfm.com/api/v1/image/108533515-1793983829967-1793982742-49474905382-hd.jpg?v=1793983831\",\"uploadDate\":\"2026-11-06T16:32:23+0000\"}}"
+    ],
+    "text": "Microsoft moves to consolidate its relationships with neoclouds in AI Skip Navigation Markets Pre-Markets U.S. Markets Europe Markets China Markets Asia Markets World Markets Currencies Prediction Markets Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Investigations Industrials Retail Wealth Sports Life Small Business Investing Personal Finance Fintech Financial Advisors Options Action ETF Street Buffett Archive Earnings Trader Talk Tech Cybersecurity AI Enterprise Internet Media Mobile Social Media CNBC Disruptor 50 Tech Guide Politics & Policy White House Policy Defense Congress Expanding Opportunity Europe Politics China Politics Asia Politics World Politics Video Latest Video Full Episodes Livestream Top Video Live Audio Europe TV Asia TV CNBC Podcasts CEO Interviews Digital Originals Watchlist Investing Club Trust Portfolio Analysis Trade Alerts Meeting Videos Homestretch Jim's Columns Education Subscribe PRO Pro News Josh Brown Mike Santoli Calls of the Day My Portfolio Livestream Full Episodes Stock Screener Market Forecast Options Investing Chart Investing Subscribe Livestream Menu Make It select USA INTL Livestream Search quotes, news & videos Livestream Watchlist SIGN IN Create free account Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Tech Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain Published Fri, Nov 6 2026 1:31 PM EST Updated Fri, Nov 6 2026 1:40 PM EST Jordan Novet @in/jordannovet/ Seema Mody @SeemaCNBC WATCH LIVE Key Points Microsoft is looking to shrink the number of neoclouds it counts as partners, according to people familiar with the matter. The company will keep working with some key suppliers while it also builds out its own infrastructure, the sources said. Microsoft has signed deals with half a dozen neoclouds in recent years, including CoreWeave and Nebius. In this article MSFT Follow your favorite stocks CREATE FREE ACCOUNT watch now VIDEO 1:16 01:16 Microsoft in process of consolidating neocloud relationships, sources say Squawk on the Street Microsoft is shrinking its roster of neocloud partners as it focuses on work with a few key suppliers and builds out its own data centers, according to people familiar with the matter. The software giant's plans pose another potential challenge for a corner of the artificial intelligence market that's showing signs of strain due to rising borrowing costs, hefty debt loads and concerns about whether the buildout will slow down. Microsoft has forged relationships in recent years with a number of neoclouds, including CoreWeave , Nebius, Chronoscale , IREN , Lambda and Nscale, as well as with Oracle , which is pouring money into building out AI infrastructure. Microsoft is now in the evaluation stage and hasn't decided which neoclouds it will stop using, said two sources, who asked not to be named because the talks are confidential. One of the people said Microsoft wants to prioritize its own data center footprint. Bloomberg reported on the plans earlier. Two people said that Microsoft opted not to renew a deal with Oracle. A Microsoft spokesperson said in an emailed statement that its infrastructure strategy is \"built on flexibility and choice.\" \"We combine Microsoft-owned datacenters, leased facilities and strategic partnerships with third-party providers to deliver the capacity our customers need, where and when they need it,\" the spokesperson said. \"We regularly review these investments against customer demand. That includes tracking delivery and adjusting plans as circumstances change.\" watch now VIDEO 4:13 04:13 Freedom Capital's Paul Meeks: CoreWeave shares may triple Power Lunch The neoclouds have been a turbulent trade on Wall Street in recent weeks as rising interest rates added to fears that many companies have become overly reliant on debt in rushing to build capacity. Shares of CoreWeave, Nebius and IREN are all down by roughly half over the past month even after rallying on Friday. A recent industry review counted 323 neoclouds , and experts have predicted that many of them won't survive. In its earnings report on Thursday, IREN said it handed over data center capacity to Microsoft in August, but Microsoft requested a networking equipment upgrade that will result in the infrastructure coming online in January or February instead of this year. Microsoft finance chief Amy Hood said on the software company's fiscal first-quarter earnings call in October that some cloud contracts involving graphics processing units were delayed until the first half of 2027, affecting Azure cloud growth. Microsoft reported $45.2 billion worth of capital expenditures and finance leases during the latest quarter, and said capex spending will accelerate in the second half of the fiscal year. Capital markets 'more selective' CoreWeave and Nebius are both scheduled to report quarterly results next week. IREN shares popped 16% on Friday after the company said AI revenue more than doubled from the prior quarter to $200 million. IREN co-CEO Daniel Roberts told CNBC that there's a \"disconnect between what we're seeing in public market and what we're seeing at the customer level.\" However, he acknowledged the challenge that market conditions present. \"Capital markets have become more selective in the last few weeks, and the questions have undoubtedly moved from how big the contract is to whether it can be delivered, financed, and run at a profit,\" Roberts said on the earnings call. Microsoft has already slashed its work with U.K.-based neocloud Nscale, walking away from a site that it had intended to use in England. Darren Hardman, Microsoft's CEO for the U.K and Ireland, told CNBC in October that the decision had to do with Nscale's ability to get access to electricity. watch now VIDEO 4:18 04:18 Lofty valuations weigh on data center IPOs: Pella Funds CIO Squawk Box Asia The Financial Times reported this week that Microsoft decided against renewing a contract with Nscale in Texas. Nscale filed to go public in mid-September but hasn't updated its prospectus since then. The company said in its IPO filing that it expects Microsoft to be a \"significant customer in future periods.\" Microsoft's big turn to neoclouds came after the launch of ChatGPT in 2022, which led to a surge in demand for GPUs. In looking elsewhere, Microsoft signed up CoreWeave, which was a privately held startup at the time with roots in cryptocurrency mining. When CoreWeave went public last year, it said 62% of its 2024 revenue came from Microsoft. At the time of ChatGPT's release, OpenAI only used Azure. Now the company's cloud suppliers also include Amazon, Cerebras , CoreWeave, Google and Oracle. Microsoft's spokesperson said that its approach to reviewing neocloud investments is \"a normal and responsible way to manage large, complex infrastructure projects,\" and that \"the pace of our new agreements reflects what we need today.\" \u2014CNBC's Kif Leswing contributed to this report. WATCH: IREN co-CEO: AI demand remains strong despite investor scrutiny watch now VIDEO 2:10 02:10 IREN co-CEO: AI demand remains strong despite investor scrutiny Squawk Box Europe Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news. Subscribe to CNBC PRO Subscribe to Investing Club Licensing & Reprints CNBC Councils Join the CNBC Panel Digital Products News Releases Closed Captioning Corrections About CNBC Internships Site Map Careers Help Contact News Tips Got a confidential news tip? We want to hear from you. Get In Touch CNBC Newsletters Sign up for free newsletters and get more CNBC delivered to your inbox Sign Up Now Get this delivered to your inbox, and more info about our products and services. Advertise With Us Please Contact Us Ad Choices Privacy Policy Your Privacy Choices CA Notice Terms of Service \u00a9 2026 Versant Media, LLC. All Rights Reserved. A Versant Media Company.\nData is a real-time snapshot *Data is delayed at least 15 minutes.\nGlobal Business and Financial News, Stock Quotes, and Market Data\nand Analysis.\nMarket Data Terms of Use and Disclaimers Data also provided by"
+  },
+  {
+    "name": "news_priority",
+    "url": "https://news.google.com/rss/search?q=%28Oracle%20OR%20CoreWeave%29%20%28debt%20OR%20financing%20OR%20CDS%20OR%20default%20OR%20guidance%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-08T00:32:21.963730+00:00",
+    "status": 200,
+    "bytes": 33626,
+    "items": [
+      {
+        "title": "CoreWeave\u2019s Bonds Now Yield More Than 16%, Days Before Earnings - Yahoo Finance",
+        "pubDate": "Sat, 07 Nov 2026 15:37:53 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNck5meGozdVdwVC1UVjVLRlVqQTV5dWgwQkpOeTFvS0FmNWtwZnBaY05nQTNWYkt3Mlhta3dHZTdWTk9RX2YzRDAtaDBaU2dmeGFVd0hTTGhSZEc0N29UeVdhcnpJUjd0V1g1al85U2tCNVpjcXdJb2xWYkNJdHRWbUtSTXhtR2VnalYyV0FrSzVaTTB1cVQ0OWlGWQ?oc=5"
+      },
+      {
+        "title": "CoreWeave\u2019s Bonds Now Yield More Than 16%, Days Before Earnings - 24/7 Wall St.",
+        "pubDate": "Sat, 07 Nov 2026 15:37:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDNEdE9ReG1Sc3JDMEFabDN3dFVVdUxURUNRYWRjM05fUXhBWXBOLVJZMUxGVFE4SzN3aTBMVlNhM2pSUUxZOWotS1BJQnZmSG1kOWV5SmlwZ25nRjktTXVfN2JoR0xuYjR4MDJkMks5VkVFbVplUjhCNW0tbV9XUkFqMUF6OEtwWlVqaThZNEtVYkhuQkNTdkpzX1RVdXlnSEpZdzRMYw?oc=5"
+      },
+      {
+        "title": "CoreWeave Has $15B of Debt Due by 2028, $42.5B of Backlog - FourWeekMBA",
+        "pubDate": "Sat, 07 Nov 2026 23:22:49 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYjdVZkV1T1N1WENvMi1QZEhtenJhZmw2V2cyX1ViMTlQcDkxTUk4UkU0WWRtYkdaOVVwYTd2N2FwTDhVUjhrUkVJQjhRMFV3Ry1GUVZLQmdhZkRpQkFWMmtCRExHd3V6UjdRVm5pU1ZaWFB3bm42U0JZYlNBNkF1NkE0R0k5QTdMLVE?oc=5"
+      },
+      {
+        "title": "US inflation, CoreWeave earnings steer Korea stocks after blue wave - Chosunbiz",
+        "pubDate": "Sat, 07 Nov 2026 21:00:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLWdUc1ZfLXFXX1pDWGFSY25tdnhYcTZjSHpxdGxmQk53Y2ppUHc5dU5vaFZfc1lWcnZfY2taQ1J4Q0R2OHpYNGloWmFLbnpIek9tUE1NNGlkZjZZRWVBay1tNjZ4NGVRS0lqRUtkQl9iWXJNVTExTEZqTV84UG00U9IBlAFBVV95cUxPNkNyQWp1YlFiVGhSZ0l2Rm1rVU9QNTdHS0Y1TFBXakV1Q1AzU0JSOGEtaUoxNU5fUE9xRWxWNGJCWDJ3LWxoR0hLLVViUnVESHUxT0NiNUZBblBJVktna3V6QjRsekFLd0NUR0RReTFfUHFjcXRraGY1TG9XdVRmUnd1ZUdVaGRENS1xc0Y1UEdWeWFY?oc=5"
+      },
+      {
+        "title": "Oracle: Priced For The AI Bet To Disappoint, With A Database Business Underneath (ORCL) - Seeking Alpha",
+        "pubDate": "Sat, 07 Nov 2026 13:39:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLThxSkhDZjdmZjBfSEllUngxZWR2NG9xSm02VFFoRzdwUXVNeU83YVlWUDZRWlM4YjNTSVo4ZzJnc1lLRE55YTBYUVJadGJTRWMwbGxVR2hGRGdleWNhT0RMeFZLeWtBSXFKZE1EdkFfaEFRUUYzRV96ekNpZFRyNER0WnpxU2hFbHUxc2NBR1ZZei1hQWtKdHdHZWRfT2FadEtLZW1CRnh4cURfS3JTb1ZkTnJPM25DdW9j?oc=5"
+      },
+      {
+        "title": "CoreWeave's 2032 bond yields more than 16% as the cost of AI debt climbs from neoclouds to Nvidia - MLQ.ai",
+        "pubDate": "Sat, 07 Nov 2026 09:49:48 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb2l1NGpIajBzeDdqSkViR3dhWnpGblh1UDh2c2M4MWtjVTVreVJOb0k1b2Q5RkZhSlgzOExldVF0MkF5QW8zNHV3WGZ0V2F3WTlaeXBpYzlrREJJVkxkRHcxaUEwcmhJTFN0MWJkbDY4VWpMX0FzZ05MOUJ3V0xVclB1UDRRQl9zTWNQbHlDM2VUY3k0Ymd5cHRHSEh0MGt5akxLZkJQQ01qaDdaSG1ydGd2cFJOcHc?oc=5"
+      },
+      {
+        "title": "CoreWeave Bonds Now Yield \u201cOver 17%.\u201d Lenders Are Pricing a Neocloud in Distress - TIKR.com",
+        "pubDate": "Sat, 07 Nov 2026 10:26:11 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkZrUWktOWNWUzFhNFNNZldGV1pfM21ycWhWa05TRjF3YndLSUZXWU9BeV9zNkduRHdIUW5KbUdlV1J3RFp0M1daUkVjUFVNRGs2WVNyOE1DckZMMkMtejZnb1ZWOHRCcDRMaXpySXpsMzVPRVNnUGI4UWZLVkN2VlNTRVlzb05OMkExZWJmcEhZZ0tRQjk2SVk2dDVjZVVBOHFXSEY4d293MGtUdW1aU0hkbUFYZw?oc=5"
+      },
+      {
+        "title": "CoreWeave seeks truce with Texas Governor-elect Hinojosa By Investing.com - Investing.com India",
+        "pubDate": "Sat, 07 Nov 2026 21:03:37 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTDctR0h2b3pKMDlXSzFvbUlhREdsNEJVSk5vUVcxaDhJNE96NHh0T3ZtRUlkSzB1ckw3WDFLNTdBVV82U2p6VkVyQXgyaHFhVXVpVEVLQmo0UDVTMXRUT0lTTFhXQjJWdmtSWW8tYnB3TExuTXMzVVBPT3U4bjYxcWRpY1NMMUlHT2RZZmNVTlVrM0t5emtDSVJST0YzQWZqcHRLbFhybUgwbkw3cXFxWQ?oc=5"
+      },
+      {
+        "title": "CRWV Poised for a Q3 Earnings Beat: Buy, Sell or Hold the Stock Now? - The Globe and Mail",
+        "pubDate": "Sat, 07 Nov 2026 03:38:40 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUWhfWVZ0a2xLZGQ0WTUxVWpJa0Rxcm9YR1pyYzJVQUJ6RzE5NGtucmpmWnk3V3h0RjVSdkgyeDNabGlWOTVtR3E1TzQ1ZGxqdzRPUlplaFBkb2tGdEJUVHJVZnA0SWZIUm9QMWVCNFJzUjJDZ1dYTkxmcnpiZXlHX3dsMkxwRlZYRVRmYWNEaThfYzRKTGpBRHlVMzZFUDVoUnk0SGotU1l3R3JfTDIxSUFFWUY5QXhObUtmVW5VajhranVyLTVXMTZXYWU5eWdoSTY2RVJMdWYyX1ZsbjNpU3lFNjl3YzQ?oc=5"
+      },
+      {
+        "title": "Apollo's $75 Billion Chip Leasing Push Takes Shape, Far Outpacing All Neoclouds - BigGo Finance",
+        "pubDate": "Sat, 07 Nov 2026 10:38:45 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MZWRrVVZ2cm5KX2h1Wi1pQVpyU0JXMERwLV9QRkVIQU5ZWFd0ZlVjbGk2OTFZdVpaRUxZMVc1bWl2MENrbmk2RlZiRFRaMDdTd2Fua3ZfRWIxX0JWUG1NTUNNWlhIemEtcW1NMldIdmVoc04xbFE?oc=5"
+      },
+      {
+        "title": "Morpho loan stress exposes cbXRP, but spares native XRP - CryptoSlate",
+        "pubDate": "Sat, 07 Nov 2026 10:48:58 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV2hRaGh2dk10eUFCQnpiTkQ3VldtRlZzWERiM3pMMWgtbkVTMVc0T2M1QnJ4QjE5MUxCbkZwa1NMVU5qSFdDNVFBaDNJV3lWekxva05TX1VGRXo0UWx5bXl4emNmRVVtZms0RTNtN0dfRjZSWGI3MC14RzQtbHFJaXhhdnBtUQ?oc=5"
+      },
+      {
+        "title": "Microsoft Adjusts Computing Power Partnership Strategy as Multiple New Cloud Providers Face Order Changes - NAI500",
+        "pubDate": "Sat, 07 Nov 2026 04:00:16 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQkpFOVhyTjFsdFVtVmRyM0V6c21rTkk5VnVzcUY4ZVQ5bTktYzZGN1ZwRkJfZkNkODZ0UWdzcXJlMXRJaE4zSXZGOWxOMUYycm9Zcjc3aFRERkpsT0VqTHpXU0Zid3Y4dlQyTWtUa0lXSlhLd21OV0NTSkY1Uk4zUUYyb0lyajMxZUZaTmVfbVJFdXdtUmVYUzNqVDdYNEZaWjJVSUxVYjFGTDdzNFY4VjhyeUg0Qm9NVVlrVi13c3d2OHJIbTJTZS1ubzY4MFZaU1ZaRA?oc=5"
+      },
+      {
+        "title": "CoreWeave (CRWV) Shares Just Moved, So What Is Going On? - Yahoo Finance Singapore",
+        "pubDate": "Sat, 07 Nov 2026 02:15:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeWdkWC1CSmxzRERpbmZCXzE0S2RSVDZYX1hzWVp1cjdXVVp1cFJLV1V3NGFXTGxRYlBLSDZHenhJRFk4NG40Qjd6eDN1Q3c1VEVVcE1TeWtSU3M0QUpBTUpCQXlZelltT0pCMzZKNDNXUVJMNng5MlMxRTZ2aGhOSTVEMlFMb0RD?oc=5"
+      },
+      {
+        "title": "CoreWeave and Nebius Report Next Week After a 20.9% Slide - FourWeekMBA",
+        "pubDate": "Sat, 07 Nov 2026 16:27:49 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbkFXRmtGNnF4a1dYaExCUVRhQU1hQ0oyOXpZWGN5MmxadDgxdl83RFY2MkVKelVpT2ZIdG9rNW1IczRRRy0xREpjQ2s5VlpJVmZUY2tvNzRKN2FobThSQ19KdFBGeWJvOXNfdXNmdllrYW5WYjJPampCM1Y4ZlpTT1dCOFdtOTVqY3F3UQ?oc=5"
+      },
+      {
+        "title": "ING Discounts $500 Million Data Center Loan Portfolio in Fire Sale, Signaling Exit from Stargate Project Financing - BigGo Finance",
+        "pubDate": "Sat, 07 Nov 2026 12:55:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00Ymh2SWZXX2lfVUgzRkt6ajRXVGlEMDRxZ1FYR1VGT0xJb0xRS08tQ3NlcGt4aDZYSFdhMmQxaXNCY1RqNEc0bVIyR0ZJM0JNaktyVEtfMGJBRnVvZnNnUHlOblFwTkJZUTNuMHBzSTVYSFlyblE?oc=5"
+      },
+      {
+        "title": "CoreWeave bonds yield over 16% amid doubts befo... - Pluang",
+        "pubDate": "Sat, 07 Nov 2026 15:53:29 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcUpORTBDME5FTlhCclFwYmRCSlZFejJPcThtTzBfWld1WkJ3bkNiampRd2FFT2JRMV82V19Zb094VTNMVjBQaUZDSXBKbTQzTTl6czdEYS01Vnl5NmxvQ3VnMnUwbEhjS2Vza2p6eG1kclYxM2NQNmZHSU8xN2gzZ0FNNWRLTGpEX05MYkhOelF6OVd0aUJUMlNnNXAtTnhfM3RNNllib0o?oc=5"
+      },
+      {
+        "title": "Oracle stock faces AI funding test as OpenAI tie-up expands - ad-hoc-news.de",
+        "pubDate": "Sat, 07 Nov 2026 10:19:57 GMT",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbFQ1MXd4eE5YVFFSV0hUal9qS1hpY2Q1M2hWUkpncGJ6RzYyazBId2o1SC1DUXc3OGFTQncxNjg3RnRsTjhzRXd1WnQtdGdZR3k5ZHlqbTlqNEM2TVNRckN2ZDRwOEp1czJLclViM2VjWU5CTjBLX0p3czJJaXBYVjVxc0pmWVlMdGRueTdnQlc1YWczaW05cUFqM3JLNUpFcXl4blJoUmZ4d05uT1praDRUbERsUVBJYXlKNVR6VQ?oc=5"
+      },
+      {
+        "title": "SpaceX CDS Record Came 3.5 Hours Before the $1.45T AI Close - FourWeekMBA",
+        "pubDate": "Sat, 07 Nov 2026 13:57:49 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWVExenRHb0pISGhENmpreG1Pbi1wZ25jdGtnZU5uZmN6UmVVZXl2V2dGNkZ6dmFKYWgtNlR0d3NZckRQdzViQnJWYjFmRi1fcDhYN2I4OFVTZmVvRmZ0OUxWdUExNmc1dUhyRmZOUmxpekRPd1Z5RS1VTmdERFBKZjJkWWtCNFRJUUFNQWlZZw?oc=5"
+      },
+      {
+        "title": "\u201cAlready Popping\u201d: CoreWeave Is Down 30% in 2026. Dead Money, or Due for a Bounce? - TIKR.com",
+        "pubDate": "Sat, 07 Nov 2026 00:53:57 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFFkTFZDZzFISVNvQmxoeXpXZl90RW5yWV9PMGNoZkxUV2FiNV8zWERtTC15NjJXaU9wVzhJMXFZcVpmZ1prVHp4S21VME5uRjdiMXFEUGtvV1dmTWI4TWVrLS1LQWc3bHJ3TTBwZWxTZmtOQU9hRVpnM0E0RDd2azlNZ0kxS2JwVHc5OHpNaFZ6a2VWMmQ4SjRxRWRzZGd3a2JBTg?oc=5"
+      },
+      {
+        "title": "Oracle's Contract Churn Cuts Both Ways as AI Buildout Meets a Balance-Sheet Test - ad-hoc-news.de",
+        "pubDate": "Sat, 07 Nov 2026 13:32:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNm5oaXFfQV96R2w4MVRoa0RQMUdHYTE3WlR0dl95am1wcTFyb3VPZG1PV1BRX25feVFVUl9DMnpLYlhyUFFvcnR3Z09FLUlXUGVCR21GT0JhbjdHekpyalNKbnJPS3EybGlLRnpBTzdfdVBsLVVaaHNFTzhyUkVuSFRZZ2JIQkhQdXRDUWV1ajk3UkJHVG5CVDJiSHhJNTFzMW96TlNaczRGaEpaLUp1ZkpxMGR2dndEcGt4NlROZm82aTRIdHI2NDZJTHZLR0hadVMyZ0EzanY4WkdkS3pkdjk1ajV2LVU?oc=5"
+      },
+      {
+        "title": "Oracle (NYSE: ORCL) Prices $20 Billion Capital Raise At A Steep Discount, Sending Shares To A 10x Earnings Valuation - Foreign Policy Journal",
+        "pubDate": "Sat, 07 Nov 2026 20:30:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVWFSOTAxQmI0UVE4N1FianhWVGk4X1dXbDV2YmdSaUp0VGViODB6dHZQYTNQVHdhREswS19mYXd3NmFWa2NYR3hsQ0lUZEtvcTJfNFpWQlY3RU1mZERTSnd2M2ZwVFBKV1ZFWGQ2a3MyVURRbUpvT3VPNV9lQU0weVdDeC1USHNwZm9KYTFlREJDZU0wbGczQWJMUUNYeEIwWVp3ZGd0SzRFdUtmelQ5ZmN5MDc5RVVTLWo2aEF6S05FOXNkcnQ0akdWMUVfRHJQTThobXRkWnJOdGs3UVVfbDE5Q2FDcnVGWHUyZkxlaTRJUQ?oc=5"
+      },
+      {
+        "title": "Microsoft Pulls Back From Oracle AI Cloud Deal as Older Nvidia Chips Lose Value - Coinpaper",
+        "pubDate": "Sat, 07 Nov 2026 16:42:22 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQanhINUJkeXNjZ3A1eDZHZXpPa09kcmxCNlpnbDZ6dndOUlBxOFRNa1ZOVEF1TmhCaFFTZDNxWTRya0t4WFAyMmVLdkh4Z3M2anRhTEFXdTloX2dDZFpycm8yY2xPNW9CQm02NzRiNndaZThwd2V1cjlUMUZpOVVZQVhodWlXdUVTSGhSczdiZFJvOFMzcG9YbHIyTjBLT2ZmVmo3RlM0ZGZuT0U?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_contract",
+    "url": "https://news.google.com/rss/search?q=Microsoft%20Oracle%20contract%20renewal%20confirmed%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-08T00:32:23.019079+00:00",
+    "status": 200,
+    "bytes": 8782,
+    "items": [
+      {
+        "title": "Older Nvidia Chips Just Cost Oracle Its Microsoft AI Deal - 24/7 Wall St.",
+        "pubDate": "Sat, 07 Nov 2026 18:08:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVpHMU9kNjRsUWlWREtkdlBPbGU4WlRZdXVaYUlGaS1HUWFBeTY5MWUtZ0sxUFVtOEpnRi1mVl9rWEV2U2dOcmFaZExsdzh1dGlyUHBpQmVtcmdMMzJrMmZ2V1RBZnROZDJIU2ctdWpIdlByUG0tTUlwd3hvMkY2Rm1jU3p3ZmFQOTBkS2xEOTI5U3dtNHRPb25IZkV2RloyOUxv?oc=5"
+      },
+      {
+        "title": "Oracle's Contract Churn Cuts Both Ways as AI Buildout Meets a Balance-Sheet Test - ad-hoc-news.de",
+        "pubDate": "Sat, 07 Nov 2026 13:32:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNm5oaXFfQV96R2w4MVRoa0RQMUdHYTE3WlR0dl95am1wcTFyb3VPZG1PV1BRX25feVFVUl9DMnpLYlhyUFFvcnR3Z09FLUlXUGVCR21GT0JhbjdHekpyalNKbnJPS3EybGlLRnpBTzdfdVBsLVVaaHNFTzhyUkVuSFRZZ2JIQkhQdXRDUWV1ajk3UkJHVG5CVDJiSHhJNTFzMW96TlNaczRGaEpaLUp1ZkpxMGR2dndEcGt4NlROZm82aTRIdHI2NDZJTHZLR0hadVMyZ0EzanY4WkdkS3pkdjk1ajV2LVU?oc=5"
+      },
+      {
+        "title": "Microsoft ends AI infrastructure deal with Oracle amid re-evaluation - ET Datacenters",
+        "pubDate": "Sat, 07 Nov 2026 06:00:42 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQeXVIZE9MTEZMMkthcThkVUM4ZEJVSEFyTlpOeTVwcmtJWUlkUk03eWZ6eUFzY0dwdVpHT0pMTU9NMnE0NEhFMngxNmxFdU85YUZWMGhHWFhFcENIbm13QmVPOWNJVE1Hc0ZYTmR1VzJpQ2hLRkhma3dPS2Q5dUx5T29uUGpFVTVhV2lVU25SWVQtdk1HcWdCTUFpaGtGSXJaVEttS3J6dFdnZ0tXdU93Zzk5TDdGZkVqNlpINXNlSmVmS0I3V3NyQ0ZZNURNTWxXU2d4ME9ZdWc4dDFDbExneWhpbnhDS0J0MU9rLWtkZ9IB8wFBVV95cUxOWWsyeEJSc0ppNTl6cU42OGlobnEyNXhBT0E4OWVzVFRkeWhLTWFhSXo4ZHNiU0hsUGxlcnJsY3A1Ykw0bnR5N2dsbFMwSTY1bzBUZ3pmRzA1Nkg2aFFjTE43S3REZks0Ukx2VTdXMTRhQVZ3VlprOE5BT1hHcWZRR2Jlaks5LW1PaFVpRnVqVFVTZzNHUXkxd01oZ0VXc0xqZlROdWlvWTV2dGxmUzlDOGNzdFlZY0E2NUtYaFd6M3FhbGZvcFpNbUdTSEY5YUF1MFBFRE1zckpDMHdscmlLUy1ZX2Q3M3FaRE1tVVNPelBKazA?oc=5"
+      },
+      {
+        "title": "Microsoft Reduces Neocloud Partnerships Amid AI Infrastructure Stock Declines - KuCoin",
+        "pubDate": "Sat, 07 Nov 2026 06:47:43 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM19xYWxEWEFiUUpHeTJwdnpNbVppZ3lmenR1d1pzZHNIekwwNGpJMm5ZdWFKNElYX0QzMmY1OURfRWVjMGZ5NmZzaFNMUEhJdVlCQ2xqV3BvRDVOb1drT3NzOXJmcWFROUIycTVFdENqazRfMEtGZHFVQTl6RnM4a2dzanBvejlsMF9nY09leHFXZFVoZWkxZXpPQzBwR0s2bWRZZmVJeVdDaDdMNXk5Vg?oc=5"
+      },
+      {
+        "title": "Oracle Shares Fall 4% as Microsoft Winds Down AI Deal - Cirebon Times",
+        "pubDate": "Sat, 07 Nov 2026 07:08:10 GMT",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54VDk1WGM2cmM1aE9xYWZMSklsT1ZZYmlOYnQyejBFTWtiRDczNGE0R2tPZXpkNUFxV2dkc0YyM3JqRlJWak5EZFdwc3VSM2hvVWNpN2ZsVkEyYUFiQnhoeGV3ems1Ui1UZW8takZzRQ?oc=5"
+      }
+    ]
+  }
+]

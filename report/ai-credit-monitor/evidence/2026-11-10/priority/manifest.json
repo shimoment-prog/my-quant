@@ -1,0 +1,403 @@
+[
+  {
+    "name": "oracle_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001341439.json",
+    "retrieved_at": "2026-11-10T00:30:14.151818+00:00",
+    "status": 200,
+    "bytes": 158530,
+    "new_filings": [],
+    "latest_operating_filings": [
+      {
+        "accessionNumber": "0001193125-26-447507",
+        "filingDate": "2026-11-04",
+        "reportDate": "2026-11-02",
+        "acceptanceDateTime": "2026-11-04T21:49:48.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-35992",
+        "filmNumber": "261523413",
+        "items": "8.01,9.01",
+        "core_type": "XBRL",
+        "size": 665620,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "d131790d8k.htm",
+        "primaryDocDescription": "8-K"
+      },
+      {
+        "accessionNumber": "0001193125-26-435853",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-10-28",
+        "acceptanceDateTime": "2026-10-28T18:24:44.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-35992",
+        "filmNumber": "261495067",
+        "items": "7.01,9.01",
+        "core_type": "XBRL",
+        "size": 261445,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "d75538d8k.htm",
+        "primaryDocDescription": "8-K"
+      }
+    ]
+  },
+  {
+    "name": "coreweave_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001769628.json",
+    "retrieved_at": "2026-11-10T00:30:14.152188+00:00",
+    "status": 200,
+    "bytes": 158041,
+    "new_filings": [
+      {
+        "accessionNumber": "0001769628-26-000457",
+        "filingDate": "2026-11-09",
+        "reportDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-09T22:55:05.000Z",
+        "act": "",
+        "form": "4",
+        "fileNumber": "",
+        "filmNumber": "",
+        "items": "",
+        "core_type": "4",
+        "size": 8230,
+        "isXBRL": 0,
+        "isInlineXBRL": 0,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "xslF345X06/form4.xml",
+        "primaryDocDescription": "PRIMARY DOCUMENT"
+      },
+      {
+        "accessionNumber": "0001950047-26-010854",
+        "filingDate": "2026-11-09",
+        "reportDate": "",
+        "acceptanceDateTime": "2026-11-09T21:32:05.000Z",
+        "act": "33",
+        "form": "144",
+        "fileNumber": "001-42563",
+        "filmNumber": "261536504",
+        "items": "",
+        "core_type": "144",
+        "size": 8073,
+        "isXBRL": 0,
+        "isInlineXBRL": 0,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "primaryDocDescription": ""
+      }
+    ],
+    "latest_operating_filings": [
+      {
+        "accessionNumber": "0001769628-26-000432",
+        "filingDate": "2026-09-22",
+        "reportDate": "2026-09-17",
+        "acceptanceDateTime": "2026-09-22T20:17:14.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-42563",
+        "filmNumber": "261397063",
+        "items": "1.01,3.02,8.01,9.01",
+        "core_type": "XBRL",
+        "size": 2073009,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "crwv-20260917.htm",
+        "primaryDocDescription": "8-K"
+      },
+      {
+        "accessionNumber": "0001769628-26-000429",
+        "filingDate": "2026-09-17",
+        "reportDate": "2026-09-17",
+        "acceptanceDateTime": "2026-09-17T11:13:43.000Z",
+        "act": "34",
+        "form": "8-K",
+        "fileNumber": "001-42563",
+        "filmNumber": "261385202",
+        "items": "7.01,8.01,9.01",
+        "core_type": "XBRL",
+        "size": 6319066,
+        "isXBRL": 1,
+        "isInlineXBRL": 1,
+        "isXBRLNumeric": 0,
+        "primaryDocument": "crwv-20260917.htm",
+        "primaryDocDescription": "8-K"
+      }
+    ]
+  },
+  {
+    "name": "oracle_ir",
+    "url": "https://investor.oracle.com/investor-news/default.aspx",
+    "retrieved_at": "2026-11-10T00:30:14.152372+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "coreweave_ir",
+    "url": "https://investors.coreweave.com/news-and-events/news-releases",
+    "retrieved_at": "2026-11-10T00:30:14.152564+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "microsoft_oracle_cnbc",
+    "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+    "retrieved_at": "2026-11-10T00:30:14.152728+00:00",
+    "status": 200,
+    "bytes": 853071,
+    "jsonld": [
+      "{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"description\":\"Microsoft is winding down the number of neoclouds it counts as partners, picking key suppliers and focusing on its own data centers.\",\"speakable\":{\"@type\":\"SpeakableSpecification\",\"xpath\":[\"/html/head/title\",\"/html/head/meta[@name=\\\"description\\\"]/@content\"],\"cssSelector\":[\".group p\"]},\"mainEntityOfPage\":\"https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html\",\"url\":\"https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html\",\"headline\":\"Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain\",\"dateCreated\":\"2026-11-06T18:31:32+0000\",\"datePublished\":\"2026-11-06T18:31:32+0000\",\"dateModified\":\"2026-11-06T18:40:58+0000\",\"author\":[{\"@type\":\"Person\",\"name\":\"Jordan Novet\",\"url\":\"https://www.cnbc.com/jordan-novet/\"},{\"@type\":\"Person\",\"name\":\"Seema Mody\",\"url\":\"https://www.cnbc.com/seema-mody/\"}],\"publisher\":{\"@type\":\"NewsMediaOrganization\",\"name\":\"CNBC\",\"url\":\"https://www.cnbc.com/\",\"foundingDate\":\"1989-04-17\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc-hdr-logo2.png\",\"width\":378,\"height\":98},\"sameAs\":[\"https://www.facebook.com/cnbc\",\"https://www.instagram.com/cnbc\",\"https://www.linkedin.com/company/cnbc\",\"https://twitter.com/cnbc\",\"https://en.wikipedia.org/wiki/CNBC\",\"https://www.youtube.com/cnbc\"]},\"articleSection\":\"Technology\",\"keywords\":[\"cnbc\",\"Articles\",\"Enterprise\",\"Breaking News: Technology\",\"Technology\",\"Business\",\"Microsoft Corp\",\"IREN Ltd\",\"Nebius Group NV\",\"CoreWeave\",\"Chronoscale Corp\",\"Oracle Corp\",\"Cerebras Systems Inc\",\"Software\",\"Global X Data Center & Digital Infrastructure ETF\",\"iShares Expanded Tech-Software Sector ETF\",\"Invesco QQQ Trust\",\"Amazon.com Inc\",\"Alphabet Class A\",\"US: News\",\"Cloud Computing\",\"AI - Artificial Intelligence\",\"source:tagname:CNBC US Source\"],\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://image.cnbcfm.com/api/v1/image/108530430-1793940029707-gettyimages-2300856161-20090101261022-99-29725.jpeg?v=1793940103&w=1200&h=675\",\"width\":1200,\"height\":675},{\"@type\":\"ImageObject\",\"url\":\"https://image.cnbcfm.com/api/v1/image/108530430-1793940029707-gettyimages-2300856161-20090101261022-99-29725.jpeg?v=1793940103&w=1200&h=1200\",\"width\":1200,\"height\":1200}],\"video\":{\"@type\":\"VideoObject\",\"contentUrl\":\"https://pdl-iphone-cnbc-com.akamaized.net/7000430209/ab7c3d50-d9ff-11f1-907d-7be860478cc4/1793982742-49474905382-hd_L.mp4\",\"description\":\"CNBC's Seema Mody joins 'Squawk on the Street' with the latest news surrounding neoclouds.\",\"duration\":\"PT1M16S\",\"name\":\"Microsoft in process of consolidating neocloud relationships, sources say\",\"thumbnailUrl\":\"https://image.cnbcfm.com/api/v1/image/108533515-1793983829967-1793982742-49474905382-hd.jpg?v=1793983831\",\"uploadDate\":\"2026-11-06T16:32:23+0000\"}}"
+    ],
+    "text": "Microsoft moves to consolidate its relationships with neoclouds in AI Skip Navigation Markets Pre-Markets U.S. Markets Europe Markets China Markets Asia Markets World Markets Currencies Prediction Markets Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Investigations Industrials Retail Wealth Sports Life Small Business Investing Personal Finance Fintech Financial Advisors Options Action ETF Street Buffett Archive Earnings Trader Talk Tech Cybersecurity AI Enterprise Internet Media Mobile Social Media CNBC Disruptor 50 Tech Guide Politics & Policy White House Policy Defense Congress Expanding Opportunity Europe Politics China Politics Asia Politics World Politics Video Latest Video Full Episodes Livestream Top Video Live Audio Europe TV Asia TV CNBC Podcasts CEO Interviews Digital Originals Watchlist Investing Club Trust Portfolio Analysis Trade Alerts Meeting Videos Homestretch Jim's Columns Education Subscribe PRO Pro News Josh Brown Mike Santoli Calls of the Day My Portfolio Livestream Full Episodes Stock Screener Market Forecast Options Investing Chart Investing Subscribe Livestream Menu Make It select USA INTL Livestream Search quotes, news & videos Livestream Watchlist SIGN IN Create free account Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Tech Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain Published Fri, Nov 6 2026 1:31 PM EST Updated Fri, Nov 6 2026 1:40 PM EST Jordan Novet @in/jordannovet/ Seema Mody @SeemaCNBC WATCH LIVE Key Points Microsoft is looking to shrink the number of neoclouds it counts as partners, according to people familiar with the matter. The company will keep working with some key suppliers while it also builds out its own infrastructure, the sources said. Microsoft has signed deals with half a dozen neoclouds in recent years, including CoreWeave and Nebius. In this article MSFT Follow your favorite stocks CREATE FREE ACCOUNT watch now VIDEO 1:16 01:16 Microsoft in process of consolidating neocloud relationships, sources say Squawk on the Street Microsoft is shrinking its roster of neocloud partners as it focuses on work with a few key suppliers and builds out its own data centers, according to people familiar with the matter. The software giant's plans pose another potential challenge for a corner of the artificial intelligence market that's showing signs of strain due to rising borrowing costs, hefty debt loads and concerns about whether the buildout will slow down. Microsoft has forged relationships in recent years with a number of neoclouds, including CoreWeave , Nebius, Chronoscale , IREN , Lambda and Nscale, as well as with Oracle , which is pouring money into building out AI infrastructure. Microsoft is now in the evaluation stage and hasn't decided which neoclouds it will stop using, said two sources, who asked not to be named because the talks are confidential. One of the people said Microsoft wants to prioritize its own data center footprint. Bloomberg reported on the plans earlier. Two people said that Microsoft opted not to renew a deal with Oracle. A Microsoft spokesperson said in an emailed statement that its infrastructure strategy is \"built on flexibility and choice.\" \"We combine Microsoft-owned datacenters, leased facilities and strategic partnerships with third-party providers to deliver the capacity our customers need, where and when they need it,\" the spokesperson said. \"We regularly review these investments against customer demand. That includes tracking delivery and adjusting plans as circumstances change.\" watch now VIDEO 4:13 04:13 Freedom Capital's Paul Meeks: CoreWeave shares may triple Power Lunch The neoclouds have been a turbulent trade on Wall Street in recent weeks as rising interest rates added to fears that many companies have become overly reliant on debt in rushing to build capacity. Shares of CoreWeave, Nebius and IREN are all down by roughly half over the past month even after rallying on Friday. A recent industry review counted 323 neoclouds , and experts have predicted that many of them won't survive. In its earnings report on Thursday, IREN said it handed over data center capacity to Microsoft in August, but Microsoft requested a networking equipment upgrade that will result in the infrastructure coming online in January or February instead of this year. Microsoft finance chief Amy Hood said on the software company's fiscal first-quarter earnings call in October that some cloud contracts involving graphics processing units were delayed until the first half of 2027, affecting Azure cloud growth. Microsoft reported $45.2 billion worth of capital expenditures and finance leases during the latest quarter, and said capex spending will accelerate in the second half of the fiscal year. Capital markets 'more selective' CoreWeave and Nebius are both scheduled to report quarterly results next week. IREN shares popped 16% on Friday after the company said AI revenue more than doubled from the prior quarter to $200 million. IREN co-CEO Daniel Roberts told CNBC that there's a \"disconnect between what we're seeing in public market and what we're seeing at the customer level.\" However, he acknowledged the challenge that market conditions present. \"Capital markets have become more selective in the last few weeks, and the questions have undoubtedly moved from how big the contract is to whether it can be delivered, financed, and run at a profit,\" Roberts said on the earnings call. Microsoft has already slashed its work with U.K.-based neocloud Nscale, walking away from a site that it had intended to use in England. Darren Hardman, Microsoft's CEO for the U.K and Ireland, told CNBC in October that the decision had to do with Nscale's ability to get access to electricity. watch now VIDEO 4:18 04:18 Lofty valuations weigh on data center IPOs: Pella Funds CIO Squawk Box Asia The Financial Times reported this week that Microsoft decided against renewing a contract with Nscale in Texas. Nscale filed to go public in mid-September but hasn't updated its prospectus since then. The company said in its IPO filing that it expects Microsoft to be a \"significant customer in future periods.\" Microsoft's big turn to neoclouds came after the launch of ChatGPT in 2022, which led to a surge in demand for GPUs. In looking elsewhere, Microsoft signed up CoreWeave, which was a privately held startup at the time with roots in cryptocurrency mining. When CoreWeave went public last year, it said 62% of its 2024 revenue came from Microsoft. At the time of ChatGPT's release, OpenAI only used Azure. Now the company's cloud suppliers also include Amazon, Cerebras , CoreWeave, Google and Oracle. Microsoft's spokesperson said that its approach to reviewing neocloud investments is \"a normal and responsible way to manage large, complex infrastructure projects,\" and that \"the pace of our new agreements reflects what we need today.\" \u2014CNBC's Kif Leswing contributed to this report. WATCH: IREN co-CEO: AI demand remains strong despite investor scrutiny watch now VIDEO 2:10 02:10 IREN co-CEO: AI demand remains strong despite investor scrutiny Squawk Box Europe Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news. Subscribe to CNBC PRO Subscribe to Investing Club Licensing & Reprints CNBC Councils Join the CNBC Panel Digital Products News Releases Closed Captioning Corrections About CNBC Internships Site Map Careers Help Contact News Tips Got a confidential news tip? We want to hear from you. Get In Touch CNBC Newsletters Sign up for free newsletters and get more CNBC delivered to your inbox Sign Up Now Get this delivered to your inbox, and more info about our products and services. Advertise With Us Please Contact Us Ad Choices Privacy Policy Your Privacy Choices CA Notice Terms of Service \u00a9 2026 Versant Media, LLC. All Rights Reserved. A Versant Media Company.\nData is a real-time snapshot *Data is delayed at least 15 minutes.\nGlobal Business and Financial News, Stock Quotes, and Market Data\nand Analysis.\nMarket Data Terms of Use and Disclaimers Data also provided by"
+  },
+  {
+    "name": "openai_techcrunch",
+    "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "retrieved_at": "2026-11-10T00:30:14.152874+00:00",
+    "status": 200,
+    "bytes": 212440,
+    "jsonld": [
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"NewsArticle\",\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/#article\",\"isPartOf\":{\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/\"},\"author\":[{\"@id\":\"https://techcrunch.com/#/schema/person/image/39370b3b326582f94dc05975c153eb28\"}],\"headline\":\"OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation\",\"datePublished\":\"2026-11-06T22:53:46+00:00\",\"dateModified\":\"2026-11-06T23:28:02+00:00\",\"mainEntityOfPage\":{\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/\"},\"wordCount\":254,\"publisher\":{\"@id\":\"https://techcrunch.com/#organization\"},\"image\":{\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/#primaryimage\"},\"thumbnailUrl\":\"https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg\",\"keywords\":[\"Anthropic\",\"fundraising\",\"In Brief\",\"OpenAI\"],\"articleSection\":[\"AI\"],\"inLanguage\":\"en-US\",\"speakable\":{\"@type\":\"SpeakableSpecification\",\"cssSelector\":[\"#speakable-summary\"]},\"copyrightYear\":\"2026\",\"copyrightHolder\":{\"@id\":\"https://techcrunch.com/#organization\"}},{\"@type\":\"WebPage\",\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/\",\"url\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/\",\"name\":\"OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation | TechCrunch\",\"isPartOf\":{\"@id\":\"https://techcrunch.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/#primaryimage\"},\"image\":{\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/#primaryimage\"},\"thumbnailUrl\":\"https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg\",\"datePublished\":\"2026-11-06T22:53:46+00:00\",\"dateModified\":\"2026-11-06T23:28:02+00:00\",\"description\":\"OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.\",\"breadcrumb\":{\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/#primaryimage\",\"url\":\"https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg\",\"contentUrl\":\"https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg\",\"width\":1024,\"height\":681,\"caption\":\"The OpenAI logo is displayed on a smartphone screen placed on a reflective surface onto which a stock market chart is projected, in Creteil, France, on June 9, 2026. OpenAI confirms that it has confidentially filed a prospectus for an initial public offering (IPO) with the Securities and Exchange Commission (SEC). (Photo by Samuel Boivin/NurPhoto via Getty Images)\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://techcrunch.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://techcrunch.com/#website\",\"url\":\"https://techcrunch.com/\",\"name\":\"TechCrunch\",\"description\":\"Startup and Technology News\",\"publisher\":{\"@id\":\"https://techcrunch.com/#organization\"},\"alternateName\":\"TC\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://techcrunch.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://techcrunch.com/#organization\",\"name\":\"TechCrunch\",\"alternateName\":\"TC\",\"url\":\"https://techcrunch.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://techcrunch.com/#/schema/logo/image/\",\"url\":\"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png?resize=1200,1200\",\"contentUrl\":\"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png?resize=1200,1200\",\"width\":1200,\"height\":1200,\"caption\":\"TechCrunch\"},\"image\":{\"@id\":\"https://techcrunch.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/techcrunch\",\"https://x.com/TechCrunch\",\"https://mstdn.social/@TechCrunch\",\"https://bsky.app/profile/techcrunch.com\",\"https://www.threads.net/@techcrunch\"]},{\"@type\":\"Person\",\"@id\":\"https://techcrunch.com/#/schema/person/image/39370b3b326582f94dc05975c153eb28\",\"name\":\"Lucas Ropek\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://techcrunch.com/#/schema/person/image/4ca0863840bbd337644278c69f385ac4\",\"url\":\"https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=150\",\"contentUrl\":\"https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=150\",\"width\":150,\"height\":150,\"caption\":\"Lucas Ropek\"},\"description\":\"Lucas is a senior writer at TechCrunch, where he covers artificial intelligence, consumer tech, and startups. He previously covered AI and cybersecurity at Gizmodo. You can contact Lucas by emailing lucas.ropek@techcrunch.com.\",\"url\":\"https://techcrunch.com/author/lucas-ropek/\"}]}"
+    ],
+    "text": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation | TechCrunch\nTechCrunch Desktop Logo\nTechCrunch Mobile Logo\nLatest Startups Venture Apple Security AI Apps Disrupt 2026\nEvents Podcasts Newsletters\nSearch Submit\nSite Search Toggle\nMega Menu Toggle\nTopics\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadgets\nGaming\nGoogle\nGovernment & Policy\nHardware\nInstagram\nLayoffs\nMedia & Entertainment\nMeta\nMicrosoft\nPrivacy\nRobotics\nSecurity\nSocial\nSpace\nStartups\nTikTok\nTransportation\nVenture\nMore from TechCrunch\nStaff\nEvents\nStartup Battlefield\nStrictlyVC\nNewsletters\nPodcasts\nVideos\nPartner Content\nTechCrunch Brand Studio\nContact Us\nIn Brief\nPosted:\n2:53 PM PST \u00b7 November 6, 2026\nImage Credits: Samuel Boivin/NurPhoto / Getty Images\nLucas Ropek\nOpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation\nOpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion.\nBloomberg reported on the new funding on Friday, citing sources familiar with the matter. The $11 billion is part of a larger funding round that hasn\u2019t closed yet, according to the outlet. The round is expected to close in the coming weeks and could total about $20 billion, a source told Bloomberg.\nIn late September, Bloomberg reported that OpenAI was looking to raise $30 billion in the upcoming round. The current figures fall well short of that target.\nTechCrunch has reached out to OpenAI for comment and will update this story if it responds.\nThe news comes only hours after Bloomberg also reported that potential buyers of shares in the IPO of OpenAI\u2019s chief competitor, Anthropic, are eyeing a substantially lower valuation than Anthropic had targeted. Bloomberg writes that some potential buyers believe Anthropic\u2019s valuation could be as low as $1.1 trillion, compared with the $2 trillion that investors were said to be expecting roughly a month ago.\nOpenAI previously intimated that it would go public this year but subsequently delayed its plans. There are expectations that the company will IPO next year at some point.\nThe market for AI hangs in a particularly precarious place. The Democratic landslide in the U.S. midterms \u2014 and overwhelmingly negative voter sentiment around data centers \u2014 has caused jitters throughout the market , with many anticipating potential regulatory challenges in the future.\nTopics\nAI , Anthropic , fundraising , In Brief , OpenAI\n2027\nSan Francisco\nGet an Early Peek at the Next TechCrunch Disrupt Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line. Sign up for our events newsletter\nRegister Now\nNewsletters\nSee More\nSubscribe for the industry\u2019s biggest tech news\nTechCrunch Daily News\nEvery weekday and Sunday, you can get the best of TechCrunch\u2019s coverage.\nTechCrunch Mobility\nTechCrunch Mobility is your destination for transportation news and insight.\nStartups Weekly\nStartups are the core of TechCrunch, so get our best coverage delivered weekly.\nStrictlyVC\nProvides movers and shakers with the info they need to start their day.\nNo newsletters selected.\nSubscribe\nBy submitting your email, you agree to our Terms and Privacy Notice .\nRelated\nAI\nAnthropic releases new Mythos and Fable models amid RSI concerns\nRussell Brandom\n5 hours ago\nClimate\nAnthropic joins AI\u2019s natural gas frenzy, buys $3.4B worth of turbines\nTim De Chant\n7 hours ago\nAI\nIs Jensen Huang\u2019s job on the line? Yale\u2019s Jeffrey Sonnenfeld estimates it\u2019s \u2018about a 50-50\u2019\nConnie Loizos\n19 hours ago\nLatest in AI\nIn Brief\nJensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago\nMarina Temkin\n47 minutes ago\nAI\nA short seller flagged Nvidia CEO\u2019s ties to a suspected Chinese spy six months before the scandal\nSarah Perez\n1 hour ago\nAI\nThe race is on to sue Nvidia\nConnie Loizos\n2 hours ago\nX\nLinkedIn\nFacebook\nInstagram\nyouTube\nMastodon\nThreads\nBluesky\nTechCrunch Staff Contact Us Advertise Site Map\nTerms of Service Privacy Policy RSS Terms of Use Code of Conduct\nVoice AI Anthropic Flock Startup Battlefield Disrupt 2026 Tech Layoffs ChatGPT\n\u00a9 2026 TechCrunch Media LLC."
+  },
+  {
+    "name": "news_priority",
+    "url": "https://news.google.com/rss/search?q=%28Oracle%20OR%20CoreWeave%29%20%28debt%20OR%20financing%20OR%20CDS%20OR%20default%20OR%20guidance%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-10T00:30:15.252045+00:00",
+    "status": 200,
+    "bytes": 43310,
+    "items": [
+      {
+        "title": "CoreWeave confronts 'doom cycle' narrative as neocloud credit risk overshadows growth - CNBC",
+        "pubDate": "Mon, 09 Nov 2026 12:00:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHUnp3ajNDcDBIRjcyRDVqWkdxNnYzOW9NaXRqS1VQTGlFYnhvMnFyOE8wbkF0d1BneXFOMWNOaXVReXNfMjAzZmlURG83NE1MR2Y2RFc2M3ZnRGNpSXFQUlE2V3VraFNfN0xlTHNMTndhMU9TUlF6NnllTFB6dw?oc=5"
+      },
+      {
+        "title": "Corporate bond ETFs are holding more AI debt. What investors should watch. - Pensions & Investments",
+        "pubDate": "Mon, 09 Nov 2026 19:05:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY1lBRnA1YThWbUZJaWYzXzhkZXo5M1E1Wm9fLWNjVFFmZEFMb2hOTGJ2R3B4NFhGMTFiZ0daQUs0aTRGdC1CUmdFejZLZXBpT256c3o3cl8zeGZGQkNGLVY3WkJ5WWhNRnItWG94OF9uWmI2Vlh0dzBHdUQ1ZUJEM29XREF1RGRmSHhqVFBBbVdUek1idm1ObVFmQQ?oc=5"
+      },
+      {
+        "title": "CoreWeave faces earnings as neocloud debt, customers and politics all bite - Startup Fortune",
+        "pubDate": "Mon, 09 Nov 2026 21:35:30 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQmRpeGF4cXdnTUlSX3RvMzFCQnJ5SFROX1UwSFlHX0NUdUc5Sm9pZ2l6NUFyc1F1MkZiYUxvS0c2UVRFeWFkUnVZWlFuOVV0cFRfWVBYTHFweDdEbTROZHZmZHhIVkg0MDZLeXZGdGRDUy04c0NJMS1MNFJIZGtlWWdsT2RrcU82QjhhMl9EZ3VuU3Z6M3d1NktsclgzTmpnMzRN?oc=5"
+      },
+      {
+        "title": "Demand, Debt and Democracy: The Worries of a Neocloud Industry - Bloomberg.com",
+        "pubDate": "Mon, 09 Nov 2026 12:02:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbTdEUDVHSXVWWlNMcGVpbDBBMmJ1YWluSzB2cTlaUVJLNWxlSnl5RVZKbHpJVEJfN1dBS2ZSOHVzZW1kTFBfXzlDQUpZT2ptOTQ0RzFKamtrMmwxR0xJRGliUE8yQnRpWjcyT3djNVoyX3ZFZ2ctTXRUQUxlV3Q0YzRSMnpPcFJTOTAwQ3NMMEFCVE00Y2N3QjRJaDFqZjJyTnc5ZHVxWUVJM0lnTXE3OQ?oc=5"
+      },
+      {
+        "title": "CoreWeave Q3 Preview: A Defining Moment for Debt-Fueled Expansion - Moomoo",
+        "pubDate": "Mon, 09 Nov 2026 09:18:38 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUV8waWN6REFRODhpakN2ZDlSUjZMa2lTdEZ0ank4Q0dUSXZWelBpVE1rTGcwMGlrV1pmemV3Ny12UmxCNmlKMHM3SGNRdDNBTXM3dHZhcXZZTTN2V1NlbWRIcHNKZ3JHeWlkMEVKOE1jcHhFOW9wTnc1R19odkR1dkNyWXJJRHpsa3RNWXRlVHFrVWNUU3NVYk9kcmdzRVFDa3NCVWJ1WlZ0RjdVaVpxUjVJSEFQdmhnVEE?oc=5"
+      },
+      {
+        "title": "CoreWeave Q3 Preview: Stock Down 73% From Highs, Market Expert Says Company \u2018Faces Two Big Tests\u2019 - TradingView",
+        "pubDate": "Mon, 09 Nov 2026 17:55:06 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbUNscFhHQ0Vvd3VSMkR2bWhzWXMwdzVpVUxHTmtod3oyN21ZYVBFX3VGb0NBdklOdERaNnlyT3pleUczb21ZRlRpLUJyOVJUdDdGWHZhTEJSczU5M2p6eEdNQVAtb2RTVVdZRmh1VjV3dGlxYkQ0UktVRnFvcXEyUjZwVjY5cU1zSmtIS0k5azZVNmZDVmhRTV9jZmFyaXNuX2E5S3h2VDVxWUpQTFJlbGF0eVdTVTBXX2NRb294cGhOY3NpVjVJd2t5RnVKeWlWVXlTRDRjQnN6VmdsWk96Tkd2S0Q2dw?oc=5"
+      },
+      {
+        "title": "CoreWeave Earnings Test Looms as Credit Markets Price In Default Risk Cathie Wood Calls 'Uncomfortable' - BigGo Finance",
+        "pubDate": "Mon, 09 Nov 2026 15:05:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zSGpuRi14S1IzZ04xUUluQXhJUHYtcFNvZUhoRlY0UVdEaDcyS1FrU2hBR1FFdmZZclp6cDQtU0d6UkQ4ZFVvVjBGYV96RTUzeF9hMndIRTNMQmN5TEdhbUJaWDNYajJKSE9haXVHbUlZbjJvMXc?oc=5"
+      },
+      {
+        "title": "Oracle: A Turnaround Is Not Imminent (Downgrade) (NYSE:ORCL) - Seeking Alpha",
+        "pubDate": "Mon, 09 Nov 2026 17:13:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY21kcXV4MEtGRncyczhSMm9Hc0NDQ21tVEMzRmVQV3BIT21SM09CUVBtZU1tc2k4U0FIV09UeWNFVnVEZFJSVkZsRlVBd2dRam0zUXBxc29zNHgxNll0UEVLc0pJOFpCUDFoLVhmQldRUmxjai1WdEtnZlBiWndBczBKTXhIWUxT?oc=5"
+      },
+      {
+        "title": "CoreWeave Borrowed at 9% Earlier This Year. Its Debt Now Yields 15% Going Into Tuesday\u2019s Report - TIKR.com",
+        "pubDate": "Mon, 09 Nov 2026 23:15:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLWRUX3VtZG1uVGFrcldxa2p5ZUlRQksxb09IczZKaWotOTI2dVBXQmFQTFN1dl9tX09aQ3RhdWJySWpwc2R1MUJTOW05TEJrMk5DTklQSGZ2TWczVzJsbkIxcW5fWExwNXNVTHY5eFg4MHhrRUd6YjEwQi1tOU1NaElyTVUzZ09fcC1IUDFOcS1ZcnRMdHR3MGVRdDU3anF1VnM4dnNiRmo5anV2dXJrYW1uTzJadE12?oc=5"
+      },
+      {
+        "title": "Oracle Corp Stock (ORCL) Moved Up by 3.07% on Nov 9: A Full Analysis - TradingKey",
+        "pubDate": "Mon, 09 Nov 2026 20:16:14 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZXBkZUxoWTBXVnhoLUw2aklJbEF4dmFiMjRUM1A1VHNmTEhFa2RLS0NhaU82Sm96UDkxc1VNSldIUmFvTERxV0JnWkVjTUVCT1ZvX21hWjRDekJKUDhPWEJiV004ZkZqZzZsbGZiVWx1VjNVTXFveC1QSHhBWW9xNHFtVkF5NWp5aEh3?oc=5"
+      },
+      {
+        "title": "CoreWeave Credit Strain Tests Neocloud Growth Plans - Oz Arab Media",
+        "pubDate": "Mon, 09 Nov 2026 17:00:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBjWGVpUnBqakt4dTlRRzNOTVR0bGx3LS11ZXhSUzBNeDV2dm9kY3hDbFNHX1d3cUs3SXJJX2FUUW9mWHJuZDg3aVl1QjN6eWttQmppVU5ndFJmaGF1aXktU1hpZzU0SzhFa0tNV1NuM0owU1FNeXZ6YjhDRTNndw?oc=5"
+      },
+      {
+        "title": "CoreWeave Stock Faces 20.7% Earnings Swing as Texas and Debt Fears Mount - BeInCrypto",
+        "pubDate": "Mon, 09 Nov 2026 05:00:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95bkxDTi1aamJ1emFwVnVMWkpLUkRJWURrd3NWa1JFSkNvdWFlUzJqVWZlM1VRWW9xOHF6SVJ2cUlrN2ZBR0w3TS1rU0plMzBYa2gyaE13b0FoUFo1YnExbDVzWkNyVHgwWFNfQjNESW93cGJ2SEE?oc=5"
+      },
+      {
+        "title": "CoreWeave Q3 Earnings: 159% Revenue Growth vs $900M Quarterly Interest on Tuesday - Tech Times",
+        "pubDate": "Mon, 09 Nov 2026 06:55:59 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVN6eHZoRzRJdVJrRkJNb3ZFLThDNHRMZHI3N01sOEZFU1V2Z1A5Rk9vcDhfZncwOGM4N3FPb0I1VFNiQ0pVU0RsMktvbURmTWcwNV9OekdySWNoWFZIMmF5UnowUDZtYk1FZ3Bic3ZQSFZ2cWhZLUhVUTR0c2FUTVpCUDA3LXZYVDNPMFktd0hGWlJ2eFRsVVRFWUoyM1dvRmJraHRPa3pLb3N0Vmdkb280aGdnVW91UXB0WFhUWG9JWVRYZHNqZzlB?oc=5"
+      },
+      {
+        "title": "Oracle: Fewer Datacenter Permits Could Be A Good Thing (NYSE:ORCL) - Seeking Alpha",
+        "pubDate": "Mon, 09 Nov 2026 17:41:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbE9pZ2cwS0RERTlybmw0Q2lmOTg3enItWTUzUFgwb0xfbHoyTWtaYW0xYUFnYUsxSlJJNEJ3MXpudlpxNjA5MVl5akRPblZURGlWUGxhSU5Qb3RtNFR5VVZ6eW9TdTJHVDNwR2w5NDF4MVZvYnA5MWhmZ3hKSmdwVHJQRFZTZVRrZHEyZ1p3enRXbURvTXRhekl3?oc=5"
+      },
+      {
+        "title": "Weekly Recap: Oracle's $20 billion financing and record CDS spread - TradingView",
+        "pubDate": "Mon, 09 Nov 2026 11:00:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVERLOVgxanRBM3NBZXVGMzdCYUxWMVBlY2E0Y0FNTzJBamYzUlU4emI4YngzLWxaNFA4Qnc1ajRLU1gxNDFleEgtOHBEMkw1SHJBaXN6aDBYOUw0WXhMOFBPX280RGxwS0Q5alRKemVfaGdoNHdYQ2tYdGZrZjZTTFVDNm9pRTFvVWxjQ1BfbE1BSUFoM0QtLTdmeTlWZFBKRFRMeFlZa21tcnNrMVpsbFBGVmNSb2cwNkR3dTJPcjJ5Y3Zq?oc=5"
+      },
+      {
+        "title": "CoreWeave Q3 Earnings Preview: Revenue Expected to Grow 159%, Debt and Financing Costs in Focus, Wall Street's Top Price Target at $278 - TradingKey",
+        "pubDate": "Mon, 09 Nov 2026 07:08:32 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOHBsTm8tN2JMaHFoRURMUDB6M05vdUZzckxjZjY2Qjl1QkViaVFpdW5LelgxZzJnREIyOG5FZkFyR0ZsNVNUekNiZS1ZS1N4aUtLTkVyWmlxTTlYVmN5XzZyY1AxUllNVHM2Q3hXU0ZsLUpNUEIwbngySjM1czdxNnkwSk81SFM1dkIwZGcyNzV4WGtHSlI0U1cyYjZiMUVGWDVaUWhnTkRwN0ZZTml1a2tPYTRNYkJIZUpvMEcyREMxSm1qaEtlNU1MendabzRZRUgzX2VFMy1HeHdTaDdiTE1tbUVXOVM4c1I5M1NWLWNCNmc?oc=5"
+      },
+      {
+        "title": "Microsoft Borrows at \u201c10 Percentage Points Below CoreWeave.\u201d Now It\u2019s Backing Away From Neoclouds - TIKR.com",
+        "pubDate": "Mon, 09 Nov 2026 17:58:25 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdEVaQzdiclp1YnAzc2hIZ1BQRC0xdlpLbzRnMlQ3TEFZRWdqZ2l4YWFuTHhDWTcxYk9PRmdjX2hrSVgtMHVwTUZBa2RUUUNINXdUMzlsNkJtemRwbC1LNWhISUktcm9SXzhVM3FsbjZUQ1RjSHNRalh0WHJ3M1U0Qm1CYkRGWW1yT19MZVRlSlJESTl6cVpad1BkYmVldWFjNE16WGJVS1A2YW1fNlpLeEQzcnVKZ3VtM0x3?oc=5"
+      },
+      {
+        "title": "CoreWeave Stock Hits Turbulence Monday: What's Going On? - TradingView",
+        "pubDate": "Mon, 09 Nov 2026 13:49:24 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUmpMaW5zVmt1Q05OR1AtOUhNWHZkZ1Jnd1ktMnlpaU9FMTRneXpVYkoycE91dFR4VTlOZjBKT3VMVHh5Q3ZpZ3d6WDlKU3RfY3J2UW1UTVJfMjBnVWVqbW9wemowRjVwR0paRXB1OExQN3E2WnA5MnJPemduRnlTWkxwd0szLTdTX0IwRzl6QWN5ay1KV2E1ZGJlSWljcnJERkV2Y1FwRk1McXVtTGVBUk5raw?oc=5"
+      },
+      {
+        "title": "CoreWeave Falls to 18-Month Low Ahead of Earnings as CRWV Breaches $45, Risks Testing $40 IPO Price - TradingKey",
+        "pubDate": "Mon, 09 Nov 2026 13:29:16 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQN0ljdThoY3ZubEo4aU9WY0w0cG1aTXVPRHBycXYyeExYSGpNeEJRdUd4X3U5RXEtTFFrczJ3ekdzWkdaT1gzcHNCbjE1Vm4wV0tZZ2t5dXlvN3BsTTJablNNVlNlUU9rNGlSN29KR1JzZWVXSVdRbUJYZWVRUVBvZ0d5V1NSWkxLYTZNSjZuNlhrYTdPOEkyR09ZZkgxVXNjUk1pcURITDJES3BXREdHYnVVQTd5Y1Z0ekthTG9lR2FFQk5xUHVKUFJWNmhjVzRHWnljLUk0QWg4dw?oc=5"
+      },
+      {
+        "title": "CoreWeave Rises 5%, Nebius Up 7% as AI Stocks Rebound Ahead of Earnings: \u201cLevered Trades to AI\u201d - TIKR.com",
+        "pubDate": "Mon, 09 Nov 2026 20:44:09 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd2tqVjhaMk1fNk1WRmNuME1vSFowYU83M01hVnBKOHhjOUJ3Q0Fvdll5TzdSX1VxSVEzdHAxT1FkMDA0UXZvcG5tYlhJUXdNY0N0R1phcXo4YVFfWm5tZ0laNUcybVVEMlBUc1pOUGFjSFBVbzFja1hNcWtEaTJyRUl5Wjg2RWxJcXotZTFGeGdIRzAtaHdlRGd5bzNNNXhNSUVfQjNRNUdXajU5T2VuRGVzdE5fZw?oc=5"
+      },
+      {
+        "title": "From CoreWeave's 16% bonds to SpaceX's $40 billion chip lease, lenders are pulling back from AI debt - MLQ.ai",
+        "pubDate": "Mon, 09 Nov 2026 13:51:39 GMT",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdk0xRzh5Tm0wdVdXQUNPa1VKOVpGZFFKbWhqOEtxRU1TUDlXR2xXeXF0aUx6YjR1X0gxUThnb2d0bmlVNkxMZHlaQVpOSGliMVRwU3hUeWZNbnlPZVVJdndoWGltQlJkV2ZBTjRNX3JqRm9DZlNrUm1zLXRDZk5JNU9mdm44T1dvNU1ZMUEtZkNwRWZQb0NMWFRUTTZQbEJhcEhDSjVtTTZhTElVdnBaMVJxQzliek0?oc=5"
+      },
+      {
+        "title": "CoreWeave Faces Credit Risks Amid Tightening AI Cloud Financing - KuCoin",
+        "pubDate": "Mon, 09 Nov 2026 13:19:42 GMT",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbm9HM0NRN3pSMWZ4SjZNY2ltZTZFQVlSWThTWmVJbHRYM1RvNXh6T1N4S1ExdWhLXy01NWl6dXE2d09YbnFhQ0V1ZXUtMXpBc1k4RV9ZWEtoLTRBYlZvaVB4THBJbXN2TGNyWTBWLVlqcGV1UnQ1dVN0WGNjSEtEWVl5czNBWFBJRjBuakVPVFhIeTdTeEJ2U3V6UHJVdw?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_openai",
+    "url": "https://news.google.com/rss/search?q=OpenAI%20%28funding%20OR%20fundraising%20OR%20%22Microsoft%20Oracle%22%29%20%28closed%20OR%20confirmed%20OR%20billion%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-10T00:30:15.531400+00:00",
+    "status": 200,
+    "bytes": 37920,
+    "items": [
+      {
+        "title": "OpenAI closes latest funding round at $1.25-trillion valuation - Los Angeles Times",
+        "pubDate": "Mon, 09 Nov 2026 17:38:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPekJKVVFZQVF5YU9NdkdLTGlUWUNWb25YMUNVblh6OUVScm40MTA1SUktZndfNWdBSldtREJYSEdFTG0tTXRaV096b2huT1dkTlpyazJmdmN4RTBELTcza0RsTGNxN1BtYUFNSWloYUxGUXEyVFVXMm9FSXcwNUQyaWlSTjI5VVF6cThXWF9BOFAyUWUwenpFOFVmU2ZBYW55QzVpcURyWng2WG1ITDU5NQ?oc=5"
+      },
+      {
+        "title": "AI\u2019s Giant Fundraisers Test the Market After Midterm Rout - Bloomberg.com",
+        "pubDate": "Mon, 09 Nov 2026 11:28:16 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWTJSVzVTaTl0bmd5cGJMNGc0S211ZFRsbVJTNWI4d0t0UXZ4LUlYeHFxMUl2dVNvcUJkUWJMWm10TnBabERPbmtqOXM3SkhaZ1JaNmxfcm5qNXVnZnVoVk9Rc292d0o4X3pCTTg2eVg2NFoyU3BHMkM5RnA2TEVERjlPS3lxWmh2eTMyc0dld3FGWnBKWG81c0JBUFkzTVJJUXFqaU1qbDRaeEU4akVOaFBhdHBQbF9XQ0hVNGluVzVQYVU?oc=5"
+      },
+      {
+        "title": "OpenAI Secures Initial $11B: What Channel Partners Should Watch - Channel Insider",
+        "pubDate": "Mon, 09 Nov 2026 19:48:25 GMT",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPczhkQ0dDQXVuOHZOY1V6ZUpjYXozVmVBOXlsdjQ4eFFhS0hiaDlQSWhkYWwxMUh0bW1jbFl5NTVlZ3l4ZV9GYkVvMElVc25IMjlLSEVLM3R0WkFVa0RjdnFQYWtFZHJLOHZnTmJfdk1lZzY5WmJVUlEyekY4WUQtQmpwa0VDN1ZfTk9OalMzcDNhbzV3anVDQ0Q1azk?oc=5"
+      },
+      {
+        "title": "Bloomberg reports OpenAI\u2019s $11 billion first close - NeoTeo",
+        "pubDate": "Mon, 09 Nov 2026 12:58:39 GMT",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKeW5nYVVQektNQXpVRXhKOGRXX2Y2TnJlWHdOSGZFb0Y3d2Z4dTRpRDBkejlxcEJzS2RuS0hDVnhnYlhLenRvbXNfYThQQWtleVo3dlNJMXF2SkFNcGxfai1TZHlVQlEzZGgxZEJValpWU3d5YUdlRzZWbjkxVFU?oc=5"
+      },
+      {
+        "title": "OpenAI Closes Initial $11 Billion In Funding At $1.25 Trillion Valuation - Crowdfund Insider",
+        "pubDate": "Mon, 09 Nov 2026 05:15:43 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcHB3WHlUejg5bDNDSTVSX0I0dEpGeE9WTTBpZFVIYTJJaUtBbFZHdUt3MlZnQjRRd05sNldHVmhmdVlORDZCbzc5S2ZzWEplb0pWczNxNTRQNXBaUC1YaUF2VlItX3BRbHhINmdfX3dhanlvNEk4c0NYSU9JM2N1Vk9Ub0VSbmlkMWZRZm9YQWNKZEJlU2FfQlFvWkwteGFUTDVhalBhengxeTVoRDJEejNQaDBiWEVhSXhB?oc=5"
+      },
+      {
+        "title": "TechFundingNews reports OpenAI\u2019s funding round cut to $20B with UAE funds leading, with valuation at $1.25T - fundsforNGOs News",
+        "pubDate": "Mon, 09 Nov 2026 09:11:51 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVGgwTTl3LTl3NC1vbzFHTDN3aXNpMG5vN043YWwxMjRSUUxmbHJtYVppTW1yYmgzZW90STRtVVR2R2Fma21qYnB5MUFXcmNkMDU0UzJaZDZCcnFhRkdqS29DX3VuaFNabjR2VUJyRzRtMTlLUEswSnFEaTRmc3VYSmJ6T0hINEE1N1NzQlBoeVJhM0xUakhkeEVIeks5LUpRcUZ6eTNpdw?oc=5"
+      },
+      {
+        "title": "OpenAI reportedly raises USD 11 bln in new round - The Paypers",
+        "pubDate": "Mon, 09 Nov 2026 13:04:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRFB6SWdldzgtcjIxSmdsNEJkSUF6TS1CcldzTFBMRVRMRlJ6T0hJdUpfWlZnc3lSckRiVzBGQXNlNzhFTlJDQmlzb05mZTJqeFVvMkprT0F0RmluaHRWRWNaOFJ5ZE8xa21Ec2FEUnp0SnFSY3VEYWV3QVRNdVdnby1jbmlKdU5xVy05ZXYzN05CbmJyNXlaT1RZdnFjUEJvVnY0VXgwREM2Zw?oc=5"
+      },
+      {
+        "title": "OpenAI Closes on About $11 Billion in New Funding - marketscreener.com",
+        "pubDate": "Mon, 09 Nov 2026 10:03:58 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV0tWT3JVNi1UV1VzU2tFQ19CcTcwZGpCUmJuVmpoWGNJT01yMjlJejdidFUyOENXQVdsalh0VzA4YllJSEQtdlg1ZW8wcm5MS3VYa3E4aXlmYU10QktwU1VxTXBySlBWQmpPYVJqWnJxNVBKbjFDVTQyRVd5Sko4elhWckdUZDlpZmtZa3Q5a1ZZNFhUYmplcC1ZbVNzY0hmaWow?oc=5"
+      },
+      {
+        "title": "OpenAI secures $11bn in funding round with $1.25tn valuation - Yahoo Finance",
+        "pubDate": "Mon, 09 Nov 2026 09:57:50 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZlBQd3ZJQUZFQmFhbGtUTWJURXZKUG9adXZKN2x5azR1Z21lSGs0alFEQXpPa2IwQ2JLT3I2dXd6XzhDaFIyTFgybGd2c25GdV9JS05wTm9zYUlPdWdwQ2M5VF9aWEJsYkRwclZVMEF2b1Y2V0Z5b0R0Qm82NTBKU2Y4VDctZw?oc=5"
+      },
+      {
+        "title": "OpenAI Raises $11 Billion At $1.25 Trillion Valuation - Dataconomy",
+        "pubDate": "Mon, 09 Nov 2026 13:10:44 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdzZSYXAwODluTFVvNXl2UnExQm1ZTzdUTnFpWnhNdEQzRVdjQjlDc0lJZVo1cUJlRHY0Y2JDVnZ3QzZqeE16cDBRYmMxbzlKVEJmaDZ2cU5DQjVxZHUyTkpZYlJteDluRjE5RzRQMC14V0YzWkpUenNDbURCR0swREpHQVNCUkV4NlFEXzhB?oc=5"
+      },
+      {
+        "title": "\u2018Tried and True\u2019 in AI. Nvidia, Anthropic & OpenAI. ARD #202 - AI: Reset to Zero",
+        "pubDate": "Mon, 09 Nov 2026 21:02:32 GMT",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UMGU4U1UxX3d6WTdNUVFJMHZwSmE2RFNMRnQwVDBieWJUQUtUZ3I3NGhfblRtWjNRWmstVnhLMC04NzJGc1k2WTJoajBoeU5DeFJhcTRuTkdFTGlraHlJSHNMYTVjazVxM2dKV0dWLUI4MUJVQmIzQUpJM0xCakU?oc=5"
+      },
+      {
+        "title": "OpenAI closes $11B first tranche at $1.25T valuation, well below its $1.4T ask - Tech Funding News",
+        "pubDate": "Mon, 09 Nov 2026 10:37:30 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVlFnQWNDWUhBdHFPdmp5cTVRWkpOR3diWEdHM0lFRUg5MkVLRFMzT3R1UGRUbklCX1d6NTFlSzRRa2JLdmNsdy12c0RmYWZjOHBDdDNvZ1ZxbVZza2Fwclg3d254d1NBWHJnNkNMT3o2MDBFcG9KNERJSEVPdEFTeE1IS29iT0drMHRUTXU5SFNFU3psUWgzbU81WEh2N0tFaEF4NEt3?oc=5"
+      },
+      {
+        "title": "OpenAI Raises $11 Billion in New Funding Round, Valued at $1.25 Trillion - AIBase",
+        "pubDate": "Mon, 09 Nov 2026 02:05:21 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9wNTg2SGZyV0N1RGkxVDB4eGFKaFJNV1NGMWxiMUdaRV81ekhfdndKZUJNWThkYzlqVTk1UXluVURxd01KUFZuRGhR?oc=5"
+      },
+      {
+        "title": "SoftBank's OpenAI Bet Is Under Strain as Its Shares Slide Before Earnings - Startup Fortune",
+        "pubDate": "Mon, 09 Nov 2026 17:25:55 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdEtyUzZRQVp4V2ZDeVNtRUo0cTYzNmFpOU5BLVB1ZnJaTGxPTDlJanVHSWd5a0hXVmk4OXE5R0h5RDlIRW1WR0llMWhncDU5VmlGRmJhZ2ttLVBuMHpXZXJfdlFYNWRDRnZHVm1RN1ktV1FfeUJKa1JYcDVzUVV4N2RNRnBlSUdEeWdFSkJCc1ZQeGdRWkdqTDltT3k4RTNoM0E?oc=5"
+      },
+      {
+        "title": "OpenAI secures $11 billion funding, valued at $1.25 trillion - TechGig",
+        "pubDate": "Mon, 09 Nov 2026 00:53:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR1gybTk2VFp5SHMyTHYydTNST1l4SGJlZVRac1JIWXg4X3hpaW9YV0FOS0VHTW9KSDRDTHZKdFNoMHIwX1UyWkZ3SWlUNXRlUnZTNnJLR056NWF6cVNhdjZfUUNEdlhwdXZLZTJzcWxWZmFSYV9scFl4MXNoTGFxQlBNeXY1UE01bm5CSnhTLU5oT2ZXbTFmaDMyN2NsSmRoVm5VT0hBV23SAagBQVVfeXFMTkdYMm05NlRaeUhzMkx2MnUzUk9ZeEhiZWVUWnNSSFl4OF94aWlvWFdBTktFR01vSkg0Q0x2SnRTaDByMF9VMlpGd0lpVDV0ZVJ2UzZyS0dOejVhenFTYXY2X1FDRHZYcHV2S2Uyc3FsVmZhUmFfbHBZeDFzaExhcUJQTXl2NVBNNW5uQkp4Uy1OaE9mV20xZmgzMjdjbEpkaFZuVU9IQVdt?oc=5"
+      },
+      {
+        "title": "Funding Weekly | OpenAI Raises $11B at a $1.25T Valuation; Uranium Digital Closes $16.5M Series A - PANews",
+        "pubDate": "Mon, 09 Nov 2026 03:05:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54dDZiT0drMTlxT0ZTNkRyMUdHQWdvS0ZxOXVjYTRPeGhuelpoSDVmTy1nWW9pZE52YUUtZ2RROVAyMXBSekJCZzhMbFdBOU02cC1MTnhIQkxkMWU2OTc2RFJObjZOU1cxVnZSNTFGSW1PbUFuNDlnb194LU5iNDA?oc=5"
+      },
+      {
+        "title": "Democratic Party's Midterm Landslide Raises Regulatory Concerns; OpenAI CFO Says Data Center Buildout Won't Hit the Brakes - BigGo Finance",
+        "pubDate": "Mon, 09 Nov 2026 01:35:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Ld1E4b3B6ejQwZ0FycmJUdzhxVW45cm5vRDN1T1VxVDh3R0lZZm41aGdhcUVRbnNla2dYYWVpX1B3Tk1aRnhMNmdEZkg5YkVWZk92QXVTZnM2RzRCMmxkbHgyTExGWUM1LXJiODM4aTE4SWpsbnc?oc=5"
+      },
+      {
+        "title": "OpenAI puts ChatGPT Enterprise on AWS Marketplace, letting companies buy it through Amazon billing - MLQ.ai",
+        "pubDate": "Mon, 09 Nov 2026 19:31:45 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbUhLOTlCWmdSZ0RWV1hDVkE0Mkk1UllqU0lhQmJ0Ym82UFo0dEdyNlJ3LXE0OGo1TVNCX3VtRUpneExzdDdTMnAxLWp3MjlBczNfbjZ1SGR5c2R3eWZuZVhza2RGTmlLTWk4WTJoZ1JxVUduWkZBZG1HS2s1bjN4QzN0X0k1bHY5WTU4enI3cUxHd3o3N1VYcUJlUWpRNWJwQm80WnFzWkpWY2FsRV9OblBaR3ZhelJzSkE?oc=5"
+      },
+      {
+        "title": "OpenAI CFO Says AI Demand Is 'Real' Even as Market Corrects, Affirms Investment Will Continue; IPO Targeted for 2027 - BigGo Finance",
+        "pubDate": "Mon, 09 Nov 2026 05:35:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKSjhjSlgxMEZoc254TzBORElPLU5uSHBWVHpITGZFY1oyVmd2QTRxZF83X0FpSEs2cHQ2aHpVZ0pyNzc3MXRpNXMwOE8tOFA4MmJibkFtSk16ZzFSRFNlUUhKWjQ0a3dQZnhmRFFINlJTQWx5T0E?oc=5"
+      },
+      {
+        "title": "UN Joint SDG Fund and partners mobilize over $6 billion in Indonesia to scale SDG financing and expand social and climate impact - fundsforNGOs News",
+        "pubDate": "Mon, 09 Nov 2026 09:11:09 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEtGTUJqWWFRVTh6eV9qQmNKQ0d1VkpUdm5MTlMydnduV29WYldOYVZUS19HUjZjdm1lZWk0czFhVzdScWlybUlZczRKaER6ZXp0TXRmdXpPbnI2enkzbWtfc1hUVGZkODlVTjZ0WWd1THdIalE5dmdfTGpzekVHUDd1cUpGcjRncHllZmVNWG5VMm9NVGpjNjIwZ1EtaWRVczI4?oc=5"
+      },
+      {
+        "title": "OpenAI raises $11 billion, boosting its valuation to $1 25 trillion - \u062c\u0631\u064a\u062f\u0629 \u0627\u0644\u0623\u0646\u0628\u0627\u0621 \u0627\u0644\u0643\u0648\u064a\u062a\u064a\u0629",
+        "pubDate": "Mon, 09 Nov 2026 14:36:42 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSEJNN2xWQVppRUdOS2xnbzVoczE3Zl9iNnIwM1BPaFJ0UDVaSTdFY2pmY1lBQzY4UTYyU2drMVlnS1c4VThfamVrZ3NOVzJKX2JWdnFmNTN5VHJBNHI5WW5nTFRPTUs2eXJ3a1FpeWJYd2ZtdkNPOFRKT1ItUHg2aWVfVGUtcTRlZmYzOUpyRnNzMF9HdFd4aDlKTU9mZ29LUTJIVmhyTFl3TDJuRmRLSmJSYw?oc=5"
+      },
+      {
+        "title": "Elon Musk's One-Word \"Default\" Claim Wipes 10% Off SoftBank Shares, Putting Masayoshi Son's AI Bet on the Line - BigGo Finance",
+        "pubDate": "Mon, 09 Nov 2026 08:35:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHbmJ1ZnZ4RW1zN1BNNzNHajY4WWs2aTBWODNlakRUUkVYM3B4NC1GT29pcVJYc1prX0hvSXlTRXFrS0xwN3E2aHI4eVo4ZXFZdjQxTXppMFVwbU8tU3dVaEVkRllWaTF2NzZaUEpsZnhzbmtHU1E?oc=5"
+      }
+    ]
+  }
+]

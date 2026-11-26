@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-18-1431-L15530",
+  "symbol": "300502.SZ",
+  "scheduled_check_at": "2026-11-18T14:30:00+08:00",
+  "triggered_at": "2026-11-18T14:28:38.800+08:00",
+  "created_at": "2026-11-18T14:31:07+08:00",
+  "forecast_start": "2026-11-18T14:31:07+08:00",
+  "snapshot_time": "2026-11-18T14:31:03+08:00",
+  "threshold": 155.3,
+  "comparison": "strictly_less_than",
+  "event": "Any traded price strictly below155.30 after forecast_start and by deadline",
+  "deadline": "2026-11-18T15:00:00+08:00",
+  "risk": "中等",
+  "numeric_probability": null,
+  "model_validated": false,
+  "status": "pending",
+  "settled": false,
+  "note": "Independent afternoon forecast starts at actual creation, not scheduled14:30 or early heartbeat. Original morning155.55 forecast remains unchanged until15:00. Current price belowVWAP and relatively weak after lower rebound highs, but over1.5percent above newly frozen cumulative low and short remaining window plus nonpersistent pullback volume mitigate risk. Overnight overseas recovery is old context; newly reported short-seller allegations are unverified risk sentiment, not proof of violation or cancelled orders. No tickstream in quote-to-creation gap; never alter threshold/window/risk later."
+}

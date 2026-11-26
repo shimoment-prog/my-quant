@@ -1,0 +1,30 @@
+[
+  {
+    "name": "msft_orcl_report",
+    "url": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixvrus8682155.shtml",
+    "retrieved_at": "2026-11-09T00:50:40.487027+00:00",
+    "ok": true,
+    "length": 28179
+  },
+  {
+    "name": "nvda_letter",
+    "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+    "retrieved_at": "2026-11-09T00:50:40.486856+00:00",
+    "ok": true,
+    "length": 60063
+  },
+  {
+    "name": "nvda_board",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "retrieved_at": "2026-11-09T00:50:40.486532+00:00",
+    "ok": true,
+    "length": 59679
+  },
+  {
+    "name": "google_crusoe",
+    "url": "https://www.crusoe.ai/resources/newsroom",
+    "retrieved_at": "2026-11-09T00:50:40.487162+00:00",
+    "ok": true,
+    "length": 292664
+  }
+]

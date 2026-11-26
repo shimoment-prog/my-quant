@@ -1,0 +1,38 @@
+[
+  {
+    "name": "nvda_q3",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+    "started_at": "2026-11-18T00:48:18.130088+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 398481,
+    "retrieved_at": "2026-11-18T00:48:19.085224+00:00"
+  },
+  {
+    "name": "nvda_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+    "started_at": "2026-11-18T00:48:18.130761+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 26926,
+    "retrieved_at": "2026-11-18T00:48:19.402286+00:00"
+  },
+  {
+    "name": "aaoi_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+    "started_at": "2026-11-18T00:48:18.130929+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 32786,
+    "retrieved_at": "2026-11-18T00:48:19.331242+00:00"
+  },
+  {
+    "name": "aaoi_424",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129051/tm2629531-1_424b5.htm",
+    "started_at": "2026-11-18T00:48:18.131067+00:00",
+    "status": 200,
+    "ok": true,
+    "length": 394116,
+    "retrieved_at": "2026-11-18T00:48:21.804503+00:00"
+  }
+]

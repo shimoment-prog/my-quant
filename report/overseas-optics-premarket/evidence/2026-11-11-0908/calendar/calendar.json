@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-11",
+  "weekday": "Wednesday",
+  "normal_session": true,
+  "checked_at": "2026-11-11T09:04:24.533555+08:00",
+  "temporary_closure_notice_found": false,
+  "current_dated_closure_title_candidates": [],
+  "coverage": "Official SSE closure calendar and latest visible SSE/SZSE general notices. Exchange-wide closures only; single-fund suspensions are distinct. US calendar establishes scheduled normal session; use quotes for actual market close evidence.",
+  "us_session": {
+    "date_et": "2026-11-10",
+    "weekday_et": "Tuesday",
+    "scheduled_normal_session": true,
+    "open_et": "2026-11-10T09:30:00-05:00",
+    "close_et": "2026-11-10T16:00:00-05:00",
+    "close_china": "2026-11-11T05:00:00+08:00",
+    "already_ended_at_check": true,
+    "schedule_basis": "Fresh Nasdaq calendar plus cached official NYSE annual calendar retrieved on 2026-11-10 08:47 Beijing time; today NYSE refresh timed out."
+  },
+  "sources": [
+    {
+      "id": "sse_calendar",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "started_at": "2026-11-11T09:04:03.624751+08:00",
+      "http_status": 200,
+      "ok": true,
+      "retrieved_at": "2026-11-11T09:04:04.138828+08:00",
+      "bytes": 29581,
+      "calendar_excerpt": "2026年休市安排 元旦： 1月1日（星期四）至1月3日（星期六）休市，1月5日（星期一）起照常开市。另外，1月4日（星期日）为周末休市。 春节： 2月15日（星期日）至2月23日（星期一）休市，2月24日（星期二）起照常开市。另外，2月14日（星期六）、2月28日（星期六）为周末休市。 清明节： 4月4日（星期六）至4月6日（星期一）休市，4月7日（星期二）起照常开市。 劳动节： 5月1日（星期五）至5月5日（星期二）休市，5月6日（星期三）起照常开市。另外，5月9日（星期六）为周末休市。 端午节： 6月19日（星期五）至6月21日（星期日）休市，6月22日（星期一）起照常开市。 中秋节： 9月25日（星期五）至9月27日（星期日）休市，9月28日（星期一）起照常开市。 国庆节： 10月1日（星期四）至10月7日（星期三）休市，10月8日（星期四）起照常开市。另外，9月20日（星期日）、10月10日（星期六）为周末休市。 相关公告 关于2026年中秋节、国庆节休市安排的公告 2026-09-17 关于2026年端午节休市安排的公告 2026-06-11 关于2026年劳动节休市安排的公告 2026-04-23 关于2026年清明节休市安排的公告 2026-03-31 关于2026年春节休市安排的公告 2026-02-05 相关链接 联系我们 网站地图 相关链接 法律声明 注册商标 个人信息保护告知书 官方微博 官方微信 APP下载 @media (max-width: 1199px){footer .sse_footer_bg>.container ul li a { font-size: 12px;}} 党建 党建动态 学习园地 图文播报 发行上市 审核公告通知 审核信息披露 审核项目动态 关于上市审核中心 科创战略 披露 交易提"
+    },
+    {
+      "id": "sse_general",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/",
+      "started_at": "2026-11-11T09:04:03.625217+08:00",
+      "http_status": 200,
+      "ok": true,
+      "retrieved_at": "2026-11-11T09:04:04.041059+08:00",
+      "bytes": 34728,
+      "visible_notices": [
+        {
+          "title": "关于东方证券股份有限公司为嘉实中证电池主题交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837331.shtml"
+        },
+        {
+          "title": "关于西部证券股份有限公司为华夏中证全指电力公用事业交易型开放式指数证券投资基金提供一般做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837333.shtml"
+        },
+        {
+          "title": "关于国信证券股份有限公司为博时中证稀有金属主题交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837335.shtml"
+        },
+        {
+          "title": "关于东海证券股份有限公司终止为易方达上证科创板人工智能交易型开放式指数证券投资基金提供一般做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837337.shtml"
+        },
+        {
+          "title": "关于招商证券股份有限公司为博时中证稀有金属主题交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837339.shtml"
+        },
+        {
+          "title": "关于东方证券股份有限公司为中银中外运仓储物流封闭式基础设施证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837341.shtml"
+        },
+        {
+          "title": "关于招商证券股份有限公司为中银中外运仓储物流封闭式基础设施证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837343.shtml"
+        },
+        {
+          "title": "关于中国国际金融股份有限公司为华安陆家嘴封闭式商业不动产证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261110_10837345.shtml"
+        },
+        {
+          "title": "景顺长城全球半导体芯片产业股票型证券投资基金（QDII-LOF）临时停牌公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20261110_10837277.shtml"
+        },
+        {
+          "title": "关于国信证券股份有限公司为广发上证AAA科技创新公司债交易型开放式指数证券投资基金提供一般做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261109_10837213.shtml"
+        },
+        {
+          "title": "关于广发证券股份有限公司终止为富国MSCI中国A50互联互通增强策略交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261109_10837215.shtml"
+        },
+        {
+          "title": "关于中信证券股份有限公司为长城华能燃煤发电封闭式基础设施证券投资基金提供一般做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261109_10837217.shtml"
+        },
+        {
+          "title": "关于中信证券股份有限公司为华安陆家嘴封闭式商业不动产证券投资基金提供一般做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261109_10837219.shtml"
+        },
+        {
+          "title": "景顺长城全球半导体芯片产业股票型证券投资基金（QDII-LOF）临时停牌公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20261109_10837183.shtml"
+        },
+        {
+          "title": "关于方正证券股份有限公司终止为嘉实中证全指集成电路交易型开放式指数证券投资基金提供主做市服务的公告",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20261106_10837017.shtml"
+        }
+      ]
+    },
+    {
+      "id": "szse_notice",
+      "url": "https://www.szse.cn/disclosure/notice/general/index.html",
+      "started_at": "2026-11-11T09:04:03.625417+08:00",
+      "http_status": 200,
+      "ok": true,
+      "retrieved_at": "2026-11-11T09:04:04.003859+08:00",
+      "bytes": 92739,
+      "visible_notices": [
+        {
+          "title": "关于修订创业板指数编制方案的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261106_623796.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261102_623639.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261030_623637.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261030_623599.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261026_623465.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261023_623441.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261021_623420.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261021_623417.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261021_623405.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261020_623404.html"
+        },
+        {
+          "title": "深圳证券交易所《纪律处分事先告知书》送达公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261020_623403.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261016_623329.html"
+        },
+        {
+          "title": "关于深港通下的港股通交易日安排的通知",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261015_623326.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20261008_623189.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20260929_623105.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20260928_623076.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20260923_622996.html"
+        },
+        {
+          "title": "关于深港通下的港股通标的证券名单调整的公告",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20260921_622950.html"
+        },
+        {
+          "title": "关于2026年中秋节、国庆节休市安排的通知",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html"
+        },
+        {
+          "title": "关于深港通下港股通交易日安排的通知",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622910.html"
+        }
+      ]
+    },
+    {
+      "id": "nyse_hours",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "started_at": "2026-11-11T09:04:03.625609+08:00",
+      "http_status": 200,
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "nasdaq_schedule",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "started_at": "2026-11-11T09:04:03.625802+08:00",
+      "http_status": 200,
+      "ok": true,
+      "retrieved_at": "2026-11-11T09:04:06.290404+08:00",
+      "bytes": 174327,
+      "thanksgiving_excerpts": [
+        "ence Day (Observed) July 3, 2026 Closed Labor Day September 7, 2026 Closed Thanksgiving Day November 26, 2026 Closed Early Close November 27, 2026 1:00 p.m. Early Close December 24, 2026 1:00 p.m. Christmas Day December 25, 2026 Closed Download Calendars Download the 2026 Trading Calendar Download the U.S. Holiday & Trading"
+      ],
+      "core_hours_excerpts": [
+        " Friday: The Nasdaq Stock Market Opens: 9:30 am Eastern Time Zone; Closes: 4:00 pm Eastern Time Zone Extended Hours Trading There are also pre-market and after hours trading sessions available, also known as Extended Mar"
+      ]
+    },
+    {
+      "id": "nyse_hours_previous_fetch",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "started_at": "2026-11-10T08:47:54.190228+08:00",
+      "http_status": 200,
+      "ok": true,
+      "bytes": 125160,
+      "retrieved_at": "2026-11-10T08:47:58.658298+08:00",
+      "relevant_excerpt_matches": [
+        "y observed) Tuesday, July 4** Labor Day Monday, September 7 Monday, September 6 Monday, September 4 Thanksgiving Day Thursday, November 26*** Thursday, November 25*** Thursday, November 23*** Christmas Day Friday, December 25**** Friday, December 24 (Christmas Day observed) Monday, December 25 * Because the holiday falls on Saturday, January 1, 2028, no New Year’s Day holiday is observed. ** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Monday, July 3, 2028. NYSE American Equities, NYSE Arca Equities, NYSE National, and NYSE Texas late trading sessions will close at 5:00 p.m. All times are Eastern Time. *** Eac",
+        "** Labor Day Monday, September 7 Monday, September 6 Monday, September 4 Thanksgiving Day Thursday, November 26*** Thursday, November 25*** Thursday, November 23*** Christmas Day Friday, December 25**** Friday, December 24 (Christmas Day observed) Monday, December 25 * Because the holiday falls on Saturday, January 1, 2028, no New Year’s Day holiday is observed. ** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Monday, July 3, 2028. NYSE American Equities, NYSE Arca Equities, NYSE National, and NYSE Texas late trading sessions will close at 5:00 p.m. All times are Eastern Time. *** Each market will close early a",
+        "ern Time. *** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Friday, November 27, 2026, Friday, November 26, 2027, and Friday, November 24, 2028 (the day after Thanksgiving). NYSE American Equities, NYSE Arca Equities, NYSE National, and NYSE Texas late trading sessions will close at 5:00 p.m. All times are Eastern Time. **** Each market will close early at 1:00 p.m. (1:15 p.m. for eligible options) on Thursday, December 24, 2026. NYSE American Equities, NYSE Arca Equities, NYSE National, and NYSE Texas late trading sessions will close at 5:00 p.m. All times are Eastern Time. Trading Hours NYSE Tape A Pre-Openin",
+        "on: 6:30 a.m. ET Orders can be entered and will be queued until the Opening Auction at 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET 9:30 a.m. ET - Core Open Auction 3:50 p.m. to 4:00 p.m. ET - Closing Imbalance Period 4:00 p.m. ET - Closing Auction Tapes B & C Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until 7:00 a.m. ET Early Trading Session: 7:00 a.m. to 9:30 a.m. ET Core Trading Session: 9:30 a.m. to 4:00 p.m. ET NYSE American Pre-Opening Session: 6:30 a.m. ET Orders can be entered and will be queued until the Early Open Auction at 7:00 a.m. ET* Early Trading Session: 7:00 a.m. to 9:30 a.m. E"
+      ],
+      "cache_reference": "/tmp/optics-premarket-20261110/calendar/nyse_hours_clean.txt"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "cninfo",
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "retrieved_at": "2026-11-10T02:35:21.934322+00:00",
+  "ok": true,
+  "query": {
+    "pageNum": "1",
+    "pageSize": "50",
+    "column": "szse",
+    "tabName": "fulltext",
+    "stock": "",
+    "searchkey": "\u65b0\u6613\u76db",
+    "secid": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2026-11-06~2026-11-10",
+    "sortName": "time",
+    "sortType": "desc",
+    "isHLtitle": "true"
+  },
+  "length": 836
+}

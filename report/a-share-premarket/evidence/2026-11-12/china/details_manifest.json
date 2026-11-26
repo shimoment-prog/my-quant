@@ -1,0 +1,51 @@
+[
+  {
+    "name": "ce_page1",
+    "url": "https://finance.ce.cn/stock/gsgdbd/index_1.shtml",
+    "retrieved_at": "2026-11-12T00:47:48.389961+00:00",
+    "ok": true,
+    "bytes": 14475
+  },
+  {
+    "name": "ce_page2",
+    "url": "https://finance.ce.cn/stock/gsgdbd/index_2.shtml",
+    "retrieved_at": "2026-11-12T00:47:48.390353+00:00",
+    "ok": true,
+    "bytes": 14372
+  },
+  {
+    "name": "cls_morning",
+    "url": "https://www.cls.cn/detail/2532081",
+    "retrieved_at": "2026-11-12T00:47:48.390527+00:00",
+    "ok": true,
+    "bytes": 34778
+  },
+  {
+    "name": "cls_money",
+    "url": "https://www.cls.cn/detail/2531861",
+    "retrieved_at": "2026-11-12T00:47:48.390704+00:00",
+    "ok": true,
+    "bytes": 26505
+  },
+  {
+    "name": "cls_bonds",
+    "url": "https://www.cls.cn/detail/2532134",
+    "retrieved_at": "2026-11-12T00:47:48.390846+00:00",
+    "ok": true,
+    "bytes": 40306
+  },
+  {
+    "name": "pbc_reportlist",
+    "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/index.html",
+    "retrieved_at": "2026-11-12T00:47:48.390974+00:00",
+    "ok": true,
+    "bytes": 117911
+  },
+  {
+    "name": "pbc_BIS",
+    "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026111115493736794/index.html",
+    "retrieved_at": "2026-11-12T00:47:48.391101+00:00",
+    "ok": true,
+    "bytes": 24029
+  }
+]

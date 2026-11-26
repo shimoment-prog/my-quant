@@ -1,0 +1,2368 @@
+{
+  "schema_version": 2,
+  "date": "2026-11-18",
+  "automation_id": "ai",
+  "timezone": "Asia/Shanghai",
+  "triggered_at": null,
+  "run_at": "2026-11-18T00:47:05.382374+00:00",
+  "run_type": "daily_due_check",
+  "scheduled_local_time": "08:30",
+  "actual_collection_start_UTC": "2026-11-18T00:33:20Z",
+  "actual_completed_at_local": "2026-11-18T08:47:05.382374+08:00",
+  "execution_context": {
+    "current_date_verified_from_client_and_clock": true,
+    "explicit_current_heartbeat_record_in_transcript": false,
+    "authorization": "Existing daily08:30monitor continued in current session at08:33Beijing; no new/duplicate task.",
+    "not_a_claim_of_continuous_or_realtime_monitoring": true
+  },
+  "baseline": false,
+  "comparison_to_previous_observation": "observations/2026-11-17.json",
+  "comparison_to_last_material_notification": "observations/2026-11-15-notification.md",
+  "assessment": "风险升温",
+  "assessment_scope": "Localized operating/counterparty funding dependence; new positive supplier realization plus material contingent support and project-loan evidence. No systemic crisis or sector-wide credit closure established.",
+  "summary": "维持局部风险升温。NVIDIA11月17日FY27Q3实际收入及OCF增长，新增正面需求兑现证据；但DSO60至64天、付款期延长与披露最大担保类别增加，不能认定整体信用风险缓解。SB Energy1050亿美元是8月已披露支持而非本季新合同，暂无公司报告担保支付。CoreWeave11月17日有日期媒体债券收益率报价显示融资压力，但非可比OAS/CDS序列。汇丰3亿美元Jupiter贷款数周前折价转让获完整Bloomberg署名转载支持，是昨日标题线索的证据升级；实际停付、违约和银行损益未核。Blackstone/AWS50亿美元组合交易仅同意收购预计Q4交割，非经营回款或已到账。",
+  "new_events": [
+    {
+      "event_id": "nvidia_20261117_Q3FY27_revenue_collections_cashflow_and_support",
+      "issuer": "NVIDIA",
+      "publication_date": "2026-11-17",
+      "SEC_accepted_at": "2026-11-17T21:20:51Z",
+      "first_monitor_verification": "2026-11-18",
+      "evidence_grade": "primary_SEC8K_furnished_earnings_CFO_commentary_and_supplement_full",
+      "report_period": {
+        "fiscal": "Q3 FY2027",
+        "period_end": "2026-10-25",
+        "duration": "three_months"
+      },
+      "amount_unit": "USD_millions_unless_explicitly_stated",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm"
+      ],
+      "comparable_prior_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+      ],
+      "prior_publication_date": "2026-08-26",
+      "realized_revenue": {
+        "Q3FY27": 115844,
+        "Q2FY27": 96221,
+        "Q3FY26": 57006,
+        "Q3FY27_yoy_pct_company_rounded": 103,
+        "Q3FY27_qoq_pct_company_rounded": 20,
+        "data_center_Q3FY27_USD_billions": 107.6,
+        "data_center_Q2FY27_USD_billions": 89.0,
+        "data_center_Q3FY26_USD_billions": 51.2,
+        "data_center_yoy_pct_company_rounded": 110,
+        "data_center_qoq_pct_company_rounded": 21,
+        "limits": "Vendor booked revenue, not independently verified final-user paid demand; data center breakdown rounded by company."
+      },
+      "guidance_history": [
+        {
+          "forecast_period": "Q3FY27",
+          "publication_date": "2026-08-26",
+          "amount_unit": "USD_millions",
+          "midpoint": 108000,
+          "tolerance_pct": 2,
+          "range": [
+            105840,
+            110160
+          ],
+          "revised_guidance_same_period": null,
+          "revision_count": 0,
+          "actual_published_2026_11_17": 115844,
+          "actual_vs_original_midpoint_pct": 7.26296296296296,
+          "actual_vs_original_upper_pct": 5.159767610748012,
+          "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+          "interpretation": "Actual beat original outlook; no formal same-period guidance upward revision inferred."
+        },
+        {
+          "forecast_period": "Q4FY27",
+          "publication_date": "2026-11-17",
+          "amount_unit": "USD_millions",
+          "midpoint": 130000,
+          "tolerance_pct": 3,
+          "range": [
+            126100,
+            133900
+          ],
+          "prior_guidance_same_forecast_period": null,
+          "revision_count": 0,
+          "scope": "Includes extra week; no Data Center compute China revenue assumed",
+          "gross_margin_GAAP_and_nonGAAP_pct_range": [
+            71,
+            72
+          ],
+          "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+          "interpretation": "New-quarter initial outlook, not a comparable same-period upward/downward revision; lower margin vs Q3 actual is not proof of demand collapse."
+        }
+      ],
+      "cashflow_comparison": {
+        "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+        "reporting_basis": "Explicit single-quarter reconciliation values, no cumulative-to-quarter subtraction required",
+        "quarters": [
+          {
+            "period": "Q3FY27",
+            "end": "2026-10-25",
+            "OCF": 48253,
+            "cash_PPandE_only": null,
+            "cash_PPandE_plus_intangibles": 4422,
+            "base_OCF_minus_cash_PPandE": null,
+            "expanded_cash_surplus_OCF_minus_PPandE_and_intangibles": 43831,
+            "principal_payments_on_PPandE_and_intangibles": 54,
+            "finance_lease_principal_only": null,
+            "company_FCF": 43777
+          },
+          {
+            "period": "Q2FY27",
+            "end": "2026-07-26",
+            "OCF": 24077,
+            "cash_PPandE_only": null,
+            "cash_PPandE_plus_intangibles": 2677,
+            "base_OCF_minus_cash_PPandE": null,
+            "expanded_cash_surplus_OCF_minus_PPandE_and_intangibles": 21400,
+            "principal_payments_on_PPandE_and_intangibles": 59,
+            "finance_lease_principal_only": null,
+            "company_FCF": 21341
+          },
+          {
+            "period": "Q3FY26",
+            "end": "2025-10-26",
+            "OCF": 23750,
+            "cash_PPandE_only": null,
+            "cash_PPandE_plus_intangibles": 1637,
+            "base_OCF_minus_cash_PPandE": null,
+            "expanded_cash_surplus_OCF_minus_PPandE_and_intangibles": 22113,
+            "principal_payments_on_PPandE_and_intangibles": 24,
+            "finance_lease_principal_only": null,
+            "company_FCF": 22089
+          }
+        ],
+        "company_FCF_definition": "OCF less purchases related to PP&E AND intangible assets and principal payments on PP&E AND intangible assets",
+        "OCF_sequential_cause_company": "Revenue growth plus timing of federal cash tax payments; not attribute whole OCF growth to improved customer collections",
+        "nine_months_current_prior": {
+          "OCF": [
+            122675,
+            66530
+          ],
+          "PPandE_plus_intangibles": [
+            8856,
+            4758
+          ],
+          "principal_PPandE_plus_intangibles": [
+            147,
+            97
+          ],
+          "company_FCF": [
+            113672,
+            61675
+          ]
+        },
+        "accounting_vs_cash": "Q3 equity-security net gains1767, 9M25474 are not AI operating cash returns; OCF adjusts these out."
+      },
+      "collections_and_concentration": {
+        "accounts_receivable_net": {
+          "2026-10-25": 81033,
+          "2026-07-26": 63059,
+          "2026-01-25": 38466
+        },
+        "DSO_days": {
+          "Q1FY27": 45,
+          "Q2FY27": 60,
+          "Q3FY27": 64
+        },
+        "DSO_current_prior_sources": [
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+        ],
+        "company_explanation": "Rubin shipment linearity and extended payment terms on large multi-quarter agreements with certain investment-grade customers",
+        "independent_confirmation_of_cause": false,
+        "cashflow_AR_change_Q3FY27": -18052,
+        "cashflow_AR_change_Q3FY26": -5583,
+        "cashflow_AR_change_9MFY27": -42642,
+        "cashflow_AR_change_9MFY26": -10325,
+        "Q3_direct_customer_revenue_concentration_pct": [
+          14,
+          11,
+          11
+        ],
+        "Q3_AR_two_direct_customer_concentration_pct": [
+          18,
+          17
+        ],
+        "9M_direct_customer_revenue_concentration_pct": [
+          13,
+          12,
+          12,
+          11
+        ],
+        "actual_overdue_or_default_verified": false,
+        "interpretation": "Revenue and OCF growth positive, but receivables and DSO increased with longer terms. Do not equate to delinquency; monitor cash conversion, concentration and terms."
+      },
+      "liquidity": {
+        "balance_date": "2026-10-25",
+        "cash_and_equivalents": 29089,
+        "marketable_debt_securities": 24423,
+        "cash_plus_debt_securities": 53512,
+        "prior_quarter_cash": 22443,
+        "prior_quarter_marketable_debt_securities": 34143,
+        "prior_quarter_cash_plus_debt_securities": 56586,
+        "marketable_equity_securities": 44219,
+        "nonmarketable_securities": 65528,
+        "marketable_equity_short_term_lockup_USD_billions": 21.0,
+        "long_term_equity_in_other_assets_locked_to_Dec2027_USD_billions": 4.7,
+        "restricted_cash": null,
+        "available_credit_facility": null,
+        "next12m_contractual_principal_interest_leases": null,
+        "limits": "Do not count all equities as cash or subtract locked securities from a cash+debt-only total. Debt book values and commitments are not contractual12mprincipal schedule."
+      },
+      "commitments": {
+        "unit": "USD_billions",
+        "balance_date": "2026-10-25",
+        "prior_balance_date": "2026-07-26",
+        "supply_capacity_prior_current": [
+          279,
+          390
+        ],
+        "company_cause": "Primarily multi-year memory procurement",
+        "cloud_service_and_lease_prior_current_CFO_text": [
+          74,
+          102
+        ],
+        "current_cloud_services": 28,
+        "current_data_center_leases_not_commenced": 74,
+        "current_equity_investment_commitments": 20,
+        "current_remaining_capital_expenditure_commitments": 6,
+        "prior_remaining_capital_expenditure_commitments": 8,
+        "current_table_total": 518,
+        "neocloud_agreements_prior_current": [
+          36,
+          32
+        ],
+        "neocloud_implementation_conditions": [
+          "Financing secured to buy NVIDIA infrastructure",
+          "Compute capacity deployed and operational",
+          "Accepted by NVIDIA"
+        ],
+        "neocloud_max_timing_note": "If conditions not timely resolved, amounts/timing could change and commitments reduced/eliminated; no named new cancellation verified",
+        "leases_note": "Terms up to20years, expected commence Q4FY27 throughFY2033, may assign some to third parties",
+        "comparability_warning": "Q2table cloud29+uncommenced leases25=54 plus additional third-party leases20 yields74 CFO referenced. Q3table reclassification/scope not fully reconciled, no invented cut. Remaining capex8→6 across elapsed quarter is not formal annual capex guidance reduction. Commitments are future contingent obligations; do not add to current capex or guarantees and label total debt."
+      },
+      "guarantees": {
+        "unit": "USD_billions",
+        "current_maximum_gross_exposure": 118.0,
+        "prior_published_maximum_gross_including_August_contract": 108.5,
+        "prior_publication_date": "2026-08-26",
+        "newly_presented_power_systems_maximum": 9.5,
+        "breakdown": [
+          {
+            "type": "land_power_shell_for_neoclouds",
+            "maximum_gross_exposure": 3.5,
+            "trigger": "Certain partners default on obligations",
+            "recognized_fair_value_liability": null,
+            "actual_payments_company": 0
+          },
+          {
+            "type": "SB Energy PORTS-Pike",
+            "maximum_gross_exposure": 105,
+            "contract_date": "2026-08",
+            "already_disclosed_prior_release": true,
+            "counterparty_links": "NVIDIA credit support→SB Energy nine buildings4.25GW→20yearOpenAI leases",
+            "trigger": "Partner default and phase completed/ready for service; guarantees effective building by building",
+            "first_expected_effective_phase_fiscal": "FY2029",
+            "exposure_declines_with": "OpenAI lease payments over20yearterm",
+            "optional_additional_capacity_GW": 3.8,
+            "optional_additional_max_guarantee_not_disclosed": null,
+            "recognized_fair_value_liability": null,
+            "actual_payments_company": 0
+          },
+          {
+            "type": "power_and_systems_credit_support",
+            "maximum_gross_exposure": 9.5,
+            "prior_table_category_absent": true,
+            "contract_inception_date": null,
+            "specific_beneficiary": null,
+            "recognized_fair_value_liability": null,
+            "actual_payments_company": 0
+          }
+        ],
+        "actual_payments_all_guarantees_company": 0,
+        "recognized_fair_value_liability_all": null,
+        "comparison_note": "$105bn SB Energy was already disclosed Aug26 as subsequent-August agreement after July26balance. Cannot call $118bn newly signed in Q3 or fully effective debt. Current total vs prior108.5 adds9.5 category; actual new signing dates not provided. No guaranteed loss or current payable implied.",
+        "prior_comparison_scope": "Maximum guarantee exposure disclosed in CFO commentary published2026-08-26, expressly including August2026 subsequent-event SB Energy guarantee; NOT all an asof2026-07-26 balance.",
+        "prior_asof_balance_date_for_total": null,
+        "prior_document_report_period_end": "2026-07-26",
+        "prior_document_disclosure_date": "2026-08-26",
+        "current_table_asof": "2026-10-25"
+      },
+      "judgment": "Material new financial report has simultaneous positive realized revenue/cashflow and increased receivables/DSO, supply obligations and gross contingent support. It updates assessment without proving sector risk relief or realized guarantee losses. All metrics from one report/event count as one underlying evidence event; no direct A-share supplier order mapping established."
+    },
+    {
+      "event_id": "aaoi_20261117_ATM_equity_distribution_agreement",
+      "issuer": "Applied Optoelectronics",
+      "publication_date": "2026-11-17",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+      "evidence_grade": "primary_SEC8K_full",
+      "maximum_gross_offering_USD": 550000000,
+      "stage": "signed_ATM_distribution_agreement_optional_sales_not_verified_priced_sold_or_cash_received",
+      "agents": [
+        "Raymond James",
+        "Needham"
+      ],
+      "commission_pct_gross_sales": 2,
+      "no_obligation_to_sell": true,
+      "can_suspend_or_terminate": true,
+      "actual_shares_sold": null,
+      "cash_received": null,
+      "formal_revenue_cut": false,
+      "actual_funding_interruption": false
+    },
+    {
+      "event_id": "coreweave_20261117_CNBC_dated_media_bond_and_CDS",
+      "issuer": "CoreWeave",
+      "source": "https://www.cnbc.com/2026/11/17/apollo-ceo-marc-rowan-on-ai-debt.html",
+      "publication_at": "2026-11-17T11:28:00-05:00",
+      "updated_at": "2026-11-17T12:51:00-05:00",
+      "market_date": "2026-11-17",
+      "evidence_grade": "reliable_financial_media_full_text_reported_quotes_not_direct_terminal",
+      "bond_coupon_pct": 9.75,
+      "bond_maturity_year": 2031,
+      "bond_reported_yield_pct": 15.66,
+      "bond_yield_type_exact": null,
+      "currency": null,
+      "seniority": null,
+      "five_year_CDS_reported_spread": 1113.5,
+      "CDS_unit_reported_context": "spread_points_quoted_in_media_convention_not_explicit_unit_label_in_body",
+      "CDS_quote_time_and_contract_terms": null,
+      "CDS_upfront_points": null,
+      "comparison_days_and_20day_sequence": null,
+      "sustained_widening_verified": false,
+      "cash_bond_OAS": null,
+      "interpretation": "Coupon,yield,CDS distinct. Yield not bondspread; no current terminal or matched20daycomparison; do not translate to default probability.",
+      "prior_report_reference": "observations/2026-11-07.json#new_events",
+      "prior_report_bond_coupon_pct": 9.625,
+      "prior_report_bond_maturity_year": 2032,
+      "bond_is_same_as_prior_report": false,
+      "matched_yield_change_pct_points": null,
+      "CDS_unit_explicitly_verified": false,
+      "CDS_comparable_change_bp": null,
+      "issuer_CDS_20_day_change_bp": null
+    },
+    {
+      "event_id": "apollo_20261117_rowan_conditional_neocloud_funding_warning",
+      "source": "https://www.cnbc.com/2026/11/17/apollo-ceo-marc-rowan-on-ai-debt.html",
+      "publication_at": "2026-11-17T11:28:00-05:00",
+      "evidence_grade": "CNBC_full_interview_article_direct_quotes",
+      "statement": "If NVIDIA banking/guarantor function taken away, access to capital for large number of neoclouds going to disappear",
+      "type": "conditional_risk_assessment_not_disclosed_actual_funding_withdrawal",
+      "named_loan_cancelled_or_default_loss": null,
+      "interpretation": "No proof Apollo actually stopped loans or guarantee payout; keep separate from currentNVIDIA report."
+    }
+  ],
+  "new_nonmaterial_context_records": [
+    {
+      "event_id": "anthropic_20261117_S1A3_and_8A12B_registration_followup",
+      "issuer": "Anthropic",
+      "publication_date": "2026-11-17",
+      "acceptance_times_UTC": [
+        "2026-11-17T11:26:31Z",
+        "2026-11-17T11:49:44Z"
+      ],
+      "first_verified_at": "2026-11-18T00:43:26.303253+00:00",
+      "evidence_grade": "primary_SEC_S1A3_and_8A12B_full_text",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074342/anthropic-8xa12b.htm"
+      ],
+      "raw_files": [
+        "anthropic_s1a_curl.html",
+        "anthropic_s1a.txt",
+        "anthropic_8a_retry.html",
+        "anthropic_8a_retry.txt"
+      ],
+      "previous_terms_publication_date": "2026-11-10",
+      "previous_terms_source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "previous_terms_local_reference": "evidence/2026-11-11/bigtech/anthropic_prospectus.txt",
+      "stage_before": "preliminary_IPO_roadshow",
+      "stage_after": "amended_preliminary_IPO_and_exchange_registration_filed_not_final_pricing_or_closed",
+      "cover_subject_to_completion": true,
+      "SEC_EFFECT_or_424B4_new_found": false,
+      "listing_approval_cover_text": "We have been approved to list our Class A common stock on the Nasdaq Global Select Market under the symbol ANT",
+      "price_range_USD": [
+        70,
+        78
+      ],
+      "base_global_shares": 825000000,
+      "issuer_primary_shares": 801351354,
+      "selling_holder_secondary_shares": 23648646,
+      "company_does_not_receive_secondary_proceeds": true,
+      "private_placement_USD": 26000000000,
+      "private_placement_contingent_on_IPO_and_conditions": true,
+      "cash_receipt_verified": false,
+      "formal_comparable_offering_price_or_size_down_revision": false,
+      "comparison_checks": {
+        "cover_price": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "between $70.00 and $78.00"
+        },
+        "base_shares": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "825,000,000"
+        },
+        "issuer_primary_shares": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "801,351,354"
+        },
+        "selling_holder_shares": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "23,648,646"
+        },
+        "Q3_revenue": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$17.0 billion"
+        },
+        "Sept30_cash": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$95.6 billion"
+        },
+        "Sept30_shortterm_investments": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$36.3 billion"
+        },
+        "committed_spend_as_of_and_subsequent_sep30": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$900.9 billion"
+        },
+        "commitments_next12m": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$70.7 billion"
+        },
+        "conditional_private_placement": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$26.0 billion"
+        }
+      },
+      "new_financial_period_identified": false,
+      "material_new_financial_value_in_checked_items": false,
+      "historical_period": "quarter_and_ninemonths_ended2026-09-30",
+      "financial_baseline_retained": "SelectedQ3revenue,cash,shortinvestments,commitments_and_cashflowtablealreadyinNov10amendment. Do not count repeatedSeptember30dataasNov17newresults.",
+      "full_all_text_diff_completed": false,
+      "interpretation": "Normal registrationprogress with unchanged verifiedcoverprice,sizeandconditionalplacement. NotfinalIPOprice,netproceedsreceived,creditrelieforemissionfailure.",
+      "next_confirmation": [
+        "Officialfinalpricing/424B4/EFFECT",
+        "Actualsettlementandcashreceipts",
+        "Privateplacementconditionsandclosing; exclude seller proceeds"
+      ],
+      "text_diff_file": "anthropic_diff.json",
+      "full_all_text_diff_generated": true,
+      "targeted_material_financial_review_of_diff": "financialoperatingtablechangesnotidentified; newstockbasedcompensationestimatesbelowarecontingentnoncashaccountingcosts,notnewcapexorrevenuecuts."
+    }
+  ],
+  "historical_evidence_enrichments": [
+    {
+      "event_id": "hsbc_20261116_reported_oracle_linked_300m_loan_discount_sale",
+      "evidence_id": "hsbc_20261118_TheStar_Bloomberg_fulltext_first_verified",
+      "novelty": "source_upgrade_of_previously_headline_only_historical_transaction; transactionseveralweeksagonoexactdate; notnewNov18sale",
+      "issuer_or_lender": "HSBC",
+      "reliable_complete_source": "https://www.thestar.com.my/business/business-news/2026/11/17/hsbc-sold-us300mil-troubled-data-centre-loan-at-discount",
+      "source_publication_at": "2026-11-17T07:33:00Z",
+      "source_author": "Bloomberg",
+      "grade": "complete_public_reliable_Bloomberg_syndication_in_TheStar_anonymous_transaction_sources_not_bank_loan_docs",
+      "retrieved_at": "2026-11-18T00:38:47.979013+00:00",
+      "underlying_Bloomberg_publication_at": "2026-11-16T22:01:27Z",
+      "underlying_Bloomberg_original_url": "https://www.bloomberg.com/news/articles/2026-11-16/hsbc-sold-300-million-troubled-data-center-loan-at-discount",
+      "reported_loan_piece_USD_approx": 300000000,
+      "reported_total_financing_package_USD": 18000000000,
+      "reported_lenders_approx": 20,
+      "price_quote": "mid-80s",
+      "price_unit": "loanpriceper100facevalue_marketconvention; reportgivesmid80swithoutprecisedecimal",
+      "exact_sale_price": null,
+      "sale_date": "severalweeksbeforeNov16report_shortlyafterOracle_notice_exactdateundisclosed",
+      "stage": "reported_executed_secondary_loan_sale_by_anonymous_sources_settlement_document_not_obtained",
+      "reported_buyer": null,
+      "borrower_SPV_legal_name": null,
+      "project": "Project Jupiter",
+      "construction_loan_code": "Project Miner",
+      "location": "DoñaAnaCounty,NewMexico",
+      "project_planned_power_GW": 2.45,
+      "reported_developer": "unitofBlueOwlCapitalInc",
+      "loan_structure": "differenttranchestiedtovariousbuildingsatthesite",
+      "reported_issue": "regulatoryhurdles/opposition; delaysinairandpipelinepermits",
+      "contract_link": {
+        "customer": "Oracle",
+        "notice": "force majeure",
+        "notice_reported_by_Bloomberg_in": "lateSeptember2026",
+        "reported_purpose": "attempttoputoffpaymentsiftheventuregetsderailed",
+        "actual_payment_deferral_occurrence_verified": false,
+        "actual_termination_or_order_cancellation_verified": false,
+        "force_majeure_validity_legal_effect_verified": false
+      },
+      "HSBC_response": "declinedcomment",
+      "Oracle_response": "noimmediatecomment",
+      "HSBC_carrying_value_prior_impairment_fees": null,
+      "HSBC_realized_loss_USD": null,
+      "closing_or_sale_cash_receipts_verified_by_documents": false,
+      "actual_default_covenant_trigger_or_guarantee_payout_verified": false,
+      "recourse_to_Oracle_or_parent": "notverified; projectloanmustnotbeassumedunconditionalOracledebt",
+      "interpretation": "已由标题线索升级为完整可靠报道支持的历史实际出售，是项目许可/潜在付款义务变化向贷款持有人退出折价的局部信用压力线索。尚无银行/借款人文件确认、买家/交割和账面损益，不能把约300m的15%面值差当4500万美元亏损，也不能说Oracle已停付或违约。",
+      "independent_underlying_event_count": 1,
+      "independent_loss_events_established": 0,
+      "deduplication": "Bloomberg/Reuters标题、Investing、TheStar/KLSE、Bisnow、MS及其他转述均同一交易；不能多计风险证据。ING500mBWIC另事件未执行。",
+      "public_access_limit": "Bisnow带gated-content与isAccessibleForFree=false，仅公开标题/description补充，不以隐藏区文本作为验证依据；TheStar正文普通GET可公开完整读取。",
+      "next_confirmation": [
+        "银行或SPV出售/交割与贷款份额交易文件、买家及实际价格",
+        "HSBC贷款账面值、既有拨备和实际处置损益",
+        "Oracle通知的合同条款、法律效力及实际付款是否延期/违约、许可与施工进度"
+      ]
+    },
+    {
+      "event_id": "blackstone_digital_infrastructure_trust_20261116_5bn_amazon_portfolio_acquisition_lead",
+      "evidence_id": "blackstone_20261118_Reuters_fulltext_structure_verified",
+      "issuer": "Blackstone Digital Infrastructure Trust",
+      "source": "https://theedgemalaysia.com/node/826011",
+      "source_author": "JaspreetSingh/Reuters",
+      "source_grade": "complete_public_Reuters_syndication_reproduces_companyterms; officialoriginal403",
+      "source_publication_at": "2026-11-16T13:29:30Z",
+      "first_complete_monitor_verification_date": "2026-11-18",
+      "stage": "agreed_acquisition_expected_close_Q42026_not_verified_closed",
+      "portfolio_valuation_USD_approx": 5000000000,
+      "buyer_controlling_stake_pct": 75.1,
+      "Amazon_retained_stake_pct": 24.9,
+      "joint_ventures_count": 2,
+      "properties_count": 13,
+      "asset_type": "newlyconstructedpoweredshellsacrosstwoAWScampuses",
+      "AWS_leaseback_scope": "entireportfolio",
+      "lease_structure": "triple_net",
+      "initial_lease_years": 12,
+      "fully_extended_lease_years": 32,
+      "proposed_IPO_cash_use_USD": 1900000000,
+      "proposed_property_nonrecourse_mortgage_USD_approx": 2500000000,
+      "mortgage_security": "properties",
+      "expected_close": "2026Q4",
+      "actual_closed_or_cash_received_verified": false,
+      "precise_debt_pricing_conditions_draws_rent_and_guarantee_terms": null,
+      "interpretation": "50亿美元是组合估值，非Amazon本次收到现金或新增AI收入；75.1%控制权收购和财产无追索贷款不可全算Amazon无条件债务。IPO现金拟用于收购与新增抵押贷款分列，不简单累加为经营现金流，也不把预计Q4交割写成已交割。新条款补核体现资产出售/租回融资模式，不单独证明行业风险缓解。",
+      "distinct_from_QTS_downsize": true,
+      "source_body": "blackstone_edge.txt",
+      "next_confirmation": [
+        "发行人最终交割日期及实际出资/抵押贷款提款",
+        "Amazon实际净现金收入、出售会计与后续租金/担保义务",
+        "SPV资产、债务层级、追索与关联义务去重"
+      ]
+    }
+  ],
+  "new_financial_reports": {
+    "NVIDIA": {
+      "event_id": "nvidia_20261117_Q3FY27_revenue_collections_cashflow_and_support",
+      "issuer": "NVIDIA",
+      "publication_date": "2026-11-17",
+      "SEC_accepted_at": "2026-11-17T21:20:51Z",
+      "first_monitor_verification": "2026-11-18",
+      "evidence_grade": "primary_SEC8K_furnished_earnings_CFO_commentary_and_supplement_full",
+      "report_period": {
+        "fiscal": "Q3 FY2027",
+        "period_end": "2026-10-25",
+        "duration": "three_months"
+      },
+      "amount_unit": "USD_millions_unless_explicitly_stated",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm"
+      ],
+      "comparable_prior_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+      ],
+      "prior_publication_date": "2026-08-26",
+      "realized_revenue": {
+        "Q3FY27": 115844,
+        "Q2FY27": 96221,
+        "Q3FY26": 57006,
+        "Q3FY27_yoy_pct_company_rounded": 103,
+        "Q3FY27_qoq_pct_company_rounded": 20,
+        "data_center_Q3FY27_USD_billions": 107.6,
+        "data_center_Q2FY27_USD_billions": 89.0,
+        "data_center_Q3FY26_USD_billions": 51.2,
+        "data_center_yoy_pct_company_rounded": 110,
+        "data_center_qoq_pct_company_rounded": 21,
+        "limits": "Vendor booked revenue, not independently verified final-user paid demand; data center breakdown rounded by company."
+      },
+      "guidance_history": [
+        {
+          "forecast_period": "Q3FY27",
+          "publication_date": "2026-08-26",
+          "amount_unit": "USD_millions",
+          "midpoint": 108000,
+          "tolerance_pct": 2,
+          "range": [
+            105840,
+            110160
+          ],
+          "revised_guidance_same_period": null,
+          "revision_count": 0,
+          "actual_published_2026_11_17": 115844,
+          "actual_vs_original_midpoint_pct": 7.26296296296296,
+          "actual_vs_original_upper_pct": 5.159767610748012,
+          "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+          "interpretation": "Actual beat original outlook; no formal same-period guidance upward revision inferred."
+        },
+        {
+          "forecast_period": "Q4FY27",
+          "publication_date": "2026-11-17",
+          "amount_unit": "USD_millions",
+          "midpoint": 130000,
+          "tolerance_pct": 3,
+          "range": [
+            126100,
+            133900
+          ],
+          "prior_guidance_same_forecast_period": null,
+          "revision_count": 0,
+          "scope": "Includes extra week; no Data Center compute China revenue assumed",
+          "gross_margin_GAAP_and_nonGAAP_pct_range": [
+            71,
+            72
+          ],
+          "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+          "interpretation": "New-quarter initial outlook, not a comparable same-period upward/downward revision; lower margin vs Q3 actual is not proof of demand collapse."
+        }
+      ],
+      "cashflow_comparison": {
+        "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+        "reporting_basis": "Explicit single-quarter reconciliation values, no cumulative-to-quarter subtraction required",
+        "quarters": [
+          {
+            "period": "Q3FY27",
+            "end": "2026-10-25",
+            "OCF": 48253,
+            "cash_PPandE_only": null,
+            "cash_PPandE_plus_intangibles": 4422,
+            "base_OCF_minus_cash_PPandE": null,
+            "expanded_cash_surplus_OCF_minus_PPandE_and_intangibles": 43831,
+            "principal_payments_on_PPandE_and_intangibles": 54,
+            "finance_lease_principal_only": null,
+            "company_FCF": 43777
+          },
+          {
+            "period": "Q2FY27",
+            "end": "2026-07-26",
+            "OCF": 24077,
+            "cash_PPandE_only": null,
+            "cash_PPandE_plus_intangibles": 2677,
+            "base_OCF_minus_cash_PPandE": null,
+            "expanded_cash_surplus_OCF_minus_PPandE_and_intangibles": 21400,
+            "principal_payments_on_PPandE_and_intangibles": 59,
+            "finance_lease_principal_only": null,
+            "company_FCF": 21341
+          },
+          {
+            "period": "Q3FY26",
+            "end": "2025-10-26",
+            "OCF": 23750,
+            "cash_PPandE_only": null,
+            "cash_PPandE_plus_intangibles": 1637,
+            "base_OCF_minus_cash_PPandE": null,
+            "expanded_cash_surplus_OCF_minus_PPandE_and_intangibles": 22113,
+            "principal_payments_on_PPandE_and_intangibles": 24,
+            "finance_lease_principal_only": null,
+            "company_FCF": 22089
+          }
+        ],
+        "company_FCF_definition": "OCF less purchases related to PP&E AND intangible assets and principal payments on PP&E AND intangible assets",
+        "OCF_sequential_cause_company": "Revenue growth plus timing of federal cash tax payments; not attribute whole OCF growth to improved customer collections",
+        "nine_months_current_prior": {
+          "OCF": [
+            122675,
+            66530
+          ],
+          "PPandE_plus_intangibles": [
+            8856,
+            4758
+          ],
+          "principal_PPandE_plus_intangibles": [
+            147,
+            97
+          ],
+          "company_FCF": [
+            113672,
+            61675
+          ]
+        },
+        "accounting_vs_cash": "Q3 equity-security net gains1767, 9M25474 are not AI operating cash returns; OCF adjusts these out."
+      },
+      "collections_and_concentration": {
+        "accounts_receivable_net": {
+          "2026-10-25": 81033,
+          "2026-07-26": 63059,
+          "2026-01-25": 38466
+        },
+        "DSO_days": {
+          "Q1FY27": 45,
+          "Q2FY27": 60,
+          "Q3FY27": 64
+        },
+        "DSO_current_prior_sources": [
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+          "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
+        ],
+        "company_explanation": "Rubin shipment linearity and extended payment terms on large multi-quarter agreements with certain investment-grade customers",
+        "independent_confirmation_of_cause": false,
+        "cashflow_AR_change_Q3FY27": -18052,
+        "cashflow_AR_change_Q3FY26": -5583,
+        "cashflow_AR_change_9MFY27": -42642,
+        "cashflow_AR_change_9MFY26": -10325,
+        "Q3_direct_customer_revenue_concentration_pct": [
+          14,
+          11,
+          11
+        ],
+        "Q3_AR_two_direct_customer_concentration_pct": [
+          18,
+          17
+        ],
+        "9M_direct_customer_revenue_concentration_pct": [
+          13,
+          12,
+          12,
+          11
+        ],
+        "actual_overdue_or_default_verified": false,
+        "interpretation": "Revenue and OCF growth positive, but receivables and DSO increased with longer terms. Do not equate to delinquency; monitor cash conversion, concentration and terms."
+      },
+      "liquidity": {
+        "balance_date": "2026-10-25",
+        "cash_and_equivalents": 29089,
+        "marketable_debt_securities": 24423,
+        "cash_plus_debt_securities": 53512,
+        "prior_quarter_cash": 22443,
+        "prior_quarter_marketable_debt_securities": 34143,
+        "prior_quarter_cash_plus_debt_securities": 56586,
+        "marketable_equity_securities": 44219,
+        "nonmarketable_securities": 65528,
+        "marketable_equity_short_term_lockup_USD_billions": 21.0,
+        "long_term_equity_in_other_assets_locked_to_Dec2027_USD_billions": 4.7,
+        "restricted_cash": null,
+        "available_credit_facility": null,
+        "next12m_contractual_principal_interest_leases": null,
+        "limits": "Do not count all equities as cash or subtract locked securities from a cash+debt-only total. Debt book values and commitments are not contractual12mprincipal schedule."
+      },
+      "commitments": {
+        "unit": "USD_billions",
+        "balance_date": "2026-10-25",
+        "prior_balance_date": "2026-07-26",
+        "supply_capacity_prior_current": [
+          279,
+          390
+        ],
+        "company_cause": "Primarily multi-year memory procurement",
+        "cloud_service_and_lease_prior_current_CFO_text": [
+          74,
+          102
+        ],
+        "current_cloud_services": 28,
+        "current_data_center_leases_not_commenced": 74,
+        "current_equity_investment_commitments": 20,
+        "current_remaining_capital_expenditure_commitments": 6,
+        "prior_remaining_capital_expenditure_commitments": 8,
+        "current_table_total": 518,
+        "neocloud_agreements_prior_current": [
+          36,
+          32
+        ],
+        "neocloud_implementation_conditions": [
+          "Financing secured to buy NVIDIA infrastructure",
+          "Compute capacity deployed and operational",
+          "Accepted by NVIDIA"
+        ],
+        "neocloud_max_timing_note": "If conditions not timely resolved, amounts/timing could change and commitments reduced/eliminated; no named new cancellation verified",
+        "leases_note": "Terms up to20years, expected commence Q4FY27 throughFY2033, may assign some to third parties",
+        "comparability_warning": "Q2table cloud29+uncommenced leases25=54 plus additional third-party leases20 yields74 CFO referenced. Q3table reclassification/scope not fully reconciled, no invented cut. Remaining capex8→6 across elapsed quarter is not formal annual capex guidance reduction. Commitments are future contingent obligations; do not add to current capex or guarantees and label total debt."
+      },
+      "guarantees": {
+        "unit": "USD_billions",
+        "current_maximum_gross_exposure": 118.0,
+        "prior_published_maximum_gross_including_August_contract": 108.5,
+        "prior_publication_date": "2026-08-26",
+        "newly_presented_power_systems_maximum": 9.5,
+        "breakdown": [
+          {
+            "type": "land_power_shell_for_neoclouds",
+            "maximum_gross_exposure": 3.5,
+            "trigger": "Certain partners default on obligations",
+            "recognized_fair_value_liability": null,
+            "actual_payments_company": 0
+          },
+          {
+            "type": "SB Energy PORTS-Pike",
+            "maximum_gross_exposure": 105,
+            "contract_date": "2026-08",
+            "already_disclosed_prior_release": true,
+            "counterparty_links": "NVIDIA credit support→SB Energy nine buildings4.25GW→20yearOpenAI leases",
+            "trigger": "Partner default and phase completed/ready for service; guarantees effective building by building",
+            "first_expected_effective_phase_fiscal": "FY2029",
+            "exposure_declines_with": "OpenAI lease payments over20yearterm",
+            "optional_additional_capacity_GW": 3.8,
+            "optional_additional_max_guarantee_not_disclosed": null,
+            "recognized_fair_value_liability": null,
+            "actual_payments_company": 0
+          },
+          {
+            "type": "power_and_systems_credit_support",
+            "maximum_gross_exposure": 9.5,
+            "prior_table_category_absent": true,
+            "contract_inception_date": null,
+            "specific_beneficiary": null,
+            "recognized_fair_value_liability": null,
+            "actual_payments_company": 0
+          }
+        ],
+        "actual_payments_all_guarantees_company": 0,
+        "recognized_fair_value_liability_all": null,
+        "comparison_note": "$105bn SB Energy was already disclosed Aug26 as subsequent-August agreement after July26balance. Cannot call $118bn newly signed in Q3 or fully effective debt. Current total vs prior108.5 adds9.5 category; actual new signing dates not provided. No guaranteed loss or current payable implied.",
+        "prior_comparison_scope": "Maximum guarantee exposure disclosed in CFO commentary published2026-08-26, expressly including August2026 subsequent-event SB Energy guarantee; NOT all an asof2026-07-26 balance.",
+        "prior_asof_balance_date_for_total": null,
+        "prior_document_report_period_end": "2026-07-26",
+        "prior_document_disclosure_date": "2026-08-26",
+        "current_table_asof": "2026-10-25"
+      },
+      "judgment": "Material new financial report has simultaneous positive realized revenue/cashflow and increased receivables/DSO, supply obligations and gross contingent support. It updates assessment without proving sector risk relief or realized guarantee losses. All metrics from one report/event count as one underlying evidence event; no direct A-share supplier order mapping established."
+    }
+  },
+  "new_operating_issuer_financial_report_published_since_previous_check": true,
+  "new_operating_issuer_historical_financial_report_verified": true,
+  "historical_baseline_unchanged_not_new_release": {
+    "Alphabet_Meta_CoreWeave_Nebius": true,
+    "NVIDIA_new_Q3FY27_disclosure": false,
+    "NVIDIA_Q2FY27_comparison_first_verified_today_is_historical": true,
+    "Anthropic_repeated_September30_financials_not_new": true
+  },
+  "historical_financial_baseline_reference": "reference-baselines/2026Q3-alphabet-meta.json",
+  "prior_financial_report_reference": "observations/2026-11-17.json#historical_financial_period",
+  "cashflow_definition": {
+    "standard": "Operating cash flow minus cash purchases of PP&E, with finance-lease principal separately shown; no second deduction of interest included in OCF.",
+    "CoreWeave": "Cash PP&E includes capitalized internal-use software. Historical 9M2026 finance-lease principalUSD37m and derivedQ3USD4m verified inNov12_10Q; prior shorthand that it was unavailable is superseded.",
+    "CoreWeave_historical_base_surplus_Q3_USD": -7466000000,
+    "CoreWeave_historical_after_finance_lease_principal_Q3_USD": -7470000000,
+    "CoreWeave_period": "2026-07-01/2026-09-30",
+    "CoreWeave_original_earnings_publication_date": "2026-11-10",
+    "CoreWeave_lease_footnote_publication_date": "2026-11-12",
+    "historical_figures_not_new_daily_updates": true,
+    "SoftBank": "Disclosed PPE,intangibles and prepayments combined. Standardized cashPP&E surplus remainsnull; expandedmeasure retained under historical definition.",
+    "TeraWulf": "Cash purchases plus deposits caveat carried, no new financialperiod thisrun.",
+    "noncash_unpaid_future_obligations_separate_not_double_deducted": true,
+    "Nebius": "Standard OCF minus cash PP&E is null because PP&E and intangible cash purchases are combined. Expanded proxy separately stored; finance-lease principal unavailable, not zero.",
+    "Nebius_Q3_common_cash_surplus_USD": null,
+    "Nebius_Q3_expanded_proxy_USD": -7573400000,
+    "Nebius_Q2_expanded_proxy_USD": -3411300000,
+    "Nebius_finance_lease_principal_USD": null,
+    "noncash_lease_unpaid_equipment_and_future_commitments_not_double_deducted": true,
+    "NVIDIA": {
+      "report_period": "Q3FY2027three_monthsended2026-10-25",
+      "publication_date": "2026-11-17",
+      "OCF_USD": 48253000000,
+      "cash_PPandE_only_USD": null,
+      "common_cash_surplus_USD": null,
+      "cash_PPandE_and_intangibles_USD": 4422000000,
+      "expanded_cash_surplus_USD": 43831000000,
+      "capital_principal_PPandE_and_intangibles_USD": 54000000,
+      "finance_lease_principal_only_USD": null,
+      "company_FCF_USD": 43777000000,
+      "definition": "OCF less purchases related to PP&E AND intangible assets and principal payments on PP&E AND intangible assets",
+      "comparison_reference": "new_financial_reports.NVIDIA.cashflow_comparison",
+      "not_comparable_to_pure_PPandE_base": true
+    }
+  },
+  "market_proxies": [
+    {
+      "id": "BAMLC0A0CM",
+      "source_id": "fred_ig",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-11",
+      "value": 90.0,
+      "previous_market_observation": {
+        "date": "2026-11-09",
+        "value": 91.0
+      },
+      "change_bp_vs_previous_market_observation": -1.0,
+      "comparison_to_previous_monitor_run": {
+        "date": "2026-11-11",
+        "value": 90.0,
+        "new_market_observation": null,
+        "value_change_bp": null,
+        "previous_monitor_run_at": "2026-11-17T02:22:43.455452+00:00",
+        "reason": "Current FRED CSV and series page requests timed out; actual current value and change unavailable."
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-13",
+        "value": 83.0,
+        "change_bp": 7.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+      "publication_at": null,
+      "retrieved_at": "2026-11-13T00:27:08.513872+00:00",
+      "archived_csv": "evidence/2026-11-13/market/fred_ig.csv",
+      "recent_valid_observations": [
+        {
+          "date": "2026-11-03",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-04",
+          "value": 91.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-06",
+          "value": 93.0
+        },
+        {
+          "date": "2026-11-09",
+          "value": 91.0
+        },
+        {
+          "date": "2026-11-11",
+          "value": 90.0
+        }
+      ],
+      "notes": [
+        "Last successfully verified observation is November11; not November18 current market data.",
+        "Broad market proxy; not AI issuer CDS, matched cash bond spreads or CDX.IG.",
+        "Current missing quote and change are null, not zero or a relief signal."
+      ],
+      "current_run_collection_status": "failed_FRED_csv_and_series_timeouts_carry_prior_verified_only",
+      "carried_forward_from": "observations/2026-11-17.json#market_proxies",
+      "reviewed_at": "2026-11-18T00:39:16.104777+00:00"
+    },
+    {
+      "id": "BAMLH0A0HYM2",
+      "source_id": "fred_hy",
+      "evidence_type": "broad_market_proxy_not_AI_CDS",
+      "unit": "basis_points",
+      "observation_date": "2026-11-11",
+      "value": 330.0,
+      "previous_market_observation": {
+        "date": "2026-11-09",
+        "value": 334.0
+      },
+      "change_bp_vs_previous_market_observation": -4.0,
+      "comparison_to_previous_monitor_run": {
+        "date": "2026-11-11",
+        "value": 330.0,
+        "new_market_observation": null,
+        "value_change_bp": null,
+        "previous_monitor_run_at": "2026-11-17T02:22:43.455452+00:00",
+        "reason": "Current FRED CSV and series page requests timed out; actual current value and change unavailable."
+      },
+      "comparison_20_observations_earlier": {
+        "date": "2026-10-13",
+        "value": 316.0,
+        "change_bp": 14.0
+      },
+      "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "data_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+      "publication_at": null,
+      "retrieved_at": "2026-11-13T00:27:08.514212+00:00",
+      "archived_csv": "evidence/2026-11-13/market/fred_hy.csv",
+      "recent_valid_observations": [
+        {
+          "date": "2026-11-03",
+          "value": 340.0
+        },
+        {
+          "date": "2026-11-04",
+          "value": 332.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 348.0
+        },
+        {
+          "date": "2026-11-06",
+          "value": 342.0
+        },
+        {
+          "date": "2026-11-09",
+          "value": 334.0
+        },
+        {
+          "date": "2026-11-11",
+          "value": 330.0
+        }
+      ],
+      "notes": [
+        "Last successfully verified observation is November11; not November18 current market data.",
+        "Broad market proxy; not AI issuer CDS, matched cash bond spreads or CDX.IG.",
+        "Current missing quote and change are null, not zero or a relief signal."
+      ],
+      "current_run_collection_status": "failed_FRED_csv_and_series_timeouts_carry_prior_verified_only",
+      "carried_forward_from": "observations/2026-11-17.json#market_proxies",
+      "reviewed_at": "2026-11-18T00:39:16.104777+00:00"
+    }
+  ],
+  "dated_issuer_media_quotes": [
+    {
+      "event_id": "coreweave_20261117_CNBC_dated_media_bond_and_CDS",
+      "issuer": "CoreWeave",
+      "source": "https://www.cnbc.com/2026/11/17/apollo-ceo-marc-rowan-on-ai-debt.html",
+      "publication_at": "2026-11-17T11:28:00-05:00",
+      "updated_at": "2026-11-17T12:51:00-05:00",
+      "market_date": "2026-11-17",
+      "evidence_grade": "reliable_financial_media_full_text_reported_quotes_not_direct_terminal",
+      "bond_coupon_pct": 9.75,
+      "bond_maturity_year": 2031,
+      "bond_reported_yield_pct": 15.66,
+      "bond_yield_type_exact": null,
+      "currency": null,
+      "seniority": null,
+      "five_year_CDS_reported_spread": 1113.5,
+      "CDS_unit_reported_context": "spread_points_quoted_in_media_convention_not_explicit_unit_label_in_body",
+      "CDS_quote_time_and_contract_terms": null,
+      "CDS_upfront_points": null,
+      "comparison_days_and_20day_sequence": null,
+      "sustained_widening_verified": false,
+      "cash_bond_OAS": null,
+      "interpretation": "Coupon,yield,CDS distinct. Yield not bondspread; no current terminal or matched20daycomparison; do not translate to default probability.",
+      "prior_report_reference": "observations/2026-11-07.json#new_events",
+      "prior_report_bond_coupon_pct": 9.625,
+      "prior_report_bond_maturity_year": 2032,
+      "bond_is_same_as_prior_report": false,
+      "matched_yield_change_pct_points": null,
+      "CDS_unit_explicitly_verified": false,
+      "CDS_comparable_change_bp": null,
+      "issuer_CDS_20_day_change_bp": null
+    }
+  ],
+  "historical_policy_followup": {
+    "event_id": "bis_20261116_remote_advanced_computing_access_rule",
+    "already_verified_and_reported_on": "2026-11-17",
+    "new_independent_event": false,
+    "last_checked_at": "2026-11-18T00:43:26.303253+00:00",
+    "source": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "rule_source": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+    "pdf_sha256_unchanged_from_20261117": true,
+    "effective_calendar_date_still_unverified": true,
+    "DATES_text": "effective[INSERTDATEOFPUBLICATIONINTHEFEDERALREGISTER]",
+    "new_specific_monitored_company_contract_cancellation_verified": false,
+    "new_specific_funding_or_guarantee_loss_verified": false,
+    "new_lobbying_reports": "RSSReuterslobbyingfollowupisthesamepolicyevent; fullbodyunverifiedinthissubtask,notasecondcreditloss."
+  },
+  "signals": [
+    {
+      "id": "real_demand_collections_and_cashflow",
+      "assessment": "风险升温",
+      "scope": "CoreWeave and Nebius operating cash/build-out funding and execution risks; not verified sector demand collapse.",
+      "evidence_ids": [
+        "coreweave_20261110_q3_earnings_cashflow_guidance",
+        "nebius_20261112_Q3_delivery_guidance_cashflow",
+        "bis_20261116_remote_advanced_computing_access_rule",
+        "nvidia_20261117_Q3FY27_revenue_collections_cashflow_and_support"
+      ],
+      "change_since_previous_run": "NVIDIA新增FY27Q3收入/OCF增长与DSO60→64天并存；现金税款时点影响OCF环比，较长付款期不等于逾期。CoreWeave/Nebius历史现金缺口沿用，不制造日变动。",
+      "positive_evidence": "Both operators report realized revenue growth; Nebius contracts remain per company, with customer prepayments. Contracts/ARR/RPO are not final-user cash.",
+      "historical_evidence_reference": "observations/2026-11-11.json#signals",
+      "latest_review_notes": "NVIDIA新增FY27Q3收入/OCF增长与DSO60→64天并存；现金税款时点影响OCF环比，较长付款期不等于逾期。CoreWeave/Nebius历史现金缺口沿用，不制造日变动。",
+      "current_review_references": {
+        "bigtech": "evidence/2026-11-18/bigtech/findings.json",
+        "chain": "evidence/2026-11-18/chain/findings.json",
+        "priority": "evidence/2026-11-18/priority/findings.json",
+        "market": "evidence/2026-11-18/market/findings.json"
+      },
+      "historical_financial_details_reference": "evidence/2026-11-13/priority/findings.json",
+      "previous_signal_reference": "observations/2026-11-17.json#signals"
+    },
+    {
+      "id": "credit_funding_and_liquidity",
+      "assessment": "风险升温",
+      "scope": "Localized issuer financing dependence plus independently reported selective bank underwriting; no causal contagion or current comparable issuer spread trend established.",
+      "evidence_ids": [
+        "coreweave_20261106_media_bond_cds_quotes",
+        "coreweave_20261110_q3_earnings_cashflow_guidance",
+        "fred_ig",
+        "fred_hy",
+        "meta_20261112_eur_notes_completed",
+        "apollo_20261113_USD600m_notes_completed",
+        "alphabet_20261112_asian_bonds_full_terms_verified_20261114",
+        "nebius_20261112_Q3_delivery_guidance_cashflow",
+        "smfg_20261113_Reuters_fulltext_verified_20261115",
+        "nvidia_20261117_Q3FY27_revenue_collections_cashflow_and_support",
+        "coreweave_20261117_CNBC_dated_media_bond_and_CDS",
+        "hsbc_20261116_reported_oracle_linked_300m_loan_discount_sale"
+      ],
+      "change_since_previous_run": "CoreWeave11/17媒体债券收益率与CDS报价有日期但缺匹配合同序列；汇丰历史Jupiter贷款折价转让取得全文，项目SPV/账损仍未核。NVIDIA最大支持类别增加，暂无支付；不据此称融资关闭或缓解。",
+      "historical_quote_reference": "observations/2026-11-07.json#new_events",
+      "latest_review_notes": "CoreWeave11/17媒体债券收益率与CDS报价有日期但缺匹配合同序列；汇丰历史Jupiter贷款折价转让取得全文，项目SPV/账损仍未核。NVIDIA最大支持类别增加，暂无支付；不据此称融资关闭或缓解。",
+      "historical_evidence_reference": "observations/2026-11-11.json#signals",
+      "current_review_references": {
+        "bigtech": "evidence/2026-11-18/bigtech/findings.json",
+        "chain": "evidence/2026-11-18/chain/findings.json",
+        "priority": "evidence/2026-11-18/priority/findings.json",
+        "market": "evidence/2026-11-18/market/findings.json"
+      },
+      "historical_financial_details_reference": "evidence/2026-11-13/priority/findings.json",
+      "previous_signal_reference": "observations/2026-11-17.json#signals"
+    },
+    {
+      "id": "realized_losses_and_cross_entity_propagation",
+      "assessment": "风险升温",
+      "scope": "Actual localized SB7 procurement economic loss; no verified creditor default, guarantee payout or cross-industry lending loss",
+      "evidence_ids": [
+        "softbank_20261110_sb7_procurement_realignment_loss",
+        "softbank_20261110_lordstown_facility_impairment",
+        "telus_20261116_vancouver_co_development_withdrawal",
+        "nvidia_20261117_Q3FY27_revenue_collections_cashflow_and_support",
+        "coreweave_20261117_CNBC_dated_media_bond_and_CDS",
+        "hsbc_20261116_reported_oracle_linked_300m_loan_discount_sale"
+      ],
+      "change_since_previous_run": "新增供应商—SB Energy—OpenAI直接支持关系及HSBC—项目贷款—Oracle通知联系证据；SB Energy105bn8月已披露，暂无新增担保赔付/实际付款违约或银行损失。SB7历史采购损失不自动构成NVIDIA担保触发。",
+      "direct_contract_link": "SoftBank/SVF2→SB7→US AI power equipment suppliers; exact suppliers and end-customer cancellation chain not disclosed.",
+      "absence_not_proof_of_no_risk": true,
+      "historical_evidence_reference": "observations/2026-11-11.json#signals",
+      "latest_review_notes": "新增供应商—SB Energy—OpenAI直接支持关系及HSBC—项目贷款—Oracle通知联系证据；SB Energy105bn8月已披露，暂无新增担保赔付/实际付款违约或银行损失。SB7历史采购损失不自动构成NVIDIA担保触发。",
+      "current_review_references": {
+        "bigtech": "evidence/2026-11-18/bigtech/findings.json",
+        "chain": "evidence/2026-11-18/chain/findings.json",
+        "priority": "evidence/2026-11-18/priority/findings.json",
+        "market": "evidence/2026-11-18/market/findings.json"
+      },
+      "historical_financial_details_reference": "evidence/2026-11-13/priority/findings.json",
+      "previous_signal_reference": "observations/2026-11-17.json#signals"
+    }
+  ],
+  "focused_checks": {
+    "customer_capex_cuts": {
+      "status": "No new verified comparable formal customer/operator capex guidance cut; remaining procurement commitment balances are not guidance.",
+      "reviewed_at": "2026-11-18T00:47:05.382374+00:00",
+      "new_formal_cut_records": [],
+      "guidance_revision_records": [
+        {
+          "metric": "full_year_revenue",
+          "forecast_period": "2026-01-01/2026-12-31",
+          "unit": "USD_billions",
+          "prior_range": [
+            12.4,
+            13.2
+          ],
+          "new_range": [
+            13.0,
+            13.3
+          ],
+          "prior_publication_date": "2026-08-11",
+          "prior_numeric_range_source": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+          "prior_range_primary_call_document_obtained": false,
+          "new_publication_date": "2026-11-10",
+          "new_source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+          "revision": "raised",
+          "revision_count_this_record": 1,
+          "comparison_limit": "Q3 primary company confirms raising; previous precise numeric revenue range is from CNBC Nov10 historical August guidance recap, not independently acquired August call transcript."
+        },
+        {
+          "metric": "full_year_capital_expenditures",
+          "forecast_period": "2026-01-01/2026-12-31",
+          "unit": "USD_billions",
+          "prior_range": [
+            35,
+            39
+          ],
+          "new_range": [
+            37,
+            39
+          ],
+          "prior_range_primary_source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+          "prior_original_publication_date": null,
+          "new_publication_date": "2026-11-10",
+          "cash_vs_lease_scope": "Company capex guidance definition not specified in release; do not equate with cash PP&E line or add leases blindly.",
+          "reason_company_reported": "Infrastructure deployment and delivery sooner than planned.",
+          "revision": "raised_lower_bound_not_cut",
+          "new_source": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm",
+          "new_midpoint": 38,
+          "prior_midpoint": 37,
+          "midpoint_change_pct": 2.7027
+        }
+      ],
+      "historical_baseline_reference": "reference-baselines/2026Q3-alphabet-meta.json",
+      "not_all_capex_is_AI": true,
+      "new_material_change_verified": false,
+      "previous_records_reference": "observations/2026-11-17.json#focused_checks",
+      "historical_guidance_records_not_new_this_run": true,
+      "current_review_reference": "evidence/2026-11-17/bigtech/findings.json",
+      "prior_guidance_exact_first_publication_date_missing": true,
+      "historical_guidance_records_verified_previous_run": [
+        {
+          "metric": "full_year_capital_expenditures",
+          "forecast_period": "2026-01-01/2026-12-31",
+          "unit": "USD_billions",
+          "previous_range": [
+            20,
+            25
+          ],
+          "previous_original_publication_date": null,
+          "previous_primary_source": "Nov12letter_explicitly_quotes_previous_range",
+          "new_publication_date": "2026-11-12",
+          "new_approximate_value": 27,
+          "revision_type": "raised_not_cut",
+          "cash_vs_accrual_or_lease_scope_fully_established": false,
+          "reason": "投资2027年capacity，尤其自有站点；不能把指引直接替换成现金PP&E行或再叠加全部租赁。"
+        }
+      ],
+      "current_review_references": {
+        "bigtech": "evidence/2026-11-18/bigtech/findings.json",
+        "chain": "evidence/2026-11-18/chain/findings.json",
+        "priority": "evidence/2026-11-18/priority/findings.json",
+        "market": "evidence/2026-11-18/market/findings.json"
+      }
+    },
+    "supplier_consecutive_revenue_guidance_cuts": {
+      "status": "No newly verified comparable formal supplier revenue cut or two-cut sequence. NVIDIA newQ4initialoutlook is not same-periodrevision.",
+      "reviewed_at": "2026-11-18T00:47:05.382374+00:00",
+      "new_formal_cut_records": [],
+      "new_comparable_revision_count_observed": 0,
+      "minimum_independent_revisions_for_consecutive": 2,
+      "window_start": "2026-11-17T02:22:43.455452+00:00",
+      "window_end": "2026-11-18T00:47:05.382374+00:00",
+      "reference": "evidence/2026-11-16/chain/findings.json",
+      "no_new_cut_not_proof_of_stable_demand": true,
+      "new_material_change_verified": false,
+      "previous_records_reference": "observations/2026-11-17.json#focused_checks",
+      "operator_guidance_record_separate": [
+        {
+          "metric": "Group_full_year_revenue",
+          "forecast_period": "2026-01-01/2026-12-31",
+          "unit": "USD_billions",
+          "previous_range": [
+            3.0,
+            3.4
+          ],
+          "previous_range_primary_verification": "Nov12_current_letter_explicitly_quotes_original_range; Aug12letter_reaffirms_all_metrics_but_detailed_numeric_revenue_range_is_not_in_obtained_Aug12letter",
+          "previous_range_first_publication_date": null,
+          "previous_guidance_reaffirmed_on": "2026-08-12",
+          "new_publication_date": "2026-11-12",
+          "new_expectation": "low_end_of_existing_3.0_to_3.4_billion_range",
+          "new_numeric_range": null,
+          "new_exact_point_estimate": null,
+          "interpretation": "公司正式收低收入预期，但没有公布新的上下限，不能编造为3.0至3.2、把区间低端当精确结果或计算虚假的下修百分比。",
+          "revision_type": "formal_expectation_lowered_within_unchanged_stated_range",
+          "independent_downward_revision_count_verified": 1,
+          "two_consecutive_formal_downward_revisions_established": false,
+          "reason_company_stated": "第三方capacity从2026年顺延至2027年上半年，相关合同仍在。",
+          "quote": "We now expect revenue at the low end of our $3.0-3.4 billion range."
+        },
+        {
+          "metric": "AI_cloud_annualized_run_rate_revenue_ARR",
+          "unit": "USD_billions_annualized_from_one_month",
+          "previous_range": [
+            7,
+            9
+          ],
+          "previous_target_month": "2026-12",
+          "previous_original_publication_date": null,
+          "previous_primary_source": "Nov12letter_retrospective_statement_of_prior_guidance",
+          "new_publication_date": "2026-11-12",
+          "new_lower_bound_strictly_greater_than": 7,
+          "new_target_month": "2027-02",
+          "shift_about_months": 2,
+          "comparison_is_same_horizon": false,
+          "percentage_cut": null,
+          "interpretation": "这是目标时点顺延；ARR是单月收入年化，不等于已实现年度收入，不对不同月份算下降百分比。"
+        }
+      ],
+      "current_review_reference": "evidence/2026-11-17/chain/findings.json",
+      "historical_guidance_records_not_new_this_run": true,
+      "current_review_references": {
+        "bigtech": "evidence/2026-11-18/bigtech/findings.json",
+        "chain": "evidence/2026-11-18/chain/findings.json",
+        "priority": "evidence/2026-11-18/priority/findings.json",
+        "market": "evidence/2026-11-18/market/findings.json"
+      },
+      "new_supplier_guidance_records": [
+        {
+          "forecast_period": "Q3FY27",
+          "publication_date": "2026-08-26",
+          "amount_unit": "USD_millions",
+          "midpoint": 108000,
+          "tolerance_pct": 2,
+          "range": [
+            105840,
+            110160
+          ],
+          "revised_guidance_same_period": null,
+          "revision_count": 0,
+          "actual_published_2026_11_17": 115844,
+          "actual_vs_original_midpoint_pct": 7.26296296296296,
+          "actual_vs_original_upper_pct": 5.159767610748012,
+          "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+          "interpretation": "Actual beat original outlook; no formal same-period guidance upward revision inferred."
+        },
+        {
+          "forecast_period": "Q4FY27",
+          "publication_date": "2026-11-17",
+          "amount_unit": "USD_millions",
+          "midpoint": 130000,
+          "tolerance_pct": 3,
+          "range": [
+            126100,
+            133900
+          ],
+          "prior_guidance_same_forecast_period": null,
+          "revision_count": 0,
+          "scope": "Includes extra week; no Data Center compute China revenue assumed",
+          "gross_margin_GAAP_and_nonGAAP_pct_range": [
+            71,
+            72
+          ],
+          "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+          "interpretation": "New-quarter initial outlook, not a comparable same-period upward/downward revision; lower margin vs Q3 actual is not proof of demand collapse."
+        }
+      ]
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "status": "No new verified signed order cancellation, actual overduepayment or major funding interruption; HSBC historicalsale/disclosedOracleconditionalnoticeisnotdefault.",
+      "reviewed_at": "2026-11-18T00:47:05.382374+00:00",
+      "new_escalation_records": [],
+      "SB7_prior_delay_to_cancellation_not_established": true,
+      "IREN_TeraWulf_reference": "evidence/2026-11-16/chain/findings.json",
+      "Korea_300MW_public_abstract": {
+        "id": "ked_20261109_anthropic_korea_project_public_abstract_enrichment",
+        "entity": "unnamed_South_Korea_300MW_project",
+        "evidence_level": "reliable_media_public_abstract_only",
+        "public_time": "2026-11-09T17:56:27+09:00",
+        "first_verified_public_excerpt_on": "2026-11-11",
+        "capacity_mw": 300,
+        "reported_stage": "failed_to_get_off_ground_without_anchor_tenant_and_committed_financing",
+        "summary": "KED公开副标题称300MW项目未能启动，银行收紧条款、其他项目难找租户；公开导语称开发方未能争取Anthropic作租户，贷款方要求先有承诺客户。",
+        "limitations": "正文需登录，未读取或绕过。具体开发商/地点、是否已有签署合同、已承诺贷款提款条件、实际损失金额、供应商联系不明。网页标签Gumi/SK/AWS/Shinsegae不是已核合同关系，不能据标签给本项目指定公司。",
+        "interpretation": "可作未锁定租户项目融资前提收紧线索，不能认定Anthropic取消已签订单、已交割融资失败或重大实际违约；缺正文不等于没有风险。",
+        "source": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202611090008",
+        "raw_files": [
+          "ked_anthropic.html",
+          "ked_anthropic.txt",
+          "ked_manifest.json"
+        ],
+        "alert_trigger": false
+      },
+      "Microsoft_Oracle_historical_reference": "observations/2026-11-10.json#focused_checks",
+      "new_policy_and_IPO_context_reference": "evidence/2026-11-16/bigtech/findings.json",
+      "new_material_change_verified": false,
+      "previous_records_reference": "observations/2026-11-17.json#focused_checks",
+      "SB7_loss_already_notified_at": "2026-11-11T01:14:46.549646+00:00",
+      "historical_procurement_adjustment_reference": "observations/2026-11-11.json#latest_new_financial_reports.SoftBank",
+      "historical_procurement_adjustment": {
+        "id": "softbank_20261110_sb7_procurement_realignment_loss",
+        "entity": "Silver Bands 7 LLC (SB7)",
+        "parent_and_investor": "SoftBank Group and SVF2",
+        "event_type": "actual_procurement_contract_economic_loss_not_verified_credit_default",
+        "project_scope": "US AI data-center power supply equipment, including PORTS-Pike Technology Campus, Pike County, Ohio",
+        "contracts": "manufacturing capacity reservations, equipment purchase contracts and other arrangements",
+        "reason_company_stated": "Evolving requirements of existing and planned projects; equipment procurement strategy realignment",
+        "recognized_loss_jpy": 597248000000,
+        "company_reported_usd_equivalent": 3730000000,
+        "components": [
+          {
+            "type": "derecognition_of_nonrefundable_advances_already_made",
+            "jpy": 457030000000,
+            "usd_equivalent": 2850000000,
+            "cash_timing": "payments may predate current quarter; recognition is not same-period incremental cash outflow"
+          },
+          {
+            "type": "contract_modifications_and_settlements",
+            "jpy": 140218000000,
+            "usd_equivalent": 880000000,
+            "cash_timing": "paid_vs_accrued_split_not_verified"
+          }
+        ],
+        "cumulative_procurement_payments_since_previous_fiscal_year_to_September30_jpy": 1500886000000,
+        "same_cumulative_payments_usd": 9480000000,
+        "future_conditional_rebates_max_usd": 2100000000,
+        "rebate_horizon_years": 10,
+        "rebate_asset_recognized": false,
+        "rebates_not_net_against_loss": true,
+        "supplier_names": null,
+        "same_project_previously_monitored_delay_established": false,
+        "client_order_cancel_verified": false,
+        "credit_default_or_covenant_trigger_verified": false,
+        "major_funding_interruption_verified": false,
+        "supplier_AI_or_optical_order_transmission_verified": false,
+        "scope_limit": "Real project procurement loss; cannot call total company loss an AI credit loss, industry cancellation, or supplier/bank default. No guarantee payment verified.",
+        "sources": [
+          "https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2026_01_en.pdf"
+        ],
+        "already_notified_on": "2026-11-11",
+        "not_new_on_current_run": true,
+        "original_alert_trigger": true,
+        "alert_trigger_this_run": false
+      },
+      "SB7_media_supplier_detail_reference": "evidence/2026-11-12/chain/findings.json#discovery_and_deduplication",
+      "current_review_reference": "evidence/2026-11-17/chain/findings.json",
+      "unverified_financing_leads": [
+        {
+          "event_id": "qts_20261113_private_debt_sale_reduction_media_lead",
+          "new_evidence_id": "qts_20261114_secondary_fulltext_verified_20261115",
+          "issuer": "QTS Data Centers",
+          "sponsor": "Blackstone",
+          "same_underlying_event_as_prior_run": true,
+          "independent_event_count": 1,
+          "original_event_date_reported": "2026-11-13",
+          "original_Bloomberg_report_obtained": false,
+          "full_public_secondary_source": "https://startupfortune.com/blackstones-qts-cuts-its-ai-data-center-debt-sale-to-300-million/",
+          "secondary_publication_at": "2026-11-14T03:25:27Z",
+          "retrieved_at": "2026-11-15T00:28:15.112506+00:00",
+          "evidence_grade": "complete_public_secondary_media_relay_attributed_to_Bloomberg_not_original_or_issuer_confirmation",
+          "reliability_limit": "StartupFortune full text provides details but was not independently corroborated by original Bloomberg or complete MTNewswire/BusinessTimes article; its analysis and quantitative default probability claims excluded.",
+          "prior_offering_target_USD_approx": 800000000,
+          "revised_offering_target_USD_approx": 300000000,
+          "target_reduction_USD_approx": 500000000,
+          "target_reduction_pct_arithmetic_on_approx_figures": 62.5,
+          "source_rounding": "Source says about60percent and prior/new amounts approximate; do not present62.5percent as precision from official terms.",
+          "instrument_reported": "private_placement_notes",
+          "maturities_years_reported": [
+            7,
+            15
+          ],
+          "SPV_reported": "QTS Thunder Managing Issuer LLC",
+          "arrangers_reported": [
+            "Mizuho",
+            "Natixis",
+            "Societe Generale",
+            "Wells Fargo"
+          ],
+          "intended_investor_categories_reported": [
+            "insurers",
+            "asset managers"
+          ],
+          "reported_initial_marketing": "lateOctober2026",
+          "reported_marketing_duration": "about2.5weeks",
+          "reported_reason": [
+            "Some investors resisted offered yields",
+            "Some investors reached QTS exposure limits after repeated placements",
+            "QTS unwilling to pay much higher yields to achieve original size"
+          ],
+          "stage": "media_reported_downsizing_of_planned_private_placement_final_pricing_closing_and_receipts_unverified",
+          "final_coupon_yield_benchmark_spread": null,
+          "final_investors": null,
+          "actual_closed_principal_or_receipts_verified": false,
+          "offering_withdrawal_or_failed_closing_verified": false,
+          "alternate_financing_verified": false,
+          "separate_financing_not_nettable": "Source mentions a reported4.6bn green bond as separate transaction; not verified as a substitute or offset here.",
+          "specific_customer_contract_or_project_site": null,
+          "actual_order_cancellation_payment_default_construction_halt_or_guarantee_payout_verified": false,
+          "project_or_parent_recourse_terms": null,
+          "interpretation": "补齐的是同一融资缩量线索的二手全文，支持局部融资需求或价格约束需重视；目标缩减不是已证实$500m现金缺口、违约、交割失败或重大融资中断。不能把QTS项目债全部算Blackstone母公司无条件债。",
+          "source_commentary_excluded": [
+            "Stock-price moves treated as credit loss",
+            "Unmodelled63percentdefault claim",
+            "April/July historical spread comparisons as current quotation",
+            "Other loans and customer relationships treated as same currentSPV without confirmation"
+          ],
+          "raw_files": [
+            "qts_startup.html",
+            "qts_startup.txt",
+            "fulltext_manifest.json"
+          ],
+          "next_confirmation": [
+            "原始Bloomberg/发行人/承销方证实原新规模与修订日",
+            "最终定价、认购/交割、现金到账",
+            "备用资金及具体项目现金缺口、是否停工/撤单"
+          ],
+          "canonical_event_id": "qts_20261113_reported_private_debt_sale_downsize",
+          "source_enrichment_not_independent_new_event": true
+        }
+      ],
+      "unverified_additional_project_leads": [],
+      "historical_delay_records_verified_previous_run": [
+        {
+          "contract_chain": "Microsoft customer -> Nebius cloud provider -> New Jersey third-party DataOne colocation site; Bloom Energy fuel cells as power source",
+          "New_Jersey_original_schedule": "remaining_colocation_tranches_expected_in_2026_per_Nov12_retrospective_description",
+          "original_milestone_publication_date_independently_verified": null,
+          "new_schedule_publication_date": "2026-11-12",
+          "new_year_end_2026_status_expected": "more_than_half_of_capacity_contracted_with_Microsoft_delivered",
+          "remaining_New_Jersey_tranches_new_date": "2027-Q2",
+          "other_third_party_colocation_new_date": "2027-H1",
+          "reason_company_stated": "DataOne began retiring some temporary generation in lateQ3 ahead of permanentpower transition, resetting remainingtranche schedule; Bloom fuelcell generation alreadyonline and scaling.",
+          "customer_coordination": "Company says Microsoft was part of planning and affectedcustomers keptinformed; independent customerperformance confirmation notobtained.",
+          "company_quote_contract_status": "The contracts behind that capacity remain in place.",
+          "cancelled_signed_order_verified": false,
+          "customer_prepayment_refund_verified": false,
+          "financing_failure_or_covenant_default_verified": false,
+          "primary_assessed_issue": "power_and_third_party_execution_delay_with_revenue_timing_effect",
+          "limits": "公司解释不等于独立核实每份合同履行。不能把NewJersey工程顺延写成Microsoft削减总capex或全行业取消需求。Q2说to-date已交当时tranches，不能解释为整份多年合同已完全交完后又取消。"
+        }
+      ],
+      "historical_guidance_records_not_new_this_run": true,
+      "new_project_participation_change_records": [],
+      "current_review_references": {
+        "bigtech": "evidence/2026-11-18/bigtech/findings.json",
+        "chain": "evidence/2026-11-18/chain/findings.json",
+        "priority": "evidence/2026-11-18/priority/findings.json",
+        "market": "evidence/2026-11-18/market/findings.json"
+      },
+      "new_historical_project_credit_evidence": [
+        {
+          "event_id": "hsbc_20261116_reported_oracle_linked_300m_loan_discount_sale",
+          "evidence_id": "hsbc_20261118_TheStar_Bloomberg_fulltext_first_verified",
+          "novelty": "source_upgrade_of_previously_headline_only_historical_transaction; transactionseveralweeksagonoexactdate; notnewNov18sale",
+          "issuer_or_lender": "HSBC",
+          "reliable_complete_source": "https://www.thestar.com.my/business/business-news/2026/11/17/hsbc-sold-us300mil-troubled-data-centre-loan-at-discount",
+          "source_publication_at": "2026-11-17T07:33:00Z",
+          "source_author": "Bloomberg",
+          "grade": "complete_public_reliable_Bloomberg_syndication_in_TheStar_anonymous_transaction_sources_not_bank_loan_docs",
+          "retrieved_at": "2026-11-18T00:38:47.979013+00:00",
+          "underlying_Bloomberg_publication_at": "2026-11-16T22:01:27Z",
+          "underlying_Bloomberg_original_url": "https://www.bloomberg.com/news/articles/2026-11-16/hsbc-sold-300-million-troubled-data-center-loan-at-discount",
+          "reported_loan_piece_USD_approx": 300000000,
+          "reported_total_financing_package_USD": 18000000000,
+          "reported_lenders_approx": 20,
+          "price_quote": "mid-80s",
+          "price_unit": "loanpriceper100facevalue_marketconvention; reportgivesmid80swithoutprecisedecimal",
+          "exact_sale_price": null,
+          "sale_date": "severalweeksbeforeNov16report_shortlyafterOracle_notice_exactdateundisclosed",
+          "stage": "reported_executed_secondary_loan_sale_by_anonymous_sources_settlement_document_not_obtained",
+          "reported_buyer": null,
+          "borrower_SPV_legal_name": null,
+          "project": "Project Jupiter",
+          "construction_loan_code": "Project Miner",
+          "location": "DoñaAnaCounty,NewMexico",
+          "project_planned_power_GW": 2.45,
+          "reported_developer": "unitofBlueOwlCapitalInc",
+          "loan_structure": "differenttranchestiedtovariousbuildingsatthesite",
+          "reported_issue": "regulatoryhurdles/opposition; delaysinairandpipelinepermits",
+          "contract_link": {
+            "customer": "Oracle",
+            "notice": "force majeure",
+            "notice_reported_by_Bloomberg_in": "lateSeptember2026",
+            "reported_purpose": "attempttoputoffpaymentsiftheventuregetsderailed",
+            "actual_payment_deferral_occurrence_verified": false,
+            "actual_termination_or_order_cancellation_verified": false,
+            "force_majeure_validity_legal_effect_verified": false
+          },
+          "HSBC_response": "declinedcomment",
+          "Oracle_response": "noimmediatecomment",
+          "HSBC_carrying_value_prior_impairment_fees": null,
+          "HSBC_realized_loss_USD": null,
+          "closing_or_sale_cash_receipts_verified_by_documents": false,
+          "actual_default_covenant_trigger_or_guarantee_payout_verified": false,
+          "recourse_to_Oracle_or_parent": "notverified; projectloanmustnotbeassumedunconditionalOracledebt",
+          "interpretation": "已由标题线索升级为完整可靠报道支持的历史实际出售，是项目许可/潜在付款义务变化向贷款持有人退出折价的局部信用压力线索。尚无银行/借款人文件确认、买家/交割和账面损益，不能把约300m的15%面值差当4500万美元亏损，也不能说Oracle已停付或违约。",
+          "independent_underlying_event_count": 1,
+          "independent_loss_events_established": 0,
+          "deduplication": "Bloomberg/Reuters标题、Investing、TheStar/KLSE、Bisnow、MS及其他转述均同一交易；不能多计风险证据。ING500mBWIC另事件未执行。",
+          "public_access_limit": "Bisnow带gated-content与isAccessibleForFree=false，仅公开标题/description补充，不以隐藏区文本作为验证依据；TheStar正文普通GET可公开完整读取。",
+          "next_confirmation": [
+            "银行或SPV出售/交割与贷款份额交易文件、买家及实际价格",
+            "HSBC贷款账面值、既有拨备和实际处置损益",
+            "Oracle通知的合同条款、法律效力及实际付款是否延期/违约、许可与施工进度"
+          ]
+        }
+      ],
+      "conditional_neocloud_commitment_change": [
+        36,
+        32
+      ],
+      "no_inference_of_cancellation_from_conditional_commitment_balance": true
+    }
+  },
+  "financing_stage_review": {
+    "prior_completed_financings_preserved": [
+      {
+        "event_id": "oracle_20261102_priced_bonds",
+        "expected_US_settlement_date": "2026-11-04",
+        "status": "completed_confirmed_by_8k",
+        "completed_date": "2026-11-04",
+        "verified_at": "2026-11-05T00:35:16.315922+00:00",
+        "source_id": "oracle_20261104_completion"
+      },
+      {
+        "event_id": "meta_20261103_pricing",
+        "expected_US_settlement_date": "2026-11-05",
+        "status": "completed_confirmed_by_company_8k",
+        "last_checked_at": "2026-11-05T00:35:16.315922+00:00",
+        "currency": "USD",
+        "note": "Nov5US settlement lies later than Nov5morningBeijing; not evidence of delay.",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "meta_20261105_usd_notes_completed"
+      },
+      {
+        "event_id": "alphabet_20261102_eur_notes",
+        "expected_settlement_date": "2026-11-05",
+        "currency": "EUR",
+        "status": "completed_confirmed_by_company_8k",
+        "completed_date": "2026-11-05",
+        "verified_at": "2026-11-06T00:39:28.246180+00:00",
+        "source_event_id": "alphabet_20261105_eur_notes_completed"
+      },
+      {
+        "event_id": "meta_eur_20261104_pricing",
+        "expected_settlement_date": "2026-11-12",
+        "currency": "EUR",
+        "principal": 9000000000,
+        "status": "completed_confirmed_by_company_8k",
+        "completed_date": "2026-11-12",
+        "verified_at": "2026-11-13T00:35:22.084420+00:00",
+        "source_event_id": "meta_20261112_eur_notes_completed",
+        "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm"
+      },
+      {
+        "event_id": "apollo-20261109-junior-subordinated-notes-priced",
+        "completed_date": "2026-11-13",
+        "status": "completed_confirmed_by_company_8K",
+        "verified_at": "2026-11-14T00:41:53.406239+00:00",
+        "source_event_id": "apollo_20261113_USD600m_notes_completed",
+        "currency": "USD",
+        "principal": 600000000,
+        "source": "https://www.sec.gov/Archives/edgar/data/1858681/000119312526460879/d143669d8k.htm",
+        "AI_specific_funding_or_loss": false
+      }
+    ],
+    "bigtech_and_Anthropic_followups": [
+      {
+        "event_id": "alphabet_20261111_asian_bond_plan_followup",
+        "stage": "priced_reported_by_reliable_media_term_sheets_expected_settlement_not_completed",
+        "expected_settlement_date": "2026-11-19",
+        "next_check": "Company/exchange final documentation and completion around Nov19; absence before then is not a delay or failure.",
+        "reference": "evidence/2026-11-14/bigtech/findings.json#new_evidence_records",
+        "last_checked_at": "2026-11-18T00:43:26.303253+00:00",
+        "new_stage_change": false,
+        "new_material_stage_change": false
+      },
+      {
+        "event_id": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+        "stage": "amended_preliminary_IPO_exchange_registration_not_final_pricing_not_closed",
+        "new_SEC_filings_since_cutoff": [
+          {
+            "accessionNumber": "0001628280-26-074342",
+            "form": "8-A12B",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T11:49:44.000Z",
+            "primaryDocument": "anthropic-8xa12b.htm"
+          },
+          {
+            "accessionNumber": "0001628280-26-074338",
+            "form": "S-1/A",
+            "filingDate": "2026-11-17",
+            "acceptanceDateTime": "2026-11-17T11:26:31.000Z",
+            "primaryDocument": "anthropicpbc-sx1ax3.htm"
+          }
+        ],
+        "company_news_latest_financing_announcement_date": "2026-11-10",
+        "company_source": "https://www.anthropic.com/news/roadshow-launch",
+        "company_source_retrieved_at": "2026-11-17T02:06:45.435182+00:00",
+        "source_text_file": "anthropic_roadshow.txt",
+        "US_estimated_price_range": [
+          70,
+          78
+        ],
+        "base_global_shares": 825000000,
+        "issuer_primary_shares": 801351354,
+        "selling_holder_secondary_shares": 23648646,
+        "issuer_does_not_receive_secondary_proceeds": true,
+        "private_placement_USD": 26000000000,
+        "private_placement_still_contingent_on_IPO_and_conditions": true,
+        "Google_AMD_existing_commitment_overlap_preserved": true,
+        "regional_EEA_maximum_retail_price_USD_120_not_final_US_IPO_price": true,
+        "offer_period_expected_end": "2026-11-18",
+        "offer_period_end_not_actual_settlement": true,
+        "cash_receipts_verified": false,
+        "latest_primary_terms_reference": "evidence/2026-11-13/bigtech/findings.json#financing_followups",
+        "note": "Nov10 company notice said registration not effective at that notice time. No new EFFECT/final prospectus in issuer submissions this run; do not assert a later effectiveness or final pricing based on speculative headlines.",
+        "new_stage_change": false,
+        "last_checked_at": "2026-11-18T00:43:26.303253+00:00",
+        "SEC_new_filings_since_cutoff": [],
+        "media_original_followup": {
+          "source": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+          "publication_date": "2026-11-16",
+          "retrieved_at": "2026-11-17T02:11:18.964428+00:00",
+          "evidence_grade": "reliable_media_complete_original",
+          "estimated_pricing_us_date": "2026-11-18 evening",
+          "estimated_first_trading_us_date": "2026-11-19",
+          "range_still_USD": [
+            70,
+            78
+          ],
+          "base_shares_still": 825000000,
+          "final_pricing_or_completion_verified": false,
+          "interpretation": "Forecast timetable; not finalprice, settlement,actualIPOproceeds or conditionalprivateplacementreceipt. Keep secondaryholder shares separate."
+        },
+        "new_material_stage_change": false,
+        "registration_progress_record": "anthropic_20261117_S1A3_and_8A12B_registration_followup",
+        "price_range_USD": [
+          70,
+          78
+        ],
+        "media_bookbuilding_followup": {
+          "event_id": "anthropic_20261117_CNBC_expected_above_range_report",
+          "same_underlying_financing_as": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+          "source": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+          "publication_at": "2026-11-17T09:13:00-05:00",
+          "modified_at": "2026-11-17T09:34:00-05:00",
+          "evidence_grade": "reliable_media_full_body_anonymous_sources",
+          "raw_files": [
+            "anthropic_price.html",
+            "anthropic_price.txt"
+          ],
+          "claim": "likely to price above current70-78range; plannedorderbookscloseTueNov17at16ET; firsttradingplannedNov19",
+          "formal_company_revision_verified": false,
+          "final_price": null,
+          "actual_settlement_verified": false,
+          "interpretation": "Mediaexpectations/bookbuildingnotfinaltermsorreceipt. SameIPOevent,notindependentfundingrelief."
+        }
+      },
+      {
+        "event_id": "meta_eur_20261104_pricing",
+        "stage": "completed_confirmed_by_company_8K",
+        "completion_date": "2026-11-12",
+        "no_new_change": true,
+        "source": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+        "reference": "evidence/2026-11-13/bigtech/findings.json#new_events",
+        "aggregate_principal_EUR": 9000000000,
+        "note": "Preserve completed stage. Same Nov4 priced issuance; do not count again as a new EUR9bn financing or revert to pending.",
+        "last_checked_at": "2026-11-18T00:43:26.303253+00:00",
+        "new_stage_change": false,
+        "new_material_stage_change": false
+      },
+      {
+        "issuer": "Oracle",
+        "older_completed_financings_unchanged": true,
+        "no_new_SEC_filings_since_cutoff": true,
+        "note": "No newly verified formal capex cut, actual cancelled project, financing withdrawal or newly failed drawdown in checked sources.",
+        "last_checked_at": "2026-11-18T00:43:26.303253+00:00",
+        "new_stage_change": false,
+        "new_material_stage_change": false
+      }
+    ],
+    "priority_reference": "evidence/2026-11-18/priority/findings.json",
+    "pending_settlement": [
+      {
+        "event_id": "alphabet_20261111_asian_bond_plan_followup",
+        "issuer": "Alphabet",
+        "expected_settlement_date": "2026-11-19",
+        "status": "priced_reported_by_reliable_media_term_sheets_expected_settlement_not_completed",
+        "principal_by_currency": {
+          "HKD": 16000000000,
+          "SGD": 2280000000
+        },
+        "actual_settlement_verified": false,
+        "cash_receipts_verified": false,
+        "last_checked_at": "2026-11-17T02:22:43.455452+00:00",
+        "source": "https://www.aol.com/articles/alphabet-sets-initial-price-guidance-025732000.html",
+        "source_event_date": "2026-11-12",
+        "reference": "evidence/2026-11-14/bigtech/findings.json#new_evidence_records",
+        "latest_review_reference": "observations/2026-11-17.json#financing_stage_review"
+      }
+    ],
+    "pending_ING_BWIC": [
+      {
+        "event_id": "ing_20261106_reported_500m_loan_BWIC_identified",
+        "reported_bid_deadline": "2026-11-19",
+        "stage": "media_reported_bid_solicitation_not_verified_sale",
+        "completed_sale_or_loss_verified": false,
+        "last_checked_at": "2026-11-17T02:22:43.455452+00:00",
+        "latest_review_reference": "observations/2026-11-17.json#financing_stage_review"
+      }
+    ],
+    "HSBC_historical_sale_source_upgrade": {
+      "event_id": "hsbc_20261116_reported_oracle_linked_300m_loan_discount_sale",
+      "evidence_id": "hsbc_20261118_TheStar_Bloomberg_fulltext_first_verified",
+      "novelty": "source_upgrade_of_previously_headline_only_historical_transaction; transactionseveralweeksagonoexactdate; notnewNov18sale",
+      "issuer_or_lender": "HSBC",
+      "reliable_complete_source": "https://www.thestar.com.my/business/business-news/2026/11/17/hsbc-sold-us300mil-troubled-data-centre-loan-at-discount",
+      "source_publication_at": "2026-11-17T07:33:00Z",
+      "source_author": "Bloomberg",
+      "grade": "complete_public_reliable_Bloomberg_syndication_in_TheStar_anonymous_transaction_sources_not_bank_loan_docs",
+      "retrieved_at": "2026-11-18T00:38:47.979013+00:00",
+      "underlying_Bloomberg_publication_at": "2026-11-16T22:01:27Z",
+      "underlying_Bloomberg_original_url": "https://www.bloomberg.com/news/articles/2026-11-16/hsbc-sold-300-million-troubled-data-center-loan-at-discount",
+      "reported_loan_piece_USD_approx": 300000000,
+      "reported_total_financing_package_USD": 18000000000,
+      "reported_lenders_approx": 20,
+      "price_quote": "mid-80s",
+      "price_unit": "loanpriceper100facevalue_marketconvention; reportgivesmid80swithoutprecisedecimal",
+      "exact_sale_price": null,
+      "sale_date": "severalweeksbeforeNov16report_shortlyafterOracle_notice_exactdateundisclosed",
+      "stage": "reported_executed_secondary_loan_sale_by_anonymous_sources_settlement_document_not_obtained",
+      "reported_buyer": null,
+      "borrower_SPV_legal_name": null,
+      "project": "Project Jupiter",
+      "construction_loan_code": "Project Miner",
+      "location": "DoñaAnaCounty,NewMexico",
+      "project_planned_power_GW": 2.45,
+      "reported_developer": "unitofBlueOwlCapitalInc",
+      "loan_structure": "differenttranchestiedtovariousbuildingsatthesite",
+      "reported_issue": "regulatoryhurdles/opposition; delaysinairandpipelinepermits",
+      "contract_link": {
+        "customer": "Oracle",
+        "notice": "force majeure",
+        "notice_reported_by_Bloomberg_in": "lateSeptember2026",
+        "reported_purpose": "attempttoputoffpaymentsiftheventuregetsderailed",
+        "actual_payment_deferral_occurrence_verified": false,
+        "actual_termination_or_order_cancellation_verified": false,
+        "force_majeure_validity_legal_effect_verified": false
+      },
+      "HSBC_response": "declinedcomment",
+      "Oracle_response": "noimmediatecomment",
+      "HSBC_carrying_value_prior_impairment_fees": null,
+      "HSBC_realized_loss_USD": null,
+      "closing_or_sale_cash_receipts_verified_by_documents": false,
+      "actual_default_covenant_trigger_or_guarantee_payout_verified": false,
+      "recourse_to_Oracle_or_parent": "notverified; projectloanmustnotbeassumedunconditionalOracledebt",
+      "interpretation": "已由标题线索升级为完整可靠报道支持的历史实际出售，是项目许可/潜在付款义务变化向贷款持有人退出折价的局部信用压力线索。尚无银行/借款人文件确认、买家/交割和账面损益，不能把约300m的15%面值差当4500万美元亏损，也不能说Oracle已停付或违约。",
+      "independent_underlying_event_count": 1,
+      "independent_loss_events_established": 0,
+      "deduplication": "Bloomberg/Reuters标题、Investing、TheStar/KLSE、Bisnow、MS及其他转述均同一交易；不能多计风险证据。ING500mBWIC另事件未执行。",
+      "public_access_limit": "Bisnow带gated-content与isAccessibleForFree=false，仅公开标题/description补充，不以隐藏区文本作为验证依据；TheStar正文普通GET可公开完整读取。",
+      "next_confirmation": [
+        "银行或SPV出售/交割与贷款份额交易文件、买家及实际价格",
+        "HSBC贷款账面值、既有拨备和实际处置损益",
+        "Oracle通知的合同条款、法律效力及实际付款是否延期/违约、许可与施工进度"
+      ]
+    },
+    "Blackstone_AWS_agreed_asset_purchase_not_closed": {
+      "event_id": "blackstone_digital_infrastructure_trust_20261116_5bn_amazon_portfolio_acquisition_lead",
+      "evidence_id": "blackstone_20261118_Reuters_fulltext_structure_verified",
+      "issuer": "Blackstone Digital Infrastructure Trust",
+      "source": "https://theedgemalaysia.com/node/826011",
+      "source_author": "JaspreetSingh/Reuters",
+      "source_grade": "complete_public_Reuters_syndication_reproduces_companyterms; officialoriginal403",
+      "source_publication_at": "2026-11-16T13:29:30Z",
+      "first_complete_monitor_verification_date": "2026-11-18",
+      "stage": "agreed_acquisition_expected_close_Q42026_not_verified_closed",
+      "portfolio_valuation_USD_approx": 5000000000,
+      "buyer_controlling_stake_pct": 75.1,
+      "Amazon_retained_stake_pct": 24.9,
+      "joint_ventures_count": 2,
+      "properties_count": 13,
+      "asset_type": "newlyconstructedpoweredshellsacrosstwoAWScampuses",
+      "AWS_leaseback_scope": "entireportfolio",
+      "lease_structure": "triple_net",
+      "initial_lease_years": 12,
+      "fully_extended_lease_years": 32,
+      "proposed_IPO_cash_use_USD": 1900000000,
+      "proposed_property_nonrecourse_mortgage_USD_approx": 2500000000,
+      "mortgage_security": "properties",
+      "expected_close": "2026Q4",
+      "actual_closed_or_cash_received_verified": false,
+      "precise_debt_pricing_conditions_draws_rent_and_guarantee_terms": null,
+      "interpretation": "50亿美元是组合估值，非Amazon本次收到现金或新增AI收入；75.1%控制权收购和财产无追索贷款不可全算Amazon无条件债务。IPO现金拟用于收购与新增抵押贷款分列，不简单累加为经营现金流，也不把预计Q4交割写成已交割。新条款补核体现资产出售/租回融资模式，不单独证明行业风险缓解。",
+      "distinct_from_QTS_downsize": true,
+      "source_body": "blackstone_edge.txt",
+      "next_confirmation": [
+        "发行人最终交割日期及实际出资/抵押贷款提款",
+        "Amazon实际净现金收入、出售会计与后续租金/担保义务",
+        "SPV资产、债务层级、追索与关联义务去重"
+      ]
+    },
+    "AAOI_ATM": {
+      "event_id": "aaoi_20261117_ATM_equity_distribution_agreement",
+      "issuer": "Applied Optoelectronics",
+      "publication_date": "2026-11-17",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+      "evidence_grade": "primary_SEC8K_full",
+      "maximum_gross_offering_USD": 550000000,
+      "stage": "signed_ATM_distribution_agreement_optional_sales_not_verified_priced_sold_or_cash_received",
+      "agents": [
+        "Raymond James",
+        "Needham"
+      ],
+      "commission_pct_gross_sales": 2,
+      "no_obligation_to_sell": true,
+      "can_suspend_or_terminate": true,
+      "actual_shares_sold": null,
+      "cash_received": null,
+      "formal_revenue_cut": false,
+      "actual_funding_interruption": false
+    },
+    "no_new_verified_major_funding_interruption": true
+  },
+  "unverified_or_incomplete_leads": {
+    "prior_records_reference": "observations/2026-11-17.json#unverified_or_incomplete_leads",
+    "new_priority_leads": [],
+    "bigtech": [
+      {
+        "id": "google_westmemphis_20261117_revised_entergy_power_agreement",
+        "publication_at": "2026-11-17T18:00:38Z",
+        "source": "WynneProgressRSS",
+        "status": "headlineonlyrevisedagreement_notverifiedcancellationorcapexcut",
+        "direct_project": "GoogleWestMemphis",
+        "actual_effects_verified": false
+      },
+      {
+        "id": "amazon_20261117_Jassy_interview",
+        "source": "CNBCRSStitle",
+        "status": "interviewheadlinebodyunverified_notusedasformalcapexrevision"
+      },
+      {
+        "id": "Fitch_AI_hyperscaler_bond_market_volatility_commentary",
+        "publication_date": "2026-11-17",
+        "source": "RSSBusinessUpturnheadline",
+        "status": "ratingagencycommentaryleadoriginalnotretrieved_notissuerdowngradeoractualcreditloss"
+      }
+    ],
+    "chain_reference": "evidence/2026-11-18/chain/findings.json#pending_and_missing",
+    "source_upgrade_not_equivalent_transaction_document": {
+      "HSBC": true,
+      "Blackstone_AWS": true
+    }
+  },
+  "weekly_review": {
+    "due": false,
+    "reason": "Wednesday; Fridayreviewwithin08:30runonly.",
+    "last_completed_date": "2026-11-13"
+  },
+  "source_coverage": {
+    "unique_SEC_CIKs_successful_inventory_files": 25,
+    "unique_CIKs": [
+      "1018724",
+      "1045810",
+      "1083301",
+      "1158114",
+      "1176948",
+      "1326801",
+      "1341439",
+      "1393818",
+      "1408710",
+      "1513845",
+      "1527469",
+      "1633978",
+      "1652044",
+      "1730168",
+      "1769628",
+      "1835632",
+      "1858681",
+      "1878848",
+      "19617",
+      "2130357",
+      "2488",
+      "789019",
+      "820318",
+      "868675",
+      "936395"
+    ],
+    "bigtech": {
+      "SEC_checked": 7,
+      "SEC_successes": 7,
+      "SEC_new_all_count": 23,
+      "SEC_new_financial_financing_relevant": 1,
+      "new_S1A_and8A_bodies_read": true,
+      "official_Anthropic_andGoogle_retrieved": true,
+      "BISreleaseandPDF_retrieved": true
+    },
+    "chain_SEC_company_count": 18,
+    "chain_SEC_success_count": 18,
+    "priority_CoreWeave_and_Nebius_SEC_success": true,
+    "overall_monitoring_executable": true,
+    "partial_source_failures_are_not_overall_failure": true,
+    "window_start": "2026-11-17T02:22:43.455452+00:00",
+    "window_end": "2026-11-18T00:47:05.382374+00:00",
+    "review_references": {
+      "bigtech": "evidence/2026-11-18/bigtech/findings.json",
+      "chain": "evidence/2026-11-18/chain/findings.json",
+      "priority": "evidence/2026-11-18/priority/findings.json",
+      "market": "evidence/2026-11-18/market/findings.json"
+    }
+  },
+  "comparability": {
+    "issuer_CDS_direct_available": false,
+    "issuer_CDS_dated_media_quotes_available": true,
+    "matched_secondary_spread_history_available": false,
+    "new_issue_terms_available": true,
+    "FRED_current_collection_success": false,
+    "FRED_carried_data_date": "2026-11-11",
+    "FX_currencies_combined": false,
+    "probability_model": null,
+    "crash_probability": null,
+    "Nebius_ARR_same_forecast_horizon": false,
+    "Nebius_capex_cash_vs_lease_scope_fully_established": false,
+    "NVIDIA_cash_PPandE_only_available": false,
+    "NVIDIA_prior_guarantee_maximum_is_prior_published_not_July26balance": true
+  },
+  "missing_data": [
+    "Current directly sourced/comparable issuer5YCDS, matched cashbond OAS/spread, CDX.IG and about20dayhistory absent. CNBCNov17datedquote lacks currency/rank/exacttime, CDSexplicitunitlabel; Nov6cashbond is a different maturity/coupon.",
+    "CurrentFREDCSVandseriespagestimedout. Nov11IG90/HY330bp are carried historical observations only; current values/changes null.",
+    "NVIDIApurecashPP&Eandfinanceleaseprincipalcannotbeseparatedfromcombinedintangible/capitalprincipal lines. Unifiedbasecashsurplus null; expandedmeasure separate.",
+    "NVIDIAguaranteefairvaluerecognizedliability, new9.5bncategorycontractdates/counterparties, detailedcollateral/recourse and12mcontractualdebtinterestleasepayments incomplete.",
+    "Prior108.5bnguarantee maximum was August26disclosure including Augustsubsequentevent, not a July26balance.",
+    "HSBCbuyer, legalloanSPV, exactsale/settlementdate/price, bookvalue/previousprovisionandactualbanklossunknown. Oracle conditional notice not actualverifiedpaymentdeferral/default.",
+    "Blackstone/AWSclosing, actualnetreceipt, mortgagepricing/draws, JVrecourseandrentguarantees unverified.",
+    "AnthropicS1Aselectedfinancial/coveritemscomparednotanalltextdiff; nofinalpricing/closing/conditionalprivateplacementcashreceipt.",
+    "TELUSwithdrawalreasonandWestbankreplacementfundingremainunverified; no newprojectcancellationorloanlossestablished."
+  ],
+  "next_confirmation_conditions": [
+    "NVIDIA客户应收实际回收、延期条款与信用集中度；新95亿美元信用支持受益方/触发/已确认负债/实际支付，不能将最大敞口当损失。",
+    "HSBC/Jupiter出售交割文件及账面值/实际损益，Oracle通知法律效力和实际付款、许可与施工进度。",
+    "Alphabet亚洲债11月19日交割；Anthropic最终定价及交割、附条件私募实际到账；ING11月19日询价后实际成交。",
+    "Blackstone/AWS项目JV最终出资/贷款提款及Amazon实际净收入、未来租金和担保；不把资产融资当AI经营现金回款。",
+    "汇丰3亿美元贷款：完整可信正文或银行确认、具体项目/SPV及Oracle直接合同与追索、成交日/交割、每100面值价格、账面值/已有拨备/实际损益。",
+    "Westbank替代伙伴正式合同与资金；TELUS退出义务、原因及项目原新投运时点；不能将公司声称继续等同实际资金到位。",
+    "BIS联邦公报生效/过渡日期、许可例外及企业量化收入/客户合同影响；观察正式capex与供应商指引修订。",
+    "Nebius新泽西未来数周新增燃料电池容量及2027Q2剩余微软交付；ARR2027年2月目标和其他第三方2027H1投运是否兑现。",
+    "Nebius9月底应收回款及客户集中度、预付款实际新增到账与退款条款、Citi设施实际提款和后续364日到期安排；不把9月底表格当当前全部流动性。",
+    "Alphabet亚洲债11月19日实际交割；Anthropic正式修订/最终定价/生效/交割及附条件私募；OpenAI同轮募资正式确认及到账。",
+    "CoreWeave拟40亿美元贷款定价/交割/提款及客户预付款兑现；ING11月19日询价后实际成交与价格，不预先认定失败或损失。",
+    "QTS原始确认原新规模、最终定价/交割、备用融资及具体项目资金后果；SMFG书面标准、具体撤授信或实际AI损失。",
+    "大客户正式capex下修、直接供应商正式可比连续收入下修、同一项目取消/退款/付款逾期或融资中断；建立直接合同关联后才判断扩散。"
+  ],
+  "important_change_review": {
+    "material_new_earnings_release": true,
+    "NVIDIA_many_metrics_same_underlying_event_count": 1,
+    "new_verified_independent_demand_and_funding_failure_combination": false,
+    "current_actual_major_funding_interruption_or_default_or_lender_realized_loss_verified": false,
+    "HSBC_source_upgrade_same_historical_event_not_new_sale_or_multiple_events": true,
+    "NVIDIA_SB_Energy_105bn_already_disclosed_August26": true,
+    "NVIDIA_new_support_category_and_DSO_material_to_risk_structure": true,
+    "credit_quote_not_matched_continuous_series": true,
+    "assessment_category_changed": false,
+    "reason_for_notification": "Major new NVIDIA financial report materially updates demand/collections and contingent credit exposure; complete reliable HSBC evidence strengthens direct project/lender linkage. No claim of escalation to systemic crisis or broad relief.",
+    "incremental_disclosed_support_category_USD": 9500000000
+  },
+  "notification": {
+    "decision": "NOTIFY",
+    "reason": "MaterialnewNVIDIAearnings_and_support_disclosure_plus_completeHSBCprojectcredit_evidenceupgrade. Notbecauseheartbeatfiredorworkcompleted.",
+    "overall_assessment_changed": false,
+    "important_information_change": true,
+    "prepared_at": "2026-11-18T00:47:05.382374+00:00",
+    "message_file": "observations/2026-11-18-notification.md",
+    "delivery_status": "included_in_current_turn_final_response",
+    "heartbeat_message": "11月18日AI信用监测维持风险升温：NVIDIA新财报显示需求兑现，但回款期限和担保敞口需跟踪；汇丰项目贷款出售获全文支持。",
+    "previous_visible_notification_at": "2026-11-17T02:22:43.455452+00:00",
+    "previous_material_notification_at": "2026-11-15T00:37:11.438315+00:00",
+    "evidence_review": {
+      "root_reviewed_NVIDIA_CFO_guarantee_and_AR_original": true,
+      "priority_peer_review_HSBC_and_CoreWeave_quote_passed": true,
+      "same_earnings_multiple_metrics_not_independent_events": true,
+      "independent_materiality_threshold_not_inferred_from_stock_moves": true
+    }
+  },
+  "interpretation_limits": [
+    "No invented crash probability or stock-drop→credit-default inference.",
+    "Revenue/bookings/prepayments/end-user cash and financing are different; prepayment incurs performance obligations.",
+    "SB7 procurement loss is not a verified bank loan loss or guarantee payout; noncash impairment is not cash outflow.",
+    "No assumption of user holdings or direct optical-supplier transmission absent contracts.",
+    "Nebius is an operator; its revenue expectations do not count as consecutive equipment-supplier cuts.",
+    "ARR target timing differs; do not compute same-horizon decline or equate with already realized annual revenue.",
+    "Private placement downsizing and selective underwriting are not verified project funding failure or AI loan loss.",
+    "BIS single policy is one evidence event, not multiple company demand and funding losses.",
+    "TELUS development partnership exit is not automatically cancellation of signed compute customer orders or150MWoperatingload.",
+    "Bank loan face-value discount does not establish current bank accounting loss without carrying value and previous provisions.",
+    "Historical Fed obligations are undiscounted and include broad utility/SPE exposures, not realizedAIbankloss; do not add to issuer commitments again.",
+    "NVIDIAQ3revenuesandOCFarevendorrealizationsnotverifiedfinaluserpaidAIcash.",
+    "NVIDIAquarterlyOCFincreaseincludesfederalcashtaxpaymenttiming; notallimprovedcollections.",
+    "NVIDIA9.5bnnewmaximumcategoryisnotprovennewcashoutflow, default or newlysignedcontractonNov17.",
+    "NVIDIA108.5bncomparisonispriorpublishedmaximumincludingAugustsubsequentevent; notpureJuly26balance.",
+    "HSBCsaleisreliablemediasourceupgradeseveralweeksoldevent; at85facevaluedifferenceisnotbankloss.",
+    "NVIDIAremainingcapexcommitments8→6bnorconditionalneocloudagreements36→32bnarenotformalannualcapexcutorverifiedcancellation."
+  ],
+  "raw_evidence_directory": "evidence/2026-11-18",
+  "same_day_runs": [
+    {
+      "run_at": "2026-11-18T00:47:05.382374+00:00",
+      "run_type": "daily_due_check",
+      "notification": {
+        "decision": "NOTIFY",
+        "reason": "MaterialnewNVIDIAearnings_and_support_disclosure_plus_completeHSBCprojectcredit_evidenceupgrade. Notbecauseheartbeatfiredorworkcompleted.",
+        "overall_assessment_changed": false,
+        "important_information_change": true,
+        "prepared_at": "2026-11-18T00:47:05.382374+00:00",
+        "message_file": "observations/2026-11-18-notification.md",
+        "delivery_status": "included_in_current_turn_final_response",
+        "heartbeat_message": "11月18日AI信用监测维持风险升温：NVIDIA新财报显示需求兑现，但回款期限和担保敞口需跟踪；汇丰项目贷款出售获全文支持。",
+        "previous_visible_notification_at": "2026-11-17T02:22:43.455452+00:00",
+        "previous_material_notification_at": "2026-11-15T00:37:11.438315+00:00"
+      },
+      "evidence_references": {
+        "bigtech": "evidence/2026-11-18/bigtech/findings.json",
+        "chain": "evidence/2026-11-18/chain/findings.json",
+        "priority": "evidence/2026-11-18/priority/findings.json",
+        "market": "evidence/2026-11-18/market/findings.json"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "retrieved_at": "2026-11-18T00:34:45.094987+00:00",
+      "grade": "primary_SEC_submission_inventory"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "retrieved_at": "2026-11-18T00:34:45.095378+00:00",
+      "grade": "primary_SEC_submission_inventory"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "retrieved_at": "2026-11-18T00:34:45.095569+00:00",
+      "grade": "primary_SEC_submission_inventory"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "retrieved_at": "2026-11-18T00:34:45.095752+00:00",
+      "grade": "primary_SEC_submission_inventory"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "retrieved_at": "2026-11-18T00:34:45.095897+00:00",
+      "grade": "primary_SEC_submission_inventory"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001341439.json",
+      "retrieved_at": "2026-11-18T00:34:46.451133+00:00",
+      "grade": "primary_SEC_submission_inventory"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "retrieved_at": "2026-11-18T00:34:47.219168+00:00",
+      "grade": "primary_SEC_submission_inventory"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+      "publication_date": "2026-11-17",
+      "retrieved_at": "2026-11-18T00:43:26.303253+00:00",
+      "grade": "primary_SEC_full_body"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074342/anthropic-8xa12b.htm",
+      "publication_date": "2026-11-17",
+      "retrieved_at": "2026-11-18T00:43:26.303253+00:00",
+      "grade": "primary_SEC_full_body"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "publication_at": "2026-11-17T09:13:00-05:00",
+      "retrieved_at": "2026-11-18T00:43:26.303253+00:00",
+      "grade": "reliable_media_full_body_anonymous_sources"
+    },
+    {
+      "id": "nvidia_20261117_Q3FY27_revenue_collections_cashflow_and_support",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "publication_date": "2026-11-17",
+      "publication_at": null,
+      "grade": "primary_SEC8K_furnished_earnings_CFO_commentary_and_supplement_full",
+      "source_upgrade_of_historical_event": false
+    },
+    {
+      "id": "nvidia_20261117_Q3FY27_revenue_collections_cashflow_and_support",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "publication_date": "2026-11-17",
+      "publication_at": null,
+      "grade": "primary_SEC8K_furnished_earnings_CFO_commentary_and_supplement_full",
+      "source_upgrade_of_historical_event": false
+    },
+    {
+      "id": "nvidia_20261117_Q3FY27_revenue_collections_cashflow_and_support",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/supplementalfinancialinfor.htm",
+      "publication_date": "2026-11-17",
+      "publication_at": null,
+      "grade": "primary_SEC8K_furnished_earnings_CFO_commentary_and_supplement_full",
+      "source_upgrade_of_historical_event": false
+    },
+    {
+      "id": "aaoi_20261117_ATM_equity_distribution_agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm",
+      "publication_date": "2026-11-17",
+      "publication_at": null,
+      "grade": "primary_SEC8K_full",
+      "source_upgrade_of_historical_event": false
+    },
+    {
+      "id": "coreweave_20261117_CNBC_dated_media_bond_and_CDS",
+      "url": "https://www.cnbc.com/2026/11/17/apollo-ceo-marc-rowan-on-ai-debt.html",
+      "publication_date": null,
+      "publication_at": "2026-11-17T11:28:00-05:00",
+      "grade": "reliable_financial_media_full_text_reported_quotes_not_direct_terminal",
+      "source_upgrade_of_historical_event": false
+    },
+    {
+      "id": "apollo_20261117_rowan_conditional_neocloud_funding_warning",
+      "url": "https://www.cnbc.com/2026/11/17/apollo-ceo-marc-rowan-on-ai-debt.html",
+      "publication_date": null,
+      "publication_at": "2026-11-17T11:28:00-05:00",
+      "grade": "CNBC_full_interview_article_direct_quotes",
+      "source_upgrade_of_historical_event": false
+    },
+    {
+      "id": "hsbc_20261118_TheStar_Bloomberg_fulltext_first_verified",
+      "url": "https://www.thestar.com.my/business/business-news/2026/11/17/hsbc-sold-us300mil-troubled-data-centre-loan-at-discount",
+      "publication_date": null,
+      "publication_at": "2026-11-17T07:33:00Z",
+      "grade": "complete_public_reliable_Bloomberg_syndication_in_TheStar_anonymous_transaction_sources_not_bank_loan_docs",
+      "source_upgrade_of_historical_event": true
+    },
+    {
+      "id": "blackstone_20261118_Reuters_fulltext_structure_verified",
+      "url": "https://theedgemalaysia.com/node/826011",
+      "publication_date": null,
+      "publication_at": "2026-11-16T13:29:30Z",
+      "grade": "complete_public_Reuters_syndication_reproduces_companyterms; officialoriginal403",
+      "source_upgrade_of_historical_event": true
+    }
+  ],
+  "bigtech_new_nonmaterial_evidence_records": [
+    {
+      "event_id": "anthropic_20261117_S1A3_and_8A12B_registration_followup",
+      "issuer": "Anthropic",
+      "publication_date": "2026-11-17",
+      "acceptance_times_UTC": [
+        "2026-11-17T11:26:31Z",
+        "2026-11-17T11:49:44Z"
+      ],
+      "first_verified_at": "2026-11-18T00:43:26.303253+00:00",
+      "evidence_grade": "primary_SEC_S1A3_and_8A12B_full_text",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074342/anthropic-8xa12b.htm"
+      ],
+      "raw_files": [
+        "anthropic_s1a_curl.html",
+        "anthropic_s1a.txt",
+        "anthropic_8a_retry.html",
+        "anthropic_8a_retry.txt"
+      ],
+      "previous_terms_publication_date": "2026-11-10",
+      "previous_terms_source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "previous_terms_local_reference": "evidence/2026-11-11/bigtech/anthropic_prospectus.txt",
+      "stage_before": "preliminary_IPO_roadshow",
+      "stage_after": "amended_preliminary_IPO_and_exchange_registration_filed_not_final_pricing_or_closed",
+      "cover_subject_to_completion": true,
+      "SEC_EFFECT_or_424B4_new_found": false,
+      "listing_approval_cover_text": "We have been approved to list our Class A common stock on the Nasdaq Global Select Market under the symbol ANT",
+      "price_range_USD": [
+        70,
+        78
+      ],
+      "base_global_shares": 825000000,
+      "issuer_primary_shares": 801351354,
+      "selling_holder_secondary_shares": 23648646,
+      "company_does_not_receive_secondary_proceeds": true,
+      "private_placement_USD": 26000000000,
+      "private_placement_contingent_on_IPO_and_conditions": true,
+      "cash_receipt_verified": false,
+      "formal_comparable_offering_price_or_size_down_revision": false,
+      "comparison_checks": {
+        "cover_price": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "between $70.00 and $78.00"
+        },
+        "base_shares": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "825,000,000"
+        },
+        "issuer_primary_shares": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "801,351,354"
+        },
+        "selling_holder_shares": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "23,648,646"
+        },
+        "Q3_revenue": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$17.0 billion"
+        },
+        "Sept30_cash": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$95.6 billion"
+        },
+        "Sept30_shortterm_investments": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$36.3 billion"
+        },
+        "committed_spend_as_of_and_subsequent_sep30": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$900.9 billion"
+        },
+        "commitments_next12m": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$70.7 billion"
+        },
+        "conditional_private_placement": {
+          "old_20261110_contains": true,
+          "new_20261117_contains": true,
+          "text": "$26.0 billion"
+        }
+      },
+      "new_financial_period_identified": false,
+      "material_new_financial_value_in_checked_items": false,
+      "historical_period": "quarter_and_ninemonths_ended2026-09-30",
+      "financial_baseline_retained": "SelectedQ3revenue,cash,shortinvestments,commitments_and_cashflowtablealreadyinNov10amendment. Do not count repeatedSeptember30dataasNov17newresults.",
+      "full_all_text_diff_completed": false,
+      "interpretation": "Normal registrationprogress with unchanged verifiedcoverprice,sizeandconditionalplacement. NotfinalIPOprice,netproceedsreceived,creditrelieforemissionfailure.",
+      "next_confirmation": [
+        "Officialfinalpricing/424B4/EFFECT",
+        "Actualsettlementandcashreceipts",
+        "Privateplacementconditionsandclosing; exclude seller proceeds"
+      ]
+    },
+    {
+      "event_id": "anthropic_20261117_CNBC_expected_above_range_report",
+      "same_underlying_financing_as": "anthropic_20261110_ipo_roadshow_and_contingent_private_placement",
+      "source": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "publication_at": "2026-11-17T09:13:00-05:00",
+      "modified_at": "2026-11-17T09:34:00-05:00",
+      "evidence_grade": "reliable_media_full_body_anonymous_sources",
+      "raw_files": [
+        "anthropic_price.html",
+        "anthropic_price.txt"
+      ],
+      "claim": "likely to price above current70-78range; plannedorderbookscloseTueNov17at16ET; firsttradingplannedNov19",
+      "formal_company_revision_verified": false,
+      "final_price": null,
+      "actual_settlement_verified": false,
+      "interpretation": "Mediaexpectations/bookbuildingnotfinaltermsorreceipt. SameIPOevent,notindependentfundingrelief."
+    },
+    {
+      "event_id": "anthropic_20261117_non_cash_equity_compensation_estimate_enrichment",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+      "publication_date": "2026-11-17",
+      "report_period": "subsequenteventsconditionalonIPOcompletion",
+      "evidence_grade": "primary_SEC_S1A3_comparedwithNov10S1A2",
+      "previous_disclosure": "grantdatefairvalueandincrementalSBCmaterialbutamountstillbeingdetermined",
+      "new_estimates": [
+        {
+          "type": "RSUsgrantedafterSeptember30",
+          "estimated_total_USD": 3500000000,
+          "assumed_grantdate_fair_value_per_share_USD": 74,
+          "expected_recognition_years_approx": 3.8,
+          "starts": "periodIPOcompletes"
+        },
+        {
+          "type": "incrementalunrecognizedSBCfrommodificationofoutstandingRSUs",
+          "estimated_incremental_USD": 3000000000,
+          "assumed_share_price_USD": 74,
+          "recognition": "fullimpactwhenperformanceconditionprobableexpectedIPOcompletion"
+        }
+      ],
+      "current_cash_outflow_verified": false,
+      "classification": "conditional_stock_based_compensation_accounting_estimate_notAIcashcapex_orcreditloss",
+      "interpretation": "Newquantificationaffectsfutureaccountingexpensebutnotproofofnewcashpayment,operatingcashreturnorfinancingfailure. Do not sum estimates into currentcashloss."
+    }
+  ],
+  "supplementary_financial_disclosures": {
+    "Anthropic_selected_income_cash_cashflow_items_repeated_from_Nov10_not_new_report_period": true,
+    "Anthropic_new_share_compensation_disclosure_is_conditional_non_cash_not_current_cash_or_AI_credit_loss": true,
+    "details_reference": "evidence/2026-11-18/bigtech/findings.json#new_evidence_records",
+    "no_blanket_claim_all_S1A_financial_text_identical": true
+  }
+}

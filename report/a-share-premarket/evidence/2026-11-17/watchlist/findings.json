@@ -1,0 +1,398 @@
+{
+  "report_date": "2026-11-17",
+  "completed_at": "2026-11-17T01:51:38.831988+00:00",
+  "retrieved_at_local": "2026-11-17T09:49:52+08:00",
+  "scope": "六家自身公司公告镜像新增核验；直接行业新闻线索检索；09:49盘中价格单列。",
+  "announcement_comparison_cutoff": "2026-11-16T09:02:00+08:00",
+  "new_issuer_announcement_feed_entries": 0,
+  "issuers_checked": [
+    {
+      "code": "603986",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=603986",
+      "retrieved_at": "2026-11-17T01:49:52.303860+00:00",
+      "ok": true,
+      "new_items": [],
+      "latest_items": [
+        {
+          "title": "兆易创新:H股公告-翌日披露报表",
+          "art_code": "AN202611031831375017",
+          "notice_date": "2026-11-04 00:00:00",
+          "display_time": "2026-11-03 17:50:27:639"
+        },
+        {
+          "title": "兆易创新:投资者关系活动记录表(2026-004)",
+          "art_code": "AN202611031831372854",
+          "notice_date": "2026-11-03 00:00:00",
+          "display_time": "2026-11-03 17:04:36:633"
+        }
+      ]
+    },
+    {
+      "code": "300750",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=300750",
+      "retrieved_at": "2026-11-17T01:49:52.304254+00:00",
+      "ok": true,
+      "new_items": [],
+      "latest_items": [
+        {
+          "title": "宁德时代:H股公告(翌日披露报表)",
+          "art_code": "AN202611121831664865",
+          "notice_date": "2026-11-12 00:00:00",
+          "display_time": "2026-11-12 19:53:06:882"
+        },
+        {
+          "title": "宁德时代:H股公告(翌日披露报表)",
+          "art_code": "AN202611111831633449",
+          "notice_date": "2026-11-11 00:00:00",
+          "display_time": "2026-11-11 19:31:06:782"
+        }
+      ]
+    },
+    {
+      "code": "300502",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=300502",
+      "retrieved_at": "2026-11-17T01:49:52.304413+00:00",
+      "ok": true,
+      "new_items": [],
+      "latest_items": [
+        {
+          "title": "新易盛:关于公司回购股份事项的公告",
+          "art_code": "AN202611061831485272",
+          "notice_date": "2026-11-06 00:00:00",
+          "display_time": "2026-11-06 11:41:04:452"
+        },
+        {
+          "title": "新易盛:关于回购公司股份的进展公告",
+          "art_code": "AN202611031831373503",
+          "notice_date": "2026-11-03 00:00:00",
+          "display_time": "2026-11-03 17:18:06:275"
+        }
+      ]
+    },
+    {
+      "code": "300308",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=300308",
+      "retrieved_at": "2026-11-17T01:49:52.304551+00:00",
+      "ok": true,
+      "new_items": [],
+      "latest_items": [
+        {
+          "title": "中际旭创:关于全资子公司参与投资光合叁期基金的公告",
+          "art_code": "AN202611121831662360",
+          "notice_date": "2026-11-13 00:00:00",
+          "display_time": "2026-11-12 18:28:06:752"
+        },
+        {
+          "title": "中际旭创:关于股份回购事项的公告",
+          "art_code": "AN202611061831485271",
+          "notice_date": "2026-11-06 00:00:00",
+          "display_time": "2026-11-06 11:42:33:659"
+        }
+      ]
+    },
+    {
+      "code": "000858",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=000858",
+      "retrieved_at": "2026-11-17T01:49:52.304697+00:00",
+      "ok": true,
+      "new_items": [],
+      "latest_items": [
+        {
+          "title": "五粮液:关于四川省宜宾五粮液集团有限公司增持公司股票计划实施结果的公告",
+          "art_code": "AN202611061831502993",
+          "notice_date": "2026-11-07 00:00:00",
+          "display_time": "2026-11-06 19:50:26:302"
+        },
+        {
+          "title": "五粮液:北京中伦(成都)律师事务所关于四川省宜宾五粮液集团有限公司增持宜宾五粮液股份有限公司股份的法律意见书",
+          "art_code": "AN202611061831502992",
+          "notice_date": "2026-11-07 00:00:00",
+          "display_time": "2026-11-06 19:50:26:308"
+        }
+      ]
+    },
+    {
+      "code": "600519",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=50&page_index=1&ann_type=A&client_source=web&stock_list=600519",
+      "retrieved_at": "2026-11-17T01:49:52.304827+00:00",
+      "ok": true,
+      "new_items": [],
+      "latest_items": [
+        {
+          "title": "贵州茅台:贵州茅台关于召开2026年第三季度业绩说明会的公告",
+          "art_code": "AN202611021831320924",
+          "notice_date": "2026-11-03 00:00:00",
+          "display_time": "2026-11-02 16:59:12:344"
+        },
+        {
+          "title": "贵州茅台:贵州茅台2026年第三季度主要经营数据公告",
+          "art_code": "AN202610301831245502",
+          "notice_date": "2026-10-31 00:00:00",
+          "display_time": "2026-10-30 18:31:37:307"
+        }
+      ]
+    }
+  ],
+  "new_verified_material_direct_events": [],
+  "prior_direct_event_retained": {
+    "event_id": "longpan_20261116_CATL_procurement_annual_cap_raised",
+    "source_date": "2026-11-16",
+    "source": "https://data.eastmoney.com/notices/detail/603906/AN202611161831737873.html",
+    "prior_cap_CNY": 7000000000,
+    "revised_cap_CNY": 9000000000,
+    "change_pct": 28.5714,
+    "not_a_new_Nov17_announcement": true,
+    "meaning": "需求及原料价格因素共同影响；年度采购上限不是实际销量、付款或宁德利润，11/16后媒体报道同一事件去重。",
+    "prior_evidence": "../2026-11-16/watchlist/findings.json"
+  },
+  "intraday_quotes": [
+    {
+      "code": "sh603986",
+      "name": "兆易创新",
+      "quote_time_local": "2026-11-17T09:49:49+08:00",
+      "current_CNY": 216.08,
+      "prior_close_CNY": 223.22,
+      "prior_session": "2026-11-16",
+      "open_CNY": 218.0,
+      "change_percent": -3.2,
+      "high_CNY": 219.88,
+      "low_CNY": 215.1,
+      "turnover_CNY": 1811632197.0,
+      "quote_stage": "intraday_after_open_not_premarket_input",
+      "source": "https://qt.gtimg.cn/q=sh603986,sz300750,sz300502,sz300308,sz000858,sh600519"
+    },
+    {
+      "code": "sz300750",
+      "name": "宁德时代",
+      "quote_time_local": "2026-11-17T09:49:48+08:00",
+      "current_CNY": 241.03,
+      "prior_close_CNY": 240.5,
+      "prior_session": "2026-11-16",
+      "open_CNY": 240.0,
+      "change_percent": 0.22,
+      "high_CNY": 243.24,
+      "low_CNY": 238.07,
+      "turnover_CNY": 1486642258.0,
+      "quote_stage": "intraday_after_open_not_premarket_input",
+      "source": "https://qt.gtimg.cn/q=sh603986,sz300750,sz300502,sz300308,sz000858,sh600519"
+    },
+    {
+      "code": "sz300502",
+      "name": "新易盛",
+      "quote_time_local": "2026-11-17T09:49:48+08:00",
+      "current_CNY": 158.79,
+      "prior_close_CNY": 166.8,
+      "prior_session": "2026-11-16",
+      "open_CNY": 163.62,
+      "change_percent": -4.8,
+      "high_CNY": 165.0,
+      "low_CNY": 157.76,
+      "turnover_CNY": 3840943120.0,
+      "quote_stage": "intraday_after_open_not_premarket_input",
+      "source": "https://qt.gtimg.cn/q=sh603986,sz300750,sz300502,sz300308,sz000858,sh600519"
+    },
+    {
+      "code": "sz300308",
+      "name": "中际旭创",
+      "quote_time_local": "2026-11-17T09:49:48+08:00",
+      "current_CNY": 388.01,
+      "prior_close_CNY": 408.97,
+      "prior_session": "2026-11-16",
+      "open_CNY": 398.88,
+      "change_percent": -5.13,
+      "high_CNY": 402.0,
+      "low_CNY": 385.0,
+      "turnover_CNY": 6216075648.0,
+      "quote_stage": "intraday_after_open_not_premarket_input",
+      "source": "https://qt.gtimg.cn/q=sh603986,sz300750,sz300502,sz300308,sz000858,sh600519"
+    },
+    {
+      "code": "sz000858",
+      "name": "五 粮 液",
+      "quote_time_local": "2026-11-17T09:49:48+08:00",
+      "current_CNY": 73.24,
+      "prior_close_CNY": 73.7,
+      "prior_session": "2026-11-16",
+      "open_CNY": 73.5,
+      "change_percent": -0.62,
+      "high_CNY": 73.88,
+      "low_CNY": 73.09,
+      "turnover_CNY": 227601837.0,
+      "quote_stage": "intraday_after_open_not_premarket_input",
+      "source": "https://qt.gtimg.cn/q=sh603986,sz300750,sz300502,sz300308,sz000858,sh600519"
+    },
+    {
+      "code": "sh600519",
+      "name": "贵州茅台",
+      "quote_time_local": "2026-11-17T09:49:49+08:00",
+      "current_CNY": 1442.35,
+      "prior_close_CNY": 1453.9,
+      "prior_session": "2026-11-16",
+      "open_CNY": 1458.88,
+      "change_percent": -0.79,
+      "high_CNY": 1461.6,
+      "low_CNY": 1437.71,
+      "turnover_CNY": 942510874.0,
+      "quote_stage": "intraday_after_open_not_premarket_input",
+      "source": "https://qt.gtimg.cn/q=sh603986,sz300750,sz300502,sz300308,sz000858,sh600519"
+    }
+  ],
+  "news_discovery": [
+    {
+      "name": "optical",
+      "url": "https://news.google.com/rss/search?q=2026%E5%B9%B411%E6%9C%8816%E6%97%A5%20%E6%96%B0%E6%98%93%E7%9B%9B%20%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%20%E8%AE%A2%E5%8D%95%201.6T%20when%3A2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "retrieved_at": "2026-11-17T01:50:21.962350+00:00",
+      "ok": true,
+      "items": [
+        {
+          "title": "AI硬件冰点时刻：光模块龙头跌超11%，中际旭创年内新低，估值深度压缩后修复契机在哪？ - 手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeDRZMTljODhDT01ncEl5NFlLMmVLMnByUzFCNWRjczh5YnBNY211RjFCSVU3VkhIeVpFeXh2TkFuczNfSUJOSmlCSkdEWWQzQ3lReVdMQlFOaVRsaWZYMzEyLU5PUzNIUkVYQnBNcUhxLUx6eEpYMzlkd25GTTJJaV90VQ?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 10:50:54 GMT",
+          "source": "手机新浪网"
+        },
+        {
+          "title": "光模块投资观察：英伟达换帅，光模块先迎“压力测试” - 新浪财经_金融信息服务商",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX3FBLUdBdkY1TUZqSlRPRktTcVhJbFZhYVhFSzJoajJfNEkxVlM3cmRncS1JRjZseWhYeUI5MDd1VldzcUc2enhlSkFKQXlfdEFiVzNIMnlqQV8zX2p3bWRZb2hKLXQ3TVNxRkxKWDJMbUdNdWMxYm9UV0dYOWJrQ1JlWXM?oc=5",
+          "pubDate": "Sun, 15 Nov 2026 22:41:15 GMT",
+          "source": "新浪财经_金融信息服务商"
+        },
+        {
+          "title": "国内增量打开，下一代技术卡位，深市光通信龙头密集回应 - 21财经",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeXBpWTl5U0NxZmpiU2xIbXBSSERoLWZFaUxyMVdLcExIUmhCS2xTOXVtMW85eWQ4ZTZHRnM5S1BWTjhEbmg3NGhhX3M4ZXpCdUpVU2toTjNOdVN3V0QzSnRPX1FjSC1EREpzTmtTdHU0N0I4a0xkR2hPZi15WC1fSjJpNmJHZjd1VHdNYndn?oc=5",
+          "pubDate": "Sun, 15 Nov 2026 09:03:31 GMT",
+          "source": "21财经"
+        },
+        {
+          "title": "市值蒸发2万亿！“易中天”遭遇至暗时刻，三大牛股已跌去70%，英伟达“黑天鹅”发酵，中际旭创再创新低，市盈率仅17倍 - 金融界",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iWWUtLW1oUHJLQjU5VUU3RHpQQUpkVE9vNFUyY0JhLTNULWFsSDFHNnlJM0F6bWQtS0ZjWnlDbENOTzJuQkdFeFAzc3JOSTRCb3FJRUdxRzk0V1JLakhPaUJ2dmRuQQ?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 03:53:34 GMT",
+          "source": "金融界"
+        },
+        {
+          "title": "新浪网· - 新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFByRkI1SDJGRWxFUEdrTjlybEExQ0Qyb0RIY1gtaG0tZnpJTFZqMlJta3lESWxGSGkyRi0zWGNBSEpGMUdIaUV2Tk9NM2lfZG5hakt6YmVlaFpSbnJOYm5QMlVkdw?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 08:08:00 GMT",
+          "source": "新浪网"
+        }
+      ]
+    },
+    {
+      "name": "battery",
+      "url": "https://news.google.com/rss/search?q=2026%E5%B9%B411%E6%9C%8816%E6%97%A5%20%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%20%E9%BE%99%E8%9F%A0%20%E8%AE%A2%E5%8D%95%20when%3A2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "retrieved_at": "2026-11-17T01:50:21.963007+00:00",
+      "ok": true,
+      "items": [
+        {
+          "title": "前10个多月交易额逼近原定上限，龙蟠科技上调宁德时代年度采购额度至90亿元 - https://www.mrjjxw.com/",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iYUUxT0xXTGE5QTZFSTVfNTd1bThGc2N0dE52SXVHVmJmVzBTd1E1TVViRFJ0S3NuLUZkOHo5N1NDeGZCcDJFSmRZVkdyU0RCNV9QUXpNN3RISEhQcDhhMVdUVVhTQQ?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 11:25:56 GMT",
+          "source": "https://www.mrjjxw.com/"
+        },
+        {
+          "title": "90亿元！龙蟠科技大幅上调宁德时代年度采购上限 - 世纪新能源网",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nSTdwd3FTRk5CQ3Nab0ZpMDVxa1UwU1dLU01MbkMzZXZrNTVrWno1cS1jY1dRbVI5TzZnUWdjd291THZ3YTF4WmY4OFF2ZDhWb0NqOQ?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 10:26:43 GMT",
+          "source": "世纪新能源网"
+        },
+        {
+          "title": "宁德时代对龙蟠科技正极采购放量，供货上限提至90 亿元 - 盖世汽车",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tY0F2dk5QNDFZUk8ydTFoT0VYSGFuclVsWTV6MkVfNnFBNTlXV0dpWnFOanJQSXowTFBjc0MxOW8zcVgyMW5FdVN0dUhTVnE4?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 02:49:52 GMT",
+          "source": "盖世汽车"
+        },
+        {
+          "title": "上限提至90亿！龙蟠科技磷酸铁锂供货宁德时代关联集团 - 新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlUy0yZlRnNVNUNUhiZkttcjN4QnVWdWF4d3lwZHQxUEJVcVl6ZkFGSl9LQTZJQ0dRYjRkdkdlTVZ6d1hXNVp6LUZGc2ZRQmg1bXlJbnpLaWRwajdZX1ptUkktRlRKT19yYVFqci0yZ0ZxMUQ5M0E?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 02:16:09 GMT",
+          "source": "新浪财经"
+        },
+        {
+          "title": "龙蟠将宁德时代采购上限提至90亿元：61.04亿已发生，不等于剩28.96亿已锁定 - 汽车商业评论",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9BNmUwN0ZyZ0Nwc29lalVHQ2FGeXUzd2wwWkVqVGZwTHNvRmxPRVJRdnhpOUtoakFoeXFpT21UNzRCUQ?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 09:27:00 GMT",
+          "source": "汽车商业评论"
+        },
+        {
+          "title": "龙蟠科技修订宁德时代采购框架协议年度上限至90亿元 - 新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WZzBuWnZ3UXVCazhvdDZ0SFV6NlNwbFFkbnR5M2FNNFlnWjNIVHB4M0d4a3kyYnN5TjVtX1V1bmZScmJ6cFdDTk90Tk1VNXZBM240R0IwNTJoM1lxaEJoX2RrSEI5LV9CdVM0TXpWSWNjaFBFMGtNcg?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 11:20:40 GMT",
+          "source": "新浪财经"
+        },
+        {
+          "title": "新能源市场太卷了！宁德时代采购上限提至90亿元，磷酸铁锂正极重磅加码 - 网通社",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wRWJZd3R6WHVQOUc2SV80YTRPU1ktMU9yN3A0b2tEY2xjaUI4a0RqSUJtYnN2UU9GN3dGbkJVUHA3Z0l3aUFFSGhfa0JhcllvYjhYU2RaSk5wZU0?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 08:20:14 GMT",
+          "source": "网通社"
+        },
+        {
+          "title": "龙蟠科技将宁德时代采购框架协议年度交易上限由70亿元上调至90亿元 - 网通社",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lUWVMZGJKVWtycUwwV20zS0MtYTVURkE2QTZ3dUsyRV80RkpJNjc0ZWV4cUkya3lLNjFUdUxDZXdfc2luQlZwVERPYUJ3eTljSW1yRlN2aE1ndlE?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 02:35:00 GMT",
+          "source": "网通社"
+        }
+      ]
+    },
+    {
+      "name": "memory",
+      "url": "https://news.google.com/rss/search?q=2026%E5%B9%B411%E6%9C%8816%E6%97%A5%20%E5%85%86%E6%98%93%E5%88%9B%E6%96%B0%20%E5%AD%98%E5%82%A8%20%E8%8A%AF%E7%89%87%20when%3A2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "retrieved_at": "2026-11-17T01:50:21.963179+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "liquor",
+      "url": "https://news.google.com/rss/search?q=2026%E5%B9%B411%E6%9C%8816%E6%97%A5%20%E8%B4%B5%E5%B7%9E%E8%8C%85%E5%8F%B0%20%E4%BA%94%E7%B2%AE%E6%B6%B2%20%E6%89%B9%E4%BB%B7%20when%3A2d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "retrieved_at": "2026-11-17T01:50:21.963358+00:00",
+      "ok": true,
+      "items": [
+        {
+          "title": "白酒渠道健康度持续改善！吃喝板块逆市拉升，食品饮料ETF华宝（515710）标的指数收涨超1% - 新浪财经_金融信息服务商",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON3puN1ZSRlNvcnM4TnlpZnRhYzljTFlfc3Z5SDhNXzFhbnMzN1l5TC1mVERFMjVJM3ZvaUdvZ0tBZE1hdmtxMl90eXZwQXRoVks4LWtzUTl1SDhZT25RVUVUdF83QUFLWVNFa2MwQnlQQXMwNEF6NVlQYXFFeWdXdFlIbUMtOUhjaXlnVmtZcVZLbklQT2V5UG0tUmRSSE1oT3NpRg?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 18:29:51 GMT",
+          "source": "新浪财经_金融信息服务商"
+        },
+        {
+          "title": "库存出清持续推进 白酒行业底部信号渐显 - 经济参考报",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV0ZZb2RHSm4xN2l4TmhZX0s3T3I2alVQVE5EQXAzZktvd3Nxd0NVRkdRUFYtVlY2dFZIcGlsRnVfQkNvVm9IVkV6dlgtOHRmYmlDbmtPWklrREp5OGh0d3VQaWtoZzJJX1hXNWI1RjNqaGJORldKOVM2U2owSm81OA?oc=5",
+          "pubDate": "Sun, 15 Nov 2026 20:50:35 GMT",
+          "source": "经济参考报"
+        },
+        {
+          "title": "青花郎重跌6元 昨日涨幅损失殆尽 - 新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcTR2LThRM1RGd3dETldfd1NtN2lodUtoWDlMVUFTMmZRdWRURmRNTDVxbzZFMFllUF9wX0dXbVFKVHlYUk5sRG5RY1hDcWpkR1hBMW9WV3JjOEFuNDJnN25aenVEOThxWDdQdjlteS1uMERvbFFFQ0NqTmctZWZ4V29hckM?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 01:25:00 GMT",
+          "source": "新浪财经"
+        },
+        {
+          "title": "烟酒零售额上涨，“双11”大卖，白酒板块再度逆市大涨 - Sohu",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQWo2TkFiTnU4d3ZxYmZwMW9IekZacUpHYzlDWC1MQ2Vha3ZSY1F0RlFXclRLWWpMdkNmU0RtZU9uN2FNV1lvUUVwS2NUV0JlazEwVlRPM3A2MWMxblBpdzMxU3NDNG9aYlV1SnN0cWZOTnA4aFlrLUhjazZwUWdya3RBR3pJSUV1UHMw?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 14:22:00 GMT",
+          "source": "Sohu"
+        },
+        {
+          "title": "京东双十一酒类成交增25%！吃喝板块盘中拉升，食品饮料ETF华宝（515710）标的指数逆市飘红！ - 新浪财经_金融信息服务商",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMFc2U1pERWZtQXNja3lRR01fT3g3TERzTER4NFI1bXcyMXpieWVQZkQxZzl3Q3drTnhGc0VGNk9Tb1YyV0l0VmhZNEpWVGhuSF9heDI4anZSejZPaGJuS0dJV0k3Q054NG5OSHM1ZjFBbTIteEJOLTdHRXo5WHNKNHlYUnZValdSa1c3TFlFTUtyUUp3bk9zMTE1cXFRYUw0M3phQg?oc=5",
+          "pubDate": "Mon, 16 Nov 2026 07:17:40 GMT",
+          "source": "新浪财经_金融信息服务商"
+        }
+      ]
+    }
+  ],
+  "discovered_headlines_not_verified_as_new_material_facts": [
+    "11/16光模块股下跌和英伟达治理变化的多条评论，不构成新的订单取消证据。",
+    "11/15原21财经光通信回应全文未本次独立获取；新易盛11/13订单充足、1.6T放量观点不重复当新定量业绩。",
+    "11/16白酒渠道改善、库存出清及双十一销售头条尚未取得可比原始数据和完整原文，不据此宣称行业经营反转。"
+  ],
+  "coverage_gaps": [
+    "公告镜像不是对全部交易所/巨潮/HKEX公告的穷尽独立核验。",
+    "GoogleNews存储芯片查询HTTP429；RSS其余查询只作线索。",
+    "无六家全部未披露订单、客户回款、可比白酒批价或存储芯片合同价。",
+    "09:49报价已属盘中，不能倒填成08:45预测或与上一日完整交易量混比。"
+  ],
+  "suggested_report_text": "六股自身公告镜像未见较昨日新增披露。宁德相关龙蟠采购上限上调是11/16已公开事件；海外科技信号对兆易、新易盛、中际仅可作行业情绪参照。若使用本次价格，明确标为11/17 09:49盘中修正，不能写成盘前判断。",
+  "source_files": [
+    "raw/manifest.json",
+    "raw/quotes_manifest.json",
+    "raw/news_manifest.json"
+  ]
+}

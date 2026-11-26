@@ -1,0 +1,276 @@
+{
+  "checked_at": "2026-11-09T10:48:38.142615+08:00",
+  "session_date": "2026-11-06",
+  "auditor_scope": "Only expired Friday predictions, no main state mutations.",
+  "newly_settled_count": 2,
+  "previously_completed_count": 6,
+  "suggested_completed_count_after_parent_applies": 8,
+  "all_original_frozen_fields_preserved": true,
+  "duplicate_settlement_count": 0,
+  "no_hit_rate": true,
+  "full_day_evidence": {
+    "low": 161.16,
+    "close": 172.1,
+    "bar_count": 48,
+    "complete_regular_session_coverage": true,
+    "minimum_low_bar_intervals": [
+      {
+        "interval_start": "2026-11-06T09:40:00",
+        "interval_end": "2026-11-06 09:45:00",
+        "low": 161.16,
+        "exact_tick_time": null
+      }
+    ],
+    "strict_comparison": "< ; equality is not a breach"
+  },
+  "settlements": [
+    {
+      "prediction_id": "2026-11-06-1032-L16116",
+      "original_prediction": {
+        "id": "2026-11-06-1032-L16116",
+        "symbol": "300502.SZ",
+        "scheduled_check_at": "2026-11-06T10:30:00+08:00",
+        "triggered_at": "2026-11-06T10:27:13.055+08:00",
+        "created_at": "2026-11-06T10:32:43+08:00",
+        "forecast_start": "2026-11-06T10:32:43+08:00",
+        "snapshot_time": "2026-11-06T10:32:39+08:00",
+        "threshold": 161.16,
+        "comparison": "strictly_less_than",
+        "event": "Any traded price strictly below161.16 after forecast_start and by deadline",
+        "deadline": "2026-11-06T15:00:00+08:00",
+        "risk": "中等",
+        "numeric_probability": null,
+        "model_validated": false,
+        "status": "pending",
+        "settled": false,
+        "note": "Scheduled10:30report triggeredearly10:27; forecastcreatedat actualtime after10:30, neverbackdated. Snapshot-to-creationtickstream unavailable; preserveactualquoteage."
+      },
+      "forecast_start": "2026-11-06T10:32:43+08:00",
+      "threshold": 161.16,
+      "deadline": "2026-11-06T15:00:00+08:00",
+      "original_frozen_fields_match_state_and_observation": true,
+      "frozen_fields_audit": {
+        "id": true,
+        "symbol": true,
+        "scheduled_check_at": true,
+        "triggered_at": true,
+        "created_at": true,
+        "forecast_start": true,
+        "snapshot_time": true,
+        "threshold": true,
+        "comparison": true,
+        "event": true,
+        "deadline": true,
+        "risk": true,
+        "numeric_probability": true,
+        "model_validated": true,
+        "note": true
+      },
+      "observation_history_audit": [
+        {
+          "observation": "1032",
+          "all_frozen_fields_match": true
+        },
+        {
+          "observation": "1439",
+          "all_frozen_fields_match": true
+        }
+      ],
+      "already_settled_before_audit": false,
+      "expired": true,
+      "eligible_for_one_time_settlement": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "closing_price": 172.1,
+      "result": "No strict trade breach within original window; equality with161.16is not a breach.",
+      "resolution_evidence": {
+        "type": "full_day_minimum_bound",
+        "session_date": "2026-11-06",
+        "full_day_low": 161.16,
+        "threshold": 161.16,
+        "complete_five_minute_bar_count": 48,
+        "five_minute_timestamps_match_entire_normal_session": true,
+        "daily_and_analysis_ohlc_crosscheck": true,
+        "logic": "Every traded price in the full normal session is >=161.16; therefore no subwindow starting at actual forecast_start can contain a price strictly below161.16. Exact time of daily minimum is not needed for this non-breach proof.",
+        "source_files": [
+          "settlement_sources/sz300502-m5.txt",
+          "settlement_sources/sz300502-daily.json",
+          "settlement_sources/analysis.json"
+        ],
+        "exact_first_tick_breach_time": null
+      },
+      "closing_evidence": {
+        "closing_price": 172.1,
+        "threshold": 161.16,
+        "comparison": "strictly_less_than",
+        "closing_breach_occurred": false,
+        "last_bar_timestamp": "2026-11-06 15:00:00",
+        "raw_final_bar": {
+          "day": "2026-11-06 15:00:00",
+          "open": "171.630",
+          "high": "172.120",
+          "low": "171.600",
+          "close": "172.100",
+          "volume": "1988327",
+          "amount": "342055957.8915"
+        },
+        "raw_daily_bar": [
+          "2026-11-06",
+          "166.000",
+          "172.100",
+          "178.000",
+          "161.160",
+          "904489.000"
+        ]
+      },
+      "numeric_probability": null,
+      "resolved_at": "2026-11-09T10:48:38.142615+08:00"
+    },
+    {
+      "prediction_id": "2026-11-06-1439-L16116",
+      "original_prediction": {
+        "id": "2026-11-06-1439-L16116",
+        "symbol": "300502.SZ",
+        "scheduled_check_at": "2026-11-06T14:30:00+08:00",
+        "triggered_at": "2026-11-06T14:32:45.432+08:00",
+        "created_at": "2026-11-06T14:39:03+08:00",
+        "forecast_start": "2026-11-06T14:39:03+08:00",
+        "snapshot_time": "2026-11-06T14:39:00+08:00",
+        "threshold": 161.16,
+        "comparison": "strictly_less_than",
+        "event": "Any traded price strictly below161.16 after forecast_start and by deadline",
+        "deadline": "2026-11-06T15:00:00+08:00",
+        "risk": "偏低",
+        "numeric_probability": null,
+        "model_validated": false,
+        "status": "pending",
+        "settled": false,
+        "note": "Independent afternoon forecast starts at actual creation, not scheduled14:30. Morning161.16 forecast remains independently pending with original start/risk/deadline. No tickstream between snapshot and creation."
+      },
+      "forecast_start": "2026-11-06T14:39:03+08:00",
+      "threshold": 161.16,
+      "deadline": "2026-11-06T15:00:00+08:00",
+      "original_frozen_fields_match_state_and_observation": true,
+      "frozen_fields_audit": {
+        "id": true,
+        "symbol": true,
+        "scheduled_check_at": true,
+        "triggered_at": true,
+        "created_at": true,
+        "forecast_start": true,
+        "snapshot_time": true,
+        "threshold": true,
+        "comparison": true,
+        "event": true,
+        "deadline": true,
+        "risk": true,
+        "numeric_probability": true,
+        "model_validated": true,
+        "note": true
+      },
+      "observation_history_audit": [
+        {
+          "observation": "1439",
+          "all_frozen_fields_match": true
+        }
+      ],
+      "already_settled_before_audit": false,
+      "expired": true,
+      "eligible_for_one_time_settlement": true,
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "closing_price": 172.1,
+      "result": "No strict trade breach within original window; equality with161.16is not a breach.",
+      "resolution_evidence": {
+        "type": "full_day_minimum_bound",
+        "session_date": "2026-11-06",
+        "full_day_low": 161.16,
+        "threshold": 161.16,
+        "complete_five_minute_bar_count": 48,
+        "five_minute_timestamps_match_entire_normal_session": true,
+        "daily_and_analysis_ohlc_crosscheck": true,
+        "logic": "Every traded price in the full normal session is >=161.16; therefore no subwindow starting at actual forecast_start can contain a price strictly below161.16. Exact time of daily minimum is not needed for this non-breach proof.",
+        "source_files": [
+          "settlement_sources/sz300502-m5.txt",
+          "settlement_sources/sz300502-daily.json",
+          "settlement_sources/analysis.json"
+        ],
+        "exact_first_tick_breach_time": null
+      },
+      "closing_evidence": {
+        "closing_price": 172.1,
+        "threshold": 161.16,
+        "comparison": "strictly_less_than",
+        "closing_breach_occurred": false,
+        "last_bar_timestamp": "2026-11-06 15:00:00",
+        "raw_final_bar": {
+          "day": "2026-11-06 15:00:00",
+          "open": "171.630",
+          "high": "172.120",
+          "low": "171.600",
+          "close": "172.100",
+          "volume": "1988327",
+          "amount": "342055957.8915"
+        },
+        "raw_daily_bar": [
+          "2026-11-06",
+          "166.000",
+          "172.100",
+          "178.000",
+          "161.160",
+          "904489.000"
+        ]
+      },
+      "numeric_probability": null,
+      "resolved_at": "2026-11-09T10:48:38.142615+08:00"
+    }
+  ],
+  "sources": [
+    {
+      "source": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/state.json",
+      "copied_as": "settlement_sources/state_before_parent_update.json",
+      "sha256": "9bc976529dd26aea2223e10497cf6abeaf87a718f015f12b266c186f1f8809e7"
+    },
+    {
+      "source": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-06-1032.json",
+      "copied_as": "settlement_sources/observation_2026-11-06-1032.json",
+      "sha256": "8a0db75b39be7d6720a1acec780b565a58ec36c96a4de1015dd8132bb8575ef2"
+    },
+    {
+      "source": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-06-1439.json",
+      "copied_as": "settlement_sources/observation_2026-11-06-1439.json",
+      "sha256": "e0a9c63153d5c54fce5b2fb42b9606a6cb1a1b088b3f26458db4268a829323d7"
+    },
+    {
+      "source": "/tmp/optics-premarket-20261109/ashares/analysis.json",
+      "copied_as": "settlement_sources/analysis.json",
+      "sha256": "2e5500143a8e5f4cff29680d31907688e1f4130fd893ee5537c9490589e9279f"
+    },
+    {
+      "source": "/tmp/optics-premarket-20261109/ashares/sz300502-m5.txt",
+      "copied_as": "settlement_sources/sz300502-m5.txt",
+      "sha256": "1372feb4100f799ba2cc61fc5c57657fef4570d94d612a4b3296f4d9e1f43823"
+    },
+    {
+      "source": "/tmp/optics-premarket-20261109/ashares/sz300502-daily.json",
+      "copied_as": "settlement_sources/sz300502-daily.json",
+      "sha256": "7be7b09b5591e6022fb1d47a035f08e53df194208bb888872bfd098f87a5cc5b"
+    },
+    {
+      "source": "/tmp/optics-premarket-20261109/ashares/manifest.json",
+      "copied_as": "settlement_sources/manifest.json",
+      "sha256": "3beaa92695165ea3f741556ecd6283ec10a48c76c265055c2a4c7fad3abcc18c"
+    },
+    {
+      "source": "/tmp/optics-premarket-20261109/ashares/sina.txt",
+      "copied_as": "settlement_sources/sina.txt",
+      "sha256": "5a9ee51c6f6b2e459d9401309f4cd5b6149bc3e8b7b6bee11978081ff5451e37"
+    },
+    {
+      "source": "/tmp/optics-premarket-20261109/ashares/quotes.txt",
+      "copied_as": "settlement_sources/quotes.txt",
+      "sha256": "972a51625e6319d5387416001425975688cf9144124e205000648e73df41e6ea"
+    }
+  ],
+  "main_state_modified_by_auditor": false
+}

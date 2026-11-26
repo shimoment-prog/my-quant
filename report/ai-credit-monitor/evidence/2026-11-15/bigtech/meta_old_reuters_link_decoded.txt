@@ -1,0 +1,3 @@
+)]}'
+
+[["wrb.fr","Fbv4je","[\"garturlres\",\"https://www.reuters.com/world/americas/meta-build-c13-billion-alberta-data-center-its-first-canada-2026-07-08/\",1]",null,null,null,"generic"],["di",12],["af.httprm",11,"824333034173362321",10]]

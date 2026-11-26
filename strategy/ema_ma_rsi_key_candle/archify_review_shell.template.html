@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>__REVIEW_TITLE_HTML__</title>
+  <style>
+    :root { color-scheme: dark; --shell-bg:#0c0d10; --shell-panel:#15171c; --shell-ink:#f1f3f6; --shell-muted:#9ba3b1; --shell-rule:#303640; --shell-accent:#9bb9ff; }
+    :root[data-theme="light"] { color-scheme:light; --shell-bg:#f4f5f7; --shell-panel:#fff; --shell-ink:#161a22; --shell-muted:#5c6575; --shell-rule:#d3d9e2; --shell-accent:#2457d6; }
+    * { box-sizing:border-box; }
+    [hidden] { display:none !important; }
+    body { margin:0; background:var(--shell-bg); color:var(--shell-ink); font:14px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; }
+    button { font:inherit; cursor:pointer; color:inherit; }
+    button:focus-visible, a:focus-visible { outline:2px solid var(--shell-accent); outline-offset:4px; }
+    .review-shell { width:min(1280px, calc(100% - 48px)); margin:0 auto; }
+    .review-shell-header { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:16px 24px; padding:30px 0 20px; }
+    .review-shell-header h1 { margin:0 0 6px; font-size:clamp(21px, 3vw, 28px); line-height:1.35; letter-spacing:-.02em; }
+    .review-shell-period { margin:0; color:var(--shell-muted); font-size:13px; }
+    .review-shell-theme { flex-shrink:0; border:1px solid var(--shell-rule); border-radius:8px; background:var(--shell-panel); padding:6px 12px; font-size:13px; }
+    .review-shell-nav { display:flex; flex-wrap:wrap; gap:8px 22px; align-items:flex-end; border-bottom:1px solid var(--shell-rule); }
+    .review-shell-tabs { display:flex; align-items:stretch; gap:22px; }
+    .review-shell-tab { border:0; border-bottom:2px solid transparent; background:transparent; padding:10px 0 12px; white-space:nowrap; color:var(--shell-muted); font-size:14px; font-weight:500; }
+    .review-shell-tab[aria-selected="true"] { color:var(--shell-ink); border-bottom-color:var(--shell-accent); }
+    .review-shell-help { margin:0 0 13px auto; font-size:12px; color:var(--shell-muted); }
+    .review-shell-panel { min-width:0; padding-top:18px; }
+    .review-shell-panel iframe { display:block; width:100%; height:1400px; border:0; background:var(--shell-bg); }
+    .review-shell-footer { padding:20px 0 28px; color:var(--shell-muted); font-size:12px; border-top:1px solid var(--shell-rule); margin-top:20px; }
+    .review-shell-nojs { border:1px solid var(--shell-rule); padding:12px; border-radius:8px; }
+    @media (max-width:600px) {
+      .review-shell { width:calc(100% - 24px); }
+      .review-shell-header { padding-top:20px; gap:12px; }
+      .review-shell-header h1 { font-size:22px; }
+      .review-shell-tabs { gap:20px; }
+      .review-shell-help { width:100%; margin:0 0 10px; }
+      .review-shell-nav { gap:0; }
+      .review-shell-panel { padding-top:12px; }
+    }
+    @media print { .review-shell-theme,.review-shell-nav { display:none; } .review-shell { width:100%; } }
+  </style>
+</head>
+<body>
+  <main class="review-shell">
+    <header class="review-shell-header">
+      <div>
+        <h1>__REVIEW_TITLE_HTML__</h1>
+        <p class="review-shell-period">__REVIEW_PERIOD_HTML__</p>
+      </div>
+      <button class="review-shell-theme" id="review-theme" type="button" aria-label="切换到浅色主题">浅色模式</button>
+    </header>
+    <div class="review-shell-nav">
+      <div class="review-shell-tabs" role="tablist" aria-label="回测阅读方式">
+        <button class="review-shell-tab" id="tab-chart" type="button" role="tab" aria-selected="true" aria-controls="panel-chart" tabindex="0">逐笔 K 线</button>
+        <button class="review-shell-tab" id="tab-report" type="button" role="tab" aria-selected="false" aria-controls="panel-report" tabindex="-1">Archify 回测报告</button>
+      </div>
+      <p class="review-shell-help">选择交易，检查关键 K 与固定止盈止损</p>
+    </div>
+    <section class="review-shell-panel" id="panel-chart" role="tabpanel" aria-labelledby="tab-chart">
+      <iframe id="frame-chart" title="ETHUSDT 逐笔 K 线与入场条件核对" scrolling="no"></iframe>
+    </section>
+    <section class="review-shell-panel" id="panel-report" role="tabpanel" aria-labelledby="tab-report" hidden>
+      <iframe id="frame-report" title="Archify 回测说明报告" scrolling="no"></iframe>
+    </section>
+    <noscript><p class="review-shell-nojs">请启用 JavaScript，以查看交互图表与内嵌回测报告。</p></noscript>
+    <footer class="review-shell-footer">回测说明由 Archify 生成 · 仓位框为本地模拟标注</footer>
+  </main>
+  <script>
+  (() => {
+    'use strict';
+    const chartDocument = __CHART_DOCUMENT_JSON__;
+    const explainerDocument = __EXPLAINER_DOCUMENT_JSON__;
+    const themeButton = document.getElementById('review-theme');
+    const tabNames = ['chart', 'report'];
+    const views = Object.fromEntries(tabNames.map(name => [name, {
+      name, tab:document.getElementById('tab-' + name),
+      panel:document.getElementById('panel-' + name),
+      frame:document.getElementById('frame-' + name),
+      html:name === 'chart' ? chartDocument : explainerDocument,
+      loaded:false, scheduled:false, cleanup:[], height:0
+    }]));
+    let selected = 'chart';
+    let theme = 'dark';
+    let syncingTheme = false;
+    const palettes = {
+      dark:{'--background':'#0c0d10','--foreground':'#f1f3f6','--muted-foreground':'#9ba3b1','--border':'#303640','--orange':'#f4a65d','--green':'#5cc98d','--red':'#f2806f','--purple':'#b7a5ff','--blue':'#91b7ff'},
+      light:{'--background':'#f4f5f7','--foreground':'#161a22','--muted-foreground':'#5c6575','--border':'#d3d9e2','--orange':'#ad5700','--green':'#11824c','--red':'#c4321f','--purple':'#6a4fc8','--blue':'#2457d6'}
+    };
+
+    function prepareDocument(html) {
+      const css = Object.entries(palettes[theme]).map(([key,value]) => key + ':' + value).join(';');
+      const early = '<style id="review-host-theme">:root{' + css + ';color-scheme:' + theme + '}</style>';
+      const starter = '<script>document.documentElement.dataset.theme=' + JSON.stringify(theme) + ';<\/script>';
+      if (/<head(?:\s[^>]*)?>/i.test(html)) return html.replace(/<head(?:\s[^>]*)?>/i, match => match + early + starter);
+      return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' + early + starter + '</head><body>' + html + '</body></html>';
+    }
+
+    function applyDocumentTheme(doc) {
+      if (!doc?.documentElement) return;
+      const root = doc.documentElement;
+      root.dataset.theme = theme;
+      root.style.colorScheme = theme;
+      Object.entries(palettes[theme]).forEach(([key,value]) => root.style.setProperty(key,value));
+      // Use Archify's own button so its internal theme state and native viewers agree.
+      const choice = doc.querySelector('[data-theme-choice="' + theme + '"]');
+      if (choice && choice.getAttribute('aria-pressed') !== 'true') choice.click();
+      doc.querySelectorAll('iframe').forEach(frame => {
+        try { applyDocumentTheme(frame.contentDocument); } catch (_) { /* Sandboxed native viewers own their theme. */ }
+      });
+    }
+
+    function setTheme(next) {
+      if (next !== 'dark' && next !== 'light') return;
+      theme = next;
+      document.documentElement.dataset.theme = theme;
+      const label = theme === 'dark' ? '浅色' : '深色';
+      themeButton.textContent = label + '模式';
+      themeButton.setAttribute('aria-label', '切换到' + label + '主题');
+      syncingTheme = true;
+      Object.values(views).forEach(view => {
+        if (!view.loaded) return;
+        try { applyDocumentTheme(view.frame.contentDocument); } catch (_) { /* Local srcdoc is normally same-origin. */ }
+        queueMeasure(view);
+      });
+      syncingTheme = false;
+    }
+
+    function updateViewport(view) {
+      const doc = view.frame.contentDocument;
+      if (!doc?.documentElement) return;
+      const top = Math.max(0, -view.frame.getBoundingClientRect().top);
+      doc.documentElement.style.setProperty('--review-host-viewport', window.innerHeight + 'px');
+      doc.documentElement.style.setProperty('--review-host-dialog-top', top + 'px');
+    }
+
+    function measure(view) {
+      view.scheduled = false;
+      if (view.name !== selected || view.panel.hidden) return;
+      const doc = view.frame.contentDocument;
+      const body = doc?.body;
+      if (!body) return;
+      const win = view.frame.contentWindow;
+      const box = body.getBoundingClientRect();
+      const bodyStyle = win.getComputedStyle(body);
+      let bottom = box.bottom + win.scrollY + (parseFloat(bodyStyle.marginBottom) || 0);
+      // Ignore viewport-sized document scrollHeight: it would prevent shrinking.
+      for (const node of body.children) {
+        if (['SCRIPT','STYLE','LINK'].includes(node.tagName)) continue;
+        const style = win.getComputedStyle(node);
+        if (style.display === 'none' || style.position === 'fixed' || style.position === 'absolute') continue;
+        bottom = Math.max(bottom, node.getBoundingClientRect().bottom + win.scrollY + (parseFloat(style.marginBottom) || 0));
+      }
+      const height = Math.max(160, Math.ceil(bottom) + 2);
+      if (Math.abs(height - view.height) > 1) {
+        view.height = height;
+        view.frame.style.height = height + 'px';
+      }
+      updateViewport(view);
+    }
+
+    function queueMeasure(view) {
+      if (view.scheduled || view.name !== selected || view.panel.hidden) return;
+      view.scheduled = true;
+      requestAnimationFrame(() => measure(view));
+    }
+
+    function connectFrame(view) {
+      view.cleanup.forEach(dispose => dispose());
+      view.cleanup = [];
+      const doc = view.frame.contentDocument;
+      if (!doc?.body) return;
+      view.loaded = true;
+      const style = doc.createElement('style');
+      style.textContent = 'html,body{min-height:0!important;height:auto!important}'+
+        '.viewer-dialog{top:calc(var(--review-host-dialog-top,0px) + 56px)!important;bottom:auto!important;margin-top:0!important;height:calc(var(--review-host-viewport,100dvh) - 76px)!important}'+
+        '.viewer-close{top:calc(var(--review-host-dialog-top,0px) + 12px)!important}';
+      doc.head.appendChild(style);
+      syncingTheme = true;
+      applyDocumentTheme(doc);
+      syncingTheme = false;
+      const resize = new ResizeObserver(() => queueMeasure(view));
+      resize.observe(doc.body);
+      Array.from(doc.body.children).filter(node => !['SCRIPT','STYLE'].includes(node.tagName)).forEach(node => resize.observe(node));
+      const mutation = new MutationObserver(() => queueMeasure(view));
+      mutation.observe(doc.body, {subtree:true,childList:true,characterData:true});
+      const onLoad = () => queueMeasure(view);
+      const onThemeChoice = event => {
+        if (syncingTheme || !event.target.closest?.('[data-theme-choice]')) return;
+        queueMicrotask(() => {
+          const next = doc.documentElement.dataset.theme;
+          if (next !== theme) setTheme(next);
+        });
+      };
+      doc.addEventListener('load', onLoad, true);
+      doc.addEventListener('click', onThemeChoice);
+      view.cleanup.push(() => resize.disconnect(), () => mutation.disconnect(), () => doc.removeEventListener('load',onLoad,true), () => doc.removeEventListener('click',onThemeChoice));
+      if (doc.fonts?.ready) doc.fonts.ready.then(() => queueMeasure(view));
+      queueMeasure(view);
+    }
+
+    function loadView(view) {
+      if (view.frame.dataset.started) return;
+      view.frame.dataset.started = 'true';
+      view.frame.addEventListener('load', () => connectFrame(view));
+      view.frame.srcdoc = prepareDocument(view.html);
+    }
+
+    function selectView(name, focusTab = false) {
+      selected = name;
+      tabNames.forEach(key => {
+        const view = views[key];
+        const active = key === name;
+        view.tab.setAttribute('aria-selected',String(active));
+        view.tab.tabIndex = active ? 0 : -1;
+        view.panel.hidden = !active;
+      });
+      const view = views[name];
+      loadView(view);
+      if (focusTab) view.tab.focus();
+      requestAnimationFrame(() => {
+        // The chart keeps its selected trade; resizing redraws it at the visible width.
+        view.frame.contentWindow?.dispatchEvent(new Event('resize'));
+        queueMeasure(view);
+      });
+    }
+
+    tabNames.forEach((name,index) => {
+      views[name].tab.addEventListener('click', () => selectView(name));
+      views[name].tab.addEventListener('keydown', event => {
+        let target;
+        if (event.key === 'ArrowRight') target = (index + 1) % tabNames.length;
+        else if (event.key === 'ArrowLeft') target = (index + tabNames.length - 1) % tabNames.length;
+        else if (event.key === 'Home') target = 0;
+        else if (event.key === 'End') target = tabNames.length - 1;
+        else return;
+        event.preventDefault();
+        selectView(tabNames[target], true);
+      });
+    });
+    themeButton.addEventListener('click', () => setTheme(theme === 'dark' ? 'light' : 'dark'));
+    window.addEventListener('resize', () => queueMeasure(views[selected]), {passive:true});
+    window.addEventListener('scroll', () => updateViewport(views[selected]), {passive:true});
+    selectView('chart');
+  })();
+  </script>
+</body>
+</html>

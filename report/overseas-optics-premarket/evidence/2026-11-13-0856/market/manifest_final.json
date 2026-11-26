@@ -1,0 +1,26 @@
+[
+  {
+    "id": "quotes_final",
+    "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO,us.IXIC,usSOXX",
+    "started_at": "2026-11-13T00:51:21.889137+00:00",
+    "ok": true,
+    "length": 3664,
+    "retrieved_at": "2026-11-13T00:51:21.964674+00:00"
+  },
+  {
+    "id": "sina_final",
+    "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox,gb_ixic",
+    "started_at": "2026-11-13T00:51:21.889583+00:00",
+    "ok": true,
+    "length": 3308,
+    "retrieved_at": "2026-11-13T00:51:21.956610+00:00"
+  },
+  {
+    "id": "nasdaq_index_final",
+    "url": "https://qt.gtimg.cn/q=us.IXIC,us.IXIC,usSOX,usSOXX,usNDX",
+    "started_at": "2026-11-13T00:51:21.889763+00:00",
+    "ok": true,
+    "length": 1246,
+    "retrieved_at": "2026-11-13T00:51:21.964755+00:00"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ls_electric_order",
+    "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsti1325239.d.html",
+    "retrieved_at": "2026-11-16T02:33:36.656936+00:00",
+    "ok": true,
+    "bytes": 28657
+  },
+  {
+    "name": "kuo_TPU_media",
+    "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwze5704298.d.html",
+    "retrieved_at": "2026-11-16T02:33:36.657368+00:00",
+    "ok": true,
+    "bytes": 29074
+  },
+  {
+    "name": "morgan_stanley_opinion",
+    "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwzi2464773.d.html",
+    "retrieved_at": "2026-11-16T02:33:36.657553+00:00",
+    "ok": true,
+    "bytes": 28931
+  },
+  {
+    "name": "nvda_return_repetition",
+    "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsth5788934.d.html",
+    "retrieved_at": "2026-11-16T02:33:36.657698+00:00",
+    "ok": true,
+    "bytes": 28829
+  }
+]

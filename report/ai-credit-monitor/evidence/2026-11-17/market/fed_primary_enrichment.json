@@ -1,0 +1,50 @@
+{
+  "record_type": "historical_primary_report_enrichment_not_new_today",
+  "event_id": "fed_20261113_fsr_datacenter_leverage_box22",
+  "issuer_or_authority": "Federal Reserve Board",
+  "publication_date": "2026-11-13",
+  "first_monitor_primary_verification_date": "2026-11-17",
+  "reporting_scope": {
+    "debt_issuance_and_public_debt": "through October2026",
+    "other_obligations_figure_C": "2026Q2"
+  },
+  "source": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+  "index_source": "https://www.federalreserve.gov/publications/financial-stability-report.htm",
+  "evidence_grade": "primary_official_full_pdf_box22_printed_pages23_to25_visually_verified",
+  "source_pages_pdf": [
+    31,
+    32,
+    33
+  ],
+  "figures": {
+    "advanced_computing_debt_issuance_2026_through_Oct_USD_greater_than": 680000000000,
+    "advanced_computing_debt_issuance_2023_USD_approx": 130000000000,
+    "share_nonfinancial_investment_grade_issuance_2026_approx_pct": 31,
+    "share_nonfinancial_investment_grade_issuance_2023_pct_less_than": 6,
+    "outstanding_advanced_computing_public_debt_Oct2026_USD_greater_than": 1100000000000,
+    "not_yet_commenced_lease_undiscounted_USD_greater_than": 1000000000000,
+    "other_obligations_take_or_pay_residual_guarantees_undiscounted_USD_greater_than": 2000000000000,
+    "largest_US_BHC_exposure_to_broad_related_categories_USD_approx": 1000000000000
+  },
+  "bank_exposure_scope": "large technology firms, data center developers, advanced computing related SPE/private credit and utility companies; not exclusively AI credit or realized losses",
+  "obligation_scope_companies": [
+    "Amazon",
+    "Alphabet",
+    "Broadcom",
+    "Meta",
+    "Microsoft",
+    "NVIDIA",
+    "Oracle"
+  ],
+  "issuance_definition": "Includes public issuance and trackable Rule144A securities; excludes Section4(a)(2) placements, not complete private credit inventory.",
+  "interpretation": "Confirms increasing debt/contingent-obligation interconnections among hyperscalers, GPU makers, SPEs and lenders. Exposure and undiscounted commitments do not equal current debt due, default or actual losses; do not add to company obligations again.",
+  "deduplication": "This report aggregates existing obligations/deals, not another independent company financing event or evidence of fresh company cash outflow. Historical first verification explicitly labelled.",
+  "recent_issuer_CDS_or_credit_spread_data": false,
+  "realized_losses_verified_by_this_box": false,
+  "raw_files": [
+    "fed_FSR_actual_pdf.pdf",
+    "fed_FSR_actual_pdf.txt",
+    "fed_relevant_pages.png",
+    "fed_manifest.json"
+  ]
+}

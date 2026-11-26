@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-11-05T00:31:38.476034+00:00",
+  "comparison_cutoff": "2026-11-04T00:35:00+00:00",
+  "new_events": [
+    {
+      "id": "oracle_20261104_equity_completed",
+      "company": "Oracle",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-04T21:49:48.000Z",
+      "status": "closed_per_company_8k",
+      "security": "common_stock",
+      "gross_proceeds_usd_approx": 10000000000,
+      "shares": 86206897,
+      "price_usd_per_share": 116.0,
+      "prospectus_estimated_net_proceeds_usd_approx": 9900000000,
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+      "secondary_primary_source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445847/d181425d424b5.htm",
+      "notes": [
+        "Completion is new evidence versus previously preliminary equity plan. Common equity is not debt; dilutes shareholders. Gross10bn should not be represented as exact unrestricted net cash available now."
+      ]
+    },
+    {
+      "id": "oracle_20261104_notes_completed",
+      "company": "Oracle",
+      "event_date": "2026-11-04",
+      "published_at": "2026-11-04T21:49:48.000Z",
+      "status": "issuance_and_sale_consummated_per_company_8k",
+      "principal_usd": 10000000000,
+      "currency": "USD",
+      "rank": "senior unsecured",
+      "coupon_pct": [
+        7.0,
+        7.45,
+        7.85,
+        8.0,
+        8.65
+      ],
+      "maturities": [
+        2029,
+        2031,
+        2033,
+        2037,
+        2046
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+      "notes": [
+        "Confirms prior Nov2pricing progressed to Nov4closing. Not evidence comparable CDS/secondary spreads tightened. Debt adds interest and eventual principal obligations; no new realized operating cashflow."
+      ]
+    }
+  ],
+  "other_new_filings": [
+    {
+      "company": "Oracle",
+      "form": "424B5",
+      "published_at": "2026-11-04T00:52:48.000Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445847/d181425d424b5.htm",
+      "role": "final equity terms"
+    },
+    {
+      "company": "Oracle",
+      "form": "424B2",
+      "published_at": "2026-11-04T00:50:21.000Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445846/d181336d424b2.htm",
+      "role": "final note terms"
+    }
+  ],
+  "coreweave_new_sec_filings_after_cutoff": [],
+  "new_operating_financial_report_verified": false,
+  "new_default_covenant_or_project_cancellation_verified": false,
+  "limits": [
+    "Oracle and CoreWeave IR returnedHTTP429; SEC submissions and documents succeeded.",
+    "No current comparable5yCDS or matched secondary bond spread obtained.",
+    "No comprehensive project/customer/lender search; absence of new issuerSECfilings is not proof no operating or funding risk."
+  ],
+  "judgment": "Material financing-stage completion for Oracle eases this immediate financing execution uncertainty, but does not establish broad risk relief or resolve structural cashflow/capex deficits. No current-sector risk escalation established by these sources."
+}

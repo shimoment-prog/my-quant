@@ -1,0 +1,1379 @@
+[
+  {
+    "company": "avgo",
+    "cik": "0001730168",
+    "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001730168-26-000080",
+        "form": "10-Q",
+        "filingDate": "2026-09-10",
+        "acceptanceDateTime": "2026-09-09T21:56:42.000Z",
+        "primaryDocument": "avgo-20260802.htm"
+      }
+    ]
+  },
+  {
+    "company": "jpmorgan",
+    "cik": "0000019617",
+    "url": "https://data.sec.gov/submissions/CIK0000019617.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001918704-26-036017",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:27:20.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-036016",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:14:39.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-036015",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:13:22.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-036014",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:11:50.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121465",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:11:05.000Z",
+        "primaryDocument": "ea0312692-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-036013",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:10:50.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-036011",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:09:49.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121464",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:09:01.000Z",
+        "primaryDocument": "ea0312678-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121463",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:06:16.000Z",
+        "primaryDocument": "ea0312687-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035977",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:41:14.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035975",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:39:55.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035974",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:38:53.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121436",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:38:33.000Z",
+        "primaryDocument": "ea0312702-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035972",
+        "form": "FWP",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:38:03.000Z",
+        "primaryDocument": "formfwp.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035968",
+        "form": "FWP",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:34:42.000Z",
+        "primaryDocument": "formfwp.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121431",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:33:41.000Z",
+        "primaryDocument": "ea0312671-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035965",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:31:55.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121421",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:28:22.000Z",
+        "primaryDocument": "ea0312673-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121419",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:26:41.000Z",
+        "primaryDocument": "ea0312608-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035959",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:24:23.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121416",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:23:59.000Z",
+        "primaryDocument": "ea0312676-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121415",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:21:01.000Z",
+        "primaryDocument": "ea0312611-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121414",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:20:55.000Z",
+        "primaryDocument": "ea0312621-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121412",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:18:30.000Z",
+        "primaryDocument": "ea0312629-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121411",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:17:20.000Z",
+        "primaryDocument": "ea0312609-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035955",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:15:23.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121406",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:13:55.000Z",
+        "primaryDocument": "ea0312615-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121368",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:32:31.000Z",
+        "primaryDocument": "ea0312686-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121367",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:27:45.000Z",
+        "primaryDocument": "ea0312645-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035939",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:26:58.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121365",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:20:46.000Z",
+        "primaryDocument": "ea0312624-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121364",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:20:15.000Z",
+        "primaryDocument": "ea0312626-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121361",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:17:46.000Z",
+        "primaryDocument": "ea0312622-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121360",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:17:37.000Z",
+        "primaryDocument": "ea0312620-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035937",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:17:34.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035936",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:17:04.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121358",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:16:34.000Z",
+        "primaryDocument": "ea0312619-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121354",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:14:45.000Z",
+        "primaryDocument": "ea0312617-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121351",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:13:09.000Z",
+        "primaryDocument": "ea0312634-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121349",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:09:39.000Z",
+        "primaryDocument": "ea0312639-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035934",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:07:58.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035933",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:07:57.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035931",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:02:32.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121341",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:00:58.000Z",
+        "primaryDocument": "ea0312665-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035927",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:00:38.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035918",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T19:44:49.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121312",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T19:21:42.000Z",
+        "primaryDocument": "ea0312638-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121308",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T19:19:12.000Z",
+        "primaryDocument": "ea0312625-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121306",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T19:18:15.000Z",
+        "primaryDocument": "ea0312632-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121300",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T19:12:42.000Z",
+        "primaryDocument": "ea0312488-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121297",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T19:11:48.000Z",
+        "primaryDocument": "ea0312431-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121276",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T18:54:26.000Z",
+        "primaryDocument": "ea0312513-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121272",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T18:50:55.000Z",
+        "primaryDocument": "ea0312512-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121265",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T18:46:56.000Z",
+        "primaryDocument": "ea0312515-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121260",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T18:42:11.000Z",
+        "primaryDocument": "ea0312542-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035901",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T18:37:50.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035900",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T18:32:25.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121242",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T17:55:14.000Z",
+        "primaryDocument": "ea0312633-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035844",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T17:35:59.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035843",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T17:30:34.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121229",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T17:03:23.000Z",
+        "primaryDocument": "ea0312546-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121227",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T16:57:59.000Z",
+        "primaryDocument": "ea0312433-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121221",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T16:51:12.000Z",
+        "primaryDocument": "ea0312424-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035835",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T16:26:09.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035831",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T16:12:48.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121200",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:57:04.000Z",
+        "primaryDocument": "ea0312547-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035826",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:42:15.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035825",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:41:28.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035823",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:32:28.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035822",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:32:18.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035821",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:31:30.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035820",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:31:08.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035819",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:29:30.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035818",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:29:01.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035815",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:20:01.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035814",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:18:55.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035813",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:17:55.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035812",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:15:44.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035810",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:12:17.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035809",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T15:00:05.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035808",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:58:10.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035806",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:57:35.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035805",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:56:46.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035804",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:56:45.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035803",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:51:18.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121159",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:50:22.000Z",
+        "primaryDocument": "ea0312607-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035802",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:50:00.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035800",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:43:51.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035799",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:40:32.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035798",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:38:47.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001213900-26-121155",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:37:33.000Z",
+        "primaryDocument": "ea0312468-01_424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035797",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:37:17.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035796",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:37:11.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035795",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:33:34.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035794",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:33:17.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035793",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:28:50.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035792",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:28:17.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035791",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:27:16.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035790",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:27:15.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035789",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:26:41.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035788",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:25:49.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035787",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:24:21.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035786",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:23:59.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035785",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:23:52.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035784",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:22:48.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035783",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:22:21.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035782",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:20:55.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035781",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:20:48.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035780",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:19:19.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035779",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:18:33.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035778",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:15:51.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035777",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T14:14:12.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001918704-26-035772",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T13:01:59.000Z",
+        "primaryDocument": "form424b2.htm",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0000019617-26-000407",
+        "form": "8-K",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T13:00:28.000Z",
+        "primaryDocument": "jpm-20261117.htm",
+        "items": "5.02"
+      },
+      {
+        "accessionNumber": "0001213900-26-121024",
+        "form": "424B2",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T02:31:13.000Z",
+        "primaryDocument": "ea0312540-01_424b2.htm",
+        "items": ""
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-069523",
+        "form": "10-Q",
+        "filingDate": "2026-11-03",
+        "acceptanceDateTime": "2026-11-03T21:17:12.000Z",
+        "primaryDocument": "jpm-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "apollo",
+    "cik": "0001858681",
+    "url": "https://data.sec.gov/submissions/CIK0001858681.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001858681-26-000067",
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:11:44.000Z",
+        "primaryDocument": "apo-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "blackstone",
+    "cik": "0001393818",
+    "url": "https://data.sec.gov/submissions/CIK0001393818.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001193125-26-451802",
+        "form": "10-Q",
+        "filingDate": "2026-11-06",
+        "acceptanceDateTime": "2026-11-06T21:02:22.000Z",
+        "primaryDocument": "d179995d10q.htm"
+      }
+    ]
+  },
+  {
+    "company": "ares",
+    "cik": "0001176948",
+    "url": "https://data.sec.gov/submissions/CIK0001176948.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-071628",
+        "form": "10-Q",
+        "filingDate": "2026-11-06",
+        "acceptanceDateTime": "2026-11-06T20:52:04.000Z",
+        "primaryDocument": "ares-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "iren",
+    "cik": "0001878848",
+    "url": "https://data.sec.gov/submissions/CIK0001878848.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001878848-26-000066",
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:06:52.000Z",
+        "primaryDocument": "iren-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "terawulf",
+    "cik": "0001083301",
+    "url": "https://data.sec.gov/submissions/CIK0001083301.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-071671",
+        "form": "10-Q",
+        "filingDate": "2026-11-06",
+        "acceptanceDateTime": "2026-11-06T21:07:00.000Z",
+        "primaryDocument": "wulf-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "nvda",
+    "cik": "0001045810",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001045810-26-000088",
+        "form": "8-K",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:20:51.000Z",
+        "primaryDocument": "nvda-20261117.htm",
+        "items": "2.02,9.01"
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001045810-26-000075",
+        "form": "10-Q",
+        "filingDate": "2026-08-26",
+        "acceptanceDateTime": "2026-08-26T20:36:00.000Z",
+        "primaryDocument": "nvda-20260726.htm"
+      }
+    ]
+  },
+  {
+    "company": "amd",
+    "cik": "0000002488",
+    "url": "https://data.sec.gov/submissions/CIK0000002488.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0000002488-26-000211",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:29:12.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794950949.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0000002488-26-000209",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:24:12.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794950650.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0000002488-26-000207",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:22:07.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794950524.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0000002488-26-000205",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:20:07.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794950405.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0000002488-26-000203",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:17:39.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794950257.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0000002488-26-000201",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:15:33.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794950130.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0000002488-26-000199",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:12:13.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794949930.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001950047-26-011199",
+        "form": "144",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:00:48.000Z",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "items": ""
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0000002488-26-000191",
+        "form": "10-Q",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-03T23:00:17.000Z",
+        "primaryDocument": "amd-20260926.htm"
+      }
+    ]
+  },
+  {
+    "company": "mrvl",
+    "cik": "0001835632",
+    "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001628280-26-074618",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-18T00:03:48.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794960225.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001628280-26-074462",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T20:30:07.000Z",
+        "primaryDocument": "xslF345X06/wk-form4_1794947404.xml",
+        "items": ""
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001835632-26-000025",
+        "form": "10-Q",
+        "filingDate": "2026-08-28",
+        "acceptanceDateTime": "2026-08-28T20:04:02.000Z",
+        "primaryDocument": "mrvl-20260801.htm"
+      }
+    ]
+  },
+  {
+    "company": "lite",
+    "cik": "0001633978",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001489550-26-000016",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:19:50.000Z",
+        "primaryDocument": "xslF345X06/form4-11172026_101146.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001570465-26-000008",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:18:24.000Z",
+        "primaryDocument": "xslF345X06/form4-11172026_101121.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001573338-26-000022",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:17:03.000Z",
+        "primaryDocument": "xslF345X06/form4-11172026_101159.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001561100-26-000010",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T22:15:23.000Z",
+        "primaryDocument": "xslF345X06/form4-11172026_101119.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001950047-26-011207",
+        "form": "144",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:05:23.000Z",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "items": ""
+      },
+      {
+        "accessionNumber": "0001950047-26-011206",
+        "form": "144",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:04:56.000Z",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "items": ""
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-069615",
+        "form": "10-Q",
+        "filingDate": "2026-11-03",
+        "acceptanceDateTime": "2026-11-03T21:53:05.000Z",
+        "primaryDocument": "lite-20260926.htm"
+      }
+    ]
+  },
+  {
+    "company": "cohr",
+    "cik": "0000820318",
+    "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0000820318-26-000023",
+        "form": "10-Q",
+        "filingDate": "2026-11-04",
+        "acceptanceDateTime": "2026-11-04T21:06:23.000Z",
+        "primaryDocument": "iivi-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "aaoi",
+    "cik": "0001158114",
+    "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001104659-26-129055",
+        "form": "8-K",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:09:50.000Z",
+        "primaryDocument": "tm2629531d2_8k.htm",
+        "items": "1.01,9.01"
+      },
+      {
+        "accessionNumber": "0001104659-26-129051",
+        "form": "424B5",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:06:29.000Z",
+        "primaryDocument": "tm2629531-1_424b5.htm",
+        "items": ""
+      }
+    ],
+    "latest10q": [
+      {
+        "accessionNumber": "0001437749-26-035282",
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:16:58.000Z",
+        "primaryDocument": "aaoi20260930_10q.htm"
+      }
+    ]
+  },
+  {
+    "company": "fn",
+    "cik": "0001408710",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001408710-26-000041",
+        "form": "10-Q",
+        "filingDate": "2026-11-03",
+        "acceptanceDateTime": "2026-11-03T13:14:40.000Z",
+        "primaryDocument": "fn-20260925.htm"
+      }
+    ]
+  },
+  {
+    "company": "cien",
+    "cik": "0000936395",
+    "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001628280-26-060361",
+        "form": "10-Q",
+        "filingDate": "2026-09-03",
+        "acceptanceDateTime": "2026-09-03T19:57:02.000Z",
+        "primaryDocument": "cien-20260801.htm"
+      }
+    ]
+  },
+  {
+    "company": "nebius",
+    "cik": "0001513845",
+    "url": "https://data.sec.gov/submissions/CIK0001513845.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [
+      {
+        "accessionNumber": "0001513845-26-000151",
+        "form": "4",
+        "filingDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T11:56:19.000Z",
+        "primaryDocument": "xslF345X06/form4.xml",
+        "items": ""
+      }
+    ],
+    "latest10q": []
+  },
+  {
+    "company": "athene",
+    "cik": "0001527469",
+    "url": "https://data.sec.gov/submissions/CIK0001527469.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": [
+      {
+        "accessionNumber": "0001527469-26-000085",
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "acceptanceDateTime": "2026-11-05T21:17:23.000Z",
+        "primaryDocument": "ahl-20260930.htm"
+      }
+    ]
+  },
+  {
+    "company": "telus",
+    "cik": "0000868675",
+    "url": "https://data.sec.gov/submissions/CIK0000868675.json",
+    "retrieved_at": "2026-11-18T00:34:40.237978+00:00",
+    "ok": true,
+    "new_filings": [],
+    "latest10q": []
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "classified_at": "2026-11-16T14:32:14+08:00",
+  "risk": "偏高",
+  "numeric_probability": null,
+  "probability_label": "暂无可靠百分比",
+  "model_validated": false,
+  "event": "Any traded price strictly below165.50 after forecast_start and by deadline",
+  "reasons": [
+    "Price166.48 only0.59% above frozen165.50 and below cumulativeVWAP173.3419.",
+    "Afternoonreboundhighs and lows declined; completed14:20-14:25and14:25-14:30windows createfreshlows and volumeincreases52.3% then10.6%.",
+    "Eoptolink-11.25%,InnoLight-12.04% bothweakerthanETF-7.66% andChiNext-4.14%.",
+    "PriorcompletedUSsessionNov13sixoptics-4.49%to-7.31%; sentimentcontextnotdomesticordercancellation."
+  ],
+  "counterevidence": [
+    "Remainingforecastwindowis27min46sec, shorterthanmorning; continueddecline isnotcertain.",
+    "Latest166.48reboundsfrom165.50; mustjudge whether reboundcanhold aftercompletedwindow."
+  ],
+  "risk_decreases_if": "Hold165.50, recover167.00 then higherrecentreboundarea168.10, with higherretracementlows and improvementrelativetoETF/ChiNext; dynamicVWAP173.34 is furtherrepairreference.",
+  "risk_increases_if": "Equalcompletedwindowvolumeexpands near165.50 and reboundhighslower, alongsidepeer/ETFweakness.",
+  "equal_duration_comparisons": [
+    {
+      "first_bar_end": "14:20",
+      "second_bar_end": "14:25",
+      "first_volume_shares": 1093835,
+      "second_volume_shares": 1665450,
+      "equal_completed_minutes": 5,
+      "volume_change_pct": 52.2578816731957,
+      "note": "Completed five-minute windows only, both precede forecast."
+    },
+    {
+      "first_bar_end": "14:25",
+      "second_bar_end": "14:30",
+      "first_volume_shares": 1665450,
+      "second_volume_shares": 1841194,
+      "equal_completed_minutes": 5,
+      "volume_change_pct": 10.552343210543702,
+      "note": "Completed five-minute windows only, both precede forecast."
+    }
+  ],
+  "relative_strength_pctpoints": {
+    "sz300308": 0.7913630810527987,
+    "sh515880": -3.5930315664997483,
+    "sz399006": -7.111579096605347
+  },
+  "source_timing_note": "Risk/threshold/windowfixed14:32:14usingstockquote14:32:12, completedbarsending14:30 and prioroverseascontext. Laternewsreviewissupplemental and doesnotalterfrozenforecast."
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "qcom_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom-20261104.htm",
+    "retrieved_at": "2026-11-05T00:46:22.428878+00:00",
+    "ok": true,
+    "bytes": 27359,
+    "links": [
+      "qcom092726erex991.htm"
+    ]
+  },
+  {
+    "name": "arm_6k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000141/arm-20261104.htm",
+    "retrieved_at": "2026-11-05T00:46:22.429348+00:00",
+    "ok": true,
+    "bytes": 13924,
+    "links": [
+      "exhibit991fye27q230-sepx26.htm",
+      "exhibit992fye27q230-sepx26.htm"
+    ]
+  },
+  {
+    "name": "cnbc_wrap",
+    "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+    "retrieved_at": "2026-11-05T00:46:22.429510+00:00",
+    "ok": true,
+    "bytes": 909202,
+    "links": []
+  },
+  {
+    "name": "reuters_search",
+    "url": "https://www.bing.com/search?q=Reuters+November+4+2026+Wall+Street+ends+higher+Democrats+Congress+data+center",
+    "retrieved_at": "2026-11-05T00:46:22.429658+00:00",
+    "ok": true,
+    "bytes": 101936,
+    "links": [
+      "https://link.reuters.com/",
+      "https://link.reuters.com/",
+      "https://newslink.reuters.com/public/33242946",
+      "https://newslink.reuters.com/public/33242946",
+      "https://newslink.reuters.com/public/32194497",
+      "https://newslink.reuters.com/public/32194497",
+      "https://www.thomsonreuters.com/en/products-services/news-media",
+      "https://www.thomsonreuters.com/en/products-services/news-media"
+    ]
+  }
+]

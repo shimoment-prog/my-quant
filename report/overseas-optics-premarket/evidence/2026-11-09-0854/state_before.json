@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-05T16:39:09.559065+08:00",
+  "automation_id": "automation",
+  "automation_status": "ACTIVE",
+  "timezone": "Asia/Shanghai",
+  "schedule_local": [
+    "08:45 Shanghai/Shenzhen trading days"
+  ],
+  "initialized": true,
+  "baseline_status": "active_after_first_scheduled_observation",
+  "last_observation_file": "observations/2026-11-06-0847.json",
+  "last_run_at": "2026-11-06T08:47:31+08:00",
+  "last_data_cutoff_at": "2026-11-06T08:47:31+08:00",
+  "seen_events": [
+    {
+      "id": "AAOI_2026Q3_earnings_2026-11-05",
+      "disclosed_at": "2026-11-05T21:10:28Z",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "source": "https://investors.ao-inc.com/2026-11-05-Applied-Optoelectronics-Reports-Third-Quarter-2026-Results"
+    },
+    {
+      "id": "AAOI_2026Q3_10Q_2026-11-05",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "source": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm"
+    },
+    {
+      "id": "LITE_425_filed_2026-11-05_content_2026-11-04",
+      "first_reported_at": "2026-11-06T08:47:31+08:00",
+      "classification": "newfilingoldmergercommunication; no verifiednewterms"
+    }
+  ],
+  "last_regular_us_session_date": "2026-11-05",
+  "historical_context_directory": "../eoptolink-low-monitor",
+  "intraday_monitor_write_allowed": false,
+  "notification_intent": "Deliver each normal A-share trading-day premarket report in current chat; skip closures.",
+  "schedule_config_verified": true,
+  "target_thread_id": "01a19b35-8bc7-7af0-8064-49830cf3fea6",
+  "last_a_share_session_date": "2026-11-05",
+  "last_assessment": {
+    "a_share_sector": "optical communications / optical modules",
+    "opening_bias": "低开承压",
+    "full_day_base_case": "弱势震荡、反弹反复",
+    "opening_confidence": "中等",
+    "full_day_confidence": "中等偏低",
+    "numeric_probability": null,
+    "model_validated": false,
+    "probability_label": "暂无可靠百分比",
+    "supporting_evidence": [
+      "Nov5sixopticsregularreturns -12.98%to-20.89%, SOX-12.25%, Nasdaq-5.52%; sector weakness broader than one earnings event.",
+      "Nov5Ashare Eoptolink-5.54%, Innolight-7.51%, communicationsETF-1.61%, ChiNext+0.87%; local sector already relatively weak.",
+      "Afterhoursrebound in5opticsnames is partial and AAOIstillnegative; afterhours liquidity differs and returns must not be merged with regularsession."
+    ],
+    "counterevidence": [
+      "AAOIQ3realizedrevenuegrowthandGAAPprofitability plus Q4higherrevenueguidance do not support assuming wholesale realized-demandcollapse.",
+      "AAOIUSexpansiondelay attributed bycompany to electricalpowerandconstruction: execution/supplyconstraint, not proof ofcustomercancellations.",
+      "CoherentNov4afterhoursgrowthandguidance are historicalknowncontext; doesnotguaranteeothersordersorstockrebound."
+    ],
+    "alternative_scenarios": [
+      {
+        "scenario": "低开后修复",
+        "conditions": "早盘两只光模块股同步收窄跌幅，站回当日成交均价，相对创业板及通信ETF转强。"
+      },
+      {
+        "scenario": "压力扩大",
+        "conditions": "反弹高点持续降低，等长回踩成交放大，个股与板块一同走弱。"
+      }
+    ],
+    "opening_validation_signals": [
+      "新易盛、中际旭创能否同步收窄跌幅并改善相对创业板、通信ETF强弱。",
+      "能否站回开盘后实际形成的动态成交均价，首次反弹后回踩不再创新低。",
+      "只比较当日等长已完成时段成交：上涨时放大、回踩时收缩才支持修复；不据此断言机构流入。"
+    ],
+    "medium_term": "必须继续核对订单交付、毛利和现金回款；单夜暴跌不足以证明新易盛丢单或中期景气已逆转。"
+  },
+  "last_notification_status": "NOTIFY",
+  "last_notification_delivery_status": "prepared_for_final_response",
+  "last_market_snapshot_file": "evidence/2026-11-06-0847/market/analysis.json"
+}

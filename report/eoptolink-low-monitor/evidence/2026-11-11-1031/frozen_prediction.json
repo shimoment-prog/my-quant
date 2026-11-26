@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-11-1031-L18730",
+  "symbol": "300502.SZ",
+  "scheduled_check_at": "2026-11-11T10:30:00+08:00",
+  "triggered_at": "2026-11-11T10:25:50.642+08:00",
+  "created_at": "2026-11-11T10:31:15+08:00",
+  "forecast_start": "2026-11-11T10:31:15+08:00",
+  "snapshot_time": "2026-11-11T10:31:12+08:00",
+  "threshold": 187.3,
+  "comparison": "strictly_less_than",
+  "event": "Any traded price strictly below187.30 after forecast_start and by deadline",
+  "deadline": "2026-11-11T15:00:00+08:00",
+  "risk": "中等",
+  "numeric_probability": null,
+  "model_validated": false,
+  "status": "pending",
+  "settled": false,
+  "note": "Morning forecast starts at actual creation, never backdated to10:30 or trigger. The contemporaneous cumulative day low is frozen independently of yesterday predictions and historical179.83 line. No tickstream between snapshot and creation; actual quote age retained."
+}

@@ -1,0 +1,401 @@
+{
+  "prepared_at": "2026-11-11T01:19:00.601677+00:00",
+  "last_completed_us_session": "2026-11-10",
+  "us_equities": {
+    "usDJI": {
+      "name": "道琼斯",
+      "price": 52231.89,
+      "previous_close": 52389.75,
+      "open": 52163.21,
+      "change_pct": -0.3,
+      "high": 52316.89,
+      "low": 51977.08,
+      "provider_timestamp": "2026-11-10 17:00:40",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usIXIC": {
+      "name": "纳斯达克",
+      "price": 25065.87,
+      "previous_close": 25253.14,
+      "open": 25047.45,
+      "change_pct": -0.74,
+      "high": 25286.83,
+      "low": 24816.1,
+      "provider_timestamp": "2026-11-10 17:15:59",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usINX": {
+      "name": "标普500",
+      "price": 7520.93,
+      "previous_close": 7549.94,
+      "open": 7513.09,
+      "change_pct": -0.38,
+      "high": 7543.92,
+      "low": 7470.43,
+      "provider_timestamp": "2026-11-10 17:00:31",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usNVDA": {
+      "name": "英伟达",
+      "price": 168.89,
+      "previous_close": 178.67,
+      "open": 173.97,
+      "change_pct": -5.47,
+      "high": 174.69,
+      "low": 165.89,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usAMD": {
+      "name": "超威半导体",
+      "price": 515.21,
+      "previous_close": 508.58,
+      "open": 502.8,
+      "change_pct": 1.3,
+      "high": 539.25,
+      "low": 495.0,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usMSFT": {
+      "name": "微软",
+      "price": 533.16,
+      "previous_close": 545.18,
+      "open": 542.98,
+      "change_pct": -2.2,
+      "high": 544.19,
+      "low": 526.37,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usMETA": {
+      "name": "Meta Platforms",
+      "price": 641.39,
+      "previous_close": 641.37,
+      "open": 637.98,
+      "change_pct": 0.0,
+      "high": 647.28,
+      "low": 635.5,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usAMZN": {
+      "name": "亚马逊",
+      "price": 270.87,
+      "previous_close": 266.93,
+      "open": 266.21,
+      "change_pct": 1.48,
+      "high": 272.88,
+      "low": 266.14,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usGOOG": {
+      "name": "谷歌-C",
+      "price": 284.92,
+      "previous_close": 286.01,
+      "open": 287.15,
+      "change_pct": -0.38,
+      "high": 289.5,
+      "low": 283.37,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usAVGO": {
+      "name": "博通",
+      "price": 331.98,
+      "previous_close": 319.48,
+      "open": 316.71,
+      "change_pct": 3.91,
+      "high": 334.67,
+      "low": 316.69,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usLITE": {
+      "name": "Lumentum",
+      "price": 585.57,
+      "previous_close": 596.16,
+      "open": 575.06,
+      "change_pct": -1.78,
+      "high": 612.62,
+      "low": 570.41,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usMRVL": {
+      "name": "迈威尔科技",
+      "price": 154.39,
+      "previous_close": 154.6,
+      "open": 149.97,
+      "change_pct": -0.14,
+      "high": 158.6,
+      "low": 147.79,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usCOHR": {
+      "name": "Coherent Corp.",
+      "price": 214.66,
+      "previous_close": 225.19,
+      "open": 214.91,
+      "change_pct": -4.68,
+      "high": 227.77,
+      "low": 207.12,
+      "provider_timestamp": "2026-11-10 16:08:16",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usCIEN": {
+      "name": "Ciena科技",
+      "price": 272.1,
+      "previous_close": 269.33,
+      "open": 263.51,
+      "change_pct": 1.03,
+      "high": 282.99,
+      "low": 261.0,
+      "provider_timestamp": "2026-11-10 16:08:16",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usAAOI": {
+      "name": "应用光电",
+      "price": 48.32,
+      "previous_close": 52.1,
+      "open": 49.37,
+      "change_pct": -7.26,
+      "high": 51.99,
+      "low": 46.39,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usFN": {
+      "name": "Fabrinet",
+      "price": 348.52,
+      "previous_close": 365.94,
+      "open": 361.69,
+      "change_pct": -4.76,
+      "high": 368.55,
+      "low": 332.04,
+      "provider_timestamp": "2026-11-10 16:08:16",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usQCOM": {
+      "name": "高通",
+      "price": 173.53,
+      "previous_close": 171.47,
+      "open": 168.73,
+      "change_pct": 1.2,
+      "high": 174.41,
+      "low": 167.2,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usARM": {
+      "name": "安谋",
+      "price": 181.49,
+      "previous_close": 186.3,
+      "open": 181.81,
+      "change_pct": -2.58,
+      "high": 186.51,
+      "low": 175.78,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usCRWV": {
+      "name": "CoreWeave",
+      "price": 48.73,
+      "previous_close": 48.98,
+      "open": 48.1,
+      "change_pct": -0.51,
+      "high": 51.02,
+      "low": 47.06,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    },
+    "usIREN": {
+      "name": "Iren Limited",
+      "price": 19.73,
+      "previous_close": 21.41,
+      "open": 20.85,
+      "change_pct": -7.85,
+      "high": 21.67,
+      "low": 19.03,
+      "provider_timestamp": "2026-11-10 16:00:02",
+      "market_session": "2026-11-10",
+      "price_scope": "regular_session_close_confirmed_by_news_for_indices_not_provider_update_time_equals_close"
+    }
+  },
+  "sox": {
+    "price": 9998.3303,
+    "change_pct": -0.35,
+    "market_session": "2026-11-10",
+    "provider_updated_beijing": "2026-11-11 06:16:01",
+    "source": "https://hq.sinajs.cn/list=gb_sox",
+    "instrument": "Philadelphia_Semiconductor_Index_not_SOXX_ETF"
+  },
+  "a_share_previous_close": {
+    "sh000001": {
+      "market_session": "2026-11-10",
+      "name": "上证指数",
+      "open": 3682.04,
+      "price": 3663.72,
+      "previous_close": 3660.79,
+      "high": 3683.73,
+      "low": 3660.72,
+      "change_pct": 0.08,
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2026-11-09,2026-11-10,2,qfq",
+      "note": "Use historicalday array; ignore currentday preauction qt embedded in same response."
+    },
+    "sz399001": {
+      "market_session": "2026-11-10",
+      "name": "深证成指",
+      "open": 11313.32,
+      "price": 11241.54,
+      "previous_close": 11145.49,
+      "high": 11315.53,
+      "low": 11217.01,
+      "change_pct": 0.86,
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001,day,2026-11-09,2026-11-10,2,qfq",
+      "note": "Use historicalday array; ignore currentday preauction qt embedded in same response."
+    },
+    "sz399006": {
+      "market_session": "2026-11-10",
+      "name": "创业板指",
+      "open": 2518.44,
+      "price": 2494.4,
+      "previous_close": 2458.56,
+      "high": 2520.01,
+      "low": 2487.56,
+      "change_pct": 1.46,
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2026-11-09,2026-11-10,2,qfq",
+      "note": "Use historicalday array; ignore currentday preauction qt embedded in same response."
+    }
+  },
+  "previous_sh_sz_turnover_yuan": 1504813000000.0,
+  "previous_sh_sz_turnover_source": "https://finance.ce.cn/stock/gsgdbd/202611/t20261110_3289989.shtml",
+  "previous_sh_sz_turnover_change_vs_prior_day_pct": 1.497333098382092,
+  "cross_assets": [
+    {
+      "name": "A50 futures vendor indication",
+      "value": 12871.85,
+      "unit": "points",
+      "previous_vendor_settlement": 12917.0,
+      "change_pct": -0.34953936672601493,
+      "quote_time_beijing": "2026-11-11T09:17:20+08:00",
+      "source": "https://hq.sinajs.cn/list=hf_CHA50CFD",
+      "is_current_morning_quote": true,
+      "caveat": "Vendor indication not independently verified exchange direct. Comparison uses vendor settlement field."
+    },
+    {
+      "name": "WTI futures vendor indication",
+      "value": 86.58,
+      "unit": "USD_per_barrel",
+      "previous_vendor_settlement": 86.04,
+      "change_pct": 0.6276150627614996,
+      "quote_time_beijing": "2026-11-11T09:17:16+08:00",
+      "source": "https://hq.sinajs.cn/list=hf_CL",
+      "is_current_morning_quote": true,
+      "caveat": "Vendor indication not independently verified exchange direct. Comparison uses vendor settlement field."
+    },
+    {
+      "name": "Gold futures vendor indication",
+      "value": 4034.744,
+      "unit": "USD_per_ounce",
+      "previous_vendor_settlement": 4030.2,
+      "change_pct": 0.112748746960456,
+      "quote_time_beijing": "2026-11-11T09:17:21+08:00",
+      "source": "https://hq.sinajs.cn/list=hf_GC",
+      "is_current_morning_quote": true,
+      "caveat": "Vendor indication not independently verified exchange direct. Comparison uses vendor settlement field."
+    },
+    {
+      "name": "USD/CNH",
+      "value": 6.6771,
+      "previous_vendor_close": 6.6763,
+      "change_pct": 0.011982685020139883,
+      "quote_time_beijing": "2026-11-11T09:17:12+08:00",
+      "source": "https://hq.sinajs.cn/list=fx_susdcnh"
+    },
+    {
+      "name": "Dollar index",
+      "value": 102.2887,
+      "previous_vendor_close": 102.2649,
+      "change_pct": 0.023272892263137557,
+      "quote_time_beijing": "2026-11-11T09:17:12+08:00",
+      "source": "https://hq.sinajs.cn/list=DINIW"
+    },
+    {
+      "name": "US10Y Treasury yield",
+      "value_pct": 5.0,
+      "previous_vendor_close_pct": 4.862,
+      "change_bp": 13.79999999999999,
+      "quote_time_exchange": "2026-11-10T17:05:00.000-0500",
+      "source": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=US10Y&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json",
+      "provider": "CNBC Quote Cache / Tradeweb",
+      "caveat": "Timed electronic bond quote, not current Beijing09:17 or exact16:00US equity close."
+    }
+  ],
+  "previous_forecast_review": {
+    "available": true,
+    "forecast_file": "2026-11-10.json",
+    "original_forecast": {
+      "main": "高开后震荡修复，量能跟不上时仍有冲高回落风险。",
+      "confidence": "中等",
+      "opening_direction": "美股11月9日广泛反弹及A50最后夜盘涨1.08%支持高开尝试，09:25竞价验证；无精确开盘缺口预测。",
+      "full_day": "海外半导体和光通信大涨有助科技修复，国内前日缩量及分化、高利率约束使全天持续性仍待同时间成交与广度确认。",
+      "upside_alternative": "上涨扩散、同时间成交改善，科技回踩站稳分时成交均价且指数站稳昨日高点，则反弹延续。",
+      "downside_alternative": "高开后失守开盘区间转冲高回落；上证3653.05或创业板2458.01昨日低点失守且广度恶化，转继续承压。",
+      "medium_term": "中期止跌尚未确认；今晚美国CPI及未来财报可能改变判断，不把价格反弹或管理层展望当作经营回款兑现。",
+      "numeric_probability": null,
+      "validation_signals": [
+        "09:30—10:00与昨日同一时刻成交额和上涨扩散。",
+        "科技回踩分时成交均价、沪指3679.09/创业板2511.71昨日高点站稳情况。",
+        "开盘区间及上证3653.05/创业板2458.01昨日低点。"
+      ],
+      "watchlist_notes": {
+        "GigaDevice": "海外半导体广泛上涨改善板块情绪，NVDA个体治理事件不等同全行业订单下降。",
+        "Eoptolink_Innolight": "海外光通信普涨支持情绪；没有新正式A股订单变动披露，旧回购和订单展望不重复。",
+        "CATL_Wuliangye_Moutai": "公告源无新条目。乘用车行业媒体数据的原始统计范围未单独核实，未强推宁德订单变化或单独作为报告方向催化。"
+      }
+    },
+    "observed": {
+      "sh000001": {
+        "open_change_pct": 0.5804757989395837,
+        "close_change_pct": 0.08,
+        "close_below_open": true
+      },
+      "sz399001": {
+        "open_change_pct": 1.5058108705853224,
+        "close_change_pct": 0.86,
+        "close_below_open": true
+      },
+      "sz399006": {
+        "open_change_pct": 2.4355720421710414,
+        "close_change_pct": 1.46,
+        "close_below_open": true
+      }
+    },
+    "assessment": "高开方向兑现，全天收涨但均低于开盘；主情景震荡修复部分兑现，冲高回落风险也兑现。创业板高开约2.44%收涨1.46%，不能称普遍反转。",
+    "deviation_reason": "盘面表现为反弹持续性不足；市场广度改善但量能仅温和增加，不能精确归因于未经核实的资金流。",
+    "numeric_hit_rate": null
+  },
+  "current_day_auction_quotes_excluded_from_prior_session": true
+}

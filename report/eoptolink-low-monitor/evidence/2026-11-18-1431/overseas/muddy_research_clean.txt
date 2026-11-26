@@ -1,0 +1,976 @@
+
+ 
+
+       
+          
+          
+      
+
+ 
+	 
+	 
+	 
+
+	
+	 Research - Muddy Waters Research 
+
+	 
+
+	 
+ 
+ 
+ 
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 {"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/muddywatersresearch.com\/research\/","url":"https:\/\/muddywatersresearch.com\/research\/","name":"Research - Muddy Waters Research","isPartOf":{"@id":"https:\/\/muddywatersresearch.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/muddywatersresearch.com\/research\/#primaryimage"},"image":{"@id":"https:\/\/muddywatersresearch.com\/research\/#primaryimage"},"thumbnailUrl":"https:\/\/muddywatersresearch.com\/wp-content\/uploads\/2010\/10\/sepia-subway.jpg","datePublished":"2010-10-29T09:09:54+00:00","dateModified":"2017-09-08T17:22:38+00:00","breadcrumb":{"@id":"https:\/\/muddywatersresearch.com\/research\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/muddywatersresearch.com\/research\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/muddywatersresearch.com\/research\/#primaryimage","url":"https:\/\/muddywatersresearch.com\/wp-content\/uploads\/2010\/10\/sepia-subway.jpg","contentUrl":"https:\/\/muddywatersresearch.com\/wp-content\/uploads\/2010\/10\/sepia-subway.jpg","width":1800,"height":600},{"@type":"BreadcrumbList","@id":"https:\/\/muddywatersresearch.com\/research\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/muddywatersresearch.com\/"},{"@type":"ListItem","position":2,"name":"Research"}]},{"@type":"WebSite","@id":"https:\/\/muddywatersresearch.com\/#website","url":"https:\/\/muddywatersresearch.com\/","name":"Muddy Waters Research","description":"Due diligence-based investment research","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/muddywatersresearch.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]} 
+	 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+ 
+ 
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+ 
+ 
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+ 
+ 
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+ 
+
+ 
+/* Dark cover/section overlay + on-dark text. */
+body .wp-site-blocks .is-style-overlay-dark .wp-block-cover__background { background-color: var(--wp--preset--color--base-3); color: var(--wp--preset--color--contrast-3); }
+.wp-block-cover.is-style-overlay-dark .wp-block-cover__background.has-background-dim { opacity: 0.50 !important; }
+:is(.wp-block-designsetgo-section, .wp-block-designsetgo-scroll-slides).is-style-overlay-dark { --dsgo-overlay-color: var(--wp--preset--color--base-3); --dsgo-overlay-opacity: 0.50; color: var(--wp--preset--color--contrast-3); }
+.dsgo-image-accordion-item.is-style-overlay-dark { --dsgo-overlay-color: var(--wp--preset--color--base-3); }
+.wp-block-group.has-background.is-style-overlay-dark { box-shadow: inset 0 0 0 9999px color-mix(in srgb, var(--wp--preset--color--base-3) 50%, transparent); }
+body .wp-site-blocks .is-style-overlay-dark, body .wp-site-blocks .is-style-on-dark { --dsgo-text-color: var(--wp--preset--color--contrast-3); color: var(--wp--preset--color--contrast-3) !important; }
+body .wp-site-blocks .is-style-overlay-dark :is(h1,h2,h3,h4,h5,h6,p,li,blockquote,cite), body .wp-site-blocks .is-style-on-dark :is(h1,h2,h3,h4,h5,h6,p,li,blockquote,cite) { color: var(--wp--preset--color--contrast-3) !important; }
+
+/* Solid dark section background + light text. */
+.is-style-bg-dark { background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); }
+.is-style-bg-dark a { color: var(--wp--preset--color--base); }
+/*# sourceURL=site-designer-shared-pattern-classes-inline-css */
+ 
+ 
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+   
+ 
+ 
+ 
+ 
+ 
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+ 
+ 
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-22031340-1', 'auto');
+ 
+	ga('send', 'pageview');
+ 
+  .wp-block-group:not([data-dsgo-inline-bg]),.wp-block-column:not([data-dsgo-inline-bg]),.wp-block-columns:not([data-dsgo-inline-bg]){--dsgo-text-color:initial;} :is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover:not(.has-text-color){color:var(--wp--preset--color--contrast-3) !important;--dsgo-text-color:var(--wp--preset--color--contrast-3);} body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h1:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h2:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h3:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h4:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h5:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) h6:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) p:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(:is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column).has-background:not([class*="-background-color"]):not(.has-text-color):not(.is-style-footer-section):not(.is-style-header-section),.wp-block-cover) .wp-element-caption:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)){color:var(--dsgo-text-color,inherit) !important;} body .wp-site-blocks :is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column)[data-dsgo-inline-bg] .wp-block-button:is([class*="is-style-outline"],[class*="is-style-secondary"]) .wp-element-button{color:var(--dsgo-text-color,inherit) !important;border-color:currentColor !important;}body .wp-site-blocks :is(.wp-block-designsetgo-section,.wp-block-group,.wp-block-column)[data-dsgo-inline-bg] .wp-block-button:is([class*="is-style-outline"],[class*="is-style-secondary"]) .wp-element-button:hover{opacity:0.75;} body .wp-site-blocks [data-dsgo-inline-bg] h1:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h2:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h3:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h4:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h5:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] h6:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] p:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks [data-dsgo-inline-bg] .wp-element-caption:not(.has-text-color):where(:not(.elementor *):not([data-elementor-type] *)){color:var(--dsgo-text-color,inherit) !important;} .wp-block-designsetgo-section.has-background:not([data-dsgo-inline-bg]):not(.has-text-color){color:var(--wp--preset--color--contrast);--dsgo-text-color:var(--wp--preset--color--contrast);} :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--accent-5);color:var(--wp--preset--color--contrast);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-1:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--contrast);} :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--accent-2);color:var(--wp--preset--color--contrast);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-2:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--contrast);} :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--accent-1);color:var(--wp--preset--color--contrast);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-3:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--contrast);} :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--accent-3);color:var(--wp--preset--color--accent-2);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-4:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--accent-2);} :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)),.has-background:is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)),.has-text-color:is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)){background-color:var(--wp--preset--color--contrast);color:var(--wp--preset--color--base);} body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h1:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h2:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h3:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h4:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h5:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) h6:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) p:where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) a:where(:not(.wp-element-button):not(.wp-block-social-link-anchor)):where(:not(.elementor *):not([data-elementor-type] *)),body .wp-site-blocks :is(.wp-block-group,.wp-block-column).is-style-section-5:not(:is(.has-white-background-color,.has-black-background-color)) .wp-element-caption:where(:not(.elementor *):not([data-elementor-type] *)){color:var(--wp--preset--color--base);}   body .wp-site-blocks input:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="image"]):not([type="hidden"]),body .wp-site-blocks textarea,body .wp-site-blocks select{background-color:var(--wp--preset--color--base);color:var(--wp--preset--color--contrast);border:1px solid color-mix(in srgb, var(--wp--preset--color--contrast) 30%, transparent);} .wp-site-blocks input[type="submit"]:not(.wp-element-button),.wp-site-blocks button[type="submit"]:not(.wp-element-button){background-color:var(--wp--preset--color--accent-2);color:var(--wp--preset--color--base);border-width:0;padding:12px 30px;font-family:inherit;font-size:var(--wp--preset--font-size--medium, 1rem);line-height:inherit;cursor:pointer;} 
+ 
+.report-download-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.report-download-consent span{
+    display:block;
+    text-align:left;
+}
+
+.report-download-consent input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+    accent-color: #9ca3af;
+}
+
+.button-download.is-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+ 
+		 
+			.wp-block-site-logo.is-default-size img {
+				width: auto;
+				height: auto;
+				max-width: 180px;
+				max-height: 80px;
+			}
+			.wp-block-site-logo img {
+				height: auto;
+			}
+		 
+		
+	 
+		  
+	 
+
+	
+ 
+
+ 
+	  
+		 
+			 
+				 
+					 
+													 
+											 
+				 
+
+				                 
+					 
+						   Home  
+  About  
+  Research  
+ 					 
+					 
+						   Subscribe  
+  Submit an Idea  
+  Contact Us  
+  日本語  
+ 					 
+					    Close Menu 
+				 
+
+				  
+            
+	             
+	                 
+	                     
+	                         
+	                              
+	                         
+	                     
+	                     
+	                         
+	                              
+	                         
+	                     
+	                 
+	             
+		   
+
+		 
+			 
+				
+ 
+	 Search for: 
+	 
+	 
+		  
+	 
+ 			 
+		 
+
+		 	 
+				 
+				
+                 
+                     
+                         Research 
+                     
+                     
+		
+
+		.no-js .bg-1291, .no-mq .bg-1291 {background-image:url('https://muddywatersresearch.com/wp-content/uploads/2010/10/sepia-subway-1600x533.jpg');}
+		
+		@media only screen and (max-width: 400px) {
+          .bg-1291 {background-image:url('https://muddywatersresearch.com/wp-content/uploads/2010/10/sepia-subway-400x133.jpg')}
+        }
+		@media only screen and (min-width: 401px) and (max-width: 800px) {
+          .bg-1291 {background-image:url('https://muddywatersresearch.com/wp-content/uploads/2010/10/sepia-subway-800x267.jpg')}
+        }
+		@media only screen and (min-width: 801px) and (max-width: 1600px) {
+          .bg-1291 {background-image:url('https://muddywatersresearch.com/wp-content/uploads/2010/10/sepia-subway-1600x533.jpg')}
+        }
+        @media only screen and (min-width: 1601px) {
+          .bg-1291 {background-image:url('https://muddywatersresearch.com/wp-content/uploads/2010/10/sepia-subway-1800x600.jpg')}
+        }  
+	                  
+				
+				 
+					 
+												 
+							 
+								 
+									 
+										 Report Title 
+										 Company 
+										 Date 
+									 
+								 
+								 
+								 
+      New  MW is Short NVIDIA: More Questions About China (NVDA US)  
+      2026  
+     2026-11-17 
+  
+      MW is Short Edison International (US EIX)  
+      2026  
+     2026-10-13 
+  
+      MW is Short Ensign (NASDAQ: ENSG)  
+      2026  
+     2026-06-11 
+  
+      MW is Short Sportradar Group AG (SRAD US)  
+      2026  
+     2026-04-22 
+  
+      How SOFI’s Borrowing Money and Booking it as a Sale Enriched Management (SOFI US)  
+      2026  
+     2026-03-30 
+  
+      SOFI: Eleven Questions, Zero Answers (SOFI US)  
+      2026  
+     2026-03-21 
+  
+      MW is Short SoFi Technologies, Inc. (SOFI US)  
+      2026  
+     2026-03-17 
+  
+      APP’s Persistent Lies, Denying Use of Persistent IDs (APP US)  
+      2025  
+     2025-05-07 
+  
+      MW is Short AppLovin (APP US)  
+      2025  
+     2025-03-27 
+  
+      FTAI Could Be Violating U.S. Sanctions Against Iran (FTAI US)  
+      2025  
+     2025-03-03 
+  
+      MW is Short FTAI Aviation Ltd. (FTAI US)  
+      2025  
+     2025-01-15 
+  
+      MW is Short e.l.f. Beauty, Inc. (ELF US)  
+      e.l.f. Beauty, Inc.  
+     2024-11-20 
+  
+      More Questions about Eurofins’ Cash and How to Resolve Them (ERF.FP)  
+      Eurofins Scientific SE  
+     2024-07-22 
+  
+      Eurofins Scientific Part II: Nothing but Net (ERF.FP)  
+      Eurofins Scientific SE  
+     2024-07-03 
+  
+      MW is Short Eurofins (ERF.FP)  
+      Eurofins Scientific SE  
+     2024-06-24 
+  
+      CPI Property Group S.A. (CPIPGR) Part 5:  With Dubai Properties, Vitek “Repaid” CPI’s Loan with by Saddling CPI with Off-Balance Sheet Debt  
+      CPI Property Group S.A.  
+     2024-06-02 
+  
+      CPI Property Group S.A. (CPIPGR) Part 4: More Concerns that Rhyme With “Pondering”  
+      CPI Property Group S.A.  
+     2024-05-28 
+  
+      CPI Property Group S.A. (CPIPGR): MW Questions for CPI PG’s April 8th Annual Results Conference Call  
+      CPI Property Group S.A.  
+     2024-04-07 
+  
+      Muddy Waters’ Questions for Fairfax Management on the Q4 2023 Call (FFH:CN)  
+      Fairfax Financial Holdings Ltd.  
+     2024-02-15 
+  
+      MW is Short Fairfax Financial Holdings Limited (FFH:CN)  
+      Fairfax Financial Holdings Ltd.  
+     2024-02-08 
+  
+      CPI Property Group S.A. (CPIPGR) Part 3: “The Kind of Fella I Am”  
+      CPI Property Group S.A.  
+     2024-01-24 
+  
+      CPI Property Group S.A. (CPIPGR) Part 2: Overvalued Assets, Overstated Occupancy  
+      CPI Property Group S.A.  
+     2024-01-21 
+  
+      Here Comes the Cliff! (BXMT US)  
+      Blackstone Mortgage Trust Inc  
+     2023-12-06 
+  
+      Dear CPI PG: Please Explain How Vitek Isn’t Asset-Stripping the Company  
+      CPI Property Group S.A.  
+     2023-11-29 
+  
+      MW is Short the Credit of CPI Property Group S.A. (CPIPGR)  
+      CPI Property Group S.A.  
+     2023-11-20 
+  
+      Sunrun: Just Making It Up (RUN US)  
+      Sunrun Inc.  
+     2023-11-01 
+  
+      Sunrun: The Case of the Phantom Subscribers (RUN)  
+      Sunrun Inc.  
+     2023-10-25 
+  
+      Vivion: Exchanging Reality  
+      Vivion Investments S.à.r.l  
+     2023-08-03 
+  
+      Chinook Therapeutics: SPAC Exaggerations, Misleading Accounting, and China Questions (KDNY US)  
+      Chinook Therapeutics Inc  
+     2023-06-06 
+  
+      Muddy Waters is Short Chinook Therapeutics Inc (KDNY US)  
+      Chinook Therapeutics Inc  
+     2023-05-16 
+  
+      Vivion: You Don’t Mess With The Dayan  
+      Vivion Investments S.à.r.l  
+     2023-03-27 
+  
+      Muddy Waters is Short Credit of Vivion Investments S.à.r.l.  
+      Vivion Investments S.à.r.l  
+     2022-12-13 
+  
+      DLO: Why Won’t dLocal Put Anything in Writing? (DLO US)  
+      DLocal Ltd.  
+     2022-12-01 
+  
+      Muddy Waters is Short DLocal Ltd. (DLO US)  
+      DLocal Ltd.  
+     2022-11-16 
+  
+      HASI: Is There a Greater Fool? (HASI US)  
+      Hannon Armstrong Sustainable Infrastructure Capital, Inc.  
+     2022-08-25 
+  
+      The Shade of Sunrun (RUN US)  
+      Sunrun Inc.  
+     2022-08-03 
+  
+      MW is Short Sunrun Inc. (RUN US)  
+      Sunrun Inc.  
+     2022-07-28 
+  
+      MW is Short Hannon Armstrong Sustainable Infrastructure Capital, Inc. (HASI US)  
+      Hannon Armstrong Sustainable Infrastructure Capital, Inc.  
+     2022-07-12 
+  
+      MW is Short KE Holdings Inc. (BEKE US)  
+      KE Holdings Inc.  
+     2021-12-16 
+  
+      MW is Short Danimer Scientific, Inc. (DNMR US)  
+      Danimer Scientific, Inc.  
+     2021-09-15 
+  
+      Solutions 30: Locked Doors (S30 FP)  
+      Solutions 30 SE  
+     2021-05-23 
+  
+      Open Letter to Lemonade: Egregious Security Vulnerability (LMND US)  
+      Lemonade, Inc.  
+     2021-05-13 
+  
+      XL Fleet: Not Denying Much, Still SPAC Trash (XL US)  
+      XL Fleet Corp.  
+     2021-03-10 
+  
+      MW is Short XL Fleet Corp. (XL US)  
+      XL Fleet Corp.  
+     2021-03-03 
+  
+      MW is Short Joyy Inc. (YY US)  
+      Joyy Inc.  
+     2020-11-18 
+  
+      MultiPlan: Private Equity Necrophilia Meets The Great 2020 Money Grab (MPLN US)  
+      MultiPlan Corp.  
+     2020-11-11 
+  
+      MW is Short Nano-X Imaging Ltd. (NNOX US)  
+      Nano-X Imaging Ltd.  
+     2020-09-22 
+  
+      EHTH: Booking Revenues Today that it Will Collect in 2029 (EHTH US)  
+      eHealth Inc.  
+     2020-06-02 
+  
+      GSX: Small Classes, Big Lies (GSX US)  
+      GSX Techedu Inc.  
+     2020-05-28 
+  
+      MW is Short GSX Techedu Inc. (GSX US)  
+      GSX Techedu Inc.  
+     2020-05-18 
+  
+      Burford: Husbanding Liquidity, Wife-ing Financials (BUR LN)  
+      Burford Capital Ltd.  
+     2020-05-11 
+  
+      MW is Short eHealth Inc. (EHTH US)  
+      eHealth Inc.  
+     2020-04-08 
+  
+      NMC: Undisclosed Share Pledges Intensify Questions About True Debt Levels (NMC.LN)  
+      NMC Health plc  
+     2020-02-10 
+  
+      Burford: Horrible Second Half Results Validate our Thesis (BUR LN)  
+      Burford Capital Ltd.  
+     2020-02-09 
+  
+      MW is Short NMC Health plc (NMC.LN)  
+      NMC Health plc  
+     2019-12-17 
+  
+      Muddy Waters is Short PeptiDream, Inc. (4587.JP)  
+      PeptiDream, Inc.  
+     2019-11-06 
+  
+      Burford: It Just Doesn’t Get Better (BUR LN)  
+      Burford Capital Ltd.  
+     2019-09-23 
+  
+      Burford: Was MW Wrong About Napo? (BUR LN)  
+      Burford Capital Ltd.  
+     2019-08-26 
+  
+      Behavioral Analysis of Burford’s Response Indicates Significant Deception (BUR LN)  
+      Burford Capital Ltd.  
+     2019-08-15 
+  
+      Burford’s Response is Nothing More Than Distraction and Thin Excuses (BUR LN)  
+      Burford Capital Ltd.  
+     2019-08-12 
+  
+      MW is Short Burford Capital Ltd. (BUR LN)  
+      Burford Capital Ltd.  
+     2019-08-07 
+  
+      ANTA Part V: “Controlled Major Supplier and Another Fila Lie”  
+      ANTA Sports Products Ltd.  
+     2019-07-21 
+  
+      ANTA Part IV: “Liars Lie” (2020.HK)  
+      ANTA Sports Products Ltd.  
+     2019-07-14 
+  
+      ANTA Part III: FilaBuster (2020.HK)  
+      ANTA Sports Products Ltd.  
+     2019-07-10 
+  
+      ANTA Part II: “Mens Rea” (2020.HK)  
+      ANTA Sports Products Ltd.  
+     2019-07-08 
+  
+      ANTA Part I: Turds in the Punchbowl (2020.HK)  
+      ANTA Sports Products Ltd.  
+     2019-07-07 
+  
+      Muddy Waters publie une communication sur les derniers développements de Casino Guichard-Perrachon et ses sociétés mères  
+      Groupe Casino Guichard-Perrachon SA  
+     2019-05-23 
+  
+      Muddy Waters Releases Statement on Developments with Casino Guichard-Perrachon and its Parent Companies  
+      Groupe Casino Guichard-Perrachon SA  
+     2019-05-23 
+  
+      Credibility in the Balance: Six Key Questions for INGN Management (INGN US)  
+      Inogen, Inc.  
+     2019-02-25 
+  
+      MW is Short Inogen, Inc. (INGN US)  
+      Inogen, Inc.  
+     2019-02-08 
+  
+      MW is Short Manulife Financial Corp. (NYSE: MFC US)  
+      Manulife Financial Corporation  
+     2018-10-04 
+  
+      TAL Education: A Real Business With Fake Financials Part IV (NYSE: TAL US)  
+      TAL Education Group  
+     2018-07-25 
+  
+      TAL Education: A Real Business With Fake Financials Part III (NYSE: TAL US)  
+      TAL Education Group  
+     2018-07-23 
+  
+      TAL Education: A Real Business With Fake Financials Part II (NYSE: TAL US)  
+      TAL Education Group  
+     2018-07-02 
+  
+      MW is Short TAL Education Group (NYSE: TAL US)  
+      TAL Education Group  
+     2018-06-13 
+  
+      MW is Short IQE (AIM: IQE LN)  
+      IQE plc  
+     2018-02-08 
+  
+      OSI Systems: Lost Credibility  
+      OSI Systems, Inc.  
+     2018-01-31 
+  
+      MW is Short China Internet Financial Services (NASDAQ: CIFS)  
+      China Internet Nationwide Financial Services Inc.  
+     2017-12-20 
+  
+      MW is Short OSI Systems (NASDAQ: OSIS)  
+      OSI Systems, Inc.  
+     2017-12-06 
+  
+      MW is Short Prothena Corp PLC (PRTA:US)  
+      Prothena Corp PLC  
+     2017-06-29 
+  
+      MW Response to Man Wah (1999:HK)  
+      Man Wah Holdings Limited  
+     2017-06-15 
+  
+      Asanko: Puppies and Rainbows (AKG:CN)  
+      Asanko Gold Inc.  
+     2017-06-04 
+  
+      Muddy Waters is Short Asanko Gold Inc. (AKG:CN)  
+      Asanko Gold Inc.  
+     2017-05-31 
+  
+      MW Statement on STJ/ABT Acknowledgement of Cyber Vulnerabilities  
+      St. Jude Medical, Inc.  
+     2017-01-09 
+  
+      China Huishan Part 2: Tax Bureau Evidence of Topline Fraud  
+      China Huishan Dairy Holdings Co Ltd  
+     2016-12-18 
+  
+      MW is Short China Huishan Dairy Holdings Co Ltd (6863:HK)  
+      China Huishan Dairy Holdings Co Ltd  
+     2016-12-15 
+  
+      MW is Short Nidec Corp. (6594:JP)  
+      Nidec Corp.  
+     2016-12-12 
+  
+      STJ: Still Non-Secure  
+      St. Jude Medical, Inc.  
+     2016-08-29 
+  
+      MW is Short St. Jude Medical (STJ:US)  
+      St. Jude Medical, Inc.  
+     2016-08-25 
+  
+      Ströer: Astounding AGM Transcript  
+      Ströer SE & Co. KGaA  
+     2016-08-10 
+  
+      Ströer: the Pile Gets Bigger (SAX:GR)  
+      Ströer SE & Co. KGaA  
+     2016-04-28 
+  
+      Muddy Waters is Short Ströer (SAX:GR)  
+      Ströer SE & Co. KGaA  
+     2016-04-21 
+  
+      New Information on Casino Casts Additional Doubt on France Recovery; Governance Problems in Brazil Appear Larger than Admitted (CO:FP)  
+      Groupe Casino Guichard-Perrachon SA  
+     2016-03-07 
+  
+      Everything You Always Wanted to Know About Casino (But Were Afraid to Ask) (CO:FP)  
+      Groupe Casino Guichard-Perrachon SA  
+     2016-01-13 
+  
+      Muddy Waters is Short Groupe Casino (CO:FP)  
+      Groupe Casino Guichard-Perrachon SA  
+     2015-12-17 
+  
+      Muddy Waters is Short TeliaSonera (TLSN.ST)  
+      TeliaSonera AB  
+     2015-10-15 
+  
+      Muddy Waters is Short Noble Group Ltd (NOBL:SP)  
+      Noble Group Ltd  
+     2015-04-08 
+  
+      Bolloré (BOL FP): Complexity Creating Arbitrage with over 95% Upside  
+      Bolloré S.A  
+     2015-02-17 
+  
+      Muddy Waters is Short Superb Summit (1228.HK)  
+      Superb Summit International Group Limited  
+     2014-11-19 
+  
+      NQ: Oops  
+      NQ Mobile Inc.  
+     2014-07-06 
+  
+      NQ Admits Widespread Data Tampering, but Claims it is not a Fraud  
+      NQ Mobile Inc.  
+     2014-06-04 
+  
+      NQ: You Can’t Fool All of the People All of the Time  
+      NQ Mobile Inc.  
+     2014-04-13 
+  
+      MW Offer to NQ’s Independent Committee  
+      NQ Mobile Inc.  
+     2013-12-19 
+  
+      NQ’s US Veneer: Withholding Facts, Conned Men, and a Convicted Racketeer  
+      NQ Mobile Inc.  
+     2013-11-12 
+  
+      If You Believe in Yidatong, You’ll Believe in Santa Claus  
+      NQ Mobile Inc.  
+     2013-11-06 
+  
+      Chinese Media Views on NQ  
+      NQ Mobile Inc.  
+     2013-11-01 
+  
+      NQ’s Top Ten Lies Since Friday  
+      NQ Mobile Inc.  
+     2013-10-29 
+  
+      Initiating Coverage on NQ Mobile Inc. (NYSE: NQ) – Strong Sell  
+      NQ Mobile Inc.  
+     2013-10-24 
+  
+      AMT’s / GTP: We’re More Skeptical than Ever  
+      American Tower Corporation  
+     2013-09-06 
+  
+      Olam: Not Changing the Old Ways  
+      Olam International Limited  
+     2013-09-01 
+  
+      A Zebra Can’t Change its Stripes: AMT’s Latest Purchase from NIHD  
+      American Tower Corporation  
+     2013-08-11 
+  
+      Cracking Façade: AMT’s Q2 2013 Results  
+      American Tower Corporation  
+     2013-08-01 
+  
+      Initiating Coverage on AMT – Strong Sell (Slide Deck)  
+      American Tower Corporation  
+     2013-07-17 
+  
+      Initiating Coverage on AMT – Strong Sell (Full Report)  
+      American Tower Corporation  
+     2013-07-17 
+  
+      Muddy Waters’s Reaction to Olam Q2 2013 Report  
+      Olam International Limited  
+     2013-02-07 
+  
+      MW Learned from John Hempton how to Catch FMCN in Another Lie  
+      Focus Media Holding Ltd.  
+     2013-01-24 
+  
+      Stop-Gap Bailout of Olam Validates MW’s Thesis  
+      Olam International Limited  
+     2012-12-03 
+  
+      Muddy Waters Offers to Pay for Olam Debt Rating  
+      Olam International Limited  
+     2012-11-29 
+  
+      Initiating Coverage on Olam International – Strong Sell  
+      Olam International Limited  
+     2012-11-26 
+  
+      Muddy Waters Reaction to Olam Frantic Response  
+      Olam International Limited  
+     2012-11-24 
+  
+      Initiating Coverage on EDU – Strong Sell  
+      New Oriental Education & Technology Group  
+     2012-07-18 
+  
+      Frauducation White Paper  
+      Fushi Copperweld, Inc.  RINO International Corp.  
+     2012-04-11 
+  
+      Frauducation Supporting Documentation  
+      Fushi Copperweld, Inc.  RINO International Corp.  
+     2012-04-11 
+  
+      Part 1 of MW’s “Frauducation” Series: Fraud School, RINO, FSIN  
+      Fushi Copperweld, Inc.  RINO International Corp.  
+     2012-04-10 
+  
+      FMCN: MW was Right that FMCN Lied re LCD Network; “Verification” Counted 30,500 Cardboard Posters  
+      Focus Media Holding Ltd.  
+     2012-02-09 
+  
+      FMCN: Why Would FMCN Buy a Ginseng Plantation? From One of its Employees?  
+      Focus Media Holding Ltd.  
+     2012-01-06 
+  
+      FMCN: Is “Independent” Verification in China Better Than Toilet Paper?  
+      Focus Media Holding Ltd.  
+     2011-12-09 
+  
+      MW Reiterating Strong Sell on FMCN  
+      Focus Media Holding Ltd.  
+     2011-11-29 
+  
+      Muddy Waters Initiating Coverage on FMCN – Strong Sell  
+      Focus Media Holding Ltd.  
+     2011-11-21 
+  
+      Open Letter to SPRD Chairman re: MW Concerns  
+      Spreadtrum, Communications Inc.  
+     2011-06-28 
+  
+      TRE.TO, SNOFF.PK – The Ties that Blind – Part 1  
+      Sino-Forest Corporation  
+     2011-06-20 
+  
+      Muddy Waters Reaction to TRE Q1 2011 Conference Call  
+      Sino-Forest Corporation  
+     2011-06-14 
+  
+      TRE.TO, SNOFF.PK – Supporting Documentation (Appendices E-K)  
+      Sino-Forest Corporation  
+     2011-06-02 
+  
+      TRE.TO, SNOFF.PK – Supporting Documentation (Appendix D)  
+      Sino-Forest Corporation  
+     2011-06-02 
+  
+      TRE.TO, SNOFF.PK – Supporting Documentation (Appendices A-C)  
+      Sino-Forest Corporation  
+     2011-06-02 
+  
+      Muddy Waters Initiating Coverage on TRE.TO, OTC:SNOFF – Strong Sell  
+      Sino-Forest Corporation  
+     2011-06-02 
+  
+      Muddy Waters Initiating Coverage on DGW – Strong Sell  
+      Duoyuan Global Water Inc.  
+     2011-04-04 
+  
+      CCME: Irrefutable Evidence of Fraud  
+      China MediaExpress Holdings  
+     2011-03-02 
+  
+      Muddy Waters Initiating Coverage on CCME – Strong Sell  
+      China MediaExpress Holdings  
+     2011-02-03 
+  
+      Muddy Waters initiating coverage on RINO – Strong Sell  
+      RINO International Corp.  
+     2010-11-10 
+  
+      One Billion Chinese People Can’t Be Wrong…  
+      Orient Paper, Inc.  
+     2010-07-22 
+  
+      Chinese Newspaper Investigates ONP, p.2  
+      Orient Paper, Inc.  
+     2010-07-22 
+  
+      Chinese Newspaper Investigates ONP, p. 1  
+      Orient Paper, Inc.  
+     2010-07-22 
+  
+      Oh What a Tangled Web We Weave…  
+      Orient Paper, Inc.  
+     2010-07-13 
+  
+      Two Points RE: the ONP debate  
+      Orient Paper, Inc.  
+     2010-07-06 
+  
+      MW Response to Rick Pearson  
+      Orient Paper, Inc.  
+     2010-07-02 
+  
+      MW Confirms It Analyzed the Correct ONP Entity  
+      Orient Paper, Inc.  
+     2010-07-01 
+  
+      Muddy Waters Initiating Coverage on ONP – Strong Sell  
+      Orient Paper, Inc.  
+     2010-06-28 
+ 	   
+								 
+							 
+						 
+					 
+				 
+			   		
+			  
+
+		   
+		
+		 
+			 
+				 
+					 Subscribe for Updates 
+					 Sign up for our mailing list and receive research reports and other related news and updates from Muddy Waters Research. 
+					  Subscribe Now     
+				 
+				 
+					     Twitter      News      Reports   				 
+			 
+		 
+
+		 
+			 
+				              
+					   Home  
+  About  
+  Research  
+ 				 
+			 
+
+			 
+				 
+					 Copyright © 2026  Muddy Waters Research , All Rights Reserved. 
+				 
+			 
+		 
+	
+	   
+	
+	 
+         You are using an  outdated  browser. Please  upgrade your browser  to improve your experience. 
+     
+
+     
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/mwr/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+ 
+	       
+	  
+  
+  
+ 
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+ 
+  
+ 
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/muddywatersresearch.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+ 
+  
+ 
+var sc_project=8491080;
+var sc_security="3271cc18";
+var sc_invisible=1;
+
+//# sourceURL=statcounter-js-js-before
+ 
+  
+  
+  
+  
+  
+ 
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://muddywatersresearch.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+ 
+ 
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://muddywatersresearch.com/wp-includes/js/wp-emoji-loader.min.js
+ 
+		 'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),
+                _trfd.push({'tccl.baseHost':'secureserver.net'}),
+                _trfd.push({'ap':'wpaas_v2'},
+                    {'server':'969c96ff4baf'},
+                    {'pod':'c32-prod-p3-us-west-2'},
+                                        {'xid':'45357881'},
+                    {'wp':'7.1.4'},
+                    {'php':'8.2.35'},
+                    {'loggedin':'0'},
+                    {'cdn':'1'},
+                    {'builder':'wp-classic-editor'},
+                    {'theme':'mwr'},
+                    {'wds':'0'},
+                    {'wp_alloptions_count':'486'},
+                    {'wp_alloptions_bytes':'484208'},
+                    {'gdl_coming_soon_page':'0'}
+                    , {'appid':'968493'}                 );
+            var trafficScript = document.createElement('script'); trafficScript.src = 'https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'; window.document.head.appendChild(trafficScript); 
+		 window.addEventListener('click', function (elem) { var _elem$target, _elem$target$dataset, _window, _window$_trfq; return (elem === null || elem === void 0 ? void 0 : (_elem$target = elem.target) === null || _elem$target === void 0 ? void 0 : (_elem$target$dataset = _elem$target.dataset) === null || _elem$target$dataset === void 0 ? void 0 : _elem$target$dataset.eid) && ((_window = window) === null || _window === void 0 ? void 0 : (_window$_trfq = _window._trfq) === null || _window$_trfq === void 0 ? void 0 : _window$_trfq.push(["cmdLogEvent", "click", elem.target.dataset.eid]));}); 
+		  
+		
+     
+ 

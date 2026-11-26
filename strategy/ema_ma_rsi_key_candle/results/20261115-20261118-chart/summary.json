@@ -1,0 +1,130 @@
+{
+  "config": {
+    "start_ms": 1794672000000,
+    "end_ms": 1794931200000,
+    "interval": "5m",
+    "ema_length": 10,
+    "ma_length": 10,
+    "rsi_length": 14,
+    "long_rsi_min": 50,
+    "long_rsi_max": 70,
+    "short_rsi_min": 30,
+    "short_rsi_max": 50,
+    "direction": "both",
+    "method": "both",
+    "reward_risk": 1.5,
+    "initial_capital": 10000,
+    "position_percent": 10,
+    "fee_percent": 0.05,
+    "slippage_ticks": 0,
+    "tick_size": 0.01,
+    "qty_step": 0.001,
+    "intrabar": "stop-first"
+  },
+  "entry_close_start_utc_inclusive": "2026-11-14T16:00:00+00:00",
+  "entry_close_end_utc_inclusive": "2026-11-17T16:00:00+00:00",
+  "data_first_open_utc": "2026-11-10T00:00:00+00:00",
+  "data_last_close_utc": "2026-11-17T16:00:00+00:00",
+  "data_bars": 2208,
+  "warmup_bars_before_entry_start": 1343,
+  "closed_trades": 24,
+  "winning_trades": 8,
+  "losing_trades": 16,
+  "breakeven_trades": 0,
+  "win_rate_percent": 33.333333333333336,
+  "profit_factor_net": 0.29237482488194777,
+  "closed_net_pnl": -42.354749164999895,
+  "total_fees_paid": 23.912099164999997,
+  "final_equity_mark_to_market": 9957.645250835005,
+  "total_return_percent_mark_to_market": -0.423547491649956,
+  "max_drawdown_percent_at_bar_close": 0.5130521825790624,
+  "max_drawdown_amount_at_bar_close": 51.32520382499388,
+  "ambiguous_exit_bars": 0,
+  "rejected_signals": {},
+  "open_position": null,
+  "method_counts": {
+    "S1": 13,
+    "L1": 10,
+    "L2": 1
+  },
+  "funding_included": false,
+  "liquidation_modelled": false,
+  "limitations": [
+    "Independent OHLC simulator; not verified for exact TradingView trade parity.",
+    "Funding payments, mark-price triggers and Binance liquidation tiers are excluded.",
+    "Drawdown is measured at bar closes, not intrabar equity extremes.",
+    "Intrabar exit timestamps are unknown; CSV reports their enclosing candle.",
+    "Final open position is marked to market, not forcibly closed or included in win rate.",
+    "Tick and quantity steps are user parameters, not historical exchange-rule verification.",
+    "RSI uses Wilder smoothing; on all-flat prices its explicit zero-loss guard returns 100."
+  ],
+  "data_file": "/Users/richao11/myproject/my-quant/strategy/ema_ma_rsi_key_candle/data/ETHUSDT-5m-20261110-20261118.csv",
+  "data_sha256": "488dc3999a8a783afab3d545c9449c67198cc87600f7d61a476f5a58a4f14ec3",
+  "data_source_metadata": {
+    "market": "Binance USD-M perpetual",
+    "symbol": "ETHUSDT",
+    "interval": "5m",
+    "timezone": "UTC",
+    "start_inclusive": "2026-11-10",
+    "end_exclusive": "2026-11-18",
+    "rows": 2304,
+    "first_open_time_ms": 1794268800000,
+    "last_close_time_ms": 1794959999999,
+    "downloaded_at_utc": "2026-11-18T03:34:05.474939+00:00",
+    "output_sha256": "488dc3999a8a783afab3d545c9449c67198cc87600f7d61a476f5a58a4f14ec3",
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-10.zip",
+        "sha256": "eb4d8e52425a608c1eeae6c7f0b7d41f47cd83c74c3c9c0f305d662f911006c3",
+        "bytes": 14122,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-11.zip",
+        "sha256": "cdcc6645a1a458108411fd595a8e8098c90247945af0eca9deabd694cca0a661",
+        "bytes": 14040,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-12.zip",
+        "sha256": "286d45fa7cba1e394fc1b79891833dcad50e9836f6b0dc34b7c85eb50cc3c96a",
+        "bytes": 14037,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-13.zip",
+        "sha256": "369e44b62d8094a4b24c47b74160230f55279bcb4ba1cc02dbc7f3f0e21398f1",
+        "bytes": 14400,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-14.zip",
+        "sha256": "1d77b651b6707ab7d68493aa4326daab470a02942f9aa1224c328b37a08786fa",
+        "bytes": 14448,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-15.zip",
+        "sha256": "89366f5cf67b8db5702e75b205c1ce4be0d79252bc0b7965e3a6e9a5dab8a49c",
+        "bytes": 14359,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-11-16.zip",
+        "sha256": "64da6997a6bedff7d8c339a209be3ab9f01266f9d506bde70a64cfba5d641d2a",
+        "bytes": 14176,
+        "official_sha256_verified": true
+      },
+      {
+        "url": "https://fapi.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=5m&startTime=1794873600000&endTime=1794959999999&limit=1500",
+        "sha256": "dd50a8aec9054c54a2bcd051825fd6cd3d59a573c08170a8971917750f4458b2",
+        "bytes": 39218,
+        "official_sha256_verified": false,
+        "source_type": "public_futures_klines_api",
+        "raw_response_file": "/Users/richao11/myproject/my-quant/strategy/ema_ma_rsi_key_candle/data/ETHUSDT-5m-2026-11-17.fapi.json",
+        "reason": "2026-11-17 official daily archive returned HTTP 404 at download time"
+      }
+    ],
+    "archive_fallback_note": "Daily archives 2026-11-10 through 2026-11-16 with verified official SHA256; 2026-11-17 supplemented from public fapi klines API because daily archive returned HTTP 404. API raw response hash is provenance, not official SHA256 validation."
+  }
+}

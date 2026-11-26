@@ -1,0 +1,45 @@
+[
+  {
+    "id": "fred_ig",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM",
+    "retrieved_at": "2026-11-14T00:30:57.572412+00:00",
+    "file": "fred_ig.csv",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "fred_hy",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "retrieved_at": "2026-11-14T00:30:57.573179+00:00",
+    "file": "fred_hy.csv",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "news_credit",
+    "url": "https://news.google.com/rss/search?q=%28Oracle%20OR%20CoreWeave%20OR%20Meta%20OR%20Alphabet%29%20%28CDS%20OR%20%22credit%20spread%22%20OR%20%22bond%20offering%22%20OR%20%22debt%20offering%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-14T00:30:57.573361+00:00",
+    "file": "news_credit.xml",
+    "status": 200,
+    "ok": true,
+    "bytes": 25551
+  },
+  {
+    "id": "news_chain",
+    "url": "https://news.google.com/rss/search?q=%28%22AI%20data%20center%22%20OR%20%22AI%20datacenter%22%20OR%20%22GPU%20loan%22%29%20%28default%20OR%20cancellation%20OR%20financing%20OR%20impairment%20OR%20delay%29%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-14T00:30:57.573513+00:00",
+    "file": "news_chain.xml",
+    "status": 200,
+    "ok": true,
+    "bytes": 32286
+  },
+  {
+    "id": "news_demand",
+    "url": "https://news.google.com/rss/search?q=%28Google%20OR%20Meta%20OR%20Microsoft%20OR%20Amazon%29%20%28%22capital%20expenditure%22%20OR%20capex%20OR%20%22cloud%20demand%22%20OR%20%22data%20center%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-14T00:30:57.573673+00:00",
+    "file": "news_demand.xml",
+    "status": 200,
+    "ok": true,
+    "bytes": 108277
+  }
+]

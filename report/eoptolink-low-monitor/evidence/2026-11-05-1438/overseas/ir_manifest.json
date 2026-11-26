@@ -1,0 +1,23 @@
+[
+  {
+    "name": "aaoi_ir",
+    "url": "https://investors.ao-inc.com/",
+    "retrieved_at": "2026-11-05T06:37:06.329217+00:00",
+    "ok": true,
+    "length": 48552
+  },
+  {
+    "name": "aaoi_events",
+    "url": "https://investors.ao-inc.com/events-and-presentations",
+    "retrieved_at": "2026-11-05T06:37:06.329686+00:00",
+    "ok": true,
+    "length": 60103
+  },
+  {
+    "name": "cohr_results",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526447200/d176836dex991.htm",
+    "retrieved_at": "2026-11-05T06:37:06.329852+00:00",
+    "ok": true,
+    "length": 263342
+  }
+]

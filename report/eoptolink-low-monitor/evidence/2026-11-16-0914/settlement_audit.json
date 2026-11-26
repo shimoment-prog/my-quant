@@ -1,0 +1,345 @@
+{
+  "audited_at": "2026-11-16T09:12:01.704386+08:00",
+  "state_sha256_at_read": "e74478f4dbf5c99ee918623b6d68205e0fcda8686fc661b6d6b6192c8106bd8e",
+  "state_last_run_at": "2026-11-13T14:38:13+08:00",
+  "previous_completed_prediction_count": 16,
+  "settled_prediction_ids_before_audit": [
+    "2026-11-03-1430-L17160",
+    "2026-11-04-0938-L17415",
+    "2026-11-04-1033-L17347",
+    "2026-11-04-1435-L17200",
+    "2026-11-05-1036-L18051",
+    "2026-11-05-1438-L17764",
+    "2026-11-06-1032-L16116",
+    "2026-11-06-1439-L16116",
+    "2026-11-09-1051-L16901",
+    "2026-11-09-1433-L16901",
+    "2026-11-10-1036-L18501",
+    "2026-11-10-1437-L18343",
+    "2026-11-11-1031-L18730",
+    "2026-11-11-1434-L18730",
+    "2026-11-12-1036-L21103",
+    "2026-11-12-1436-L20509"
+  ],
+  "source_analysis": "/tmp/optics-premarket-20261116/ashare/analysis.json",
+  "source_prepared_at": "2026-11-16T08:48:58.613027+08:00",
+  "previous_session": "2026-11-13",
+  "rows": [
+    {
+      "prediction_id": "2026-11-13-1036-L19533",
+      "original_prediction": {
+        "id": "2026-11-13-1036-L19533",
+        "symbol": "300502.SZ",
+        "scheduled_check_at": "2026-11-13T10:30:00+08:00",
+        "triggered_at": "2026-11-13T10:33:25.629+08:00",
+        "created_at": "2026-11-13T10:36:14+08:00",
+        "forecast_start": "2026-11-13T10:36:14+08:00",
+        "snapshot_time": "2026-11-13T10:36:12+08:00",
+        "threshold": 195.33,
+        "comparison": "strictly_less_than",
+        "event": "Any traded price strictly below195.33 after forecast_start and by deadline",
+        "deadline": "2026-11-13T15:00:00+08:00",
+        "risk": "偏高",
+        "numeric_probability": null,
+        "model_validated": false,
+        "status": "pending",
+        "settled": false,
+        "note": "Morning forecast starts at actual creation, never backdated to10:30 or trigger. The contemporaneous cumulative day low is frozen independently of yesterday predictions and historical179.83 line. No tickstream between snapshot and creation; actual quote age retained."
+      },
+      "forecast_start": "2026-11-13T10:36:14+08:00",
+      "snapshot_time": "2026-11-13T10:36:12+08:00",
+      "threshold": 195.33,
+      "deadline": "2026-11-13T15:00:00+08:00",
+      "risk_original": "偏高",
+      "expired": true,
+      "already_settled_before_audit": false,
+      "eligible_for_one_time_settlement": true,
+      "original_frozen_fields_match_state_and_observation": true,
+      "observation_history_audit": [
+        {
+          "file": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-13-1036.json",
+          "sha256": "5f3d388c5b8da7ad9b79a239fe21e8b3cef3e810507f66040cf7fbc2b992e0e1",
+          "frozen_fields_match": {
+            "id": true,
+            "symbol": true,
+            "scheduled_check_at": true,
+            "triggered_at": true,
+            "created_at": true,
+            "forecast_start": true,
+            "snapshot_time": true,
+            "threshold": true,
+            "comparison": true,
+            "event": true,
+            "deadline": true,
+            "risk": true,
+            "numeric_probability": true,
+            "model_validated": true,
+            "note": true
+          },
+          "all_frozen_fields_match": true
+        },
+        {
+          "file": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-13-1438.json",
+          "sha256": "4cc0b4afba04371917c91b23aad8712e16420b2119deb43df7bcb55d493e9596",
+          "frozen_fields_match": {
+            "id": true,
+            "symbol": true,
+            "scheduled_check_at": true,
+            "triggered_at": true,
+            "created_at": true,
+            "forecast_start": true,
+            "snapshot_time": true,
+            "threshold": true,
+            "comparison": true,
+            "event": true,
+            "deadline": true,
+            "risk": true,
+            "numeric_probability": true,
+            "model_validated": true,
+            "note": true
+          },
+          "all_frozen_fields_match": true
+        }
+      ],
+      "event_occurred": true,
+      "closing_breach_occurred": true,
+      "closing_price": 187.58,
+      "strictly_below_rule": "traded_price < threshold; equality is not a breach",
+      "resolution_evidence": {
+        "type": "complete_five_minute_bar_wholly_within_original_forecast_window",
+        "first_available_qualifying_bar": {
+          "bar_interval_start": "2026-11-13T10:40:00+08:00",
+          "bar_interval_end": "2026-11-13T10:45:00+08:00",
+          "bar_low": 194.6,
+          "raw_bar": {
+            "day": "2026-11-13 10:45:00",
+            "open": "196.260",
+            "high": "196.870",
+            "low": "194.600",
+            "close": "194.720",
+            "volume": "2251357",
+            "amount": "440277762.5187"
+          }
+        },
+        "exact_first_breach_tick_time": null,
+        "note": "First qualifying complete observed bar establishes at least one trade inside original forecast window. It is not exact first execution time."
+      },
+      "complete_bars_wholly_within_window": 34,
+      "partial_start_bar_excluded_from_positive_breach_proof": [
+        {
+          "bar_interval_start": "2026-11-13T10:35:00+08:00",
+          "bar_interval_end": "2026-11-13T10:40:00+08:00",
+          "bar_low": 196.02,
+          "raw_bar": {
+            "day": "2026-11-13 10:40:00",
+            "open": "196.900",
+            "high": "196.960",
+            "low": "196.020",
+            "close": "196.230",
+            "volume": "1264360",
+            "amount": "248460879.9951"
+          }
+        }
+      ],
+      "closing_evidence": {
+        "raw_final_bar": {
+          "day": "2026-11-13 15:00:00",
+          "open": "187.250",
+          "high": "188.000",
+          "low": "187.220",
+          "close": "187.580",
+          "volume": "1549002",
+          "amount": "290385562.0931"
+        },
+        "raw_daily_bar": [
+          "2026-11-13",
+          "209.960",
+          "187.580",
+          "212.500",
+          "186.000",
+          "1007632.000"
+        ],
+        "source_snapshot_time": "2026-11-13T16:14:45+08:00",
+        "note": "Nov13 completed session, not Nov16 current price."
+      },
+      "recommended_resolution_status": "settled",
+      "numeric_probability": null,
+      "result_zh": "原预测窗口内严格跌破，收盘亦低于冻结阈值。",
+      "source_files": [
+        "/tmp/optics-premarket-20261116/ashare/sz300502-m5.txt",
+        "/tmp/optics-premarket-20261116/ashare/sz300502-daily.json",
+        "/tmp/optics-premarket-20261116/ashare/quotes.txt",
+        "/tmp/optics-premarket-20261116/ashare/sina.txt"
+      ]
+    },
+    {
+      "prediction_id": "2026-11-13-1438-L18600",
+      "original_prediction": {
+        "id": "2026-11-13-1438-L18600",
+        "symbol": "300502.SZ",
+        "scheduled_check_at": "2026-11-13T14:30:00+08:00",
+        "triggered_at": "2026-11-13T14:35:11.602+08:00",
+        "created_at": "2026-11-13T14:38:13+08:00",
+        "forecast_start": "2026-11-13T14:38:13+08:00",
+        "snapshot_time": "2026-11-13T14:38:09+08:00",
+        "threshold": 186.0,
+        "comparison": "strictly_less_than",
+        "event": "Any traded price strictly below186.00 after forecast_start and by deadline",
+        "deadline": "2026-11-13T15:00:00+08:00",
+        "risk": "偏高",
+        "numeric_probability": null,
+        "model_validated": false,
+        "status": "pending",
+        "settled": false,
+        "note": "Independent afternoon forecast starts at actual creation, never backdated to14:30 or trigger; morning195.33prediction retains original threshold, risk and15:00deadline and remains pending. The contemporaneous cumulative day low is frozen independently of yesterday predictions and historical179.83 line. No tickstream between snapshot and creation; actual quote age retained."
+      },
+      "forecast_start": "2026-11-13T14:38:13+08:00",
+      "snapshot_time": "2026-11-13T14:38:09+08:00",
+      "threshold": 186.0,
+      "deadline": "2026-11-13T15:00:00+08:00",
+      "risk_original": "偏高",
+      "expired": true,
+      "already_settled_before_audit": false,
+      "eligible_for_one_time_settlement": true,
+      "original_frozen_fields_match_state_and_observation": true,
+      "observation_history_audit": [
+        {
+          "file": "/Users/richao11/myproject/my-quant/report/eoptolink-low-monitor/observations/2026-11-13-1438.json",
+          "sha256": "4cc0b4afba04371917c91b23aad8712e16420b2119deb43df7bcb55d493e9596",
+          "frozen_fields_match": {
+            "id": true,
+            "symbol": true,
+            "scheduled_check_at": true,
+            "triggered_at": true,
+            "created_at": true,
+            "forecast_start": true,
+            "snapshot_time": true,
+            "threshold": true,
+            "comparison": true,
+            "event": true,
+            "deadline": true,
+            "risk": true,
+            "numeric_probability": true,
+            "model_validated": true,
+            "note": true
+          },
+          "all_frozen_fields_match": true
+        }
+      ],
+      "event_occurred": false,
+      "closing_breach_occurred": false,
+      "closing_price": 187.58,
+      "strictly_below_rule": "traded_price < threshold; equality is not a breach",
+      "resolution_evidence": {
+        "type": "full_completed_session_minimum_not_below_threshold",
+        "full_session_48_bars": true,
+        "full_day_low": 186.0,
+        "threshold": 186.0,
+        "strict_comparison_result": false,
+        "raw_daily_bar": [
+          "2026-11-13",
+          "209.960",
+          "187.580",
+          "212.500",
+          "186.000",
+          "1007632.000"
+        ],
+        "crosscheck": {
+          "complete_48_m5_bars": true,
+          "sina_quote_date": true,
+          "tencent_quote_date": true,
+          "m5_matches_sina_quote_ohlc": true,
+          "m5_matches_tencent_quote_ohlc": true,
+          "m5_matches_tencent_daily_ohlc": true,
+          "previous_close_matches_nov12_archive": true,
+          "previous_close_matches_daily": true
+        },
+        "note": "Full-day minimum equals186.00, so no strict trade below186.00 occurred anywhere that day, including original afternoon forecast window; no need to locate equal-low tick relative to start."
+      },
+      "complete_bars_wholly_within_window": 4,
+      "partial_start_bar_excluded_from_positive_breach_proof": [
+        {
+          "bar_interval_start": "2026-11-13T14:35:00+08:00",
+          "bar_interval_end": "2026-11-13T14:40:00+08:00",
+          "bar_low": 186.0,
+          "raw_bar": {
+            "day": "2026-11-13 14:40:00",
+            "open": "186.330",
+            "high": "186.510",
+            "low": "186.000",
+            "close": "186.340",
+            "volume": "1779646",
+            "amount": "331428418.2395"
+          }
+        }
+      ],
+      "closing_evidence": {
+        "raw_final_bar": {
+          "day": "2026-11-13 15:00:00",
+          "open": "187.250",
+          "high": "188.000",
+          "low": "187.220",
+          "close": "187.580",
+          "volume": "1549002",
+          "amount": "290385562.0931"
+        },
+        "raw_daily_bar": [
+          "2026-11-13",
+          "209.960",
+          "187.580",
+          "212.500",
+          "186.000",
+          "1007632.000"
+        ],
+        "source_snapshot_time": "2026-11-13T16:14:45+08:00",
+        "note": "Nov13 completed session, not Nov16 current price."
+      },
+      "recommended_resolution_status": "settled",
+      "numeric_probability": null,
+      "result_zh": "全日最低价等于冻结阈值，未严格跌破；收盘亦未跌破。",
+      "source_files": [
+        "/tmp/optics-premarket-20261116/ashare/sz300502-m5.txt",
+        "/tmp/optics-premarket-20261116/ashare/sz300502-daily.json",
+        "/tmp/optics-premarket-20261116/ashare/quotes.txt",
+        "/tmp/optics-premarket-20261116/ashare/sina.txt"
+      ]
+    }
+  ],
+  "recommended_new_completed_prediction_count": 18,
+  "did_modify_repo": false,
+  "scope": "Read-only audit. Parent may apply each eligible result exactly once; no threshold, start, deadline or original risk changed. No current-session forecast created.",
+  "source_manifest": [
+    {
+      "file": "quotes.txt",
+      "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+      "started_utc": "2026-11-16T00:47:48.554393+00:00",
+      "ok": true,
+      "bytes": 2116,
+      "retrieved_utc": "2026-11-16T00:47:48.660809+00:00"
+    },
+    {
+      "file": "sina.txt",
+      "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+      "started_utc": "2026-11-16T00:47:48.555026+00:00",
+      "ok": true,
+      "bytes": 1078,
+      "retrieved_utc": "2026-11-16T00:47:48.643014+00:00"
+    },
+    {
+      "file": "sz300502-daily.json",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+      "started_utc": "2026-11-16T00:47:48.555208+00:00",
+      "ok": true,
+      "bytes": 3721,
+      "retrieved_utc": "2026-11-16T00:47:48.684885+00:00"
+    },
+    {
+      "file": "sz300502-m5.txt",
+      "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+      "started_utc": "2026-11-16T00:47:48.555510+00:00",
+      "ok": true,
+      "bytes": 14362,
+      "retrieved_utc": "2026-11-16T00:47:48.834775+00:00"
+    }
+  ]
+}

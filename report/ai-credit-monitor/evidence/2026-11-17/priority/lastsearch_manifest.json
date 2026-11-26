@@ -1,0 +1,105 @@
+[
+  {
+    "name": "news_hsbc_all",
+    "url": "https://news.google.com/rss/search?q=HSBC%20%22data%20center%22%20%22discount%22%20when%3A3d&hl=en-GB&gl=GB&ceid=GB:en",
+    "retrieved_at": "2026-11-17T02:15:05.490683+00:00",
+    "status": 200,
+    "bytes": 6790,
+    "items": [
+      {
+        "title": "HSBC Sold $300 Million Troubled Data Center Loan at Discount - Bloomberg.com",
+        "pubDate": "Mon, 16 Nov 2026 22:01:27 GMT",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeUdDXzVqbUpCb3VibUI5M1JDbWEwcnZFVUdQT05zQWxfNHRIQVkzTUZ4YVhfS2hKSzdkRm1yRzkxaHRkZGxpem1COVNEQk80VFhhSmFqTnNzc2owM0NlUTc1dXoxRE9mNmI1alZUSWh6ZWhFRjVCV0tYSkF0bnBqVUJhY0UxZE9qbjhubXFJMS1wc1g1VWdqZWhkaHQ2UkpkVGZIOGlYeExRbzV1cHNR?oc=5"
+      },
+      {
+        "title": "HSBC offloads $300 million troubled AI data center loan at steep discount - report - Investing.com",
+        "pubDate": "Mon, 16 Nov 2026 22:38:19 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdTlQeEtLQ2s2V0ZwNjdRRm5wTTJUaGdvUUpUMm9iQTN2Qmh2TWVpbnM2TnJYeWhsT293YzZSMDJxSGpJQlkzRmJrSDVxZWpaNllrRVlwOUxETDRWU2NtOVVDcDRWZGpQQTdGdy1sZXdxSEFDaFNkSWtXYkszVEdrc29EWWNxVHpDbUVyT24yb2YwVDJ4bzc5dkN4OTE1N21oRXdOb0U4R2I3bzdtMjZjbjE2QWhNTzVmMWc4TklEWnZ6VjBYd28ySV9BdXpsZ3hxbUJB?oc=5"
+      },
+      {
+        "title": "HSBC sold $300 million troubled data center loan at discount - Bloomberg News - TradingView",
+        "pubDate": "Mon, 16 Nov 2026 22:27:40 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQb2FZVGxjMGRCUkZjLXFOZDM2c3dubGpBdDlZR0ZqcTlFd3RMMlptR1Z0My12X09ucnZvNy1hc1J5ZjVkNXJua0J2LUpJdk9TNHFtcUN1elB5UDg1cUZObEo0aVpHNFRSSWYwODloVllXYUZyNWNPeXI4X1FRNFlFbHNvRGJMb29uZzhXcjF4ZHR3TXlUWmNFakFXMW02eTBadWdzMkpFaVZaNmpEVDNJZFVDVnF6NzlmNlBCQmNUZV90alZYSW53T1lpcWtHTVk1aG00ZWFhdjFGaFh5?oc=5"
+      },
+      {
+        "title": "HSBC Sells $300 Million Slice of Oracle-Linked Data Center Loan at Discount - marketscreener.com",
+        "pubDate": "Tue, 17 Nov 2026 00:42:16 GMT",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTGFMSlpHa3dYYmNpWjg5QjRveldPNWlUV19mT1FzNmhPZ3dLQVRoU1ZJbHRYRHh6OVRibFVMdWZTUjJBaE1nLW03ZTlSZE4tRC1qMFluQTVVZ1kzY2tjZEVCZ2NzUVZfZlN3SWNoMFU4VmdDLXBWa3JndFVqTEQ2QkxhYmJsT3ZZYW5Xdlh3aVB6ZkFuTzZ3MTBBSm9pNjdhSXI4cHUyU0VzZnJwekw0OXFaYTdfR1BKTTJBbUdtSnZKQmt3MlE?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_hsbc_sold",
+    "url": "https://news.google.com/rss/search?q=%22HSBC%20Sold%22%20%22Loan%22%20when%3A3d&hl=en-GB&gl=GB&ceid=GB:en",
+    "retrieved_at": "2026-11-17T02:15:05.491172+00:00",
+    "status": 200,
+    "bytes": 5023,
+    "items": [
+      {
+        "title": "HSBC Sold $300 Million Troubled Data Center Loan at Discount - Bloomberg.com",
+        "pubDate": "Mon, 16 Nov 2026 22:01:27 GMT",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeUdDXzVqbUpCb3VibUI5M1JDbWEwcnZFVUdQT05zQWxfNHRIQVkzTUZ4YVhfS2hKSzdkRm1yRzkxaHRkZGxpem1COVNEQk80VFhhSmFqTnNzc2owM0NlUTc1dXoxRE9mNmI1alZUSWh6ZWhFRjVCV0tYSkF0bnBqVUJhY0UxZE9qbjhubXFJMS1wc1g1VWdqZWhkaHQ2UkpkVGZIOGlYeExRbzV1cHNR?oc=5"
+      },
+      {
+        "title": "HSBC sold $300 million troubled data center loan at discount - Bloomberg News - TradingView",
+        "pubDate": "Mon, 16 Nov 2026 22:27:40 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQb2FZVGxjMGRCUkZjLXFOZDM2c3dubGpBdDlZR0ZqcTlFd3RMMlptR1Z0My12X09ucnZvNy1hc1J5ZjVkNXJua0J2LUpJdk9TNHFtcUN1elB5UDg1cUZObEo0aVpHNFRSSWYwODloVllXYUZyNWNPeXI4X1FRNFlFbHNvRGJMb29uZzhXcjF4ZHR3TXlUWmNFakFXMW02eTBadWdzMkpFaVZaNmpEVDNJZFVDVnF6NzlmNlBCQmNUZV90alZYSW53T1lpcWtHTVk1aG00ZWFhdjFGaFh5?oc=5"
+      },
+      {
+        "title": "HSBC Sold $300M Oracle-Tied Loan in Mid-80s, ~$45M Below Par - FourWeekMBA",
+        "pubDate": "Mon, 16 Nov 2026 22:58:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2Nrb3hBdi1CQXZTY3hGRDhtUVJxMGtMUW81YlAzTV9yb0pzbnpiUjNIU2xQWEFmXy10aG8wdG9JS2hTaWlycjctdEppcE5ZcE1DY3pjaWFNM0dvdjNxLXM2U2RsQVQwYlVLMnhIQy1SUEw2OGhmVl92bHNpbEYtSlB3S0I5SXJhNXpTdg?oc=5"
+      }
+    ]
+  },
+  {
+    "name": "news_openai_cfo",
+    "url": "https://news.google.com/rss/search?q=%22OpenAI%20CFO%22%20%22unplanned%22%20when%3A2d&hl=en-GB&gl=GB&ceid=GB:en",
+    "retrieved_at": "2026-11-17T02:15:05.491340+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "news_breit",
+    "url": "https://news.google.com/rss/search?q=%22Blackstone%22%20%22Amazon%22%20%225%20billion%22%20when%3A2d&hl=en-GB&gl=GB&ceid=GB:en",
+    "retrieved_at": "2026-11-17T02:15:05.491532+00:00",
+    "status": 200,
+    "bytes": 10766,
+    "items": [
+      {
+        "title": "Blackstone REIT to Buy Amazon Data Centers in $5 Billion Deal - Bloomberg.com",
+        "pubDate": "Mon, 16 Nov 2026 14:48:30 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONmdvREdrMXNHU3B6VVdldWdxVWswUnNjeXU4T2xGTlFfeDkyRzg0YkRweTdtZnhJNEZQcDRIMkR0NEw4Zk5QVzFfVllmMlI2OHFZeFRUMnVLRzIzSUY1U0RVSnZma2lZQjZORXIxSjZYck1fMExpMDVncXRka0dPby1tSW14SU40eDUtTnR2SmU2N0lNN243MkRlM01xQmpJeGtXT2wwelpPcXhET1lnQg?oc=5"
+      },
+      {
+        "title": "Blackstone Digital Infrastructure Trust Announces $5 Billion Acquisition of Stabilized Data Center Portfolio - Blackstone",
+        "pubDate": "Mon, 16 Nov 2026 12:06:14 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObG43UEE1UXpLcjNEcWxXaGl2OGlmX0puZGdWQzFaRkFUdjllY0VpS2lIa1FOUmhuZ0xaQ0x2eXAtTk9lVUI5ZTJBeU9BRHRpSjZNZlJvUXNVMk1uWmhRS2N5bnJoTjdrZzVncTVFTXdiZjNVbTBYUVRadXQ3ZnBjVTFhdms4RVZzREZ6MkNBWkRrMzR5dHBsUk9CSXpVUEFMbnYtazdmUTNNWDZZUk5JUmpEak04cnN5WlF4MkdJV2tkYUZJRmp1cnl1RUVhN01XQkRzR010dm9jWGNQYnZJ?oc=5"
+      },
+      {
+        "title": "Blackstone Digital Infrastructure Trust to Acquire Data Center Portfolio from Amazon for $5 Billion - WSJ",
+        "pubDate": "Mon, 16 Nov 2026 12:40:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYndUelZNd1UyOUZYQ1lmZVZYQmJ5SE9KNExiVV9hYUFpdlpTQ19lUnVyMFJJMF9VSjMtam9uT0ZCQnhrUzlCWWlJT0wxOW5Oak5jSTRkRTFTV3dlcUcxdDZJRjdjVW9pekpRb3pocUdweV83eUh5UzlFLXdQQ1FtaVlkNm1OblY0c3A2UGl3S24wbERRWEdIb2FUbmNKZjhZQjdPd3MwenVTLWdLTjZmT1l1bUY1cjlWRTY1bzRUWUJFSENTb0NQTlY4RGFjYjJXOXNPTGQ0d1RqZw?oc=5"
+      },
+      {
+        "title": "Amazon sells USD5 billion data centre portfolio to Blackstone - Capital Brief",
+        "pubDate": "Mon, 16 Nov 2026 13:28:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVEpNV1BZak5IendqeVdJSmtiODhTbVdGVWFoRGFZaF9ibkxsWGF5amZpUmJWMGxNQ2RRMHpwUEJaY3lDU2dJaGZRNDdVSkk1a0JzcWRrZkt2QjNucVNQeXRIVnQ5VldYVzRmakMtMUNrTEpYSDI3M2YtbEpGc0NJUXg1X09GUDdkb2JESW44NGVPQk8xUkQ2bVFrLXh1YlFtMkptQThCZDVmYVk4YzVBZjdzVTZnWk9ONjBSUFc2VDZNcXozeWZKeFlvRWhqcUNoTzZ3?oc=5"
+      },
+      {
+        "title": "Amazon Sells Data Centers to Blackstone in $5 Billion Deal - PYMNTS.com",
+        "pubDate": "Mon, 16 Nov 2026 18:47:27 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUHBIb1BKNmVKNTBMcURkZkFWVnNYSld5aW5iUXpxa0tDWWhsY01ieU9YeXpvZHE3OHREN2xzejIxcGlfTUQwNE9WdTBwMEZfOWRwbGd3d3M2bG44eldmdF9Nb09wRjZGNVp1REhKTy1wZHNpczNjWnBUdXhaa0xzNlpHQ2NVQWpHSmJWcXdIdE50ZjBibUs5NUhQRWJ6SG1McTBZ?oc=5"
+      },
+      {
+        "title": "News | Blackstone\u2019s data center REIT strikes $5 billion Amazon data center sale-leaseback deal - CoStar",
+        "pubDate": "Mon, 16 Nov 2026 17:15:48 GMT",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRGdNa1A5d2JNWDhvQzZJTVJRV1NxUVF3V3JTby1mZjBZNXF6bkZoRGpLUWtXbnVwNm5aeDFRLWJZR1k1d0FoQmJnenlEZWZ1ODFyWGw5dXdZWWVMWXpabFJsTHFya1ZjZ3oyY2o1dXhCbUVYVTBqbHlrSW15Y2dNUUpTSkhZSWZmS09VWVJVc0NINE9GR0xWajR4YXdiVW1UREt0bzZEZGhOQ2JfS1FzQnZwaGNfajItVjVEeC1jRXlqVHBzclE?oc=5"
+      },
+      {
+        "title": "Blackstone Digital Trust announces $5 billion Amazon deal - grafa.com",
+        "pubDate": "Mon, 16 Nov 2026 18:52:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV0lCWWRBLV9xR1lQaXVHRV9GSGdQSjRBd0t5TnoxMHVmRDIxRlVISGhZbm1Sdy1Ha3pjSWdkcU9lMm9zdDNYVk0wcXBYQmVRd0czR21yRlU2SEZOZ3J1NlQ4RktNOVFmUWFRUDliLTJJX250QmMzdDVxQzVnME9qT3B5bk9fV0lCNF91eEdtbXRxS0UyT3RIRkp3ejB0NlJYSnFkQWF4UUlacC1wZUE?oc=5"
+      }
+    ]
+  }
+]

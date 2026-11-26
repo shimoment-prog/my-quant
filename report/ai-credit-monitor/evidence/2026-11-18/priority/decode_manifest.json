@@ -1,0 +1,38 @@
+[
+  {
+    "name": "hsbc_quartz",
+    "title": "HSBC sold a slice of an Oracle-linked data center construction loan at a steep discount - Quartz",
+    "published_at": "Tue, 17 Nov 2026 13:53:56 GMT",
+    "source_feed_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GUWxKT0luM1hVOHVIVnc0QTAweWJXRkxUWkUwREw4LXdVYmd3VFBOVEZYbE5kdHZYYm5tOXY2aGRvWWNqRXdoUHlQZVR2a0lvT1J0czE3Q3hyMHpvQ25IaFVQckhJOEhRdFB3?oc=5",
+    "retrieved_at": "2026-11-18T00:35:22.747476+00:00",
+    "decode_ok": true,
+    "result": ")]}'\n\n[[\"wrb.fr\",\"Fbv4je\",\"[\\\"garturlres\\\",\\\"https://qz.com/hsbc-oracle-data-center-loan-discount-111726\\\",1]\",null,null,null,\"generic\"],[\"di\",7],[\"af.httprm\",7,\"-8041659834510028401\",27]]"
+  },
+  {
+    "name": "hsbc_bisnow",
+    "title": "HSBC Sells $300M Of Data Center Debt Tied To Stargate Project At Big Discount - Bisnow",
+    "published_at": "Tue, 17 Nov 2026 20:35:29 GMT",
+    "source_feed_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYUFsbkVyaVNOaEotSmF0aHU3QmZocGY1X0lhN0FoUmFQX05WaDJ2YzY2bHBzRTluTE9Rc0M1YjVib2J4aWpDYWVhb1hXbmRDQmppeTVqZUtPN2FfSGhxUHU2SU5Mc3dFOWltQmJkOUdDeWtTRlBuU1RjT0NDNy11MnhzaHk4OXNOaDA1Vy1YdW9OeU84ZlI2TEFUdmctMDFEazN4bk85bUhISkZHN3BhbmxtWlRkWGVFVmc?oc=5",
+    "retrieved_at": "2026-11-18T00:35:22.747873+00:00",
+    "decode_ok": true,
+    "result": ")]}'\n\n[[\"wrb.fr\",\"Fbv4je\",\"[\\\"garturlres\\\",\\\"https://www.bisnow.com/news/national/data-center-capital-markets/hsbc-sells-300m-of-data-center-debt-at-steep-discount\\\",1]\",null,null,null,\"generic\"],[\"di\",11],[\"af.httprm\",10,\"7000377147216863514\",14]]"
+  },
+  {
+    "name": "hsbc_klse",
+    "title": "HSBC sold US$300mil troubled data centre loan at discount - KLSE Screener",
+    "published_at": "Tue, 17 Nov 2026 07:48:10 GMT",
+    "source_feed_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOENyNkdLcTJvTmZjNDRPd1VGYklCTndfLTgxQURXSVJGcE9WcEZOcWhubmNNTnRhQkt3Sm81THEtTmY0OTRlT2RUM3o3bnd1clpqcFktMXFldGExclgzdXhhLTc5RWxlQjlQenVJUnc4OXlURXdEZkZlX09PZm14VDQ1Sl9wWnFHMmU2b0FVR3k3YU1IcEEza3hWbkpFalNUQkFPWC1iaXZwanM?oc=5",
+    "retrieved_at": "2026-11-18T00:35:24.193019+00:00",
+    "decode_ok": true,
+    "result": ")]}'\n\n[[\"wrb.fr\",\"Fbv4je\",\"[\\\"garturlres\\\",\\\"https://www.klsescreener.com/v2/news/view/1829205/hsbc-sold-us-300mil-troubled-data-centre-loan-at-discount\\\",1]\",null,null,null,\"generic\"],[\"di\",11],[\"af.httprm\",11,\"722846689866708646\",13]]"
+  },
+  {
+    "name": "blackstone_edge",
+    "title": "Blackstone REIT to buy majority stake in US$5b Amazon data centre portfolio - The Edge Malaysia",
+    "published_at": "Mon, 16 Nov 2026 13:29:30 GMT",
+    "source_feed_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1DUzdSdFJmRkZydi1NVlZ0LW9hSkJlZWFzUGs3Qi1iRWxpUmlEdHducHdZaGk5SjV6NjIzMXhtLVB6Y25yZzB5cFM4Z052NE1X?oc=5",
+    "retrieved_at": "2026-11-18T00:35:24.212583+00:00",
+    "decode_ok": true,
+    "result": ")]}'\n\n[[\"wrb.fr\",\"Fbv4je\",\"[\\\"garturlres\\\",\\\"https://theedgemalaysia.com/node/826011\\\",1]\",null,null,null,\"generic\"],[\"di\",13],[\"af.httprm\",13,\"996678028672344866\",19]]"
+  }
+]

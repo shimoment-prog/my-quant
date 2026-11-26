@@ -1,0 +1,58 @@
+[
+  {
+    "name": "cnbc_close",
+    "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
+    "retrieved_at": "2026-11-09T00:48:58.182933+00:00",
+    "ok": true,
+    "len": 1188945
+  },
+  {
+    "name": "cnbc_yields",
+    "url": "https://www.cnbc.com/2026/11/06/treasury-yields-bonds-interest-rates.html",
+    "retrieved_at": "2026-11-09T00:48:58.183332+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "bls",
+    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "retrieved_at": "2026-11-09T00:48:58.183488+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "bls_archive",
+    "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+    "retrieved_at": "2026-11-09T00:48:58.183675+00:00",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "news_market",
+    "url": "https://news.google.com/rss/search?q=US%20stock%20market%20November%206%202026%20S%26P%20Nasdaq%20Dow%20Reuters%20CNBC&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-09T00:48:58.183822+00:00",
+    "ok": true,
+    "len": 19920
+  },
+  {
+    "name": "news_optical",
+    "url": "https://news.google.com/rss/search?q=Lumentum%20Coherent%20Ciena%20Fabrinet%20Marvell%20November%206%202026%20stock&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-09T00:48:58.183981+00:00",
+    "ok": true,
+    "len": 13490
+  },
+  {
+    "name": "news_macro",
+    "url": "https://news.google.com/rss/search?q=US%20payroll%20jobs%20report%20November%206%202026%20unemployment%20Reuters&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-09T00:48:58.500803+00:00",
+    "ok": true,
+    "len": 34919
+  },
+  {
+    "name": "news_commodity",
+    "url": "https://news.google.com/rss/search?q=oil%20gold%20November%206%202026%20Reuters&hl=en-US&gl=US&ceid=US:en",
+    "retrieved_at": "2026-11-09T00:48:58.622520+00:00",
+    "ok": true,
+    "len": 79353
+  }
+]

@@ -1,0 +1,589 @@
+{
+  "prepared_at": "2026-11-09T08:53:06+08:00",
+  "since_beijing": "2026-11-06T08:47:31+08:00",
+  "asof_beijing": "2026-11-09T08:52:59+08:00",
+  "scope": "本轮海外重大披露增量；行情由主任务独立核查，不改state。",
+  "last_completed_US_regular_session": "2026-11-06",
+  "SEC_checks": [
+    {
+      "symbol": "LITE",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T13:41:58.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001633978.json"
+    },
+    {
+      "symbol": "MRVL",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T18:22:27.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001835632.json"
+    },
+    {
+      "symbol": "COHR",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T18:14:28.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0000820318.json"
+    },
+    {
+      "symbol": "CIEN",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-04T21:41:34.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0000936395.json"
+    },
+    {
+      "symbol": "AAOI",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T21:16:58.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001158114.json"
+    },
+    {
+      "symbol": "FN",
+      "new_filings": [],
+      "latest_acceptance_utc": "2026-11-05T18:16:20.000Z",
+      "source": "https://data.sec.gov/submissions/CIK0001408710.json"
+    }
+  ],
+  "new_verified_major_events": [
+    {
+      "id": "NVDA_board_investigation_20261108",
+      "company": "NVDA",
+      "source_level": "official_company_statement",
+      "official_page_date": "2026-11-08",
+      "exact_official_publication_timestamp": null,
+      "retrieved_at_beijing": "2026-11-09T08:50:40+08:00",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "facts_zh": "董事会因近期报道有关CEO成为外国情报活动目标，启动由独立董事及外部独立律师监督的调查；董事会表示目前无理由认为国家安全或NVIDIA机密受到损害，仍信任CEO及领导团队。",
+      "related_official_letter": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "meaning": "治理与信息安全不确定性是周末新增事实，可影响AI供应链风险偏好。",
+      "limits": "启动调查不是确认泄密、正式出口限制、CEO离任、订单取消或光模块需求下降。官网只给日期；快讯北京时间04:02提及不等于官网精确发布时间。夜盘、链上永续合约价格不得混作11/6正常收盘。"
+    }
+  ],
+  "new_company_IR_non_demand_items": [
+    {
+      "company": "AAOI",
+      "date": "2026-11-06",
+      "url": "https://investors.ao-inc.com/2026-11-06-Applied-Optoelectronics-Announces-Equity-Grants-To-Employees-Under-Inducement-Plan",
+      "facts": "披露向3名新员工授予1346股普通股，授予日11/2。",
+      "classification": "员工激励，非新增客户订单、财报或业务指引。"
+    },
+    {
+      "company": "MRVL",
+      "date": "2026-11-06",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
+      "facts": "11/6通知FY2027Q3财报电话会将于2026-12-01 13:30 Pacific Time举行（北京时间12/2 05:30），不是本次已出业绩。",
+      "classification": "日程公告，非业绩已经披露；具体日程以原文为准。"
+    }
+  ],
+  "new_reliable_media_reports_not_primary_confirmed": [
+    {
+      "id": "OpenAI_first_tranche_funding",
+      "published_at_beijing": "2026-11-07T07:08:05+08:00",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixwakn8514139.shtml",
+      "reported": "媒体援引知情人士称，首批约110亿美元资金到账，融资估值1.25万亿美元，整体融资最高200亿美元、余款预计未来几周。",
+      "boundary": "首批到账与全额完成分开，未取得OpenAI原始融资公告，不能断言200亿美元已经到账或已经转成数据中心资本开支。"
+    },
+    {
+      "id": "OpenAI_CFO_DC_commitment",
+      "published_at_beijing": "2026-11-07T08:07:49+08:00",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixwhsn5187070.shtml",
+      "reported": "媒体称CFO表示继续推进美国数据中心扩张；报道另提谷歌怀俄明州170亿美元数据中心计划。",
+      "boundary": "管理层意愿/规划，非已付款、已交付设备、新易盛订单。谷歌金额未独立取得官方核验，最终精简报告可省。"
+    },
+    {
+      "id": "MSFT_ORCL_older_GPU_capacity_report",
+      "published_at_beijing": "2026-11-07T01:41:57+08:00",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixvrus8682155.shtml",
+      "reported": "匿名人士称微软逐步不续约并关停从甲骨文租赁的部分老代GPU算力，称其不能满足微软技术标准；甲骨文发言人称包括旧GPU在内AI基础设施需求仍旺盛。",
+      "boundary": "供应商/技术标准及老代算力调整，不等于所有AI需求或最新800G/1.6T订单取消；没有披露光模块客户订单量。"
+    },
+    {
+      "id": "Anthropic_power_equipment_report",
+      "published_at_beijing": "2026-11-08T23:12:18+08:00",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-08/doc-inixzxsn6844439.shtml",
+      "reported": "报道Anthropic同意采购34亿美元、约1.7GW燃气发电机，接手OnePWR的设备订单；交易发生在9月底。",
+      "boundary": "周末新报道但底层交易较早；未取得公司官方合同，不能当本周新增订单或已投运电力。"
+    },
+    {
+      "id": "US_permitting_bill",
+      "published_at_beijing": "2026-11-09T08:19:47+08:00",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwh6656906.shtml",
+      "reported": "媒体转述特朗普促参院支持许可审批法案，称大型AI数据中心应自建发电设施并自行支付电费。",
+      "boundary": "提案/政治表态，未核实已通过或生效，不写成现行新禁令或全美暂停建设。"
+    },
+    {
+      "id": "ECB_DC_lending_review_report",
+      "report": {
+        "time": "2026-11-06 22:42:18",
+        "text": "【欧洲央行据悉考虑审查数据中心相关银行贷款 AI风险担忧升温】欧元区最高银行监管机构考虑审查与数据中心相关的贷款，以评估人工智能市场情绪和估值波动可能带来的风险。外界担心利率上升以及对数据中心开发的反对情绪日益增强，可能给这一贷款快速扩张的领域带来压力，全球监管机构正加强对银行AI相关风险的审视。其中一名知情人士表示，审查可能采取现场检查的形式，深入了解银行如何核算未来现金流、抵押品估值等因素，以及如何应对可能的违约。",
+        "url": "https://finance.sina.com.cn/7x24/2026-11-06/doc-inixvmnu8753593.shtml"
+      },
+      "boundary": "匿名消息称考虑检查；非已全面限制贷款、确认违约或已实施监管。"
+    }
+  ],
+  "previously_seen_in_intraday_not_new_to_conversation": [
+    {
+      "id": "ING_data_center_loan_sale",
+      "first_report_beijing": "2026-11-06T14:07:52+08:00",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-06/doc-inixuqhu5007317.shtml",
+      "status": "相对11/6盘前为新增，已在11/6下午监测提过；匿名约5亿美元贷款出售报道，银行不评论，不写成已违约。"
+    },
+    {
+      "id": "China_optics_order_responses",
+      "first_report_beijing": "2026-11-06T11:42:26+08:00",
+      "status": "中际旭创/新易盛午间经营与订单公告已于11/6下午监测提过；由主任务可读取原公告，不包装成周末新海外订单。"
+    }
+  ],
+  "carried_background_not_new": {
+    "AAOI_Q3": {
+      "id": "AAOI_Q3_2026_results",
+      "company": "AAOI",
+      "release_date_ET": "2026-11-05",
+      "SEC_8k_acceptance_utc": "2026-11-05T21:10:28Z",
+      "SEC_8k_acceptance_beijing": "2026-11-06T05:10:28+08:00",
+      "session": "after_regular_close",
+      "sources": {
+        "IR": "https://investors.ao-inc.com/2026-11-05-Applied-Optoelectronics-Reports-Third-Quarter-2026-Results",
+        "8K": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008351/aaoi_8k.htm",
+        "8K_exhibit": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008351/aaoi_ex9901.htm",
+        "10Q": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm"
+      },
+      "realized": {
+        "Q3_revenue_USD_million": 269.875,
+        "Q3_2025_revenue_USD_million": 118.63,
+        "Q3_revenue_yoy_pct_derived": 127.49304560397876,
+        "Q2_2026_revenue_USD_million_rounded": 191.9,
+        "Q3_revenue_qoq_pct_derived_from_rounded": 40.63314226159458,
+        "Q3_GAAP_gross_margin_pct": 28.2,
+        "Q3_nonGAAP_gross_margin_pct": 28.7,
+        "Q2_nonGAAP_margin_pct": 29.8,
+        "Q3_GAAP_net_income_USD_million": 6.3,
+        "Q3_GAAP_EPS_basic_USD": 0.07,
+        "Q3_nonGAAP_net_income_USD_million": 14.8,
+        "Q3_nonGAAP_EPS_diluted_USD": 0.17,
+        "9m_operating_cashflow_USD_million": -76.653,
+        "9m_investing_cashflow_USD_million": -1109.533,
+        "9m_financing_cashflow_USD_million": 1591.645,
+        "cash_with_restricted_USD_million": 621.457,
+        "receivables_USD_million": 413.76,
+        "inventory_USD_million": 377.991,
+        "interpretation_zh": "收入兑现加速且GAAP扭亏支持公司需求仍强；非GAAP毛利环比下降，前三季经营现金仍净流出，大规模扩产依赖融资，不等于增长无风险。"
+      },
+      "guidance_not_realized": {
+        "Q4_revenue_USD_million": [
+          385,
+          420
+        ],
+        "Q4_nonGAAP_gross_margin_pct": [
+          29.5,
+          31
+        ],
+        "Q4_nonGAAP_net_income_USD_million": [
+          45.9,
+          60.4
+        ],
+        "Q4_nonGAAP_EPS_USD": [
+          0.48,
+          0.63
+        ],
+        "Q4_revenue_guidance_midpoint_qoq_pct_derived": 49.14312181565539,
+        "manufacturing_equipment_capacity_now_units_per_month_approx": 330000,
+        "end2026_installed_equipment_capacity_800G_1p6T_units_month_over": 500000,
+        "end2027_target_800G_1p6T_units_month_over": 1000000,
+        "capacity_warning": "公司预计2027美国扩产因电力接入时间及其他施工问题更慢；设备产能不等于合格交付、订单或营收。"
+      },
+      "customer_contract_new_disclosure": {
+        "type": "3_year_long_term_agreement",
+        "customer": "unnamed_major_hyperscale_data_center_customer",
+        "signed": "subsequent_to_2026-09-30_exact_date_not_disclosed",
+        "covered_period": "2026-06_to_2029-05",
+        "original_quote": "this customer is obligated, with certain conditions, to purchase 10% of certain 1.6 Tb data center transceiver products from us",
+        "supplier_obligations": "AAOI需建设额外产能满足供货；约定某些最高定价。",
+        "limitations": "实际量/收入依赖客户需求、条件及AAOI供货能力。未披露客户名、具体绝对数量或总金额；不要推算全球份额或认定抢走新易盛订单。",
+        "status": "已签协议为事实；未来采购与收入仍有条件。"
+      },
+      "supplier_contract_new_disclosure": {
+        "agreement_date": "2026-11-02",
+        "disclosed_10q_accepted_utc": "2026-11-05T21:16:58Z",
+        "framework_years": 5,
+        "annual_purchases_USD_million_up_to": 194.4,
+        "prepayments_USD_million_up_to": 40,
+        "payable_2026_USD_million": 20,
+        "paid_asof_filing": 0,
+        "material": "unnamed_key_raw_material",
+        "regulatory_condition": "供应商出口与交付取决于中国相关监管批准，实际量以出口批准为限，若未获批可取消和退款。",
+        "interpretation_zh": "供应保障与合规审批同时存在，不能猜测具体原料或供应商，也不能将采购框架写成已交付或确已断供。"
+      }
+    },
+    "AAOI_timing": "11/5盘后财报、LTA及原料审批均在11/6盘前已知，本次不当新财报。",
+    "LITE_MRVL_merger": "11/2宣布并购、11/4沟通/11/5提交425已知；本轮SEC无新425，未核到条款、监管批准或交割完成变化。",
+    "COHR_earnings": "11/4盘后已公布，不能当11/9新财报。",
+    "13G": "此前持股披露不当作当日主动买卖或客户真实需求。"
+  },
+  "IR_checks": [
+    {
+      "company": "AAOI",
+      "result": "新增员工激励通知，11/5Q3财报旧背景。"
+    },
+    {
+      "company": "MRVL",
+      "result": "新增11/6电话会日期通知，未见新业务财报。"
+    },
+    {
+      "company": "COHR",
+      "result": "新闻页原始内容与11/6抓取完全一致。"
+    },
+    {
+      "company": "LITE",
+      "result": "HTTP429，未绕过；SEC成功。"
+    },
+    {
+      "company": "CIEN",
+      "result": "HTTP429，未绕过；SEC成功。"
+    },
+    {
+      "company": "FN",
+      "result": "HTTP403，未绕过；SEC成功。"
+    }
+  ],
+  "coverage": {
+    "news_feed_unique_count": 1898,
+    "news_feed_range_beijing": [
+      "2026-11-06 18:52:32",
+      "2026-11-09 08:47:47"
+    ],
+    "gap_note": "本轮feed覆盖11/6 18:52至11/9 08:47；11/6 08:47—14:34已有盘中证据，14:34—18:52未穷尽，六公司SEC/IR增量贯穿整个窗口。",
+    "news_matches_file": "/tmp/optics-premarket-20261109/events/news_matches.json"
+  },
+  "interpretation_zh": "最新完整交易日的反弹要与周末新增治理风险分开。六家海外光通尚未核到新订单取消或财报下修；融资到账报道和客户继续扩张表述说明资本开支并未被证实全面停止，但融资估值收缩、旧GPU租赁调整和许可/供电约束仍是兑现风险。不能把股价反弹等同需求完全无忧，也不能把调查或监管预期直接等同新易盛丢单。",
+  "limitations": [
+    "四分钟内有界核查；非全球新闻穷尽。",
+    "三家公司IR受429/403限制，未绕过，SEC成功。",
+    "OpenAI融资、Anthropic能源采购、微软旧GPU租赁及监管提案用媒体层级，未用匿名或管理层观点替代已实现结果。",
+    "本任务不独立输出最新股价；市场价格由主任务核查。",
+    "治理调查无精确官网发布时间，只有官方11/8日期和实际抓取时间。"
+  ],
+  "sources": [
+    {
+      "name": "us_quotes",
+      "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+      "retrieved_at": "2026-11-09T00:48:57.767008+00:00",
+      "ok": true,
+      "length": 3106
+    },
+    {
+      "name": "us_sina",
+      "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+      "retrieved_at": "2026-11-09T00:48:57.767352+00:00",
+      "ok": true,
+      "length": 3002
+    },
+    {
+      "name": "mrvl_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+      "retrieved_at": "2026-11-09T00:48:57.767676+00:00",
+      "ok": true,
+      "length": 136604
+    },
+    {
+      "name": "mrvl_ir",
+      "url": "https://investor.marvell.com/news-events/press-releases",
+      "retrieved_at": "2026-11-09T00:48:57.857309+00:00",
+      "ok": true,
+      "length": 114868
+    },
+    {
+      "name": "fn_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+      "retrieved_at": "2026-11-09T00:48:57.768253+00:00",
+      "ok": true,
+      "length": 155153
+    },
+    {
+      "name": "cohr_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+      "retrieved_at": "2026-11-09T00:48:57.767811+00:00",
+      "ok": true,
+      "length": 160624
+    },
+    {
+      "name": "aaoi_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+      "retrieved_at": "2026-11-09T00:48:57.768090+00:00",
+      "ok": true,
+      "length": 154591
+    },
+    {
+      "name": "lite_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+      "retrieved_at": "2026-11-09T00:48:57.767529+00:00",
+      "ok": true,
+      "length": 159053
+    },
+    {
+      "name": "cien_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+      "retrieved_at": "2026-11-09T00:48:57.767945+00:00",
+      "ok": true,
+      "length": 158567
+    },
+    {
+      "name": "aaoi_ir",
+      "url": "https://investors.ao-inc.com/",
+      "retrieved_at": "2026-11-09T00:48:57.853351+00:00",
+      "ok": true,
+      "length": 44035
+    },
+    {
+      "name": "live_news_2",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=2&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:48:59.523168+00:00",
+      "ok": true,
+      "length": 269465
+    },
+    {
+      "name": "live_news_1",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:48:59.499173+00:00",
+      "ok": true,
+      "length": 264317
+    },
+    {
+      "name": "live_news_3",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=3&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:48:59.571057+00:00",
+      "ok": true,
+      "length": 345599
+    },
+    {
+      "name": "live_news_4",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=4&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:48:59.704992+00:00",
+      "ok": true,
+      "length": 341725
+    },
+    {
+      "name": "live_news_5",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=5&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:48:59.926386+00:00",
+      "ok": true,
+      "length": 323588
+    },
+    {
+      "name": "live_news_7",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=7&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:49:00.029403+00:00",
+      "ok": true,
+      "length": 280440
+    },
+    {
+      "name": "live_news_6",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=6&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:48:59.997969+00:00",
+      "ok": true,
+      "length": 322079
+    },
+    {
+      "name": "live_news_8",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=8&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:49:00.118136+00:00",
+      "ok": true,
+      "length": 348618
+    },
+    {
+      "name": "cohr_ir",
+      "url": "https://www.coherent.com/news",
+      "retrieved_at": "2026-11-09T00:48:59.208367+00:00",
+      "ok": true,
+      "length": 170108
+    },
+    {
+      "name": "lite_ir",
+      "url": "https://investor.lumentum.com/news-events/press-releases",
+      "retrieved_at": "2026-11-09T00:48:59.285982+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "cien_ir",
+      "url": "https://investor.ciena.com/news-releases",
+      "retrieved_at": "2026-11-09T00:48:59.407677+00:00",
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "live_news_9",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=9&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:49:00.337689+00:00",
+      "ok": true,
+      "length": 307941
+    },
+    {
+      "name": "live_news_12",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=12&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:49:00.521214+00:00",
+      "ok": true,
+      "length": 199408
+    },
+    {
+      "name": "live_news_11",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=11&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:49:00.509902+00:00",
+      "ok": true,
+      "length": 311391
+    },
+    {
+      "name": "live_news_10",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=10&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:49:00.490791+00:00",
+      "ok": true,
+      "length": 294194
+    },
+    {
+      "name": "fn_ir",
+      "url": "https://investor.fabrinet.com/news-releases",
+      "retrieved_at": "2026-11-09T00:48:59.439072+00:00",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "openai_funding_report",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixwakn8514139.shtml",
+      "retrieved_at": "2026-11-09T00:49:59.987105+00:00",
+      "ok": true,
+      "length": 28857
+    },
+    {
+      "name": "openai_cfo_report",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixwhsn5187070.shtml",
+      "retrieved_at": "2026-11-09T00:49:59.987243+00:00",
+      "ok": true,
+      "length": 28145
+    },
+    {
+      "name": "nvda_board_report",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyakhq3625897.shtml",
+      "retrieved_at": "2026-11-09T00:49:59.987749+00:00",
+      "ok": true,
+      "length": 27234
+    },
+    {
+      "name": "anthropic_power_report",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-08/doc-inixzxsn6844439.shtml",
+      "retrieved_at": "2026-11-09T00:49:59.987387+00:00",
+      "ok": true,
+      "length": 98313
+    },
+    {
+      "name": "permit_bill_report",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-09/doc-iniyauwh6656906.shtml",
+      "retrieved_at": "2026-11-09T00:49:59.987573+00:00",
+      "ok": true,
+      "length": 28187
+    },
+    {
+      "name": "nvda_news",
+      "url": "https://nvidianews.nvidia.com/news",
+      "retrieved_at": "2026-11-09T00:49:59.986790+00:00",
+      "ok": true,
+      "length": 68694
+    },
+    {
+      "name": "nvda_sec",
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "retrieved_at": "2026-11-09T00:49:59.986963+00:00",
+      "ok": true,
+      "length": 159914
+    },
+    {
+      "name": "live_news_13",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=13&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:50:00.189398+00:00",
+      "ok": true,
+      "length": 205510
+    },
+    {
+      "name": "live_news_14",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=14&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:50:00.199790+00:00",
+      "ok": true,
+      "length": 202870
+    },
+    {
+      "name": "live_news_15",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=15&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:50:00.204837+00:00",
+      "ok": true,
+      "length": 213159
+    },
+    {
+      "name": "live_news_16",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=16&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:50:00.220119+00:00",
+      "ok": true,
+      "length": 247089
+    },
+    {
+      "name": "live_news_17",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=17&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:50:00.276191+00:00",
+      "ok": true,
+      "length": 258907
+    },
+    {
+      "name": "live_news_18",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=18&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:50:00.430874+00:00",
+      "ok": true,
+      "length": 247387
+    },
+    {
+      "name": "live_news_19",
+      "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=19&page_size=100&type=0",
+      "retrieved_at": "2026-11-09T00:50:00.530902+00:00",
+      "ok": true,
+      "length": 232517
+    },
+    {
+      "name": "aaoi_inducement",
+      "url": "https://investors.ao-inc.com/2026-11-06-Applied-Optoelectronics-Announces-Equity-Grants-To-Employees-Under-Inducement-Plan",
+      "retrieved_at": "2026-11-09T00:49:59.986413+00:00",
+      "ok": true,
+      "length": 34497
+    },
+    {
+      "name": "msft_orcl_report",
+      "url": "https://finance.sina.com.cn/7x24/2026-11-07/doc-inixvrus8682155.shtml",
+      "retrieved_at": "2026-11-09T00:50:40.487027+00:00",
+      "ok": true,
+      "length": 28179
+    },
+    {
+      "name": "nvda_letter",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "retrieved_at": "2026-11-09T00:50:40.486856+00:00",
+      "ok": true,
+      "length": 60063
+    },
+    {
+      "name": "nvda_board",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "retrieved_at": "2026-11-09T00:50:40.486532+00:00",
+      "ok": true,
+      "length": 59679
+    },
+    {
+      "name": "google_crusoe",
+      "url": "https://www.crusoe.ai/resources/newsroom",
+      "retrieved_at": "2026-11-09T00:50:40.487162+00:00",
+      "ok": true,
+      "length": 292664
+    },
+    {
+      "name": "mrvl_call",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
+      "retrieved_at": "2026-11-09T00:51:57.718397+00:00",
+      "ok": true,
+      "length": 88325
+    }
+  ],
+  "short_report_zh": "新增重点是英伟达11/8官方宣布独立调查，董事会同时表示目前无理由认为国家安全或机密受损并信任管理层；这是治理风险，不能等同订单取消。六光通SEC自上次盘前无新提交，AAOI仅员工激励、MRVL仅财报电话会预告，11/5财报不重复当新。媒体称OpenAI首批110亿美元融资到账且CFO继续推进数据中心扩张，属于融资报道/管理层计划；微软调整甲骨文旧GPU租赁、供电及许可法案担忧显示节奏风险，均不能直接推新易盛订单变化。"
+}

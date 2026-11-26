@@ -1,0 +1,122 @@
+{
+  "observation_date": "2026-11-10",
+  "check_type": "incremental_supplier_project_lender_review",
+  "cutoff": "2026-11-09T00:35:19.758136+00:00",
+  "retrieval_started_at": "2026-11-10T00:30:10+00:00",
+  "conclusion": "本次覆盖的公开资料中，尚未核实新增供应商正式收入指引下调、IREN或TeraWulf同一项目从延期升级为已签取消/退款/融资中断，以及资金方AI相关实际减值或担保赔付。新增Apollo一般公司次级债定价和Lumentum历史访谈备案，均不单独改变AI风险判断；未取得的信息不能视作风险缓解。",
+  "material_ai_risk_change_verified": false,
+  "coverage": {
+    "sec_submission_inventory": {
+      "manifest": "submission_manifest.json",
+      "success_count": 14,
+      "company_count": 14,
+      "companies": ["NVIDIA", "AMD", "Marvell", "Lumentum", "Coherent", "Applied Optoelectronics", "Fabrinet", "Ciena", "IREN", "TeraWulf", "Apollo", "Blackstone", "Ares", "JPMorgan"],
+      "new_8k_10q_10k_6k_after_cutoff": 0,
+      "other_new_filings": {
+        "Apollo": ["FWP", "305B2", "424B5"],
+        "Lumentum": ["425"],
+        "JPMorgan": "91项主要为结构性票据及相关发行文件，不作为新增AI经营损失披露"
+      }
+    },
+    "news_discovery": "suppliers.xml、iren.xml、ai_chain.xml、lenders.xml及根节点market/incremental_news_items.json；新闻标题仅作线索，未核全文不升级为已核实事件。",
+    "ir_access": {
+      "Apollo": "成功，已读11月9日新发债公告",
+      "Ares": "成功取得IR新闻目录，未找到新增相关重大事项",
+      "Blackstone": "403；SEC增量清单可用",
+      "IREN": "所试IR新闻路径404；SEC增量清单可用",
+      "TeraWulf": "所试IR新闻路径404；SEC增量清单可用"
+    }
+  },
+  "events": [
+    {
+      "id": "apollo-20261109-junior-subordinated-notes-priced",
+      "entity": "Apollo Global Management",
+      "evidence_level": "primary_issuer_and_sec",
+      "public_time": "2026-11-09T22:00:00+00:00",
+      "sec_fwp_accepted_at": "2026-11-09T20:28:56+00:00",
+      "event_type": "general_corporate_financing",
+      "financing_stage": "priced_not_yet_settled",
+      "principal_usd": 600000000,
+      "currency": "USD",
+      "instrument": "fixed-rate resettable junior subordinated unsecured notes",
+      "initial_coupon_pct": 7.55,
+      "maturity_date": "2056-12-15",
+      "expected_settlement_date": "2026-11-13",
+      "expected_net_proceeds_before_expenses_usd": 594000000,
+      "reset_terms": "2036年12月15日后为五年期美债收益率加2.672%，其后每五年重设。",
+      "optional_interest_deferral": "条款允许连续最多五年递延付息；未核实实际行使。",
+      "use_of_proceeds": "一般公司用途，包括此前宣布的Mubadala Capital Asset Management投资。",
+      "rating_scope": "发行人条款表列预期评级A3/BBB+/BBB+，不是本次独立核实的评级机构新动作。",
+      "interpretation": "未证实为AI损失、AI贷款或抵押压力融资。次级票息不能直接与优先债或CDS比较，无同口径历史不判断融资持续恶化。已定价不等于11月13日已到账，也不证明AI经营风险缓解。",
+      "sources": [
+        "https://ir.apollo.com/news-events/press-releases/detail/659/apollo-prices-offering-of-fixed-rate-resettable-junior",
+        "https://www.sec.gov/Archives/edgar/data/1858681/000095014226002981/eh260853424_fwp.htm"
+      ],
+      "raw_files": ["apollo_new_notes_ir.html", "apollo_new_notes_ir.txt", "apollo_new_notes_fwp.html", "apollo_new_notes_fwp.txt"],
+      "alert_trigger": false
+    },
+    {
+      "id": "lite-20261109-425-nov6-interview",
+      "entity": "Lumentum",
+      "evidence_level": "primary_sec_management_commentary",
+      "interview_date": "2026-11-06",
+      "public_filing_accepted_at": "2026-11-09T21:55:00+00:00",
+      "event_type": "filing_of_historical_interview",
+      "formal_revenue_guidance_revision": false,
+      "summary": "备案的是CEO Michael Hurlston的11月6日CNBC访谈，称需求很强、未见积压订单放缓，解释既有数据中心的电转光需求，并重申对Marvell全股票并购的信心。访谈提到最近已披露季度约20%环比增长，不能重新计作11月9日新业绩。",
+      "interpretation": "未核实新增量化指引下调。管理层乐观表述不等于独立客户订单或风险缓解证据；4.5股MRVL换1股LITE为既有交易安排。",
+      "sources": ["https://www.sec.gov/Archives/edgar/data/1633978/000119312526453776/d180680d425.htm"],
+      "raw_files": ["lite_425_20261109.html", "lite_425_20261109.txt"],
+      "alert_trigger": false
+    }
+  ],
+  "focused_checks": {
+    "supplier_guidance": {
+      "status": "no_new_formal_cut_verified_in_covered_sources",
+      "new_comparable_formal_cuts_verified": 0,
+      "two_independent_new_cuts_verified": false,
+      "notes": "多数新标题为11月2日至5日已披露财报的复述、股价反弹或分析师目标价调整。分析师目标价下调不等于公司收入指引下调；0仅指本次增量核实数。"
+    },
+    "iren_terawulf_same_project_escalation": {
+      "status": "no_new_escalation_verified_in_covered_sources",
+      "notes": "IREN的设计/供应商交付延期及TeraWulf的Google信用支持均为既有线索。本次未核实相同项目已签合同取消、退款、债务契约触发或重大融资实际中断。历史项目压力保留，不因无新披露归零。"
+    },
+    "lender_loss_and_guarantee_payments": {
+      "status": "no_new_ai_specific_realized_loss_verified_in_covered_sources",
+      "notes": "Apollo、Blackstone、Ares、JPMorgan未有新增8-K/10-Q/10-K/6-K。未核实新AI贷款减值、担保赔付、停止放贷或实际抵押处置。公开覆盖不完整，不能推断不存在私人信贷损失。"
+    }
+  },
+  "unverified_leads": [
+    {
+      "title": "Anthropic setback exposes cracks in South Korea’s AI data center boom",
+      "publisher": "KED Global",
+      "rss_public_time": "2026-11-09T08:56:00+00:00",
+      "rss_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RNGV4c25Ra3pMRDE4V3BfS29Xb29xazNmd0hBV0NlNUc1ZkRyOWJncmxrX1lheEY4eFU0U2FmQ2p4WW15bGxGeXpCbFBNUDRLVUQyeXdpNXhscUxzSFZKUy1Kam1ZRUwtY2U5U04yOVB1anRrbFdyQjFNTnp2WEE?oc=5",
+      "verification_status": "full_article_not_obtained",
+      "limitations": "KED首页超时，RSS跳转未给出原文，有限精确标题检索未取得全文。仅记录标题，尚不能区分旧事件、未签谈判告终、已签合同取消或融资中断。",
+      "next_check": "取得原文或项目双方正式披露，核对客户、建设方、具体项目、合同阶段、公开日期、损失及资金关系。",
+      "alert_trigger": false
+    },
+    {
+      "title": "Microsoft Declines Nscale Compute Option Worth Billions",
+      "publisher": "Silicon UK",
+      "source_date": "2026-11-09",
+      "verification_status": "delegated_to_bigtech_review",
+      "notes": "应区分不行使增购选择权与取消已签合同；本子任务未据标题认定需求破裂。"
+    },
+    {
+      "title": "Goldman CEO AI financing commentary",
+      "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
+      "verification_status": "parent_discovery_not_independently_read",
+      "notes": "管理层市场观点线索，不是本次已核实实际融资成交或贷款损失。"
+    }
+  ],
+  "gaps": [
+    "部分IR页面不可得，SEC增量清单成功但不能覆盖所有私人项目和私人信贷披露。",
+    "未取得KED韩国Anthropic项目报道全文，保留待核线索。",
+    "未新取得可比个体CDS、AI贷款级别减值或担保实际赔付数据。",
+    "本次无新财报时不重算已核历史经营现金流；未读取新原文的媒体标题不作为新事实。"
+  ],
+  "recommended_notification": "no_alert_from_this_subtask_alone",
+  "preserve_prior_state": "不下调既有局部信用风险；不改此前Meta/ING等融资阶段及已通知事件。"
+}

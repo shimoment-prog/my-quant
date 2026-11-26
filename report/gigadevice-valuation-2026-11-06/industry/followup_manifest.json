@@ -1,0 +1,51 @@
+[
+  {
+    "name": "giga_IR",
+    "url": "https://www.gigadevice.com.cn/about/investor-relation",
+    "retrieved_at": "2026-11-06T03:48:20.146129+00:00",
+    "ok": true,
+    "length": 21137
+  },
+  {
+    "name": "giga_news",
+    "url": "https://www.gigadevice.com.cn/about/news-and-event/news",
+    "retrieved_at": "2026-11-06T03:48:20.146586+00:00",
+    "ok": true,
+    "length": 176025
+  },
+  {
+    "name": "giga_servo",
+    "url": "https://www.gigadevice.com.cn/about/news-and-event/news/gd32h77r-robotics-mcu-servo-control",
+    "retrieved_at": "2026-11-06T03:48:20.146754+00:00",
+    "ok": true,
+    "length": 161474
+  },
+  {
+    "name": "giga_sina_news",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllNewsStock.php?symbol=sh603986",
+    "retrieved_at": "2026-11-06T03:48:20.146892+00:00",
+    "ok": true,
+    "length": 57348
+  },
+  {
+    "name": "giga_sina_search",
+    "url": "https://search.sina.com.cn/?q=%E5%85%86%E6%98%93%E5%88%9B%E6%96%B0%20%E5%88%A9%E5%9F%BA%E5%9E%8BDRAM&c=news&sort=time",
+    "retrieved_at": "2026-11-06T03:48:20.147020+00:00",
+    "ok": true,
+    "length": 640
+  },
+  {
+    "name": "trend_ddr",
+    "url": "https://www.trendforce.com/news/?s=DDR4",
+    "retrieved_at": "2026-11-06T03:48:20.147158+00:00",
+    "ok": true,
+    "length": 77771
+  },
+  {
+    "name": "winbond_nor",
+    "url": "https://www.trendforce.com/news/2026/09/17/news-winbonds-1-12b-infineon-nor-flash-deal-could-lift-global-share-above-30-widening-its-lead/",
+    "retrieved_at": "2026-11-06T03:48:20.147354+00:00",
+    "ok": true,
+    "length": 75469
+  }
+]

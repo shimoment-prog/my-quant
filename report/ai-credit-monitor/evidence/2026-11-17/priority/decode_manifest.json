@@ -1,0 +1,29 @@
+[
+  {
+    "name": "hsbc_investing",
+    "title": "HSBC offloads $300 million troubled AI data center loan at steep discount - report - Investing.com Canada",
+    "published_at": "2026-11-16T22:38:44+00:00",
+    "source_feed_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVlg3MUtQUHhlV21HSndLREhlQndFUjJ0SHFRN2lCZExLT1RNZTU0NWNkREpTdnBaY3huLU5FNlYwbWJkckx1NjJNb3lPcE9CX0tIYlZzQUxHcHZwVFdOaG9kMzdzUTFDU1I5UWlCNERyLXU1Z0xsZmVoVkdoaVZtUkdoaTJxVzEzaUVESkhGaFR2OVVoX2JOQ1NsdW05VzJmVlVkbHp5QXlmS0J3d2lkMUw4dzk0NzlwMldEemhnbjhEVnB4LTEyRExxa0tYb1MxWnc?oc=5",
+    "retrieved_at": "2026-11-17T02:10:09.519627+00:00",
+    "decode_ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "openai_cfo",
+    "title": "OpenAI CFO says latest funding round was unplanned, prompted by news report - Semafor",
+    "published_at": "Tue, 17 Nov 2026 01:24:00 GMT",
+    "source_feed_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQajJjR0ZvREpYc3N1Z0pFN0hTZENOM3dxMlBhc2JxSHpPZWpFMXdndHRudXpRQkhUMWxjMURfeFBwRjBMTDdSNGtxS29pWGJnb29NazFTb3V4TUtrNEtBOHhQMExhNVMxcmdSbjhPWks5RlZYcVV3dWVVNm1qM0h2VHBvdjhPTEU4cDR0ZWJnTkF4cFZBVUJFSGxuV05kbEtvYk5qZ095YWVuZEhhOXNuakVYbHBGcExB?oc=5",
+    "retrieved_at": "2026-11-17T02:10:09.520351+00:00",
+    "decode_ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "breit_amazon",
+    "title": "Blackstone Reit buys Amazon data centres in US$5 billion deal - The Business Times",
+    "published_at": "Mon, 16 Nov 2026 13:11:00 GMT",
+    "source_feed_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQakVPRm9SNzB0UGlvM1h2ZnBRWG4telVLNVJvQVFoYlUwOVdhWFZzdHREYzd1MXo0SW9RN0FSVWdfcVFEd1RRaV8yZjdtNkJtRUhWVlZBWTk0MXdHNTlOSjZ6R18yUDlhWnd0bTZMM0wzeVFRdVd6bnFjYnFpOW1PZUtDUmY0X0ZldlFUNDhSemtxTWMtMEd4TEVQdGNKWVE4S2JKQW9Ed2hISDRp?oc=5",
+    "retrieved_at": "2026-11-17T02:10:10.124365+00:00",
+    "decode_ok": true,
+    "result": ")]}'\n\n[[\"wrb.fr\",\"Fbv4je\",\"[\\\"garturlres\\\",\\\"https://www.businesstimes.com.sg/companies-markets/blackstone-reit-buys-amazon-data-centres-us5-billion-deal\\\",1]\",null,null,null,\"generic\"],[\"di\",15],[\"af.httprm\",14,\"-1953724141312171152\",12]]"
+  }
+]

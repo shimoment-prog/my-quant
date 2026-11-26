@@ -1,0 +1,153 @@
+{
+  "asof": "2026-11-05T00:46:26.188610+00:00",
+  "scope": "Issuer announcement list publishedNov4 throughNov5premarket,六只关注股票",
+  "material_new_verified": [],
+  "checks": [
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "list_fetch_ok": true,
+      "new_since_20261104": 0,
+      "latest": [
+        {
+          "title": "兆易创新:H股公告-翌日披露报表",
+          "art_code": "AN202611031831375017",
+          "notice_date": "2026-11-04 00:00:00",
+          "display_time": "2026-11-03 17:50:27:639"
+        }
+      ],
+      "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=15&page_index=1&ann_type=A&client_source=web&stock_list=603986",
+      "retrieved_at": "2026-11-05T00:46:05.123787+00:00",
+      "latest_notice_url": "https://data.eastmoney.com/notices/detail/603986/AN202611031831375017.html"
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "list_fetch_ok": true,
+      "new_since_20261104": 0,
+      "latest": [
+        {
+          "title": "宁德时代:关于授予2026年A股第二期员工持股计划预留份额的公告",
+          "art_code": "AN202611031831378795",
+          "notice_date": "2026-11-03 00:00:00",
+          "display_time": "2026-11-03 19:47:00:689"
+        }
+      ],
+      "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=15&page_index=1&ann_type=A&client_source=web&stock_list=300750",
+      "retrieved_at": "2026-11-05T00:46:05.124252+00:00",
+      "latest_notice_url": "https://data.eastmoney.com/notices/detail/300750/AN202611031831378795.html"
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "list_fetch_ok": true,
+      "new_since_20261104": 0,
+      "latest": [
+        {
+          "title": "新易盛:关于回购公司股份的进展公告",
+          "art_code": "AN202611031831373503",
+          "notice_date": "2026-11-03 00:00:00",
+          "display_time": "2026-11-03 17:18:06:275"
+        }
+      ],
+      "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=15&page_index=1&ann_type=A&client_source=web&stock_list=300502",
+      "retrieved_at": "2026-11-05T00:46:05.124416+00:00",
+      "latest_notice_url": "https://data.eastmoney.com/notices/detail/300502/AN202611031831373503.html"
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "list_fetch_ok": true,
+      "new_since_20261104": 0,
+      "latest": [
+        {
+          "title": "中际旭创:投资者关系活动记录表20261103",
+          "art_code": "AN202611031831382786",
+          "notice_date": "2026-11-03 00:00:00",
+          "display_time": "2026-11-03 23:37:12:608"
+        }
+      ],
+      "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=15&page_index=1&ann_type=A&client_source=web&stock_list=300308",
+      "retrieved_at": "2026-11-05T00:46:05.124585+00:00",
+      "latest_notice_url": "https://data.eastmoney.com/notices/detail/300308/AN202611031831382786.html"
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "list_fetch_ok": true,
+      "new_since_20261104": 0,
+      "latest": [
+        {
+          "title": "五粮液:关于回购公司股份进展的公告",
+          "art_code": "AN202611031831367195",
+          "notice_date": "2026-11-04 00:00:00",
+          "display_time": "2026-11-03 16:11:06:247"
+        }
+      ],
+      "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=15&page_index=1&ann_type=A&client_source=web&stock_list=000858",
+      "retrieved_at": "2026-11-05T00:46:05.124757+00:00",
+      "latest_notice_url": "https://data.eastmoney.com/notices/detail/000858/AN202611031831367195.html"
+    },
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "list_fetch_ok": true,
+      "new_since_20261104": 0,
+      "latest": [
+        {
+          "title": "贵州茅台:贵州茅台关于召开2026年第三季度业绩说明会的公告",
+          "art_code": "AN202611021831320924",
+          "notice_date": "2026-11-03 00:00:00",
+          "display_time": "2026-11-02 16:59:12:242"
+        }
+      ],
+      "source_api": "https://np-anotice-stock.eastmoney.com/api/security/ann?sr=-1&page_size=15&page_index=1&ann_type=A&client_source=web&stock_list=600519",
+      "retrieved_at": "2026-11-05T00:46:05.124911+00:00",
+      "latest_notice_url": "https://data.eastmoney.com/notices/detail/600519/AN202611021831320924.html"
+    }
+  ],
+  "do_not_repeat_as_new": [
+    "新易盛11月3日公告的11月2-3日回购，不是11月4日新增买入或11月5日新公告。",
+    "中际旭创11月3日夜间交流纪要不是今日新客户订单或财报。",
+    "五粮液notice_date11月4日的回购公告实际11月3日16:11发布，上期已覆盖。",
+    "兆易创新notice_date11月4日的H股翌日披露报表实际11月3日17:50发布。",
+    "宁德时代11月3日员工持股授予与各公司Q3财报都不是今日新披露。"
+  ],
+  "premarket_implication": "六家公司本次公告列表核查未取得新的独立重大公司催化，不据此分配个股上涨/下跌方向；海外光通信等行业信息由整体盘前报告独立核实。",
+  "coverage_gaps": [
+    "Checkedpublic issuerannouncementmirrors latest15items, not independent full exchange/CNINFO archive or all global media.",
+    "No newbodyreadbecause no newpublisheditems discovered; absence from feed doesnot prove absence of all news or intradayupdates.",
+    "NewGoogleAnthropicTeraWulfbackstop is a USdatacentercreditlink, no direct orders to theseA-shares confirmed, do not equate with newdomesticorders."
+  ],
+  "counterparty_disclosures": [
+    {
+      "disclosing_company": "统一股份",
+      "code": "600506",
+      "watchlist_counterparty": "宁德时代300750",
+      "id": "AN202611041831419590",
+      "published_at_beijing": "2026-11-04 20:23:26",
+      "notice_date": "2026-11-05",
+      "document_signed_date": "2026-11-04",
+      "agreement_signed_date": "近日，具体签署日未披露",
+      "source_url": "https://data.eastmoney.com/notices/detail/600506/AN202611041831419590.html",
+      "original_company_pdf_mirror": "https://pdf.dfcfw.com/pdf/H2_AN202611041831419590_1.pdf?1793823876000.pdf",
+      "source_type": "company_disclosure_reproduced_by_Eastmoney",
+      "agreement_type": "框架性冷却液战略合作协议",
+      "parties": [
+        "统一股份控股子公司统一石油化工有限公司",
+        "宁德时代新能源科技股份有限公司"
+      ],
+      "facts": [
+        "低电导冷却液产品、新项目开发、可靠性和寿命检测方法研究、质量共建。",
+        "与宁家服务共同探索新能源汽车后市场业务。",
+        "协议有效至2029年12月31日。",
+        "未约定具体采购数量、交易金额、价格、最低采购量或保底供应义务。",
+        "后续项目须另行签订具体协议；预计对统一股份本年度业绩不构成重大影响。"
+      ],
+      "order_amount": null,
+      "minimum_purchase_commitment": false,
+      "interpretation": "新增真实合作框架，不能量化宁德时代新增营收利润或解读为大额订单；正文没有指向AI数据中心液冷。",
+      "archived_text": "unified_content.txt"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "google_close",
+    "url": "https://www.google.com/search?q=2026%E5%B9%B411%E6%9C%884%E6%97%A5%20A%E8%82%A1%20%E6%94%B6%E8%AF%84%20%E6%88%90%E4%BA%A4%E9%A2%9D%206.4%25",
+    "retrieved_at": "2026-11-05T00:46:38.030753+00:00",
+    "status": 200,
+    "bytes": 91596
+  },
+  {
+    "name": "google_policy",
+    "url": "https://www.google.com/search?q=2026%E5%B9%B411%E6%9C%885%E6%97%A5%20%E8%B4%A2%E8%81%94%E7%A4%BE%20%E6%97%A9%E7%9F%A5%E9%81%93%20%E6%94%BF%E7%AD%96",
+    "retrieved_at": "2026-11-05T00:46:38.031125+00:00",
+    "status": 200,
+    "bytes": 91834
+  },
+  {
+    "name": "cls_search",
+    "url": "https://www.google.com/search?q=2026%E5%B9%B411%E6%9C%884%E6%97%A5%20%E6%94%B6%E8%AF%84%20%E7%A7%91%E5%88%9B50%209.92",
+    "retrieved_at": "2026-11-05T00:46:38.031294+00:00",
+    "status": 200,
+    "bytes": 91780
+  },
+  {
+    "name": "cls_home",
+    "url": "https://www.cls.cn/",
+    "retrieved_at": "2026-11-05T00:46:38.031457+00:00",
+    "status": 200,
+    "bytes": 197170
+  },
+  {
+    "name": "cls_api",
+    "url": "https://www.cls.cn/nodeapi/telegraphList?app=CailianpressWeb&category=&lastTime=1793826000&last_time=1793826000&os=web&refresh_type=1&rn=200&sv=8.4.6",
+    "retrieved_at": "2026-11-05T00:46:38.031626+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

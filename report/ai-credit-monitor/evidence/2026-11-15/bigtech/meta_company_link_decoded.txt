@@ -1,0 +1,3 @@
+)]}'
+
+[["wrb.fr","Fbv4je","[\"garturlres\",\"https://about.fb.com/news/2026/07/breaking-ground-on-metas-first-data-center-in-canada/\",1,\"https://about.fb.com/news/2026/07/breaking-ground-on-metas-first-data-center-in-canada/amp/\"]",null,null,null,"generic"],["di",20],["af.httprm",19,"-8049954659241370277",8]]

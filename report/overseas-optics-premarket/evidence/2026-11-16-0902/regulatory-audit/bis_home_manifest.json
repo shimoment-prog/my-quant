@@ -1,0 +1,24 @@
+{
+  "url": "https://www.bis.gov/",
+  "fetched_at_utc": "2026-11-16T00:51:48.609142+00:00",
+  "status": 200,
+  "final_url": "https://www.bis.gov/",
+  "links": [
+    {
+      "text": "News & Updates",
+      "href": "/"
+    },
+    {
+      "text": "Department of Commerce Streamlines Export Controls for Sound Suppressors",
+      "href": "/press-release/department-commerce-streamlines-export-controls-sound-suppressors"
+    },
+    {
+      "text": "See more News & Updates",
+      "href": "/news-updates"
+    },
+    {
+      "text": "News & Updates",
+      "href": "/news-updates"
+    }
+  ]
+}

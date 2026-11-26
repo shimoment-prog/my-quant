@@ -1,0 +1,50 @@
+[
+  {
+    "accessionNumber": "0001193125-26-449835",
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "acceptanceDateTime": "2026-11-05T21:10:44.000Z",
+    "primaryDocument": "d174184d8k.htm",
+    "company": "alphabet",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+    "file": "alphabet_8k_0001193125-26-449835.txt",
+    "ok": true,
+    "characters": 8874
+  },
+  {
+    "accessionNumber": "0001193125-26-450074",
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "acceptanceDateTime": "2026-11-05T21:58:46.000Z",
+    "primaryDocument": "d166273d8k.htm",
+    "company": "meta",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+    "file": "meta_8k_0001193125-26-450074.txt",
+    "ok": true,
+    "characters": 9391
+  },
+  {
+    "accessionNumber": "0001193125-26-448015",
+    "form": "424B5",
+    "filingDate": "2026-11-05",
+    "acceptanceDateTime": "2026-11-05T02:02:44.000Z",
+    "primaryDocument": "d135326d424b5.htm",
+    "company": "meta",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526448015/d135326d424b5.htm",
+    "file": "meta_424b5_0001193125-26-448015.txt",
+    "ok": true,
+    "characters": 174435
+  },
+  {
+    "accessionNumber": "0001193125-26-448357",
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "acceptanceDateTime": "2026-11-05T11:01:52.000Z",
+    "primaryDocument": "d177209d8k.htm",
+    "company": "microsoft",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/d177209d8k.htm",
+    "file": "microsoft_8k_0001193125-26-448357.txt",
+    "ok": true,
+    "characters": 3218
+  }
+]

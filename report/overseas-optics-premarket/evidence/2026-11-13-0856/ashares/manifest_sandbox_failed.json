@@ -1,0 +1,72 @@
+[
+  {
+    "file": "quotes.txt",
+    "url": "https://qt.gtimg.cn/q=sz300502,sz300308,sh515880,sz399006",
+    "started_utc": "2026-11-13T00:49:16.788060+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sina.txt",
+    "url": "https://hq.sinajs.cn/list=sz300502,sz300308,sh515880,sz399006",
+    "started_utc": "2026-11-13T00:49:16.788497+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sz300502-daily.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300502,day,,,30,qfq",
+    "started_utc": "2026-11-13T00:49:16.788708+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sz300502-m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300502&scale=5&ma=no&datalen=100",
+    "started_utc": "2026-11-13T00:49:16.788871+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sz300308-daily.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz300308,day,,,30,qfq",
+    "started_utc": "2026-11-13T00:49:16.789014+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sz300308-m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz300308&scale=5&ma=no&datalen=100",
+    "started_utc": "2026-11-13T00:49:16.789160+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sh515880-daily.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh515880,day,,,30,qfq",
+    "started_utc": "2026-11-13T00:49:16.789296+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sh515880-m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sh515880&scale=5&ma=no&datalen=100",
+    "started_utc": "2026-11-13T00:49:16.789453+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sz399006-daily.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,,,30,qfq",
+    "started_utc": "2026-11-13T00:49:16.819964+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "sz399006-m5.txt",
+    "url": "https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_k=/CN_MarketDataService.getKLineData?symbol=sz399006&scale=5&ma=no&datalen=100",
+    "started_utc": "2026-11-13T00:49:16.820524+00:00",
+    "ok": false,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  }
+]

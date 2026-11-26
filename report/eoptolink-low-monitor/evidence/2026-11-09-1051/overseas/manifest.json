@@ -1,0 +1,114 @@
+[
+  {
+    "name": "us_sina",
+    "url": "https://hq.sinajs.cn/list=gb_lite,gb_mrvl,gb_cohr,gb_cien,gb_aaoi,gb_fn,gb_nvda,gb_avgo,gb_sox",
+    "retrieved_at": "2026-11-09T02:48:13.053018+00:00",
+    "ok": true,
+    "length": 3002
+  },
+  {
+    "name": "us_quotes",
+    "url": "https://qt.gtimg.cn/q=usLITE,usMRVL,usCOHR,usCIEN,usAAOI,usFN,usNVDA,usAVGO",
+    "retrieved_at": "2026-11-09T02:48:13.052643+00:00",
+    "ok": true,
+    "length": 3106
+  },
+  {
+    "name": "aaoi_ir",
+    "url": "https://investors.ao-inc.com/",
+    "retrieved_at": "2026-11-09T02:48:13.266943+00:00",
+    "ok": true,
+    "length": 44035
+  },
+  {
+    "name": "mrvl_ir",
+    "url": "https://investor.marvell.com/news-events/press-releases",
+    "retrieved_at": "2026-11-09T02:48:13.272478+00:00",
+    "ok": true,
+    "length": 114868
+  },
+  {
+    "name": "mrvl_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+    "retrieved_at": "2026-11-09T02:48:13.053359+00:00",
+    "ok": true,
+    "length": 136604
+  },
+  {
+    "name": "aaoi_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001158114.json",
+    "retrieved_at": "2026-11-09T02:48:13.053782+00:00",
+    "ok": true,
+    "length": 154591
+  },
+  {
+    "name": "cien_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000936395.json",
+    "retrieved_at": "2026-11-09T02:48:13.053638+00:00",
+    "ok": true,
+    "length": 158567
+  },
+  {
+    "name": "nvda_news",
+    "url": "https://nvidianews.nvidia.com/news",
+    "retrieved_at": "2026-11-09T02:48:15.616129+00:00",
+    "ok": true,
+    "length": 68694
+  },
+  {
+    "name": "nvda_board",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "retrieved_at": "2026-11-09T02:48:15.922397+00:00",
+    "ok": true,
+    "length": 59679
+  },
+  {
+    "name": "lite_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+    "retrieved_at": "2026-11-09T02:48:13.053211+00:00",
+    "ok": true,
+    "length": 159053
+  },
+  {
+    "name": "cohr_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000820318.json",
+    "retrieved_at": "2026-11-09T02:48:13.053500+00:00",
+    "ok": true,
+    "length": 160624
+  },
+  {
+    "name": "cohr_ir",
+    "url": "https://www.coherent.com/news",
+    "retrieved_at": "2026-11-09T02:48:15.417611+00:00",
+    "ok": true,
+    "length": 170108
+  },
+  {
+    "name": "live_news_1",
+    "url": "https://zhibo.sina.com.cn/api/zhibo/feed?zhibo_id=152&page=1&page_size=100&type=0",
+    "retrieved_at": "2026-11-09T02:48:16.215006+00:00",
+    "ok": true,
+    "length": 202904
+  },
+  {
+    "name": "nvda_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "retrieved_at": "2026-11-09T02:48:15.924554+00:00",
+    "ok": true,
+    "length": 159914
+  },
+  {
+    "name": "cn_300502",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllBulletin/stockid/300502.phtml",
+    "retrieved_at": "2026-11-09T02:48:16.103598+00:00",
+    "ok": true,
+    "length": 55675
+  },
+  {
+    "name": "fn_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001408710.json",
+    "retrieved_at": "2026-11-09T02:48:13.053971+00:00",
+    "ok": true,
+    "length": 155153
+  }
+]

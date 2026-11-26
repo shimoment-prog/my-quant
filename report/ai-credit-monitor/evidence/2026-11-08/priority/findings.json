@@ -1,0 +1,181 @@
+{
+  "checked_at": "2026-11-08T00:33:12.629574+00:00",
+  "comparison_cutoff": "2026-11-07T00:33:27.770774+00:00",
+  "assessment_advice": {
+    "overall_sector": "观察",
+    "change_from_previous": "No material newly verified evidence in priority issuer scope. Preserve Nov7localized credit pressure; data silence does not establish recovery.",
+    "notify_from_this_subtask": false
+  },
+  "new_events": [],
+  "new_sec_filings": {
+    "oracle": [],
+    "coreweave": []
+  },
+  "operating_financial_report_new_verified": false,
+  "new_official_capex_or_revenue_guidance_revision_verified": false,
+  "new_rating_action_or_default_verified": false,
+  "new_issue_stage_change_verified": false,
+  "current_weekend_issuer_market_quote_verified": false,
+  "Microsoft_Oracle_followup": {
+    "source": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+    "retrieved_at": "2026-11-08T00:32:21.963595+00:00",
+    "publication_at": "2026-11-06T18:31:32+0000",
+    "updated_at": "2026-11-06T18:40:58+0000",
+    "updated_since_cutoff": false,
+    "new_company_confirmation": false,
+    "new_contract_amount": null,
+    "new_contract_expiry": null,
+    "statement": "Original article remains unchanged. Two anonymous people reportOracledeal nonrenewal; Microsoft statement describes routineowned/leased/thirdpartycapacityreviews, withoutconfirmingspecificcontract.",
+    "specific_CoreWeave_cancellation_verified": false,
+    "formal_customer_capex_cut_verified": false,
+    "guidance_revision_count_new": 0
+  },
+  "news_deduplication": {
+    "repeated_16pct_CoreWeave_yield_titles": "WeekendYahoo/24-7/MLQheadlines repeatpreviouslynotifiedNov6secondaryyield; no newquoteassumed.",
+    "ING_reported_sale": "Nov19BWICstillfuture; lowergradeheadlinecallingfiresale/discountdoesnotprovideexecutedpriceandisnotnewconfirmedloss.",
+    "Oracle_20bn_raise": "Nov4completionalreadyrecorded; newlypublishedcommentarynotnewissue.",
+    "CoreWeave_over17pct_headline": {
+      "publisher": "TIKR",
+      "publication_at_RSS": "2026-11-07T10:26:11Z",
+      "status": "discoveryonlynotused",
+      "reason": "No independentlyverifiedbondidentity,asof,quoteconventionortrade. CannotmanufactureSaturdaymarketobservationfromheadline."
+    },
+    "CoreWeave_governor_dialogue": {
+      "publisher": "Investing.comviaGoogleRSS",
+      "publication_at_RSS": "2026-11-07T21:03:37Z",
+      "headline": "CoreWeave seeks truce with Texas Governor-elect Hinojosa",
+      "status": "unverifieddiscoverynotused",
+      "reason": "Politicaldiscussionheadlineprovidesnoofficialguidancerevision,quantifiedorderlossoractualfundinginterruption."
+    }
+  },
+  "focused_checks": {
+    "customer_capex_cuts": {
+      "new_formal_cut_records": [],
+      "conclusion": "No new formal issuer revision verified within targeted coverage; prior partnerallocationreportnotcapexguidance."
+    },
+    "supplier_consecutive_revenue_guidance_cuts": {
+      "new_revision_count_observed": 0,
+      "conclusion": "No newcomparableOracle/CoreWeaverevenueguidancerevisionidentified."
+    },
+    "delay_to_cancellation_or_funding_interruption": {
+      "new_confirmed_same_project_escalation": false,
+      "conclusion": "No newcompanyconfirmationorprojectidentity/amountforpreviousOracledealstory; no actualcreditinterruptionverified."
+    }
+  },
+  "limits": [
+    "SECfeedscoveredbutIRpagesstillHTTP429; absenceofnewfilingdoesnotproveabsenceofrisk.",
+    "No newdirectindividual5YCDSor matchedcashbondhistory; preserveNov5/Nov6datedmediaquotesasold,notSundayprices.",
+    "TargetedreliableoriginalCNBCarticlepluslimitedRSSdiscovery,notexhaustiveallmediaorprivatecreditcoverage.",
+    "Ratings/bankresearchfullreportsnotobtained; unverifiedsecondaryheadlinesnotcreditedasnewindependentlines."
+  ],
+  "sources": [
+    {
+      "name": "oracle_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001341439.json",
+      "retrieved_at": "2026-11-08T00:32:21.962638+00:00",
+      "status": 200,
+      "error": null
+    },
+    {
+      "name": "coreweave_submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001769628.json",
+      "retrieved_at": "2026-11-08T00:32:21.962986+00:00",
+      "status": 200,
+      "error": null
+    },
+    {
+      "name": "oracle_ir",
+      "url": "https://investor.oracle.com/investor-news/default.aspx",
+      "retrieved_at": "2026-11-08T00:32:21.963188+00:00",
+      "status": null,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "coreweave_ir",
+      "url": "https://investors.coreweave.com/news-and-events/news-releases",
+      "retrieved_at": "2026-11-08T00:32:21.963397+00:00",
+      "status": null,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "microsoft_oracle_cnbc",
+      "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "retrieved_at": "2026-11-08T00:32:21.963595+00:00",
+      "status": 200,
+      "error": null
+    },
+    {
+      "name": "news_priority",
+      "url": "https://news.google.com/rss/search?q=%28Oracle%20OR%20CoreWeave%29%20%28debt%20OR%20financing%20OR%20CDS%20OR%20default%20OR%20guidance%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "retrieved_at": "2026-11-08T00:32:21.963730+00:00",
+      "status": 200,
+      "error": null
+    },
+    {
+      "name": "news_contract",
+      "url": "https://news.google.com/rss/search?q=Microsoft%20Oracle%20contract%20renewal%20confirmed%20when%3A1d&hl=en-US&gl=US&ceid=US:en",
+      "retrieved_at": "2026-11-08T00:32:23.019079+00:00",
+      "status": 200,
+      "error": null
+    }
+  ],
+  "next_confirmation_conditions": [
+    "Companyconfirmationandvalue/expirationofMicrosoftOraclecontractorofficialrevenue/capexrevision.",
+    "Newdatedsamebond/5YCDSquoteswithmetadataor actualfundingwithdrawal/default.",
+    "INGauctionresultsafterNov19; noearlycompleted-salelossassumed."
+  ],
+  "additional_openai_target_check": {
+    "checked_at": "2026-11-08T00:35:40.084219+00:00",
+    "reliable_accessible_article": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "publication_at": "2026-11-06T22:53:46Z",
+    "primary_company_confirmation": false,
+    "evidence_grade": "reliable_media_relaying_Bloomberg_anonymous_sources",
+    "reference_status": "HistoricalNov6eventbeforepriorcutoff,newlyverifiedcoveragegapnotNov7marketaction",
+    "reported_same_upcoming_round": {
+      "late_September_reported_target_USD": 30000000000,
+      "Nov6_reported_expected_total_approx_USD": 20000000000,
+      "reported_raised_so_far_USD": 11000000000,
+      "reported_valuation_USD": 1250000000000,
+      "round_stage": "Partialroundreportedraised;entireroundnotclosed,expectedcomingweeks",
+      "actual_cash_received_verified": false
+    },
+    "important_limits": [
+      "OriginalKuCoin2026fundingtargetheadlinemustnotbeconvertedintofullyearofficialguidance;TechCrunchdescribesthisnewfundinground.",
+      "Lowerexpectedtotalversusreportedearliertargetdoesnotbyitselfestablishreducedcapitalneedsorfundraisingfailure;causeisnotconfirmedintheaccessiblearticle.",
+      "USD11bnpartialraisereportedbyBloombergsourcesisnotcompanyconfirmedcashreceived;remainingUSD9bnnotsettledorcommittedbythisevidence.",
+      "TechCrunchandReutersheadlinesrelayBloomberg;notmultipleindependentevidenceevents.",
+      "No verified fundingwithdrawal,paymentdefaultorprojectcancellationinthisarticle."
+    ],
+    "original_report_links_from_article": [
+      "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+      "https://www.bloomberg.com/news/articles/2026-09-29/openai-targets-30-billion-in-new-funding-at-1-4-trillion-value",
+      "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+    ],
+    "reuters_status": "RSSdiscoveryofNov6sourcebasedreport;directbodyconnectionreset,notclaimingreadit",
+    "assessment_advice": "Canrecordnewlyverifiedhistoricalfundraisingtargetpressurewithoffsettingpartialfinancingaccess;notindependentproofofcurrentsectorfundingclosure,andeventpredatespriorrun. Rootdecidesifcoveragegapmaterialenoughfornotification.",
+    "historical_newly_acquired": true,
+    "new_weekend_event": false,
+    "stage_verification": {
+      "exact_accessible_reporting": [
+        "OpenAI has reportedly raised $11 billion so far in a new funding round.",
+        "The $11 billion is part of a larger funding round that hasn’t closed yet.",
+        "The round is expected to close in the coming weeks and could total about $20 billion, a source told Bloomberg.",
+        "TechCrunch has reached out to OpenAI for comment."
+      ],
+      "cash_receipt_or_unconditional_partial_closing_verified": false,
+      "investor_subscription_terms_or_conditions_disclosed": false,
+      "financing_stage_label": "Reportedpartialraise;entireroundpending. Noindependentproofcashreceipt/partialclosingconditions."
+    },
+    "contractual_transmission": {
+      "OpenAI_role": "AIbuyer/customerinthemonitoredinfrastructurechain",
+      "specific_supplier_contract_funding_earmarked_in_article": null,
+      "Oracle_or_CoreWeave_payment_or_backlog_change_disclosed": null,
+      "confirmed_order_cancellation_or_prepayment_delay": false
+    },
+    "liquidity_buffer_impact": {
+      "current_available_cash_increase_quantifiable": false,
+      "reason": "No companyfiling,cashreceipttime,fees,conditionsorcurrentcashbalanceprovided. USD11bnisreportedroundprogressnotfullyverifiedunrestrictedcash."
+    },
+    "standalone_assessment_advice": "Doesnotindependentlychangecurrentobservationratingorquantifiablefinancingbuffer. Recordhistoricalnewlyacquiredfundraisingprogressandlowerroundexpectation;nofailedraiseorcontractualtransmissionverified. Notanewweekendevent."
+  }
+}

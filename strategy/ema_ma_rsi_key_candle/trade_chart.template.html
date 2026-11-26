@@ -1,0 +1,523 @@
+<div id="eth-three-day-review">
+  <div class="review-heading">
+    <h2>ETHUSDT 永续 · 逐笔检查</h2>
+    <div id="eth-review-period" class="text-small text-muted"></div>
+  </div>
+  <div class="viz-controls">
+    <label class="form-label" for="eth-trade-select">交易
+      <select id="eth-trade-select" class="form-select" aria-label="选择要核对的交易"></select>
+    </label>
+    <button id="eth-previous" type="button" class="btn">上一笔</button>
+    <button id="eth-next" type="button" class="btn">下一笔</button>
+    <button id="eth-all" type="button" class="btn">区间全图</button>
+    <button id="eth-show-ledger" type="button" class="btn">逐笔交易表</button>
+    <label class="form-check"><input id="eth-all-boxes" type="checkbox" class="form-check-input"><span class="form-check-label">显示所有仓位框</span></label>
+  </div>
+  <div class="viz-row text-small review-legend" aria-label="图例">
+    <span><i class="review-swatch review-ema"></i>白线 EMA10</span>
+    <span><i class="review-swatch review-sma"></i>橙线 SMA10</span>
+    <span><i class="review-swatch review-profit"></i>止盈区域</span>
+    <span><i class="review-swatch review-stop"></i>止损区域</span>
+    <span>▲ 多单关键 K　▼ 空单关键 K　● 平仓</span>
+  </div>
+  <div id="eth-key-summary" class="review-key-summary text-small tabular-nums" aria-live="polite"></div>
+  <div class="text-small text-muted">蓝框标出判定用关键 K；仓位框从该 K 收盘时刻开始，该时刻也对应下一根 K 的开盘标签。</div>
+  <div id="eth-readout" class="text-small tabular-nums" aria-label="十字线 K 线与指标数值"></div>
+  <div class="review-price-wrap">
+    <div id="eth-price-chart" role="img" aria-label="币安 ETHUSDT 永续 5 分钟 K 线，白 EMA10、橙 SMA10、关键 K 与每笔固定止盈止损仓位框"></div>
+    <svg id="eth-position-overlay" class="review-overlay" aria-hidden="true"></svg>
+  </div>
+  <div class="viz-row text-small"><span>RSI14</span><span id="eth-rsi-value" class="tabular-nums"></span><span class="text-muted">30 / 50 / 70</span></div>
+  <div id="eth-rsi-chart" role="img" aria-label="与 K 线同步的 RSI14，参考线 30、50、70"></div>
+  <div id="eth-selected-heading" class="review-selected" aria-live="polite"></div>
+  <div id="eth-selected-prices" class="viz-row tabular-nums text-small"></div>
+  <div id="eth-selected-timing" class="text-small text-muted"></div>
+  <div class="text-small text-muted">本地回测仓位标注 · 框延伸至退出 K 末端，表示退出区间，不代表精确持仓时长。</div>
+  <div class="table-responsive">
+    <table class="table table-sm" aria-label="选中交易的入场规则核对">
+      <thead><tr><th>入场条件</th><th>实际数值</th><th>核对</th></tr></thead>
+      <tbody id="eth-checks"></tbody>
+    </table>
+  </div>
+  <div id="eth-review-summary" class="text-small text-muted"></div>
+  <section id="eth-trade-ledger" class="review-ledger" aria-labelledby="eth-ledger-heading">
+    <div class="viz-row review-ledger-heading">
+      <h3 id="eth-ledger-heading">逐笔交易表</h3>
+      <button id="eth-export-ledger" type="button" class="btn">导出 CSV</button>
+    </div>
+    <div id="eth-ledger-sizing" class="text-small tabular-nums"></div>
+    <div class="text-small text-muted">价格与金额单位均为 USDT。Win / Loss、盈利和亏损均按扣除双边手续费后的净额计算，手续费列供核对，不重复扣除。显示金额已四舍五入，CSV 保留至小数点后9位。点击交易编号可回到对应 K 线。</div>
+    <div class="review-ledger-scroll" role="region" aria-label="逐笔交易明细，窄屏可左右滚动" tabindex="0">
+      <table class="table table-sm review-ledger-table" aria-label="每笔交易的进场、止盈止损、净盈亏与交易后金额">
+        <thead><tr><th scope="col">交易</th><th scope="col">进场时间（北京）</th><th scope="col">进场价</th><th scope="col">止损点</th><th scope="col">止盈点</th><th scope="col">平仓价</th><th scope="col">结果（净）</th><th scope="col">盈利（净）</th><th scope="col">亏损（净）</th><th scope="col">手续费</th><th scope="col">交易后金额</th></tr></thead>
+        <tbody id="eth-ledger-rows"></tbody>
+        <tfoot id="eth-ledger-totals"></tfoot>
+      </table>
+    </div>
+    <div id="eth-ledger-summary" class="text-small tabular-nums"></div>
+    <div class="text-small text-muted">交易后金额 = 初始资金 + 截至该笔的累计净盈亏。保证金平仓后返还；表内金额不再减去已释放保证金。未平仓交易暂不计 Win / Loss 或交易后金额。</div>
+  </section>
+  <div class="text-small text-muted">图表组件：<a href="https://www.tradingview.com/lightweight-charts/" target="_blank" rel="noopener noreferrer">TradingView Lightweight Charts™</a></div>
+  <div id="eth-review-error" role="alert" hidden></div>
+</div>
+<style>
+  #eth-three-day-review { display: grid; grid-template-columns: minmax(0, 1fr); gap: calc(var(--font-size-base) * .65); color: var(--foreground); min-width: 0; }
+  #eth-three-day-review .review-heading { display: grid; gap: calc(var(--font-size-base) * .25); padding-right: 95px; }
+  #eth-three-day-review .review-legend { gap: calc(var(--font-size-base) * 1.1); }
+  #eth-three-day-review .review-legend span { display: inline-flex; gap: calc(var(--font-size-base) * .35); align-items: center; }
+  #eth-three-day-review .review-swatch { display: inline-block; width: 20px; height: 3px; }
+  #eth-three-day-review .review-ema { background: var(--foreground); }
+  #eth-three-day-review .review-sma { background: var(--orange); }
+  #eth-three-day-review .review-profit { background: var(--green); height: 9px; }
+  #eth-three-day-review .review-stop { background: var(--red); height: 9px; }
+  #eth-three-day-review .review-price-wrap { position: relative; isolation: isolate; height: 370px; min-width: 0; width: 100%; max-width: 100%; overflow: hidden; }
+  #eth-three-day-review #eth-price-chart { height: 370px; min-width: 0; width: 100%; max-width: 100%; overflow: hidden; }
+  #eth-three-day-review .review-overlay { position: absolute; z-index: 3; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: hidden; }
+  #eth-three-day-review #eth-rsi-chart { height: 145px; min-width: 0; width: 100%; max-width: 100%; overflow: hidden; }
+  #eth-three-day-review #eth-readout { min-height: calc(var(--font-size-base) * 2.5); overflow-wrap: anywhere; }
+  #eth-three-day-review .review-selected { font-weight: 500; }
+  #eth-three-day-review .review-key-summary { border-left: 3px solid var(--blue); padding: 8px 12px; background: var(--surface); border-radius: 4px; overflow-wrap: anywhere; }
+  #eth-three-day-review td { overflow-wrap: anywhere; }
+  #eth-three-day-review .review-pass { color: var(--green); }
+  #eth-three-day-review .review-fail { color: var(--red); }
+  #eth-three-day-review .review-ledger { display: grid; gap: 10px; min-width: 0; margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--border); scroll-margin-top: 18px; }
+  #eth-three-day-review .review-ledger-heading { justify-content: space-between; }
+  #eth-three-day-review .review-ledger h3 { margin: 0; font-size: 18px; line-height: 1.4; }
+  #eth-three-day-review .review-ledger-scroll { width: 100%; max-width: 100%; min-width: 0; overflow-x: auto; border: 1px solid var(--border); border-radius: 7px; scrollbar-color: var(--muted-foreground) var(--background); }
+  #eth-three-day-review .review-ledger-scroll:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+  #eth-three-day-review .review-ledger-table { width: 100%; min-width: 1150px; font-variant-numeric: tabular-nums; margin: 0; }
+  #eth-three-day-review .review-ledger-table :is(th,td) { white-space: nowrap; overflow-wrap: normal; text-align: right; padding: 9px 10px; }
+  #eth-three-day-review .review-ledger-table :is(th,td):first-child, #eth-three-day-review .review-ledger-table :is(th,td):nth-child(2) { width: auto; text-align: left; }
+  #eth-three-day-review .review-ledger-table :is(th,td):last-child { width: auto; }
+  #eth-three-day-review .review-ledger-table thead, #eth-three-day-review .review-ledger-table tfoot { background: var(--surface); }
+  #eth-three-day-review .review-ledger-table tfoot { font-weight: 600; }
+  #eth-three-day-review .review-ledger-table tbody tr { cursor: pointer; }
+  #eth-three-day-review .review-ledger-table tbody tr:hover { background: var(--surface); }
+  #eth-three-day-review .review-ledger-table tbody tr[data-selected="true"] { background: color-mix(in srgb, var(--blue) 13%, var(--background)); }
+  #eth-three-day-review .review-ledger-link { padding: 3px 7px; border: 1px solid var(--border); background: transparent; white-space: nowrap; }
+  #eth-three-day-review .review-ledger-link[aria-current="true"] { border-color: var(--blue); color: var(--blue); }
+  #eth-three-day-review .review-ledger-win { color: var(--green); }
+  #eth-three-day-review .review-ledger-loss { color: var(--red); }
+  #eth-three-day-review .review-ledger-reason { display: block; font-size: 11px; line-height: 1.4; }
+  #eth-three-day-review #eth-key-summary { scroll-margin-top: 14px; }
+  @media (max-width: 480px) {
+    #eth-three-day-review .review-heading { padding-right: 0; }
+    #eth-three-day-review .review-price-wrap, #eth-three-day-review #eth-price-chart { height: 330px; }
+    #eth-three-day-review #eth-rsi-chart { height: 125px; }
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
+<script>
+(() => {
+  const root = document.getElementById('eth-three-day-review');
+  const data = __TRADE_DATA_JSON__;
+  const q = id => root.querySelector('#' + id);
+  const error = q('eth-review-error');
+  if (!window.LightweightCharts) {
+    error.hidden = false;
+    error.textContent = '图表组件未能加载。请允许 cdn.jsdelivr.net 的图表脚本后重新打开。';
+    return;
+  }
+  const LC = window.LightweightCharts;
+  const bars = data.candles;
+  const trades = data.trades;
+  const barByTime = new Map(bars.map((b, index) => [b.time, {...b, index}]));
+  const offset = 8 * 3600;
+  const displayTime = t => Number(t) + offset;
+  const fmtDate = t => new Date(Number(t) * 1000).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai', hour12: false, month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+  const fmt = (n, digits = 2) => Number.isFinite(Number(n)) && n !== null && n !== undefined ? Number(n).toLocaleString('zh-CN', { minimumFractionDigits: digits, maximumFractionDigits: digits }) : '—';
+  const signed = n => (Number(n) > 0 ? '+' : '') + fmt(n);
+  const escape = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const css = name => getComputedStyle(root).getPropertyValue(name).trim();
+  const colorCanvas = document.createElement('canvas');
+  colorCanvas.width = colorCanvas.height = 1;
+  const colorContext = colorCanvas.getContext('2d', {willReadFrequently: true});
+  const resolveColor = name => {
+    const sample = document.createElement('span');
+    sample.style.color = `var(${name})`;
+    root.appendChild(sample);
+    const value = getComputedStyle(sample).color;
+    sample.remove();
+    // Host themes may expose oklch()/color() values; convert via the browser's
+    // actual sRGB rasterizer before deriving translucent chart colors.
+    if (!colorContext) return value;
+    colorContext.clearRect(0, 0, 1, 1);
+    colorContext.fillStyle = value;
+    colorContext.fillRect(0, 0, 1, 1);
+    const pixel = colorContext.getImageData(0, 0, 1, 1).data;
+    return `rgba(${pixel[0]},${pixel[1]},${pixel[2]},${pixel[3] / 255})`;
+  };
+  const getPalette = () => ({
+    text: resolveColor('--foreground'), muted: resolveColor('--muted-foreground'),
+    grid: resolveColor('--border'), background: resolveColor('--background'),
+    orange: resolveColor('--orange'), green: resolveColor('--green'),
+    red: resolveColor('--red'), purple: resolveColor('--purple'), blue: resolveColor('--blue')
+  });
+  let palette = getPalette();
+  const rgba = (color, opacity) => {
+    const found = color.match(/[\d.]+/g);
+    return found && found.length >= 3 ? `rgba(${found[0]},${found[1]},${found[2]},${opacity * (found.length >= 4 ? Number(found[3]) : 1)})` : color;
+  };
+  const priceNode = q('eth-price-chart');
+  const rsiNode = q('eth-rsi-chart');
+  const overlay = q('eth-position-overlay');
+  let selectedIndex = 0;
+  let allView = false;
+  let syncing = false;
+  let renderPending = false;
+  let hoverBar = null;
+  const saved = window.openai?.widgetState;
+  const restoreState = saved?.privateContent || saved || {};
+  if (Number.isInteger(restoreState.tradeIndex)) selectedIndex = Math.max(0, Math.min(trades.length - 1, restoreState.tradeIndex));
+  q('eth-all-boxes').checked = Boolean(restoreState.allBoxes);
+
+  const baseOptions = () => ({
+    width: priceNode.clientWidth,
+    layout: { background: { type: LC.ColorType.Solid, color: palette.background }, textColor: palette.text, fontSize: 12 },
+    grid: { vertLines: { color: rgba(palette.grid, .45) }, horzLines: { color: rgba(palette.grid, .45) } },
+    crosshair: { mode: LC.CrosshairMode.Normal, vertLine: { color: palette.muted, width: 1 }, horzLine: { color: palette.muted, width: 1 } },
+    rightPriceScale: { borderColor: palette.grid, minimumWidth: 78, scaleMargins: { top: .14, bottom: .14 } },
+    timeScale: { borderColor: palette.grid, timeVisible: true, secondsVisible: false, rightOffset: 4, barSpacing: 8, minBarSpacing: .01 },
+    localization: { locale: 'zh-CN', dateFormat: 'yyyy-MM-dd' },
+    handleScroll: { mouseWheel: true, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
+    handleScale: { mouseWheel: true, pinch: true, axisPressedMouseMove: {time: true, price: true} },
+  });
+  const priceChart = LC.createChart(priceNode, {...baseOptions(), height: priceNode.clientHeight});
+  const rsiChart = LC.createChart(rsiNode, {...baseOptions(), height: rsiNode.clientHeight});
+  const candleSeries = priceChart.addCandlestickSeries({
+    upColor: palette.green, downColor: palette.red, borderVisible: false,
+    wickUpColor: palette.green, wickDownColor: palette.red,
+    priceLineVisible: false,
+    autoscaleInfoProvider: original => {
+      const range = original();
+      const t = trades[selectedIndex];
+      if (!range || !t || allView) return range;
+      return {...range, priceRange: { minValue: Math.min(range.priceRange.minValue, t.stop, t.target), maxValue: Math.max(range.priceRange.maxValue, t.stop, t.target) }};
+    }
+  });
+  const emaOutline = priceChart.addLineSeries({color: rgba(palette.background, .85), lineWidth: 4, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false});
+  const emaSeries = priceChart.addLineSeries({color: palette.text, lineWidth: 2, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false});
+  const smaSeries = priceChart.addLineSeries({color: palette.orange, lineWidth: 2, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false});
+  const rsiSeries = rsiChart.addLineSeries({color: palette.purple, lineWidth: 2, priceLineVisible: false, lastValueVisible: true, crosshairMarkerVisible: false, autoscaleInfoProvider: () => ({ priceRange: { minValue: 0, maxValue: 100 } })});
+  const rsiReferences = [30, 50, 70].map(value => rsiSeries.createPriceLine({price:value, color:rgba(palette.muted, .65), lineWidth:1, lineStyle:LC.LineStyle.Dashed, axisLabelVisible:true, title:''}));
+  const makeLine = field => bars.filter(b => b[field] !== null && Number.isFinite(b[field])).map(b => ({time: displayTime(b.time), value:b[field]}));
+  candleSeries.setData(bars.map(b => ({ time:displayTime(b.time), open:b.open, high:b.high, low:b.low, close:b.close })));
+  emaOutline.setData(makeLine('ema'));
+  emaSeries.setData(makeLine('ema'));
+  smaSeries.setData(makeLine('sma'));
+  rsiSeries.setData(makeLine('rsi'));
+  const select = q('eth-trade-select');
+  select.innerHTML = trades.length ? trades.map((t, i) => `<option value="${i}">#${escape(t.id)} ${t.direction === 'long' ? '多' : '空'} · ${escape(t.method)} · 关键K ${fmtDate(t.entry_bar_time)}${t.status === 'open' ? ' · 未平仓' : ''}</option>`).join('') : '<option>区间内无交易</option>';
+  select.value = String(selectedIndex);
+  const markerObjects = [];
+  trades.forEach(t => {
+    markerObjects.push({time:displayTime(t.entry_bar_time), position:t.direction === 'long' ? 'belowBar':'aboveBar', color:t.direction === 'long' ? palette.green:palette.red, shape:t.direction === 'long' ? 'arrowUp':'arrowDown', text:`#${t.id}${t.direction === 'long' ? '多':'空'}关键K`, size:1});
+    if (t.exit_bar_time !== null && t.exit_bar_time !== undefined) markerObjects.push({time:displayTime(t.exit_bar_time),position:t.direction === 'long'?'aboveBar':'belowBar',color:palette.muted,shape:'circle',text:`#${t.id}平`,size:.7});
+  });
+  markerObjects.sort((a,b) => Number(a.time)-Number(b.time));
+  candleSeries.setMarkers(markerObjects);
+  q('eth-review-period').textContent = `${data.meta.start_label} — ${data.meta.end_label} · 北京时间 · 5 分钟`;
+  const initialCapital = Number.isFinite(data.meta.initial_capital) ? data.meta.initial_capital : 10000;
+  const fixedMargin = Number(data.meta.fixed_margin);
+  const fixedSizing = data.meta.fixed_margin != null && Number.isFinite(fixedMargin) && fixedMargin > 0;
+  const leverage = Number.isFinite(data.meta.leverage) ? data.meta.leverage : 1;
+  const sizingSummary = fixedSizing ? `每笔保证金 ${fmt(fixedMargin)} USDT × ${fmt(leverage,0)} 倍杠杆` : '按回测设置开仓';
+  q('eth-review-summary').textContent = `初始资金 ${fmt(initialCapital)} USDT · ${sizingSummary} · 已平仓 ${data.meta.closed_trades} 笔 · 净胜率 ${fmt(data.meta.win_rate_percent)}% · 净盈亏 ${signed(data.meta.net_pnl)} USDT · 单边手续费 ${fmt(data.meta.fee_percent)}% · 双触先止损 · 未计资金费率`;
+
+  const ledgerRecords = [];
+  let ledgerBalance = initialCapital;
+  let ledgerProfit = 0, ledgerLoss = 0, ledgerFees = 0;
+  trades.forEach((t,index) => {
+    const closed = t.status === 'closed' && Number.isFinite(t.net_pnl);
+    const net = closed ? t.net_pnl : null;
+    if (closed) ledgerBalance += net;
+    const balance = closed ? (Number.isFinite(t.balance_after) ? t.balance_after : ledgerBalance) : null;
+    const profit = closed ? Math.max(0,net) : null;
+    const loss = closed ? Math.max(0,-net) : null;
+    const result = closed ? net > 0 ? 'Win' : net < 0 ? 'Loss' : 'Flat' : 'Open';
+    ledgerProfit += profit || 0;
+    ledgerLoss += loss || 0;
+    ledgerFees += Number(t.fees) || 0;
+    ledgerRecords.push({t,index,closed,net,balance,profit,loss,result});
+  });
+  q('eth-ledger-sizing').textContent = fixedSizing
+    ? `初始资金 ${fmt(initialCapital)} USDT；每笔计划保证金 ${fmt(fixedMargin)} USDT × ${fmt(leverage,0)} 倍 = 目标名义仓位 ${fmt(fixedMargin*leverage)} USDT。ETH 数量按 0.001 向下取整，实际保证金及名义仓位可能略低。`
+    : `初始资金 ${fmt(initialCapital)} USDT；仓位沿用本次回测设置。`;
+  q('eth-ledger-rows').innerHTML = ledgerRecords.map(({t,index,closed,net,balance,profit,loss,result}) => {
+    const title = `数量 ${fmt(t.quantity,3)} ETH；名义仓位 ${fmt(t.entry_notional)} USDT；实际保证金 ${fmt(t.margin_used,4)} USDT`;
+    const reason = ({stop:'止损',target:'止盈',stop_gap:'跳空止损',target_gap:'跳空止盈',stop_both:'双触先止损',target_both:'双触先止盈'})[t.exit_reason] || (closed ? t.exit_reason : '未平仓');
+    return `<tr data-trade-index="${index}" data-trade-id="${escape(t.id)}" data-net-pnl="${closed ? net : ''}" data-balance-after="${closed ? balance : ''}" title="${escape(title)}"><td><button type="button" class="review-ledger-link" data-ledger-trade="${index}" aria-label="查看第 ${escape(t.id)} 笔${t.direction === 'long' ? '多单' : '空单'} K 线">#${escape(t.id)} ${t.direction === 'long' ? '多' : '空'} · ${escape(t.method)}</button></td><td>${escape(fmtDate(t.entry_time))}</td><td>${fmt(t.entry_fill)}</td><td>${fmt(t.stop)}</td><td>${fmt(t.target)}</td><td>${fmt(t.exit_fill)}</td><td class="${result === 'Win' ? 'review-ledger-win' : result === 'Loss' ? 'review-ledger-loss' : ''}">${result}<span class="review-ledger-reason text-muted">${escape(reason)}</span></td><td class="${profit > 0 ? 'review-ledger-win' : ''}">${fmt(profit,4)}</td><td class="${loss > 0 ? 'review-ledger-loss' : ''}">${fmt(loss,4)}</td><td>${fmt(t.fees,4)}</td><td>${fmt(balance)}</td></tr>`;
+  }).join('');
+  q('eth-ledger-totals').innerHTML = `<tr><th scope="row" colspan="7">合计（已扣手续费）</th><td class="review-ledger-win">${fmt(ledgerProfit,4)}</td><td class="review-ledger-loss">${fmt(ledgerLoss,4)}</td><td>${fmt(ledgerFees,4)}</td><td>${fmt(ledgerRecords.filter(r => r.closed).at(-1)?.balance ?? initialCapital)}</td></tr>`;
+  q('eth-ledger-summary').textContent = `已平仓 ${ledgerRecords.filter(r => r.closed).length} 笔 · 累计盈利 ${fmt(ledgerProfit,4)} USDT · 累计亏损 ${fmt(ledgerLoss,4)} USDT · 净盈亏 ${signed(ledgerProfit-ledgerLoss)} USDT · 手续费 ${fmt(ledgerFees,4)} USDT`;
+
+  function selectLedgerTrade(index) {
+    if (!Number.isInteger(index) || !trades[index]) return;
+    selectedIndex = index;
+    focusSelected();
+    q('eth-key-summary').scrollIntoView({behavior:'smooth',block:'start'});
+    select.focus({preventScroll:true});
+  }
+  q('eth-show-ledger').addEventListener('click', () => q('eth-trade-ledger').scrollIntoView({behavior:'smooth',block:'start'}));
+  q('eth-ledger-rows').addEventListener('click', event => {
+    const row = event.target.closest('tr[data-trade-index]');
+    if (row) selectLedgerTrade(Number(row.dataset.tradeIndex));
+  });
+  q('eth-export-ledger').addEventListener('click', () => {
+    const header = ['交易编号','方向','方式','进场时间（北京时间）','进场价','止损点','止盈点','平仓价','结果（扣费后）','盈利USDT','亏损USDT','手续费USDT','交易后金额USDT','ETH数量','实际名义仓位USDT','实际保证金USDT','杠杆倍数'];
+    const csvCell = value => {
+      const text = typeof value === 'number' && Number.isFinite(value)
+        ? value.toFixed(9).replace(/(\.\d*?)0+$/,'$1').replace(/\.$/,'') : String(value ?? '');
+      return '"' + text.replace(/"/g,'""') + '"';
+    };
+    const rows = ledgerRecords.map(({t,closed,balance,profit,loss,result}) => [t.id,t.direction === 'long' ? '多' : '空',t.method,fmtDate(t.entry_time),t.entry_fill,t.stop,t.target,t.exit_fill,result,closed ? profit : '',closed ? loss : '',t.fees,closed ? balance : '',t.quantity,t.entry_notional,t.margin_used,t.leverage ?? leverage]);
+    const csv = '\ufeff' + [header,...rows].map(row => row.map(csvCell).join(',')).join('\r\n') + '\r\n';
+    const url = URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `ETHUSDT-${String(data.meta.start_label).slice(0,10)}-${String(data.meta.end_label).slice(0,10)}-trades.csv`;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url),1000);
+  });
+
+  function saveState() {
+    if (!window.openai?.setWidgetState) return;
+    Promise.resolve(window.openai.setWidgetState({ modelContent: { symbol: data.meta.symbol, selected_trade: trades[selectedIndex]?.id ?? null, entry_time: trades[selectedIndex]?.entry_time ?? null }, privateContent: {tradeIndex:selectedIndex, allBoxes:q('eth-all-boxes').checked, allView} })).catch(() => {});
+  }
+  function readBar(b) {
+    if (!b) return;
+    q('eth-readout').textContent = `${fmtDate(b.time)}　开 ${fmt(b.open)}　高 ${fmt(b.high)}　低 ${fmt(b.low)}　收 ${fmt(b.close)}　EMA ${fmt(b.ema, 4)}　SMA ${fmt(b.sma, 4)}　RSI ${fmt(b.rsi)}`;
+    q('eth-rsi-value').textContent = fmt(b.rsi);
+  }
+  function showDetails() {
+    const t = trades[selectedIndex];
+    q('eth-previous').disabled = !t || selectedIndex <= 0;
+    q('eth-next').disabled = !t || selectedIndex >= trades.length - 1;
+    if (!t) {
+      q('eth-selected-heading').textContent = '此区间没有符合条件的交易';
+      q('eth-key-summary').textContent = '';
+      return;
+    }
+    if (t.key) {
+      const k = t.key;
+      const isLong = t.direction === 'long';
+      const directionText = k.close > k.open ? '阳线' : k.close < k.open ? '阴线' : '十字线';
+      const wickText = isLong ? `最低 ${fmt(k.low)} > 两线最高 ${fmt(Math.max(k.sma,k.ema),5)}` : `最高 ${fmt(k.high)} < 两线最低 ${fmt(Math.min(k.sma,k.ema),5)}`;
+      q('eth-key-summary').textContent = `#${t.id} ${isLong ? '做多' : '做空'}判定 · 关键 K ${fmtDate(t.entry_bar_time)}—${fmtDate(t.entry_time)} · ${directionText}：开 ${fmt(k.open)} → 收 ${fmt(k.close)} · ${wickText} · 收盘成交 ${fmtDate(t.entry_time)}`;
+    }
+    q('eth-selected-heading').textContent = `#${t.id} ${t.direction === 'long' ? '多单' : '空单'} · ${t.method} · ${t.status === 'open' ? '未平仓' : '已平仓'}${t.status !== 'open' ? ` · 净盈亏 ${signed(t.net_pnl)} USDT` : ''}`;
+    const reasonLabel = ({stop:'止损',target:'止盈',stop_gap:'跳空止损',target_gap:'跳空止盈',stop_both:'双触先止损',target_both:'双触先止盈'})[t.exit_reason] || t.exit_reason || '未平仓';
+    q('eth-selected-prices').innerHTML = `<span>入场 ${fmt(t.entry_fill)}</span><span>止损 ${fmt(t.stop)}</span><span>止盈 ${fmt(t.target)}</span><span>平仓 ${fmt(t.exit_fill)}${t.status !== 'open' ? `（${escape(reasonLabel)}）` : ''}</span><span>数量 ${fmt(t.quantity, 3)} ETH</span><span>名义仓位 ${fmt(t.entry_notional)} USDT</span><span>实际保证金 ${fmt(t.margin_used,4)} USDT</span><span>费用 ${fmt(t.fees, 4)} USDT</span>${t.status === 'closed' ? `<span>交易后金额 ${fmt(ledgerRecords[selectedIndex]?.balance)} USDT</span>` : ''}`;
+    const exitLabel = t.status === 'open' ? '期末仍持仓' : `退出所在 K：${fmtDate(t.exit_bar_time)}—${fmtDate(Number(t.exit_bar_time) + 300)}${t.both_levels_touched ? '（双触，先算止损）' : ''}`;
+    q('eth-selected-timing').textContent = `开始等待 ${fmtDate(t.trigger_bar_time)} · 关键 K ${fmtDate(t.entry_bar_time)}—${fmtDate(t.entry_time)} · 收盘入场 ${fmtDate(t.entry_time)} · ${exitLabel}`;
+    q('eth-checks').innerHTML = (t.checks || []).map(c => `<tr><td>${escape(c.label)}</td><td class="tabular-nums">${escape(c.value)}</td><td class="${c.pass ? 'review-pass':'review-fail'}">${c.pass ? '✓ 满足':'✕ 不满足'}</td></tr>`).join('');
+    q('eth-ledger-rows').querySelectorAll('tr').forEach((row,index) => {
+      row.dataset.selected = String(index === selectedIndex);
+      row.querySelector('button').setAttribute('aria-current',String(index === selectedIndex));
+    });
+    if (t.key) readBar({time:t.entry_bar_time, ...t.key});
+  }
+  function indexForTime(time) {
+    const exact = barByTime.get(Number(time));
+    if (exact) return exact.index;
+    return (Number(time) - bars[0].time) / 300;
+  }
+  function xTime(time) { return priceChart.timeScale().logicalToCoordinate(indexForTime(time)); }
+  function svgElement(name, attrs, parent = overlay) {
+    const node = document.createElementNS('http://www.w3.org/2000/svg', name);
+    Object.entries(attrs).forEach(([key, value]) => node.setAttribute(key, value));
+    parent.appendChild(node);
+    return node;
+  }
+  function svgText(x, y, text, options = {}) {
+    const el = svgElement('text', {x,y,fill:palette.text,'font-size':12,'font-family':'inherit',...options});
+    el.textContent = text;
+    return el;
+  }
+  function drawOverlay() {
+    renderPending = false;
+    const width = priceNode.clientWidth;
+    const height = priceNode.clientHeight;
+    overlay.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    overlay.replaceChildren();
+    const rightLimit = Math.max(0, width - 80);
+    const plotBottom = height - 28;
+    const defs = svgElement('defs', {});
+    const clip = svgElement('clipPath', {id:'eth-review-clip'}, defs);
+    svgElement('rect', {x:0,y:0,width:rightLimit,height:plotBottom}, clip);
+    const group = svgElement('g', {'clip-path':'url(#eth-review-clip)'});
+    const visible = q('eth-all-boxes').checked ? trades : trades[selectedIndex] ? [trades[selectedIndex]] : [];
+    visible.forEach(t => {
+      // Position exposure starts at the key candle CLOSE, never at its open.
+      const left = xTime(t.entry_time);
+      const end = xTime(t.exit_bar_time == null ? bars[bars.length-1].time + 300 : Number(t.exit_bar_end_time ?? Number(t.exit_bar_time) + 300));
+      const yEntry = candleSeries.priceToCoordinate(t.entry_reference);
+      const yStop = candleSeries.priceToCoordinate(t.stop);
+      const yTarget = candleSeries.priceToCoordinate(t.target);
+      if ([left,end,yEntry,yStop,yTarget].some(v => v == null || !Number.isFinite(v)) || end < 0 || left > rightLimit) return;
+      const isSelected = trades[selectedIndex]?.id === t.id;
+      const opacity = isSelected ? .23 : .1;
+      const boxWidth = Math.max(1, end-left);
+      svgElement('rect', {x:left,y:Math.min(yEntry,yTarget),width:boxWidth,height:Math.max(1,Math.abs(yTarget-yEntry)),fill:rgba(palette.green,opacity)}, group);
+      svgElement('rect', {x:left,y:Math.min(yEntry,yStop),width:boxWidth,height:Math.max(1,Math.abs(yStop-yEntry)),fill:rgba(palette.red,opacity)}, group);
+      [[yEntry,palette.text],[yStop,palette.red],[yTarget,palette.green]].forEach(([y,color]) => svgElement('line', {x1:left,y1:y,x2:end,y2:y,stroke:color,'stroke-width':isSelected ? 1.4:1}, group));
+      svgElement('line', {x1:left,y1:Math.min(yStop,yTarget),x2:left,y2:Math.max(yStop,yTarget),stroke:rgba(palette.text,.45),'stroke-width':1}, group);
+      if (isSelected) {
+        const labelX = Math.min(Math.max(end + 7, 5), Math.max(5, rightLimit - 120));
+        const labels = [[yTarget,`止盈 ${fmt(t.target)}`,palette.green],[yEntry,`入场 ${fmt(t.entry_reference)}`,palette.text],[yStop,`止损 ${fmt(t.stop)}`,palette.red]];
+        const ordered = labels.map(([y,label,color]) => ({y,label,color})).sort((a,b)=>a.y-b.y);
+        ordered.forEach((label,i) => {
+          label.labelY = Math.max(15, Math.min(plotBottom-8,label.y+4));
+          if (i && label.labelY - ordered[i-1].labelY < 17) label.labelY = ordered[i-1].labelY + 17;
+        });
+        const overflow = Math.max(0,ordered[ordered.length-1].labelY-(plotBottom-8));
+        ordered.forEach(label => {
+          const y = label.labelY-overflow;
+          svgElement('line',{x1:Math.min(end,rightLimit),y1:label.y,x2:labelX,y2:y-4,stroke:rgba(palette.muted,.6),'stroke-width':1},group);
+          svgText(labelX,y,label.label,{fill:label.color,'paint-order':'stroke',stroke:palette.background,'stroke-width':3,'stroke-linejoin':'round'});
+        });
+      }
+    });
+    const selected = trades[selectedIndex];
+    if (selected) {
+      const keyX = xTime(selected.entry_bar_time);
+      const triggerX = xTime(selected.trigger_bar_time);
+      if (triggerX != null && triggerX >= 0 && triggerX < rightLimit) {
+        svgElement('line',{x1:triggerX,y1:30,x2:triggerX,y2:plotBottom,stroke:palette.blue,'stroke-width':1,'stroke-dasharray':'3 4'},group);
+        svgText(Math.min(Math.max(3,triggerX+5),Math.max(3,rightLimit-120)),18,'触发 K · 开始等待',{fill:palette.blue,'paint-order':'stroke',stroke:palette.background,'stroke-width':3});
+      }
+      if (keyX != null && keyX >= 0 && keyX < rightLimit) {
+        const k = selected.key;
+        const yHigh = candleSeries.priceToCoordinate(k.high);
+        const yLow = candleSeries.priceToCoordinate(k.low);
+        const nextX = xTime(selected.entry_time);
+        if ([yHigh,yLow,nextX].every(v => v != null && Number.isFinite(v))) {
+          const highlightWidth = Math.max(6, Math.min(32,Math.abs(nextX-keyX)*.85));
+          svgElement('rect',{x:keyX-highlightWidth/2,y:Math.max(0,yHigh-5),width:highlightWidth,height:Math.max(8,yLow-yHigh+10),fill:'none',stroke:palette.blue,'stroke-width':2,'data-role':'key-candle-highlight'},group);
+          const yClose = candleSeries.priceToCoordinate(k.close);
+          if (yClose != null && nextX >= 0 && nextX <= rightLimit) {
+            svgElement('line',{x1:keyX,y1:yClose,x2:nextX,y2:yClose,stroke:palette.blue,'stroke-width':1.5,'stroke-dasharray':'2 2'},group);
+            svgElement('circle',{cx:nextX,cy:yClose,r:3.5,fill:palette.blue,stroke:palette.background,'stroke-width':1,'data-role':'close-entry'},group);
+          }
+        }
+        svgElement('line',{x1:keyX,y1:43,x2:keyX,y2:plotBottom,stroke:palette.text,'stroke-width':1,'stroke-dasharray':'5 4'},group);
+        svgText(Math.min(Math.max(3,keyX+5),Math.max(3,rightLimit-150)),triggerX != null && Math.abs(triggerX-keyX)<130 ? 36:18,`#${selected.id} ${selected.direction === 'long' ? '阳线' : '阴线'}关键 K`,{'paint-order':'stroke',stroke:palette.background,'stroke-width':3});
+      }
+    }
+  }
+  function scheduleOverlay() {
+    // Lightweight Charts commits range/scale geometry in its own frame.
+    // Wait through that frame before reading coordinates for the SVG layer.
+    if (!renderPending) { renderPending = true; requestAnimationFrame(() => requestAnimationFrame(drawOverlay)); }
+  }
+  function focusSelected(remember = true) {
+    const t = trades[selectedIndex];
+    allView = false;
+    if (t) {
+      const key = indexForTime(t.entry_bar_time);
+      const trigger = indexForTime(t.trigger_bar_time);
+      const end = t.exit_bar_time == null ? Math.min(bars.length-1,key+40) : indexForTime(t.exit_bar_time);
+      const start = Math.max(0,Math.min(key-20,trigger-8));
+      const finish = Math.min(bars.length+4,Math.max(key+28,end+14));
+      priceChart.timeScale().setVisibleLogicalRange({from:start,to:finish});
+    } else priceChart.timeScale().fitContent();
+    select.value = String(selectedIndex);
+    showDetails();
+    scheduleOverlay();
+    if (remember) saveState();
+  }
+  function showFullRange() {
+    if (Number.isFinite(data.meta.start_time) && Number.isFinite(data.meta.end_time)) {
+      priceChart.timeScale().setVisibleLogicalRange({from:indexForTime(data.meta.start_time)-.5,to:indexForTime(data.meta.end_time)-.5});
+    } else priceChart.timeScale().fitContent();
+  }
+  function syncRange(source, target, range) {
+    if (syncing || !range) return;
+    syncing = true;
+    target.timeScale().setVisibleLogicalRange(range);
+    syncing = false;
+    scheduleOverlay();
+  }
+  priceChart.timeScale().subscribeVisibleLogicalRangeChange(range => syncRange(priceChart,rsiChart,range));
+  rsiChart.timeScale().subscribeVisibleLogicalRangeChange(range => syncRange(rsiChart,priceChart,range));
+  function handleCrosshair(param, source) {
+    if (param.time == null) return;
+    const time = Number(param.time)-offset;
+    const b = barByTime.get(time);
+    if (!b) return;
+    hoverBar = b;
+    readBar(b);
+    if (source === 'price' && Number.isFinite(b.rsi)) rsiChart.setCrosshairPosition(b.rsi,Number(param.time),rsiSeries);
+  }
+  priceChart.subscribeCrosshairMove(param => handleCrosshair(param,'price'));
+  rsiChart.subscribeCrosshairMove(param => handleCrosshair(param,'rsi'));
+  priceChart.subscribeClick(param => {
+    if (param.time == null) return;
+    const clicked = Number(param.time)-offset;
+    let exact = trades.findIndex(t => t.entry_bar_time === clicked || t.exit_bar_time === clicked);
+    if (exact < 0 && param.point) {
+      const price = candleSeries.coordinateToPrice(param.point.y);
+      exact = trades.findIndex(t => clicked >= t.entry_time && clicked < Number(t.exit_bar_end_time ?? (t.exit_bar_time == null ? bars[bars.length-1].time + 300 : Number(t.exit_bar_time)+300)) && price != null && price >= Math.min(t.stop,t.target) && price <= Math.max(t.stop,t.target));
+    }
+    if (exact >= 0) { selectedIndex = exact; focusSelected(); }
+  });
+  select.addEventListener('change', () => { selectedIndex=Number(select.value); focusSelected(); });
+  q('eth-previous').addEventListener('click', () => { selectedIndex=Math.max(0,selectedIndex-1); focusSelected(); });
+  q('eth-next').addEventListener('click', () => { selectedIndex=Math.min(trades.length-1,selectedIndex+1); focusSelected(); });
+  q('eth-all').addEventListener('click', () => {
+    allView=true;
+    showFullRange();
+    scheduleOverlay();
+    saveState();
+  });
+  q('eth-all-boxes').addEventListener('change', () => { scheduleOverlay(); saveState(); });
+  // Price-axis dragging changes y coordinates without changing the time range.
+  ['pointermove','pointerup','wheel','touchmove'].forEach(event => priceNode.addEventListener(event,scheduleOverlay,{passive:true}));
+  let previousChartWidth = priceNode.clientWidth;
+  new ResizeObserver(() => {
+    const nextWidth = priceNode.clientWidth;
+    const widthChanged = nextWidth !== previousChartWidth;
+    previousChartWidth = nextWidth;
+    priceChart.resize(nextWidth,priceNode.clientHeight,true);
+    rsiChart.resize(rsiNode.clientWidth,rsiNode.clientHeight,true);
+    if (widthChanged) {
+      // LC otherwise keeps the right edge anchored and can move the selected
+      // entry outside a narrow screen after a desktop-to-phone resize.
+      if (allView) showFullRange();
+      else focusSelected(false);
+    }
+    scheduleOverlay();
+  }).observe(root);
+  function updateTheme() {
+    palette=getPalette();
+    const options={layout:{background:{type:LC.ColorType.Solid,color:palette.background},textColor:palette.text},grid:{vertLines:{color:rgba(palette.grid,.45)},horzLines:{color:rgba(palette.grid,.45)}},rightPriceScale:{borderColor:palette.grid},timeScale:{borderColor:palette.grid},crosshair:{vertLine:{color:palette.muted},horzLine:{color:palette.muted}}};
+    priceChart.applyOptions(options);
+    rsiChart.applyOptions(options);
+    candleSeries.applyOptions({upColor:palette.green,downColor:palette.red,wickUpColor:palette.green,wickDownColor:palette.red});
+    emaOutline.applyOptions({color:rgba(palette.background,.85)});
+    emaSeries.applyOptions({color:palette.text});
+    smaSeries.applyOptions({color:palette.orange});
+    rsiSeries.applyOptions({color:palette.purple});
+    rsiReferences.forEach(line=>line.applyOptions({color:rgba(palette.muted,.65)}));
+    markerObjects.forEach(marker => {marker.color=marker.shape==='circle'?palette.muted:marker.shape==='arrowUp'?palette.green:palette.red;});
+    candleSeries.setMarkers(markerObjects);
+    scheduleOverlay();
+  }
+  new MutationObserver(updateTheme).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',updateTheme);
+  window.addEventListener('openai:set_globals',event=>{
+    const state=event.detail?.globals?.widgetState;
+    const s=state?.privateContent || state;
+    if (!s) return;
+    if (Number.isInteger(s.tradeIndex)) selectedIndex=Math.max(0,Math.min(trades.length-1,s.tradeIndex));
+    q('eth-all-boxes').checked=Boolean(s.allBoxes);
+    focusSelected(false);
+    if (s.allView) {allView=true;showFullRange();}
+  });
+  if (bars.length) readBar(bars[bars.length-1]);
+  focusSelected(false);
+  if (restoreState.allView) {allView=true;showFullRange();}
+  // Exposed read-only state makes selection/geometry checks possible in preview.
+  root.reviewState=()=>({selectedTrade:trades[selectedIndex]?.id ?? null,visibleRange:priceChart.timeScale().getVisibleLogicalRange(),candleCount:bars.length,tradeCount:trades.length,overlayShapes:overlay.childElementCount});
+})();
+</script>
