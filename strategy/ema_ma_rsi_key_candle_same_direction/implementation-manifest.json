@@ -1,0 +1,33 @@
+{
+  "strategy_id": "ema_ma_rsi_key_candle_same_direction",
+  "version": "1.0.0",
+  "recorded_date": "2026-11-26",
+  "validation": "VALIDATION.md",
+  "source_snapshot": "references/2026-11-26_top10/provenance.json",
+  "files": {
+    "README.md": {
+      "sha256": "4362715963e67ac951629dff111719548811ac1db0b7c43591971aa5a9f09fb3",
+      "bytes": 8875
+    },
+    "strategy.json": {
+      "sha256": "5ce220a537cd00d93e8a8065cce18e38915839f68a5d589010d96b1be0e7661e",
+      "bytes": 6135
+    },
+    "backtest.py": {
+      "sha256": "be6d1c02c5f1ec68eb619bd0c33f5d2d94d7d79526d3ead4a2df92af7cdc0748",
+      "bytes": 49263
+    },
+    "run_backtest.py": {
+      "sha256": "47146c2d3dd54f1a26274ac6b3df165fb53f2df1a8918374cee9cae40f2dcbee",
+      "bytes": 10170
+    },
+    "test_strategy.py": {
+      "sha256": "e846ea54cc5d6edf02cf79b9c0891b8cb3ccff28763ec5ec11466ea05c3237d3",
+      "bytes": 6646
+    },
+    "VALIDATION.md": {
+      "sha256": "683ffd1fe313d76cdd229dc2047a704b99c08e2d89902fdd5de5af65acd16de2",
+      "bytes": 2975
+    }
+  }
+}
