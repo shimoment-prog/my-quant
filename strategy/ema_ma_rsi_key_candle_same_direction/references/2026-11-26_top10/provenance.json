@@ -1,0 +1,70 @@
+{
+  "strategy_id": "ema_ma_rsi_key_candle_same_direction",
+  "strategy_version": "1.0.0",
+  "recorded_date": "2026-11-26",
+  "repository_relative_artifact_root": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027",
+  "artifact_entry": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/review.html",
+  "artifact_entry_sha256": "1213ea189b43aaf46d568530de47b6ad88f8c1f2c75ccbcc9f094e08209a1190",
+  "source_engine": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/research/research_engine.py",
+  "source_engine_sha256": "e1118faa696e0bb18db1def942b9b6d622817385cd569a5aee1e3d290b12c3ae",
+  "source_request_sha256": "b69c7854b27f5d260c375f26cb5c6d41534192c23ddae8c8b386032cf6459d8b",
+  "delivery_manifest_sha256": "3088edebdad741ca9d2df5d9f43cee759fede00f8d8a2ad4a073830765124a1f",
+  "independent_audit_sha256": "fe2e817cf1819822448b8053f1d157d2dbb0fc4b27daca1dacc862ac0d82c254",
+  "browser_review_sha256": "5c34fed75f500cbdaeefee89ecd2237398a8597616da510450ef87ad12af2cd4",
+  "main_cases": 320,
+  "main_closed_trades": 9194,
+  "main_open_positions": 4,
+  "main_equity_points": 3253152,
+  "common_cases": 320,
+  "common_closed_trades": 2960,
+  "common_open_positions": 4,
+  "common_equity_points": 975360,
+  "archive_scope": "Frozen research record, not a default trade universe, not a selected live parameter set.",
+  "snapshot_files": {
+    "request.json": {
+      "sha256": "b69c7854b27f5d260c375f26cb5c6d41534192c23ddae8c8b386032cf6459d8b",
+      "bytes": 9185,
+      "source_repository_path": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/request.json"
+    },
+    "universe.json": {
+      "sha256": "6ed29d02b333f7a4f151a2f6662c84c511f9d931b7a7fa9aa9d2f006a045a21b",
+      "bytes": 5553,
+      "source_repository_path": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/universe/selection.json"
+    },
+    "comparison.json": {
+      "sha256": "047ca0d784f96241cab6fb654dfe0792da09072238934067cf4911fd37d47ca4",
+      "bytes": 343079,
+      "source_repository_path": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/research/key-comparison.json"
+    },
+    "comparison.csv": {
+      "sha256": "175965c37faf97dbb6918012010640cc9334874ef05eb513e7b7ba7280db8824",
+      "bytes": 132859,
+      "source_repository_path": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/research/key-comparison.csv"
+    },
+    "common-window-comparison.json": {
+      "sha256": "d1d3488cc529732a7df90e1143258c62a2aa547d0d102a93f2aad0f6df149991",
+      "bytes": 399271,
+      "source_repository_path": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/research/common-window-comparison.json"
+    },
+    "common-window-comparison.csv": {
+      "sha256": "3cecd470261dfc2aad2b7eeed29b220783a4bfb9354538f7d5060f0b0715f5c2",
+      "bytes": 173041,
+      "source_repository_path": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/research/common-window-comparison.csv"
+    },
+    "coverage.json": {
+      "sha256": "c3795aa9bf770398017297e64e68c7c18a530451eb144c6d71aedea4ad57814a",
+      "bytes": 15736,
+      "source_repository_path": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/data/coverage.json"
+    },
+    "report-facts.json": {
+      "sha256": "248dcc50570cb03757902167a7d3b265c36bae63f04a00cc972366cae08ed9a9",
+      "bytes": 802452,
+      "source_repository_path": ".archify/explainer-top10-crypto-4h-four-exits-20261126-145027/report-facts.json"
+    },
+    "market-filters.json": {
+      "sha256": "a37c53164b855966512c090aec5ff3f77b872f2f1e21488adaa034480a7d2683",
+      "bytes": 8140,
+      "source_repository_path": "derived from each archived per-coin request.market_filters"
+    }
+  }
+}

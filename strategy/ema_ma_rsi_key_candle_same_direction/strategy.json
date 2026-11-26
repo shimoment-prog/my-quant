@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "strategy_id": "ema_ma_rsi_key_candle_same_direction",
+  "name": "EMA / SMA / RSI 同向交叉关键K策略",
+  "version": "1.0.0",
+  "recorded_date": "2026-11-26",
+  "timezone": "Asia/Shanghai",
+  "market": "Binance USD-M USDT perpetual",
+  "default_interval": "4h",
+  "indicators": {
+    "orange": {
+      "type": "EMA",
+      "length": 10,
+      "source": "close",
+      "alpha": "2 / (10 + 1)",
+      "seed": "first available close"
+    },
+    "white": {
+      "type": "SMA",
+      "length": 10,
+      "source": "close"
+    },
+    "rsi": {
+      "type": "Wilder RSI",
+      "length": 14,
+      "source": "close"
+    }
+  },
+  "comparison_grid": {
+    "prior_bars": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exit_models": [
+      "rr15",
+      "trail_ema",
+      "ema_slow",
+      "ema_turn"
+    ],
+    "cases_per_symbol": 32
+  },
+  "selected_live_profile": null,
+  "entry": {
+    "method": "directional_cross_only",
+    "cross_bar_entry_allowed": false,
+    "cross_bar_joint_direction_required": true,
+    "direction_checks": "prior_bars + 1 strict joint changes ending at crossover bar; prior_bars + 2 line-value points",
+    "cross_up": "EMA_t > SMA_t and EMA_prev <= SMA_prev",
+    "cross_down": "EMA_t < SMA_t and EMA_prev >= SMA_prev",
+    "long": {
+      "prior_joint_direction": "strictly_up",
+      "key": "close > open and low > max(EMA, SMA) and EMA > SMA",
+      "rsi_min": 50,
+      "rsi_min_inclusive": false,
+      "rsi_max": 70,
+      "rsi_max_inclusive": true
+    },
+    "short": {
+      "prior_joint_direction": "strictly_down",
+      "key": "close < open and high < min(EMA, SMA) and EMA < SMA",
+      "rsi_min": 30,
+      "rsi_min_inclusive": true,
+      "rsi_max": 50,
+      "rsi_max_inclusive": false
+    },
+    "key_must_be_after_cross": true,
+    "first_valid_key_only": true,
+    "key_joint_direction_required": false,
+    "slope_magnitude_entry_filter": null,
+    "volume_entry_filter": null,
+    "pullback_method_enabled": false,
+    "invalid_cross": "Reject permanently until a new valid cross; never revive after later joint direction",
+    "cancel_waiting": "Equal/reversed EMA-SMA ordering, outside entry window, holding a position, or order submission",
+    "invalid_bracket": "No order, keep waiting for a later valid key",
+    "rejected_quantity_or_capital": "Consume and clear setup even if order not accepted",
+    "entry_reference": "confirmed key candle raw close",
+    "initial_stop": "key candle EMA rounded half-up to symbol tick"
+  },
+  "exit_models": {
+    "rr15": {
+      "label": "原版1.5R",
+      "mode": "fixed",
+      "reward_risk": 1.5,
+      "stop": "fixed_initial_stop",
+      "target": "entry_reference + side * 1.5 * initial_price_risk; tick rounded half-up"
+    },
+    "trail_ema": {
+      "label": "1.5R后EMA追踪",
+      "mode": "ema_trail",
+      "activation_r": 1.5,
+      "target": null,
+      "activation": "post-entry bar high(long)/low(short) touches rounded original1.5R level, survives old stop; persistent",
+      "new_stop_long": "max(old_stop, entry_fill, rounded_EMA)",
+      "new_stop_short": "min(old_stop, entry_fill, rounded_EMA)",
+      "update": "confirmed close, next candle effective, only tighten"
+    },
+    "ema_slow": {
+      "label": "EMA明显变缓收盘平仓",
+      "mode": "ema_slow",
+      "activation_r": 1.5,
+      "activation_required": true,
+      "stop": "fixed_initial_stop",
+      "target": null,
+      "threshold_ratio": 0.5,
+      "g": "side * (EMA_t - EMA_prev)",
+      "previous_g": "side * (EMA_prev - EMA_prev_prev)",
+      "signal": "previous_g > 0 and 0 < g <= 0.5 * previous_g",
+      "fill": "confirmed signal-bar close"
+    },
+    "ema_turn": {
+      "label": "EMA转向收盘平仓",
+      "mode": "ema_turn",
+      "activation_r": 1.5,
+      "activation_required": true,
+      "stop": "fixed_initial_stop",
+      "target": null,
+      "g": "side * (EMA_t - EMA_prev)",
+      "signal": "g < 0",
+      "previous_direction_condition": null,
+      "fill": "confirmed signal-bar close"
+    }
+  },
+  "execution": {
+    "side_long": 1,
+    "side_short": -1,
+    "single_position": true,
+    "pyramiding": false,
+    "same_bar_reentry": false,
+    "earliest_exit": "candle after entry",
+    "intrabar_policy": "stop-first",
+    "stop_priority_before_close_signal": true,
+    "equal_EMA_triggers_momentum_exit": false,
+    "momentum_activation_persistent": true,
+    "momentum_exit_requires_positive_pnl": false,
+    "tick_rounding": "Decimal ROUND_HALF_UP",
+    "quantity_rounding": "floor to per-symbol lot step",
+    "entry_raw_close_precision_preserved": true,
+    "entry_window": "scheduled close start <= close_time <= end",
+    "data_window": "only candles with scheduled close <= end; warmup retained",
+    "force_close_at_end": false
+  },
+  "account_defaults": {
+    "currency": "USDT",
+    "initial_capital": 10000,
+    "fixed_margin": 200,
+    "leverage": 10,
+    "target_notional": 2000,
+    "compounding": false,
+    "fee_percent_per_side": 0.05,
+    "slippage_ticks": 0,
+    "funding_included": false,
+    "mark_price_triggers_included": false,
+    "liquidation_included": false
+  },
+  "instrument_filters": {
+    "required_per_symbol": [
+      "tick_size",
+      "qty_step",
+      "min_qty",
+      "min_notional"
+    ],
+    "shared_ETH_precision_default_allowed": false,
+    "historical_policy": "use saved exchange snapshot throughout replay; no reconstruction of historical changes"
+  },
+  "accounting": {
+    "win": "net closed PnL > 0",
+    "loss": "net closed PnL < 0",
+    "flat": "net closed PnL == 0",
+    "open_in_win_rate": false,
+    "net_return": "final cash plus open mark-to-market minus initial capital",
+    "closed_ledger_balance": "initial capital plus cumulative closed net PnL",
+    "drawdown": "at completed-bar equity"
+  },
+  "backtest_profile": {
+    "minimum_completed_warmup_bars": 200,
+    "warmup_count": "bar.time_close <= entry_start",
+    "latest_snapshot": "references/2026-11-26_top10/provenance.json",
+    "asset_universe_is_signal_rule": false,
+    "current_rank_is_historical_dynamic_membership": false
+  }
+}

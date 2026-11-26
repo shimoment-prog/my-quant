@@ -1,0 +1,177 @@
+{
+  "source": "CoinMarketCap public listing",
+  "source_url": "https://coinmarketcap.com/",
+  "source_api_url": "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/listing?start=1&limit=100&sortBy=market_cap&sortType=desc&convert=USD&cryptoType=all&tagType=all&audited=false",
+  "source_sha256": "fd80a142d59f4df3b55fc268a5becb9552d21f6dbf7bfdb14b8240cb59e2a406",
+  "exchange_info_sha256": "dcdb2abd0a703911ae4db8c2329337bf5cb12af1f81a9625b288477efd889b81",
+  "ranking_retrieved_utc": "2026-11-26T06:55:39.240208+00:00",
+  "created_utc": "2026-11-26T06:59:19.801815+00:00",
+  "selection_policy": "Sort current circulating market capitalization in USD descending; exclude tags containing stablecoin; select ten then add DOGE only if absent. Current universe frozen for historic replay, not historical dynamic membership. No other exclusion or exchange-availability substitution.",
+  "doge_already_in_top10": true,
+  "assets": [
+    {
+      "asset": "BTC",
+      "symbol": "BTCUSDT",
+      "name": "Bitcoin",
+      "cmc_id": 1,
+      "cmc_rank": 1,
+      "nonstable_rank": 1,
+      "market_cap_usd": 1215707852568.1824,
+      "quote_time_utc": "2026-11-26T06:53:03.024Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1567965300000
+    },
+    {
+      "asset": "ETH",
+      "symbol": "ETHUSDT",
+      "name": "Ethereum",
+      "cmc_id": 1027,
+      "cmc_rank": 2,
+      "nonstable_rank": 2,
+      "market_cap_usd": 205887848100.73776,
+      "quote_time_utc": "2026-11-26T06:53:03.239Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1574840700000
+    },
+    {
+      "asset": "BNB",
+      "symbol": "BNBUSDT",
+      "name": "BNB",
+      "cmc_id": 1839,
+      "cmc_rank": 4,
+      "nonstable_rank": 3,
+      "market_cap_usd": 72958202638.07312,
+      "quote_time_utc": "2026-11-26T06:53:03.128Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1581321600000
+    },
+    {
+      "asset": "XRP",
+      "symbol": "XRPUSDT",
+      "name": "XRP",
+      "cmc_id": 52,
+      "cmc_rank": 6,
+      "nonstable_rank": 4,
+      "market_cap_usd": 60301160906.09889,
+      "quote_time_utc": "2026-11-26T06:53:03.128Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1578298800000
+    },
+    {
+      "asset": "SOL",
+      "symbol": "SOLUSDT",
+      "name": "Solana",
+      "cmc_id": 5426,
+      "cmc_rank": 7,
+      "nonstable_rank": 5,
+      "market_cap_usd": 41769512929.61023,
+      "quote_time_utc": "2026-11-26T06:53:03.109Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1600066800000
+    },
+    {
+      "asset": "TRX",
+      "symbol": "TRXUSDT",
+      "name": "TRON",
+      "cmc_id": 1958,
+      "cmc_rank": 8,
+      "nonstable_rank": 6,
+      "market_cap_usd": 28893921214.163303,
+      "quote_time_utc": "2026-11-26T06:53:03.180Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1579075500000
+    },
+    {
+      "asset": "HYPE",
+      "symbol": "HYPEUSDT",
+      "name": "Hyperliquid",
+      "cmc_id": 32196,
+      "cmc_rank": 9,
+      "nonstable_rank": 7,
+      "market_cap_usd": 15336347903.52245,
+      "quote_time_utc": "2026-11-26T06:53:03.239Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1748601000000
+    },
+    {
+      "asset": "ZEC",
+      "symbol": "ZECUSDT",
+      "name": "Zcash",
+      "cmc_id": 1437,
+      "cmc_rank": 10,
+      "nonstable_rank": 8,
+      "market_cap_usd": 12701480805.469898,
+      "quote_time_utc": "2026-11-26T06:53:03.067Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1580889600000
+    },
+    {
+      "asset": "XMR",
+      "symbol": "XMRUSDT",
+      "name": "Monero",
+      "cmc_id": 328,
+      "cmc_rank": 11,
+      "nonstable_rank": 9,
+      "market_cap_usd": 9899016261.824652,
+      "quote_time_utc": "2026-11-26T06:53:03.024Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1580716800000
+    },
+    {
+      "asset": "DOGE",
+      "symbol": "DOGEUSDT",
+      "name": "Dogecoin",
+      "cmc_id": 74,
+      "cmc_rank": 12,
+      "nonstable_rank": 10,
+      "market_cap_usd": 8832175963.305063,
+      "quote_time_utc": "2026-11-26T06:53:03.216Z",
+      "stablecoin": false,
+      "selection_reason": "top10_after_stablecoin_exclusion",
+      "contract_available": true,
+      "onboard_date_ms": 1594371600000
+    }
+  ],
+  "excluded_stablecoins_before_boundary": [
+    {
+      "asset": "USDT",
+      "name": "Tether USDt",
+      "cmc_rank": 3,
+      "tags": [
+        "stablecoin",
+        "asset-backed-stablecoin",
+        "usd-stablecoin",
+        "fiat-stablecoin"
+      ]
+    },
+    {
+      "asset": "USDC",
+      "name": "USDC",
+      "cmc_rank": 5,
+      "tags": [
+        "stablecoin",
+        "asset-backed-stablecoin",
+        "usd-stablecoin",
+        "fiat-stablecoin"
+      ]
+    }
+  ]
+}
