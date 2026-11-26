@@ -1,6 +1,0 @@
-{
-  "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
-  "retrieved_at": "2026-11-05T00:48:57.539663+00:00",
-  "ok": false,
-  "error": "HTTP Error 404: Not Found"
-}
