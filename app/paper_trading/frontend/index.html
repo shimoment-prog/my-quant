@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>模拟交易 · 策略验证工作台</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/vendor/lightweight-charts.js" defer></script>
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <a class="brand" href="/" aria-label="模拟交易首页"><span class="brand-mark">P</span><span>模拟交易<small>策略验证工作台</small></span></a>
+      <div class="header-actions"><span id="server-state" class="connection-label">正在连接后台…</span><button class="button icon-button" type="button" data-action="theme" aria-label="切换明暗主题" title="切换明暗主题">◐</button><button class="button" type="button" data-action="refresh">刷新</button></div>
+    </header>
+    <div class="workspace">
+      <aside class="sidebar" aria-label="任务与策略导航">
+        <div class="sidebar-heading"><span>我的任务 <span id="task-count" class="muted">0</span></span><button class="button button-primary button-small" type="button" data-action="new-task">＋ 新建</button></div>
+        <label class="sr-only" for="task-search">搜索任务</label><input class="search-input" id="task-search" type="search" placeholder="搜索任务、币种…" autocomplete="off">
+        <nav id="task-list" class="task-list" aria-label="模拟任务"><p class="sidebar-empty">正在加载任务…</p></nav>
+        <div class="sidebar-footer"><button id="library-nav" class="button wide-button" type="button" data-action="library">策略库</button><span>每个任务拥有独立账户</span><span>Binance · USDT 永续</span></div>
+      </aside>
+      <main id="main" class="main-content" aria-label="模拟交易工作区"><div class="page-empty"><span class="loading-dot"></span><h1>正在连接模拟交易后台</h1><p>任务、行情与交易记录均从本地服务读取。</p></div></main>
+    </div>
+    <footer class="app-footer"><span>公开行情 · 独立模拟资金 · 北京时间 UTC+8</span><span>图表由 <a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">TradingView Lightweight Charts™</a> 提供</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
